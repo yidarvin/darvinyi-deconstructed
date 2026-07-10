@@ -4,6 +4,7 @@ import { Figure } from "./Figure";
 import { Widget } from "./Widget";
 import { ExerciseCard } from "./ExerciseCard";
 import { Callout } from "./Callout";
+import { Plate } from "./Plate";
 
 // mdxComponents --- how markdown renders, in one place.
 // Every chapter's prose flows through these via the <MDXProvider> in App.tsx.
@@ -58,4 +59,5 @@ export const mdxComponents: MDXComponents = {
   Widget,
   ExerciseCard,
   Callout,
+  Plate,
 };

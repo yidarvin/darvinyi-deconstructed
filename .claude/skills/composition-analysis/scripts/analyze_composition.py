@@ -36,7 +36,9 @@ def detect_lines(gray, w, h):
     lines = []
     if raw is not None:
         diag = math.hypot(w, h)
-        for x1, y1, x2, y2 in raw[:, 0, :]:
+        # HoughLinesP returns (N,1,4) on OpenCV <5 and (N,4) on OpenCV 5; reshape
+        # so this loop is robust to both.
+        for x1, y1, x2, y2 in raw.reshape(-1, 4):
             a = C.seg_angle_deg(x1, y1, x2, y2)
             L = math.hypot(x2 - x1, y2 - y1) / diag
             lines.append({"x1": x1 / w, "y1": y1 / h, "x2": x2 / w, "y2": y2 / h,

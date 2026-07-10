@@ -9,7 +9,7 @@ import reactRefresh from "eslint-plugin-react-refresh";
 // which the old .eslintrc never did. File matching and unused-disable reporting live
 // in this file, not on the CLI, since ESLint 9 dropped the --ext flag.
 export default tseslint.config(
-  { ignores: ["dist", "node_modules"] },
+  { ignores: ["dist", "node_modules", ".pipeline"] },
   {
     files: ["**/*.{ts,tsx}"],
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
