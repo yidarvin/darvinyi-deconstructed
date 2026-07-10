@@ -1,24 +1,111 @@
 # Run Queue
 
-Run order, top to bottom. The **next** item is the first `PENDING` row. Statuses:
-`PENDING`, `DONE`, `SKIPPED`. Update the status cell after each run. Reorder by
-moving rows. Adding a chapter means adding a `PENDING` row here and a matching
-entry in `content/registry.json`. See `CLAUDE.md` for the trigger phrases and the
-`refsite-runner` skill for the per-item procedure.
+Run order, top to bottom, DERIVED from data/registry.json (the photographer queue).
+Do not hand-edit: run `python3 scripts/gen_site_registry.py` after changing a
+photographer's stage. Statuses: `PENDING`, `DONE`, `SKIPPED`. This table exists so
+the refsite build gate (scripts/validate.py) can cross-check the site registry; the
+real queue and state live in data/registry.json.
 
-| #  | slug                     | item                          | status  |
-|----|--------------------------|-------------------------------|---------|
-| 00 | how-this-book-is-built   | How this book is built        | DONE    |
-| 01 | the-first-real-chapter   | Your first real chapter       | PENDING |
-
-<!--
-To seed a real book: replace the title/subtitle in content/registry.json, then add
-one PENDING row per chapter here (and a matching registry entry) in reading order.
-Then say "run the next one". In graph mode (a survey that follows citations), a run
-appends newly discovered items to the bottom of this table with a source note.
-
-Build notes for an item are optional. A run looks for prompts/notes/<slug>.md first,
-then an optional trailing "notes" column on the row, then derives scope from the
-title and the surrounding chapters. Extra columns are fine as long as every row has
-them (validate.py checks the column count is consistent).
--->
+| #   | slug                      | item                      | status  |
+|-----|---------------------------|---------------------------|---------|
+| 00  | how-this-book-is-built    | How this book is built    | DONE    |
+| 01  | nicephore-niepce          | Nicéphore Niépce          | PENDING |
+| 02  | louis-daguerre            | Louis Daguerre            | PENDING |
+| 03  | william-henry-fox-talbot  | William Henry Fox Talbot  | PENDING |
+| 04  | anna-atkins               | Anna Atkins               | PENDING |
+| 05  | hippolyte-bayard          | Hippolyte Bayard          | PENDING |
+| 06  | hill-adamson              | Hill & Adamson            | PENDING |
+| 07  | gustave-le-gray           | Gustave Le Gray           | PENDING |
+| 08  | roger-fenton              | Roger Fenton              | PENDING |
+| 09  | nadar                     | Nadar (Félix Tournachon)  | PENDING |
+| 10  | mathew-brady              | Mathew Brady              | PENDING |
+| 11  | alexander-gardner         | Alexander Gardner         | PENDING |
+| 12  | timothy-osullivan         | Timothy O'Sullivan        | PENDING |
+| 13  | carleton-watkins          | Carleton Watkins          | PENDING |
+| 14  | william-henry-jackson     | William Henry Jackson     | PENDING |
+| 15  | eadweard-muybridge        | Eadweard Muybridge        | PENDING |
+| 16  | etienne-jules-marey       | Étienne-Jules Marey       | PENDING |
+| 17  | felice-beato              | Felice Beato              | PENDING |
+| 18  | john-thomson              | John Thomson              | PENDING |
+| 19  | jacob-riis                | Jacob Riis                | PENDING |
+| 20  | lewis-hine                | Lewis Hine                | PENDING |
+| 21  | julia-margaret-cameron    | Julia Margaret Cameron    | PENDING |
+| 22  | peter-henry-emerson       | Peter Henry Emerson       | PENDING |
+| 23  | frederick-h-evans         | Frederick H. Evans        | PENDING |
+| 24  | gertrude-kasebier         | Gertrude Käsebier         | PENDING |
+| 25  | clarence-h-white          | Clarence H. White         | PENDING |
+| 26  | edward-s-curtis           | Edward S. Curtis          | PENDING |
+| 27  | frances-benjamin-johnston | Frances Benjamin Johnston | PENDING |
+| 28  | alvin-langdon-coburn      | Alvin Langdon Coburn      | PENDING |
+| 29  | karl-blossfeldt           | Karl Blossfeldt           | PENDING |
+| 30  | alfred-stieglitz          | Alfred Stieglitz          | PENDING |
+| 31  | eugene-atget              | Eugène Atget              | PENDING |
+| 32  | edward-steichen           | Edward Steichen           | PENDING |
+| 33  | paul-strand               | Paul Strand               | PENDING |
+| 34  | laszlo-moholy-nagy        | László Moholy-Nagy        | PENDING |
+| 35  | alexander-rodchenko       | Alexander Rodchenko       | PENDING |
+| 36  | germaine-krull            | Germaine Krull            | PENDING |
+| 37  | albert-renger-patzsch     | Albert Renger-Patzsch     | PENDING |
+| 38  | august-sander             | August Sander             | PENDING |
+| 39  | man-ray                   | Man Ray                   | PENDING |
+| 40  | andre-kertesz             | André Kertész             | PENDING |
+| 41  | jacques-henri-lartigue    | Jacques-Henri Lartigue    | PENDING |
+| 42  | dorothea-lange            | Dorothea Lange            | PENDING |
+| 43  | walker-evans              | Walker Evans              | PENDING |
+| 44  | gordon-parks              | Gordon Parks              | PENDING |
+| 45  | arthur-rothstein          | Arthur Rothstein          | PENDING |
+| 46  | ben-shahn                 | Ben Shahn                 | PENDING |
+| 47  | russell-lee               | Russell Lee               | PENDING |
+| 48  | marion-post-wolcott       | Marion Post Wolcott       | PENDING |
+| 49  | jack-delano               | Jack Delano               | PENDING |
+| 50  | john-vachon               | John Vachon               | PENDING |
+| 51  | berenice-abbott           | Berenice Abbott           | PENDING |
+| 52  | margaret-bourke-white     | Margaret Bourke-White     | PENDING |
+| 53  | robert-capa               | Robert Capa               | PENDING |
+| 54  | w-eugene-smith            | W. Eugene Smith           | PENDING |
+| 55  | henri-cartier-bresson     | Henri Cartier-Bresson     | PENDING |
+| 56  | alfred-eisenstaedt        | Alfred Eisenstaedt        | PENDING |
+| 57  | weegee                    | Weegee (Arthur Fellig)    | PENDING |
+| 58  | yousuf-karsh              | Yousuf Karsh              | PENDING |
+| 59  | brassai                   | Brassaï                   | PENDING |
+| 60  | robert-doisneau           | Robert Doisneau           | PENDING |
+| 61  | josef-koudelka            | Josef Koudelka            | PENDING |
+| 62  | cecil-beaton              | Cecil Beaton              | PENDING |
+| 63  | horst-p-horst             | Horst P. Horst            | PENDING |
+| 64  | george-hurrell            | George Hurrell            | PENDING |
+| 65  | irving-penn               | Irving Penn               | PENDING |
+| 66  | richard-avedon            | Richard Avedon            | PENDING |
+| 67  | helmut-newton             | Helmut Newton             | PENDING |
+| 68  | guy-bourdin               | Guy Bourdin               | PENDING |
+| 69  | lillian-bassman           | Lillian Bassman           | PENDING |
+| 70  | annie-leibovitz           | Annie Leibovitz           | PENDING |
+| 71  | ansel-adams               | Ansel Adams               | PENDING |
+| 72  | edward-weston             | Edward Weston             | PENDING |
+| 73  | imogen-cunningham         | Imogen Cunningham         | PENDING |
+| 74  | minor-white               | Minor White               | PENDING |
+| 75  | wynn-bullock              | Wynn Bullock              | PENDING |
+| 76  | eliot-porter              | Eliot Porter              | PENDING |
+| 77  | bill-brandt               | Bill Brandt               | PENDING |
+| 78  | josef-sudek               | Josef Sudek               | PENDING |
+| 79  | sebastiao-salgado         | Sebastião Salgado         | PENDING |
+| 80  | hiroshi-sugimoto          | Hiroshi Sugimoto          | PENDING |
+| 81  | lisette-model             | Lisette Model             | PENDING |
+| 82  | helen-levitt              | Helen Levitt              | PENDING |
+| 83  | saul-leiter               | Saul Leiter               | PENDING |
+| 84  | robert-frank              | Robert Frank              | PENDING |
+| 85  | diane-arbus               | Diane Arbus               | PENDING |
+| 86  | garry-winogrand           | Garry Winogrand           | PENDING |
+| 87  | lee-friedlander           | Lee Friedlander           | PENDING |
+| 88  | vivian-maier              | Vivian Maier              | PENDING |
+| 89  | william-eggleston         | William Eggleston         | PENDING |
+| 90  | stephen-shore             | Stephen Shore             | PENDING |
+| 91  | manuel-alvarez-bravo      | Manuel Álvarez Bravo      | PENDING |
+| 92  | graciela-iturbide         | Graciela Iturbide         | PENDING |
+| 93  | seydou-keita              | Seydou Keïta              | PENDING |
+| 94  | malick-sidibe             | Malick Sidibé             | PENDING |
+| 95  | daido-moriyama            | Daido Moriyama            | PENDING |
+| 96  | shomei-tomatsu            | Shomei Tomatsu            | PENDING |
+| 97  | fan-ho                    | Fan Ho                    | PENDING |
+| 98  | raghu-rai                 | Raghu Rai                 | PENDING |
+| 99  | david-goldblatt           | David Goldblatt           | PENDING |
+| 100 | bernd-hilla-becher        | Bernd & Hilla Becher      | PENDING |

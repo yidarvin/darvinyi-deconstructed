@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "08-blumenbachia-hieronymi.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "BILATERAL AXIS"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.49,
+      "cy": 0.56,
+      "rx": 0.37,
+      "ry": 0.27,
+      "label": "SEED CAPSULE"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.66, 0.02], [0.62, 0.09], [0.57, 0.16], [0.52, 0.23]],
+      "label": "PEDICEL"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.52, 0.31], [0.47, 0.43], [0.52, 0.55], [0.61, 0.66], [0.55, 0.78]],
+      "label": "SPIRAL RIB"
+    }
+  ],
+  "notes": "A pendant seed capsule hung from its pedicel: bilaterally symmetric about the central axis, its ribbed surface twisting in a spiral."
+}

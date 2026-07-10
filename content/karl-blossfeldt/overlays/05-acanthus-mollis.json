@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-acanthus-mollis.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "BILATERAL AXIS" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.165, "rx": 0.085, "ry": 0.09, "label": "BRACT" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.42, "rx": 0.1, "ry": 0.11, "label": "BRACT" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.665, "rx": 0.1, "ry": 0.1, "label": "BRACT" }
+  ],
+  "notes": "Bilateral mirror symmetry about the central axis; identical spiny bract modules stacked in rhythmic vertical repetition."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-seseli-gummiferum.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.47, "label": "BILATERAL AXIS" },
+    { "type": "polyline", "points": [[0.10, 0.50], [0.48, 0.55], [0.90, 0.42]], "label": "BRANCHING FORK" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.21, "rx": 0.31, "ry": 0.18, "label": "BUD CROWN" }
+  ],
+  "notes": "A fluted trunk on the vertical axis forks symmetrically and erupts into a crown of pointed buds — botany rendered as architecture."
+}

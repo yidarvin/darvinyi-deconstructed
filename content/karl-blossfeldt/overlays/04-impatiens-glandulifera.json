@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-impatiens-glandulifera.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "STEM AXIS" },
+    { "type": "symmetry_axis", "orientation": "horizontal", "pos": 0.5125, "label": "WHORL MIRROR" },
+    { "type": "polyline", "points": [[0.095,0.72],[0.15,0.765],[0.215,0.775],[0.30,0.74],[0.40,0.72],[0.50,0.72],[0.63,0.71],[0.72,0.725],[0.82,0.775],[0.885,0.80],[0.95,0.775]], "label": "UNDULATING WHORL" }
+  ],
+  "notes": "Impatiens as wrought-iron candelabra: a vertical spine (bilateral symmetry) carrying modular whorls of opposite, undulating branches mirrored top-to-bottom."
+}

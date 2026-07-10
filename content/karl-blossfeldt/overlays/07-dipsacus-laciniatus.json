@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "image": "07-dipsacus-laciniatus.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "BILATERAL AXIS"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.66,
+      "cy": 0.23,
+      "rx": 0.15,
+      "ry": 0.17,
+      "label": "CROZIER COIL"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.35,
+      "cy": 0.41,
+      "rx": 0.16,
+      "ry": 0.21,
+      "label": "MIRRORED CROZIER"
+    }
+  ],
+  "notes": "Central stem is the mirror line: two thorn-edged bracts inroll into crozier coils that answer each other across the bilateral axis."
+}

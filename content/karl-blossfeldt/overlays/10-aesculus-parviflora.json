@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-aesculus-parviflora.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.19, "cy": 0.105, "rx": 0.085, "ry": 0.08, "label": "TERMINAL BUD" },
+    { "type": "ellipse", "cx": 0.455, "cy": 0.115, "rx": 0.08, "ry": 0.075, "label": "TERMINAL BUD" },
+    { "type": "ellipse", "cx": 0.775, "cy": 0.125, "rx": 0.09, "ry": 0.085, "label": "TERMINAL BUD" },
+    { "type": "polyline", "points": [[0.45, 0.06], [0.45, 0.20], [0.46, 0.42], [0.45, 0.65], [0.44, 0.85], [0.45, 0.99]], "label": "BILATERAL AXIS" }
+  ],
+  "notes": "Comparative plate: three parallel specimens in serial rhythm, each a bilaterally symmetric bud-head crowning a node-ringed stem."
+}

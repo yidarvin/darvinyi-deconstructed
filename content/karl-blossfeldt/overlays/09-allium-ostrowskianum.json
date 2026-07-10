@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "09-allium-ostrowskianum.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5375,
+      "label": "MIRROR AXIS"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.507, 1.0], [0.507, 0.69]],
+      "arrow": true,
+      "label": "STEM AXIS"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.51,
+      "cy": 0.57,
+      "rx": 0.15,
+      "ry": 0.11,
+      "label": "SEED CAPSULE"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.52,
+      "cy": 0.27,
+      "rx": 0.40,
+      "ry": 0.19,
+      "label": "RADIAL UMBEL"
+    }
+  ],
+  "notes": "Bilateral mirror symmetry: one vertical stem rises to a ribbed capsule that opens into a broad radial umbel of buds."
+}

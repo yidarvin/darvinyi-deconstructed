@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-papaver-orientale.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.425, "label": "BILATERAL AXIS" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.185, "rx": 0.27, "ry": 0.11, "label": "FLUTED CROWN" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.54, "rx": 0.19, "ry": 0.255, "label": "URN CAPSULE" }
+  ],
+  "notes": "A bilaterally symmetric poppy capsule: a fluted radial crown bursts atop an ovoid urn, all organized on one vertical spine."
+}

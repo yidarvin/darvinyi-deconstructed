@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "02-equisetum-hyemale.jpg",
+  "width": 1290,
+  "height": 1600,
+  "aspect": 0.8063,
+  "tonal": {
+    "mean": 0.7971971553773024,
+    "std": 0.2120432828473932,
+    "p05": 0.3411764705882353,
+    "p95": 0.984313725490196,
+    "edge_density": 0.0021709280303030304
+  },
+  "palette": [
+    "#f3eedb",
+    "#d5d0c1",
+    "#fdfaf4",
+    "#5d5e58",
+    "#969388"
+  ],
+  "lines": [
+    {
+      "x1": 0.46060606060606063,
+      "y1": 0.8740234375,
+      "x2": 0.6824242424242424,
+      "y2": 0.8740234375,
+      "angle_deg": 0.0,
+      "length": 0.1391644638374766,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.2957575757575758,
+      "y1": 0.873046875,
+      "x2": 0.47515151515151516,
+      "y2": 0.873046875,
+      "angle_deg": 0.0,
+      "length": 0.11254830955162043,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.673939393939394,
+      "y1": 0.61328125,
+      "x2": 0.6872727272727273,
+      "y2": 0.494140625,
+      "angle_deg": -84.84791829779377,
+      "length": 0.09315266001382298,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.6824242424242424,
+      "y1": 0.8486328125,
+      "x2": 0.6921212121212121,
+      "y2": 0.734375,
+      "angle_deg": -86.08842818747134,
+      "length": 0.08918174841791654,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.8740234375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5975757575757575,
+      0.1953125
+    ],
+    "regions": [
+      {
+        "cx": 0.5811901673153046,
+        "cy": 0.19048550128064398,
+        "x": 0.4703030303030303,
+        "y": 0.123046875,
+        "w": 0.2084848484848485,
+        "h": 0.140625,
+        "area_frac": 0.016175426136363635
+      },
+      {
+        "cx": 0.6774057556699066,
+        "cy": 0.6637593971108491,
+        "x": 0.6436363636363637,
+        "y": 0.6279296875,
+        "w": 0.06787878787878789,
+        "h": 0.072265625,
+        "area_frac": 0.0037642045454545454
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9749665250043096,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.9534223524144432,
+    "horizontal_axis_y": 0.5125
+  },
+  "subject_anchor": {
+    "x": 0.5975757575757575,
+    "y": 0.1953125,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.12633249480186157,
+    "phi": 0.01512945019904467,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.874,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.97,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.598,
+      "y": 0.195,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

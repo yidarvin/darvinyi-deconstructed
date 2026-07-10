@@ -1,6 +1,6 @@
 {
-  "title": "refsite",
-  "subtitle": "a queue-built reference site --- replace this with your subject",
+  "title": "Deconstructed",
+  "subtitle": "How the masters composed the frame.",
   "mode": "book",
   "chapters": [
     {
@@ -8,7 +8,7 @@
       "slug": "how-this-book-is-built",
       "title": "How this book is built",
       "subtitle": "the grammar and the queue",
-      "part": "Part 0 --- The system",
+      "part": "0. The System",
       "routes": [
         "meta",
         "workflow"
@@ -17,11 +17,802 @@
     },
     {
       "num": 1,
-      "slug": "the-first-real-chapter",
-      "title": "Your first real chapter",
-      "subtitle": "written by the runner",
-      "part": "Part I --- Begin here",
-      "routes": [],
+      "slug": "nicephore-niepce",
+      "title": "Nicéphore Niépce",
+      "subtitle": "1765–1833",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 2,
+      "slug": "louis-daguerre",
+      "title": "Louis Daguerre",
+      "subtitle": "1787–1851",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 3,
+      "slug": "william-henry-fox-talbot",
+      "title": "William Henry Fox Talbot",
+      "subtitle": "1800–1877",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 4,
+      "slug": "anna-atkins",
+      "title": "Anna Atkins",
+      "subtitle": "1799–1871",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 5,
+      "slug": "hippolyte-bayard",
+      "title": "Hippolyte Bayard",
+      "subtitle": "1801–1887",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 6,
+      "slug": "hill-adamson",
+      "title": "Hill & Adamson",
+      "subtitle": "1843–1848",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 7,
+      "slug": "gustave-le-gray",
+      "title": "Gustave Le Gray",
+      "subtitle": "1820–1884",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 8,
+      "slug": "roger-fenton",
+      "title": "Roger Fenton",
+      "subtitle": "1819–1869",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 9,
+      "slug": "nadar",
+      "title": "Nadar (Félix Tournachon)",
+      "subtitle": "1820–1910",
+      "part": "I. Pioneers & Inventors",
+      "status": "pending"
+    },
+    {
+      "num": 10,
+      "slug": "mathew-brady",
+      "title": "Mathew Brady",
+      "subtitle": "1822–1896",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 11,
+      "slug": "alexander-gardner",
+      "title": "Alexander Gardner",
+      "subtitle": "1821–1882",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 12,
+      "slug": "timothy-osullivan",
+      "title": "Timothy O'Sullivan",
+      "subtitle": "1840–1882",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 13,
+      "slug": "carleton-watkins",
+      "title": "Carleton Watkins",
+      "subtitle": "1829–1916",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 14,
+      "slug": "william-henry-jackson",
+      "title": "William Henry Jackson",
+      "subtitle": "1843–1942",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 15,
+      "slug": "eadweard-muybridge",
+      "title": "Eadweard Muybridge",
+      "subtitle": "1830–1904",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 16,
+      "slug": "etienne-jules-marey",
+      "title": "Étienne-Jules Marey",
+      "subtitle": "1830–1904",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 17,
+      "slug": "felice-beato",
+      "title": "Felice Beato",
+      "subtitle": "1832–1909",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 18,
+      "slug": "john-thomson",
+      "title": "John Thomson",
+      "subtitle": "1837–1921",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 19,
+      "slug": "jacob-riis",
+      "title": "Jacob Riis",
+      "subtitle": "1849–1914",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 20,
+      "slug": "lewis-hine",
+      "title": "Lewis Hine",
+      "subtitle": "1874–1940",
+      "part": "II. 19th-c. Land, War & Social Document",
+      "status": "pending"
+    },
+    {
+      "num": 21,
+      "slug": "julia-margaret-cameron",
+      "title": "Julia Margaret Cameron",
+      "subtitle": "1815–1879",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 22,
+      "slug": "peter-henry-emerson",
+      "title": "Peter Henry Emerson",
+      "subtitle": "1856–1936",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 23,
+      "slug": "frederick-h-evans",
+      "title": "Frederick H. Evans",
+      "subtitle": "1853–1943",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 24,
+      "slug": "gertrude-kasebier",
+      "title": "Gertrude Käsebier",
+      "subtitle": "1852–1934",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 25,
+      "slug": "clarence-h-white",
+      "title": "Clarence H. White",
+      "subtitle": "1871–1925",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 26,
+      "slug": "edward-s-curtis",
+      "title": "Edward S. Curtis",
+      "subtitle": "1868–1952",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 27,
+      "slug": "frances-benjamin-johnston",
+      "title": "Frances Benjamin Johnston",
+      "subtitle": "1864–1952",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 28,
+      "slug": "alvin-langdon-coburn",
+      "title": "Alvin Langdon Coburn",
+      "subtitle": "1882–1966",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 29,
+      "slug": "karl-blossfeldt",
+      "title": "Karl Blossfeldt",
+      "subtitle": "1865–1932",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "draft"
+    },
+    {
+      "num": 30,
+      "slug": "alfred-stieglitz",
+      "title": "Alfred Stieglitz",
+      "subtitle": "1864–1946",
+      "part": "III. Pictorialists & the Art Claim",
+      "status": "pending"
+    },
+    {
+      "num": 31,
+      "slug": "eugene-atget",
+      "title": "Eugène Atget",
+      "subtitle": "1857–1927",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 32,
+      "slug": "edward-steichen",
+      "title": "Edward Steichen",
+      "subtitle": "1879–1973",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 33,
+      "slug": "paul-strand",
+      "title": "Paul Strand",
+      "subtitle": "1890–1976",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 34,
+      "slug": "laszlo-moholy-nagy",
+      "title": "László Moholy-Nagy",
+      "subtitle": "1895–1946",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 35,
+      "slug": "alexander-rodchenko",
+      "title": "Alexander Rodchenko",
+      "subtitle": "1891–1956",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 36,
+      "slug": "germaine-krull",
+      "title": "Germaine Krull",
+      "subtitle": "1897–1985",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 37,
+      "slug": "albert-renger-patzsch",
+      "title": "Albert Renger-Patzsch",
+      "subtitle": "1897–1966",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 38,
+      "slug": "august-sander",
+      "title": "August Sander",
+      "subtitle": "1876–1964",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 39,
+      "slug": "man-ray",
+      "title": "Man Ray",
+      "subtitle": "1890–1976",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 40,
+      "slug": "andre-kertesz",
+      "title": "André Kertész",
+      "subtitle": "1894–1985",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 41,
+      "slug": "jacques-henri-lartigue",
+      "title": "Jacques-Henri Lartigue",
+      "subtitle": "1894–1986",
+      "part": "IV. Modernism & the New Vision",
+      "status": "pending"
+    },
+    {
+      "num": 42,
+      "slug": "dorothea-lange",
+      "title": "Dorothea Lange",
+      "subtitle": "1895–1965",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 43,
+      "slug": "walker-evans",
+      "title": "Walker Evans",
+      "subtitle": "1903–1975",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 44,
+      "slug": "gordon-parks",
+      "title": "Gordon Parks",
+      "subtitle": "1912–2006",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 45,
+      "slug": "arthur-rothstein",
+      "title": "Arthur Rothstein",
+      "subtitle": "1915–1985",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 46,
+      "slug": "ben-shahn",
+      "title": "Ben Shahn",
+      "subtitle": "1898–1969",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 47,
+      "slug": "russell-lee",
+      "title": "Russell Lee",
+      "subtitle": "1903–1986",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 48,
+      "slug": "marion-post-wolcott",
+      "title": "Marion Post Wolcott",
+      "subtitle": "1910–1990",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 49,
+      "slug": "jack-delano",
+      "title": "Jack Delano",
+      "subtitle": "1914–1997",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 50,
+      "slug": "john-vachon",
+      "title": "John Vachon",
+      "subtitle": "1914–1975",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 51,
+      "slug": "berenice-abbott",
+      "title": "Berenice Abbott",
+      "subtitle": "1898–1991",
+      "part": "V. FSA & American Documentary",
+      "status": "pending"
+    },
+    {
+      "num": 52,
+      "slug": "margaret-bourke-white",
+      "title": "Margaret Bourke-White",
+      "subtitle": "1904–1971",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 53,
+      "slug": "robert-capa",
+      "title": "Robert Capa",
+      "subtitle": "1913–1954",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 54,
+      "slug": "w-eugene-smith",
+      "title": "W. Eugene Smith",
+      "subtitle": "1918–1978",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 55,
+      "slug": "henri-cartier-bresson",
+      "title": "Henri Cartier-Bresson",
+      "subtitle": "1908–2004",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 56,
+      "slug": "alfred-eisenstaedt",
+      "title": "Alfred Eisenstaedt",
+      "subtitle": "1898–1995",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 57,
+      "slug": "weegee",
+      "title": "Weegee (Arthur Fellig)",
+      "subtitle": "1899–1968",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 58,
+      "slug": "yousuf-karsh",
+      "title": "Yousuf Karsh",
+      "subtitle": "1908–2002",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 59,
+      "slug": "brassai",
+      "title": "Brassaï",
+      "subtitle": "1899–1984",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 60,
+      "slug": "robert-doisneau",
+      "title": "Robert Doisneau",
+      "subtitle": "1912–1994",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 61,
+      "slug": "josef-koudelka",
+      "title": "Josef Koudelka",
+      "subtitle": "b. 1938",
+      "part": "VI. Photojournalism & the Concerned Photographer",
+      "status": "pending"
+    },
+    {
+      "num": 62,
+      "slug": "cecil-beaton",
+      "title": "Cecil Beaton",
+      "subtitle": "1904–1980",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 63,
+      "slug": "horst-p-horst",
+      "title": "Horst P. Horst",
+      "subtitle": "1906–1999",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 64,
+      "slug": "george-hurrell",
+      "title": "George Hurrell",
+      "subtitle": "1904–1992",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 65,
+      "slug": "irving-penn",
+      "title": "Irving Penn",
+      "subtitle": "1917–2009",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 66,
+      "slug": "richard-avedon",
+      "title": "Richard Avedon",
+      "subtitle": "1923–2004",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 67,
+      "slug": "helmut-newton",
+      "title": "Helmut Newton",
+      "subtitle": "1920–2004",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 68,
+      "slug": "guy-bourdin",
+      "title": "Guy Bourdin",
+      "subtitle": "1928–1991",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 69,
+      "slug": "lillian-bassman",
+      "title": "Lillian Bassman",
+      "subtitle": "1917–2012",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 70,
+      "slug": "annie-leibovitz",
+      "title": "Annie Leibovitz",
+      "subtitle": "b. 1949",
+      "part": "VII. Fashion & the Portrait Studio",
+      "status": "pending"
+    },
+    {
+      "num": 71,
+      "slug": "ansel-adams",
+      "title": "Ansel Adams",
+      "subtitle": "1902–1984",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 72,
+      "slug": "edward-weston",
+      "title": "Edward Weston",
+      "subtitle": "1886–1958",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 73,
+      "slug": "imogen-cunningham",
+      "title": "Imogen Cunningham",
+      "subtitle": "1883–1976",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 74,
+      "slug": "minor-white",
+      "title": "Minor White",
+      "subtitle": "1908–1976",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 75,
+      "slug": "wynn-bullock",
+      "title": "Wynn Bullock",
+      "subtitle": "1902–1975",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 76,
+      "slug": "eliot-porter",
+      "title": "Eliot Porter",
+      "subtitle": "1901–1990",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 77,
+      "slug": "bill-brandt",
+      "title": "Bill Brandt",
+      "subtitle": "1904–1983",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 78,
+      "slug": "josef-sudek",
+      "title": "Josef Sudek",
+      "subtitle": "1896–1976",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 79,
+      "slug": "sebastiao-salgado",
+      "title": "Sebastião Salgado",
+      "subtitle": "1944–2025",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 80,
+      "slug": "hiroshi-sugimoto",
+      "title": "Hiroshi Sugimoto",
+      "subtitle": "b. 1948",
+      "part": "VIII. Landscape & the Fine Print",
+      "status": "pending"
+    },
+    {
+      "num": 81,
+      "slug": "lisette-model",
+      "title": "Lisette Model",
+      "subtitle": "1901–1983",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 82,
+      "slug": "helen-levitt",
+      "title": "Helen Levitt",
+      "subtitle": "1913–2009",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 83,
+      "slug": "saul-leiter",
+      "title": "Saul Leiter",
+      "subtitle": "1923–2013",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 84,
+      "slug": "robert-frank",
+      "title": "Robert Frank",
+      "subtitle": "1924–2019",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 85,
+      "slug": "diane-arbus",
+      "title": "Diane Arbus",
+      "subtitle": "1923–1971",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 86,
+      "slug": "garry-winogrand",
+      "title": "Garry Winogrand",
+      "subtitle": "1928–1984",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 87,
+      "slug": "lee-friedlander",
+      "title": "Lee Friedlander",
+      "subtitle": "b. 1934",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 88,
+      "slug": "vivian-maier",
+      "title": "Vivian Maier",
+      "subtitle": "1926–2009",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 89,
+      "slug": "william-eggleston",
+      "title": "William Eggleston",
+      "subtitle": "b. 1939",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 90,
+      "slug": "stephen-shore",
+      "title": "Stephen Shore",
+      "subtitle": "b. 1947",
+      "part": "IX. Street, the Frame & American Color",
+      "status": "pending"
+    },
+    {
+      "num": 91,
+      "slug": "manuel-alvarez-bravo",
+      "title": "Manuel Álvarez Bravo",
+      "subtitle": "1902–2002",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 92,
+      "slug": "graciela-iturbide",
+      "title": "Graciela Iturbide",
+      "subtitle": "b. 1942",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 93,
+      "slug": "seydou-keita",
+      "title": "Seydou Keïta",
+      "subtitle": "1921–2001",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 94,
+      "slug": "malick-sidibe",
+      "title": "Malick Sidibé",
+      "subtitle": "1936–2016",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 95,
+      "slug": "daido-moriyama",
+      "title": "Daido Moriyama",
+      "subtitle": "b. 1938",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 96,
+      "slug": "shomei-tomatsu",
+      "title": "Shomei Tomatsu",
+      "subtitle": "1930–2012",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 97,
+      "slug": "fan-ho",
+      "title": "Fan Ho",
+      "subtitle": "1931–2016",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 98,
+      "slug": "raghu-rai",
+      "title": "Raghu Rai",
+      "subtitle": "b. 1942",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 99,
+      "slug": "david-goldblatt",
+      "title": "David Goldblatt",
+      "subtitle": "1930–2018",
+      "part": "X. Global Masters & the Postwar World",
+      "status": "pending"
+    },
+    {
+      "num": 100,
+      "slug": "bernd-hilla-becher",
+      "title": "Bernd & Hilla Becher",
+      "subtitle": "1931–2007 / 1934–2015",
+      "part": "X. Global Masters & the Postwar World",
       "status": "pending"
     }
   ]

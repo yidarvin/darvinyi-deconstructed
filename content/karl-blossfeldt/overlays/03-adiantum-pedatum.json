@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-adiantum-pedatum.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.669, "y": 0.102, "r": 0.05, "label": "CROZIER" },
+    { "type": "ellipse", "cx": 0.545, "cy": 0.445, "rx": 0.12, "ry": 0.088, "label": "GOLDEN SPIRAL" },
+    { "type": "ellipse", "cx": 0.14, "cy": 0.425, "rx": 0.1, "ry": 0.078, "label": "REPEATS" },
+    { "type": "polyline", "points": [[0.136, 0.53], [0.19, 0.61], [0.225, 0.655], [0.24, 0.69]], "label": "S-CURVE STEM" }
+  ],
+  "notes": "Six fern croziers repeat the logarithmic spiral, rising on S-curving stems from a common base; detector horizon and vanishing point are background false positives, dropped."
+}
