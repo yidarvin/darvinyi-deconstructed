@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "01-storefront-avenue-des-gobelins.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.30,
+      "y": 0.05,
+      "w": 0.42,
+      "h": 0.38,
+      "label": "reflected arch"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.215, 0.255], [0.42, 0.285], [0.635, 0.25], [0.80, 0.265]],
+      "label": "mannequin frieze"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.001, 0.755], [0.61, 0.999]],
+      "arrow": true,
+      "label": "display floor"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.7001,
+      "y": 1.02,
+      "label": "floor vp"
+    }
+  ],
+  "notes": "Atget's vitrine collapses three planes: a frieze of four mannequin heads over a ghostly reflected arch, above a display floor whose perspective drives to a vanishing point below the frame."
+}

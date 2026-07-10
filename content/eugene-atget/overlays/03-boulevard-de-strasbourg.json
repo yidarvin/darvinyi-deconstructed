@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "image": "03-boulevard-de-strasbourg.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.06,
+      "y": 0.13,
+      "w": 0.82,
+      "h": 0.72,
+      "label": "SHOP WINDOW"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.436,
+      "angle": 0.0,
+      "label": "EYE LEVEL"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.2554,
+      "y": 0.4599,
+      "r": 0.06,
+      "label": "LEAD BUST"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.40,
+      "cy": 0.31,
+      "rx": 0.15,
+      "ry": 0.09,
+      "label": "STREET REFLECTION"
+    }
+  ],
+  "notes": "Atget stages the coiffeur's vitrine as a proscenium: a frieze of uncanny mannequin busts stares out at eye level while the Paris street ghosts across the glass."
+}

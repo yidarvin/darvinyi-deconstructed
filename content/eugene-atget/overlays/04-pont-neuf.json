@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-pont-neuf.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.645, "angle": 0.0, "label": "WATERLINE" },
+    { "type": "leading_line", "points": [[0.413, 0.202], [0.409, 0.507]], "arrow": false, "label": "MAST" },
+    { "type": "subject_anchor", "x": 0.523, "y": 0.629, "r": 0.05, "label": "BARGES" },
+    { "type": "polyline", "points": [[0.02, 0.98], [0.14, 0.80], [0.23, 0.66], [0.27, 0.58]], "label": "QUAI" }
+  ],
+  "notes": "Deserted quay staged as deep perspective: moored barges recede toward the distant bridge, the lone mast a vertical caesura, city dissolving in fog across the still Seine."
+}

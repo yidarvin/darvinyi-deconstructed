@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "11-three-prostitutes-rue-asselin.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.37,
+      "y": 0.05,
+      "w": 0.42,
+      "h": 0.85,
+      "label": "DOORWAY"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.44, 0.19], [0.63, 0.19], [0.77, 0.17]],
+      "label": "THREE FACES"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.688,
+      "angle": 0.0,
+      "label": "STONE BASE"
+    }
+  ],
+  "notes": "Frontal doorway portrait: the dark opening presses three women into a shallow stage, their faces running in a horizontal row across the upper third while the seam of the crumbling stone base grounds the frame."
+}

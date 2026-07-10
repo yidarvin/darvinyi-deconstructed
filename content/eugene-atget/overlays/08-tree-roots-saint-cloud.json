@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "08-tree-roots-saint-cloud.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.491,
+      "y": 0.605,
+      "label": "root crown"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "label": "trunk"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.554, 0.629], [0.859, 0.863]],
+      "arrow": true,
+      "label": "root"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.398, 0.648], [0.088, 0.887]],
+      "arrow": true,
+      "label": "root"
+    }
+  ],
+  "notes": "A radial burst: the trunk descends the vertical spine to a root crown from which the roots sprawl outward across the frame."
+}

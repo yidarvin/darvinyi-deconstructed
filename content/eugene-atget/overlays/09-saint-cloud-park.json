@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "09-saint-cloud-park.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.472, 0.525], [0.922, 0.594]],
+      "arrow": true,
+      "label": "BALUSTRADE"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.1997, 0.449], [0.2564, 0.024]],
+      "arrow": false,
+      "label": "TRUNK"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.20,
+      "cy": 0.70,
+      "rx": 0.17,
+      "ry": 0.17,
+      "label": "STONE PLINTH"
+    }
+  ],
+  "notes": "A ruined ivy-clad balustrade recedes right past a massive stone plinth, braced by the vertical ivy trunk under backlit winter trees — Atget's decayed formal garden as an empty stage set."
+}

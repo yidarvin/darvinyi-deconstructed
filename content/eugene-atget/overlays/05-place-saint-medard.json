@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-place-saint-medard.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.303, "y": 0.521, "label": "VANISHING POINT" },
+    { "type": "leading_line", "points": [[0.402, 0.582], [0.303, 0.521]], "arrow": true, "label": "RECEDING STREET" },
+    { "type": "horizon_line", "y": 0.614, "angle": -4.9, "label": "GROUND LINE" },
+    { "type": "subject_anchor", "x": 0.603, "y": 0.782, "r": 0.06, "label": "FOREGROUND FIGURES" }
+  ],
+  "notes": "A market square staged in deep perspective: the rue Mouffetard recedes left to a vanishing point, a low ground line sets the stage floor, and the sunlit foreground crowd anchors the human scale between billboard wall and church."
+}

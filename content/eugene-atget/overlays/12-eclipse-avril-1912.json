@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "image": "12-eclipse-avril-1912.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [[0.095, 0.665], [0.20, 0.665], [0.37, 0.635], [0.50, 0.605], [0.63, 0.585], [0.73, 0.585], [0.81, 0.565]],
+      "label": "UPTURNED GAZES"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.3435,
+      "y": 0.5262,
+      "label": "VANISHING POINT"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.336, 0.521], [0.553, 0.376]],
+      "arrow": false,
+      "label": "RECEDING CORNICE"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.425,
+      "angle": 4.0,
+      "label": "SKYLINE"
+    }
+  ],
+  "notes": "A frieze of upturned faces below Atget's empty Paris stage; the corner building's cornice recedes to a one-point vanishing point under the skyline."
+}
