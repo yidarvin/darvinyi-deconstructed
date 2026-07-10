@@ -117,7 +117,10 @@ You are the BUILDER. Read CLAUDE.md first and follow the model roles.
    affected images, update overlays/proofs/chapter as needed — then set
    `verdict: resolved`. Commit and push per slug ("resolve critique: <slug>").
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
-   at stage "sourced". Work them one at a time, registry order. For <slug>:
+   at stage "sourced". Work them one at a time, registry order. Skip any
+   photographer whose raw/<slug>/ contains fewer than 4 image files — they
+   are waiting on NEEDED.md drops; name the skipped slugs in your commit
+   message. For each <slug> you do work:
    a. Read content/<slug>/sources.md. Write content/<slug>/research.md:
       technique, era, printing, and camera settings ONLY where the historical
       record has them (film-era work usually will not — say so, never
@@ -238,6 +241,6 @@ MDEOF
 
 echo ">> [4/4] commit & push"
 git add -A
-git commit -qm "pipeline v2: 9-wave queue (rights/stage/wave) + full prompt set (source/build/critique/ship/status)"
+git diff --cached --quiet || git commit -qm "pipeline v2.1: 9-wave queue (rights/stage/wave) + full prompt set + run.sh driver"
 git push
-echo ">> done — queue and prompts are live in the repo"
+echo ">> done — queue, prompts, and driver are live in the repo"
