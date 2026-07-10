@@ -1,0 +1,24 @@
+verdict: revise
+
+Reviewed 2026-07-10 against all 11 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md. This is the closest set to approval: the portraits, interior, church, graveyard, and penny display land cleanly, and the frontal-discipline argument matches the measurements. What blocks it is precision on exactly the plates whose lesson *is* precision — the typology rows and the sign facade — plus a handful of chapter claims the images contradict.
+
+## Required fixes
+
+1. **05-roadside-stand-birmingham — SPECIAL SIGN boxes are ~2× their signs.** Left sign spans x ≈ 0.29–0.36 but its box spans 0.275–0.475, corners floating on the boy and the doorway; right sign spans x ≈ 0.64–0.71, box 0.625–0.825 over the chicken-wire melon window. As drawn the pair is asymmetric about the drawn CENTRAL AXIS, visually contradicting the mirror lesson the *real* signs support (centers ~0.33 / ~0.68). Snap both boxes to the sign edges. POINTER SIGN box also overshoots: top corners sit on the archival card mount above the photo edge, bottom edge slices through "HOUSE MOVER" (sign bottom ~y 0.335).
+2. **09-frame-houses-new-orleans — a "column" line on a window.** The middle REPEATED COLUMNS stroke (x 0.55) runs through the middle house's window and iron balustrade bay; the column's center is ~x 0.574. In a diagram about column rhythm this teaches a window as a column — move it. CURB LINE (y 0.758) sits on the yard/fence–sidewalk edge, not the curb (~y 0.79); shift it or relabel (SIDEWALK LINE / GROUND LINE).
+3. **10-frame-houses-fredericksburg — baseline drawn on the eave line.** COMMON FENCE & PORCH BASELINE (y 0.758) sits on the porch-*roof* eave (the CV luminance horizon); the actual fences and porch floors run at y ≈ 0.87–0.92 with a ~5° tilt — 11–16% of frame height lower. Redraw at the base or relabel as the eave datum. TELEPHONE WIRE OVER EMPTY SKY descends at ~17° while both real wires descend at ~29–31°; the line grazes a wire at the top edge then slices empty sky between them — trace one actual wire.
+4. **11-company-houses-birmingham — ROOF RIDGES RECEDE misses every ridge but the first.** The drawn slope is ~2× too steep: it touches the nearest apex (~0.89, 0.24) then runs 4–6% below every subsequent apex, cutting mid-roof and ending at eave level. Redraw through the visible ridge apexes. (SILL LINE RECEDES is correct — keep it.)
+5. **chapter.mdx, 03-bud-fields-family — count what the plate shows.** "Six frontal gazes line up in a shallow register": the baby is asleep with eyes closed and face upturned, and the toddler sits well below the eye line — five faces meet the camera, four share the register. Also "flat against the papered wall": the wall is bare horizontal boards with a few tacked photos (sources.md repeats "papered"); fix both.
+6. **chapter.mdx, 08-negro-church — two unsupported claims.** "The gothic windows mirror left and right": the windows are rectangular with plain louvered shutters — no pointed arches (the overlay notes repeat this; fix there too). "The building was raised by that community as an act of care and self-determination" is a specific historical claim about an unnamed, undocumented building that appears nowhere in research.md — generalize it or source it.
+7. **chapter.mdx, 09 — "shotgun facades."** These are two-story, double-gallery frame houses; a shotgun house is by definition a narrow one-story dwelling. sources.md repeats the mislabel.
+8. **chapter.mdx, 07 — the overlay has no vanishing point.** "The overlay marks … a vanishing point pushed far to the right at 0.92" — the spec contains only the cross outline and two leading lines; 0.92 exists only in the analysis file. Describe what the rendered diagram actually shows.
+
+## Advisory (non-blocking)
+
+- 11 carries only two primitives — below the 3–5 band; a third (e.g. the looming near-house gable as subject anchor) would complete the lesson.
+- 01: caption calls the clapboard line "level" while the overlay draws it at its measured 3.0° tilt — soften, and it also undercuts the intro's "dead level" generalization.
+- Superlatives to check: 05 "its scale is the longest of all" (04's range is marginally longer, 0.918 vs 0.917); 10 "tonal std … tightest of the group at about 0.20" (01 is 0.173 — true only if "group" means the typology plates; say so).
+- 07: CEMETERY IRON RAILS matches the measured leading line but crosses the near-horizontal pipe rails rather than tracing one — acceptable as a depth vector, tighten if revisited. WHITE GRAVE CROSS crossbar band is loose (arm tips extend past the box).
+- 02: "central axis" at x 0.41 could read as frame center; the label works but a subject-axis phrasing would be cleaner.
+
+Settings honesty: clean — the Callout states the 8x10/4x5 record is thin and invents nothing; research.md agrees. Rights basis (FSA + Met CC0 for 06) is sound.
