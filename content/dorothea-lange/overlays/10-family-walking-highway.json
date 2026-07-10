@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-family-walking-highway.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.172, "angle": 0.0, "label": "distant tree line" },
+    { "type": "leading_line", "points": [[0.0, 0.60], [0.40, 0.235]], "arrow": true, "label": "left road edge" },
+    { "type": "polyline", "points": [[0.30, 0.34], [0.44, 0.36], [0.53, 0.48], [0.66, 0.50]], "label": "family strung back" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.44, "rx": 0.088, "ry": 0.20, "label": "father" }
+  ],
+  "notes": "One-point recession down a wide graded highway: the road drives to a vanishing point at the distant tree line while the migrant family strings back along the corridor — the father hauling the cart largest in the foreground, the others dwindling into the distance."
+}

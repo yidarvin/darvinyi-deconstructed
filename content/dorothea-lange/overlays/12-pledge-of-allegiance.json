@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-pledge-of-allegiance.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.305, "cy": 0.258, "rx": 0.052, "ry": 0.066, "label": "GIRL 1" },
+    { "type": "ellipse", "cx": 0.575, "cy": 0.250, "rx": 0.056, "ry": 0.070, "label": "GIRL 2" },
+    { "type": "ellipse", "cx": 0.895, "cy": 0.208, "rx": 0.050, "ry": 0.065, "label": "GIRL 3" },
+    { "type": "polyline", "points": [[0.322, 0.455], [0.580, 0.495], [0.895, 0.335]], "label": "HANDS TO HEARTS" }
+  ],
+  "notes": "The pledge as rhythm: three girls, three hands to three hearts — one repeated gesture threading a row of small figures."
+}

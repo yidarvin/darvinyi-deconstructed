@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "image": "04-tractored-out.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.387,
+      "angle": -2.8,
+      "label": "HORIZON"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.464, 0.850], [0.627, 0.628]],
+      "arrow": true,
+      "label": "PLOW FURROW"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.576,
+      "y": 0.646,
+      "label": "FURROWS CONVERGE"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.60,
+      "cy": 0.365,
+      "rx": 0.10,
+      "ry": 0.065,
+      "label": "ABANDONED HOUSE"
+    }
+  ],
+  "notes": "Contour-plow furrows sweep up to a low vanishing point beneath the abandoned house; a high horizon presses the ravaged earth against an empty sky."
+}

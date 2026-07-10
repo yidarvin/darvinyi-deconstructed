@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "image": "11-mochida-family-hayward-evacuation.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.226,
+      "y": 0.210,
+      "r": 0.05,
+      "label": "FATHER"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.215, 0.13], [0.43, 0.17], [0.665, 0.30]],
+      "label": "ELDERS RANKED BEHIND"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.44, 0.87], [0.72, 0.85], [0.80, 0.79]],
+      "label": "FAMILY NAME ON THE LUGGAGE"
+    }
+  ],
+  "notes": "A frontal wall of eleven: elders ranked along a descending headline, children massed below, the family surname stenciled on the tagged luggage at their feet — people readied for shipment."
+}

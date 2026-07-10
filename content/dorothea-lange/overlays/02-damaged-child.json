@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "02-damaged-child.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.55,
+      "label": "central axis"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.428,
+      "angle": -1.8,
+      "label": "wall seam"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.37, 0.98], [0.40, 0.51], [0.525, 0.225], [0.685, 0.51], [0.78, 0.98]],
+      "label": "figure pyramid"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.525,
+      "cy": 0.365,
+      "rx": 0.13,
+      "ry": 0.15,
+      "label": "face"
+    }
+  ],
+  "notes": "Frontal child pinned to a flat board wall: a central vertical axis and the horizontal seam form the cross that traps her; the body rises as a shallow pyramid to the face, the psychological center."
+}

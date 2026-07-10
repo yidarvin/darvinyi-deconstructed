@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "03-toward-los-angeles.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.468,
+      "angle": 1.86,
+      "label": "HORIZON"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.31,
+      "cy": 0.475,
+      "rx": 0.11,
+      "ry": 0.15,
+      "label": "ON FOOT"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.53,
+      "y": 0.36,
+      "w": 0.34,
+      "h": 0.115,
+      "label": "TRY THE TRAIN"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.390, 0.501], [0.759, 0.618]],
+      "arrow": true,
+      "label": "ROADSIDE"
+    }
+  ],
+  "notes": "Two migrants on foot, bisected by the horizon, walk the dirt shoulder toward the ironic Southern Pacific billboard promising an easier way to travel."
+}

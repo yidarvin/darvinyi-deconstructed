@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "09-ex-slave-long-memory.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.54, "label": "central axis" },
+    { "type": "subject_anchor", "x": 0.58, "y": 0.06, "r": 0.045, "label": "scarfed head" },
+    { "type": "leading_line", "points": [[0.255, 0.40], [0.37, 0.86]], "arrow": false, "label": "walking stick" },
+    { "type": "ellipse", "cx": 0.34, "cy": 0.385, "rx": 0.11, "ry": 0.055, "label": "the hands" },
+    { "type": "horizon_line", "y": 0.441, "angle": 0.0, "label": "field / road edge" }
+  ],
+  "notes": "Planted frontally on the central axis, the standing figure is doubled by the vertical of her cane; the white-scarfed head crowns the column and the crossed hands hold its center."
+}

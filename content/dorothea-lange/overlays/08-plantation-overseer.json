@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-plantation-overseer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.58, "cy": 0.29, "rx": 0.085, "ry": 0.135, "label": "OVERSEER" },
+    { "type": "polyline", "points": [[0.60, 0.66], [0.475, 0.71], [0.62, 0.87]], "label": "FOOT ON CAR" },
+    { "type": "ellipse", "cx": 0.165, "cy": 0.585, "rx": 0.175, "ry": 0.155, "label": "WORKERS" }
+  ],
+  "notes": "A monumental foreground planter, foot planted on his car, fills the frame while the Black workers recede as a compressed social plane behind."
+}
