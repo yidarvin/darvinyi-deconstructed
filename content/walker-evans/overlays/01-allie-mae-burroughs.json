@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "01-allie-mae-burroughs.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "label": "central axis"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.47,
+      "cy": 0.37,
+      "rx": 0.16,
+      "ry": 0.17,
+      "label": "face"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.118,
+      "angle": 3.0,
+      "label": "clapboard"
+    }
+  ],
+  "notes": "A frontal portrait built on a vertical mirror axis: the face centered on the spine of the frame, set against the flat horizontal banding of the clapboard wall."
+}

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "image": "09-frame-houses-new-orleans.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "CENTRAL AXIS"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.191, 0.362], [0.191, 0.700]],
+      "arrow": false,
+      "label": "REPEATED COLUMNS"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.55, 0.41], [0.55, 0.72]],
+      "arrow": false,
+      "label": ""
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.7725, 0.427], [0.7725, 0.733]],
+      "arrow": false,
+      "label": ""
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.758,
+      "angle": 0.0,
+      "label": "CURB LINE"
+    }
+  ],
+  "notes": "Frontal facades read as a flat frieze: the porch columns beat a repeated vertical rhythm across three near-identical houses, squared to the picture plane above the horizontal curb."
+}

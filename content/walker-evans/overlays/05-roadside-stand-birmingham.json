@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "image": "05-roadside-stand-birmingham.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5125,
+      "label": "CENTRAL AXIS"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.316,
+      "angle": -0.9,
+      "label": "ROOFLINE"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.355,
+      "y": 0.145,
+      "w": 0.31,
+      "h": 0.14,
+      "label": "POINTER SIGN"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.275,
+      "y": 0.495,
+      "w": 0.20,
+      "h": 0.19,
+      "label": "SPECIAL SIGN"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.625,
+      "y": 0.495,
+      "w": 0.20,
+      "h": 0.19,
+      "label": "SPECIAL SIGN"
+    }
+  ],
+  "notes": "Dead-frontal facade: hand-lettered signs stack into typographic rectangles that mirror across a central axis beneath a ruler-flat roofline."
+}

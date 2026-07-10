@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "02-floyd-burroughs.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.412,
+      "label": "central axis"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.44,
+      "cy": 0.33,
+      "rx": 0.17,
+      "ry": 0.19,
+      "label": "face"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.78, 0.04], [0.79, 0.96]],
+      "arrow": false,
+      "label": "doorframe post"
+    }
+  ],
+  "notes": "A frontal tenant-farmer portrait built on a vertical mirror axis: the weathered face centered on the spine of the frame, wedged between the dark doorway void at left and the raw timber doorframe post at right."
+}

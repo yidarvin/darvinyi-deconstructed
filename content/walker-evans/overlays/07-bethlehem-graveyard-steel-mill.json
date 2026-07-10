@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "image": "07-bethlehem-graveyard-steel-mill.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.245, 0.315],
+        [0.325, 0.315],
+        [0.325, 0.485],
+        [0.39, 0.485],
+        [0.39, 0.60],
+        [0.325, 0.60],
+        [0.325, 0.87],
+        [0.245, 0.87],
+        [0.245, 0.60],
+        [0.15, 0.60],
+        [0.15, 0.485],
+        [0.245, 0.485],
+        [0.245, 0.315]
+      ],
+      "label": "WHITE GRAVE CROSS"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.40, 0.35], [0.99, 0.347]],
+      "arrow": false,
+      "label": "STEEL-MILL BASE"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.52, 0.575], [0.99, 0.991]],
+      "arrow": true,
+      "label": "CEMETERY IRON RAILS"
+    }
+  ],
+  "notes": "Three stacked registers - a white grave cross in front, brick row houses, and the steel mill's furnaces and stacks behind - the living town wedged between the dead and the works."
+}

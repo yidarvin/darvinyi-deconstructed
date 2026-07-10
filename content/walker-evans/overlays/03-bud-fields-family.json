@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "03-bud-fields-family.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [[0.24, 0.345], [0.42, 0.285], [0.55, 0.315], [0.71, 0.375]],
+      "label": "REGISTER OF FRONTAL GAZES"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.54,
+      "label": "CENTRAL AXIS"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.54,
+      "y": 0.65,
+      "r": 0.1,
+      "label": "CHILD AT THE AXIS"
+    }
+  ],
+  "notes": "A flattened frontal frieze: six faces line up in a shallow register across the plane, the group balanced on a central vertical through Bud and the child seated dead-center at its base."
+}

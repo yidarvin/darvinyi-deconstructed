@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "image": "11-company-houses-birmingham.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.86, 0.20], [0.62, 0.29], [0.40, 0.36], [0.14, 0.45]],
+      "arrow": true,
+      "label": "ROOF RIDGES RECEDE"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.90, 0.65], [0.62, 0.58], [0.40, 0.54], [0.14, 0.49]],
+      "arrow": true,
+      "label": "SILL LINE RECEDES"
+    }
+  ],
+  "notes": "Identical hip-roof company houses march in diminishing repetition from the looming near house at right; converging roof ridges and sill lines pinch toward a vanishing point off the left edge, regimenting industrial labor housing into pure receding perspective."
+}

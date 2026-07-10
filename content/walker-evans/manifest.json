@@ -1,0 +1,123 @@
+[
+  {
+    "file": "01-allie-mae-burroughs.jpg",
+    "width": 1283,
+    "height": 1600,
+    "sha1": "e5541e34",
+    "source": "01-allie-mae-burroughs.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "iQSmart 3"
+    }
+  },
+  {
+    "file": "02-floyd-burroughs.jpg",
+    "width": 1276,
+    "height": 1600,
+    "sha1": "c96133df",
+    "source": "02-floyd-burroughs.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-bud-fields-family.jpg",
+    "width": 1461,
+    "height": 1177,
+    "sha1": "03d4e1ce",
+    "source": "03-bud-fields-family.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-fireplace-wall-burroughs.jpg",
+    "width": 1284,
+    "height": 1600,
+    "sha1": "c844c522",
+    "source": "04-fireplace-wall-burroughs.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "iXH 150MP Achromatic",
+      "DateTimeOriginal": "2022:11:01 21:19:01",
+      "FocalLength": "72.0",
+      "ExposureTime": "0.0125",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "Phase One RS 72mm MkII/iXG"
+    }
+  },
+  {
+    "file": "05-roadside-stand-birmingham.jpg",
+    "width": 1600,
+    "height": 1307,
+    "sha1": "13556427",
+    "source": "05-roadside-stand-birmingham.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-penny-picture-display-savannah.jpg",
+    "width": 1278,
+    "height": 1600,
+    "sha1": "3385ea7b",
+    "source": "06-penny-picture-display-savannah.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-bethlehem-graveyard-steel-mill.jpg",
+    "width": 1600,
+    "height": 1273,
+    "sha1": "781b9a9d",
+    "source": "07-bethlehem-graveyard-steel-mill.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-negro-church-south-carolina.jpg",
+    "width": 1277,
+    "height": 1600,
+    "sha1": "7f766031",
+    "source": "08-negro-church-south-carolina.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "09-frame-houses-new-orleans.jpg",
+    "width": 1600,
+    "height": 1279,
+    "sha1": "fba6989f",
+    "source": "09-frame-houses-new-orleans.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "iXH 150MP Achromatic",
+      "DateTimeOriginal": "2022:11:01 20:24:38",
+      "FocalLength": "72.0",
+      "ExposureTime": "0.0125",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "Phase One RS 72mm MkII/iXG"
+    }
+  },
+  {
+    "file": "10-frame-houses-fredericksburg.jpg",
+    "width": 1600,
+    "height": 1079,
+    "sha1": "e10cb290",
+    "source": "10-frame-houses-fredericksburg.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-company-houses-birmingham.jpg",
+    "width": 1600,
+    "height": 1134,
+    "sha1": "559563dc",
+    "source": "11-company-houses-birmingham.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "iXH 150MP Achromatic",
+      "DateTimeOriginal": "2022:11:01 17:22:51",
+      "FocalLength": "72.0",
+      "ExposureTime": "0.02",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "Phase One RS 72mm MkII/iXG"
+    }
+  }
+]

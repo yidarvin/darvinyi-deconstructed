@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "04-fireplace-wall-burroughs.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.425,
+      "label": "CENTRAL AXIS"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.768,
+      "angle": -1.0,
+      "label": "TABLE EDGE"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.385,
+      "y": 0.075,
+      "w": 0.145,
+      "h": 0.17,
+      "label": "CALENDAR"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.81,
+      "y": 0.04,
+      "w": 0.185,
+      "h": 0.08,
+      "label": "TACKED PICTURES"
+    }
+  ],
+  "notes": "The wall is the picture plane: a bilaterally symmetric fireplace banded by strong horizontals, its tacked calendar and pictures read as a flat frontal grid of rectangles."
+}
