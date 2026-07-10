@@ -15,6 +15,15 @@ BUILD_MODEL="${BUILD_MODEL:-claude-opus-4-8[1m]}"
 CRITIC_MODEL="${CRITIC_MODEL:-claude-fable-5}"
 EFFORT="${EFFORT:---effort ultracode}"
 PERM_FLAG="${PERM_FLAG---dangerously-skip-permissions}"
+# Each stage is a nested `claude -p` that, under ultracode, spawns long-running
+# background workflows (image-review fleets, verification panels) that outlast
+# the default 600s background-wait ceiling. When that ceiling trips, the nested
+# claude TERMINATES its still-running work and returns exit 0 — a false success:
+# run_stage records rc=0 and the pipeline marches on having produced nothing
+# (in `loop` mode it silently skips real work across every wave). 0 = wait
+# indefinitely for the stage's own background tasks to finish. Override with a
+# millisecond ceiling if you ever need a hard cap.
+export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS="${CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS:-0}"
 
 set -euo pipefail
 trap 'echo ""; echo "!! interrupted — stopping run.sh"; exit 130' INT TERM
