@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "image": "synth.jpg",
+  "grid": {
+    "type": "phi"
+  },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.602,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.552,
+      "y": 0.601,
+      "confidence": 1.0,
+      "why": "8 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.525,
+      "confidence": 0.99,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.159,
+          0.998
+        ],
+        [
+          0.552,
+          0.603
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.79,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}
