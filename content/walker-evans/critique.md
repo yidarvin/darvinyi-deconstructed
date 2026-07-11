@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -211,3 +211,139 @@ visual pass on the first re-render).
 
 Full `bash scripts/check.sh` (validate, prose lint, tests, build, lint) passes
 clean after these edits.
+
+## Round 5 review (2026-07-11)
+
+Fresh-eyes re-review: all eleven proof PNGs viewed directly and cross-checked
+against their overlay JSON, analysis JSON, chapter.mdx, sources.md, and
+research.md. In parallel, ran an independent per-plate visual-truthfulness and
+caption-accuracy pass (one blind reviewer per plate, vision on the actual
+proof pixels) followed by adversarial verification (a second, skeptical pass
+instructed to try to refute every raised issue) before treating anything as
+real. One purported issue did not survive verification — a claimed "0.94 vs
+0.90" mismatch on plate 11 — because the actual chapter.mdx text reads 0.90,
+matching analysis.json's 0.8993; there is no error there, and it is not
+carried below.
+
+This round surfaced a site-wiring defect that outranks everything else below
+it, plus new problems on plates 03, 07, and 09, plus an escalation of a stale
+advisory on 04.
+
+## Required fixes
+
+1. **Site-wide — src/chapters/walker-evans.mdx (the file the site actually
+   renders) is three resolve-cycles out of date and has never picked up the
+   last two rounds of fixes.** `git log` shows src/chapters/walker-evans.mdx
+   was last written at commit f718050 ("resolve critique: walker-evans"),
+   while content/walker-evans/chapter.mdx has since moved through three more
+   commits (8524282, d8690ae, 481facd) applying the round-3 and round-4 fixes
+   above. `diff src/chapters/walker-evans.mdx content/walker-evans/chapter.mdx`
+   shows four paragraphs still differ, and this is not just stale wording —
+   on two plates the live copy now actively contradicts its own overlay:
+   - **Plate 03**: the live site says "an axis at 0.57," but the overlay's
+     drawn CENTRAL AXIS is at 0.54 (the round-3/4 fix moved the chapter's
+     number to match the overlay; the overlay itself never changed). A reader
+     comparing the live page to the plate sees the axis in a visibly
+     different place than the number claims.
+   - **Plate 07**: the live site says "the cemetery iron rails as a diagonal
+     depth vector running to the lower right" — this is the exact wrong
+     description round-4 fix 3 identified and replaced (the primitive was
+     moved to trace the real, near-horizontal iron rail; the caption was
+     rewritten to "a low iron pipe rail fencing the grave plots as a
+     near-level line at the base of the frame"). The live site still asserts
+     a diagonal that is not there.
+   - **Plate 04**: the live site still says "papered planks" (fixed to "bare
+     planks" back in round 2, since only the calendar and tacked pictures are
+     paper).
+   - **Plate 10**: the live site still says "the single wire" (fixed in round
+     2 to "the upper wire the overlay traces," acknowledging two wires are
+     visible in the sky and only one is marked).
+   Fix by re-syncing content/walker-evans/chapter.mdx to
+   src/chapters/walker-evans.mdx (whatever this project's normal
+   chapter-wiring step is). Also worth noting as a process gap: build.md's
+   step 0 ("resolve critiques... apply each numbered fix... commit and push")
+   does not mention re-wiring the chapter into the site the way step 1.e does
+   for the initial build, so every resolve cycle since f718050 has updated
+   content/ without touching src/. Confirming the re-sync happens as a normal
+   part of resolving a critique (or adding it explicitly to that step) would
+   stop this from recurring on the next round.
+
+2. **03-bud-fields-family — the caption's face count is wrong.** "Five faces
+   meet the camera" undercounts by one. The photograph shows six people with
+   visible faces: the left woman, the baby asleep in her lap, the standing
+   girl, Bud, the seated toddler ("CHILD AT THE AXIS"), and the right woman.
+   The sentence's own arithmetic doesn't reach five either: "four sharing a
+   shallow eye-line register" (left woman, girl, Bud, right woman) plus "the
+   sleeping baby's face tilts up out of the line" plus "the toddler sits
+   below it" is four-plus-one-plus-one, i.e. six. Fix by changing "Five" to
+   "Six" in the Plate caption, and in overlays/03-bud-fields-family.json's
+   `notes` field, which currently repeats the same "five faces" line.
+
+3. **03-bud-fields-family — the light direction is stated backwards.** "Evans
+   lets the deep shadow of the interior anchor the bottom while the faces
+   catch the light in a level row." Pixel sampling of the proof shows the
+   opposite: the bottom of the frame (the porch floor) is the best-lit region
+   in the picture (mean roughly 127-145/255 across crops, with visible wood
+   grain), while the genuinely deep, near-black shadow is the open doorway at
+   upper-left/center behind the standing girl (mean roughly 55/255, minimum
+   value 1). The top third of the frame is darker overall than the bottom
+   third. Fix by rewriting the clause so the shadow anchors the top/doorway,
+   not the bottom.
+
+4. **07-bethlehem-graveyard-steel-mill — the STEEL-MILL BASE line doesn't
+   mark the mill.** The leading_line at points `[0.40,0.35]` to
+   `[0.99,0.347]`, and the matching chapter clause ("the steel-mill base as a
+   level line across the upper frame"), both claim to mark the mill's base,
+   but on the proof this line sits exactly on the brick row house's
+   corbelled cornice band (the arched brick banding under its roofline, with
+   double-hung windows visible below it). The mill's furnaces and stacks sit
+   higher in the frame (roughly y 0.02-0.30), separated from this line by a
+   visible gap and the row house's own roof edge; the mill's actual base is
+   occluded and not in frame at all. Fix by relabeling the primitive to what
+   it truthfully marks (e.g. "ROW HOUSE CORNICE") and rewriting the matching
+   chapter clause, since as written both the overlay and the prose assert
+   something not visible in the photograph.
+
+5. **04-fireplace-wall-burroughs — self-contradicted superlative, unresolved
+   since round 4.** "the numbers are the strongest in the portrait group"
+   (referring to plate 04's 0.90 vertical symmetry) is directly contradicted
+   twenty lines later by the chapter's own description of plate 08 as "the
+   most symmetric frame in the chapter" (0.95). This was raised as an
+   advisory in round 4 and left unfixed; escalating it to required because it
+   is now a plain, checkable self-contradiction within the same document, not
+   just an imprecise phrase. Fix by dropping the superlative or restricting
+   the comparison to a claim that is actually true (e.g. cite the 0.90 and
+   0.42 numbers without asserting they are the strongest in any group).
+
+6. **09-frame-houses-new-orleans — the symmetry and "near-identical" claims
+   overclaim what the photo shows.** The frame is not actually bilaterally
+   symmetric: a wrought-iron fence occupies the foreground on the left only,
+   while a utility pole, a bare tree, and a sliver of a fourth house sit on
+   the right only, with no left-side counterparts. Separately, "near-identical"
+   facades overstates it: house 1's roofline (a full triangular pediment plus
+   a curved bracketed bow-cornice at its corner) is visibly different in
+   style from houses 2 and 3, which both show plain flat parapets with dentil
+   molding and neither pediment nor bracket. Fix by softening "near-identical"
+   (e.g. "matching in scale and rhythm") and either dropping the CENTRAL AXIS
+   symmetry_axis primitive or captioning it honestly as marking the shared
+   vertical beat of the porch columns rather than true bilateral mirror
+   symmetry of the whole frame.
+
+## Advisories
+
+- **04-fireplace-wall-burroughs** — carried forward from round 4: the
+  CALENDAR frame_in_frame box still cuts off the bottom ~15% of the calendar
+  sheet (the "Peters Shoes" text and rooster icon sit outside the drawn box).
+  Still true, still minor, not blocking.
+- All other round-4 fixes (03 gaze-register vertices, 07 cemetery iron rails
+  primitive, 08 gable pitch trim, 10 serial-roofline first segment) were
+  re-checked directly against the current proofs and hold clean in
+  content/walker-evans/chapter.mdx and its overlays — the defects found this
+  round are new ones, not regressions of prior fixes (with the caveat that
+  none of those fixes are visible on the live site; see required fix 1).
+
+Settings honesty: clean. chapter.mdx's Callout, research.md's Camera settings
+section, and sources.md all state plainly that no per-frame aperture/shutter/
+ISO survives for this 1930s FSA work and invent none. The ingest manifest's
+Phase One/iXH scanner EXIF (modern archival digitization metadata, not
+Evans's camera) does not leak into any prose.
