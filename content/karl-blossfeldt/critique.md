@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 Reviewed 2026-07-10 against all 12 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md. This is a strong set — 10 of 12 overlays land, the primitive selection teaches rather than inventories, and the settings Callout is exemplary honesty. Two overlays and two chapter passages block approval.
 
