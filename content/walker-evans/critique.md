@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -395,3 +395,101 @@ remaining five required fixes.
 re-synced (byte-identical) after every text edit above. Full
 `bash scripts/check.sh` (validate, chapter-sync, prose lint, tests, build,
 lint) passes clean.
+
+## Round 6 review (2026-07-11)
+
+Fresh-eyes re-review: all eleven proof PNGs viewed directly (not just the
+overlay JSON) and cross-checked against overlays/*.json, analysis/*.json,
+chapter.mdx, sources.md, and research.md. Ran an independent per-plate
+truthfulness/pedagogy/prose-match pass first (one blind reviewer per plate,
+vision on the actual proof pixels), then personally re-inspected the six
+highest-signal plates (01, 04, 05, 07, 09, 10, 11) myself against the raw
+proof PNGs before writing anything below — every required fix here is
+something I looked at with my own eyes, not just a relayed claim.
+
+Two purported issues from the per-plate pass did not survive my own
+verification and are not carried below: the 02 "doorframe post" leading_line
+being near-vertical (the caption already explicitly reframes it as standing
+the figure up, and the void it's paired with doesn't need its own primitive
+to be true) and the 11 "vertical symmetry of 0.90" line (round 5 already
+confirmed this number matches analysis.json exactly (0.8993) and is not an
+error; lacking a drawn primitive for it doesn't make the sentence false).
+
+This round surfaced three new, previously-uncaught truthfulness/chapter-
+accuracy problems, none of them overlapping with rounds 1-5 above.
+
+## Required fixes
+
+1. **04-fireplace-wall-burroughs — the horizon_line is mislabeled "TABLE
+   EDGE," and there is no table anywhere in this photograph.** The plate is
+   titled "Fireplace and wall detail, Burroughs cabin" and shows exactly
+   that: a fireplace surround with a scalloped mantel runner, two vases and
+   a small dish on the mantel shelf, and the brick firebox opening below.
+   The dominant horizontal the overlay correctly finds at y=0.768 is the
+   front edge of that mantel shelf/runner, not a table edge — there is no
+   table in the frame at all. chapter.mdx repeats the same error: "the table
+   edge registering as a horizontal line low in the frame near y 0.77."
+   sources.md already has this right ("tacked mantel objects"), so this is
+   an overlay-label + chapter-prose problem, not a research problem. Fix by
+   renaming the primitive's `label` in overlays/04-fireplace-wall-burroughs.json
+   from "TABLE EDGE" to something like "MANTEL EDGE," and changing
+   chapter.mdx's "the table edge" to "the mantel edge" (or "the mantel
+   shelf's edge").
+
+2. **05-roadside-stand-birmingham — the caption calls the whole stacked
+   sign facade "fish-market signs," but the topmost box is a house-mover's
+   advertisement, unrelated to the fish market.** The `frame_in_frame` box
+   labeled POINTER SIGN (x 0.355-0.67, y 0.178-0.336) plainly encloses
+   hand-lettered text reading "F.M. POINTER / The Old Reliable / HOUSE
+   MOVER" — nothing about fish. Only the two lower SPECIAL SIGN boxes
+   (river-fish price boards listing catfish, trout, perch, drum, buffalo,
+   eel) are actually fish-market signage; the large "FISH... Honest
+   Weights, Square Dealing" wordmark and "LAKE FISH" lettering painted
+   directly on the storefront (unmarked by any primitive, an advisory
+   carried since round 4) are the market's own signs. The caption's "A
+   dead-frontal facade where hand-lettered fish-market signs stack into
+   typographic rectangles" misdescribes the Pointer box specifically. Fix
+   by rewording the caption/prose so it doesn't call the house-mover's sign
+   a fish-market sign — e.g. describe the facade as stacked, unrelated
+   vernacular signage (a house-mover's ad planted above a fish market's own
+   price boards), which is if anything a more interesting, more honest
+   observation about how Evans found this kind of layered typography.
+
+3. **01-allie-mae-burroughs — "The clapboard behind her is a grid" is false
+   in the same paragraph that correctly says otherwise.** The wall is plain
+   horizontal board siding with no vertical members — the same sentence's
+   own preceding clause and the caption both accurately call it "ruled
+   horizontal banding," and the overlay's own primitive for it is a
+   `horizon_line`, not a grid. Calling the identical wall "a grid" three
+   sentences later contradicts the plate's own caption and overlay. Reserve
+   "grid" for walls that actually read as a rectilinear lattice in both
+   directions (04's fireplace wall, 06's penny-picture wall). Fix by
+   rewording, e.g. "The clapboard behind her is a ruled ground, her
+   features are a symmetry."
+
+## Advisories
+
+- **04-fireplace-wall-burroughs** — the CENTRAL AXIS (pos 0.425) sits a
+  little left of the mirror line suggested by the two matching vases on the
+  mantel top (centers roughly average to ~0.44); the TACKED PICTURES box
+  only encloses the top pair of images, though at least two more tacked/
+  framed pictures are visible lower on the same wall panel; the CALENDAR
+  box's bottom edge still clips the "Peters Shoes" line (carried forward
+  from rounds 4-5, still true, still not blocking).
+- **07-bethlehem-graveyard-steel-mill** — the WHITE GRAVE CROSS polyline
+  undershoots the actual carved stone: both arm tips extend visibly past
+  the teal outline, and the stem continues down past the outline's bottom
+  edge to the base/pedestal blocks.
+- **01-allie-mae-burroughs** — the FACE ellipse clips off the chin and
+  jawline; doesn't mislocate the face, but a slightly larger/lower oval
+  would fully enclose it.
+- **09-frame-houses-new-orleans** — "a bare tree" (introduced by the round-5
+  fix to this same sentence) misdescribes the tree at right, which is
+  visibly in leaf in the photograph. Change to "a tree" or "a leafy tree."
+
+Settings honesty: clean, as in every prior round — chapter.mdx's Callout,
+research.md's Camera settings section, and sources.md all state plainly that
+no per-frame aperture/shutter/ISO data survives for this 1930s FSA work and
+invent none; the Phase One/Sinar/Kodak entries in manifest.json are archival
+scanner metadata and never leak into any prose as if they were Evans's
+camera settings.
