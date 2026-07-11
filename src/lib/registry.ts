@@ -18,6 +18,9 @@ export interface ChapterMeta {
   /** Recurring cross-chapter threads this chapter touches. */
   routes?: string[];
   status: ChapterStatus;
+  /** ISO date (YYYY-MM-DD) the chapter was approved, from the critique.md commit
+   *  history. Present only on `done` chapters. */
+  approvedAt?: string;
 }
 
 export interface Registry {

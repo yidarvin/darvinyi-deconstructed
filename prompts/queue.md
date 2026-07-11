@@ -37,9 +37,9 @@ real queue and state live in data/registry.json.
 | 26  | edward-s-curtis           | Edward S. Curtis          | PENDING |
 | 27  | frances-benjamin-johnston | Frances Benjamin Johnston | PENDING |
 | 28  | alvin-langdon-coburn      | Alvin Langdon Coburn      | PENDING |
-| 29  | karl-blossfeldt           | Karl Blossfeldt           | PENDING |
+| 29  | karl-blossfeldt           | Karl Blossfeldt           | DONE    |
 | 30  | alfred-stieglitz          | Alfred Stieglitz          | PENDING |
-| 31  | eugene-atget              | Eugène Atget              | PENDING |
+| 31  | eugene-atget              | Eugène Atget              | DONE    |
 | 32  | edward-steichen           | Edward Steichen           | PENDING |
 | 33  | paul-strand               | Paul Strand               | PENDING |
 | 34  | laszlo-moholy-nagy        | László Moholy-Nagy        | PENDING |
@@ -50,8 +50,8 @@ real queue and state live in data/registry.json.
 | 39  | man-ray                   | Man Ray                   | PENDING |
 | 40  | andre-kertesz             | André Kertész             | PENDING |
 | 41  | jacques-henri-lartigue    | Jacques-Henri Lartigue    | PENDING |
-| 42  | dorothea-lange            | Dorothea Lange            | PENDING |
-| 43  | walker-evans              | Walker Evans              | PENDING |
+| 42  | dorothea-lange            | Dorothea Lange            | DONE    |
+| 43  | walker-evans              | Walker Evans              | DONE    |
 | 44  | gordon-parks              | Gordon Parks              | PENDING |
 | 45  | arthur-rothstein          | Arthur Rothstein          | PENDING |
 | 46  | ben-shahn                 | Ben Shahn                 | PENDING |

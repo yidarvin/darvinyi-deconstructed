@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -47,20 +48,37 @@ STAGE_TO_STATUS = {
 STATUS_TO_QUEUE = {"done": "DONE", "draft": "PENDING", "pending": "PENDING"}
 
 
+def approved_date(slug: str) -> str | None:
+    """ISO date (YYYY-MM-DD) of the last commit touching content/<slug>/critique.md."""
+    result = subprocess.run(
+        ["git", "log", "-1", "--format=%ad", "--date=short", "--",
+         os.path.join("content", slug, "critique.md")],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    date = result.stdout.strip()
+    return date or None
+
+
 def build_chapters(data: dict) -> list[dict]:
     chapters = [dict(INTRO)]
     for i, p in enumerate(data["photographers"], start=1):
         status = STAGE_TO_STATUS.get(p.get("stage", "pending"), "pending")
-        chapters.append(
-            {
-                "num": i,
-                "slug": p["slug"],
-                "title": p["name"],
-                "subtitle": p.get("dates", ""),
-                "part": p["group"],
-                "status": status,
-            }
-        )
+        chapter = {
+            "num": i,
+            "slug": p["slug"],
+            "title": p["name"],
+            "subtitle": p.get("dates", ""),
+            "part": p["group"],
+            "status": status,
+        }
+        if status == "done":
+            date = approved_date(p["slug"])
+            if date:
+                chapter["approvedAt"] = date
+        chapters.append(chapter)
     return chapters
 
 

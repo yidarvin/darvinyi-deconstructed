@@ -245,7 +245,8 @@
       "title": "Karl Blossfeldt",
       "subtitle": "1865–1932",
       "part": "III. Pictorialists & the Art Claim",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-11"
     },
     {
       "num": 30,
@@ -261,7 +262,8 @@
       "title": "Eugène Atget",
       "subtitle": "1857–1927",
       "part": "IV. Modernism & the New Vision",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-11"
     },
     {
       "num": 32,
@@ -349,7 +351,8 @@
       "title": "Dorothea Lange",
       "subtitle": "1895–1965",
       "part": "V. FSA & American Documentary",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-11"
     },
     {
       "num": 43,
@@ -357,7 +360,8 @@
       "title": "Walker Evans",
       "subtitle": "1903–1975",
       "part": "V. FSA & American Documentary",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-11"
     },
     {
       "num": 44,
