@@ -13,7 +13,7 @@
       "type": "horizon_line",
       "y": 0.768,
       "angle": -1.0,
-      "label": "TABLE EDGE"
+      "label": "MANTEL EDGE"
     },
     {
       "type": "frame_in_frame",

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -493,3 +493,46 @@ no per-frame aperture/shutter/ISO data survives for this 1930s FSA work and
 invent none; the Phase One/Sinar/Kodak entries in manifest.json are archival
 scanner metadata and never leak into any prose as if they were Evans's
 camera settings.
+
+## Builder resolution (2026-07-11)
+
+All three round-6 required fixes applied.
+
+1. **04-fireplace-wall-burroughs TABLE EDGE mislabel.** Renamed the
+   `horizon_line` primitive's label in
+   overlays/04-fireplace-wall-burroughs.json from "TABLE EDGE" to
+   "MANTEL EDGE" (no geometry changed — the line already sat correctly on
+   y=0.768). Changed chapter.mdx's "the table edge registering as a
+   horizontal line low in the frame near y 0.77" to "the mantel edge...".
+   Re-rendered the proof through the composition-analysis loop: score 100,
+   clean visual pass, the label now sits directly on the white mantel
+   shelf's front edge above the firebox opening. No table exists anywhere
+   in the frame; sources.md already correctly said "tacked mantel objects."
+2. **05-roadside-stand-birmingham fish-market overclaim.** Reworded the
+   plate caption from "hand-lettered fish-market signs stack into
+   typographic rectangles" to "stacked, unrelated vernacular signage, a
+   house-mover's hand-lettered ad planted above the fish market's own price
+   boards" — matching what the POINTER SIGN box actually encloses (an
+   "F.M. POINTER ... HOUSE MOVER" ad) versus the two SPECIAL SIGN boxes
+   (genuine river-fish price boards). No overlay geometry changed; no
+   re-render needed. Written without an em dash per house style
+   (prose-lint.config.json bans U+2014 in src/chapters/**/*.mdx) — first
+   draft used one and prose lint caught it; rewritten as a comma-chained
+   appositive instead.
+3. **01-allie-mae-burroughs clapboard-is-a-grid contradiction.** Changed
+   "The clapboard behind her is a grid" to "The clapboard behind her is a
+   ruled ground," consistent with the same paragraph's own "ruled
+   horizontal banding" description and the overlay's `horizon_line`
+   primitive (plain board siding, no vertical members — not a lattice).
+   Text-only; no re-render needed. The chapter's other "grid" references
+   (plate 04's tacked-object frieze, plate 06's literal picture-panel wall)
+   are unrelated claims about different walls and were left untouched.
+
+Independently verified each fix (three separate read-only passes against
+the rendered proof PNGs, overlay JSON, analysis JSON, chapter.mdx, and
+src/chapters/walker-evans.mdx) before closing this out — all three came
+back clean with no residual issues.
+
+content/walker-evans/chapter.mdx and src/chapters/walker-evans.mdx were
+re-synced (byte-identical) after every text edit. Full `bash scripts/check.sh`
+(validate, chapter-sync, prose lint, tests, build, lint) passes clean.
