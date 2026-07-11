@@ -2,8 +2,12 @@ You are the BUILDER. Read CLAUDE.md first and follow the model roles.
 
 0. Resolve critiques: for every content/*/critique.md with `verdict: revise`,
    apply each numbered fix — re-run the composition-analysis loop for
-   affected images, update overlays/proofs/chapter as needed — then set
-   `verdict: resolved`. Commit and push per slug ("resolve critique: <slug>").
+   affected images, update overlays/proofs/chapter as needed. Any chapter edit
+   must land in BOTH content/<slug>/chapter.mdx and the file the site actually
+   renders, src/chapters/<slug>.mdx — keep the two byte-identical. Then run
+   scripts/check.sh and confirm it passes (its chapter-sync gate fails if the
+   copies diverge) before you set `verdict: resolved`. Commit and push per slug
+   ("resolve critique: <slug>").
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
    at stage "sourced". Work them one at a time, registry order. Skip any
    photographer whose raw/<slug>/ contains fewer than 4 image files — they
@@ -24,8 +28,10 @@ You are the BUILDER. Read CLAUDE.md first and follow the model roles.
       overlay claims and the analyzer's tonal/palette findings, honest about
       settings per (a).
    e. Wire the chapter into the site per template conventions (route, nav,
-      index/TOC ordered by registry group) and confirm the production build
-      passes.
+      index/TOC ordered by registry group). The site renders
+      src/chapters/<slug>.mdx — keep it byte-identical with
+      content/<slug>/chapter.mdx. Run scripts/check.sh (the full gate) and
+      confirm it passes.
    f. Set that photographer's registry stage to "built". Commit and push
       ("build: <slug>").
 If an image lands in needs-review.txt, keep going — never stall the batch.
