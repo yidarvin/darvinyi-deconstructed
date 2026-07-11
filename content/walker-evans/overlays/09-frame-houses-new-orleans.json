@@ -19,13 +19,13 @@
       "type": "leading_line",
       "points": [[0.574, 0.41], [0.574, 0.72]],
       "arrow": false,
-      "label": ""
+      "label": "REPEATED COLUMNS"
     },
     {
       "type": "leading_line",
       "points": [[0.7725, 0.427], [0.7725, 0.733]],
       "arrow": false,
-      "label": ""
+      "label": "REPEATED COLUMNS"
     },
     {
       "type": "horizon_line",
@@ -34,5 +34,5 @@
       "label": "CURB LINE"
     }
   ],
-  "notes": "Frontal facades read as a flat frieze: the porch columns beat a repeated vertical rhythm across three near-identical houses, squared to the picture plane above the horizontal curb."
+  "notes": "Frontal facades read as a flat frieze: the porch columns beat a repeated vertical rhythm across three houses matching in scale and rhythm, squared to the picture plane above the horizontal curb."
 }

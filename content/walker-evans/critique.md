@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -722,3 +722,90 @@ metadata) do not leak into chapter.mdx, sources.md, or research.md as if
 they were Evans's own camera settings. The one settings-adjacent issue this
 round is the narrower provenance-framing gap on plate 06 captured as an
 advisory above.
+
+## Builder resolution (2026-07-11)
+
+Regression gate first: dispatched one independent read-only re-verification
+pass per plate (all 11) plus a chapter-wide numeric-consistency and
+settings-honesty sweep, checking every required fix from every prior round
+(1, 3, 4, 5, 6) against the current overlays/proofs/chapter — before making
+any round-7 edits. All held clean, nothing regressed:
+- 01: sources.md's "horizontal" clapboard call and chapter.mdx's "ruled
+  ground" (not "grid") phrasing both hold.
+- 02: no prior fixes on record; overlay and chapter still match the image
+  and invent no settings.
+- 03: the hand-set 0.54 axis, the decoupled 0.54-vs-0.575/0.81 prose, the
+  gaze-register vertices at true eye level, the "six faces" caption/notes,
+  and the doorway-not-floor shadow direction all hold.
+- 05: the house-mover/fish-market sign distinction holds.
+- 07: the real cemetery-rail primitive and the "row house cornice"
+  relabeling both hold (checked against the pre-fix state, since this plate
+  also got a new round-7 fix below).
+- 08: both gable-pitch lines still stop cleanly at their eave corners.
+- 09: the "matching in scale and rhythm" softening and the porch-rhythm
+  (not literal-mirror) axis caption hold.
+- 10: the serial-roofline's first segment still starts at the first
+  matching house (checked against the pre-fix state, since this plate also
+  got a new round-7 fix below).
+- 11: no prior required fixes on record.
+- Global sweep: zero findings — no silently-wrong quoted number anywhere in
+  the chapter, no invented settings, manifest.json's scanner EXIF never
+  leaks into prose as Evans's own camera data.
+Three long-standing advisories were re-confirmed as still open and, per
+build.md, correctly left unfixed since they're optional and not free
+side-effects of a required fix: 01's FACE ellipse still clips the
+chin/jawline; 07's WHITE GRAVE CROSS polyline still slightly undershoots the
+carved stone; 11's ROOF RIDGES RECEDE line still kinks along chimney brick.
+
+All seven round-7 required fixes applied and re-rendered/re-scored through
+the composition-analysis loop (every touched plate converged on the first
+render/score pass, all clean visual passes, all scores >= 93):
+
+1. **04 CALENDAR box.** Increased `h` from 0.17 to 0.19 (x/y/w unchanged)
+   after confirming the calendar sheet's true bottom edge directly against
+   the source JPEG. Score 100, zero deductions.
+2. **06 APPLIED STUDIO SIGN box.** Raised the top edge from y=0.315 to
+   y=0.304 (h grown from 0.145 to 0.156, bottom edge held fixed) so all six
+   STUDIO letters, including the three that used to poke out (D, I, O), sit
+   fully inside. Score 100.
+3. **06 "no horizon" overclaim.** Reworded both the overlay's `notes` field
+   and chapter.mdx's plate-06 caption from "no horizon and no depth" to "no
+   landscape horizon or leading depth," acknowledging analysis.json's real
+   0.92-confidence seam at y=0.754 (a join between two rows of
+   contact-printed panels, not a compositional horizon) without
+   contradicting the accurate "no leading depth" claim (vanishing_point is
+   null).
+4. **07 CEMETERY IRON RAILS overshoot.** Shortened the line's second point
+   from [0.90, 0.886] to [0.79, 0.887] after pixel-verifying the actual
+   rail/post junction; the line now ends at the corner post/chain instead of
+   crossing open grass. Score 93. chapter.mdx's existing wording doesn't
+   name an endpoint, so no text change was needed.
+5. **10 LONE VERTICAL pole lean.** Measured the pole's centerline directly
+   off the ingested image using a clean, uncluttered sub-segment and linear
+   regression (independent of the critique's own estimate, which it
+   corroborated: ~4.9° lean vs. the critique's ~4°). Redrew the line to
+   [[0.527,0.54],[0.505,0.93]]. Score 94. Judged chapter.mdx's "the lone
+   vertical pole" phrasing still accurate as a compositional-role label (the
+   frame's one vertical accent), not a plumbness claim, so left it
+   unchanged.
+6. **11 symmetry hedge.** Added a hedge to the 0.90 vertical-symmetry
+   sentence: "...a coarse left-right tonal-band correlation rather than a
+   real mirror, since the looming near house has no counterpart on the
+   left..." — text-only, no overlay change.
+7. **09 curb-number disclosure.** Added a disclosure clause matching plate
+   03's convention: the hand-set curb at y=0.79 (the sidewalk/grass edge) is
+   now explicitly distinguished from the analyzer's raw luminance split at
+   0.758 (a messier driveway-apron area a few feet closer).
+
+Two cheap, clearly-correct advisories fixed alongside the above (optional
+per build.md, taken because they cost nothing and were directly verified
+against the image): 09's "a bare tree" corrected to "a leafy tree" (the tree
+at right is visibly in leaf, not bare) in both chapter.mdx and, together
+with softening its overlay notes' own "near-identical" phrasing to match
+the chapter's fix, and 09's two blank `label: ""` REPEATED COLUMNS
+primitives filled in (all three now labeled, re-rendered, re-scored at
+87.2). No other advisories were touched.
+
+`content/walker-evans/chapter.mdx` and `src/chapters/walker-evans.mdx` were
+re-synced (byte-identical) after every text edit. Full `bash scripts/check.sh`
+(validate, chapter-sync, prose lint, tests, build, lint) passes clean.
