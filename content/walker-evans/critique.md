@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -536,3 +536,189 @@ back clean with no residual issues.
 content/walker-evans/chapter.mdx and src/chapters/walker-evans.mdx were
 re-synced (byte-identical) after every text edit. Full `bash scripts/check.sh`
 (validate, chapter-sync, prose lint, tests, build, lint) passes clean.
+
+## Round 7 review (2026-07-11)
+
+Fresh-eyes re-review, run as twelve independent passes (one reviewer per
+plate, plus one dedicated chapter-wide consistency pass cross-checking
+superlatives, quoted numbers, and site-sync state across all 11 plates at
+once), each with vision on the actual proof PNGs, overlay JSON, analysis
+JSON, chapter.mdx, sources.md, and research.md. Every raw finding then went
+through adversarial verification: three independent verifiers per finding,
+each instructed to try to refute it by independently re-deriving the pixel
+geometry or re-reading the source files, with a majority required to
+survive. 11 raw findings surfaced; all 11 survived verification unanimously
+(0 refuted). I then personally re-inspected the proof PNGs for 04, 06, 07,
+09, 10, and 11 myself before writing anything below — every required fix
+here is something I looked at directly, not just a relayed claim. Confirmed
+`bash scripts/check.sh` passes clean and content/walker-evans/chapter.mdx is
+still byte-identical to src/chapters/walker-evans.mdx before starting (no
+regression of the round-5 site-sync defect).
+
+01-allie-mae-burroughs, 02-floyd-burroughs, 03-bud-fields-family,
+05-roadside-stand-birmingham, and 08-negro-church-south-carolina came back
+clean from their per-plate reviewers.
+
+## Required fixes
+
+1. **04-fireplace-wall-burroughs — the CALENDAR frame_in_frame box clips the
+   bottom of the calendar it claims to enclose.** `overlays/04-fireplace-wall-burroughs.json`
+   draws the box at x=0.385, y=0.075, w=0.145, h=0.17 (pixel box x=616-848,
+   y=149-488 on the 1600x1993 proof). I looked at the proof directly: the
+   bottom bracket lands mid-way through the date grid, around the
+   "17 18 19 20 21 22" row. Below the box, still clearly part of the same
+   calendar sheet, sit the final "25 26 27 28 29" row and the "Peters Shoes
+   ... Leather Footwear" printer's imprint line, both legible and both
+   outside the drawn rectangle — the sheet's true bottom edge sits at roughly
+   y=518-522px (frac ~0.26), about 32px/1.6%-of-frame-height past the box's
+   bottom. Fix by increasing `h` from 0.17 to about 0.19-0.20 (keeping y at
+   0.075) so the box reaches the sheet's actual bottom edge, then re-render
+   and re-check.
+
+2. **06-penny-picture-display-savannah — the APPLIED STUDIO SIGN box clips
+   the tops of several of its own letters.** `overlays/06-penny-picture-display-savannah.json`
+   draws the box at x=0.06, y=0.315, w=0.86, h=0.145 (pixel box x=96-1472,
+   y=631-921 on the 1600x2003 proof). I looked at the proof directly: S and T
+   sit roughly flush with the box's top edge, but D, I, and O visibly rise
+   above it — the felt letters were cut with uneven baselines/heights and the
+   box's flat top edge doesn't clear the tallest of them. Fix by raising the
+   top edge (lower `y`, taller `h`) to roughly y=0.303-0.305 so all six
+   letters of STUDIO sit fully inside the box, then re-render.
+
+3. **06-penny-picture-display-savannah — the caption and overlay notes both
+   flatly claim "no horizon," which the analyzer's own highest-confidence
+   detection in this file contradicts.** `analysis/06-penny-picture-display-savannah.analysis.json`
+   records `horizon.y = 0.7539, confidence = 0.9218` — the single highest
+   confidence value anywhere in that file, and one of only two entries in
+   `suggested_primitives`. At that y (~px 1510 of 2003) the proof shows a
+   real, nearly full-width level seam between the third and fourth rows of
+   panel sheets — the same kind of level line the chapter elsewhere calls a
+   horizon (the plate-04 mantel edge, the plate-05 roofline, the plate-09
+   curb). The body sentence "The analyzer finds no leading depth at all" is
+   accurate (`vanishing_point` is null) — that is a distinct claim from "no
+   horizon," and the caption conflates the two. Fix by either qualifying the
+   claim ("no landscape horizon, no depth") or naming the y=0.754 seam
+   explicitly and explaining why it doesn't count as a compositional horizon,
+   instead of flatly asserting none exists.
+
+4. **07-bethlehem-graveyard-steel-mill — the CEMETERY IRON RAILS line
+   overshoots the actual rail into open grass.** The primitive
+   (`overlays/07-bethlehem-graveyard-steel-mill.json`) runs from [0.03, 0.887]
+   to [0.90, 0.886]. On the proof, the physical iron pipe rail terminates at
+   a corner fence-post with a hanging chain at roughly x=0.78-0.80 — visible
+   in the image just right of center-bottom; from there to the line's stated
+   endpoint at x=0.90 (about 10% of the frame width) the teal stroke crosses
+   only tall grass and weeds, with no rail, post, or fence structure beneath
+   it. The left ~85% of the line does correctly trace the rail. Fix by
+   shortening the second point to approximately [0.79, 0.887] so the line
+   ends at the visible corner post.
+
+5. **10-frame-houses-fredericksburg — the LONE VERTICAL: TELEPHONE POLE line
+   is drawn dead-straight, but the actual pole leans.** The primitive
+   (`overlays/10-frame-houses-fredericksburg.json`) runs from (0.51, 0.54) to
+   (0.51, 0.93) — a perfect vertical. Direct pixel measurement of the source
+   image shows the pole itself sits at roughly x=0.525 at y=0.54 (where the
+   line begins) and drifts to roughly x=0.507-0.51 by y=0.86-0.90, a real
+   ~4° lean and a visible gap between the teal stroke and the pole trunk near
+   the top of the line. This was flagged as a minor advisory back in round 4
+   ("the actual pole leans about 1-2% of frame width off that line") and left
+   unfixed for three rounds; now that it's been measured precisely and the
+   overlay-spec requires leading lines to trace the real contour, it's a
+   checkable truthfulness defect, not just a nitpick. Fix by re-measuring the
+   pole's true centerline top and bottom and redrawing the line to follow it
+   (roughly [[0.525,0.54],[0.508,0.93]]), or, if the lean is judged too minor
+   to bother tracing, drop the "LONE VERTICAL" framing and soften
+   chapter.mdx's "the lone vertical pole" phrasing so it isn't claiming a
+   plumb line the photograph doesn't show.
+
+6. **11-company-houses-birmingham — the chapter cites a 0.90 vertical
+   symmetry for this plate without acknowledging it isn't a real mirror, on
+   the one plate the chapter itself names as breaking its own discipline.**
+   chapter.mdx's own line for this plate says "This is the one plate where
+   Evans breaks his own flatness for effect" — the near house looms hugely at
+   right, the row recedes in scale to the left, and nothing here mirrors
+   across a center. Looking at the proof, this reads as unambiguously
+   perspectival, not frontal-symmetric. Two paragraphs earlier the chapter
+   explains plate 07's low 0.63 score with an explicit causal claim
+   ("because the composition is horizontal banding rather than a mirror"),
+   but offers no equivalent explanation for why plate 11's equally
+   non-mirrored, perspectival composition still scores 0.90 — nearly as high
+   as the genuinely frontal-symmetric plates (04's 0.90, 09's 0.92, 08's
+   0.95). Plates 03 and 09 both hedge their symmetry numbers against the
+   frame's actual asymmetric content; plate 11 doesn't, even though the
+   overlay itself quietly declines to draw the `symmetry_axis` primitive that
+   `analysis.json`'s `suggested_primitives` proposed (pos 0.5, confidence
+   0.9) — an implicit admission the axis isn't a meaningful visual claim
+   here. Fix by adding a hedge in the same style as plates 03/09 (the 0.90 is
+   a coarse left-right tonal-band correlation, not a real mirror, since the
+   near house has no counterpart on the left) or cutting the number so it
+   doesn't read as validating the chapter's symmetry thesis on the plate
+   explicitly framed as the exception to it.
+
+7. **Chapter-wide — 09-frame-houses-new-orleans's curb is quoted at a number
+   that doesn't match the analyzer, and the gap is never disclosed.**
+   chapter.mdx states "The curb is marked as a level horizon at y 0.79,"
+   matching the overlay's hand-set `horizon_line` (`overlays/09-frame-houses-new-orleans.json`,
+   y=0.79) but not `analysis/09-frame-houses-new-orleans.analysis.json`,
+   where `horizon.y = 0.758` (confidence 1.0) — a 3-percentage-point gap.
+   Every other horizon/axis number quoted elsewhere in the chapter matches
+   its analysis.json value to the thousandth. Looking at the proof, 0.79 is
+   the more defensible read — it sits on the actual sidewalk/grass boundary,
+   while 0.758 falls in a messier driveway-apron area — but nothing says so.
+   This was flagged as an advisory back in round 4 ("nothing notes that the
+   analyzer's raw value was deliberately overridden") and has sat unresolved
+   for three rounds since; unlike plate 03, which explicitly discloses that
+   its hand-set axis (0.54) departs from the analyzer's raw peak (0.575),
+   plate 09's curb override is silent. Fix by adding a clause disclosing the
+   deliberate departure, matching the chapter's own plate-03 convention, or
+   moving the overlay's curb to 0.758 and updating the prose to "y 0.76" if
+   the raw reading is judged the more honest one instead.
+
+## Advisories
+
+- **06-penny-picture-display-savannah** — the caption's "the field mirrored
+  on a central column and broken only by the applied STUDIO lettering"
+  implies a near-literal reflection, but this plate's 0.71 symmetry is the
+  second-lowest in the chapter (only 07's 0.63 is lower) and the actual
+  content isn't mirrored at all — every panel shows different, unrelated
+  people, so any symmetry here is structural/grid-level only. Plate 09, with
+  a considerably higher 0.92 score, gets an explicit hedge ("not a literal
+  mirror of the whole frame, since..."); plate 06 gets the more confident,
+  unhedged language despite a weaker score and more obviously non-mirrored
+  content.
+- **06-penny-picture-display-savannah** — the closing Callout's "These are
+  8x10 and 4x5 view-camera negatives ... The FSA negatives carry no
+  per-frame aperture or shutter log" is framed as a blanket statement
+  covering all 11 plates ("every plate shows"), but sources.md and
+  research.md both single out plate 06 as the one image that "falls outside
+  the FSA negative file" and is instead "reproduced from the Metropolitan
+  Museum of Art's Open Access (CC0) print." No settings are invented for it,
+  so this doesn't break the core settings-honesty rule, but the blanket
+  framing folds plate 06 into an FSA-negative provenance claim the chapter's
+  own sourcing docs contradict for that one image.
+- **09-frame-houses-new-orleans** — two of the three "REPEATED COLUMNS"
+  `leading_line` primitives carry `label: ""` in
+  `overlays/09-frame-houses-new-orleans.json`; only the first instance is
+  labeled. A reader looking at the rendered proof alone sees two unexplained
+  teal verticals. Every other overlay in this chapter labels every instance
+  of a repeated primitive (08's two GABLE PITCH lines, 05's two SPECIAL SIGN
+  boxes); plate 09 is the one exception.
+- **Chapter-wide** — the opening paragraph names "horizon lines that sit
+  dead level" as one of the analyzer's three defining signatures, and plate
+  01's caption calls its clapboard band "a level line" with no hedge, but
+  `analysis/01-allie-mae-burroughs.analysis.json` records the largest
+  measured horizon tilt in the chapter for that exact line (angle_deg=2.97,
+  confidence 1.0, method "both") — the plate with the single largest,
+  most-confidently-measured tilt gets the least hedged "level" language of
+  any plate. Separately, plate 05's own caption calls its roofline
+  "ruler-flat" while its body text two lines later calls the same line
+  "nearly level" — a small internal inconsistency in how flat the same line
+  is claimed to be.
+
+Settings honesty: clean on the core rule — no per-frame f-stop, shutter
+speed, or ISO is invented anywhere for any of the eleven 1930s plates, and
+the Phase One/Sinar/Kodak entries in manifest.json (modern archival scanner
+metadata) do not leak into chapter.mdx, sources.md, or research.md as if
+they were Evans's own camera settings. The one settings-adjacent issue this
+round is the narrower provenance-framing gap on plate 06 captured as an
+advisory above.
