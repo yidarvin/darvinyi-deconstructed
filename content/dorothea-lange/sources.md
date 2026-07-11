@@ -67,13 +67,13 @@ Lange composes for gravity and confrontation. Again and again she monumentalizes
 - **File:** raw/dorothea-lange/10-family-walking-highway.jpg (9833px)
 
 ### 11 — Members of the Mochida Family Awaiting the Evacuation Bus, Hayward, California (1942)
-- **Why it matters:** A ten-person frieze compressed into a shallow human wall — two staggered rows spanning the full width with almost no depth, the stair-step of heights descending to the two "Mochida"-labeled duffels on the foreground baseline, the paper identification tags repeating as bright accents across the mass.
+- **Why it matters:** A nine-person frieze compressed into a shallow human wall — two staggered rows spanning the full width with almost no depth, the stair-step of heights descending to the two "Mochida"-labeled duffels on the foreground baseline, the paper identification tags repeating as bright accents across the mass.
 - **Source:** https://catalog.archives.gov/id/537505 (NARA Local Identifier 210-GC-153; National Archives ID 537505; RG 210, Records of the War Relocation Authority). Original NARA TIFF via Wikimedia Commons.
 - **Rights:** Public domain (U.S. government work; War Relocation Authority; U.S. National Archives)
 - **File:** raw/dorothea-lange/11-mochida-family-hayward-evacuation.jpg (3000px)
 
 ### 12 — Pledge of Allegiance, Raphael Weill Elementary School, San Francisco (1942)
-- **Why it matters:** A tight frieze of frontal faces on a shallow plane — the plaid-coated girls a rhythmic foreground row along the lower-third line, each right hand a repeated diagonal across the chest, while the crowd of upturned heads stacks into a dense wall behind, converging on the unseen flag.
+- **Why it matters:** A tight frieze of frontal faces on a shallow plane — the winter-coated girls a rhythmic foreground row along the lower-third line, each right hand a repeated diagonal across the chest, while the crowd of upturned heads stacks into a dense wall behind, converging on the unseen flag.
 - **Source:** https://www.loc.gov/item/2001705926/ (repro LC-DIG-ppmsca-98857). LOC caption: "Children of the Weill public school … shown in a flag pledge ceremony. Some of them are evacuees of Japanese ancestry." Full-resolution frame via Wikimedia Commons.
 - **Rights:** Public domain (U.S. government work; War Relocation Authority; Library of Congress)
 - **File:** raw/dorothea-lange/12-pledge-of-allegiance.jpg (1516px)

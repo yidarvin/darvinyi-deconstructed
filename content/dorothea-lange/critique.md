@@ -1,4 +1,7 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution (2026-07-10)
+Required fix #1 applied: the Mochida family plate shows nine people (3 adults + 3 mid-height children + 3 small children, counted against the scan). sources.md now reads "A nine-person frieze" and overlays/11 notes now read "A frontal wall of nine" (was "ten"/"eleven"). Advisories also addressed: 09 crossed-hands → singular ("the hand gripping the cane") in body and caption; 12 "plaid-coated girls" → "winter-coated girls"; 01 palette span widened to #111111 (the measured darkest swatch); 01 PYRAMID/FOREARM BASE label collision fixed by reversing the pyramid polyline so PYRAMID labels bottom-right (proof re-rendered, score 100). Carried-over acceptable advisories (11 FATHER anchor grade) left as-is.
 
 Re-reviewed 2026-07-10 (second pass) with fresh eyes against all 12 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md; every finding below survived an independent 3-verifier adversarial pass. All 8 required fixes from the prior critique verified landed: 05's FACE ellipse now sits on the face and ARM TO BROW starts at the elbow and rides the forearm; 06's BENT BACKS rides the skyline of backs and the anchor is honestly relabeled LETTUCE; 10's LEFT ROAD EDGE traces the real grass/pavement boundary; 11's FAMILY NAME polyline sits on both stenciled "Mochida" letterings; the 02 superlative and wall-seam direction, the 01 saliency-artifact citation, and 08's "overseer" are all corrected in chapter and sources. The set is one factual count away from approval.
 
