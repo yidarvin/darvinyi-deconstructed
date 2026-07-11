@@ -30,8 +30,8 @@
     },
     {
       "type": "leading_line",
-      "points": [[0.52, 0.575], [0.99, 0.991]],
-      "arrow": true,
+      "points": [[0.03, 0.887], [0.90, 0.886]],
+      "arrow": false,
       "label": "CEMETERY IRON RAILS"
     }
   ],

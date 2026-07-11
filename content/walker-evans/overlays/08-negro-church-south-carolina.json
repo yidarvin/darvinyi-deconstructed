@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "CENTRAL AXIS" },
     { "type": "subject_anchor", "x": 0.48, "y": 0.21, "r": 0.05, "label": "CUPOLA" },
-    { "type": "leading_line", "points": [[0.05, 0.576], [0.5, 0.296]], "arrow": false, "label": "GABLE PITCH" },
+    { "type": "leading_line", "points": [[0.19, 0.483], [0.5, 0.296]], "arrow": false, "label": "GABLE PITCH" },
     { "type": "leading_line", "points": [[0.5, 0.296], [0.785, 0.462]], "arrow": false, "label": "GABLE PITCH" }
   ],
   "notes": "A dead-frontal church built on a vertical mirror axis: cupola, gable peak, transom and central door stack on the spine while the twin roof pitches converge on that axis, twin rectangular louvered-shutter windows mirroring left and right."

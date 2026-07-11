@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -164,3 +164,50 @@ Settings honesty: clean — no settings-honesty finding survived verification
 this round. chapter.mdx's Callout, research.md, and sources.md continue to
 state plainly that no per-frame aperture/shutter/ISO data survives for any of
 the eleven plates and invent none.
+
+## Builder resolution (2026-07-11)
+
+All five round-4 required fixes applied and re-rendered/re-scored through the
+composition-analysis loop (all four affected plates pass ≥80 with a clean
+visual pass on the first re-render).
+
+1. **03-bud-fields-family axis/symmetry pairing.** chapter.mdx's plate-03
+   sentence no longer implies the 0.81 symmetry score was measured at the
+   0.54 axis. It now reads: "the group holds together on a hand-set axis at
+   0.54, run through Bud and the seated child rather than the frame's raw
+   correlation peak; the analyzer's own strongest mirror match, a vertical
+   symmetry of 0.81, actually peaks a little further right, at 0.575." The
+   overlay's hand-set axis (0.54) is untouched, per the round-3 judgment that
+   it is the more faithful read.
+2. **03-bud-fields-family gaze register.** Measured actual eye level for both
+   flagged sitters directly off the ingested image (pixel-grid crops, not
+   guessed): the left woman's eyes sit at y≈0.36 (endpoint was 0.345, on her
+   brow), the right woman's eyes sit at y≈0.335 (endpoint was 0.375, on her
+   mouth/upper lip). Updated both endpoints; the two middle vertices (the
+   standing girl, Bud) were checked the same way and confirmed already
+   correct, left as-is. Re-rendered proof shows the line running through all
+   four sitters' eyes.
+3. **07-bethlehem cemetery iron rails.** The generic detected diagonal never
+   traced a rail. Located the actual horizontal iron pipe fence running the
+   width of the cemetery plots (posts at roughly x=0.03 and x=0.90, pipe at
+   y≈0.885–0.89) and replaced the primitive with a line tracing it
+   (arrow removed — it's a foreground boundary rail, not a depth vector).
+   chapter.mdx's clause "the cemetery iron rails as a diagonal depth vector
+   running to the lower right" is rewritten to "a low iron pipe rail fencing
+   the grave plots as a near-level line at the base of the frame." Re-rendered
+   proof shows the line running along the actual pipe through both fence
+   posts and the hanging chain.
+4. **08-negro-church left gable pitch.** Trimmed the overshooting endpoint
+   from (0.05, 0.576) to the actual eave/roof corner at (0.19, 0.483),
+   measured directly off the image with a pixel grid. Re-rendered proof shows
+   the line stopping cleanly at the roofline, matching the right line's
+   already-correct behavior; the two lines now read as a visually symmetric
+   pair.
+5. **10-frame-houses-fredericksburg serial roofline.** Dropped the first
+   segment (the two points tracing the tall, porch-less fifth house); the
+   polyline now starts at (0.39, 0.60), the first of the four matching
+   porch-fronted houses the label and caption describe. Re-rendered proof
+   confirms the line now runs only across the four matching fronts.
+
+Full `bash scripts/check.sh` (validate, prose lint, tests, build, lint) passes
+clean after these edits.
