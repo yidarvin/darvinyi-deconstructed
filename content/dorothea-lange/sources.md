@@ -13,7 +13,7 @@ Lange composes for gravity and confrontation. Again and again she monumentalizes
 - **File:** raw/dorothea-lange/01-migrant-mother.jpg (8539px)
 
 ### 02 — Damaged Child, Elm Grove, Oklahoma (1936)
-- **Why it matters:** A dead-center frontal portrait — the child's shoulders make a base-heavy pyramid up to the apex of her head, while the horizontal seam of the corrugated cardboard cuts a false horizon just above her eyes, a flat and escape-proof frame pinned to her direct gaze.
+- **Why it matters:** A dead-center frontal portrait — the child's shoulders make a base-heavy pyramid up to the apex of her head, while the horizontal seam of the corrugated cardboard cuts a false horizon at nose level just below her eyes, a flat and escape-proof frame pinned to her direct gaze.
 - **Source:** https://www.loc.gov/item/2017763117/ (LC-USF347-009690-C; digital id fsa 8b38490). LOC caption: "Child living in Oklahoma City shacktown."
 - **Rights:** Public domain (U.S. government work; FSA/OWI Collection, Library of Congress)
 - **File:** raw/dorothea-lange/02-damaged-child.jpg (4320px)

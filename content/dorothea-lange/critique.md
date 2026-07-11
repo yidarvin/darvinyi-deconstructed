@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 Reviewed 2026-07-10 against all 12 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md. The strongest pedagogy of the batch — the pyramid/flat-wall/road triad is the right reading and 9 of 12 overlays land. Three overlays have primitives that miss their subjects outright, and the chapter makes two false claims about the measurements it leans on.
 
