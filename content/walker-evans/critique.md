@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -347,3 +347,51 @@ section, and sources.md all state plainly that no per-frame aperture/shutter/
 ISO survives for this 1930s FSA work and invent none. The ingest manifest's
 Phase One/iXH scanner EXIF (modern archival digitization metadata, not
 Evans's camera) does not leak into any prose.
+
+## Builder resolution (2026-07-11)
+
+Required fix 1 (site-wide chapter desync) was already resolved in a prior
+pass (commits 662dbc8, eaa37a5) before this session started: content/ and
+src/chapters/ are byte-identical and scripts/check.sh now gates that
+directly, closing the process gap the finding raised. This pass applied the
+remaining five required fixes.
+
+1. **03-bud-fields-family face count.** Changed "Five faces meet the camera"
+   to "Six" in the Plate caption and the matching "five faces" phrase in
+   overlays/03-bud-fields-family.json's `notes` field to "six". No overlay
+   geometry changed; no re-render needed.
+2. **03-bud-fields-family light direction.** Rewrote the sentence: the open
+   doorway at upper left (behind the standing girl), not the porch floor, is
+   the frame's deepest shadow, confirmed by inspecting the proof directly.
+   chapter.mdx now reads "the deepest shadow in the frame is the open doorway
+   at upper left behind the standing girl, not the floor; Evans lets that
+   void anchor the top of the composition while the sunlit porch boards
+   ground the bottom." Text-only fix.
+3. **07-bethlehem-graveyard-steel-mill mislabeled line.** Relabeled the
+   leading_line primitive from "STEEL-MILL BASE" to "ROW HOUSE CORNICE" in
+   overlays/07-bethlehem-graveyard-steel-mill.json (points unchanged — they
+   already traced the row house's brick cornice band, only the label lied
+   about what it traced). Re-rendered and re-scored: 99/100, clean visual
+   pass, label sits exactly on the arched brick banding. chapter.mdx's clause
+   now reads "the row houses' cornice line as the middle register beneath
+   the mill," which as a side effect also gives the row-of-houses register
+   (previously unmarked, noted only as an advisory) its own primitive.
+4. **04-fireplace-wall-burroughs self-contradiction.** Dropped the
+   superlative; "and the numbers are the strongest in the portrait group"
+   removed so the sentence states the 0.90/0.42 measurements without ranking
+   them against plate 08's 0.95.
+5. **09-frame-houses-new-orleans overclaim.** Softened "Near-identical" to
+   "matching in scale and rhythm" in the Plate caption (house 1's pediment
+   and bow-cornice do read differently from houses 2 and 3's flat parapets).
+   Kept the CENTRAL AXIS symmetry_axis primitive and the 0.92 measurement
+   (both are real, unchanged) but recaptioned it honestly in prose: the
+   sentence now states plainly that the axis measures the porch columns'
+   structural rhythm, not a literal whole-frame mirror, and names the
+   asymmetric foreground/background elements (fence left-only; pole, tree,
+   and a fourth house's sliver right-only) that make a literal-mirror
+   reading false.
+
+`content/walker-evans/chapter.mdx` and `src/chapters/walker-evans.mdx` were
+re-synced (byte-identical) after every text edit above. Full
+`bash scripts/check.sh` (validate, chapter-sync, prose lint, tests, build,
+lint) passes clean.
