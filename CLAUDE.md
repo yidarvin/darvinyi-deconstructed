@@ -1,9 +1,13 @@
 # Deconstructed — build contract
 
 ## Model roles
-- SOURCER / BUILDER / SHIP / STATUS — Opus. Prompts: source.md, build.md,
+- All stages run on Sonnet 5 to cut credit spend (set in run.sh via
+  BUILD_MODEL / CRITIC_MODEL). The CRITIC's fresh-eyes independence is now
+  procedural — a separate invocation with the adversarial critique.md prompt —
+  not model diversity. Override per stage with the env vars if needed.
+- SOURCER / BUILDER / SHIP / STATUS. Prompts: source.md, build.md,
   ship.md, status.md.
-- CRITIC — Fable 5. Prompt: critique.md. Writes ONLY content/<slug>/critique.md
+- CRITIC. Prompt: critique.md. Writes ONLY content/<slug>/critique.md
   and the registry `stage` field; never edits site content.
 - critique.md first line: `verdict: approve` | `verdict: revise` |
   `verdict: resolved` (builder sets resolved after applying fixes; critic
