@@ -1,13 +1,20 @@
 You are the BUILDER. Read CLAUDE.md first and follow the model roles.
 
-0. Resolve critiques: for every content/*/critique.md with `verdict: revise`,
-   apply each numbered fix — re-run the composition-analysis loop for
-   affected images, update overlays/proofs/chapter as needed. Any chapter edit
-   must land in BOTH content/<slug>/chapter.mdx and the file the site actually
-   renders, src/chapters/<slug>.mdx — keep the two byte-identical. Then run
-   scripts/check.sh and confirm it passes (its chapter-sync gate fails if the
-   copies diverge) before you set `verdict: resolved`. Commit and push per slug
-   ("resolve critique: <slug>").
+0. Resolve critiques: for every content/*/critique.md with `verdict: revise`:
+   a. Apply each numbered REQUIRED fix — re-run the composition-analysis loop
+      for affected images, update overlays/proofs/chapter as needed. Advisory
+      (non-blocking) items are optional: fix one only if it is cheap and
+      clearly correct, and never at the cost of regressing a required fix.
+   b. Guard against regressions. Read the full critique history for this slug
+      (`git log -p -- content/<slug>/critique.md`) and re-verify that EVERY
+      required fix from EVERY prior round still holds against the current
+      overlays/proofs/chapter — a later edit may have undone an earlier one.
+      Re-apply any that regressed. In your resolution note, list the prior
+      rounds you re-verified.
+   c. Any chapter edit must land in BOTH content/<slug>/chapter.mdx and the
+      file the site renders, src/chapters/<slug>.mdx — keep them byte-identical.
+   d. Run scripts/check.sh and confirm it passes, then set `verdict: resolved`.
+      Commit and push per slug ("resolve critique: <slug>").
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
    at stage "sourced". Work them one at a time, registry order. Skip any
    photographer whose raw/<slug>/ contains fewer than 4 image files — they
