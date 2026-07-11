@@ -17,7 +17,7 @@
     },
     {
       "type": "leading_line",
-      "points": [[0.55, 0.41], [0.55, 0.72]],
+      "points": [[0.574, 0.41], [0.574, 0.72]],
       "arrow": false,
       "label": ""
     },
@@ -29,7 +29,7 @@
     },
     {
       "type": "horizon_line",
-      "y": 0.758,
+      "y": 0.79,
       "angle": 0.0,
       "label": "CURB LINE"
     }

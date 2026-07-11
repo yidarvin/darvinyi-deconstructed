@@ -19,7 +19,7 @@ Evans built his 1935–38 pictures on a single discipline: the camera set square
 - **File:** raw/walker-evans/02-floyd-burroughs.jpg (3209px)
 
 ### 03 — Bud Fields and his family at home. Hale County, Alabama (1936)
-- **Why it matters:** The family arranged in a shallow frontal frieze across the bed and the papered wall, figures spaced like a row of portraits — a group composed as flat, symmetrical typology.
+- **Why it matters:** The family arranged in a shallow frontal frieze across the bed and the bare board wall, figures spaced like a row of portraits — a group composed as flat, symmetrical typology.
 - **Source:** https://www.loc.gov/item/96516419/
 - **Rights:** Public domain (U.S. government work; FSA/OWI Collection, Library of Congress)
 - **File:** raw/walker-evans/03-bud-fields-family.jpg (1461px)
@@ -55,7 +55,7 @@ Evans built his 1935–38 pictures on a single discipline: the camera set square
 - **File:** raw/walker-evans/08-negro-church-south-carolina.jpg (6062px)
 
 ### 09 — Frame houses. New Orleans, Louisiana (1936)
-- **Why it matters:** Near-identical shotgun facades set frontally side by side, repeating windows and clapboard flattened to a planar grid — a typology of the vernacular street.
+- **Why it matters:** Near-identical two-story double-gallery frame-house facades set frontally side by side, repeating windows and clapboard flattened to a planar grid — a typology of the vernacular street.
 - **Source:** https://www.loc.gov/item/2017762240/
 - **Rights:** Public domain (U.S. government work; FSA/OWI Collection, Library of Congress)
 - **File:** raw/walker-evans/09-frame-houses-new-orleans.jpg (8761px)

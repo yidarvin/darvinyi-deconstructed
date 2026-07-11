@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 Reviewed 2026-07-10 against all 11 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md. This is the closest set to approval: the portraits, interior, church, graveyard, and penny display land cleanly, and the frontal-discipline argument matches the measurements. What blocks it is precision on exactly the plates whose lesson *is* precision — the typology rows and the sign facade — plus a handful of chapter claims the images contradict.
 

@@ -4,9 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     {
-      "type": "horizon_line",
-      "y": 0.758,
-      "angle": 0,
+      "type": "polyline",
+      "points": [[0.02,0.862],[0.315,0.901],[0.502,0.917],[0.546,0.926],[0.70,0.915],[0.82,0.92],[0.98,0.942]],
       "label": "COMMON FENCE & PORCH BASELINE"
     },
     {
@@ -16,7 +15,7 @@
     },
     {
       "type": "leading_line",
-      "points": [[0.40,0.02],[0.99,0.285]],
+      "points": [[0.469,0.043],[0.713,0.260]],
       "arrow": false,
       "label": "TELEPHONE WIRE OVER EMPTY SKY"
     },
