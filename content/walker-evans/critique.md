@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -1000,3 +1000,95 @@ notes.
 Full `bash scripts/check.sh` (validate, chapter-sync, prose lint, tests,
 build, lint) passes clean. content/walker-evans/chapter.mdx and
 src/chapters/walker-evans.mdx remain byte-identical.
+
+## Round 9 review (2026-07-11) — APPROVE
+
+Fresh-eyes re-review, dispatched as twelve independent agents run
+concurrently: one dedicated reviewer per plate (all eleven), each given
+vision on that plate's actual rendered proof PNG plus its overlay JSON,
+matching analysis JSON, the relevant chapter.mdx paragraph, sources.md
+entry, and research.md, and an explicit per-plate list of every point
+settled in rounds 1-8 so nothing already fixed or already-litigated-as-
+advisory would be re-raised without a real, stated regression — plus one
+dedicated chapter-wide sweep agent covering site-sync, settings honesty,
+cross-plate numeric consistency against every analysis/*.json, and
+internal contradictions between paragraphs. Any REQUIRED claim a plate
+reviewer raised was designed to go through a three-verifier adversarial
+panel (independent re-derivation, majority to survive) before reaching me;
+in the event, no plate reviewer raised a single REQUIRED finding, so the
+verification panel never had anything to check.
+
+Result: all eleven plates came back clean (zero findings, required or
+new-advisory). The chapter-wide sweep also came back clean:
+
+- **Site sync**: `content/walker-evans/chapter.mdx` and
+  `src/chapters/walker-evans.mdx` confirmed byte-identical.
+- **Settings honesty**: grepped chapter.mdx/sources.md/research.md for
+  every scanner/camera model name and settings token found in
+  manifest.json's archival EXIF (Phase One iXH 150MP Achromatic, Sinar
+  54H, Kodak iQSmart 3, f-stops, shutter fractions, ISO, lens mm) — zero
+  matches in prose. The Callout and research.md's Camera settings section
+  continue to state plainly that no per-frame aperture/shutter/ISO
+  survives for Evans's own 1930s work and invent none.
+- **Cross-plate numeric consistency**: all 46 quoted decimals/hex colors
+  in chapter.mdx checked against their analysis/*.json source and all
+  matched within correct rounding, including the two plates that
+  deliberately override the raw analyzer value (03's hand-set 0.54 axis
+  vs. the analyzer's 0.575/0.81 peak; 09's hand-set 0.79 curb vs. the
+  analyzer's raw 0.758 split) — both overrides remain explicitly disclosed
+  in-text, as required by rounds 3-8.
+  Plate 04's quoted "0.42" against a stored 0.425 was checked at the
+  underlying float precision (0.424999...) and confirmed to be correct
+  round-half-up, not an error.
+- **Internal contradictions**: every superlative in the chapter ("darkest
+  plate," "most symmetric frame," "busiest frame," "tightest tonal std of
+  the typology plates") was checked against all eleven plates' actual
+  values and holds.
+
+No REQUIRED issues remain. The round-8 regression gate held with nothing
+new surfacing in round 9 — this is the discipline the process was built to
+converge on: eight rounds of real, checkable defects were found and fixed;
+a ninth independent, adversarially-backed pass over all eleven plates
+found nothing further to fix.
+
+## Advisory (non-blocking)
+
+Carried forward from prior rounds, re-confirmed still open, still
+cosmetic/within-tolerance, not gating approval:
+
+- **01-allie-mae-burroughs** — the FACE ellipse clips the chin/jawline
+  slightly; "a level line" for the clapboard has no explicit hedge despite
+  a measured 2.97-degree tilt.
+- **04-fireplace-wall-burroughs** — the CENTRAL AXIS (0.425) sits a little
+  left of the vase-implied mirror line (~0.44); the TACKED PICTURES box
+  only encloses the top pair of images, though more are visible lower on
+  the wall.
+- **05-roadside-stand-birmingham** — the large hand-painted "FISH"/"LAKE
+  FISH" wordmarks have no overlay primitive; the caption's "ruler-flat"
+  and the body text's "nearly level" describe the same roofline with
+  slightly different confidence.
+- **06-penny-picture-display-savannah** — the symmetry-mirror language is
+  less hedged than plate 09's despite a lower/weaker score; the closing
+  Callout's "every plate" FSA-negative framing is in mild tension with
+  plate 06's actual Met CC0 (non-FSA) provenance, though no settings are
+  invented for it.
+- **07-bethlehem-graveyard-steel-mill** — the WHITE GRAVE CROSS polyline
+  slightly undershoots the actual carved stone.
+- **08-negro-church-south-carolina** — "the rectangular louvered windows
+  mirror left and right" is true but has no dedicated overlay primitive.
+- **09-frame-houses-new-orleans** — two of the three REPEATED COLUMNS
+  leading-line primitives carry blank labels; the asymmetry list omits a
+  comparable partial building visible at the very left edge of the frame.
+- **10-frame-houses-fredericksburg** — the sky's two comparably prominent
+  wires are described as if only one ("the only incident") is present; the
+  SERIAL ROOFLINE's first remaining segment sits 0.019-0.027 normalized
+  above its house's true fascia (inside the 0.03 tolerance).
+- **11-company-houses-birmingham** — the ROOF RIDGES RECEDE line's
+  interior points partly ride chimney brick, producing a slight zigzag
+  rather than a smooth taper.
+
+None of these mislead about the photograph, its subject, or its
+composition; each is a margin-of-error placement or a stylistic
+imprecision. Approving with these on record rather than gating further —
+per build.md, this chapter has had eight real rounds of fixes and holding
+it for cosmetic polish past that point is itself a defect in the process.
