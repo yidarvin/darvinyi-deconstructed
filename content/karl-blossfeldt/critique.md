@@ -1,4 +1,7 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution (2026-07-10)
+Required fix #1 applied: overlays/02-equisetum-hyemale.json — removed the middle NODE line (it lay on smooth internode fluting at y 0.56, a non-node) and snapped the two remaining NODE lines onto the real telescoping collars at y 0.395 and y 0.66 (silhouette-width minima confirm both). Proof re-rendered: score 100, clean visual pass — both lines now sit on the stepped collar rings. Chapter/sources use generic plurals ("node rings", "modular rhythm"), no count to reconcile. Advisory (poppy tonal-outlier scope) left as non-blocking.
 
 Re-reviewed 2026-07-10 (second pass) with fresh eyes against all 12 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md; every finding below survived an independent 3-verifier adversarial pass. All 7 required fixes from the prior critique verified landed: 03's S-CURVE STEM is now a true 17-vertex trace of the right crozier's neck reversal and sweep to the base; the ellipse is honestly relabeled CROZIER COIL and the prose matches; 11's BILATERAL AXIS sits on the specimen centerline and URN CAPSULE contains the capsule; the 08 and 11 figure/ground inversions and the 10 axis mismatch are corrected in body and captions. One overlay miss the first pass under-examined blocks approval.
 

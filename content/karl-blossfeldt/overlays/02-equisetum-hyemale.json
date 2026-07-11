@@ -5,9 +5,8 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "BILATERAL AXIS" },
     { "type": "ellipse", "cx": 0.515, "cy": 0.21, "rx": 0.12, "ry": 0.115, "label": "SPORE CONE" },
-    { "type": "polyline", "points": [[0.35, 0.345], [0.68, 0.345]], "label": "NODE" },
-    { "type": "polyline", "points": [[0.30, 0.56], [0.70, 0.56]], "label": "NODE" },
-    { "type": "polyline", "points": [[0.30, 0.71], [0.71, 0.71]], "label": "NODE" }
+    { "type": "polyline", "points": [[0.35, 0.395], [0.68, 0.395]], "label": "NODE" },
+    { "type": "polyline", "points": [[0.30, 0.66], [0.71, 0.66]], "label": "NODE" }
   ],
   "notes": "A jointed stem in strict bilateral symmetry: fluted segments stacked like a column and crowned by a terminal spore cone."
 }
