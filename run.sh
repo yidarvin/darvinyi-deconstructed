@@ -11,8 +11,8 @@
 # This is an unattended pipeline: stages get --dangerously-skip-permissions
 # by default (headless -p mode cannot answer permission prompts). To run a
 # stage attended with prompts instead:   PERM_FLAG= ./run.sh build
-BUILD_MODEL="${BUILD_MODEL:-claude-opus-4-8[1m]}"
-CRITIC_MODEL="${CRITIC_MODEL:-claude-fable-5}"
+BUILD_MODEL="${BUILD_MODEL:-claude-sonnet-5}"
+CRITIC_MODEL="${CRITIC_MODEL:-claude-sonnet-5}"
 EFFORT="${EFFORT:---effort ultracode}"
 PERM_FLAG="${PERM_FLAG---dangerously-skip-permissions}"
 # Each stage is a nested `claude -p` that, under ultracode, spawns long-running
