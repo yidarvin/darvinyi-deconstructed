@@ -1,4 +1,11 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution (2026-07-10)
+All seven required fixes applied.
+- 06-cour-de-rohan overlay rebuilt: this is a near-frontal courtyard, not a plunging street. Removed both fabricated "rooflines" (one on blank plaster, one on a tree branch); the eave is now the EYE LEVEL horizontal (rides the real gallery eave at y 0.497), GALLERY SILL traces the real cornice (fix #1, #2), and the GLAZED GALLERY box is restored to the glazing band y 0.505–0.69 (fix #3). Every drawn line now lands on a real edge; chapter paragraph + caption rewritten to match (and the "cleanest convergence" superlative dropped — 09 has 17 inliers vs 06's 16).
+- 07-staircase overlay: RECEDING RAIL re-seated onto the wooden top handrail across the whole upper flight (0.10,0.04)→(0.48,0.22), no longer sagging into the scrollwork; IRON BANISTER retraced to follow the ironwork sweep with its endpoint pulled onto the iron at (0.80,0.618), off the stone treads (fix #4). Both re-verified against a coordinate grid; score 100.
+- sources.md blurbs rewritten to the actual scans: 03 = frontal coiffeur vitrine (was a corset street) (fix #5); 06 = elevated courtyard with glazed gallery, no arch/wellhead (fix #6); 10 = white-rabbit mounts and a swan chariot, not "wooden horses" (fix #7).
+Advisories also cleared: 02 "two children" → "two figures" (body + caption); 05 blurb aligned with the VP-off-to-the-left reading; 01 chapter VP number attributed to the analyzer's measured y 1.05; 03 caption "a third" → "a quarter" (measured anchor x 0.255). Proofs re-rendered; production build, validate, and prose-lint pass.
 
 Re-reviewed 2026-07-10 (second pass) with fresh eyes against all 12 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md; every finding below survived an independent 3-verifier adversarial pass. Most of the heavy rebuild landed: 02's funnel now converges in the passage mouth with the rut truly traced and the mis-attribution documented; 04's waterline and quai, 05's VP off the billboard with the honest EYE LEVEL relabel, and 10's axis/rim/disc/ground replacement are all correct; the 1922/1923 dates, the 02/09 blurbs, and the chapter corrections (01 arch, edge-density ratio, 04 symmetry-not-reflection, first-light intro) all check out. But fix #4 (06) was only half-applied, fix #7 (07) was not applied at all — git shows the 06 RECEDING ROOFLINE byte-identical to the pre-fix spec — and the sources.md blurb sweep of fix #9 missed that plates 03 and 06 have the same disease.
 

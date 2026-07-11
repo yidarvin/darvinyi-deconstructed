@@ -20,7 +20,7 @@ Atget photographed "Vieux Paris" as empty stage sets: look for deep one-point pe
 - **File:** raw/eugene-atget/02-corner-rue-de-seine-echaude.jpg (4191px)
 
 ### 03 — Boulevard de Strasbourg (1912)
-- **Why it matters:** Shopfronts and awnings march to a single distant vanishing point — deep one-point perspective down a commercial street, corset signage stacking the left wall.
+- **Why it matters:** A frontal coiffeur's vitrine — wax mannequin busts in beaded gowns and pole-mounted wig stands ranged behind the plate glass, a "Salons de Coiffures" plaque and a "TARIF / Salons des Messieurs" price card, the street's building facades reflected across the pane. The defining Atget layering of real object, reflection, and void.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Boulevard_de_Strasbourg_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/03-boulevard-de-strasbourg.jpg (5763px)
@@ -32,13 +32,13 @@ Atget photographed "Vieux Paris" as empty stage sets: look for deep one-point pe
 - **File:** raw/eugene-atget/04-pont-neuf.jpg (5625px)
 
 ### 05 — Place Saint-Médard (1898–1900)
-- **Why it matters:** A cobbled square funnels toward the church, converging pavement lines and flanking buildings forming a deep perspectival throat.
+- **Why it matters:** A cobbled square recedes down the rue Mouffetard to a vanishing point off to the left, the church standing at frame right; converging pavement lines and flanking buildings form a deep perspectival throat.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Place_Saint-M%C3%A9dard_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/05-place-saint-medard.jpg (6242px)
 
 ### 06 — Cour de Rohan (1922)
-- **Why it matters:** An enclosed courtyard read as empty stage — arch and wellhead anchor a boxed, near-frontal geometry of walls and pavement.
+- **Why it matters:** An elevated view across a Vieux-Paris courtyard — a flaking near-frontal wall with its cast-iron downpipe at left, a multi-paned glazed gallery and its zinc lean-to roof at right, and background rooftops and chimneys receding beyond; the gallery's eave sets the eye level.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Cour_de_Rohan_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/06-cour-de-rohan.jpg (4156px)
@@ -62,7 +62,7 @@ Atget photographed "Vieux Paris" as empty stage sets: look for deep one-point pe
 - **File:** raw/eugene-atget/09-saint-cloud-park.jpg (4199px)
 
 ### 10 — Fête du Trône (1923)
-- **Why it matters:** A fairground carousel shot frontally: painted canopy, wooden horses and a swan on a rotating platform, the whole built as concentric ellipses on a central axis over an empty cobbled foreground.
+- **Why it matters:** A fairground carousel shot frontally: painted canopy, white-rabbit mounts and a swan chariot on a rotating platform, the whole built as concentric ellipses on a central axis over an empty cobbled foreground.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_F%C3%AAte_du_Tr%C3%B4ne_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/10-fete-du-trone.jpg (4091px)

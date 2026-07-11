@@ -4,10 +4,9 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "vanishing_point", "x": 0.565, "y": 0.526, "label": "VANISHING POINT" },
-    { "type": "leading_line", "points": [[0.315, 0.329], [0.565, 0.526]], "arrow": true, "label": "RECEDING ROOFLINE" },
-    { "type": "leading_line", "points": [[0.903, 0.854], [0.565, 0.526]], "arrow": true, "label": "GALLERY ROOFLINE" },
-    { "type": "horizon_line", "y": 0.526, "angle": 0.0, "label": "EYE LEVEL" },
-    { "type": "frame_in_frame", "x": 0.63, "y": 0.585, "w": 0.35, "h": 0.235, "label": "GLAZED GALLERY" }
+    { "type": "horizon_line", "y": 0.497, "angle": 0.0, "label": "EYE LEVEL / EAVE" },
+    { "type": "leading_line", "points": [[0.63, 0.598], [0.90, 0.591]], "arrow": false, "label": "GALLERY SILL" },
+    { "type": "frame_in_frame", "x": 0.63, "y": 0.505, "w": 0.35, "h": 0.185, "label": "GLAZED GALLERY" }
   ],
-  "notes": "An empty courtyard read as one-point perspective: the receding rooflines to left and right funnel to a sixteen-line vanishing point that sits dead on the eye-level line, the multi-paned glazed gallery boxed at right."
+  "notes": "An elevated, near-frontal courtyard: the glazed gallery's zinc-roof eave is the dominant horizontal and sets the eye level, its multi-paned band boxed between eave and the cornice-sill below, while the receding left wall carries the one-point convergence to a vanishing point just beneath that line."
 }
