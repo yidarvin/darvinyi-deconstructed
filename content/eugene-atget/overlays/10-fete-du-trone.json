@@ -3,38 +3,10 @@
   "image": "10-fete-du-trone.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    {
-      "type": "symmetry_axis",
-      "orientation": "vertical",
-      "pos": 0.5,
-      "label": "CAROUSEL AXIS"
-    },
-    {
-      "type": "ellipse",
-      "cx": 0.52,
-      "cy": 0.72,
-      "rx": 0.34,
-      "ry": 0.11,
-      "label": "PLATFORM DISC"
-    },
-    {
-      "type": "vanishing_point",
-      "x": 0.792,
-      "y": 0.456,
-      "label": "CANOPY VP"
-    },
-    {
-      "type": "leading_line",
-      "points": [[0.555, 0.617], [0.975, 0.326]],
-      "arrow": true,
-      "label": "CANOPY EDGE"
-    },
-    {
-      "type": "horizon_line",
-      "y": 0.857,
-      "angle": 0.0,
-      "label": "GROUND LINE"
-    }
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "CAROUSEL AXIS" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.44, "rx": 0.35, "ry": 0.07, "label": "CANOPY RIM" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.72, "rx": 0.34, "ry": 0.11, "label": "PLATFORM DISC" },
+    { "type": "horizon_line", "y": 0.857, "angle": 0.0, "label": "GROUND LINE" }
   ],
-  "notes": "A radially symmetric carousel (central axis + platform disc) shot just off-frontal so its canopy rim throws a one-point perspective converging where the ladder rests; the empty cobbled foreground leaves it a deserted stage set."
+  "notes": "A radially symmetric carousel shot frontally: the central axis and the two concentric ellipses of canopy rim and platform disc build the mirror geometry, the empty cobbled foreground leaving it a deserted fairground stage."
 }

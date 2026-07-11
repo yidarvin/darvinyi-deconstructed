@@ -3,31 +3,10 @@
   "image": "07-staircase-hotel-de-brinvilliers.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    {
-      "type": "leading_line",
-      "points": [[0.14, 0.032], [0.589, 0.388]],
-      "arrow": true,
-      "label": "receding rail"
-    },
-    {
-      "type": "vanishing_point",
-      "x": 0.401,
-      "y": 0.257,
-      "label": "convergence"
-    },
-    {
-      "type": "polyline",
-      "points": [[0.60, 0.41], [0.71, 0.50], [0.81, 0.59], [0.885, 0.67], [0.905, 0.73], [0.85, 0.775], [0.75, 0.79], [0.665, 0.785]],
-      "label": "iron banister"
-    },
-    {
-      "type": "frame_in_frame",
-      "x": 0.12,
-      "y": 0.42,
-      "w": 0.18,
-      "h": 0.37,
-      "label": "arched doorway"
-    }
+    { "type": "leading_line", "points": [[0.105, 0.075], [0.585, 0.395]], "arrow": true, "label": "RECEDING RAIL" },
+    { "type": "vanishing_point", "x": 0.401, "y": 0.257, "label": "CONVERGENCE" },
+    { "type": "polyline", "points": [[0.60, 0.42], [0.72, 0.52], [0.83, 0.63], [0.885, 0.71], [0.86, 0.78], [0.78, 0.815], [0.70, 0.805]], "label": "IRON BANISTER" },
+    { "type": "frame_in_frame", "x": 0.12, "y": 0.42, "w": 0.18, "h": 0.37, "label": "ARCHED DOORWAY" }
   ],
-  "notes": "The straight upper rail recedes to a one-point convergence, then hands off at the landing to the curving wrought-iron banister sweeping down to the newel — an empty stage set framed by the stone-arched doorway."
+  "notes": "The straight upper rail recedes to a fourteen-line convergence, then hands off at the landing to the curving wrought-iron banister that sweeps down to the newel -- an empty stage set framed by the stone-arched doorway."
 }

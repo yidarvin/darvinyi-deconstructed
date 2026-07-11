@@ -12,8 +12,9 @@ Atget photographed "Vieux Paris" as empty stage sets: look for deep one-point pe
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/01-storefront-avenue-des-gobelins.jpg (4385px)
 
-### 02 — Corner of the rue de Seine and the rue de l'Échaudé (1924)
-- **Why it matters:** A wedge of building splits two receding streets, a textbook two-point perspective fork with the empty morning square as stage floor.
+### 02 — Old Paris: a cobbled alley and vaulted passage
+- **Why it matters:** A narrow cobbled alley plunges to a luminous vaulted passage, its central gutter running the eye to a vanishing point at the far opening; an ironing shop's "Mme Chazal / Repasseurs" sign fills the right wall and two children watch from a high window.
+- **Attribution note:** The scan was downloaded under the Getty title "Corner of the rue de Seine and the rue de l'Échaudé," but it does NOT match that catalogued image (a two-street print-shop corner with a "Dangleterre" sign, Atget's "Coin rue de Seine," 6th arr., c. 1911). The file appears mis-titled at source and the plate's true identification is uncertain, so it is presented descriptively; the id is kept to preserve site routes.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Corner_of_the_rue_de_Seine_and_the_rue_de_l%27Echaud%C3%A9_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/02-corner-rue-de-seine-echaude.jpg (4191px)
@@ -36,7 +37,7 @@ Atget photographed "Vieux Paris" as empty stage sets: look for deep one-point pe
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/05-place-saint-medard.jpg (6242px)
 
-### 06 — Cour de Rohan (1915)
+### 06 — Cour de Rohan (1922)
 - **Why it matters:** An enclosed courtyard read as empty stage — arch and wellhead anchor a boxed, near-frontal geometry of walls and pavement.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Cour_de_Rohan_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
@@ -55,13 +56,13 @@ Atget photographed "Vieux Paris" as empty stage sets: look for deep one-point pe
 - **File:** raw/eugene-atget/08-tree-roots-saint-cloud.jpg (4278px)
 
 ### 09 — Saint-Cloud Park (1924)
-- **Why it matters:** A still basin mirrors sky and trees into near-vertical symmetry, the horizon of the water splitting the frame — the misty park reflection study.
+- **Why it matters:** A ruined ivy-clad balustrade recedes past a massive stone plinth under backlit winter trees, the leading line of the balustrade and the vertical ivy trunk holding the picture between deep recession and near-vertical mirror symmetry.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Saint-Cloud_Park,_Paris,_1924.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/09-saint-cloud-park.jpg (4199px)
 
-### 10 — Fête du Trône (1925)
-- **Why it matters:** A fairground stall front flattens into frontal signage and figures — carnival vernacular arranged as a shallow, planar frieze.
+### 10 — Fête du Trône (1923)
+- **Why it matters:** A fairground carousel shot frontally: painted canopy, wooden horses and a swan on a rotating platform, the whole built as concentric ellipses on a central axis over an empty cobbled foreground.
 - **Source:** https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_F%C3%AAte_du_Tr%C3%B4ne_-_Getty_Museum.jpg
 - **Rights:** Public domain (J. Paul Getty Museum, Getty Open Content)
 - **File:** raw/eugene-atget/10-fete-du-trone.jpg (4091px)

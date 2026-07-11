@@ -3,38 +3,11 @@
   "image": "06-cour-de-rohan.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    {
-      "type": "vanishing_point",
-      "x": 0.565,
-      "y": 0.526,
-      "label": "vanishing point"
-    },
-    {
-      "type": "leading_line",
-      "points": [[0.315, 0.329], [0.565, 0.526]],
-      "arrow": true,
-      "label": "receding roofline"
-    },
-    {
-      "type": "leading_line",
-      "points": [[0.982, 0.337], [0.565, 0.526]],
-      "arrow": true,
-      "label": "far rooflines"
-    },
-    {
-      "type": "horizon_line",
-      "y": 0.496,
-      "angle": 0.0,
-      "label": "eye level"
-    },
-    {
-      "type": "frame_in_frame",
-      "x": 0.635,
-      "y": 0.505,
-      "w": 0.35,
-      "h": 0.185,
-      "label": "glazed gallery"
-    }
+    { "type": "vanishing_point", "x": 0.565, "y": 0.526, "label": "VANISHING POINT" },
+    { "type": "leading_line", "points": [[0.315, 0.329], [0.565, 0.526]], "arrow": true, "label": "RECEDING ROOFLINE" },
+    { "type": "leading_line", "points": [[0.903, 0.854], [0.565, 0.526]], "arrow": true, "label": "GALLERY ROOFLINE" },
+    { "type": "horizon_line", "y": 0.526, "angle": 0.0, "label": "EYE LEVEL" },
+    { "type": "frame_in_frame", "x": 0.63, "y": 0.585, "w": 0.35, "h": 0.235, "label": "GLAZED GALLERY" }
   ],
-  "notes": "An empty courtyard read as one-point perspective: the flaking left wall and right rooflines funnel to a central vanishing point on the eye-level line, with the multi-paned glazed gallery as the vitrine."
+  "notes": "An empty courtyard read as one-point perspective: the receding rooflines to left and right funnel to a sixteen-line vanishing point that sits dead on the eye-level line, the multi-paned glazed gallery boxed at right."
 }

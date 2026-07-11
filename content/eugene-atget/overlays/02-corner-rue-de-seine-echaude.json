@@ -3,11 +3,10 @@
   "image": "02-corner-rue-de-seine-echaude.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.743, "y": 0.635, "label": "VANISHING POINT" },
-    { "type": "leading_line", "points": [[0.572, 0.974], [0.730, 0.704]], "arrow": true, "label": "COBBLE RUT" },
-    { "type": "leading_line", "points": [[0.257, 0.905], [0.544, 0.751]], "arrow": true, "label": "LEFT WALL BASE" },
-    { "type": "frame_in_frame", "x": 0.42, "y": 0.60, "w": 0.12, "h": 0.19, "label": "PASSAGE" },
+    { "type": "vanishing_point", "x": 0.495, "y": 0.655, "label": "VANISHING POINT" },
+    { "type": "polyline", "points": [[0.565, 0.975], [0.545, 0.90], [0.523, 0.82], [0.505, 0.745], [0.495, 0.69]], "label": "COBBLE RUT" },
+    { "type": "frame_in_frame", "x": 0.44, "y": 0.565, "w": 0.13, "h": 0.135, "label": "PASSAGE" },
     { "type": "ellipse", "cx": 0.585, "cy": 0.245, "rx": 0.055, "ry": 0.04, "label": "WATCHERS" }
   ],
-  "notes": "Deep one-point perspective funnels down a cobbled Old-Paris alley to a luminous passage; two children watch, unnoticed, from a high window."
+  "notes": "A narrow cobbled alley plunges to a luminous vaulted passage: the central gutter runs the eye up to a vanishing point at the passage mouth, while two children watch, unnoticed, from a high window."
 }

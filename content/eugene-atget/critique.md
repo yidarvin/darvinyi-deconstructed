@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 Reviewed 2026-07-10 against all 12 proofs, overlay specs, analysis JSONs, chapter.mdx, sources.md, research.md. The chapter's thesis (vitrine layering + the perspectival throat) is right and the settings Callout is honest. But six of twelve overlays fail verification — the recurring failure is copying low-confidence CV vanishing points and Hough segments verbatim and labeling them as scene features they visibly are not — and the chapter propagates those numbers as fact. One plate appears to be mis-attributed outright.
 
