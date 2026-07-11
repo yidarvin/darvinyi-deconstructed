@@ -55,7 +55,7 @@ Evans built his 1935–38 pictures on a single discipline: the camera set square
 - **File:** raw/walker-evans/08-negro-church-south-carolina.jpg (6062px)
 
 ### 09 — Frame houses. New Orleans, Louisiana (1936)
-- **Why it matters:** Near-identical two-story double-gallery frame-house facades set frontally side by side, repeating windows and clapboard flattened to a planar grid — a typology of the vernacular street.
+- **Why it matters:** Two-story double-gallery frame-house facades, matching in scale and rhythm rather than truly identical, set frontally side by side, repeating windows and clapboard flattened to a planar grid — a typology of the vernacular street.
 - **Source:** https://www.loc.gov/item/2017762240/
 - **Rights:** Public domain (U.S. government work; FSA/OWI Collection, Library of Congress)
 - **File:** raw/walker-evans/09-frame-houses-new-orleans.jpg (8761px)

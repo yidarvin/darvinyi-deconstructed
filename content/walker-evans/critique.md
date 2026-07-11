@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -924,3 +924,79 @@ Phase One/Sinar/Kodak archival-scanner EXIF in manifest.json does not leak
 into chapter.mdx, sources.md, or research.md as if it were Evans's own camera
 settings. The chapter-wide sweep found zero cross-plate numeric
 contradictions and zero settled points regressed.
+
+## Builder resolution (2026-07-11)
+
+Round 8's one required fix applied, text-only, no overlay change.
+
+1. **09-frame-houses-new-orleans curb-disclosure direction.** Verified the
+   claim directly before touching anything: drew both candidate horizon
+   lines on images/09-frame-houses-new-orleans.jpg (1600x1279) at row 969
+   (y=0.758) and row 1010 (y=0.79). In this level, frontal shot the grass
+   fills the foreground at the bottom of the frame, so the larger-y line
+   (0.79) is nearer the camera, not farther, and it crosses directly through
+   the driveway curb-cut's storm-drain grate, the messier feature, while the
+   smaller-y line (0.758) sits farther back on plain, unbroken sidewalk. The
+   chapter had this backwards. Rewrote the clause in both
+   content/walker-evans/chapter.mdx and src/chapters/walker-evans.mdx (kept
+   byte-identical) to: "matching the sidewalk-to-grass edge at the messier
+   driveway-apron and storm-drain seam nearer the camera, rather than the
+   analyzer's own raw luminance split at 0.758, which falls a few feet
+   farther back on plain, unbroken sidewalk." The overlay's CURB LINE
+   primitive at y=0.79 is correct as-is and was not changed.
+
+Regression gate: before and after the fix above, dispatched one independent
+fresh-eyes re-verification pass per plate (all eleven) plus a chapter-wide
+numeric-consistency, settings-honesty, and site-sync sweep, checking every
+required fix from every prior round (1 through 7) against the current
+overlays/proofs/chapter/sources/research. Ten of eleven plates came back
+clean with no regression:
+- 01: horizontal-clapboard sources.md wording and "ruled ground" (not
+  "grid") chapter phrasing both hold; FACE ellipse clip and unhedged "level
+  line" advisories remain open and non-blocking, as before.
+- 02: no prior required fixes on record; still matches the image, invents
+  no settings.
+- 03: the hand-set 0.54 axis, the decoupled 0.54-vs-0.575/0.81 disclosure,
+  the eye-level gaze register, the six-faces caption/notes, and the
+  doorway-not-floor shadow direction all hold.
+- 04: bare-board (not "papered") wall wording, MANTEL EDGE (not "TABLE
+  EDGE") label and caption, the dropped self-contradicted superlative, and
+  the enlarged CALENDAR box (now clearing the sheet's bottom rows) all hold.
+- 05: the house-mover/fish-market sign distinction holds.
+- 06: the raised APPLIED STUDIO SIGN box and the "no landscape horizon or
+  leading depth" wording (acknowledging the analyzer's 0.754 seam without
+  contradicting the accurate no-depth claim) both hold.
+- 07: the real cemetery-rail primitive (shortened to end at the corner
+  post), the "ROW HOUSE CORNICE" relabeling, and the matching chapter clause
+  all hold.
+- 08: both GABLE PITCH lines still stop cleanly at their eave corners.
+- 10: the dropped fifth-house roofline segment and the re-leaned telephone
+  pole both hold.
+- 11: the symmetry hedge holds.
+- Global sweep: content/walker-evans/chapter.mdx and
+  src/chapters/walker-evans.mdx confirmed byte-identical; no invented
+  settings; no silently-wrong quoted number found anywhere else in the
+  chapter; zero cross-plate contradictions.
+
+One new, previously-uncaught inconsistency surfaced during this gate (not a
+regression of an existing fix, since it was never in scope of one): plate
+09's sources.md "Why it matters" blurb still read "Near-identical
+two-story double-gallery frame-house facades," the literal overclaim round
+5's required fix #6 ruled false and required softened everywhere else — but
+that fix's resolution only touched chapter.mdx's Plate caption and the
+overlay's `notes` field, never sources.md, so the same photograph's
+identicalness was described two different ways across its own documents.
+Confirmed via `git log` that sources.md has not been touched since the
+initial sourcing/round-2 passes and the "Near-identical" wording predates
+round 5 entirely. Cheap, clearly correct, and directly adjacent to a
+required fix already landed elsewhere, so fixed alongside the round-8 item
+per build.md's advisory-handling rule: reworded to "Two-story
+double-gallery frame-house facades, matching in scale and rhythm rather
+than truly identical, set frontally side by side, repeating windows and
+clapboard flattened to a planar grid — a typology of the vernacular
+street," matching the phrasing already used in chapter.mdx and the overlay
+notes.
+
+Full `bash scripts/check.sh` (validate, chapter-sync, prose lint, tests,
+build, lint) passes clean. content/walker-evans/chapter.mdx and
+src/chapters/walker-evans.mdx remain byte-identical.
