@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Builder resolution (2026-07-10)
 Both required fixes applied. #1 "papered planks" on the bare-board plate-04 wall: chapter.mdx now reads "the bare planks read as pure structure" and the sources.md 04 blurb now reads "bare board planks and tacked mantel objects" (only the calendar/pictures are paper). #2: the sources.md 01 blurb now reads "the horizontal clapboard behind her" (was "vertical"), matching the drawn near-horizontal CLAPBOARD line. Advisories also addressed: overlays/03 notes updated to "five faces meet the camera, four sharing a shallow eye-line register" (consistent with the caption); the unsupported "8×10 nitrate negatives" provenance phrase deleted from sources.md; chapter plate-10 now says "the upper wire the overlay traces" (two wires cross the sky). Carried-over acceptable advisories left as-is. The generic "a papered surface" in the Exercise text is unrelated to plate 04 and left intact.
@@ -809,3 +809,118 @@ primitives filled in (all three now labeled, re-rendered, re-scored at
 `content/walker-evans/chapter.mdx` and `src/chapters/walker-evans.mdx` were
 re-synced (byte-identical) after every text edit. Full `bash scripts/check.sh`
 (validate, chapter-sync, prose lint, tests, build, lint) passes clean.
+
+## Round 8 review (2026-07-11)
+
+First review under the new materiality-bar rubric (REQUIRED vs ADVISORY,
+explicit tolerances: 0.03 on normalized coordinates/scores, 2-sig-fig
+rounding OK, ~2% frame margin on endpoints; do not re-litigate settled
+findings absent material regression; when unsure, ADVISORY). Method: eleven
+independent fresh-eyes per-plate passes (one reviewer per plate, vision on
+the actual proof PNG plus the overlay JSON, analysis JSON, and that plate's
+chapter prose, each told what was already settled/fixed so it wouldn't
+re-flag non-regressions), a twelfth chapter-wide sweep for cross-plate
+contradictions and settings honesty, and adversarial verification of every
+REQUIRED candidate (three independent skeptics per finding, instructed to
+try to refute it, majority required to survive). I then personally
+re-inspected all eleven proof PNGs myself, at full resolution and in tight
+crops where needed, before writing anything below.
+
+Regression check: every required fix from rounds 1-7 was re-verified against
+the current proofs and holds clean, with no material regression -
+01's "ruled ground" phrasing, 03's decoupled 0.54/0.575/0.81 axis
+disclosure and eye-level gaze register and six-faces caption and
+doorway-shadow direction, 04's MANTEL EDGE label and enlarged CALENDAR box
+(now clears the sheet's bottom rows through the "Peters Shoes" line) and
+dropped superlative, 05's house-mover/fish-market distinction, 06's raised
+APPLIED STUDIO SIGN box (all six letters now sit inside it) and "no
+landscape horizon or leading depth" wording, 07's relabeled ROW HOUSE
+CORNICE and shortened CEMETERY IRON RAILS line (confirmed by direct crop:
+it now ends exactly at the corner fence-post/chain), 08's trimmed left
+GABLE PITCH line, 09's curb disclosure/softened caption/porch-rhythm axis
+framing, 10's dropped fifth-house roofline segment and re-leaned telephone
+pole, and 11's symmetry hedge were all checked directly against the current
+proof PNGs and text and confirmed intact. `scripts/check.sh` (validate,
+chapter-sync, prose lint, tests, build, lint) passes clean and
+content/walker-evans/chapter.mdx remains byte-identical to
+src/chapters/walker-evans.mdx.
+
+Ten of eleven plates (01, 02, 03, 04, 06, 07, 08, and effectively 05, 09, 10
+apart from the items below, plus the chapter-wide sweep) came back clean or
+advisory-only. One REQUIRED issue surfaced and survived unanimous
+adversarial verification (all three independent verifiers, plus my own
+direct pixel check below).
+
+## Required fixes
+
+1. **09-frame-houses-new-orleans — the curb-disclosure sentence has the
+   spatial relationship backwards on two counts.** chapter.mdx's clause "the
+   analyzer's own raw luminance split at 0.758, which falls a few feet
+   closer in a messier driveway-apron area" gets both the direction and the
+   location wrong. I drew both candidate lines directly on
+   images/09-frame-houses-new-orleans.jpg (1600x1279): y=0.758 -> row 969,
+   y=0.79 -> row 1010. In this level, frontal shot the grass fills the
+   foreground at the bottom of the frame, so a larger normalized y (lower in
+   frame) is nearer the camera and a smaller y (higher in frame, nearer the
+   building line) is farther. Row 969 (0.758) sits at the back edge of the
+   sidewalk near the fence/porch-steps line - farther away, not closer. Row
+   1010 (0.79, the hand-set curb) sits at the sidewalk-to-grass edge -
+   nearer the camera. A tight crop over the driveway curb-cut and
+   storm-drain grate (x 0.35-0.70) confirms the grate itself sits right at
+   the 0.79 line, not the 0.758 line, which crosses plain, unbroken sidewalk
+   pavement above it. So the sentence calls the farther line "closer" and
+   attributes the messiness to the wrong one of the two lines - a reader who
+   checks the claim against the plate finds both halves of it backwards.
+   This traces to phrasing introduced in round 4 as an advisory and carried
+   into round 7's disclosure clause without ever being pixel-checked; this is
+   the first round to verify it, and it fails. The overlay's own CURB LINE
+   primitive is correctly placed at 0.79 and does not need to change - this
+   is a text-only fix. Fix by rewriting the clause so it correctly states
+   that the analyzer's raw split (0.758) sits farther back on plain
+   sidewalk, while the hand-set curb (0.79) sits nearer the camera at the
+   messier driveway-apron/storm-drain seam.
+
+## Advisories
+
+- **05-roadside-stand-birmingham** - both SPECIAL SIGN `frame_in_frame` boxes
+  bound only the white-lettered price-board text and stop exactly at the
+  seam with the attached black price-digit strip (20/15/15/15/20), which is
+  part of the same physical placard; the boxes still unambiguously trace the
+  correct signs, they just don't enclose the full panel.
+- **05-roadside-stand-birmingham** - the POINTER SIGN box's top edge sits
+  about 1% of frame height below the visible top of the "F.M.POINTER"
+  lettering, marginally grazing the tallest letters' ascenders; within the
+  ~2% endpoint tolerance.
+- **09-frame-houses-new-orleans** - the prose's asymmetry list (fence
+  left-only; pole, tree, and a fourth house's sliver right-only) omits a
+  comparable partial building visible at the very left edge of the frame,
+  making the one-sidedness argument read slightly more absolute than the
+  image actually is. Doesn't make either stated clause false.
+- **10-frame-houses-fredericksburg** - the sky actually shows two comparably
+  prominent diagonal wires; the overlay traces one and the body text calls
+  it "the only incident," slightly overstating the sky's bareness. Doesn't
+  undermine the chapter's point about a near-empty sky with one vertical
+  accent.
+- **10-frame-houses-fredericksburg** - the SERIAL ROOFLINE's first traced
+  segment (the first of the four matching houses) sits 0.019-0.027
+  normalized above that house's true roof fascia - the largest deviation of
+  the polyline's three segments, but still inside the 0.03 tolerance and
+  still clearly tracing that roofline.
+- Carried forward, re-checked this round and still open, still non-blocking:
+  01's FACE ellipse clipping the chin/jawline and the unhedged "level line"
+  language against the plate's 2.97-degree measured tilt; 04's CENTRAL AXIS
+  sitting a little left of the vase-implied mirror line and the TACKED
+  PICTURES box only enclosing the top pair of images; 05's "ruler-flat"
+  vs. "nearly level" wording inconsistency and the unmarked large FISH/LAKE
+  FISH wordmarks; 06's more-confident-than-09 mirror language against a
+  lower, non-mirrored-content score, and the Callout's blanket "every plate"
+  framing against 06's Met-CC0 (non-FSA) provenance; 07's WHITE GRAVE CROSS
+  polyline undershooting the carved stone; 11's ROOF RIDGES RECEDE line
+  riding chimney brick in a slight zigzag.
+
+Settings honesty: clean. No per-frame aperture, shutter speed, or ISO is
+invented anywhere in chapter.mdx for any of the eleven 1930s plates; the
+Phase One/Sinar/Kodak archival-scanner EXIF in manifest.json does not leak
+into chapter.mdx, sources.md, or research.md as if it were Evans's own camera
+settings. The chapter-wide sweep found zero cross-plate numeric
+contradictions and zero settled points regressed.
