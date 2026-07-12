@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "image": "07-lord-raglan.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.307,
+      "y": 0.166,
+      "w": 0.471,
+      "h": 0.725,
+      "label": "doorway as portrait mount"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.416,
+      "cy": 0.347,
+      "rx": 0.058,
+      "ry": 0.059,
+      "label": "Raglan's lit face"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.591,
+      "cy": 0.619,
+      "rx": 0.086,
+      "ry": 0.069,
+      "label": "plumed hat, held not worn"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.222, 0.531], [0.171, 0.656], [0.335, 0.831]],
+      "label": "folding campaign stool"
+    }
+  ],
+  "notes": "The commander sits off-center on his own folding camp stool at a real threshold, not a studio backdrop -- the dark doorway itself acts as the portrait's frame, isolating his lit face and the plumed hat he holds rather than wears."
+}

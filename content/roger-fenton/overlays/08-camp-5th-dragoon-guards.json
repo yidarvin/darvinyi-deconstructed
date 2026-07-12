@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "08-camp-5th-dragoon-guards.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [[0.075, 0.380], [0.25, 0.382], [0.4375, 0.377], [0.625, 0.387], [0.8125, 0.385]],
+      "label": "hill ridge against the sky"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.30, 0.553], [0.75, 0.705]],
+      "label": "picket line of horses, tents, and men"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.58,
+      "cy": 0.724,
+      "rx": 0.028,
+      "ry": 0.035,
+      "label": "soldiers pausing in the frieze"
+    }
+  ],
+  "notes": "Shot from high on the slope, the frame stacks into flat bands -- sky, a nearly level ridge, and a foreground frieze of tents, horses, and men -- reading the camp as horizontal terrain rather than a scene organized by depth."
+}

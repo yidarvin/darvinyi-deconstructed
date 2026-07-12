@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "image": "11-cookhouse-8th-hussars.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.5391,
+      "cy": 0.6216,
+      "rx": 0.2328,
+      "ry": 0.1607,
+      "label": "loose circle of soldiers"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.619,
+      "cy": 0.678,
+      "rx": 0.0313,
+      "ry": 0.0581,
+      "label": "cook pot"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.1563,
+      "y": 0.4338,
+      "w": 0.05,
+      "h": 0.1782,
+      "label": "fenton's van at frame edge"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.294, 0.515], [0.619, 0.678]],
+      "label": "sergeant's gaze into the group"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5125,
+      "label": "group centered on frame axis"
+    }
+  ],
+  "notes": "A studio-casual muster around the cookpots resolves into a centered, balanced cluster, with Fenton's own van anchoring the frame's edge."
+}

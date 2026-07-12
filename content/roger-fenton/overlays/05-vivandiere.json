@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "05-vivandiere.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.505,
+      "cy": 0.4,
+      "rx": 0.048,
+      "ry": 0.038,
+      "label": "VIVANDIÈRE — HEAD"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.26, 0.392], [0.478, 0.398]],
+      "label": "GAZE, OFF-CAMERA"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.815, 0.412], [0.434, 0.423]],
+      "arrow": false,
+      "label": "BACKDROP SEAM"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.878,
+      "cy": 0.4,
+      "rx": 0.022,
+      "ry": 0.1,
+      "label": "SOLDIER, CUT BY FRAME EDGE"
+    }
+  ],
+  "notes": "A studio-formal full-length portrait of the vivandière, gaze turned off-camera, with a soldier sliced by the frame's right edge planted as scale and counterweight."
+}

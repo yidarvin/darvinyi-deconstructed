@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "02-council-of-war.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [[0.368, 0.403], [0.508, 0.488], [0.803, 0.392], [0.368, 0.403]],
+      "label": "loose triangle of the three commanders"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.387,
+      "y": 0.175,
+      "w": 0.305,
+      "h": 0.175,
+      "label": "shadowed doorway behind the group"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.297,
+      "cy": 0.447,
+      "rx": 0.05,
+      "ry": 0.065,
+      "label": "Raglan's plain civilian coat"
+    }
+  ],
+  "notes": "The three Allied commanders lean into a loose triangle over the map table, its apex at their joined hands, while Raglan's plain civilian coat (left) marks his rank apart from the uniformed Pelissier and Omar Pasha, all set beneath the shadowed doorway."
+}

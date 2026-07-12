@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "image": "01-valley-of-shadow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.393,
+      "y": 0.437,
+      "label": "road vanishes over the saddle"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [0.50, 0.87],
+        [0.42, 0.65],
+        [0.393, 0.437]
+      ],
+      "arrow": true,
+      "label": "sunken road"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.568,
+      "y": 0.728,
+      "r": 0.045,
+      "label": "scattered round shot"
+    }
+  ],
+  "notes": "The sunken road's converging ruts collapse the whole valley to one distant vanishing point, and the litter of round shot is the only incident breaking the emptiness of that perspectival corridor."
+}

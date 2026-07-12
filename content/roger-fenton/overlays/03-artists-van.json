@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "03-artists-van.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.575,
+      "cy": 0.45,
+      "rx": 0.09,
+      "ry": 0.115,
+      "label": "Marcus Sparling, posed like a sitter"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "van and shafts balanced on frame center"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.267,
+      "y": 0.375,
+      "w": 0.031,
+      "h": 0.072,
+      "label": "the van's own window, a frame within the frame"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.621, 0.570], [0.885, 0.708]],
+      "arrow": true,
+      "label": "wagon shafts breaking the frontal stillness"
+    }
+  ],
+  "notes": "Fenton poses his own photographic van frontally and centered like a portrait sitter, its own window doubling as a frame-within-a-frame, while only the trailing wagon shafts break the symmetry."
+}

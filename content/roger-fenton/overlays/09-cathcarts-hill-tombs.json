@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "image": "09-cathcarts-hill-tombs.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.0, 0.485],
+        [0.125, 0.483],
+        [0.3125, 0.512],
+        [0.5, 0.496],
+        [0.6875, 0.491],
+        [0.875, 0.513],
+        [1.0, 0.51]
+      ],
+      "label": "hillside ridge against empty sky"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.444,
+      "cy": 0.575,
+      "rx": 0.219,
+      "ry": 0.102,
+      "label": "row of officers' graves"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.681,
+      "cy": 0.561,
+      "rx": 0.02,
+      "ry": 0.075,
+      "label": "the lone mourner"
+    }
+  ],
+  "notes": "A near-flat hill crest divides the frame into vast empty sky and stony ground; the ordered rank of grave markers and the single mourning figure beside them are the only interruptions, the man's small scale measuring the cemetery's scale."
+}

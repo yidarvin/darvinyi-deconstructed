@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "image": "04-balaklava-guards-hill.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.13, 0.325],
+        [0.16, 0.313],
+        [0.20, 0.325],
+        [0.26, 0.355],
+        [0.33, 0.378],
+        [0.40, 0.403],
+        [0.47, 0.432],
+        [0.53, 0.444],
+        [0.60, 0.431],
+        [0.68, 0.455],
+        [0.75, 0.474],
+        [0.83, 0.452],
+        [0.855, 0.440]
+      ],
+      "label": "distant ridgeline"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.60,
+      "cy": 0.430,
+      "rx": 0.028,
+      "ry": 0.020,
+      "label": "ruined fort on the skyline"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.50,
+      "cy": 0.559,
+      "rx": 0.111,
+      "ry": 0.033,
+      "label": "crowded anchorage"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.47,
+      "y": 0.655,
+      "w": 0.37,
+      "h": 0.205,
+      "label": "foreground bell tents"
+    }
+  ],
+  "notes": "A high vantage on Guard's Hill telescopes the view into stacked horizontal bands -- foreground tent camp, the crowded Balaklava anchorage, and the ruined fort on the ridge beyond -- terrain documented rather than incident staged."
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "file": "01-valley-of-shadow.jpg",
+    "width": 1600,
+    "height": 1298,
+    "sha1": "8631d542",
+    "source": "01-valley-of-shadow.jpg",
+    "exif": {
+      "Make": "Phase One A/S",
+      "Model": "PowerPhase FX"
+    }
+  },
+  {
+    "file": "02-council-of-war.jpg",
+    "width": 1279,
+    "height": 1600,
+    "sha1": "c76c04a8",
+    "source": "02-council-of-war.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-artists-van.jpg",
+    "width": 1290,
+    "height": 1600,
+    "sha1": "6f1712c3",
+    "source": "03-artists-van.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-balaklava-guards-hill.jpg",
+    "width": 1600,
+    "height": 1285,
+    "sha1": "91a28e6d",
+    "source": "04-balaklava-guards-hill.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-vivandiere.jpg",
+    "width": 1290,
+    "height": 1600,
+    "sha1": "ce3b0088",
+    "source": "05-vivandiere.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-a-zouave.jpg",
+    "width": 1287,
+    "height": 1600,
+    "sha1": "1ae57152",
+    "source": "06-a-zouave.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-lord-raglan.jpg",
+    "width": 1285,
+    "height": 1600,
+    "sha1": "a5057b84",
+    "source": "07-lord-raglan.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-camp-5th-dragoon-guards.jpg",
+    "width": 1600,
+    "height": 1292,
+    "sha1": "40a9e0a6",
+    "source": "08-camp-5th-dragoon-guards.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-cathcarts-hill-tombs.jpg",
+    "width": 1600,
+    "height": 1269,
+    "sha1": "4b0eeba2",
+    "source": "09-cathcarts-hill-tombs.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-balaklava-cattle-pier.jpg",
+    "width": 1600,
+    "height": 1291,
+    "sha1": "14c11cdd",
+    "source": "10-balaklava-cattle-pier.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-cookhouse-8th-hussars.jpg",
+    "width": 1600,
+    "height": 1291,
+    "sha1": "bd7c80c5",
+    "source": "11-cookhouse-8th-hussars.jpg",
+    "exif": {}
+  }
+]
