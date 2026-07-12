@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "image": "08-leaf-of-a-plant.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.094,
+      "y": 0.108,
+      "w": 0.798,
+      "h": 0.76,
+      "label": "mount's ruled window"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.434, 0.783],
+        [0.471, 0.6875],
+        [0.486, 0.5125],
+        [0.485, 0.4625],
+        [0.446, 0.35],
+        [0.393, 0.236]
+      ],
+      "label": "frond's central rachis"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.4875,
+      "label": "stem's frontal symmetry axis"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.469,
+      "y": 0.367,
+      "r": 0.035,
+      "label": "terminal leaflet cluster"
+    }
+  ],
+  "notes": "The leaf is its own printing plate: laid flat and contact-printed, the frond centers itself on its own stem axis inside the mount's ruled window, structure alone -- no lens, no framing -- supplying the composition."
+}

@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "image": "12-bridge-of-orleans.jpg",
+  "width": 1600,
+  "height": 1000,
+  "aspect": 1.6,
+  "tonal": {
+    "mean": 0.8309619379978553,
+    "std": 0.1400099630461947,
+    "p05": 0.5607843137254902,
+    "p95": 0.9137254901960784,
+    "edge_density": 0.00820465087890625
+  },
+  "palette": [
+    "#e8e3d2",
+    "#d6cdbc",
+    "#b9aa9c",
+    "#3e352c",
+    "#8a7a6d"
+  ],
+  "lines": [
+    {
+      "x1": 0.0234375,
+      "y1": 0.009375,
+      "x2": 0.84765625,
+      "y2": 0.009375,
+      "angle_deg": 0.0,
+      "length": 0.6989361021291937,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0078125,
+      "y1": 0.9921875,
+      "x2": 0.0078125,
+      "y2": 0.0109375,
+      "angle_deg": -90.0,
+      "length": 0.5200614598781204,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.9921875,
+      "y1": 0.6875,
+      "x2": 0.9921875,
+      "y2": 0.009375,
+      "angle_deg": -90.0,
+      "length": 0.35940553118965646,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.298828125,
+      "y1": 0.990625,
+      "x2": 0.693359375,
+      "y2": 0.990625,
+      "angle_deg": 0.0,
+      "length": 0.3345618308770074,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.6943359375,
+      "y1": 0.9890625,
+      "x2": 0.9921875,
+      "y2": 0.9890625,
+      "angle_deg": 0.0,
+      "length": 0.2525776198452655,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.9931640625,
+      "y1": 0.9703125,
+      "x2": 0.9931640625,
+      "y2": 0.628125,
+      "angle_deg": -90.0,
+      "length": 0.18135901228233817,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.1220703125,
+      "y1": 0.9921875,
+      "x2": 0.2978515625,
+      "y2": 0.9921875,
+      "angle_deg": 0.0,
+      "length": 0.1490622018758944,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.8251953125,
+      "y1": 0.0078125,
+      "x2": 0.9912109375,
+      "y2": 0.0078125,
+      "angle_deg": 0.0,
+      "length": 0.1407809684383447,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.009765625,
+      "y1": 0.99375,
+      "x2": 0.12109375,
+      "y2": 0.99375,
+      "angle_deg": 0.0,
+      "length": 0.09440606118806644,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.65,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0537109375,
+      0.5375
+    ],
+    "regions": [
+      {
+        "cx": 0.07646555247890295,
+        "cy": 0.5927893987341772,
+        "x": 0.0,
+        "y": 0.41875,
+        "w": 0.1962890625,
+        "h": 0.3390625,
+        "area_frac": 0.04520416259765625
+      },
+      {
+        "cx": 0.9398777440315598,
+        "cy": 0.6967371611871,
+        "x": 0.8603515625,
+        "y": 0.6171875,
+        "w": 0.1396484375,
+        "h": 0.1359375,
+        "area_frac": 0.01215972900390625
+      },
+      {
+        "cx": 0.663896402401266,
+        "cy": 0.6468627442548507,
+        "x": 0.6025390625,
+        "y": 0.5828125,
+        "w": 0.1279296875,
+        "h": 0.125,
+        "area_frac": 0.01108856201171875
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8664657992287701,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.8194216818762002,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.0537109375,
+    "y": 0.5375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3827160493827163,
+    "phi": 0.32605181018479545,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.65,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.87,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.054,
+      "y": 0.538,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

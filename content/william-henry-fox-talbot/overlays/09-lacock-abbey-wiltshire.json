@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "image": "09-lacock-abbey-wiltshire.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.395,
+      "y": 0.35,
+      "w": 0.26,
+      "h": 0.17,
+      "label": "Gothic south front, shot camera-square"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.82, 0.19], [0.75, 0.30], [0.67, 0.42], [0.63, 0.55], [0.65, 0.70]],
+      "label": "dense tree screen framing the view"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.18, 0.60], [0.30, 0.615], [0.42, 0.635], [0.50, 0.66], [0.58, 0.64], [0.65, 0.615]],
+      "label": "eroded bank crossing the foreground"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.565,
+      "cy": 0.735,
+      "rx": 0.03,
+      "ry": 0.045,
+      "label": "tower doubled in its own reflection"
+    }
+  ],
+  "notes": "Talbot squares his camera dead-level on his own Gothic house, letting a tree screen and an eroded foreground bank frame a view still enough to mirror the tower in the water below."
+}

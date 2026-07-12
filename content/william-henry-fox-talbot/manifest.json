@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-latticed-window.jpg",
+    "width": 1536,
+    "height": 918,
+    "sha1": "af7db4dc",
+    "source": "01-latticed-window.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-the-open-door.jpg",
+    "width": 1600,
+    "height": 1197,
+    "sha1": "9ea1fba5",
+    "source": "02-the-open-door.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-the-haystack.jpg",
+    "width": 1600,
+    "height": 1257,
+    "sha1": "fa5b49dc",
+    "source": "03-the-haystack.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-articles-of-china.jpg",
+    "width": 1600,
+    "height": 1190,
+    "sha1": "29fc3e66",
+    "source": "04-articles-of-china.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-the-ladder.jpg",
+    "width": 1600,
+    "height": 1271,
+    "sha1": "adc7a66f",
+    "source": "05-the-ladder.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-nelsons-column.jpg",
+    "width": 1600,
+    "height": 1332,
+    "sha1": "1d8f0ea6",
+    "source": "06-nelsons-column.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-scene-in-library.jpg",
+    "width": 1600,
+    "height": 1316,
+    "sha1": "59b2d14f",
+    "source": "07-scene-in-library.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-leaf-of-a-plant.jpg",
+    "width": 1256,
+    "height": 1600,
+    "sha1": "098de159",
+    "source": "08-leaf-of-a-plant.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-lacock-abbey-wiltshire.jpg",
+    "width": 1600,
+    "height": 1166,
+    "sha1": "0be5cb8c",
+    "source": "09-lacock-abbey-wiltshire.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-bust-of-patroclus.jpg",
+    "width": 1288,
+    "height": 1600,
+    "sha1": "52945d3d",
+    "source": "10-bust-of-patroclus.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-boulevards-at-paris.jpg",
+    "width": 1599,
+    "height": 1178,
+    "sha1": "2893c59f",
+    "source": "11-boulevards-at-paris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-bridge-of-orleans.jpg",
+    "width": 1600,
+    "height": 1000,
+    "sha1": "10fe07e9",
+    "source": "12-bridge-of-orleans.jpg",
+    "exif": {}
+  }
+]

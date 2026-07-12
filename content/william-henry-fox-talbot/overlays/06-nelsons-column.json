@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "06-nelsons-column.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.605, 0.072], [0.605, 0.40]],
+      "arrow": false,
+      "label": "fluted shaft edge"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.35,
+      "y": 0.40,
+      "w": 0.35,
+      "h": 0.38,
+      "label": "timber hoisting cradle"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.53, 0.65], [0.42, 0.47]],
+      "label": "raking shore"
+    }
+  ],
+  "notes": "A timber derrick cages the column mid-erection, its raking shores squaring off against the shaft's fluted vertical so the unfinished monument reads as pure construction geometry against open sky."
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "02-the-open-door.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.174,
+      "y": 0.0,
+      "w": 0.482,
+      "h": 0.8,
+      "label": "doorway aperture"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.185, 0.32], [0.335, 0.655], [0.53, 0.905]],
+      "label": "broom, diagonal thrust"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.8,
+      "angle": 0.0,
+      "label": "threshold: light meets shadow"
+    }
+  ],
+  "notes": "A rectilinear stone doorway is cut across by the diagonal thrust of a leaning broom, its threshold the line where sunlight breaks into the dark interior."
+}

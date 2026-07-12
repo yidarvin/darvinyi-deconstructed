@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "image": "07-scene-in-library.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.806,
+      "angle": 1.96,
+      "label": "shelf edge -- base line of the lower row"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.163, 0.168],
+        [0.225, 0.180],
+        [0.350, 0.183],
+        [0.431, 0.218],
+        [0.559, 0.191],
+        [0.647, 0.172],
+        [0.800, 0.206]
+      ],
+      "label": "uneven spine tops -- a ragged skyline"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.565,
+      "cy": 0.315,
+      "rx": 0.075,
+      "ry": 0.14,
+      "label": "three identical spines -- the taxonomic set repeated exactly"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.253,
+      "y": 0.623,
+      "r": 0.06,
+      "label": "the leaning pamphlets -- the grid's one irregularity"
+    }
+  ],
+  "notes": "A shelf of bindings becomes a taxonomic grid -- dense, legible verticals repeated (a matching trio twice over) against the shelf's own edge, with one leaning cluster of pamphlets the sole break in the rhythm, an ancestor of Blossfeldt's and Ruscha's typological arrays."
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "04-articles-of-china.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.468,
+      "angle": 0,
+      "label": "shelf board, row 2/3"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.232, 0.711], [0.612, 0.711]],
+      "arrow": false,
+      "label": "shelf board, row 3/4"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "mirror axis of each shelf"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.476,
+      "y": 0.159,
+      "r": 0.045,
+      "label": "centerpiece compote, top shelf"
+    }
+  ],
+  "notes": "Talbot stacks four shelves into a literal grid, and mirrors each shelf's china around a center-line specimen — the still-life turned into a catalogue."
+}

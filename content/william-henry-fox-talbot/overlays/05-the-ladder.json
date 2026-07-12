@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "image": "05-the-ladder.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [
+        [0.538, 0.16],
+        [0.525, 0.82]
+      ],
+      "arrow": true,
+      "label": "the ladder"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.285, 0.60],
+        [0.60, 0.62],
+        [0.478, 0.18]
+      ],
+      "label": "stepped diagonal of three figures"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.42,
+      "y": 0.088,
+      "w": 0.155,
+      "h": 0.232,
+      "label": "window the ladder enters"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "label": "symmetric frontal wall"
+    }
+  ],
+  "notes": "A leaning ladder threads three men into a single stepped diagonal that cuts across an otherwise mirror-symmetric, flat facade."
+}

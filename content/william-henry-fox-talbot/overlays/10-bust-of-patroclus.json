@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "image": "10-bust-of-patroclus.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.130,
+      "y": 0.179,
+      "w": 0.705,
+      "h": 0.604,
+      "label": "printed image"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.513,
+      "label": "bilateral axis"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.52,
+      "cy": 0.385,
+      "rx": 0.165,
+      "ry": 0.155,
+      "label": "plaster head"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.548,
+      "y": 0.334,
+      "r": 0.045,
+      "label": "raking-light highlight"
+    }
+  ],
+  "notes": "Held near-centered on its own bilateral axis within the printed frame, the bust's volume is carried entirely by raking light rather than by outline."
+}

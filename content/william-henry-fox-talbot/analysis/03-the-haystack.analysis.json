@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "03-the-haystack.jpg",
+  "width": 1600,
+  "height": 1257,
+  "aspect": 1.2729,
+  "tonal": {
+    "mean": 0.7472925278631353,
+    "std": 0.07477099872342449,
+    "p05": 0.5686274509803921,
+    "p95": 0.803921568627451,
+    "edge_density": 0.000414188821517413
+  },
+  "palette": [
+    "#d6c9b5",
+    "#d0c2aa",
+    "#c6b59c",
+    "#b9a389",
+    "#a58972"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.13805970149253732,
+    "angle_deg": 0.0,
+    "confidence": 0.9093618249433323,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7724609375,
+      0.6094527363184079
+    ],
+    "regions": [
+      {
+        "cx": 0.3192209662735127,
+        "cy": 0.6308577597293736,
+        "x": 0.1767578125,
+        "y": 0.4577114427860697,
+        "w": 0.2763671875,
+        "h": 0.30845771144278605,
+        "area_frac": 0.043651372046019904
+      },
+      {
+        "cx": 0.7475283961846103,
+        "cy": 0.48931266421704633,
+        "x": 0.66015625,
+        "y": 0.27860696517412936,
+        "w": 0.16796875,
+        "h": 0.4154228855721393,
+        "area_frac": 0.04077269900497513
+      },
+      {
+        "cx": 0.2200095324933687,
+        "cy": 0.30211779299787533,
+        "x": 0.177734375,
+        "y": 0.21517412935323382,
+        "w": 0.0888671875,
+        "h": 0.19029850746268656,
+        "area_frac": 0.011447887515547263
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8313755701216428,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.7955380363648545,
+    "horizontal_axis_y": 0.45
+  },
+  "subject_anchor": {
+    "x": 0.7724609375,
+    "y": 0.6094527363184079,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.22073632602073806,
+    "phi": 0.10526958369083701,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.138,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.91,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.83,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.772,
+      "y": 0.609,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

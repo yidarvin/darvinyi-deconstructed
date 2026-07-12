@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "01-latticed-window.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.6296,
+      "y": 0.2005,
+      "w": 0.3131,
+      "h": 0.6067,
+      "label": "paper mount, hand-trimmed"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.7012,
+      "y": 0.2985,
+      "w": 0.1803,
+      "h": 0.379,
+      "label": "the surviving 1835 negative"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.7207,
+      "y": 0.402,
+      "w": 0.1432,
+      "h": 0.1688,
+      "label": "ghost of the leaded panes"
+    }
+  ],
+  "notes": "Three nested rectangles -- archive mount, negative, and the negative's own faint pane grid -- show the oriel window's leaded lattice already forming the grid this book otherwise has to draw."
+}

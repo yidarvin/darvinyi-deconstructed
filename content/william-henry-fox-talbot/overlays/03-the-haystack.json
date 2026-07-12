@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "03-the-haystack.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.28, 0.745], [0.435, 0.257]],
+      "arrow": true,
+      "label": "leaning ladder"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.42, 0.345], [0.715, 0.44]],
+      "arrow": false,
+      "label": "thatch eave line"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.222,
+      "y": 0.478,
+      "w": 0.083,
+      "h": 0.122,
+      "label": "shadowed doorway"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.748,
+      "y": 0.489,
+      "r": 0.045,
+      "label": "straw thatch texture"
+    }
+  ],
+  "notes": "The ladder's steep climb and the eave's shallow counter-diagonal brace a haystack built to fill the frame edge to edge, its resolved straw texture standing as the true specimen the calotype exists to prove."
+}

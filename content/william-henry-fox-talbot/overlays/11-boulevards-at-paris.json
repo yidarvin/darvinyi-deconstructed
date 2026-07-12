@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "11-boulevards-at-paris.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.398,
+      "angle": 2.0,
+      "label": "distant rooftops"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.1729, 0.5557], [0.5352, 0.565]],
+      "arrow": true,
+      "label": "left facade row, receding"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.9365, 0.3462], [0.6582, 0.4058]],
+      "arrow": true,
+      "label": "bains facade, receding"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.647,
+      "y": 0.265,
+      "r": 0.035,
+      "label": "boulevard tree at the vanishing point"
+    }
+  ],
+  "notes": "Two matched rows of building facades recede in one-point perspective to a shared vanishing point marked by the lone boulevard tree, Talbot's earliest urban depth study."
+}
