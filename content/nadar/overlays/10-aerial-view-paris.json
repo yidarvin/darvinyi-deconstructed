@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "10-aerial-view-paris.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.734, 0.66], [0.604, 0.165]],
+      "arrow": true,
+      "label": "tree-lined boulevard, radiating"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.5, 0.348], [0.581, 0.271]],
+      "arrow": true,
+      "label": "second radiating avenue"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.556,
+      "y": 0.025,
+      "w": 0.088,
+      "h": 0.289,
+      "label": "Arc de Triomphe, Place de l'Etoile"
+    }
+  ],
+  "notes": "Shot straight down from Nadar's balloon, the Place de l'Etoile's radiating boulevards flatten into a plan-view star converging on the Arc de Triomphe -- a geometry only overhead flight could reveal."
+}

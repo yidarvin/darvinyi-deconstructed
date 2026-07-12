@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "08-eugene-delacroix.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.51,
+      "cy": 0.265,
+      "rx": 0.165,
+      "ry": 0.145,
+      "label": "face: the only fully lit passage"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.47, 0.215], [0.08, 0.335]],
+      "label": "gaze averted from the lens"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.394,
+      "y": 0.536,
+      "r": 0.05,
+      "label": "shirt front: second lit note"
+    }
+  ],
+  "notes": "Two isolated passages of light -- the face and the white shirt-front -- survive in a portrait otherwise dissolved into black coat and grey void, while Delacroix's eyes break off-axis, refusing the lens."
+}

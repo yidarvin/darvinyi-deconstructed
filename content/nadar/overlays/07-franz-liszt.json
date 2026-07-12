@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "07-franz-liszt.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.475,
+      "cy": 0.41,
+      "rx": 0.305,
+      "ry": 0.27,
+      "label": "mane and face: one pale mass"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.513,
+      "y": 0.348,
+      "label": "the eyes: every crease converges here"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.563,
+      "y": 0.57,
+      "r": 0.035,
+      "label": "collar: the last bright note"
+    }
+  ],
+  "notes": "Seated frontally in three-quarter light, Liszt's pale hair and face fuse into one lit mass whose eyes gather every furrow and hair-strand, while the dark coat and darkening backdrop close around it like a memorial void."
+}

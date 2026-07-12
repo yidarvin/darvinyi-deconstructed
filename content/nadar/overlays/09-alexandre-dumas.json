@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "09-alexandre-dumas.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.49,
+      "cy": 0.205,
+      "rx": 0.205,
+      "ry": 0.095,
+      "label": "hair fills the frame's crown"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.488,
+      "y": 0.305,
+      "r": 0.04,
+      "label": "face: the only fully lit passage"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.605,
+      "y": 0.68,
+      "r": 0.045,
+      "label": "hand tucked in its draped cuff"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.179, 0.779], [0.321, 0.644], [0.494, 0.681], [0.601, 0.725]],
+      "label": "sleeve's fold carries the eye down to the hand"
+    }
+  ],
+  "notes": "A void ground concentrates the eye on two lit passages, face and draped hand, while an unruly crown of hair fills the frame's top third."
+}

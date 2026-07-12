@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "image": "02-self-portrait-studio.jpg",
+  "width": 1301,
+  "height": 1600,
+  "aspect": 0.8131,
+  "tonal": {
+    "mean": 0.36807197582308165,
+    "std": 0.09502509234142303,
+    "p05": 0.26666666666666666,
+    "p95": 0.5098039215686274,
+    "edge_density": 0.005832378680889423
+  },
+  "palette": [
+    "#4e4740",
+    "#847769",
+    "#74675a",
+    "#5a5149",
+    "#afa390"
+  ],
+  "lines": [
+    {
+      "x1": 0.4050480769230769,
+      "y1": 0.6533203125,
+      "x2": 0.5480769230769231,
+      "y2": 0.51953125,
+      "angle_deg": -49.02199017702011,
+      "length": 0.13753759512776648,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.240234375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5276442307692307,
+      0.5068359375
+    ],
+    "regions": [
+      {
+        "cx": 0.5096593678116106,
+        "cy": 0.5050534758299544,
+        "x": 0.4050480769230769,
+        "y": 0.373046875,
+        "w": 0.18990384615384615,
+        "h": 0.248046875,
+        "area_frac": 0.023158146784855768
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8015311426442888,
+    "vertical_axis_x": 0.4375,
+    "horizontal": 0.5416173363318622,
+    "horizontal_axis_y": 0.425
+  },
+  "subject_anchor": {
+    "x": 0.5276442307692307,
+    "y": 0.5068359375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.09963348765432103,
+    "phi": 0.17249522732039077,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.24,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.438,
+      "confidence": 0.8,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.528,
+      "y": 0.507,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
