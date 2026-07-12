@@ -1,0 +1,14 @@
+verdict: approve
+
+Reviewed all 11 proofs (fresh-eyes visual pass), all 11 overlay JSONs, all 11 analysis JSONs, sources.md, research.md, and chapter.mdx.
+
+This chapter is unusually well-grounded. Every primitive traces a feature that is actually visible in its proof PNG and whose label correctly names it: the growth-axis lines follow the real stem/thong paths, ellipses ring the specimen clusters they claim to, the triangular-rhythm polylines in 06 (Padina Pavonia) and 08 (Chondrus crispus) connect the correct three fan centers, the symmetry axes in 02/03/08/11 land within 0.005 of the analyzer's own measured vertical_axis_x, and the subject_anchor in 01 (Sargassum) sits essentially on top of the saliency peak (0.427/0.602 vs. measured 0.4273/0.6016). Each image carries 3-4 primitives, never an exhaustive inventory.
+
+Every numeric claim in chapter.mdx was checked against its analysis JSON one by one (means, p05/p95, std, symmetry values and axes, vanishing-point coordinates and inlier counts, edge density, horizon y, palette hexes, "highest/lowest in the chapter" superlatives) — all are correct, either exact or rounded within the stated tolerance, including chained claims like the 08 horizon-equals-frame-in-frame-lower-edge arithmetic (0.137+0.721=0.858 vs. reported horizon 0.859) and the "second-highest vertical symmetry" ranking for 07 (0.908, correctly behind 09's 0.931).
+
+Settings honesty is exemplary: research.md and the closing Callout explicitly and correctly state that these are cyanotype contact photograms with no camera, lens, or exposure settings, and none is invented anywhere in the chapter. Biographical/historical claims about Atkins (father John George Children, Herschel connection, 1843 self-publication, priority over Talbot's Pencil of Nature, collaboration with Anne Dixon) are accurate and plausible.
+
+## Advisory (non-blocking)
+1. The `vanishing_point` primitive is repurposed in plate 05 (Delesseria sanguinea) to mark a "rachis fork" rather than an optical convergence — a semantic stretch from the standard primitive meaning. The chapter and research.md explicitly flag and justify this reframing for lensless photogram work, so it isn't misleading in context, but a reader who only glances at the overlay diagram without the prose could momentarily misread it as a perspective claim.
+2. A few ellipses (e.g., plate 01's "irregular branch cluster," plate 09's "algae frond") extend slightly past the visible specimen silhouette into empty blue ground — cosmetic only, the labeled feature still reads correctly inside the ellipse.
+3. Chapter.mdx's "about a year" gap between Atkins's October 1843 start and Talbot's Pencil of Nature (first installment June 1844, roughly eight months) is a generous rounding; still directionally correct and not material to any compositional claim.
