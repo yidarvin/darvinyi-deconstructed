@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "10-fontaine-quatre-eveques.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "mirror symmetry axis"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.372,
+      "y": 0.03,
+      "w": 0.256,
+      "h": 0.40,
+      "label": "columned niche framing the bishop"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.501,
+      "y": 0.304,
+      "r": 0.04,
+      "label": "seated bishop, Massillon"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.722,
+      "angle": 0.0,
+      "label": "waterline of shallow foreground basin"
+    }
+  ],
+  "notes": "Shot dead-on, the fountain's niche, seated bishop and flanking columns lock into strict mirror symmetry, with the shallow foreground water laying a soft horizontal band beneath the vertical architecture."
+}

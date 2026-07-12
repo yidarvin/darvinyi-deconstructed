@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "09-column-barriere-du-trone.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5125,
+      "label": "column's central axis"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.512,
+      "cy": 0.112,
+      "rx": 0.045,
+      "ry": 0.05,
+      "label": "statue crowning the capital"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.785,
+      "angle": 0,
+      "label": "gatehouse cornice line"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.30,
+      "y": 0.745,
+      "w": 0.40,
+      "h": 0.125,
+      "label": "twin-pedimented gatehouse"
+    }
+  ],
+  "notes": "The column plants itself dead-center on the frame's vertical axis, its statue-topped capital nearly touching the top edge, while the symmetric twin-pedimented gatehouse at its foot echoes the same mirror symmetry at ground level."
+}

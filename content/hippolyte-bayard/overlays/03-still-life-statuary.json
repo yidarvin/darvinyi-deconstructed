@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "image": "03-still-life-statuary.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "bilateral symmetry axis"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.12,
+      "y": 0.05,
+      "w": 0.76,
+      "h": 0.75,
+      "label": "curtain parted into a niche"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.5,
+      "cy": 0.605,
+      "rx": 0.11,
+      "ry": 0.27,
+      "label": "venus de milo, centered sitter"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.565,
+      "cy": 0.185,
+      "rx": 0.12,
+      "ry": 0.09,
+      "label": "cupid roundel"
+    }
+  ],
+  "notes": "A parted curtain turns a shelf of plaster casts into a proscenium, with Venus de Milo held dead-center on the bilateral axis like a formal portrait sitter."
+}

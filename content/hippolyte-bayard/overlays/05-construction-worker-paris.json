@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "05-construction-worker-paris.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.127,
+      "angle": 0.0,
+      "label": "Shadowed lintel above the shutters"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "Symmetric shuttered window"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.35,
+      "y": 0.59,
+      "w": 0.31,
+      "h": 0.32,
+      "label": "Barred window, grid within the grid"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.285,
+      "cy": 0.765,
+      "rx": 0.078,
+      "ry": 0.145,
+      "label": "Worker on the scaffold"
+    }
+  ],
+  "notes": "A symmetrical shuttered window and its own shadowed lintel impose a formal grid on the upper register, while the barred window and the off-axis worker below puncture that order with documentary asymmetry."
+}

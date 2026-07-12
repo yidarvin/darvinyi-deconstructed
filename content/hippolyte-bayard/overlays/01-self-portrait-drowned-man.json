@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "01-self-portrait-drowned-man.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.695,
+      "cy": 0.285,
+      "rx": 0.065,
+      "ry": 0.085,
+      "label": "head lolled onto the shoulder"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.28,
+      "cy": 0.46,
+      "rx": 0.115,
+      "ry": 0.13,
+      "label": "hat set aside like a grave marker"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.40, 0.63],
+        [0.48, 0.52],
+        [0.56, 0.40],
+        [0.64, 0.28],
+        [0.72, 0.22],
+        [0.79, 0.19]
+      ],
+      "label": "drape falling in a diagonal behind the corpse-pose"
+    }
+  ],
+  "notes": "A staged corpse: the head lolled dead against the shoulder and a hat set aside like a grave marker read as documentary fact because the flat, frontal lighting gives the fiction no seams."
+}

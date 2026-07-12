@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "08-rue-royale-shopfronts.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.23, 0.295], [0.40, 0.345], [0.58, 0.415], [0.75, 0.475], [0.93, 0.555]],
+      "arrow": true,
+      "label": "receding roofline"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.18, 0.615], [0.38, 0.63], [0.58, 0.65], [0.78, 0.665], [0.93, 0.668]],
+      "arrow": true,
+      "label": "shopfront cornice"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.373,
+      "y": 0.653,
+      "w": 0.048,
+      "h": 0.17,
+      "label": "arched shop entrance"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.069,
+      "y": 0.655,
+      "r": 0.04,
+      "label": "dentiste signage"
+    }
+  ],
+  "notes": "The roofline and shopfront cornice rake back in tandem toward a shared vanishing point, flattening the row's repeating bays and painted signage into one raking street elevation."
+}

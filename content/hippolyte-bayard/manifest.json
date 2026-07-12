@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-self-portrait-drowned-man.jpg",
+    "width": 1500,
+    "height": 1448,
+    "sha1": "6c23cb46",
+    "source": "01-self-portrait-drowned-man.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-windmills-montmartre.jpg",
+    "width": 1599,
+    "height": 1449,
+    "sha1": "b9a7b187",
+    "source": "02-windmills-montmartre.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-still-life-statuary.jpg",
+    "width": 1230,
+    "height": 1600,
+    "sha1": "4e933e9e",
+    "source": "03-still-life-statuary.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-self-portrait-garden.jpg",
+    "width": 1175,
+    "height": 1600,
+    "sha1": "195240f1",
+    "source": "04-self-portrait-garden.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-construction-worker-paris.jpg",
+    "width": 1136,
+    "height": 1600,
+    "sha1": "49d0c923",
+    "source": "05-construction-worker-paris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-cirque-national-paris.jpg",
+    "width": 1600,
+    "height": 1239,
+    "sha1": "7fe0909d",
+    "source": "06-cirque-national-paris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-panorama-louvre-tuileries.jpg",
+    "width": 1600,
+    "height": 480,
+    "sha1": "865266a8",
+    "source": "07-panorama-louvre-tuileries.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-rue-royale-shopfronts.jpg",
+    "width": 1600,
+    "height": 1226,
+    "sha1": "a03db845",
+    "source": "08-rue-royale-shopfronts.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-column-barriere-du-trone.jpg",
+    "width": 990,
+    "height": 1599,
+    "sha1": "85aa6897",
+    "source": "09-column-barriere-du-trone.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-fontaine-quatre-eveques.jpg",
+    "width": 1306,
+    "height": 1600,
+    "sha1": "b37ac3a7",
+    "source": "10-fontaine-quatre-eveques.jpg",
+    "exif": {}
+  }
+]

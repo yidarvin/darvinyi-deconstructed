@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "02-windmills-montmartre.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.393,
+      "cy": 0.395,
+      "rx": 0.06,
+      "ry": 0.10,
+      "label": "windmill silhouette, left"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.701,
+      "cy": 0.395,
+      "rx": 0.055,
+      "ry": 0.10,
+      "label": "windmill silhouette, right"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.46, 0.443], [0.50, 0.436], [0.545, 0.437], [0.60, 0.441], [0.645, 0.446]],
+      "label": "rooftops held level"
+    }
+  ],
+  "notes": "Two windmill silhouettes bracket a level rooftop line, banding the built town dark beneath a vast pale sky -- the tonal recession that gives this direct positive its ghostly stillness."
+}
