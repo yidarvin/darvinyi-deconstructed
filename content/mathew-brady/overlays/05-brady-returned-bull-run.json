@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "05-brady-returned-bull-run.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.49,
+      "cy": 0.17,
+      "rx": 0.075,
+      "ry": 0.095,
+      "label": "brady, in profile"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.44, 0.185], [0.03, 0.185]],
+      "arrow": true,
+      "label": "gaze into the empty field"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.826,
+      "angle": 0,
+      "label": "backdrop-to-floor seam"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.42, 0.145], [0.46, 0.22], [0.50, 0.33], [0.39, 0.48], [0.36, 0.65], [0.31, 0.90]],
+      "label": "front contour — implied stride"
+    }
+  ],
+  "notes": "The house frontal-and-prop formula drops away when Brady turns the camera on himself: no column or book-stack, just a plain grounded field and a profile caught mid-stride, gaze cutting into the empty space he'd normally fill with a sitter."
+}

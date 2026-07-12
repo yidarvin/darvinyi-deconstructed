@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "08-grant-cold-harbor.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.437, 0.03], [0.424, 0.45], [0.422, 0.84]],
+      "arrow": false,
+      "label": "rope-lashed pine — stand-in studio column"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.706,
+      "y": 0.507,
+      "r": 0.035,
+      "label": "hand on hip"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.62,
+      "y": 0.22,
+      "w": 0.30,
+      "h": 0.57,
+      "label": "tent canvas as backdrop"
+    }
+  ],
+  "notes": "A studio portrait relocated to a working camp: rope-bound pine substitutes for a column and tent canvas for a backdrop, while Grant's hand-on-hip pose still performs Brady's indoor grammar outdoors."
+}

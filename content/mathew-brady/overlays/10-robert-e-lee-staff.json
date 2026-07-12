@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "10-robert-e-lee-staff.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.475,
+      "label": "axis through Lee"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.268, 0.288], [0.715, 0.30], [0.495, 0.47], [0.268, 0.288]],
+      "label": "triangulated staff group"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.495,
+      "cy": 0.465,
+      "rx": 0.075,
+      "ry": 0.10,
+      "label": "Robert E. Lee"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.471,
+      "y": 0.676,
+      "label": "hands converge at Lee's lap"
+    }
+  ],
+  "notes": "Lee seated at the apex of a triangle formed by his flanking aides' heads, their resting hands converging back down on him."
+}

@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "image": "01-john-calhoun.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.505,
+      "cy": 0.235,
+      "rx": 0.21,
+      "ry": 0.155,
+      "label": "face and white hair — the frame's one light mass"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.455,
+      "cy": 0.855,
+      "rx": 0.15,
+      "ry": 0.045,
+      "label": "folded hands — the only prop"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.275, 0.903], [0.798, 0.537]],
+      "arrow": false,
+      "label": "cloak's draped fold line"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.475,
+      "label": "frontal symmetry axis"
+    }
+  ],
+  "notes": "A daguerreotype built from stillness: the head's pale mass and the folded hands, its only prop, sit on a symmetrical frontal axis while a single cloak fold cuts the dark field."
+}

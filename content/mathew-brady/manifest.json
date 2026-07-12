@@ -1,0 +1,96 @@
+[
+  {
+    "file": "01-john-calhoun.jpg",
+    "width": 1121,
+    "height": 1600,
+    "sha1": "dc645a53",
+    "source": "01-john-calhoun.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-matthew-perry.jpg",
+    "width": 1588,
+    "height": 1600,
+    "sha1": "77bcf647",
+    "source": "02-matthew-perry.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-200MS",
+      "DateTimeOriginal": "2016:12:15 12:46:09",
+      "FocalLength": "120.0",
+      "ExposureTime": "0.01",
+      "FNumber": "9.5",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "03-cooper-union-lincoln.jpg",
+    "width": 1273,
+    "height": 1600,
+    "sha1": "5f9956f5",
+    "source": "03-cooper-union-lincoln.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-winfield-scott.jpg",
+    "width": 983,
+    "height": 1600,
+    "sha1": "4bd65db4",
+    "source": "04-winfield-scott.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-brady-returned-bull-run.jpg",
+    "width": 1028,
+    "height": 1600,
+    "sha1": "69cd303d",
+    "source": "05-brady-returned-bull-run.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-walt-whitman.jpg",
+    "width": 1010,
+    "height": 1600,
+    "sha1": "8c54d1ea",
+    "source": "06-walt-whitman.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-william-sherman.jpg",
+    "width": 1035,
+    "height": 1600,
+    "sha1": "2932729c",
+    "source": "07-william-sherman.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-grant-cold-harbor.jpg",
+    "width": 1166,
+    "height": 1600,
+    "sha1": "45c1eb6d",
+    "source": "08-grant-cold-harbor.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-photo-outfit-petersburg.jpg",
+    "width": 1600,
+    "height": 1211,
+    "sha1": "ef7040b4",
+    "source": "09-photo-outfit-petersburg.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-robert-e-lee-staff.jpg",
+    "width": 1367,
+    "height": 1600,
+    "sha1": "05d44bda",
+    "source": "10-robert-e-lee-staff.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 65+",
+      "DateTimeOriginal": "2010:03:05 09:16:19",
+      "ExposureTime": "0.125",
+      "ISOSpeedRatings": "50"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "image": "04-winfield-scott.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.045,
+      "y": 0.028,
+      "w": 0.91,
+      "h": 0.94,
+      "label": "printed rule border"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.5,
+      "cy": 0.385,
+      "rx": 0.16,
+      "ry": 0.115,
+      "label": "Scott's face"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "centered axis"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.08,
+      "y": 0.69,
+      "w": 0.866,
+      "h": 0.148,
+      "label": "facsimile signature"
+    }
+  ],
+  "notes": "A mass-produced wartime CDV: bust portrait, printed signature caption, and rule border all locked to one centered axis -- the studio formula, not a composed scene."
+}

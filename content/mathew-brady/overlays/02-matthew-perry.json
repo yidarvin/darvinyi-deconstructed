@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "02-matthew-perry.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.382,
+      "cy": 0.288,
+      "rx": 0.10,
+      "ry": 0.145,
+      "label": "Perry's face"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.706,
+      "y": 0.569,
+      "r": 0.035,
+      "label": "epaulette (rank insignia)"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.591, 0.416], [0.782, 0.604]],
+      "arrow": true,
+      "label": "shoulder board"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.472, 0.523], [0.439, 0.720], [0.403, 0.944]],
+      "arrow": false,
+      "label": "button column"
+    }
+  ],
+  "notes": "Face and epaulette split the golden-section verticals -- Brady's studio formula reads likeness and naval rank as equal anchors, squared by the double button row."
+}
