@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "12-cavalry-camp-chalons.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.575,
+      "angle": 1.0,
+      "label": "flat plain horizon"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.797, 0.583], [0.443, 0.578], [0.378, 0.565], [0.205, 0.562]],
+      "arrow": true,
+      "label": "ranks receding into haze"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.797,
+      "y": 0.583,
+      "r": 0.045,
+      "label": "massed near rank"
+    }
+  ],
+  "notes": "Depth is built by repetition and diminishing scale of cavalry ranks strung along the horizon, not by a still horizon itself."
+}

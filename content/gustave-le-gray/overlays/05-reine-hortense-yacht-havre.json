@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "05-reine-hortense-yacht-havre.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.742,
+      "angle": 0.0,
+      "label": "WATERLINE"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.296, 0.844], [0.622, 0.785]],
+      "arrow": false,
+      "label": "HULL SET DIAGONALLY"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.495, 0.02], [0.495, 0.70]],
+      "arrow": false,
+      "label": "MAINMAST VERTICAL"
+    }
+  ],
+  "notes": "A court commission handled with the same reductive marine geometry as Le Gray's own seascapes: flat waterline, hull set on the diagonal, mast driven straight up against a soft reflected sky."
+}

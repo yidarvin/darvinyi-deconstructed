@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "11-cloud-study.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [[0.54, 0.29], [0.56, 0.246], [0.585, 0.258], [0.61, 0.267], [0.66, 0.252], [0.685, 0.248], [0.71, 0.262], [0.73, 0.259]],
+      "label": "cumulus silhouette"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.632,
+      "y": 0.447,
+      "r": 0.045,
+      "label": "sunlit breach in the cloud"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.632, 0.447], [0.65, 0.58], [0.665, 0.70], [0.688, 0.878]],
+      "arrow": true,
+      "label": "glow echoed on the water"
+    }
+  ],
+  "notes": "The cloud's own jagged mass, not the sea below it, is the subject -- its sunlit breach anchors the frame and the light falls straight down to a glint on the water, exactly the raw material Le Gray banked for combination printing."
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "image": "08-hollow-oak-tree-fontainebleau.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "trunk set dead center"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.515,
+      "cy": 0.595,
+      "rx": 0.125,
+      "ry": 0.195,
+      "label": "sculptural mass of the trunk"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.485,
+      "y": 0.575,
+      "w": 0.10,
+      "h": 0.195,
+      "label": "the hollow"
+    }
+  ],
+  "notes": "The ancient oak is planted dead center on the vertical axis, its gnarled trunk swelling into a single sculptural mass with the hollow that names it read as a dark aperture at its base."
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "03-mediterranean-mount-agde.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.637,
+      "angle": 0,
+      "label": "horizon (negative join)"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.646,
+      "cy": 0.6275,
+      "rx": 0.068,
+      "ry": 0.016,
+      "label": "mount agde"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.82, 0.647], [0.87, 0.619], [0.92, 0.615], [0.945, 0.635], [0.975, 0.598], [0.985, 0.602]],
+      "label": "rocky headland"
+    }
+  ],
+  "notes": "A dead-level combination-print horizon holds flat sea against flat sky, broken only by Mount Agde's lone silhouette and a nearer headland at the frame's edge."
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "02-brig-on-water.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.665,
+      "angle": 0,
+      "label": "sea-sky horizon"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.578,
+      "cy": 0.684,
+      "rx": 0.034,
+      "ry": 0.028,
+      "label": "brig in silhouette"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.60, 0.685], [0.70, 0.688], [0.80, 0.694], [0.90, 0.701], [0.955, 0.706]],
+      "label": "reflected light path"
+    }
+  ],
+  "notes": "A single becalmed brig, reduced to pure silhouette, sits off-center just under a horizon that falls almost exactly on the lower third, isolated by the sea's broad reflected glare."
+}

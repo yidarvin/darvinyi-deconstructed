@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "07-oak-tree-rocks-fontainebleau.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.497,
+      "y": 0.471,
+      "label": "trunk forks, branches radiate outward"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.309, 0.678], [0.714, 0.116]],
+      "arrow": true,
+      "label": "branch driving to the upper frame edge"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.555,
+      "y": 0.271,
+      "label": "sole gap of sky in the canopy"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.724,
+      "y": 0.789,
+      "label": "lichen-mottled boulder sealing the right base"
+    }
+  ],
+  "notes": "A forked oak radiates branches to every edge while twin boulders seal the base, packing the frame solid edge to edge with barely a gap of sky -- the dense early manner Le Gray later spared down."
+}
