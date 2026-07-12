@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "03-signing-deed-of-demission.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "ministers balanced left and right of the table"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.09, 0.28],
+        [0.19, 0.24],
+        [0.32, 0.28],
+        [0.52, 0.36],
+        [0.61, 0.32],
+        [0.70, 0.35],
+        [0.74, 0.26],
+        [0.80, 0.35]
+      ],
+      "label": "row of gathered ministers"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.625,
+      "y": 0.484,
+      "r": 0.05,
+      "label": "the deed, being signed"
+    }
+  ],
+  "notes": "Dozens of individually lit faces are stacked into one overlapping row around the signing table -- a crowd built like a diagram, the way Hill would later assemble it in paint."
+}

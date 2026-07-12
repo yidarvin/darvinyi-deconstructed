@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "09-hill-self-portrait-rock-house.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.533,
+      "y": 0.226,
+      "r": 0.04,
+      "label": "Hill's face"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.772, 0.480], [0.761, 0.973]],
+      "arrow": false,
+      "label": "gatepost edge"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.533, 0.226], [0.50, 0.40], [0.555, 0.66], [0.20, 0.82]],
+      "label": "cascade of the pose"
+    }
+  ],
+  "notes": "The stone gatepost's plumb vertical edge frames Hill like a studio backdrop, while his slouched, cascading pose runs counter to it, turning architecture into an advertisement that still reads as a chance encounter."
+}

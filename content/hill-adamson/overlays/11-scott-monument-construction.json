@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "image": "11-scott-monument-construction.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "label": "spire held dead-center"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.454,
+      "y": 0.612,
+      "w": 0.052,
+      "h": 0.13,
+      "label": "gothic entrance arch"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.78,
+      "cy": 0.775,
+      "rx": 0.09,
+      "ry": 0.045,
+      "label": "boat on trestle, yard clutter"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.3,
+      "y": 0.865,
+      "r": 0.05,
+      "label": "onlookers, foreground scale"
+    }
+  ],
+  "notes": "The spire is squared up dead-center like a specimen against blank sky, its Gothic tracery held frontal and symmetrical, while the base register is left to ordinary documentary clutter -- onlookers, a beached boat -- that grounds the monument in an unfinished, working street."
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "image": "04-dumbarton-presbytery.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.43,
+      "y": 0.58,
+      "r": 0.04,
+      "label": "the shared document"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "balanced flanking sitters"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.31, 0.40],
+        [0.43, 0.58],
+        [0.68, 0.375]
+      ],
+      "label": "gazes bend to the page"
+    }
+  ],
+  "notes": "A shared document, not rank or height, organizes four sitters into one symmetrically balanced reading group."
+}

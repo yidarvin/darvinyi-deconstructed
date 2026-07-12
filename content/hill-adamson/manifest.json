@@ -1,0 +1,93 @@
+[
+  {
+    "file": "01-newhaven-fishwives.jpg",
+    "width": 1191,
+    "height": 1600,
+    "sha1": "8e3a87a0",
+    "source": "01-newhaven-fishwives.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-elizabeth-johnstone-hall.jpg",
+    "width": 1171,
+    "height": 1600,
+    "sha1": "a21782e5",
+    "source": "02-elizabeth-johnstone-hall.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-signing-deed-of-demission.jpg",
+    "width": 1600,
+    "height": 1173,
+    "sha1": "9df516b6",
+    "source": "03-signing-deed-of-demission.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-dumbarton-presbytery.jpg",
+    "width": 1600,
+    "height": 1204,
+    "sha1": "2eead46a",
+    "source": "04-dumbarton-presbytery.jpg",
+    "exif": {
+      "Make": "FFEI",
+      "Model": "C-550 Lanovia"
+    }
+  },
+  {
+    "file": "05-thomas-chalmers.jpg",
+    "width": 1190,
+    "height": 1600,
+    "sha1": "0a511bc4",
+    "source": "05-thomas-chalmers.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-linton-boys-newhaven.jpg",
+    "width": 1314,
+    "height": 1600,
+    "sha1": "17921720",
+    "source": "06-linton-boys-newhaven.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-willie-liston-redding-line.jpg",
+    "width": 1197,
+    "height": 1600,
+    "sha1": "50c9dc00",
+    "source": "07-willie-liston-redding-line.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-greyfriars-dennistoun-monument.jpg",
+    "width": 1214,
+    "height": 1600,
+    "sha1": "95aa8468",
+    "source": "08-greyfriars-dennistoun-monument.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-hill-self-portrait-rock-house.jpg",
+    "width": 1122,
+    "height": 1600,
+    "sha1": "cee4d203",
+    "source": "09-hill-self-portrait-rock-house.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-edinburgh-ale.jpg",
+    "width": 1600,
+    "height": 1138,
+    "sha1": "795e7e86",
+    "source": "10-edinburgh-ale.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-scott-monument-construction.jpg",
+    "width": 1220,
+    "height": 1600,
+    "sha1": "4b556d6e",
+    "source": "11-scott-monument-construction.jpg",
+    "exif": {}
+  }
+]

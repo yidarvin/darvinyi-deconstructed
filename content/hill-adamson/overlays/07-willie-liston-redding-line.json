@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "image": "07-willie-liston-redding-line.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.50,
+      "y": 0.36,
+      "r": 0.05,
+      "label": "eyes shadowed under the brim"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.433,
+      "y": 0.637,
+      "label": "lapel and sleeve lines converge"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.38, 0.24], [0.50, 0.50], [0.60, 0.74]],
+      "label": "body bent into the frame's diagonal"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.565,
+      "cy": 0.765,
+      "rx": 0.17,
+      "ry": 0.055,
+      "label": "hands redding the line"
+    }
+  ],
+  "notes": "A hunched fisherman's shadowed gaze and converging coat-lines both drop toward the hands coiling line in his lap, staging labor itself as the frame's diagonal."
+}

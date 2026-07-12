@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "08-greyfriars-dennistoun-monument.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.45,
+      "label": "monument's central axis"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.421,
+      "angle": -0.9,
+      "label": "entablature course"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.427,
+      "y": 0.305,
+      "r": 0.035,
+      "label": "carved armorial cartouche"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.475, 0.733], [0.653, 0.619], [0.781, 0.6625]],
+      "label": "Hill and his nieces along the tomb's diagonal base"
+    }
+  ],
+  "notes": "The monument's stone axis and entablature square off the frame while the three sitters step up the tomb's diagonal base, locking architecture and portraits into one triangulated composition."
+}

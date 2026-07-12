@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "image": "10-edinburgh-ale.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.27, 0.34],
+        [0.55, 0.27],
+        [0.74, 0.17],
+        [0.27, 0.34]
+      ],
+      "label": "three heads, three heights"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.43,
+      "y": 0.67,
+      "r": 0.035,
+      "label": "the raised glass"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.73, 0.46], [0.56, 0.29]],
+      "arrow": true,
+      "label": "open hand, gesturing into the circle"
+    }
+  ],
+  "notes": "Three heads staggered at three different heights ring an unstable triangle around a shared glass, while the outermost man's raised hand pulls him into the circle."
+}
