@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "image": "01-lincoln-cracked-plate.jpg",
+  "width": 1397,
+  "height": 1599,
+  "aspect": 0.8737,
+  "tonal": {
+    "mean": 0.6039128126782033,
+    "std": 0.2529376484248652,
+    "p05": 0.1450980392156863,
+    "p95": 0.8941176470588236,
+    "edge_density": 0.008547652754474272
+  },
+  "palette": [
+    "#bebebe",
+    "#dddddd",
+    "#929292",
+    "#272727",
+    "#4e4e4e"
+  ],
+  "lines": [
+    {
+      "x1": 0.36577181208053694,
+      "y1": 0.6416015625,
+      "x2": 0.4843400447427293,
+      "y2": 0.5224609375,
+      "angle_deg": -49.014175695411026,
+      "length": 0.11889338575047169,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.36017897091722595,
+      "y1": 0.6298828125,
+      "x2": 0.4843400447427293,
+      "y2": 0.521484375,
+      "angle_deg": -45.0,
+      "length": 0.11548061419081258,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4697986577181208,
+      "y1": 0.6591796875,
+      "x2": 0.5246085011185683,
+      "y2": 0.53515625,
+      "angle_deg": -68.90205041101085,
+      "length": 0.10014028384888748,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.378076062639821,
+      "y1": 0.4267578125,
+      "x2": 0.5,
+      "y2": 0.478515625,
+      "angle_deg": 25.93080646265187,
+      "length": 0.08916245263318608,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4899328859060403,
+      "y1": 0.6484375,
+      "x2": 0.5100671140939598,
+      "y2": 0.5390625,
+      "angle_deg": -80.86982351772131,
+      "length": 0.08345005639972151,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.7373046875,
+    "angle_deg": 0.0,
+    "confidence": 0.9292277798338077,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5421443454758469,
+    "y": 0.4732889112757463,
+    "inliers": 5,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.46308724832214765,
+      0.5537109375
+    ],
+    "regions": [
+      {
+        "cx": 0.4574230385665117,
+        "cy": 0.5552820286612306,
+        "x": 0.3859060402684564,
+        "y": 0.4814453125,
+        "w": 0.15436241610738255,
+        "h": 0.169921875,
+        "area_frac": 0.01681238639541387
+      },
+      {
+        "cx": 0.4563982323171139,
+        "cy": 0.7364186127406739,
+        "x": 0.3982102908277405,
+        "y": 0.685546875,
+        "w": 0.13646532438478748,
+        "h": 0.1025390625,
+        "area_frac": 0.009985187709731544
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8023807069841663,
+    "vertical_axis_x": 0.4875,
+    "horizontal": 0.6344421217569426,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.46308724832214765,
+    "y": 0.5537109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.24653664317338425,
+    "phi": 0.3268419510842735,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.542,
+      "y": 0.473,
+      "confidence": 1.0,
+      "why": "5 converging diagonals"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.737,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.93,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "confidence": 0.8,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.463,
+      "y": 0.554,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

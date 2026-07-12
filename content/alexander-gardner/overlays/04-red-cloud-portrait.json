@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-red-cloud-portrait.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central axis" },
+    { "type": "ellipse", "cx": 0.504, "cy": 0.496, "rx": 0.170, "ry": 0.177, "label": "oval vignette" },
+    { "type": "polyline", "points": [[0.357, 0.523], [0.493, 0.351], [0.634, 0.494], [0.512, 0.635], [0.357, 0.523]], "label": "pyramidal mass" },
+    { "type": "subject_anchor", "x": 0.489, "y": 0.404, "r": 0.035, "label": "direct gaze" }
+  ],
+  "notes": "A dead-center axis and studio oval vignette isolate Red Cloud against a plain backdrop, his draped shoulders and folded hands closing into a stable pyramidal mass beneath a level, direct gaze."
+}

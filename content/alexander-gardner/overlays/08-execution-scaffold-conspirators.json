@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "08-execution-scaffold-conspirators.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.466,
+      "angle": 0,
+      "label": "wall coping - the crowd's rank"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5875,
+      "label": "gallows symmetry axis"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.569,
+      "y": 0.743,
+      "r": 0.045,
+      "label": "the drop"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.357, 0.621], [0.281, 0.854]],
+      "arrow": false,
+      "label": "brace leg"
+    }
+  ],
+  "notes": "A coping line racks the ranked witnesses above a near-symmetrical timber gallows, whose braced legs and trapdoor stage the drop itself as the picture's true subject."
+}

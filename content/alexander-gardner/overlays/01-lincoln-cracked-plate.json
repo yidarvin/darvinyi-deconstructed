@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "image": "01-lincoln-cracked-plate.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "label": "dead-center bust framing"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.463,
+      "y": 0.554,
+      "r": 0.04,
+      "label": "Lincoln's composed expression"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.46, 0.30], [0.43, 0.40], [0.42, 0.50], [0.43, 0.60], [0.46, 0.68]],
+      "label": "shadow line: key light from camera-right"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.505,
+      "cy": 0.445,
+      "rx": 0.215,
+      "ry": 0.205,
+      "label": "head isolated on plain ground"
+    }
+  ],
+  "notes": "A level, dead-center bust portrait whose symmetry is cut by a hard one-sided shadow, isolated against acres of plain studio ground."
+}

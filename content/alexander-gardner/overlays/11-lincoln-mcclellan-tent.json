@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "11-lincoln-mcclellan-tent.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.4375,
+      "label": "center tent pole"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.374,
+      "cy": 0.518,
+      "rx": 0.032,
+      "ry": 0.04,
+      "label": "Lincoln"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.592,
+      "cy": 0.527,
+      "rx": 0.03,
+      "ry": 0.038,
+      "label": "Gen. McClellan"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.379, 0.516], [0.594, 0.525]],
+      "label": "gaze across the table"
+    }
+  ],
+  "notes": "The tent's own center pole splits the frame precisely between the two men, whose level gaze bridges that divide across the map-strewn table."
+}

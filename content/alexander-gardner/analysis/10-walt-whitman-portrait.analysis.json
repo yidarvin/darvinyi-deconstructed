@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "10-walt-whitman-portrait.jpg",
+  "width": 1249,
+  "height": 1600,
+  "aspect": 0.7806,
+  "tonal": {
+    "mean": 0.6523239690314486,
+    "std": 0.10588936487081518,
+    "p05": 0.4549019607843137,
+    "p95": 0.7686274509803922,
+    "edge_density": 0.005350926939924907
+  },
+  "palette": [
+    "#c0bab1",
+    "#aba69e",
+    "#94918a",
+    "#6b6963",
+    "#31312d"
+  ],
+  "lines": [
+    {
+      "x1": 0.6795994993742178,
+      "y1": 0.525390625,
+      "x2": 0.8022528160200251,
+      "y2": 0.6025390625,
+      "angle_deg": 38.87306699450592,
+      "length": 0.09691512070610313,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.3291015625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.6420525657071339,
+      0.5703125
+    ],
+    "regions": [
+      {
+        "cx": 0.6307702699020502,
+        "cy": 0.559823292344934,
+        "x": 0.5068836045056321,
+        "y": 0.46875,
+        "w": 0.2665832290362954,
+        "h": 0.171875,
+        "area_frac": 0.03048366121714643
+      },
+      {
+        "cx": 0.43289428008147923,
+        "cy": 0.37604136945356864,
+        "x": 0.3642052565707134,
+        "y": 0.3271484375,
+        "w": 0.13892365456821026,
+        "h": 0.1005859375,
+        "area_frac": 0.010976855835419274
+      },
+      {
+        "cx": 0.6660943223652829,
+        "cy": 0.34996685259692756,
+        "x": 0.6070087609511889,
+        "y": 0.302734375,
+        "w": 0.11889862327909888,
+        "h": 0.09375,
+        "area_frac": 0.00835394829474343
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.825220205630583,
+    "vertical_axis_x": 0.5625,
+    "horizontal": 0.7574062390601233,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.6420525657071339,
+    "y": 0.5703125,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.697438738356157,
+    "phi": 0.6544990590547808,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.329,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.562,
+      "confidence": 0.83,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.642,
+      "y": 0.57,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

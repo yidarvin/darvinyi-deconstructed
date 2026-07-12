@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "03-ruins-richmond-bridge.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.285, 0.494], [0.33, 0.497], [0.375, 0.499], [0.43, 0.503], [0.487, 0.508]],
+      "arrow": true,
+      "label": "repeating piers"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.448,
+      "angle": 0,
+      "label": "Richmond skyline across the James"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.458,
+      "y": 0.51,
+      "w": 0.067,
+      "h": 0.27,
+      "label": "arch framing the wreckage"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.633,
+      "y": 0.356,
+      "r": 0.035,
+      "label": "leaning switch-stand target"
+    }
+  ],
+  "notes": "A landscape built on structural rhythm: the surviving piers recede on a strong diagonal into the Richmond skyline, anchored by the near arch and a canted trackside signal."
+}

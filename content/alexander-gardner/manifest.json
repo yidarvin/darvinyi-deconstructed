@@ -1,0 +1,101 @@
+[
+  {
+    "file": "01-lincoln-cracked-plate.jpg",
+    "width": 1397,
+    "height": 1599,
+    "sha1": "86e024cc",
+    "source": "01-lincoln-cracked-plate.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-lewis-powell-conspirator.jpg",
+    "width": 1266,
+    "height": 1600,
+    "sha1": "35a66620",
+    "source": "02-lewis-powell-conspirator.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-ruins-richmond-bridge.jpg",
+    "width": 1600,
+    "height": 1229,
+    "sha1": "18f8501e",
+    "source": "03-ruins-richmond-bridge.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-red-cloud-portrait.jpg",
+    "width": 1327,
+    "height": 1600,
+    "sha1": "d8231576",
+    "source": "04-red-cloud-portrait.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-burnside-bridge-antietam.jpg",
+    "width": 1600,
+    "height": 1247,
+    "sha1": "d0387fc4",
+    "source": "05-burnside-bridge-antietam.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-lincoln-mcclellan-antietam.jpg",
+    "width": 1600,
+    "height": 1206,
+    "sha1": "707ba279",
+    "source": "06-lincoln-mcclellan-antietam.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "07-dunker-church-dead-antietam.jpg",
+    "width": 1599,
+    "height": 1372,
+    "sha1": "35dba843",
+    "source": "07-dunker-church-dead-antietam.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 65+",
+      "DateTimeOriginal": "2010:12:03 07:04:50",
+      "ISOSpeedRatings": "50",
+      "ExposureTime": "0.125"
+    }
+  },
+  {
+    "file": "08-execution-scaffold-conspirators.jpg",
+    "width": 1600,
+    "height": 1288,
+    "sha1": "a9d107b0",
+    "source": "08-execution-scaffold-conspirators.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-crowd-second-inauguration.jpg",
+    "width": 1600,
+    "height": 1462,
+    "sha1": "be51da85",
+    "source": "09-crowd-second-inauguration.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-walt-whitman-portrait.jpg",
+    "width": 1249,
+    "height": 1600,
+    "sha1": "ea764c5a",
+    "source": "10-walt-whitman-portrait.jpg",
+    "exif": {
+      "DateTimeOriginal": "2010:02:07 19:44:30"
+    }
+  },
+  {
+    "file": "11-lincoln-mcclellan-tent.jpg",
+    "width": 1304,
+    "height": 1600,
+    "sha1": "fee4f70a",
+    "source": "11-lincoln-mcclellan-tent.jpg",
+    "exif": {}
+  }
+]

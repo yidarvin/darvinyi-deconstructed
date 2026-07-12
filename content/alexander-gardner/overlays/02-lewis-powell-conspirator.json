@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "02-lewis-powell-conspirator.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.61,
+      "y": 0.22,
+      "r": 0.045,
+      "label": "Powell's direct stare"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "label": "frontal axis of Powell's stance"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.198, 0.09], [0.16, 0.86]],
+      "arrow": false,
+      "label": "guard's rifle"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.665, 0.565], [0.81, 0.69]],
+      "arrow": false,
+      "label": "cane"
+    }
+  ],
+  "notes": "Powell's frontal stare and centered stance fill the vertical frame; the guard's rifle at the left edge and the cane in his own hand are the only reminders he is a prisoner, not a sitter."
+}
