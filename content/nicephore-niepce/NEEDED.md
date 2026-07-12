@@ -1,0 +1,13 @@
+# Nicéphore Niépce — needed / flagged (not cleanly available)
+
+Two further works belong in any account of Niépce's surviving corpus but could not be cleanly fetched at usable resolution from an open source at time of writing.
+
+## Cardinal d'Amboise (1826)
+- **Why it matters:** Niépce's earliest fully successful heliogravure — a contact-copy reproduction of a seventeenth-century engraved portrait profile (after Isaac Briot) etched into a printable pewter plate, letting him demonstrate photomechanical reproduction of an existing image roughly a year before *View from the Window at Le Gras*; among the most reproduced images in histories of the medium's invention.
+- **Rights:** Public domain (Niépce d. 1833). Surviving plates and prints are held across the Victoria and Albert Museum (London), Musée Nicéphore Niépce (Chalon-sur-Saône), the Société française de photographie, and the Harry Ransom Center — but none is cleanly downloadable at usable resolution: the V&A's own record offers only a restrictive non-commercial license capped at 768px online use; Wikimedia Commons' best mirror (via Zeno.org) is 776×1016px, below the working resolution floor; Google Arts & Culture's museum-credited asset offers no download at all.
+- **Where a good print/scan lives:** Victoria and Albert Museum, London — https://collections.vam.ac.uk/item/O1387373/le-cardinal-damboise-photograph-niepce-joseph-nicephore/ (restrictive license); Musée Nicéphore Niépce via Google Arts & Culture — https://artsandculture.google.com/asset/h%C3%A9liogravure-du-cardinal-d-amboise-profil-dirig%C3%A9-vers-la-gauche-d-apr%C3%A8s-une-gravure-de-briot/yQHPaj_C3hBmgA (rights reserved to museum, no download); Harry Ransom Center, Austin.
+
+## Cheval avec son conducteur / Man with a Horse (1825)
+- **Why it matters:** The oldest surviving heliographic print of all, predating even the Cardinal d'Amboise plates — Niépce's contact-copy reproduction of a seventeenth-century Flemish engraving showing a man leading a horse. Bought by the Bibliothèque nationale de France in 2002 for €450,000 and formally classified a "trésor national."
+- **Rights:** Public domain (Niépce d. 1833), held by the Bibliothèque nationale de France. The BnF's own Gallica record returns HTTP 403 to both a browser-UA WebFetch and a curl request with a real user agent — it is not cleanly downloadable by automated means. The only Wikimedia Commons mirror sourced from this same BnF item is 495×330px, well below the working resolution floor.
+- **Where a good print/scan lives:** Bibliothèque nationale de France, Paris — Gallica, https://gallica.bnf.fr/ark:/12148/btv1b8593611k (viewable in-browser; blocks automated/bot fetches).
