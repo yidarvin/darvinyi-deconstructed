@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "08-chondrus-crispus.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.529,
+      "cy": 0.34,
+      "rx": 0.201,
+      "ry": 0.149,
+      "label": "dense fan mass — primary specimen"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.529, 0.34], [0.324, 0.629], [0.777, 0.636], [0.529, 0.34]],
+      "label": "triangular rhythm of the three fronds"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.562,
+      "label": "mirror axis of the specimen layout"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.135,
+      "y": 0.137,
+      "w": 0.795,
+      "h": 0.721,
+      "label": "photographed album leaf"
+    }
+  ],
+  "notes": "Three impressions of the same dense, forking frond sit as a mirrored triangle on the page — the specimen reads as solid tonal mass, not line."
+}

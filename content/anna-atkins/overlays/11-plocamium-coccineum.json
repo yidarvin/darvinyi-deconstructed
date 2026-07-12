@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "image": "11-plocamium-coccineum.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5375,
+      "label": "left/right tonal balance"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.26,
+      "cy": 0.36,
+      "rx": 0.165,
+      "ry": 0.185,
+      "label": "most angular frond"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.152, 0.352],
+        [0.204, 0.298],
+        [0.179, 0.253],
+        [0.235, 0.202],
+        [0.204, 0.163],
+        [0.233, 0.137]
+      ],
+      "label": "comb-like zigzag branch"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.503,
+      "y": 0.653,
+      "r": 0.035,
+      "label": "densest branching mass"
+    }
+  ],
+  "notes": "Three fronds are balanced across a near-central axis, but the upper-left specimen's sharply zigzagging branch is the plate's clearest instance of Atkins's comb-like, almost typographic patterning."
+}

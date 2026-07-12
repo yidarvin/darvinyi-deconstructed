@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "image": "03-himanthalia-lorea.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.419, 0.11], [0.477, 0.174], [0.518, 0.231], [0.567, 0.287],
+        [0.606, 0.345], [0.63, 0.403], [0.658, 0.459], [0.673, 0.516],
+        [0.674, 0.573], [0.658, 0.63], [0.612, 0.688], [0.6, 0.702],
+        [0.565, 0.718]
+      ],
+      "label": "thong arcing the full plate height"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.23, 0.17], [0.181, 0.212], [0.14, 0.258], [0.111, 0.302],
+        [0.092, 0.347], [0.085, 0.391], [0.085, 0.436], [0.096, 0.481],
+        [0.111, 0.526], [0.137, 0.57], [0.176, 0.615], [0.227, 0.66],
+        [0.342, 0.766]
+      ],
+      "label": "second thong, loose parallel loop"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.536,
+      "y": 0.726,
+      "r": 0.04,
+      "label": "basal button, where every thong converges"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.562,
+      "label": "loose left-right mirror of the loops"
+    }
+  ],
+  "notes": "Built entirely on line and length: strap-like thongs cascade the full height of the plate in loose, roughly mirrored parallel curves from one basal button."
+}

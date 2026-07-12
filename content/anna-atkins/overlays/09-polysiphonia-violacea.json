@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "09-polysiphonia-violacea.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.45,
+      "cy": 0.43,
+      "rx": 0.28,
+      "ry": 0.18,
+      "label": "algae frond"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.283,
+      "y": 0.714,
+      "w": 0.316,
+      "h": 0.049,
+      "label": "handwritten caption plate"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.19, 0.53], [0.46, 0.56], [0.70, 0.48]],
+      "label": "twin sprays share one base"
+    }
+  ],
+  "notes": "The frond's two mirrored sprays hover in the phi-marked upper register of the page, leaving the lower two-thirds empty cyanotype blue broken only by the small handwritten caption far below."
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "image": "06-padina-pavonia.jpg",
+  "grid": {
+    "type": "none"
+  },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.486,
+      "cy": 0.34,
+      "rx": 0.216,
+      "ry": 0.092,
+      "label": "fan cluster, upper"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.323,
+      "cy": 0.566,
+      "rx": 0.148,
+      "ry": 0.086,
+      "label": "fan cluster, lower left"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.636,
+      "cy": 0.607,
+      "rx": 0.177,
+      "ry": 0.105,
+      "label": "fan cluster, lower right"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [0.486, 0.34],
+        [0.323, 0.566],
+        [0.636, 0.607],
+        [0.486, 0.34]
+      ],
+      "label": "triangular arrangement"
+    }
+  ],
+  "notes": "Three Padina Pavonia fronds, each a radial burst of concentric growth rings, are set in a stable triangle across the page rather than a grid."
+}
