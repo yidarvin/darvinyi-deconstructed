@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "image": "08-inscription-rock.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "frame_in_frame",
+      "x": 0.335,
+      "y": 0.379,
+      "w": 0.43,
+      "h": 0.2,
+      "label": "carved inscription, treated as a page"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.253, 0.602], [0.788, 0.602]],
+      "arrow": false,
+      "label": "engineer's scale rule"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.563,
+      "cy": 0.7,
+      "rx": 0.07,
+      "ry": 0.055,
+      "label": "yucca, the one living intrusion"
+    }
+  ],
+  "notes": "O'Sullivan shoots the rock face dead-on like a page to be copied, framing the inscription for legibility and letting only the scale rule and a stray yucca admit a camera, not a scribe, made this copy."
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "image": "03-ancient-ruins-chelle.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.685, 0.245], [0.52, 0.365], [0.40, 0.51]],
+      "arrow": true,
+      "label": "diagonal grain of the canyon wall"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.275,
+      "y": 0.355,
+      "w": 0.35,
+      "h": 0.185,
+      "label": "shadowed alcove"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.37,
+      "y": 0.525,
+      "r": 0.04,
+      "label": "cliff dwelling, the nominal subject"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.406,
+      "cy": 0.644,
+      "rx": 0.11,
+      "ry": 0.032,
+      "label": "second ruin, canyon floor"
+    }
+  ],
+  "notes": "The towering diagonally-streaked sandstone dwarfs the cliff dwelling into a thin masonry seam tucked in its shadowed niche, with a second ruin below repeating the theme: geology overwhelms architecture in scale."
+}

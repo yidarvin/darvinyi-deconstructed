@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "07-fissure-vent.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.347,
+      "angle": 0.0,
+      "label": "basin rim"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.34, 1.0], [0.39, 0.90], [0.44, 0.82], [0.49, 0.75], [0.53, 0.68], [0.57, 0.61]],
+      "arrow": true,
+      "label": "fissure crack"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.48,
+      "cy": 0.48,
+      "rx": 0.02,
+      "ry": 0.055,
+      "label": "ghost figure, the scale mark"
+    }
+  ],
+  "notes": "A ground fissure leads the eye straight into its own vent, where a survey member's silhouette dissolves into the same steam meant to give the flat basin scale."
+}

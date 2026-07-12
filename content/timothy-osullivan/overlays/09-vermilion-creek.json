@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "image": "09-vermilion-creek.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "near-identical cliff faces, flanking"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.442,
+      "y": 0.540,
+      "label": "canyon mouth, lost in haze"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [0.467, 0.705],
+        [0.479, 0.680],
+        [0.438, 0.649],
+        [0.453, 0.613],
+        [0.457, 0.570]
+      ],
+      "arrow": true,
+      "label": "vermilion creek, threading the floor"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.445,
+      "y": 0.622,
+      "r": 0.035,
+      "label": "bright bend of the creek"
+    }
+  ],
+  "notes": "Two near-mirrored canyon walls funnel the eye down Vermilion Creek to a vanishing point swallowed in distant haze."
+}

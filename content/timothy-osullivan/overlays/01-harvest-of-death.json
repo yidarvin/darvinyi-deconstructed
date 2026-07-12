@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "01-harvest-of-death.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.541, 0.537], [0.49, 0.42], [0.414, 0.360]],
+      "arrow": true,
+      "label": "row of the dead, receding to the horizon"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.1875, 0.329], [0.3125, 0.343], [0.4375, 0.351], [0.5625, 0.343], [0.6925, 0.328]],
+      "label": "hazed tree-line horizon"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.44,
+      "cy": 0.363,
+      "rx": 0.05,
+      "ry": 0.035,
+      "label": "living officers watching, at the vanishing distance"
+    }
+  ],
+  "notes": "The fallen are laid out as a receding diagonal row across a stripped field, flattened beneath a low hazy horizon, while mounted officers stand unhurt at the vanishing point of that row."
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "image": "10-shoshone-falls.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.2675, 0.347],
+        [0.45, 0.371],
+        [0.555, 0.378],
+        [0.59, 0.348],
+        [0.615, 0.345],
+        [0.635, 0.345],
+        [0.665, 0.375],
+        [0.735, 0.383]
+      ],
+      "label": "flat-topped mesa on the canyon rim"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "basalt walls mirror at center"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.555,
+      "y": 0.417,
+      "r": 0.035,
+      "label": "brink, where the river shatters into the falls"
+    }
+  ],
+  "notes": "A flat-topped mesa rides the skyline directly above the brink where the river shatters into an edge-to-edge curtain, the whole scene held in near-mirror symmetry between two black basalt walls."
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "image": "06-tufa-domes.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "polyline",
+      "points": [
+        [0.401, 0.502],
+        [0.460, 0.466],
+        [0.516, 0.448],
+        [0.560, 0.367]
+      ],
+      "label": "receding domes to pyramid rock"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.4925,
+      "cy": 0.500,
+      "rx": 0.056,
+      "ry": 0.063,
+      "label": "paired mid-lake domes (repeated form)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.563,
+      "y": 0.410,
+      "r": 0.04,
+      "label": "pyramid rock (terminus)"
+    }
+  ],
+  "notes": "A near-identical row of tufa domes recedes across the still water toward the massive terminal Pyramid Rock, diminishing scale standing in as a measure of geologic time."
+}

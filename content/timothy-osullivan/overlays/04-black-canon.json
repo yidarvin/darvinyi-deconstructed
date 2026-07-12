@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "image": "04-black-canon.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.392,
+      "cy": 0.638,
+      "rx": 0.078,
+      "ry": 0.045,
+      "label": "boat \"Picture\", grounded"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "label": "canyon's mirrored walls"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.556,
+      "y": 0.542,
+      "label": "notch of daylight"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [0.392, 0.635],
+        [0.47, 0.6],
+        [0.556, 0.542]
+      ],
+      "arrow": true,
+      "label": "shore to vanishing notch"
+    }
+  ],
+  "notes": "The grounded boat is the only scale marker against the Black Canon's mirror-symmetric walls, which converge along the frame's center toward a small notch of daylight."
+}

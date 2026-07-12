@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "02-council-of-war.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.5,
+      "y": 0.57,
+      "r": 0.045,
+      "label": "staff studying a dispatch"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.552, 0.0], [0.535, 0.545]],
+      "arrow": false,
+      "label": "tree trunk splits foreground from wagon train"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.124, 0.717], [0.5, 0.6], [0.826, 0.402]],
+      "label": "oblique sightline: gallery window to wagons"
+    }
+  ],
+  "notes": "The upper-gallery vantage rakes across pews, staff, and tree to collapse near and far into one oblique diagonal field, not a level tableau."
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "file": "01-harvest-of-death.jpg",
+    "width": 1600,
+    "height": 1210,
+    "sha1": "64759037",
+    "source": "01-harvest-of-death.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "02-council-of-war.jpg",
+    "width": 1600,
+    "height": 1303,
+    "sha1": "edd6f64e",
+    "source": "02-council-of-war.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-ancient-ruins-chelle.jpg",
+    "width": 1301,
+    "height": 1600,
+    "sha1": "29f9be36",
+    "source": "03-ancient-ruins-chelle.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "04-black-canon.jpg",
+    "width": 1600,
+    "height": 1291,
+    "sha1": "71a4a74b",
+    "source": "04-black-canon.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "05-sand-dunes.jpg",
+    "width": 1600,
+    "height": 1230,
+    "sha1": "33680628",
+    "source": "05-sand-dunes.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "06-tufa-domes.jpg",
+    "width": 1600,
+    "height": 1242,
+    "sha1": "e234b3a8",
+    "source": "06-tufa-domes.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "07-fissure-vent.jpg",
+    "width": 1600,
+    "height": 1223,
+    "sha1": "470a1849",
+    "source": "07-fissure-vent.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-inscription-rock.jpg",
+    "width": 1600,
+    "height": 1241,
+    "sha1": "ee324609",
+    "source": "08-inscription-rock.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "09-vermilion-creek.jpg",
+    "width": 1600,
+    "height": 1237,
+    "sha1": "7c4e16b3",
+    "source": "09-vermilion-creek.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "10-shoshone-falls.jpg",
+    "width": 1600,
+    "height": 1240,
+    "sha1": "d773e2c0",
+    "source": "10-shoshone-falls.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "11-zuni-mission.jpg",
+    "width": 1536,
+    "height": 1161,
+    "sha1": "29f59726",
+    "source": "11-zuni-mission.jpg",
+    "exif": {}
+  }
+]
