@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -16,3 +16,20 @@ verdict: revise
 Everything else checked out: all ten proofs were inspected against their overlay JSON and the analyzer ground truth. Every numeric claim in chapter.mdx (symmetry scores, tonal means/std/percentiles, edge density, horizon and vanishing-point coordinates and inlier counts, palettes) that was cross-checked against the corresponding `analysis/*.json` matched within tolerance, including the striking three-decimal agreement between the hand-placed and analyzer-computed vanishing points on the Lee plate. The camera-settings callout is honest and appropriately hedged (explicitly states no per-frame aperture/shutter/ISO record exists and none is invented), and the Poe/"Ultima Thule" attribution to Edwin H. Manchester checks out against independent sources (LOC, Poe Society, Encyclopedia Virginia). Primitive counts per image are all in the pedagogical 3–4 range, not exhaustive inventories. The classical column (Lincoln), epaulette/shoulder-board/button-column (Perry), tree-as-column and hand-on-hip (Grant), tent-canvas frame, pine-trunk frame and BRADY'S crate (Petersburg outfit), and the Lee/staff triangle and face ellipse all trace exactly the features their labels name.
 
 Both required findings above were independently re-verified in a second pass — the Sherman anchor position was re-plotted against a fresh grid crop of the source image, and the Lee-sitting date was independently cross-checked against multiple historical sources — and confirmed.
+
+## Builder resolution — 2026-07-13
+
+This is the first resolution round for this chapter (no prior "## Builder resolution" section existed; `git log -p -- content/mathew-brady/critique.md` shows a single filing commit).
+
+Required fixes applied:
+
+1. **Sherman subject_anchor (`content/mathew-brady/overlays/07-william-sherman.json`)** — moved the `subject_anchor` labeled "Sherman's face" from `x=0.451, y=0.457` to `x=0.465, y=0.37` (radius unchanged at `r=0.045`). Re-rendered the proof with `render_overlay.py` and visually inspected the resulting `content/mathew-brady/proofs/07-william-sherman.png`: the circle/crosshair now rings his nose bridge, between the eyes and mustache, squarely on the face rather than the collar/bow-tie. Updated the matching prose in `content/mathew-brady/chapter.mdx` (and its mirror `src/chapters/mathew-brady.mdx`), paragraph beginning "Sherman gets the same rig with a harder edge": "His face sits at x equals 0.451, y equals 0.457" → "His face sits at x equals 0.465, y equals 0.37".
+2. **Lee-and-staff sitting date** — corrected the false "two days after the surrender at Appomattox" claim in both files:
+   - `content/mathew-brady/chapter.mdx` (and mirror `src/chapters/mathew-brady.mdx`), Robert E. Lee and Staff section: "Two days after Appomattox, the formula takes on a third body..." → "A week after Appomattox, the formula takes on a third body...".
+   - `content/mathew-brady/sources.md`, item 10: "...a triangulated three-figure group made two days after the surrender at Appomattox..." → "...a triangulated three-figure group made a week after the surrender at Appomattox (and two days after Lincoln's assassination)...".
+
+Prior rounds re-verified: none — this is the first resolution round.
+
+Advisory items: none taken. All three advisory notes (Calhoun's cloak fold line, the Lee "hands converge" vanishing-point label, and the Sherman/Whitman "roughly a year" framing) involve subjective interpretive judgment rather than a clear-cut correction, so none was changed, per the instruction to only take an advisory item when cheap and obviously correct.
+
+`content/mathew-brady/chapter.mdx` and `src/chapters/mathew-brady.mdx` remain byte-identical after these edits. `bash scripts/check.sh` passes (exit 0).

@@ -63,7 +63,7 @@ Brady rarely stood behind the camera himself after the 1850s — Alexander Gardn
 - **File:** raw/mathew-brady/09-photo-outfit-petersburg.jpg (5753px)
 
 ### 10 — General Robert E. Lee and Staff (1865)
-- **Why it matters:** Lee seated centrally on the back porch of his Richmond home, flanked by his son Custis Lee and aide Walter Taylor standing — a triangulated three-figure group made two days after the surrender at Appomattox, the last formal portrait session of the war and among the most reproduced Brady images of all.
+- **Why it matters:** Lee seated centrally on the back porch of his Richmond home, flanked by his son Custis Lee and aide Walter Taylor standing — a triangulated three-figure group made a week after the surrender at Appomattox (and two days after Lincoln's assassination), the last formal portrait session of the war and among the most reproduced Brady images of all.
 - **Source:** https://www.loc.gov/item/2011648617/
 - **Rights:** Public domain (Library of Congress, Brady-Handy Collection; no known restrictions)
 - **File:** raw/mathew-brady/10-robert-e-lee-staff.jpg (5370px)
