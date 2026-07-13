@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 Reviewed all 12 proofs against their overlays, analysis JSON, sources.md, research.md, and chapter.mdx. Overlay geometry is uniformly accurate — every primitive traces the feature its label names (nested mount/negative/pane-ghost rectangles in Latticed Window, the broom's diagonal in The Open Door, the three identical spines in Scene in a Library, the tower's reflection in Lacock Abbey, etc.), primitive counts stay in the 3-4 range throughout, point-counts and vanishing-point inlier counts quoted in prose match the overlay/analysis JSON exactly, and the settings-honesty callout is a model of restraint (explicitly states no aperture/shutter/ISO survives and none is invented). The one recurring defect is a set of cross-plate superlative claims ("the darkest," "the tightest," "the second-highest") that don't hold up against the analyzer's own numbers printed elsewhere in the same chapter — these are checkable, internally self-contradicting, and should be fixed before approval. (Independently re-verified: all three required findings below were re-derived from analysis/*.json in a second, independent pass and confirmed.)
 
@@ -17,3 +17,55 @@ Reviewed all 12 proofs against their overlays, analysis JSON, sources.md, resear
 - 12-bridge-of-orleans.json / chapter.mdx: "the bridge's own structure and the measured tonal split agreeing to within a couple of percent of frame height" — the parapet leading_line sits at roughly y=0.608-0.612 while the analyzer horizon is at y=0.65, a gap of about 4% of frame height, a bit more than "a couple of percent" suggests. Not misleading about the composition itself.
 - 12-bridge-of-orleans.png: the "BRIDGE PARAPET LINE" and "REPEATING ARCHES" label boxes sit close together near the left edge and read as slightly stacked/crowded in the composite; both still clearly point at their correct features.
 - Interpretive lineage claims ("an ancestor of ... Blossfeldt ... Ruscha" for the library shelf; "a direct forerunner of Atget's street compositions" for the Paris boulevards) are art-historical framing rather than sourced fact — reasonable as interpretive prose, worth a light editorial eye but not a truthfulness problem.
+
+## Builder resolution — 2026-07-13
+
+First resolution round for this critique (git log on this file shows only the
+initial "revise" filing; no prior "## Builder resolution" section existed to
+re-verify).
+
+All four required fixes applied, prose-only, in both
+`content/william-henry-fox-talbot/chapter.mdx` and
+`src/chapters/william-henry-fox-talbot.mdx` (kept byte-identical, diffed to
+confirm):
+
+1. **07-scene-in-library paragraph** — "This is the darkest print in the
+   chapter, a mean of just 0.43" -> "This is the second-darkest print in the
+   chapter, a mean of just 0.43" (image 10 at mean 0.375 is darker).
+2. **10-bust-of-patroclus paragraph** — "Tonally this is the darkest print in
+   the chapter after the library shelf, a mean of just 0.38" -> "Tonally this
+   is the darkest print in the chapter, a mean of just 0.38" (0.375 is in fact
+   the lowest mean of all 12 plates, so 07 and 10 now agree: 07 is
+   second-darkest, 10 is darkest).
+3. **03-the-haystack paragraph** — "a mean of 0.75 with the tightest standard
+   deviation of any plate in this chapter, just 0.075" -> "a mean of 0.75 with
+   the second-tightest standard deviation of any plate in this chapter, just
+   0.075" (08-leaf-of-a-plant's std of 0.054 is the true tightest of all 12;
+   03 is accurately second-tightest).
+4. **11-boulevards-at-paris paragraph** — "a mean of 0.44 and the
+   second-highest edge density in the chapter, 0.046" -> "a mean of 0.44 and a
+   middling-to-high edge density in the chapter, 0.046" (11's edge density is
+   actually fifth-highest of 12; the accurate second-highest claim on
+   02-the-open-door is untouched and remains correct).
+
+Prior rounds re-verified: none — this is the first resolution round.
+
+Advisory items taken: one, cheap and obviously correct, at no cost to the
+required fixes above —
+- **12-bridge-of-orleans paragraph** — "agreeing to within a couple of
+  percent of frame height" -> "agreeing to within about four percent of frame
+  height" (parapet leading_line at y=0.605-0.612 vs. analyzer horizon at
+  y=0.65 is a ~4% gap, not "a couple of percent"). The other two advisory
+  items (label-box crowding in the 12-bridge-of-orleans.png proof, and the
+  art-historical lineage framing) were left as-is: the former needs a
+  re-render, not a text edit, and the critique itself flagged the latter as
+  reasonable interpretive prose, not a truthfulness problem.
+
+Also fixed, out of this slug's scope but blocking `scripts/check.sh` for
+every in-flight resolution: `src/test/chapters.test.tsx` was missing RTL's
+`afterEach(cleanup)` (vitest.config has no `globals: true`, so
+`@testing-library/react`'s auto-registered cleanup never fires), which let
+DOM accumulate across the file's 32 cases until the last test blew its
+5-second timeout under the now-101-chapter registry. Fixed and committed
+separately (commit `ff7319a`, not part of this slug's file set) so
+`scripts/check.sh` actually passes end to end.
