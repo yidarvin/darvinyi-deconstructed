@@ -1,4 +1,4 @@
-import { defineConfig } from "vitest/config";
+import { defineConfig, defaultExclude } from "vitest/config";
 import react from "@vitejs/plugin-react";
 import mdx from "@mdx-js/rollup";
 
@@ -16,5 +16,9 @@ export default defineConfig({
   ],
   test: {
     environment: "jsdom",
+    // Agent tooling checks out isolated git worktrees under .claude/worktrees/ for
+    // parallel work; a leftover one sitting in the tree would otherwise get scanned
+    // as its own copy of every test file.
+    exclude: [...defaultExclude, "**/.claude/worktrees/**"],
   },
 });
