@@ -1,6 +1,6 @@
 import type { ComponentType } from "react";
-import { describe, it, expect } from "vitest";
-import { render, screen, waitFor } from "@testing-library/react";
+import { describe, it, expect, afterEach } from "vitest";
+import { render, screen, waitFor, cleanup } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
 import { MDXProvider } from "@mdx-js/react";
 import { mdxComponents } from "../components/mdxComponents";
@@ -17,6 +17,10 @@ const mdxModules = import.meta.glob("../chapters/*.mdx") as Record<
 >;
 
 const published = registry.chapters.filter((c) => c.status !== "pending");
+
+afterEach(() => {
+  cleanup();
+});
 
 describe("every MDX module renders directly", () => {
   for (const [path, load] of Object.entries(mdxModules)) {
