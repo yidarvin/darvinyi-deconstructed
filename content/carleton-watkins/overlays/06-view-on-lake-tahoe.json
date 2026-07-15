@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-view-on-lake-tahoe.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.459, "y": 0.560, "label": "railway junction" },
+    { "type": "leading_line", "points": [[0.00, 0.681], [0.19, 0.638], [0.34, 0.591], [0.43, 0.550]], "arrow": true, "label": "upper rail approaching junction" },
+    { "type": "leading_line", "points": [[0.696, 0.997], [0.58, 0.79], [0.49, 0.64], [0.422, 0.594]], "arrow": true, "label": "lower rail climbing to junction" },
+    { "type": "subject_anchor", "x": 0.432, "y": 0.512, "r": 0.03, "label": "figures on the line" }
+  ],
+  "notes": "Two rail lines converge on the small figures at the junction."
+}

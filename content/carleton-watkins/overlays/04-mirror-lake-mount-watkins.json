@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-mirror-lake-mount-watkins.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.766, "angle": 0, "label": "mirror-lake shoreline" },
+    { "type": "leading_line", "points": [[0.79, 0.06], [0.78, 0.43], [0.77, 0.84]], "arrow": false, "label": "right foreground tree" },
+    { "type": "polyline", "points": [[0.28, 0.32], [0.39, 0.48], [0.49, 0.62]], "label": "granite slope into clearing" }
+  ],
+  "notes": "The lake opening is set between a granite slope and the dark trunk at right."
+}

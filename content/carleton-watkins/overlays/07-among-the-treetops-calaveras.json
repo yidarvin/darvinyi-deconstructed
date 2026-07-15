@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-among-the-treetops-calaveras.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.50, "rx": 0.455, "ry": 0.440, "label": "oval plate aperture" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "axis of the sky opening" },
+    { "type": "leading_line", "points": [[0.10, 0.36], [0.18, 0.445], [0.295, 0.515], [0.455, 0.55]], "arrow": true, "label": "left trunk drawing inward" },
+    { "type": "leading_line", "points": [[0.905, 0.44], [0.79, 0.475], [0.66, 0.505], [0.545, 0.545]], "arrow": true, "label": "right trunk drawing inward" }
+  ],
+  "notes": "The oval plate and two inward-running trunks make a clearing in the sky."
+}

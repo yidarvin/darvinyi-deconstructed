@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-el-capitan-tutocanula.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.025, "w": 0.43, "h": 0.90, "label": "left stereo view" },
+    { "type": "frame_in_frame", "x": 0.51, "y": 0.025, "w": 0.43, "h": 0.90, "label": "right stereo view" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "stereo-card divider" }
+  ],
+  "notes": "The paired stereo panels, not a single landscape perspective, organize the object."
+}
