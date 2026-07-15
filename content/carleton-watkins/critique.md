@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -14,3 +14,13 @@ verdict: revise
 - **02-el-capitan-tutocanula:** `sources.md` describes the supplied object as a “low, wide mammoth-plate view,” while the proof is a mounted stereocard. The chapter itself correctly treats the paired-card object; make the source note match it when touching that file.
 - **04-mirror-lake-mount-watkins** and **05-multnomah-falls-side:** the marked tree contours read correctly, though `leading_line` is a slightly imprecise type for static foreground trunks.
 - **07-among-the-treetops-calaveras:** the analyzer does not support the two inward trunk lines, but the proof clearly shows the lines following those trunk contours; retain them if desired.
+
+## Builder resolution — 2026-07-15
+
+Re-verified critique history: 2026-07-15, round 1 (the complete history).
+
+1. Reanalyzed and rerendered plate 03. Its `far shore` polyline now follows the visible forest–water seam at y0.39–0.41 rather than the bright water field; it scores 100/100, including strict scoring.
+2. Removed the false `right-hand street edge` primitive from plate 09 and revised the chapter and caption so they claim only the plainly visible streetcar rails. The rerender scores 90/100 (80/100 strict) and has a clean visual pass.
+3. Aligned `sources.md` to the nine presented plates by changing the count and removing the unrepresented Mt. Shasta entry. While touching the file, corrected the plate 02 description to identify the mounted stereocard.
+
+`scripts/check.sh` passed before resolution; chapter copies are byte-identical.

@@ -1,6 +1,6 @@
 # Carleton Watkins — sources
 
-Watkins made the nineteenth-century western landscape into a deliberately composed large-format picture. His Yosemite mammoth plates use foreground trees, rock, and riverbanks as hard anchors for immense recessional space; the later railroad, mine, city, and forest work carries that same exacting placement into engineered and settled terrain. The ten files below are direct, highest-resolution IIIF JPEGs from the J. Paul Getty Museum. Each Getty record declares the image **CC0** through Getty Open Content, and the underlying photographs were made between 1861 and 1885 by Watkins (1829–1916), so the chapter's rights basis is public domain.
+Watkins made the nineteenth-century western landscape into a deliberately composed large-format picture. His Yosemite mammoth plates use foreground trees, rock, and riverbanks as hard anchors for immense recessional space; the later railroad, mine, city, and forest work carries that same exacting placement into engineered and settled terrain. The nine files below are direct, highest-resolution IIIF JPEGs from the J. Paul Getty Museum. Each Getty record declares the image **CC0** through Getty Open Content, and the underlying photographs were made between 1861 and 1885 by Watkins (1829–1916), so the chapter's rights basis is public domain.
 
 ## Shortlist
 
@@ -11,7 +11,7 @@ Watkins made the nineteenth-century western landscape into a deliberately compos
 - **File:** raw/carleton-watkins/01-yosemite-valley-best-general-view.jpg (4241px long edge)
 
 ### 02 — *Tutocanula, or El Capitan, 3600 Feet, Yosemite Valley, Mariposa County, Cal. (#46)* (1861)
-- **Why it matters:** A low, wide mammoth-plate view turns El Capitan into a massive lateral wall, using the valley floor and small foreground vegetation to make scale legible rather than merely scenic.
+- **Why it matters:** A mounted stereocard divides the Yosemite view into two paired images; El Capitan's massive lateral wall and the small foreground vegetation make scale legible rather than merely scenic.
 - **Source:** https://www.getty.edu/art/collection/object/107RKN
 - **Rights:** CC0, Getty Open Content; public-domain 1861 photograph.
 - **File:** raw/carleton-watkins/02-el-capitan-tutocanula.jpg (6442px long edge)
@@ -45,12 +45,6 @@ Watkins made the nineteenth-century western landscape into a deliberately compos
 - **Source:** https://www.getty.edu/art/collection/object/104KYC
 - **Rights:** CC0, Getty Open Content; public-domain nineteenth-century photograph.
 - **File:** raw/carleton-watkins/07-among-the-treetops-calaveras.jpg (6133px long edge)
-
-### 08 — *Mt. Shasta, 14,400 Feet. View from the West.* (c. 1870)
-- **Why it matters:** The mountain's triangular snow form dominates a broad horizontal field, a crisp example of Watkins building monumental scale from a restrained foreground and a single, distant peak.
-- **Source:** https://www.getty.edu/art/collection/object/104FXV
-- **Rights:** CC0, Getty Open Content; public-domain c. 1870 photograph.
-- **File:** raw/carleton-watkins/08-mount-shasta-view-west.jpg (9983px long edge)
 
 ### 09 — *Views in Los Angeles* (c. 1880)
 - **Why it matters:** A city overview organized in stacked horizontal bands—plaza, low roofs, street grid, and distant hills—shows the wide-format survey logic carried from wilderness to the growing city.
