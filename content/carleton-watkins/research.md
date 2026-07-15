@@ -13,7 +13,7 @@ with their negatives: *Mirror Lake* is a 1861 negative printed around 1867,
 Treetops* is a 1878 negative printed in 1880–90. The chapter therefore spans
 Watkins's 1860s–70s image-making and prints extending to about 1890.
 
-The Getty records catalogue all ten selected objects as albumen silver prints.
+The Getty records catalogue all nine selected objects as albumen silver prints.
 Watkins's western large-format landscapes were made from wet-collodion glass
 negatives: a plate was coated, exposed, and developed while its collodion was
 still wet, a field process that required a traveling darkroom. This describes

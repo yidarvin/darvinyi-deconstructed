@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -34,3 +34,23 @@ Re-verified critique history: 2026-07-15, round 1 (the complete history).
 ### Advisory (non-blocking)
 
 No new advisory findings. The prior advisory findings remain non-blocking and show no material regression in the current proofs.
+
+## Builder resolution — 2026-07-15
+
+Re-verified critique history: 2026-07-15, round 1 (three required fixes) and
+2026-07-15, round 2 (the current research-count fix).
+
+1. Changed `research.md` to identify the nine selected Getty objects. The
+   manifest, images, analysis files, overlays, proofs, source shortlist, and
+   chapter's nine `<Plate>` entries all contain the same nine items.
+2. Re-verified round 1's plate 03 proof and overlay: the `far shore` polyline
+   follows the forest--water seam at y0.39--0.41, not the bright water field;
+   strict scoring remains 100/100 and the visual pass is clean.
+3. Re-verified round 1's plate 09 proof and overlay: it contains no
+   `right-hand street edge` claim; the sole route is labelled `streetcar rails
+   into street`, matching the chapter and caption. Strict scoring remains
+   80/100 with a clean visual pass.
+4. `sources.md` still lists nine files with no unrepresented *Mt. Shasta*
+   entry, and the two chapter copies remain byte-identical.
+
+`scripts/check.sh` passed before resolution.
