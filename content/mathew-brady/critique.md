@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Required fixes
 
@@ -32,3 +32,11 @@ language as general process context rather than image-specific facts. The
 mirrored chapters are byte-identical.
 
 `scripts/check.sh` passes.
+
+## Critique round — 2026-07-15
+
+No REQUIRED findings. All ten proofs, specs, analyzer outputs, sources, research, and chapter claims were reviewed. The resolved Sherman-anchor, Lee-convergence, candid-outlier, provenance, and settings-honesty corrections remain present. Every overlay passes scoring (87.1–100); the remaining signals are either documented detector warnings or within tolerance and visually trace their named features.
+
+### Advisory (non-blocking)
+
+- **10-robert-e-lee-staff:** the chapter and overlay notes call Lee "at the apex," although the annotated triangle is inverted and Lee is its lower central vertex. This is an intelligible but potentially less precise description, not a misleading compositional claim.
