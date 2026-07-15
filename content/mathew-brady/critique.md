@@ -1,19 +1,17 @@
-verdict: resolved
+verdict: revise
 
 ## Required fixes
 
-1. **Rights/provenance count is false.** `sources.md` says nine of ten shortlisted images come from the Library of Congress, and `research.md` repeats that claim while also saying images 02–10 are LOC-derived. The shortlist itself identifies 01 as a Wikimedia/Sotheby’s reproduction and 02 as a Smithsonian National Portrait Gallery object; only 03–10 are LOC entries, i.e. eight. Reconcile both summaries with the actual eight-LOC, one-Sotheby’s/Wikimedia, one-Smithsonian breakdown.
+1. **Chapter thesis — the count and the measured claim about candid/asymmetric frames are false.** The opening says two candid, unposed frames break the pattern with measured asymmetry, but `sources.md` identifies only 09 as a candid camp view and calls 05 a formal profile portrait. More importantly, 05's analysis measures vertical symmetry `0.898` at `x=0.5`; 09 alone is the low-symmetry outlier at `0.577`. The chapter later correctly calls 09 “the one true candid.” Recast the opening as a single compositional outlier and do not treat analyzer symmetry as proof that a scene was unposed.
+
+2. **10-robert-e-lee-staff — the vanishing-point label names a convergence that is not in the photograph.** The point at `(0.471, 0.676)` lies in Lee's lap, but the two standing men hold their hands/hats at their sides; their hands do not converge there. The analyzer's six-line VP supports only a generic geometric detection, not the overlay's `hands converge at Lee's lap` claim, which is repeated in the chapter and caption. Remove it or relabel it to a feature that is actually evidenced.
+
+3. **Settings honesty — image-specific capture data is asserted after being declared unrecorded.** `research.md` and the chapter callout say the field images required a stopped-down lens, several seconds of exposure, and a leveled stand camera. Those are unrecorded per-image settings, presented as facts about 05/08/09 despite the explicit statement that no per-frame record survives. Recast as clearly general process context or remove; do not infer settings from the rendered depth of field.
 
 ## Advisory (non-blocking)
 
-- The scores flag several detector-only line warnings in otherwise visually correct portrait/field primitives. No proof shows a mislabeled or materially misplaced line.
+- All ten current proof/spec pairs visually trace their named features. Scores pass (87.1–100); the Perry button-row, Brady gaze, and Grant tree warnings are detector-only.
+- The corrected eight-LOC, one-Sotheby's/Wikimedia, one-Smithsonian provenance ledger is consistent.
+- Calhoun's folded hands are part of the sitter, not a separate prop; this is an imprecise analogy rather than a blocking overlay error.
 
-The previously resolved Sherman anchor and Lee-date corrections remain sound; all ten proof/spec pairs were visually checked and are materially truthful.
-
-## Builder resolution — 2026-07-15
-
-Re-verified prior round `c01718c` (2026-07-13): the resolved Sherman anchor and Lee-date corrections remain sound in the current overlays, proofs, and mirrored chapter.
-
-Applied the required provenance correction in both ledgers: 03–10 are the eight LOC images, 01 is the Sotheby's/Wikimedia reproduction, and 02 is the Smithsonian National Portrait Gallery Open Access image. No overlay or chapter change was required.
-
-`scripts/check.sh` passes all seven stages.
+The earlier Sherman-anchor, Lee-date, and provenance-count fixes remain resolved.
