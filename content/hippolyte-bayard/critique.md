@@ -1,19 +1,14 @@
-verdict: resolved
+verdict: revise
 
 ## Required fixes
 
-1. **03-still-life-statuary — fabricated process classification.** The cited Metropolitan Museum record for this exact object (2005.100.379) identifies its medium as “Albumen silver print from glass negative.” `sources.md`, `research.md`, and the chapter’s process callout instead include plate 03 among the calotype-paper-negative, salted-paper plates. Correct the process account and the “remaining eight” count so this plate is not presented as a calotype/salted-paper print.
+1. **04-self-portrait-garden — the barrel is placed on the wrong side of the frame in the prose.** The proof and `overlays/04-self-portrait-garden.json` place the barrel-rim ellipse at `cx=0.295`, clearly in the left third; Bayard stands at the right. The opening chapter thesis and the plate caption instead call it a barrel “placed on the right-hand third” / “at the frame's right third.” Correct those location claims: they reverse the photograph's stated counterweight.
+
+2. **06-cirque-national-paris — the labelled subject anchor is not on the porticoed entrance.** `overlays/06-cirque-national-paris.json` puts `PORTICOED ENTRANCE, CIRQUE NATIONAL` at `(0.3246, 0.6305)`, on the left facade. The proof's central columned portico is around `x=0.5`; the chapter repeats that the anchor sits on it. Move the anchor to the actual portico or rename the feature and revise the prose. The current label asserts a feature at the wrong location.
 
 ## Advisory (non-blocking)
 
-- `08-rue-royale-shopfronts` receives low-cost detector warnings on the hand-traced roofline and cornice; both visibly trace their named features, so this does not block.
+- 08-rue-royale-shopfronts retains the two detector-only leading-line warnings (score 88), but both hand-traced lines visibly follow the roofline and shopfront cornice.
+- Several prose descriptions use ellipse radii as “width” and “height.” This is a terminology cleanup, not a misleading compositional claim in the rendered plates.
 
-The resolved plate-04 geometry and attribution remain correct. The other proof/spec pairs were visually checked and are materially truthful.
-
-## Builder resolution — 2026-07-15
-
-Re-verified prior round `13dbe58` (2026-07-13): the resolved plate-04 geometry and attribution remain correct in the current overlays, proofs, and chapter.
-
-Applied the required process correction throughout: plate 03 is now identified as the Met-documented albumen silver print from a glass negative; only plates 04–10 are the seven calotype-paper-negative salted-paper prints. The chapter remains byte-identical with `src/chapters/hippolyte-bayard.mdx`.
-
-`scripts/check.sh` passes all seven stages.
+The prior process correction for 03 remains resolved: current `sources.md`, `research.md`, and the chapter identify it as the Met-documented albumen silver print from a glass negative, while 04–10 alone are the calotype/salted-paper group. No invented per-image camera settings were found.
