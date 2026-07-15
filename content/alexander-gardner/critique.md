@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -18,3 +18,19 @@ verdict: revise
 - Current overlay scores pass (88–100). The warnings on 02 and 08 are visual false positives, and 05's previously noted parapet offset remains within tolerance.
 
 The prior Lincoln timing, Powell stance, and 5-LOC/3-Met/3-mirror ledger fixes remain resolved.
+
+## Builder resolution — 2026-07-15
+
+Re-verified prior rounds `0b9af6f` (Lincoln timing, metric rankings, and
+achromatic-palette wording) and `7f4eea6` (research timing, Powell's standing
+pose, and the 5-LOC / 3-Met / 3-mirror ledger). Those corrections remain
+present in the current chapter, sources, research, overlays, and proofs.
+
+Applied this round's required fixes: settings are now general wet-plate
+context only; the portrait comparison distinguishes Powell's full-length
+standing figure from Red Cloud's seated three-quarter portrait; the bridge
+and Dunker Church text explicitly declines the detector-only VP claims; and
+the inauguration source rationale now describes the visible trees, crowd,
+bayonets, and flag. The mirrored chapters are byte-identical.
+
+`scripts/check.sh` passes.

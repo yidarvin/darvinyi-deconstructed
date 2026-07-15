@@ -55,7 +55,7 @@ Gardner's compositional signature is documentary, not painterly: a level camera,
 - **File:** raw/alexander-gardner/08-execution-scaffold-conspirators.jpg (7500px)
 
 ### 09 — Crowd at President Lincoln's Second Inauguration, Washington, D.C. (March 4, 1865)
-- **Why it matters:** The East Portico's columns divide the frame into even vertical bays while a dense crowd fills the plaza below in an unbroken horizontal mass — one of Gardner's few architecture-plus-crowd compositions, built on the same grid discipline as his portrait backdrops, scaled up to a civic stage.
+- **Why it matters:** Bare winter trees and the crowd's upper edge set a shallow horizon while a diagonal rank of fixed bayonets and one raised flag give the dense plaza its only named directional accents — a crowd composition built from recession rather than architectural bays.
 - **Source:** https://www.loc.gov/item/2018670563/
 - **Rights:** Public domain (Library of Congress, Prints and Photographs Division)
 - **File:** raw/alexander-gardner/09-crowd-second-inauguration.jpg (5120px)
