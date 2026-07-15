@@ -2,8 +2,9 @@
 
 Scope: technique, era, printing, and recorded camera settings for the ten
 plates in this chapter. This is paper-photography work from 1839–1852 —
-Bayard's own direct-positive process for the two earliest images, then
-paper-negative (calotype) salted-paper prints for the rest — with no
+Bayard's own direct-positive process for the two earliest images, seven
+paper-negative (calotype) salted-paper prints, and one albumen silver print
+from a glass negative — with no
 per-frame exposure record; where a number is not documented, this says so.
 
 ## Who and when
@@ -61,15 +62,16 @@ By the mid-1840s Bayard, like most of his French contemporaries, had also
 taken up the calotype (paper-negative) process associated with William
 Henry Fox Talbot: a sheet of paper sensitized with silver iodide was exposed
 in the camera to form a translucent negative, which could then be
-contact-printed as many times as wanted. The remaining eight plates in this
-chapter (03–10) descend from that practice — paper negatives contact-printed
-onto salted paper — and run from the mid-1840s into the early 1850s: still
-lifes, a garden self-portrait, Paris street views, and monument studies,
+contact-printed as many times as wanted. Seven plates in this chapter
+(04–10) descend from that practice — paper negatives contact-printed onto
+salted paper — and run from the mid-1840s into the early 1850s: a garden
+self-portrait, Paris street views, and monument studies,
 contemporary with but distinct from his 1851 Mission Héliographique
-fieldwork in Normandy. All ten plates, direct-positive and paper-negative
-alike, are stand-camera work — long exposures on a fixed, leveled camera,
-no shutter beyond a removable lens cap, framing composed directly on the
-ground glass.
+fieldwork in Normandy. *Still Life with Statuary* (03) is instead documented
+by the Metropolitan Museum of Art as an albumen silver print from a glass
+negative. All ten plates are camera-made work — long exposures on a fixed,
+leveled camera, no shutter beyond a removable lens cap, framing composed
+directly on the ground glass.
 
 ## Printing
 
@@ -81,15 +83,15 @@ here is a high-resolution Wikimedia Commons scan credited to the Musée de
 l'Elysée / Rudolfinum. *Windmills, Montmartre* is a Metropolitan Museum of
 Art Open Access (CC0) holding.
 
-For the salted-paper images (03–10), the paper negative was contact-printed
+For the salted-paper images (04–10), the paper negative was contact-printed
 — there were no enlargers in this era — onto plain paper brushed with a
 salt (sodium chloride) solution and then floated on silver nitrate to form
 light-sensitive silver chloride within the paper fibers themselves, with no
 albumen coating as in the later process; the result has the characteristic
-matte, slightly warm, ink-like surface of a salted-paper print. Seven of
-these eight (04–10) are J. Paul Getty Museum Open Content holdings; the
-eighth (03, *Still Life with Statuary*) is a Metropolitan Museum Open Access
-(CC0) holding. The underlying paper negatives for Bayard's work are
+matte, slightly warm, ink-like surface of a salted-paper print. All seven are
+J. Paul Getty Museum Open Content holdings. *Still Life with Statuary* (03)
+is instead a Metropolitan Museum Open Access (CC0) albumen silver print from
+a glass negative. The underlying paper negatives for Bayard's work are
 dispersed across French institutional collections — principally the Société
 française de photographie and the Bibliothèque nationale de France — though
 the specific negative-to-print chain is not documented plate by plate for

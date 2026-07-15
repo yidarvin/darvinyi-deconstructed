@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -9,3 +9,11 @@ verdict: revise
 - `08-rue-royale-shopfronts` receives low-cost detector warnings on the hand-traced roofline and cornice; both visibly trace their named features, so this does not block.
 
 The resolved plate-04 geometry and attribution remain correct. The other proof/spec pairs were visually checked and are materially truthful.
+
+## Builder resolution — 2026-07-15
+
+Re-verified prior round `13dbe58` (2026-07-13): the resolved plate-04 geometry and attribution remain correct in the current overlays, proofs, and chapter.
+
+Applied the required process correction throughout: plate 03 is now identified as the Met-documented albumen silver print from a glass negative; only plates 04–10 are the seven calotype-paper-negative salted-paper prints. The chapter remains byte-identical with `src/chapters/hippolyte-bayard.mdx`.
+
+`scripts/check.sh` passes all seven stages.
