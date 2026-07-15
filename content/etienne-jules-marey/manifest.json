@@ -1,0 +1,66 @@
+[
+  {
+    "file": "01-man-black-suit.jpg",
+    "width": 1256,
+    "height": 1469,
+    "sha1": "c2fb8352",
+    "source": "01-man-black-suit.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-pole-vault.jpg",
+    "width": 1600,
+    "height": 800,
+    "sha1": "e4573798",
+    "source": "02-pole-vault.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-flying-heron.jpg",
+    "width": 1600,
+    "height": 637,
+    "sha1": "875e1755",
+    "source": "03-flying-heron.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-bird-in-flight.jpg",
+    "width": 1600,
+    "height": 302,
+    "sha1": "6a360c20",
+    "source": "04-bird-in-flight.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-falling-cat-sequence.jpg",
+    "width": 1019,
+    "height": 329,
+    "sha1": "c0e00d3e",
+    "source": "05-falling-cat-sequence.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-falling-cat-sequence.jpg",
+    "width": 1019,
+    "height": 329,
+    "sha1": "72cb484c",
+    "source": "05-falling-cat-sequence.png",
+    "exif": {}
+  },
+  {
+    "file": "06-falling-cat-study.jpg",
+    "width": 900,
+    "height": 1174,
+    "sha1": "e2c0151b",
+    "source": "06-falling-cat-study.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-falling-cat-study.jpg",
+    "width": 900,
+    "height": 1174,
+    "sha1": "a3e03383",
+    "source": "06-falling-cat-study.png",
+    "exif": {}
+  }
+]

@@ -275,8 +275,8 @@
    "stage": "sourced",
    "wave": 3
   },
-  {
-   "slug": "etienne-jules-marey",
+    {
+      "slug": "etienne-jules-marey",
    "name": "Étienne-Jules Marey",
    "dates": "1830–1904",
    "group": "II. 19th-c. Land, War & Social Document",
@@ -284,7 +284,7 @@
    "note": "Chronophotography; motion on a single plate.",
    "images": [],
    "rights": "pd",
-   "stage": "sourced",
+      "stage": "built",
    "wave": 3
   },
   {
