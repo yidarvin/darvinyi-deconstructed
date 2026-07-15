@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "02-table-servie.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.586,
+      "y": 0.587,
+      "r": 0.035,
+      "label": "GLASS"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.835, 0.484], [0.893, 0.708]],
+      "arrow": true,
+      "label": "RIGHT TABLE EDGE"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.165, 0.513], [0.095, 0.708]],
+      "arrow": true,
+      "label": "LEFT TABLE EDGE"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.105, 0.720], [0.446, 0.742], [0.850, 0.748]],
+      "label": "FRONT TABLECLOTH EDGE"
+    }
+  ],
+  "notes": "A frontal tablecloth stabilizes a shallow still-life recession around the glass."
+}
