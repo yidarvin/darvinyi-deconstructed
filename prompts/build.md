@@ -22,6 +22,8 @@ effort; do not request or switch models.
       file the site renders, src/chapters/<slug>.mdx — keep them byte-identical.
    d. Run scripts/check.sh and confirm it passes, then set `verdict: resolved`.
       Commit and push per slug ("resolve critique: <slug>").
+   e. If step 0 resolved any critique, stop after those commits. Do not begin
+      step 1 in the same invocation; the separate critic must re-review first.
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
    at stage "sourced". Work them one at a time, registry order. A photographer
    requires its registry `minImages` count, default 4. Skip anyone below that
