@@ -251,8 +251,8 @@
    "stage": "approved",
    "wave": 3
   },
-  {
-   "slug": "william-henry-jackson",
+    {
+      "slug": "william-henry-jackson",
    "name": "William Henry Jackson",
    "dates": "1843–1942",
    "group": "II. 19th-c. Land, War & Social Document",
@@ -260,7 +260,7 @@
    "note": "Yellowstone survey; helped create the national park.",
    "images": [],
    "rights": "pd",
-   "stage": "sourced",
+      "stage": "built",
    "wave": 3
   },
   {

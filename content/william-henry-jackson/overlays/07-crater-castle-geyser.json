@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-crater-castle-geyser.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.192, "y": 0.202, "w": 0.616, "h": 0.608, "label": "printed image field" },
+    { "type": "polyline", "points": [[0.34, 0.59], [0.49, 0.54], [0.64, 0.55]], "label": "crater rim" },
+    { "type": "polyline", "points": [[0.48, 0.49], [0.54, 0.42], [0.61, 0.40]], "label": "mineral mound" }
+  ],
+  "notes": "The low crater and central mineral mound turn a geological survey into a nearly frontal still life."
+}

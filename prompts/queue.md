@@ -21,7 +21,7 @@ real queue and state live in data/registry.json.
 | 10  | mathew-brady              | Mathew Brady              | DONE    |
 | 11  | alexander-gardner         | Alexander Gardner         | DONE    |
 | 12  | timothy-osullivan         | Timothy O'Sullivan        | DONE    |
-| 13  | carleton-watkins          | Carleton Watkins          | PENDING |
+| 13  | carleton-watkins          | Carleton Watkins          | DONE    |
 | 14  | william-henry-jackson     | William Henry Jackson     | PENDING |
 | 15  | eadweard-muybridge        | Eadweard Muybridge        | PENDING |
 | 16  | etienne-jules-marey       | Étienne-Jules Marey       | PENDING |

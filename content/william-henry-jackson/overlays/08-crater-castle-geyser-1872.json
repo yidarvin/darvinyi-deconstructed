@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-crater-castle-geyser-1872.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.192, "y": 0.201, "w": 0.616, "h": 0.608, "label": "printed image field" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.61, "rx": 0.29, "ry": 0.10, "label": "geyser basin" },
+    { "type": "polyline", "points": [[0.33, 0.47], [0.50, 0.43], [0.67, 0.47]], "label": "distant tree line" }
+  ],
+  "notes": "A broad oval basin occupies the foreground while the low tree line keeps the subject still and centered."
+}

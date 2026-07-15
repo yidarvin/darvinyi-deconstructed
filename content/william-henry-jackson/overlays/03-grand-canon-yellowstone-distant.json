@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-grand-canon-yellowstone-distant.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.198, "y": 0.184, "w": 0.596, "h": 0.629, "label": "printed image field" },
+    { "type": "polyline", "points": [[0.30, 0.35], [0.39, 0.52], [0.51, 0.63]], "label": "left canyon descent" },
+    { "type": "polyline", "points": [[0.71, 0.36], [0.63, 0.51], [0.53, 0.62]], "label": "right canyon descent" }
+  ],
+  "notes": "Opposed walls narrow into a pale river corridor and turn vast geology into a legible sequence."
+}

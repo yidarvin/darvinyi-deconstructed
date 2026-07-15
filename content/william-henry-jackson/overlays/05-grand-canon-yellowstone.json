@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-grand-canon-yellowstone.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.198, "y": 0.183, "w": 0.596, "h": 0.630, "label": "printed image field" },
+    { "type": "polyline", "points": [[0.25, 0.34], [0.40, 0.48], [0.51, 0.55]], "label": "left canyon wall" },
+    { "type": "polyline", "points": [[0.74, 0.35], [0.64, 0.50], [0.53, 0.55]], "label": "right canyon wall" }
+  ],
+  "notes": "The dark walls converge around a bright water passage, making depth a physical enclosure."
+}

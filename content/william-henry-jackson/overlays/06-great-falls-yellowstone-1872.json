@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-great-falls-yellowstone-1872.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.198, "y": 0.184, "w": 0.596, "h": 0.630, "label": "printed image field" },
+    { "type": "polyline", "points": [[0.43, 0.36], [0.49, 0.45], [0.50, 0.56]], "label": "waterfall" },
+    { "type": "polyline", "points": [[0.69, 0.37], [0.65, 0.56], [0.57, 0.67]], "label": "right cliff face" }
+  ],
+  "notes": "A distant fall is held between one vast cliff and a stepped foreground descent."
+}

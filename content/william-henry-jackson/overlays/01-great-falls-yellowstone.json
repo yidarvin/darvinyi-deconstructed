@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-great-falls-yellowstone.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.198, "y": 0.189, "w": 0.595, "h": 0.627, "label": "printed image field" },
+    { "type": "polyline", "points": [[0.30, 0.28], [0.37, 0.48], [0.45, 0.63]], "label": "left canyon wall" },
+    { "type": "polyline", "points": [[0.71, 0.30], [0.64, 0.47], [0.56, 0.63]], "label": "right canyon wall" }
+  ],
+  "notes": "The mounted print encloses a symmetrical gorge whose walls funnel attention to the central fall."
+}

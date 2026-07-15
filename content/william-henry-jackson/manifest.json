@@ -1,0 +1,112 @@
+[
+  {
+    "file": "01-great-falls-yellowstone.jpg",
+    "width": 1299,
+    "height": 1600,
+    "sha1": "df931914",
+    "source": "01-great-falls-yellowstone.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "02-columnar-basalts-yellowstone.jpg",
+    "width": 1600,
+    "height": 1288,
+    "sha1": "aaf7d2f1",
+    "source": "02-columnar-basalts-yellowstone.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "03-grand-canon-yellowstone-distant.jpg",
+    "width": 1289,
+    "height": 1600,
+    "sha1": "a8955c84",
+    "source": "03-grand-canon-yellowstone-distant.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "04-upper-falls-yellowstone.jpg",
+    "width": 1600,
+    "height": 1292,
+    "sha1": "3836a5eb",
+    "source": "04-upper-falls-yellowstone.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "05-grand-canon-yellowstone.jpg",
+    "width": 1293,
+    "height": 1600,
+    "sha1": "386a7665",
+    "source": "05-grand-canon-yellowstone.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "06-great-falls-yellowstone-1872.jpg",
+    "width": 1302,
+    "height": 1600,
+    "sha1": "d63c6231",
+    "source": "06-great-falls-yellowstone-1872.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "07-crater-castle-geyser.jpg",
+    "width": 1600,
+    "height": 1289,
+    "sha1": "1e0e0020",
+    "source": "07-crater-castle-geyser.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "08-crater-castle-geyser-1872.jpg",
+    "width": 1600,
+    "height": 1299,
+    "sha1": "309f1112",
+    "source": "08-crater-castle-geyser-1872.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "09-glen-spring-mammoth-hot-springs.jpg",
+    "width": 1600,
+    "height": 1294,
+    "sha1": "6765d21a",
+    "source": "09-glen-spring-mammoth-hot-springs.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  },
+  {
+    "file": "10-mammoth-hot-springs.jpg",
+    "width": 1600,
+    "height": 1292,
+    "sha1": "16ca658b",
+    "source": "10-mammoth-hot-springs.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - Sensor 14400"
+    }
+  }
+]
