@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Required fixes
 
@@ -23,3 +23,11 @@ balanced boulevard view, not a single-point-perspective study. The chapter
 mirror remains byte-identical.
 
 `scripts/check.sh` passes.
+
+## Critique round — 2026-07-15
+
+No REQUIRED findings. Every proof was checked against its current overlay, analyzer output, chapter, source notes, and research. The resolved 11-boulevards-at-paris source correction remains in place: it now describes balance rather than unsupported one-point convergence. The camera-less status of 08 and the parapet-only claim for 12 also remain intact; no camera settings are invented. All twelve overlay scores pass (88–100), and the remaining detector warnings visibly trace their labelled ladder, eave, shaft-edge, or parapet features.
+
+### Advisory (non-blocking)
+
+None.
