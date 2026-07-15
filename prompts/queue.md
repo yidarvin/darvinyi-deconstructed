@@ -9,18 +9,18 @@ real queue and state live in data/registry.json.
 | #   | slug                      | item                      | status  |
 |-----|---------------------------|---------------------------|---------|
 | 00  | how-this-book-is-built    | How this book is built    | DONE    |
-| 01  | nicephore-niepce          | Nicéphore Niépce          | PENDING |
-| 02  | louis-daguerre            | Louis Daguerre            | PENDING |
-| 03  | william-henry-fox-talbot  | William Henry Fox Talbot  | PENDING |
-| 04  | anna-atkins               | Anna Atkins               | PENDING |
-| 05  | hippolyte-bayard          | Hippolyte Bayard          | PENDING |
-| 06  | hill-adamson              | Hill & Adamson            | PENDING |
-| 07  | gustave-le-gray           | Gustave Le Gray           | PENDING |
-| 08  | roger-fenton              | Roger Fenton              | PENDING |
-| 09  | nadar                     | Nadar (Félix Tournachon)  | PENDING |
-| 10  | mathew-brady              | Mathew Brady              | PENDING |
-| 11  | alexander-gardner         | Alexander Gardner         | PENDING |
-| 12  | timothy-osullivan         | Timothy O'Sullivan        | PENDING |
+| 01  | nicephore-niepce          | Nicéphore Niépce          | DONE    |
+| 02  | louis-daguerre            | Louis Daguerre            | DONE    |
+| 03  | william-henry-fox-talbot  | William Henry Fox Talbot  | DONE    |
+| 04  | anna-atkins               | Anna Atkins               | DONE    |
+| 05  | hippolyte-bayard          | Hippolyte Bayard          | DONE    |
+| 06  | hill-adamson              | Hill & Adamson            | DONE    |
+| 07  | gustave-le-gray           | Gustave Le Gray           | DONE    |
+| 08  | roger-fenton              | Roger Fenton              | DONE    |
+| 09  | nadar                     | Nadar (Félix Tournachon)  | DONE    |
+| 10  | mathew-brady              | Mathew Brady              | DONE    |
+| 11  | alexander-gardner         | Alexander Gardner         | DONE    |
+| 12  | timothy-osullivan         | Timothy O'Sullivan        | DONE    |
 | 13  | carleton-watkins          | Carleton Watkins          | PENDING |
 | 14  | william-henry-jackson     | William Henry Jackson     | PENDING |
 | 15  | eadweard-muybridge        | Eadweard Muybridge        | PENDING |
