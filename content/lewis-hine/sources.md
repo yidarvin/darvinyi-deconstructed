@@ -1,0 +1,16 @@
+# Lewis Hine — source shortlist
+
+All downloads are full-resolution TIFF masters from the Library of Congress National Child Labor Committee Collection (NCLC), converted locally to JPEG for the raw-image contract. Each linked LOC record identifies Lewis W. Hine and states **“No known restrictions on publication”**; LOC does not license material, so maintain institutional credit and reassess at publication.
+
+1. **Sadie Pfeifer, 48 inches high, Lancaster Cotton Mills** — 30 Nov. 1908. A small frontal figure is compressed by repetitive loom geometry, making worker–machine scale explicit. [LOC record](https://www.loc.gov/item/2018674894/). **Rights:** LOC “No known restrictions on publication.”
+2. **Sweeper and Doffer Boys, Lancaster Mills** — Dec. 1908. A compact human band is set against vertical machinery in a deep industrial interior. [LOC record](https://www.loc.gov/item/2018674879/). **Rights:** LOC “No known restrictions on publication.”
+3. **Doffer boy (about 46 inches high), Kesler Mfg. Co., Salisbury** — Dec. 1908. Near-full-length child portrait with factory context produces a clear figure–ground and smallness study. [LOC record](https://www.loc.gov/item/2018674956/). **Rights:** LOC “No known restrictions on publication.”
+4. **A little spinner in Globe Cotton Mill, Augusta** — Jan. 1909. Dense spinning equipment frames and visually overwhelms a portrait-scale child. [LOC record](https://www.loc.gov/item/2018675000/). **Rights:** LOC “No known restrictions on publication.”
+5. **Addie Card, anaemic little spinner, North Pownal Cotton Mill** — Aug. 1910. Loom components make a hard, encroaching frame around a direct portrait. [LOC record](https://www.loc.gov/item/2018675329/). **Rights:** LOC “No known restrictions on publication.”
+6. **A few of the young breaker boys working in the Bliss breaker, Nanticoke** — Jan. 1911. Staggered workers and deep machinery establish a dense, dusty social space. [LOC record](https://www.loc.gov/item/2018676218/). **Rights:** LOC “No known restrictions on publication.”
+7. **A view of Ewen Breaker, South Pittston** — Jan. 1911. Obscured depth, beams, and industrial atmosphere carry the image more than any single figure. [LOC record](https://www.loc.gov/item/2018676225/). **Rights:** LOC “No known restrictions on publication.”
+8. **Newsies, Boston** — Oct. 1909. Clustered sellers are separated tonally from the city background, turning street life into a compact group composition. [LOC record](https://www.loc.gov/item/2018674344/). **Rights:** LOC “No known restrictions on publication.”
+9. **N.Y. Newsies** — July 1910. An informal layered city group uses faces as punctuation across the frame. [LOC record](https://www.loc.gov/item/2018675999/). **Rights:** LOC “No known restrictions on publication.”
+10. **Doffer boys going to dinner, Tupelo Cotton Mills** — May 1911. A processional diagonal converts labour routine into movement and companionship. [LOC record](https://www.loc.gov/item/2018673909/). **Rights:** LOC “No known restrictions on publication.”
+
+The NCLC collection holds Hine’s 1908–24 child-labor investigation; see its [LOC collection record](https://www.loc.gov/pictures/collection/nclc/). Later interpretation should make his reform advocacy and the power imbalance in these portraits explicit.
