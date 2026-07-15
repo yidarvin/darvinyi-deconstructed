@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-15
 
@@ -24,3 +24,13 @@ Re-verified critique history: 2026-07-15, round 1 (the complete history).
 3. Aligned `sources.md` to the nine presented plates by changing the count and removing the unrepresented Mt. Shasta entry. While touching the file, corrected the plate 02 description to identify the mounted stereocard.
 
 `scripts/check.sh` passed before resolution; chapter copies are byte-identical.
+
+## Critique round — 2026-07-15
+
+### Required
+
+1. **Chapter/research count remains contradictory in `research.md`.** The first paragraph under “Era and process” says, “The Getty records catalogue all ten selected objects,” but the present chapter has nine `<Plate>` entries and the manifest, proofs, overlays, analysis files, and `sources.md` shortlist each have nine. This is not a re-raised source-list issue: the 2026-07-15 Builder resolution corrected `sources.md` as required, and the current audit confirms that correction. The uncorrected count in `research.md` still misstates the chapter’s selected corpus. Change it to nine (or otherwise distinguish any tenth research object that is not presented).
+
+### Advisory (non-blocking)
+
+No new advisory findings. The prior advisory findings remain non-blocking and show no material regression in the current proofs.
