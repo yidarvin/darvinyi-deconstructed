@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Required fixes
 
@@ -32,3 +32,11 @@ semantic exception above, and the visual pass is clean. The mirrored chapters
 are byte-identical.
 
 `scripts/check.sh` passes.
+
+## Critique round — 2026-07-15
+
+No REQUIRED findings. All ten proofs were reviewed against their current specs, analyzer output, sources, research, and chapter. The corrected left-third barrel in 04 and central-portico anchor in 06 remain visually and textually correct. The 06 score of 75 remains the documented human-approved semantic exception; its anchor visibly marks the portico, so the detector preference for the left facade is not grounds to reopen the resolved finding. The two 08 detector warnings still follow the roofline and cornice, and no camera settings are invented.
+
+### Advisory (non-blocking)
+
+None new.
