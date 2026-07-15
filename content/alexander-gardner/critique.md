@@ -1,23 +1,20 @@
-verdict: resolved
+verdict: revise
 
 ## Required fixes
 
-1. **01-lincoln-cracked-plate — incorrect date interval remains in research.** `research.md` says the February 5, 1865 sitting was “five weeks before the assassination.” April 14 was 68 days later, about 9.7 weeks; `chapter.mdx` correctly says about ten weeks. Bring research into line with the corrected chapter.
+1. **Settings honesty — the chapter and research state unrecorded image-specific exposure requirements as fact.** Both files acknowledge that no aperture, shutter speed, or plate speed survives, then say that the studio and outdoor images required several seconds and that the outdoor work used a stopped-down lens. Recast this as general wet-plate context or remove it; these are not recorded settings for these eleven photographs.
 
-2. **02-lewis-powell-conspirator — basic pose is misidentified in sources.** `sources.md` calls Powell “Full-length, seated,” but the proof, overlay, and chapter all show him standing full length. Correct the source description because the figure’s upright stance is central to the entry’s compositional claim.
+2. **04-red-cloud-portrait — the section calls two portraits “full-length,” but Red Cloud is not one.** The proof is a vignetted head-and-torso/hand portrait, and `sources.md` accurately calls it a seated three-quarter view. Correct the section framing, which currently makes a false claim about what the plate shows.
 
-3. **Rights/provenance ledger contradicts the actual shortlist.** `sources.md` and `research.md` say there are two Metropolitan Museum objects, but entries 02, 03, and 05 each cite a Met Open Access record. The stated six-LOC/two-Met/three-mirror split therefore cannot match the cited source list. Audit the acquisition origins and state a consistent breakdown in both files.
+3. **03-ruins-richmond-bridge — the claimed correspondence between the pier line and the analyzer VP is geometrically false.** The overlay's repeating-piers line runs from `(0.285, 0.494)` to `(0.487, 0.508)`; extended to the cited VP's `x=0.571`, it is at about `y=0.514`, not the analysis VP's `y=0.730` (a 0.216 normalized-frame gap). Remove the chapter statement that the VP is close to where the line points.
+
+4. **07-dunker-church-dead-antietam — an analyzer artifact is presented as visible convergence.** The proof has no perspective convergence at `(0.613, 0.763)`: that point is in the near body/debris field, and the intentional overlay contains no VP. The chapter's claim that the dead and limber wheels “all” lead there turns the raw detector result into a false photographic structure. Delete or explicitly qualify it as an unreliable detector reading.
+
+5. **09-crowd-second-inauguration — the source description names architectural bays absent from the supplied photograph.** `sources.md` says East Portico columns divide the frame into vertical bays, while the proof shows winter trees, the crowd, bayonets, and only an edge of architecture. Its current overlay and chapter correctly describe the crowd/bayonet diagonal. Rewrite the source rationale to match the actual image.
 
 ## Advisory (non-blocking)
 
-- `05-burnside-bridge-antietam`’s parapet line is slightly off the detector edge (score 98), but the proof still clearly traces the parapet.
+- 05's source blurb overstates a reflected “doubling” of the arcade; the water is dark and the arches are heavily obscured. The published overlay and chapter's half-hidden account remain materially sound.
+- Current overlay scores pass (88–100). The warnings on 02 and 08 are visual false positives, and 05's previously noted parapet offset remains within tolerance.
 
-The previously resolved chapter timing, ranking, and palette findings remain resolved. All eleven proof/spec pairs were visually checked; no new material overlay-truthfulness issue was found.
-
-## Builder resolution — 2026-07-15
-
-Re-verified prior round `0b9af6f` (2026-07-13): the corrected Lincoln and inauguration intervals, the corrected edge-density and tonal-spread rankings, the non-unique achromatic-palette account, and the Dunker Church diagonal wording remain in the current mirrored chapter.
-
-Applied this round's required fixes: research now gives the Lincoln sitting as about ten weeks before the assassination; Powell's source description identifies his standing full-length pose; and both source and research ledgers consistently account for five direct LOC records, three Met Open Access objects (02, 03, 05), and three high-resolution reproductions or mirrors (01, 04, 10). No overlay change was required.
-
-`scripts/check.sh` passes all seven stages.
+The prior Lincoln timing, Powell stance, and 5-LOC/3-Met/3-mirror ledger fixes remain resolved.
