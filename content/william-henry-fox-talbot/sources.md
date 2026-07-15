@@ -67,7 +67,7 @@ Talbot composed as an inventor cataloguing what a camera could newly do, and the
 - **File:** raw/william-henry-fox-talbot/10-bust-of-patroclus.jpg (1920px)
 
 ### 11 — The Boulevards at Paris (1843)
-- **Why it matters:** An elevated view down a Parisian boulevard, matched building facades receding to a single vanishing point — Talbot's earliest urban perspective study, and a direct forerunner of Atget's street compositions six decades later.
+- **Why it matters:** An elevated view down a Parisian boulevard, where matched facades, a high horizon, and a lone tree balance an early urban scene without reducing it to a single-point perspective study — a direct forerunner of Atget's street compositions six decades later.
 - **Source:** https://www.metmuseum.org/art/collection/search/283070 (Gilman Collection; also digitized via Wikimedia Commons)
 - **Rights:** Public domain (Metropolitan Museum of Art, Open Access / CC0)
 - **File:** raw/william-henry-fox-talbot/11-boulevards-at-paris.jpg (3007px)
