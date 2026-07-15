@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-boulevard-du-temple.jpg",
+    "width": 1600,
+    "height": 1149,
+    "sha1": "4625a886",
+    "source": "01-boulevard-du-temple.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-atelier-plaster-casts.jpg",
+    "width": 1600,
+    "height": 1164,
+    "sha1": "90be1066",
+    "source": "02-atelier-plaster-casts.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-pont-neuf.jpg",
+    "width": 1310,
+    "height": 946,
+    "sha1": "883b9ef3",
+    "source": "03-pont-neuf.jpg",
+    "exif": {}
+  }
+]

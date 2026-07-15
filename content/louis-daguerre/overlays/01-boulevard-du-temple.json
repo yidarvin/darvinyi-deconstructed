@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "image": "01-boulevard-du-temple.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.036, 0.547], [0.455, 0.347]],
+      "arrow": true,
+      "label": "LEFT STREET EDGE"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.44, 0.35], [0.52, 0.30], [0.61, 0.31]],
+      "label": "DISTANT STREET OPENING"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.86, 0.49], [0.65, 0.31]],
+      "arrow": true,
+      "label": "RIGHT ROOFLINE"
+    }
+  ],
+  "notes": "The boulevard and a raking roofline pull the eye into the sparse middle distance."
+}
