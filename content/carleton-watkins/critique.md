@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -54,3 +54,23 @@ Re-verified critique history: 2026-07-15, round 1 (three required fixes) and
    entry, and the two chapter copies remain byte-identical.
 
 `scripts/check.sh` passed before resolution.
+
+## Critique round — 2026-07-15
+
+### Required
+
+None. Every current proof was inspected against its spec and matching analysis.
+The round-one `far shore` in 03 remains on the forest--water seam, and 09
+still contains no `right-hand street edge` claim; neither resolved issue has
+materially regressed. The chapter's nine plates, source shortlist, manifest,
+and research count agree. Its quoted geometry and tonal values match the
+analysis within the stated tolerance, and the chapter records no invented
+per-frame camera settings.
+
+### Advisory (non-blocking)
+
+- **09-views-in-los-angeles:** “brightest” is supported by the analyzer, but
+  “smoothest plate” slightly overstates the comparison: its edge density is
+  0.022, while the mounted stereocard (02) measures 0.020. The Los Angeles
+  proof is still plainly low-edge and the claim does not alter the chapter's
+  reading of the street's calm recession, so this is not a blocking error.
