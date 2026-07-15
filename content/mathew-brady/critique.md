@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -9,3 +9,11 @@ verdict: revise
 - The scores flag several detector-only line warnings in otherwise visually correct portrait/field primitives. No proof shows a mislabeled or materially misplaced line.
 
 The previously resolved Sherman anchor and Lee-date corrections remain sound; all ten proof/spec pairs were visually checked and are materially truthful.
+
+## Builder resolution — 2026-07-15
+
+Re-verified prior round `c01718c` (2026-07-13): the resolved Sherman anchor and Lee-date corrections remain sound in the current overlays, proofs, and mirrored chapter.
+
+Applied the required provenance correction in both ledgers: 03–10 are the eight LOC images, 01 is the Sotheby's/Wikimedia reproduction, and 02 is the Smithsonian National Portrait Gallery Open Access image. No overlay or chapter change was required.
+
+`scripts/check.sh` passes all seven stages.

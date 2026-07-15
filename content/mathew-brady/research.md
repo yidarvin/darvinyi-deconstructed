@@ -72,13 +72,14 @@ carte-de-visite and cabinet-format portraits and field views (03–10) are
 consistent with the albumen paper — egg-white-bound silver salts on a thin
 paper stock, mounted to card — that had become the standard commercial
 printing surface for Brady's gallery output by the Civil War years.
-Surviving material is split across institutions: nine of the ten images
-(02–10) derive from Library of Congress holdings — the Brady-Handy
-Collection (glass negatives purchased from Levin C. Handy's estate in
-1954, roughly 4,000 original wet-plate negatives from Brady's studios) and
-the separate Civil War Photographs, 1861–1865 collection — served as
-full-resolution master scans; the Perry print is a Smithsonian National
-Portrait Gallery CC0 Open Access scan of the salted-paper original.
+Surviving material is split across institutions: eight images (03–10) derive
+from Library of Congress holdings — the Brady-Handy Collection (glass
+negatives purchased from Levin C. Handy's estate in 1954, roughly 4,000
+original wet-plate negatives from Brady's studios) and the separate Civil
+War Photographs, 1861–1865 collection — served as full-resolution master
+scans; 01 is a Wikimedia Commons reproduction sourced from Sotheby's sale of
+the privately held daguerreotype, and the Perry print (02) is a Smithsonian
+National Portrait Gallery CC0 Open Access scan of the salted-paper original.
 
 ## Camera settings
 
