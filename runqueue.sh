@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # runqueue.sh -- headless build loop for a queue-driven refsite.
 #
-# Walks prompts/queue.md and, for every PENDING row, invokes `claude -p` to build
+# Walks prompts/queue.md and, for every PENDING row, invokes `codex exec` to build
 # the next item (research, write, gate, commit, push), then runs `npm run check` as
-# an independent second gate. It stops the moment anything is off: a nonzero claude
+# an independent second gate. It stops the moment anything is off: a nonzero Codex
 # exit, a hung run past --timeout, a failing check, a working tree the run left
 # dirty, or a run that made no queue progress. That last guard is what keeps an
 # unattended loop from spinning forever on one item, and it is why the loop measures
@@ -20,14 +20,12 @@
 #
 #   -a, --all            run every PENDING item until the queue is drained (default)
 #   -n, --count N        run at most N items, then stop
-#   -m, --model MODEL    model passed to claude    (default: claude-opus-4-8[1m])
-#   -e, --effort LEVEL   claude effort (default: ultracode). One of low|medium|high|
-#                        xhigh|max|ultracode. "ultracode" = xhigh + dynamic workflows
-#                        and needs claude >= 2.1.203 (older builds ignore it).
+#   -m, --model MODEL    model passed to Codex     (default: gpt-5.6-sol)
+#   -e, --effort LEVEL   Codex effort; only high is accepted
 #   -p, --prompt TEXT    per-item prompt           (default below)
 #   -q, --queue PATH     queue file to read        (default: prompts/queue.md)
-#   -s, --settings VAL   path or JSON for claude --settings (default: none)
-#   -t, --timeout SEC    kill a single claude run after SEC seconds (needs `timeout`
+#   -s, --settings VAL   extra Codex -c key=value override (default: none)
+#   -t, --timeout SEC    kill a single Codex run after SEC seconds (needs `timeout`
 #                        or `gtimeout`; default: 0 = no limit)
 #       --no-push        build and commit but do not push (adjusts the default prompt)
 #       --no-check       skip the `npm run check` second gate (not recommended)
@@ -43,9 +41,9 @@
 set -uo pipefail
 
 # --- defaults ---------------------------------------------------------------
-MODEL='claude-opus-4-8[1m]'
-EFFORT='ultracode'   # effort level; ultracode = xhigh + dynamic workflows (claude >= 2.1.203)
-SETTINGS=''          # optional path/JSON for claude --settings (empty = omit)
+MODEL='gpt-5.6-sol'
+EFFORT='high'
+SETTINGS=''          # optional Codex -c key=value override
 QUEUE='prompts/queue.md'
 PROMPT=''            # resolved after parsing so --no-push can adjust the default
 PROMPT_SET=0
@@ -106,18 +104,10 @@ if [ "$PROMPT_SET" -eq 0 ]; then
   if [ "$NO_PUSH" -eq 1 ]; then PROMPT="$DEFAULT_PROMPT_NOPUSH"; else PROMPT="$DEFAULT_PROMPT_PUSH"; fi
 fi
 
-# Validate the effort level up front rather than let claude silently ignore a typo and
-# run every item at the default. "ultracode" (xhigh + automatic dynamic workflows) is a
-# real --effort value, but only on claude >= 2.1.203; on older builds it is ignored and
-# falls back to default effort, so warn instead of failing quietly.
+# Validate the effort level up front rather than let Codex use its default silently.
 case "$EFFORT" in
-  low|medium|high|xhigh|max) ;;
-  ultracode)
-    ccver="$(claude --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)"
-    if [ -n "$ccver" ] && [ "$(printf '%s\n%s\n' 2.1.203 "$ccver" | sort -V | head -1)" != "2.1.203" ]; then
-      printf '\033[33m%s\033[0m\n' "runqueue: claude $ccver predates --effort ultracode (needs >= 2.1.203); it will be ignored and default effort used. Pass -e xhigh for the reasoning half without workflows." >&2
-    fi ;;
-  *) die "invalid --effort '$EFFORT' (valid: low, medium, high, xhigh, max, ultracode)" ;;
+  high) ;;
+  *) die "invalid --effort '$EFFORT' (this pipeline requires high)" ;;
 esac
 
 # --- move to the repo root (this script lives there) ------------------------
@@ -128,7 +118,7 @@ cd "$SCRIPT_DIR" || die "cannot cd to $SCRIPT_DIR"
 [ -f "$QUEUE" ] || die "queue file not found: $QUEUE (run from a refsite repo, or pass --queue)"
 [ -r "$QUEUE" ] || die "queue file is not readable: $QUEUE"
 [ -f content/registry.json ] || printf '\033[33m%s\033[0m\n' "runqueue: warning: content/registry.json not found; is this a refsite repo?" >&2
-command -v claude >/dev/null 2>&1 || die "the 'claude' CLI is not on PATH"
+command -v codex >/dev/null 2>&1 || die "the 'codex' CLI is not on PATH"
 if [ "$RUN_CHECK" -eq 1 ]; then
   command -v npm >/dev/null 2>&1 || die "'npm' is not on PATH (needed for the check gate; pass --no-check to skip)"
 fi
@@ -165,9 +155,10 @@ count_status() {
 count_pending()   { count_status PENDING; }
 count_processed() { echo $(( $(count_status DONE) + $(count_status SKIPPED) )); }
 
-# --- build the claude command ----------------------------------------------
-CLAUDE_ARGS=( -p "$PROMPT" --model "$MODEL" --effort "$EFFORT" --dangerously-skip-permissions )
-[ -n "$SETTINGS" ] && CLAUDE_ARGS+=( --settings "$SETTINGS" )
+# --- build the Codex command -----------------------------------------------
+CODEX_ARGS=( --search --enable multi_agent -m "$MODEL" -c "model_reasoning_effort=\"$EFFORT\"" -C "$SCRIPT_DIR" --dangerously-bypass-approvals-and-sandbox )
+[ -n "$SETTINGS" ] && CODEX_ARGS+=( -c "$SETTINGS" )
+CODEX_ARGS+=( exec --ephemeral "$PROMPT" )
 
 # --- announce the plan ------------------------------------------------------
 pending_now="$(count_pending)"
@@ -179,10 +170,10 @@ printf '  queue:    %s\n' "$QUEUE"
 printf '  items:    %s\n' "$limit_desc"
 printf '  model:    %s\n' "$MODEL"
 printf '  effort:   %s\n' "$EFFORT"
-[ -n "$SETTINGS" ] && printf '  settings: %s\n' "$SETTINGS"
+[ -n "$SETTINGS" ] && printf '  config:   %s\n' "$SETTINGS"
 printf '  timeout:  %s\n' "$([ "$TIMEOUT" -gt 0 ] && echo "${TIMEOUT}s per item (${TIMEOUT_BIN})" || echo 'none')"
 printf '  gate:     %s\n' "$([ "$RUN_CHECK" -eq 1 ] && echo 'npm run check after each item' || echo 'skipped (--no-check)')"
-printf '  command:  claude %s\n' "$(printf '%q ' "${CLAUDE_ARGS[@]}")"
+printf '  command:  codex %s\n' "$(printf '%q ' "${CODEX_ARGS[@]}")"
 
 if [ "$DRY_RUN" -eq 1 ]; then
   printf '\n\033[33m%s\033[0m\n' "dry run: nothing was executed."
@@ -194,18 +185,18 @@ if [ "$pending_now" -eq 0 ]; then
   exit 0
 fi
 
-# An unbounded, permission-skipping run is a big commitment; confirm when a human is
+# An unbounded, trusted full-access run is a big commitment; confirm when a human is
 # watching. Redirected/headless invocations (no TTY) proceed without prompting, which
 # is the whole point of an unattended loop.
 if [ -z "$MAX" ] && [ "$ASSUME_YES" -eq 0 ] && [ -t 0 ]; then
-  printf '\n%s ' "About to run ALL $pending_now item(s) with --dangerously-skip-permissions. Continue? [y/N]"
+  printf '\n%s ' "About to run ALL $pending_now item(s) with trusted full access. Continue? [y/N]"
   read -r reply
   case "$reply" in [Yy]|[Yy][Ee][Ss]) ;; *) echo "aborted."; exit 0 ;; esac
 fi
 
-# --- signal handling and the claude runner ----------------------------------
+# --- signal handling and the Codex runner -----------------------------------
 # Track the child so a Ctrl-C or a `kill` of a detached loop tears down the running
-# claude too, instead of orphaning it to keep committing and pushing on its own.
+# Codex process too, instead of orphaning it to keep committing and pushing.
 CHILD_PID=''
 on_signal() {
   printf '\n\033[33m%s\033[0m\n' "runqueue: interrupted; stopping."
@@ -219,12 +210,12 @@ trap on_signal INT TERM
 
 # Build one item. stdin is detached from /dev/null so no tool can block on or steal
 # input, and the run is backgrounded with a tracked pid (see on_signal). Returns
-# claude's exit status; 124 signals a timeout when --timeout is in effect.
-run_claude() {
+# Codex's exit status; 124 signals a timeout when --timeout is in effect.
+run_codex() {
   if [ "$TIMEOUT" -gt 0 ]; then
-    "$TIMEOUT_BIN" "$TIMEOUT" claude "${CLAUDE_ARGS[@]}" </dev/null &
+    "$TIMEOUT_BIN" "$TIMEOUT" codex "${CODEX_ARGS[@]}" </dev/null &
   else
-    claude "${CLAUDE_ARGS[@]}" </dev/null &
+    codex "${CODEX_ARGS[@]}" </dev/null &
   fi
   CHILD_PID=$!
   wait "$CHILD_PID"
@@ -250,12 +241,12 @@ while :; do
   i=$((i + 1))
   printf '\n\033[1m\033[36m==== item %d  (%s, %s pending) ====\033[0m\n' "$i" "$(date '+%Y-%m-%d %H:%M:%S')" "$pending"
 
-  run_claude; claude_rc=$?
-  if [ "$claude_rc" -ne 0 ]; then
-    if [ "$TIMEOUT" -gt 0 ] && [ "$claude_rc" -eq 124 ]; then
-      printf '\n\033[31m%s\033[0m\n' "claude exceeded the ${TIMEOUT}s timeout on item $i; stopping for review."
+  run_codex; codex_rc=$?
+  if [ "$codex_rc" -ne 0 ]; then
+    if [ "$TIMEOUT" -gt 0 ] && [ "$codex_rc" -eq 124 ]; then
+      printf '\n\033[31m%s\033[0m\n' "Codex exceeded the ${TIMEOUT}s timeout on item $i; stopping for review."
     else
-      printf '\n\033[31m%s\033[0m\n' "claude exited $claude_rc on item $i; stopping for review."
+      printf '\n\033[31m%s\033[0m\n' "Codex exited $codex_rc on item $i; stopping for review."
     fi
     exit 1
   fi

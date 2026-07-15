@@ -1,4 +1,11 @@
-You are the BUILDER. Read CLAUDE.md first and follow the model roles.
+You are the BUILDER. Read AGENTS.md first and follow the model roles.
+
+Use Codex subagents for independent per-photographer research, per-image
+composition review, and adversarial verification. Give each worker a bounded
+objective and require a concise evidence-backed handoff. The lead agent reduces
+their findings, owns all repository writes, runs the deterministic gates, and
+serializes commits and pushes. Workers inherit this invocation's model and High
+effort; do not request or switch models.
 
 0. Resolve critiques: for every content/*/critique.md with `verdict: revise`:
    a. Apply each numbered REQUIRED fix — re-run the composition-analysis loop
@@ -16,16 +23,16 @@ You are the BUILDER. Read CLAUDE.md first and follow the model roles.
    d. Run scripts/check.sh and confirm it passes, then set `verdict: resolved`.
       Commit and push per slug ("resolve critique: <slug>").
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
-   at stage "sourced". Work them one at a time, registry order. Skip any
-   photographer whose raw/<slug>/ contains fewer than 4 image files — they
-   are waiting on NEEDED.md drops; name the skipped slugs in your commit
-   message. For each <slug> you do work:
+   at stage "sourced". Work them one at a time, registry order. A photographer
+   requires its registry `minImages` count, default 4. Skip anyone below that
+   threshold — they are waiting on NEEDED.md drops; name the skipped slugs and
+   their current/required counts in your commit message. For each <slug> you do work:
    a. Read content/<slug>/sources.md. Write content/<slug>/research.md:
       technique, era, printing, and camera settings ONLY where the historical
       record has them (film-era work usually will not — say so, never
       invent).
    b. Ingest raw/<slug>/ into content/<slug>/images/ using
-      .claude/skills/composition-analysis/scripts/ingest.py with
+      .agents/skills/composition-analysis/scripts/ingest.py with
       --manifest content/<slug>/manifest.json.
    c. For every ingested image, run the composition-analysis skill's full
       loop; write specs to content/<slug>/overlays/<id>.json and proofs to

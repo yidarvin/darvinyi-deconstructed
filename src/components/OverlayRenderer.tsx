@@ -2,7 +2,7 @@ import type { CSSProperties } from "react";
 
 // OverlayRenderer --- the site half of the overlay contract. It consumes the exact
 // same normalized-coordinate JSON that the skill's render_overlay.py draws (see
-// .claude/skills/composition-analysis/references/overlay-spec.md) and emits an SVG
+// .agents/skills/composition-analysis/references/overlay-spec.md) and emits an SVG
 // layer sized to the photograph's natural pixel dimensions. Draw it absolutely over
 // an <img> shown at natural aspect ratio (no object-fit crop) and every primitive
 // lands where the analyzer measured it. All coordinates are x in [0,1] left->right,

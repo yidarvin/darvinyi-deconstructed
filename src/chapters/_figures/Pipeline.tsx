@@ -1,6 +1,6 @@
 // Pipeline --- a chapter-specific figure. Inline SVG so it themes with the CSS
 // variables and stays crisp at any width. This one draws the build loop the book
-// is written with: the queue feeds Claude Code, which writes a chapter and updates
+// is written with: the queue feeds OpenAI Codex, which writes a chapter and updates
 // the registry, which the site renders and Vercel deploys.
 export function Pipeline() {
   return (
@@ -8,7 +8,7 @@ export function Pipeline() {
       viewBox="0 0 640 220"
       className="w-full"
       role="img"
-      aria-label="The build pipeline: queue to Claude Code to registry and chapter to deploy."
+      aria-label="The build pipeline: queue to OpenAI Codex to registry and chapter to deploy."
       fill="none"
     >
       <defs>
@@ -38,11 +38,11 @@ export function Pipeline() {
 
       <line x1="128" y1="110" x2="196" y2="110" stroke="var(--comment)" strokeWidth="1.5" markerEnd="url(#arrow)" />
 
-      {/* claude code loop */}
+      {/* Codex agent loop */}
       <g>
         <rect x="200" y="40" width="180" height="140" rx="8" fill="var(--surface)" stroke="var(--accent)" strokeOpacity="0.4" />
         <text x="290" y="62" textAnchor="middle" fontFamily="var(--font-mono)" fontSize="11" fill="var(--accent)">
-          // claude code
+          // openai codex
         </text>
         {["research", "build", "verify", "commit"].map((step, i) => (
           <g key={step}>

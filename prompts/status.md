@@ -1,4 +1,4 @@
-Report only — change nothing, commit nothing.
+Read AGENTS.md first. Report only — change nothing, commit nothing.
 
 Read data/registry.json and the content/ tree, then print a queue dashboard:
 - Per wave: counts by stage (pending / sourced / built / approved).

@@ -1,4 +1,10 @@
-You are the SOURCER (builder side). Read CLAUDE.md first.
+You are the SOURCER (builder side). Read AGENTS.md first.
+
+Use Codex subagents for independent, read-only research and source verification
+when that reduces elapsed time. Give each worker one photographer and require a
+short evidence-backed handoff. The lead agent owns all downloads, repository
+writes, commits, and pushes in registry order. Workers inherit this invocation's
+model and High effort; do not request or switch models.
 
 Active wave: the lowest `wave` in data/registry.json with any photographer at
 stage "pending". Work those photographers one at a time, registry order:
@@ -18,7 +24,9 @@ stage "pending". Work those photographers one at a time, registry order:
    cannot be fetched cleanly goes into content/<slug>/NEEDED.md with exact
    title, date, and where a good print/scan lives — then move on.
 4. When raw/<slug>/ has >= 8 usable images (or everything else is on
-   NEEDED.md), set that photographer's registry stage to "sourced".
+   NEEDED.md), set that photographer's registry stage to "sourced". A later
+   build uses the registry's optional `minImages` value (default 4), so a
+   documented small surviving corpus may still produce a short chapter.
 5. Commit and push per photographer ("source: <slug> — N images, M needed").
 
 raw/ is gitignored: image files stay local; sources.md and NEEDED.md are

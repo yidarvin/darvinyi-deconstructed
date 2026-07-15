@@ -103,7 +103,8 @@
    "images": [],
    "rights": "pd",
    "stage": "sourced",
-   "wave": 2
+   "wave": 2,
+   "minImages": 2
   },
   {
    "slug": "louis-daguerre",
@@ -115,7 +116,8 @@
    "images": [],
    "rights": "pd",
    "stage": "sourced",
-   "wave": 2
+   "wave": 2,
+   "minImages": 3
   },
   {
    "slug": "william-henry-fox-talbot",

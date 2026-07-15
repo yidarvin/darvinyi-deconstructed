@@ -1,8 +1,8 @@
 # darvinyi-refsite-template
 
 A template for **queue-built reference sites**: interactive textbooks and survey
-sites where each chapter (or paper) is researched and built one at a time by Claude
-Code, from a queue, in a consistent house style, and deployed as a static site on
+sites where each chapter (or paper) is researched and built one at a time by OpenAI
+Codex, from a queue, in a consistent house style, and deployed as a static site on
 Vercel.
 
 This is the reusable skeleton. The build *procedure* lives in the companion
@@ -105,12 +105,15 @@ After "Use this template", before the first run:
 
 ## Building chapters
 
-With the `refsite-runner` skill installed at `~/.claude/skills/refsite-runner/`,
-open Claude Code in this repo and say **"run the next one"**. To batch unattended:
+With the `refsite-runner` skill installed at `~/.agents/skills/refsite-runner/`,
+open Codex in this repo and say **"run the next one"**. To batch unattended with
+the legacy queue driver:
 
 ```bash
-claude -p "run the next one" \
-  --model 'claude-opus-4-8[1m]' \
-  --settings '{"ultracode":true}' \
-  --dangerously-skip-permissions
+./runqueue.sh -n 20
 ```
+
+Active pipeline stages use `gpt-5.6-terra` at High effort. The legacy queue
+driver uses `gpt-5.6-sol` at High effort. Use `./run.sh doctor` to verify the
+local Codex setup and `./run.sh --dry-run next` to inspect a stage without
+mutating the repository.

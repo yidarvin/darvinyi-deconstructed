@@ -1,10 +1,13 @@
 # Deconstructed — build contract
 
 ## Model roles
-- All stages run on Sonnet 5 to cut credit spend (set in run.sh via
-  BUILD_MODEL / CRITIC_MODEL). The CRITIC's fresh-eyes independence is now
-  procedural — a separate invocation with the adversarial critique.md prompt —
-  not model diversity. Override per stage with the env vars if needed.
+- All active pipeline stages run on GPT-5.6 Terra at High effort (set in
+  run.sh via BUILD_MODEL / CRITIC_MODEL and EFFORT). The CRITIC's fresh-eyes
+  independence is procedural — a separate ephemeral invocation with the
+  adversarial critique.md prompt — not model diversity. The legacy generic
+  runqueue.sh uses GPT-5.6 Sol at High effort because it previously occupied
+  the higher-capability model role. Override models explicitly only when a
+  run calls for it; keep reasoning effort High.
 - SOURCER / BUILDER / SHIP / STATUS. Prompts: source.md, build.md,
   ship.md, status.md.
 - CRITIC. Prompt: critique.md. Writes ONLY content/<slug>/critique.md
@@ -16,9 +19,10 @@
 ## The queue
 data/registry.json IS the queue. Per photographer: `rights`
 (pd|mixed|copyrighted), `wave` (1-9, PD-first), `stage`
-(pending -> sourced -> built -> approved). A prompt's active wave is the
-lowest wave containing photographers at its input stage. Prompts update
-stages as they complete work; nothing else tracks state.
+(pending -> sourced -> built -> approved), and optional `minImages` (default
+4) for historically small surviving corpora. A prompt's active wave is the
+lowest wave containing photographers at its input stage. Prompts update stages
+as they complete work; nothing else tracks state.
 
 ## Overlays: use the composition-analysis skill. Specs only, never hand-draw SVG.
 Per image: analyze -> draft a spec from suggested_primitives + photographic
@@ -40,7 +44,7 @@ raw/<slug>/ holds source originals and is gitignored.
 ## Rendering
 ONE OverlayRenderer component consumes overlay JSON. The schema and required
 style are the contract in
-.claude/skills/composition-analysis/references/overlay-spec.md — image at
+.agents/skills/composition-analysis/references/overlay-spec.md — image at
 natural aspect, NO object-fit crop, teal #2dd4bf strokes, dashed white grid,
 JetBrains Mono uppercase labels.
 

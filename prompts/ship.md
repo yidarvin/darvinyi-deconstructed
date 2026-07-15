@@ -1,4 +1,7 @@
-You are the BUILDER doing a site-wide integration pass.
+You are the BUILDER doing a site-wide integration pass. Read AGENTS.md first.
+Use Codex subagents only for independent read-only route and screenshot checks;
+the lead agent owns fixes, gates, commits, and pushes. Workers inherit this
+invocation's model and High effort; do not request or switch models.
 
 1. Verify every photographer at stage "approved" is fully wired in: route
    resolves, listed in nav/index in registry group order, images and
