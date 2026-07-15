@@ -59,6 +59,11 @@ For each photographer at stage "built" whose critique.md is missing or marked
 
 6. Write content/<slug>/critique.md:
    - first line `verdict: approve` or `verdict: revise`;
+   - preserve every prior critique and builder-resolution entry verbatim.
+     Update only the first-line verdict, then append a dated `## Critique
+     round` section containing this review's REQUIRED and ADVISORY findings.
+     Never truncate, replace, or summarize away the existing file; it is the
+     regression and anti-oscillation audit trail.
    - `verdict: approve` when NO required issues remain. List any advisories
      under an "Advisory (non-blocking)" heading and approve anyway.
    - `verdict: revise` only when at least one REQUIRED issue remains. Number
