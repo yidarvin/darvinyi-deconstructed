@@ -11,6 +11,7 @@ targets=(
   runqueue.sh
   update.sh
   AGENTS.md
+  .agents
   README.md
   prompts
   src

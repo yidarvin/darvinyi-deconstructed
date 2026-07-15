@@ -1,6 +1,6 @@
 # Batch orchestration — running the loop unattended
 
-## Per-image contract (put this in the repo CLAUDE.md too)
+## Per-image contract (put this in the repo AGENTS.md too)
 
 For each image in the batch queue:
 1. analyze → 2. draft spec (suggested_primitives + judgment) → 3. render →
