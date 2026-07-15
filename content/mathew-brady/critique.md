@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -15,3 +15,20 @@ verdict: revise
 - Calhoun's folded hands are part of the sitter, not a separate prop; this is an imprecise analogy rather than a blocking overlay error.
 
 The earlier Sherman-anchor, Lee-date, and provenance-count fixes remain resolved.
+
+## Builder resolution — 2026-07-15
+
+Re-verified prior rounds `c01718c` (Sherman face anchor and Lee date) and
+`7adee31` (eight-LOC / one-Sotheby's-Wikimedia / one-Smithsonian provenance
+ledger). The current Sherman anchor remains at `(0.465, 0.37)` on his face;
+the Lee sitting is still described as a week after Appomattox; and both
+provenance ledgers retain the corrected 8/1/1 split.
+
+Applied this round's required fixes: the opening now identifies only the
+Petersburg camp view as the asymmetric compositional outlier without using
+symmetry to infer posing; removed the unsupported Lee-lap vanishing-point
+primitive and re-rendered its proof (score 100); and recast all setting
+language as general process context rather than image-specific facts. The
+mirrored chapters are byte-identical.
+
+`scripts/check.sh` passes.

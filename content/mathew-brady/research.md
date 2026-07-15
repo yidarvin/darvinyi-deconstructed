@@ -48,12 +48,11 @@ carrying iodide salts, sensitized in a silver nitrate bath, exposed while
 still wet, and developed within minutes, which meant a darkroom — a fixed
 room in the gallery, or a horse-drawn wagon in the field (image 09 shows
 that field darkroom directly) — had to travel with the camera. The studio
-sittings here (02, 03, 04, 06, 07, 10) were made on a stand camera with the
-sitter held still, often with a head brace out of frame, under a skylight
-or large studio window; the field images (05, 08, 09) apply the same
-wet-plate discipline outdoors, with the camera set back and stopped down
-enough to hold tents, tree trunks, and canvas in even focus alongside the
-figures.
+sittings here (02, 03, 04, 06, 07, 10) and the field images (05, 08, 09)
+apply the same wet-plate discipline in different settings. Stand cameras,
+skylight lighting, head braces, and portable darkrooms are well documented
+parts of the period's practice, but no per-image camera arrangement or
+exposure choice is recorded for this set.
 
 ## Printing
 
@@ -88,14 +87,9 @@ followed it had any per-frame aperture, shutter-speed, or sensitivity log,
 and there was no light meter — exposure was judged by the operator against
 the available light, the plate's freshly mixed sensitivity, and the lens in
 use. What can be said is qualitative and well documented: daguerreotype
-portraiture of the late 1840s (01) required the sitter to hold still,
-typically braced, for several seconds to a half-minute or more under strong
-skylight, which is why Brady-era sitters are so consistently composed and
-squared to the lens rather than caught in motion. Wet-collodion studio
-portraiture of the 1850s–60s (02–04, 06, 07, 10) was faster but still slow
-by later standards, needing a few seconds of stillness under a skylight or
-head brace, and the outdoor field work (05, 08, 09) needed a stopped-down
-lens and several seconds of exposure on a leveled stand camera even in full
-daylight to hold a deep, even field in focus. No specific f-stop, shutter
-speed, or sensitivity value survives for any of the ten images, and none is
-stated here.
+portraiture generally required a sitter to hold still under strong light,
+while wet-collodion studio practice was faster but still depended on
+careful posing. Outdoor wet-plate work likewise required a portable
+darkroom and careful setup, but exposure and lens choices varied with light
+and materials. No specific f-stop, shutter speed, or sensitivity value
+survives for any of the ten images, and none is stated here.

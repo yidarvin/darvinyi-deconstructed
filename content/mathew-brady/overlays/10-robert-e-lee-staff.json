@@ -21,13 +21,7 @@
       "rx": 0.075,
       "ry": 0.10,
       "label": "Robert E. Lee"
-    },
-    {
-      "type": "vanishing_point",
-      "x": 0.471,
-      "y": 0.676,
-      "label": "hands converge at Lee's lap"
     }
   ],
-  "notes": "Lee seated at the apex of a triangle formed by his flanking aides' heads, their resting hands converging back down on him."
+  "notes": "Lee is seated at the apex of a triangle formed by his flanking aides' heads."
 }
