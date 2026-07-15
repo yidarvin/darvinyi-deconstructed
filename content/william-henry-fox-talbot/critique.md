@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -13,3 +13,11 @@ verdict: revise
 - The stacked labels at the left edge of proof 12 are crowded but still legible.
 
 The prior resolved metric-ranking corrections remain sound. All other proof/spec pairs were visually checked; their current overlay claims are materially truthful.
+
+## Builder resolution — 2026-07-15
+
+Re-verified prior round `5efa228` (2026-07-13): the prior metric-ranking corrections remain sound in the current chapter, and the other proof/spec pairs remain materially truthful.
+
+Applied all required fixes. Research now excludes plate 08 from the in-camera calotypes and camera-setting account, identifying it as a direct-contact photogenic drawing. Plate 11 now makes only the measured horizon, balance-axis, and tree-saliency claims; its re-rendered proof scored 100 with a clean visual pass. Plate 12 drops the duplicated, mislabeled arch trace and names only the visibly aligned parapet; its re-rendered proof scored 94 with a clean visual pass (one non-blocking detector-only warning). The chapter is byte-identical with `src/chapters/william-henry-fox-talbot.mdx`.
+
+`scripts/check.sh` passes all seven stages.

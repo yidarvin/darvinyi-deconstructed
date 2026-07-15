@@ -10,11 +10,6 @@
       "label": "bridge parapet line"
     },
     {
-      "type": "polyline",
-      "points": [[0.02, 0.634], [0.10, 0.632], [0.245, 0.630], [0.39, 0.627], [0.545, 0.614], [0.725, 0.611], [0.90, 0.622], [0.99, 0.63]],
-      "label": "repeating arches"
-    },
-    {
       "type": "frame_in_frame",
       "x": 0.433,
       "y": 0.395,
@@ -30,5 +25,5 @@
       "label": "pavilion-roofed house, left bank"
     }
   ],
-  "notes": "The bridge's repeated arches form a steady horizontal band low in the frame, with the cathedral's towers as the single vertical accent against wide open sky and river."
+  "notes": "The bridge parapet forms a steady horizontal band low in the frame, with the cathedral towers as the single vertical accent against open sky and river."
 }
