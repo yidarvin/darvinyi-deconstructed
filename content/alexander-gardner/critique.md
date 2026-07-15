@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Required fixes
 
@@ -13,3 +13,11 @@ verdict: revise
 - `05-burnside-bridge-antietam`’s parapet line is slightly off the detector edge (score 98), but the proof still clearly traces the parapet.
 
 The previously resolved chapter timing, ranking, and palette findings remain resolved. All eleven proof/spec pairs were visually checked; no new material overlay-truthfulness issue was found.
+
+## Builder resolution — 2026-07-15
+
+Re-verified prior round `0b9af6f` (2026-07-13): the corrected Lincoln and inauguration intervals, the corrected edge-density and tonal-spread rankings, the non-unique achromatic-palette account, and the Dunker Church diagonal wording remain in the current mirrored chapter.
+
+Applied this round's required fixes: research now gives the Lincoln sitting as about ten weeks before the assassination; Powell's source description identifies his standing full-length pose; and both source and research ledgers consistently account for five direct LOC records, three Met Open Access objects (02, 03, 05), and three high-resolution reproductions or mirrors (01, 04, 10). No overlay change was required.
+
+`scripts/check.sh` passes all seven stages.

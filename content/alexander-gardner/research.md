@@ -19,8 +19,8 @@ hiring away several of Brady's field operators. He photographed the Antietam
 battlefield in September–October 1862 (images 05–07, 11, made while he was
 still nominally attached to Brady's operation but in the field himself),
 covered the trial, scaffold, and execution of the Lincoln conspirators in
-1865 (02, 08), sat Lincoln for his last formal portrait five weeks before the
-assassination (01), photographed the crowd at the 1865 second inauguration
+1865 (02, 08), sat Lincoln for his last formal portrait about ten weeks before
+the assassination (01), photographed the crowd at the 1865 second inauguration
 (09) and Walt Whitman in his Washington studio (10), and later worked as
 official photographer to the Union Pacific Railroad's Eastern Division before
 returning to studio portraiture, including the 1872 Indian delegation
@@ -57,16 +57,17 @@ then toned, typically with gold chloride, washed, and mounted. The Sketch
 Book plates (many of the images here) were tipped into an album with a
 facing page of text and a credit line naming both the field photographer and
 Gardner as the positive-printer/publisher. Surviving material for this
-chapter is split across institutions: six images are glass-negative or
-period-print holdings of the Library of Congress Prints and Photographs
-Division (the Civil War Glass Negatives collection and the Brady-Handy
-collection), two are Open Access (CC0) albumen prints at the Metropolitan
-Museum of Art, and three are high-resolution scans mirrored on Wikimedia
-Commons from Library of Congress or Beinecke Library (Yale) master
-photographs — including the "cracked plate" original print, which is held by
-the National Portrait Gallery (NPG.81.M1) and shows the diagonal fracture in
-the glass negative that occurred when the emulsion cracked, limiting Gardner
-to the single surviving pull before he discarded the plate.
+chapter is split across institutions: five images are direct Library of
+Congress Prints and Photographs Division records (the Civil War Glass
+Negatives collection and the Brady-Handy collection), three are Open Access
+(CC0) albumen prints at the Metropolitan Museum of Art (02, 03, and 05), and
+three are high-resolution reproductions or mirrors: the National Portrait
+Gallery's "cracked plate" print (01) via Wikimedia Commons, a Beinecke Library
+scan of the Library of Congress-catalogued Red Cloud sitting (04), and a
+Wikimedia Commons mirror of a Library of Congress scan (10). The NPG print
+(NPG.81.M1) shows the diagonal fracture in the glass negative that occurred
+when the emulsion cracked, limiting Gardner to the single surviving pull
+before he discarded the plate.
 
 ## Camera settings
 
