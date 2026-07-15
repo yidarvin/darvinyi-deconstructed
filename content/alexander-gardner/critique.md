@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Required fixes
 
@@ -34,3 +34,11 @@ the inauguration source rationale now describes the visible trees, crowd,
 bayonets, and flag. The mirrored chapters are byte-identical.
 
 `scripts/check.sh` passes.
+
+## Critique round — 2026-07-15
+
+No REQUIRED findings. All eleven proofs were reviewed with their current specs, analyzer outputs, sources, research, and chapter. The resolved corrections remain intact: the detector-only VP claims are explicitly declined for 03 and 07; 04 distinguishes the two portrait framings; 09 names only the structures and figures visible in the supplied plate; and all capture-setting language remains general wet-plate context rather than per-image fact. Scores pass (88–100); the residual 02/08 detector notes and 05 parapet margin do not misstate what the photographs show.
+
+### Advisory (non-blocking)
+
+None new.
