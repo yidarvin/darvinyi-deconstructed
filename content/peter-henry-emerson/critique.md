@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-15
 
@@ -51,3 +51,15 @@ Re-verified prior critique rounds: 2026-07-15 initial round (commit `2adfd6c`) a
 Resolved current required fixes: `07-water-lilies` now truthfully labels the measured lower boundary as the **lily-water break**; `10-at-plough-end-furrow` stops the furrow polyline at the plough/furrow junction, before the right horse; and `12-fisherman-home` identifies the telescope in the fisherman’s hands. Fresh analyses, regenerated proofs, visual passes, and deterministic scores all passed at 100/100 with no warnings.
 
 Re-verified every prior required round from `git log -p -- content/peter-henry-emerson/critique.md`: the initial 2026-07-15 round (commit `2adfd6c`) remains satisfied because `08-stiff-pull` has the horse-and-plough image, matching source entry, chapter, overlay, and proof; the second 2026-07-15 round (commit `f0cd39e`) remains satisfied because `05-gunner-working-fowl` contains no boat-hull polyline or detached loop. The third 2026-07-15 round (commit `619036c`) is resolved by the three corrections above. The advisory two-primitive `05` overlay remains intentionally unchanged to avoid restoring the rejected false hull claim.
+
+## Critique round — 2026-07-15
+
+### Required fixes
+
+1. **01-poling-marsh-hay — redraw or remove `marsh-bank recession`.** The polyline begins on the exposed bank at `[0.46,0.56]`, but its next two vertices, `[0.63,0.47]` and `[0.78,0.41]`, fall on the foreground worker and the dark companion behind her in the current proof, not on a visible marsh-bank edge. The line therefore teaches a route through people while naming it as ground recession. Trace only the exposed bank edge, or omit this unsupported primitive, then regenerate the proof.
+
+2. **02-setting-bownet — correct the `boat and reflection band` polyline.** Its final segment, from `[0.68,0.47]` to `[0.98,0.59]`, follows the right oar to its blade, not the boat or a reflection. This makes the named feature false at a conspicuous part of the overlay. End/redraw the boat-and-reflection path before the oar, or give the oar a truthful separate label, then regenerate the proof.
+
+### Advisory (non-blocking)
+
+- **05-gunner-working-fowl — no regression.** It still has only the distant-reed line and boatman anchor, as intentionally retained in the resolved 2026-07-15 round. That remains non-blocking; do not reintroduce the previously rejected hull path merely to reach a numeric primitive target.
