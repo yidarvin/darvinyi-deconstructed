@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -120,3 +120,14 @@ Re-verified every prior required round in this critique history: the 06 A-frame 
 1. Removed 03's unsupported `NEAR FIGURES STEP FORWARD` polyline and the associated progression claim. The replacement overlay marks only the left worker's cap and one visible siding joint; the chapter and plate caption now describe the figures against the siding's regular vertical cadence without asserting a path between them.
 
 Re-verified every prior required round in this critique history: the 06 A-frame / 07 non-relational central-figure / 09 cap-to-clasped-hands corrections; the unsupported Leica camera-model removal; the 08 doorway-and-chair rectangle removal; the 02 pale-sack-strap, 03 negative-edge, 05 right-hand-picker, and 09 doorway-frame corrections; and the 06 central-support / 10 five-person source-note corrections. Fresh analysis, render, visual pass, and scorer result for 03 are clean (100/100). All ten overlays pass the >=80 gate; the remaining 01, 02, and 10 leading-line warnings are the settled non-blocking findings. `content/ben-shahn/chapter.mdx` and `src/chapters/ben-shahn.mdx` are byte-identical. `scripts/check.sh` passed with the session-injected Codex Git hooks and pushurl overrides temporarily removed from the test-harness environment; those overrides otherwise prevent its disposable fixture from making the intentional baseline commit.
+
+## Critique round — 2026-07-16
+
+### Required
+
+None. Every current overlay was inspected in its rendered proof against the matching spec and analysis. The resolved corrections remain materially intact: 06 marks the two visible A-frame legs without inventing a central support; 07 identifies the seated person without asserting a familial relationship; 08 does not construct a doorway/chair rectangle; 09's path reaches the clasped hands; and 10's source note identifies the five visible people. The chapter's analyzer measurements match the current JSON within tolerance, and the source, research, chapter, and manifest material assert no historical camera settings or unsupported camera model.
+
+### Advisory (non-blocking)
+
+- The established 01, 02, and 10 leading-line scorer warnings remain non-blocking after visual review. Their labels still truthfully identify the gable edge, porch board, and wagon side; there is no material regression to reopen from the prior rounds.
+- 05's right-hand-picker anchor remains on the pictured worker despite the analyzer's alternate subject signal; its 83.3 score is above the gate and this remains the previously settled non-semantic discrepancy.
