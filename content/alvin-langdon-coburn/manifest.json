@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-corner-of-25-mortimer-street.jpg",
+    "width": 1182,
+    "height": 1492,
+    "sha1": "9bf8954d",
+    "source": "01-corner-of-25-mortimer-street.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-h-g-wells.jpg",
+    "width": 1293,
+    "height": 1600,
+    "sha1": "8fb4011e",
+    "source": "02-h-g-wells.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-portrait-of-george-bernard-shaw.jpg",
+    "width": 1275,
+    "height": 1600,
+    "sha1": "ac7c10f9",
+    "source": "03-portrait-of-george-bernard-shaw.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-portrait-of-g-k-chesterton.jpg",
+    "width": 1260,
+    "height": 1536,
+    "sha1": "95eb10c9",
+    "source": "04-portrait-of-g-k-chesterton.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-st-pauls-cathedral.jpg",
+    "width": 834,
+    "height": 1536,
+    "sha1": "b7cdb585",
+    "source": "05-st-pauls-cathedral.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-the-thames.jpg",
+    "width": 1327,
+    "height": 1600,
+    "sha1": "e85602f2",
+    "source": "06-the-thames.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-weirs-close-edinburgh.jpg",
+    "width": 1232,
+    "height": 1536,
+    "sha1": "d0138b94",
+    "source": "07-weirs-close-edinburgh.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-the-bridge-venice.jpg",
+    "width": 1151,
+    "height": 1536,
+    "sha1": "06551081",
+    "source": "08-the-bridge-venice.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-spider-webs.jpg",
+    "width": 992,
+    "height": 1536,
+    "sha1": "f7ebfc80",
+    "source": "09-spider-webs.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-williamsburg-bridge.jpg",
+    "width": 1294,
+    "height": 1600,
+    "sha1": "287fa97a",
+    "source": "10-williamsburg-bridge.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-alfred-stieglitz.jpg",
+    "width": 1492,
+    "height": 1536,
+    "sha1": "cb9b376d",
+    "source": "11-alfred-stieglitz.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-max-weber.jpg",
+    "width": 1078,
+    "height": 1536,
+    "sha1": "28c621a8",
+    "source": "12-max-weber.jpg",
+    "exif": {}
+  }
+]

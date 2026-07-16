@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "image": "11-alfred-stieglitz.jpg",
+  "width": 1492,
+  "height": 1536,
+  "aspect": 0.9714,
+  "tonal": {
+    "mean": 0.5226979485676313,
+    "std": 0.309388508601955,
+    "p05": 0.08627450980392157,
+    "p95": 0.8862745098039215,
+    "edge_density": 0.0012742470447686118
+  },
+  "palette": [
+    "#1f1f1f",
+    "#dcdcdc",
+    "#bebebe",
+    "#a1a1a1",
+    "#6d6d6d"
+  ],
+  "lines": [
+    {
+      "x1": 0.09054325955734406,
+      "y1": 0.724609375,
+      "x2": 0.18712273641851107,
+      "y2": 0.6279296875,
+      "angle_deg": -45.88140399658214,
+      "length": 0.09663108458210257,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.1630859375,
+    "angle_deg": 0.0,
+    "confidence": 0.9137026828735674,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.10362173038229376,
+      0.3974609375
+    ],
+    "regions": [
+      {
+        "cx": 0.20269048622830446,
+        "cy": 0.8275846905270966,
+        "x": 0.06841046277665996,
+        "y": 0.6796875,
+        "w": 0.306841046277666,
+        "h": 0.2734375,
+        "area_frac": 0.022515955105633804
+      },
+      {
+        "cx": 0.10055785610101604,
+        "cy": 0.3967223092136072,
+        "x": 0.05533199195171026,
+        "y": 0.3447265625,
+        "w": 0.08853118712273642,
+        "h": 0.1064453125,
+        "area_frac": 0.007342885437625755
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.924862889181237,
+    "vertical_axis_x": 0.4125,
+    "horizontal": 0.9462094705602146,
+    "horizontal_axis_y": 0.5625
+  },
+  "subject_anchor": {
+    "x": 0.10362173038229376,
+    "y": 0.3974609375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.412,
+      "confidence": 0.92,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.163,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.91,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.104,
+      "y": 0.397,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
