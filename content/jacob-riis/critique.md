@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -17,3 +17,12 @@ verdict: revise
 - **06-mullens-alley:** the `alley floor` contour is subtle rather than a crisp
   edge, but it remains a defensible directional path through the passage and
   does not materially misstate the image.
+
+## Builder resolution — 2026-07-15
+
+Moved plate 05's frame onto the large dark doorway below the stair and aligned
+its notes, caption, and prose. Re-ran analysis, render, visual review, and
+scoring (100/100). The advisory alley contour was left unchanged.
+
+Re-verified required fixes from critique round 2026-07-15 (the complete
+history for this slug); no earlier critique rounds exist.
