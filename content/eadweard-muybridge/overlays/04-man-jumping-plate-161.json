@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-man-jumping-plate-161.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.092, "y": 0.328, "w": 0.824, "h": 0.356, "label": "SEQUENCE FIELD" },
+    { "type": "frame_in_frame", "x": 0.092, "y": 0.328, "w": 0.824, "h": 0.164, "label": "SIDE-VIEW ROW" },
+    { "type": "frame_in_frame", "x": 0.092, "y": 0.508, "w": 0.824, "h": 0.176, "label": "REAR-VIEW ROW" }
+  ],
+  "notes": "Two stacked views organize the jump as complementary sequential phases."
+}

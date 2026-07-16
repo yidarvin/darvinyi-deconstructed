@@ -1,0 +1,34 @@
+[
+  {
+    "file": "01-man-riding-horse-plate-636.jpg",
+    "width": 1600,
+    "height": 1282,
+    "sha1": "a3305a83",
+    "source": "01-man-riding-horse-plate-636.tif",
+    "exif": {}
+  },
+  {
+    "file": "02-woman-with-children-plate-052.jpg",
+    "width": 1600,
+    "height": 1275,
+    "sha1": "c7988a92",
+    "source": "02-woman-with-children-plate-052.tif",
+    "exif": {}
+  },
+  {
+    "file": "03-man-walking-incline-plate-489.jpg",
+    "width": 1600,
+    "height": 1280,
+    "sha1": "d3081836",
+    "source": "03-man-walking-incline-plate-489.tif",
+    "exif": {}
+  },
+  {
+    "file": "04-man-jumping-plate-161.jpg",
+    "width": 1600,
+    "height": 1280,
+    "sha1": "5d047c9a",
+    "source": "04-man-jumping-plate-161.tif",
+    "exif": {}
+  }
+]

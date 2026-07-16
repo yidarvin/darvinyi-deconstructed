@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-man-riding-horse-plate-636.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.205, "y": 0.163, "w": 0.598, "h": 0.617, "label": "SEQUENCE FIELD" },
+    { "type": "leading_line", "points": [[0.205, 0.323], [0.803, 0.323]], "arrow": false, "label": "ROW DIVIDER" },
+    { "type": "leading_line", "points": [[0.205, 0.45365853658536587], [0.803, 0.45365853658536587]], "arrow": false, "label": "ROW DIVIDER" },
+    { "type": "leading_line", "points": [[0.205, 0.628], [0.803, 0.628]], "arrow": false, "label": "ROW DIVIDER" }
+  ],
+  "notes": "Four horizontal bands turn repeated horse-and-rider phases into a measured plate."
+}

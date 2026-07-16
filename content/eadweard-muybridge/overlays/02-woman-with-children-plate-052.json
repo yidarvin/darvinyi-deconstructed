@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-woman-with-children-plate-052.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.181, "y": 0.299, "w": 0.650, "h": 0.417, "label": "SEQUENCE FIELD" },
+    { "type": "frame_in_frame", "x": 0.181, "y": 0.299, "w": 0.650, "h": 0.198, "label": "UPPER SEQUENCE" },
+    { "type": "frame_in_frame", "x": 0.181, "y": 0.510, "w": 0.650, "h": 0.206, "label": "LOWER SEQUENCE" }
+  ],
+  "notes": "The two-row matrix makes a recurring adult-and-children grouping readable as a sequence."
+}

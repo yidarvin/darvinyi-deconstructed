@@ -1,8 +1,8 @@
 # Eadweard Muybridge — sources
 
-Muybridge's 1887 *Animal Locomotion* plates make a single movement legible by distributing it across a measured field of successive exposures. The four original Library of Congress TIFF scans gathered here are deliberately varied: a rider and horse, a woman with children, a man walking up an incline, and a man jumping. Together they show the grid changing from an even sampling device into a different compositional instrument in each subject—lateral progression, a small social grouping, a quantified gait, and an arc of exertion.
+Muybridge's 1887 *Animal Locomotion* plates make a single movement legible by distributing it across a measured field of successive exposures. The four Library of Congress-served TIFF files gathered here are deliberately varied: a rider and horse, a woman with children, a man walking up an incline, and a man jumping. Together they show the grid changing from an even sampling device into a different compositional instrument in each subject: lateral progression, a small social grouping, a quantified gait, and an arc of exertion.
 
-**Rights basis:** Public domain. Muybridge died in 1904 and these plates were published in 1887. Each selected Library of Congress record explicitly says **“No known restrictions on publication.”** The raw files are original 4,096px-wide TIFF masters served by the Library of Congress Prints & Photographs Division, not browser captures or derivative reproductions.
+**Rights basis:** Public domain. Muybridge died in 1904 and these plates were published in 1887. Each selected Library of Congress record explicitly says **“No known restrictions on publication.”** The raw files are 4,096px-wide TIFF/digital files served by the Library of Congress Prints & Photographs Division and cataloged as derived from black-and-white film copy negatives; they are not browser captures.
 
 ## Shortlist
 
@@ -15,7 +15,7 @@ Muybridge's 1887 *Animal Locomotion* plates make a single movement legible by di
 
 ### 02 — *Animal Locomotion*, plate 52: woman with children (1887)
 
-- **Why it matters:** A mother and two children enter and leave a two-row field at different speeds. The sequence makes spacing, hand contact, and the smaller child's delayed movement visible as a shifting three-figure composition rather than a single pose.
+- **Why it matters:** A woman with children occupies a two-row field. The sequence makes spacing and the recurring grouping visible as a shifting multi-figure composition rather than a single pose.
 - **Source:** https://www.loc.gov/item/92502815/
 - **Rights:** Public domain; LOC rights advisory: “No known restrictions on publication.”
 - **File:** `raw/eadweard-muybridge/02-woman-with-children-plate-052.tif` (4096 × 3265px)

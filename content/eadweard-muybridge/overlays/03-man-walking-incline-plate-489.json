@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-man-walking-incline-plate-489.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.230, "y": 0.276, "w": 0.619, "h": 0.497, "label": "SEQUENCE FIELD" },
+    { "type": "leading_line", "points": [[0.230, 0.402], [0.849, 0.402]], "arrow": false, "label": "ROW DIVIDER" },
+    { "type": "leading_line", "points": [[0.230, 0.530], [0.849, 0.530]], "arrow": false, "label": "ROW DIVIDER" },
+    { "type": "leading_line", "points": [[0.230, 0.659], [0.849, 0.659]], "arrow": false, "label": "ROW DIVIDER" }
+  ],
+  "notes": "Four stacked rows convert the walker on an incline into a measured sequence of phases."
+}
