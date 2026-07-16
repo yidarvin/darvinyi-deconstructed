@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-christabel.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.43, "rx": 0.20, "ry": 0.21, "label": "frontal face" },
+    { "type": "polyline", "points": [[0.25,0.63],[0.30,0.50],[0.36,0.31],[0.51,0.21],[0.69,0.30],[0.78,0.50]], "label": "hair's enclosing arc" },
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.02, "w": 0.92, "h": 0.92, "label": "soft portrait field" }
+  ],
+  "notes": "A frontal face floats within a haze of hair and pale background, without an architectural support."
+}

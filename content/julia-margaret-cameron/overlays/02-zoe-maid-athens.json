@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-zoe-maid-athens.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.71, "y": 0.28, "r": 0.04, "label": "floral headpiece" },
+    { "type": "ellipse", "cx": 0.66, "cy": 0.43, "rx": 0.25, "ry": 0.30, "label": "tilted head" },
+    { "type": "frame_in_frame", "x": 0.07, "y": 0.03, "w": 0.86, "h": 0.92, "label": "arched print field" }
+  ],
+  "notes": "The arch contains a face that tilts into softness rather than settling into a sharp likeness."
+}

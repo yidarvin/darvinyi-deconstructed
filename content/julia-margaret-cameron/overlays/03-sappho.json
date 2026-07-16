@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "03-sappho.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.436, "y": 0.570, "r": 0.04, "label": "measured saliency" }
+  ],
+  "notes": "Fallback: phi grid plus the analyzer's measured saliency; the visual profile anchor did not converge with the detector."
+}

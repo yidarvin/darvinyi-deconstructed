@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-julia-jackson.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.57, "y": 0.45, "r": 0.04, "label": "half-lit eye" },
+    { "type": "ellipse", "cx": 0.59, "cy": 0.48, "rx": 0.19, "ry": 0.26, "label": "emerging face" },
+    { "type": "polyline", "points": [[0.61,0.19],[0.77,0.33],[0.88,0.54],[0.93,0.73]], "label": "fall of hair" }
+  ],
+  "notes": "A close face slowly emerges from the dark, with the eye as the hinge between light and shadow."
+}

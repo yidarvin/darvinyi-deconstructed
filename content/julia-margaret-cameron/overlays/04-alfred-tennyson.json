@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-alfred-tennyson.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.47, "cy": 0.34, "rx": 0.19, "ry": 0.17, "label": "profile and beard" },
+    { "type": "ellipse", "cx": 0.67, "cy": 0.60, "rx": 0.12, "ry": 0.09, "label": "clasped hands" },
+    { "type": "frame_in_frame", "x": 0.13, "y": 0.11, "w": 0.72, "h": 0.58, "label": "arched portrait field" }
+  ],
+  "notes": "Tennyson's profile and clasped hands turn a small arched field into a sculptural, monk-like portrait."
+}

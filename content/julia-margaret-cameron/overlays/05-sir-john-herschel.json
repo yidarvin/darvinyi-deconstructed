@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "05-sir-john-herschel.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.459, "y": 0.221, "r": 0.04, "label": "measured saliency" }
+  ],
+  "notes": "Fallback: thirds grid plus the analyzer's measured saliency; the visual eye anchor did not converge with the detector."
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "07-madonna-penserosa.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.586, "y": 0.312, "r": 0.04, "label": "measured saliency" }
+  ],
+  "notes": "Fallback: thirds grid plus the analyzer's measured saliency; the visual mother-gaze anchor did not converge with the detector."
+}

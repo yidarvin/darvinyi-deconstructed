@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-julia-jackson.jpg",
+    "width": 1215,
+    "height": 1600,
+    "sha1": "3c067517",
+    "source": "01-julia-jackson.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-zoe-maid-athens.jpg",
+    "width": 1329,
+    "height": 1600,
+    "sha1": "7bb7da33",
+    "source": "02-zoe-maid-athens.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-sappho.jpg",
+    "width": 1188,
+    "height": 1600,
+    "sha1": "25df9852",
+    "source": "03-sappho.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-alfred-tennyson.jpg",
+    "width": 990,
+    "height": 1600,
+    "sha1": "a3c55bbc",
+    "source": "04-alfred-tennyson.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-sir-john-herschel.jpg",
+    "width": 1243,
+    "height": 1600,
+    "sha1": "7f29b158",
+    "source": "05-sir-john-herschel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-thomas-carlyle.jpg",
+    "width": 1296,
+    "height": 1600,
+    "sha1": "0a8331e5",
+    "source": "06-thomas-carlyle.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-madonna-penserosa.jpg",
+    "width": 1261,
+    "height": 1600,
+    "sha1": "185583f2",
+    "source": "07-madonna-penserosa.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-daughters-jerusalem.jpg",
+    "width": 1600,
+    "height": 1049,
+    "sha1": "f0d1f2d4",
+    "source": "08-daughters-jerusalem.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-christabel.jpg",
+    "width": 1305,
+    "height": 1600,
+    "sha1": "155fd07c",
+    "source": "09-christabel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-beatrice.jpg",
+    "width": 1201,
+    "height": 1600,
+    "sha1": "4ecabc1d",
+    "source": "10-beatrice.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-vivien-merlin.jpg",
+    "width": 1302,
+    "height": 1599,
+    "sha1": "c09a40d6",
+    "source": "11-vivien-merlin.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-passing-arthur.jpg",
+    "width": 1249,
+    "height": 1600,
+    "sha1": "c7da6e67",
+    "source": "12-passing-arthur.jpg",
+    "exif": {}
+  }
+]

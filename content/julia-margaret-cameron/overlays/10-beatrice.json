@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "10-beatrice.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.410, "y": 0.335, "r": 0.04, "label": "measured saliency" }
+  ],
+  "notes": "Fallback: phi grid plus the analyzer's measured saliency; the visual eye anchor did not converge with the detector."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-vivien-merlin.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.45, "y": 0.24, "r": 0.04, "label": "Vivien's face" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.39, "rx": 0.20, "ry": 0.18, "label": "faces in encounter" },
+    { "type": "polyline", "points": [[0.45,0.24],[0.60,0.26]], "label": "locked gazes" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.51, "rx": 0.09, "ry": 0.08, "label": "joined hands" }
+  ],
+  "notes": "Vivien and Merlin meet face to face while the joined hands bind the staged encounter."
+}
