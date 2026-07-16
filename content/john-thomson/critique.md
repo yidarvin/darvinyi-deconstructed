@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -60,3 +60,15 @@ current proof and spec identify two panels and their divider rather than a
 single symmetric group. All current overlays have three primitives, score
 100/100, and the chapter’s checked analyzer values and no-settings claims
 remain within tolerance.
+
+## Builder resolution — 2026-07-15
+
+Rewrote the plate 01 and 04 source-shortlist rationales to match the surviving
+tonal/ridge field and the official's chair-and-portrait setting, respectively.
+
+Re-verified every required fix from both prior 2026-07-15 rounds: (1) plate
+06 still identifies two stereo panels and their central divider, with no
+full-plate symmetry claim in its overlay, proof, caption, or prose; (2) plate
+01 no longer claims a decisive diagonal; and (3) plate 04 no longer claims
+round-arched windows. Plates 01, 04, and 06 each re-score 100/100 with clean
+visual passes.

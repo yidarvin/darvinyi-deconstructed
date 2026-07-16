@@ -2,10 +2,10 @@
 
 All files below are from Wellcome Collection’s open institutional IIIF service at its native `full/full` size. Wellcome labels the first nine Public Domain Mark (PDM) and the final three CC BY 4.0; its records identify them as John Thomson wet-collodion work from his China photographs.
 
-1. **The Great Wall, Badaling** — 1871. The wall and ridge form a decisive diagonal leading line through layered mountain distance. [Wellcome record](https://wellcomecollection.org/works/fjh2q3s4). **Rights:** PDM.
+1. **The Great Wall, Badaling** — 1871. The surviving negative is a faint, damaged tonal field; a broad ridge-like divide is the only defensible scene structure. [Wellcome record](https://wellcomecollection.org/works/fjh2q3s4). **Rights:** PDM.
 2. **Manchu bride** — 1871. A near-frontal head-and-shoulders portrait in which ornament, gaze, and the dark ground concentrate the frame. [Wellcome record](https://wellcomecollection.org/works/mxrj8um9). **Rights:** PDM.
 3. **Manchu lady in a rock garden** — 1869. A solitary vertical figure is naturally framed by irregular rock forms, making figure–ground contrast unusually legible. [Wellcome record](https://wellcomecollection.org/works/k7hyscns). **Rights:** PDM.
-4. **A Mandarin official, Late Qing China** — 1869. The seated figure is ordered by round-arched windows: a direct architectural frame-within-frame study. [Wellcome record](https://wellcomecollection.org/works/jys6mj8d). **Rights:** PDM.
+4. **A Mandarin official, Late Qing China** — 1869. The seated official, chair, and portrait setting create a local internal frame within the glass plate. [Wellcome record](https://wellcomecollection.org/works/jys6mj8d). **Rights:** PDM.
 5. **Three members of the Office of Foreign Affairs, Peking** — 1869. Three sitters, table, and rockery make a compact group-portrait triangle with clear depth layers. [Wellcome record](https://wellcomecollection.org/works/y3huqt4d). **Rights:** PDM (record states unrestricted reuse).
 6. **Two Manchu soldiers with John Thomson (self-portrait), Amoy** — 1871. The wide stereo frame’s lattice grid and Thomson’s edge placement create deliberate asymmetry. [Wellcome record](https://wellcomecollection.org/works/x5s8b7u4). **Rights:** PDM.
 7. **Chinese portrait artist, Hong Kong** — 1869. Artist, easel, table, and studies on the wall create layered “picture within picture” depth. [Wellcome record](https://wellcomecollection.org/works/gfbbybmd). **Rights:** PDM.
