@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-three-chiefs-piegan.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.371, "angle": 0, "label": "PRAIRIE HORIZON" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.576, "r": 0.05, "label": "CENTRAL HORSE" },
+    { "type": "polyline", "points": [[0.37, 0.61], [0.51, 0.54], [0.65, 0.59], [0.76, 0.57]], "label": "MOUNTED RHYTHM" }
+  ],
+  "notes": "A low horizon gives the mounted group a broad, lateral stage."
+}

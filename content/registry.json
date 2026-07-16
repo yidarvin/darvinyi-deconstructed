@@ -228,7 +228,8 @@
       "title": "Gertrude Käsebier",
       "subtitle": "1852–1934",
       "part": "III. Pictorialists & the Art Claim",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-16"
     },
     {
       "num": 25,
@@ -236,7 +237,8 @@
       "title": "Clarence H. White",
       "subtitle": "1871–1925",
       "part": "III. Pictorialists & the Art Claim",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-16"
     },
     {
       "num": 26,
@@ -244,7 +246,7 @@
       "title": "Edward S. Curtis",
       "subtitle": "1868–1952",
       "part": "III. Pictorialists & the Art Claim",
-      "status": "pending"
+      "status": "draft"
     },
     {
       "num": 27,

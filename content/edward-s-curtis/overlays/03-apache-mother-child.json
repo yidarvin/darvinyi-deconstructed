@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-apache-mother-child.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.43, "cy": 0.43, "rx": 0.22, "ry": 0.24, "label": "CRADLEBOARD" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.57, "rx": 0.19, "ry": 0.20, "label": "MOTHER AND CHILD" },
+    { "type": "polyline", "points": [[0.18, 0.15], [0.37, 0.08], [0.55, 0.20], [0.74, 0.42]], "label": "ARCHING HOOP" }
+  ],
+  "notes": "The cradleboard's arch encloses a compact pair against a dark field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-apache-reaper.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.52, "cy": 0.46, "rx": 0.19, "ry": 0.18, "label": "REAPER" },
+    { "type": "leading_line", "points": [[0.131, 0.722], [0.616, 0.83]], "arrow": true, "label": "STUBBLE EDGE" },
+    { "type": "polyline", "points": [[0.32, 0.45], [0.48, 0.50], [0.61, 0.60]], "label": "BENT GESTURE" }
+  ],
+  "notes": "A bent working figure is held between a low crop edge and dark hillside."
+}

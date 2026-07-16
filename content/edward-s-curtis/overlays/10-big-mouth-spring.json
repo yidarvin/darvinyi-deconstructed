@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-big-mouth-spring.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.28, "rx": 0.16, "ry": 0.12, "label": "FACE" },
+    { "type": "polyline", "points": [[0.14, 0.66], [0.32, 0.54], [0.47, 0.82]], "label": "GARMENT MASS" },
+    { "type": "polyline", "points": [[0.61, 0.82], [0.78, 0.75], [0.94, 0.70]], "label": "HANDHELD BRANCH" }
+  ],
+  "notes": "A close portrait is organized by the face, robe mass, and diagonal branch."
+}

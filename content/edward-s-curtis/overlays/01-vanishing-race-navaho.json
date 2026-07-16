@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-vanishing-race-navaho.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.158, "angle": 0, "label": "RIDGE LINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "CANYON AXIS" },
+    { "type": "frame_in_frame", "x": 0.032, "y": 0.045, "w": 0.94, "h": 0.91, "label": "PRINTED FIELD" }
+  ],
+  "notes": "A centered canyon corridor contracts around the receding riders."
+}

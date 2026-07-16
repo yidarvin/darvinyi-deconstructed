@@ -32,8 +32,8 @@ real queue and state live in data/registry.json.
 | 21  | julia-margaret-cameron    | Julia Margaret Cameron    | DONE    |
 | 22  | peter-henry-emerson       | Peter Henry Emerson       | DONE    |
 | 23  | frederick-h-evans         | Frederick H. Evans        | DONE    |
-| 24  | gertrude-kasebier         | Gertrude Käsebier         | PENDING |
-| 25  | clarence-h-white          | Clarence H. White         | PENDING |
+| 24  | gertrude-kasebier         | Gertrude Käsebier         | DONE    |
+| 25  | clarence-h-white          | Clarence H. White         | DONE    |
 | 26  | edward-s-curtis           | Edward S. Curtis          | PENDING |
 | 27  | frances-benjamin-johnston | Frances Benjamin Johnston | PENDING |
 | 28  | alvin-langdon-coburn      | Alvin Langdon Coburn      | PENDING |

@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-vanishing-race-navaho.jpg",
+    "width": 1599,
+    "height": 1295,
+    "sha1": "89f9af70",
+    "source": "01-vanishing-race-navaho.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-three-chiefs-piegan.jpg",
+    "width": 1600,
+    "height": 800,
+    "sha1": "9a34dc6f",
+    "source": "02-three-chiefs-piegan.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-apache-mother-child.jpg",
+    "width": 1307,
+    "height": 1600,
+    "sha1": "c66554bf",
+    "source": "03-apache-mother-child.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-apache-reaper.jpg",
+    "width": 1600,
+    "height": 1279,
+    "sha1": "0dc64e7b",
+    "source": "04-apache-reaper.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-bears-belly.jpg",
+    "width": 1187,
+    "height": 1600,
+    "sha1": "b6b0a816",
+    "source": "05-bears-belly.jpg",
+    "exif": {
+      "Make": "NIKON CORPORATION",
+      "Model": "NIKON D70",
+      "DateTimeOriginal": "2005:09:07 02:55:28",
+      "FocalLength": "48.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "20.0",
+      "ISOSpeedRatings": "320"
+    }
+  },
+  {
+    "file": "06-scout-in-winter.jpg",
+    "width": 1274,
+    "height": 1600,
+    "sha1": "f60cc56f",
+    "source": "06-scout-in-winter.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-dancing-eclipsed-moon.jpg",
+    "width": 1600,
+    "height": 1269,
+    "sha1": "272fcdf0",
+    "source": "07-dancing-eclipsed-moon.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-mandan-girls-gathering-berries.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "626c09a4",
+    "source": "08-mandan-girls-gathering-berries.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-at-waters-edge-piegan.jpg",
+    "width": 1108,
+    "height": 1600,
+    "sha1": "d8ae3fcf",
+    "source": "09-at-waters-edge-piegan.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-big-mouth-spring.jpg",
+    "width": 1198,
+    "height": 1600,
+    "sha1": "f3606988",
+    "source": "10-big-mouth-spring.jpg",
+    "exif": {}
+  }
+]
