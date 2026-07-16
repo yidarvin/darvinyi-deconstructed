@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -9,3 +9,9 @@ verdict: revise
 ### Advisory (non-blocking)
 
 - None.
+
+## Resolution — 2026-07-15
+
+Resolved required fix 1: regenerated `proofs/08-stiff-pull.png` from the current horse-and-plough image and overlay, and corrected the stale towing/boat description in `sources.md` to match the plate, overlay, and chapter.
+
+Re-verified critique history: 2026-07-15 round (commit `2adfd6c`); this is the complete prior critique history for this slug. The regenerated proof, image, overlay, source entry, chapter, and deterministic score (100/100) now agree.
