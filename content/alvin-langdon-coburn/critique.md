@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -116,3 +116,17 @@ Re-verified every Required item from the complete prior critique history: `e67c8
 1. `11-alfred-stieglitz`: replaced the inaccurate illuminated/lit-face language in the overlay note, source note, chapter body, chapter caption, and proof contact-sheet caption. They now identify the dark profile and coat against the pale oval ground; the existing face ellipse remains geometrically aligned.
 
 The affected image received a fresh analysis, render, score, and visual pass; it scored 100/100 with no deductions or warnings. All twelve current overlays also score 100/100 with no deductions or warnings, and their proofs received a fresh visual review. `content/alvin-langdon-coburn/chapter.mdx` and `src/chapters/alvin-langdon-coburn.mdx` remain byte-identical.
+
+## Critique round — 2026-07-16
+
+Reviewed all twelve current proof PNGs against their matching source images, overlay specs, analyzer records, `sources.md`, `research.md`, manifest, and chapter text. Each stored overlay scored 100/100 with no deterministic deductions or warnings. The chapter's numeric claims agree with the current analysis records: Chesterton's 0.008 edge density, St. Paul's 0.82 vertical symmetry, the Thames boat bow at `x0.443, y0.727` and tonal range `p05 0.12` to `p95 0.94`, Williamsburg Bridge's 0.01-to-0.95 tonal range, and Stieglitz's 0.001 edge density. No source or chapter text invents camera settings.
+
+All resolved findings remain settled without material regression: the Mortimer Street mount and photograph frames reach their named edges; the Wells hand, Shaw, Chesterton, St. Paul's, Thames, and Stieglitz annotations make no restored false structural claim; the Venice figure, Spider-Webs rigging/reflection distinction, Williamsburg deck and girders, and Weber three-quarter portrait/near-eye remain truthful.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+No new advisories. The previously recorded small empty-field overshoot at the first point of `03-portrait-of-george-bernard-shaw`'s `HEAD AND BEARD DIAGONAL` remains within the established non-blocking assessment and has not materially regressed.

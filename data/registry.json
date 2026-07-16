@@ -120,7 +120,7 @@
    "minImages": 3
   },
   {
-    "slug": "william-henry-fox-talbot",
+   "slug": "william-henry-fox-talbot",
    "name": "William Henry Fox Talbot",
    "dates": "1800–1877",
    "group": "I. Pioneers & Inventors",
@@ -128,7 +128,7 @@
    "note": "The Pencil of Nature — first commercial photobook.",
    "images": [],
    "rights": "pd",
-    "stage": "approved",
+   "stage": "approved",
    "wave": 2
   },
   {
@@ -156,7 +156,7 @@
    "wave": 2
   },
   {
-    "slug": "hill-adamson",
+   "slug": "hill-adamson",
    "name": "Hill & Adamson",
    "dates": "1843–1848",
    "group": "I. Pioneers & Inventors",
@@ -164,7 +164,7 @@
    "note": "Calotype portrait partnership.",
    "images": [],
    "rights": "pd",
-    "stage": "approved",
+   "stage": "approved",
    "wave": 2
   },
   {
@@ -251,8 +251,8 @@
    "stage": "approved",
    "wave": 3
   },
-    {
-      "slug": "william-henry-jackson",
+  {
+   "slug": "william-henry-jackson",
    "name": "William Henry Jackson",
    "dates": "1843–1942",
    "group": "II. 19th-c. Land, War & Social Document",
@@ -260,7 +260,7 @@
    "note": "Yellowstone survey; helped create the national park.",
    "images": [],
    "rights": "pd",
-      "stage": "approved",
+   "stage": "approved",
    "wave": 3
   },
   {
@@ -275,8 +275,8 @@
    "stage": "approved",
    "wave": 3
   },
-    {
-      "slug": "etienne-jules-marey",
+  {
+   "slug": "etienne-jules-marey",
    "name": "Étienne-Jules Marey",
    "dates": "1830–1904",
    "group": "II. 19th-c. Land, War & Social Document",
@@ -284,7 +284,7 @@
    "note": "Chronophotography; motion on a single plate.",
    "images": [],
    "rights": "pd",
-      "stage": "approved",
+   "stage": "approved",
    "wave": 3
   },
   {
@@ -428,7 +428,7 @@
    "note": "Vortographs — first abstract photographs. Work pre-1930.",
    "images": [],
    "rights": "pd",
-   "stage": "built",
+   "stage": "approved",
    "wave": 4
   },
   {
