@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -49,3 +49,9 @@ Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 0
 
 - The scorer's remaining 94/100 warnings for the leading lines in 01, 02, and 10 remain non-blocking after visual review: they still visibly follow the gable edge, front porch board, and wagon side respectively.
 - The resolved 06 A-frame, 07 central-figure identification, 09 cap-to-clasped-hands path, and source-set camera-history corrections have not regressed. All quoted analyzer measurements match the current analysis JSON within tolerance, and no camera settings or unsupported camera-model claim is asserted.
+
+## Builder resolution — 2026-07-16
+
+1. Removed 08's unsupported `frame_in_frame` rectangle. The revised overlay marks only the mother's face, the mother-and-child contact path, and the visible chair-back edge; it no longer implies that the separate doorway and chair form a single internal frame. The chapter and plate caption now make the same limited claim.
+
+Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 07 non-relational central-figure label, and 09 cap-to-clasped-hands path), critique round 2026-07-16 (source-set camera history), and the current 08 rectangle finding. Fresh analysis/render/score for 08 is 100/100 with a clean visual pass; fresh scorer checks for 06, 07, and 09 remain 100/100. `scripts/check.sh` passed with only the session-injected Git test-harness configuration removed, so its disposable fixture can create its baseline commit; the repository's guard configuration was not changed.
