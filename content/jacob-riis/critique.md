@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -47,3 +47,14 @@ None new. The earlier plate-05 repair remains intact: the frame now encloses
 the large dark doorway below the stair. All twelve current overlays use three
 primitives, score 100/100, and the checked chapter measurements and explicit
 no-settings language remain within tolerance.
+
+## Builder resolution — 2026-07-15
+
+Rewrote the plate 05 source-shortlist rationale to name the steep stair and
+rail, the large dark doorway below it, and the children at the lower wall.
+
+Re-verified every required fix from both prior 2026-07-15 rounds: (1) plate
+05's overlay, proof, caption, and prose still frame the large dark doorway
+below the stair rather than the smaller opening; (2) the shortlist now matches
+that repaired reading. Plate 05 re-scores 100/100 with a clean visual pass;
+the non-blocking plate-06 advisory remains unchanged.
