@@ -3,8 +3,6 @@
   "image": "06-faro-doris-caudill-pie-town.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.634, "angle": -7.0, "label": "FENCE RHYTHM" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.613, "label": "BETWEEN THE COUPLE" },
     { "type": "ellipse", "cx": 0.32, "cy": 0.37, "rx": 0.13, "ry": 0.18, "label": "FARO" },
     { "type": "ellipse", "cx": 0.68, "cy": 0.36, "rx": 0.13, "ry": 0.18, "label": "DORIS" }
   ],

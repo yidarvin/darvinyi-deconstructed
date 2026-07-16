@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -20,3 +20,9 @@ verdict: revise
 - **11-school-farm-bureau-pie-town** — `ROAD INTO THE SCHOOL` is a very broad, low-contrast approach across dirt; tighten it to a visible track or soften the label if the composition is otherwise being revised.
 
 All twelve proofs were visually reviewed against their overlay specs and analyzer JSON. The numerical tonal, palette, and geometry claims were checked; apart from the comparative mean-luminance statement above, they are within the stated tolerance. The chapter and research notes correctly avoid assigning historical camera or exposure settings.
+
+## Builder resolution — 2026-07-16
+
+Re-verified critique history: the only prior round, **2026-07-16**, including every required item. Removed the unsupported symmetry claims from 03, 04, 06, 10, and 12; redrew the guitar neck on the visible neck; replaced the inaccurate lesson-board and schoolroom claims with truthful board, window-band, and figure annotations; redrew the church doorway and the teacher's arm; and corrected the Faro and Doris comparative luminance claim. Chapter text and rendered chapter are byte-identical.
+
+All twelve overlays score 100/100 against their current analysis JSON, the seven revised proofs received a clean visual pass, and `scripts/check.sh` passes.
