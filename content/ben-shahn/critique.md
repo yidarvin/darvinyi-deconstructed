@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -22,3 +22,13 @@ verdict: resolved
 3. Extended 09's cap-to-clasped-hands polyline through the shirtfront to the hands at y=0.89, and aligned the chapter prose with that visible path.
 
 Re-verified prior required fixes: critique round 2026-07-16 (the only recorded round). Fresh analysis/render/score passes for 06, 07, and 09 scored 100/100 with clean visual checks. `scripts/check.sh` passed in a neutral Git-test environment; the session-injected Git hook configuration otherwise blocks the test fixture's initial commit before its assertions run.
+
+## Critique round — 2026-07-16
+
+### Required
+
+1. **Source-set camera history — `sources.md` calls this “Leica-scale social documentary” without record support.** The same unit's `research.md` correctly says the surviving records establish only 35 mm nitrate negatives and do not establish a camera model. Naming Leica nevertheless implies a particular camera association that the local sources explicitly cannot support. Remove the Leica reference or replace it with a claim supported by the documented 35 mm negative format; do not add a camera-model inference.
+
+### Advisory (non-blocking)
+
+- The previously recorded detector warnings for the leading lines in 01, 02, and 10 remain non-blocking: visual review confirms the labels name the gable edge, porch board, and wagon side respectively. No regression from the resolved 06, 07, or 09 findings was observed.
