@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -83,3 +83,16 @@ Reviewed all twelve current proof PNGs, matching source images, overlay specs, a
 ### Advisory (non-blocking)
 
 None new.
+
+## Resolution — 2026-07-16
+
+Re-verified every required fix from prior rounds `e67c836`, `009f7ed`, and `17d9e7d`, as well as the current `9f0a8db` round. The `01` and `03` source descriptions still name the visible interiors and portraits; `09` continues to identify boat rigging and its reflection rather than a literal web; `03` has no false shoulder line; `04` has no false coat/ground line; `08` anchors the standing figure; `10` traces the distant deck and visible foreground girders; `12` remains a three-quarter frontal portrait with its near-eye annotation; and the rights basis correctly counts all twelve manifest files. Each of the twelve current overlays scores 100/100 with no deductions or warnings, and the historical required proofs received a fresh visual pass.
+
+1. `01-corner-of-25-mortimer-street`: extended `MOUNTED PRINT` to the actual dark mount's lower edge and `PHOTOGRAPH AREA` to the inner photograph's lower edge; the rendered nested frames now terminate on the objects they name.
+2. `02-h-g-wells`: removed the false detector-derived `UPPER BORDER` and retraced the visible raised hand without claiming it reaches the forehead.
+3. `05-st-pauls-cathedral`: removed the false gradient-derived roofline; the overlay and chapter now describe the visible dome, spire, and riverside structures only.
+4. `06-the-thames`: removed the false waterline, leaving the visible wharf opening and boat-bow structure.
+5. `11-alfred-stieglitz`: removed the unsupported symmetric coat-shoulder trace; the remaining face, portrait axis, and upper tonal break make no shoulder claim.
+6. `12-max-weber`: removed the false brow/background line; the three-quarter portrait and near-eye annotations remain visually aligned.
+
+`content/alvin-langdon-coburn/chapter.mdx` and `src/chapters/alvin-langdon-coburn.mdx` were confirmed byte-identical. The revised proofs were re-rendered from fresh analyzer records, passed visual review, and scored 100/100 with no deductions or warnings.
