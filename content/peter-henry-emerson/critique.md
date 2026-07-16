@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -63,3 +63,11 @@ Re-verified every prior required round from `git log -p -- content/peter-henry-e
 ### Advisory (non-blocking)
 
 - **05-gunner-working-fowl — no regression.** It still has only the distant-reed line and boatman anchor, as intentionally retained in the resolved 2026-07-15 round. That remains non-blocking; do not reintroduce the previously rejected hull path merely to reach a numeric primitive target.
+
+## Resolution — 2026-07-15
+
+Resolved required fix 1: `01-poling-marsh-hay` no longer claims a continuous marsh-bank recession. Its regenerated proof now uses the measured, visually supported `distant tree horizon` at `y: 0.341`, alongside the dark-tree anchor and foreground-worker ellipse; fresh analysis and scoring returned 100/100 with no warnings.
+
+Resolved required fix 2: `02-setting-bownet` now traces the visible `boat hull / waterline` and stops at the bow before the right oar. The regenerated proof contains no boat/reflection path over the oar; fresh analysis and scoring returned 100/100 with no warnings.
+
+Re-verified every required fix in the full critique history from `git log -p -- content/peter-henry-emerson/critique.md`: the initial 2026-07-15 round (commit `2adfd6c`) remains satisfied by the matching horse-and-plough source entry, image, overlay, chapter, and proof for `08-stiff-pull`; the second round (commit `f0cd39e`) remains satisfied because `05-gunner-working-fowl` has no rejected hull loop; the third round (commit `619036c`) remains satisfied because `07-water-lilies` labels the lily-water break, `10-at-plough-end-furrow` stops before the horse, and `12-fisherman-home` names the telescope in the fisherman’s hands; and the current round (commit `0c5a8f5`) is resolved by the two regenerated proofs above. The `05` advisory remains intentionally unchanged. `scripts/check.sh` passed in full, including chapter byte identity, tests, build, and lint.
