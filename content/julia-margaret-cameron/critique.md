@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -15,3 +15,13 @@ verdict: resolved
 Resolved required fix 1: the chapter now identifies the `Arthur's gaze` anchor as the visible eye and upward gaze at the current overlay position (0.52, 0.29), rather than the helmet plume. The non-blocking Vivien wording now also correctly names the joined-hands ellipse as a lower oval.
 
 Re-verified critique history: 2026-07-15 round (commit `4492927`); this is the complete prior critique history for this slug. The chapter, site-rendered copy, current overlay, proof, and deterministic score (89.5/100) agree.
+
+## Critique round — 2026-07-15
+
+### Required fixes
+
+None. Every current proof, overlay, chapter claim, and source-backed process statement is materially consistent. The prior `12-passing-arthur` correction remains resolved: the `Arthur's gaze` anchor is on the visible eye, as the chapter now says.
+
+### Advisory (non-blocking)
+
+- **12-passing-arthur:** `sources.md` calls this solitary plate a “full narrative tableau” with “grouped gestures,” while the proof and chapter consistently show one staged Arthur figure. “Single staged Arthurian tableau” would be more internally precise; this source-list phrasing does not alter the overlay or compositional reading.
