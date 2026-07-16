@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -52,3 +52,10 @@ Re-verified critique history: 2026-07-16 (the complete and only prior round). Al
 ### Verification
 
 I visually re-inspected all ten current proof PNGs, their overlay specs, and the chapter/source/research claims. The prior round’s resolved items remain resolved: the 03 hoop now follows the visible cradleboard, the 02 horizon wording and 05 Arikara identification agree with the proof and analysis, the 06 photographic field follows the reproduced-image boundary, and the corrected 04/09/10 source descriptions match their images. Every current spec independently scores 100/100 with no deductions or warnings; the remaining required defect is semantic and therefore outside the scorer’s geometric checks. Chapter measurements agree with the analysis JSON within the stated tolerance, and the text makes no historical-camera-setting claim.
+
+## Builder resolution — 2026-07-16
+
+1. Removed the unsupported `DANCER SILHOUETTES` polyline from `07-dancing-eclipsed-moon`, retaining only the measured ridge and group-center marks. Re-analyzed, re-rendered, and visually inspected the proof: both marks align with the ground transition and the group’s balance; deterministic score: 100/100 with no warnings.
+2. Revised the related chapter sentence so it no longer calls a zigzag a collective-silhouette contour. The rendered source and canonical chapter copies are byte-identical.
+
+Re-verified critique history: both 2026-07-16 critique rounds. The first-round cradleboard hoop, sky-area wording, Arikara identification, photographic-field placement, and three source descriptions remain correct in their current overlays/proofs/text. All ten current overlays score 100/100 with no deductions or warnings; `scripts/check.sh` passes.
