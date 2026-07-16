@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -92,3 +92,14 @@ Resolved required fix 1: the `01-poling-marsh-hay` contact-sheet caption now rea
 Resolved required fix 2: `12-fisherman-home` now traces the visible telescope across the fisherman’s lap with `[[0.41,0.60],[0.54,0.595],[0.67,0.585]]`. The proof was regenerated from the current image and spec; fresh analysis, deterministic scoring (100/100 with no warnings), and a visual pass confirm the path is on the telescope rather than the thighs.
 
 Re-verified every required fix from the full `git log -p -- content/peter-henry-emerson/critique.md` history: initial round `2adfd6c` (`08-stiff-pull` image/source/chapter/proof agreement); second round `f0cd39e` (the rejected `05-gunner-working-fowl` hull loop remains absent); third round `619036c` (`07` lily-water label, `10` furrow endpoint, and `12` telescope label); fourth round `0c5a8f5` (`01` no recession path and `02` waterline stops before the oar); and fifth round `50920f9` (the corrected caption and telescope geometry above). All seven affected overlays score 100/100 with no warnings. The two advisory items remain unchanged because neither was required and neither was necessary for a truthful correction.
+
+## Critique round — 2026-07-15
+
+### Required fixes
+
+- None. A fresh-eyes review of all twelve current proof PNGs, their overlay specs, analyzer records, sources, research, and chapter found no misleading feature claim, image/source mismatch, unsupported camera-setting claim, or material numeric disagreement. Each current overlay scores 100/100 with no warnings.
+
+### Advisory (non-blocking)
+
+- **04-cantley-wherries — `sail reflections`.** The ellipse still includes some house and shore reflection alongside the sail reflections. It remains a legible reflection field and is not a material regression.
+- **07-water-lilies — crowded middle annotations.** The lily-belt and lily-water-break paths/labels remain close near left-center, but both truthfully trace their named structures. This remains advisory only.
