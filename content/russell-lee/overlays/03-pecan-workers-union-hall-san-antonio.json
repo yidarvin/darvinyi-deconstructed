@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-pecan-workers-union-hall-san-antonio.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.111, "angle": 0, "label": "UPPER WALL BREAK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "ROOM'S CENTER" },
+    { "type": "polyline", "points": [[0.04, 0.63], [0.29, 0.61], [0.53, 0.61], [0.82, 0.58]], "label": "SEATED RANK" }
+  ],
+  "notes": "The crowded seated rank stretches the union hall into a shared waiting room."
+}

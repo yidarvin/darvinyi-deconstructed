@@ -1,0 +1,133 @@
+[
+  {
+    "file": "01-relief-line-commodities-san-antonio.jpg",
+    "width": 1600,
+    "height": 1121,
+    "sha1": "890ccfed",
+    "source": "01-relief-line-commodities-san-antonio.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "02-mexican-mother-and-children-san-antonio.jpg",
+    "width": 1226,
+    "height": 1600,
+    "sha1": "a7dce5cb",
+    "source": "02-mexican-mother-and-children-san-antonio.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2018:02:14 00:00:00",
+      "ExposureTime": "0.03333333333333333",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "03-pecan-workers-union-hall-san-antonio.jpg",
+    "width": 1600,
+    "height": 1222,
+    "sha1": "92f1fdfe",
+    "source": "03-pecan-workers-union-hall-san-antonio.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2017:12:22 00:00:00",
+      "ExposureTime": "0.03333333333333333",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "04-farmer-brother-making-music-pie-town.jpg",
+    "width": 1600,
+    "height": 1218,
+    "sha1": "cd7fa6e9",
+    "source": "04-farmer-brother-making-music-pie-town.jpg",
+    "exif": {
+      "DateTimeOriginal": "2018:05:09 09:57:57"
+    }
+  },
+  {
+    "file": "05-negro-boys-easter-morning-chicago.jpg",
+    "width": 1600,
+    "height": 1216,
+    "sha1": "93e6a3c5",
+    "source": "05-negro-boys-easter-morning-chicago.jpg",
+    "exif": {
+      "DateTimeOriginal": "2018:08:06 13:21:24"
+    }
+  },
+  {
+    "file": "06-faro-doris-caudill-pie-town.jpg",
+    "width": 1600,
+    "height": 1133,
+    "sha1": "f1d4fb8f",
+    "source": "06-faro-doris-caudill-pie-town.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-schoolchildren-circular-swing-san-augustine.jpg",
+    "width": 1600,
+    "height": 1111,
+    "sha1": "710d3964",
+    "source": "07-schoolchildren-circular-swing-san-augustine.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "08-mother-teaching-children-transylvania.jpg",
+    "width": 1600,
+    "height": 1205,
+    "sha1": "4d6a1423",
+    "source": "08-mother-teaching-children-transylvania.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301506   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "09-schoolroom-san-augustine.jpg",
+    "width": 1600,
+    "height": 1230,
+    "sha1": "8f6a532b",
+    "source": "09-schoolroom-san-augustine.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2018:01:08 00:00:00",
+      "ExposureTime": "0.03333333333333333",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "10-people-leaving-church-pie-town.jpg",
+    "width": 1600,
+    "height": 1238,
+    "sha1": "f3acb1cb",
+    "source": "10-people-leaving-church-pie-town.jpg",
+    "exif": {
+      "DateTimeOriginal": "2018:05:15 09:42:04"
+    }
+  },
+  {
+    "file": "11-school-farm-bureau-pie-town.jpg",
+    "width": 1600,
+    "height": 1131,
+    "sha1": "2ebfaba4",
+    "source": "11-school-farm-bureau-pie-town.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-children-teacher-yakima-camp.jpg",
+    "width": 1229,
+    "height": 1600,
+    "sha1": "0ee7d3be",
+    "source": "12-children-teacher-yakima-camp.jpg",
+    "exif": {
+      "DateTimeOriginal": "2020:03:02 09:53:18"
+    }
+  }
+]

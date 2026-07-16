@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-schoolroom-san-augustine.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.241, "angle": 0, "label": "BLACKBOARD BAND" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.08, "w": 0.28, "h": 0.35, "label": "BLACKBOARD" },
+    { "type": "polyline", "points": [[0.05, 0.63], [0.33, 0.57], [0.58, 0.61], [0.87, 0.67]], "label": "DESK RHYTHM" },
+    { "type": "subject_anchor", "x": 0.647, "y": 0.296, "r": 0.04, "label": "TEACHER" }
+  ],
+  "notes": "The blackboard and repeated desks give the busy classroom a readable institutional rhythm."
+}

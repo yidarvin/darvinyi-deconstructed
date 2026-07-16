@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-mexican-mother-and-children-san-antonio.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.40, "y": 0.06, "w": 0.51, "h": 0.86, "label": "DOORWAY" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.25, "rx": 0.12, "ry": 0.17, "label": "MOTHER" },
+    { "type": "polyline", "points": [[0.50, 0.52], [0.62, 0.45], [0.72, 0.54], [0.79, 0.68]], "label": "CHILDREN'S STACK" }
+  ],
+  "notes": "The doorway compresses a mother and children into a tightly layered domestic frame."
+}

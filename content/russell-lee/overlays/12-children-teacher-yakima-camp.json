@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-children-teacher-yakima-camp.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.75, "angle": 0, "label": "GROUND-TO-FENCE BREAK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PAIRED FIGURES" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.46, "rx": 0.12, "ry": 0.15, "label": "CHILD" },
+    { "type": "polyline", "points": [[0.39, 0.64], [0.46, 0.53], [0.54, 0.46]], "label": "TEACHER'S ARM" }
+  ],
+  "notes": "A teacher's bent arm makes a small, concentrated bridge to the child."
+}
