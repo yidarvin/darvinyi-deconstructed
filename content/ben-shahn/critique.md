@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -82,3 +82,16 @@ Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 0
 4. Removed 09's unsupported doorway frame and its matching prose. The separately verified cap-to-clasped-hands path remains in place.
 
 Re-verified every prior required round in this critique history: the 06 A-frame / 07 non-relational central-figure / 09 extended cap-to-hands corrections; the unsupported Leica camera-model removal; and the 08 doorway-and-chair rectangle removal. Fresh render, visual, and scorer checks are clean for 06, 07, and 08 (100/100 each), while all ten current overlays pass the >=80 gate. `content/ben-shahn/chapter.mdx` and `src/chapters/ben-shahn.mdx` are byte-identical. `scripts/check.sh` passed before resolution.
+
+## Critique round — 2026-07-16
+
+### Required
+
+1. **06-weighing-in-cotton — `SCALE'S CENTRAL SUPPORT` labels a support the mark does not trace.** The vertical `symmetry_axis` at `x=0.500` runs through the open center of the A-frame and the hanging sack; the scale's visible structural members are the two already-marked diagonal legs. There is no vertical central support at that coordinate. The chapter repeats the unsupported feature as the apparatus's “center axis.” Remove this axis or replace it with a mark that follows a visible feature, and revise the corresponding chapter sentence.
+
+2. **10-cotton-pickers-close-of-day — `sources.md` gives the wrong figure count and arrangement.** Its shortlist says “Four figures on the road form a receding, uneven procession,” but the supplied image visibly has five people clustered on and around the wagon: the standing man at left, the raised-cloth figure, the central seated man, the nearer back-facing man, and the woman at right. Correct this source-note description so it does not misidentify the photograph's visible subject count or staging.
+
+### Advisory (non-blocking)
+
+- The settled 2026-07-16 scorer warnings for 01, 02, and 10 remain non-blocking: the current proofs still visibly identify the gable edge, front porch board, and wagon side, with no material regression. They are not reopened as required findings.
+- The chapter's analyzer measurements match the current analysis JSON within tolerance, and the historical prose asserts no invented camera settings or camera model.
