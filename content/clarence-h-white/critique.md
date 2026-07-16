@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -28,3 +28,22 @@ All other proofs and chapter claims reviewed in this round are materially truthf
 - Corrected the `01-ring-toss` and `08-the-kiss` source descriptions to their interior scenes.
 - Re-verified all required fixes from critique round 2026-07-16 (commit `ae28bce`): this is the full critique history for the slug. Advisory items were left unchanged because the required corrections were complete without a regression.
 - `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-16
+
+### Required
+
+No required issues remain. The resolved `01-ring-toss`, `02-girl-with-harp`,
+`07-maine-marshes`, `09-morning-bathroom`, and source-description corrections
+all remain materially truthful in the current proofs, specs, chapter, and
+source trail. All twelve current proofs were visually checked; the chapter's
+numeric claims remain within tolerance and it invents no historical camera
+settings.
+
+### Advisory (non-blocking)
+
+- The existing `research.md` statement that the normalized-file manifest has
+  empty EXIF entries remains a non-blocking metadata caveat: eleven manifest
+  entries contain digitization metadata, including scan ISO/exposure for
+  `02-girl-with-harp`. This is not presented as historical capture data and
+  does not affect the chapter's correct no-invented-settings conclusion.
