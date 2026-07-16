@@ -27,7 +27,7 @@ legacy_effort="ultra""code"
 legacy_env="CLAU""DE_CODE_"
 pattern="\\b(${legacy_cli}|${legacy_vendor}|${legacy_models}|${legacy_effort})\\b|\\.${legacy_cli}|${legacy_env}"
 
-if rg -n -i -e "$pattern" "${targets[@]}"; then
+if grep -R -n -i -E "$pattern" "${targets[@]}"; then
   echo "LEGACY RUNTIME SCAN FAILED" >&2
   exit 1
 fi

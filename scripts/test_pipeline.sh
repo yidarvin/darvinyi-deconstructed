@@ -15,12 +15,12 @@ trap 'rm -rf "$tmp"' EXIT
 
 assert_contains() {
   local text="$1" pattern="$2" message="$3"
-  printf '%s\n' "$text" | rg -q -- "$pattern" || fail "$message"
+  printf '%s\n' "$text" | grep -E -q -- "$pattern" || fail "$message"
 }
 
 assert_not_contains() {
   local text="$1" pattern="$2" message="$3"
-  if printf '%s\n' "$text" | rg -q -- "$pattern"; then
+  if printf '%s\n' "$text" | grep -E -q -- "$pattern"; then
     fail "$message"
   fi
 }
@@ -32,7 +32,7 @@ done
 
 # A recovery that verifies a transient failure must be able to clear its stale
 # marker without inventing a repository mutation.
-rg -Fq 'if [ "$before" = "$after" ] && [ "$stage" != "recover" ]; then' run.sh \
+grep -Fq 'if [ "$before" = "$after" ] && [ "$stage" != "recover" ]; then' run.sh \
   || fail "verified no-op recovery would be rejected as zero progress"
 
 service_plan="$(scripts/pipeline-service.sh --dry-run install)"
@@ -41,7 +41,7 @@ assert_contains "$service_plan" '/scripts/pipeline-supervisor\.sh' \
 assert_not_contains "$service_plan" '/tmp/.*pipeline-supervisor' \
   "launchd must not depend on a reboot-volatile /tmp supervisor"
 assert_contains "$service_plan" '/codex' "launchd plan must pin the Codex executable"
-rg -q 'bootstrap_service' scripts/pipeline-service.sh || fail "service controller lacks bounded bootstrap retry"
+grep -q 'bootstrap_service' scripts/pipeline-service.sh || fail "service controller lacks bounded bootstrap retry"
 
 help="$(./run.sh help)"
 for command in start stop service-status daemon; do
@@ -60,10 +60,15 @@ assert_contains "$queue_dry" 'model_reasoning_effort=.*high' "runqueue must use 
 
 python3 scripts/validate_pipeline.py
 
-rg -q 'Select exactly one' prompts/source.md || fail "source prompt is not one-unit-per-call"
-rg -q 'Select exactly one' prompts/build.md || fail "build prompt is not one-unit-per-call"
-rg -q 'Select exactly one' prompts/critique.md || fail "critique prompt is not one-unit-per-call"
-rg -q 'default 4' prompts/source.md || fail "source prompt does not honor default minImages=4"
+grep -q 'Select exactly one' prompts/source.md || fail "source prompt is not one-unit-per-call"
+grep -q 'Select exactly one' prompts/build.md || fail "build prompt is not one-unit-per-call"
+grep -q 'Select exactly one' prompts/critique.md || fail "critique prompt is not one-unit-per-call"
+grep -q 'default 4' prompts/source.md || fail "source prompt does not honor default minImages=4"
+
+# launchd supplies only the system path. The full project gate must not depend
+# on Codex's bundled ripgrep binary being present there.
+PATH=/usr/bin:/bin bash scripts/check_no_legacy_runtime.sh \
+  || fail "legacy runtime scan requires a non-system search utility"
 
 mkdir -p "$tmp/runtime"
 
