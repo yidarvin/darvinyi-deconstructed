@@ -22,13 +22,13 @@ real queue and state live in data/registry.json.
 | 11  | alexander-gardner         | Alexander Gardner         | DONE    |
 | 12  | timothy-osullivan         | Timothy O'Sullivan        | DONE    |
 | 13  | carleton-watkins          | Carleton Watkins          | DONE    |
-| 14  | william-henry-jackson     | William Henry Jackson     | PENDING |
-| 15  | eadweard-muybridge        | Eadweard Muybridge        | PENDING |
-| 16  | etienne-jules-marey       | Étienne-Jules Marey       | PENDING |
-| 17  | felice-beato              | Felice Beato              | PENDING |
-| 18  | john-thomson              | John Thomson              | PENDING |
-| 19  | jacob-riis                | Jacob Riis                | PENDING |
-| 20  | lewis-hine                | Lewis Hine                | PENDING |
+| 14  | william-henry-jackson     | William Henry Jackson     | DONE    |
+| 15  | eadweard-muybridge        | Eadweard Muybridge        | DONE    |
+| 16  | etienne-jules-marey       | Étienne-Jules Marey       | DONE    |
+| 17  | felice-beato              | Felice Beato              | DONE    |
+| 18  | john-thomson              | John Thomson              | DONE    |
+| 19  | jacob-riis                | Jacob Riis                | DONE    |
+| 20  | lewis-hine                | Lewis Hine                | DONE    |
 | 21  | julia-margaret-cameron    | Julia Margaret Cameron    | PENDING |
 | 22  | peter-henry-emerson       | Peter Henry Emerson       | PENDING |
 | 23  | frederick-h-evans         | Frederick H. Evans        | PENDING |

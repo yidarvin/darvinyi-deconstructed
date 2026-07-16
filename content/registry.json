@@ -138,7 +138,8 @@
       "title": "William Henry Jackson",
       "subtitle": "1843–1942",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 15,
@@ -146,7 +147,8 @@
       "title": "Eadweard Muybridge",
       "subtitle": "1830–1904",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 16,
@@ -154,7 +156,8 @@
       "title": "Étienne-Jules Marey",
       "subtitle": "1830–1904",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 17,
@@ -162,7 +165,8 @@
       "title": "Felice Beato",
       "subtitle": "1832–1909",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 18,
@@ -170,7 +174,8 @@
       "title": "John Thomson",
       "subtitle": "1837–1921",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 19,
@@ -178,7 +183,8 @@
       "title": "Jacob Riis",
       "subtitle": "1849–1914",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 20,
@@ -186,7 +192,8 @@
       "title": "Lewis Hine",
       "subtitle": "1874–1940",
       "part": "II. 19th-c. Land, War & Social Document",
-      "status": "draft"
+      "status": "done",
+      "approvedAt": "2026-07-15"
     },
     {
       "num": 21,
@@ -202,7 +209,7 @@
       "title": "Peter Henry Emerson",
       "subtitle": "1856–1936",
       "part": "III. Pictorialists & the Art Claim",
-      "status": "pending"
+      "status": "draft"
     },
     {
       "num": 23,
