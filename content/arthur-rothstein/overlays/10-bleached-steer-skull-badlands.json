@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-bleached-steer-skull-badlands.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.420, "cy": 0.550, "rx": 0.135, "ry": 0.145, "label": "steer skull" },
+    { "type": "polyline", "points": [[0.49,0.51],[0.61,0.47],[0.74,0.43],[0.86,0.40]], "label": "cast shadow" },
+    { "type": "ellipse", "cx": 0.672, "cy": 0.545, "rx": 0.210, "ry": 0.165, "label": "cracked earth" }
+  ],
+  "notes": "The skull and its long shadow make the cracked ground read as a deliberately staged field."
+}

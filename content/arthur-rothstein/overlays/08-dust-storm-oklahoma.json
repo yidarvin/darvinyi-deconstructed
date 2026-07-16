@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-dust-storm-oklahoma.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.678, "angle": 0, "label": "vanishing field" },
+    { "type": "ellipse", "cx": 0.493, "cy": 0.610, "rx": 0.035, "ry": 0.115, "label": "isolated post" },
+    { "type": "polyline", "points": [[0.29,0.73],[0.43,0.66],[0.56,0.63],[0.70,0.61],[0.84,0.62]], "label": "fence into haze" }
+  ],
+  "notes": "One upright post gives a nearly erased field a human measure."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-dust-storm-boise-city.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.556, "angle": 0, "label": "dust-level horizon" },
+    { "type": "frame_in_frame", "x": 0.210, "y": 0.470, "w": 0.300, "h": 0.245, "label": "main street building" },
+    { "type": "polyline", "points": [[0.00,0.72],[0.28,0.69],[0.54,0.68],[0.77,0.70],[1.00,0.72]], "label": "empty street plane" }
+  ],
+  "notes": "The largest building becomes a small upright interruption in an expanse of dust and sky."
+}

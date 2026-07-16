@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-farmer-and-sons-in-dust-storm.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.573, "angle": 0, "label": "wind-scoured horizon" },
+    { "type": "ellipse", "cx": 0.687, "cy": 0.505, "rx": 0.035, "ry": 0.115, "label": "windmill" },
+    { "type": "polyline", "points": [[0.41,0.62],[0.54,0.59],[0.70,0.60],[0.86,0.57]], "label": "farmstead silhouette" }
+  ],
+  "notes": "A nearly empty sky makes the low, weather-beaten farmstead carry the frame."
+}

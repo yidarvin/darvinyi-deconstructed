@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-gees-bend-negro-alabama.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.557, "cy": 0.570, "rx": 0.090, "ry": 0.165, "label": "sitter" },
+    { "type": "polyline", "points": [[0.11,0.69],[0.28,0.68],[0.48,0.68],[0.69,0.68],[0.90,0.69]], "label": "fence rhythm" },
+    { "type": "frame_in_frame", "x": 0.145, "y": 0.175, "w": 0.720, "h": 0.465, "label": "porch facade" }
+  ],
+  "notes": "Fence boards and the porch form a layered enclosure around the sitter's direct presence."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-the-plow-that-broke-the-plains.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.458, "angle": 0, "label": "bare field edge" },
+    { "type": "ellipse", "cx": 0.514, "cy": 0.610, "rx": 0.300, "ry": 0.175, "label": "abandoned plow" },
+    { "type": "polyline", "points": [[0.23,0.74],[0.44,0.61],[0.57,0.51],[0.70,0.41]], "label": "plow beam" }
+  ],
+  "notes": "The diagonal implement turns a wide, bare field into a compact foreground argument."
+}

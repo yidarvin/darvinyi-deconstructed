@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-sand-dunes-in-orchard.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.650, "angle": 0, "label": "orchard horizon" },
+    { "type": "polyline", "points": [[0.02,0.76],[0.21,0.67],[0.39,0.63],[0.54,0.65]], "label": "dune ridge" },
+    { "type": "ellipse", "cx": 0.515, "cy": 0.643, "rx": 0.092, "ry": 0.055, "label": "low shed" }
+  ],
+  "notes": "A low dune crosses the orchard, with the shed nearly absorbed into the rise."
+}

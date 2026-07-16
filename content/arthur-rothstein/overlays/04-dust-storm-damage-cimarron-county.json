@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-dust-storm-damage-cimarron-county.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.467, "angle": 0, "label": "dune crest" },
+    { "type": "frame_in_frame", "x": 0.240, "y": 0.455, "w": 0.370, "h": 0.160, "label": "half-buried house" },
+    { "type": "polyline", "points": [[0.06,0.72],[0.25,0.67],[0.48,0.63],[0.69,0.61],[0.90,0.63]], "label": "wind-shaped drift" }
+  ],
+  "notes": "The house is held at the dune crest while the foreground drift rises across it."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-dust-storm-amarillo.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.623, "angle": 0, "label": "street plane" },
+    { "type": "polyline", "points": [[0.50,0.00],[0.50,0.24],[0.50,0.53],[0.50,1.00]], "label": "foreground lamp post" },
+    { "type": "ellipse", "cx": 0.474, "cy": 0.620, "rx": 0.028, "ry": 0.055, "label": "running figure" }
+  ],
+  "notes": "A central lamp post divides the blurred street, while the small moving figure gives its scale."
+}

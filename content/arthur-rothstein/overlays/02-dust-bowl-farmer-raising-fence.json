@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-dust-bowl-farmer-raising-fence.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.514, "angle": 0, "label": "buried fence line" },
+    { "type": "ellipse", "cx": 0.300, "cy": 0.606, "rx": 0.080, "ry": 0.175, "label": "farmer" },
+    { "type": "polyline", "points": [[0.06,0.62],[0.17,0.60],[0.31,0.57],[0.46,0.55],[0.61,0.53]], "label": "receding posts" }
+  ],
+  "notes": "The man and the shrinking run of fence posts set human labor against the blank field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-plowing-macon-county.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.715, "cy": 0.610, "rx": 0.120, "ry": 0.115, "label": "mule and plowman" },
+    { "type": "frame_in_frame", "x": 0.365, "y": 0.355, "w": 0.250, "h": 0.170, "label": "farmhouse" },
+    { "type": "polyline", "points": [[0.01,0.78],[0.22,0.72],[0.43,0.68],[0.63,0.63],[0.79,0.59]], "label": "plowed slope" }
+  ],
+  "notes": "The worked slope carries the eye from the farmhouse to the mule and plowman."
+}
