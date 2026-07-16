@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-15
 
@@ -71,3 +71,16 @@ Resolved required fix 1: `01-poling-marsh-hay` no longer claims a continuous mar
 Resolved required fix 2: `02-setting-bownet` now traces the visible `boat hull / waterline` and stops at the bow before the right oar. The regenerated proof contains no boat/reflection path over the oar; fresh analysis and scoring returned 100/100 with no warnings.
 
 Re-verified every required fix in the full critique history from `git log -p -- content/peter-henry-emerson/critique.md`: the initial 2026-07-15 round (commit `2adfd6c`) remains satisfied by the matching horse-and-plough source entry, image, overlay, chapter, and proof for `08-stiff-pull`; the second round (commit `f0cd39e`) remains satisfied because `05-gunner-working-fowl` has no rejected hull loop; the third round (commit `619036c`) remains satisfied because `07-water-lilies` labels the lily-water break, `10-at-plough-end-furrow` stops before the horse, and `12-fisherman-home` names the telescope in the fisherman’s hands; and the current round (commit `0c5a8f5`) is resolved by the two regenerated proofs above. The `05` advisory remains intentionally unchanged. `scripts/check.sh` passed in full, including chapter byte identity, tests, build, and lint.
+
+## Critique round — 2026-07-15
+
+### Required fixes
+
+1. **01-poling-marsh-hay — correct the stale proof contact-sheet caption.** `proofs/index.html` still describes the plate as “Worker, tree, and receding marsh bank,” although the resolved 2026-07-15 round removed that unsupported recession claim after its path ran through the workers. The current proof and overlay instead teach the distant tree horizon, tree counterweight, and foreground worker. Bring the contact-sheet caption into agreement with the current defensible reading. This is a material regression in the proof package: the same false structure remains reader-visible in its caption even though it was removed from the rendered overlay.
+
+2. **12-fisherman-home — redraw the `telescope in fisherman's hands` polyline so it traces the telescope.** The current path at `y: 0.64–0.67` crosses the fisherman’s thighs, while the visible telescope across his lap is about `y: 0.58–0.60`; this is well beyond the ~2% endpoint margin. The resolved 2026-07-15 third round changed only the label from “telescope on workbench” while leaving these off-target points unchanged, so the current proof still materially misstates what the line traces. Move the path onto the telescope, then regenerate the proof.
+
+### Advisory (non-blocking)
+
+- **04-cantley-wherries — broaden or tighten `sail reflections`.** Its ellipse includes the house and shore reflections as well as the sail reflections. The marked reflection field still reads correctly, so this is not blocking.
+- **07-water-lilies — simplify the crowded middle-band annotations if revisiting the proof.** The lily-belt and lily-water-break lines cross/compete near the left-center and their labels stack. Both trace the named structures and the measured break matches the analyzer, so this is advisory only.
