@@ -88,8 +88,8 @@ def approved_date(slug: str) -> str | None:
         text=True,
         check=False,
     )
-    date = result.stdout.strip()
-    return date or None
+    approved_on = result.stdout.strip()
+    return approved_on or None
 
 
 def build_chapters(data: dict) -> list[dict]:

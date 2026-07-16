@@ -102,6 +102,34 @@ assert_contains "$queue_dry" 'model_reasoning_effort=.*high' "runqueue must use 
 
 python3 scripts/validate_pipeline.py
 
+# Parent-owned commits mean an approving critique is deliberately dirty while
+# set_stage regenerates the derived site registry. That path must stamp today's
+# approval date without shadowing datetime.date.
+PIPELINE_TEST_TMP="$tmp" python3 - <<'PY'
+from datetime import date
+import importlib.util
+import os
+from pathlib import Path
+import subprocess
+
+root = Path(os.environ["PIPELINE_TEST_TMP"]) / "dirty-approval"
+(root / "content/example").mkdir(parents=True)
+critique = root / "content/example/critique.md"
+critique.write_text("verdict: resolved\n", encoding="utf-8")
+subprocess.run(["/usr/bin/git", "init", "-q", str(root)], check=True)
+subprocess.run(["/usr/bin/git", "-C", str(root), "config", "user.name", "pipeline-test"], check=True)
+subprocess.run(["/usr/bin/git", "-C", str(root), "config", "user.email", "pipeline@example.invalid"], check=True)
+subprocess.run(["/usr/bin/git", "-C", str(root), "add", "."], check=True)
+subprocess.run(["/usr/bin/git", "-C", str(root), "commit", "-q", "-m", "baseline"], check=True)
+critique.write_text("verdict: approve\n", encoding="utf-8")
+
+spec = importlib.util.spec_from_file_location("gen_site_registry", "scripts/gen_site_registry.py")
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+module.REPO = str(root)
+assert module.approved_date("example") == date.today().isoformat()
+PY
+
 # Exact-unit selection is a data boundary, not a prompt preference. Given a
 # selected Coburn critique resolution, advancing Rothstein must be rejected even
 # if the resulting registry is globally valid.
