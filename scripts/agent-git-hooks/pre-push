@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "pipeline transaction: publish is blocked until exact-unit validation passes" >&2
+exit 1

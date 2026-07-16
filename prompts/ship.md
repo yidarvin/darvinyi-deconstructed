@@ -1,6 +1,7 @@
 You are the BUILDER doing a site-wide integration pass. Read AGENTS.md first.
 Use Codex subagents only for independent read-only route and screenshot checks;
-the lead agent owns fixes, gates, commits, and pushes. Workers inherit this
+the lead agent owns fixes and gates. The parent runner owns the validated transaction
+commit and push. Workers inherit this
 invocation's model and High effort; do not request or switch models.
 
 1. Verify every photographer at stage "approved" is fully wired in: route
@@ -12,6 +13,6 @@ invocation's model and High effort; do not request or switch models.
    regressions).
 4. Update the home/index page: progress (approved count / 100), newest
    chapters.
-5. Commit and push ("ship: integration pass — N chapters live").
+5. Leave the integration changes uncommitted for the parent runner, then stop.
 6. Stop after this one wave integration pass. The driver records the shipped
    marker only after the independent post-stage gates pass.

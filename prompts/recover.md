@@ -11,13 +11,14 @@ stage. There is no human review or asset handoff.
    build, critique, or ship unit, complete that same unit and its deterministic
    gates. If primary and derived queue files drifted, regenerate them with
    `python3 scripts/gen_site_registry.py`. If a local commit merely failed to
-   push, push it. If no repository repair is needed because the failure was
-   transient, verify the tree and stop without inventing changes.
+   push, leave it local for the parent runner. If no repository repair is needed
+   because the failure was transient, verify the tree and stop without inventing
+   changes.
 4. State changes must use `python3 scripts/set_stage.py`; never hand-edit a
    registry stage. Run `scripts/check.sh` and
-   `python3 scripts/validate_pipeline.py` before committing.
-5. Commit and push only concrete recovery changes, using
-   `recover: <slug-or-stage>`. Keep the work to one interrupted unit.
+   `python3 scripts/validate_pipeline.py` before returning.
+5. Leave concrete recovery changes uncommitted. The parent runner validates the
+   originally selected unit, commits, and pushes. Keep the work to that unit.
 
-Before finishing, verify the working tree is clean, local commits are pushed,
-and the next queue decision is safe to retry. Do not ask a person to intervene.
+Before finishing, verify the deterministic gates pass and leave the repaired
+worktree for the parent transaction gate. Do not ask a person to intervene.

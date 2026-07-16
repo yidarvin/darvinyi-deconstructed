@@ -62,12 +62,111 @@ dry="$(PIPELINE_RUNTIME_DIR="$dry_runtime" ./run.sh --dry-run next)"
 [ ! -e "$dry_runtime" ] || fail "run.sh dry-run created runtime state"
 assert_contains "$dry" 'gpt-5\.6-terra' "active stages must use Terra"
 assert_contains "$dry" 'model_reasoning_effort=.*high' "active stages must use High effort"
+assert_contains "$dry" 'BINDING WORK UNIT' "next does not bind Codex to the selected atomic unit"
+decision="$(./run.sh decision)"
+[ "$(printf '%s\n' "$decision" | awk '{print $4}')" != "::" ] \
+  || fail "queue decision does not expose an exact work-unit identifier"
+grep -Fq 'scripts/work_unit.py validate' run.sh \
+  || fail "runner does not enforce the exact-unit postcondition"
+grep -Fq 'remote.origin.pushurl' run.sh \
+  || fail "Codex child can publish before exact-unit validation"
+
+# The child Git transaction controls are behavioral: a normal commit works in
+# the fixture, while the Codex-only hooks reject a commit and the injected
+# pushurl prevents publishing to the real configured remote.
+/usr/bin/git init -q "$tmp/agent-git"
+/usr/bin/git -C "$tmp/agent-git" config user.name pipeline-test
+/usr/bin/git -C "$tmp/agent-git" config user.email pipeline@example.invalid
+printf 'one\n' > "$tmp/agent-git/file.txt"
+/usr/bin/git -C "$tmp/agent-git" add file.txt
+/usr/bin/git -C "$tmp/agent-git" commit -q -m initial
+set +e
+GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=core.hooksPath \
+  GIT_CONFIG_VALUE_0="$ROOT/scripts/agent-git-hooks" \
+  /usr/bin/git -C "$tmp/agent-git" commit --allow-empty -m escaped \
+  > "$tmp/agent-commit.log" 2>&1
+agent_commit_rc=$?
+set -e
+[ "$agent_commit_rc" -ne 0 ] || fail "Codex child Git hooks allowed a commit before validation"
+assert_contains "$(cat "$tmp/agent-commit.log")" 'parent runner owns commit' \
+  "blocked child commit did not explain transaction ownership"
+pushurl="$(GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=remote.origin.pushurl \
+  GIT_CONFIG_VALUE_0="$tmp/agent-publish-blocked" \
+  /usr/bin/git -C "$tmp/agent-git" config --get remote.origin.pushurl)"
+[ "$pushurl" = "$tmp/agent-publish-blocked" ] \
+  || fail "Codex child push URL was not overridden"
 
 queue_dry="$(./runqueue.sh --dry-run -n 1)"
 assert_contains "$queue_dry" 'gpt-5\.6-sol' "runqueue must use Sol"
 assert_contains "$queue_dry" 'model_reasoning_effort=.*high' "runqueue must use High effort"
 
 python3 scripts/validate_pipeline.py
+
+# Exact-unit selection is a data boundary, not a prompt preference. Given a
+# selected Coburn critique resolution, advancing Rothstein must be rejected even
+# if the resulting registry is globally valid.
+mkdir -p "$tmp/unit-fixture/data" \
+  "$tmp/unit-fixture/content/alvin-langdon-coburn" \
+  "$tmp/unit-fixture/content/arthur-rothstein"
+printf '%s\n' \
+  '{"photographers":[' \
+  '  {"slug":"alvin-langdon-coburn","wave":4,"rights":"pd","stage":"built"},' \
+  '  {"slug":"arthur-rothstein","wave":4,"rights":"pd","stage":"sourced"}' \
+  ']}' > "$tmp/unit-fixture/data/registry.json"
+printf 'verdict: revise\n' > "$tmp/unit-fixture/content/alvin-langdon-coburn/critique.md"
+python3 scripts/work_unit.py snapshot --root "$tmp/unit-fixture" --output "$tmp/unit-before.json"
+python3 - "$tmp/unit-fixture/data/registry.json" <<'PY'
+import json, sys
+p = sys.argv[1]
+data = json.load(open(p))
+data["photographers"][1]["stage"] = "built"
+open(p, "w").write(json.dumps(data) + "\n")
+PY
+set +e
+python3 scripts/work_unit.py validate --root "$tmp/unit-fixture" \
+  --before "$tmp/unit-before.json" --stage build --wave 0 \
+  --unit alvin-langdon-coburn > "$tmp/wrong-unit.log" 2>&1
+wrong_unit_rc=$?
+set -e
+[ "$wrong_unit_rc" -ne 0 ] || fail "exact-unit gate accepted Arthur while Coburn was selected"
+assert_contains "$(cat "$tmp/wrong-unit.log")" 'arthur-rothstein.*changed outside selected unit' \
+  "wrong-unit rejection did not name the escaped photographer"
+
+# The matching selected-unit transition is accepted by the same public gate.
+python3 - "$tmp/unit-fixture/data/registry.json" <<'PY'
+import json, sys
+p = sys.argv[1]
+data = json.load(open(p))
+data["photographers"][1]["stage"] = "sourced"
+open(p, "w").write(json.dumps(data) + "\n")
+PY
+printf 'verdict: resolved\n' > "$tmp/unit-fixture/content/alvin-langdon-coburn/critique.md"
+python3 scripts/work_unit.py validate --root "$tmp/unit-fixture" \
+  --before "$tmp/unit-before.json" --stage build --wave 0 \
+  --unit alvin-langdon-coburn > "$tmp/right-unit.log" 2>&1 \
+  || fail "exact-unit gate rejected the selected Coburn resolution: $(cat "$tmp/right-unit.log")"
+
+# A correct state transition with a file outside the selected photographer is
+# still a boundary violation. Global queue validity must not mask path escape.
+/usr/bin/git init -q "$tmp/unit-fixture"
+/usr/bin/git -C "$tmp/unit-fixture" config user.name pipeline-test
+/usr/bin/git -C "$tmp/unit-fixture" config user.email pipeline@example.invalid
+/usr/bin/git -C "$tmp/unit-fixture" add .
+/usr/bin/git -C "$tmp/unit-fixture" commit -q -m baseline
+path_head="$(/usr/bin/git -C "$tmp/unit-fixture" rev-parse HEAD)"
+python3 scripts/work_unit.py snapshot --root "$tmp/unit-fixture" --output "$tmp/path-before.json"
+printf 'verdict: revise\n' > "$tmp/unit-fixture/content/alvin-langdon-coburn/critique.md"
+printf 'escaped\n' > "$tmp/unit-fixture/unrelated.txt"
+set +e
+python3 scripts/work_unit.py validate --root "$tmp/unit-fixture" \
+  --before "$tmp/path-before.json" --before-head "$path_head" \
+  --stage critique --wave 4 --unit alvin-langdon-coburn \
+  > "$tmp/path-escape.log" 2>&1
+path_escape_rc=$?
+set -e
+[ "$path_escape_rc" -ne 0 ] || fail "exact-unit gate accepted an unrelated changed path"
+assert_contains "$(cat "$tmp/path-escape.log")" 'unrelated.txt.*changed outside selected unit' \
+  "path escape rejection did not name the unrelated file"
 
 grep -q 'Select exactly one' prompts/source.md || fail "source prompt is not one-unit-per-call"
 grep -q 'Select exactly one' prompts/build.md || fail "build prompt is not one-unit-per-call"
@@ -140,7 +239,7 @@ set +e
 CODEX_BIN="$tmp/hanging-codex" PIPELINE_RUNTIME_DIR="$tmp/timeout-runtime" \
   PIPELINE_MIN_FREE_MB=1 STAGE_TIMEOUT_SECONDS=1 STAGE_POLL_SECONDS=1 \
   PIPELINE_PUSH=0 PIPELINE_ALLOW_DIRTY=1 PIPELINE_SUMMARY_LOG="$tmp/timeout-summary.log" \
-  ./run.sh source > "$tmp/timeout.log" 2>&1
+  ./run.sh next > "$tmp/timeout.log" 2>&1
 timeout_rc=$?
 set -e
 [ "$timeout_rc" -eq 124 ] || fail "hung stage returned $timeout_rc instead of 124"

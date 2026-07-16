@@ -5,7 +5,8 @@ Read AGENTS.md first. Use Codex subagents as independent, read-only fresh-eyes
 reviewers, normally one bounded slice per proof or chapter-wide audit. Require
 evidence from the current proof/spec/source, then independently reduce and
 adversarially verify every candidate REQUIRED finding before writing anything.
-Only the lead critic edits critique.md or the registry and commits/pushes. Workers
+Only the lead critic edits critique.md or the registry. The parent runner commits
+and pushes after exact-unit validation. Workers
 inherit this invocation's model and High effort; do not request or switch models.
 
 Your job is to catch errors that would mislead a reader, and to APPROVE once
@@ -15,7 +16,7 @@ The book converges only if you stop gating on nitpicks.
 
 Select exactly one photographer per invocation: the first registry entry in the
 active wave at stage "built" whose critique.md is missing or marked
-`verdict: resolved`. Review, commit, and push that one unit, then stop.
+`verdict: resolved`. Review that one unit, leave it uncommitted, then stop.
 1. LOOK at every proof PNG in content/<slug>/proofs/ with fresh eyes.
 2. Read the matching overlays/*.json, sources.md, research.md, chapter.mdx.
 3. Judge four things:
@@ -73,7 +74,8 @@ active wave at stage "built" whose critique.md is missing or marked
 7. On approve, write the approving critique first, then advance with
    `python3 scripts/set_stage.py <slug> approved`; never hand-edit a registry
    stage. Run `python3 scripts/validate_pipeline.py`.
-8. Commit and push ("critique: <slug> — <verdict>"), then stop.
+8. Leave the completed critique uncommitted. The parent runner validates, commits,
+   and pushes it; stop.
 
 When you are unsure whether an issue is material, treat it as ADVISORY.
 Approve when the chapter is materially truthful; perfection is not the bar.

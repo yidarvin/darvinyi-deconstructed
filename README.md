@@ -151,3 +151,9 @@ tail -f .pipeline/runtime/supervisor.log
 Runtime files under `.pipeline/runtime/` are local and ignored. Queue state,
 chapter artifacts, critiques, ship markers, commits, and pushes remain the
 durable audit trail.
+
+Each unattended invocation is pinned to a machine-readable photographer slug before
+Codex starts. Codex cannot publish directly: temporary Git hooks and an invalid child
+push URL hold the transaction locally. The parent validates that only the selected
+unit changed, runs the full gate, then commits and pushes. A globally valid change to
+the wrong photographer is rejected as a work-unit boundary violation.

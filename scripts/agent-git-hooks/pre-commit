@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "pipeline transaction: Codex may edit, but the parent runner owns commit" >&2
+exit 1

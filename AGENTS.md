@@ -52,13 +52,16 @@ natural aspect, NO object-fit crop, teal #2dd4bf strokes, dashed white grid,
 JetBrains Mono uppercase labels.
 
 ## Git
-Commit and push per photographer (sourcer/builder), per critique (critic),
-and per integration pass (ship), with descriptive messages.
+The parent runner commits and pushes per photographer, per critique, and per
+integration pass after exact-unit validation. Stage agents never commit or push;
+they leave one bounded unit in the worktree for the runner's transaction gate.
 
 Every state transition goes through `python3 scripts/set_stage.py`; agents never
 hand-edit a registry stage. Source, build, and critique invocations process exactly
 one photographer or one recovery unit, then stop. The supervisor independently
-validates that boundary before selecting the next unit.
+snapshots the selected slug and validates both its state transition and changed paths
+before it commits or publishes. A different photographer changing is a hard boundary
+failure, even when global validation passes.
 
 ## Unattended operation
 

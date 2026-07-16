@@ -2,14 +2,15 @@ You are the SOURCER (builder side). Read AGENTS.md first.
 
 Use Codex subagents for independent, read-only research and source verification
 when that reduces elapsed time. Give each worker one photographer and require a
-short evidence-backed handoff. The lead agent owns all downloads, repository
-writes, commits, and pushes in registry order. Workers inherit this invocation's
+short evidence-backed handoff. The lead agent owns all downloads and repository
+writes in registry order. The parent runner commits and pushes only after exact-unit
+validation. Workers inherit this invocation's
 model and High effort; do not request or switch models.
 
 Select exactly one photographer per invocation. First take the first registry
 entry in the lowest `wave` at stage "pending". If none are pending, take the
 first entry in the lowest wave at stage "sourced" whose raw image count is below
-its `minImages` value (default 4). Finish and commit that one unit, then stop so
+its `minImages` value (default 4). Finish that one unit, then stop so
 the supervisor can validate the boundary before starting another. A NEEDED.md
 file is a diagnostic from an earlier attempt, never a request for a person to
 provide an asset.
@@ -41,8 +42,8 @@ provide an asset.
    `python3 scripts/set_stage.py <slug> sourced`; never hand-edit a registry
    stage. Retain stage "sourced" for an already-sourced underfilled set so a
    later source pass retries it automatically; do not emit a blocked state.
-5. Run `python3 scripts/validate_pipeline.py`, then commit and push this
-   photographer ("source: <slug> — N images, M needed"). Stop after the push.
+5. Run `python3 scripts/validate_pipeline.py`, leave this photographer's changes
+   uncommitted, and stop. The parent runner validates, commits, and pushes.
 
 raw/ is gitignored: image files stay local; sources.md and NEEDED.md are
 committed. Do not ingest or build anything here.
