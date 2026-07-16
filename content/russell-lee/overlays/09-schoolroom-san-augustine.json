@@ -4,7 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.29, "y": 0.04, "w": 0.48, "h": 0.29, "label": "REAR WINDOW BAND" },
-    { "type": "ellipse", "cx": 0.56, "cy": 0.63, "rx": 0.15, "ry": 0.27, "label": "TEACHER" }
+    { "type": "ellipse", "cx": 0.63, "cy": 0.64, "rx": 0.13, "ry": 0.28, "label": "TEACHER" },
+    { "type": "polyline", "points": [[0.05, 0.61], [0.18, 0.61]], "label": "FRONT DESK TOP" }
   ],
-  "notes": "The rear windows and the teacher among the desks make the busy classroom readable as a working room."
+  "notes": "Rear windows, the teacher, and a foreground desk edge make the busy classroom readable as a working room."
 }

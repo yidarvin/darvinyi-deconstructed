@@ -4,7 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "ellipse", "cx": 0.32, "cy": 0.37, "rx": 0.13, "ry": 0.18, "label": "FARO" },
-    { "type": "ellipse", "cx": 0.68, "cy": 0.36, "rx": 0.13, "ry": 0.18, "label": "DORIS" }
+    { "type": "ellipse", "cx": 0.68, "cy": 0.36, "rx": 0.13, "ry": 0.18, "label": "DORIS" },
+    { "type": "frame_in_frame", "x": 0.92, "y": 0.58, "w": 0.04, "h": 0.32, "label": "FENCE POST" }
   ],
-  "notes": "A dark fence line and a narrow interval hold the portrait's deliberately still pair."
+  "notes": "A dark fence post holds the portrait's deliberately still pair."
 }

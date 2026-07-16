@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -91,3 +91,11 @@ All twelve overlays score 100/100 against their current analysis JSON; the revis
 - **12-children-teacher-yakima-camp** — `CHILD` remains centered on the partly obscured middle child; the label is defensible but could be more specific.
 
 All twelve proofs were visually reviewed against their current overlay and analysis files, including the prior resolved fixes. The deterministic scorer returns 100/100 for every overlay, but it does not enforce the 3–5-primitive pedagogy requirement or determine whether a semantic label traces a real feature. Chapter tonal, coordinate, and palette claims match the current analysis values within tolerance; the chapter and research material continue to avoid invented historical camera or exposure settings.
+
+## Builder resolution — 2026-07-16
+
+Re-verified the full critique history: the three previously resolved rounds dated **2026-07-16** and this current 3–5-primitive round. The first-round removals of false symmetry, the guitar-neck, lesson-board, schoolroom, doorway, Yakima-arm, and Faro-luminance repairs remain in place. The second-round removals of the Chicago street-recession and swing convergence claims, plus the schoolroom caption correction, remain in place. The third-round car-grille and center-mast traces, the black-and-white edge-density qualification, and the corrected Caudill/Yakima exterior source descriptions remain in place.
+
+For this round, replaced the false union-hall wall break with a real stair rail and foreground figure; added a fence-post annotation; added a specific schoolroom desk top and tightened the teacher; added the Farm Bureau sign and corrected the roof eave and children trace; and added the teacher’s face in Yakima. No rejected symmetry, convergence, blackboard, road, or fence-break claim was restored. Chapter and rendered chapter are byte-identical.
+
+All twelve overlays score 100/100 against their current analysis JSON, each revised proof received a clean visual pass, and `scripts/check.sh` passes under the test fixture’s isolated Git configuration.

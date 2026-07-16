@@ -3,8 +3,9 @@
   "image": "03-pecan-workers-union-hall-san-antonio.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.111, "angle": 0, "label": "UPPER WALL BREAK" },
-    { "type": "polyline", "points": [[0.04, 0.63], [0.29, 0.61], [0.53, 0.61], [0.82, 0.58]], "label": "SEATED RANK" }
+    { "type": "polyline", "points": [[0.04, 0.63], [0.29, 0.61], [0.53, 0.61], [0.82, 0.58]], "label": "SEATED RANK" },
+    { "type": "ellipse", "cx": 0.42, "cy": 0.53, "rx": 0.1, "ry": 0.25, "label": "FRONT FIGURE" },
+    { "type": "polyline", "points": [[0.7, 0.07], [0.84, 0.15], [0.98, 0.28]], "label": "STAIR RAIL" }
   ],
-  "notes": "The crowded seated rank stretches the union hall into a shared waiting room."
+  "notes": "The crowded seated rank and descending stair rail stretch the union hall into a shared waiting room."
 }
