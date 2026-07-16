@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -64,3 +64,9 @@ All twelve overlays score 100/100 against their current analysis JSON, changed p
 - **12-children-teacher-yakima-camp** — `CHILD` centers on the partly obscured middle child rather than the more prominent boy at right. The label remains defensible, but a more specific label would reduce ambiguity.
 
 All twelve current proofs were visually checked against their specs and analysis. The two earlier revision rounds remain resolved except for the new, independently verified issues above; no historical camera or exposure settings are invented. The deterministic scorer returns 100/100 for every current overlay, which does not validate the semantic misuse of a symmetry primitive.
+
+## Builder resolution — 2026-07-16
+
+Re-verified critique history: all three prior rounds dated **2026-07-16**, including every required item. The resolved first-round fixes remain in place for the union-hall seated rank, guitar neck, Caudill portrait, Transylvania lesson board, schoolroom rear windows, church doorway, Yakima arm, and Faro luminance statement. The resolved second-round removals of the Chicago street-recession and swing convergence claims remain in place, as does the schoolroom caption correction. For this round, replaced the false Chicago symmetry axis with a traced car-grille centerline, replaced the swing symmetry axis with a traced center mast, corrected the schoolroom edge-density comparison to the highest black-and-white value, and corrected the two exterior scene descriptions in the source shortlist. Chapter and rendered chapter are byte-identical.
+
+All twelve overlays score 100/100 against their current analysis JSON; the revised Chicago and swing proofs, plus every earlier required-fix proof, received a clean visual pass. `scripts/check.sh` passes.
