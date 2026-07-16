@@ -35,6 +35,7 @@ assert_contains "$service_plan" '/scripts/pipeline-supervisor\.sh' \
   "launchd must execute the repository-owned supervisor"
 assert_not_contains "$service_plan" '/tmp/.*pipeline-supervisor' \
   "launchd must not depend on a reboot-volatile /tmp supervisor"
+assert_contains "$service_plan" '/codex' "launchd plan must pin the Codex executable"
 
 help="$(./run.sh help)"
 for command in start stop service-status daemon; do
@@ -119,7 +120,7 @@ printf '%s\n' \
   '  *) exit 2 ;;' \
   'esac' > "$tmp/fake-runner"
 chmod +x "$tmp/fake-runner"
-CALLS="$tmp/calls" PIPELINE_RUNNER="$tmp/fake-runner" \
+PATH=/usr/bin:/bin CALLS="$tmp/calls" PIPELINE_RUNNER="$tmp/fake-runner" \
   PIPELINE_RUNTIME_DIR="$tmp/supervisor-runtime" PIPELINE_MIN_FREE_MB=1 \
   PIPELINE_BASE_BACKOFF_SECONDS=0 PIPELINE_MAX_BACKOFF_SECONDS=0 \
   PIPELINE_SUCCESS_DELAY_SECONDS=0 PIPELINE_MAX_CYCLES=2 \

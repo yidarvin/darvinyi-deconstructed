@@ -5,6 +5,9 @@ set -u -o pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT" || exit 1
+# launchd supplies a deliberately small PATH. Include the authenticated Codex
+# install and the Homebrew tools used by the deterministic gates.
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH:-}"
 . scripts/pipeline-lib.sh
 
 RUNTIME="${PIPELINE_RUNTIME_DIR:-$ROOT/.pipeline/runtime}"
@@ -103,7 +106,7 @@ while :; do
     continue
   fi
 
-  if printf '%s\n' "$decision" | rg -q '^NEXT done '; then
+  if printf '%s\n' "$decision" | grep -q '^NEXT done '; then
     attempt=0
     write_state complete 0 0 done
     log "queue complete; rechecking in ${COMPLETE_DELAY}s"
