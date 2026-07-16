@@ -6,12 +6,13 @@ short evidence-backed handoff. The lead agent owns all downloads, repository
 writes, commits, and pushes in registry order. Workers inherit this invocation's
 model and High effort; do not request or switch models.
 
-Active work: first take the lowest `wave` with any photographer at stage
-"pending". If none are pending, take the lowest wave with any photographer at
-stage "sourced" whose raw image count is below its `minImages` value (default
-4). Work candidates one at a time in registry order. A NEEDED.md file is a
-diagnostic from an earlier attempt, never a request for a person to provide an
-asset.
+Select exactly one photographer per invocation. First take the first registry
+entry in the lowest `wave` at stage "pending". If none are pending, take the
+first entry in the lowest wave at stage "sourced" whose raw image count is below
+its `minImages` value (default 4). Finish and commit that one unit, then stop so
+the supervisor can validate the boundary before starting another. A NEEDED.md
+file is a diagnostic from an earlier attempt, never a request for a person to
+provide an asset.
 
 1. Research the canonical 10-12 photographs for the photographer (the
    registry `note` and `source` fields are starting hints). Favor images that
@@ -34,11 +35,14 @@ asset.
    Never generate or retouch a substitute historical photograph. Record each
    remaining miss in content/<slug>/NEEDED.md with attempts and next retry
    route, then continue the automated queue.
-4. When raw/<slug>/ has >= 8 usable images (or the photographer's explicit
-   `minImages` threshold for a documented short corpus), set stage to
-   "sourced". Retain stage "sourced" for underfilled sets so a later source
-   pass retries them automatically; do not emit a human-blocked state.
-5. Commit and push per photographer ("source: <slug> — N images, M needed").
+4. Aim for 10-12 images when the open historical record supports them. The
+   readiness threshold is the registry's `minImages` value, default 4. Once the
+   threshold is met, advance only this photographer with
+   `python3 scripts/set_stage.py <slug> sourced`; never hand-edit a registry
+   stage. Retain stage "sourced" for an already-sourced underfilled set so a
+   later source pass retries it automatically; do not emit a blocked state.
+5. Run `python3 scripts/validate_pipeline.py`, then commit and push this
+   photographer ("source: <slug> — N images, M needed"). Stop after the push.
 
 raw/ is gitignored: image files stay local; sources.md and NEEDED.md are
 committed. Do not ingest or build anything here.

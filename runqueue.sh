@@ -5,7 +5,8 @@
 # the next item (research, write, gate, commit, push), then runs `npm run check` as
 # an independent second gate. It stops the moment anything is off: a nonzero Codex
 # exit, a hung run past --timeout, a failing check, a working tree the run left
-# dirty, or a run that made no queue progress. That last guard is what keeps an
+# dirty, or a run that made no queue progress. It returns nonzero to its caller,
+# which may retry or invoke recovery. That last guard is what keeps an
 # unattended loop from spinning forever on one item, and it is why the loop measures
 # progress as DONE+SKIPPED going up (monotonic) rather than PENDING going down
 # (graph-mode runs append new PENDING rows, so that would misfire).
@@ -25,8 +26,8 @@
 #   -p, --prompt TEXT    per-item prompt           (default below)
 #   -q, --queue PATH     queue file to read        (default: prompts/queue.md)
 #   -s, --settings VAL   extra Codex -c key=value override (default: none)
-#   -t, --timeout SEC    kill a single Codex run after SEC seconds (needs `timeout`
-#                        or `gtimeout`; default: 0 = no limit)
+#   -t, --timeout SEC    kill a single Codex run after SEC seconds
+#                        (default: 14400 = four hours)
 #       --no-push        build and commit but do not push (adjusts the default prompt)
 #       --no-check       skip the `npm run check` second gate (not recommended)
 #       --allow-dirty    do not require a clean git working tree
@@ -52,8 +53,9 @@ RUN_CHECK=1
 ALLOW_DIRTY=0
 DRY_RUN=0
 ASSUME_YES=0
-TIMEOUT=0            # seconds; 0 disables the per-item wall-clock limit
-TIMEOUT_BIN=''
+TIMEOUT=14400        # seconds; 0 disables the per-item wall-clock limit
+POLL_SECONDS="${STAGE_POLL_SECONDS:-5}"
+CODEX_BIN="${CODEX_BIN:-codex}"
 MAX=''               # empty means unbounded (run all)
 
 DEFAULT_PROMPT_PUSH='run the next one. commit and push the changes.'
@@ -113,19 +115,16 @@ esac
 # --- move to the repo root (this script lives there) ------------------------
 SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)" || die "cannot resolve script directory"
 cd "$SCRIPT_DIR" || die "cannot cd to $SCRIPT_DIR"
+. scripts/pipeline-lib.sh
+RUNTIME="${PIPELINE_RUNTIME_DIR:-$SCRIPT_DIR/.pipeline/runtime}"
 
 # --- preflight --------------------------------------------------------------
 [ -f "$QUEUE" ] || die "queue file not found: $QUEUE (run from a refsite repo, or pass --queue)"
 [ -r "$QUEUE" ] || die "queue file is not readable: $QUEUE"
 [ -f content/registry.json ] || printf '\033[33m%s\033[0m\n' "runqueue: warning: content/registry.json not found; is this a refsite repo?" >&2
-command -v codex >/dev/null 2>&1 || die "the 'codex' CLI is not on PATH"
+command -v "$CODEX_BIN" >/dev/null 2>&1 || die "the Codex CLI is not on PATH: $CODEX_BIN"
 if [ "$RUN_CHECK" -eq 1 ]; then
   command -v npm >/dev/null 2>&1 || die "'npm' is not on PATH (needed for the check gate; pass --no-check to skip)"
-fi
-if [ "$TIMEOUT" -gt 0 ]; then
-  if command -v timeout >/dev/null 2>&1; then TIMEOUT_BIN=timeout
-  elif command -v gtimeout >/dev/null 2>&1; then TIMEOUT_BIN=gtimeout
-  else die "--timeout needs 'timeout' or 'gtimeout' on PATH (brew install coreutils)"; fi
 fi
 
 # Is this a git work tree? The commit/push and clean-tree guards only apply if so.
@@ -135,7 +134,7 @@ tree_dirty() { [ -n "$(git status --porcelain 2>/dev/null)" ]; }
 
 # An auto-committing loop must start from a clean tree, or it can fold stray local
 # changes into an unrelated chapter's commit.
-if [ "$HAVE_GIT" -eq 1 ] && [ "$ALLOW_DIRTY" -eq 0 ] && tree_dirty; then
+if [ "$DRY_RUN" -eq 0 ] && [ "$HAVE_GIT" -eq 1 ] && [ "$ALLOW_DIRTY" -eq 0 ] && tree_dirty; then
   die "working tree has uncommitted changes. Commit or stash them first, or pass --allow-dirty."
 fi
 
@@ -171,9 +170,9 @@ printf '  items:    %s\n' "$limit_desc"
 printf '  model:    %s\n' "$MODEL"
 printf '  effort:   %s\n' "$EFFORT"
 [ -n "$SETTINGS" ] && printf '  config:   %s\n' "$SETTINGS"
-printf '  timeout:  %s\n' "$([ "$TIMEOUT" -gt 0 ] && echo "${TIMEOUT}s per item (${TIMEOUT_BIN})" || echo 'none')"
+printf '  timeout:  %s\n' "$([ "$TIMEOUT" -gt 0 ] && echo "${TIMEOUT}s per item" || echo 'none')"
 printf '  gate:     %s\n' "$([ "$RUN_CHECK" -eq 1 ] && echo 'npm run check after each item' || echo 'skipped (--no-check)')"
-printf '  command:  codex %s\n' "$(printf '%q ' "${CODEX_ARGS[@]}")"
+printf '  command:  %s %s\n' "$CODEX_BIN" "$(printf '%q ' "${CODEX_ARGS[@]}")"
 
 if [ "$DRY_RUN" -eq 1 ]; then
   printf '\n\033[33m%s\033[0m\n' "dry run: nothing was executed."
@@ -198,31 +197,54 @@ fi
 # Track the child so a Ctrl-C or a `kill` of a detached loop tears down the running
 # Codex process too, instead of orphaning it to keep committing and pushing.
 CHILD_PID=''
+LOCK_HELD=0
+cleanup() {
+  if [ "$LOCK_HELD" -eq 1 ]; then
+    pipeline_lock_release
+    LOCK_HELD=0
+  fi
+}
 on_signal() {
   printf '\n\033[33m%s\033[0m\n' "runqueue: interrupted; stopping."
   if [ -n "$CHILD_PID" ]; then
-    kill -TERM "$CHILD_PID" 2>/dev/null
+    pipeline_terminate_tree "$CHILD_PID"
     wait "$CHILD_PID" 2>/dev/null
   fi
+  cleanup
   exit 130
 }
 trap on_signal INT TERM
+trap cleanup EXIT
 
 # Build one item. stdin is detached from /dev/null so no tool can block on or steal
 # input, and the run is backgrounded with a tracked pid (see on_signal). Returns
 # Codex's exit status; 124 signals a timeout when --timeout is in effect.
 run_codex() {
-  if [ "$TIMEOUT" -gt 0 ]; then
-    "$TIMEOUT_BIN" "$TIMEOUT" codex "${CODEX_ARGS[@]}" </dev/null &
-  else
-    codex "${CODEX_ARGS[@]}" </dev/null &
-  fi
+  local started now timed_out=0 rc
+  "$CODEX_BIN" "${CODEX_ARGS[@]}" </dev/null &
   CHILD_PID=$!
-  wait "$CHILD_PID"
-  local rc=$?
+  started="$(date +%s)"
+  while kill -0 "$CHILD_PID" 2>/dev/null; do
+    sleep "$POLL_SECONDS"
+    if [ "$TIMEOUT" -gt 0 ]; then
+      now="$(date +%s)"
+      if [ $((now - started)) -ge "$TIMEOUT" ]; then
+        timed_out=1
+        pipeline_terminate_tree "$CHILD_PID"
+        sleep 2
+        kill -KILL "$CHILD_PID" 2>/dev/null || true
+        break
+      fi
+    fi
+  done
+  if wait "$CHILD_PID"; then rc=0; else rc=$?; fi
   CHILD_PID=''
+  [ "$timed_out" -eq 0 ] || return 124
   return "$rc"
 }
+
+pipeline_lock_acquire "$RUNTIME" || exit $?
+LOCK_HELD=1
 
 # --- the loop ---------------------------------------------------------------
 i=0
@@ -244,9 +266,9 @@ while :; do
   run_codex; codex_rc=$?
   if [ "$codex_rc" -ne 0 ]; then
     if [ "$TIMEOUT" -gt 0 ] && [ "$codex_rc" -eq 124 ]; then
-      printf '\n\033[31m%s\033[0m\n' "Codex exceeded the ${TIMEOUT}s timeout on item $i; stopping for review."
+      printf '\n\033[31m%s\033[0m\n' "Codex exceeded the ${TIMEOUT}s timeout on item $i; caller may retry."
     else
-      printf '\n\033[31m%s\033[0m\n' "Codex exited $codex_rc on item $i; stopping for review."
+      printf '\n\033[31m%s\033[0m\n' "Codex exited $codex_rc on item $i; caller may retry or recover."
     fi
     exit 1
   fi
@@ -254,13 +276,13 @@ while :; do
   # After a successful run the tree should be clean (the item was committed). A dirty
   # tree means the run built but did not commit; do not build on top of it.
   if [ "$HAVE_GIT" -eq 1 ] && [ "$ALLOW_DIRTY" -eq 0 ] && tree_dirty; then
-    printf '\n\033[31m%s\033[0m\n' "item $i left uncommitted changes; stopping for review."
+    printf '\n\033[31m%s\033[0m\n' "item $i left uncommitted changes; recovery is required."
     exit 1
   fi
 
   if [ "$RUN_CHECK" -eq 1 ]; then
     if ! npm run check; then
-      printf '\n\033[31m%s\033[0m\n' "npm run check failed after item $i; stopping for review."
+      printf '\n\033[31m%s\033[0m\n' "npm run check failed after item $i; recovery is required."
       exit 1
     fi
   fi

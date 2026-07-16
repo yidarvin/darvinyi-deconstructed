@@ -34,8 +34,8 @@ real queue and state live in data/registry.json.
 | 23  | frederick-h-evans         | Frederick H. Evans        | DONE    |
 | 24  | gertrude-kasebier         | Gertrude Käsebier         | DONE    |
 | 25  | clarence-h-white          | Clarence H. White         | DONE    |
-| 26  | edward-s-curtis           | Edward S. Curtis          | PENDING |
-| 27  | frances-benjamin-johnston | Frances Benjamin Johnston | PENDING |
+| 26  | edward-s-curtis           | Edward S. Curtis          | DONE    |
+| 27  | frances-benjamin-johnston | Frances Benjamin Johnston | DONE    |
 | 28  | alvin-langdon-coburn      | Alvin Langdon Coburn      | PENDING |
 | 29  | karl-blossfeldt           | Karl Blossfeldt           | DONE    |
 | 30  | alfred-stieglitz          | Alfred Stieglitz          | PENDING |

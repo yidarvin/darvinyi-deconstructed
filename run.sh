@@ -1,21 +1,26 @@
 #!/usr/bin/env bash
-# Deconstructed — Codex pipeline driver. Lives in the repo root.
-#
-#   ./run.sh                         same as: ./run.sh next
-#   ./run.sh next                    figure out the next step and RUN it
-#   ./run.sh loop [N]                run successive steps (default max 12)
-#   ./run.sh status                  local dashboard (no model call, no writes)
-#   ./run.sh doctor                  verify the Codex runtime (no writes)
-#   ./run.sh --dry-run next          print the resolved Codex command only
-#   ./run.sh source|build|critique|ship|renderer
+# Deconstructed — autonomous Codex queue driver. Lives in the repo root.
+set -euo pipefail
+
+ROOT="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT"
+. scripts/pipeline-lib.sh
 
 BUILD_MODEL="${BUILD_MODEL:-gpt-5.6-terra}"
 CRITIC_MODEL="${CRITIC_MODEL:-gpt-5.6-terra}"
 SOL_MODEL="${SOL_MODEL:-gpt-5.6-sol}"
 EFFORT="high"
 CODEX_FULL_ACCESS="${CODEX_FULL_ACCESS:-1}"
-
-set -euo pipefail
+CODEX_BIN="${CODEX_BIN:-codex}"
+STAGE_TIMEOUT_SECONDS="${STAGE_TIMEOUT_SECONDS:-14400}"
+STAGE_POLL_SECONDS="${STAGE_POLL_SECONDS:-5}"
+MIN_FREE_MB="${PIPELINE_MIN_FREE_MB:-8192}"
+RUNTIME="${PIPELINE_RUNTIME_DIR:-$ROOT/.pipeline/runtime}"
+SUMMARY_LOG="$ROOT/.pipeline/log"
+SUMMARY_LOG="${PIPELINE_SUMMARY_LOG:-$SUMMARY_LOG}"
+LAST_FAILURE="$RUNTIME/last-failure"
+PUSH_CHANGES="${PIPELINE_PUSH:-1}"
+ALLOW_DIRTY="${PIPELINE_ALLOW_DIRTY:-0}"
 
 DRY_RUN=0
 args=()
@@ -28,25 +33,64 @@ done
 set -- "${args[@]}"
 
 CHILD_PID=""
+LOCK_HELD=0
+
+cleanup() {
+  if [ "$LOCK_HELD" -eq 1 ]; then
+    pipeline_lock_release
+    LOCK_HELD=0
+  fi
+}
+
 on_signal() {
   echo ""
-  echo "!! interrupted — stopping run.sh"
-  if [ -n "$CHILD_PID" ]; then
-    kill -TERM "$CHILD_PID" 2>/dev/null || true
-    wait "$CHILD_PID" 2>/dev/null || true
-  fi
+  echo "!! interrupted — stopping run.sh and its Codex process tree"
+  [ -z "$CHILD_PID" ] || pipeline_terminate_tree "$CHILD_PID"
+  [ -z "$CHILD_PID" ] || wait "$CHILD_PID" 2>/dev/null || true
+  cleanup
   exit 130
 }
-trap on_signal INT TERM
+trap on_signal INT TERM HUP
+trap cleanup EXIT
 
-[ -f data/registry.json ] || { echo "!! run from inside darvinyi-deconstructed"; exit 1; }
+[ -f data/registry.json ] || { echo "!! data/registry.json missing"; exit 1; }
 [ -d prompts ] || { echo "!! prompts/ missing — run ./update.sh first"; exit 1; }
 
-fingerprint() {
-  echo "$(git rev-parse HEAD 2>/dev/null || echo none)|$(git status --porcelain 2>/dev/null | rg -v 'pipeline/log' | shasum | awk '{print $1}')|$(shasum data/registry.json | awk '{print $1}')"
+usage() {
+  cat <<'EOF'
+usage: ./run.sh [--dry-run] COMMAND
+
+Queue commands:
+  next                       select and run one atomic queue unit (default)
+  loop [N]                   run up to N units (default 12)
+  source|build|critique      run that role directly
+  ship|renderer|recover      run integration, renderer, or recovery role
+  status                     read-only queue and runtime dashboard
+  decision                   print the next queue decision only
+  doctor                     read-only Codex/runtime preflight
+
+Persistent service commands:
+  start                      install/start the durable launchd supervisor
+  stop                       stop the launchd supervisor
+  restart                    reinstall/restart the launchd supervisor
+  service-status             inspect launchd state
+  daemon                     run the supervisor in the foreground
+EOF
 }
 
-decide() {  # last line: "NEXT <action> <wave> :: <reason>"
+fingerprint() {
+  local head tree registry
+  head="$(git rev-parse HEAD 2>/dev/null || echo none)"
+  tree="$(git status --porcelain 2>/dev/null | shasum | awk '{print $1}')"
+  registry="$(shasum data/registry.json | awk '{print $1}')"
+  printf '%s|%s|%s\n' "$head" "$tree" "$registry"
+}
+
+tree_dirty() {
+  [ -n "$(git status --porcelain 2>/dev/null)" ]
+}
+
+decide() {
 python3 - "$1" <<'PYEOF'
 import glob, json, os, sys
 
@@ -112,6 +156,7 @@ if mode == "status":
     if os.path.exists("needs-review.txt"):
         print("\nneeds-review.txt (automatic overlay audits):")
         print(open("needs-review.txt").read().strip())
+    sys.exit(0)
 
 def out(action, wave, reason):
     print(f"NEXT {action} {wave} :: {reason}")
@@ -120,9 +165,9 @@ def out(action, wave, reason):
 if not renderer_done:
     out("renderer", 0, "OverlayRenderer component not built yet (one-time)")
 if revises:
-    out("build", 0, f"resolve open critiques: {', '.join(revises[:5])}")
+    out("build", 0, f"resolve first open critique: {revises[0]}")
 if audit_count:
-    out("build", 0, f"automatically close {audit_count} overlay audit records")
+    out("build", 0, f"automatically close the next of {audit_count} overlay audit records")
 
 for w in waves:
     ws = [x for x in rows if x["wave"] == w]
@@ -134,87 +179,195 @@ for w in waves:
     waiting = [x for x in ws if x["stage"] == "sourced" and x["raw"] < x["minimum"]]
     awaiting = [x for x in ws if x["stage"] == "built" and x["verdict"] in ("-", "resolved")]
     if awaiting:
-        out("critique", w, f"wave {w}: {len(awaiting)} built chapters await fresh-eyes review")
+        out("critique", w, f"wave {w}: critique next of {len(awaiting)} built chapters")
     if ready:
-        out("build", w, f"wave {w}: {len(ready)} sourced and ready" + (f" ({len(waiting)} queued for automatic source recovery)" if waiting else ""))
+        out("build", w, f"wave {w}: build next of {len(ready)} sourced chapters" + (f" ({len(waiting)} need automatic source recovery)" if waiting else ""))
     if waiting:
-        out("source", w, f"wave {w}: automatically recover images for {len(waiting)} underfilled source sets")
+        out("source", w, f"wave {w}: recover the next of {len(waiting)} underfilled source sets")
     if all(x["stage"] == "approved" for x in ws) and not shipmark(w):
-        out("ship", w, f"wave {w} fully approved — integration pass, then the next wave opens")
-    out("critique", w, f"wave {w}: chapters in review cycle")
+        out("ship", w, f"wave {w} fully approved — integration pass")
+    out("critique", w, f"wave {w}: continue the review cycle")
 
 out("done", 0, "all waves approved and shipped — the book is complete")
 PYEOF
 }
 
-codex_args() {  # print one shell-escaped Codex command
-  local model="$1" prompt="$2"
-  local cmd=(codex --search --enable multi_agent -m "$model" -c "model_reasoning_effort=\"$EFFORT\"" -C "$PWD")
-  if [ "$CODEX_FULL_ACCESS" = "1" ]; then
-    cmd+=(--dangerously-bypass-approvals-and-sandbox)
+next_decision() {
+  if tree_dirty; then
+    echo "NEXT recover 0 :: repair an interrupted dirty working tree"
+  elif [ -f "$LAST_FAILURE" ]; then
+    echo "NEXT recover 0 :: close the recorded deterministic stage failure"
   else
-    cmd+=(-s workspace-write -a on-request)
+    decide next | tail -1
   fi
-  cmd+=(exec --ephemeral "$prompt")
-  printf '%q ' "${cmd[@]}"
+}
+
+runtime_status() {
+  echo ""
+  echo "runtime"
+  if [ -f "$RUNTIME/supervisor.state" ]; then
+    sed 's/^/  /' "$RUNTIME/supervisor.state"
+  else
+    echo "  status=stopped"
+  fi
+  if [ -f "$RUNTIME/runner.lock/pid" ]; then
+    owner="$(sed -n '1p' "$RUNTIME/runner.lock/pid")"
+    if kill -0 "$owner" 2>/dev/null; then
+      echo "  active_runner_pid=$owner"
+    else
+      echo "  stale_runner_pid=$owner"
+    fi
+  fi
+}
+
+codex_command() {
+  local model="$1" prompt="$2"
+  CODEX_CMD=("$CODEX_BIN" --search --enable multi_agent -m "$model" -c "model_reasoning_effort=\"$EFFORT\"" -C "$ROOT")
+  if [ "$CODEX_FULL_ACCESS" = "1" ]; then
+    CODEX_CMD+=(--dangerously-bypass-approvals-and-sandbox)
+  else
+    CODEX_CMD+=(-s workspace-write -a on-request)
+  fi
+  CODEX_CMD+=(exec --ephemeral "$prompt")
+}
+
+codex_args() {
+  codex_command "$1" "$2"
+  printf '%q ' "${CODEX_CMD[@]}"
 }
 
 run_codex() {
-  local model="$1" prompt="$2"
-  local cmd=(codex --search --enable multi_agent -m "$model" -c "model_reasoning_effort=\"$EFFORT\"" -C "$PWD")
-  if [ "$CODEX_FULL_ACCESS" = "1" ]; then
-    cmd+=(--dangerously-bypass-approvals-and-sandbox)
-  else
-    cmd+=(-s workspace-write -a on-request)
-  fi
-  cmd+=(exec --ephemeral "$prompt")
-  "${cmd[@]}" &
+  local model="$1" prompt="$2" started now rc timed_out=0
+  codex_command "$model" "$prompt"
+  "${CODEX_CMD[@]}" </dev/null &
   CHILD_PID=$!
-  wait "$CHILD_PID"
-  local rc=$?
+  started="$(date +%s)"
+  while kill -0 "$CHILD_PID" 2>/dev/null; do
+    sleep "$STAGE_POLL_SECONDS"
+    now="$(date +%s)"
+    if [ $((now - started)) -ge "$STAGE_TIMEOUT_SECONDS" ]; then
+      timed_out=1
+      echo "!! Codex stage exceeded ${STAGE_TIMEOUT_SECONDS}s; terminating process tree"
+      pipeline_terminate_tree "$CHILD_PID"
+      sleep 2
+      kill -KILL "$CHILD_PID" 2>/dev/null || true
+      break
+    fi
+  done
+  if wait "$CHILD_PID"; then rc=0; else rc=$?; fi
   CHILD_PID=""
+  [ "$timed_out" -eq 0 ] || return 124
   return "$rc"
 }
 
+record_failure() {
+  local stage="$1" wave="$2" rc="$3" reason="$4" tmp="$LAST_FAILURE.tmp.$$"
+  mkdir -p "$RUNTIME"
+  {
+    echo "stage=$stage"
+    echo "wave=$wave"
+    echo "rc=$rc"
+    echo "reason=$reason"
+    echo "at=$(date '+%F %T')"
+  } > "$tmp"
+  mv -f "$tmp" "$LAST_FAILURE"
+}
+
+append_summary() {
+  local stage="$1" wave="$2" model="$3" rc="$4"
+  mkdir -p .pipeline
+  printf '%s %s wave=%s model=%s effort=%s rc=%s\n' "$(date '+%F %T')" "$stage" "$wave" "$model" "$EFFORT" "$rc" >> "$SUMMARY_LOG"
+}
+
 run_stage() {
-  local stage="$1" wave="${2:-0}" model rc=0 prompt
+  local stage="$1" wave="${2:-0}" model prompt before after rc=0 had_failure=0
   case "$stage" in critique) model="$CRITIC_MODEL" ;; *) model="$BUILD_MODEL" ;; esac
+  [ -f "prompts/$stage.md" ] || { echo "!! prompt missing: prompts/$stage.md"; return 2; }
   prompt="$(<"prompts/$stage.md")"
   echo ""
-  echo ">>>> running: $stage   (model: $model, effort: $EFFORT, Codex multi-agent)"
+  echo ">>>> running: $stage (model: $model, effort: $EFFORT, timeout: ${STAGE_TIMEOUT_SECONDS}s)"
   if [ "$DRY_RUN" -eq 1 ]; then
     echo "dry run: $(codex_args "$model" "$prompt")"
     return 0
   fi
 
-  command -v codex >/dev/null 2>&1 || { echo "!! codex CLI is not on PATH"; return 127; }
-  mkdir -p .pipeline
-  if ! rg -qx '\.pipeline/log' .gitignore 2>/dev/null; then
-    echo '.pipeline/log' >> .gitignore
+  command -v "$CODEX_BIN" >/dev/null 2>&1 || { echo "!! Codex CLI is not on PATH: $CODEX_BIN"; return 127; }
+  free_mb="$(pipeline_free_mb "$ROOT")"
+  if [ "$free_mb" -lt "$MIN_FREE_MB" ]; then
+    echo "!! only ${free_mb}MB free; supervisor will prune safe raw inputs before retry"
+    return 73
   fi
-  git ls-files --error-unmatch .pipeline/log >/dev/null 2>&1 && git rm --cached -q .pipeline/log 2>/dev/null || true
 
+  before="$(fingerprint)"
+  [ -f "$LAST_FAILURE" ] && had_failure=1
+  if [ "$PUSH_CHANGES" = "1" ] && git rev-parse --abbrev-ref '@{upstream}' >/dev/null 2>&1; then
+    ahead="$(git rev-list --count '@{upstream}..HEAD')"
+    if [ "$ahead" -gt 0 ]; then
+      echo ">>>> pushing $ahead committed unit(s) left by an interrupted run"
+      git push || return 69
+    fi
+  fi
   run_codex "$model" "$prompt" || rc=$?
-  echo "$(date '+%F %T') $stage wave=$wave model=$model effort=$EFFORT rc=$rc" >> .pipeline/log
   if [ "$rc" -ne 0 ]; then
+    append_summary "$stage" "$wave" "$model" "$rc"
     echo "!! stage '$stage' exited with status $rc"
+    if tree_dirty; then record_failure "$stage" "$wave" "$rc" "codex-left-dirty-tree"; fi
     return "$rc"
   fi
+
+  if tree_dirty; then
+    append_summary "$stage" "$wave" "$model" 70
+    record_failure "$stage" "$wave" 70 "successful-codex-exit-left-uncommitted-changes"
+    echo "!! stage left uncommitted changes; automatic recovery owns them"
+    return 70
+  fi
+
+  if ! python3 scripts/validate_pipeline.py; then
+    append_summary "$stage" "$wave" "$model" 65
+    record_failure "$stage" "$wave" 65 "pipeline-invariant-gate-failed"
+    return 65
+  fi
+  if ! bash scripts/check.sh; then
+    append_summary "$stage" "$wave" "$model" 65
+    record_failure "$stage" "$wave" 65 "full-project-gate-failed"
+    return 65
+  fi
+
   case "$stage" in
     renderer) touch .pipeline/renderer.done ;;
     ship) touch ".pipeline/wave${wave}.shipped" ;;
   esac
-  git add .pipeline/renderer.done .pipeline/wave*.shipped .gitignore 2>/dev/null || true
-  git diff --cached --quiet 2>/dev/null || git commit -qm "pipeline: marker after $stage (wave $wave)" 2>/dev/null || true
-  git push -q 2>/dev/null || true
+  if [ "$stage" = "renderer" ] || [ "$stage" = "ship" ]; then
+    git add .pipeline/renderer.done .pipeline/wave*.shipped
+    if ! git diff --cached --quiet; then
+      git commit -m "pipeline: marker after $stage (wave $wave)"
+    fi
+  fi
+
+  after="$(fingerprint)"
+  if [ "$before" = "$after" ] && { [ "$stage" != "recover" ] || [ "$had_failure" -eq 1 ]; }; then
+    append_summary "$stage" "$wave" "$model" 76
+    record_failure "$stage" "$wave" 76 "stage-exited-zero-without-progress"
+    echo "!! stage exited 0 but made no observable progress"
+    return 76
+  fi
+
+  if [ "$PUSH_CHANGES" = "1" ] && ! git push; then
+    append_summary "$stage" "$wave" "$model" 69
+    echo "!! push failed; committed work is preserved and will be pushed before the next model call"
+    return 69
+  fi
+  rm -f "$LAST_FAILURE"
+  append_summary "$stage" "$wave" "$model" 0
+  return 0
 }
 
 doctor() {
-  local failures=0 cache legacy
-  command -v codex >/dev/null 2>&1 || { echo "FAIL codex CLI not found"; failures=$((failures + 1)); }
-  if command -v codex >/dev/null 2>&1; then
-    echo "OK   $(codex --version 2>&1 | tail -1)"
-    if codex login status 2>&1 | rg -q '^Logged in'; then
+  local failures=0 cache legacy free_mb plist
+  command -v "$CODEX_BIN" >/dev/null 2>&1 || { echo "FAIL Codex CLI not found: $CODEX_BIN"; failures=$((failures + 1)); }
+  if command -v "$CODEX_BIN" >/dev/null 2>&1; then
+    echo "OK   $($CODEX_BIN --version 2>&1 | tail -1)"
+    if "$CODEX_BIN" login status 2>&1 | rg -q '^Logged in'; then
       echo "OK   Codex authentication active"
     else
       echo "FAIL Codex authentication is not active"
@@ -229,12 +382,12 @@ doctor() {
       [.models[] | select(.slug == $a or .slug == $b)
        | select(any(.supported_reasoning_levels[]; .effort == "high")) | .slug]
       | unique | length == 2' "$cache" >/dev/null; then
-    echo "FAIL required models/high effort not available: $BUILD_MODEL, $SOL_MODEL"
+    echo "FAIL required models/high effort unavailable: $BUILD_MODEL, $SOL_MODEL"
     failures=$((failures + 1))
   else
-    echo "OK   models: $BUILD_MODEL and $SOL_MODEL support high effort"
+    echo "OK   models: $BUILD_MODEL and $SOL_MODEL support High"
   fi
-  if codex features list 2>/dev/null | awk '$1 == "multi_agent" && $3 == "true" { found=1 } END { exit !found }'; then
+  if "$CODEX_BIN" features list 2>/dev/null | awk '$1 == "multi_agent" && $3 == "true" { found=1 } END { exit !found }'; then
     echo "OK   Codex multi_agent enabled"
   else
     echo "FAIL Codex multi_agent is not enabled"
@@ -243,49 +396,98 @@ doctor() {
   legacy="clau""de"
   vendor="Clau""de"
   if pgrep -f "/Library/Application Support/${vendor}/${legacy}-code/.*/${legacy}|${legacy} -p" >/dev/null 2>&1; then
-    echo "FAIL legacy CLI workers are still running"
+    echo "FAIL retired CLI workers are still running"
     failures=$((failures + 1))
   else
-    echo "OK   no legacy CLI workers running"
+    echo "OK   no retired CLI workers running"
   fi
-  if [ "$failures" -ne 0 ]; then
-    return 1
+  free_mb="$(pipeline_free_mb "$ROOT")"
+  if [ "$free_mb" -lt "$MIN_FREE_MB" ]; then
+    echo "FAIL free disk ${free_mb}MB is below ${MIN_FREE_MB}MB floor"
+    failures=$((failures + 1))
+  else
+    echo "OK   free disk ${free_mb}MB"
   fi
+  if python3 scripts/validate_pipeline.py >/dev/null; then
+    echo "OK   pipeline invariants"
+  else
+    echo "FAIL pipeline invariants"
+    failures=$((failures + 1))
+  fi
+  plist="$HOME/Library/LaunchAgents/com.darvinyi.deconstructed.pipeline.plist"
+  if [ -f "$plist" ]; then
+    if rg -q --fixed-strings "$ROOT/scripts/pipeline-supervisor.sh" "$plist" && ! rg -q '/tmp/.*pipeline-supervisor' "$plist"; then
+      echo "OK   durable launchd supervisor path"
+    else
+      echo "FAIL launchd plist does not use the repository supervisor"
+      failures=$((failures + 1))
+    fi
+  else
+    echo "INFO launchd service not installed yet (run ./run.sh start)"
+  fi
+  [ "$failures" -eq 0 ] || return 1
   echo "DOCTOR OK"
 }
 
 cmd="${1:-next}"
 case "$cmd" in
-  status) decide status ;;
+  help|-h|--help) usage ;;
+  status)
+    decide status
+    runtime_status
+    echo ""
+    next_decision
+    ;;
+  decision) next_decision ;;
   doctor) doctor ;;
-  source|build|critique|ship|renderer) run_stage "$cmd" 0 ;;
+  start) exec scripts/pipeline-service.sh install ;;
+  stop) exec scripts/pipeline-service.sh stop ;;
+  restart) exec scripts/pipeline-service.sh install ;;
+  service-status) exec scripts/pipeline-service.sh status ;;
+  daemon) exec scripts/pipeline-supervisor.sh ;;
+  source|build|critique|ship|renderer|recover)
+    if [ "$DRY_RUN" -eq 0 ] && [ "$cmd" != "recover" ] && [ "$ALLOW_DIRTY" != "1" ] && tree_dirty; then
+      echo "!! refusing direct '$cmd' on a dirty tree; run ./run.sh recover or ./run.sh next" >&2
+      exit 75
+    fi
+    if [ "$DRY_RUN" -eq 0 ]; then
+      pipeline_lock_acquire "$RUNTIME"
+      LOCK_HELD=1
+    fi
+    run_stage "$cmd" 0
+    ;;
   next)
-    out="$(decide next)"; echo "$out"
-    line="$(echo "$out" | tail -1)"
-    action="$(echo "$line" | awk '{print $2}')"; wave="$(echo "$line" | awk '{print $3}')"
-    case "$action" in done|setup) exit 0 ;; *) run_stage "$action" "$wave" ;; esac ;;
+    if [ "$DRY_RUN" -eq 0 ]; then
+      pipeline_lock_acquire "$RUNTIME"
+      LOCK_HELD=1
+    fi
+    line="$(next_decision)"
+    echo "$line"
+    action="$(echo "$line" | awk '{print $2}')"
+    wave="$(echo "$line" | awk '{print $3}')"
+    case "$action" in done|setup) exit 0 ;; *) run_stage "$action" "$wave" ;; esac
+    ;;
   loop)
+    if [ "$DRY_RUN" -eq 0 ]; then
+      pipeline_lock_acquire "$RUNTIME"
+      LOCK_HELD=1
+    fi
     max="${2:-12}"
     if [ "$DRY_RUN" -eq 1 ]; then max=1; fi
-    prev_key=""
+    case "$max" in ''|*[!0-9]*) echo "loop count must be a positive integer" >&2; exit 2 ;; esac
+    [ "$max" -ge 1 ] || { echo "loop count must be at least 1" >&2; exit 2; }
     for i in $(seq 1 "$max"); do
-      line="$(decide next | tail -1)"
-      action="$(echo "$line" | awk '{print $2}')"; wave="$(echo "$line" | awk '{print $3}')"
+      line="$(next_decision)"
+      action="$(echo "$line" | awk '{print $2}')"
+      wave="$(echo "$line" | awk '{print $3}')"
       reason="${line#*:: }"
-      key="${line}|$(fingerprint)"
-      if [ "$key" = "$prev_key" ]; then
-        echo ""
-        echo "!! no progress: '$action' ran but nothing changed."
-        echo "   ./run.sh status"
-        echo "   tail .pipeline/log"
-        break
-      fi
-      prev_key="$key"
-      echo ""; echo "== loop step $i/$max: $action (wave $wave) — $reason"
+      echo ""
+      echo "== loop step $i/$max: $action (wave $wave) — $reason"
       case "$action" in
         done|setup) echo "$reason"; break ;;
-        *) run_stage "$action" "$wave" || { echo "!! stopping loop on stage error"; break; } ;;
+        *) run_stage "$action" "$wave" ;;
       esac
-    done ;;
-  *) echo "usage: ./run.sh [--dry-run] [next|loop [N]|status|doctor|source|build|critique|ship|renderer]"; exit 1 ;;
+    done
+    ;;
+  *) usage >&2; exit 2 ;;
 esac

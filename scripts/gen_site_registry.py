@@ -26,6 +26,9 @@ from __future__ import annotations
 import json
 import os
 import subprocess
+import tempfile
+import stat
+from datetime import date
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -48,11 +51,38 @@ STAGE_TO_STATUS = {
 STATUS_TO_QUEUE = {"done": "DONE", "draft": "PENDING", "pending": "PENDING"}
 
 
+def atomic_write(path: str, text: str) -> None:
+    """Publish one derived file atomically in its destination directory."""
+    directory = os.path.dirname(path)
+    fd, staging = tempfile.mkstemp(prefix=f".{os.path.basename(path)}.", dir=directory)
+    try:
+        mode = stat.S_IMODE(os.stat(path).st_mode) if os.path.exists(path) else 0o644
+        os.fchmod(fd, mode)
+        with os.fdopen(fd, "w", encoding="utf-8") as fh:
+            fh.write(text)
+            fh.flush()
+            os.fsync(fh.fileno())
+        os.replace(staging, path)
+    finally:
+        if os.path.exists(staging):
+            os.unlink(staging)
+
+
 def approved_date(slug: str) -> str | None:
     """ISO date (YYYY-MM-DD) of the last commit touching content/<slug>/critique.md."""
+    critique = os.path.join("content", slug, "critique.md")
+    dirty = subprocess.run(
+        ["git", "status", "--porcelain", "--", critique],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if dirty.stdout.strip():
+        return date.today().isoformat()
     result = subprocess.run(
         ["git", "log", "-1", "--format=%ad", "--date=short", "--",
-         os.path.join("content", slug, "critique.md")],
+         critique],
         cwd=REPO,
         capture_output=True,
         text=True,
@@ -90,9 +120,7 @@ def write_registry(chapters: list[dict]) -> None:
         "chapters": chapters,
     }
     path = os.path.join(REPO, "content", "registry.json")
-    with open(path, "w", encoding="utf-8") as fh:
-        json.dump(reg, fh, indent=2, ensure_ascii=False)
-        fh.write("\n")
+    atomic_write(path, json.dumps(reg, indent=2, ensure_ascii=False) + "\n")
 
 
 QUEUE_INTRO = """# Run Queue
@@ -132,8 +160,7 @@ def render_table(chapters: list[dict]) -> str:
 def write_queue(chapters: list[dict]) -> None:
     path = os.path.join(REPO, "prompts", "queue.md")
     body = QUEUE_INTRO + "\n" + render_table(chapters) + "\n"
-    with open(path, "w", encoding="utf-8") as fh:
-        fh.write(body)
+    atomic_write(path, body)
 
 
 def main() -> int:

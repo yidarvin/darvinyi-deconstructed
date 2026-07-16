@@ -15,6 +15,13 @@ required=(
   prompts/renderer.md
   prompts/ship.md
   prompts/status.md
+  prompts/recover.md
+  scripts/pipeline-lib.sh
+  scripts/pipeline-supervisor.sh
+  scripts/pipeline-service.sh
+  scripts/validate_pipeline.py
+  scripts/set_stage.py
+  scripts/prune_raw.py
   .agents/skills/composition-analysis/SKILL.md
 )
 
@@ -22,7 +29,7 @@ for path in "${required[@]}"; do
   [ -f "$path" ] || { echo "missing required Codex contract: $path" >&2; exit 1; }
 done
 
-echo ">> [1/3] applying registry compatibility fields"
+echo ">> [1/4] applying registry compatibility fields"
 python3 - <<'PY'
 import json
 from pathlib import Path
@@ -39,10 +46,13 @@ for photographer in registry["photographers"]:
 path.write_text(json.dumps(registry, indent=1, ensure_ascii=False) + "\n")
 PY
 
-echo ">> [2/3] checking the Codex-only operational surface"
+echo ">> [2/4] checking the Codex-only operational surface"
 bash scripts/check_no_legacy_runtime.sh
 
-echo ">> [3/3] running the project gate"
+echo ">> [3/4] checking the autonomous pipeline drivers"
+bash scripts/test_pipeline.sh
+
+echo ">> [4/4] running the project gate"
 bash scripts/check.sh
 
 echo ">> Codex takeover contract is current"

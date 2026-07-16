@@ -42,6 +42,10 @@ which is present on macOS and on the Ubuntu CI runner. Vercel only runs
 | `npm run test`      | Vitest: assert every chapter and widget actually renders.           |
 | `npm run lint`      | ESLint (advisory in the gate).                                      |
 | `npm run preview`   | Serve the production build locally.                                 |
+| `./run.sh start`    | Install and start the durable autonomous Codex queue service.       |
+| `./run.sh stop`     | Stop the autonomous service without changing queue state.           |
+| `./run.sh status`   | Show queue progress, runtime health, failures, and the next action.  |
+| `./run.sh doctor`   | Check Codex auth/models, disk, queue invariants, and service setup.  |
 
 Scaffolding and status changes go through the repo scripts, not by hand:
 
@@ -117,3 +121,26 @@ Active pipeline stages use `gpt-5.6-terra` at High effort. The legacy queue
 driver uses `gpt-5.6-sol` at High effort. Use `./run.sh doctor` to verify the
 local Codex setup and `./run.sh --dry-run next` to inspect a stage without
 mutating the repository.
+
+For fully unattended operation, run `./run.sh start` once. It installs a
+per-user launchd service whose plist points to the repository-owned
+`scripts/pipeline-supervisor.sh`, so reboots do not lose the executable. The
+supervisor processes one photographer or recovery unit per ephemeral Codex
+call, rejects overlapping runners, validates every boundary, retries failures
+with bounded backoff, and invokes an automatic recovery role after repeated
+failures. It also protects against disk exhaustion by pruning only raw source
+originals that are already represented by a complete ingested set in a built
+or approved chapter.
+
+Useful checks:
+
+```bash
+./run.sh status
+./run.sh service-status
+tail -f .pipeline/runtime/supervisor.log
+./run.sh stop
+```
+
+Runtime files under `.pipeline/runtime/` are local and ignored. Queue state,
+chapter artifacts, critiques, ship markers, commits, and pushes remain the
+durable audit trail.

@@ -13,3 +13,5 @@ invocation's model and High effort; do not request or switch models.
 4. Update the home/index page: progress (approved count / 100), newest
    chapters.
 5. Commit and push ("ship: integration pass — N chapters live").
+6. Stop after this one wave integration pass. The driver records the shipped
+   marker only after the independent post-stage gates pass.

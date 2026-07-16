@@ -5,20 +5,33 @@
 # no separate typecheck section.
 set -uo pipefail
 
-echo "== 1/7 validate (queue + registry + content) =="
+echo "== 1/9 validate primary pipeline state and artifacts =="
+if ! python3 scripts/validate_pipeline.py; then
+  echo "PIPELINE VALIDATION FAILED"
+  exit 1
+fi
+
+echo ""
+echo "== 2/9 validate derived queue + registry + content =="
 if ! python3 scripts/validate.py; then
   echo "VALIDATE FAILED"
   exit 1
 fi
 
 echo ""
-echo "== 2/7 legacy runtime scan =="
+echo "== 3/9 legacy runtime scan =="
 if ! bash scripts/check_no_legacy_runtime.sh; then
   exit 1
 fi
 
 echo ""
-echo "== 3/7 chapter sync (content/ <-> src/chapters/) =="
+echo "== 4/9 pipeline driver regression tests =="
+if ! bash scripts/test_pipeline.sh; then
+  exit 1
+fi
+
+echo ""
+echo "== 5/9 chapter sync (content/ <-> src/chapters/) =="
 # Every built chapter is authored in src/chapters/<slug>.mdx (what the site
 # renders) and mirrored at content/<slug>/chapter.mdx (the pipeline copy). They
 # MUST stay byte-identical: a resolve pass that edits one but not the other
@@ -44,28 +57,28 @@ fi
 echo "all built chapters byte-identical between content/ and src/chapters/"
 
 echo ""
-echo "== 4/7 prose lint =="
+echo "== 6/9 prose lint =="
 if ! python3 scripts/prose_lint.py; then
   echo "PROSE LINT FAILED"
   exit 1
 fi
 
 echo ""
-echo "== 5/7 test =="
+echo "== 7/9 test =="
 if ! npm run test; then
   echo "TESTS FAILED"
   exit 1
 fi
 
 echo ""
-echo "== 6/7 build (tsc --noEmit + vite build) =="
+echo "== 8/9 build (tsc --noEmit + vite build) =="
 if ! npm run build; then
   echo "BUILD FAILED"
   exit 1
 fi
 
 echo ""
-echo "== 7/7 lint (advisory) =="
+echo "== 9/9 lint (advisory) =="
 if ! npm run lint; then
   echo "lint reported issues (advisory, not blocking the gate)"
 fi

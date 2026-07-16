@@ -13,8 +13,9 @@ none remain. A wrong approve is a defect — but so is blocking a chapter over
 cosmetic margin. Hold the bar at "materially truthful," not "pixel-perfect."
 The book converges only if you stop gating on nitpicks.
 
-For each photographer at stage "built" whose critique.md is missing or marked
-`verdict: resolved`:
+Select exactly one photographer per invocation: the first registry entry in the
+active wave at stage "built" whose critique.md is missing or marked
+`verdict: resolved`. Review, commit, and push that one unit, then stop.
 1. LOOK at every proof PNG in content/<slug>/proofs/ with fresh eyes.
 2. Read the matching overlays/*.json, sources.md, research.md, chapter.mdx.
 3. Judge four things:
@@ -69,8 +70,10 @@ For each photographer at stage "built" whose critique.md is missing or marked
    - `verdict: revise` only when at least one REQUIRED issue remains. Number
      the required fixes and reference image ids; keep advisories in their own
      section so the builder can tell what actually blocks.
-7. On approve, set that photographer's registry stage to "approved".
-8. Commit and push ("critique: <slug> — <verdict>").
+7. On approve, write the approving critique first, then advance with
+   `python3 scripts/set_stage.py <slug> approved`; never hand-edit a registry
+   stage. Run `python3 scripts/validate_pipeline.py`.
+8. Commit and push ("critique: <slug> — <verdict>"), then stop.
 
 When you are unsure whether an issue is material, treat it as ADVISORY.
 Approve when the chapter is materially truthful; perfection is not the bar.

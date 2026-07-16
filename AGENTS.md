@@ -55,6 +55,11 @@ JetBrains Mono uppercase labels.
 Commit and push per photographer (sourcer/builder), per critique (critic),
 and per integration pass (ship), with descriptive messages.
 
+Every state transition goes through `python3 scripts/set_stage.py`; agents never
+hand-edit a registry stage. Source, build, and critique invocations process exactly
+one photographer or one recovery unit, then stop. The supervisor independently
+validates that boundary before selecting the next unit.
+
 ## Unattended operation
 
 There is no human review or asset-drop step. When a source set is under its
@@ -64,3 +69,12 @@ screen capture only when the page explicitly permits reuse and the resulting
 image is usable. Never bypass authentication, a paywall, or a technical access
 control; never fabricate a historical image. Keep retry diagnostics in
 NEEDED.md, but treat them as agent work items, not requests for a person.
+
+The durable macOS service runs `scripts/pipeline-supervisor.sh` from this
+repository. It retries transient failures with capped exponential backoff,
+invokes the recovery role after repeated deterministic failures, enforces one
+mutating runner with an atomic lock, and remains alive after queue completion.
+Before work, it enforces a free-disk floor and may delete only recomputable
+`raw/<slug>/` inputs for already built or approved chapters whose ingested image
+set is complete. Runtime logs, locks, and heartbeats live under
+`.pipeline/runtime/` and are never committed.

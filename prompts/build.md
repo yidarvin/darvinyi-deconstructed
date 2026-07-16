@@ -7,7 +7,13 @@ their findings, owns all repository writes, runs the deterministic gates, and
 serializes commits and pushes. Workers inherit this invocation's model and High
 effort; do not request or switch models.
 
-0. Resolve critiques: for every content/*/critique.md with `verdict: revise`:
+Select exactly one atomic work unit per invocation, using this priority order:
+the first open critique in registry order, otherwise the first overlay audit
+record, otherwise the first ready sourced photographer. Finish, validate,
+commit, and push that one unit, then stop.
+
+0. Resolve critiques: for the first content/*/critique.md in registry order
+   with `verdict: revise`:
    a. Apply each numbered REQUIRED fix — re-run the composition-analysis loop
       for affected images, update overlays/proofs/chapter as needed. Advisory
       (non-blocking) items are optional: fix one only if it is cheap and
@@ -24,8 +30,8 @@ effort; do not request or switch models.
       Commit and push per slug ("resolve critique: <slug>").
    e. If step 0 resolved any critique, stop after those commits. Do not begin
       step 1 in the same invocation; the separate critic must re-review first.
-0.5 Resolve overlay audit records before beginning new chapter work. For every
-   path in needs-review.txt, re-open the ingested image, analysis, spec, and
+0.5 Resolve overlay audit records before beginning new chapter work. For the
+   first path in needs-review.txt, re-open the ingested image, analysis, spec, and
    proof. Run up to three fresh composition-analysis iterations, using
    independent read-only visual review where useful. If a richer truthful spec
    converges, use it; otherwise retain the conservative grid + subject_anchor
@@ -34,7 +40,7 @@ effort; do not request or switch models.
    an automatic closure task, not a request for human review. Commit and push
    any resulting audit fixes before continuing.
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
-   at stage "sourced". Work them one at a time, registry order. A photographer
+   at stage "sourced". Select only the first ready entry in registry order. A photographer
    requires its registry `minImages` count, default 4. Do not build an
    underfilled source set: leave it for the automatic SOURCER recovery stage
    and name the slug and current/required counts in your commit message. For
@@ -58,8 +64,10 @@ effort; do not request or switch models.
       src/chapters/<slug>.mdx — keep it byte-identical with
       content/<slug>/chapter.mdx. Run scripts/check.sh (the full gate) and
       confirm it passes.
-   f. Set that photographer's registry stage to "built". Commit and push
-      ("build: <slug>").
+   f. Advance that photographer with
+      `python3 scripts/set_stage.py <slug> built`; never hand-edit a registry
+      stage. Run `python3 scripts/validate_pipeline.py`. Commit and push
+      ("build: <slug>"), then stop.
 If an image lands in needs-review.txt, keep going — the next builder pass
 automatically closes that audit record before new chapter work.
 Do not write critiques; that is the critic's job.

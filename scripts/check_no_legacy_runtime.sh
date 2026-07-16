@@ -10,6 +10,7 @@ targets=(
   run.sh
   runqueue.sh
   update.sh
+  scripts
   AGENTS.md
   .agents
   README.md
