@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -37,3 +37,18 @@ All ten current proof/spec pairs were visually inspected. Each deterministic sco
 6. Removed the advisory leading `+` rendering blemish.
 
 Re-verified critique history: 2026-07-16 (the complete and only prior round). All ten current overlays score 100/100 with zero warnings; the chapter copies are byte-identical; `scripts/check.sh` passes.
+
+## Critique round — 2026-07-16
+
+### Required fixes
+
+1. **07-dancing-eclipsed-moon — correct `DANCER SILHOUETTES`.** The current W-shaped polyline runs through open sky and smoke—notably around `(0.33, 0.28)`, `(0.49, 0.52)`, and `(0.65, 0.28)`—rather than tracing a visible dancer edge or continuous collective silhouette in the proof. This is a substantive mismatch between the mark and the label, not an endpoint-margin issue. Remove the primitive or replace it with a short contour that visibly follows the group, then revise the related chapter wording that calls the zigzag “a contour of the collective silhouette.”
+
+### Advisory (non-blocking)
+
+- **10-big-mouth-spring:** `GARMENT MASS` functions as a legible pointer to the garment, but its internal zigzag does not follow a distinct contour. A simpler marker would be clearer; this does not misstate the photograph.
+- **02-three-chiefs-piegan:** The resolved-round advisory remains applicable: `MOUNTED RHYTHM` connects the group legibly while crossing the horses rather than following one continuous contour. It is interpretive and non-blocking.
+
+### Verification
+
+I visually re-inspected all ten current proof PNGs, their overlay specs, and the chapter/source/research claims. The prior round’s resolved items remain resolved: the 03 hoop now follows the visible cradleboard, the 02 horizon wording and 05 Arikara identification agree with the proof and analysis, the 06 photographic field follows the reproduced-image boundary, and the corrected 04/09/10 source descriptions match their images. Every current spec independently scores 100/100 with no deductions or warnings; the remaining required defect is semantic and therefore outside the scorer’s geometric checks. Chapter measurements agree with the analysis JSON within the stated tolerance, and the text makes no historical-camera-setting claim.
