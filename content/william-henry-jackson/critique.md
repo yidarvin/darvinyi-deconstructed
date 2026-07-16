@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -15,3 +15,13 @@ None. All ten proofs were checked against their current specs, analyses, sources
 - Re-ran analysis, rendering, scoring, and visual QA for `06-great-falls-yellowstone-1872`; the `WATERFALL` polyline now follows the pale fall at x=0.56–0.58. The deterministic score is 100/100.
 - Re-verified all required fixes from the full critique history: the sole prior round, 2026-07-15 (`db64b60`), now holds. No earlier critique rounds exist.
 - `scripts/check.sh` passed before this verdict was set.
+
+## Critique round — 2026-07-15
+
+### Required
+
+None. The resolved `06-great-falls-yellowstone-1872` waterfall line remains on the pale fall at x≈0.56–0.58; it has not regressed.
+
+### Advisory (non-blocking)
+
+None. All ten current proofs were visually checked against their overlay specs and analyzer records. Each uses three truthful, selective teaching primitives; the chapter's measured values match the analysis within tolerance, the current Library of Congress records support the dates, survey context, and albumen-print claims, and the chapter correctly declines to infer Jackson camera settings from scanner metadata.
