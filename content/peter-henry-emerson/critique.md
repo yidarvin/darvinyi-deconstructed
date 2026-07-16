@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -45,3 +45,9 @@ Re-verified prior critique rounds: 2026-07-15 initial round (commit `2adfd6c`) a
 ### Advisory (non-blocking)
 
 - **05-gunner-working-fowl — two primitives remain after the prior resolved hull removal.** The distant reed line and boatman anchor are truthful and the prior round’s removal has not regressed. A third primitive would improve conformity with the 3–5-primitives teaching target only if it can identify a distinct, visibly supported feature; do not restore the previously rejected hull loop merely to reach a count.
+
+## Resolution — 2026-07-15
+
+Resolved current required fixes: `07-water-lilies` now truthfully labels the measured lower boundary as the **lily-water break**; `10-at-plough-end-furrow` stops the furrow polyline at the plough/furrow junction, before the right horse; and `12-fisherman-home` identifies the telescope in the fisherman’s hands. Fresh analyses, regenerated proofs, visual passes, and deterministic scores all passed at 100/100 with no warnings.
+
+Re-verified every prior required round from `git log -p -- content/peter-henry-emerson/critique.md`: the initial 2026-07-15 round (commit `2adfd6c`) remains satisfied because `08-stiff-pull` has the horse-and-plough image, matching source entry, chapter, overlay, and proof; the second 2026-07-15 round (commit `f0cd39e`) remains satisfied because `05-gunner-working-fowl` contains no boat-hull polyline or detached loop. The third 2026-07-15 round (commit `619036c`) is resolved by the three corrections above. The advisory two-primitive `05` overlay remains intentionally unchanged to avoid restoring the rejected false hull claim.
