@@ -36,6 +36,7 @@ assert_contains "$service_plan" '/scripts/pipeline-supervisor\.sh' \
 assert_not_contains "$service_plan" '/tmp/.*pipeline-supervisor' \
   "launchd must not depend on a reboot-volatile /tmp supervisor"
 assert_contains "$service_plan" '/codex' "launchd plan must pin the Codex executable"
+rg -q 'bootstrap_service' scripts/pipeline-service.sh || fail "service controller lacks bounded bootstrap retry"
 
 help="$(./run.sh help)"
 for command in start stop service-status daemon; do

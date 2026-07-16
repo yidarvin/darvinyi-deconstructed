@@ -66,6 +66,22 @@ loaded() {
   launchctl print "$DOMAIN/$LABEL" >/dev/null 2>&1
 }
 
+bootstrap_service() {
+  local attempt=1
+  while [ "$attempt" -le 3 ]; do
+    if launchctl bootstrap "$DOMAIN" "$PLIST"; then
+      return 0
+    fi
+    if [ "$attempt" -lt 3 ]; then
+      echo "launchd bootstrap attempt $attempt failed; retrying after ${attempt}s" >&2
+      sleep "$attempt"
+    fi
+    attempt=$((attempt + 1))
+  done
+  echo "launchd bootstrap failed after 3 attempts" >&2
+  return 1
+}
+
 if [ "$DRY_RUN" -eq 1 ]; then
   plan
   echo "action:     $cmd (no writes)"
@@ -77,8 +93,9 @@ case "$cmd" in
     write_plist
     if loaded; then
       launchctl bootout "$DOMAIN/$LABEL"
+      sleep 1
     fi
-    launchctl bootstrap "$DOMAIN" "$PLIST"
+    bootstrap_service
     echo "installed and started $LABEL"
     ;;
   start)
@@ -88,7 +105,7 @@ case "$cmd" in
     if loaded; then
       echo "$LABEL is already running"
     else
-      launchctl bootstrap "$DOMAIN" "$PLIST"
+      bootstrap_service
       echo "started $LABEL"
     fi
     ;;
@@ -101,9 +118,9 @@ case "$cmd" in
     fi
     ;;
   restart)
-    if loaded; then launchctl bootout "$DOMAIN/$LABEL"; fi
+    if loaded; then launchctl bootout "$DOMAIN/$LABEL"; sleep 1; fi
     [ -f "$PLIST" ] || write_plist
-    launchctl bootstrap "$DOMAIN" "$PLIST"
+    bootstrap_service
     echo "restarted $LABEL"
     ;;
   status)
