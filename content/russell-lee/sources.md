@@ -1,6 +1,6 @@
 # Russell Lee — source shortlist
 
-Russell Lee’s FSA work rewards a set that is broader than the familiar Pie Town sequence alone: his direct, often flash-lit interiors organize people through tables, doorways, blackboards, and walls, while the San Antonio, Chicago, and Yakima pictures make social space legible through repeated figures and deep architectural frames. Pie Town remains the center of the selection, including both its intimate family pictures and its communal institutions.
+Russell Lee’s FSA work rewards a set that is broader than the familiar Pie Town sequence alone: his direct interiors organize people through tables, doorways, blackboards, and walls, while the San Antonio, Chicago, and Yakima pictures make social space legible through repeated figures and deep architectural frames. Pie Town remains the center of the selection, including both its intimate family pictures and its communal institutions.
 
 **Rights basis:** all files are from the Library of Congress’s Farm Security Administration/Office of War Information collections. LOC states that both the [black-and-white negatives](https://www.loc.gov/collections/fsa-owi-black-and-white-negatives/about-this-collection/rights-and-access/) and [color photographs](https://www.loc.gov/collections/fsa-owi-color-photographs/about-this-collection/rights-and-access/) are public domain and free to use and reuse. Each catalog record below identifies Lee as photographer and carries LOC’s no-known-restrictions advisory. The local JPEGs were derived without cropping from the LOC master TIFFs.
 
@@ -30,7 +30,7 @@ Russell Lee’s FSA work rewards a set that is broader than the familiar Pie Tow
 - **Rights:** LOC FSA/OWI black-and-white negative — public domain / free to use and reuse; record says no known restrictions.
 - **File:** `raw/russell-lee/04-farmer-brother-making-music-pie-town.jpg` (13,923px)
 
-### 05 — *Negro boys on Easter morning, South Side, Chicago, Illinois* (April 1941)
+### 05 — *Negro boys on Easter morning, Southside, Chicago, Illinois* (April 1941)
 - **Why it matters:** Retaining LOC’s historical catalog title, this tightly framed street portrait makes the boys’ varied poses, dark coats, and the bright pavement a deliberate near-to-far pattern.
 - **Source:** https://www.loc.gov/pictures/item/2017789025/
 - **Rights:** LOC FSA/OWI black-and-white negative — public domain / free to use and reuse; record says no known restrictions.

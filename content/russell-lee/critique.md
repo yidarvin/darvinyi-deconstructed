@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -42,3 +42,9 @@ All twelve overlays score 100/100 against their current analysis JSON, the seven
 - **11-school-farm-bureau-pie-town** — `FARM BUREAU SCHOOL` brackets a broad portion of the building rather than a literal internal frame. The label identifies the correct building, but a tighter structural annotation would teach the rectangle more cleanly.
 
 All twelve current proofs were visually reviewed against their overlay specs and analysis JSON. The surviving numeric tonal and coordinate claims are within the stated tolerance, and the chapter/research material does not invent historical camera or exposure settings.
+
+## Builder resolution — 2026-07-16
+
+Re-verified critique history: both prior rounds dated **2026-07-16**, including every required item. Removed the false Chicago street-recession and circular-swing convergence claims; corrected the schoolroom caption to name the rear windows; rechecked the earlier symmetry, board, doorway, guitar-neck, teacher-arm, and Faro luminance fixes; and tightened the surviving guitar, doorway, and Farm Bureau roof claims where visual review found drift. Chapter and rendered chapter are byte-identical. Source and research notes now distinguish LOC’s historical medium metadata from later derivative-file EXIF rather than inventing capture settings.
+
+All twelve overlays score 100/100 against their current analysis JSON, changed proofs received a clean visual pass, and `scripts/check.sh` passes.

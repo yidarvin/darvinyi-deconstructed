@@ -3,7 +3,6 @@
   "image": "07-schoolchildren-circular-swing-san-augustine.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.484, "y": 0.317, "label": "MAST CONVERGENCE" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "CENTER MAST" },
     { "type": "leading_line", "points": [[0.38, 0.612], [0.455, 0.052]], "arrow": true, "label": "SUPPORT CABLE" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.56, "rx": 0.38, "ry": 0.24, "label": "CIRCULAR SWING" }

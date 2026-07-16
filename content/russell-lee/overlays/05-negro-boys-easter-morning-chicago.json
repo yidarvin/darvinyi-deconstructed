@@ -4,7 +4,6 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "CAR CENTERLINE" },
-    { "type": "vanishing_point", "x": 0.572, "y": 0.507, "label": "STREET RECESSION" },
     { "type": "horizon_line", "y": 0.388, "angle": 0, "label": "CURB-AND-STREET BAND" },
     { "type": "subject_anchor", "x": 0.288, "y": 0.488, "r": 0.04, "label": "SEATED BOY" }
   ],

@@ -3,10 +3,8 @@
   "image": "11-school-farm-bureau-pie-town.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.519, "angle": -5.9, "label": "SCHOOL EAVE" },
-    { "type": "frame_in_frame", "x": 0.25, "y": 0.25, "w": 0.58, "h": 0.42, "label": "FARM BUREAU SCHOOL" },
-    { "type": "polyline", "points": [[0.09, 0.89], [0.29, 0.76], [0.48, 0.66]], "label": "ROAD INTO THE SCHOOL" },
+    { "type": "leading_line", "points": [[0.48, 0.41], [0.72, 0.46], [0.98, 0.53]], "arrow": false, "label": "ROOF EDGE" },
     { "type": "polyline", "points": [[0.26, 0.66], [0.35, 0.62], [0.47, 0.64]], "label": "CHILDREN AT THE DOOR" }
   ],
-  "notes": "A low road and the rectilinear school make an improvised civic building claim its ground."
+  "notes": "A long roof edge and the children at the door make an improvised civic building claim its ground."
 }
