@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-15
 
@@ -26,3 +26,24 @@ scoring (100/100). The advisory alley contour was left unchanged.
 
 Re-verified required fixes from critique round 2026-07-15 (the complete
 history for this slug); no earlier critique rounds exist.
+
+## Critique round — 2026-07-15
+
+### Required
+
+1. **05-court-24-baxter — `sources.md` describes structures absent from the
+   supplied proof.** Its shortlist rationale calls the composition a “dark
+   window grid” with “figures around a central void.” The current proof instead
+   visibly organizes the yard around the steep stair, its rail, the large dark
+   doorway beneath it, and children at the lower wall — exactly the features
+   named by the repaired overlay and chapter. No dark window grid or central
+   void supplies the claimed structure. Rewrite the source rationale to match
+   the supplied photograph; otherwise it materially contradicts the chapter’s
+   own correct reading.
+
+### Advisory (non-blocking)
+
+None new. The earlier plate-05 repair remains intact: the frame now encloses
+the large dark doorway below the stair. All twelve current overlays use three
+primitives, score 100/100, and the checked chapter measurements and explicit
+no-settings language remain within tolerance.
