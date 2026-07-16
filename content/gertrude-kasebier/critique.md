@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -18,3 +18,19 @@ All other proofs, chapter claims, and settings language reviewed in this round a
 - Removed the corresponding chapter claim in both mirrored chapter files; they remain byte-identical.
 - Re-verified all required fixes from critique round 2026-07-16 (commit `0ec886a`): this is the full critique history for the slug. The `09-the-bride` advisory was left unchanged because its face identification remains truthful.
 - `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-16
+
+### Required
+
+No required issues remain. The resolved `10-yoked-and-muzzled` false
+`FAR COW'S BACK` claim has not regressed: the current proof and spec contain
+only the foreground-cow and bright-yoke annotations, both of which trace the
+visible features. All ten current proofs were visually checked against their
+specs and sources; the chapter's measured claims remain within tolerance and
+it invents no historical camera settings.
+
+### Advisory (non-blocking)
+
+- No new advisories. The `09-the-bride` face-ellipse margin noted in the
+  2026-07-16 round still identifies the face correctly and is not reopened.
