@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -38,3 +38,14 @@ Re-verified prior required fixes: critique round 2026-07-16 (the only recorded r
 1. Replaced the unsupported “Leica-scale” wording in `sources.md` with “35 mm social documentary,” matching the documented negative format without inferring a camera model.
 
 Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 07 non-relational central-figure label, and 09 cap-to-clasped-hands path) and critique round 2026-07-16 (source-set camera history). Fresh scores for 06, 07, and 09 are 100/100 with clean visual checks; the current chapter and site chapter are byte-identical. `scripts/check.sh` passed before this resolution was marked resolved.
+
+## Critique round — 2026-07-16
+
+### Required
+
+1. **08-mother-and-child-little-rock — `DOORWAY AND CHAIR` claims a rectangular internal frame that is not visible.** The `frame_in_frame` spec (`x=0.25`, `y=0.07`, `w=0.67`, `h=0.76`) encloses the mother, chair, and portions of the surrounding wall, but its four bounds do not trace a doorway or a chair outline: the doorway is a separate dark opening behind the mother and the chair is a separate form behind the child. The chapter repeats this as a “doorway/chair rectangle” that frames the pair. Replace the rectangle claim with primitives that trace the actual doorway and/or chair contours, or remove that framing claim from the overlay and prose.
+
+### Advisory (non-blocking)
+
+- The scorer's remaining 94/100 warnings for the leading lines in 01, 02, and 10 remain non-blocking after visual review: they still visibly follow the gable edge, front porch board, and wagon side respectively.
+- The resolved 06 A-frame, 07 central-figure identification, 09 cap-to-clasped-hands path, and source-set camera-history corrections have not regressed. All quoted analyzer measurements match the current analysis JSON within tolerance, and no camera settings or unsupported camera-model claim is asserted.
