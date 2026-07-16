@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -58,3 +58,20 @@ Re-verified every required fix from both prior 2026-07-15 rounds: (1) plate
 below the stair rather than the smaller opening; (2) the shortlist now matches
 that repaired reading. Plate 05 re-scores 100/100 with a clean visual pass;
 the non-blocking plate-06 advisory remains unchanged.
+
+## Critique round — 2026-07-15
+
+### Required
+
+None. I visually reviewed all twelve current proof PNGs against their overlay
+specs and the chapter/source records. The resolved plate-05 doorway and source
+rationale corrections remain intact and have not materially regressed. Every
+overlay independently scores 100/100 with no deductions or warnings; the
+checked analyzer measurements are within the stated rounding tolerance, and
+the chapter makes no invented camera-settings claim.
+
+### Advisory (non-blocking)
+
+- **06-mullens-alley:** the alley-floor contour remains subtle rather than a
+  crisp edge, but it still reads as the passage's directional path and does
+  not misidentify a feature.
