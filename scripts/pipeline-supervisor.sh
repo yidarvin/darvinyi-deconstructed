@@ -7,7 +7,8 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT" || exit 1
 # launchd supplies a deliberately small PATH. Include the authenticated Codex
 # install and the Homebrew tools used by the deterministic gates.
-export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH:-}"
+export PATH="$ROOT/scripts/service-bin:$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH:-}"
+export PIPELINE_GIT_BIN="${PIPELINE_GIT_BIN:-/usr/bin/git}"
 . scripts/pipeline-lib.sh
 
 RUNTIME="${PIPELINE_RUNTIME_DIR:-$ROOT/.pipeline/runtime}"
@@ -139,6 +140,19 @@ while :; do
     write_state running "$attempt" 0 busy
     log "another runner owns the stage lock; checking again in 15s"
     sleep 15
+    continue
+  fi
+
+  # Git synchronization is infrastructure, not repository work. Retrying it
+  # never needs a Terra recovery agent, and doing so would burn model calls on
+  # an OS permission, network, or authentication failure.
+  if [ "$rc" -eq 69 ]; then
+    attempt=$((attempt + 1))
+    delay="$(pipeline_backoff_seconds "$attempt" "$BASE_BACKOFF" "$MAX_BACKOFF")"
+    next_retry=$(( $(date +%s) + delay ))
+    write_state degraded "$attempt" "$next_retry" "git-sync-rc-69"
+    log "git synchronization failed attempt=$attempt; deterministic retry in ${delay}s (no recovery model)"
+    sleep "$delay"
     continue
   fi
 

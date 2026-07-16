@@ -41,7 +41,16 @@ assert_contains "$service_plan" '/scripts/pipeline-supervisor\.sh' \
 assert_not_contains "$service_plan" '/tmp/.*pipeline-supervisor' \
   "launchd must not depend on a reboot-volatile /tmp supervisor"
 assert_contains "$service_plan" '/codex' "launchd plan must pin the Codex executable"
+assert_contains "$service_plan" 'git:[[:space:]]+/usr/bin/git' \
+  "launchd plan must pin the FDA-approved Apple Git executable"
 grep -q 'bootstrap_service' scripts/pipeline-service.sh || fail "service controller lacks bounded bootstrap retry"
+
+# Every Git invocation inherited by a model must resolve through the service shim
+# to Apple's stable executable, not Homebrew's versioned ad-hoc binary.
+[ "$(PATH="$ROOT/scripts/service-bin:/opt/homebrew/bin:/usr/bin:/bin" command -v git)" = "$ROOT/scripts/service-bin/git" ] \
+  || fail "service PATH does not select the pinned Git shim"
+grep -Fq 'exec /usr/bin/git "$@"' scripts/service-bin/git \
+  || fail "service Git shim does not execute /usr/bin/git"
 
 help="$(./run.sh help)"
 for command in start stop service-status daemon; do
@@ -71,6 +80,26 @@ PATH=/usr/bin:/bin bash scripts/check_no_legacy_runtime.sh \
   || fail "legacy runtime scan requires a non-system search utility"
 
 mkdir -p "$tmp/runtime"
+
+# Git must start from a neutral cwd and use -C to address the repository. A
+# synchronized branch must not execute `git push` at all.
+mkdir -p "$tmp/git-home"
+printf '%s\n' \
+  '#!/usr/bin/env bash' \
+  'printf "cwd=%s args=%s\\n" "$PWD" "$*" >> "$GIT_TRACE_FILE"' \
+  'case "$*" in' \
+  '  *"rev-parse --abbrev-ref @{upstream}"*) echo origin/main ;;' \
+  '  *"rev-list --count origin/main..HEAD"*) echo 0 ;;' \
+  '  *" push"*) echo PUSH_CALLED >> "$GIT_TRACE_FILE"; exit 99 ;;' \
+  'esac' > "$tmp/fake-git"
+chmod +x "$tmp/fake-git"
+HOME="$tmp/git-home" PIPELINE_GIT_BIN="$tmp/fake-git" GIT_TRACE_FILE="$tmp/git-trace" \
+  bash -c '. scripts/pipeline-lib.sh; pipeline_git "$1" status; pipeline_push_if_ahead "$1"' _ "$ROOT" \
+  || fail "neutral-cwd/no-op Git synchronization failed"
+assert_contains "$(cat "$tmp/git-trace")" "cwd=$tmp/git-home args=-C $ROOT status" \
+  "pipeline Git did not start from the neutral HOME directory with -C"
+assert_not_contains "$(cat "$tmp/git-trace")" 'PUSH_CALLED' \
+  "a synchronized branch executed a needless push"
 
 # A live lock must exclude a second mutating runner. The lock holder is a
 # separate process so this tests process-visible behavior rather than a shell
@@ -142,5 +171,27 @@ assert_contains "$(cat "$tmp/supervisor-runtime/supervisor.log")" 'stage failed 
   "supervisor did not record the injected failure"
 assert_contains "$(cat "$tmp/supervisor-runtime/supervisor.state")" 'status=stopped' \
   "bounded supervisor test did not stop cleanly"
+
+# A repeated Git sync failure is infrastructure. It must be retried without ever
+# invoking the expensive recovery model, even at the old every-third-failure edge.
+printf '%s\n' \
+  '#!/usr/bin/env bash' \
+  'case "$1" in' \
+  '  decision) echo "NEXT critique 4 :: injected sync failure" ;;' \
+  '  next) n=$(cat "$CALLS" 2>/dev/null || echo 0); echo $((n + 1)) > "$CALLS"; exit 69 ;;' \
+  '  recover) touch "$RECOVERY_CALLED"; exit 0 ;;' \
+  '  *) exit 2 ;;' \
+  'esac' > "$tmp/fake-sync-runner"
+chmod +x "$tmp/fake-sync-runner"
+PATH=/usr/bin:/bin CALLS="$tmp/sync-calls" RECOVERY_CALLED="$tmp/recovery-called" \
+  PIPELINE_RUNNER="$tmp/fake-sync-runner" \
+  PIPELINE_RUNTIME_DIR="$tmp/sync-supervisor-runtime" PIPELINE_MIN_FREE_MB=1 \
+  PIPELINE_BASE_BACKOFF_SECONDS=0 PIPELINE_MAX_BACKOFF_SECONDS=0 \
+  PIPELINE_SUCCESS_DELAY_SECONDS=0 PIPELINE_MAX_CYCLES=3 \
+  bash scripts/pipeline-supervisor.sh > "$tmp/sync-supervisor.stdout" 2> "$tmp/sync-supervisor.stderr"
+[ "$(cat "$tmp/sync-calls")" -eq 3 ] || fail "supervisor did not retry Git synchronization deterministically"
+[ ! -e "$tmp/recovery-called" ] || fail "Git synchronization failure invoked a recovery model"
+assert_contains "$(cat "$tmp/sync-supervisor-runtime/supervisor.log")" 'no recovery model' \
+  "Git synchronization failure was not classified as infrastructure"
 
 echo "PIPELINE TESTS OK"

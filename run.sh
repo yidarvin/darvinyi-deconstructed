@@ -4,6 +4,7 @@ set -euo pipefail
 
 ROOT="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT"
+export PATH="$ROOT/scripts/service-bin:$PATH"
 . scripts/pipeline-lib.sh
 
 BUILD_MODEL="${BUILD_MODEL:-gpt-5.6-terra}"
@@ -80,14 +81,14 @@ EOF
 
 fingerprint() {
   local head tree registry
-  head="$(git rev-parse HEAD 2>/dev/null || echo none)"
-  tree="$(git status --porcelain 2>/dev/null | shasum | awk '{print $1}')"
+  head="$(pipeline_git "$ROOT" rev-parse HEAD 2>/dev/null || echo none)"
+  tree="$(pipeline_git "$ROOT" status --porcelain 2>/dev/null | shasum | awk '{print $1}')"
   registry="$(shasum data/registry.json | awk '{print $1}')"
   printf '%s|%s|%s\n' "$head" "$tree" "$registry"
 }
 
 tree_dirty() {
-  [ -n "$(git status --porcelain 2>/dev/null)" ]
+  [ -n "$(pipeline_git "$ROOT" status --porcelain 2>/dev/null)" ]
 }
 
 decide() {
@@ -300,12 +301,8 @@ run_stage() {
 
   before="$(fingerprint)"
   [ -f "$LAST_FAILURE" ] && had_failure=1
-  if [ "$PUSH_CHANGES" = "1" ] && git rev-parse --abbrev-ref '@{upstream}' >/dev/null 2>&1; then
-    ahead="$(git rev-list --count '@{upstream}..HEAD')"
-    if [ "$ahead" -gt 0 ]; then
-      echo ">>>> pushing $ahead committed unit(s) left by an interrupted run"
-      git push || return 69
-    fi
+  if [ "$PUSH_CHANGES" = "1" ]; then
+    pipeline_push_if_ahead "$ROOT" || return 69
   fi
   run_codex "$model" "$prompt" || rc=$?
   if [ "$rc" -ne 0 ]; then
@@ -338,9 +335,9 @@ run_stage() {
     ship) touch ".pipeline/wave${wave}.shipped" ;;
   esac
   if [ "$stage" = "renderer" ] || [ "$stage" = "ship" ]; then
-    git add .pipeline/renderer.done .pipeline/wave*.shipped
-    if ! git diff --cached --quiet; then
-      git commit -m "pipeline: marker after $stage (wave $wave)"
+    pipeline_git "$ROOT" add .pipeline/renderer.done .pipeline/wave*.shipped
+    if ! pipeline_git "$ROOT" diff --cached --quiet; then
+      pipeline_git "$ROOT" commit -m "pipeline: marker after $stage (wave $wave)"
     fi
   fi
 
@@ -355,10 +352,12 @@ run_stage() {
     return 76
   fi
 
-  if [ "$PUSH_CHANGES" = "1" ] && ! git push; then
-    append_summary "$stage" "$wave" "$model" 69
-    echo "!! push failed; committed work is preserved and will be pushed before the next model call"
-    return 69
+  if [ "$PUSH_CHANGES" = "1" ]; then
+    if ! pipeline_push_if_ahead "$ROOT"; then
+      append_summary "$stage" "$wave" "$model" 69
+      echo "!! git synchronization failed; committed work is preserved and no recovery model will be invoked"
+      return 69
+    fi
   fi
   rm -f "$LAST_FAILURE"
   append_summary "$stage" "$wave" "$model" 0
@@ -368,6 +367,12 @@ run_stage() {
 doctor() {
   local failures=0 cache legacy free_mb plist
   command -v "$CODEX_BIN" >/dev/null 2>&1 || { echo "FAIL Codex CLI not found: $CODEX_BIN"; failures=$((failures + 1)); }
+  if [ "$PIPELINE_GIT_BIN" = "/usr/bin/git" ] && [ -x "$PIPELINE_GIT_BIN" ]; then
+    echo "OK   service Git pinned to $PIPELINE_GIT_BIN"
+  else
+    echo "FAIL service Git must be pinned to FDA-approved /usr/bin/git (got $PIPELINE_GIT_BIN)"
+    failures=$((failures + 1))
+  fi
   if command -v "$CODEX_BIN" >/dev/null 2>&1; then
     echo "OK   $($CODEX_BIN --version 2>&1 | tail -1)"
     if "$CODEX_BIN" login status 2>&1 | rg -q '^Logged in'; then
@@ -419,7 +424,9 @@ doctor() {
   fi
   plist="$HOME/Library/LaunchAgents/com.darvinyi.deconstructed.pipeline.plist"
   if [ -f "$plist" ]; then
-    if rg -q --fixed-strings "$ROOT/scripts/pipeline-supervisor.sh" "$plist" && ! rg -q '/tmp/.*pipeline-supervisor' "$plist"; then
+    if rg -q --fixed-strings "$ROOT/scripts/pipeline-supervisor.sh" "$plist" \
+        && rg -q '<string>/usr/bin/git</string>' "$plist" \
+        && ! rg -q '/tmp/.*pipeline-supervisor' "$plist"; then
       echo "OK   durable launchd supervisor path"
     else
       echo "FAIL launchd plist does not use the repository supervisor"

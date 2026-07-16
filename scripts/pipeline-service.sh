@@ -8,8 +8,9 @@ DOMAIN="gui/$(id -u)"
 PLIST="$HOME/Library/LaunchAgents/$LABEL.plist"
 SUPERVISOR="$ROOT/scripts/pipeline-supervisor.sh"
 RUNTIME="$ROOT/.pipeline/runtime"
-SERVICE_PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+SERVICE_PATH="$ROOT/scripts/service-bin:$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 CODEX_PATH="$(command -v codex 2>/dev/null || printf '%s' "$HOME/.local/bin/codex")"
+GIT_PATH="/usr/bin/git"
 DRY_RUN=0
 
 if [ "${1:-}" = "--dry-run" ]; then
@@ -23,6 +24,7 @@ plan() {
   echo "plist:      $PLIST"
   echo "supervisor: $SUPERVISOR"
   echo "codex:      $CODEX_PATH"
+  echo "git:        $GIT_PATH"
   echo "stdout:     $RUNTIME/launchd.out.log"
   echo "stderr:     $RUNTIME/launchd.err.log"
 }
@@ -47,6 +49,8 @@ write_plist() {
     printf '    <string>%s</string>\n' "$SERVICE_PATH"
     echo '    <key>CODEX_BIN</key>'
     printf '    <string>%s</string>\n' "$CODEX_PATH"
+    echo '    <key>PIPELINE_GIT_BIN</key>'
+    printf '    <string>%s</string>\n' "$GIT_PATH"
     echo '  </dict>'
     echo '  <key>RunAtLoad</key><true/>'
     echo '  <key>KeepAlive</key><true/>'

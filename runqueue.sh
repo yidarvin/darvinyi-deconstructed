@@ -115,6 +115,7 @@ esac
 # --- move to the repo root (this script lives there) ------------------------
 SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)" || die "cannot resolve script directory"
 cd "$SCRIPT_DIR" || die "cannot cd to $SCRIPT_DIR"
+export PATH="$SCRIPT_DIR/scripts/service-bin:$PATH"
 . scripts/pipeline-lib.sh
 RUNTIME="${PIPELINE_RUNTIME_DIR:-$SCRIPT_DIR/.pipeline/runtime}"
 
@@ -129,8 +130,8 @@ fi
 
 # Is this a git work tree? The commit/push and clean-tree guards only apply if so.
 HAVE_GIT=0
-git rev-parse --is-inside-work-tree >/dev/null 2>&1 && HAVE_GIT=1
-tree_dirty() { [ -n "$(git status --porcelain 2>/dev/null)" ]; }
+pipeline_git "$SCRIPT_DIR" rev-parse --is-inside-work-tree >/dev/null 2>&1 && HAVE_GIT=1
+tree_dirty() { [ -n "$(pipeline_git "$SCRIPT_DIR" status --porcelain 2>/dev/null)" ]; }
 
 # An auto-committing loop must start from a clean tree, or it can fold stray local
 # changes into an unrelated chapter's commit.

@@ -132,6 +132,13 @@ failures. It also protects against disk exhaustion by pruning only raw source
 originals that are already represented by a complete ingested set in a built
 or approved chapter.
 
+On macOS, the service intentionally routes Git through
+`scripts/service-bin/git` to `/usr/bin/git`. Full Disk Access is attached to an
+executable identity, and Homebrew Git uses a versioned ad-hoc identity that can
+change on upgrade. The driver skips pushes when the branch is already synchronized;
+permission, authentication, and network sync failures retry without spending a
+Codex recovery call.
+
 Useful checks:
 
 ```bash

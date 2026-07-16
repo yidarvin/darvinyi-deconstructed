@@ -2,6 +2,46 @@
 # Shared, dependency-light helpers for the unattended pipeline drivers.
 
 PIPELINE_LOCK_DIR=""
+PIPELINE_GIT_BIN="${PIPELINE_GIT_BIN:-/usr/bin/git}"
+export PIPELINE_GIT_BIN
+
+# macOS protects ~/Documents with TCC independently of Unix mode bits. Always
+# start Git from a neutral cwd and address the repository explicitly. The
+# launchd service pins PIPELINE_GIT_BIN to Apple's stable, FDA-approved Git;
+# Homebrew Git has a versioned ad-hoc identity that changes on upgrade.
+pipeline_git() {
+  local root="$1"
+  shift
+  [ -x "$PIPELINE_GIT_BIN" ] || {
+    echo "pipeline Git is not executable: $PIPELINE_GIT_BIN" >&2
+    return 127
+  }
+  (
+    cd "${HOME:?HOME is required for neutral Git cwd}" || exit 72
+    "$PIPELINE_GIT_BIN" -C "$root" "$@"
+  )
+}
+
+# Push only when the current branch actually has committed work ahead of its
+# upstream. A no-op push is not progress and must not turn a successful recovery
+# into an infrastructure failure.
+pipeline_push_if_ahead() {
+  local root="$1" upstream ahead
+  if ! upstream="$(pipeline_git "$root" rev-parse --abbrev-ref '@{upstream}' 2>/dev/null)"; then
+    echo "git sync unavailable: current branch has no readable upstream" >&2
+    return 69
+  fi
+  if ! ahead="$(pipeline_git "$root" rev-list --count "${upstream}..HEAD")"; then
+    echo "git sync unavailable: cannot calculate commits ahead of $upstream" >&2
+    return 69
+  fi
+  if [ "$ahead" -eq 0 ]; then
+    echo ">>>> git sync: already synchronized with $upstream"
+    return 0
+  fi
+  echo ">>>> pushing $ahead committed unit(s) to $upstream"
+  pipeline_git "$root" push || return 69
+}
 
 pipeline_lock_acquire() {
   local runtime="$1" lock owner tries=0

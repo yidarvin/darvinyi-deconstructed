@@ -74,6 +74,10 @@ The durable macOS service runs `scripts/pipeline-supervisor.sh` from this
 repository. It retries transient failures with capped exponential backoff,
 invokes the recovery role after repeated deterministic failures, enforces one
 mutating runner with an atomic lock, and remains alive after queue completion.
+It pins Git to `/usr/bin/git` through `scripts/service-bin/git` because that
+stable Apple executable has the macOS Full Disk Access grant; never let the
+service resolve versioned Homebrew Git ahead of it. Git synchronization failures
+are infrastructure retries and must never invoke a Terra recovery agent.
 Before work, it enforces a free-disk floor and may delete only recomputable
 `raw/<slug>/` inputs for already built or approved chapters whose ingested image
 set is complete. Runtime logs, locks, and heartbeats live under

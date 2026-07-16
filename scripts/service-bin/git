@@ -1,0 +1,4 @@
+#!/bin/sh
+# Stable Git identity for unattended macOS jobs. /usr/bin/git has the explicit
+# Full Disk Access grant; Homebrew Git's versioned ad-hoc identity does not.
+exec /usr/bin/git "$@"
