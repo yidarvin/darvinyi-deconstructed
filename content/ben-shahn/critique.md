@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -73,3 +73,12 @@ Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 0
 - The prior 2026-07-16 advisory for the scorer warnings on 01, 02, and 10 remains settled: their current scores are still 94/100 only for the same leading-line warnings, and no material visual regression was found. Do not reopen these as required without a material change.
 - 01's left-gable line extends slightly past the roof apex into the sky. It still clearly identifies the gable edge and is advisory only.
 - 03's `symmetry_axis` labelled `CENTRAL FIGURE BAND` is a weak use of a symmetry primitive for an asymmetric group, but it does not make a material factual claim beyond the visible central grouping.
+
+## Builder resolution — 2026-07-16
+
+1. Relabelled 02's existing anchor as `PALE SACK STRAP`, the visible feature at its measured coordinate, and revised the chapter and plate caption to remove the false face claim.
+2. Removed 03's `NEGATIVE EDGE` horizon line and all matching prose. The visible negative border remains acknowledged as scan material, but is no longer presented as an overlay claim.
+3. Moved 05's anchor onto the visible torso of the right-hand picker and revised the spec, chapter, and plate caption accordingly. The scorer's alternative target falls on foreground crop rather than the pictured worker, so it was rejected after visual review; the truthful spec still passes at 83.3/100.
+4. Removed 09's unsupported doorway frame and its matching prose. The separately verified cap-to-clasped-hands path remains in place.
+
+Re-verified every prior required round in this critique history: the 06 A-frame / 07 non-relational central-figure / 09 extended cap-to-hands corrections; the unsupported Leica camera-model removal; and the 08 doorway-and-chair rectangle removal. Fresh render, visual, and scorer checks are clean for 06, 07, and 08 (100/100 each), while all ten current overlays pass the >=80 gate. `content/ben-shahn/chapter.mdx` and `src/chapters/ben-shahn.mdx` are byte-identical. `scripts/check.sh` passed before resolution.
