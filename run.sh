@@ -345,7 +345,10 @@ run_stage() {
   fi
 
   after="$(fingerprint)"
-  if [ "$before" = "$after" ] && { [ "$stage" != "recover" ] || [ "$had_failure" -eq 1 ]; }; then
+  # Recovery is allowed to be a verified no-op: when its deterministic gates
+  # pass, clearing a stale failure marker is the observable progress. Treating
+  # that case as an error traps the supervisor in an endless recovery loop.
+  if [ "$before" = "$after" ] && [ "$stage" != "recover" ]; then
     append_summary "$stage" "$wave" "$model" 76
     record_failure "$stage" "$wave" 76 "stage-exited-zero-without-progress"
     echo "!! stage exited 0 but made no observable progress"

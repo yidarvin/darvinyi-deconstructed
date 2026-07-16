@@ -30,6 +30,11 @@ for script in run.sh runqueue.sh scripts/pipeline-supervisor.sh scripts/pipeline
   bash -n "$script" || fail "$script does not parse"
 done
 
+# A recovery that verifies a transient failure must be able to clear its stale
+# marker without inventing a repository mutation.
+rg -Fq 'if [ "$before" = "$after" ] && [ "$stage" != "recover" ]; then' run.sh \
+  || fail "verified no-op recovery would be rejected as zero progress"
+
 service_plan="$(scripts/pipeline-service.sh --dry-run install)"
 assert_contains "$service_plan" '/scripts/pipeline-supervisor\.sh' \
   "launchd must execute the repository-owned supervisor"
