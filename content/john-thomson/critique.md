@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -72,3 +72,18 @@ full-plate symmetry claim in its overlay, proof, caption, or prose; (2) plate
 01 no longer claims a decisive diagonal; and (3) plate 04 no longer claims
 round-arched windows. Plates 01, 04, and 06 each re-score 100/100 with clean
 visual passes.
+
+## Critique round — 2026-07-15
+
+### Required
+
+None. I visually reviewed all ten current proof PNGs against their overlay
+specs and the chapter/source records. The resolved plate-01, plate-04, and
+plate-06 corrections remain intact and have not materially regressed. Every
+overlay independently scores 100/100 with no deductions or warnings; the
+checked analyzer measurements are within the stated rounding tolerance, and
+the chapter makes no invented camera-settings claim.
+
+### Advisory (non-blocking)
+
+None.
