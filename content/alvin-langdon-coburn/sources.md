@@ -2,7 +2,7 @@
 
 Coburn's early city and bridge photographs compress London and New York into graphic silhouettes, steep viewpoints, and strong perspectival corridors; his portraits bring the same pictorial discipline to face, gesture, and dark ground. The shortlist deliberately ends with the 1917 *Vortograph*: the decisive break from those observed scenes into camera-made abstraction.
 
-**Rights basis:** The eleven downloaded files are highest-resolution TIFFs from the Library of Congress Prints & Photographs Division. They are pre-1929 works by Coburn and are public domain in the United States; LOC supplies the catalog records and unrestricted master files. The title-level record and the direct TIFF URL are retained below for provenance.
+**Rights basis:** The twelve downloaded files are highest-resolution TIFFs from the Library of Congress Prints & Photographs Division. They are pre-1929 works by Coburn and are public domain in the United States; LOC supplies the catalog records and unrestricted master files. The title-level record and the direct TIFF URL are retained below for provenance.
 
 ## Canonical shortlist
 
@@ -80,7 +80,7 @@ Coburn's early city and bridge photographs compress London and New York into gra
 ## Verified reserve
 
 ### *Max Weber* (before 1913)
-- **Why it matters:** A studio portrait built around Weber's strongly lit profile and surrounding darkness; it gives the later builder a second portrait option with a different weight distribution.
+- **Why it matters:** A studio three-quarter/frontal portrait built around Weber's strongly lit face and surrounding darkness; it gives the later builder a second portrait option with a different weight distribution.
 - **Source:** [LOC record](https://www.loc.gov/item/2002706510/) · [master TIFF](https://cdn.loc.gov/master/pnp/cph/3b20000/3b25000/3b25800/3b25848u.tif)
 - **Rights:** Public domain in the US (published before 1929).
 - **File:** `raw/alvin-langdon-coburn/12-max-weber.jpg` (1536px long edge)

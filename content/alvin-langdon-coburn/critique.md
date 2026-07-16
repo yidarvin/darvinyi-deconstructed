@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -39,3 +39,11 @@ Reviewed all twelve current proof PNGs against the rendered specs, source/resear
 ### Advisory (non-blocking)
 
 - `07-weirs-close-edinburgh`: tighten the first point of `SUNLIT PATH` if the overlay is next rendered; it begins slightly in dark paving before reaching the light wedge, but the diagonal still reads correctly.
+
+## Resolution — 2026-07-16
+
+1. `03-portrait-of-george-bernard-shaw`: removed the detector-derived `SHOULDER BREAK`; the portrait is now described only by its head, beard diagonal, and print edge.
+2. `08-the-bridge-venice`: moved the figure annotation to the standing figure and updated its overlay note, chapter sentence, and proof caption.
+3. `10-williamsburg-bridge`: replaced the false horizontal deck claim with a traced distant deck and retraced the two visible foreground girders.
+4. `12-max-weber`: relabeled the pose as a three-quarter frontal portrait and moved the near-eye annotation from the far temple to the visible eye; matching chapter, source, and proof text now agree.
+5. `sources.md`: corrects the rights-basis count to twelve ingested files.
