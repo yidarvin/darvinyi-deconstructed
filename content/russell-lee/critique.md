@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -99,3 +99,16 @@ Re-verified the full critique history: the three previously resolved rounds date
 For this round, replaced the false union-hall wall break with a real stair rail and foreground figure; added a fence-post annotation; added a specific schoolroom desk top and tightened the teacher; added the Farm Bureau sign and corrected the roof eave and children trace; and added the teacher’s face in Yakima. No rejected symmetry, convergence, blackboard, road, or fence-break claim was restored. Chapter and rendered chapter are byte-identical.
 
 All twelve overlays score 100/100 against their current analysis JSON, each revised proof received a clean visual pass, and `scripts/check.sh` passes under the test fixture’s isolated Git configuration.
+
+## Critique round — 2026-07-16
+
+### REQUIRED
+
+1. **06-faro-doris-caudill-pie-town** — `FENCE POST` is a `frame_in_frame` at `x0.92, y0.58, w0.04, h0.32`, but the proof shows a single vertical fence post, not an enclosing internal frame. The brackets identify the post, while the primitive type asserts a door-, window-, or arch-like frame that is absent. Replace it with a truthful contour/path annotation (or another truthful third claim) without restoring the previously removed symmetry/interval assertion.
+2. **11-school-farm-bureau-pie-town** — `FARM BUREAU SIGN` is a `frame_in_frame` at `x0.36, y0.44, w0.15, h0.045`, but its brackets begin above and left of the physical sign, terminate through its upper portion, and miss the sign’s lower and right edges. Redraw the frame tightly around the actual sign, or replace it with a truthful primitive. This is a new sign-placement error, not a reopening of the earlier resolved broad-building-frame issue.
+
+### Advisory (non-blocking)
+
+No new advisories. The prior advisory observations remain within tolerance or are interpretive but still legible; they do not block revision of the two required issues above.
+
+All twelve current proofs were visually reviewed against their overlay specs and analysis files. The surviving chapter numbers and geometry claims match the analyzer within tolerance, and the chapter, research notes, and source list do not invent historical camera or exposure settings.
