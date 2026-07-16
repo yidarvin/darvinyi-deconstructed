@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -14,3 +14,11 @@ verdict: revise
 
 - The geometric scorer warns that the leading lines in 01, 02, and 10 do not match its detected edges. Visual inspection still identifies the gable edge, porch board, and wagon side respectively; this is not a blocking geometric or semantic error.
 - The chapter's quoted analyzer measurements were checked against the current analysis JSON and are within the stated tolerance. No camera settings are asserted.
+
+## Builder resolution — 2026-07-16
+
+1. Replaced the unsupported rectangular `frame_in_frame` in 06 with a polyline that follows the right scale leg; together with the existing left-leg mark it traces the visible A-frame. Updated the chapter and plate caption to describe the two legs, not a rectangle.
+2. Renamed 07's subject anchor `CENTRAL SEATED FIGURE` and made the chapter use the same non-relational identification.
+3. Extended 09's cap-to-clasped-hands polyline through the shirtfront to the hands at y=0.89, and aligned the chapter prose with that visible path.
+
+Re-verified prior required fixes: critique round 2026-07-16 (the only recorded round). Fresh analysis/render/score passes for 06, 07, and 09 scored 100/100 with clean visual checks. `scripts/check.sh` passed in a neutral Git-test environment; the session-injected Git hook configuration otherwise blocks the test fixture's initial commit before its assertions run.
