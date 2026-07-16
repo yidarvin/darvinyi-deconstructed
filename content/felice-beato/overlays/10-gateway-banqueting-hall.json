@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-gateway-banqueting-hall.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.16, 0.81], [0.46, 0.67], [0.68, 0.54]], "arrow": true, "label": "rubble slope" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.74, "rx": 0.05, "ry": 0.08, "label": "figures amid rubble" },
+    { "type": "frame_in_frame", "x": 0.59, "y": 0.24, "w": 0.29, "h": 0.36, "label": "ruined gateway arch" }
+  ],
+  "notes": "A rubble slope carries the eye to a ruined gateway arch."
+}

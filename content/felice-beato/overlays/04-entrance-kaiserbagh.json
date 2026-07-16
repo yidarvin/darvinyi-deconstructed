@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-entrance-kaiserbagh.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.226, 0.643], [0.768, 0.239]], "arrow": true, "label": "stair rail" },
+    { "type": "leading_line", "points": [[0.289, 0.658], [0.74, 0.222]], "arrow": true, "label": "facade diagonal" },
+    { "type": "frame_in_frame", "x": 0.48, "y": 0.42, "w": 0.16, "h": 0.28, "label": "central archway" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.67, "rx": 0.025, "ry": 0.06, "label": "figure at threshold" }
+  ],
+  "notes": "Stairs and facade edges converge on a dark central threshold."
+}

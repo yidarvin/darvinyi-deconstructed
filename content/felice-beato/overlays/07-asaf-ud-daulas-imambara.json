@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-asaf-ud-daulas-imambara.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.42, 0.45], [0.59, 0.39], [0.79, 0.40], [0.95, 0.48]], "label": "rightward facade" },
+    { "type": "frame_in_frame", "x": 0.28, "y": 0.53, "w": 0.12, "h": 0.20, "label": "principal arch" },
+    { "type": "subject_anchor", "x": 0.36, "y": 0.43, "r": 0.055, "label": "front facade" }
+  ],
+  "notes": "A broad facade extends rightward above an irregular garden."
+}

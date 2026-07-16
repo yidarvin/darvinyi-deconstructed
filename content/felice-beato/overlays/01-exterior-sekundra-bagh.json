@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-exterior-sekundra-bagh.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.493, "angle": -1.0, "label": "roofline" },
+    { "type": "frame_in_frame", "x": 0.81, "y": 0.48, "w": 0.16, "h": 0.18, "label": "large breach" },
+    { "type": "ellipse", "cx": 0.11, "cy": 0.67, "rx": 0.065, "ry": 0.08, "label": "figures for scale" }
+  ],
+  "notes": "A damaged parapet and a large breach hold small figures against a large field of sky."
+}

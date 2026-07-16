@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-jumma-musjid-delhi.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.08, 0.83], [0.37, 0.69], [0.59, 0.60]], "label": "terrace rooflines" },
+    { "type": "ellipse", "cx": 0.66, "cy": 0.35, "rx": 0.08, "ry": 0.08, "label": "central dome" },
+    { "type": "polyline", "points": [[0.03, 0.41], [0.18, 0.42], [0.32, 0.39], [0.51, 0.35], [0.66, 0.30], [0.83, 0.35], [0.96, 0.41]], "label": "mosque skyline" }
+  ],
+  "notes": "Low rooftops make a layered foreground for the mosque's uneven skyline."
+}

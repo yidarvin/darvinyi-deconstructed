@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-golden-temple-amritsar.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "facade center" },
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.48, "w": 0.28, "h": 0.42, "label": "central doorway" },
+    { "type": "ellipse", "cx": 0.28, "cy": 0.78, "rx": 0.035, "ry": 0.09, "label": "standing figure" }
+  ],
+  "notes": "Ornamental panels repeat around a deep central doorway and a standing figure."
+}

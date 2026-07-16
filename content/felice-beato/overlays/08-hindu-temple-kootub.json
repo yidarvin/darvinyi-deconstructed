@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-hindu-temple-kootub.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.06, 0.28], [0.45, 0.29], [0.91, 0.31]], "arrow": false, "label": "carved lintel" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.78, "rx": 0.04, "ry": 0.07, "label": "seated figure" },
+    { "type": "frame_in_frame", "x": 0.40, "y": 0.21, "w": 0.27, "h": 0.61, "label": "central opening" }
+  ],
+  "notes": "A dense forest of carved columns makes darkness at the center feel like an opening."
+}

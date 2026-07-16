@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-lucknow-panorama.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.26, "label": "distant skyline" },
+    { "type": "ellipse", "cx": 0.91, "cy": 0.31, "rx": 0.025, "ry": 0.20, "label": "tall tower" },
+    { "type": "polyline", "points": [[0.03, 0.68], [0.29, 0.52], [0.51, 0.64], [0.75, 0.46], [0.97, 0.53]], "label": "city sweep" }
+  ],
+  "notes": "A six-part panoramic sweep alternates low city fabric with monumental anchors."
+}

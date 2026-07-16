@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-prince-kung.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "sitter's axis" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.35, "rx": 0.07, "ry": 0.06, "label": "Prince Kung's face" },
+    { "type": "polyline", "points": [[0.26, 0.47], [0.48, 0.43], [0.72, 0.57]], "label": "embroidered robe" }
+  ],
+  "notes": "The sitter's quiet axis meets the robe's dense ornamental sweep."
+}

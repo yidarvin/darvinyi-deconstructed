@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-execution-rebels-lucknow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.23, "y": 0.15, "w": 0.49, "h": 0.42, "label": "gallows structure" },
+    { "type": "ellipse", "cx": 0.41, "cy": 0.38, "rx": 0.035, "ry": 0.08, "label": "central figure" },
+    { "type": "polyline", "points": [[0.08, 0.55], [0.27, 0.57], [0.52, 0.58], [0.80, 0.58]], "label": "witness line" }
+  ],
+  "notes": "The sparse frame centers a wooden gallows and separates groups of witnesses."
+}
