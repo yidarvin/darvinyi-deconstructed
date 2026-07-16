@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -47,3 +47,15 @@ Reviewed all twelve current proof PNGs against the rendered specs, source/resear
 3. `10-williamsburg-bridge`: replaced the false horizontal deck claim with a traced distant deck and retraced the two visible foreground girders.
 4. `12-max-weber`: relabeled the pose as a three-quarter frontal portrait and moved the near-eye annotation from the far temple to the visible eye; matching chapter, source, and proof text now agree.
 5. `sources.md`: corrects the rights-basis count to twelve ingested files.
+
+## Critique round — 2026-07-16
+
+Reviewed all twelve current proof PNGs against their matching overlay specs, analyzer records, source notes, research, manifest, and chapter text. Every stored spec scores 100/100 with no deterministic deductions or warnings; the required issue below is semantic and therefore outside that geometric score.
+
+### Required
+
+1. `04-portrait-of-g-k-chesterton`: remove or truthfully replace the `COAT / GROUND BREAK` horizon line (`y: 0.481`). In the current proof and source image it crosses Chesterton's lower face/mouth and chin, while his coat and collar begin materially lower; there is no horizontal coat/ground boundary at the claimed position. The analyzer identifies this only as a gradient-derived luminance split, not evidence for the named structure. Render a corrected proof and keep the overlay at three to five truthful teaching primitives.
+
+### Advisory (non-blocking)
+
+- `03-portrait-of-george-bernard-shaw`: if this overlay is next rendered, tighten the first point of `HEAD AND BEARD DIAGONAL` (`0.20, 0.15`) to the head boundary. Its current start sits in empty dark field, but the rest of the polyline still clearly teaches the head-and-beard tilt, so this does not block approval.
