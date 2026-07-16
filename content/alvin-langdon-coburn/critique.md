@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -13,3 +13,13 @@ Reviewed all twelve proof PNGs against their overlay specs, analyzer records, so
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-07-16
+
+Re-verified prior critique round: 2026-07-16 (`e67c836`).
+
+1. `01-corner-of-25-mortimer-street`: `sources.md` now identifies the digitized mounted print's interior, seated figure, wall pictures, fireplace, and nested reproduction frame.
+2. `03-portrait-of-george-bernard-shaw`: `sources.md` now identifies the close head-and-beard portrait against its dark field.
+3. `09-spider-webs`: relabeled the rendered overlay as boat rigging, reflected rigging, waterline, and boat/reflection; corrected the source note, chapter, rendered chapter copy, and proof contact-sheet caption. The re-rendered proof received 100/100 with no deterministic deductions or warnings and passed visual review.
+
+`content/alvin-langdon-coburn/chapter.mdx` and `src/chapters/alvin-langdon-coburn.mdx` were confirmed byte-identical. The full `scripts/check.sh` gate passed in an isolated worktree containing this resolution, preserving unrelated in-progress repository changes.

@@ -7,7 +7,7 @@ Coburn's early city and bridge photographs compress London and New York into gra
 ## Canonical shortlist
 
 ### 01 — *A Corner of 25 Mortimer Street* (June 1900)
-- **Why it matters:** A narrow façade study whose window grid, street corner, and deep tonal recession already make architecture a nearly abstract arrangement.
+- **Why it matters:** The digitized mounted print contains an interior with a seated figure, wall pictures, and a fireplace; its nested frames make the reproduction's physical border distinct from Coburn's composed room.
 - **Source:** [LOC record](https://www.loc.gov/item/96512197/) · [master TIFF](https://cdn.loc.gov/master/pnp/cph/3g00000/3g04000/3g04600/3g04676u.tif)
 - **Rights:** Public domain in the US (published 1900).
 - **File:** `raw/alvin-langdon-coburn/01-corner-of-25-mortimer-street.jpg` (1492px long edge)
@@ -19,7 +19,7 @@ Coburn's early city and bridge photographs compress London and New York into gra
 - **File:** `raw/alvin-langdon-coburn/02-h-g-wells.jpg` (4096px long edge)
 
 ### 03 — *Portrait of George Bernard Shaw* (1905)
-- **Why it matters:** Shaw's reclining diagonal is held between tree trunk and bright path, making the outdoor portrait read as a deliberately weighted asymmetry.
+- **Why it matters:** Shaw's close head and beard move diagonally through a deep dark field, making the portrait's tonal mass and tilt do the structural work.
 - **Source:** [LOC record](https://www.loc.gov/item/2004674432/) · [master TIFF](https://cdn.loc.gov/master/pnp/cph/3a10000/3a10000/3a10500/3a10537u.tif)
 - **Rights:** Public domain in the US (published 1905).
 - **File:** `raw/alvin-langdon-coburn/03-portrait-of-george-bernard-shaw.jpg` (5592px long edge)
@@ -55,7 +55,7 @@ Coburn's early city and bridge photographs compress London and New York into gra
 - **File:** `raw/alvin-langdon-coburn/08-the-bridge-venice.jpg` (1536px long edge)
 
 ### 09 — *Spider-Webs* (1908)
-- **Why it matters:** Fine web strands pull across a pale field in a nearly nonrepresentational lattice, anticipating the line-led experimentation of the Vortographs.
+- **Why it matters:** Boat rigging and its reflected verticals make a loose lattice across the water. The documented title *Spider-Webs* aptly suggests that analogy without changing the visible subject.
 - **Source:** [LOC record](https://www.loc.gov/item/89712352/) · [master TIFF](https://cdn.loc.gov/master/pnp/cph/3b40000/3b43000/3b43600/3b43621u.tif)
 - **Rights:** Public domain in the US (published 1908).
 - **File:** `raw/alvin-langdon-coburn/09-spider-webs.jpg` (1536px long edge)
