@@ -6,8 +6,8 @@ Rothstein's FSA/Resettlement Administration work makes a particularly strong com
 
 ## Shortlist
 
-### 01 — Farmer and sons walking in the face of a dust storm / *Results of a dust storm, Cimarron County, Oklahoma* (April 1936)
-- **Why it matters:** Three figures, a shed, and the nearly erased horizon lock into an extraordinarily spare diagonal narrative; scale is carried by the staggered bodies against the blowing sand.
+### 01 — *Results of a dust storm, Cimarron County, Oklahoma* (April 1936)
+- **Why it matters:** A windmill, low farmstead, and nearly erased horizon make an extraordinarily spare study of scale; the few dark structures hold against the blowing sand.
 - **Source:** https://www.loc.gov/item/2017760345/
 - **Rights:** LOC FSA/OWI black-and-white negatives — public domain / free to use and reuse; record says no known restrictions.
 - **File:** `raw/arthur-rothstein/01-farmer-and-sons-in-dust-storm.jpg` (5,160px)

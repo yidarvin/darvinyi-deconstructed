@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -9,3 +9,7 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All twelve proof/spec pairs visually trace the named features; their analyzer scores are 100/100. The chapter’s stated measured horizons, tonal values, convergence, and angle match the corresponding analysis files within tolerance, and the research/chapter correctly decline to invent camera settings.
+
+## Resolution — 2026-07-16
+
+Resolved required item 1. `sources.md` now identifies item 01 as *Results of a dust storm, Cimarron County, Oklahoma*, matching LOC record 2017760345 and the retained farmstead-and-windmill plate, its overlay, proof, and chapter label. The prior critique round dated 2026-07-16 was re-verified in full: every proof/spec pair scores 100/100, the visible plate subjects match their labels, and the existing chapter/research claims remain supported.
