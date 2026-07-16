@@ -1,0 +1,134 @@
+[
+  {
+    "file": "01-ring-toss.jpg",
+    "width": 1141,
+    "height": 1600,
+    "sha1": "29af549d",
+    "source": "01-ring-toss.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - CCD 14400"
+    }
+  },
+  {
+    "file": "02-girl-with-harp.jpg",
+    "width": 1170,
+    "height": 1600,
+    "sha1": "886566cf",
+    "source": "02-girl-with-harp.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 65+",
+      "DateTimeOriginal": "2017:03:10 22:42:37",
+      "ISOSpeedRatings": "50",
+      "ExposureTime": "0.125"
+    }
+  },
+  {
+    "file": "03-blind-mans-bluff.jpg",
+    "width": 1202,
+    "height": 1600,
+    "sha1": "7b0e4f6d",
+    "source": "03-blind-mans-bluff.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - CCD 14400"
+    }
+  },
+  {
+    "file": "04-spring-triptych.jpg",
+    "width": 1260,
+    "height": 1599,
+    "sha1": "6a15b6e6",
+    "source": "04-spring-triptych.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "05-bashful-child.jpg",
+    "width": 1192,
+    "height": 1600,
+    "sha1": "4e55d9e1",
+    "source": "05-bashful-child.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - CCD 14400"
+    }
+  },
+  {
+    "file": "06-the-readers.jpg",
+    "width": 957,
+    "height": 1600,
+    "sha1": "da6336df",
+    "source": "06-the-readers.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "07-maine-marshes.jpg",
+    "width": 1230,
+    "height": 1600,
+    "sha1": "bcdad3f0",
+    "source": "07-maine-marshes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-the-kiss.jpg",
+    "width": 1173,
+    "height": 1600,
+    "sha1": "56094154",
+    "source": "08-the-kiss.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - CCD 14400"
+    }
+  },
+  {
+    "file": "09-morning-bathroom.jpg",
+    "width": 1274,
+    "height": 1600,
+    "sha1": "57f716fd",
+    "source": "09-morning-bathroom.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "10-the-wrestlers.jpg",
+    "width": 1262,
+    "height": 1600,
+    "sha1": "9df5c15b",
+    "source": "10-the-wrestlers.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "11-how-much-was-that-a-yard.jpg",
+    "width": 1186,
+    "height": 1600,
+    "sha1": "79d4f0b9",
+    "source": "11-how-much-was-that-a-yard.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - CCD 14400"
+    }
+  },
+  {
+    "file": "12-little-lord-fauntleroy.jpg",
+    "width": 1187,
+    "height": 1600,
+    "sha1": "258daabe",
+    "source": "12-little-lord-fauntleroy.jpg",
+    "exif": {
+      "Make": "Metis Systems srl",
+      "Model": "METIS DRS 2000 DCS - Firmware 0002.50 - CCD 14400"
+    }
+  }
+]
