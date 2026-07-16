@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -65,3 +65,21 @@ Reviewed all twelve current proof PNGs against their matching overlay specs, ana
 Re-verified every required fix from the prior rounds recorded in `e67c836`, `009f7ed`, and `17d9e7d`: the `01` and `03` source descriptions name the visible works; `09` names rigging and reflection rather than a literal web; `03` contains no false shoulder line; `08` anchors the standing figure; `10` traces the distant deck and foreground girders; `12` names and anchors the three-quarter portrait; and the sources rights basis counts all twelve manifest files. The chapter copies remain byte-identical.
 
 1. `04-portrait-of-g-k-chesterton`: removed the false detector-derived `COAT / GROUND BREAK`. The revised three-primitive overlay marks only the face, spectacles, and collar/tie visible in the photograph; its rendered proof passed visual review and scored 100/100 with no deductions or warnings.
+
+## Critique round — 2026-07-16
+
+Reviewed all twelve current proof PNGs, matching source images, overlay specs, analyzer records, sources, research, manifest, and both byte-identical chapter copies. Every stored overlay receives 100/100 from the deterministic scorer, but that score verifies analyzer geometry rather than the semantic truth of a label. The previously resolved `01`, `03`, `04`, `08`, `09`, `10`, and `12` findings remain resolved; the `03` diagonal's already-recorded small overshoot remains advisory and has not materially regressed.
+
+### Required
+
+1. `01-corner-of-25-mortimer-street`: re-bound both named frames to the physical edges they claim. `MOUNTED PRINT` (`x: 0.15, y: 0.13, w: 0.69, h: 0.70`) ends inside the gray mount, with its bottom at `y: 0.83` above the visible mounted-print edge near `y: 0.93`. `PHOTOGRAPH AREA` (`x: 0.23, y: 0.22, w: 0.54, h: 0.52`) instead ends across the photograph's carpet at `y: 0.74`; the inner photograph continues to about `y: 0.83`. The present brackets therefore misidentify the reproduction's two nested objects.
+2. `02-h-g-wells`: remove or truthfully replace `UPPER BORDER` (`horizon_line`, `y: 0.10`). It crosses pale ground and the top of Wells's hair rather than a visible border; the actual print boundary is separately and correctly marked by `PRINT BORDER`. The matching analyzer record identifies only a gradient split.
+3. `02-h-g-wells`: retrace or replace `HAND TO FOREHEAD` (`(0.37, 0.43) → (0.56, 0.55) → (0.62, 0.77)`). The current path crosses cheek and nose before terminating on the hand; it neither follows the hand nor reaches the forehead. Update the matching chapter sentence if the primitive's teaching claim changes.
+4. `05-st-pauls-cathedral`: remove or truthfully replace `ROOFLINE` (`horizon_line`, `y: 0.643`). Its full-width stroke crosses the lower dome/façade and foreground structures, not a continuous roofline. The analyzer calls the coordinate a gradient-derived luminance split, so the label turns that signal into a structural feature that is not visible; revise the related chapter treatment of this horizontal if it continues to be described.
+5. `06-the-thames`: remove or truthfully replace `WATERLINE` (`horizon_line`, `y: 0.690`). The stroke passes through open water, the bow, and the foreground figures rather than a water boundary. This too is a gradient-derived analyzer coordinate, not evidence for the named line.
+6. `11-alfred-stieglitz`: retrace or remove `COAT SHOULDERS` (`(0.21, 0.76) → (0.46, 0.61) → (0.71, 0.76)`). The right segment ends in the pale oval ground rather than a visible right shoulder, creating a symmetric V that the profile portrait does not contain.
+7. `12-max-weber`: remove or replace `BROW / BACKGROUND BREAK` (`horizon_line`, `y: 0.303`). It crosses dark ground, forehead, brow/eye area, and temple; it does not trace a horizontal brow or background boundary. The analyzer's low-confidence gradient split is not a visible named structure.
+
+### Advisory (non-blocking)
+
+None new.
