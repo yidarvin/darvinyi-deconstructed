@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -20,3 +20,12 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-15
+
+Reworked plate 06 as two stereo-panel frames with a central divider and
+removed the false full-plate symmetry/group claim from its notes, caption, and
+prose. Re-ran analysis, render, visual review, and scoring (100/100).
+
+Re-verified required fixes from critique round 2026-07-15 (the complete
+history for this slug); no earlier critique rounds exist.
