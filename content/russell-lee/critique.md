@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -70,3 +70,24 @@ All twelve current proofs were visually checked against their specs and analysis
 Re-verified critique history: all three prior rounds dated **2026-07-16**, including every required item. The resolved first-round fixes remain in place for the union-hall seated rank, guitar neck, Caudill portrait, Transylvania lesson board, schoolroom rear windows, church doorway, Yakima arm, and Faro luminance statement. The resolved second-round removals of the Chicago street-recession and swing convergence claims remain in place, as does the schoolroom caption correction. For this round, replaced the false Chicago symmetry axis with a traced car-grille centerline, replaced the swing symmetry axis with a traced center mast, corrected the schoolroom edge-density comparison to the highest black-and-white value, and corrected the two exterior scene descriptions in the source shortlist. Chapter and rendered chapter are byte-identical.
 
 All twelve overlays score 100/100 against their current analysis JSON; the revised Chicago and swing proofs, plus every earlier required-fix proof, received a clean visual pass. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-16
+
+### REQUIRED
+
+1. **03-pecan-workers-union-hall-san-antonio** — this spec now has only two primitives, below the required 3–5 teaching claims. In addition, `UPPER WALL BREAK` at `y0.111` crosses heads and unbroken wall/stair detail rather than a continuous horizontal architectural break. Remove or replace that false line and add only truthful, useful primitives (for example, a trace of an actual room feature or the seated rank) so the revised overlay teaches the photograph without inventing a structure.
+2. **06-faro-doris-caudill-pie-town** — the two figure ellipses are readable, but they are the whole spec. Add at least one truthful, non-redundant primitive so this plate meets the 3–5-primitive pedagogy requirement; do not restore the previously removed false symmetry or interval claim.
+3. **09-schoolroom-san-augustine** — `REAR WINDOW BAND` and `TEACHER` are visually truthful, but they are only two primitives. Add a truthful third teaching claim, preferably one that makes the visible desk rhythm named in the caption concrete, without reopening the resolved blackboard misidentification.
+4. **11-school-farm-bureau-pie-town** — `ROOF EDGE` and `CHILDREN AT THE DOOR` are truthful, but the spec has only two primitives. Add a truthful third teaching claim to satisfy the 3–5-primitive requirement; do not substitute the earlier broad road or unsupported internal-frame claims.
+5. **12-children-teacher-yakima-camp** — the repaired `TEACHER'S ARM` and the child ellipse are truthful, but the spec has only two primitives. Add a truthful third teaching claim while retaining the resolved removal of the false fence-break and symmetry assertions.
+
+### Advisory (non-blocking)
+
+- **01-relief-line-commodities-san-antonio** — `SERVICE-WINDOW FIELD` still has a broad lower bound that does not follow a single continuous architectural edge, but it remains legible as a field.
+- **02-mexican-mother-and-children-san-antonio** — `CHILDREN'S STACK` remains visually busy while still correctly identifying the cluster.
+- **07-schoolchildren-circular-swing-san-augustine** — `CENTER MAST` is slightly right of the mast's visual midline, within the stated placement tolerance and still clearly tracing the mast.
+- **08-mother-teaching-children-transylvania** — the lower end of `TEACHING GESTURE` is loose at the woman's torso; the path nevertheless clearly teaches the arm and pointer. The lesson-board and child-group advisories from the prior round also remain non-blocking.
+- **10-people-leaving-church-pie-town** — `CROWD SPILL` remains a broad interpretive path rather than a precise bodily contour, as previously noted.
+- **12-children-teacher-yakima-camp** — `CHILD` remains centered on the partly obscured middle child; the label is defensible but could be more specific.
+
+All twelve proofs were visually reviewed against their current overlay and analysis files, including the prior resolved fixes. The deterministic scorer returns 100/100 for every overlay, but it does not enforce the 3–5-primitive pedagogy requirement or determine whether a semantic label traces a real feature. Chapter tonal, coordinate, and palette claims match the current analysis values within tolerance; the chapter and research material continue to avoid invented historical camera or exposure settings.
