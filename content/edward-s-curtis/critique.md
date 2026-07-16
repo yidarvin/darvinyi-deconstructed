@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -59,3 +59,21 @@ I visually re-inspected all ten current proof PNGs, their overlay specs, and the
 2. Revised the related chapter sentence so it no longer calls a zigzag a collective-silhouette contour. The rendered source and canonical chapter copies are byte-identical.
 
 Re-verified critique history: both 2026-07-16 critique rounds. The first-round cradleboard hoop, sky-area wording, Arikara identification, photographic-field placement, and three source descriptions remain correct in their current overlays/proofs/text. All ten current overlays score 100/100 with no deductions or warnings; `scripts/check.sh` passes.
+
+## Critique round — 2026-07-16
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **02-three-chiefs-piegan:** `MOUNTED RHYTHM` remains a legible grouping path, though it crosses the horses rather than following one continuous contour. This is interpretive, not a false claim about the photograph.
+- **10-big-mouth-spring:** `GARMENT MASS` is a broad pointer through the garment rather than a distinct contour. The label still identifies the correct mass, so this is not blocking.
+- **Source traceability:** the Curtis criticism is materially accurate—the Library of Congress’s Curtis guide explicitly describes the romanticization and removal of contemporary-life signs—but that guide is not among `research.md`’s listed consulted sources. Add it in a future documentation pass if citation completeness is being improved; this does not make the present chapter claim false.
+
+### Verification
+
+All ten current proof PNGs and their overlay specs were visually re-inspected, with independent fresh-eyes reviews across the proof set. The earlier resolved fixes remain resolved: 03’s hoop follows the cradleboard; 02’s sky wording and 05’s Arikara identification agree with the image and analysis; 06’s photographic field sits on the reproduced-image boundary; 04, 09, and 10 source descriptions match their images; and 07 has not restored the unsupported dancer-silhouette path. The two-mark 07 overlay is a conservative resolved fallback, not a renewed claim requiring a decorative third mark.
+
+Every current spec scores 100/100 with zero deductions or warnings. Chapter horizon, grid, tonal, palette, and saliency figures agree with the analyzer JSON within the stated tolerance, and the chapter correctly distinguishes the later Nikon-copy EXIF from Curtis’s historical camera settings. `scripts/check.sh` passes (64 tests, typecheck, production build, and lint). No materially misleading overlay, prose claim, subject identification, or camera-setting assertion remains.
