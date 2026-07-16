@@ -61,7 +61,7 @@ This set stays with the ten photographs selected around the Library of Congress'
 - **File:** `raw/ben-shahn/09-sharecropper-on-sunday.jpg` (4,332 × 3,066 px)
 
 ### 10 — *Cotton pickers at close of day, Pulaski County, Arkansas* / *Going home* (October 1935)
-- **Why it matters:** Four figures on the road form a receding, uneven procession against a broad field, so the frame registers exhaustion through spacing and horizon rather than spectacle.
+- **Why it matters:** Five people cluster on and around the wagon against a broad field: a standing man at left, a figure lifting cloth, a seated man, a nearer back-facing man, and a woman at right. Their uneven staging makes the wagon a shared platform rather than a receding procession.
 - **Source:** https://www.loc.gov/item/2017730846/
 - **Rights:** LOC FSA/OWI black-and-white negatives — public domain / free to use and reuse; item record says no known restrictions.
 - **File:** `raw/ben-shahn/10-cotton-pickers-close-of-day.jpg` (4,266 × 3,040 px)
