@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-15
 
@@ -16,3 +16,13 @@ verdict: resolved
 - Re-ran analysis, rendering, scoring, and visual QA for `01-man-black-suit`; the `MARKED UPPER ARM` polyline now follows the visible white arm marking from x=0.622, y=0.220 to x=0.697, y=0.332. The deterministic score is 100/100.
 - Re-verified all required fixes from the full critique history: the sole prior round, 2026-07-15 (`c1e18e1`), now holds. No earlier critique rounds exist.
 - `scripts/check.sh` passed before this verdict was set.
+
+## Critique round — 2026-07-15
+
+### Required
+
+None. The resolved `01-man-black-suit` upper-arm line remains on the visible white marking at x≈0.622–0.697; it has not regressed.
+
+### Advisory (non-blocking)
+
+No new advisories. All six current proofs were visually checked against their overlay specs and analyzer records. The chapter's measured values match the analysis within tolerance; its claims about the subjects, dates, and chronophotographic accumulation align with the supplied source trail; and it does not invent camera settings, intervals, or a print process. The previously recorded falling-cat provenance/derivative inconsistency remains non-blocking and is not re-raised as a required issue.
