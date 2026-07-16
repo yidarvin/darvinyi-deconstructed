@@ -87,6 +87,9 @@ if not renderer_done:
             renderer_done = True
             break
 revises = [x["slug"] for x in rows if x["verdict"] == "revise"]
+audit_count = 0
+if os.path.exists("needs-review.txt"):
+    audit_count = sum(1 for line in open("needs-review.txt") if line.strip())
 waves = sorted({x["wave"] for x in rows})
 
 def shipmark(w):
@@ -100,14 +103,14 @@ if mode == "status":
         waiting = sum(1 for x in ws if x["stage"] == "sourced" and x["raw"] < x["minimum"])
         flags = []
         if waiting:
-            flags.append(f"WAITING on you: {waiting}")
+            flags.append(f"auto-source recovery: {waiting}")
         if shipmark(w):
             flags.append("shipped")
         print(f"{w:>4} {c('pending'):>5} {c('sourced'):>5} {c('built'):>5} {c('approved'):>5}  {' '.join(flags)}")
     if revises:
         print(f"\nopen critiques (revise): {', '.join(revises)}")
     if os.path.exists("needs-review.txt"):
-        print("\nneeds-review.txt (fallback overlays):")
+        print("\nneeds-review.txt (automatic overlay audits):")
         print(open("needs-review.txt").read().strip())
 
 def out(action, wave, reason):
@@ -118,6 +121,8 @@ if not renderer_done:
     out("renderer", 0, "OverlayRenderer component not built yet (one-time)")
 if revises:
     out("build", 0, f"resolve open critiques: {', '.join(revises[:5])}")
+if audit_count:
+    out("build", 0, f"automatically close {audit_count} overlay audit records")
 
 for w in waves:
     ws = [x for x in rows if x["wave"] == w]
@@ -131,15 +136,9 @@ for w in waves:
     if awaiting:
         out("critique", w, f"wave {w}: {len(awaiting)} built chapters await fresh-eyes review")
     if ready:
-        out("build", w, f"wave {w}: {len(ready)} sourced and ready" + (f" ({len(waiting)} still waiting on you)" if waiting else ""))
+        out("build", w, f"wave {w}: {len(ready)} sourced and ready" + (f" ({len(waiting)} queued for automatic source recovery)" if waiting else ""))
     if waiting:
-        if mode == "next":
-            print(f"\n== YOUR TURN — wave {w} is blocked on images only you can supply ==")
-            for x in waiting:
-                print(f"  {x['slug']:>26}: has {x['raw']}/{x['minimum']} required images in raw/{x['slug']}/ — "
-                      f"open content/{x['slug']}/NEEDED.md and add the missing files")
-            print("  then: ./run.sh next")
-        out("human", w, f"wave {w}: {len(waiting)} photographers waiting on NEEDED.md image drops")
+        out("source", w, f"wave {w}: automatically recover images for {len(waiting)} underfilled source sets")
     if all(x["stage"] == "approved" for x in ws) and not shipmark(w):
         out("ship", w, f"wave {w} fully approved — integration pass, then the next wave opens")
     out("critique", w, f"wave {w}: chapters in review cycle")
@@ -264,7 +263,7 @@ case "$cmd" in
     out="$(decide next)"; echo "$out"
     line="$(echo "$out" | tail -1)"
     action="$(echo "$line" | awk '{print $2}')"; wave="$(echo "$line" | awk '{print $3}')"
-    case "$action" in human|done|setup) exit 0 ;; *) run_stage "$action" "$wave" ;; esac ;;
+    case "$action" in done|setup) exit 0 ;; *) run_stage "$action" "$wave" ;; esac ;;
   loop)
     max="${2:-12}"
     if [ "$DRY_RUN" -eq 1 ]; then max=1; fi
@@ -284,7 +283,6 @@ case "$cmd" in
       prev_key="$key"
       echo ""; echo "== loop step $i/$max: $action (wave $wave) — $reason"
       case "$action" in
-        human) decide next | sed -n '/YOUR TURN/,$p'; break ;;
         done|setup) echo "$reason"; break ;;
         *) run_stage "$action" "$wave" || { echo "!! stopping loop on stage error"; break; } ;;
       esac

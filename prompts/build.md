@@ -24,11 +24,21 @@ effort; do not request or switch models.
       Commit and push per slug ("resolve critique: <slug>").
    e. If step 0 resolved any critique, stop after those commits. Do not begin
       step 1 in the same invocation; the separate critic must re-review first.
+0.5 Resolve overlay audit records before beginning new chapter work. For every
+   path in needs-review.txt, re-open the ingested image, analysis, spec, and
+   proof. Run up to three fresh composition-analysis iterations, using
+   independent read-only visual review where useful. If a richer truthful spec
+   converges, use it; otherwise retain the conservative grid + subject_anchor
+   fallback only after render, visual pass, and score >= 80 verify it. Remove
+   each verified path from needs-review.txt; remove the file if empty. This is
+   an automatic closure task, not a request for human review. Commit and push
+   any resulting audit fixes before continuing.
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
    at stage "sourced". Work them one at a time, registry order. A photographer
-   requires its registry `minImages` count, default 4. Skip anyone below that
-   threshold — they are waiting on NEEDED.md drops; name the skipped slugs and
-   their current/required counts in your commit message. For each <slug> you do work:
+   requires its registry `minImages` count, default 4. Do not build an
+   underfilled source set: leave it for the automatic SOURCER recovery stage
+   and name the slug and current/required counts in your commit message. For
+   each <slug> you do work:
    a. Read content/<slug>/sources.md. Write content/<slug>/research.md:
       technique, era, printing, and camera settings ONLY where the historical
       record has them (film-era work usually will not — say so, never
@@ -50,5 +60,6 @@ effort; do not request or switch models.
       confirm it passes.
    f. Set that photographer's registry stage to "built". Commit and push
       ("build: <slug>").
-If an image lands in needs-review.txt, keep going — never stall the batch.
+If an image lands in needs-review.txt, keep going — the next builder pass
+automatically closes that audit record before new chapter work.
 Do not write critiques; that is the critic's job.

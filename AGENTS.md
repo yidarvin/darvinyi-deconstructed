@@ -29,8 +29,11 @@ Per image: analyze -> draft a spec from suggested_primitives + photographic
 judgment -> render -> LOOK at the composite PNG -> score -> apply the emitted
 fixes. Accept at score >= 80 AND a clean visual pass. Max 3 render/score
 iterations. On non-convergence: write the conservative fallback (best-fit
-grid + subject_anchor), append the image path to needs-review.txt, and
-continue. Never stall the batch on one image.
+grid + subject_anchor) and append the image path to needs-review.txt as an
+automatic audit record. The next builder pass must re-check every record,
+either improve it or verify the conservative fallback against the scorer and
+visual pass, then clear the record. needs-review.txt is never a human queue or
+a stop condition; never stall the batch on one image.
 
 ## Layout
 content/<slug>/
@@ -51,3 +54,13 @@ JetBrains Mono uppercase labels.
 ## Git
 Commit and push per photographer (sourcer/builder), per critique (critic),
 and per integration pass (ship), with descriptive messages.
+
+## Unattended operation
+
+There is no human review or asset-drop step. When a source set is under its
+minimum, the SOURCER retries lawful public-source recovery itself: institutional
+APIs and IIIF endpoints first, then public browser retrieval or a documented
+screen capture only when the page explicitly permits reuse and the resulting
+image is usable. Never bypass authentication, a paywall, or a technical access
+control; never fabricate a historical image. Keep retry diagnostics in
+NEEDED.md, but treat them as agent work items, not requests for a person.
