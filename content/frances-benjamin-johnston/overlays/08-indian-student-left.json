@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-indian-student-left.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.455, "y": 0.32, "r": 0.035, "label": "FACE" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.35, "rx": 0.16, "ry": 0.19, "label": "HEAD" },
+    { "type": "frame_in_frame", "x": 0.76, "y": 0.47, "w": 0.11, "h": 0.41, "label": "CHAIR BACK" }
+  ],
+  "notes": "The face and folded arms form a compact, centered figure against a softly modulated ground."
+}

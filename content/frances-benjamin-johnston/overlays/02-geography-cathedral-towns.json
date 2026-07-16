@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-geography-cathedral-towns.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.489, "angle": 0, "label": "PICTURE RAIL" },
+    { "type": "subject_anchor", "x": 0.851, "y": 0.549, "r": 0.035, "label": "TEACHER" },
+    { "type": "polyline", "points": [[0.03, 0.62], [0.43, 0.56], [0.80, 0.55]], "label": "STUDENTS' GAZE" },
+    { "type": "frame_in_frame", "x": 0.45, "y": 0.24, "w": 0.34, "h": 0.29, "label": "CATHEDRAL STUDY" }
+  ],
+  "notes": "A seated row is pulled toward the standing teacher, with repeated cathedral pictures making a second, ordered wall."
+}

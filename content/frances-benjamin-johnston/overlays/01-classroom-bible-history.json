@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-classroom-bible-history.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.898, "angle": 0, "label": "FLOOR LINE" },
+    { "type": "subject_anchor", "x": 0.242, "y": 0.229, "r": 0.035, "label": "FLAG" },
+    { "type": "frame_in_frame", "x": 0.012, "y": 0.29, "w": 0.268, "h": 0.24, "label": "BLACKBOARD" },
+    { "type": "polyline", "points": [[0.12, 0.73], [0.33, 0.73], [0.48, 0.72]], "label": "NEAR TABLE EDGE" }
+  ],
+  "notes": "The two worktables divide the classroom while the flag and blackboard make a compact left-side counterweight."
+}

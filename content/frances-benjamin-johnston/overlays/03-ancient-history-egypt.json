@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-ancient-history-egypt.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.307, "angle": 3.9, "label": "UPPER WALL BREAK" },
+    { "type": "subject_anchor", "x": 0.555, "y": 0.57, "r": 0.035, "label": "FRONT ROW" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.29, "w": 0.21, "h": 0.28, "label": "EGYPT CHART" },
+    { "type": "polyline", "points": [[0.35, 0.60], [0.64, 0.57], [0.98, 0.60]], "label": "SEATED RANK" }
+  ],
+  "notes": "The large Egypt chart and the seated row establish two linked bands, while the teacher and chalkboard hold the middle ground."
+}
