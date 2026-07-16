@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -84,3 +84,11 @@ Re-verified every required fix in the full critique history from `git log -p -- 
 
 - **04-cantley-wherries — broaden or tighten `sail reflections`.** Its ellipse includes the house and shore reflections as well as the sail reflections. The marked reflection field still reads correctly, so this is not blocking.
 - **07-water-lilies — simplify the crowded middle-band annotations if revisiting the proof.** The lily-belt and lily-water-break lines cross/compete near the left-center and their labels stack. Both trace the named structures and the measured break matches the analyzer, so this is advisory only.
+
+## Resolution — 2026-07-15
+
+Resolved required fix 1: the `01-poling-marsh-hay` contact-sheet caption now reads “Foreground worker, dark tree, and distant tree horizon,” matching its current proof and three truthful primitives without restoring the rejected recession claim.
+
+Resolved required fix 2: `12-fisherman-home` now traces the visible telescope across the fisherman’s lap with `[[0.41,0.60],[0.54,0.595],[0.67,0.585]]`. The proof was regenerated from the current image and spec; fresh analysis, deterministic scoring (100/100 with no warnings), and a visual pass confirm the path is on the telescope rather than the thighs.
+
+Re-verified every required fix from the full `git log -p -- content/peter-henry-emerson/critique.md` history: initial round `2adfd6c` (`08-stiff-pull` image/source/chapter/proof agreement); second round `f0cd39e` (the rejected `05-gunner-working-fowl` hull loop remains absent); third round `619036c` (`07` lily-water label, `10` furrow endpoint, and `12` telescope label); fourth round `0c5a8f5` (`01` no recession path and `02` waterline stops before the oar); and fifth round `50920f9` (the corrected caption and telescope geometry above). All seven affected overlays score 100/100 with no warnings. The two advisory items remain unchanged because neither was required and neither was necessary for a truthful correction.
