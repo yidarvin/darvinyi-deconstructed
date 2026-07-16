@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -102,3 +102,15 @@ Re-verified every prior required round in this critique history: the 06 A-frame 
 2. Corrected 10's source-note description to identify the five people clustered on and around the wagon and to describe the wagon as a shared platform, not a receding procession.
 
 Re-verified every prior required round in this critique history: the 06 A-frame / 07 non-relational central-figure / 09 extended cap-to-hands corrections; the unsupported Leica camera-model removal; the 08 doorway-and-chair rectangle removal; and the 02 pale-sack-strap, 03 negative-edge, 05 right-hand-picker, and 09 doorway-frame corrections. The refreshed 06 analysis, render, visual pass, and scorer result are clean (100/100); all ten current overlays pass the >=80 gate. Plate 10's corrected five-person description was verified against the ingested image. `content/ben-shahn/chapter.mdx` and `src/chapters/ben-shahn.mdx` are byte-identical. `scripts/check.sh` passed in a neutral Git-test environment after the session-injected hook configuration was shown to block only the test fixture's baseline commit; no repository Git configuration was changed.
+
+## Critique round — 2026-07-16
+
+### Required
+
+1. **03-cotton-pickers-at-six-thirty — `NEAR FIGURES STEP FORWARD` does not show the progression the chapter claims.** The polyline runs from `(0.28, 0.13)` at the left man's cap through `(0.46, 0.24)` on the foreground woman's hat/face area, then ends at `(0.57, 0.42)` on that foreground figure's right side. It never reaches the right-hand woman, despite the chapter saying it follows a step “from left figure to near figure to the right-hand figure.” As rendered, it crosses open/overlapping forms rather than tracing a visible contour or the claimed three-figure progression. Remove it or redraw it to a clearly visible, correctly described path, and make the chapter and plate caption match the resulting mark.
+
+### Advisory (non-blocking)
+
+- The scorer warnings on 01, 02, and 10 remain the same settled non-blocking findings: the gable edge, front porch board, and wagon side are visually identifiable despite not matching the detector's preferred edge. No material regression was found.
+- 05's right-hand-picker anchor remains visually on the named worker, though it is 0.086 diagonal units from the analyzer's alternate subject signal and therefore scores 83.3/100. This is not a semantic error.
+- `research.md` correctly disclaims original-camera EXIF, but the manifest carries Leaf Aptus-II digitization-file metadata. Explicitly distinguishing that digitization metadata from Shahn's camera would improve reader clarity; no historical camera claim is currently made.
