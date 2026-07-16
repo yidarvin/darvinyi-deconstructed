@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -59,3 +59,9 @@ Reviewed all twelve current proof PNGs against their matching overlay specs, ana
 ### Advisory (non-blocking)
 
 - `03-portrait-of-george-bernard-shaw`: if this overlay is next rendered, tighten the first point of `HEAD AND BEARD DIAGONAL` (`0.20, 0.15`) to the head boundary. Its current start sits in empty dark field, but the rest of the polyline still clearly teaches the head-and-beard tilt, so this does not block approval.
+
+## Resolution — 2026-07-16
+
+Re-verified every required fix from the prior rounds recorded in `e67c836`, `009f7ed`, and `17d9e7d`: the `01` and `03` source descriptions name the visible works; `09` names rigging and reflection rather than a literal web; `03` contains no false shoulder line; `08` anchors the standing figure; `10` traces the distant deck and foreground girders; `12` names and anchors the three-quarter portrait; and the sources rights basis counts all twelve manifest files. The chapter copies remain byte-identical.
+
+1. `04-portrait-of-g-k-chesterton`: removed the false detector-derived `COAT / GROUND BREAK`. The revised three-primitive overlay marks only the face, spectacles, and collar/tie visible in the photograph; its rendered proof passed visual review and scored 100/100 with no deductions or warnings.
