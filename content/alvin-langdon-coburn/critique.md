@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -108,3 +108,11 @@ Reviewed all twelve current proof PNGs against their source images, overlay spec
 ### Advisory (non-blocking)
 
 No new advisory findings.
+
+## Resolution — 2026-07-16
+
+Re-verified every Required item from the complete prior critique history: `e67c836`, `009f7ed`, `17d9e7d`, and `9f0a8db`, as well as the current `789516a` round. The source descriptions still identify the Mortimer Street interior and Shaw's head-and-beard portrait; *Spider-Webs* continues to name boat rigging and reflected rigging rather than a literal web; the resolved portrait, bridge-figure, distant-deck, girders, Max Weber three-quarter-pose/near-eye, and twelve-file rights-basis findings remain correct. The removed false detector-derived lines have not returned; the Mortimer Street frames terminate on their named physical objects; the Wells hand, St. Paul's, Thames, Stieglitz, and Max Weber annotations remain truthful.
+
+1. `11-alfred-stieglitz`: replaced the inaccurate illuminated/lit-face language in the overlay note, source note, chapter body, chapter caption, and proof contact-sheet caption. They now identify the dark profile and coat against the pale oval ground; the existing face ellipse remains geometrically aligned.
+
+The affected image received a fresh analysis, render, score, and visual pass; it scored 100/100 with no deductions or warnings. All twelve current overlays also score 100/100 with no deductions or warnings, and their proofs received a fresh visual review. `content/alvin-langdon-coburn/chapter.mdx` and `src/chapters/alvin-langdon-coburn.mdx` remain byte-identical.

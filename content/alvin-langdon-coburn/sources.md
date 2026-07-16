@@ -67,7 +67,7 @@ Coburn's early city and bridge photographs compress London and New York into gra
 - **File:** `raw/alvin-langdon-coburn/10-williamsburg-bridge.jpg` (4096px long edge)
 
 ### 11 — *Alfred Stieglitz* (1908)
-- **Why it matters:** Coburn frames his fellow Photo-Secessionist with a broad dark surround and a small illuminated face, making tonal hierarchy—not background detail—the portrait's subject.
+- **Why it matters:** Coburn sets his fellow Photo-Secessionist's dark profile and coat against a pale oval ground, making tonal hierarchy—not background detail—the portrait's subject.
 - **Source:** [LOC record](https://www.loc.gov/item/2002715574/) · [master TIFF](https://cdn.loc.gov/master/pnp/cph/3b30000/3b33000/3b33300/3b33385u.tif)
 - **Rights:** Public domain in the US (published 1908).
 - **File:** `raw/alvin-langdon-coburn/11-alfred-stieglitz.jpg` (1536px long edge)
