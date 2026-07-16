@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "02-blessed-art-thou-among-women.jpg",
+  "width": 941,
+  "height": 1600,
+  "aspect": 0.5881,
+  "tonal": {
+    "mean": 0.6055896831843203,
+    "std": 0.14269381262556172,
+    "p05": 0.37254901960784315,
+    "p95": 0.8235294117647058,
+    "edge_density": 0.0037407859219269106
+  },
+  "palette": [
+    "#bfb39f",
+    "#6a655f",
+    "#aba190",
+    "#8e877a",
+    "#daceb8"
+  ],
+  "lines": [
+    {
+      "x1": 0.5083056478405316,
+      "y1": 0.609375,
+      "x2": 0.5332225913621262,
+      "y2": 0.6953125,
+      "angle_deg": 80.32664456759652,
+      "length": 0.07515216294484399,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.5365448504983389,
+      "y1": 0.3994140625,
+      "x2": 0.5764119601328903,
+      "y2": 0.4755859375,
+      "angle_deg": 72.89727103094764,
+      "length": 0.06870315569197288,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.18106312292358803,
+      "y1": 0.4501953125,
+      "x2": 0.22425249169435216,
+      "y2": 0.376953125,
+      "angle_deg": -70.88027367006885,
+      "length": 0.06682582220202604,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.8984375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.4186046511627907,
+      0.2421875
+    ],
+    "regions": [
+      {
+        "cx": 0.37723069903415574,
+        "cy": 0.29735342977644474,
+        "x": 0.20764119601328904,
+        "y": 0.189453125,
+        "w": 0.3222591362126246,
+        "h": 0.2138671875,
+        "area_frac": 0.04502569559800664
+      },
+      {
+        "cx": 0.5490016553392147,
+        "cy": 0.5003462892481779,
+        "x": 0.47674418604651164,
+        "y": 0.4150390625,
+        "w": 0.1478405315614618,
+        "h": 0.166015625,
+        "area_frac": 0.01535733752076412
+      },
+      {
+        "cx": 0.6641683712853679,
+        "cy": 0.8939356792747779,
+        "x": 0.5830564784053156,
+        "y": 0.8662109375,
+        "w": 0.1611295681063123,
+        "h": 0.056640625,
+        "area_frac": 0.006939758098006644
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8368143021312691,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.7159354761462499,
+    "horizontal_axis_y": 0.5625
+  },
+  "subject_anchor": {
+    "x": 0.4186046511627907,
+    "y": 0.2421875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.22343064572259017,
+    "phi": 0.10399885761833483,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.898,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.84,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.419,
+      "y": 0.242,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

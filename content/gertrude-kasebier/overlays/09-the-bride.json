@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-the-bride.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.54, "cy": 0.39, "rx": 0.22, "ry": 0.20, "label": "downcast face" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.03, "w": 0.94, "h": 0.93, "label": "printed image edge" },
+    { "type": "polyline", "points": [[0.48, 0.09], [0.68, 0.16], [0.77, 0.43], [0.78, 0.69]], "label": "falling veil" }
+  ],
+  "notes": "The veil supplies a dark, almost symmetrical enclosure around a small downcast face and luminous gown."
+}

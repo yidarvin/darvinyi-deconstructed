@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-sunshine-in-the-house.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.573, "y": 0.612, "label": "gathering point" },
+    { "type": "leading_line", "points": [[0.273, 0.895], [0.647, 0.578]], "arrow": true, "label": "sunlit floor" },
+    { "type": "leading_line", "points": [[0.754, 0.088], [0.866, 0.5]], "arrow": true, "label": "curtain edge" },
+    { "type": "frame_in_frame", "x": 0.22, "y": 0.11, "w": 0.61, "h": 0.70, "label": "window and doorway" }
+  ],
+  "notes": "Window, doorway, curtain, and the long stripe of sun turn a family interior into a deliberately staged convergence."
+}

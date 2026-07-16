@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "07-little-good-harbor-maine.jpg",
+  "width": 1130,
+  "height": 1600,
+  "aspect": 0.7063,
+  "tonal": {
+    "mean": 0.546733032554308,
+    "std": 0.13847276368574704,
+    "p05": 0.39215686274509803,
+    "p95": 0.7686274509803922,
+    "edge_density": 0.0012142872579529737
+  },
+  "palette": [
+    "#6e675e",
+    "#b8ab9a",
+    "#ccbeaa",
+    "#8a8175",
+    "#9f9587"
+  ],
+  "lines": [
+    {
+      "x1": 0.4107883817427386,
+      "y1": 0.349609375,
+      "x2": 0.5255878284923928,
+      "y2": 0.3486328125,
+      "angle_deg": -0.6902771978650786,
+      "length": 0.06621850395751136,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.306640625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.43291839557399725,
+      0.4287109375
+    ],
+    "regions": [
+      {
+        "cx": 0.4489280972365968,
+        "cy": 0.4077804181341176,
+        "x": 0.35408022130013833,
+        "y": 0.330078125,
+        "w": 0.19640387275242047,
+        "h": 0.1533203125,
+        "area_frac": 0.018888312586445365
+      },
+      {
+        "cx": 0.22169908244642222,
+        "cy": 0.2940963416758491,
+        "x": 0.14937759336099585,
+        "y": 0.240234375,
+        "w": 0.14937759336099585,
+        "h": 0.1025390625,
+        "area_frac": 0.010419368084370677
+      },
+      {
+        "cx": 0.03331716198553711,
+        "cy": 0.18185017623796423,
+        "x": 0.0,
+        "y": 0.1416015625,
+        "w": 0.08022130013831259,
+        "h": 0.076171875,
+        "area_frac": 0.0049098266770401106
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8829853370215169,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.6851161653785737,
+    "horizontal_axis_y": 0.525
+  },
+  "subject_anchor": {
+    "x": 0.43291839557399725,
+    "y": 0.4287109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5426284523862265,
+    "phi": 0.5425525444616249,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.307,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.88,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.433,
+      "y": 0.429,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "image": "05-portrait-of-a-boy.jpg",
+  "width": 1255,
+  "height": 1600,
+  "aspect": 0.7844,
+  "tonal": {
+    "mean": 0.27675837049483554,
+    "std": 0.08014308864235266,
+    "p05": 0.21568627450980393,
+    "p95": 0.4823529411764706,
+    "edge_density": 0.004189611223536737
+  },
+  "palette": [
+    "#4c3f33",
+    "#44382e",
+    "#554739",
+    "#a99883",
+    "#877562"
+  ],
+  "lines": [
+    {
+      "x1": 0.6525529265255293,
+      "y1": 0.447265625,
+      "x2": 0.663760896637609,
+      "y2": 0.369140625,
+      "angle_deg": -83.58121326976122,
+      "length": 0.06186473493465524,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.296875,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.6089663760896638,
+      0.3359375
+    ],
+    "regions": [
+      {
+        "cx": 0.5725053688310354,
+        "cy": 0.3252834432966861,
+        "x": 0.44956413449564137,
+        "y": 0.25390625,
+        "w": 0.22166874221668742,
+        "h": 0.1650390625,
+        "area_frac": 0.023340208592777086
+      },
+      {
+        "cx": 0.6206278584529746,
+        "cy": 0.5013840610468674,
+        "x": 0.5790784557907845,
+        "y": 0.4638671875,
+        "w": 0.08343711083437111,
+        "h": 0.076171875,
+        "area_frac": 0.004969158623910336
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9419607159925054,
+    "vertical_axis_x": 0.525,
+    "horizontal": 0.9241508748557496,
+    "horizontal_axis_y": 0.4125
+  },
+  "subject_anchor": {
+    "x": 0.6089663760896638,
+    "y": 0.3359375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.7328791086185453,
+    "phi": 0.5491084842688572,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.297,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.525,
+      "confidence": 0.94,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.609,
+      "y": 0.336,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

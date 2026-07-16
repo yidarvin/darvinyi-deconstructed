@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-florentine-boy.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.607, "angle": 0, "label": "shoulder break" },
+    { "type": "polyline", "points": [[0.48, 0.23], [0.59, 0.24], [0.68, 0.31]], "label": "profile and gaze" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.37, "rx": 0.18, "ry": 0.20, "label": "illuminated face" }
+  ],
+  "notes": "A bright profile advances from a very dark field; the calm horizontal of the shoulder and the gaze to the right hold the portrait taut."
+}

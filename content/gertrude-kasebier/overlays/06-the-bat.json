@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-the-bat.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.104, "angle": 0, "label": "upper shadow break" },
+    { "type": "polyline", "points": [[0.16, 0.28], [0.32, 0.18], [0.56, 0.30], [0.73, 0.49]], "label": "wing-shaped silhouette" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.42, "rx": 0.30, "ry": 0.27, "label": "costumed figure" }
+  ],
+  "notes": "The faint figure is held inside one broad wing-shaped silhouette, a tonal apparition that only gradually separates from the dark ground."
+}

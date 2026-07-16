@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-the-manger.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.185, "angle": -4.1, "label": "upper wall break" },
+    { "type": "frame_in_frame", "x": 0.77, "y": 0.0, "w": 0.23, "h": 0.36, "label": "window light" },
+    { "type": "polyline", "points": [[0.48, 0.29], [0.54, 0.41], [0.61, 0.52]], "label": "mother's bowed contour" }
+  ],
+  "notes": "The mother-and-child group gathers beneath a tilted architectural break while the window's pale rectangle counterbalances the bowed figure."
+}

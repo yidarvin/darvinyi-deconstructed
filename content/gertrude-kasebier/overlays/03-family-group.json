@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-family-group.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.766, "angle": 3.9, "label": "tablecloth edge" },
+    { "type": "polyline", "points": [[0.10, 0.35], [0.30, 0.19], [0.48, 0.26], [0.82, 0.27]], "label": "linked heads" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.54, "rx": 0.38, "ry": 0.24, "label": "shared dark mass" }
+  ],
+  "notes": "Four faces make a shallow arc above a single pooled dark mass, while the patterned tablecloth seals the group into the frame."
+}

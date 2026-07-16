@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-blessed-art-thou-among-women.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.898, "angle": 0, "label": "threshold" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "child's central axis" },
+    { "type": "frame_in_frame", "x": 0.14, "y": 0.0, "w": 0.68, "h": 0.9, "label": "doorway" }
+  ],
+  "notes": "The doorway makes the child an upright dark mass; the mother's pale diagonal interrupts that stillness from behind."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-little-good-harbor-maine.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.307, "angle": 0, "label": "distant shore" },
+    { "type": "polyline", "points": [[0.13, 0.94], [0.30, 0.67], [0.42, 0.56], [0.51, 0.45]], "label": "water channel" },
+    { "type": "frame_in_frame", "x": 0.21, "y": 0.39, "w": 0.46, "h": 0.33, "label": "rocky inlet" }
+  ],
+  "notes": "Dark rocks form a rough aperture around a pale channel, which carries the eye toward the low distant shore."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-portrait-of-a-boy.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.297, "angle": 0, "label": "hairline band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "near-frontal balance" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.39, "rx": 0.22, "ry": 0.19, "label": "face in light" }
+  ],
+  "notes": "The softly balanced face is a small island of light; the surrounding brown field keeps attention on the eyes."
+}
