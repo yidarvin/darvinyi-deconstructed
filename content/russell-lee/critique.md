@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -48,3 +48,19 @@ All twelve current proofs were visually reviewed against their overlay specs and
 Re-verified critique history: both prior rounds dated **2026-07-16**, including every required item. Removed the false Chicago street-recession and circular-swing convergence claims; corrected the schoolroom caption to name the rear windows; rechecked the earlier symmetry, board, doorway, guitar-neck, teacher-arm, and Faro luminance fixes; and tightened the surviving guitar, doorway, and Farm Bureau roof claims where visual review found drift. Chapter and rendered chapter are byte-identical. Source and research notes now distinguish LOC’s historical medium metadata from later derivative-file EXIF rather than inventing capture settings.
 
 All twelve overlays score 100/100 against their current analysis JSON, changed proofs received a clean visual pass, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-16
+
+### REQUIRED
+
+1. **05-negro-boys-easter-morning-chicago** — `CAR CENTERLINE` is typed as a `symmetry_axis`. That primitive claims mirror structure, but the proof is an unequal group around a car, not a mirrored frame. The line correctly reaches the car’s grille center, but its primitive type makes the wrong compositional claim. Replace it with a non-symmetry primitive that traces the grille/centerline, or remove it.
+2. **07-schoolchildren-circular-swing-san-augustine** — `CENTER MAST` is also typed as a `symmetry_axis`. It accurately follows the mast, but the crowd, support cables, and frame do not mirror across it. Use a non-symmetry primitive for the mast or remove the axis claim. This is distinct from, and does not reopen, the prior resolved `MAST CONVERGENCE` finding.
+3. **chapter.mdx, schoolroom paragraph** — “This is the most edge-dense image here at 0.104” is false. The Farm Bureau school’s analysis records `edge_density` 0.123, above the schoolroom’s 0.104. Qualify the claim as the highest black-and-white value, or remove the superlative.
+4. **sources.md, entries 06 and 12** — both visual descriptions claim structures absent from their proofs: entry 06 calls the outdoor Caudill portrait a “low, rough interior” lit by a window; entry 12 calls the outdoor Yakima scene a teacher-centered pyramid against a rough wall. Correct these scene descriptions to the visible exterior/ground settings, without adding unsupported historical details.
+
+### Advisory (non-blocking)
+
+- **10-people-leaving-church-pie-town** — `CROWD SPILL` is an understandable interpretive movement path, but it is broader than the visible bodily contour.
+- **12-children-teacher-yakima-camp** — `CHILD` centers on the partly obscured middle child rather than the more prominent boy at right. The label remains defensible, but a more specific label would reduce ambiguity.
+
+All twelve current proofs were visually checked against their specs and analysis. The two earlier revision rounds remain resolved except for the new, independently verified issues above; no historical camera or exposure settings are invented. The deterministic scorer returns 100/100 for every current overlay, which does not validate the semantic misuse of a symmetry primitive.
