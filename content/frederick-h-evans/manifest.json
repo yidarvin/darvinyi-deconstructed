@@ -1,0 +1,99 @@
+[
+  {
+    "file": "01-sea-of-steps-wells.jpg",
+    "width": 1289,
+    "height": 1600,
+    "sha1": "3c7b6f0c",
+    "source": "01-sea-of-steps-wells.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark II",
+      "DateTimeOriginal": "2013:07:18 11:23:33",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.008",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF50mm f/2.5 Compact Macro"
+    }
+  },
+  {
+    "file": "02-in-sure-and-certain-hope.jpg",
+    "width": 1197,
+    "height": 1600,
+    "sha1": "536da1aa",
+    "source": "02-in-sure-and-certain-hope.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-height-light-bourges.jpg",
+    "width": 1085,
+    "height": 1600,
+    "sha1": "c3e0c6f2",
+    "source": "03-height-light-bourges.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-late-afternoon-ely.jpg",
+    "width": 1223,
+    "height": 1536,
+    "sha1": "c72b2675",
+    "source": "04-late-afternoon-ely.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-ely-memory-normans.jpg",
+    "width": 1032,
+    "height": 1600,
+    "sha1": "7e224245",
+    "source": "05-ely-memory-normans.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-ely-nave-octagon.jpg",
+    "width": 1600,
+    "height": 1272,
+    "sha1": "90cdcddc",
+    "source": "06-ely-nave-octagon.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-york-north-transept.jpg",
+    "width": 1188,
+    "height": 1600,
+    "sha1": "3c791f45",
+    "source": "07-york-north-transept.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-bishop-alcocks-chapel.jpg",
+    "width": 1083,
+    "height": 1600,
+    "sha1": "244dec76",
+    "source": "08-bishop-alcocks-chapel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-gloucester-cloisters.jpg",
+    "width": 1185,
+    "height": 1600,
+    "sha1": "af13f000",
+    "source": "09-gloucester-cloisters.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-on-french-river.jpg",
+    "width": 851,
+    "height": 1600,
+    "sha1": "f0a90337",
+    "source": "10-on-french-river.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-aubrey-beardsley.jpg",
+    "width": 1140,
+    "height": 1600,
+    "sha1": "bba04ae8",
+    "source": "11-aubrey-beardsley.jpg",
+    "exif": {}
+  }
+]
