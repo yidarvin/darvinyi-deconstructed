@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -96,3 +96,15 @@ Re-verified every required fix from prior rounds `e67c836`, `009f7ed`, and `17d9
 6. `12-max-weber`: removed the false brow/background line; the three-quarter portrait and near-eye annotations remain visually aligned.
 
 `content/alvin-langdon-coburn/chapter.mdx` and `src/chapters/alvin-langdon-coburn.mdx` were confirmed byte-identical. The revised proofs were re-rendered from fresh analyzer records, passed visual review, and scored 100/100 with no deductions or warnings.
+
+## Critique round — 2026-07-16
+
+Reviewed all twelve current proof PNGs against their source images, overlay specs, analyzer records, `sources.md`, `research.md`, manifest, and both byte-identical chapter copies. Independent fresh-eyes audits were reduced against the current proofs and the prior resolution trail before classification. The prior resolved findings remain settled: no material regression was found in the reproduced print frames, portraits, bridge figure, rigging/reflection distinction, girders, or the previously removed detector-derived lines.
+
+### Required
+
+1. `11-alfred-stieglitz`: correct the repeated claim that the face is “illuminated” or “lit.” The current proof shows a predominantly dark profile and coat set against a pale oval ground; the face is not the bright tonal mass described by `chapter.mdx` (body paragraph and caption), `sources.md`, and the overlay `notes`. Recast those statements to identify the dark profile/silhouette against the pale oval ground. The existing `FACE` ellipse still identifies the correct head area and does not itself require a geometric change.
+
+### Advisory (non-blocking)
+
+No new advisory findings.
