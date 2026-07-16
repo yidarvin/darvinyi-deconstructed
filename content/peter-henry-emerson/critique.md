@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -25,3 +25,9 @@ Re-verified critique history: 2026-07-15 round (commit `2adfd6c`); this is the c
 ### Advisory (non-blocking)
 
 - None.
+
+## Resolution — 2026-07-15
+
+Resolved required fix 1 from the current round: removed the unsupported `boat hull` polyline from `overlays/05-gunner-working-fowl.json` and regenerated its proof. The remaining distant-reed line and boatman anchor align with the photograph; a fresh analysis and deterministic score returned 100/100 with no warnings, and the composite passed visual review.
+
+Re-verified prior critique rounds: 2026-07-15 initial round (commit `2adfd6c`) and 2026-07-15 current round (commit `f0cd39e`). For the initial round, `08-stiff-pull` still has the horse-and-plough source description, current horse-and-plough image/spec/chapter agreement, a byte-identical regenerated proof, and a 100/100 score. For the current round, the detached hull loop is absent from the regenerated proof.
