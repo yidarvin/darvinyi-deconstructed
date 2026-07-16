@@ -8,4 +8,5 @@ dist-ssr
 .env.*
 !.env.example
 .pipeline/log
+.pipeline/runtime/
 .codex/worktrees/
