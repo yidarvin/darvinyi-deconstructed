@@ -1,6 +1,6 @@
 # Ben Shahn — source shortlist
 
-This set stays with the ten photographs selected around the Library of Congress's own *Documenting America* portfolio, **Cotton Pickers** (Pulaski County, Arkansas, October 1935; Resettlement Administration Lot 1657). They make the clearest compact account of Shahn's roaming, Leica-scale social documentary: an establishing crowd, portraits, work rhythms, and the return home. The full-frame negative borders are deliberately retained in the downloaded derivatives.
+This set stays with the ten photographs selected around the Library of Congress's own *Documenting America* portfolio, **Cotton Pickers** (Pulaski County, Arkansas, October 1935; Resettlement Administration Lot 1657). They make a compact account of Shahn's 35 mm social documentary: an establishing crowd, portraits, work rhythms, and the return home. The full-frame negative borders are deliberately retained in the downloaded derivatives.
 
 **Rights basis:** all ten records are Library of Congress Farm Security Administration/Office of War Information black-and-white negatives made for the United States Resettlement Administration. LOC states that this collection is public domain and free to use and reuse; each record carries the Rights Advisory “No known restrictions.” The listed JPEGs are uncropped conversions of LOC's largest downloadable TIFF rendition.
 

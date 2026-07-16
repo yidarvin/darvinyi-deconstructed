@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -32,3 +32,9 @@ Re-verified prior required fixes: critique round 2026-07-16 (the only recorded r
 ### Advisory (non-blocking)
 
 - The previously recorded detector warnings for the leading lines in 01, 02, and 10 remain non-blocking: visual review confirms the labels name the gable edge, porch board, and wagon side respectively. No regression from the resolved 06, 07, or 09 findings was observed.
+
+## Builder resolution — 2026-07-16
+
+1. Replaced the unsupported “Leica-scale” wording in `sources.md` with “35 mm social documentary,” matching the documented negative format without inferring a camera model.
+
+Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 07 non-relational central-figure label, and 09 cap-to-clasped-hands path) and critique round 2026-07-16 (source-set camera history). Fresh scores for 06, 07, and 09 are 100/100 with clean visual checks; the current chapter and site chapter are byte-identical. `scripts/check.sh` passed before this resolution was marked resolved.
