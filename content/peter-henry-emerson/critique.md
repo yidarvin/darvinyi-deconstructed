@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-15
 
@@ -31,3 +31,17 @@ Re-verified critique history: 2026-07-15 round (commit `2adfd6c`); this is the c
 Resolved required fix 1 from the current round: removed the unsupported `boat hull` polyline from `overlays/05-gunner-working-fowl.json` and regenerated its proof. The remaining distant-reed line and boatman anchor align with the photograph; a fresh analysis and deterministic score returned 100/100 with no warnings, and the composite passed visual review.
 
 Re-verified prior critique rounds: 2026-07-15 initial round (commit `2adfd6c`) and 2026-07-15 current round (commit `f0cd39e`). For the initial round, `08-stiff-pull` still has the horse-and-plough source description, current horse-and-plough image/spec/chapter agreement, a byte-identical regenerated proof, and a 100/100 score. For the current round, the detached hull loop is absent from the regenerated proof.
+
+## Critique round — 2026-07-15
+
+### Required fixes
+
+1. **07-water-lilies — correct the mislabeled `reed-water break`.** In the current proof, the diagonal `horizon_line` at `y: 0.527`, `angle: -4.8` runs along the lower edge of the lily-pad belt where it meets open water; it does not trace the reed-to-water boundary. The reeds are visibly higher in the frame and are already addressed by the `receding reed bank` polyline. Rename this primitive to the feature it actually follows (for example, `lily-water break`) or redraw it to the true reed boundary, then regenerate the proof. This is a semantic error, not a numeric one: the analyzer’s measured 0.527 / -4.8 values are correctly reproduced but its generic horizon suggestion does not make the named feature truthful.
+
+2. **10-at-plough-end-furrow — redraw the `furrow direction` polyline.** The visible furrow rises from the lower foreground to the plough behind the team, but the current final segment runs on into the right horse at approximately `[0.64, 0.47]`. That endpoint is far beyond a small endpoint margin and makes the line trace the animal rather than the furrow. End the path at the actual plough/furrow junction (or omit the unsupported final segment) and regenerate the proof.
+
+3. **12-fisherman-home — correct the `telescope on workbench` label.** The proof and underlying image show the fisherman holding the telescope across his lap; the workbench is the small table at left. The polyline points to the telescope, but its label names a location it does not occupy. Rename it to the visible feature (for example, `telescope in fisherman's hands`) and regenerate the proof.
+
+### Advisory (non-blocking)
+
+- **05-gunner-working-fowl — two primitives remain after the prior resolved hull removal.** The distant reed line and boatman anchor are truthful and the prior round’s removal has not regressed. A third primitive would improve conformity with the 3–5-primitives teaching target only if it can identify a distinct, visibly supported feature; do not restore the previously rejected hull loop merely to reach a count.
