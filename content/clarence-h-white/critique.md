@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -18,3 +18,13 @@ verdict: revise
 - `research.md` says the normalized-file manifest's EXIF entries are empty, but eleven entries contain digitization metadata (and `02-girl-with-harp` includes ISO/exposure fields). Clarify that these describe the derivative scan, not historical capture. The chapter correctly avoids inventing historical camera settings, so this does not block approval.
 
 All other proofs and chapter claims reviewed in this round are materially truthful.
+
+## Resolution — 2026-07-16
+
+- `01-ring-toss`: relabelled the disputed polyline as the explicitly interpretive `EYE PATH: RING STAND TO TOSSED RING`; its endpoints remain on the ring-game sequence rather than claiming to trace a floorboard.
+- `02-girl-with-harp`: removed the false harp-curve primitive and replaced the overlay, chapter, and source reading with the visible hands at the zither.
+- `07-maine-marshes`: replaced the mount-edge horizon line with a polyline that traces the visible marsh-sky edge, then regenerated the proof.
+- `09-morning-bathroom`: corrected the source title/date and description to *Morning* (1906), Jane White outdoors by the tree; corrected the chapter plate date to 1906.
+- Corrected the `01-ring-toss` and `08-the-kiss` source descriptions to their interior scenes.
+- Re-verified all required fixes from critique round 2026-07-16 (commit `ae28bce`): this is the full critique history for the slug. Advisory items were left unchanged because the required corrections were complete without a regression.
+- `scripts/check.sh` passed before this resolution was recorded.
