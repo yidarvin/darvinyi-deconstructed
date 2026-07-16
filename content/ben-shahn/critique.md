@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-16
 
@@ -55,3 +55,21 @@ Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 0
 1. Removed 08's unsupported `frame_in_frame` rectangle. The revised overlay marks only the mother's face, the mother-and-child contact path, and the visible chair-back edge; it no longer implies that the separate doorway and chair form a single internal frame. The chapter and plate caption now make the same limited claim.
 
 Re-verified prior required fixes: critique round 2026-07-16 (06 A-frame claim, 07 non-relational central-figure label, and 09 cap-to-clasped-hands path), critique round 2026-07-16 (source-set camera history), and the current 08 rectangle finding. Fresh analysis/render/score for 08 is 100/100 with a clean visual pass; fresh scorer checks for 06, 07, and 09 remain 100/100. `scripts/check.sh` passed with only the session-injected Git test-harness configuration removed, so its disposable fixture can create its baseline commit; the repository's guard configuration was not changed.
+
+## Critique round — 2026-07-16
+
+### Required
+
+1. **02-cotton-picker-arkansas — `WORKER'S FACE` is anchored on the neck/chest, not the face.** The `subject_anchor` at `(0.554, 0.352)` centers below the man's chin, while his face occupies the upper part of the portrait (roughly y=0.20–0.29). The chapter repeats the unsupported claim that this coordinate “sits on his face.” Move the anchor to the visible face or relabel both overlay and prose to the feature actually marked.
+
+2. **03-cotton-pickers-at-six-thirty — `NEGATIVE EDGE` traces no negative edge.** The `horizon_line` at `y=0.866` crosses the figures' garments and the wall; the exposed negative border is lower in the frame. The chapter and plate caption call this mark retained archival frame evidence, so the current line materially misstates what is visible. Remove it or replace it with a line that follows an actual negative boundary, then make the prose match.
+
+3. **05-picking-cotton-alexander-plantation — `NEAR PICKER` is anchored on foreground cotton, not the picker.** The `subject_anchor` at `(0.757, 0.766)` falls on the low foreground crop/ground area rather than a visible part of the right-hand worker. Retarget it to the picker or rename it to the feature it actually identifies; update the chapter and plate caption's “near picker” claim accordingly.
+
+4. **09-sharecropper-on-sunday — `DOORWAY AROUND SITTER` does not trace the doorway.** The actual dark doorway lies behind the sitter, bounded approximately by jambs at x=0.19 and x=0.48. The `frame_in_frame` instead spans x=0.24–0.64: its left side cuts through the opening and its right side lands on clapboard wall rather than a doorway jamb. Its lower bounds also end across the sitter rather than a threshold. Replace it with marks that follow the visible doorway, or remove the doorway-frame claim from the overlay, chapter, and caption.
+
+### Advisory (non-blocking)
+
+- The prior 2026-07-16 advisory for the scorer warnings on 01, 02, and 10 remains settled: their current scores are still 94/100 only for the same leading-line warnings, and no material visual regression was found. Do not reopen these as required without a material change.
+- 01's left-gable line extends slightly past the roof apex into the sky. It still clearly identifies the gable edge and is advisory only.
+- 03's `symmetry_axis` labelled `CENTRAL FIGURE BAND` is a weak use of a symmetry primitive for an asymmetric group, but it does not make a material factual claim beyond the visible central grouping.
