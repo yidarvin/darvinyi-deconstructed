@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -26,3 +26,14 @@ verdict: revise
 ### Verification
 
 All ten current proof/spec pairs were visually inspected. Each deterministic score is 100/100 with no deductions or warnings; the required items above are semantic or source-text failures that the scorer does not establish. The chapter’s numerical claims were checked against the analysis JSON within the stated tolerance, and its explicit no-historical-camera-settings caveat is supported by the manifest and research record.
+
+## Builder resolution — 2026-07-16
+
+1. Replaced `ARCHING HOOP` with a nine-point curve that follows the visible cradleboard hoop, then re-rendered and visually inspected the proof; deterministic score: 100/100.
+2. Revised the 0.371-horizon sentence to say “a broad upper sky band,” retaining the measured grid figures.
+3. Corrected Bear’s Belly to Arikara in both the plate label and source record, matching the printed plate title.
+4. Moved `PHOTOGRAPHIC FIELD` to the reproduced-image boundary (`x=0.09`, `y=0.055`, `w=0.855`, `h=0.89`), re-rendered and visually inspected it; deterministic score: 100/100.
+5. Replaced the three stale source annotations with descriptions of the bent reaper and dark hillside, the two lodges and reflections, and the Big Mouth Spring portrait with its handheld branch.
+6. Removed the advisory leading `+` rendering blemish.
+
+Re-verified critique history: 2026-07-16 (the complete and only prior round). All ten current overlays score 100/100 with zero warnings; the chapter copies are byte-identical; `scripts/check.sh` passes.

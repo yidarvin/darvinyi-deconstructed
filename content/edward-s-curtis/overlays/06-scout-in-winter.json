@@ -3,7 +3,7 @@
   "image": "06-scout-in-winter.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.08, "y": 0.08, "w": 0.84, "h": 0.84, "label": "PHOTOGRAPHIC FIELD" },
+    { "type": "frame_in_frame", "x": 0.09, "y": 0.055, "w": 0.855, "h": 0.89, "label": "PHOTOGRAPHIC FIELD" },
     { "type": "ellipse", "cx": 0.48, "cy": 0.46, "rx": 0.25, "ry": 0.22, "label": "HORSE AND RIDER" },
     { "type": "polyline", "points": [[0.08, 0.48], [0.22, 0.43], [0.35, 0.51]], "label": "SNOWY SLOPE" }
   ],

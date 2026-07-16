@@ -25,12 +25,12 @@ Curtis made these photographs while producing *The North American Indian* (1907�
 - **File:** `raw/edward-s-curtis/03-apache-mother-child.jpg` (2617 × 3202px)
 
 ### 04 — The Apache reaper (1906)
-- **Why it matters:** A standing reaper and the long sweep of grain create a vigorous left-to-right diagonal, with the dense crop as foreground texture and the distant mesa held as a quiet horizontal counterweight.
+- **Why it matters:** A bent worker presses into the crop, while the stubble edge and lowered working gesture carry the eye across the lower field against a dark hillside.
 - **Source:** [Library of Congress record](https://www.loc.gov/item/2003652893/) · [open master mirror](https://commons.wikimedia.org/wiki/File:Apache_reaper_Cp01008.jpg)
 - **Rights:** Public domain; LOC Curtis collection record and Commons public-domain original.
 - **File:** `raw/edward-s-curtis/04-apache-reaper.jpg` (4348 × 3478px)
 
-### 05 — Bear’s Belly (Apsáalooke/Crow) (1908)
+### 05 — Bear’s Belly (Arikara) (1908)
 - **Why it matters:** The sitter fills the upright frame with a dense cloak silhouette while the face is turned just off center; fur, beadwork, and feather texture build an almost abstract field around a sharply lit focal face.
 - **Source:** [Wikimedia Commons open file](https://commons.wikimedia.org/wiki/File:Bear%27s_Belly_by_Edward_Curtis,_1908.jpg)
 - **Rights:** Public domain (1908 Curtis photograph; Commons public-domain original).
@@ -55,13 +55,13 @@ Curtis made these photographs while producing *The North American Indian* (1907�
 - **File:** `raw/edward-s-curtis/08-mandan-girls-gathering-berries.jpg` (5884 × 7845px)
 
 ### 09 — At the water’s edge—Piegan (1910)
-- **Why it matters:** A lone figure stands at the boundary of dark shore and luminous water, pushed slightly to one side so the horizontal bands of lake, bank, and distant land carry as much of the image as the person does.
+- **Why it matters:** Two lodges and their reflections sit across a bright water field, while the far bank and a curving shore edge pivot the frame between land and reflection.
 - **Source:** [Wikimedia Commons open file](https://commons.wikimedia.org/wiki/File:Piegan-_At_the_Waters_edge.jpg)
 - **Rights:** Public domain (1910 Curtis photograph; Commons public-domain original).
 - **File:** `raw/edward-s-curtis/09-at-waters-edge-piegan.jpg` (1435 × 2071px)
 
 ### 10 — Big Mouth Spring (1910)
-- **Why it matters:** The spring is framed as a dark oval opening inside a surround of pale rock, with the figures and reflected water creating nested tonal shapes; it is a compact example of Curtis using landscape as a stage-set enclosure.
+- **Why it matters:** A close portrait sets the face and dark garment mass against open pale ground, while a handheld branch angles toward the lower right.
 - **Source:** [Library of Congress record](https://hdl.loc.gov/loc.pnp/cph.3c06743) · [Wikimedia Commons open file](https://commons.wikimedia.org/wiki/File:Big_Mouth_Spring.jpg)
 - **Rights:** Public domain; Commons file identifies the LOC source and public-domain status.
 - **File:** `raw/edward-s-curtis/10-big-mouth-spring.jpg` (2646 × 3531px)
