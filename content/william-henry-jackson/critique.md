@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-15
 
@@ -9,3 +9,9 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All ten proofs were checked against their current specs, analyses, sources, research, and chapter. The remaining primitives are visually truthful and pedagogically selective (three per image); numeric chapter claims match the analyzer within tolerance, and no historical camera settings are inferred.
+
+## Builder resolution — 2026-07-15
+
+- Re-ran analysis, rendering, scoring, and visual QA for `06-great-falls-yellowstone-1872`; the `WATERFALL` polyline now follows the pale fall at x=0.56–0.58. The deterministic score is 100/100.
+- Re-verified all required fixes from the full critique history: the sole prior round, 2026-07-15 (`db64b60`), now holds. No earlier critique rounds exist.
+- `scripts/check.sh` passed before this verdict was set.
