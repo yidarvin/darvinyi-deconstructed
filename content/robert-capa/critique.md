@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -42,3 +42,19 @@ Re-verified prior critique rounds: **2026-07-17** (the sole prior round in `git 
 7. Recorded 11's separate hosted-scan CC BY-SA 2.0 attribution and share-alike conditions.
 
 Validation: re-rendered and visually inspected all four affected proofs; their deterministic overlay scores are 100, 100, 100, and 90.9 (threshold 80). `scripts/check.sh` passes, and `content/robert-capa/chapter.mdx` remains byte-identical to `src/chapters/robert-capa.mdx`.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **Source-note redundancy:** the Commons file-page source links for every plate resolve and preserve the traceable source/credit record. The separately listed direct-file URLs for 04 and 05 currently return 404, so refresh those optional convenience links when their current upload URLs are available; this does not impair source traceability through the working Commons records.
+
+### Verification notes
+
+- Re-reviewed all eleven proof PNGs, paired overlay and analyzer JSON, chapter prose, research note, manifest, and source records. The seven required findings from the 2026-07-17 round remain resolved: 02 contains no tether claim; 09 contains no false crane/platform lines and uses the documented fair-use route; 10 contains no false sea-horizon claim; 11 anchors the visible right-hand soldier; the revised source notes and hosted-scan attribution are present.
+- Deterministic re-scoring passes every overlay: 01–10 score 100/100; 11 scores 90.9/100 (above the 80 threshold). Its anchor is visibly on the named soldier's helmet; the scorer's 0.060 distance to a crop-edge saliency detection is not a semantic regression.
+- No invented camera settings or material chapter/spec disagreements found. All image source pages resolve; 09 includes a per-image four-factor fair-use rationale and 11 identifies the separate CC BY-SA 2.0 hosted-scan conditions.

@@ -61,7 +61,7 @@ real queue and state live in data/registry.json.
 | 50  | john-vachon               | John Vachon               | DONE    |
 | 51  | berenice-abbott           | Berenice Abbott           | DONE    |
 | 52  | margaret-bourke-white     | Margaret Bourke-White     | DONE    |
-| 53  | robert-capa               | Robert Capa               | PENDING |
+| 53  | robert-capa               | Robert Capa               | DONE    |
 | 54  | w-eugene-smith            | W. Eugene Smith           | PENDING |
 | 55  | henri-cartier-bresson     | Henri Cartier-Bresson     | PENDING |
 | 56  | alfred-eisenstaedt        | Alfred Eisenstaedt        | PENDING |
