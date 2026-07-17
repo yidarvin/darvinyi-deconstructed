@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "polyline", "points": [[0.27, 0.36], [0.38, 0.30], [0.52, 0.33]], "label": "ROAD CREST" },
-    { "type": "vanishing_point", "x": 0.375, "y": 0.502, "label": "ROAD TURN" },
-    { "type": "leading_line", "points": [[0.57, 0.98], [0.375, 0.502]], "arrow": true, "label": "MUDDY RUT" },
+    { "type": "leading_line", "points": [[0.57, 0.98], [0.51, 0.69], [0.36, 0.47]], "arrow": true, "label": "MUDDY RUT" },
     { "type": "polyline", "points": [[0.09, 0.36], [0.26, 0.16], [0.46, 0.18], [0.70, 0.31]], "label": "TREE TUNNEL" }
   ],
   "notes": "The rutted road pulls from wet foreground toward a shallow turn beneath the trees."

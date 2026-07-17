@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.873, "angle": 0, "label": "CURB LINE" },
     { "type": "vanishing_point", "x": 0.461, "y": 0.529, "label": "STREET RECESSION" },
-    { "type": "leading_line", "points": [[0.336, 0.647], [0.777, 0.320]], "arrow": true, "label": "FACADE EDGE" },
     { "type": "frame_in_frame", "x": 0.02, "y": 0.36, "w": 0.25, "h": 0.26, "label": "COSTUME SIGN" }
   ],
-  "notes": "A large sign and receding storefront edges compress the commercial street into a dense corridor."
+  "notes": "A large sign, a curb boundary, and the measured street recession compress the commercial street into a dense corridor."
 }
