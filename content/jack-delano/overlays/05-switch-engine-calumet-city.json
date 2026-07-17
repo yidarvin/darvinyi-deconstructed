@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-switch-engine-calumet-city.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.298, "angle": 0, "label": "smoke and engine band" },
+    { "type": "ellipse", "cx": 0.64, "cy": 0.47, "rx": 0.19, "ry": 0.15, "label": "smoke plume" },
+    { "type": "ellipse", "cx": 0.34, "cy": 0.50, "rx": 0.035, "ry": 0.055, "label": "low sun" }
+  ],
+  "notes": "A dark locomotive and smoke mass balance the low sun."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-south-water-street-freight-depot.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.556, "angle": 0, "label": "warehouse roof band" },
+    { "type": "frame_in_frame", "x": 0.30, "y": 0.10, "w": 0.17, "h": 0.34, "label": "Pabst sign" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.73, "rx": 0.31, "ry": 0.15, "label": "freight-car field" }
+  ],
+  "notes": "Freight cars form a dense base below the elevated sign and city."
+}

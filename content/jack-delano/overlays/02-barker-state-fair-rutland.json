@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-barker-state-fair-rutland.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.537, "angle": -3.0, "label": "awning edge" },
+    { "type": "vanishing_point", "x": 0.257, "y": 0.019, "label": "banner convergence" },
+    { "type": "leading_line", "points": [[0.262, 0.028], [0.689, 0.646]], "arrow": true, "label": "banner seam" },
+    { "type": "subject_anchor", "x": 0.661, "y": 0.599, "r": 0.04, "label": "barker" }
+  ],
+  "notes": "Painted banners and the barker’s figure turn the booth into a vertical stage."
+}

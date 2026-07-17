@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-connecticut-town-on-the-sea-stonington.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.813, "angle": -1.1, "label": "far shoreline" },
+    { "type": "polyline", "points": [[0.03, 0.74], [0.24, 0.70], [0.43, 0.76]], "label": "stone shore" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.78, "rx": 0.065, "ry": 0.08, "label": "figures at water" }
+  ],
+  "notes": "A low shore and small figures keep the expansive cloud field anchored."
+}

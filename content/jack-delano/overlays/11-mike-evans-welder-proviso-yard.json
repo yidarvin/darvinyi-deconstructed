@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-mike-evans-welder-proviso-yard.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.143, "angle": 0, "label": "boxcar roof edge" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.08, "w": 0.65, "h": 0.78, "label": "boxcar field" },
+    { "type": "polyline", "points": [[0.52, 0.55], [0.66, 0.61], [0.79, 0.77]], "label": "torch hose" }
+  ],
+  "notes": "The welder meets the camera at the junction of body, torch, and boxcar."
+}

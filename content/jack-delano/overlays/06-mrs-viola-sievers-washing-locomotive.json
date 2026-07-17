@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "06-mrs-viola-sievers-washing-locomotive.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.535, "angle": -2.9, "label": "locomotive running gear" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.64, "rx": 0.13, "ry": 0.12, "label": "steam cloud" }
+  ],
+  "notes": "The worker’s spray cuts across the locomotive’s overwhelming machinery."
+}

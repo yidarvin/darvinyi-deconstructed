@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-switchman-proviso-yard.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.135, "angle": 3.0, "label": "distant freight line" },
+    { "type": "polyline", "points": [[0.03, 0.87], [0.43, 0.66], [0.94, 0.45]], "label": "switching rails" },
+    { "type": "polyline", "points": [[0.02, 0.72], [0.45, 0.53], [0.98, 0.36]], "label": "parallel rails" }
+  ],
+  "notes": "The switchman’s bent body activates an expansive field of parallel rails."
+}

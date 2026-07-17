@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-backstage-girlie-show-rutland.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.412, "angle": 0, "label": "seated shoulder line" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.61, "rx": 0.14, "ry": 0.31, "label": "center figure" },
+    { "type": "ellipse", "cx": 0.78, "cy": 0.47, "rx": 0.13, "ry": 0.28, "label": "rear figure" }
+  ],
+  "notes": "Three costumes make a shallow, asymmetric backstage proscenium."
+}
