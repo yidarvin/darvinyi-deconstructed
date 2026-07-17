@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -51,3 +51,14 @@ The earlier required corrections for `04-shadows-paris` and `12-under-the-eiffel
 4. Rebuilt `11-paul-armas-hands` with separate lens ellipses and a narrow middle-finger contour; the false `WRIST EDGE` is removed. The chapter now names only the remaining visible claims. The final proof scored 100/100 with a clean visual pass.
 
 Full critique history re-verified: the initial 2026-07-17 round (`04-shadows-paris`, `12-under-the-eiffel-tower`, and all twelve factor-two fair-use assessments) and the subsequent 2026-07-17 round resolved above. The first-round overlays remain truthful (strict scores: 88/100 for the visually valid brick-pavement edge in `04`, 100/100 for `12`); all second-round affected overlays score 100/100. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` passed before this resolution was recorded.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. Every current proof was visually checked against its overlay spec and matching analysis. The resolved corrections for `01-chez-mondrian`, `02-mondrians-glasses-and-pipe`, `04-shadows-paris`, `06-satiric-dancer-paris`, `11-paul-armas-hands`, and `12-under-the-eiffel-tower` remain materially truthful. All twelve overlay specs pass the deterministic scorer at 80 or above (eleven score 100; `04-shadows-paris` scores 94 normally and 88 strict), and the chapter's stated measured values agree with the analyses. The source dossier provides a traceable Art Institute collection record, credit/rights notice, and complete four-factor fair-use assessment for every selected image; neither the research nor chapter invents capture settings.
+
+### Advisory (non-blocking)
+
+- `04-shadows-paris`: strict scoring still treats the vertical `BRICK-PAVEMENT EDGE` as an unsupported detected edge. In the current proof it visibly follows the hard boundary between the brick strip and pavement, so this is the same detector limitation recorded in the resolution, not a material regression.
+- `07-quartet` and `08-the-dancing-faun`: the previously recorded, non-blocking framing of the music stand and irregular shrub baseline remains legible and has not materially regressed.
