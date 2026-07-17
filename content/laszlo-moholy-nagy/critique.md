@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -31,3 +31,26 @@ Fresh analysis, rendering, and scoring for `12-target-practice` pass at 97/100 (
 
 - `05-decorating-work-switzerland`, `06-dolls-on-the-balcony`, `07-fischernetze-isola-bella`, and `11-scandinavia`: the non-strict scorer warnings for selected labeled lines are detector-support limitations. On visual inspection, each still traces its named cable, rail, net/cloth, or rope feature; no revision is required.
 - `12-target-practice`: the three-ellipse complexity warning remains non-blocking. The current proof shows each ellipse accurately follows its distinct printed target circle, preserving the prior round's resolution.
+
+## Resolution — 2026-07-17
+
+Re-verified prior critique rounds: the initial 2026-07-17 `12-target-practice`
+revision and its 2026-07-17 resolution, plus the current 2026-07-17 review.
+
+1. Re-ran analysis, rendering, visual review, and scoring for
+   `09-from-the-radio-tower-berlin`. Moved the `plaza center`
+   `subject_anchor` from the detector's unrelated lower-left saliency point to
+   `(0.55, 0.74)`, the center of the visible circular plaza and of the
+   accurately fitted `circular plaza` ellipse. The regenerated proof is clean
+   on visual inspection and scores 81.1/100 (threshold 80); the sole
+   deduction is the expected detector-saliency mismatch, not a mislabeled
+   feature.
+2. Re-checked the prior `12-target-practice` fixes against the current proof:
+   its three ellipses still follow their named printed circles and the false
+   diagonal-track primitive remains absent.
+3. Corrected the supporting medium statement and selected-work Met citation:
+   all twelve selected works are catalogued as gelatin silver prints, and
+   *Fotogramm* is additionally a cameraless photogram.
+
+`scripts/check.sh` passes, including pipeline validation, chapter byte-sync,
+prose lint, tests, typecheck, build, and production preview smoke test.

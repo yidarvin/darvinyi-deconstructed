@@ -15,16 +15,16 @@ photomontage, and the visual language of modern technological culture. The
 Metropolitan Museum identifies Moholy-Nagy as a major New Vision advocate and
 his Bauhaus period as 1923–28; MoMA places his photogram and photomontage
 experiments from mid-1922. [Met: New Vision](https://www.metmuseum.org/de/essays/the-new-vision-of-photography)
-[Met: Fotogramm](https://www.metmuseum.org/art/collection/search/265200)
+[Met: Fotogramm](https://www.metmuseum.org/art/collection/search/265275)
 [MoMA chronology](https://www.moma.org/interactives/objectphoto/artists/4048.html)
 
 ## Technique and printing
 
-Eleven selected objects are catalogued as gelatin silver prints in the linked
-Met records in `sources.md`. *Fotogramm* (1922) is a cameraless photogram:
-objects were placed on photographic paper and exposed to light, producing an
-image through contact, transparency, and tonal overlap rather than lens
-perspective. *From the Radio Tower, Berlin* is dated 1928 and explicitly
+All twelve selected objects are catalogued as gelatin silver prints in the linked
+Met records in `sources.md`. *Fotogramm* (1922) is additionally a cameraless
+photogram: objects were placed on photographic paper and exposed to light,
+producing an image through contact, transparency, and tonal overlap rather
+than lens perspective. *From the Radio Tower, Berlin* is dated 1928 and explicitly
 catalogued as printed circa 1940; for the other works the record gives one
 object date, so this chapter treats it as a date rather than asserting a
 separate print date.
