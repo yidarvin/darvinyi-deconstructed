@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -58,3 +58,23 @@ each, but that score does not override the semantic contract of a
 within the stated tolerance of the analysis JSON; no camera settings are
 invented. The four source records remain traceable and the previously required,
 per-image four-factor fair-use rationales are present.
+
+## Resolution — 2026-07-17
+
+1. Removed `LADDER AXIS` from `04-fire-escape`. The retained vanishing-point,
+   façade-edge, and climbing-figure primitives describe recession and the
+   ladder without asserting that the frame is bilaterally mirrored. The updated
+   proof is visually clean and scores 100/100.
+
+### Prior required rounds re-verified
+
+- 2026-07-17 initial `revise` round: all four image-specific fair-use
+  rationales in `sources.md` still explicitly address transformative purpose,
+  the creative and publicly disseminated nature of each work, complete-frame
+  necessity, and web-scale non-substitution.
+- 2026-07-17 subsequent `revise` round: `04-fire-escape` no longer contains a
+  `symmetry_axis`; its 100/100 overlay score and visual proof now support only
+  the truthful ladder-recession claims.
+- The current overlays and proofs for all four plates were re-scored at
+  100/100 and visually re-opened. `chapter.mdx` remains byte-identical to the
+  rendered `src/chapters/alexander-rodchenko.mdx`.
