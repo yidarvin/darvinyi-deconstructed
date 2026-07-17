@@ -117,6 +117,10 @@ the legacy queue driver:
 ./runqueue.sh -n 20
 ```
 
+`runqueue.sh` commits locally by default. Its `--push` flag is an explicit
+deploy-triggering opt-in; the active `run.sh` service instead publishes only approved
+chapters and integration boundaries.
+
 Active pipeline stages use `gpt-5.6-terra` at High effort. The legacy queue
 driver uses `gpt-5.6-sol` at High effort. Use `./run.sh doctor` to verify the
 local Codex setup and `./run.sh --dry-run next` to inspect a stage without
@@ -135,9 +139,12 @@ or approved chapter.
 On macOS, the service intentionally routes Git through
 `scripts/service-bin/git` to `/usr/bin/git`. Full Disk Access is attached to an
 executable identity, and Homebrew Git uses a versioned ad-hoc identity that can
-change on upgrade. The driver skips pushes when the branch is already synchronized;
-permission, authentication, and network sync failures retry without spending a
-Codex recovery call.
+change on upgrade. The driver commits every validated atomic unit locally but pushes
+only when a chapter is approved, the shared renderer changes, or a wave integration
+pass completes. An approval push carries that chapter's accumulated source, build,
+and review commits in one deploy-triggering update. Permission, authentication, and
+network publication failures retry from a durable marker without spending a Codex
+recovery call.
 
 Useful checks:
 
@@ -148,12 +155,13 @@ tail -f .pipeline/runtime/supervisor.log
 ./run.sh stop
 ```
 
-Runtime files under `.pipeline/runtime/` are local and ignored. Queue state,
-chapter artifacts, critiques, ship markers, commits, and pushes remain the
-durable audit trail.
+Runtime files under `.pipeline/runtime/` are local and ignored. Queue state, chapter
+artifacts, critiques, ship markers, and local commits remain the durable work journal;
+publication-boundary pushes are the production audit trail.
 
 Each unattended invocation is pinned to a machine-readable photographer slug before
 Codex starts. Codex cannot publish directly: temporary Git hooks and an invalid child
 push URL hold the transaction locally. The parent validates that only the selected
-unit changed, runs the full gate, then commits and pushes. A globally valid change to
-the wrong photographer is rejected as a work-unit boundary violation.
+unit changed, runs the full gate, then commits locally. It publishes only an approved
+chapter or integration boundary. A globally valid change to the wrong photographer is
+rejected as a work-unit boundary violation.

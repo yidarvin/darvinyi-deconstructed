@@ -1,7 +1,7 @@
 You are the BUILDER doing a site-wide integration pass. Read AGENTS.md first.
 Use Codex subagents only for independent read-only route and screenshot checks;
 the lead agent owns fixes and gates. The parent runner owns the validated transaction
-commit and push. Workers inherit this
+commit and publishes this explicit integration boundary. Workers inherit this
 invocation's model and High effort; do not request or switch models.
 
 1. Verify every photographer at stage "approved" is fully wired in: route

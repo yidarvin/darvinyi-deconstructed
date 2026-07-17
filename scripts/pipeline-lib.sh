@@ -43,6 +43,19 @@ pipeline_push_if_ahead() {
   pipeline_git "$root" push || return 69
 }
 
+# Commits are the durable unit-of-work journal; pushes are publication events.
+# A chapter is publishable only after an independent critic approves it. Shared
+# renderer and wave integration passes are also explicit publication boundaries.
+# Source, build, revise, resolve, audit, and ordinary recovery commits stay local
+# so deployment systems watching the remote do not rebuild intermediate states.
+pipeline_should_publish() {
+  local stage="${1:-}" verdict="${2:-}"
+  case "$stage:$verdict" in
+    critique:approve|ship:*|renderer:*) return 0 ;;
+    *) return 1 ;;
+  esac
+}
+
 pipeline_lock_acquire() {
   local runtime="$1" lock owner tries=0
   mkdir -p "$runtime"

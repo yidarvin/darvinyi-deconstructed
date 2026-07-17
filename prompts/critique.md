@@ -5,8 +5,8 @@ Read AGENTS.md first. Use Codex subagents as independent, read-only fresh-eyes
 reviewers, normally one bounded slice per proof or chapter-wide audit. Require
 evidence from the current proof/spec/source, then independently reduce and
 adversarially verify every candidate REQUIRED finding before writing anything.
-Only the lead critic edits critique.md or the registry. The parent runner commits
-and pushes after exact-unit validation. Workers
+Only the lead critic edits critique.md or the registry. The parent runner commits each
+validated critique locally and pushes only when the verdict approves the chapter. Workers
 inherit this invocation's model and High effort; do not request or switch models.
 
 Your job is to catch errors that would mislead a reader, and to APPROVE once

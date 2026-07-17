@@ -2,7 +2,7 @@
 # runqueue.sh -- headless build loop for a queue-driven refsite.
 #
 # Walks prompts/queue.md and, for every PENDING row, invokes `codex exec` to build
-# the next item (research, write, gate, commit, push), then runs `npm run check` as
+# the next item (research, write, gate, commit), then runs `npm run check` as
 # an independent second gate. It stops the moment anything is off: a nonzero Codex
 # exit, a hung run past --timeout, a failing check, a working tree the run left
 # dirty, or a run that made no queue progress. It returns nonzero to its caller,
@@ -28,7 +28,8 @@
 #   -s, --settings VAL   extra Codex -c key=value override (default: none)
 #   -t, --timeout SEC    kill a single Codex run after SEC seconds
 #                        (default: 14400 = four hours)
-#       --no-push        build and commit but do not push (adjusts the default prompt)
+#       --push           push after every item (explicit; may trigger production)
+#       --no-push        build and commit but do not push (default; kept for clarity)
 #       --no-check       skip the `npm run check` second gate (not recommended)
 #       --allow-dirty    do not require a clean git working tree
 #       --dry-run        print the resolved plan and command, then run nothing
@@ -46,9 +47,9 @@ MODEL='gpt-5.6-sol'
 EFFORT='high'
 SETTINGS=''          # optional Codex -c key=value override
 QUEUE='prompts/queue.md'
-PROMPT=''            # resolved after parsing so --no-push can adjust the default
+PROMPT=''            # resolved after parsing so publication policy adjusts the default
 PROMPT_SET=0
-NO_PUSH=0
+PUSH=0
 RUN_CHECK=1
 ALLOW_DIRTY=0
 DRY_RUN=0
@@ -58,8 +59,8 @@ POLL_SECONDS="${STAGE_POLL_SECONDS:-5}"
 CODEX_BIN="${CODEX_BIN:-codex}"
 MAX=''               # empty means unbounded (run all)
 
-DEFAULT_PROMPT_PUSH='run the next one. commit and push the changes.'
 DEFAULT_PROMPT_NOPUSH='run the next one. commit the changes but do not push.'
+DEFAULT_PROMPT_PUSH='run the next one. commit and push the changes.'
 
 usage() { sed -n '2,/^# Exit status/{/^# Exit status/d;s/^# \{0,1\}//;p;}' "$0"; }
 
@@ -86,7 +87,8 @@ while [ $# -gt 0 ]; do
     -q|--queue)     [ $# -ge 2 ] || die "$1 needs a value"; QUEUE="$2"; shift 2 ;;
     -s|--settings)  [ $# -ge 2 ] || die "$1 needs a value"; SETTINGS="$2"; shift 2 ;;
     -t|--timeout)   [ $# -ge 2 ] || die "$1 needs a value"; TIMEOUT="$(parse_count "$1" "$2")"; shift 2 ;;
-    --no-push)      NO_PUSH=1; shift ;;
+    --push)         PUSH=1; shift ;;
+    --no-push)      PUSH=0; shift ;;
     --no-check)     RUN_CHECK=0; shift ;;
     --allow-dirty)  ALLOW_DIRTY=1; shift ;;
     --dry-run)      DRY_RUN=1; shift ;;
@@ -101,9 +103,10 @@ done
 # is an error, so a misplaced flag can never be silently dropped into a live run.
 [ $# -eq 0 ] || die "unexpected argument(s): $* (try --help)"
 
-# Resolve the default prompt now that --no-push is known. An explicit --prompt wins.
+# Resolve the safe default prompt. An explicit --prompt still wins, while the
+# push URL guard below enforces commit-only mode unless --push is explicit.
 if [ "$PROMPT_SET" -eq 0 ]; then
-  if [ "$NO_PUSH" -eq 1 ]; then PROMPT="$DEFAULT_PROMPT_NOPUSH"; else PROMPT="$DEFAULT_PROMPT_PUSH"; fi
+  if [ "$PUSH" -eq 1 ]; then PROMPT="$DEFAULT_PROMPT_PUSH"; else PROMPT="$DEFAULT_PROMPT_NOPUSH"; fi
 fi
 
 # Validate the effort level up front rather than let Codex use its default silently.
@@ -173,6 +176,7 @@ printf '  effort:   %s\n' "$EFFORT"
 [ -n "$SETTINGS" ] && printf '  config:   %s\n' "$SETTINGS"
 printf '  timeout:  %s\n' "$([ "$TIMEOUT" -gt 0 ] && echo "${TIMEOUT}s per item" || echo 'none')"
 printf '  gate:     %s\n' "$([ "$RUN_CHECK" -eq 1 ] && echo 'npm run check after each item' || echo 'skipped (--no-check)')"
+printf '  publish:  %s\n' "$([ "$PUSH" -eq 1 ] && echo 'push every item (--push)' || echo 'commit locally (default)')"
 printf '  command:  %s %s\n' "$CODEX_BIN" "$(printf '%q ' "${CODEX_ARGS[@]}")"
 
 if [ "$DRY_RUN" -eq 1 ]; then
@@ -222,7 +226,14 @@ trap cleanup EXIT
 # Codex's exit status; 124 signals a timeout when --timeout is in effect.
 run_codex() {
   local started now timed_out=0 rc
-  "$CODEX_BIN" "${CODEX_ARGS[@]}" </dev/null &
+  if [ "$PUSH" -eq 1 ]; then
+    "$CODEX_BIN" "${CODEX_ARGS[@]}" </dev/null &
+  else
+    GIT_CONFIG_COUNT=1 \
+    GIT_CONFIG_KEY_0=remote.origin.pushurl \
+    GIT_CONFIG_VALUE_0="$RUNTIME/runqueue-publish-blocked" \
+      "$CODEX_BIN" "${CODEX_ARGS[@]}" </dev/null &
+  fi
   CHILD_PID=$!
   started="$(date +%s)"
   while kill -0 "$CHILD_PID" 2>/dev/null; do

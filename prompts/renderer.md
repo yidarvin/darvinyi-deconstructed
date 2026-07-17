@@ -6,4 +6,4 @@ image at natural aspect ratio with NO object-fit cropping, and support every
 primitive in the schema. Add a small demo page that renders
 .agents/skills/composition-analysis/examples/example-spec.json over a test
 image so it can be eyeballed. Leave the completed changes uncommitted; the parent
-runner validates, commits, and pushes them.
+runner validates and commits them, then publishes this shared-renderer boundary.

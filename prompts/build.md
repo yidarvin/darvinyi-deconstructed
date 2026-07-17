@@ -4,7 +4,8 @@ Use Codex subagents for independent per-photographer research, per-image
 composition review, and adversarial verification. Give each worker a bounded
 objective and require a concise evidence-backed handoff. The lead agent reduces
 their findings, owns all repository writes, and runs the deterministic gates. The
-parent runner serializes commits and pushes after exact-unit validation. Workers
+parent runner serializes local commits after exact-unit validation and publishes only
+approved chapters and integration boundaries. Workers
 inherit this invocation's model and High effort; do not request or switch models.
 
 Select exactly one atomic work unit per invocation, using this priority order:

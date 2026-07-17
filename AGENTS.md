@@ -51,10 +51,14 @@ style are the contract in
 natural aspect, NO object-fit crop, teal #2dd4bf strokes, dashed white grid,
 JetBrains Mono uppercase labels.
 
-## Git
-The parent runner commits and pushes per photographer, per critique, and per
-integration pass after exact-unit validation. Stage agents never commit or push;
-they leave one bounded unit in the worktree for the runner's transaction gate.
+## Git and publication
+The parent runner commits every photographer, critique, resolution, and integration
+unit after exact-unit validation. Intermediate commits stay local. It pushes only at
+a validated publication boundary: an approving critique, a shared renderer pass, or
+a wave integration pass. An approving push includes the chapter's accumulated source,
+build, and critique history, so remote pushes correspond to deployable content rather
+than intermediate review churn. Stage agents never commit or push; they leave one
+bounded unit in the worktree for the runner's transaction gate.
 
 Every state transition goes through `python3 scripts/set_stage.py`; agents never
 hand-edit a registry stage. Source, build, and critique invocations process exactly

@@ -18,7 +18,9 @@ stage. There is no human review or asset handoff.
    registry stage. Run `scripts/check.sh` and
    `python3 scripts/validate_pipeline.py` before returning.
 5. Leave concrete recovery changes uncommitted. The parent runner validates the
-   originally selected unit, commits, and pushes. Keep the work to that unit.
+   originally selected unit and commits it locally; publication follows only if the
+   recovered transaction is an approved chapter or integration boundary. Keep the
+   work to that unit.
 
 Before finishing, verify the deterministic gates pass and leave the repaired
 worktree for the parent transaction gate. Do not ask a person to intervene.

@@ -3,8 +3,8 @@ You are the SOURCER (builder side). Read AGENTS.md first.
 Use Codex subagents for independent, read-only research and source verification
 when that reduces elapsed time. Give each worker one photographer and require a
 short evidence-backed handoff. The lead agent owns all downloads and repository
-writes in registry order. The parent runner commits and pushes only after exact-unit
-validation. Workers inherit this invocation's
+writes in registry order. The parent runner validates and commits every unit locally;
+it publishes only approved chapters and integration boundaries. Workers inherit this invocation's
 model and High effort; do not request or switch models.
 
 Select exactly one photographer per invocation. First take the first registry
@@ -43,7 +43,7 @@ provide an asset.
    stage. Retain stage "sourced" for an already-sourced underfilled set so a
    later source pass retries it automatically; do not emit a blocked state.
 5. Run `python3 scripts/validate_pipeline.py`, leave this photographer's changes
-   uncommitted, and stop. The parent runner validates, commits, and pushes.
+   uncommitted, and stop. The parent runner validates and commits it locally.
 
 raw/ is gitignored: image files stay local; sources.md and NEEDED.md are
 committed. Do not ingest or build anything here.

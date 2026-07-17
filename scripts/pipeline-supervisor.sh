@@ -143,15 +143,15 @@ while :; do
     continue
   fi
 
-  # Git synchronization is infrastructure, not repository work. Retrying it
+  # Publication synchronization is infrastructure, not repository work. Retrying it
   # never needs a Terra recovery agent, and doing so would burn model calls on
   # an OS permission, network, or authentication failure.
   if [ "$rc" -eq 69 ]; then
     attempt=$((attempt + 1))
     delay="$(pipeline_backoff_seconds "$attempt" "$BASE_BACKOFF" "$MAX_BACKOFF")"
     next_retry=$(( $(date +%s) + delay ))
-    write_state degraded "$attempt" "$next_retry" "git-sync-rc-69"
-    log "git synchronization failed attempt=$attempt; deterministic retry in ${delay}s (no recovery model)"
+    write_state degraded "$attempt" "$next_retry" "publication-sync-rc-69"
+    log "publication synchronization failed attempt=$attempt; deterministic retry in ${delay}s (no recovery model)"
     sleep "$delay"
     continue
   fi

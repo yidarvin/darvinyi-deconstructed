@@ -82,6 +82,33 @@ grep -Fq 'scripts/work_unit.py validate' run.sh \
 grep -Fq 'remote.origin.pushurl' run.sh \
   || fail "Codex child can publish before exact-unit validation"
 
+# Atomic stages are committed locally, but only deployable boundaries may push.
+# This keeps source retries and critique churn from triggering production builds.
+bash -c '
+  set -e
+  . scripts/pipeline-lib.sh
+  pipeline_should_publish critique approve
+  pipeline_should_publish ship ""
+  pipeline_should_publish renderer ""
+  ! pipeline_should_publish source ""
+  ! pipeline_should_publish build ""
+  ! pipeline_should_publish critique revise
+  ! pipeline_should_publish critique resolved
+' || fail "publication policy does not isolate approved/integration boundaries"
+pre_stage_sync="$(awk '
+  /python3 scripts\/work_unit.py snapshot/ { capture=1 }
+  capture { print }
+  /run_codex \"\$model\" \"\$prompt\"/ { exit }
+' run.sh)"
+assert_not_contains "$pre_stage_sync" 'pipeline_push_if_ahead' \
+  "runner publishes accumulated local commits before the next unit is approved"
+grep -Fq 'NEXT publish 0 release' run.sh \
+  || fail "failed publication does not leave a deterministic retry decision"
+grep -Fq 'publish-pending' run.sh \
+  || fail "publication retry marker is not durable"
+grep -Fq 'pushes only at' AGENTS.md \
+  || fail "AGENTS contract does not document publication boundaries"
+
 # The child Git transaction controls are behavioral: a normal commit works in
 # the fixture, while the Codex-only hooks reject a commit and the injected
 # pushurl prevents publishing to the real configured remote.
@@ -110,6 +137,13 @@ pushurl="$(GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=remote.origin.pushurl \
 queue_dry="$(./runqueue.sh --dry-run -n 1)"
 assert_contains "$queue_dry" 'gpt-5\.6-sol' "runqueue must use Sol"
 assert_contains "$queue_dry" 'model_reasoning_effort=.*high' "runqueue must use High effort"
+assert_contains "$queue_dry" 'publish:.*commit locally' \
+  "runqueue default can trigger a push per item"
+queue_push_dry="$(./runqueue.sh --dry-run --push -n 1)"
+assert_contains "$queue_push_dry" 'publish:.*push every item' \
+  "runqueue explicit --push opt-in is not visible in its plan"
+assert_contains "$queue_push_dry" 'commit\\ and\\ push|commit and push' \
+  "runqueue --push does not select the publishing prompt"
 
 python3 scripts/validate_pipeline.py
 

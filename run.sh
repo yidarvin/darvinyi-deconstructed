@@ -20,6 +20,7 @@ RUNTIME="${PIPELINE_RUNTIME_DIR:-$ROOT/.pipeline/runtime}"
 SUMMARY_LOG="$ROOT/.pipeline/log"
 SUMMARY_LOG="${PIPELINE_SUMMARY_LOG:-$SUMMARY_LOG}"
 LAST_FAILURE="$RUNTIME/last-failure"
+PUBLISH_PENDING="$RUNTIME/publish-pending"
 PUSH_CHANGES="${PIPELINE_PUSH:-1}"
 ALLOW_DIRTY="${PIPELINE_ALLOW_DIRTY:-0}"
 
@@ -201,11 +202,30 @@ PYEOF
 next_decision() {
   if tree_dirty; then
     echo "NEXT recover 0 runtime :: repair an interrupted dirty working tree"
+  elif [ -f "$PUBLISH_PENDING" ]; then
+    echo "NEXT publish 0 release :: retry the validated publication boundary"
   elif [ -f "$LAST_FAILURE" ]; then
     echo "NEXT recover 0 runtime :: close the recorded deterministic stage failure"
   else
     decide next | tail -1
   fi
+}
+
+publish_pending_release() {
+  local description="validated publication boundary"
+  if [ -f "$PUBLISH_PENDING" ]; then
+    description="$(tr '\n' ' ' < "$PUBLISH_PENDING")"
+  fi
+  echo ">>>> publishing: $description"
+  if [ "$DRY_RUN" -eq 1 ]; then
+    echo "dry run: git push committed release boundary"
+    return 0
+  fi
+  if ! pipeline_push_if_ahead "$ROOT"; then
+    echo "!! publication synchronization failed; committed work and retry marker are preserved"
+    return 69
+  fi
+  rm -f "$PUBLISH_PENDING"
 }
 
 runtime_status() {
@@ -298,7 +318,7 @@ run_stage() {
   local stage="$1" wave="${2:-0}" unit="${3:-}" model prompt before after rc=0 had_failure=0
   local before_head snapshot_path validation_stage validation_wave validation_unit validation_snapshot validation_head
   local binding_stage binding_wave binding_unit
-  local old_verdict new_verdict commit_message
+  local old_verdict new_verdict="" commit_message publish_tmp ahead
   [ -n "$unit" ] && [ "$unit" != "::" ] || { echo "!! exact work unit missing for stage '$stage'"; return 64; }
   case "$stage" in critique) model="$CRITIC_MODEL" ;; *) model="$BUILD_MODEL" ;; esac
   [ -f "prompts/$stage.md" ] || { echo "!! prompt missing: prompts/$stage.md"; return 2; }
@@ -319,7 +339,7 @@ run_stage() {
       "invocation_role=$stage" "validation_stage=$binding_stage" \
       "wave=$binding_wave" "unit=$binding_unit" \
       'Process exactly this unit. Do not select, edit, stage, commit, or push any other unit.' \
-      'Do not commit or push. Leave the validated unit changes in the working tree; the parent runner validates, commits, and publishes.' \
+      'Do not commit or push. Leave the validated unit changes in the working tree; the parent runner validates and commits every unit locally, then publishes only approved chapters and integration boundaries.' \
       'If the unit cannot be completed, exit without starting another unit.' \
       '' 'ORIGINAL STAGE PROMPT' ''
     cat "prompts/$stage.md"
@@ -344,9 +364,6 @@ run_stage() {
   snapshot_path="$RUNTIME/work-unit-before.$$.json"
   python3 scripts/work_unit.py snapshot --root "$ROOT" --output "$snapshot_path"
   [ -f "$LAST_FAILURE" ] && had_failure=1
-  if [ "$PUSH_CHANGES" = "1" ] && [ "$stage" != "recover" ]; then
-    pipeline_push_if_ahead "$ROOT" || return 69
-  fi
   run_codex "$model" "$prompt" || rc=$?
   if [ "$rc" -ne 0 ]; then
     append_summary "$stage" "$wave" "$model" "$rc"
@@ -458,12 +475,23 @@ run_stage() {
     return 76
   fi
 
-  if [ "$PUSH_CHANGES" = "1" ]; then
-    if ! pipeline_push_if_ahead "$ROOT"; then
+  if [ "$PUSH_CHANGES" = "1" ] && pipeline_should_publish "$validation_stage" "$new_verdict"; then
+    publish_tmp="$PUBLISH_PENDING.tmp.$$"
+    {
+      echo "stage=$validation_stage"
+      echo "unit=$validation_unit"
+      echo "verdict=${new_verdict:-n/a}"
+      echo "head=$(pipeline_git "$ROOT" rev-parse HEAD)"
+    } > "$publish_tmp"
+    mv -f "$publish_tmp" "$PUBLISH_PENDING"
+    if ! publish_pending_release; then
       append_summary "$stage" "$wave" "$model" 69
-      echo "!! git synchronization failed; committed work is preserved and no recovery model will be invoked"
+      echo "!! publication failed; committed work is preserved and no recovery model will be invoked"
       return 69
     fi
+  elif [ "$PUSH_CHANGES" = "1" ]; then
+    ahead="$(pipeline_git "$ROOT" rev-list --count '@{upstream}..HEAD' 2>/dev/null || echo unknown)"
+    echo ">>>> commit retained locally ($ahead ahead); next push is an approved chapter or integration boundary"
   fi
   rm -f "$LAST_FAILURE"
   rm -f "$snapshot_path"
@@ -592,7 +620,11 @@ case "$cmd" in
     action="$(echo "$line" | awk '{print $2}')"
     wave="$(echo "$line" | awk '{print $3}')"
     unit="$(echo "$line" | awk '{print $4}')"
-    case "$action" in done|setup) exit 0 ;; *) run_stage "$action" "$wave" "$unit" ;; esac
+    case "$action" in
+      done|setup) exit 0 ;;
+      publish) publish_pending_release ;;
+      *) run_stage "$action" "$wave" "$unit" ;;
+    esac
     ;;
   loop)
     if [ "$DRY_RUN" -eq 0 ]; then
@@ -613,6 +645,7 @@ case "$cmd" in
       echo "== loop step $i/$max: $action (wave $wave) — $reason"
       case "$action" in
         done|setup) echo "$reason"; break ;;
+        publish) publish_pending_release ;;
         *) run_stage "$action" "$wave" "$unit" ;;
       esac
     done
