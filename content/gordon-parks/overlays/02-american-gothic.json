@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-american-gothic.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.15, "y": 0.105, "w": 0.75, "h": 0.79, "label": "photograph field" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.46, "rx": 0.08, "ry": 0.10, "label": "Ella Watson" },
+    { "type": "polyline", "points": [[0.17, 0.14], [0.43, 0.14], [0.43, 0.35]], "label": "flag canton" },
+    { "type": "polyline", "points": [[0.30, 0.61], [0.39, 0.75], [0.48, 0.85]], "label": "broom thrust" }
+  ],
+  "notes": "Flag, face, and broom make a frontal symbolic arrangement whose dignity and accusation cannot be separated."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-charwoman-at-work.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.15, "y": 0.105, "w": 0.77, "h": 0.80, "label": "photograph field" },
+    { "type": "ellipse", "cx": 0.64, "cy": 0.67, "rx": 0.17, "ry": 0.25, "label": "Ella Watson" },
+    { "type": "polyline", "points": [[0.39, 0.43], [0.42, 0.62], [0.43, 0.84]], "label": "upright mop" }
+  ],
+  "notes": "The full institutional field makes Watson, her tool, and the displayed credentials share one tightly bounded workplace portrait."
+}

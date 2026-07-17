@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-ella-watson-children.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.35, "cy": 0.49, "rx": 0.13, "ry": 0.23, "label": "Ella Watson" },
+    { "type": "ellipse", "cx": 0.65, "cy": 0.66, "rx": 0.16, "ry": 0.16, "label": "children on bed" },
+    { "type": "polyline", "points": [[0.04, 0.34], [0.20, 0.34], [0.20, 0.73]], "label": "bed rail" },
+    { "type": "frame_in_frame", "x": 0.73, "y": 0.22, "w": 0.18, "h": 0.48, "label": "open doorway" }
+  ],
+  "notes": "Beds and doorway divide a small room into connected zones of watchfulness, rest, and work."
+}

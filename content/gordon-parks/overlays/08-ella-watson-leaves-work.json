@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-ella-watson-leaves-work.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.11, "y": 0.16, "w": 0.77, "h": 0.77, "label": "photograph field" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "stairwell axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.47, "rx": 0.07, "ry": 0.18, "label": "Ella Watson" },
+    { "type": "polyline", "points": [[0.29, 0.83], [0.39, 0.69], [0.48, 0.57]], "label": "rising steps" }
+  ],
+  "notes": "The stairwell centers Watson on an axis while its repeated treads turn leaving home into a measured ascent."
+}
