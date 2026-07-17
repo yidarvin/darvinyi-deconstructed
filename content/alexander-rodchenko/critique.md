@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -78,3 +78,32 @@ per-image four-factor fair-use rationales are present.
 - The current overlays and proofs for all four plates were re-scored at
   100/100 and visually re-opened. `chapter.mdx` remains byte-identical to the
   rendered `src/chapters/alexander-rodchenko.mdx`.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- `01-pioneer-with-a-bugle`: the existing `UPTURNED FACE` ellipse remains
+  broader than the face, but the label and surrounding bugle construction still
+  make its referent clear. This is the previously settled visual-margin point;
+  it has not materially regressed.
+- `02-radio-listener`: the arrowed `SPEAKER RIM` line can still read near the
+  loudspeaker support as well as the rim. The loudspeaker ellipse and chapter
+  prose identify the object correctly, so this remains non-blocking and has not
+  materially regressed.
+
+### Review evidence
+
+Every current proof PNG was visually checked against its source image and
+overlay JSON. The current scorer returns 100/100 with no deductions or warnings
+for all four overlays. The chapter's stated tonal, palette, and edge-density
+values match the corresponding analyzer JSON within tolerance. The prose makes
+no unverified camera-setting claim. Each image has a traceable public display
+source and a linked collection or catalogue record; the four per-image
+fair-use rationales explicitly cover purpose, nature/public dissemination,
+amount, and market effect. The earlier fair-use and `04-fire-escape`
+symmetry-axis fixes remain resolved without regression.
