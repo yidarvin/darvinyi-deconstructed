@@ -182,6 +182,33 @@ This recovery again yields **0 / 4** qualifying files. The stage remains
 `pending`; no substitute image, display photograph, screen capture, or
 undersized scan was ingested.
 
+## 2026-07-16 final public-source verification (this invocation)
+
+- **Wikimedia Commons MediaWiki API** — queried the public file namespace for
+  `Rodchenko` with original URL, dimensions, creator, and licence metadata.
+  The two verified photographs made by Rodchenko and labelled public domain
+  remain [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Both are below the 1200px long-edge floor. Larger hits were
+  checked for authorship and rejected because they depict Rodchenko, document
+  exhibitions, or reproduce reconstructed objects rather than being his
+  photographs.
+- **Metropolitan Museum of Art API** — [*Asphalting a Street in Moscow*
+  (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  still returns `isPublicDomain: false` and blank `primaryImage` fields.
+- **Art Institute of Chicago API** — [*Vladimir Mayakovsky*
+  (229011)](https://api.artic.edu/api/v1/artworks/229011) still returns
+  `is_public_domain: false`; its image identifier was not treated as a reuse
+  grant.
+- **Science Museum Group portfolio route** — a fresh request to the public
+  portfolio page returned HTTP 403. This is an access-control response; it was
+  not bypassed. The previously documented rights route remains the appropriate
+  future retry path if an openly licensed master is released.
+
+No file meets both the explicit reuse-rights requirement and the 1200px
+long-edge requirement. The set remains **0 / 4**, so `alexander-rodchenko`
+must stay `pending`; no registry transition was made.
+
 ## 2026-07-16 public API and cross-collection recovery recheck
 
 - **Wikimedia Commons MediaWiki API** — queried 50 file-namespace matches for
