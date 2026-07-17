@@ -346,3 +346,22 @@ Rodchenko/Stepanova Archive, MAMM, or another institutional rights holder.
 No rendition meets both the explicit reuse-rights requirement and the 1200px
 long-edge floor. `alexander-rodchenko` remains at **0 / 4** files and stays
 `pending`; no image was downloaded and no registry field was changed.
+
+## 2026-07-16 public-derivative measurement (current invocation)
+
+- **Library of Congress P&P** — retrieved only the record's publicly exposed
+  `service_medium` derivative for [*Portet materi* / *Mother*
+  (cph.3b25450)](https://www.loc.gov/pictures/item/2002706148/?fo=json) to
+  verify its actual dimensions. It opens as a **507 × 640px** JPEG, below the
+  1200px long-edge minimum. The same record says “Rights status not evaluated”
+  and “Larger images are only available at the Library of Congress”; neither
+  condition authorizes a source download.
+- **Wikimedia Commons, Met, and Art Institute of Chicago** — their current
+  public endpoints were rechecked. Commons' two identified Rodchenko-authored
+  public-domain files remain undersized; the Met's *Asphalting a Street in
+  Moscow* (283286) and AIC's *Vladimir Mayakovsky* (229011) remain
+  non-public-domain. No qualifying open master was found.
+
+The unit is still **0 / 4** and remains `pending`. Continue only with an
+expressly licensed high-resolution release from a rights holder or an open
+institutional collection; do not use the LOC derivative as a substitute.
