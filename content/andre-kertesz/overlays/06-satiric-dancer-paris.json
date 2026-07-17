@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-satiric-dancer-paris.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.530, "cy": 0.510, "rx": 0.300, "ry": 0.190, "label": "couch back" },
+    { "type": "polyline", "points": [[0.435, 0.505], [0.350, 0.690], [0.255, 0.800]], "label": "left leg" },
+    { "type": "polyline", "points": [[0.580, 0.505], [0.690, 0.690], [0.815, 0.790]], "label": "right leg" },
+    { "type": "subject_anchor", "x": 0.675, "y": 0.507, "r": 0.035, "label": "right hand" }
+  ],
+  "notes": "The dancer's comic V-shaped legs push against the containing arc of the couch."
+}

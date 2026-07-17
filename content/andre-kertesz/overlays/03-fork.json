@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-fork.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.706, 0.465], [0.988, 0.673]], "arrow": true, "label": "fork handle" },
+    { "type": "leading_line", "points": [[0.651, 0.616], [0.950, 0.785]], "arrow": true, "label": "cast shadow" },
+    { "type": "ellipse", "cx": 0.070, "cy": 0.360, "rx": 0.240, "ry": 0.420, "label": "plate edge" },
+    { "type": "subject_anchor", "x": 0.992, "y": 0.701, "r": 0.035, "label": "handle exit" }
+  ],
+  "notes": "Fork, shadow, and plate rim make three competing diagonals from a small object."
+}

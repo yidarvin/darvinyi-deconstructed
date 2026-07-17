@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-chairs-luxembourg-gardens.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.225, 0.570], [0.755, 0.205]], "arrow": true, "label": "chair row" },
+    { "type": "polyline", "points": [[0.250, 0.780], [0.710, 0.430]], "label": "shadow row" },
+    { "type": "vanishing_point", "x": 0.390, "y": 0.562, "label": "receding chair field" }
+  ],
+  "notes": "Chairs, railing, and their shadows create an active shallow field rather than an empty garden."
+}

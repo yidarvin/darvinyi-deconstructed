@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-under-the-eiffel-tower.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.617, 0.833], [0.765, 0.348]], "arrow": true, "label": "tower brace" },
+    { "type": "vanishing_point", "x": 0.751, "y": 0.355, "label": "truss convergence" },
+    { "type": "polyline", "points": [[0.090, 0.030], [0.700, 0.120]], "label": "iron arch" },
+    { "type": "subject_anchor", "x": 0.866, "y": 0.000, "r": 0.035, "label": "arch edge" }
+  ],
+  "notes": "The tower's iron canopy compresses the street beneath it into a field of braces and small figures."
+}

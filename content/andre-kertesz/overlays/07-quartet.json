@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-quartet.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.390, "y": 0.160, "w": 0.235, "h": 0.265, "label": "music stand" },
+    { "type": "polyline", "points": [[0.020, 0.340], [0.385, 0.345]], "label": "left bow" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "stand axis" }
+  ],
+  "notes": "Bows, instruments, and the centered score turn a cropped ensemble into an interlocking rhythm."
+}

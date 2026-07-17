@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-mondrians-glasses-and-pipe.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.371, "cy": 0.444, "rx": 0.125, "ry": 0.110, "label": "spectacle lenses" },
+    { "type": "ellipse", "cx": 0.523, "cy": 0.346, "rx": 0.170, "ry": 0.122, "label": "ashtray rim" },
+    { "type": "leading_line", "points": [[0.540, 0.350], [0.755, 0.160]], "arrow": true, "label": "pipe stem" },
+    { "type": "subject_anchor", "x": 0.273, "y": 0.426, "r": 0.035, "label": "first lens" }
+  ],
+  "notes": "Repeated lenses and the ashtray rim stage a compact still life against empty tabletop."
+}

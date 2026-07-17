@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-the-dancing-faun.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.510, 0.250], [0.475, 0.390], [0.550, 0.510]], "label": "airborne figure" },
+    { "type": "polyline", "points": [[0.000, 0.690], [1.000, 0.750]], "label": "shrub horizon" },
+    { "type": "subject_anchor", "x": 0.522, "y": 0.417, "r": 0.035, "label": "jumping body" }
+  ],
+  "notes": "A small airborne silhouette is held against pale sky by the low, dense shrub line."
+}
