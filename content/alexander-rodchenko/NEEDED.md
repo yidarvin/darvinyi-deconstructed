@@ -182,6 +182,32 @@ This recovery again yields **0 / 4** qualifying files. The stage remains
 `pending`; no substitute image, display photograph, screen capture, or
 undersized scan was ingested.
 
+## 2026-07-16 public-endpoint recovery (current invocation)
+
+- **Wikimedia Commons MediaWiki API** — re-ran the public file-namespace
+  search for `Alexander Rodchenko`. The results remain overwhelmingly
+  photographs *of* Rodchenko, exhibition documentation, or reconstructed
+  objects. The two identified authored public-domain photographs remain
+  [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Neither reaches the required 1200px long edge.
+- **Metropolitan Museum of Art Collection API** —
+  [*Asphalting a Street in Moscow* (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  remains `isPublicDomain: false`, with blank `primaryImage` and
+  `primaryImageSmall` fields.
+- **Art Institute of Chicago API** —
+  [*Vladimir Mayakovsky* (229011)](https://api.artic.edu/api/v1/artworks/229011)
+  remains `is_public_domain: false`. Its API image identifier was not used as
+  a reuse grant or an image source.
+- **Library of Congress P&P public JSON** — the *Mother* record
+  (2002706148) continues to expose catalogue metadata rather than an expressly
+  open, high-resolution rendition. No reading-room material, protected image,
+  or screen capture was accessed.
+
+This current automated pass found no lawful, explicitly reusable Rodchenko
+photograph at the required resolution. The unit remains **0 / 4**, so the
+registry must remain `pending`; no raw files were downloaded.
+
 ## 2026-07-16 final public-source verification (this invocation)
 
 - **Wikimedia Commons MediaWiki API** — queried the public file namespace for
