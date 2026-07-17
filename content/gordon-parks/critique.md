@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -65,3 +65,15 @@ Re-verified critique history: all three 2026-07-17 critique rounds.
 4. First and second prior rounds: `10-7th-street-saturday` continues to omit both the unsupported `foreground shoulder` and `awning edge` polylines; the remaining ellipse and shop-window frame are visually truthful and score 100/100.
 
 The mirrored chapter files remain byte-identical. A final `scripts/check.sh` pass completed before this resolution was recorded.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. All eleven rendered proofs were reviewed against their current overlay specs. The repaired rails in `05-ella-watson-bible` and `06-ella-watson-walk-home`, the `07-ella-watson-dressing-grandchildren` mantel shelf, and the simplified `10-7th-street-saturday` overlay remain truthful; none of the settled findings has regressed. Each spec scores 100/100 with no scorer warning. The chapter's tonal measurements agree with the analyzer JSON within tolerance and it invents no camera settings. Every image has a direct LOC item/JPEG route, the stated FSA/OWI public-domain basis and credit are accurate, and no fair-use selection is present or required.
+
+### Advisory (non-blocking)
+
+1. `sources.md` says the selection “begins with” *American Gothic*, while the supplied plate and table order start with `01-charwoman-at-work` and place *American Gothic* second. Clarify whether this means the conceptual argument rather than the displayed order.
+2. In `06-ella-watson-walk-home.json`, the non-displayed notes call Watson a “departing figure,” though the catalog title and chapter describe her return home. Change this to “returning” or “arriving” for internal consistency.
+3. `08-ella-watson-leaves-work`'s full-height stairwell axis crosses the archival caption strip even though the chapter correctly distinguishes the photograph field from that surround. Clipping the mark to the photograph field would make the presentation cleaner, but its central alignment remains clear and does not misstate the composition.

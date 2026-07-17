@@ -52,7 +52,7 @@ real queue and state live in data/registry.json.
 | 41  | jacques-henri-lartigue    | Jacques-Henri Lartigue    | DONE    |
 | 42  | dorothea-lange            | Dorothea Lange            | DONE    |
 | 43  | walker-evans              | Walker Evans              | DONE    |
-| 44  | gordon-parks              | Gordon Parks              | PENDING |
+| 44  | gordon-parks              | Gordon Parks              | DONE    |
 | 45  | arthur-rothstein          | Arthur Rothstein          | DONE    |
 | 46  | ben-shahn                 | Ben Shahn                 | DONE    |
 | 47  | russell-lee               | Russell Lee               | DONE    |
