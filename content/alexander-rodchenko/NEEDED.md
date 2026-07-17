@@ -271,3 +271,27 @@ No file meets both the explicit reuse-rights requirement and the 1200px
 long-edge requirement. The set remains **0 / 4**, so `alexander-rodchenko`
 stays `pending`; no registry transition was made. Retry only an explicit open
 release from a rights holder or an institutional collection.
+
+## 2026-07-16 final institutional cross-check (current invocation)
+
+- **Wikimedia Commons MediaWiki API** — a new public file-namespace query,
+  including original dimensions and licence metadata, still finds only two
+  clearly identified, Rodchenko-authored public-domain photographs: [*Dance*
+  (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov*
+  (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Both fail the 1200px long-edge floor. Every larger result
+  inspected was a photograph *of* Rodchenko, exhibition documentation, or a
+  reconstruction rather than a photograph made by him.
+- **J. Paul Getty Museum** — the collection record [106HNF](https://www.getty.edu/art/collection/object/106HNF)
+  is a useful additional canonical-work lead (1932 negative; 1979 print), but
+  its embedded rights statement is `InC 1.0`. Its IIIF service was therefore
+  not used as an open source or downloaded.
+- **Science Museum Group** — a direct request to the public [portfolio of 21
+  photographs](https://collection.sciencemuseumgroup.org.uk/objects/co205135/portfolio-of-21-black-and-white-photographs-by-rodchenko)
+  returned HTTP 403. This technical access control was not bypassed; its
+  catalogue/IIIF route remains only a future retry path if the institution
+  publishes an expressly reusable rendition.
+
+No qualifying open master was found. The set remains **0 / 4** and the
+registry must remain `pending`; no image was downloaded or substituted.
