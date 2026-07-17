@@ -14,6 +14,9 @@ stage. There is no human review or asset handoff.
    push, leave it local for the parent runner. If no repository repair is needed
    because the failure was transient, verify the tree and stop without inventing
    changes.
+   If a source unit is repeating the same inaccessible-image roadblock after an
+   exhaustive current-policy pass, finish that photographer through the audited
+   limited fallback in AGENTS.md; do not schedule another identical retry.
 4. State changes must use `python3 scripts/set_stage.py`; never hand-edit a
    registry stage. Run `scripts/check.sh` and
    `python3 scripts/validate_pipeline.py` before returning.

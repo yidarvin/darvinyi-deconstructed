@@ -84,11 +84,12 @@ def target_slug(unit: str) -> str | None:
     return unit
 
 
-def same_registry_except_stage(before: dict[str, Any], after: dict[str, Any]) -> bool:
+def same_registry_except(before: dict[str, Any], after: dict[str, Any], ignored: set[str]) -> bool:
     left = dict(before["registry"])
     right = dict(after["registry"])
-    left.pop("stage", None)
-    right.pop("stage", None)
+    for field in ignored:
+        left.pop(field, None)
+        right.pop(field, None)
     return left == right
 
 
@@ -149,18 +150,25 @@ def validate(
             old_verdict = old["verdict"]
             new_verdict = new["verdict"]
 
-            if not same_registry_except_stage(old, new):
+            ignored = {"stage", "sourceMode"} if stage == "source" else {"stage"}
+            if not same_registry_except(old, new, ignored):
                 errors.append(f"{slug}: registry fields other than stage changed")
 
             if stage == "source":
                 if old_stage == "pending":
-                    if new_stage not in {"pending", "sourced"}:
-                        errors.append(f"{slug}: source must remain pending or advance to sourced, got {new_stage}")
+                    if new_stage != "sourced":
+                        errors.append(f"{slug}: source must advance pending -> sourced, got {new_stage}")
                 elif old_stage == "sourced":
                     if new_stage != "sourced":
                         errors.append(f"{slug}: source recovery changed stage to {new_stage}")
                 else:
                     errors.append(f"{slug}: source selected from invalid stage {old_stage}")
+                old_mode = old["registry"].get("sourceMode")
+                new_mode = new["registry"].get("sourceMode")
+                if old_mode == "limited" and new_mode != "limited":
+                    errors.append(f"{slug}: source removed limited mode")
+                if new_mode not in {None, "limited"}:
+                    errors.append(f"{slug}: source set invalid sourceMode {new_mode!r}")
                 if new_verdict != old_verdict:
                     errors.append(f"{slug}: source changed critique verdict {old_verdict} -> {new_verdict}")
             elif stage == "build" and unit.startswith("audit:"):

@@ -260,6 +260,16 @@ if grep -q '1200px long-edge floor' prompts/source.md; then
 fi
 grep -q 'Never bypass authentication' AGENTS.md \
   || fail "source policy no longer forbids access-control bypasses"
+grep -q 'set_stage.py <slug> sourced --limited' prompts/source.md \
+  || fail "source prompt cannot close an inaccessible-image roadblock"
+grep -q 'Do not use limited mode for a transient network outage' prompts/source.md \
+  || fail "source prompt can misclassify infrastructure failure as limited content"
+grep -q 'Limited image availability' prompts/build.md \
+  || fail "limited chapters do not require a visible reader disclosure"
+grep -q 'few or zero images' prompts/critique.md \
+  || fail "critic can block an intentional limited-image chapter"
+grep -Fq 'x["limited"] or x["raw"] >= x["minimum"]' run.sh \
+  || fail "queue driver does not treat limited sourced chapters as build-ready"
 
 # launchd supplies only the system path. The full project gate must not depend
 # on Codex's bundled ripgrep binary being present there.
@@ -319,6 +329,78 @@ set -e
 [ "$illegal_rc" -ne 0 ] || fail "set_stage accepted a backward transition"
 assert_contains "$(cat "$tmp/illegal-stage.log")" 'illegal stage transition' \
   "set_stage backward-transition error was not actionable"
+
+# A genuinely inaccessible photographer must advance exactly once into an
+# explicit limited mode, and a zero-image prose-led chapter must remain a valid
+# built-stage transition. The marker and visible disclosure are hard gates.
+PIPELINE_TEST_TMP="$tmp" python3 - <<'PY'
+import importlib.util
+import json
+import os
+import sys
+from pathlib import Path
+from types import SimpleNamespace
+
+root = Path(os.environ["PIPELINE_TEST_TMP"]) / "limited-stage"
+sys.path.insert(0, str(Path.cwd() / "scripts"))
+(root / "data").mkdir(parents=True)
+(root / "content/blocked-author").mkdir(parents=True)
+(root / "src/chapters").mkdir(parents=True)
+(root / "data/registry.json").write_text(json.dumps({"photographers": [{
+    "slug": "blocked-author", "name": "Blocked Author", "dates": "1900-1980",
+    "group": "Test", "rights": "copyrighted", "wave": 9, "stage": "pending"
+}]}) + "\n")
+
+spec = importlib.util.spec_from_file_location("set_stage_limited_test", "scripts/set_stage.py")
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+module.ROOT = root
+module.subprocess.run = lambda *args, **kwargs: SimpleNamespace(returncode=0)
+
+assert module.main(["set_stage.py", "blocked-author", "sourced", "--limited"]) == 1
+base = root / "content/blocked-author"
+(base / "sources.md").write_text("# Sources\n")
+(base / "NEEDED.md").write_text("fallback: limited\nNo usable public acquisition route remained.\n")
+assert module.main(["set_stage.py", "blocked-author", "sourced", "--limited"]) == 0
+entry = json.loads((root / "data/registry.json").read_text())["photographers"][0]
+assert entry["stage"] == "sourced" and entry["sourceMode"] == "limited"
+
+(base / "manifest.json").write_text("[]\n")
+(base / "research.md").write_text("# Research\n")
+chapter = "# Blocked Author\n\n<Callout>\n\n**Limited image availability.** No usable image could be acquired.\n\n</Callout>\n"
+(base / "chapter.mdx").write_text(chapter)
+(root / "src/chapters/blocked-author.mdx").write_text(chapter)
+assert module.main(["set_stage.py", "blocked-author", "built"]) == 0
+entry = json.loads((root / "data/registry.json").read_text())["photographers"][0]
+assert entry["stage"] == "built"
+PY
+
+# The exact-unit gate allows only the source role to add limited mode while it
+# advances the selected photographer; the field is not a general registry escape.
+mkdir -p "$tmp/limited-unit/data" "$tmp/limited-unit/content/blocked-author"
+printf '%s\n' \
+  '{"photographers":[' \
+  '  {"slug":"blocked-author","wave":9,"rights":"copyrighted","stage":"pending"}' \
+  ']}' > "$tmp/limited-unit/data/registry.json"
+/usr/bin/git init -q "$tmp/limited-unit"
+/usr/bin/git -C "$tmp/limited-unit" config user.name pipeline-test
+/usr/bin/git -C "$tmp/limited-unit" config user.email pipeline@example.invalid
+/usr/bin/git -C "$tmp/limited-unit" add .
+/usr/bin/git -C "$tmp/limited-unit" commit -q -m baseline
+limited_head="$(/usr/bin/git -C "$tmp/limited-unit" rev-parse HEAD)"
+python3 scripts/work_unit.py snapshot --root "$tmp/limited-unit" --output "$tmp/limited-before.json"
+python3 - "$tmp/limited-unit/data/registry.json" <<'PY'
+import json, sys
+p = sys.argv[1]
+data = json.load(open(p))
+data["photographers"][0]["stage"] = "sourced"
+data["photographers"][0]["sourceMode"] = "limited"
+open(p, "w").write(json.dumps(data) + "\n")
+PY
+python3 scripts/work_unit.py validate --root "$tmp/limited-unit" \
+  --before "$tmp/limited-before.json" --before-head "$limited_head" \
+  --stage source --wave 9 --unit blocked-author \
+  || fail "exact-unit gate rejected an audited limited-source transition"
 
 # A hung Codex invocation must be terminated with the conventional timeout code.
 printf '%s\n' '#!/usr/bin/env bash' 'sleep 30' > "$tmp/hanging-codex"

@@ -136,6 +136,14 @@ failures. It also protects against disk exhaustion by pruning only raw source
 originals that are already represented by a complete ingested set in a built
 or approved chapter.
 
+An inaccessible photographer never stalls the queue. After one exhaustive
+open-source and documented fair-use pass, the source agent records
+`sourceMode: "limited"` through the stage command. The chapter then proceeds with
+whatever real images were usable, including zero, as a substantive prose-led page
+with a visible image-availability explanation. The normal build, critique, and
+approval gates still apply; the fallback never fabricates a substitute image or
+creates a human-review stop.
+
 On macOS, the service intentionally routes Git through
 `scripts/service-bin/git` to `/usr/bin/git`. Full Disk Access is attached to an
 executable identity, and Homebrew Git uses a versioned ad-hoc identity that can

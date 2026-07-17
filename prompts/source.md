@@ -10,7 +10,8 @@ model and High effort; do not request or switch models.
 Select exactly one photographer per invocation. First take the first registry
 entry in the lowest `wave` at stage "pending". If none are pending, take the
 first entry in the lowest wave at stage "sourced" whose raw image count is below
-its `minImages` value (default 4). Finish that one unit, then stop so
+its `minImages` value (default 4) and whose `sourceMode` is not `limited`.
+Finish that one unit, then stop so
 the supervisor can validate the boundary before starting another. A NEEDED.md
 file is a diagnostic from an earlier attempt, never a request for a person to
 provide an asset.
@@ -53,14 +54,29 @@ provide an asset.
    or 1200px rules. Query institutional metadata/API and IIIF services, alternate
    institutions, Commons mirrors, and public browser pages before recording a
    genuine miss. Record remaining misses in content/<slug>/NEEDED.md with attempts
-   and next retry route, then continue the automated queue.
+   and the evidence that no usable public acquisition route remains.
 4. Aim for 10-12 images when the historical record supports them, while limiting
    fair-use selections to works that materially teach the chapter's argument. The
    readiness threshold is the registry's `minImages` value, default 4. Once the
    threshold is met, advance only this photographer with
    `python3 scripts/set_stage.py <slug> sourced`; never hand-edit a registry
-   stage. Retain stage "sourced" for an already-sourced underfilled set so a
-   later source pass retries it automatically; do not emit a blocked state.
+   stage.
+
+   If this exhaustive current-policy pass still has fewer than `minImages`, do
+   not retry the same roadblock and do not leave a pending photographer behind.
+   Keep every usable real image already acquired, make NEEDED.md start with or
+   prominently include the exact marker `fallback: limited`, and explain the
+   unavailable canonical images and attempted routes. Then run
+   `python3 scripts/set_stage.py <slug> sourced --limited`. This is also the
+   closure command for an already-sourced underfilled set. Limited mode is an
+   intentional prose-led chapter with zero to `minImages - 1` images, not a
+   failure, a skipped author, or a request for human assets.
+
+   Do not use limited mode for a transient network outage, rate limit,
+   authentication failure, permission error, full disk, browser/tool failure,
+   or unavailable service. Exit nonzero without changing state so the supervisor
+   retries infrastructure failures. Limited mode requires a successful source
+   investigation showing a stable content/access roadblock.
 5. Run `python3 scripts/validate_pipeline.py`, leave this photographer's changes
    uncommitted, and stop. The parent runner validates and commits it locally.
 

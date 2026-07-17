@@ -42,24 +42,31 @@ one unit, leave it uncommitted, then stop.
    audit fixes uncommitted for the parent runner and stop.
 1. Active wave: the lowest `wave` in data/registry.json with any photographer
    at stage "sourced". Select only the first ready entry in registry order. A photographer
-   requires its registry `minImages` count, default 4. Do not build an
-   underfilled source set: leave it for the automatic SOURCER recovery stage
-   and name the slug and current/required counts in your commit message. For
+   normally requires its registry `minImages` count, default 4. An entry with
+   `sourceMode: "limited"` is explicitly ready with zero to `minImages - 1`
+   images. Do not build any other underfilled source set: leave it for the
+   automatic SOURCER recovery stage. For
    each <slug> you do work:
    a. Read content/<slug>/sources.md. Write content/<slug>/research.md:
       technique, era, printing, and camera settings ONLY where the historical
       record has them (film-era work usually will not — say so, never
       invent).
-   b. Ingest raw/<slug>/ into content/<slug>/images/ using
+   b. Ingest every available file from raw/<slug>/ into content/<slug>/images/ using
       .agents/skills/composition-analysis/scripts/ingest.py with
-      --manifest content/<slug>/manifest.json.
-   c. For every ingested image, run the composition-analysis skill's full
+      --manifest content/<slug>/manifest.json. For a zero-image limited chapter,
+      write a valid empty JSON array to manifest.json; do not invent a plate.
+   c. For every ingested image, if any, run the composition-analysis skill's full
       loop; write specs to content/<slug>/overlays/<id>.json and proofs to
-      content/<slug>/proofs/<id>.png; then write proofs/index.html as a
-      contact sheet of all proofs.
+      content/<slug>/proofs/<id>.png; then write proofs/index.html as a contact
+      sheet when at least one proof exists.
    d. Write content/<slug>/chapter.mdx: why the photographs work, citing the
       overlay claims and the analyzer's tonal/palette findings, honest about
-      settings per (a).
+      settings per (a). For a limited chapter, make it a substantive prose-led
+      account of the photographer's visual method and the canonical photographs
+      documented in sources.md. Do not render a `<Plate>` for an unavailable
+      image. Near the beginning, include a visible `<Callout>` whose text starts
+      exactly `**Limited image availability.**` and explains that enough usable
+      images could not be acquired under the project's open/fair-use policy.
    e. Wire the chapter into the site per template conventions (route, nav,
       index/TOC ordered by registry group). The site renders
       src/chapters/<slug>.mdx — keep it byte-identical with

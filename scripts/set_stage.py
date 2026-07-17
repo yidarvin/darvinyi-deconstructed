@@ -10,6 +10,14 @@ import tempfile
 import stat
 from pathlib import Path
 
+from pipeline_policy import (
+    LIMITED_CHAPTER_DISCLOSURE,
+    LIMITED_SOURCE_MARKER,
+    is_limited,
+    minimum_images,
+    required_images,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 NEXT = {"pending": "sourced", "sourced": "built", "built": "approved"}
 
@@ -35,10 +43,16 @@ def atomic_json(path: Path, data: dict) -> None:
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) != 3 or argv[1] in {"-h", "--help"}:
-        print("usage: python3 scripts/set_stage.py <slug> <sourced|built|approved>")
-        return 0 if len(argv) == 2 else 2
-    slug, target = argv[1:]
+    args = argv[1:]
+    limited = "--limited" in args
+    args = [arg for arg in args if arg != "--limited"]
+    if len(args) != 2 or args[0] in {"-h", "--help"}:
+        print("usage: python3 scripts/set_stage.py <slug> <sourced|built|approved> [--limited]")
+        return 0 if args and args[0] in {"-h", "--help"} else 2
+    slug, target = args
+    if limited and target != "sourced":
+        print("--limited is valid only for the sourced target", file=sys.stderr)
+        return 2
     path = ROOT / "data" / "registry.json"
     original = path.read_text(encoding="utf-8")
     data = json.loads(original)
@@ -47,14 +61,31 @@ def main(argv: list[str]) -> int:
         print(f"unknown photographer: {slug}", file=sys.stderr)
         return 1
     current = entry.get("stage")
-    if NEXT.get(current) != target:
+    limited_same_stage = limited and current == "sourced" and target == "sourced" and not is_limited(entry)
+    if NEXT.get(current) != target and not limited_same_stage:
         print(f"illegal stage transition for {slug}: {current} -> {target}", file=sys.stderr)
         return 1
-    minimum = int(entry.get("minImages", 4))
+    minimum = minimum_images(entry)
     if target == "sourced":
         raw = ROOT / "raw" / slug
         images = sum(1 for p in raw.iterdir() if p.is_file() and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp"}) if raw.is_dir() else 0
-        if images < minimum:
+        if limited:
+            base = ROOT / "content" / slug
+            needed = base / "NEEDED.md"
+            sources = base / "sources.md"
+            needed_text = needed.read_text(encoding="utf-8").lower() if needed.exists() else ""
+            if images >= minimum:
+                print(f"refusing {slug} --limited: {images} images already meet minimum {minimum}", file=sys.stderr)
+                return 1
+            if not sources.exists() or LIMITED_SOURCE_MARKER not in needed_text:
+                print(
+                    f"refusing {slug} --limited: sources.md and NEEDED.md marker "
+                    f"'{LIMITED_SOURCE_MARKER}' are required",
+                    file=sys.stderr,
+                )
+                return 1
+            entry["sourceMode"] = "limited"
+        elif images < minimum:
             print(f"refusing {slug} -> sourced: {images} raw images, requires {minimum}", file=sys.stderr)
             return 1
     elif target == "built":
@@ -67,9 +98,23 @@ def main(argv: list[str]) -> int:
             "overlays": count(base / "overlays", ".json"),
             "proofs": count(base / "proofs", ".png"),
         }
-        complete = all(value >= minimum for value in counts.values()) and len(set(counts.values())) == 1
+        required = required_images(entry)
+        complete = all(value >= required for value in counts.values()) and len(set(counts.values())) == 1
         synced = content_chapter.exists() and site_chapter.exists() and content_chapter.read_bytes() == site_chapter.read_bytes()
-        if not complete or not synced or not (base / "manifest.json").exists():
+        disclosed = not is_limited(entry) or (
+            content_chapter.exists() and LIMITED_CHAPTER_DISCLOSURE in content_chapter.read_text(encoding="utf-8")
+        )
+        manifest = base / "manifest.json"
+        manifest_valid = manifest.exists()
+        if manifest_valid and is_limited(entry):
+            try:
+                manifest_rows = json.loads(manifest.read_text(encoding="utf-8"))
+                manifest_valid = isinstance(manifest_rows, list) and len(manifest_rows) == counts["images"]
+            except (OSError, json.JSONDecodeError):
+                manifest_valid = False
+        if is_limited(entry) and counts["images"] >= minimum:
+            complete = False
+        if not complete or not synced or not disclosed or not manifest_valid:
             print(f"refusing {slug} -> built: incomplete artifacts {counts} or unsynchronized chapter", file=sys.stderr)
             return 1
     elif target == "approved":

@@ -17,7 +17,8 @@ The book converges only if you stop gating on nitpicks.
 Select exactly one photographer per invocation: the first registry entry in the
 active wave at stage "built" whose critique.md is missing or marked
 `verdict: resolved`. Review that one unit, leave it uncommitted, then stop.
-1. LOOK at every proof PNG in content/<slug>/proofs/ with fresh eyes.
+1. LOOK at every proof PNG in content/<slug>/proofs/ with fresh eyes. A chapter
+   explicitly marked `sourceMode: "limited"` may legitimately have no proofs.
 2. Read the matching overlays/*.json, sources.md, research.md, chapter.mdx.
 3. Judge five things:
    a. Overlay truthfulness — each primitive traces the feature its label names.
@@ -28,6 +29,11 @@ active wave at stage "built" whose critique.md is missing or marked
       Any image marked `fair-use` has the concise per-image four-factor rationale
       required by AGENTS.md; do not reject it merely because it is copyrighted or
       below the retired 1200px floor.
+   f. Limited-chapter honesty — when `sourceMode` is `limited`, the visible
+      `**Limited image availability.**` disclosure accurately explains the
+      constraint, sources.md/NEEDED.md document the unavailable canonical works,
+      and the prose remains useful without pretending those images are visible.
+      Do not block merely because the chapter has few or zero images.
 
 4. Classify every issue as REQUIRED or ADVISORY. Only REQUIRED issues block
    approval.
@@ -44,6 +50,8 @@ active wave at stage "built" whose critique.md is missing or marked
    - a missing/untraceable source, materially false rights or credit statement,
      undocumented fair-use selection, or evidence that acquisition bypassed an
      authentication, paywall, or technical access control.
+   - for a limited chapter, a missing required disclosure, fabricated substitute
+     image, or prose that claims to visually analyze an image the page does not show.
 
    ADVISORY (never blocks) — cosmetic, or within margin. Note it; do not gate:
    - a label/text box that clips a glyph edge, or a line that over- or

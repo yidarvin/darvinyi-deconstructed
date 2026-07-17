@@ -20,6 +20,7 @@ required=(
   scripts/pipeline-lib.sh
   scripts/pipeline-supervisor.sh
   scripts/pipeline-service.sh
+  scripts/pipeline_policy.py
   scripts/validate_pipeline.py
   scripts/set_stage.py
   scripts/prune_raw.py

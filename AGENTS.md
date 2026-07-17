@@ -24,6 +24,23 @@ data/registry.json IS the queue. Per photographer: `rights`
 lowest wave containing photographers at its input stage. Prompts update stages
 as they complete work; nothing else tracks state.
 
+An optional `sourceMode: "limited"` is the audited non-blocking fallback for a
+photographer whose usable source set remains below `minImages` after one
+exhaustive open-plus-fair-use source pass. It is never inferred from a missing
+file: the SOURCER records `fallback: limited` in NEEDED.md and invokes
+`python3 scripts/set_stage.py <slug> sourced --limited`. A limited chapter may
+contain zero to `minImages - 1` real photographs. It still receives research,
+prose, source notes, build validation, and independent critique, and its rendered
+chapter must contain the exact visible lead-in `**Limited image availability.**`
+explaining which canonical images could not be acquired under this policy. Never
+fabricate, generate, or substitute an image to avoid this fallback. Limited mode
+advances the queue; it is not a stop or human-review state.
+Use it only for a stable content/access roadblock demonstrated by a successful
+source investigation. A network outage, rate limit, authentication failure,
+permission error, full disk, broken tool, or unavailable service is transient
+infrastructure and must fail for supervisor retry; it must never be converted
+into a limited chapter.
+
 The registry `rights` field describes the corpus; it is not an exclusion gate.
 Source public-domain and openly licensed images first. For a canonical work with
 no adequate open rendition, the SOURCER may use a publicly accessible image for
@@ -94,6 +111,9 @@ restrictions, or another technical access control; never fabricate or materially
 retouch a historical image. Keep retry diagnostics in NEEDED.md, but treat them
 as agent work items, not requests for a person. Re-evaluate old NEEDED.md entries
 that failed only the retired open-only or 1200px rules instead of repeating them.
+If the set still cannot reach `minImages` after that exhaustive current-policy
+pass, record and use limited mode immediately; never leave the photographer
+pending for another identical retry.
 
 The durable macOS service runs `scripts/pipeline-supervisor.sh` from this
 repository. It retries transient failures with capped exponential backoff,

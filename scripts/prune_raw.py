@@ -7,6 +7,8 @@ import json
 import shutil
 from pathlib import Path
 
+from pipeline_policy import required_images
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -25,7 +27,7 @@ def candidates() -> list[tuple[int, Path, str]]:
         slug = entry["slug"]
         path = ROOT / "raw" / slug
         resolved = path.resolve()
-        minimum = int(entry.get("minImages", 4))
+        minimum = required_images(entry)
         ingested = len(list((ROOT / "content" / slug / "images").glob("*.jpg")))
         if not path.is_dir() or path.is_symlink() or resolved.parent != raw_root or ingested < minimum:
             continue

@@ -8,6 +8,15 @@ import os
 import sys
 from pathlib import Path
 
+from pipeline_policy import (
+    LIMITED_CHAPTER_DISCLOSURE,
+    LIMITED_SOURCE_MARKER,
+    VALID_SOURCE_MODES,
+    is_limited,
+    minimum_images,
+    required_images,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 VALID_RIGHTS = {"pd", "mixed", "copyrighted"}
 VALID_STAGES = {"pending", "sourced", "built", "approved"}
@@ -62,6 +71,7 @@ def validate() -> list[str]:
         rights = entry.get("rights")
         wave = entry.get("wave")
         minimum = entry.get("minImages", 4)
+        source_mode = entry.get("sourceMode")
         if stage not in VALID_STAGES:
             errors.append(f"{slug}: invalid stage {stage!r}")
         if rights not in VALID_RIGHTS:
@@ -71,10 +81,24 @@ def validate() -> list[str]:
         if not isinstance(minimum, int) or not 1 <= minimum <= 12:
             errors.append(f"{slug}: minImages must be an integer from 1 to 12")
             minimum = 4
+        if source_mode is not None and source_mode not in VALID_SOURCE_MODES:
+            errors.append(f"{slug}: invalid sourceMode {source_mode!r}")
+        if is_limited(entry) and stage == "pending":
+            errors.append(f"{slug}: limited source mode requires stage sourced or later")
+
+        base = ROOT / "content" / slug
+        if is_limited(entry) and stage in {"sourced", "built", "approved"}:
+            needed = base / "NEEDED.md"
+            sources = base / "sources.md"
+            needed_text = needed.read_text(encoding="utf-8").lower() if needed.exists() else ""
+            if not sources.exists() or LIMITED_SOURCE_MARKER not in needed_text:
+                errors.append(
+                    f"{slug}: limited source mode requires sources.md and "
+                    f"NEEDED.md marker '{LIMITED_SOURCE_MARKER}'"
+                )
 
         expected_site[slug] = {"pending": "pending", "sourced": "pending", "built": "draft", "approved": "done"}.get(stage, "pending")
         if stage in {"built", "approved"}:
-            base = ROOT / "content" / slug
             required = [base / "manifest.json", base / "sources.md", base / "research.md", base / "chapter.mdx", ROOT / "src" / "chapters" / f"{slug}.mdx"]
             for path in required:
                 if not path.exists():
@@ -85,11 +109,29 @@ def validate() -> list[str]:
                 "overlays": len(glob.glob(str(base / "overlays" / "*.json"))),
                 "proofs": len(glob.glob(str(base / "proofs" / "*.png"))),
             }
+            required_count = required_images(entry)
             for kind, count in counts.items():
-                if count < minimum:
-                    errors.append(f"{slug}: {stage} stage has {count} {kind}, requires at least {minimum}")
+                if count < required_count:
+                    errors.append(f"{slug}: {stage} stage has {count} {kind}, requires at least {required_count}")
             if len(set(counts.values())) != 1:
                 errors.append(f"{slug}: artifact counts disagree: {counts}")
+            manifest = base / "manifest.json"
+            if manifest.exists() and is_limited(entry):
+                try:
+                    rows = json.loads(manifest.read_text(encoding="utf-8"))
+                    if not isinstance(rows, list) or len(rows) != counts["images"]:
+                        errors.append(
+                            f"{slug}: manifest entries disagree with image count "
+                            f"({len(rows) if isinstance(rows, list) else 'not-a-list'} != {counts['images']})"
+                        )
+                except (OSError, json.JSONDecodeError) as exc:
+                    errors.append(f"{slug}: manifest.json cannot be read: {exc}")
+            if is_limited(entry):
+                if counts["images"] >= minimum_images(entry):
+                    errors.append(f"{slug}: limited source mode is invalid after meeting the normal image minimum")
+                chapter_text = (base / "chapter.mdx").read_text(encoding="utf-8") if (base / "chapter.mdx").exists() else ""
+                if LIMITED_CHAPTER_DISCLOSURE not in chapter_text:
+                    errors.append(f"{slug}: limited chapter is missing its visible image-availability disclosure")
         if stage == "approved" and first_verdict(slug) != "verdict: approve":
             errors.append(f"{slug}: approved stage requires critique verdict: approve")
 

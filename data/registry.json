@@ -24,12 +24,16 @@
   ],
   "rightsLegend": {
    "pd": "Public domain in the US. Government work (FSA/OWI etc.) or published ~1930 or earlier. Archival-res source usually available.",
-   "mixed": "Key/canonical works are PD (early or government) but later career is under estate. Source the PD-era images.",
-   "copyrighted": "Under active estate/agency. Source at whatever res is findable; highest takedown likelihood."
+   "mixed": "The corpus mixes open and protected works. Prefer open files, then apply the documented per-image educational fair-use policy.",
+   "copyrighted": "Under active estate/agency. Apply the documented per-image educational fair-use policy and retain attribution."
+  },
+  "sourceModeLegend": {
+   "standard": "The sourced image count meets minImages.",
+   "limited": "An exhaustive current-policy pass could not meet minImages; build a disclosed prose-led chapter with the real images that were usable, including zero."
   },
   "stageLegend": {
    "pending": "not started",
-   "sourced": "raw/<slug>/ has usable images; sources.md written",
+   "sourced": "sources.md is written and either raw/<slug>/ meets minImages or sourceMode is limited",
    "built": "ingested, overlays, proofs, chapter.mdx done; wired into site",
    "approved": "critic verdict: approve"
   },

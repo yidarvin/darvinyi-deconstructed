@@ -121,6 +121,7 @@ for e in ph:
     rows.append(dict(
         slug=s, wave=e["wave"], stage=e["stage"], rights=e["rights"],
         minimum=int(e.get("minImages", 4)),
+        limited=e.get("sourceMode") == "limited",
         raw=nfiles(f"raw/{s}"), img=nfiles(f"content/{s}/images", (".jpg",)),
         ovl=nfiles(f"content/{s}/overlays", (".json",)),
         needed=os.path.exists(f"content/{s}/NEEDED.md"), verdict=verdict(s),
@@ -147,10 +148,13 @@ if mode == "status":
     for w in waves:
         ws = [x for x in rows if x["wave"] == w]
         c = lambda st: sum(1 for x in ws if x["stage"] == st)
-        waiting = sum(1 for x in ws if x["stage"] == "sourced" and x["raw"] < x["minimum"])
+        waiting = sum(1 for x in ws if x["stage"] == "sourced" and not x["limited"] and x["raw"] < x["minimum"])
+        limited = sum(1 for x in ws if x["limited"])
         flags = []
         if waiting:
             flags.append(f"auto-source recovery: {waiting}")
+        if limited:
+            flags.append(f"limited-image: {limited}")
         if shipmark(w):
             flags.append("shipped")
         print(f"{w:>4} {c('pending'):>5} {c('sourced'):>5} {c('built'):>5} {c('approved'):>5}  {' '.join(flags)}")
@@ -182,8 +186,8 @@ for w in waves:
     pending = [x for x in ws if x["stage"] == "pending"]
     if pending:
         out("source", w, pending[0]["slug"], f"wave {w} has {len(pending)} photographers to source")
-    ready = [x for x in ws if x["stage"] == "sourced" and x["raw"] >= x["minimum"]]
-    waiting = [x for x in ws if x["stage"] == "sourced" and x["raw"] < x["minimum"]]
+    ready = [x for x in ws if x["stage"] == "sourced" and (x["limited"] or x["raw"] >= x["minimum"])]
+    waiting = [x for x in ws if x["stage"] == "sourced" and not x["limited"] and x["raw"] < x["minimum"]]
     awaiting = [x for x in ws if x["stage"] == "built" and x["verdict"] in ("-", "resolved")]
     if awaiting:
         out("critique", w, awaiting[0]["slug"], f"wave {w}: critique next of {len(awaiting)} built chapters")
