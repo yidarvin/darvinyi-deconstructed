@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -18,3 +18,13 @@ All ten proofs were visually checked against their specs and analyzer records. T
 1. `05-akeley-motion-picture-camera`: repositioned **MECHANICAL ARM** from the upper assembly through the actual shallow articulated arm to the pivot on the right-hand circular plate. Re-rendered `proofs/05-akeley-motion-picture-camera.png`, visually verified that the line now remains on the pictured arm, and re-scored the overlay at 100/100. The existing chapter sentence already states that this arm joins the housing and plate, so it remains accurate.
 
 Prior critique rounds re-verified: 2026-07-17. Its sole required fix holds in the current overlay and proof. `bash scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. All ten rendered proofs were rechecked against their current overlay specs and analysis records. In particular, `05-akeley-motion-picture-camera`'s **MECHANICAL ARM** now follows the visible articulated arm from the upper assembly to the right-hand circular plate; the prior required finding is resolved without regression. Chapter measurements agree with the analyzer within the stated tolerances, no capture settings are claimed, and every image has a traceable open-route source record with a matching work, date, and rights statement.
+
+### Advisory (non-blocking)
+
+None.
