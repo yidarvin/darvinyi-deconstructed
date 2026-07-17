@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -20,3 +20,14 @@ Re-verified prior critique round: 2026-07-17 (the complete critique history for 
 2. Removed the misleading `diagonal track boundary` primitive and aligned the plate caption and explanatory prose with the remaining truthful claims.
 
 Fresh analysis, rendering, and scoring for `12-target-practice` pass at 97/100 (threshold 80). The remaining scorer warning is only the expected three-ellipse complexity warning; each ellipse is necessary because the photograph contains three distinct, named printed circles.
+
+## Critique round — 2026-07-17
+
+### Required
+
+1. `09-from-the-radio-tower-berlin`: The `subject_anchor` labeled `plaza center` is at `(0.438, 0.819)`, on the plaza's lower-left dark rim/path rather than at the center of the photographed circular plaza. The same proof and overlay place the `circular plaza` ellipse center at `(0.550, 0.740)`, which is the circle's visible center; the anchor therefore differs by about 0.14 normalized image-diagonal and names the wrong feature. Move the anchor to the plaza center or relabel it to the lower-left feature it actually marks, then rerender and rescore the proof.
+
+### Advisory (non-blocking)
+
+- `05-decorating-work-switzerland`, `06-dolls-on-the-balcony`, `07-fischernetze-isola-bella`, and `11-scandinavia`: the non-strict scorer warnings for selected labeled lines are detector-support limitations. On visual inspection, each still traces its named cable, rail, net/cloth, or rope feature; no revision is required.
+- `12-target-practice`: the three-ellipse complexity warning remains non-blocking. The current proof shows each ellipse accurately follows its distinct printed target circle, preserving the prior round's resolution.
