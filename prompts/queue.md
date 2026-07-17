@@ -81,7 +81,7 @@ real queue and state live in data/registry.json.
 | 70  | annie-leibovitz           | Annie Leibovitz           | PENDING |
 | 71  | ansel-adams               | Ansel Adams               | PENDING |
 | 72  | edward-weston             | Edward Weston             | PENDING |
-| 73  | imogen-cunningham         | Imogen Cunningham         | PENDING |
+| 73  | imogen-cunningham         | Imogen Cunningham         | DONE    |
 | 74  | minor-white               | Minor White               | PENDING |
 | 75  | wynn-bullock              | Wynn Bullock              | PENDING |
 | 76  | eliot-porter              | Eliot Porter              | PENDING |

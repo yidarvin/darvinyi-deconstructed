@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -28,3 +28,13 @@ Re-verified critique history: **2026-07-17, round 1** (the complete history for 
 4. Removed the mismatched *Blossom of Water Hyacinth 2* record and made the shortlist description match the displayed dark upper flower, light-gray stem, dark folded leaves, and pale field.
 
 `scripts/check.sh` completed successfully after the fixes; `content/imogen-cunningham/chapter.mdx` and `src/chapters/imogen-cunningham.mdx` are byte-identical.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. I visually rechecked all four current proof PNGs against their overlay specs, re-scored the specs (100/100, 100/100, 100/100, and 94/100), and verified the source routes and title/date record against the linked Commons and Norton Simon records. The prior required findings remain resolved without material regression.
+
+### Advisory (non-blocking)
+
+None new. The previously noted angular magnolia petal-path approximation and the overlapping hyacinth label boxes remain cosmetic only; the marks still identify their named photographed structures. The hyacinth leading-line scorer warning remains non-blocking because the line visibly follows the stem.
