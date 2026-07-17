@@ -506,3 +506,23 @@ This lawful retry adds no source file: the set remains **0 / 4** and must stay
 `pending`. Retry only an explicitly reusable high-resolution release from a
 rights holder or open collection; do not use a restricted museum display,
 derivative, or an undersized Commons scan.
+
+## 2026-07-16 public-endpoint retry (bound source unit)
+
+- **Wikimedia Commons image-info API** — re-verified the only two clearly
+  Rodchenko-authored files carrying an explicit public-domain label: [*Dance*
+  (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov*
+  (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Both originals are below the 1200px long-edge requirement.
+- **Open collection APIs** — the Met record for [*Asphalting a Street in
+  Moscow* (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  remains `isPublicDomain: false` with an empty `primaryImage`; the Art
+  Institute of Chicago record for [*Vladimir Mayakovsky*
+  (229011)](https://api.artic.edu/api/v1/artworks/229011) remains
+  `is_public_domain: false`. Neither endpoint establishes an eligible source.
+
+No lawful, openly reusable rendition meets the resolution floor, so no raw
+file was downloaded. The set remains **0 / 4** and the registry must remain
+`pending`; the next automatic recovery route is an explicit high-resolution
+release from the Rodchenko/Stepanova Archive, MAMM, or another rights holder.
