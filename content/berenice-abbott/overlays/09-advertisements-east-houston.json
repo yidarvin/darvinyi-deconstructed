@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.677, "angle": 0, "label": "BILLBOARD BASE" },
     { "type": "leading_line", "points": [[0.020, 0.756], [0.898, 0.932]], "arrow": true, "label": "LOWER SIGN EDGE" },
-    { "type": "leading_line", "points": [[0.240, 0.163], [0.796, 0.478]], "arrow": true, "label": "TROMMER'S MASTHEAD" },
-    { "type": "frame_in_frame", "x": 0.298, "y": 0.000, "w": 0.486, "h": 0.327, "label": "AD PANEL" }
+    { "type": "leading_line", "points": [[0.240, 0.163], [0.796, 0.478]], "arrow": true, "label": "TROMMER'S MASTHEAD" }
   ],
   "notes": "A wall of advertisements becomes a receding collage of type and rectangles."
 }

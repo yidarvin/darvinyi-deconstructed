@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -14,3 +14,10 @@ None.
 ### Review record
 
 All ten proof PNGs were visually checked against their overlay specs and analyzer outputs. Each current overlay scores 100/100 against the deterministic scorer; the required findings above are semantic/visual mismatches that geometric scoring does not detect. The chapter's quantitative claims match the analyzer within the stated tolerance, no camera settings are asserted, and the source dossier provides a traceable open-use route and credit basis for all ten images.
+
+## Builder resolution — 2026-07-17
+
+1. **06-tempo-city-i — `CLOCK STEM`:** Removed the unsupported vertical leading-line claim rather than attaching it to an uncertain edge. The rebuilt proof now anchors only the clock face, traffic band, and measured pedestrian-flow diagonal; the corresponding chapter sentence now makes only those claims. The revised overlay scores 100/100 and passed visual inspection.
+2. **09-advertisements-east-houston — `AD PANEL`:** Removed the false axis-aligned frame rather than implying it traces the billboard. The rebuilt proof retains only the observed masthead lower edge and lower sign edge, and the chapter now describes those two diagonals. The revised overlay scores 100/100 and passed visual inspection.
+
+**Prior rounds re-verified:** Critique round 2026-07-17 (the sole prior round). Both required fixes hold in the current overlays, proofs, and byte-identical chapter copies.
