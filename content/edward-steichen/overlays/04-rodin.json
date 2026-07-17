@@ -1,1 +1,11 @@
-{"version":1,"image":"04-rodin.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.687,"angle":0,"label":"STUDIO GROUND"},{"type":"symmetry_axis","orientation":"vertical","pos":0.388,"label":"FIGURE BALANCE"},{"type":"polyline","points":[[0.72,0.13],[0.75,0.31],[0.734,0.621]],"label":"RODIN'S PROFILE"},{"type":"frame_in_frame","x":0.058,"y":0.036,"w":0.887,"h":0.926,"label":"PORTRAIT FIELD"}],"notes":"Rodin's profile is held as a tall dark vertical against a softly lit studio field."}
+{
+  "version": 1,
+  "image": "04-rodin.jpg",
+  "grid": {"type": "thirds"},
+  "primitives": [
+    {"type": "horizon_line", "y": 0.687, "angle": 0, "label": "STUDIO GROUND"},
+    {"type": "polyline", "points": [[0.72, 0.13], [0.75, 0.31], [0.734, 0.621]], "label": "RODIN'S PROFILE"},
+    {"type": "frame_in_frame", "x": 0.058, "y": 0.036, "w": 0.887, "h": 0.926, "label": "PORTRAIT FIELD"}
+  ],
+  "notes": "Rodin's profile is held as a tall dark vertical against a softly lit studio field."
+}

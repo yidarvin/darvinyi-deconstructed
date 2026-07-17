@@ -1,1 +1,11 @@
-{"version":1,"image":"03-rodin-le-penseur.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.232,"angle":0,"label":"SMOKY GROUND"},{"type":"leading_line","points":[[0.168,0.131],[0.759,0.802]],"arrow":true,"label":"RODIN'S LEAN"},{"type":"leading_line","points":[[0.169,0.069],[0.729,0.752]],"arrow":true,"label":"THINKER'S SILHOUETTE"},{"type":"vanishing_point","x":0.233,"y":0.153,"label":"UPPER LIGHT"}],"notes":"Two dark leaning figures compress into a diagonal exchange against the smoky light."}
+{
+  "version": 1,
+  "image": "03-rodin-le-penseur.jpg",
+  "grid": {"type": "thirds"},
+  "primitives": [
+    {"type": "subject_anchor", "x": 0.307, "y": 0.362, "r": 0.035, "label": "RODIN"},
+    {"type": "subject_anchor", "x": 0.636, "y": 0.314, "r": 0.035, "label": "THE THINKER"},
+    {"type": "frame_in_frame", "x": 0.12, "y": 0.04, "w": 0.70, "h": 0.78, "label": "FIGURE PAIR"}
+  ],
+  "notes": "Rodin and The Thinker compress into two dark masses inside a shared smoky field."
+}

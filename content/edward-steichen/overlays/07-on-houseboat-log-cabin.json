@@ -1,1 +1,11 @@
-{"version":1,"image":"07-on-houseboat-log-cabin.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.267,"angle":-1,"label":"CABIN ROOFLINE"},{"type":"frame_in_frame","x":0.06,"y":0.067,"w":0.879,"h":0.857,"label":"HOUSEBOAT"},{"type":"polyline","points":[[0.16,0.454],[0.46,0.459],[0.795,0.494]],"label":"PORCH RAIL"},{"type":"polyline","points":[[0.053,0.767],[0.43,0.798],[0.926,0.837]],"label":"REFLECTED SHORE"}],"notes":"Cabin, porch rail, and reflection stack a quiet scene in horizontal bands."}
+{
+  "version": 1,
+  "image": "07-on-houseboat-log-cabin.jpg",
+  "grid": {"type": "thirds"},
+  "primitives": [
+    {"type": "horizon_line", "y": 0.267, "angle": -1, "label": "WINDOW BAND"},
+    {"type": "frame_in_frame", "x": 0.06, "y": 0.067, "w": 0.879, "h": 0.857, "label": "HOUSEBOAT"},
+    {"type": "ellipse", "cx": 0.57, "cy": 0.59, "rx": 0.43, "ry": 0.38, "label": "GROUP OF FIGURES"}
+  ],
+  "notes": "The cabin window band and group of figures settle the scene into horizontal bands."
+}

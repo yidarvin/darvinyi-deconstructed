@@ -1,1 +1,11 @@
-{"version":1,"image":"10-richard-strauss.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.112,"angle":0,"label":"UPPER DARK FIELD"},{"type":"subject_anchor","x":0.181,"y":0.773,"r":0.035,"label":"GESTURING HAND"},{"type":"polyline","points":[[0.455,0.27],[0.505,0.398],[0.436,0.575]],"label":"LIT FACE"},{"type":"polyline","points":[[0.038,0.953],[0.181,0.773],[0.387,0.638]],"label":"HAND-TO-FACE DIAGONAL"}],"notes":"Face, cuff, and hand form a small diagonal of light inside an otherwise dark portrait."}
+{
+  "version": 1,
+  "image": "10-richard-strauss.jpg",
+  "grid": {"type": "thirds"},
+  "primitives": [
+    {"type": "horizon_line", "y": 0.112, "angle": 0, "label": "UPPER DARK FIELD"},
+    {"type": "subject_anchor", "x": 0.181, "y": 0.773, "r": 0.035, "label": "GESTURING HAND"},
+    {"type": "ellipse", "cx": 0.60, "cy": 0.27, "rx": 0.13, "ry": 0.15, "label": "LIT FACE"}
+  ],
+  "notes": "Face, cuff, and hand make three isolated lights inside an otherwise dark portrait."
+}

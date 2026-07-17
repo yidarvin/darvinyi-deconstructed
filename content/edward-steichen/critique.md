@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -15,3 +15,15 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-17
+
+1. Replaced the false vertical reflection axis on *The Pond—Moonlight* with a traced tree-reflection path, and revised the associated chapter language.
+2. Removed the two false contour lines on *Rodin—Le Penseur*; measured subject anchors now identify Rodin and *The Thinker*.
+3. Removed the unsupported `FIGURE BALANCE` symmetry axis from *Rodin*.
+4. Removed the nonexistent reflected shore from *On the House Boat—“The Log Cabin”* and revised the overlay, source note, chapter prose, and caption to describe the visible window band and figure group.
+5. Replaced Duse's false profile contour with a three-quarter-face ellipse and corrected the source and chapter descriptions.
+6. Replaced Strauss's false face contour with a face ellipse that encloses the illuminated head.
+7. Replaced the Brancusi studio's false vertical plinth line with horizontal upper-plinth and lower-platform annotations.
+
+Re-verified required fixes from critique round 2026-07-17 (the complete critique history). All seven revised overlays were re-analyzed, rendered, visually inspected, and scored 100/100. `scripts/check.sh` passes, and `content/edward-steichen/chapter.mdx` remains byte-identical to `src/chapters/edward-steichen.mdx`.

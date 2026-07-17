@@ -1,1 +1,13 @@
-{"version":1,"image":"11-brancusis-studio.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.864,"angle":0,"label":"STUDIO FLOOR"},{"type":"subject_anchor","x":0.15,"y":0.835,"r":0.035,"label":"LOWER SCULPTURE"},{"type":"frame_in_frame","x":0.302,"y":0.034,"w":0.402,"h":0.768,"label":"WALL OPENING"},{"type":"polyline","points":[[0.515,0.158],[0.51,0.428],[0.51,0.749]],"label":"STACKED PLINTHS"}],"notes":"Sculptures and plinths turn the studio into a measured sequence of verticals and voids."}
+{
+  "version": 1,
+  "image": "11-brancusis-studio.jpg",
+  "grid": {"type": "thirds"},
+  "primitives": [
+    {"type": "horizon_line", "y": 0.864, "angle": 0, "label": "STUDIO FLOOR"},
+    {"type": "subject_anchor", "x": 0.15, "y": 0.835, "r": 0.035, "label": "LOWER SCULPTURE"},
+    {"type": "frame_in_frame", "x": 0.302, "y": 0.034, "w": 0.402, "h": 0.768, "label": "WALL OPENING"},
+    {"type": "polyline", "points": [[0.29, 0.60], [0.78, 0.60]], "label": "UPPER PLINTH EDGE"},
+    {"type": "polyline", "points": [[0.34, 0.90], [0.78, 0.93]], "label": "LOWER PLATFORM"}
+  ],
+  "notes": "Sculptures and plinths turn the studio into a measured sequence of verticals and voids."
+}

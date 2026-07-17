@@ -41,7 +41,7 @@ This source set concentrates on the first, public-domain part of Steichen's care
 - **File:** `raw/edward-steichen/06-road-into-valley-moonrise.jpg` (4184px long edge)
 
 ### 07 — *On the House Boat—“The Log Cabin”* (1908)
-- **Why it matters:** The houseboat's bright cabin, rail, and reflection make a calm stack of horizontal bands, while the mooring lines and tree shadows keep the frame from becoming merely decorative.
+- **Why it matters:** The houseboat's bright cabin windows and seated figures make a calm stack of horizontal bands, while the mooring lines and tree shadows keep the frame from becoming merely decorative.
 - **Source:** [Wikimedia Commons file record](https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_On_the_House_Boat--%22The_Log_Cabin%22_-_Google_Art_Project.jpg)
 - **Rights:** Public domain, as marked by Commons; 1908 work.
 - **File:** `raw/edward-steichen/07-on-houseboat-log-cabin.jpg` (2557px long edge)
@@ -53,7 +53,7 @@ This source set concentrates on the first, public-domain part of Steichen's care
 - **File:** `raw/edward-steichen/08-self-portrait.jpg` (4271px long edge)
 
 ### 09 — *Portrait of Eleonora Duse* (1903)
-- **Why it matters:** Duse's dark profile, pale head covering, and hand at the lower edge make a spare, sharply directional portrait in which a small highlight carries the emotional center.
+- **Why it matters:** Duse's near-frontal, three-quarter face, pale head covering, and hand at the lower edge make a spare portrait in which a small highlight carries the emotional center.
 - **Source:** [Wikimedia Commons / Library of Congress file record](https://commons.wikimedia.org/wiki/File:Portrait_of_Eleanora_Duse_-_by_Edward_J._Steichen._LCCN2008676241.jpg)
 - **Rights:** Public domain, as marked by Commons; 1903 work and Library of Congress record.
 - **File:** `raw/edward-steichen/09-eleanora-duse.jpg` (6517px long edge)

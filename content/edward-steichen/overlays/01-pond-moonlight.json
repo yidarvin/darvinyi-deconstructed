@@ -1,1 +1,11 @@
-{"version":1,"image":"01-pond-moonlight.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.196,"angle":2.9,"label":"FAR BANK"},{"type":"symmetry_axis","orientation":"vertical","pos":0.5,"label":"REFLECTED FIELD"},{"type":"frame_in_frame","x":0.021,"y":0.033,"w":0.954,"h":0.881,"label":"PRINT IMAGE"}],"notes":"The far bank divides a nearly mirrored, low-detail pond from its dark line of trees."}
+{
+  "version": 1,
+  "image": "01-pond-moonlight.jpg",
+  "grid": {"type": "thirds"},
+  "primitives": [
+    {"type": "horizon_line", "y": 0.196, "angle": 2.9, "label": "FAR BANK"},
+    {"type": "polyline", "points": [[0.47, 0.40], [0.49, 0.56], [0.51, 0.73]], "label": "TREE REFLECTIONS"},
+    {"type": "frame_in_frame", "x": 0.021, "y": 0.033, "w": 0.954, "h": 0.881, "label": "PRINT IMAGE"}
+  ],
+  "notes": "The far bank divides the standing trees from their downward reflections in the low-detail pond."
+}
