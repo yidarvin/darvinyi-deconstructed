@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -45,3 +45,17 @@ Re-verified required fixes from critique round 2026-07-17 (the complete critique
 ### Advisory (non-blocking)
 
 None. The seven findings resolved in the preceding round remain resolved. The 100/100 deterministic scores are not contrary evidence here: the scorer confirms the detector geometry, while these required findings are visible semantic/type mismatches.
+
+## Builder resolution — 2026-07-17
+
+1. Removed the false *Flatiron* apex and edge claims; the overlay now marks only the visible overhead branch and low street glow, and the chapter no longer treats the branches as evidence for an architectural apex or edge.
+2. Removed the false `FIGURE PAIR` frame from *Rodin—Le Penseur*, retaining only the two figure anchors.
+3. Rebuilt *Rodin* as a single ellipse around the visible dark figure; the false profile path, studio-ground horizon, and portrait-field frame are gone, and the prose now describes a figure rather than a profile.
+4. Replaced *In Memoriam*'s unsupported arch axis and inaccurate contour with an enclosing `BOWED FIGURE` ellipse; the chapter no longer claims a threshold or traced contour.
+5. Removed the false `MIRRORED VALLEY` axis and revised the road paragraph to describe unequal tree masses.
+6. Replaced the false *Self-Portrait* vanishing point with an ellipse around the illuminated face; the surviving jacket-edge line is a truthful visible edge.
+7. Moved the *Isadora Duncan* annotation to an ellipse enclosing the distant figure in the bright opening.
+8. Rewrote the Duncan source note to state that the supplied reproduction does not clearly establish a gesture.
+9. Added a per-image `open` route and an Edward Steichen/Commons public-domain credit-copyright notice for all twelve source entries.
+
+Re-verified every required fix from the prior 2026-07-17 critique round: *The Pond—Moonlight* uses a reflection path rather than a vertical symmetry axis; *Rodin—Le Penseur* retains no false contours; *Rodin* retains no symmetry axis; *On the House Boat—“The Log Cabin”* retains no reflected shore; Duse remains labeled three-quarter rather than profile; Strauss uses a face ellipse; and the Brancusi annotations identify horizontal plinth/platform edges. All seven re-resolved overlays and the seven overlays revised in this round were rendered, visually inspected, and scored 100/100. `scripts/check.sh` passes, and `content/edward-steichen/chapter.mdx` remains byte-identical to `src/chapters/edward-steichen.mdx`.
