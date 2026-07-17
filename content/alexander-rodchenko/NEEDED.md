@@ -154,3 +154,30 @@ routes in case an expressly licensed, high-resolution release appears.
 This additional recovery still yields **0 / 4** qualifying files. The stage
 must remain `pending`; retry only an explicit open licence or direct reuse grant
 from the Rodchenko/Stepanova Archive, MAMM, or another holding institution.
+
+## 2026-07-16 public-source recovery recheck (current invocation)
+
+- **Library of Congress JSON / *Portet materi* (Mother), cph.3b25450** —
+  re-queried the public metadata endpoint. It still identifies the resource as a
+  black-and-white film-copy negative and explicitly reports: “Larger images are
+  only available at the Library of Congress.” The public service rendition is
+  the 150px JPEG; no open master or express reuse statement was exposed.
+- **Wikimedia Commons MediaWiki API** — re-ran a file-namespace search with
+  original dimensions and licence metadata. The qualifying-attribution results
+  remain the undersized *Dance* (429×700px) and *Portrait of N. A. Rusakov*
+  (594×800px). The 1200px-and-larger results are photographs **of** Rodchenko,
+  exhibition documentation, or unrelated material, not photographs made by
+  him.
+- **Met Collection API** — rechecked *[Student on a Roof Ledge, Moscow]*
+  ([object 286071](https://collectionapi.metmuseum.org/public/collection/v1/objects/286071)).
+  It remains `isPublicDomain: false` with empty `primaryImage` and
+  `primaryImageSmall` fields; no open rendition was downloaded.
+- **Saint Louis Art Museum, *Woman with a Camera* (20992)** — the public
+  collection record is a useful canonical-work lead, but its site presented a
+  Cloudflare access-control challenge to the automated request. No attempt was
+  made to bypass that control, and no image was retrieved. A future pass may
+  use a stated open API or other expressly licensed institutional rendition.
+
+This recovery again yields **0 / 4** qualifying files. The stage remains
+`pending`; no substitute image, display photograph, screen capture, or
+undersized scan was ingested.
