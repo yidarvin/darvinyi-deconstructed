@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-spring-varick-streets.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.794, "angle": 0, "label": "STREET LEVEL" },
+    { "type": "leading_line", "points": [[0.066, 0.674], [0.524, 0.004]], "arrow": true, "label": "FACADE ROOFLINE" },
+    { "type": "leading_line", "points": [[0.017, 0.744], [0.533, 0.153]], "arrow": true, "label": "WINDOW-BAND RECESSION" },
+    { "type": "subject_anchor", "x": 0.922, "y": 0.465, "r": 0.035, "label": "WINDOW GRID" }
+  ],
+  "notes": "The factory facade becomes a receding grid, crossed by a dark streetlamp."
+}

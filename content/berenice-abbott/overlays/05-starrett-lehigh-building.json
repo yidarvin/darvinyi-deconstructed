@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-starrett-lehigh-building.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.898, "angle": 0, "label": "STREET BASE" },
+    { "type": "vanishing_point", "x": 0.685, "y": 0.341, "label": "FLOOR-BAND PINCH" },
+    { "type": "leading_line", "points": [[0.163, 0.628], [0.829, 0.331]], "arrow": true, "label": "WINDOW BAND" },
+    { "type": "leading_line", "points": [[0.529, 0.284], [0.999, 0.785]], "arrow": true, "label": "RECEDING FLOOR BANDS" }
+  ],
+  "notes": "Low angle and receding bands make an industrial corner rise into the frame."
+}

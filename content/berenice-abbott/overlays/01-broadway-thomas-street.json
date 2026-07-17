@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-broadway-thomas-street.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.536, "angle": 0, "label": "STREET BREAK" },
+    { "type": "vanishing_point", "x": 0.436, "y": 0.370, "label": "CANYON PINCH" },
+    { "type": "leading_line", "points": [[0.271, 0.090], [0.701, 0.636]], "arrow": true, "label": "STREET DIAGONAL" },
+    { "type": "leading_line", "points": [[0.328, 0.427], [0.746, 0.083]], "arrow": true, "label": "ARCADE BAND" }
+  ],
+  "notes": "Unequal facades turn Broadway into a shallow urban canyon."
+}

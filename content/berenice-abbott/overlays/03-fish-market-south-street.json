@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-fish-market-south-street.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.648, "angle": 2.9, "label": "MARKET BAND" },
+    { "type": "subject_anchor", "x": 0.180, "y": 0.196, "r": 0.035, "label": "SIGN CLUSTER" },
+    { "type": "leading_line", "points": [[0.671, 0.523], [0.996, 0.583]], "arrow": true, "label": "AWNING EDGE" },
+    { "type": "leading_line", "points": [[0.064, 0.833], [0.479, 0.801]], "arrow": true, "label": "CURB RHYTHM" }
+  ],
+  "notes": "Commercial lettering and low horizontal bands make the market read as a frieze."
+}

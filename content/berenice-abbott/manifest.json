@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-broadway-thomas-street.jpg",
+    "width": 1600,
+    "height": 1263,
+    "sha1": "cc488414",
+    "source": "01-broadway-thomas-street.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-cedar-street-william.jpg",
+    "width": 1243,
+    "height": 1600,
+    "sha1": "ca42cb4c",
+    "source": "02-cedar-street-william.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-fish-market-south-street.jpg",
+    "width": 1600,
+    "height": 1076,
+    "sha1": "a0546741",
+    "source": "03-fish-market-south-street.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-spring-varick-streets.jpg",
+    "width": 1600,
+    "height": 1260,
+    "sha1": "93fa74dd",
+    "source": "04-spring-varick-streets.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-starrett-lehigh-building.jpg",
+    "width": 1600,
+    "height": 1304,
+    "sha1": "ab33b47b",
+    "source": "05-starrett-lehigh-building.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-tempo-city-i.jpg",
+    "width": 1527,
+    "height": 1600,
+    "sha1": "3d31ebea",
+    "source": "06-tempo-city-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-tempo-city-ii.jpg",
+    "width": 1273,
+    "height": 1600,
+    "sha1": "0b968881",
+    "source": "07-tempo-city-ii.jpg",
+    "exif": {
+      "DateTimeOriginal": "2022:06:17 12:07:29"
+    }
+  },
+  {
+    "file": "08-seventh-avenue-south.jpg",
+    "width": 1265,
+    "height": 1600,
+    "sha1": "bf1b88fb",
+    "source": "08-seventh-avenue-south.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-advertisements-east-houston.jpg",
+    "width": 1600,
+    "height": 1263,
+    "sha1": "73965d68",
+    "source": "09-advertisements-east-houston.jpg",
+    "exif": {
+      "DateTimeOriginal": "2022:06:15 20:37:39"
+    }
+  },
+  {
+    "file": "10-riverside-drive-viaduct.jpg",
+    "width": 1600,
+    "height": 1283,
+    "sha1": "def682e1",
+    "source": "10-riverside-drive-viaduct.jpg",
+    "exif": {}
+  }
+]

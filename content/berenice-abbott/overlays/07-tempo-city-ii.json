@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-tempo-city-ii.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.505, "angle": 0, "label": "STREET PLANE" },
+    { "type": "leading_line", "points": [[0.312, 0.544], [0.971, 0.073]], "arrow": true, "label": "AVENUE FLOW" },
+    { "type": "leading_line", "points": [[0.591, 0.261], [0.947, 0.534]], "arrow": true, "label": "CURBSIDE EDGE" },
+    { "type": "subject_anchor", "x": 0.969, "y": 0.430, "r": 0.035, "label": "CURBSIDE CROWD" }
+  ],
+  "notes": "An elevated view turns vehicles, rails, and curbside bodies into intersecting flow."
+}

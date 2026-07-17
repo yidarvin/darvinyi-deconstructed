@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "08-seventh-avenue-south.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.917, "angle": -1.1, "label": "LOW ROOF EDGE" },
+    { "type": "vanishing_point", "x": 0.328, "y": 0.799, "label": "AVENUE PINCH" },
+    { "type": "leading_line", "points": [[0.381, 0.674], [0.701, 0.155]], "arrow": true, "label": "RIGHT STREET WALL" },
+    { "type": "leading_line", "points": [[0.329, 0.830], [0.567, 0.425]], "arrow": true, "label": "LIT AVENUE" },
+    { "type": "subject_anchor", "x": 0.529, "y": 0.695, "r": 0.035, "label": "BRIGHT CORRIDOR" }
+  ],
+  "notes": "A bright avenue channel is held between deep building masses."
+}
