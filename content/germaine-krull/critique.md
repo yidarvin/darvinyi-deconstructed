@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -19,3 +19,22 @@ gelatin silver (04), and gelatin silver mounted on original blue cardboard
 (05). The chapter callout now distinguishes this documented print information
 from still-undocumented negative and camera/exposure details. Re-verified all
 required fixes from prior critique round 2026-07-17 (the only prior round).
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. The prior round's documented-print-process correction remains present in
+the source notes, research note, and chapter callout. The five current proofs
+visually support their 3–4 labeled teaching primitives, and their current
+analysis/spec scores are 94 (01) and 100 (02–05). The gallery work records
+resolve for every image and support the listed title, date, and print-object
+descriptions; each fair-use entry retains a concise per-image four-factor
+rationale and credit.
+
+### Advisory (non-blocking)
+
+- `01-abstract-industrial-building`: the scorer retains a detector-only
+  warning for the overhead-steel-beam leading line. Visual review shows the
+  line follows the beam's visible diagonal, so this is not a material
+  misidentification.
