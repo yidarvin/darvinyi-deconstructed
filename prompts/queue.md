@@ -40,7 +40,7 @@ real queue and state live in data/registry.json.
 | 29  | karl-blossfeldt           | Karl Blossfeldt           | DONE    |
 | 30  | alfred-stieglitz          | Alfred Stieglitz          | DONE    |
 | 31  | eugene-atget              | Eugène Atget              | DONE    |
-| 32  | edward-steichen           | Edward Steichen           | PENDING |
+| 32  | edward-steichen           | Edward Steichen           | DONE    |
 | 33  | paul-strand               | Paul Strand               | PENDING |
 | 34  | laszlo-moholy-nagy        | László Moholy-Nagy        | PENDING |
 | 35  | alexander-rodchenko       | Alexander Rodchenko       | PENDING |
