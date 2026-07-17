@@ -108,3 +108,38 @@ The public institutional routes checked in this recovery do not yield a lawful
 open master. The unit remains at **0 / 4** and stays `pending`; retry the
 explicitly licensed archive and institutional routes listed above on a later
 source invocation.
+
+## 2026-07-16 open-collection recovery recheck
+
+- **Wikimedia Commons MediaWiki API** — queried the file namespace for
+  `Alexander Rodchenko` and requested original-file metadata, dimensions, and
+  licence fields for the authored candidates. The only explicitly public-domain
+  originals found are *Dance* (1915), **429×700px**,
+  [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594×800px**, and *Mess-Mend 8*, **450×673px**. Each is below the required
+  1200px long edge, so none was downloaded. The remaining search results are
+  portraits of Rodchenko, exhibition documentation, or reconstructions rather
+  than photographs made by him.
+- **Metropolitan Museum of Art Open Access API** — rechecked
+  [*Asphalting a Street in Moscow* (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286).
+  The record remains `isPublicDomain: false` with blank `primaryImage` and
+  `primaryImageSmall` values. The public collection pages for canonical works
+  including *Vladimir Majakowski*, *Pine Trees in Pushkin Park*, and *Student
+  on a Roof Ledge, Moscow* explicitly say the image cannot be enlarged,
+  viewed full-screen, or downloaded.
+- **Art Institute of Chicago API** — rechecked
+  [*Vladimir Mayakovsky* (229011)](https://api.artic.edu/api/v1/artworks/229011).
+  It remains `is_public_domain: false`; its API image identifier was therefore
+  not used as an image source.
+- **High Museum of Art / International Center of Photography** — checked the
+  publicly indexed Rodchenko holdings as an alternate institutional route.
+  The High Museum’s records for works such as *Lathe Machine Tools* and *Canal
+  Construction, the Orchestra* credit the Rodchenko-Stepanova Archive and
+  state © Estate of Alexander Rodchenko/RAO, Moscow/VAGA at Artists Rights
+  Society. ICP’s archive indexes thirteen Rodchenko-related items, but offers
+  no stated open-license or original-download route. Neither source provides a
+  qualifying reusable master.
+
+This pass again found **0 / 4** qualifying files. The stage remains `pending`;
+a future source invocation should re-run the listed archival and institutional
+routes in case an expressly licensed, high-resolution release appears.
