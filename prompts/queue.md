@@ -38,7 +38,7 @@ real queue and state live in data/registry.json.
 | 27  | frances-benjamin-johnston | Frances Benjamin Johnston | DONE    |
 | 28  | alvin-langdon-coburn      | Alvin Langdon Coburn      | DONE    |
 | 29  | karl-blossfeldt           | Karl Blossfeldt           | DONE    |
-| 30  | alfred-stieglitz          | Alfred Stieglitz          | PENDING |
+| 30  | alfred-stieglitz          | Alfred Stieglitz          | DONE    |
 | 31  | eugene-atget              | Eugène Atget              | DONE    |
 | 32  | edward-steichen           | Edward Steichen           | PENDING |
 | 33  | paul-strand               | Paul Strand               | PENDING |
