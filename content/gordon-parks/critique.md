@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -44,3 +44,13 @@ Re-verified critique history: both 2026-07-17 critique rounds.
 4. Prior round: `10-7th-street-saturday` continues to omit the unsupported `foreground shoulder` polyline. The mirrored chapter remains byte-identical and its cropped-foreground language is still accurate.
 
 `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-17
+
+### Required
+
+1. **`05-ella-watson-bible` — the polyline labelled `right bed rail` does not trace the right bed rail.** In the current proof, the path begins in the wall/doorway area above the bed, crosses the child at right, and only reaches bedding near its lower endpoint. This is materially outside the endpoint tolerance and falsely names an empty route as a rail. Redraw the polyline on the visible metal rail, or remove the primitive and revise the rail claim in the chapter and plate caption if needed. This is a newly identified primitive in a different proof; it does not reopen the resolved `06-ella-watson-walk-home` rail correction.
+
+### Advisory (non-blocking)
+
+None. All eleven current specs score 100/100 under the strict deterministic scorer, but that result does not supersede the visible semantic error above. The previously resolved `06` rails, `07` mantel shelf, and `10` removed primitives remain visually truthful. The chapter's reported tonal values match their analyzer JSON within tolerance; it states no camera settings. All eleven image records remain traceable to the cited LOC FSA/OWI public-domain records with the stated credit, and no fair-use rationale is required.
