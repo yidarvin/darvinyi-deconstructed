@@ -419,3 +419,29 @@ The next automated pass should retry the Rodchenko/Stepanova Archive or MAMM
 only if either publishes an explicitly reusable high-resolution rendition; do
 not substitute documentary images, gallery views, restricted collection files,
 or undersized public-domain scans.
+
+## 2026-07-16 final API and rights check (current source unit)
+
+- **Wikimedia Commons image-info API** — confirmed the original, explicitly
+  public-domain dimensions for *Dance* (1915), **429 × 700px**, and *Portrait
+  of N. A. Rusakov* (1912), **594 × 800px**. Both fail the required 1200px
+  long edge and were not downloaded.
+- **Metropolitan Museum of Art API** — *Asphalting a Street in Moscow*
+  ([283286](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286))
+  remains `isPublicDomain: false`, with no primary image supplied.
+- **Art Institute of Chicago API** — *Vladimir Mayakovsky*
+  ([229011](https://api.artic.edu/api/v1/artworks/229011)) remains
+  `is_public_domain: false`; its image identifier was not used as a reuse
+  grant.
+- **Getty Museum** — the public record for [106HNF](https://www.getty.edu/art/collection/object/106HNF)
+  declares `InC 1.0`. Its IIIF endpoint therefore does not establish an open
+  image source and was not downloaded.
+- **Library of Congress P&P JSON** — the *Portet materi* resource still
+  provides only the P&P handle (`cph.3b25450`) in its public response, not an
+  expressly reusable high-resolution image. No restricted rendition was
+  accessed.
+
+No source satisfies both the explicit reuse-rights requirement and the 1200px
+long-edge floor. The unit remains **0 / 4**, stays `pending`, and has no raw
+downloads. The next lawful retry route is an express open release by the
+Rodchenko/Stepanova Archive, MAMM, or another holding institution.

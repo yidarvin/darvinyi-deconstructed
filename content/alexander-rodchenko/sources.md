@@ -23,6 +23,10 @@ The artist died in 1956. The surviving canonical photographs are still represent
 
 0 / 4 required source files meet the legal and resolution requirements. Stage remains `pending`; no registry field was changed in this pass.
 
+## 2026-07-16 endpoint verification (current source unit)
+
+The public endpoints were queried again before closing this source unit. Commons still labels *Dance* (1915) public domain at **429 × 700px** and *Portrait of N. A. Rusakov* (1912) public domain at **594 × 800px**; neither reaches the 1200px long-edge floor. The Met API still marks *Asphalting a Street in Moscow* (283286) `isPublicDomain: false` with empty primary-image fields, while the Art Institute API still marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. An alternate Getty collection record (object [106HNF](https://www.getty.edu/art/collection/object/106HNF)) carries the RightsStatements.org `InC 1.0` label, so its IIIF delivery was not used. No qualifying original was downloaded.
+
 ## 2026-07-16 public-source verification
 
 A fresh public-API check did not change the readiness result. Commons file-namespace search for “Alexander Rodchenko” again returned principally portraits **of** Rodchenko, exhibition documentation, designs, and the two known Rodchenko-authored scans. The latter remain below the resolution floor: *Dance* (1915) is 429×700px and *Portrait of N. A. Rusakov* (1912) is 594×800px. The Met’s public API record for *Asphalting a Street in Moscow* (object 283286) still returns `isPublicDomain: false` and empty `primaryImage` fields; the Art Institute of Chicago API likewise marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. None is a lawful open master, so no raw file was added.
