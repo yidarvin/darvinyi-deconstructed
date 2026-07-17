@@ -17,3 +17,22 @@
 2. Recheck LOC’s Prints & Photographs records for an eventual `LC-DIG` master or a public IIIF endpoint. Do not infer reuse rights from the thumbnail or scrape the reading-room-only material.
 3. Recheck Commons and institutional APIs for a new high-resolution file with an explicit licence. Verify both author attribution and long edge before ingesting.
 4. If four qualifying files become available, download only those originals to `raw/alexander-rodchenko/`, verify they open and meet 1200px, update `sources.md`, then use `python3 scripts/set_stage.py alexander-rodchenko sourced`.
+
+## 2026-07-16 recovery recheck
+
+- **Wikimedia Commons public API** — repeated a file-namespace search for
+  `Alexander Rodchenko` and queried the available creator/category listing.
+  The high-resolution hits are photographs *of* Rodchenko, exhibitions, labels,
+  or reconstructed objects, rather than photographs made by him. The only
+  identified Rodchenko-authored files remain below the 1200px threshold (for
+  example *Portrait of N. A. Rusakov*, 594×800px, and *Dance*, 429×700px).
+  No file was downloaded.
+- **Met Collection API** — rechecked [*Asphalting a Street in
+  Moscow*](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286).
+  It remains `isPublicDomain: false` with empty `primaryImage` and
+  `primaryImageSmall` fields. This confirms there is still no open master at
+  that holding.
+
+The unit remains at 0 / 4 qualifying files and stays `pending`. Continue with
+the lawful retry routes above on a future source pass; do not substitute images
+of the photographer, exhibition views, display photographs, or undersized scans.
