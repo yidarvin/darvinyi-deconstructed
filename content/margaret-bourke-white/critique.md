@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -33,3 +33,15 @@ The twelve current proofs were visually reviewed against their source images, ov
 Resolved all nine required items from this round. I re-ran analysis, render, score, and visual inspection for plates 01, 02, 04, 06, 08, 09, 10, and 12; each revised overlay now scores 100/100 and its labels follow visible features. The corresponding chapter claims and captions were corrected in both byte-identical chapter files. `sources.md` now supplies an explicit nature/published-status factor for every fair-use selection, and its long-edge range is corrected to 843px–1024px.
 
 Full critique history re-verified: 2026-07-17 (the only prior/current critique round). All required fixes from that round remain present. `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-17
+
+All twelve current proofs were visually reviewed against the current overlay specs, analyzer records, sources, research, and chapter. Each overlay scores 100/100 against its analyzer, and all twelve cited image renditions return successfully from their documented LIFE or Whitney source routes. The previous round's overlay and source-rationale corrections remain present.
+
+### Required
+
+1. **04-no-beer-sold-to-indians** — Correct the Plate caption's statement that the sloping overlay is a “sign edge.” The current spec and rendered proof label the line `DOOR-LINTEL DIAGONAL`, and the line visibly follows the doorway lintel rather than the “NO BEER” sign. This reopens prior round item 3 because the current rendered overlay is correct but the reader-facing caption still gives the exact misidentification that the resolution says was removed.
+
+### Advisory (non-blocking)
+
+- None.
