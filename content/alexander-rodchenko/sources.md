@@ -68,3 +68,15 @@ The LOC P&P JSON for [*Portet materi* / *Mother*](https://www.loc.gov/pictures/i
 ## 2026-07-16 endpoint retry (current invocation)
 
 A fresh public-endpoint check again found no qualifying image. The [Commons image-info API](https://commons.wikimedia.org/w/api.php?action=query&titles=File%3A1915%20Dance%20by%20Rodchenko.jpg%7CFile%3APortrait%20of%20N.%20A.%20Rusakov%20by%20Aleksandr%20Rodchenko%20%281912%29.jpg&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&format=json) confirms explicit public-domain labels for *Dance* (**429 × 700px**) and *Portrait of N. A. Rusakov* (**594 × 800px**), but both fail the 1200px long-edge minimum. The Met [*Asphalting a Street in Moscow* API record](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286) remains `isPublicDomain: false` with no primary image, and the Art Institute’s [*Vladimir Mayakovsky* record](https://api.artic.edu/api/v1/artworks/229011) remains `is_public_domain: false`; neither image endpoint was used. LOC’s public JSON for [*Mother*](https://www.loc.gov/pictures/item/2002706148/?fo=json) still says larger images are available only onsite; the exposed service JPEG was opened only to confirm it is undersized (**119 × 150px**). No rights-qualified, high-resolution original was available, so no raw file was added and the unit remains **0 / 4**.
+
+## 2026-07-16 direct open-source verification (bound source unit)
+
+The current retry queried the public source APIs directly. Wikimedia Commons
+still labels Rodchenko's *Dance* (1915) public domain at **429 × 700px** and
+*Portrait of N. A. Rusakov* (1912) public domain at **594 × 800px**; both
+original URLs are below the required 1200px long edge. The Met API returned
+`isPublicDomain: false` and an empty `primaryImage` for *Asphalting a Street
+in Moscow* (283286), *Pine Trees in Pushkin Park* (265574), *Student on a
+Roof Ledge, Moscow* (286071), and *Foxtrot* (283288). These are canonical
+holding records, not open image sources. No qualifying original was
+downloaded, so readiness remains **0 / 4** and the stage remains `pending`.

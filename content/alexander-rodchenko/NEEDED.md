@@ -486,3 +486,23 @@ unit remains **0 / 4**, keeps its `pending` stage, and has no raw download. A
 future automated retry should check only for an explicitly reusable,
 high-resolution release from the Rodchenko/Stepanova Archive, MAMM, or another
 holding institution.
+
+## 2026-07-16 direct API recovery (bound source unit)
+
+- **Wikimedia Commons image-info API** — verified the two explicitly
+  public-domain files made by Rodchenko: *Dance* (1915), **429 × 700px**, and
+  *Portrait of N. A. Rusakov* (1912), **594 × 800px**. Both remain below the
+  1200px long-edge floor, so neither was downloaded.
+- **Metropolitan Museum of Art Open Access API** — queried canonical objects
+  [283286](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286),
+  [265574](https://collectionapi.metmuseum.org/public/collection/v1/objects/265574),
+  [286071](https://collectionapi.metmuseum.org/public/collection/v1/objects/286071),
+  and [283288](https://collectionapi.metmuseum.org/public/collection/v1/objects/283288).
+  Each remains `isPublicDomain: false` with an empty `primaryImage`; the
+  general Open Access programme therefore does not grant an image source for
+  these restricted works.
+
+This lawful retry adds no source file: the set remains **0 / 4** and must stay
+`pending`. Retry only an explicitly reusable high-resolution release from a
+rights holder or open collection; do not use a restricted museum display,
+derivative, or an undersized Commons scan.
