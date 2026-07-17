@@ -36,3 +36,28 @@
 The unit remains at 0 / 4 qualifying files and stays `pending`. Continue with
 the lawful retry routes above on a future source pass; do not substitute images
 of the photographer, exhibition views, display photographs, or undersized scans.
+
+## 2026-07-16 archival-scan recovery recheck
+
+- **Internet Archive, *Ot Moskvy Kupecheskoy k Moskve
+  Sotsialisticheskoy* (1932)** — inspected the publicly available
+  [archive metadata and 24-page scan](https://archive.org/details/O.1932). The
+  digitized album is a 4000px-class full-page scan and its metadata carries a
+  Public Domain Mark, but that is metadata for the uploaded scan, not an
+  express reuse grant from the credited photographers. Contemporary catalogue
+  descriptions identify the album as a mixed portfolio of photographs by
+  Rodchenko, V. Savelyev, Kazachinsky, E. Langman, and B. Ignatovich; an
+  article on Rodchenko’s work confirms that the album includes his Moscow
+  photographs, including work connected with the Planetarium and Narkomfin
+  House. The scan does not identify the author of each individual plate, and
+  the Rodchenko works remain subject to the artist/estate rights issue noted
+  above. No page extract was ingested: neither the page image nor the archive
+  label establishes a lawful open reuse basis for an individual Rodchenko
+  photograph.
+- **Internet Archive / Letterform Archive, *Novyi LEF* no. 8–9 (1927)** —
+  checked the item metadata and available image derivatives. It is explicitly
+  in the `stream_only` collection and provides no licence or rights statement;
+  it was not treated as an open download source. No page image was taken.
+
+The archival scan route produced useful authorship evidence, but no qualifying
+openly reusable original. The unit remains at 0 / 4 and must stay `pending`.
