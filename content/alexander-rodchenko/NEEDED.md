@@ -295,3 +295,33 @@ release from a rights holder or an institutional collection.
 
 No qualifying open master was found. The set remains **0 / 4** and the
 registry must remain `pending`; no image was downloaded or substituted.
+
+## 2026-07-16 public-API confirmation (current invocation)
+
+- **Wikimedia Commons MediaWiki API** — a fresh 50-result file-namespace
+  query with original dimensions, creator metadata, and licence fields again
+  found only two clearly Rodchenko-authored public-domain photographs:
+  [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov*
+  (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Both remain below the 1200px floor. The high-resolution
+  hits were checked and rejected because they depict Rodchenko, document
+  exhibitions, or show reconstructed works; none is a photograph by him.
+- **Metropolitan Museum of Art API** — [*Asphalting a Street in Moscow*
+  (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  still reports `isPublicDomain: false` and blank `primaryImage` and
+  `primaryImageSmall` fields.
+- **Art Institute of Chicago API** — [*Vladimir Mayakovsky*
+  (229011)](https://api.artic.edu/api/v1/artworks/229011) remains
+  `is_public_domain: false`. Its API image identifier was not used as a reuse
+  grant or image source.
+- **Library of Congress P&P JSON** — [*Portet materi* / *Mother*
+  (cph.3b25450)](https://www.loc.gov/pictures/item/2002706148/?fo=json)
+  still lists the resource restriction “Larger images are only available at
+  the Library of Congress” and exposes only the 150px public service JPEG.
+  No protected or reading-room-only image was accessed.
+
+This lawful recovery yields **0 / 4** qualifying files. The unit stays
+`pending`; no registry transition, image download, or substitute rendition was
+made. Retry an expressly licensed high-resolution release from the
+Rodchenko/Stepanova Archive, MAMM, or another institutional rights holder.
