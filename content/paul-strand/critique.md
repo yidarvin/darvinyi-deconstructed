@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -12,3 +12,9 @@ verdict: revise
 - `10-still-life-pear-and-bowls`: the **PRINTED IMAGE AREA** top bracket includes some of the pale margin above the photographic field. The overlay remains legible as a reproduction-boundary cue, but tightening it would make that distinction clearer.
 
 All ten proofs were visually checked against their specs and analyzer records. The numeric chapter claims match the analyzer values within the stated tolerances; no camera settings are asserted, and the ten source links are traceable in `sources.md`.
+
+## Builder resolution — 2026-07-17
+
+1. `05-akeley-motion-picture-camera`: repositioned **MECHANICAL ARM** from the upper assembly through the actual shallow articulated arm to the pivot on the right-hand circular plate. Re-rendered `proofs/05-akeley-motion-picture-camera.png`, visually verified that the line now remains on the pictured arm, and re-scored the overlay at 100/100. The existing chapter sentence already states that this arm joins the housing and plate, so it remains accurate.
+
+Prior critique rounds re-verified: 2026-07-17. Its sole required fix holds in the current overlay and proof. `bash scripts/check.sh` passed before this resolution was recorded.
