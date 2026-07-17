@@ -325,3 +325,24 @@ This lawful recovery yields **0 / 4** qualifying files. The unit stays
 `pending`; no registry transition, image download, or substitute rendition was
 made. Retry an expressly licensed high-resolution release from the
 Rodchenko/Stepanova Archive, MAMM, or another institutional rights holder.
+
+## 2026-07-16 source retry — verified endpoints
+
+- **Wikimedia Commons MediaWiki API** — a live 50-result file-namespace query
+  for `Alexander Rodchenko`, including original dimensions and licence metadata,
+  again identified only two photographs *made by* Rodchenko with an explicit
+  public-domain label: [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Both fail the 1200px long-edge requirement. The larger
+  results were portraits of Rodchenko, exhibition documentation, or photographs
+  of reconstructions, not photographs by him.
+- **Metropolitan Museum of Art API** — [*Asphalting a Street in Moscow*
+  (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  still returns `isPublicDomain: false` and empty `primaryImage` fields.
+- **Art Institute of Chicago API** — [*Vladimir Mayakovsky*
+  (229011)](https://api.artic.edu/api/v1/artworks/229011) still returns
+  `is_public_domain: false`; its image identifier was not used as a reuse grant.
+
+No rendition meets both the explicit reuse-rights requirement and the 1200px
+long-edge floor. `alexander-rodchenko` remains at **0 / 4** files and stays
+`pending`; no image was downloaded and no registry field was changed.
