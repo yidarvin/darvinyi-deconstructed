@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -59,3 +59,13 @@ None. The seven findings resolved in the preceding round remain resolved. The 10
 9. Added a per-image `open` route and an Edward Steichen/Commons public-domain credit-copyright notice for all twelve source entries.
 
 Re-verified every required fix from the prior 2026-07-17 critique round: *The Pond—Moonlight* uses a reflection path rather than a vertical symmetry axis; *Rodin—Le Penseur* retains no false contours; *Rodin* retains no symmetry axis; *On the House Boat—“The Log Cabin”* retains no reflected shore; Duse remains labeled three-quarter rather than profile; Strauss uses a face ellipse; and the Brancusi annotations identify horizontal plinth/platform edges. All seven re-resolved overlays and the seven overlays revised in this round were rendered, visually inspected, and scored 100/100. `scripts/check.sh` passes, and `content/edward-steichen/chapter.mdx` remains byte-identical to `src/chapters/edward-steichen.mdx`.
+
+## Critique round — 2026-07-17
+
+### Required fixes
+
+1. **05-in-memoriam — unsupported threshold claim has returned in prose.** The current proof and overlay truthfully isolate a `BOWED FIGURE` against a large dark surround; they do not show a distinct architectural threshold. Yet the plate caption says the figure “descends through a dark threshold,” and `sources.md` calls it “the opening of a dark architectural threshold.” This reopens the 2026-07-17 Builder resolution, item 4, which stated that the chapter no longer claimed a threshold. Remove or qualify both claims so the prose stays with the visible figure/ground relationship.
+
+### Advisory (non-blocking)
+
+None.
