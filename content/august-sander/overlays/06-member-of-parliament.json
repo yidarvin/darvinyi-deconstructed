@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.43, "cy": 0.18, "rx": 0.19, "ry": 0.12, "label": "HEAD AND HAT" },
     { "type": "polyline", "points": [[0.68, 0.14], [0.69, 0.39], [0.71, 0.65], [0.72, 0.81]], "label": "UMBRELLA" },
-    { "type": "frame_in_frame", "x": 0.08, "y": 0.02, "w": 0.84, "h": 0.93, "label": "CLOAKED FIGURE" }
+    { "type": "polyline", "points": [[0.57, 0.30], [0.68, 0.49], [0.81, 0.76], [0.90, 0.90]], "label": "CAPE EDGE" }
   ],
-  "notes": "The hat, face, cloak, and upright umbrella create a compact political silhouette against a light ground."
+  "notes": "The hat, face, cape edge, and upright umbrella create a compact political silhouette against a light ground."
 }

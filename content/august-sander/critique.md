@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -37,3 +37,13 @@ All ten specs score 100/100 in the deterministic scorer; the first four failures
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-17
+
+1. **04-police-officer — `UNIFORM SILHOUETTE`:** Replaced the imposed `frame_in_frame` with a vertical `FRONTAL AXIS` at x=0.5, which follows the photograph's genuinely frontal organization through cap, face, uniform closure, and body. The chapter now describes that compositional axis rather than a bracketed silhouette.
+2. **06-member-of-parliament — `CLOAKED FIGURE`:** Replaced the near-full-frame rectangle with a `CAPE EDGE` polyline that follows the visible outer fall of the cape. The chapter now names the cape-edge line alongside the head, umbrella, and cloak relation.
+3. **07-radio-secretary — `SEATED SILHOUETTE`:** Replaced the bounding rectangle with a `SHOULDER CONTOUR` polyline that follows the visible shoulder edge. The chapter now discusses the face, raised arm/hand, and shoulder contour, without treating the sitter as an internal frame.
+4. **10-young-woman — `RIGHT ARM`:** Trimmed the cross-body polyline to the one visible forearm and renamed it `FOREARM`; the caption and prose now say “bent forearm,” not “one long arm.”
+5. **sources.md:** Rewrote the six flagged visual descriptions directly from the supplied files: brick stack; doorway and step; hat, cloak, and umbrella; Dix's close profile; the two heads and shoulders; and the sleeveless seated woman with chair arm. MoMA links, credits, and per-image fair-use rationales are retained unchanged.
+
+Re-ran analyze → render → visual-review → score for 04, 06, 07, and 10. Each revised overlay scores 100/100 (threshold 80) and passed visual review. Re-verified required fixes from every prior critique round in `git log -p -- content/august-sander/critique.md`: the first 2026-07-17 round (02 `SHOULDER LINE`; 03 `LINKING ARM`; 03 `SHARED PORTRAIT FIELD`) and the current 2026-07-17 round. The earlier removals and replacement face annotations remain present and truthful; all ten current specs score 100/100. `scripts/check.sh` passes.

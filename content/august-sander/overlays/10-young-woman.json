@@ -4,8 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "ellipse", "cx": 0.38, "cy": 0.24, "rx": 0.16, "ry": 0.13, "label": "FACE" },
-    { "type": "polyline", "points": [[0.32, 0.42], [0.43, 0.60], [0.58, 0.67], [0.78, 0.69]], "label": "RIGHT ARM" },
+    { "type": "polyline", "points": [[0.43, 0.60], [0.62, 0.67], [0.78, 0.69]], "label": "FOREARM" },
     { "type": "polyline", "points": [[0.05, 0.74], [0.18, 0.69], [0.34, 0.75], [0.49, 0.96]], "label": "CHAIR CURVE" }
   ],
-  "notes": "The face is counterweighted by one long arm and the dark curve of the chair beneath the light dress."
+  "notes": "The face is counterweighted by a visible forearm and the dark curve of the chair beneath the light dress."
 }
