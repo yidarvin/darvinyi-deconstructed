@@ -49,7 +49,7 @@ real queue and state live in data/registry.json.
 | 38  | august-sander             | August Sander             | DONE    |
 | 39  | man-ray                   | Man Ray                   | PENDING |
 | 40  | andre-kertesz             | André Kertész             | PENDING |
-| 41  | jacques-henri-lartigue    | Jacques-Henri Lartigue    | PENDING |
+| 41  | jacques-henri-lartigue    | Jacques-Henri Lartigue    | DONE    |
 | 42  | dorothea-lange            | Dorothea Lange            | DONE    |
 | 43  | walker-evans              | Walker Evans              | DONE    |
 | 44  | gordon-parks              | Gordon Parks              | PENDING |

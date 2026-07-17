@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -26,3 +26,14 @@ verdict: resolved
 4. Replaced the Getty ULAN URL with its stable query form, verified HTTP 200.
 
 Re-verified critique history: 2026-07-17 (the sole prior critique round). All ten overlay specs score 100 at the ≥80 gate; both revised composites received a clean visual pass. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. The prior round's two material overlay findings remain resolved: `05-woman-fox-fur`'s five-point `CURVED DOG LEAD` follows the visible hand-to-dog leash, and `09-rowe-twins` no longer claims a false paired center. All ten current specs score 100 against their matching analyzer JSON, and the rendered proofs support their labels and 3-primitive teaching arguments.
+
+### Advisory (non-blocking)
+
+- `10-bibi-london`'s long `SHOPFRONT BREAK` annotation necessarily crosses visually quieter portions of the broad street band at the extreme left and right, but it still identifies the shallow, angled shopfront division named in the chapter; no reader-facing correction is required.
+- The Met and MoMA contextual pages rate-limited or blocked this review's automated requests, respectively. The chapter's ten image sources are nevertheless independently traceable through their linked Art Institute API records (all returned HTTP 200), and the Getty ULAN citation resolved successfully; this is not a source-integrity defect.
