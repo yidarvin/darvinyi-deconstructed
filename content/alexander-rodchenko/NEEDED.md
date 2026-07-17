@@ -86,3 +86,25 @@ and institutional routes already listed above.
 
 The archival scan route produced useful authorship evidence, but no qualifying
 openly reusable original. The unit remains at 0 / 4 and must stay `pending`.
+
+## 2026-07-16 direct public-API verification
+
+- **Wikimedia Commons MediaWiki API** — repeated file-namespace search for
+  `Alexander Rodchenko`. It still returns principally portraits **of** the
+  photographer, Still Art Foundation exhibition documentation, reconstructed
+  designs, and unrelated mentions. The Rodchenko-authored scan candidates remain
+  undersized: *Dance* (1915) is 429×700px and *Portrait of N. A. Rusakov*
+  (1912) is 594×800px. No candidate satisfies both the authored-work and 1200px
+  requirements.
+- **Met Collection API** — [*Asphalting a Street in Moscow* (object
+  283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  still reports `isPublicDomain: false` and has empty `primaryImage` and
+  `primaryImageSmall` values.
+- **Art Institute of Chicago API** — [*Vladimir Mayakovsky* (229011)](https://api.artic.edu/api/v1/artworks/229011)
+  still reports `is_public_domain: false`. Its image identifier was not used as
+  a reuse grant or downloaded.
+
+The public institutional routes checked in this recovery do not yield a lawful
+open master. The unit remains at **0 / 4** and stays `pending`; retry the
+explicitly licensed archive and institutional routes listed above on a later
+source invocation.

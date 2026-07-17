@@ -22,3 +22,7 @@ The artist died in 1956. The surviving canonical photographs are still represent
 ## Readiness
 
 0 / 4 required source files meet the legal and resolution requirements. Stage remains `pending`; no registry field was changed in this pass.
+
+## 2026-07-16 public-source verification
+
+A fresh public-API check did not change the readiness result. Commons file-namespace search for “Alexander Rodchenko” again returned principally portraits **of** Rodchenko, exhibition documentation, designs, and the two known Rodchenko-authored scans. The latter remain below the resolution floor: *Dance* (1915) is 429×700px and *Portrait of N. A. Rusakov* (1912) is 594×800px. The Met’s public API record for *Asphalting a Street in Moscow* (object 283286) still returns `isPublicDomain: false` and empty `primaryImage` fields; the Art Institute of Chicago API likewise marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. None is a lawful open master, so no raw file was added.
