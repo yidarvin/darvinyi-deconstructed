@@ -4,8 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.749, "angle": 0, "label": "NEAR CURB" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "AVENUE CORRIDOR" },
-    { "type": "polyline", "points": [[0.50, 0.75], [0.55, 0.60], [0.57, 0.42]], "label": "STREET DEPTH" }
+    { "type": "polyline", "points": [[0.50, 0.75], [0.52, 0.59], [0.54, 0.43]], "label": "AVENUE CORRIDOR" }
   ],
-  "notes": "The avenue is a deep corridor balanced between facade and park."
+  "notes": "The avenue corridor recedes between an unlike facade and park."
 }

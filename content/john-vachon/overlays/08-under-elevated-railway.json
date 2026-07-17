@@ -4,7 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "polyline", "points": [[0.31, 0.92], [0.52, 0.78], [0.70, 0.63], [0.76, 0.55]], "label": "CURVING TRACK" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "STREET OPENING" },
+    { "type": "polyline", "points": [[0.04, 0.27], [0.31, 0.27], [0.57, 0.25], [0.83, 0.29]], "label": "STREET OPENING" },
     { "type": "subject_anchor", "x": 0.383, "y": 0.533, "r": 0.04, "label": "PEDESTRIAN CLUSTER" }
   ],
   "notes": "Tracks, supports, and pedestrians turn the underpass into a layered stage."
