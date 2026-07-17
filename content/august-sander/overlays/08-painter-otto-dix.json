@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-painter-otto-dix.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.49, "cy": 0.37, "rx": 0.24, "ry": 0.23, "label": "PROFILE" },
+    { "type": "polyline", "points": [[0.29, 0.34], [0.25, 0.43], [0.30, 0.48], [0.28, 0.55], [0.39, 0.57]], "label": "PROFILE EDGE" },
+    { "type": "polyline", "points": [[0.34, 0.77], [0.48, 0.61], [0.69, 0.72]], "label": "JACKET LAPEL" }
+  ],
+  "notes": "The close profile is built from a clean facial edge and the opposing diagonal of the jacket lapel."
+}

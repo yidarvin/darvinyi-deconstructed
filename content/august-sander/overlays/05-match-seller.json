@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-match-seller.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.265, "cy": 0.285, "rx": 0.095, "ry": 0.115, "label": "SELLER'S FACE" },
+    { "type": "polyline", "points": [[0.0, 0.94], [0.34, 0.79], [0.61, 0.66], [0.87, 0.66]], "label": "STEP EDGE" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.00, "w": 0.59, "h": 0.85, "label": "SHADOWED NICHE" }
+  ],
+  "notes": "The seated seller occupies a dark niche while the step pushes the eye toward the open pavement."
+}

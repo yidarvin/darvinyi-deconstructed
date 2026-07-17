@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-police-officer.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.205, "rx": 0.17, "ry": 0.105, "label": "FACE AND CAP" },
+    { "type": "polyline", "points": [[0.28, 0.252], [0.39, 0.266], [0.50, 0.258], [0.62, 0.267], [0.72, 0.252]], "label": "MOUSTACHE" },
+    { "type": "frame_in_frame", "x": 0.12, "y": 0.04, "w": 0.76, "h": 0.88, "label": "UNIFORM SILHOUETTE" }
+  ],
+  "notes": "A blunt head-and-moustache accent sits inside the uninterrupted dark silhouette of the uniform."
+}
