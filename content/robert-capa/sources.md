@@ -1,8 +1,8 @@
 # Robert Capa — source shortlist
 
-Robert Capa's decisive compositional contribution is proximity under pressure: a picture is made from inside an event, where unstable horizons, obstructed sight lines, and bodies caught in motion become the structure rather than defects to correct. This set follows that method from Spain through North Africa, Italy, the Normandy landing, postwar Budapest, and Palestine. It contains eleven directly downloaded, publicly available Wikimedia Commons originals, verified to open locally; their long edges run from 640px to 4595px (the required floor is 640px).
+Robert Capa's decisive compositional contribution is proximity under pressure: a picture is made from inside an event, where unstable horizons, obstructed sight lines, and bodies caught in motion become the structure rather than defects to correct. This set follows that method from Spain through North Africa, Italy, the Normandy landing, postwar Budapest, and Palestine. It contains eleven directly downloaded, publicly available Wikimedia Commons hosted source files, verified to open locally; their long edges run from 640px to 4595px (the required floor is 640px).
 
-**Rights basis:** **open** for every selection. Each linked Commons file page marks the image **Public domain**; the D-Day files additionally carry Commons's `PD US not renewed` designation. Commons metadata identifies Robert Capa as author and preserves the respective supplying source/collection. Required credit is given per item below: Robert Capa, followed by the named source and Wikimedia Commons. This chapter should retain that credit and the source-page link wherever an image is displayed.
+**Rights basis:** selections 01–08 and 10–11 use the open routes documented below. The D-Day files additionally carry Commons's `PD US not renewed` designation. Commons metadata identifies Robert Capa as author and preserves the respective supplying source or collection. Selection 09 instead uses the documented fair-use route below because its Commons life-plus-70 rationale does not establish a U.S. public-domain route. Required credit is given per item below: Robert Capa, followed by the named source and Wikimedia Commons. This chapter should retain that credit and the source-page link wherever an image is displayed.
 
 ## Shortlist
 
@@ -15,14 +15,14 @@ Robert Capa's decisive compositional contribution is proximity under pressure: a
 
 ### 02 — American landing at Anzio (January 1944)
 
-- **Why it matters:** The landing craft's repeated ramps and packed bodies push the eye diagonally through the picture, turning a documentary crowd into a tightly paced field of overlapping forms.
+- **Why it matters:** A barrage balloon dominates the open upper field above a dark shore-and-water band. Its silhouette and the small figures below make the landing read through scale and tonal mass rather than through a crowded scene.
 - **Source:** [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Vue_3_-_Anzio._Janvier_1944._D%C3%A9barquement_des_troupes_am%C3%A9ricaines.jpg) (direct public file: https://upload.wikimedia.org/wikipedia/commons/8/80/Vue_3_-_Anzio._Janvier_1944._D%C3%A9barquement_des_troupes_am%C3%A9ricaines.jpg).
 - **Use basis — open:** Commons marks this 768 × 499 file Public domain and identifies Robert Capa; it preserves the BnF Gallica source record `CAR4404%W00002/15`. Credit: Robert Capa / BnF Gallica / Wikimedia Commons.
 - **File:** `raw/robert-capa/02-anzio-landing.jpg` (768px long edge).
 
 ### 03 — Briefing aboard the *Samuel Chase*, Weymouth (1–5 June 1944)
 
-- **Why it matters:** A standing officer, a tabletop model, and the soldiers' heads form a compact triangle; it shows Capa using an interior's limited space to choreograph attention before action begins.
+- **Why it matters:** Gathered heads and shoulders close around a map, while the map-table edges pull the interior toward one shared point of attention. The image shows Capa making a briefing's concentration visible without inventing a figure or object not present in the frame.
 - **Source:** [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Vue_5_-_Angleterre._Dorset._Weymouth._1-5_juin_1944._A_bord_du_Samuel_Chase.jpg) (direct public file: https://upload.wikimedia.org/wikipedia/commons/7/70/Vue_5_-_Angleterre._Dorset._Weymouth._1-5_juin_1944._A_bord_du_Samuel_Chase.jpg).
 - **Use basis — open:** Commons marks this 768 × 541 file Public domain and identifies Robert Capa; it preserves the BnF Gallica source record `CAR4404BW00002/X0`. Credit: Robert Capa / BnF Gallica / Wikimedia Commons.
 - **File:** `raw/robert-capa/03-samuel-chase-briefing.jpg` (768px long edge).
@@ -64,14 +64,14 @@ Robert Capa's decisive compositional contribution is proximity under pressure: a
 
 ### 09 — Rebuilding the Chain Bridge, Budapest (1948)
 
-- **Why it matters:** The vertical view stacks workers, masonry, and the bridge's fractured geometry into an upward reconstruction narrative, a quieter application of Capa's affinity for bodies amid unstable structures.
+- **Why it matters:** Workers lean over a suspended stone above the river while ropes, a platform, and the distant bridge create a layered reconstruction scene. It is a quieter application of Capa's affinity for bodies amid unstable structures.
 - **Source:** [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Robert_Capa_-_Rebuilding_the_Chain_Bridge,_1948.jpg) (direct public file: https://upload.wikimedia.org/wikipedia/commons/b/b1/Robert_Capa_-_Rebuilding_the_Chain_Bridge%2C_1948.jpg).
-- **Use basis — open:** Commons marks this 720 × 895 file Public domain and identifies Robert Capa (1913–1954); its metadata retains the supplied public Facebook record. Credit: Robert Capa / Wikimedia Commons.
+- **Use basis — fair-use:** Commons supplies a life-plus-70 public-domain rationale, but its file page says that U.S. public-domain status requires an applicable U.S. tag and supplies none. For this U.S.-based, nonprofit composition-criticism chapter, this 720 × 895 web reproduction is used transformatively to identify the photograph's visible organization of suspended stone, workers, ropes, platform, river, and bridge. The complete image is necessary because those relationships span the frame; a crop would defeat the lesson. The work is a published documentary photograph, and this small, credited in-chapter use does not substitute for a licensed print, high-resolution reproduction, or editorial licensing market. Credit/copyright notice: Robert Capa (1913–1954) / Wikimedia Commons, with the Commons record retaining a supplied public Facebook source.
 - **File:** `raw/robert-capa/09-chain-bridge-budapest.jpg` (895px long edge).
 
 ### 10 — *Altalena* on the Tel Aviv coast (1948)
 
-- **Why it matters:** The wrecked ship is isolated against a largely empty coast, making the off-center vessel and long shoreline a concise lesson in tension between a dense subject and surrounding negative space.
+- **Why it matters:** The ship's dark silhouette sits above a dense shore crowd, while people in the shallows and the crowd's rising edge make witness and scale inseparable from the vessel. The frame is a lesson in a large mass answering a collective one.
 - **Source:** [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:136610_the_ship_altalena_on_a_beach_on_the_tel_aviv_coast_PikiWiki_Israel.jpg) (direct public file: https://upload.wikimedia.org/wikipedia/commons/f/f6/136610_the_ship_altalena_on_a_beach_on_the_tel_aviv_coast_PikiWiki_Israel.jpg).
 - **Use basis — open:** Commons marks this 4032 × 3024 file Public domain, names Robert Capa, and preserves Shlomo Roded via the PikiWiki Israel free image collection as credit/source. Credit: Robert Capa / Shlomo Roded / PikiWiki Israel / Wikimedia Commons.
 - **File:** `raw/robert-capa/10-altalena-tel-aviv.jpg` (4032px long edge).
@@ -80,7 +80,7 @@ Robert Capa's decisive compositional contribution is proximity under pressure: a
 
 - **Why it matters:** The craft's hard rectangular edge and the sailors' close-packed figures create a strong foreground threshold, showing how Capa could make waiting feel spatially cramped before the landing itself.
 - **Source:** [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:War_landing_by_Robert_Capa.jpg) (direct public file: https://upload.wikimedia.org/wikipedia/commons/d/d7/War_landing_by_Robert_Capa.jpg; preserved source: [PhotosNormandie](https://www.photosnormandie.fr/)).
-- **Use basis — open:** Commons marks this 736 × 584 file Public domain and identifies Robert Capa; the metadata points to the PhotosNormandie/LC000965-PAR79257 identification. Credit: Robert Capa / PhotosNormandie / Wikimedia Commons.
+- **Use basis — open with hosted-scan license noted:** Commons identifies the underlying Robert Capa photograph as public domain and points to the PhotosNormandie/LC000965-PAR79257 identification. The hosted scan is separately marked **CC BY-SA 2.0** on its Commons record. Credit: Robert Capa / PhotosNormandie / Wikimedia Commons. Any reuse of this hosted scan must retain that attribution, link the CC BY-SA 2.0 license, indicate modifications, and distribute adaptations under the same license; this chapter uses the credited scan as the public source file.
 - **File:** `raw/robert-capa/11-weymouth-landing-craft.jpg` (736px long edge).
 
 ## Research context

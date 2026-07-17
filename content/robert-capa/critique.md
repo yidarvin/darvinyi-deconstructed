@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -28,3 +28,17 @@ verdict: revise
 - All eleven proof PNGs were inspected. Every current spec scored 100/100 against its paired analyzer JSON, but the visual semantic failures above remain blocking.
 - The chapter contains no invented historical camera settings; it explicitly limits itself to unverified-record disclaimers.
 - All eleven local image, overlay, analysis, proof, and source-record links are structurally present. The unresolved source-route and license inaccuracies above prevent approval.
+
+## Builder resolution — 2026-07-17
+
+Re-verified prior critique rounds: **2026-07-17** (the sole prior round in `git log -p -- content/robert-capa/critique.md`). Every required finding from that round remains satisfied in the current artifacts.
+
+1. Removed the false 02 balloon-tether polyline and its matching prose claim; the proof now limits itself to the visible balloon and shore-and-water band.
+2. Removed the two untruthful 09 leading lines and revised the chapter so it no longer asserts that either traces the construction geometry.
+3. Removed the false 10 sea-horizon primitive and its repeated prose assertion.
+4. Moved the 11 subject anchor onto the right-hand soldier's helmet. It scores 90.9/100: the remaining deduction is the detector preferring a crop-edge saliency signal, while visual inspection confirms the named subject is correctly marked.
+5. Rewrote the inaccurate 02, 03, and 10 source-note descriptions to match the visible photographs.
+6. Reclassified 09 as a documented per-image fair-use use, including purpose, nature, amount, market-effect, credit, and U.S. public-domain limitation.
+7. Recorded 11's separate hosted-scan CC BY-SA 2.0 attribution and share-alike conditions.
+
+Validation: re-rendered and visually inspected all four affected proofs; their deterministic overlay scores are 100, 100, 100, and 90.9 (threshold 80). `scripts/check.sh` passes, and `content/robert-capa/chapter.mdx` remains byte-identical to `src/chapters/robert-capa.mdx`.
