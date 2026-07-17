@@ -37,6 +37,31 @@ The unit remains at 0 / 4 qualifying files and stays `pending`. Continue with
 the lawful retry routes above on a future source pass; do not substitute images
 of the photographer, exhibition views, display photographs, or undersized scans.
 
+## 2026-07-16 institutional API recovery recheck
+
+- **Wikimedia Commons MediaWiki API** — searched file-namespace results and
+  the `Category:Photographs by Alexander Rodchenko` route. The authorial files
+  available through the public API remain undersized: *1915 Dance by
+  Rodchenko* is 429×700px and *Portrait of N. A. Rusakov* is 594×800px.
+  The 1200px-and-larger hits are portraits **of** Rodchenko, gallery and
+  exhibition photographs, labels, or reconstructed designs; none is a
+  Rodchenko-made photograph. No file was downloaded.
+- **Art Institute of Chicago public API** — checked the collection records for
+  [*Vladimir Mayakovsky* (1924, printed 1940s)](https://api.artic.edu/api/v1/artworks/229011),
+  [*Untitled (Composition with Compass and Ruler)* (1915)](https://api.artic.edu/api/v1/artworks/202405),
+  and [*Pole Vault (Pryzhok s shestom)* (1936)](https://api.artic.edu/api/v1/artworks/90859).
+  All identify Rodchenko as the maker but return `is_public_domain: false`.
+  The API image identifiers were therefore not treated as an open-download or
+  reuse grant, and no rendition was retrieved.
+- **Met Collection API** — rechecked *Asphalting a Street in Moscow* at
+  [object 283286](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286).
+  It remains `isPublicDomain: false` with empty `primaryImage` and
+  `primaryImageSmall` fields.
+
+This repeat recovery found no qualifying source. The unit remains at **0 / 4**
+and must stay `pending`; the next automated attempt should use the archival
+and institutional routes already listed above.
+
 ## 2026-07-16 archival-scan recovery recheck
 
 - **Internet Archive, *Ot Moskvy Kupecheskoy k Moskve
