@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-dream-street-pittsburgh.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.657, "y": 0.554, "r": 0.031, "label": "parked car" },
+    { "type": "frame_in_frame", "x": 0.451, "y": 0.413, "w": 0.142, "h": 0.058, "label": "dream sign" },
+    { "type": "polyline", "points": [[0.673, 0.679], [0.725, 0.604], [0.773, 0.550]], "label": "roadside diagonal" }
+  ],
+  "notes": "The sign, mail box, and tilted car set a quiet lane into a deliberate sequence."
+}

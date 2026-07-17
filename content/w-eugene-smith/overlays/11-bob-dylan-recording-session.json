@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-bob-dylan-recording-session.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.519, "y": 0.633, "r": 0.030, "label": "guitar body" },
+    { "type": "ellipse", "cx": 0.526, "cy": 0.560, "rx": 0.148, "ry": 0.286, "label": "dylan and guitar" },
+    { "type": "polyline", "points": [[0.563, 0.237], [0.563, 0.412], [0.548, 0.494]], "label": "hanging microphone" }
+  ],
+  "notes": "The microphone, face, and guitar establish a spare vertical recording-room portrait."
+}

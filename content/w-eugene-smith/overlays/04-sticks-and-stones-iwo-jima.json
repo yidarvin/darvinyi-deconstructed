@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-sticks-and-stones-iwo-jima.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.304, "y": 0.616, "r": 0.028, "label": "crouching marine" },
+    { "type": "ellipse", "cx": 0.472, "cy": 0.437, "rx": 0.145, "ry": 0.154, "label": "blast cloud" },
+    { "type": "polyline", "points": [[0.244, 0.690], [0.351, 0.622], [0.485, 0.592]], "label": "low line of bodies" }
+  ],
+  "notes": "Small crouching bodies are held under the blast's expanding, high-contrast mass."
+}

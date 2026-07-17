@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-welsh-miners.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.734, "y": 0.492, "r": 0.030, "label": "right-hand face" },
+    { "type": "ellipse", "cx": 0.550, "cy": 0.514, "rx": 0.248, "ry": 0.150, "label": "three-person cluster" },
+    { "type": "polyline", "points": [[0.334, 0.536], [0.523, 0.484], [0.706, 0.485]], "label": "turning faces" }
+  ],
+  "notes": "Three heads make a compressed, unequal rhythm against the mining landscape."
+}

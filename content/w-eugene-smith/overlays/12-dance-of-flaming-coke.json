@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-dance-of-flaming-coke.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.637, "y": 0.538, "r": 0.028, "label": "worker" },
+    { "type": "ellipse", "cx": 0.526, "cy": 0.505, "rx": 0.250, "ry": 0.181, "label": "furnace glare" },
+    { "type": "polyline", "points": [[0.364, 0.655], [0.516, 0.579], [0.685, 0.517]], "label": "rail and crossing" }
+  ],
+  "notes": "A worker crosses between rails and furnace glare, made small by industrial flame."
+}

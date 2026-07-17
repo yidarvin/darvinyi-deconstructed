@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-schweitzer-at-lamp.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.361, "y": 0.585, "r": 0.028, "label": "lamp" },
+    { "type": "ellipse", "cx": 0.374, "cy": 0.491, "rx": 0.164, "ry": 0.143, "label": "lamp glow" },
+    { "type": "polyline", "points": [[0.465, 0.492], [0.559, 0.548], [0.632, 0.625]], "label": "lit hands" }
+  ],
+  "notes": "The lamp creates a local island of illumination around head, hands, and worktable."
+}

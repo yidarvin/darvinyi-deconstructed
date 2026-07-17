@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-girl-at-flower-shop.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.636, "y": 0.647, "r": 0.029, "label": "girl in white" },
+    { "type": "ellipse", "cx": 0.633, "cy": 0.622, "rx": 0.105, "ry": 0.126, "label": "bright figure" },
+    { "type": "polyline", "points": [[0.313, 0.711], [0.472, 0.668], [0.616, 0.642]], "label": "curbside approach" }
+  ],
+  "notes": "A single bright figure becomes the temporary center of a crowded street stage."
+}
