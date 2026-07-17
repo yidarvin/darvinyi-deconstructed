@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-succulent.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.02, 0.78], [0.23, 0.72], [0.47, 0.55], [0.52, 0.36]], "label": "rising trunk" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.28, "rx": 0.16, "ry": 0.12, "label": "rosette crown" },
+    { "type": "polyline", "points": [[0.62, 0.33], [0.79, 0.50], [0.88, 0.72]], "label": "cascading cluster" }
+  ],
+  "notes": "An oblique trunk rises into an off-center crown and cropped cascades of leaves."
+}

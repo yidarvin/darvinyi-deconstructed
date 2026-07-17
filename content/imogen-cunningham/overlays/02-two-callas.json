@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-two-callas.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.345, "cy": 0.675, "rx": 0.135, "ry": 0.13, "label": "left flower throat" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.62, "rx": 0.16, "ry": 0.13, "label": "right flower throat" },
+    { "type": "polyline", "points": [[0.62, 0.10], [0.57, 0.31], [0.77, 0.57], [0.80, 0.70]], "label": "right curling rim" },
+    { "type": "polyline", "points": [[0.17, 0.24], [0.12, 0.49], [0.28, 0.76], [0.43, 0.85]], "label": "left curling rim" }
+  ],
+  "notes": "Two bright flower openings form an asymmetrical dialogue in the dark field."
+}

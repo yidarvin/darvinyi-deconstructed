@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-magnolia-blossom.jpg",
+    "width": 1600,
+    "height": 1268,
+    "sha1": "29d4d534",
+    "source": "01-magnolia-blossom.jpg",
+    "exif": {
+      "Make": "Epson",
+      "Model": "PerfectionV700"
+    }
+  },
+  {
+    "file": "02-two-callas.jpg",
+    "width": 1262,
+    "height": 1600,
+    "sha1": "bb8f73db",
+    "source": "02-two-callas.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-succulent.jpg",
+    "width": 1239,
+    "height": 1600,
+    "sha1": "6835a5a4",
+    "source": "03-succulent.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-water-hyacinth.jpg",
+    "width": 1178,
+    "height": 1600,
+    "sha1": "79449b33",
+    "source": "04-water-hyacinth.jpg",
+    "exif": {}
+  }
+]

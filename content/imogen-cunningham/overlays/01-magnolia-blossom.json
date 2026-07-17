@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-magnolia-blossom.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "near-bilateral petal field" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.515, "rx": 0.105, "ry": 0.155, "label": "central stamen" },
+    { "type": "polyline", "points": [[0.32, 0.08], [0.13, 0.48], [0.34, 0.84], [0.49, 0.69]], "label": "enclosing petal arc" }
+  ],
+  "notes": "Pale petals form a near-bilateral field that funnels attention to the dark stamen."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-water-hyacinth.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.51, 0.75], [0.51, 0.24]], "arrow": true, "label": "vertical stem" },
+    { "type": "polyline", "points": [[0.20, 0.60], [0.42, 0.72], [0.52, 0.81]], "label": "left folded leaf" },
+    { "type": "polyline", "points": [[0.78, 0.56], [0.63, 0.70], [0.52, 0.81]], "label": "right folded leaf" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.81, "rx": 0.10, "ry": 0.07, "label": "bract junction" }
+  ],
+  "notes": "A narrow vertical stem meets folded leaves and broad surrounding negative space."
+}
