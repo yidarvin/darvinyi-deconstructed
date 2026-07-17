@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-abstract-industrial-building.jpg",
+    "width": 1085,
+    "height": 1600,
+    "sha1": "5616463e",
+    "source": "01-abstract-industrial-building.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-metal-industrial-structure.jpg",
+    "width": 1034,
+    "height": 1600,
+    "sha1": "befe2cb7",
+    "source": "02-metal-industrial-structure.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-carnival-ride.jpg",
+    "width": 1146,
+    "height": 1600,
+    "sha1": "9f8c8c70",
+    "source": "03-carnival-ride.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-eiffel-tower.jpg",
+    "width": 1024,
+    "height": 1339,
+    "sha1": "84d23598",
+    "source": "04-eiffel-tower.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-peugeot-advertisement.jpg",
+    "width": 1173,
+    "height": 1599,
+    "sha1": "d43a9f0d",
+    "source": "05-peugeot-advertisement.jpg",
+    "exif": {}
+  }
+]

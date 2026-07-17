@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-carnival-ride.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.692, "y": 0.512, "label": "wheel-spoke convergence" },
+    { "type": "leading_line", "points": [[0.57, 0.354], [0.902, 0.591]], "arrow": true, "label": "upper wheel strut" },
+    { "type": "subject_anchor", "x": 0.543, "y": 0.569, "r": 0.04, "label": "central hub and rider" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.47, "rx": 0.47, "ry": 0.25, "label": "overlapping wheel orbit" }
+  ],
+  "notes": "Radial mechanics and cropped gondolas make a fairground ride feel like an industrial diagram."
+}

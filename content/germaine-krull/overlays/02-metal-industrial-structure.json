@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-metal-industrial-structure.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.248, "y": 0.492, "label": "crane-boom convergence" },
+    { "type": "leading_line", "points": [[0.384, 0.292], [0.555, 0.046]], "arrow": true, "label": "hanging boom edge" },
+    { "type": "subject_anchor", "x": 0.402, "y": 0.0, "r": 0.04, "label": "cropped boom head" },
+    { "type": "frame_in_frame", "x": 0.35, "y": 0.27, "w": 0.38, "h": 0.58, "label": "lattice bay" }
+  ],
+  "notes": "The crane is read as an interrupted lattice, its hanging load opening a large field of sky."
+}
