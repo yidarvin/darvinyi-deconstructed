@@ -462,3 +462,27 @@ the high-resolution Commons lead is documentary material rather than a source
 photograph. The set therefore remains **0 / 4**, with no raw download and no
 stage transition. Retry only an explicitly reusable, high-resolution original
 from a rights holder or open institutional collection.
+
+## 2026-07-16 bound-unit endpoint retry
+
+- **Wikimedia Commons image-info API** — live metadata confirms that the two
+  identified Rodchenko-authored, explicitly public-domain files remain
+  *Dance* (1915), **429 × 700px**, and *Portrait of N. A. Rusakov* (1912),
+  **594 × 800px**. Both fail the 1200px long-edge floor.
+- **Library of Congress P&P** — the publicly exposed *Portet materi* / *Mother*
+  service JPEG was followed through LOC’s public redirect and opens at
+  **507 × 640px**. The record’s `rights_information` remains “Rights status
+  not evaluated,” and the resource says larger images are available only at
+  the Library of Congress; it is neither an open master nor an eligible
+  fallback.
+- **Metropolitan Museum of Art and Art Institute of Chicago APIs** — the Met
+  record for *Asphalting a Street in Moscow* (283286) remains
+  `isPublicDomain: false` with no primary image, while AIC’s *Vladimir
+  Mayakovsky* (229011) remains `is_public_domain: false`. Neither image route
+  was used.
+
+No source meets both the stated reuse-rights and resolution requirements. The
+unit remains **0 / 4**, keeps its `pending` stage, and has no raw download. A
+future automated retry should check only for an explicitly reusable,
+high-resolution release from the Rodchenko/Stepanova Archive, MAMM, or another
+holding institution.

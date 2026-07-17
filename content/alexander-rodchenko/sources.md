@@ -27,6 +27,22 @@ The artist died in 1956. The surviving canonical photographs are still represent
 
 The public endpoints were queried again before closing this source unit. Commons still labels *Dance* (1915) public domain at **429 × 700px** and *Portrait of N. A. Rusakov* (1912) public domain at **594 × 800px**; neither reaches the 1200px long-edge floor. The Met API still marks *Asphalting a Street in Moscow* (283286) `isPublicDomain: false` with empty primary-image fields, while the Art Institute API still marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. An alternate Getty collection record (object [106HNF](https://www.getty.edu/art/collection/object/106HNF)) carries the RightsStatements.org `InC 1.0` label, so its IIIF delivery was not used. No qualifying original was downloaded.
 
+## 2026-07-16 verification — bound source unit
+
+A fresh check against the public source endpoints confirmed the shortlist cannot
+yet yield a qualifying ingest. Wikimedia Commons image-info metadata labels
+[*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg)
+and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg)
+public domain, but their original dimensions are respectively **429 × 700px**
+and **594 × 800px**. The LOC public record for *Portet materi* / *Mother*
+exposes a **507 × 640px** service JPEG, states “Rights status not evaluated,”
+and says larger images are available only at LOC. The Met API remains
+`isPublicDomain: false` with no primary image for *Asphalting a Street in
+Moscow* (283286); the Art Institute API likewise retains
+`is_public_domain: false` for *Vladimir Mayakovsky* (229011). No rendition was
+downloaded into `raw/`: none meets both the explicit reuse-rights and 1200px
+requirements.
+
 ## 2026-07-16 public-source verification
 
 A fresh public-API check did not change the readiness result. Commons file-namespace search for “Alexander Rodchenko” again returned principally portraits **of** Rodchenko, exhibition documentation, designs, and the two known Rodchenko-authored scans. The latter remain below the resolution floor: *Dance* (1915) is 429×700px and *Portrait of N. A. Rusakov* (1912) is 594×800px. The Met’s public API record for *Asphalting a Street in Moscow* (object 283286) still returns `isPublicDomain: false` and empty `primaryImage` fields; the Art Institute of Chicago API likewise marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. None is a lawful open master, so no raw file was added.
