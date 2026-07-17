@@ -55,7 +55,7 @@ real queue and state live in data/registry.json.
 | 44  | gordon-parks              | Gordon Parks              | PENDING |
 | 45  | arthur-rothstein          | Arthur Rothstein          | DONE    |
 | 46  | ben-shahn                 | Ben Shahn                 | DONE    |
-| 47  | russell-lee               | Russell Lee               | PENDING |
+| 47  | russell-lee               | Russell Lee               | DONE    |
 | 48  | marion-post-wolcott       | Marion Post Wolcott       | PENDING |
 | 49  | jack-delano               | Jack Delano               | PENDING |
 | 50  | john-vachon               | John Vachon               | PENDING |

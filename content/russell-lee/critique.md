@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -120,3 +120,19 @@ Re-verified the full critique history: the four previously resolved rounds and t
 For this round, replaced the Caudill portrait's false `frame_in_frame` fence-post claim with a polyline that follows the visible post, and redrew the Farm Bureau sign frame tightly around the physical sign. The chapter did not require a wording change and remains byte-identical with the rendered chapter.
 
 All twelve overlays score 100/100 against their current analysis JSON. The two revised proofs and the full twelve-proof set received a clean visual pass; `scripts/check.sh` passes.
+
+## Critique round — 2026-07-16
+
+### REQUIRED
+
+None.
+
+### Advisory (non-blocking)
+
+- **01-relief-line-commodities-san-antonio** — `SERVICE-WINDOW FIELD` remains a broad grouping rather than a precise, continuous internal-frame boundary; `WAITING LINE` is an implied queue direction rather than one contour. Both claims remain legible and materially truthful.
+- **02-mexican-mother-and-children-san-antonio** — `CHILDREN'S STACK` is visually busy, though it still identifies the clustered children.
+- **08-mother-teaching-children-transylvania** — the lower end of `TEACHING GESTURE` is slightly loose at the woman’s torso; the pointer, board, and teaching action remain clear.
+- **10-people-leaving-church-pie-town** — `CROWD SPILL` is an intentionally broad movement path rather than a literal shared contour.
+- **12-children-teacher-yakima-camp** — `CHILD` identifies the partly obscured middle child rather than the more prominent boy; the label is still defensible.
+
+All twelve current proofs were visually reviewed against their paired specs and analysis. The prior resolved findings remain resolved: no false symmetry, convergence, blackboard, doorway, fence-post, or sign-frame assertion has returned. Every spec contains three to five pedagogically useful primitives and scores 100/100 against its paired analysis JSON. Chapter tonal, palette, and coordinate claims are within tolerance, and the chapter, research notes, and source list do not invent historical camera or exposure settings. With no required issue remaining, this chapter is approved.
