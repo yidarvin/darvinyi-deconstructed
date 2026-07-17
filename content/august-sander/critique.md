@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -21,3 +21,19 @@ None.
 3. **03-proletarian-intellectuals — `SHARED PORTRAIT FIELD`:** Removed the blank-background `frame_in_frame`; the chapter now describes the two face annotations and makes no claim of an internal photographic frame or connecting contour.
 
 Re-ran the full analyze → render → visual-review → score loop for 02 and 03. Both revised specs score 100/100 (threshold 80) and passed visual review. Re-verified all prior required rounds from `git log -p -- content/august-sander/critique.md`: 2026-07-17 (the sole prior round); all three required fixes hold. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-17
+
+### Required
+
+1. **04-police-officer — `UNIFORM SILHOUETTE`:** The `frame_in_frame` rectangle is an imposed bounding bracket; it does not trace the uniform's irregular outer contour and there is no internal frame in the photograph. The label therefore makes a structural claim the primitive cannot support. Remove it or replace it with a primitive that traces a visible feature.
+2. **06-member-of-parliament — `CLOAKED FIGURE`:** The near-full-height `frame_in_frame` is likewise a bounding rectangle around the sitter, not a depicted internal frame. It does not trace the cloak silhouette. Remove or replace it with a primitive that follows visible geometry.
+3. **07-radio-secretary — `SEATED SILHOUETTE`:** The `frame_in_frame` only boxes the sitter; it is neither an internal photographic frame nor a trace of the seated silhouette. Remove or replace it with a truthful compositional annotation.
+4. **10-young-woman — `RIGHT ARM`:** The polyline begins on the image-left/anatomical-right arm but then crosses the torso and continues along the other forearm/dress area. It cannot truthfully label one arm or support the chapter's claim of “one long arm.” Redraw it as a single-arm contour or change the claimed feature and chapter text to match.
+5. **sources.md — mismatched visual descriptions:** Several “Why it matters” entries describe objects or framings absent from the supplied, linked images: **02-bricklayer** claims a hod, trowel, street, and low viewpoint; **05-match-seller** claims shop-window lettering and street depth; **06-member-of-parliament** claims a dark ground and cropped proximity; **08-painter-otto-dix** claims a narrow full body, brush, and vertical canvas; **09-otto-dix-and-martha** claims a domestic room; and **10-young-woman** claims a hat brim and coat. These are material false source notes for the selected files. Rewrite them from the current images while retaining the verified MoMA links, credits, and per-image fair-use rationales.
+
+All ten specs score 100/100 in the deterministic scorer; the first four failures are semantic visual errors in primitives that are bounds-checked rather than semantically scored. The prior round's three resolved findings in 02 and 03 remain resolved and are not reopened. The chapter itself contains no invented camera settings. The ten MoMA record URLs, credits, and per-image four-factor fair-use rationales remain present; direct automated requests received MoMA's 403 bot response, which is not evidence of an untraceable or restricted acquisition route.
+
+### Advisory (non-blocking)
+
+None.
