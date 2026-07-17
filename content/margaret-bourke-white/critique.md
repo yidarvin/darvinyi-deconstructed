@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -45,3 +45,9 @@ All twelve current proofs were visually reviewed against the current overlay spe
 ### Advisory (non-blocking)
 
 - None.
+
+## Builder resolution — 2026-07-17
+
+Resolved the required plate 04 caption correction. Both byte-identical chapter files now call the sloping overlay a doorway lintel, matching the rendered `DOOR-LINTEL DIAGONAL` and the photographed feature; the visual pass remains clean and the overlay scores 100/100.
+
+Full critique history re-verified: both 2026-07-17 rounds. I rechecked the first round's eight corrected overlay sets against their current specs and proofs: the false vanishing point, symmetry axes, tonal-split boundaries, fictive braces, and misidentified billboard anchor remain absent or correctly recast; all twelve overlays score 100/100. I also confirmed all twelve fair-use entries retain their per-image published/nature factor. The second round's only required caption correction now holds in both rendered chapter files.
