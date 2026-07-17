@@ -1,0 +1,34 @@
+[
+  {
+    "file": "01-pioneer-with-a-bugle.jpg",
+    "width": 1227,
+    "height": 1600,
+    "sha1": "e5a4350a",
+    "source": "01-pioneer-with-a-bugle.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-radio-listener.jpg",
+    "width": 750,
+    "height": 529,
+    "sha1": "23477ac9",
+    "source": "02-radio-listener.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-girl-with-a-leica.jpg",
+    "width": 550,
+    "height": 849,
+    "sha1": "94ac8311",
+    "source": "03-girl-with-a-leica.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-fire-escape.jpg",
+    "width": 550,
+    "height": 744,
+    "sha1": "b969b77c",
+    "source": "04-fire-escape.jpg",
+    "exif": {}
+  }
+]

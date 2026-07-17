@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "image": "02-radio-listener.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "leading_line",
+      "points": [[0.521, 0.062], [0.604, 0.42]],
+      "arrow": true,
+      "label": "SPEAKER RIM"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.72,
+      "cy": 0.30,
+      "rx": 0.24,
+      "ry": 0.31,
+      "label": "LOUDSPEAKER"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.03, 0.68], [0.29, 0.77], [0.58, 0.84], [0.89, 0.99]],
+      "label": "SLANTED TABLETOP"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.23, 0.23], [0.41, 0.31], [0.48, 0.48], [0.38, 0.60]],
+      "label": "LISTENER'S LEAN"
+    }
+  ],
+  "notes": "The listener, receiver, and loudspeaker lock together as intersecting mechanical and bodily diagonals."
+}
