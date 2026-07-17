@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -33,3 +33,14 @@ Re-verified critique history: 2026-07-17, the sole prior critique round.
 ### Advisory (non-blocking)
 
 None. All eleven current specs score 100/100 in the deterministic scorer; the remaining issue is semantic and visible only in the proof. The prior rail and mantel corrections remain visually truthful. The chapter's reported tonal measurements match the analyzer values within tolerance, it invents no camera settings, and all eleven LOC sources remain traceable open/public-domain records with the stated FSA/OWI credit.
+
+## Resolution — 2026-07-17
+
+Re-verified critique history: both 2026-07-17 critique rounds.
+
+1. `10-7th-street-saturday`: removed the unsupported `awning edge` polyline rather than asserting a replacement. The remaining central-exchange ellipse and shop-window frame are visually truthful in the regenerated proof; the scorer reports 100/100.
+2. Prior round: `06-ella-watson-walk-home` retains polylines on the left bed's top rail and the right bed's curved head rail; visually rechecked, score 100/100.
+3. Prior round: `07-ella-watson-dressing-grandchildren` retains the mantel-shelf polyline on the horizontal shelf above Watson's head; visually rechecked, score 100/100.
+4. Prior round: `10-7th-street-saturday` continues to omit the unsupported `foreground shoulder` polyline. The mirrored chapter remains byte-identical and its cropped-foreground language is still accurate.
+
+`scripts/check.sh` passed before this resolution was recorded.
