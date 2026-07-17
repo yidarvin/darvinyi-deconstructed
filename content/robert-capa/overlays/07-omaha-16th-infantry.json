@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-omaha-16th-infantry.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.241, "y": 0.464, "r": 0.035, "label": "left-hand advancing soldier" },
+    { "type": "polyline", "points": [[0.13, 0.50], [0.35, 0.48], [0.58, 0.43], [0.80, 0.39]], "label": "staggered advance" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.54, "rx": 0.39, "ry": 0.22, "label": "men moving through the shallows" }
+  ],
+  "notes": "A staggered procession carries direction through water without a stable horizon."
+}

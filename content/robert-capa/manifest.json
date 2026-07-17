@@ -1,0 +1,99 @@
+[
+  {
+    "file": "01-hemingway-spanish-front.jpg",
+    "width": 640,
+    "height": 480,
+    "sha1": "c8303d54",
+    "source": "01-hemingway-spanish-front.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-anzio-landing.jpg",
+    "width": 768,
+    "height": 499,
+    "sha1": "32f31622",
+    "source": "02-anzio-landing.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-samuel-chase-briefing.jpg",
+    "width": 768,
+    "height": 541,
+    "sha1": "cfb76ed9",
+    "source": "03-samuel-chase-briefing.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-face-in-the-surf.jpg",
+    "width": 1600,
+    "height": 1060,
+    "sha1": "ee4a3d19",
+    "source": "04-face-in-the-surf.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-omaha-crawling-ashore.jpg",
+    "width": 698,
+    "height": 458,
+    "sha1": "e5f23f6d",
+    "source": "05-omaha-crawling-ashore.png",
+    "exif": {}
+  },
+  {
+    "file": "06-omaha-water-obstacles.jpg",
+    "width": 696,
+    "height": 468,
+    "sha1": "b0750b8f",
+    "source": "06-omaha-water-obstacles.png",
+    "exif": {}
+  },
+  {
+    "file": "07-omaha-16th-infantry.jpg",
+    "width": 696,
+    "height": 483,
+    "sha1": "a14da4f3",
+    "source": "07-omaha-16th-infantry.png",
+    "exif": {}
+  },
+  {
+    "file": "08-us-generals-north-africa.jpg",
+    "width": 758,
+    "height": 604,
+    "sha1": "6db21144",
+    "source": "08-us-generals-north-africa.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-chain-bridge-budapest.jpg",
+    "width": 720,
+    "height": 895,
+    "sha1": "39d92fcd",
+    "source": "09-chain-bridge-budapest.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-altalena-tel-aviv.jpg",
+    "width": 1600,
+    "height": 1200,
+    "sha1": "4416f47b",
+    "source": "10-altalena-tel-aviv.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 16 Pro Max",
+      "DateTimeOriginal": "2025:08:25 11:33:51",
+      "FocalLength": "6.764999865652793",
+      "ExposureTime": "0.007575757575757576",
+      "FNumber": "1.7799999713880652",
+      "ISOSpeedRatings": "50",
+      "LensModel": "iPhone 16 Pro Max back triple camera 6.765mm f/1.78"
+    }
+  },
+  {
+    "file": "11-weymouth-landing-craft.jpg",
+    "width": 736,
+    "height": 584,
+    "sha1": "9fe3b4ea",
+    "source": "11-weymouth-landing-craft.jpg",
+    "exif": {}
+  }
+]

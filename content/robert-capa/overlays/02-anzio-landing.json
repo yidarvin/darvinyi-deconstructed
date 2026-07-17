@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-anzio-landing.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.671, "angle": 0, "label": "shore and water band" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.31, "rx": 0.22, "ry": 0.31, "label": "barrage balloon" },
+    { "type": "polyline", "points": [[0.42, 0.56], [0.42, 0.45], [0.40, 0.30]], "label": "balloon tether" }
+  ],
+  "notes": "A huge dark balloon turns a low landing shore into a staged silhouette."
+}

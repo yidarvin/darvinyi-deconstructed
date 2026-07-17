@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-omaha-water-obstacles.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.497, "angle": 1, "label": "obstacle and surf band" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.56, "rx": 0.45, "ry": 0.16, "label": "field of water obstacles" },
+    { "type": "polyline", "points": [[0.05, 0.67], [0.38, 0.56], [0.72, 0.53], [0.97, 0.50]], "label": "line of water obstacles" }
+  ],
+  "notes": "Low water and angled barriers make every crossing a visible obstruction."
+}

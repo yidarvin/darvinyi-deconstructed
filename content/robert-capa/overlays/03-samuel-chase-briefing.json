@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-samuel-chase-briefing.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.459, "y": 0.619, "label": "map-table convergence" },
+    { "type": "horizon_line", "y": 0.797, "angle": 0, "label": "table's near edge" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.50, "rx": 0.33, "ry": 0.30, "label": "heads gathered over the plan" }
+  ],
+  "notes": "The table fixes a ring of bent heads into one concentrated interior."
+}

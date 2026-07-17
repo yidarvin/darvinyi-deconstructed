@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-chain-bridge-budapest.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.392, "y": 0.412, "label": "bridge-work convergence" },
+    { "type": "leading_line", "points": [[0.057, 0.832], [0.317, 0.384]], "arrow": true, "label": "left crane boom" },
+    { "type": "leading_line", "points": [[0.0, 0.727], [0.347, 0.457]], "arrow": true, "label": "left platform edge" },
+    { "type": "ellipse", "cx": 0.61, "cy": 0.62, "rx": 0.23, "ry": 0.22, "label": "workers and suspended block" }
+  ],
+  "notes": "Cranes, ropes, and platforms pull reconstruction work toward a compact crossing point."
+}

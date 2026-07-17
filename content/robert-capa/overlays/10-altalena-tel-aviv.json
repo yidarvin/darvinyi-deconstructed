@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-altalena-tel-aviv.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.237, "angle": 0, "label": "sea horizon" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.29, "rx": 0.37, "ry": 0.18, "label": "beached Altalena" },
+    { "type": "polyline", "points": [[0.10, 0.63], [0.35, 0.70], [0.60, 0.76], [0.91, 0.82]], "label": "crowd's shoreline edge" }
+  ],
+  "notes": "The ship's dark mass holds above a dense, rising shore crowd."
+}

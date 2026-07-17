@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-face-in-the-surf.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.414, "angle": -3.1, "label": "tilted surf horizon" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.75, "rx": 0.16, "ry": 0.12, "label": "soldier's head and shoulders" },
+    { "type": "polyline", "points": [[0.29, 0.77], [0.46, 0.75], [0.62, 0.77]], "label": "body emerging from surf" }
+  ],
+  "notes": "The waterline slips while the half-submerged soldier struggles to remain legible."
+}

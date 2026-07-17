@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-hemingway-spanish-front.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.14, "angle": 0, "label": "distant ridge" },
+    { "type": "polyline", "points": [[0.35, 0.55], [0.57, 0.39], [0.91, 0.02]], "label": "rifle's rising diagonal" },
+    { "type": "ellipse", "cx": 0.30, "cy": 0.37, "rx": 0.18, "ry": 0.20, "label": "Hemingway's bent figure" }
+  ],
+  "notes": "The rifle's diagonal pulls a prone figure through low, rough foreground toward an exposed ridge."
+}
