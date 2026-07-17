@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -9,3 +9,13 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All five rendered overlays have 3–4 teaching primitives, score at least 94/100 against their current analyses, and pass the visual check. The 01 scorer’s detector-only warning on the overhead-beam line is not a finding: the line visibly follows the named beam.
+
+## Resolution — 2026-07-17
+
+Applied required fix 1. `sources.md` and `research.md` now record the five
+verified Bruce Silverstein print-object descriptions: gelatin silver mounted to
+board (01), gelatin silver mounted to card (02), gelatin silver (03), ferrotype
+gelatin silver (04), and gelatin silver mounted on original blue cardboard
+(05). The chapter callout now distinguishes this documented print information
+from still-undocumented negative and camera/exposure details. Re-verified all
+required fixes from prior critique round 2026-07-17 (the only prior round).

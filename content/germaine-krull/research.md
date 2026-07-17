@@ -19,12 +19,20 @@ and commercial imagery. [Source notes](sources.md)
 
 ## Technique and printing
 
-The available project source records establish dates, subjects, ownership, and
-public display records for these images, but do not identify a negative process
-or print process for any of the five individual works. This chapter therefore
-does not call them gelatin silver, photogravure, or any other process. It
-describes the visible effects—cropped steel, silhouette, lattice, and reflected
-lettering—rather than assigning an undocumented material technique.
+Bruce Silverstein's individual work records document the following print
+objects: *Untitled (Abstract Industrial Building)* is a gelatin silver print
+mounted to board, printed c. 1925; *Untitled (from Métal)* is a gelatin silver
+print mounted to card, printed c. 1925–28; and *Carnival Ride* is a gelatin
+silver print, printed c. 1928. The record for *The Eiffel Tower* identifies a
+ferrotype gelatin silver print, printed c. 1928; *Advertisement for the Six
+Peugeot 12-cylinder* is a gelatin silver print mounted on original blue
+cardboard, printed c. 1930. [Source notes](sources.md)
+
+These records establish the listed print processes and supports, but not the
+negative process or a camera/lens/exposure record. The chapter can therefore
+name the documented gelatin-silver and ferrotype objects while keeping its
+description of the photographs' visible effects—cropped steel, silhouette,
+lattice, and reflected lettering—separate from unrecorded capture details.
 
 ## Camera information
 
