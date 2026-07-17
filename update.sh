@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Idempotent Codex takeover updater. It preserves the checked-in queue and prompts,
-# applies the two historically honest short-chapter thresholds, then proves the
-# operational contract cannot regress to the retired runner.
+# Idempotent Codex pipeline updater. It preserves the checked-in queue and prompts,
+# including the open-first/documented-fair-use sourcing policy and its 640px normal
+# image floor, applies the two historically honest short-chapter thresholds, then
+# proves the operational contract cannot regress to the retired runner.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

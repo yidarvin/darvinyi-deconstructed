@@ -19,24 +19,43 @@ provide an asset.
    registry `note` and `source` fields are starting hints). Favor images that
    are compositionally canonical and available at good resolution.
 2. Write content/<slug>/sources.md: the shortlist with title/date, one line on
-   why each image matters compositionally, the best source URL, and its
-   rights basis.
-3. For every shortlisted image downloadable from an open institutional source
-   (Library of Congress, Gallica/BnF, Getty Open Content, Wikimedia Commons,
-   Rijksmuseum and similar open-access collections): download the
-   highest-resolution version into raw/<slug>/ as NN-short-title.jpg. Verify
-   each file opens and its long edge is >= 1200px; find a better copy if not.
-   Never bypass logins, paywalls, or download protections. For an underfilled
-   sourced set, exhaust lawful automatic recovery before recording a miss:
-   query the holding institution's metadata/API and IIIF services, try alternate
-   open institutions and Commons mirrors, and use browser automation only on a
-   public page that explicitly permits reuse. A screen capture is allowed only
-   from such a page, only when no downloadable rendition exists, and only if it
-   meets the 1200px long-edge floor; document that capture and its rights basis.
-   Never generate or retouch a substitute historical photograph. Record each
-   remaining miss in content/<slug>/NEEDED.md with attempts and next retry
-   route, then continue the automated queue.
-4. Aim for 10-12 images when the open historical record supports them. The
+   why each image matters compositionally, the best source URL, and a per-image
+   use basis of `open` or `fair-use`.
+   - `open`: record the public-domain statement or licence and required credit.
+   - `fair-use`: record the creator/rightsholder notice when known and a concise
+     four-factor rationale: this book uses the image for criticism, scholarship,
+     and transformative composition teaching; the chapter needs the complete
+     frame to analyze composition; the copy is only web-sized; and the page links
+     to, credits, and does not replace the museum record, original, or licensed
+     reproduction. Treat this as a per-image assessment, not an automatic result
+     of the project's educational purpose.
+3. Acquire every selected image. Prefer public-domain/open-licence institutional
+   sources (Library of Congress, Gallica/BnF, Getty Open Content, Wikimedia
+   Commons, Rijksmuseum, and similar collections) and their best public files.
+   When no adequate open rendition exists for a canonical work, use the
+   documented fair-use fallback: retrieve a publicly accessible institutional or
+   otherwise authoritative display image without bypassing a login, paywall,
+   robots/access restriction, hotlink protection, or technical access control.
+   Prefer a direct public image response. If no public file rendition exists, a
+   browser screen capture of the publicly visible image is allowed; crop away UI
+   without altering the photograph and document that it is a capture.
+
+   Save each file into raw/<slug>/ as NN-short-title.jpg and verify that it opens.
+   The normal quality floor is 640px on the long edge. Find a better public copy
+   when available, but do not reject a usable image merely because it is below
+   the retired 1200px floor. A rare, compositionally essential image may be
+   480-639px only when its subject and compositional structure remain legible;
+   record the exception in sources.md. Never upscale merely to satisfy a number.
+   Never generate, materially retouch, or substitute a historical photograph.
+
+   For an underfilled set, re-evaluate earlier NEEDED.md misses under this current
+   policy; do not repeat a retry whose only blockers were the retired open-only
+   or 1200px rules. Query institutional metadata/API and IIIF services, alternate
+   institutions, Commons mirrors, and public browser pages before recording a
+   genuine miss. Record remaining misses in content/<slug>/NEEDED.md with attempts
+   and next retry route, then continue the automated queue.
+4. Aim for 10-12 images when the historical record supports them, while limiting
+   fair-use selections to works that materially teach the chapter's argument. The
    readiness threshold is the registry's `minImages` value, default 4. Once the
    threshold is met, advance only this photographer with
    `python3 scripts/set_stage.py <slug> sourced`; never hand-edit a registry

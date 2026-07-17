@@ -245,6 +245,21 @@ grep -q 'Select exactly one' prompts/source.md || fail "source prompt is not one
 grep -q 'Select exactly one' prompts/build.md || fail "build prompt is not one-unit-per-call"
 grep -q 'Select exactly one' prompts/critique.md || fail "critique prompt is not one-unit-per-call"
 grep -q 'default 4' prompts/source.md || fail "source prompt does not honor default minImages=4"
+grep -q 'normal quality floor is 640px' prompts/source.md \
+  || fail "source prompt does not use the lowered 640px quality floor"
+grep -q '480-639px' prompts/source.md \
+  || fail "source prompt does not define the rare-image quality exception"
+grep -q 'four-factor rationale' prompts/source.md \
+  || fail "source prompt does not require a per-image fair-use rationale"
+grep -q 'not an automatic result' prompts/source.md \
+  || fail "source prompt incorrectly treats educational use as automatic fair use"
+grep -q 'do not reject it merely because it is copyrighted' prompts/critique.md \
+  || fail "critic can incorrectly reject a documented fair-use image"
+if grep -q '1200px long-edge floor' prompts/source.md; then
+  fail "source prompt still enforces the retired 1200px floor"
+fi
+grep -q 'Never bypass authentication' AGENTS.md \
+  || fail "source policy no longer forbids access-control bypasses"
 
 # launchd supplies only the system path. The full project gate must not depend
 # on Codex's bundled ripgrep binary being present there.

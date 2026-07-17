@@ -19,11 +19,15 @@ active wave at stage "built" whose critique.md is missing or marked
 `verdict: resolved`. Review that one unit, leave it uncommitted, then stop.
 1. LOOK at every proof PNG in content/<slug>/proofs/ with fresh eyes.
 2. Read the matching overlays/*.json, sources.md, research.md, chapter.mdx.
-3. Judge four things:
+3. Judge five things:
    a. Overlay truthfulness — each primitive traces the feature its label names.
    b. Pedagogy — 3-5 primitives that teach the composition, not an inventory.
    c. Chapter accuracy — prose claims match the specs and the visible images.
    d. Settings honesty — no invented camera data anywhere.
+   e. Source integrity — each image has a traceable source and accurate credit.
+      Any image marked `fair-use` has the concise per-image four-factor rationale
+      required by AGENTS.md; do not reject it merely because it is copyrighted or
+      below the retired 1200px floor.
 
 4. Classify every issue as REQUIRED or ADVISORY. Only REQUIRED issues block
    approval.
@@ -37,6 +41,9 @@ active wave at stage "built" whose critique.md is missing or marked
    - a prose numeric claim that disagrees with the analyzer JSON by more than
      the tolerance below AND changes the compositional reading;
    - invented camera settings or fabricated historical fact.
+   - a missing/untraceable source, materially false rights or credit statement,
+     undocumented fair-use selection, or evidence that acquisition bypassed an
+     authentication, paywall, or technical access control.
 
    ADVISORY (never blocks) — cosmetic, or within margin. Note it; do not gate:
    - a label/text box that clips a glyph edge, or a line that over- or
