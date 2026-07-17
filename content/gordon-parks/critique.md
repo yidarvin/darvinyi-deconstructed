@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -54,3 +54,14 @@ Re-verified critique history: both 2026-07-17 critique rounds.
 ### Advisory (non-blocking)
 
 None. All eleven current specs score 100/100 under the strict deterministic scorer, but that result does not supersede the visible semantic error above. The previously resolved `06` rails, `07` mantel shelf, and `10` removed primitives remain visually truthful. The chapter's reported tonal values match their analyzer JSON within tolerance; it states no camera settings. All eleven image records remain traceable to the cited LOC FSA/OWI public-domain records with the stated credit, and no fair-use rationale is required.
+
+## Resolution — 2026-07-17
+
+Re-verified critique history: all three 2026-07-17 critique rounds.
+
+1. `05-ella-watson-bible`: redrew the `right bed rail` polyline on the visible rounded metal head rail, from its lower-left rise through its crest and descending curve. The regenerated proof is visually clean and the scorer reports 100/100; the existing rail prose and caption remain supported.
+2. First prior round: `06-ella-watson-walk-home` retains the left bed's top-rail polyline and the right bed's curved-head-rail polyline; both were visually rechecked in the current proof and score 100/100.
+3. First prior round: `07-ella-watson-dressing-grandchildren` retains the `mantel shelf` polyline on the shelf above Watson's head; it was visually rechecked in the current proof and scores 100/100.
+4. First and second prior rounds: `10-7th-street-saturday` continues to omit both the unsupported `foreground shoulder` and `awning edge` polylines; the remaining ellipse and shop-window frame are visually truthful and score 100/100.
+
+The mirrored chapter files remain byte-identical. A final `scripts/check.sh` pass completed before this resolution was recorded.

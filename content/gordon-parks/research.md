@@ -10,7 +10,7 @@ These photographs belong to Gordon Parks's August 1942 study of Ella Watson, a W
 
 LOC identifies every source here as part of the Farm Security Administration/Office of War Information (FSA/OWI) Black-and-White Negatives collection. The image files are contemporary LOC JPEG derivatives of the cataloged records. Several preserve an archival border, caption strip, or negative-edge marking. Those visible features are evidence about the digitized archival object, not a reason to assign a particular paper, enlarger, or historical print finish to Parks.
 
-The source records establish a black-and-white federal-negative collection, but do not, for this set, document a per-frame camera model, lens, negative format, film stock, developer, darkroom workflow, or original print process. The chapter consequently describes tonal structure in the present scans and does not turn it into a claim about a historical print surface.
+The source records establish a black-and-white federal-negative collection, but do not consistently document a per-frame camera model, lens, negative format, film stock, developer, darkroom workflow, or fuller original-printing history. The *American Gothic* record identifies a gelatin-silver print; beyond that discrete catalog detail, the chapter describes tonal structure in the present scans and does not turn it into a claim about a historical print surface.
 
 ## Camera settings
 
