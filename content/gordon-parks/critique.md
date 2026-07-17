@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -13,3 +13,13 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All eleven specs score 100 in the deterministic overlay scorer, but that score does not supersede the visible semantic errors above. The remaining visible primitives read as their labels claim. The chapter's measured tonal values agree with the matching analyzer JSON within tolerance; it invents no camera settings. Each selected image has a direct LOC record/JPEG route, the stated FSA/OWI public-domain basis and credit are corroborated by the LOC records, and no fair-use rationale is required.
+
+## Resolution — 2026-07-17
+
+Re-verified critique history: 2026-07-17, the sole prior critique round.
+
+1. `06-ella-watson-walk-home`: both labelled polylines were redrawn on the visible left bed's top rail and the right bed's curved head rail. The rendered proof was visually checked and the scorer reports 100/100.
+2. `07-ella-watson-dressing-grandchildren`: the `mantel shelf` polyline now sits on the horizontal shelf above Watson's head. The chapter's stabilizing-horizontal claim remains supported; proof visually checked, score 100/100.
+3. `10-7th-street-saturday`: removed the unsupported `foreground shoulder` polyline and narrowed the matching chapter and plate-caption language to a cropped foreground figure. Proof visually checked, score 100/100.
+
+`scripts/check.sh` passed before this resolution was recorded. The mirrored chapter files remain byte-identical.

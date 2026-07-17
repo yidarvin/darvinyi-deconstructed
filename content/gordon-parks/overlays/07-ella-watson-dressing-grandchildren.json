@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.39, "cy": 0.53, "rx": 0.15, "ry": 0.25, "label": "Ella Watson" },
     { "type": "ellipse", "cx": 0.65, "cy": 0.56, "rx": 0.22, "ry": 0.24, "label": "grandchildren" },
-    { "type": "polyline", "points": [[0.28, 0.32], [0.50, 0.30], [0.66, 0.33]], "label": "mantel shelf" }
+    { "type": "polyline", "points": [[0.28, 0.15], [0.40, 0.15], [0.53, 0.15], [0.68, 0.15]], "label": "mantel shelf" }
   ],
   "notes": "Three bodies form a staggered domestic group, steadied by the chair, bed, and horizontal mantel above them."
 }

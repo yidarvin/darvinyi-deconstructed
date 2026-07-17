@@ -5,8 +5,8 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.64, "cy": 0.36, "rx": 0.08, "ry": 0.16, "label": "Ella Watson" },
     { "type": "frame_in_frame", "x": 0.56, "y": 0.17, "w": 0.25, "h": 0.45, "label": "doorway" },
-    { "type": "polyline", "points": [[0.08, 0.36], [0.40, 0.39], [0.55, 0.53]], "label": "left bed rail" },
-    { "type": "polyline", "points": [[0.72, 0.48], [0.82, 0.54], [0.95, 0.82]], "label": "right bed rail" }
+    { "type": "polyline", "points": [[0.19, 0.45], [0.30, 0.44], [0.41, 0.44], [0.50, 0.44]], "label": "left bed rail" },
+    { "type": "polyline", "points": [[0.70, 0.64], [0.76, 0.59], [0.82, 0.58], [0.89, 0.61], [0.95, 0.67]], "label": "right bed rail" }
   ],
   "notes": "Two beds form a corridor toward the doorway, where Watson's departing figure turns domestic space into a threshold."
 }
