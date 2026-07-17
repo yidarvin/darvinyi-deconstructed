@@ -5,6 +5,17 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
+# The parent runner deliberately supplies GIT_CONFIG_* command-line overrides
+# that block a stage agent from committing or publishing.  This regression
+# suite creates ordinary throwaway repositories first, then injects those
+# controls explicitly where it verifies them; inherited overrides would reject
+# the fixture baseline commits before that assertion can run.
+while IFS='=' read -r name _; do
+  case "$name" in
+    GIT_CONFIG_COUNT|GIT_CONFIG_KEY_[0-9]*|GIT_CONFIG_VALUE_[0-9]*) unset "$name" ;;
+  esac
+done < <(env)
+
 fail() {
   echo "PIPELINE TEST FAILED: $*" >&2
   exit 1
