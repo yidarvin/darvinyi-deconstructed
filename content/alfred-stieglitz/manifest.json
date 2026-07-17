@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-the-steerage.jpg",
+    "width": 1195,
+    "height": 1494,
+    "sha1": "1f795677",
+    "source": "01-the-steerage.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-winter-fifth-avenue.jpg",
+    "width": 1600,
+    "height": 1030,
+    "sha1": "42392e4b",
+    "source": "02-winter-fifth-avenue.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-the-hand-of-man.jpg",
+    "width": 1600,
+    "height": 1195,
+    "sha1": "12a40974",
+    "source": "03-the-hand-of-man.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-the-flatiron.jpg",
+    "width": 814,
+    "height": 1600,
+    "sha1": "f08cb783",
+    "source": "04-the-flatiron.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-spring-showers.jpg",
+    "width": 1600,
+    "height": 1112,
+    "sha1": "7d676e84",
+    "source": "05-spring-showers.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-reflections-night.jpg",
+    "width": 1081,
+    "height": 1600,
+    "sha1": "e9342a92",
+    "source": "06-reflections-night.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-street-design-for-a-poster.jpg",
+    "width": 1099,
+    "height": 1600,
+    "sha1": "0f1764dc",
+    "source": "07-the-street-design-for-a-poster.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-the-city-of-ambition.jpg",
+    "width": 1101,
+    "height": 1600,
+    "sha1": "638253a3",
+    "source": "08-the-city-of-ambition.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-old-and-new-new-york.jpg",
+    "width": 1182,
+    "height": 1600,
+    "sha1": "40d2571b",
+    "source": "09-old-and-new-new-york.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-a-snapshot-paris.jpg",
+    "width": 1134,
+    "height": 1600,
+    "sha1": "73cbbdb8",
+    "source": "10-a-snapshot-paris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-the-last-joke-bellagio.jpg",
+    "width": 1600,
+    "height": 1262,
+    "sha1": "4e30a885",
+    "source": "11-the-last-joke-bellagio.jpg",
+    "exif": {}
+  }
+]

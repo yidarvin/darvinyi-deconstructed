@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "07-the-street-design-for-a-poster.jpg",
+  "width": 1099,
+  "height": 1600,
+  "aspect": 0.6869,
+  "tonal": {
+    "mean": 0.7135892132457534,
+    "std": 0.09283906411564376,
+    "p05": 0.5294117647058824,
+    "p95": 0.8196078431372549,
+    "edge_density": 0.0009348884246088193
+  },
+  "palette": [
+    "#d3ccb4",
+    "#b9b7ab",
+    "#9e9b90",
+    "#aca99d",
+    "#87857c"
+  ],
+  "lines": [
+    {
+      "x1": 0.8307254623044097,
+      "y1": 0.6005859375,
+      "x2": 0.8307254623044097,
+      "y2": 0.248046875,
+      "angle_deg": -90.0,
+      "length": 0.2906394065308033,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.8321479374110953,
+      "y1": 0.7509765625,
+      "x2": 0.8321479374110953,
+      "y2": 0.5615234375,
+      "angle_deg": -90.0,
+      "length": 0.15618848993622114,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.829302987197724,
+      "y1": 0.2939453125,
+      "x2": 0.829302987197724,
+      "y2": 0.150390625,
+      "angle_deg": -90.0,
+      "length": 0.11834901041559026,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.16015625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.47652916073968704,
+      0.6474609375
+    ],
+    "regions": [
+      {
+        "cx": 0.5759620920783779,
+        "cy": 0.6499524813434365,
+        "x": 0.3669985775248933,
+        "y": 0.5439453125,
+        "w": 0.45803698435277385,
+        "h": 0.1962890625,
+        "area_frac": 0.04237142158605974
+      },
+      {
+        "cx": 0.8186213094989337,
+        "cy": 0.15863843658766133,
+        "x": 0.7539118065433855,
+        "y": 0.1142578125,
+        "w": 0.13086770981507823,
+        "h": 0.0908203125,
+        "area_frac": 0.009040496088193456
+      },
+      {
+        "cx": 0.6581870756876098,
+        "cy": 0.24442886951327808,
+        "x": 0.6116642958748222,
+        "y": 0.1806640625,
+        "w": 0.10668563300142248,
+        "h": 0.115234375,
+        "area_frac": 0.008212571123755334
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.908354378738123,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.945073849868037,
+    "horizontal_axis_y": 0.45
+  },
+  "subject_anchor": {
+    "x": 0.47652916073968704,
+    "y": 0.6474609375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.24970951044134468,
+    "phi": 0.33791595546838626,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.16,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.91,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.477,
+      "y": 0.647,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
