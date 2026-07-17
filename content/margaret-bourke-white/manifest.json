@@ -1,0 +1,106 @@
+[
+  {
+    "file": "01-workers-blow-off-steam.jpg",
+    "width": 1024,
+    "height": 744,
+    "sha1": "2d5adb78",
+    "source": "01-workers-blow-off-steam.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-wheeler-montana.jpg",
+    "width": 1024,
+    "height": 681,
+    "sha1": "067d4920",
+    "source": "02-wheeler-montana.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-new-deal-montana.jpg",
+    "width": 1024,
+    "height": 762,
+    "sha1": "0bafb9de",
+    "source": "03-new-deal-montana.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-no-beer-sold-to-indians.jpg",
+    "width": 1024,
+    "height": 763,
+    "sha1": "e8647020",
+    "source": "04-no-beer-sold-to-indians.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-lt-col-larkin.jpg",
+    "width": 757,
+    "height": 1024,
+    "sha1": "c8290f76",
+    "source": "05-lt-col-larkin.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-bar-x-montana.jpg",
+    "width": 1024,
+    "height": 716,
+    "sha1": "5025ae51",
+    "source": "06-bar-x-montana.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-steel-river-liner.jpg",
+    "width": 1024,
+    "height": 778,
+    "sha1": "48ebd3cc",
+    "source": "07-steel-river-liner.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-mrs-nelson-washing.jpg",
+    "width": 692,
+    "height": 1024,
+    "sha1": "4a9670a1",
+    "source": "08-mrs-nelson-washing.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-fort-peck-workers.jpg",
+    "width": 1024,
+    "height": 849,
+    "sha1": "12f55027",
+    "source": "09-fort-peck-workers.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-fort-peck-construction.jpg",
+    "width": 763,
+    "height": 1024,
+    "sha1": "dca43f30",
+    "source": "10-fort-peck-construction.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-mammoth-diversion-pipes.jpg",
+    "width": 1024,
+    "height": 777,
+    "sha1": "fd40b6a7",
+    "source": "11-mammoth-diversion-pipes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-louisville-flood.jpg",
+    "width": 843,
+    "height": 686,
+    "sha1": "a7a08538",
+    "source": "12-louisville-flood.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2012:02:06 09:57:39",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "50"
+    }
+  }
+]
