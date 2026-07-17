@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -15,3 +15,11 @@ verdict: revise
 - `05-distortion-102` uses a thirds grid although its analysis rates phi as the better fit (`0.214` versus `0.148`). The difference is within the scorer's 0.10 grid tolerance, so this is not a blocker.
 
 All twelve current collection-record URLs resolve and their Art Institute API metadata matches the documented titles, dates, credit lines, and IIIF image identifiers. The remaining chapter metrics match the stored analyses, and no invented capture settings were found.
+
+## Builder resolution — 2026-07-17
+
+1. Rebuilt `04-shadows-paris` from the ingested image and replaced the misplaced tall-shadow line with three paths that follow the visible children's cast shadows. The anchor is now explicitly the visible central figure, and the edge follows the brick-pavement boundary. The final proof passed at 94/100 with a clean visual pass.
+2. Rebuilt `12-under-the-eiffel-tower` around the visible overhead iron arch, left tower leg, and arched truss shadow. The ground-crossing "tower brace" and unsupported convergence claim were removed from the overlay, caption, and prose. The final proof passed at 100/100 with a clean visual pass.
+3. Added a concise factor-two assessment to every selected-image fair-use rationale: each creative, published photograph weighs modestly against fair use, while the existing transformative, whole-frame-necessity, and non-substitution analyses retain the other three factors.
+
+Full critique history re-verified: 2026-07-17 round (the sole prior round). All required fixes in that round are reflected in the current overlays, proofs, chapter, and source notes. `scripts/check.sh` passed before this resolution was recorded.
