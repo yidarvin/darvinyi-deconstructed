@@ -1,0 +1,15 @@
+verdict: revise
+
+## Critique round — 2026-07-17
+
+### Required
+
+1. **`06-ella-watson-walk-home` — both primitives labelled `left bed rail` and `right bed rail` trace the wrong features.** In the proof, the left polyline begins on the curtain/blank wall and crosses the wall before reaching the left bed; the right polyline begins over Watson/the doorway area and then crosses the bedding rather than following the right rail. These are not endpoint-margin errors: each makes the reader believe a non-existent rail route. Re-draw both polylines on the visible metal bed rails, or remove the claims and adjust the chapter/caption if the route can no longer be supported.
+
+2. **`07-ella-watson-dressing-grandchildren` — `mantel shelf` is materially misplaced.** The shelf is the horizontal structure near the top of the photographic field, above Watson's head. The labelled polyline at `y` about `0.32` instead passes through the heads/upper bodies of Watson and the children. Move it to the actual shelf or remove the primitive; the chapter's claim that the mantel supplies the stabilizing horizontal must match the corrected spec.
+
+3. **`10-7th-street-saturday` — `foreground shoulder` is not traced by its polyline.** Its first two points lie in the blank sky well above the cropped figure, and the path enters the figure only after leaving the claimed shoulder contour. This changes the stated framing lesson. Place the line on the foreground figure's visible shoulder/outer contour, or use a label that accurately names the feature the path follows.
+
+### Advisory (non-blocking)
+
+None. All eleven specs score 100 in the deterministic overlay scorer, but that score does not supersede the visible semantic errors above. The remaining visible primitives read as their labels claim. The chapter's measured tonal values agree with the matching analyzer JSON within tolerance; it invents no camera settings. Each selected image has a direct LOC record/JPEG route, the stated FSA/OWI public-domain basis and credit are corroborated by the LOC records, and no fair-use rationale is required.
