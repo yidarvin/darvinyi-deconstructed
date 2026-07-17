@@ -143,3 +143,14 @@ source invocation.
 This pass again found **0 / 4** qualifying files. The stage remains `pending`;
 a future source invocation should re-run the listed archival and institutional
 routes in case an expressly licensed, high-resolution release appears.
+
+## 2026-07-16 collection-route recovery recheck
+
+- **Science Museum Group Collection** — examined the public [portfolio of 21
+  Rodchenko photographs](https://collection.sciencemuseumgroup.org.uk/objects/co205135/portfolio-of-21-black-and-white-photographs-by-rodchenko), including its stated IIIF-manifest route. The collection object is a **1990** Moscow portfolio, printed from original plates. The site releases catalogue data under CC0, but explicitly credits the artwork images © The Board of Trustees of the Science Museum, London. Its data licence does not grant reuse of the portfolio’s image files, so no IIIF rendition was retrieved.
+- **Library of Congress Prints & Photographs** — rechecked the separately
+  catalogued 1924 [*Portet materi* / *Mother*](https://www.loc.gov/pictures/item/2002706148/), credited to Rodchenko and offered as a film-copy negative derivative. The public record offers a JPEG/TIFF derivative but says “Rights status not evaluated.” Because this is not an express public-domain or open-license basis for the photograph, it was not treated as a qualifying open master and was not downloaded.
+
+This additional recovery still yields **0 / 4** qualifying files. The stage
+must remain `pending`; retry only an explicit open licence or direct reuse grant
+from the Rodchenko/Stepanova Archive, MAMM, or another holding institution.
