@@ -240,3 +240,34 @@ This recovery again yields **0 / 4** qualifying files. The stage remains
 Rodchenko/Stepanova Archive, MAMM, or another institutional holder; do not
 infer reuse permission from catalogue metadata, a service thumbnail, or a
 digitized book scan.
+
+## 2026-07-16 institutional and public-API recovery (current invocation)
+
+- **Wikimedia Commons MediaWiki API** — repeated a file-namespace search and
+  requested original dimensions plus licence metadata. The only verified
+  Rodchenko-authored public-domain photographs remain [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg),
+  **429 × 700px**, and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg),
+  **594 × 800px**. Both are below the 1200px long-edge floor. Larger hits were
+  photographs of Rodchenko, exhibition documentation, or reconstructions, not
+  photographs made by him.
+- **Metropolitan Museum of Art API** — *[Asphalting a Street in Moscow]*
+  ([283286](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286))
+  remains `isPublicDomain: false` with blank `primaryImage` and
+  `primaryImageSmall` fields.
+- **Art Institute of Chicago API** — *[Vladimir Mayakovsky]*
+  ([229011](https://api.artic.edu/api/v1/artworks/229011)) remains
+  `is_public_domain: false`; its image identifier was not used as an image
+  source.
+- **Europeana public search API** — a direct cross-collection search returned
+  construction/design records marked `InC` or `InC-EDU`, not an openly licensed
+  photographic master by Rodchenko.
+- **Library of Congress P&P JSON** — the public [*Portet materi* / *Mother*
+  record](https://www.loc.gov/pictures/item/2002706148/?fo=json) again exposed
+  catalogue metadata and its resource handle only; it did not supply an
+  expressly open, high-resolution reproduction. No protected or
+  reading-room-only rendition was accessed.
+
+No file meets both the explicit reuse-rights requirement and the 1200px
+long-edge requirement. The set remains **0 / 4**, so `alexander-rodchenko`
+stays `pending`; no registry transition was made. Retry only an explicit open
+release from a rights holder or an institutional collection.
