@@ -45,7 +45,7 @@ real queue and state live in data/registry.json.
 | 34  | laszlo-moholy-nagy        | László Moholy-Nagy        | DONE    |
 | 35  | alexander-rodchenko       | Alexander Rodchenko       | DONE    |
 | 36  | germaine-krull            | Germaine Krull            | DONE    |
-| 37  | albert-renger-patzsch     | Albert Renger-Patzsch     | PENDING |
+| 37  | albert-renger-patzsch     | Albert Renger-Patzsch     | DONE    |
 | 38  | august-sander             | August Sander             | PENDING |
 | 39  | man-ray                   | Man Ray                   | PENDING |
 | 40  | andre-kertesz             | André Kertész             | PENDING |
