@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "polyline", "points": [[0.43, 0.35], [0.7, 0.41], [0.98, 0.48]], "label": "ROOF EAVE" },
     { "type": "polyline", "points": [[0.13, 0.64], [0.28, 0.64], [0.42, 0.63]], "label": "CHILDREN AT THE DOOR" },
-    { "type": "frame_in_frame", "x": 0.36, "y": 0.44, "w": 0.15, "h": 0.045, "label": "FARM BUREAU SIGN" }
+    { "type": "frame_in_frame", "x": 0.38, "y": 0.465, "w": 0.145, "h": 0.037, "label": "FARM BUREAU SIGN" }
   ],
   "notes": "A long roof eave, the Farm Bureau sign, and children at the door make an improvised civic building claim its ground."
 }

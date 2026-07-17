@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-16
 
@@ -112,3 +112,11 @@ All twelve overlays score 100/100 against their current analysis JSON, each revi
 No new advisories. The prior advisory observations remain within tolerance or are interpretive but still legible; they do not block revision of the two required issues above.
 
 All twelve current proofs were visually reviewed against their overlay specs and analysis files. The surviving chapter numbers and geometry claims match the analyzer within tolerance, and the chapter, research notes, and source list do not invent historical camera or exposure settings.
+
+## Builder resolution — 2026-07-16
+
+Re-verified the full critique history: the four previously resolved rounds and this current round, all dated **2026-07-16**, including every required item. The resolved removals of false symmetry and convergence claims remain in place, as do the repaired guitar neck, lesson board, schoolroom windows and desk, church doorway, Yakima arm, Chicago grille centerline, source descriptions, and tonal-comparison wording. Each current spec retains three to five truthful teaching claims without restoring the rejected blackboard, road, fence-break, or broad-building-frame assertions.
+
+For this round, replaced the Caudill portrait's false `frame_in_frame` fence-post claim with a polyline that follows the visible post, and redrew the Farm Bureau sign frame tightly around the physical sign. The chapter did not require a wording change and remains byte-identical with the rendered chapter.
+
+All twelve overlays score 100/100 against their current analysis JSON. The two revised proofs and the full twelve-proof set received a clean visual pass; `scripts/check.sh` passes.
