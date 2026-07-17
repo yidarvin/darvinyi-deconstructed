@@ -365,3 +365,31 @@ long-edge floor. `alexander-rodchenko` remains at **0 / 4** files and stays
 The unit is still **0 / 4** and remains `pending`. Continue only with an
 expressly licensed high-resolution release from a rights holder or an open
 institutional collection; do not use the LOC derivative as a substitute.
+
+## 2026-07-16 current public-endpoint retry
+
+- **Wikimedia Commons image-info API** — verified the original dimensions and
+  licence metadata for [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg)
+  and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg).
+  Both have an explicit Public Domain label, but their originals are only
+  **429 × 700px** and **594 × 800px**, respectively. They remain below the
+  1200px long-edge floor and were not downloaded.
+- **Metropolitan Museum of Art API** — [*Asphalting a Street in Moscow*
+  (283286)](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286)
+  remains `isPublicDomain: false`, with empty `primaryImage` and
+  `primaryImageSmall` fields. No image endpoint was used.
+- **Art Institute of Chicago API** — [*Vladimir Mayakovsky*
+  (229011)](https://api.artic.edu/api/v1/artworks/229011) remains
+  `is_public_domain: false`; its image identifier was not treated as a reuse
+  grant or downloaded.
+- **Library of Congress P&P** — the public JSON for [*Portet materi* / *Mother*
+  (cph.3b25450)](https://www.loc.gov/pictures/item/2002706148/?fo=json) still
+  states “Larger images are only available at the Library of Congress.” The
+  exposed service JPEG was opened only to measure it at **119 × 150px**; the
+  record provides neither an open master nor an express reuse basis.
+
+This retry leaves the source set at **0 / 4**. Keep the registry at `pending`.
+The next automated pass should retry the Rodchenko/Stepanova Archive or MAMM
+only if either publishes an explicitly reusable high-resolution rendition; do
+not substitute documentary images, gallery views, restricted collection files,
+or undersized public-domain scans.
