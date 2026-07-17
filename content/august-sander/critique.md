@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -47,3 +47,15 @@ None.
 5. **sources.md:** Rewrote the six flagged visual descriptions directly from the supplied files: brick stack; doorway and step; hat, cloak, and umbrella; Dix's close profile; the two heads and shoulders; and the sleeveless seated woman with chair arm. MoMA links, credits, and per-image fair-use rationales are retained unchanged.
 
 Re-ran analyze → render → visual-review → score for 04, 06, 07, and 10. Each revised overlay scores 100/100 (threshold 80) and passed visual review. Re-verified required fixes from every prior critique round in `git log -p -- content/august-sander/critique.md`: the first 2026-07-17 round (02 `SHOULDER LINE`; 03 `LINKING ARM`; 03 `SHARED PORTRAIT FIELD`) and the current 2026-07-17 round. The earlier removals and replacement face annotations remain present and truthful; all ten current specs score 100/100. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None.
+
+Every current proof was visually checked against its overlay spec and the matching source image. The earlier resolved removals in 02 and 03 remain absent, while 04's frontal axis, 06's cape-edge line, 07's shoulder contour, and 10's forearm line trace the named visible features. The source notes' descriptions agree with the supplied images; each of the ten files has a MoMA object-record link, the stated August Sander / archive / ARS credit, and an image-specific concise four-factor fair-use rationale. Direct public requests to the object records return MoMA's bot-facing 403 response, which is not evidence of a missing source or restricted acquisition. Chapter tonal claims agree with the current analyzer values within tolerance, and its explicit settings section correctly declines to infer undocumented camera data.
+
+### Advisory (non-blocking)
+
+None.
