@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-colored-drinking-fountain.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.06, 0.74], [0.39, 0.70], [0.52, 0.58]], "label": "PAVEMENT EDGE" },
+    { "type": "frame_in_frame", "x": 0.30, "y": 0.27, "w": 0.21, "h": 0.10, "label": "SEGREGATION SIGN" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.56, "rx": 0.07, "ry": 0.16, "label": "WOMAN AND FOUNTAIN" }
+  ],
+  "notes": "A sign, a person, and a pavement diagonal make imposed separation unmistakably legible."
+}

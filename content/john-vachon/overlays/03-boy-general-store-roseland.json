@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-boy-general-store-roseland.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.782, "angle": 3.0, "label": "PORCH EDGE" },
+    { "type": "frame_in_frame", "x": 0.33, "y": 0.24, "w": 0.60, "h": 0.52, "label": "STORE FRONT" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.58, "rx": 0.10, "ry": 0.18, "label": "BOY" }
+  ],
+  "notes": "The seated boy is held inside an advertising-filled porch rectangle."
+}

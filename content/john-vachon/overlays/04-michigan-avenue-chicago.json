@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-michigan-avenue-chicago.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.749, "angle": 0, "label": "NEAR CURB" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "AVENUE CORRIDOR" },
+    { "type": "polyline", "points": [[0.50, 0.75], [0.55, 0.60], [0.57, 0.42]], "label": "STREET DEPTH" }
+  ],
+  "notes": "The avenue is a deep corridor balanced between facade and park."
+}

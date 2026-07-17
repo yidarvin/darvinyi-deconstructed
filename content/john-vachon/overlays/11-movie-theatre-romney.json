@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-movie-theatre-romney.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.647, "angle": 1.9, "label": "MARQUEE BAND" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "THEATRE CENTER" },
+    { "type": "frame_in_frame", "x": 0.28, "y": 0.64, "w": 0.46, "h": 0.25, "label": "ENTRANCE BAY" }
+  ],
+  "notes": "A centered facade turns marquee, poster, and entrance into a stack of rectangles."
+}

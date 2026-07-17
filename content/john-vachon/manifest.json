@@ -1,0 +1,142 @@
+[
+  {
+    "file": "01-greendale-wisconsin.jpg",
+    "width": 1600,
+    "height": 1192,
+    "sha1": "45733d9c",
+    "source": "01-greendale-wisconsin.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  },
+  {
+    "file": "02-bethlehem-steel-mill.jpg",
+    "width": 1600,
+    "height": 1208,
+    "sha1": "ef23d8ac",
+    "source": "02-bethlehem-steel-mill.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2019:10:02 15:47:32",
+      "ExposureTime": "0.025",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "03-boy-general-store-roseland.jpg",
+    "width": 1600,
+    "height": 1190,
+    "sha1": "686a7919",
+    "source": "03-boy-general-store-roseland.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301506   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "04-michigan-avenue-chicago.jpg",
+    "width": 1600,
+    "height": 1175,
+    "sha1": "7f113631",
+    "source": "04-michigan-avenue-chicago.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  },
+  {
+    "file": "05-colored-drinking-fountain.jpg",
+    "width": 1600,
+    "height": 1169,
+    "sha1": "7643338d",
+    "source": "05-colored-drinking-fountain.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  },
+  {
+    "file": "06-hobo-turtle-soup.jpg",
+    "width": 1184,
+    "height": 1600,
+    "sha1": "50336ac2",
+    "source": "06-hobo-turtle-soup.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  },
+  {
+    "file": "07-parking-lot-chicago.jpg",
+    "width": 1600,
+    "height": 1123,
+    "sha1": "23c33f82",
+    "source": "07-parking-lot-chicago.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "08-under-elevated-railway.jpg",
+    "width": 1600,
+    "height": 1115,
+    "sha1": "cec92a90",
+    "source": "08-under-elevated-railway.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  },
+  {
+    "file": "09-clothes-lines-privies-kempton.jpg",
+    "width": 1600,
+    "height": 1164,
+    "sha1": "9dc49445",
+    "source": "09-clothes-lines-privies-kempton.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  },
+  {
+    "file": "10-line-men-city-mission.jpg",
+    "width": 1600,
+    "height": 1216,
+    "sha1": "65f3604e",
+    "source": "10-line-men-city-mission.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2019:10:21 12:51:11",
+      "ExposureTime": "0.025",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "11-movie-theatre-romney.jpg",
+    "width": 1600,
+    "height": 1402,
+    "sha1": "1f6e8e48",
+    "source": "11-movie-theatre-romney.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301506   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "12-elkins-rail-yard.jpg",
+    "width": 1600,
+    "height": 1169,
+    "sha1": "331d9b3a",
+    "source": "12-elkins-rail-yard.jpg",
+    "exif": {
+      "Make": "Stokes",
+      "Model": "75"
+    }
+  }
+]

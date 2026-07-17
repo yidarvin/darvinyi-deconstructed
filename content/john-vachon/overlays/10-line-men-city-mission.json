@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-line-men-city-mission.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.465, "angle": 0, "label": "WALL RAIL" },
+    { "type": "polyline", "points": [[0.08, 0.67], [0.39, 0.59], [0.79, 0.50]], "label": "WAITING LINE" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.58, "rx": 0.16, "ry": 0.28, "label": "MIDDLE OF QUEUE" }
+  ],
+  "notes": "The queue and wall rail compress individual bodies into one social line."
+}

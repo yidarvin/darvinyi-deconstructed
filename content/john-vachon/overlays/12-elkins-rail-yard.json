@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-elkins-rail-yard.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.816, "angle": -5.1, "label": "TRACK BAND" },
+    { "type": "subject_anchor", "x": 0.633, "y": 0.662, "r": 0.05, "label": "LOCOMOTIVE" },
+    { "type": "frame_in_frame", "x": 0.60, "y": 0.50, "w": 0.32, "h": 0.30, "label": "ENGINE FIELD" }
+  ],
+  "notes": "A low rail band and a right-hand engine measure an open industrial yard."
+}

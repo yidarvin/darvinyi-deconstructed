@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-greendale-wisconsin.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.634, "angle": -4.9, "label": "STREET FALL" },
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.30, "w": 0.72, "h": 0.34, "label": "REPEATING HOUSES" },
+    { "type": "polyline", "points": [[0.05, 0.75], [0.44, 0.68], [0.76, 0.61]], "label": "CURB RHYTHM" }
+  ],
+  "notes": "A shallow descending street organizes a repeated planned-house rhythm."
+}

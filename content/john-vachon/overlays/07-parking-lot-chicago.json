@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-parking-lot-chicago.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.638, 0.584], [0.832, 0.216]], "arrow": true, "label": "PARKING ROW" },
+    { "type": "leading_line", "points": [[0.318, 0.429], [0.459, 0.206]], "arrow": true, "label": "RECEDING ROW" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.55, "rx": 0.42, "ry": 0.35, "label": "REPEATED CAR BODIES" }
+  ],
+  "notes": "Repeated car bodies turn diagonal parking rows into an all-over rhythm."
+}
