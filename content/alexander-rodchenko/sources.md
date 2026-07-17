@@ -1,82 +1,61 @@
 # Alexander Rodchenko — source shortlist and rights audit
 
-Rodchenko’s photographic breakthrough was to make the camera’s position an active structural force: views from far above or below, tilted horizons, and strong diagonal recession replace the conventional eye-level view. This is the canonical working shortlist for the chapter. It is deliberately **not** a sourced image set: no lawful, openly reusable rendition meeting the project’s 1200px long-edge floor was found in this pass. The repository’s `raw/alexander-rodchenko/` directory therefore remains empty; see `NEEDED.md` for the completed recovery log and retry routes.
+Rodchenko made viewpoint a structural device: low and high cameras, tilted axes,
+and aggressive recession turn ordinary figures and city infrastructure into
+Constructivist compositions. This source unit ingests four canonical photographs
+for criticism, scholarship, and composition teaching. Each file is a publicly
+accessible **web-sized fair-use** display rendition; none is represented as an
+openly licensed master.
 
-The artist died in 1956. The surviving canonical photographs are still represented by the Rodchenko/Stepanova rights estate in major museum records (for example MoMA’s *Mother* record carries a 2026 copyright notice), so a pre-1929 US-publication date alone is not enough to treat an online reproduction as an open source. Museum display images, thumbnail derivatives, and unlicensed commercial reproductions were not downloaded.
+## Ingested teaching set
 
-| # | Photograph | Why it matters compositionally | Best verified holding/source | Rights basis / retrieval result |
+| File | Photograph | Why it matters compositionally | Public display source | Credit / rights notice |
 | --- | --- | --- | --- | --- |
-| 01 | *Fire Escape* (1925) | A ladder makes a hard rising diagonal through the narrow vertical frame, reducing city architecture to a precarious line and repeated rungs. | [Library of Congress record](https://www.loc.gov/item/2010646250/) — *Alexandr Rodchenko Museum Series Portfolio* | LOC exposes only a 150px service derivative and states full online access is only available at LOC; the record is a 1994 portfolio reproduction, not an open master. |
-| 02 | *Mother* (1924) | A low, close viewpoint turns a domestic portrait into an enlarged facial mass and emphatic upward diagonal. | [MoMA object 56406](https://www.moma.org/collection/works/56406); [LOC film-copy record](https://www.loc.gov/pictures/item/2002706148/) | MoMA is rights-restricted (© 2026 Aleksandr Rodchenko / licensed by VAGA). LOC's public service derivative is only 507 × 640px and its Rights Advisory is “Rights status not evaluated”; neither is a qualifying open master. |
-| 03 | *Guard at the Shukhov Radio Tower, Moscow* (1929) | The lattice tower and figure organize the frame as an accelerating diagonal/vertical industrial scaffold. | [MoMA object 56403](https://www.moma.org/collection/works/56403) | Museum collection page, no reusable master download; MoMA directs publication licensing to its rights partners. |
-| 04 | *Asphalting a Street in Moscow* (1929) | A low, tilted view converts the paving machine, street edge, and shadows into rapidly receding diagonal bands. | [Met object 283286](https://www.metmuseum.org/art/collection/search/283286) | The Met record explicitly prevents enlargement, full-screen viewing, and download; its API marks the object `isPublicDomain: false`. |
-| 05 | *Pine Trees in Pushkin Park* (1927) | An extreme upward view makes trunks converge and turns the canopy into a dizzying radial structure. | [Met object 265574](https://www.metmuseum.org/art/collection/search/265574) | The Met record prevents enlargement/full-screen/download; API marks it non-public-domain. |
-| 06 | *Pioneer Girl* (1930) | The portrait’s cropped head, high chin, and strongly rising angle make a human face read as a revolutionary diagonal. | [MoMA object 51740](https://www.moma.org/collection/works/51740) | Museum display only; MoMA’s licensing notice requires permission for reproduction. |
-| 07 | *Pioneer with a Bugle* (1930) | The bugle and upturned face lock into a steep, assertive diagonal, an iconic use of the low viewpoint. | [MoMA object 56414](https://www.moma.org/collection/works/56414) | Museum display only; no open high-resolution rendition was offered. |
-| 08 | *Girl with a Leica* (1932–33) | The camera, arm, and face form an interlocking diagonal portrait of modern looking and picture-making. | [MoMA object 83882](https://www.moma.org/collection/works/83882) and [technical object record](https://www.moma.org/interactives/objectphoto/objects/83882.html) | Authoritative collection record, but no open/reusable master download. |
-| 09 | *[Student on a Roof Ledge, Moscow]* (1932) | The roof edge cuts through the frame at a severe angle, making the perched body a figure against a vertiginous city drop. | [Met object 286071](https://www.metmuseum.org/art/collection/search/286071) | The Met record prevents enlargement/full-screen/download; API marks it non-public-domain. |
-| 10 | *Stairs* (1929) | Stairs, rail, and a small descending figure turn an ordinary passage into an extreme diagonal field. | [Art Platform Japan / MOMAT collection record](https://artplatform.go.jp/en/collections/W1104289) | The collection record says its work image may not be downloaded or republished; no usable open rendition. |
-| 11 | *The Stairs* (1930) | A later stair study pushes the same oblique viewpoint into a layered, directional urban composition. | [Google Arts & Culture / Multimedia Art Museum record](https://artsandculture.google.com/asset/the-stairs-aleksandr-rodchenko/OQG1WAhut_JamA?hl=en) | Credited © Multimedia Art Museum, Moscow; no direct open download or reuse grant. |
-| 12 | *Vladimir Mayakovsky* (1924, printed 1940s) | A close portrait uses cropped shoulders, averted gaze, and shallow depth to turn a sitter into a compressed graphic mass. | [Art Institute of Chicago API record 229011](https://api.artic.edu/api/v1/artworks/229011) | The record supplies authoritative title, maker, date, and an image identifier, but explicitly returns `is_public_domain: false`; it is not an open image source. |
+| `01-pioneer-with-a-bugle.jpg` (1534 × 2000) | *Pioneer with a Bugle* (1930) | The cropping, upturned face, and looping bugle convert a portrait into a forceful low-angle diagonal. | [Obelisk Art History display page](https://www.arthistoryproject.com/artists/aleksandr-rodchenko/pioneer-with-a-bugle/) | Aleksandr Rodchenko; [MoMA object 56414](https://www.moma.org/collection/works/56414) identifies the gelatin silver print and directs reproduction licensing to its rights partners. |
+| `02-radio-listener.jpg` (750 × 529) | *Radio Listener* (1929) | The listening figure, round loudspeaker, and slanted tabletop create an interlocking machine-and-body diagonal. | [WikiArt display page](https://www.wikiart.org/en/alexander-rodchenko/radio-listener-1929) | Aleksandr Rodchenko; [Getty record 106FZX](https://www.getty.edu/art/collection/object/106FZX) states © Estate of Alexander Rodchenko / licensed by VAGA at Artists Rights Society (ARS), NY. |
+| `03-girl-with-a-leica.jpg` (550 × 849) | *Girl with a Leica* (1934) | A tilted camera position and a grid of projected light make the reclining sitter and Leica an oblique, graphic field. | [Designboom exhibition display](https://www.designboom.com/art/alexander-rodchenko-revolution-in-photography/) | © Alexander Rodchenko / V. Stepanova Archive, Moscow House of Photography, as printed with the display image; [Sotheby’s catalogue record](https://www.sothebys.com/en/auctions/ecatalogue/2018/photographs-n09919/lot.131.html) confirms the work and archive provenance. |
+| `04-fire-escape.jpg` (550 × 744) | *Fire Escape (with a Man)* (1925) | The ladder rises through the full vertical frame, turning rungs, figure, and façade into a hard converging scaffold. | [Designboom exhibition display](https://www.designboom.com/art/alexander-rodchenko-revolution-in-photography/); [SFMOMA record](https://www.sfmoma.org/artwork/96.191/) | © Alexander Rodchenko / V. Stepanova Archive, Moscow House of Photography, as printed with the display image; SFMOMA also records © Estate of Alexander Rodchenko / RAO, Moscow / licensed by VAGA at ARS, New York. |
+
+### Per-image fair-use assessment
+
+1. **Pioneer with a Bugle** — This is a transformative use for criticism,
+   scholarship, and composition teaching, not decorative display. The complete
+   low-angle frame is necessary to teach the crop, bugle arc, and diagonal; a
+   detail would defeat that analysis. The 1534 × 2000 web display copy is
+   retained only at web scale. The chapter credits Rodchenko, links to the
+   display and MoMA record, and cannot substitute for the original print or a
+   licensed reproduction.
+2. **Radio Listener** — The chapter analyzes the complete relation between the
+   figure, radio, loudspeaker circle, and slanted table, making the full frame
+   pedagogically necessary. Its use is transformative criticism and scholarship,
+   limited to a 750 × 529 web copy. Attribution and links to the display source
+   and Getty rights record make clear that this does not replace a licensed
+   reproduction or the original photograph.
+3. **Girl with a Leica** — The whole tilted image is needed to analyze the
+   sitter’s diagonal and the projected-light grid; it is used for transformative
+   composition teaching and criticism rather than for its expressive purpose
+   alone. The 550 × 849 public display rendition is web-sized. Credit and links
+   to the exhibition display and catalogue record preserve the source context and
+   do not supplant the archive’s original or a licensed reproduction.
+4. **Fire Escape** — The full ladder, figure, and façade are necessary to teach
+   the photograph’s extreme perspective; this is transformative scholarship and
+   composition criticism. The retained 550 × 744 public display copy is web
+   sized. The chapter credits the archive/estate notice and links to the display
+   and SFMOMA record, so it is not a market substitute for an original or a
+   licensed reproduction.
+
+## Canonical working shortlist
+
+The ingested works are supplemented by the following research shortlist for the
+eventual chapter: *Mother* (1924), *Guard at the Shukhov Radio Tower* (1929),
+*Pine Trees in Pushkin Park* (1927), *Asphalting a Street in Moscow* (1929),
+*Stairs* (1929), *Vladimir Mayakovsky* (1924), and *Student on a Roof Ledge,
+Moscow* (1932). Their public collection records remain useful for research but
+were not ingested because a sufficiently clear public display rendition was not
+available without access restrictions.
 
 ## Readiness
 
-0 / 4 required source files meet the legal and resolution requirements. Stage remains `pending`; no registry field was changed in this pass.
-
-## 2026-07-16 endpoint verification (current source unit)
-
-The public endpoints were queried again before closing this source unit. Commons still labels *Dance* (1915) public domain at **429 × 700px** and *Portrait of N. A. Rusakov* (1912) public domain at **594 × 800px**; neither reaches the 1200px long-edge floor. The Met API still marks *Asphalting a Street in Moscow* (283286) `isPublicDomain: false` with empty primary-image fields, while the Art Institute API still marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. An alternate Getty collection record (object [106HNF](https://www.getty.edu/art/collection/object/106HNF)) carries the RightsStatements.org `InC 1.0` label, so its IIIF delivery was not used. No qualifying original was downloaded.
-
-## 2026-07-16 verification — bound source unit
-
-A fresh check against the public source endpoints confirmed the shortlist cannot
-yet yield a qualifying ingest. Wikimedia Commons image-info metadata labels
-[*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg)
-and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg)
-public domain, but their original dimensions are respectively **429 × 700px**
-and **594 × 800px**. The LOC public record for *Portet materi* / *Mother*
-exposes a **507 × 640px** service JPEG, states “Rights status not evaluated,”
-and says larger images are available only at LOC. The Met API remains
-`isPublicDomain: false` with no primary image for *Asphalting a Street in
-Moscow* (283286); the Art Institute API likewise retains
-`is_public_domain: false` for *Vladimir Mayakovsky* (229011). No rendition was
-downloaded into `raw/`: none meets both the explicit reuse-rights and 1200px
-requirements.
-
-## 2026-07-16 public-source verification
-
-A fresh public-API check did not change the readiness result. Commons file-namespace search for “Alexander Rodchenko” again returned principally portraits **of** Rodchenko, exhibition documentation, designs, and the two known Rodchenko-authored scans. The latter remain below the resolution floor: *Dance* (1915) is 429×700px and *Portrait of N. A. Rusakov* (1912) is 594×800px. The Met’s public API record for *Asphalting a Street in Moscow* (object 283286) still returns `isPublicDomain: false` and empty `primaryImage` fields; the Art Institute of Chicago API likewise marks *Vladimir Mayakovsky* (229011) `is_public_domain: false`. None is a lawful open master, so no raw file was added.
-
-## 2026-07-16 collection-route recheck
-
-The [Science Museum Group portfolio record](https://collection.sciencemuseumgroup.org.uk/objects/co205135/portfolio-of-21-black-and-white-photographs-by-rodchenko) supplies useful titles for 21 Rodchenko photographs, but describes the object as a 1990 Moscow portfolio printed from original plates. Its record distinguishes reusable catalogue data from the artwork images, which are credited © The Board of Trustees of the Science Museum, London; it is not an expressly open rendition of the underlying photographs. The Library of Congress’s separate [*Portet materi* / *Mother* record](https://www.loc.gov/pictures/item/2002706148/) provides a downloadable film-copy derivative, but its Rights Advisory is “Rights status not evaluated,” not an open reuse grant. Neither route establishes the required lawful, openly reusable source, so no rendition was downloaded.
-
-## 2026-07-16 source verification (this invocation)
-
-The public [Wikimedia Commons API](https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=100&gsrsearch=Rodchenko&prop=imageinfo%7Ccategories&iiprop=url%7Csize%7Cextmetadata&cllimit=max&format=json) was queried again with original dimensions and licence metadata. Its only positively identified Rodchenko-authored, public-domain photographs are *Dance* (1915), **429 × 700px**, and *Portrait of N. A. Rusakov* (1912), **594 × 800px**. Both fail the required 1200px long-edge floor; larger search results are portraits of Rodchenko, installation/exhibition views, or reconstructions, rather than photographs made by him. The [Met API record for *Asphalting a Street in Moscow*](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286) remains `isPublicDomain: false` with empty image fields, and the [Art Institute API record for *Vladimir Mayakovsky*](https://api.artic.edu/api/v1/artworks/229011) remains `is_public_domain: false`. No qualifying source file was downloaded.
-
-## 2026-07-16 institutional and public-API recovery (current invocation)
-
-A new file-namespace check at Wikimedia Commons again verified only two openly labelled photographs actually made by Rodchenko: [*Dance* (1915)](https://commons.wikimedia.org/wiki/File:1915_Dance_by_Rodchenko.jpg), **429 × 700px**, and [*Portrait of N. A. Rusakov* (1912)](https://commons.wikimedia.org/wiki/File:Portrait_of_N._A._Rusakov_by_Aleksandr_Rodchenko_(1912).jpg), **594 × 800px**. Both are public domain but fail the 1200px long-edge requirement. The other file-search hits were portraits of the artist, documentation of exhibitions, or images of reconstructed works, not photographs by Rodchenko.
-
-The [Met API record for *Asphalting a Street in Moscow*](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286) still reports `isPublicDomain: false` and blank primary-image fields; the [Art Institute of Chicago API record for *Vladimir Mayakovsky*](https://api.artic.edu/api/v1/artworks/229011) remains `is_public_domain: false`. A [Europeana API search](https://api.europeana.eu/record/v2/search.json?query=Alexander%20Rodchenko&rows=12&wskey=apidemo) returned non-photographic construction/design records marked `InC` or `InC-EDU`, not an open Rodchenko photographic master. The Library of Congress public JSON for [*Portet materi* / *Mother*](https://www.loc.gov/pictures/item/2002706148/?fo=json) still exposes catalogue metadata and the P&P resource handle, but no expressly open high-resolution reproduction. No qualifying file was downloaded.
-
-## 2026-07-16 direct-derivative verification (current invocation)
-
-The LOC P&P JSON for [*Portet materi* / *Mother*](https://www.loc.gov/pictures/item/2002706148/?fo=json) was checked through its public `service_medium` derivative. The JPEG opens normally but measures only **507 × 640px**, below the 1200px long-edge floor; the record also states both “Rights status not evaluated” and “Larger images are only available at the Library of Congress.” The public [Commons file search](https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srlimit=50&srsearch=Rodchenko&format=json) continues to produce the two known authored public-domain files below that floor, while the [Met](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286) and [Art Institute](https://api.artic.edu/api/v1/artworks/229011) records remain non-public-domain. This recovery leaves **0 / 4** qualifying files, so no raw image was downloaded and the registry remains `pending`.
-
-## 2026-07-16 endpoint retry (current invocation)
-
-A fresh public-endpoint check again found no qualifying image. The [Commons image-info API](https://commons.wikimedia.org/w/api.php?action=query&titles=File%3A1915%20Dance%20by%20Rodchenko.jpg%7CFile%3APortrait%20of%20N.%20A.%20Rusakov%20by%20Aleksandr%20Rodchenko%20%281912%29.jpg&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&format=json) confirms explicit public-domain labels for *Dance* (**429 × 700px**) and *Portrait of N. A. Rusakov* (**594 × 800px**), but both fail the 1200px long-edge minimum. The Met [*Asphalting a Street in Moscow* API record](https://collectionapi.metmuseum.org/public/collection/v1/objects/283286) remains `isPublicDomain: false` with no primary image, and the Art Institute’s [*Vladimir Mayakovsky* record](https://api.artic.edu/api/v1/artworks/229011) remains `is_public_domain: false`; neither image endpoint was used. LOC’s public JSON for [*Mother*](https://www.loc.gov/pictures/item/2002706148/?fo=json) still says larger images are available only onsite; the exposed service JPEG was opened only to confirm it is undersized (**119 × 150px**). No rights-qualified, high-resolution original was available, so no raw file was added and the unit remains **0 / 4**.
-
-## 2026-07-16 direct open-source verification (bound source unit)
-
-The current retry queried the public source APIs directly. Wikimedia Commons
-still labels Rodchenko's *Dance* (1915) public domain at **429 × 700px** and
-*Portrait of N. A. Rusakov* (1912) public domain at **594 × 800px**; both
-original URLs are below the required 1200px long edge. The Met API returned
-`isPublicDomain: false` and an empty `primaryImage` for *Asphalting a Street
-in Moscow* (283286), *Pine Trees in Pushkin Park* (265574), *Student on a
-Roof Ledge, Moscow* (286071), and *Foxtrot* (283288). These are canonical
-holding records, not open image sources. No qualifying original was
-downloaded, so readiness remains **0 / 4** and the stage remains `pending`.
+4 / 4 required source files are present in `raw/alexander-rodchenko/`, open as
+JPEGs, and meet the current 640px normal long-edge floor. The registry advances
+to `sourced` with this documented fair-use set.
