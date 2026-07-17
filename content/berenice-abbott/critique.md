@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -21,3 +21,17 @@ All ten proof PNGs were visually checked against their overlay specs and analyze
 2. **09-advertisements-east-houston — `AD PANEL`:** Removed the false axis-aligned frame rather than implying it traces the billboard. The rebuilt proof retains only the observed masthead lower edge and lower sign edge, and the chapter now describes those two diagonals. The revised overlay scores 100/100 and passed visual inspection.
 
 **Prior rounds re-verified:** Critique round 2026-07-17 (the sole prior round). Both required fixes hold in the current overlays, proofs, and byte-identical chapter copies.
+
+## Critique round — 2026-07-17 (re-review)
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Review record
+
+Re-reviewed all ten current proof PNGs against the corresponding overlay specs, analyzer outputs, sources, research note, manifest, and chapter. The resolved 06-tempo-city-i `CLOCK STEM` and 09-advertisements-east-houston `AD PANEL` claims remain absent; the replacement overlays and prose describe only features visible in the proofs. Every current overlay scores 100/100 with no deterministic deductions or warnings. Chapter measurements match the analyzer outputs within tolerance, no camera setting is invented, and the ten open-use source entries retain matching NYPL/Commons identifiers, attribution, and public-domain basis. No materially misleading claim remains.

@@ -59,7 +59,7 @@ real queue and state live in data/registry.json.
 | 48  | marion-post-wolcott       | Marion Post Wolcott       | DONE    |
 | 49  | jack-delano               | Jack Delano               | DONE    |
 | 50  | john-vachon               | John Vachon               | DONE    |
-| 51  | berenice-abbott           | Berenice Abbott           | PENDING |
+| 51  | berenice-abbott           | Berenice Abbott           | DONE    |
 | 52  | margaret-bourke-white     | Margaret Bourke-White     | PENDING |
 | 53  | robert-capa               | Robert Capa               | PENDING |
 | 54  | w-eugene-smith            | W. Eugene Smith           | PENDING |
