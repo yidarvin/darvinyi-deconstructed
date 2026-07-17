@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -54,3 +54,17 @@ revision and its 2026-07-17 resolution, plus the current 2026-07-17 review.
 
 `scripts/check.sh` passes, including pipeline validation, chapter byte-sync,
 prose lint, tests, typecheck, build, and production preview smoke test.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- `01-cat-seen-from-above`, `02-climbing-the-mast`, `03-7-am-new-years-morning`, `05-decorating-work-switzerland`, `06-dolls-on-the-balcony`, `07-fischernetze-isola-bella`, and `11-scandinavia`: the non-strict scorer's edge-support warnings concern semantically visible, correctly traced contours (fur/body and whiskers; rope, mast, and sail; curb and track; cable; rail; net/cloth; and rope). Visual review confirms that each label names the feature it follows.
+- `09-from-the-radio-tower-berlin`: the scorer continues to prefer the unrelated lower-left saliency point. As resolved in the prior 2026-07-17 round, the anchor at `(0.55, 0.74)` is visibly at the center of the labeled circular plaza; this is not a regression or a misleading claim.
+- `12-target-practice`: the three-ellipse complexity warning is appropriate to the three distinct printed circles. All three continue to trace their named rings, and the previously removed false diagonal-track primitive remains absent.
+
+All twelve proofs pass the 80-point scoring threshold (81.1–100) and are materially truthful on visual review. The chapter's measured tonal, palette, and edge-density statements agree with the current analyzer output within the stated tolerance; it contains no asserted camera settings. Each selected image retains a linked Met and Wikimedia Commons record with CC0/Met Open Access credit, and the title, date, and gelatin-silver-print statements match the cited object records.

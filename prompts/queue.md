@@ -42,7 +42,7 @@ real queue and state live in data/registry.json.
 | 31  | eugene-atget              | Eugène Atget              | DONE    |
 | 32  | edward-steichen           | Edward Steichen           | DONE    |
 | 33  | paul-strand               | Paul Strand               | DONE    |
-| 34  | laszlo-moholy-nagy        | László Moholy-Nagy        | PENDING |
+| 34  | laszlo-moholy-nagy        | László Moholy-Nagy        | DONE    |
 | 35  | alexander-rodchenko       | Alexander Rodchenko       | PENDING |
 | 36  | germaine-krull            | Germaine Krull            | PENDING |
 | 37  | albert-renger-patzsch     | Albert Renger-Patzsch     | PENDING |
