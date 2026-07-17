@@ -18,31 +18,51 @@ openly licensed master.
 
 ### Per-image fair-use assessment
 
-1. **Pioneer with a Bugle** — This is a transformative use for criticism,
-   scholarship, and composition teaching, not decorative display. The complete
-   low-angle frame is necessary to teach the crop, bugle arc, and diagonal; a
-   detail would defeat that analysis. The 1534 × 2000 web display copy is
-   retained only at web scale. The chapter credits Rodchenko, links to the
-   display and MoMA record, and cannot substitute for the original print or a
-   licensed reproduction.
-2. **Radio Listener** — The chapter analyzes the complete relation between the
-   figure, radio, loudspeaker circle, and slanted table, making the full frame
-   pedagogically necessary. Its use is transformative criticism and scholarship,
-   limited to a 750 × 529 web copy. Attribution and links to the display source
-   and Getty rights record make clear that this does not replace a licensed
-   reproduction or the original photograph.
-3. **Girl with a Leica** — The whole tilted image is needed to analyze the
-   sitter’s diagonal and the projected-light grid; it is used for transformative
-   composition teaching and criticism rather than for its expressive purpose
-   alone. The 550 × 849 public display rendition is web-sized. Credit and links
-   to the exhibition display and catalogue record preserve the source context and
-   do not supplant the archive’s original or a licensed reproduction.
-4. **Fire Escape** — The full ladder, figure, and façade are necessary to teach
-   the photograph’s extreme perspective; this is transformative scholarship and
-   composition criticism. The retained 550 × 744 public display copy is web
-   sized. The chapter credits the archive/estate notice and links to the display
-   and SFMOMA record, so it is not a market substitute for an original or a
-   licensed reproduction.
+1. **Pioneer with a Bugle** — **Purpose and character:** this is a
+   transformative use for criticism, scholarship, and composition teaching, not
+   decorative display. **Nature:** the MoMA record identifies a highly creative
+   1930 gelatin-silver photograph; its public collection record supports treating
+   it as a previously published/publicly disseminated work rather than unpublished
+   private material. That factor nevertheless weighs against fair use because the
+   work is creative. **Amount:** the complete low-angle frame is necessary to
+   teach the crop, bugle arc, and diagonal; a detail would defeat that analysis.
+   **Market effect:** the 1534 × 2000 display copy is retained only at web scale,
+   credited and linked to its display and MoMA record, and cannot substitute for
+   the original print or a licensed reproduction.
+2. **Radio Listener** — **Purpose and character:** the chapter analyzes the
+   complete relation between the figure, radio, loudspeaker circle, and slanted
+   table as transformative criticism and scholarship. **Nature:** this is a
+   highly creative historical photograph, and the Getty rights record identifies
+   estate-controlled rights; the public WikiArt display and Getty collection
+   record show that the work has already been publicly disseminated rather than
+   supplied as unpublished private material. The creative nature means this
+   factor weighs against fair use. **Amount:** the full frame is pedagogically
+   necessary to show that interlocking construction. **Market effect:** use is
+   limited to a 750 × 529 web copy, with attribution and links to the display
+   source and Getty rights record; it does not replace a licensed reproduction or
+   the original photograph.
+3. **Girl with a Leica** — **Purpose and character:** the whole tilted image is
+   used for transformative composition teaching and criticism, not for its
+   expressive purpose alone. **Nature:** it is a highly creative photograph; the
+   public exhibition display and Sotheby’s catalogue document an existing
+   Rodchenko/Stepanova-archive print and its prior public circulation, rather than
+   unpublished private material. This factor weighs against fair use because of
+   the work’s creative character. **Amount:** the complete frame is needed to
+   analyze the sitter’s diagonal and projected-light grid. **Market effect:** the
+   550 × 849 public display rendition is web-sized; credit and links to the
+   exhibition display and catalogue record preserve the source context and do not
+   supplant the archive’s original or a licensed reproduction.
+4. **Fire Escape** — **Purpose and character:** the full ladder, figure, and
+   façade are used for transformative scholarship and composition criticism of
+   the photograph’s extreme perspective. **Nature:** this is a highly creative
+   1925 gelatin-silver photograph; SFMOMA’s public collection record and its
+   estate licensing notice document a previously published/publicly disseminated
+   work, not unpublished private material. Its creative nature means this factor
+   weighs against fair use. **Amount:** the full frame is necessary to teach the
+   perspective. **Market effect:** the retained 550 × 744 display copy is web
+   sized; it credits the archive/estate notice and links to the display and
+   SFMOMA record, so it is not a market substitute for an original or a licensed
+   reproduction.
 
 ## Canonical working shortlist
 

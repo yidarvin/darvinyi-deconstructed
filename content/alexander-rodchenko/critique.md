@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -13,3 +13,17 @@ verdict: revise
 ### Review evidence
 
 All four proof PNGs were visually inspected against their overlay JSON and source images. Their deterministic overlay scores are 100/100, and the visible labels trace the named bugle, loudspeaker/tabletop/listener, sitter/Leica/cord/light field, and ladder/figure/façade features. Chapter tonal, palette, and edge-density values agree with the current analysis JSON within the stated tolerance. No camera settings are invented. The linked MoMA and SFMOMA records substantiate the dated gelatin-silver works and their rights context; the display and rights links for the remaining two works remain traceable.
+
+## Resolution — 2026-07-17
+
+1. Added an image-specific, explicitly labeled four-factor rationale for every
+   ingested work in `sources.md`. Each now records transformative purpose,
+   creative nature plus already-publicly-disseminated status, the pedagogical need
+   for the complete frame, and web-scale non-substitution in the licensing market.
+
+### Prior required rounds re-verified
+
+- 2026-07-17 `revise` round: the four-factor documentation fix above satisfies
+  its only required item. The four existing overlay proofs were also re-opened;
+  their score checks remain 100/100 and their labeled features remain visually
+  aligned. No earlier critique rounds exist in this slug’s history.
