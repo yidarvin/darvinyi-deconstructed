@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -19,3 +19,15 @@ All twelve proofs were visually reviewed against their paired overlay specs, sou
 2. **08-under-elevated-railway** — Replaced the false `symmetry_axis` with a `STREET OPENING` trace following the upper edge of the opening beneath the elevated structure, re-rendered the proof, and updated both byte-identical chapter files. The result scores 100/100 and visually identifies the opening without implying symmetry.
 
 Re-verified required fixes from all prior critique rounds: **2026-07-16** (the only prior round in `git log -p -- content/john-vachon/critique.md`). All twelve overlay specs were re-scored at or above the 80 threshold; the two changed proofs received a fresh visual pass. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-16
+
+### REQUIRED
+
+None.
+
+The corrected **04-michigan-avenue-chicago** `AVENUE CORRIDOR` polyline follows the receding central avenue without claiming mirror structure. The corrected **08-under-elevated-railway** `STREET OPENING` polyline follows the visible opening beneath the elevated structure rather than asserting symmetry. All twelve proofs were visually checked against their current overlay specs and source images; every spec contains two or three teaching primitives that name visible features, and each scores 100/100 against its analyzer output. Chapter tonal, palette, coordinate, and edge-density claims agree with the analyzer within the stated tolerance. The sources and research notes identify public-domain FSA/OWI records and explicitly reject derivative-file EXIF as historical capture data; no invented camera or exposure setting appears.
+
+### Advisory (non-blocking)
+
+None.
