@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -17,3 +17,12 @@ verdict: revise
 - Plates 01–04 and 06–10 otherwise have clear, limited three-primitive arguments; all ten current specs score 100 with the deterministic scorer. The score does not resolve the two visual-semantic issues above.
 - The cited analyzer values in the chapter are within tolerance, and the chapter correctly declines to invent camera settings.
 - The Art Institute record and public IIIF links trace all ten images; titles, dates, print status, and non-public-domain status checked against the current records agree with the source notes.
+
+## Builder resolution — 2026-07-17
+
+1. Replaced 05’s false straight `DOG LEAD` with a five-point `CURVED DOG LEAD` polyline following the visible hand-to-collar leash; updated its overlay note, caption, and matching chapter paragraph. Re-rendered proof and scored 100.
+2. Removed 09’s unsupported `PAIRED CENTER` axis. The proof now identifies the staged twin group and the measured visible `CAR HOOD EDGE`; revised the matching chapter paragraph. Re-rendered proof and scored 100.
+3. Added a concise factor-two nature/status rationale to every one of the ten per-image fair-use assessments; the existing per-image purpose, full-frame necessity, and non-substitution statements retain factors one, three, and four.
+4. Replaced the Getty ULAN URL with its stable query form, verified HTTP 200.
+
+Re-verified critique history: 2026-07-17 (the sole prior critique round). All ten overlay specs score 100 at the ≥80 gate; both revised composites received a clean visual pass. `scripts/check.sh` passes.
