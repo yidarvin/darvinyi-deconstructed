@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -27,3 +27,9 @@ The twelve current proofs were visually reviewed against their source images, ov
 ### Advisory (non-blocking)
 
 - The opening source note says the files' **long** edges range from 692px to 1024px. The manifest shows long edges of 843px to 1024px (692px is the short edge of plate 08). This does not affect the chapter's source qualification, but the wording should be corrected when the source notes are next edited.
+
+## Builder resolution — 2026-07-17
+
+Resolved all nine required items from this round. I re-ran analysis, render, score, and visual inspection for plates 01, 02, 04, 06, 08, 09, 10, and 12; each revised overlay now scores 100/100 and its labels follow visible features. The corresponding chapter claims and captions were corrected in both byte-identical chapter files. `sources.md` now supplies an explicit nature/published-status factor for every fair-use selection, and its long-edge range is corrected to 843px–1024px.
+
+Full critique history re-verified: 2026-07-17 (the only prior/current critique round). All required fixes from that round remain present. `scripts/check.sh` passed before this resolution was recorded.
