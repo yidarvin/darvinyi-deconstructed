@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -17,3 +17,14 @@ verdict: revise
 - **01-magnolia-blossom:** `ENCLOSING PETAL ARC` is a visibly angular, broad polygon rather than a close single-petal contour. It still identifies the enclosing left-petal structure, so it is not a blocker.
 - **04-water-hyacinth:** `BRACT JUNCTION` and `VERTICAL STEM` label boxes overlap at the junction. The correctly placed marks remain legible enough to be non-blocking.
 - **04-water-hyacinth:** the leading-line scorer’s unsupported-edge warning is not a required issue. The line visibly follows the central stem and the spec still scores 94/100.
+
+## Resolution — 2026-07-17
+
+Re-verified critique history: **2026-07-17, round 1** (the complete history for this slug).
+
+1. Replaced the two broad `curling rim` paths on `02-two-callas` with one short `right curled rim` contour that traces only the photographed bright edge; regenerated the proof, visually checked it, and scored it **100/100**.
+2. Reclassified all four retained Commons files as **open — public domain in the United States**, retaining their exact file-page links and appropriate attribution. Removed the unsupported fair-use framing from `sources.md` and `research.md`.
+3. Replaced the unsupported `Sedum Cristate` (1920) assertion with the documented *Plant Form* / *Succulent* / *Sedum Cristate* alternate-title record and the Norton Simon date, **1920s (printed 1971)**, in the source, research, chapter, and plate label.
+4. Removed the mismatched *Blossom of Water Hyacinth 2* record and made the shortlist description match the displayed dark upper flower, light-gray stem, dark folded leaves, and pale field.
+
+`scripts/check.sh` completed successfully after the fixes; `content/imogen-cunningham/chapter.mdx` and `src/chapters/imogen-cunningham.mdx` are byte-identical.
