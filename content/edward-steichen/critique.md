@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -27,3 +27,21 @@ None.
 7. Replaced the Brancusi studio's false vertical plinth line with horizontal upper-plinth and lower-platform annotations.
 
 Re-verified required fixes from critique round 2026-07-17 (the complete critique history). All seven revised overlays were re-analyzed, rendered, visually inspected, and scored 100/100. `scripts/check.sh` passes, and `content/edward-steichen/chapter.mdx` remains byte-identical to `src/chapters/edward-steichen.mdx`.
+
+## Critique round — 2026-07-17
+
+### Required fixes
+
+1. **02-flatiron — `BUILDING APEX` and `FLATIRON EDGE` trace branches, not the Flatiron.** The vanishing-point crosshair at `(0.273, 0.225)` sits in the bare-branch cluster, well left of the building's visible summit, and the accompanying polyline follows that same branch area. Remove or replace these claims with primitives that land on the actual building. Revise the related chapter sentence that calls the overlay's apex and edge evidentiary.
+2. **03-rodin-le-penseur — `FIGURE PAIR` is not a frame in the photograph.** The `frame_in_frame` rectangle bounds the two figures but does not trace a door, window, print border, or other internal frame. Remove it or use a primitive that truthfully describes the visible relationship.
+3. **04-rodin — three overlay claims misidentify the picture's structure.** `RODIN'S PROFILE` begins in empty background and then runs through the silhouette rather than tracing the left-facing profile; `STUDIO GROUND` marks no frame-wide ground boundary; and `PORTRAIT FIELD` is not an internal frame. Rebuild or remove these primitives so their types and labels match visible features.
+4. **05-in-memoriam — `ARCH AXIS` and `BOWED CONTOUR` do not trace what their labels claim.** The vertical symmetry line runs through the dark right-hand mass rather than a bilateral arch, while the polyline mostly crosses unfeatured dark space and terminates at the lower bright spot instead of following the pale bowed figure. Remove or redraw both.
+5. **06-road-into-valley-moonrise — `MIRRORED VALLEY` falsely asserts a mirror structure.** The heavy tree mass on the left and the narrow trunk/canopy at right are visibly asymmetric. Remove the symmetry-axis primitive and revise the chapter's related “approaches symmetry” wording if it continues to state a mirrored structure.
+6. **08-self-portrait — `LIT FACE` is a false vanishing-point claim.** The crosshair lies below and left of the illuminated face, and the photograph supplies no converging perspective lines. Replace it with a truthful subject/face annotation or remove it; do not describe the point as a vanishing point.
+7. **12-isadora-duncan-parthenon — `DISTANT FIGURE` does not land on Duncan.** The `subject_anchor` at `(0.588, 0.992)` is on the image's bottom edge; the distant figure is visibly within the bright opening above and to the right. Move it to the figure or remove it.
+8. **12-isadora-duncan-parthenon — sources.md attributes an unverified gesture.** The plate's “Why it matters” says Duncan's raised arms and drapery echo the column, but the chapter correctly says the supplied reproduction does not clearly show a gesture. Remove or qualify that unsupported source-note claim.
+9. **Source records — the required per-image route and credit/copyright documentation is missing.** Although the introduction says the images were obtained from public-domain Commons records, each of the twelve entries must explicitly identify its route as `open` and preserve the source-record credit/copyright notice, in addition to its current link. Add those per-image records; do not rely on the chapter-wide assertion.
+
+### Advisory (non-blocking)
+
+None. The seven findings resolved in the preceding round remain resolved. The 100/100 deterministic scores are not contrary evidence here: the scorer confirms the detector geometry, while these required findings are visible semantic/type mismatches.
