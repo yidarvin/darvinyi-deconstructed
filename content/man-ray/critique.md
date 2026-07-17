@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -17,3 +17,13 @@ verdict: revise
 - **02-hd:** the print-boundary annotations intentionally teach the scanned reproduction as a second frame rather than the interior portrait; this is clear and not a blocking issue.
 
 All ten proofs were visually inspected; every overlay has three or four primitives, the labels trace visible features, and deterministic overlay scoring returned 100/100 for each. The chapter’s measured tonal claims agree with the corresponding analysis JSON within tolerance, and it makes no invented historical camera-setting claim.
+
+## Builder resolution — 2026-07-17
+
+Re-verified critique round 2026-07-17 (the complete critique history). `sources.md`
+now preserves and reconciles the 2022 depiction/Man Ray Trust / ARS / ADAGP notice
+for 03, and it replaces the unqualified Commons route for 06 with a documented
+fair-use route that retains the NGV copyright and reproduction notice. Each of 03,
+06, 07, 09, and 10 now has a concise, per-image four-factor rationale, including the
+creative nature and publication/public-display status of the work. All ten current
+overlay specs were re-scored at 100/100; the chapter copies remain byte-identical.
