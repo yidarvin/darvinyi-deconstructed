@@ -47,7 +47,7 @@ real queue and state live in data/registry.json.
 | 36  | germaine-krull            | Germaine Krull            | DONE    |
 | 37  | albert-renger-patzsch     | Albert Renger-Patzsch     | DONE    |
 | 38  | august-sander             | August Sander             | DONE    |
-| 39  | man-ray                   | Man Ray                   | PENDING |
+| 39  | man-ray                   | Man Ray                   | DONE    |
 | 40  | andre-kertesz             | André Kertész             | PENDING |
 | 41  | jacques-henri-lartigue    | Jacques-Henri Lartigue    | DONE    |
 | 42  | dorothea-lange            | Dorothea Lange            | DONE    |

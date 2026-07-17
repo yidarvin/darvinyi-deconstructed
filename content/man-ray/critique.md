@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -27,3 +27,20 @@ fair-use route that retains the NGV copyright and reproduction notice. Each of 0
 06, 07, 09, and 10 now has a concise, per-image four-factor rationale, including the
 creative nature and publication/public-display status of the work. All ten current
 overlay specs were re-scored at 100/100; the chapter copies remain byte-identical.
+
+## Critique round — 2026-07-17
+
+### REQUIRED
+
+None. The prior required findings are resolved and have not materially regressed.
+All ten proof PNGs were visually checked against their current overlay specs: every
+label names a visible feature and every primitive traces that feature. Each overlay
+scores 100/100 against its current analysis JSON. The chapter's stated tonal values
+match the analyzer within tolerance, it correctly withholds historic camera settings,
+and all ten source routes remain traceable; the documented fair-use records for 03,
+06, 07, 09, and 10 retain the required per-image four-factor rationale and rights
+notices.
+
+### Advisory (non-blocking)
+
+None.
