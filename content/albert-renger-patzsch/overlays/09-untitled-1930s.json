@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-untitled-1930s.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.551, "angle": 0.0, "label": "FAR WATERLINE" },
+    { "type": "subject_anchor", "x": 0.697, "y": 0.32, "r": 0.035, "label": "CENTRAL TREE FORK" },
+    { "type": "polyline", "points": [[0.20, 0.95], [0.31, 0.58], [0.25, 0.18]], "label": "LEFT TREE LEAN" },
+    { "type": "polyline", "points": [[0.47, 0.96], [0.61, 0.56], [0.70, 0.13]], "label": "CENTRAL TREE LEAN" }
+  ],
+  "notes": "Tall leaning trunks cut across the calm horizontal waterline, holding vertical framing in tension with a quiet distant shore."
+}

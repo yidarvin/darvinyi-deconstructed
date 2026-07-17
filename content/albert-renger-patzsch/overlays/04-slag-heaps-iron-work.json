@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-slag-heaps-iron-work.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.17, 0.97], [0.34, 0.55], [0.49, 0.28]], "label": "LEFT RAIL" },
+    { "type": "polyline", "points": [[0.83, 0.97], [0.66, 0.55], [0.51, 0.28]], "label": "RIGHT RAIL" },
+    { "type": "polyline", "points": [[0.00, 0.42], [0.22, 0.20], [0.49, 0.28], [0.78, 0.17], [1.00, 0.34]], "label": "INTERLOCKING HEAP CRESTS" },
+    { "type": "frame_in_frame", "x": 0.02, "y": 0.02, "w": 0.96, "h": 0.94, "label": "PRINTED IMAGE FIELD" }
+  ],
+  "notes": "Rails pull through a channel of slag heaps whose broken crest line makes industry read as a field of interlocking volume."
+}

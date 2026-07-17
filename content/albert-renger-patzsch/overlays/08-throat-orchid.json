@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-throat-orchid.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.55, "label": "FLOWER AXIS" },
+    { "type": "subject_anchor", "x": 0.606, "y": 0.46, "r": 0.035, "label": "ORCHID THROAT" },
+    { "type": "polyline", "points": [[0.06, 0.57], [0.23, 0.56], [0.44, 0.50], [0.55, 0.48]], "label": "LEFT PETAL SWEEP" },
+    { "type": "polyline", "points": [[0.55, 0.48], [0.70, 0.50], [0.87, 0.56], [0.98, 0.56]], "label": "RIGHT PETAL SWEEP" }
+  ],
+  "notes": "A centered throat and paired petal sweeps turn a close botanical study into a nearly architectural bilateral structure."
+}

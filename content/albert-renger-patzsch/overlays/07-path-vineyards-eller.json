@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-path-vineyards-eller.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.476, "y": 0.45, "label": "VILLAGE APPROACH" },
+    { "type": "leading_line", "points": [[0.071, 0.862], [0.778, 0.0]], "arrow": true, "label": "LEFT VINE ROW" },
+    { "type": "leading_line", "points": [[0.113, 0.708], [0.804, 0.21]], "arrow": true, "label": "RIGHT VINE ROW" },
+    { "type": "horizon_line", "y": 0.501, "angle": 0.0, "label": "VILLAGE THRESHOLD" }
+  ],
+  "notes": "Vine rows and the descending path converge toward the village, making a working slope read as an exact spatial construction."
+}

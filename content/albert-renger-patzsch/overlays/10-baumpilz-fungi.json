@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-baumpilz-fungi.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.46, "rx": 0.40, "ry": 0.38, "label": "FUNGUS RING" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.46, "rx": 0.22, "ry": 0.22, "label": "CUT LOG FACE" },
+    { "type": "polyline", "points": [[0.12, 0.32], [0.28, 0.17], [0.49, 0.11], [0.70, 0.20], [0.88, 0.36]], "label": "UPPER FRILL RHYTHM" }
+  ],
+  "notes": "A dense, scalloped ring of fungi surrounds the quiet geometry of a cut log, making organic repetition feel almost manufactured."
+}
