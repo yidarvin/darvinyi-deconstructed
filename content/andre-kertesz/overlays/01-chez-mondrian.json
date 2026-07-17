@@ -3,9 +3,9 @@
   "image": "01-chez-mondrian.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.480, 0.475], [0.765, 0.369]], "arrow": true, "label": "stair rail" },
+    { "type": "polyline", "points": [[0.495, 0.230], [0.645, 0.310], [0.745, 0.420], [0.755, 0.575]], "label": "curving stair rail" },
     { "type": "frame_in_frame", "x": 0.490, "y": 0.015, "w": 0.470, "h": 0.910, "label": "open doorway" },
     { "type": "subject_anchor", "x": 0.684, "y": 0.352, "r": 0.035, "label": "stair turn" }
   ],
-  "notes": "The doorway divides a domestic interior while the stair rail pulls the eye into depth."
+  "notes": "The doorway divides a domestic interior while the curving stair rail pulls the eye into depth."
 }

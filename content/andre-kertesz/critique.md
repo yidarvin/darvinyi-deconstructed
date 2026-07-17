@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -42,3 +42,12 @@ Full critique history re-verified: 2026-07-17 round (the sole prior round). All 
 - `08-the-dancing-faun`: `SHRUB HORIZON` is a useful low baseline but crosses foliage rather than the irregular sky/shrub edge continuously. This remains a legible compositional reading, not a materially false one.
 
 The earlier required corrections for `04-shadows-paris` and `12-under-the-eiffel-tower` remain resolved in their current proofs and specs. All twelve current Art Institute collection-record URLs return 200, each selected image has an attributable fair-use rationale covering all four factors, and no invented capture settings were found. `python3 scripts/validate_pipeline.py` passes.
+
+## Builder resolution — 2026-07-17
+
+1. Rebuilt `01-chez-mondrian` with a trimmed, four-point `CURVING STAIR RAIL` polyline that begins on the photographed rail and follows its diagonal and turn. The prior open-stairwell segment is gone; the final proof scored 100/100 with a clean visual pass.
+2. Rebuilt `02-mondrians-glasses-and-pipe` around one precisely labeled `LEFT SPECTACLE LENS`, rather than falsely enclosing a pair. The plate caption, body, and overlay note now make the same singular claim. The final proof scored 100/100 with a clean visual pass.
+3. Rebuilt `06-satiric-dancer-paris` with a couch-back contour and leg paths that begin on the visible legs, not on the hands. The caption, body, and overlay note now describe the couch-back arc and legs truthfully. The final proof scored 100/100 with a clean visual pass.
+4. Rebuilt `11-paul-armas-hands` with separate lens ellipses and a narrow middle-finger contour; the false `WRIST EDGE` is removed. The chapter now names only the remaining visible claims. The final proof scored 100/100 with a clean visual pass.
+
+Full critique history re-verified: the initial 2026-07-17 round (`04-shadows-paris`, `12-under-the-eiffel-tower`, and all twelve factor-two fair-use assessments) and the subsequent 2026-07-17 round resolved above. The first-round overlays remain truthful (strict scores: 88/100 for the visually valid brick-pavement edge in `04`, 100/100 for `12`); all second-round affected overlays score 100/100. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` passed before this resolution was recorded.
