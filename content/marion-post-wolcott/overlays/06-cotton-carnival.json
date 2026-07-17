@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-cotton-carnival.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.45, "cy": 0.45, "rx": 0.10, "ry": 0.15, "label": "CHILD" },
+    { "type": "polyline", "points": [[0.10, 0.59], [0.31, 0.55], [0.50, 0.54], [0.71, 0.60], [0.91, 0.65]], "label": "HORSE BODIES" },
+    { "type": "polyline", "points": [[0.07, 0.04], [0.28, 0.05], [0.48, 0.03], [0.69, 0.06], [0.92, 0.03]], "label": "CANOPY" }
+  ],
+  "notes": "The child is held within a repeating run of horses and the canopy's vertical rhythm."
+}

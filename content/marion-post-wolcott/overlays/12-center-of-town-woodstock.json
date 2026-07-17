@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-center-of-town-woodstock.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.559, "angle": 0, "label": "CROSS STREET" },
+    { "type": "frame_in_frame", "x": 0.35, "y": 0.46, "w": 0.20, "h": 0.20, "label": "SLEIGH" },
+    { "type": "polyline", "points": [[0.46, 0.99], [0.47, 0.73], [0.49, 0.54], [0.55, 0.38]], "label": "TIRE TRACK" },
+    { "type": "polyline", "points": [[0.00, 0.43], [0.17, 0.38], [0.31, 0.45], [0.45, 0.50]], "label": "LEFT FACADES" }
+  ],
+  "notes": "The sleigh and tire track make the snow-lined town street read as a measured recession."
+}

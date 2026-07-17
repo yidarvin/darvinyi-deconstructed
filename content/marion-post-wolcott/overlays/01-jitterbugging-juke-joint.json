@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-jitterbugging-juke-joint.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.794, "angle": 0, "label": "FLOOR EDGE" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.48, "rx": 0.08, "ry": 0.25, "label": "LEFT DANCER" },
+    { "type": "polyline", "points": [[0.29, 0.34], [0.35, 0.54], [0.43, 0.78], [0.47, 0.90]], "label": "DANCER'S STEP" }
+  ],
+  "notes": "A low floor edge and the dancers' linked diagonals turn the crowded room into a shallow stage."
+}

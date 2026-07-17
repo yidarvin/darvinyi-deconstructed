@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-portrait-near-camden.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.476, "y": 0.535, "r": 0.04, "label": "SITTER" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.34, "rx": 0.09, "ry": 0.11, "label": "FACE" },
+    { "type": "polyline", "points": [[0.39, 0.03], [0.40, 0.34], [0.48, 0.59], [0.68, 0.84]], "label": "SEATED FIGURE" }
+  ],
+  "notes": "The sitter's bowed head and body are set against a long, receding wall of boards."
+}

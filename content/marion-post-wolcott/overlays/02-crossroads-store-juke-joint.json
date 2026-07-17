@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-crossroads-store-juke-joint.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.771, "angle": 0, "label": "STORE BASE" },
+    { "type": "ellipse", "cx": 0.66, "cy": 0.27, "rx": 0.08, "ry": 0.10, "label": "JAX SIGN" },
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.40, "w": 0.23, "h": 0.36, "label": "DOORWAY" },
+    { "type": "polyline", "points": [[0.07, 0.44], [0.31, 0.43], [0.55, 0.40], [0.84, 0.48]], "label": "SIGN BAND" }
+  ],
+  "notes": "Painted signs and a dark doorway load a plain roadside facade with overlapping public functions."
+}

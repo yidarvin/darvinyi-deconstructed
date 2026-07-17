@@ -1,0 +1,133 @@
+[
+  {
+    "file": "01-jitterbugging-juke-joint.jpg",
+    "width": 1600,
+    "height": 1216,
+    "sha1": "246b5c19",
+    "source": "01-jitterbugging-juke-joint.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-crossroads-store-juke-joint.jpg",
+    "width": 1600,
+    "height": 1093,
+    "sha1": "0771d38a",
+    "source": "02-crossroads-store-juke-joint.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-gambling-cotton-money.jpg",
+    "width": 1600,
+    "height": 1231,
+    "sha1": "1bf99acf",
+    "source": "03-gambling-cotton-money.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2019:02:27 11:14:09",
+      "ExposureTime": "0.025",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "04-old-cable-ferry.jpg",
+    "width": 1600,
+    "height": 1069,
+    "sha1": "aac776dd",
+    "source": "04-old-cable-ferry.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-teepee-cabins.jpg",
+    "width": 1600,
+    "height": 1200,
+    "sha1": "5e69834b",
+    "source": "05-teepee-cabins.jpg",
+    "exif": {
+      "Make": "Sinar",
+      "Model": "54H"
+    }
+  },
+  {
+    "file": "06-cotton-carnival.jpg",
+    "width": 1600,
+    "height": 1071,
+    "sha1": "ec660af2",
+    "source": "06-cotton-carnival.jpg",
+    "exif": {
+      "DateTimeOriginal": "2007:05:20 00:05:55"
+    }
+  },
+  {
+    "file": "07-portrait-near-camden.jpg",
+    "width": 1600,
+    "height": 1067,
+    "sha1": "22a31411",
+    "source": "07-portrait-near-camden.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "08-loading-hay-blairs.jpg",
+    "width": 1600,
+    "height": 1243,
+    "sha1": "e618f659",
+    "source": "08-loading-hay-blairs.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2019:03:20 12:29:16",
+      "ExposureTime": "0.025",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "09-bourbon-street-mardi-gras.jpg",
+    "width": 1577,
+    "height": 1600,
+    "sha1": "8d46fce9",
+    "source": "09-bourbon-street-mardi-gras.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control",
+      "DateTimeOriginal": "2013:02:08 15:12:35"
+    }
+  },
+  {
+    "file": "10-lake-at-greenbelt.jpg",
+    "width": 1600,
+    "height": 1076,
+    "sha1": "c6a246ed",
+    "source": "10-lake-at-greenbelt.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "11-muddy-road-after-thaw.jpg",
+    "width": 1107,
+    "height": 1600,
+    "sha1": "69adb2c3",
+    "source": "11-muddy-road-after-thaw.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  },
+  {
+    "file": "12-center-of-town-woodstock.jpg",
+    "width": 1600,
+    "height": 1138,
+    "sha1": "da7f90c8",
+    "source": "12-center-of-town-woodstock.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 12(LI301509   )/Schneider Lens Control"
+    }
+  }
+]

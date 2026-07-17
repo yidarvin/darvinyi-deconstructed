@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-old-cable-ferry.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.320, "angle": 0, "label": "FAR BANK" },
+    { "type": "vanishing_point", "x": 0.858, "y": 0.115, "label": "CABLE DIRECTION" },
+    { "type": "leading_line", "points": [[0.38, 0.307], [0.796, 0.139]], "arrow": true, "label": "OVERHEAD CABLE" },
+    { "type": "ellipse", "cx": 0.67, "cy": 0.61, "rx": 0.03, "ry": 0.09, "label": "FERRYMAN" }
+  ],
+  "notes": "A taut cable and the flat ferry make a river crossing read as a diagram of connection."
+}

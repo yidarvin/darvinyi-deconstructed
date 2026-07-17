@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-loading-hay-blairs.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.785, "angle": 0, "label": "HAY RIDGE" },
+    { "type": "frame_in_frame", "x": 0.48, "y": 0.17, "w": 0.18, "h": 0.42, "label": "BARN DOOR" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.48, "rx": 0.05, "ry": 0.12, "label": "WORKER" },
+    { "type": "polyline", "points": [[0.02, 0.44], [0.15, 0.32], [0.31, 0.05]], "label": "ROOF EAVE" }
+  ],
+  "notes": "A doorway cuts into the barn while hay and roof planes make labor visibly scale the facade."
+}
