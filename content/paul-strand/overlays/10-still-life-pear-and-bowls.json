@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-still-life-pear-and-bowls.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.14, "y": 0.28, "w": 0.70, "h": 0.47, "label": "PRINTED IMAGE AREA" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.59, "rx": 0.13, "ry": 0.17, "label": "PEAR" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.53, "rx": 0.15, "ry": 0.19, "label": "TILTED BOWL" }
+  ],
+  "notes": "A pear counterweights overlapping bowls in a tightly cropped still life."
+}

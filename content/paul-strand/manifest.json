@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-wall-street.jpg",
+    "width": 1600,
+    "height": 1259,
+    "sha1": "1e61f294",
+    "source": "01-wall-street.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-blind-woman.jpg",
+    "width": 1180,
+    "height": 1600,
+    "sha1": "a641929f",
+    "source": "02-blind-woman.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-bowls.jpg",
+    "width": 1180,
+    "height": 1600,
+    "sha1": "706ed684",
+    "source": "03-bowls.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-abstraction-porch-shadows.jpg",
+    "width": 1116,
+    "height": 1500,
+    "sha1": "ba76e2e1",
+    "source": "04-abstraction-porch-shadows.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-akeley-motion-picture-camera.jpg",
+    "width": 1264,
+    "height": 1600,
+    "sha1": "8bf7ad77",
+    "source": "05-akeley-motion-picture-camera.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-new-york-1916.jpg",
+    "width": 1600,
+    "height": 1274,
+    "sha1": "28fe96bb",
+    "source": "06-new-york-1916.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-woman-new-york.jpg",
+    "width": 1274,
+    "height": 1600,
+    "sha1": "057d725e",
+    "source": "07-woman-new-york.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-man-in-derby.jpg",
+    "width": 1288,
+    "height": 1600,
+    "sha1": "0d9867cc",
+    "source": "08-man-in-derby.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-man-five-points-square.jpg",
+    "width": 1302,
+    "height": 1600,
+    "sha1": "e318fc8b",
+    "source": "09-man-five-points-square.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-still-life-pear-and-bowls.jpg",
+    "width": 1319,
+    "height": 1600,
+    "sha1": "80a703b0",
+    "source": "10-still-life-pear-and-bowls.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-man-in-derby.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.07, "y": 0.07, "w": 0.86, "h": 0.86, "label": "PRINTED IMAGE AREA" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.34, "rx": 0.22, "ry": 0.17, "label": "FACE" },
+    { "type": "polyline", "points": [[0.18, 0.25], [0.46, 0.17], [0.71, 0.30]], "label": "DERBY BRIM" }
+  ],
+  "notes": "The derby brim, face, and white scarf compress identity into stark tonal masses."
+}

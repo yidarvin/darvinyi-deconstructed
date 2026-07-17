@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-wall-street.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.704, "angle": 0.0, "label": "CURB AND STREET BREAK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.4, "label": "FACADE RHYTHM" },
+    { "type": "polyline", "points": [[0.05, 0.83], [0.38, 0.91], [0.72, 0.98]], "label": "PEDESTRIAN BAND" }
+  ],
+  "notes": "Dark window bays turn the facade into a repeating field above the small walking figures."
+}

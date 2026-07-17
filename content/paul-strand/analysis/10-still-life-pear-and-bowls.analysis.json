@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "image": "10-still-life-pear-and-bowls.jpg",
+  "width": 1319,
+  "height": 1600,
+  "aspect": 0.8244,
+  "tonal": {
+    "mean": 0.5369990817898546,
+    "std": 0.18397835703015214,
+    "p05": 0.10196078431372549,
+    "p95": 0.6901960784313725,
+    "edge_density": 0.00659295393957346
+  },
+  "palette": [
+    "#a8abaf",
+    "#949594",
+    "#1e1e1e",
+    "#73746f",
+    "#464541"
+  ],
+  "lines": [
+    {
+      "x1": 0.5983412322274881,
+      "y1": 0.6884765625,
+      "x2": 0.8542654028436019,
+      "y2": 0.6884765625,
+      "angle_deg": 0.0,
+      "length": 0.16277395828110314,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.1552132701421801,
+      "y1": 0.6865234375,
+      "x2": 0.3981042654028436,
+      "y2": 0.6865234375,
+      "angle_deg": 0.0,
+      "length": 0.1544845437390099,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.39928909952606634,
+      "y1": 0.6875,
+      "x2": 0.6196682464454977,
+      "y2": 0.6875,
+      "angle_deg": 0.0,
+      "length": 0.14016646407539435,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.8518957345971564,
+      "y1": 0.50390625,
+      "x2": 0.8518957345971564,
+      "y2": 0.3427734375,
+      "angle_deg": -90.0,
+      "length": 0.12434121813139823,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.15402843601895735,
+      "y1": 0.6650390625,
+      "x2": 0.15402843601895735,
+      "y2": 0.509765625,
+      "angle_deg": -90.0,
+      "length": 0.11981971929025648,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.8530805687203792,
+      "y1": 0.6279296875,
+      "x2": 0.8530805687203792,
+      "y2": 0.5048828125,
+      "angle_deg": -90.0,
+      "length": 0.09495147566397683,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.6884765625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.3353080568720379,
+      0.2109375
+    ],
+    "regions": [
+      {
+        "cx": 0.2995178565179099,
+        "cy": 0.21550664784714896,
+        "x": 0.17061611374407584,
+        "y": 0.1611328125,
+        "w": 0.24881516587677724,
+        "h": 0.1201171875,
+        "area_frac": 0.02083989003258294
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8288418911924033,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.7766515356892951,
+    "horizontal_axis_y": 0.4375
+  },
+  "subject_anchor": {
+    "x": 0.3353080568720379,
+    "y": 0.2109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.569380247240614,
+    "phi": 0.23809188839799753,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.688,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.83,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.335,
+      "y": 0.211,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

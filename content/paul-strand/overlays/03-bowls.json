@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-bowls.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.47, "cy": 0.75, "rx": 0.46, "ry": 0.28, "label": "FRONT BOWL" },
+    { "type": "ellipse", "cx": 0.71, "cy": 0.27, "rx": 0.32, "ry": 0.27, "label": "REAR BOWL" },
+    { "type": "polyline", "points": [[0.0, 0.13], [0.29, 0.15], [0.62, 0.31]], "label": "CROPPED RIM ARC" }
+  ],
+  "notes": "Overlapping rims and cropped circles eliminate ordinary still-life scale."
+}

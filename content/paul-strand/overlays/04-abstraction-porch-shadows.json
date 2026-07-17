@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-abstraction-porch-shadows.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.04, 0.17], [0.31, 0.50], [0.58, 0.82]], "label": "RAILING SHADOW" },
+    { "type": "polyline", "points": [[0.09, 0.29], [0.38, 0.54], [0.69, 0.79]], "label": "PARALLEL SHADOW BAND" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.74, "rx": 0.49, "ry": 0.24, "label": "SUNLIT PORCH PLANE" }
+  ],
+  "notes": "Railing shadows slice the curved porch plane into a field of wedges."
+}
