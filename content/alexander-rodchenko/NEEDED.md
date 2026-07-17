@@ -181,3 +181,35 @@ from the Rodchenko/Stepanova Archive, MAMM, or another holding institution.
 This recovery again yields **0 / 4** qualifying files. The stage remains
 `pending`; no substitute image, display photograph, screen capture, or
 undersized scan was ingested.
+
+## 2026-07-16 public API and cross-collection recovery recheck
+
+- **Wikimedia Commons MediaWiki API** — queried 50 file-namespace matches for
+  `Alexander Rodchenko`, requesting original dimensions and licence metadata.
+  The only identified photographs *made by* Rodchenko with an explicit
+  public-domain label remain *Dance* (1915), **429 × 700px**, and *Portrait of
+  N. A. Rusakov* (1912), **594 × 800px**. Larger results are portraits of
+  Rodchenko, gallery/exhibition documentation, or reconstructions, not works
+  by him. Neither authored file reaches the 1200px long-edge floor.
+- **Library of Congress public JSON** — rechecked the separate P&P records for
+  *Dance* (cph.3b25447), *Koneco [circus]* (cph.3b25449), *Portet materi
+  [mother]* (cph.3b25450), and *Portrait of Stepanova* (cph.3b08661). Each
+  exposes only its 150px service JPEG in the public response. The *Mother*
+  record marks access restricted and says “Rights status not evaluated”; it is
+  not an express open-reuse grant. No reading-room material or protected
+  rendition was accessed.
+- **Europeana public search API** — queried cross-collection records for
+  `Alexander Rodchenko`. Returned collection results were marked
+  `InC`/`InC-EDU` and concerned designs or constructions rather than an
+  openly licensed photographic master. No candidate supplied both Rodchenko
+  authorship and an open high-resolution image.
+- **Internet Archive metadata search** — the sole direct creator-indexed item
+  is a 1983 monograph, not an expressly licensed high-resolution source for
+  individual photographs. It was not treated as permission to extract or
+  reuse plates.
+
+This recovery again yields **0 / 4** qualifying files. The stage remains
+`pending`. A later pass should retry only an explicit open release from the
+Rodchenko/Stepanova Archive, MAMM, or another institutional holder; do not
+infer reuse permission from catalogue metadata, a service thumbnail, or a
+digitized book scan.
