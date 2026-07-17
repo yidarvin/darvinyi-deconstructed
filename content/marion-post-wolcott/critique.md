@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-16
 
@@ -28,3 +28,18 @@ Prior critique rounds re-verified: 2026-07-16. The earlier round had one
 required item only; it is resolved above. The chapter’s tonal claims, literal
 annotations in the remaining proofs, and non-invention of camera settings were
 also retained as verified in that round.
+
+## Critique round — 2026-07-16
+
+### Required
+
+None. Every current proof was visually checked against its overlay JSON and
+analysis; all twelve current specs score 100/100. The resolved `11-muddy-road-
+after-thaw` annotation now follows the visible rut rather than asserting an
+unsupported vanishing point. The chapter’s quoted tonal measurements and
+palette values match the analysis files, and its settings disclaimer does not
+attribute derivative-file EXIF to Wolcott.
+
+### Advisory (non-blocking)
+
+None.
