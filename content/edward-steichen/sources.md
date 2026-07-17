@@ -37,7 +37,7 @@ This source set concentrates on the first, public-domain part of Steichen's care
 - **File:** `raw/edward-steichen/04-rodin.jpg` (4398px long edge)
 
 ### 05 — *In Memoriam* (1906)
-- **Why it matters:** A kneeling, veiled figure and the opening of a dark architectural threshold arrange grief as a few large tonal planes—an archetypal pictorialist use of silhouette and negative space.
+- **Why it matters:** A kneeling, veiled figure set within a large dark surround arranges grief as a few large tonal planes—an archetypal pictorialist use of silhouette and negative space.
 - **Source:** [Wikimedia Commons file record](https://commons.wikimedia.org/wiki/File:Edward_Jean_Steichen_-_In_Memoriam_-_Google_Art_Project.jpg)
 - **Route:** `open` — public-domain reproduction available from the cited Commons file record.
 - **Credit/copyright notice:** Edward Steichen; the cited Commons record marks this 1906 work public domain in the United States.

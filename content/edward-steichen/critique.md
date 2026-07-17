@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -69,3 +69,9 @@ Re-verified every required fix from the prior 2026-07-17 critique round: *The Po
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-17
+
+1. Replaced the unsupported *In Memoriam* threshold language in both its plate caption and source note with the visible bowed-figure/large-dark-surround relationship. The `BOWED FIGURE` ellipse was re-analyzed, rendered, visually inspected, and scored 100/100 with no warnings.
+
+Re-verified the required fixes from all three prior critique rounds dated 2026-07-17: (1) *The Pond—Moonlight* retains a reflection path rather than a vertical symmetry claim; *Rodin—Le Penseur* has no false contours; *Rodin* has no false symmetry axis; the houseboat has no reflected-shore claim; Duse is described and annotated as three-quarter; Strauss's face is an ellipse; and the Brancusi plinth/platform lines are horizontal. (2) *The Flatiron* retains no false apex/edge claim; *Rodin—Le Penseur* retains no figure frame; *Rodin* retains only the truthful dark-figure ellipse; *In Memoriam* retains no arch axis or contour; the valley has no mirror claim; *Self-Portrait* has no false vanishing point; Duncan's ellipse lands on the figure and her source note does not infer a gesture; and all twelve source records retain explicit `open` routes and credit/copyright notices. (3) *In Memoriam* now contains no threshold claim in either chapter or source note. Every current overlay scores 100/100; the visual proof pass is clean; `scripts/check.sh` passes; and `content/edward-steichen/chapter.mdx` is byte-identical to `src/chapters/edward-steichen.mdx`.
