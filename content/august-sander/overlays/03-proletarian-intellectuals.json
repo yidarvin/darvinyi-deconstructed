@@ -3,9 +3,8 @@
   "image": "03-proletarian-intellectuals.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.055, "y": 0.065, "w": 0.87, "h": 0.88, "label": "SHARED PORTRAIT FIELD" },
-    { "type": "polyline", "points": [[0.31, 0.49], [0.43, 0.31], [0.68, 0.28], [0.87, 0.48]], "label": "LINKING ARM" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.24, "rx": 0.12, "ry": 0.13, "label": "REAR SITTER" },
     { "type": "ellipse", "cx": 0.745, "cy": 0.385, "rx": 0.105, "ry": 0.125, "label": "RIGHT-HAND FACE" }
   ],
-  "notes": "Four faces are compressed into a shallow field, with the rear sitter's arm linking the front row."
+  "notes": "Four faces compress into a shallow field, with the rear and right-hand sitters establishing its depth."
 }

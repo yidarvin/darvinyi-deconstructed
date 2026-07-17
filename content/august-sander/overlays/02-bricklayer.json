@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "BODY AXIS" },
-    { "type": "frame_in_frame", "x": 0.075, "y": 0.045, "w": 0.83, "h": 0.35, "label": "BRICK LOAD" },
-    { "type": "polyline", "points": [[0.12, 0.37], [0.33, 0.34], [0.52, 0.35], [0.75, 0.37]], "label": "SHOULDER LINE" }
+    { "type": "frame_in_frame", "x": 0.075, "y": 0.045, "w": 0.83, "h": 0.35, "label": "BRICK LOAD" }
   ],
-  "notes": "The centered body is made inseparable from the broad brick load crossing its shoulders."
+  "notes": "The centered body is made inseparable from the broad brick load carried across its shoulders."
 }
