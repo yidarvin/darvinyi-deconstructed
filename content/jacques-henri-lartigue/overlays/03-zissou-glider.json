@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-zissou-glider.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.672, "angle": 1.2, "label": "ridge" },
+    { "type": "subject_anchor", "x": 0.367, "y": 0.627, "r": 0.035, "label": "glider crew" },
+    { "type": "polyline", "points": [[0.24, 0.37], [0.43, 0.48], [0.31, 0.54]], "label": "glider wings" }
+  ],
+  "notes": "The improvised glider rises above a low ridge, held by a small knot of bodies."
+}

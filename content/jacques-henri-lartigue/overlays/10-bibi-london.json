@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-bibi-london.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.445, "cy": 0.485, "rx": 0.085, "ry": 0.16, "label": "Bibi" },
+    { "type": "horizon_line", "y": 0.275, "angle": 2.8, "label": "shopfront break" },
+    { "type": "polyline", "points": [[0.47, 0.18], [0.62, 0.24], [0.82, 0.22]], "label": "shopfront band" }
+  ],
+  "notes": "A diagonal escalator extracts Bibi from a shallow strip of city, shop signs, and pedestrians."
+}

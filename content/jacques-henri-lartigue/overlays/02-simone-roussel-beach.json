@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-simone-roussel-beach.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.422, "angle": -0.8, "label": "sea horizon" },
+    { "type": "subject_anchor", "x": 0.273, "y": 0.521, "r": 0.035, "label": "Simone" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.61, "rx": 0.12, "ry": 0.15, "label": "dog" }
+  ],
+  "notes": "A low horizon and two small figures let the empty beach do most of the compositional work."
+}

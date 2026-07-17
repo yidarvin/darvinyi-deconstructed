@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-wheeled-bobsleigh.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.523, "y": 0.239, "r": 0.035, "label": "driver" },
+    { "type": "polyline", "points": [[0.10, 0.58], [0.45, 0.54], [0.67, 0.45]], "label": "chassis" },
+    { "type": "ellipse", "cx": 0.24, "cy": 0.54, "rx": 0.13, "ry": 0.16, "label": "front wheel" }
+  ],
+  "notes": "The low chassis and near wheel make the homemade machine rush across a gravel foreground."
+}
