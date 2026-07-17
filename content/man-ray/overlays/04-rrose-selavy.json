@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-rrose-selavy.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.430, "cy": 0.480, "rx": 0.230, "ry": 0.190, "label": "FACE" },
+    { "type": "polyline", "points": [[0.120, 0.300], [0.330, 0.210], [0.610, 0.250], [0.820, 0.360]], "label": "FEATHERED BRIM" },
+    { "type": "polyline", "points": [[0.135, 0.740], [0.305, 0.800], [0.520, 0.700]], "label": "FUR COLLAR" }
+  ],
+  "notes": "Feathers and fur press around the face so costume reads as a sequence of cropped textures."
+}

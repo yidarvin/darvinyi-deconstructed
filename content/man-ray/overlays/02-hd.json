@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-hd.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.057, "y": 0.042, "w": 0.884, "h": 0.782, "label": "PRINTED IMAGE" },
+    { "type": "leading_line", "points": [[0.059, 0.287], [0.057, 0.437]], "arrow": false, "label": "PRINT BORDER" },
+    { "type": "leading_line", "points": [[0.301, 0.823], [0.497, 0.823]], "arrow": false, "label": "LOWER PRINT EDGE" }
+  ],
+  "notes": "The publication border makes H.D.'s turned figure a dark internal silhouette."
+}

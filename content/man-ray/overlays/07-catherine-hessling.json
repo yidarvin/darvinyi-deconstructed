@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-catherine-hessling.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.040, "y": 0.016, "w": 0.908, "h": 0.933, "label": "MAGAZINE REPRODUCTION" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.340, "rx": 0.175, "ry": 0.180, "label": "FACE" },
+    { "type": "polyline", "points": [[0.290, 0.690], [0.405, 0.780], [0.540, 0.860]], "label": "SCARF" }
+  ],
+  "notes": "The head is isolated in a large pale field while scarf and dark shoulder turn downward."
+}

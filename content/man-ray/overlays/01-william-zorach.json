@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-william-zorach.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.558, "y": 0.523, "r": 0.035, "label": "TIE KNOT" },
+    { "type": "ellipse", "cx": 0.538, "cy": 0.448, "rx": 0.175, "ry": 0.155, "label": "TILTED HEAD" },
+    { "type": "polyline", "points": [[0.325, 0.785], [0.405, 0.640], [0.495, 0.555]], "label": "LEFT LAPEL" }
+  ],
+  "notes": "A tilted face is held against a dark coat mass; the lapel returns the eye to the face."
+}

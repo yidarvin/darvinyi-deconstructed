@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-arnold-schonberg.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.520, "cy": 0.430, "rx": 0.300, "ry": 0.330, "label": "HEAD" },
+    { "type": "polyline", "points": [[0.390, 0.570], [0.510, 0.670], [0.640, 0.780]], "label": "JAW-TO-COLLAR TURN" },
+    { "type": "polyline", "points": [[0.280, 0.250], [0.430, 0.350], [0.620, 0.490]], "label": "LIGHT-TO-SHADOW TRANSITION" }
+  ],
+  "notes": "A bright head is shaped by a firm light-shadow division and a lower shoulder turn."
+}

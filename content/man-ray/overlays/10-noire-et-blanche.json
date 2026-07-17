@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-noire-et-blanche.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.724, "angle": 0.0, "label": "TABLE EDGE" },
+    { "type": "ellipse", "cx": 0.385, "cy": 0.585, "rx": 0.190, "ry": 0.175, "label": "KIKI'S FACE" },
+    { "type": "ellipse", "cx": 0.590, "cy": 0.510, "rx": 0.095, "ry": 0.245, "label": "MASK" },
+    { "type": "polyline", "points": [[0.690, 0.300], [0.760, 0.450], [0.900, 0.600]], "label": "HAND AND ARM" }
+  ],
+  "notes": "Face and mask rhyme across the table edge, while the hand fixes their unequal pairing."
+}

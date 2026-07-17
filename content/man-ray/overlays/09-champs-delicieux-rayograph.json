@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-champs-delicieux-rayograph.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.410, "cy": 0.340, "rx": 0.270, "ry": 0.325, "label": "WHITE DISC" },
+    { "type": "leading_line", "points": [[0.408, 0.680], [0.421, 0.064]], "arrow": false, "label": "COMB EDGE" },
+    { "type": "polyline", "points": [[0.190, 0.300], [0.420, 0.430], [0.650, 0.560]], "label": "TRANSLUCENT DIAGONAL" }
+  ],
+  "notes": "A cameraless arrangement makes a disc, comb, and translucent diagonal compete as light-made forms."
+}

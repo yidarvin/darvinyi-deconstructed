@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-kiki-african-mask.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.270, "cy": 0.510, "rx": 0.215, "ry": 0.205, "label": "KIKI'S FACE" },
+    { "type": "ellipse", "cx": 0.620, "cy": 0.450, "rx": 0.115, "ry": 0.295, "label": "MASK" },
+    { "type": "polyline", "points": [[0.710, 0.205], [0.740, 0.310], [0.735, 0.435]], "label": "HAND AND FOREARM" }
+  ],
+  "notes": "A pale reclining face and a dark upright mask make a paired, unequal rhythm."
+}

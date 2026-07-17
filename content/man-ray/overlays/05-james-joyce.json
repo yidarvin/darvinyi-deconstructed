@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-james-joyce.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.485, "cy": 0.265, "rx": 0.175, "ry": 0.150, "label": "JOYCE'S FACE" },
+    { "type": "polyline", "points": [[0.180, 0.580], [0.330, 0.470], [0.490, 0.430]], "label": "SLEEVE EDGE" },
+    { "type": "polyline", "points": [[0.405, 0.425], [0.515, 0.555], [0.670, 0.705]], "label": "SHIRT FRONT" }
+  ],
+  "notes": "A pale face and shirt front form a small lit relay inside a dense dark suit."
+}

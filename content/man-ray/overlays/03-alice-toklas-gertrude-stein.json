@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-alice-toklas-gertrude-stein.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.032, "y": 0.080, "w": 0.931, "h": 0.864, "label": "PICTURE FIELD" },
+    { "type": "leading_line", "points": [[0.281, 0.582], [0.463, 0.575]], "arrow": false, "label": "MANTEL EDGE" },
+    { "type": "ellipse", "cx": 0.203, "cy": 0.635, "rx": 0.105, "ry": 0.165, "label": "TOKLAS" },
+    { "type": "ellipse", "cx": 0.819, "cy": 0.683, "rx": 0.105, "ry": 0.150, "label": "STEIN" }
+  ],
+  "notes": "Two sitters occupy an asymmetrical room whose mantel and picture wall make a dense horizontal stage."
+}
