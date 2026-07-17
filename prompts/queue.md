@@ -57,7 +57,7 @@ real queue and state live in data/registry.json.
 | 46  | ben-shahn                 | Ben Shahn                 | DONE    |
 | 47  | russell-lee               | Russell Lee               | DONE    |
 | 48  | marion-post-wolcott       | Marion Post Wolcott       | DONE    |
-| 49  | jack-delano               | Jack Delano               | PENDING |
+| 49  | jack-delano               | Jack Delano               | DONE    |
 | 50  | john-vachon               | John Vachon               | PENDING |
 | 51  | berenice-abbott           | Berenice Abbott           | PENDING |
 | 52  | margaret-bourke-white     | Margaret Bourke-White     | PENDING |
