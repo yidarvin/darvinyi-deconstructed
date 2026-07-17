@@ -445,3 +445,20 @@ No source satisfies both the explicit reuse-rights requirement and the 1200px
 long-edge floor. The unit remains **0 / 4**, stays `pending`, and has no raw
 downloads. The next lawful retry route is an express open release by the
 Rodchenko/Stepanova Archive, MAMM, or another holding institution.
+
+## 2026-07-16 high-resolution Commons lead check (current source unit)
+
+- **Wikimedia Commons / Still Art Foundation category** — the category lists
+  25 high-resolution files (for example, file 01 is **5152 × 3864px**) and was
+  checked because its title could be mistaken for a set of Rodchenko-made
+  photographs. The file metadata identifies it instead as Vyacheslav Kirillin's
+  2022 photograph of the exhibition *Alexander Rodchenko. From the Still Art
+  Foundation collection* at Kazan's Gallery of Modern Art. Although that
+  documentary image is licensed CC BY-SA 4.0, it depicts an exhibition and is
+  not a Rodchenko photograph; it was correctly rejected as a substitute.
+
+The available authored public-domain scans remain below the 1200px floor, and
+the high-resolution Commons lead is documentary material rather than a source
+photograph. The set therefore remains **0 / 4**, with no raw download and no
+stage transition. Retry only an explicitly reusable, high-resolution original
+from a rights holder or open institutional collection.
