@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -20,3 +20,13 @@ None.
 2. Corrected the visible 02 plate label to **Manuelda Hernandez** in both canonical and rendered chapter copies.
 
 Re-verified critique history: 2026-07-17, the only prior critique round. Both required fixes in that round hold in the current `sources.md`, `content/weegee/chapter.mdx`, and `src/chapters/weegee.mdx`. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-17
+
+### REQUIRED
+
+None. Reviewed all ten current proof PNGs against their overlay and analyzer JSON. Each spec has three or four focused primitives, visually traces the named feature, and scores 100/100 with no scorer deductions or warnings. The chapter's tonal and anchor figures match the current analysis within tolerance, and its settings section correctly declines to invent historical camera or exposure data. The prior round's factor-two fair-use correction remains present for every image, as does the corrected **Manuelda Hernandez** plate label. The ten linked Art Institute collection records were rechecked for title, date, artist attribution, and non-public-domain status; the source dossier supplies a traceable link and complete per-image four-factor fair-use rationale for each web-sized rendition.
+
+### Advisory (non-blocking)
+
+None.

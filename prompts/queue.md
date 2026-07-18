@@ -65,7 +65,7 @@ real queue and state live in data/registry.json.
 | 54  | w-eugene-smith            | W. Eugene Smith           | DONE    |
 | 55  | henri-cartier-bresson     | Henri Cartier-Bresson     | DONE    |
 | 56  | alfred-eisenstaedt        | Alfred Eisenstaedt        | DONE    |
-| 57  | weegee                    | Weegee (Arthur Fellig)    | PENDING |
+| 57  | weegee                    | Weegee (Arthur Fellig)    | DONE    |
 | 58  | yousuf-karsh              | Yousuf Karsh              | PENDING |
 | 59  | brassai                   | Brassaï                   | PENDING |
 | 60  | robert-doisneau           | Robert Doisneau           | PENDING |
