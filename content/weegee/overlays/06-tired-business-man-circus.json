@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-tired-business-man-circus.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.46, "y": 0.481, "r": 0.04, "label": "sleeping man's bright costume" },
+    { "type": "ellipse", "cx": 0.39, "cy": 0.36, "rx": 0.26, "ry": 0.31, "label": "sleeping spectator" },
+    { "type": "ellipse", "cx": 0.82, "cy": 0.62, "rx": 0.17, "ry": 0.19, "label": "child's watchful face" }
+  ],
+  "notes": "A sleeping adult and a watchful child make the circus a collision of private fatigue and public spectacle."
+}

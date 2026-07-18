@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-easter-sunday-harlem.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.509, "y": 0.366, "r": 0.04, "label": "central man's tie" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.40, "rx": 0.25, "ry": 0.36, "label": "central formal figure" },
+    { "type": "polyline", "points": [[0.15, 0.30], [0.51, 0.15], [0.83, 0.29]], "label": "rhythm of hats" }
+  ],
+  "notes": "A central smile, tall hat, and surrounding formal hats organize a street crowd as a patterned social stage."
+}

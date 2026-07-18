@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-bowery-follies.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.55, "cy": 0.45, "rx": 0.26, "ry": 0.21, "label": "performer's singing face" },
+    { "type": "polyline", "points": [[0.27, 0.21], [0.52, 0.31], [0.85, 0.12]], "label": "hat brim" },
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.22, "w": 0.24, "h": 0.55, "label": "microphone" }
+  ],
+  "notes": "The microphone and extravagant brim convert a close performance into a crowded, frontal event."
+}

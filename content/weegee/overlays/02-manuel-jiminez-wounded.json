@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-manuel-jiminez-wounded.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.553, "angle": 0, "label": "tiled-floor threshold" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.67, "rx": 0.29, "ry": 0.19, "label": "wounded figure and supporter" },
+    { "type": "polyline", "points": [[0.20, 0.63], [0.40, 0.56], [0.57, 0.68], [0.88, 0.78]], "label": "body-and-floor diagonal" }
+  ],
+  "notes": "The tiled floor makes a stable plane beneath an unstable chain of care, injury, and witness."
+}

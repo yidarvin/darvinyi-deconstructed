@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-the-flower-peddler.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.48, "y": 0.444, "r": 0.04, "label": "peddler's tie knot" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.32, "rx": 0.24, "ry": 0.25, "label": "hat and face" },
+    { "type": "polyline", "points": [[0.27, 0.45], [0.37, 0.36], [0.43, 0.31]], "label": "flower-to-eye gesture" }
+  ],
+  "notes": "The peddler's flower, face, and hat compress into one flash-lit address to the camera."
+}

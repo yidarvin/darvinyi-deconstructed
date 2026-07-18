@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-their-first-murder.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.523, "y": 0.67, "r": 0.04, "label": "the crowd's compressed center" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.62, "rx": 0.24, "ry": 0.22, "label": "reaction cluster" },
+    { "type": "polyline", "points": [[0.03, 0.31], [0.28, 0.43], [0.55, 0.62], [0.88, 0.68]], "label": "chain of looking" }
+  ],
+  "notes": "An arc of children and adults turns attention toward an unseen event outside the frame."
+}

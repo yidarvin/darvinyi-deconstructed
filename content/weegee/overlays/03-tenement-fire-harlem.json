@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-tenement-fire-harlem.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.49, "cy": 0.54, "rx": 0.28, "ry": 0.36, "label": "the two frightened witnesses" },
+    { "type": "polyline", "points": [[0.36, 0.66], [0.49, 0.54], [0.60, 0.37]], "label": "supporting embrace" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.00, "w": 0.29, "h": 1.0, "label": "fire-engine edge" }
+  ],
+  "notes": "A fire engine's hard edge presses two flash-lit witnesses into an exposed, intimate foreground."
+}

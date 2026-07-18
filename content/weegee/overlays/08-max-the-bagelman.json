@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-max-the-bagelman.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.499, "y": 0.851, "r": 0.04, "label": "vendor's footfall" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.60, "rx": 0.23, "ry": 0.27, "label": "flash-lit vendor" },
+    { "type": "polyline", "points": [[0.32, 0.68], [0.28, 0.80], [0.25, 0.90]], "label": "left bagel string" },
+    { "type": "polyline", "points": [[0.67, 0.68], [0.72, 0.80], [0.75, 0.90]], "label": "right bagel string" }
+  ],
+  "notes": "A flash-lit vendor arrives from a nearly black city, balanced by the two dangling strings of bagels."
+}

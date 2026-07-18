@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-the-critic.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.853, "y": 0.538, "r": 0.04, "label": "the critic's face" },
+    { "type": "ellipse", "cx": 0.38, "cy": 0.63, "rx": 0.33, "ry": 0.32, "label": "opera patrons' bright pair" },
+    { "type": "polyline", "points": [[0.20, 0.45], [0.47, 0.48], [0.82, 0.53]], "label": "social comparison" }
+  ],
+  "notes": "A bright, paired public display meets a solitary observer held at the frame's edge."
+}
