@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "01-caribbean-sea-jamaica.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.497, "angle": 0.0, "label": "sea–sky seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "balanced field" }
+  ],
+  "notes": "A nearly central horizon makes water and sky read as two equal, subtly uneven tonal fields."
+}

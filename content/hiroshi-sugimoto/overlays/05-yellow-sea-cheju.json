@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "05-yellow-sea-cheju.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.504, "angle": 0.0, "label": "waterline" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.400, "label": "open sky field" }
+  ],
+  "notes": "Fine water texture presses upward against an almost blank upper field across a level divide."
+}

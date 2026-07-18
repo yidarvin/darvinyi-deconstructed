@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-trylon-new-york.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "auditorium axis" },
+    { "type": "frame_in_frame", "x": 0.357, "y": 0.475, "w": 0.295, "h": 0.161, "label": "accumulated-light screen" },
+    { "type": "polyline", "points": [[0.49, 1.00], [0.49, 0.83], [0.50, 0.68]], "label": "central aisle" },
+    { "type": "horizon_line", "y": 0.636, "angle": 0.0, "label": "stage threshold" }
+  ],
+  "notes": "The glowing screen anchors a rigorously bilateral auditorium whose central aisle delivers the eye to accumulated light."
+}

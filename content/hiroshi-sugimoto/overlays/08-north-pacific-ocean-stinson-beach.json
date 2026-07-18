@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "08-north-pacific-ocean-stinson-beach.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.503, "angle": 0.0, "label": "near-vanishing horizon" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "unbroken field" }
+  ],
+  "notes": "The barely perceptible horizontal boundary makes the dark sea and sky read first as one field, then as distance."
+}

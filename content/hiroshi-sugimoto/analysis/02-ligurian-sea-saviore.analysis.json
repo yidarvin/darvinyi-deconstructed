@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "02-ligurian-sea-saviore.jpg",
+  "width": 850,
+  "height": 659,
+  "aspect": 1.2898,
+  "tonal": {
+    "mean": 0.46301723802972944,
+    "std": 0.19460962692666814,
+    "p05": 0.11764705882352941,
+    "p95": 0.6705882352941176,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#8d8d8d",
+    "#a4a4a4",
+    "#212121",
+    "#3c3c3c",
+    "#5f5f5f"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.6433990895295902,
+    "angle_deg": 0.0,
+    "confidence": 0.6490791006930052,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.991764705882353,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.9716240527721747,
+        "cy": 0.03114078820241864,
+        "x": 0.9352941176470588,
+        "y": 0.0,
+        "w": 0.06470588235294118,
+        "h": 0.07435508345978756,
+        "area_frac": 0.0038525394983486565
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9983321895044714,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.9684531256181863,
+    "horizontal_axis_y": 0.525
+  },
+  "subject_anchor": {
+    "x": 0.991764705882353,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3582682328256431,
+    "phi": 0.3504996267418687,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.643,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.65,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

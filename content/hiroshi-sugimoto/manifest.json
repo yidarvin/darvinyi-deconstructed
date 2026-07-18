@@ -1,0 +1,102 @@
+[
+  {
+    "file": "01-caribbean-sea-jamaica.jpg",
+    "width": 847,
+    "height": 662,
+    "sha1": "9633cd54",
+    "source": "01-caribbean-sea-jamaica.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-ligurian-sea-saviore.jpg",
+    "width": 850,
+    "height": 659,
+    "sha1": "3dbd597c",
+    "source": "02-ligurian-sea-saviore.jpg",
+    "exif": {
+      "DateTimeOriginal": "2008:09:17 04:01:19"
+    }
+  },
+  {
+    "file": "03-baltic-sea-rugen.jpg",
+    "width": 850,
+    "height": 659,
+    "sha1": "7d9818da",
+    "source": "03-baltic-sea-rugen.jpg",
+    "exif": {
+      "DateTimeOriginal": "2008:09:17 04:31:36"
+    }
+  },
+  {
+    "file": "04-lake-superior-cascade-river.jpg",
+    "width": 1400,
+    "height": 1084,
+    "sha1": "19c8d68a",
+    "source": "04-lake-superior-cascade-river.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-yellow-sea-cheju.jpg",
+    "width": 1600,
+    "height": 1247,
+    "sha1": "7b0d293a",
+    "source": "05-yellow-sea-cheju.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-ionian-sea-santa-cesarea.jpg",
+    "width": 1600,
+    "height": 1230,
+    "sha1": "17d7e521",
+    "source": "06-ionian-sea-santa-cesarea.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-sea-of-japan-rishiri-island.jpg",
+    "width": 1600,
+    "height": 1243,
+    "sha1": "33bde13d",
+    "source": "07-sea-of-japan-rishiri-island.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-north-pacific-ocean-stinson-beach.jpg",
+    "width": 1600,
+    "height": 1240,
+    "sha1": "fc3d7784",
+    "source": "08-north-pacific-ocean-stinson-beach.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-trylon-new-york.jpg",
+    "width": 1600,
+    "height": 1238,
+    "sha1": "9ef7e419",
+    "source": "09-trylon-new-york.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-metropolitan-palace-los-angeles.jpg",
+    "width": 1389,
+    "height": 1080,
+    "sha1": "fe73e939",
+    "source": "10-metropolitan-palace-los-angeles.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-studio-drive-in-culver-city.jpg",
+    "width": 1386,
+    "height": 1080,
+    "sha1": "eb8a2ab4",
+    "source": "11-studio-drive-in-culver-city.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-ua-fox-new-york.jpg",
+    "width": 1600,
+    "height": 1249,
+    "sha1": "b8c6508b",
+    "source": "12-ua-fox-new-york.jpg",
+    "exif": {}
+  }
+]

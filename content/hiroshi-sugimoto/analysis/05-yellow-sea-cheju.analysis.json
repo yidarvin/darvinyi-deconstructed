@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "05-yellow-sea-cheju.jpg",
+  "width": 1600,
+  "height": 1247,
+  "aspect": 1.2831,
+  "tonal": {
+    "mean": 0.6146570086367881,
+    "std": 0.2954738980920862,
+    "p05": 0.21176470588235294,
+    "p95": 0.9372549019607843,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#ebebeb",
+    "#3a3a3a",
+    "#d9d9d9",
+    "#545454",
+    "#767676"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.5037593984962406,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9921875,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.9696210664451388,
+        "cy": 0.043473967698318024,
+        "x": 0.9287109375,
+        "y": 0.0,
+        "w": 0.0712890625,
+        "h": 0.10526315789473684,
+        "area_frac": 0.005777382910401002
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9988908682378668,
+    "vertical_axis_x": 0.4,
+    "horizontal": 0.820818492592118,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.9921875,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.02120522128276233,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.504,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.4,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

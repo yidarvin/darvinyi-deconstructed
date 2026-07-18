@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "03-baltic-sea-rugen.jpg",
+  "width": 850,
+  "height": 659,
+  "aspect": 1.2898,
+  "tonal": {
+    "mean": 0.14544155364546962,
+    "std": 0.04169439406308765,
+    "p05": 0.09411764705882353,
+    "p95": 0.21568627450980393,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#1a1a1a",
+    "#2f2f31",
+    "#29292a",
+    "#1e1e1e",
+    "#373739"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.49165402124430957,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.991764705882353,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.9700919117647059,
+        "cy": 0.034142032411190223,
+        "x": 0.9317647058823529,
+        "y": 0.0,
+        "w": 0.06823529411764706,
+        "h": 0.0819423368740516,
+        "area_frac": 0.004455949299294832
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9952603355130554,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.23110163235509312,
+    "horizontal_axis_y": 0.5125
+  },
+  "subject_anchor": {
+    "x": 0.991764705882353,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.038192555577020885,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.492,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

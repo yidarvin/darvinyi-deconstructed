@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "image": "01-caribbean-sea-jamaica.jpg",
+  "width": 847,
+  "height": 662,
+  "aspect": 1.2795,
+  "tonal": {
+    "mean": 0.600850791990912,
+    "std": 0.2928085540187697,
+    "p05": 0.2196078431372549,
+    "p95": 0.9098039215686274,
+    "edge_density": 0.0015105740181268882
+  },
+  "palette": [
+    "#e3e3e3",
+    "#5d5d5d",
+    "#4a4a4a",
+    "#383838",
+    "#ababab"
+  ],
+  "lines": [
+    {
+      "x1": 0.0,
+      "y1": 0.49697885196374625,
+      "x2": 0.885478158205431,
+      "y2": 0.49697885196374625,
+      "angle_deg": 0.0,
+      "length": 0.6976659666722594,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.8689492325855962,
+      "y1": 0.4984894259818731,
+      "x2": 0.9988193624557261,
+      "y2": 0.4984894259818731,
+      "angle_deg": 0.0,
+      "length": 0.10232434177859805,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.49697885196374625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7567886658795749,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.5443985121401723,
+        "cy": 0.040103207730634305,
+        "x": 0.05548996458087367,
+        "y": 0.0,
+        "w": 0.9445100354191264,
+        "h": 0.0891238670694864,
+        "area_frac": 0.07600844637373064
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.999469776907391,
+    "vertical_axis_x": 0.475,
+    "horizontal": 0.5824030237430745,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.7567886658795749,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.018470960319848,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.497,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.475,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.757,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

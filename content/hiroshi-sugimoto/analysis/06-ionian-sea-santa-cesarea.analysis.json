@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "06-ionian-sea-santa-cesarea.jpg",
+  "width": 1600,
+  "height": 1230,
+  "aspect": 1.3008,
+  "tonal": {
+    "mean": 0.16867975718321002,
+    "std": 0.08480821442781897,
+    "p05": 0.058823529411764705,
+    "p95": 0.25882352941176473,
+    "edge_density": 0.001268166296060991
+  },
+  "palette": [
+    "#404040",
+    "#101010",
+    "#161616",
+    "#1e1e1e",
+    "#282828"
+  ],
+  "lines": [
+    {
+      "x1": 0.0107421875,
+      "y1": 0.49555273189326554,
+      "x2": 0.60546875,
+      "y2": 0.49555273189326554,
+      "angle_deg": 0.0,
+      "length": 0.4715485673550453,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.7216796875,
+      "y1": 0.49809402795425667,
+      "x2": 0.892578125,
+      "y2": 0.49809402795425667,
+      "angle_deg": 0.0,
+      "length": 0.1355024618836337,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.5732421875,
+      "y1": 0.49682337992376113,
+      "x2": 0.734375,
+      "y2": 0.49682337992376113,
+      "angle_deg": 0.0,
+      "length": 0.12775946406171176,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.8701171875,
+      "y1": 0.4993646759847522,
+      "x2": 0.9912109375,
+      "y2": 0.4993646759847522,
+      "angle_deg": 0.0,
+      "length": 0.09601317299183187,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.49555273189326554,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9921875,
+      0.4993646759847522
+    ],
+    "regions": [
+      {
+        "cx": 0.9733926279827969,
+        "cy": 0.5022554355107343,
+        "x": 0.9384765625,
+        "y": 0.44472681067344344,
+        "w": 0.0615234375,
+        "h": 0.11435832274459974,
+        "area_frac": 0.005590106813850064
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9986199821991613,
+    "vertical_axis_x": 0.4,
+    "horizontal": 0.392055202293797,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.9921875,
+    "y": 0.4993646759847522,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.023752886506813585,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.496,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.4,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.499,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

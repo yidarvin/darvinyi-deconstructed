@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "07-sea-of-japan-rishiri-island.jpg",
+  "width": 1600,
+  "height": 1243,
+  "aspect": 1.2872,
+  "tonal": {
+    "mean": 0.5812676453246393,
+    "std": 0.14003443290774054,
+    "p05": 0.39215686274509803,
+    "p95": 0.7607843137254902,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#767676",
+    "#b6b6b6",
+    "#676767",
+    "#c1c1c1",
+    "#aaaaaa"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.4968553459119497,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9921875,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.9733363999527708,
+        "cy": 0.033722652598894225,
+        "x": 0.939453125,
+        "y": 0.0,
+        "w": 0.060546875,
+        "h": 0.07924528301886792,
+        "area_frac": 0.0039013364779874214
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9907919143642538,
+    "vertical_axis_x": 0.4875,
+    "horizontal": 0.516454412659643,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.9921875,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.01892839014131672,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.497,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "confidence": 0.99,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

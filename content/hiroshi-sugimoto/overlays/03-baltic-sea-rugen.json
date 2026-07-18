@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "03-baltic-sea-rugen.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.492, "angle": 0.0, "label": "level horizon" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "paired expanse" }
+  ],
+  "notes": "A precisely level horizon makes the dark water and pale atmosphere register as a single bilateral expanse."
+}

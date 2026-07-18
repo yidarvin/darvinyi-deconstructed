@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "02-ligurian-sea-saviore.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.643, "angle": 0.0, "label": "soft sea–sky seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "even field" }
+  ],
+  "notes": "The submerged horizon leaves a heavy water field below an expansive, graded sky."
+}

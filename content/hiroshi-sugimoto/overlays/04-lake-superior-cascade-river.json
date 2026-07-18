@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "04-lake-superior-cascade-river.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.499, "angle": 0.0, "label": "compressed horizon seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "quietly even field" }
+  ],
+  "notes": "A central seam holds two dense grey fields in suspension rather than describing a scenic view."
+}

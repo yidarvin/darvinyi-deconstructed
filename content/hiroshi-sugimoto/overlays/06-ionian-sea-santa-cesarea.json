@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "06-ionian-sea-santa-cesarea.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.496, "angle": 0.0, "label": "luminous horizon" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.400, "label": "shared field" }
+  ],
+  "notes": "A nearly central horizon turns the immense dark water and luminous air into a single two-part field."
+}

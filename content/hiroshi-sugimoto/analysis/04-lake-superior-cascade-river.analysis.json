@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "image": "04-lake-superior-cascade-river.jpg",
+  "width": 1400,
+  "height": 1084,
+  "aspect": 1.2915,
+  "tonal": {
+    "mean": 0.3450780495673648,
+    "std": 0.22942271519209068,
+    "p05": 0.10588235294117647,
+    "p95": 0.6313725490196078,
+    "edge_density": 0.0024241437815656565
+  },
+  "palette": [
+    "#1e1e1e",
+    "#8f8f8f",
+    "#9f9f9f",
+    "#7e7e7e",
+    "#424242"
+  ],
+  "lines": [
+    {
+      "x1": 0.275390625,
+      "y1": 0.49873737373737376,
+      "x2": 0.7060546875,
+      "y2": 0.49873737373737376,
+      "angle_deg": 0.0,
+      "length": 0.3406609187476059,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.6416015625,
+      "y1": 0.494949494949495,
+      "x2": 0.9990234375,
+      "y2": 0.494949494949495,
+      "angle_deg": 0.0,
+      "length": 0.2827253883483532,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0,
+      "y1": 0.4911616161616162,
+      "x2": 0.33203125,
+      "y2": 0.4911616161616162,
+      "angle_deg": 0.0,
+      "length": 0.26264107114327895,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.328125,
+      "y1": 0.49242424242424243,
+      "x2": 0.4853515625,
+      "y2": 0.49242424242424243,
+      "angle_deg": 0.0,
+      "length": 0.12436827192372914,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.6962890625,
+      "y1": 0.5,
+      "x2": 0.833984375,
+      "y2": 0.5,
+      "angle_deg": 0.0,
+      "length": 0.10891879715059509,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.8525390625,
+      "y1": 0.5012626262626263,
+      "x2": 0.9892578125,
+      "y2": 0.5012626262626263,
+      "angle_deg": 0.0,
+      "length": 0.10814632341193839,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.49873737373737376,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9921875,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.9751209740288667,
+        "cy": 0.03205747784329395,
+        "x": 0.943359375,
+        "y": 0.0,
+        "w": 0.056640625,
+        "h": 0.07575757575757576,
+        "area_frac": 0.0034598918876262625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9986167601555764,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.6492725940161646,
+    "horizontal_axis_y": 0.5375
+  },
+  "subject_anchor": {
+    "x": 0.9921875,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.011957916713820183,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.499,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
