@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-vogue-france-october-1983.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.304, "y": 0.031, "r": 0.035, "label": "upper hand" },
+    { "type": "polyline", "points": [[0.04, 0.55], [0.33, 0.46], [0.63, 0.55], [0.86, 0.74]], "label": "reclining body diagonal" },
+    { "type": "ellipse", "cx": 0.29, "cy": 0.2, "rx": 0.12, "ry": 0.09, "label": "upper calla lily" },
+    { "type": "ellipse", "cx": 0.42, "cy": 0.47, "rx": 0.12, "ry": 0.09, "label": "lower calla lily" }
+  ],
+  "notes": "A reclining diagonal and repeated lilies tie the body into the dense grass field."
+}

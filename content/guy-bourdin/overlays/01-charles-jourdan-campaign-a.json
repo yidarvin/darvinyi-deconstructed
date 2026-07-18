@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-charles-jourdan-campaign-a.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.171, "angle": -4.1, "label": "storefront break" },
+    { "type": "subject_anchor", "x": 0.633, "y": 0.487, "r": 0.035, "label": "figure in print" },
+    { "type": "frame_in_frame", "x": 0.355, "y": 0.145, "w": 0.47, "h": 0.575, "label": "held photograph" }
+  ],
+  "notes": "The held black-and-white frame reroutes the street scene through a second scale."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-french-vogue-may-1977.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.565, "angle": 0, "label": "table edge" },
+    { "type": "ellipse", "cx": 0.17, "cy": 0.32, "rx": 0.12, "ry": 0.18, "label": "round mirror" },
+    { "type": "polyline", "points": [[0.35, 0.28], [0.55, 0.48], [0.82, 0.63]], "label": "red body diagonal" }
+  ],
+  "notes": "A red body leans toward its mirror double, with the tabletop keeping the echo off balance."
+}

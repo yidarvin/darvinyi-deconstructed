@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-charles-jourdan-spring-1978-a.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.15, 0.41], [0.85, 0.52]], "arrow": true, "label": "yellow curb" },
+    { "type": "frame_in_frame", "x": 0.32, "y": 0.7, "w": 0.48, "h": 0.28, "label": "small photograph" },
+    { "type": "ellipse", "cx": 0.43, "cy": 0.35, "rx": 0.16, "ry": 0.3, "label": "oversized sandal" }
+  ],
+  "notes": "Curb, shoe, and small print make scale itself the staged collision."
+}

@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "image": "04-charles-jourdan-campaign-d.jpg",
+  "width": 1000,
+  "height": 662,
+  "aspect": 1.5106,
+  "tonal": {
+    "mean": 0.5251414963568508,
+    "std": 0.18757165424114997,
+    "p05": 0.17254901960784313,
+    "p95": 0.7372549019607844,
+    "edge_density": 0.004625377643504532
+  },
+  "palette": [
+    "#dcb148",
+    "#d1940d",
+    "#ac7206",
+    "#8d150d",
+    "#362623"
+  ],
+  "lines": [
+    {
+      "x1": 0.0,
+      "y1": 0.8111782477341389,
+      "x2": 0.186,
+      "y2": 0.8111782477341389,
+      "angle_deg": 0.0,
+      "length": 0.1550945934668496,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.187,
+      "y1": 0.8126888217522659,
+      "x2": 0.372,
+      "y2": 0.8126888217522659,
+      "angle_deg": 0.0,
+      "length": 0.15426075156649016,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.767,
+      "y1": 0.8157099697885196,
+      "x2": 0.879,
+      "y2": 0.8157099697885196,
+      "angle_deg": 0.0,
+      "length": 0.0933902928402535,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.7,
+      "y1": 0.8670694864048338,
+      "x2": 0.801,
+      "y2": 0.8746223564954683,
+      "angle_deg": 2.8341110163065135,
+      "length": 0.08432116704062821,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.688,
+      "y1": 0.649546827794562,
+      "x2": 0.718,
+      "y2": 0.7900302114803626,
+      "angle_deg": 72.12130340415867,
+      "length": 0.0814821840280274,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.634,
+      "y1": 0.6601208459214502,
+      "x2": 0.671,
+      "y2": 0.7930513595166163,
+      "angle_deg": 67.19545952867895,
+      "length": 0.07960024412479341,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.801,
+      "y1": 0.7598187311178247,
+      "x2": 0.886,
+      "y2": 0.6993957703927492,
+      "angle_deg": -25.20112364547507,
+      "length": 0.07833233481816913,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.88,
+      "y1": 0.8141993957703928,
+      "x2": 0.947,
+      "y2": 0.8141993957703928,
+      "angle_deg": 0.0,
+      "length": 0.05586740732408023,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.8111782477341389,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": {
+    "x": 0.7040444212976582,
+    "y": 0.82874041492969,
+    "inliers": 2,
+    "confidence": 0.4
+  },
+  "saliency": {
+    "peak": [
+      0.632,
+      0.6314199395770392
+    ],
+    "regions": [
+      {
+        "cx": 0.6118476692779027,
+        "cy": 0.6673516367461394,
+        "x": 0.533,
+        "y": 0.56797583081571,
+        "w": 0.155,
+        "h": 0.2084592145015106,
+        "area_frac": 0.01947583081570997
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9438093298545163,
+    "vertical_axis_x": 0.575,
+    "horizontal": 0.7983517134467704,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.632,
+    "y": 0.6314199395770392,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.42650207980740124,
+    "phi": 0.5044746409809319,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.811,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.575,
+      "confidence": 0.94,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.632,
+      "y": 0.631,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

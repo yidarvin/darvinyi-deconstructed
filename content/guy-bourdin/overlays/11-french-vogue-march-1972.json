@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-french-vogue-march-1972.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.799, "angle": 2.9, "label": "platform edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "mirror rhythm" },
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.03, "w": 0.75, "h": 0.77, "label": "mirror strip" },
+    { "type": "polyline", "points": [[0.21, 0.57], [0.42, 0.43], [0.66, 0.34], [0.87, 0.25]], "label": "repeated reclining pose" }
+  ],
+  "notes": "Mirror panels multiply a reclining pose across a shallow pink set."
+}

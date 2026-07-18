@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-charles-jourdan-campaign-b.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.492, "y": 0.559, "label": "receding ramp" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "split between legs" },
+    { "type": "frame_in_frame", "x": 0.285, "y": 0.115, "w": 0.43, "h": 0.46, "label": "nested pose" }
+  ],
+  "notes": "A centered print repeats the crouch inside the wider, unstable body frame."
+}

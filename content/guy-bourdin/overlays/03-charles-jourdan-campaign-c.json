@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-charles-jourdan-campaign-c.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.641, "y": 0.307, "label": "street recession" },
+    { "type": "frame_in_frame", "x": 0.095, "y": 0.09, "w": 0.81, "h": 0.64, "label": "torn print pair" },
+    { "type": "polyline", "points": [[0.485, 0.09], [0.475, 0.42], [0.505, 0.72]], "label": "torn opening" }
+  ],
+  "notes": "Two torn monochrome halves make a narrow colour figure appear through the picture itself."
+}

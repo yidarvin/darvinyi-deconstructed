@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-french-vogue-december-1969.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.575, "y": 0.71, "r": 0.035, "label": "green brooch" },
+    { "type": "polyline", "points": [[0.48, 0.4], [0.51, 0.55], [0.575, 0.71]], "label": "necklace descent" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.72, "rx": 0.16, "ry": 0.1, "label": "green brooch" }
+  ],
+  "notes": "Lips, necklace, and brooch create a crooked route across a glittering cropped surface."
+}

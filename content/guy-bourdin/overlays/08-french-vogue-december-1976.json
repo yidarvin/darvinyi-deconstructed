@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-french-vogue-december-1976.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.424, "angle": 0, "label": "umbrella band break" },
+    { "type": "leading_line", "points": [[0.004, 0.841], [0.436, 0.121]], "arrow": true, "label": "left umbrella rib" },
+    { "type": "leading_line", "points": [[0.448, 0.712], [0.813, 0.165]], "arrow": true, "label": "right umbrella rib" },
+    { "type": "subject_anchor", "x": 0.46, "y": 0.463, "r": 0.035, "label": "single visible eye" }
+  ],
+  "notes": "A small made-up eye punctures a field of overlapping dark umbrellas."
+}

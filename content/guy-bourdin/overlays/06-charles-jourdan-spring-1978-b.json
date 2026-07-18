@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-charles-jourdan-spring-1978-b.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.148, "angle": 0, "label": "rail line" },
+    { "type": "leading_line", "points": [[0, 0.902], [0.176, 0.727]], "arrow": true, "label": "left cast shadow" },
+    { "type": "polyline", "points": [[0.5, 1], [0.52, 0.75], [0.55, 0.62]], "label": "pavement crack" }
+  ],
+  "notes": "Rails, shadow, and pavement crack compete with the walking legs and discarded faces."
+}

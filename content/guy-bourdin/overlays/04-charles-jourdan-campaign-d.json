@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-charles-jourdan-campaign-d.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.811, "angle": 0, "label": "yellow-red set seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.575, "label": "cropped body balance" },
+    { "type": "subject_anchor", "x": 0.632, "y": 0.631, "r": 0.035, "label": "bent figure" },
+    { "type": "polyline", "points": [[0.53, 0.63], [0.69, 0.8], [0.88, 0.78]], "label": "leg-and-shoe contour" }
+  ],
+  "notes": "A hard colour-field seam turns the cropped legs and shoes into a compact graphic sign."
+}
