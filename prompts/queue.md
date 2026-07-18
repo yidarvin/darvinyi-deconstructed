@@ -87,7 +87,7 @@ real queue and state live in data/registry.json.
 | 76  | eliot-porter              | Eliot Porter              | DONE    |
 | 77  | bill-brandt               | Bill Brandt               | DONE    |
 | 78  | josef-sudek               | Josef Sudek               | DONE    |
-| 79  | sebastiao-salgado         | Sebastião Salgado         | PENDING |
+| 79  | sebastiao-salgado         | Sebastião Salgado         | DONE    |
 | 80  | hiroshi-sugimoto          | Hiroshi Sugimoto          | PENDING |
 | 81  | lisette-model             | Lisette Model             | PENDING |
 | 82  | helen-levitt              | Helen Levitt              | PENDING |
