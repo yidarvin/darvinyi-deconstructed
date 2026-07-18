@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-patti-smith.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.37, 0.20], [0.47, 0.40], [0.61, 0.66], [0.76, 0.86]], "label": "body and drapery diagonal" },
+    { "type": "polyline", "points": [[0.12, 0.78], [0.36, 0.70], [0.62, 0.73], [0.88, 0.82]], "label": "flame line" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.31, "rx": 0.11, "ry": 0.13, "label": "Patti Smith" },
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.03, "w": 0.83, "h": 0.94, "label": "film-strip border" }
+  ],
+  "notes": "A figure and hanging drapery rise against fire, while the film-strip edge turns the staging into a frame within the frame."
+}

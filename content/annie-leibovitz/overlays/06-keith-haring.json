@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-keith-haring.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.52, "cy": 0.50, "rx": 0.21, "ry": 0.31, "label": "painted figure" },
+    { "type": "polyline", "points": [[0.25, 0.70], [0.43, 0.58], [0.58, 0.43], [0.76, 0.31]], "label": "mural's diagonal rhythm" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.07, "w": 0.90, "h": 0.84, "label": "all-over wall field" }
+  ],
+  "notes": "The body is read inside, and partly absorbed by, the mural's dense all-over black line."
+}

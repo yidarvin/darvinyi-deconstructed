@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-queen-elizabeth-ii.jpg",
+    "width": 1024,
+    "height": 681,
+    "sha1": "21274997",
+    "source": "01-queen-elizabeth-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-john-lennon-yoko-ono.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "fabc574d",
+    "source": "02-john-lennon-yoko-ono.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-whoopi-goldberg.jpg",
+    "width": 1024,
+    "height": 1009,
+    "sha1": "4535a2af",
+    "source": "03-whoopi-goldberg.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-meryl-streep.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "505df751",
+    "source": "04-meryl-streep.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-r2-d2.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "a5db0686",
+    "source": "05-r2-d2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-keith-haring.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "0c82a52d",
+    "source": "06-keith-haring.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-cindy-crawford.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "bc54fb79",
+    "source": "07-cindy-crawford.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-dan-aykroyd-john-belushi.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "232f6747",
+    "source": "08-dan-aykroyd-john-belushi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-bruce-springsteen.jpg",
+    "width": 1024,
+    "height": 657,
+    "sha1": "ad65ad05",
+    "source": "09-bruce-springsteen.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-patti-smith.jpg",
+    "width": 1338,
+    "height": 1600,
+    "sha1": "ede628e2",
+    "source": "10-patti-smith.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-john-lennon-new-york.jpg",
+    "width": 1024,
+    "height": 1462,
+    "sha1": "26334d19",
+    "source": "11-john-lennon-new-york.jpg",
+    "exif": {}
+  }
+]

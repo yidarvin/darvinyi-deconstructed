@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-cindy-crawford.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.52, "rx": 0.15, "ry": 0.34, "label": "standing figure" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.49, "rx": 0.36, "ry": 0.42, "label": "dark foliage field" },
+    { "type": "polyline", "points": [[0.41, 0.30], [0.48, 0.43], [0.54, 0.62], [0.58, 0.78]], "label": "body's vertical turn" }
+  ],
+  "notes": "The small pale figure is suspended as a narrow vertical against a dense dark field."
+}

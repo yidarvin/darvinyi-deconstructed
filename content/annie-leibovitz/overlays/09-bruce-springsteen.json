@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-bruce-springsteen.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.46, "cy": 0.34, "rx": 0.12, "ry": 0.16, "label": "Springsteen" },
+    { "type": "polyline", "points": [[0.30, 0.64], [0.53, 0.67], [0.77, 0.71]], "label": "guitar across the frame" },
+    { "type": "polyline", "points": [[0.48, 0.44], [0.46, 0.58], [0.43, 0.78]], "label": "arm to papers" },
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.04, "w": 0.91, "h": 0.86, "label": "backstage work table" }
+  ],
+  "notes": "Guitar, reaching arm, and paper-covered table make the offstage portrait feel like an interrupted working moment."
+}

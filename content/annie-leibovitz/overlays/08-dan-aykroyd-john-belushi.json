@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-dan-aykroyd-john-belushi.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "paired center" },
+    { "type": "ellipse", "cx": 0.38, "cy": 0.43, "rx": 0.17, "ry": 0.22, "label": "Aykroyd head and hat" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.49, "rx": 0.17, "ry": 0.22, "label": "Belushi head and hat" },
+    { "type": "polyline", "points": [[0.25, 0.74], [0.42, 0.65], [0.58, 0.69], [0.76, 0.81]], "label": "joined dark suits" }
+  ],
+  "notes": "Blue faces, black hats, and paired suits make two performers read as one deliberately manufactured unit."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-meryl-streep.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.43, "rx": 0.16, "ry": 0.17, "label": "painted face" },
+    { "type": "polyline", "points": [[0.20, 0.53], [0.32, 0.40], [0.37, 0.34]], "label": "left hand to temple" },
+    { "type": "polyline", "points": [[0.80, 0.53], [0.68, 0.40], [0.63, 0.34]], "label": "right hand to temple" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.47, "rx": 0.38, "ry": 0.40, "label": "dark portrait surround" }
+  ],
+  "notes": "A centered white face and doubled hand gesture make theatrical attention out of an otherwise dark field."
+}

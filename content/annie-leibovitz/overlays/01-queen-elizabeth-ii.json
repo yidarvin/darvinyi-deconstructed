@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-queen-elizabeth-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.352, "y": 0.392, "r": 0.04, "label": "queen" },
+    { "type": "frame_in_frame", "x": 0.295, "y": 0.05, "w": 0.39, "h": 0.69, "label": "mirror and cabinet field" },
+    { "type": "polyline", "points": [[0.03, 0.91], [0.33, 0.79], [0.67, 0.80], [0.98, 0.91]], "label": "carpeted foreground plane" }
+  ],
+  "notes": "The Queen's small bright figure is held between the deep mirror-cabinet field and the wide foreground carpet."
+}
