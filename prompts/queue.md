@@ -67,7 +67,7 @@ real queue and state live in data/registry.json.
 | 56  | alfred-eisenstaedt        | Alfred Eisenstaedt        | DONE    |
 | 57  | weegee                    | Weegee (Arthur Fellig)    | DONE    |
 | 58  | yousuf-karsh              | Yousuf Karsh              | DONE    |
-| 59  | brassai                   | Brassaï                   | PENDING |
+| 59  | brassai                   | Brassaï                   | DONE    |
 | 60  | robert-doisneau           | Robert Doisneau           | PENDING |
 | 61  | josef-koudelka            | Josef Koudelka            | PENDING |
 | 62  | cecil-beaton              | Cecil Beaton              | PENDING |
