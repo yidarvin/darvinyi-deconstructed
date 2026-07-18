@@ -2,11 +2,11 @@
 
 ## Record and period
 
-This selection spans 1976–96: eight *Seascapes* made from 1980 to 1996 and four *Theaters* made from 1976 to 1993. The source records identify the artist's official *Seascapes* page for the first three works and Fraenkel Gallery's public portfolio for the remaining selections. The National Museum of Modern Art, Tokyo describes *Theaters* and *Seascapes* among the series that established Sugimoto's reputation. Princeton University Art Museum characterizes the two series as focused pictures that also approach geometric abstraction.
+This selection spans 1976–96: eight *Seascapes* made from 1980 to 1996 and four *Theaters* made from 1976 to 1993. The source records identify the artist's official *Seascapes* page for the first three works, Fraenkel Gallery's *Seascapes* portfolio for 04–08, and its matching *Theaters* portfolio for 09–12. The National Museum of Modern Art, Tokyo describes *Theaters* and *Seascapes* among the series that established Sugimoto's reputation. Princeton University Art Museum characterizes the two series as focused pictures that also approach geometric abstraction.
 
 ## Technique and printing
 
-The supplied research record describes Sugimoto's large-format exposures as lasting for the duration of a film or a voyage. That is the documentary basis for discussing duration here; it does not supply an exposure time for any individual photograph. Fraenkel's records identify the nine works sourced there as gelatin silver prints, edition of 25. The source page for the first three *Seascapes* identifies the works but the supplied record does not state their individual print medium or edition, so those details are not generalized to all twelve plates.
+The supplied research record describes Sugimoto's large-format exposures as lasting for the duration of a film or a voyage. That is the documentary basis for discussing duration here; it does not supply an exposure time for any individual photograph. Fraenkel's matching *Seascapes* and *Theaters* records identify 04–12 as gelatin silver prints, edition of 25. The source page for the first three *Seascapes* identifies the works but the supplied record does not state their individual print medium or edition, so those details are not generalized to all twelve plates.
 
 The public display JPEGs do not provide camera model, lens, focal length, aperture, shutter speed, film stock, negative format, paper, developer, or darkroom procedure for these individual exposures. Two downloaded display files carry a 2008 `DateTimeOriginal` tag, but that is metadata from a later digital file and not evidence about a 1993 or 1996 camera exposure. It is therefore not used as a capture setting.
 

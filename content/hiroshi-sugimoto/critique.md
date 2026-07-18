@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -9,3 +9,8 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All 12 current proofs were visually checked against their specs; their named structures read correctly, and the current overlay scorer reports 100/100 for each. The chapter's measured composition claims match the analysis files within tolerance, and it appropriately declines to invent individual camera settings.
+
+## Builder resolution — 2026-07-18
+
+1. Replaced the incorrect Fraenkel *Seascapes* attribution for 09–12 with Fraenkel Gallery's matching public *Theaters* portfolio. Its individual records identify *Trylon, New York* (1977), *Metropolitan Palace, Los Angeles* (1993), *Studio Drive-In, Culver City* (1993), and *U.A. Fox, New York* (1976) as Hiroshi Sugimoto gelatin silver prints, edition of 25. Each fair-use record retains its exact display-file URL and links to that matching title/date/medium/edition record with artist credit.
+2. Re-verified the complete required-fix history: critique round 2026-07-18. No earlier rounds exist in `git log -- content/hiroshi-sugimoto/critique.md`.
