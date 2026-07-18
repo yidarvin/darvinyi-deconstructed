@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -23,3 +23,24 @@ None. The remaining proofs visibly support their labeled primitives; every store
 3. Confirmed `content/cecil-beaton/chapter.mdx` and
    `src/chapters/cecil-beaton.mdx` remain byte-identical. `scripts/check.sh`
    passed before this resolution was recorded.
+
+## Critique round — 2026-07-18
+
+### Required
+
+None.
+
+The resolved `04-chow-chung-yuch-door` paths now visibly follow their named
+middle and lower stud rows; the prior false-diagonal finding has not regressed.
+All ten current overlays render as materially truthful three-primitive teaching
+arguments, and each scores 100/100 against its matching analysis with no
+warnings. Visual review confirms that the labels trace the named architectural,
+human, mechanical, or light features. The chapter's quoted tonal, edge-density,
+and grid-fit readings match the analysis files within tolerance, avoids
+undocumented camera or printing settings, and the per-image IWM/Commons source
+records provide matching object numbers, provenance, credits, and the stated
+open-use basis.
+
+### Advisory (non-blocking)
+
+None.
