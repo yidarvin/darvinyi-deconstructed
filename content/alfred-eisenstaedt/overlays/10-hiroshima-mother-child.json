@@ -4,8 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "ellipse", "cx": 0.43, "cy": 0.54, "rx": 0.31, "ry": 0.32, "label": "mother and child" },
-    { "type": "frame_in_frame", "x": 0.60, "y": 0.00, "w": 0.39, "h": 0.87, "label": "burned tree frame" },
+    { "type": "polyline", "points": [[0.405, 0.0], [0.47, 0.095], [0.515, 0.11], [0.53, 0.265], [0.595, 0.43], [0.65, 0.72], [0.635, 0.98]], "label": "burned tree trunk" },
     { "type": "polyline", "points": [[0.03, 0.46], [0.31, 0.56], [0.60, 0.68], [0.79, 0.84]], "label": "rubble field" }
   ],
-  "notes": "A mother and child remain legible inside a broken tree-and-rubble field that refuses a neutral background."
+  "notes": "A mother and child remain legible beside a burned tree and rubble field that refuse a neutral background."
 }

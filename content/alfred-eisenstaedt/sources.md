@@ -44,8 +44,9 @@ depends on the photographer’s placement of subject, setting, and edge space.
    the acquisition approach applies specifically to this complete-frame analysis.
 
 4. **Hitler, Goebbels, Mussolini** (c. 1933) — `04-hitler-goebbels-mussolini.jpg`
-   — The clustered political figures demonstrate how a compressed vertical frame
-   can organize status, gaze, and tension without a conventional center.
+   — The supplied mounted reproduction centers on one seated man, while cropped
+   legs, a hand with papers, and surrounding figures make the compressed vertical
+   picture field a study in status and tension without a conventional center.
    Source: [LIFE Photo Collection record](https://artsandculture.google.com/asset/hitler-goebbels-mussolini/awEb2z2Np-EQaw?hl=en).  **Use basis: fair-use.** LIFE Photo Collection;
    Alfred Eisenstaedt; copyright notice as above.  The four-factor assessment in
    the acquisition approach applies specifically to this complete-frame analysis.
@@ -64,17 +65,17 @@ depends on the photographer’s placement of subject, setting, and edge space.
    Alfred Eisenstaedt; copyright notice as above.  The four-factor assessment in
    the acquisition approach applies specifically to this complete-frame analysis.
 
-7. **South Dakota** (1940) — `07-south-dakota.jpg` — A small figure in broad rural
-   space makes negative space, horizon placement, and scale contrast immediately
-   teachable.
+7. **South Dakota** (1940) — `07-south-dakota.jpg` — A monumental carved head under
+   construction, crossed by platforms and cables, makes scale contrast and the
+   relation of human work to a vast sculptural mass immediately teachable.
    Source: [LIFE Photo Collection record](https://artsandculture.google.com/asset/south-dakota/dAF1UuMXzv4CDQ?hl=en).  **Use basis: fair-use.** LIFE Photo Collection;
    Alfred Eisenstaedt; copyright notice as above.  The four-factor assessment in
    the acquisition approach applies specifically to this complete-frame analysis.
 
 8. **Life Photographer (Margaret Bourke-White’s photographic equipment)** (1943)
-   — `08-margaret-bourke-white.jpg` — The nested apparatus and photographer offer
-   a lesson in framing within framing and in balancing active detail across a wide
-   reportage image.
+   — `08-margaret-bourke-white.jpg` — The equipment-only arrangement of cameras,
+   lenses, cases, and accessories offers a lesson in nested forms and in balancing
+   active detail across a wide reportage image.
    Source: [LIFE Photo Collection record](https://artsandculture.google.com/asset/JAG4wA4AvnEw3Q?hl=en).  **Use basis: fair-use.** LIFE Photo Collection;
    Alfred Eisenstaedt; copyright notice as above.  The four-factor assessment in
    the acquisition approach applies specifically to this complete-frame analysis.
