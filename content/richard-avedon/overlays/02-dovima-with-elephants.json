@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-dovima-with-elephants.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "figure between elephants" },
+    { "type": "subject_anchor", "x": 0.519, "y": 0.461, "r": 0.035, "label": "Dovima" },
+    { "type": "polyline", "points": [[0.333, 0.476], [0.519, 0.461], [0.705, 0.381]], "label": "outstretched arms" }
+  ],
+  "notes": "Dovima's horizontal arm span cuts between two much larger animal masses."
+}

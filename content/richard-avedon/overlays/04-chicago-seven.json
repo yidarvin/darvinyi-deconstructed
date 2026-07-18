@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-chicago-seven.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.014, "y": 0.03, "w": 0.971, "h": 0.934, "label": "serial portrait strip" },
+    { "type": "leading_line", "points": [[0.663, 0.033], [0.663, 0.587]], "arrow": false, "label": "panel divider" },
+    { "type": "polyline", "points": [[0.08, 0.2], [0.33, 0.17], [0.58, 0.18], [0.84, 0.16]], "label": "head rhythm" }
+  ],
+  "notes": "The seven figures become a serial rhythm through repeated vertical divisions and head heights."
+}

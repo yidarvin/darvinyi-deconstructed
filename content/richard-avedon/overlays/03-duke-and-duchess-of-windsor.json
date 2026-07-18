@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-duke-and-duchess-of-windsor.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.022, "y": 0.022, "w": 0.956, "h": 0.948, "label": "print edge" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.42, "rx": 0.34, "ry": 0.29, "label": "paired heads" },
+    { "type": "polyline", "points": [[0.365, 0.495], [0.5, 0.44], [0.663, 0.39]], "label": "shared face line" }
+  ],
+  "notes": "The close pair fills a bordered square, with their unequal faces making the central pressure."
+}
