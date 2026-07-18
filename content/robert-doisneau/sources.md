@@ -19,9 +19,9 @@ Doisneau's humanist photographs make a social situation legible as a piece of fr
 - **File:** `raw/robert-doisneau/02-enfant-papillon.jpg` (673 × 903px)
 
 ### 03 — *Le petit tzigane de Montreuil* (1950)
-- **Why it matters:** A direct child portrait balances a close, self-possessed figure against an active street edge, making the surrounding interval as important as the face.
+- **Why it matters:** A sleeping child lies before patterned wallpaper and bedding, making the changing scales of fabric, paper, and face as important as the figure itself.
 - **Source:** [Atelier Robert Doisneau, Children portfolio](https://www.robert-doisneau.com/en/robert-doisneau/portfolios/474,enfants.htm); [public display JPEG](https://www.robert-doisneau.com/ressources/imageBank/cache/37/1024x-483-Le-petit-tzigane-de-Montreuil-1950.jpeg).
-- **Rights / fair-use assessment:** Robert Doisneau; © Atelier Robert Doisneau. This published work is used for transformative nonprofit criticism and scholarship; the intact portrait and surrounding street are needed to teach its figure–environment balance; the credited 759 × 905px display copy links back to the official page and is not a market substitute.
+- **Rights / fair-use assessment:** Robert Doisneau; © Atelier Robert Doisneau. This published work is used for transformative nonprofit criticism and scholarship; the intact sleeping figure, patterned wallpaper, and bedding are needed to teach its figure–environment balance; the credited 759 × 905px display copy links back to the official page and is not a market substitute.
 - **File:** `raw/robert-doisneau/03-petit-tzigane.jpg` (759 × 905px)
 
 ### 04 — *Le nez au carreau, Paris* (1953)
