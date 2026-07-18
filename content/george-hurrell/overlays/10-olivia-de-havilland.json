@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-olivia-de-havilland.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.462, "cy": 0.410, "rx": 0.275, "ry": 0.175, "label": "tilted face" },
+    { "type": "polyline", "points": [[0.055, 0.560], [0.238, 0.652], [0.412, 0.748]], "label": "left shoulder edge" },
+    { "type": "polyline", "points": [[0.840, 0.450], [0.783, 0.657], [0.730, 0.875]], "label": "right shoulder edge" },
+    { "type": "polyline", "points": [[0.250, 0.124], [0.517, 0.025], [0.757, 0.154]], "label": "hairline arc" }
+  ],
+  "notes": "The turned face is suspended above two lapels whose opposing diagonals make the broad jacket read as a deliberately shaped base."
+}

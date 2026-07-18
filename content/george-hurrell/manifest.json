@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-bette-davis.jpg",
+    "width": 1136,
+    "height": 1600,
+    "sha1": "1d44fe28",
+    "source": "01-bette-davis.jpg",
+    "exif": {
+      "DateTimeOriginal": "2020:02:10 12:12:31"
+    }
+  },
+  {
+    "file": "02-conrad-nagel.jpg",
+    "width": 1135,
+    "height": 1600,
+    "sha1": "af8c7d01",
+    "source": "02-conrad-nagel.jpg",
+    "exif": {
+      "DateTimeOriginal": "2015:11:06 18:30:23"
+    }
+  },
+  {
+    "file": "03-rita-hayworth.jpg",
+    "width": 644,
+    "height": 1600,
+    "sha1": "5744fe2a",
+    "source": "03-rita-hayworth.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-jean-harlow.jpg",
+    "width": 1018,
+    "height": 1339,
+    "sha1": "3badaa7f",
+    "source": "04-jean-harlow.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:06:13 22:34:08"
+    }
+  },
+  {
+    "file": "05-jean-parker.jpg",
+    "width": 677,
+    "height": 881,
+    "sha1": "0492c06c",
+    "source": "05-jean-parker.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-joan-crawford.jpg",
+    "width": 1070,
+    "height": 1420,
+    "sha1": "a029be32",
+    "source": "06-joan-crawford.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-karen-morley.jpg",
+    "width": 802,
+    "height": 994,
+    "sha1": "8a677b70",
+    "source": "07-karen-morley.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-carole-lombard.jpg",
+    "width": 1234,
+    "height": 1558,
+    "sha1": "3cd052ca",
+    "source": "08-carole-lombard.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-myrna-loy.jpg",
+    "width": 1215,
+    "height": 1600,
+    "sha1": "4bc526de",
+    "source": "09-myrna-loy.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-olivia-de-havilland.jpg",
+    "width": 839,
+    "height": 1037,
+    "sha1": "88cde6b4",
+    "source": "10-olivia-de-havilland.jpg",
+    "exif": {
+      "DateTimeOriginal": "2020:02:11 08:23:43"
+    }
+  }
+]

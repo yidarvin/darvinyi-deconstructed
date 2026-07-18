@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-jean-parker.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.378, "y": 0.117, "r": 0.035, "label": "hair highlight" },
+    { "type": "ellipse", "cx": 0.462, "cy": 0.315, "rx": 0.135, "ry": 0.140, "label": "face" },
+    { "type": "polyline", "points": [[0.413, 0.513], [0.593, 0.660], [0.713, 0.874]], "label": "shadow contour" }
+  ],
+  "notes": "A small bright face and hat are held against a much larger dark shadow, making the three-quarter pose read as an exchange between light and silhouette."
+}

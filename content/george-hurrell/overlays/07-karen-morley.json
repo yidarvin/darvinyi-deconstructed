@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-karen-morley.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.499, "y": 0.774, "r": 0.035, "label": "necklace pendant" },
+    { "type": "frame_in_frame", "x": 0.040, "y": 0.035, "w": 0.920, "h": 0.882, "label": "print border" },
+    { "type": "ellipse", "cx": 0.495, "cy": 0.303, "rx": 0.145, "ry": 0.145, "label": "lit face" },
+    { "type": "polyline", "points": [[0.274, 0.610], [0.482, 0.715], [0.724, 0.637]], "label": "necklace arc" }
+  ],
+  "notes": "A pale print border opens around the lit face, while the necklace supplies a small, glittering counter-arc across the otherwise broad white costume."
+}

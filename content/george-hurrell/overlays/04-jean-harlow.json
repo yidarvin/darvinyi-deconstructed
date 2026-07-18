@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-jean-harlow.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.488, "y": 0.382, "r": 0.035, "label": "face" },
+    { "type": "ellipse", "cx": 0.486, "cy": 0.394, "rx": 0.210, "ry": 0.155, "label": "face plane" },
+    { "type": "polyline", "points": [[0.696, 0.513], [0.839, 0.673], [0.945, 0.886]], "label": "right shoulder contour" },
+    { "type": "polyline", "points": [[0.130, 0.099], [0.309, 0.030], [0.495, 0.061]], "label": "hair halo" }
+  ],
+  "notes": "The luminous face sits inside a halo of hair, while the rising shoulder supplies the close portrait with a counter-diagonal."
+}
