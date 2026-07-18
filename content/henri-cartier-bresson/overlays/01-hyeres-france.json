@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "polyline", "points": [[0.00, 0.55], [0.37, 0.60], [0.59, 0.48], [0.62, 0.32]], "label": "spiralling stair rail" },
     { "type": "leading_line", "points": [[0.38, 0.61], [0.42, 0.95]], "arrow": true, "label": "descending rail" },
-    { "type": "subject_anchor", "x": 0.429, "y": 0.558, "r": 0.04, "label": "passing cyclist" }
+    { "type": "subject_anchor", "x": 0.30, "y": 0.34, "r": 0.04, "label": "passing cyclist" }
   ],
   "notes": "A curling stair rail turns the cyclist's brief passage through the open street into a measured event."
 }

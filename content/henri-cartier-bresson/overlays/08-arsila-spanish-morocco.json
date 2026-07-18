@@ -3,9 +3,8 @@
   "image": "08-arsila-spanish-morocco.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "polyline", "points": [[0.52, 0.03], [0.53, 0.34], [0.58, 0.60], [0.61, 0.91]], "label": "stepped descent" },
     { "type": "ellipse", "cx": 0.53, "cy": 0.29, "rx": 0.18, "ry": 0.22, "label": "upper woman" },
     { "type": "ellipse", "cx": 0.43, "cy": 0.77, "rx": 0.16, "ry": 0.19, "label": "lower woman" }
   ],
-  "notes": "The vertical passage links two bent bodies in a sequence of work, cloth, wall, and descent."
+  "notes": "The tall frame holds two bent women between hanging garments and rough ground."
 }

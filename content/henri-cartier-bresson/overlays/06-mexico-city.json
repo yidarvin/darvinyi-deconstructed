@@ -3,9 +3,8 @@
   "image": "06-mexico-city.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.57, "cy": 0.51, "rx": 0.26, "ry": 0.28, "label": "interlocked couple" },
-    { "type": "polyline", "points": [[0.22, 0.04], [0.45, 0.28], [0.63, 0.56], [0.85, 0.80]], "label": "bench-side diagonal" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.51, "rx": 0.26, "ry": 0.28, "label": "interlocked group" },
     { "type": "subject_anchor", "x": 0.726, "y": 0.520, "r": 0.04, "label": "resting face" }
   ],
-  "notes": "Folded bodies and the bench's slant create a closed, improvised island in open ground."
+  "notes": "Folded bodies create a closed, improvised island in open ground."
 }

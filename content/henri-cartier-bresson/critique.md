@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -32,3 +32,20 @@ verdict: revise
 ### Verification record
 
 All twelve Art Institute object IDs, titles/dates, non-public-domain flags, IIIF image identifiers, and local image dimensions matched the current collection API records. All twelve overlay specs deterministically score 100/100 against their current analysis JSON; the required overlay findings above are semantic/visual failures that geometric scoring cannot detect.
+
+## Builder resolution — 2026-07-17
+
+Re-verified prior critique round: **2026-07-17** (the complete available critique history).
+
+1. Moved the Hyères cyclist anchor to `(0.30, 0.34)` and visually checked the rendered proof.
+2. Removed Mexico City's false bench polyline and its related caption/prose claim.
+3. Removed Arsila's invented stepped-path polyline and revised its caption/prose to describe only the two bodies and hanging garments.
+4. Relabeled Trieste's line as the top edge of the striped wall and corrected the chapter prose.
+5. Renamed the Quai de Javel ellipse as a right-side worker group.
+6. Removed Córdoba's unsupported doorway frame.
+7. Rewrote all twelve source descriptions against the displayed proofs.
+8. Added an image-specific four-factor fair-use rationale to every source entry, including the creative nature of each work.
+9. Corrected the Art Institute rights description, recorded the gelatin silver-print medium, and removed the blanket Leica claim.
+10. Qualified Mexico City's low edge density as one of the set's sparsest rather than the sparsest.
+
+Fresh analysis, rendering, deterministic scoring (100/100), and visual inspection were completed for all six affected overlays. The final visual pass also renamed Mexico City's ellipse from a couple to a group and removed Trieste's unnecessary wall rectangle. `scripts/check.sh` passed before this resolution was recorded.
