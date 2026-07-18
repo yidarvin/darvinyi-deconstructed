@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -29,3 +29,15 @@ None. All 12 current proofs were visually checked against their specs; their nam
 
 1. Corrected the per-image rights language for 02–08 and 11. Each now preserves its documented artist/gallery record and states accurately that the National Museum of Modern Art, Tokyo notice “© Hiroshi Sugimoto / Courtesy of Gallery Koyanagi” is attached specifically to *Caribbean Sea, Jamaica* (1980), not to the other selected works or the series as a whole.
 2. Re-verified every required fix in the complete critique history: the first 2026-07-18 round (09–12 matching *Theaters* records) remains present in `sources.md`; the second 2026-07-18 round (02–08 and 11 credit attribution) is addressed above. The twelve current overlay score files remain 100/100, and `content/hiroshi-sugimoto/chapter.mdx` remains byte-identical to `src/chapters/hiroshi-sugimoto.mdx`.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **01–08 — vertical tonal-balance axes remain a stylistic semantic risk, not a blocking misdescription.** The present review rechecked the dashed `symmetry_axis` primitives against every proof and their measured analyses. This is the same concern recorded as advisory in the preceding 2026-07-18 round; none of the proofs or specs has materially regressed. Their labels describe balanced/even fields rather than literal mirrored objects, while the horizon is the chapter's actual structural claim. A future redesign could use a primitive whose semantics are less symmetry-specific, but this does not misidentify a visible object or alter the compositional reading.
+
+All twelve proofs were visually checked against their current specs. Every score file reports 100/100 with no warnings or deductions; the horizon, screen, aisle, frame, circle, and architectural-convergence labels land on the named visible structures. Chapter metrics match the analyses within tolerance, camera settings are explicitly withheld where undocumented, and the current artist/gallery sources trace every image. The earlier required source-credit fixes for 02–08/11 and matching *Theaters* records for 09–12 remain resolved.
