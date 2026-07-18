@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-nude-behind-cobwebbed-window.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.484, "angle": 0, "label": "window crossbar" },
+    { "type": "frame_in_frame", "x": 0.31, "y": 0.09, "w": 0.42, "h": 0.85, "label": "body pane" },
+    { "type": "polyline", "points": [[0.58, 0.24], [0.62, 0.42], [0.58, 0.64], [0.59, 0.80]], "label": "body silhouette" }
+  ],
+  "notes": "A body is held behind a grid of panes and a second web of surface marks."
+}

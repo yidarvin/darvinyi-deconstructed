@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-color-light-abstraction-1185.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.13, 0.18], [0.30, 0.26], [0.49, 0.35], [0.60, 0.42]], "label": "teal diagonal" },
+    { "type": "polyline", "points": [[0.41, 0.38], [0.42, 0.56], [0.44, 0.72]], "label": "gold cascade" },
+    { "type": "ellipse", "cx": 0.44, "cy": 0.68, "rx": 0.13, "ry": 0.16, "label": "luminous core" }
+  ],
+  "notes": "Warm vertical currents meet a cool diagonal before disappearing into a dark field."
+}

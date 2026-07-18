@@ -1,0 +1,178 @@
+[
+  {
+    "file": "01-solarized-nude.jpg",
+    "width": 843,
+    "height": 661,
+    "sha1": "2b822b62",
+    "source": "01-solarized-nude.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-child-in-forest.jpg",
+    "width": 1600,
+    "height": 1258,
+    "sha1": "e8fb6a63",
+    "source": "02-child-in-forest.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2009:04:03 04:22:35",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.5",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "18.0-70.0 mm f/3.5-4.5"
+    }
+  },
+  {
+    "file": "03-half-an-apple.jpg",
+    "width": 1600,
+    "height": 1385,
+    "sha1": "55c8dccb",
+    "source": "03-half-an-apple.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2009:04:03 04:24:28",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.5",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "18.0-70.0 mm f/3.5-4.5"
+    }
+  },
+  {
+    "file": "04-the-meadow.jpg",
+    "width": 1600,
+    "height": 1242,
+    "sha1": "b19db41e",
+    "source": "04-the-meadow.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2009:04:03 04:20:49",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.5",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "18.0-70.0 mm f/3.5-4.5"
+    }
+  },
+  {
+    "file": "05-woman-and-thistle.jpg",
+    "width": 843,
+    "height": 677,
+    "sha1": "fcd8f627",
+    "source": "05-woman-and-thistle.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-burnt-chair.jpg",
+    "width": 1262,
+    "height": 1600,
+    "sha1": "22084229",
+    "source": "06-burnt-chair.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2009:04:03 04:15:49",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.5",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "18.0-70.0 mm f/3.5-4.5"
+    }
+  },
+  {
+    "file": "07-nude-behind-cobwebbed-window.jpg",
+    "width": 1245,
+    "height": 1600,
+    "sha1": "ddd071f2",
+    "source": "07-nude-behind-cobwebbed-window.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2005:10:24 11:01:57",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.3333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "08-sunset-big-sur.jpg",
+    "width": 1600,
+    "height": 1262,
+    "sha1": "710eba6a",
+    "source": "08-sunset-big-sur.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2009:04:03 04:19:21",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.5",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "18.0-70.0 mm f/3.5-4.5"
+    }
+  },
+  {
+    "file": "09-child-on-forest-road.jpg",
+    "width": 1277,
+    "height": 1600,
+    "sha1": "9cca33d3",
+    "source": "09-child-on-forest-road.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2009:02:06 00:27:16",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.5",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "17.0-35.0 mm f/2.8"
+    }
+  },
+  {
+    "file": "10-the-pilings.jpg",
+    "width": 843,
+    "height": 680,
+    "sha1": "21b15d0c",
+    "source": "10-the-pilings.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-color-light-abstraction-1006.jpg",
+    "width": 1600,
+    "height": 1098,
+    "sha1": "2ee2cc31",
+    "source": "11-color-light-abstraction-1006.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 5(LI301294   )/Phase One 645DF/645AF",
+      "DateTimeOriginal": "2013:12:23 13:09:52",
+      "FocalLength": "120.0",
+      "ExposureTime": "2.0",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "50",
+      "LensModel": "120.0 mm"
+    }
+  },
+  {
+    "file": "12-color-light-abstraction-1185.jpg",
+    "width": 1096,
+    "height": 1600,
+    "sha1": "efb8f0f5",
+    "source": "12-color-light-abstraction-1185.jpg",
+    "exif": {
+      "Make": "Leaf",
+      "Model": "Leaf Aptus-II 5(LI301294   )/Phase One 645DF/645AF",
+      "DateTimeOriginal": "2012:03:13 13:26:44",
+      "FocalLength": "120.0",
+      "ExposureTime": "1.0",
+      "FNumber": "13.0",
+      "ISOSpeedRatings": "50",
+      "LensModel": "120.0 mm"
+    }
+  }
+]

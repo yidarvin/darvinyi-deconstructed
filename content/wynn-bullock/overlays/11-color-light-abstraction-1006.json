@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-color-light-abstraction-1006.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.69, "cy": 0.14, "rx": 0.10, "ry": 0.10, "label": "light burst" },
+    { "type": "polyline", "points": [[0.74, 0.23], [0.81, 0.32], [0.87, 0.45], [0.90, 0.56]], "label": "red arc" },
+    { "type": "polyline", "points": [[0.18, 0.04], [0.21, 0.25], [0.24, 0.44]], "label": "cool cascade" }
+  ],
+  "notes": "A white burst and red arc cut through a field of blue and violet light trails."
+}

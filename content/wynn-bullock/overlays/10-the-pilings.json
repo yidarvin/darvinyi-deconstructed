@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-the-pilings.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.138, "angle": 0, "label": "distant water band" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.58, "rx": 0.10, "ry": 0.17, "label": "foreground piling" },
+    { "type": "polyline", "points": [[0.05, 0.84], [0.26, 0.76], [0.47, 0.71]], "label": "shore debris" }
+  ],
+  "notes": "Near and distant pilings turn the misty water into a rhythm of dark uprights."
+}

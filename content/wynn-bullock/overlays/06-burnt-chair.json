@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-burnt-chair.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.410, "y": 0.648, "r": 0.06, "label": "chair joint" },
+    { "type": "leading_line", "points": [[0.30, 0.35], [0.40, 0.56], [0.48, 0.65]], "arrow": true, "label": "slanted back" },
+    { "type": "leading_line", "points": [[0.39, 0.65], [0.61, 0.60], [0.82, 0.61]], "arrow": true, "label": "seat rail" }
+  ],
+  "notes": "The chair's broken rails interrupt a dense grid of charred masonry."
+}

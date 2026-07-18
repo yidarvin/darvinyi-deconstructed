@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-the-meadow.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.290, "angle": 1.0, "label": "far bank" },
+    { "type": "leading_line", "points": [[0.01, 0.45], [0.40, 0.39], [0.78, 0.32], [0.96, 0.27]], "arrow": true, "label": "receding fence" },
+    { "type": "polyline", "points": [[0.49, 0.96], [0.57, 0.74], [0.61, 0.57], [0.76, 0.37]], "label": "water course" }
+  ],
+  "notes": "Fence and reflective water make two receding routes through the field."
+}

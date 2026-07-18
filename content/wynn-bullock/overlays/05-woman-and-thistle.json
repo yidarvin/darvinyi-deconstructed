@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-woman-and-thistle.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.40, "w": 0.27, "h": 0.38, "label": "window" },
+    { "type": "ellipse", "cx": 0.23, "cy": 0.58, "rx": 0.08, "ry": 0.13, "label": "figure" },
+    { "type": "leading_line", "points": [[0.00, 0.31], [0.42, 0.25], [0.99, 0.18]], "arrow": true, "label": "roof edge" }
+  ],
+  "notes": "A recessed figure and a thistle are separated by the house's hard planes."
+}

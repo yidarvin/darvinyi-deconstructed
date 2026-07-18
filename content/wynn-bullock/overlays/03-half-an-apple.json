@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-half-an-apple.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.488, "label": "cut axis" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.56, "rx": 0.39, "ry": 0.37, "label": "apple field" },
+    { "type": "polyline", "points": [[0.50, 0.19], [0.49, 0.42], [0.49, 0.70], [0.51, 0.89]], "label": "core seam" }
+  ],
+  "notes": "The halved fruit turns bilateral structure and its dark core into the whole frame."
+}

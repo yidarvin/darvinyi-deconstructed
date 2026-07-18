@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-sunset-big-sur.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.598, "angle": -1.0, "label": "lower sea band" },
+    { "type": "ellipse", "cx": 0.63, "cy": 0.43, "rx": 0.025, "ry": 0.032, "label": "sun" },
+    { "type": "polyline", "points": [[0.63, 0.46], [0.63, 0.57], [0.61, 0.66]], "label": "light trail" }
+  ],
+  "notes": "A single bright disk fixes the layered cloud, sea, and tidal-rock bands."
+}
