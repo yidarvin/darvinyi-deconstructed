@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -26,3 +26,13 @@ verdict: resolved
 ## Builder resolution — 2026-07-18
 
 Re-verified the full required-fix list from the sole prior critique round (2026-07-18) against the regenerated proofs and chapter. Removed the false horizon/vanishing claims in 02, 05, and 06; removed the unsupported mirror/bed frames in 03, 07, and 08; renamed the 09 anchor to its actual cigarette-and-cuff target; and redrew 12's polyline along the visible whip span to the raised hand. The 02 prose now describes visible directional sweeps rather than a convergence point. All eight reworked overlays score 100/100 and passed a clean visual review; the content and rendered chapter copies are byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+None. All twelve regenerated proofs were visually reviewed against their current overlay specs and the prior required fixes remain resolved: the unsupported horizon, vanishing-point, and frame claims are absent; `09` anchors the cigarette and cuff; and `12` follows the visible whip span and raised arm. No material regression was found.
+
+### Advisory (non-blocking)
+
+None. The current three-to-four primitive overlays teach visible compositional relations without misleading claims. Chapter measurements match the analyzer values at the stated precision, the chapter contains no invented camera settings, and all twelve official-source fair-use entries retain a traceable link, credit, and concise four-factor rationale.

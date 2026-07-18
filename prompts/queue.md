@@ -75,7 +75,7 @@ real queue and state live in data/registry.json.
 | 64  | george-hurrell            | George Hurrell            | DONE    |
 | 65  | irving-penn               | Irving Penn               | DONE    |
 | 66  | richard-avedon            | Richard Avedon            | DONE    |
-| 67  | helmut-newton             | Helmut Newton             | PENDING |
+| 67  | helmut-newton             | Helmut Newton             | DONE    |
 | 68  | guy-bourdin               | Guy Bourdin               | PENDING |
 | 69  | lillian-bassman           | Lillian Bassman           | PENDING |
 | 70  | annie-leibovitz           | Annie Leibovitz           | PENDING |
