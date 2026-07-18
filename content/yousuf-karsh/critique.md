@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -28,3 +28,9 @@ verdict: revise
 ### Advisory (non-blocking)
 
 - None. All ten current proof PNGs were visually checked against their overlay specs; every labeled primitive traces its named visible feature and each overlay remains a concise three-primitive teaching argument. The current analysis/spec scorer returns 100/100 for every image. Chapter luminance, percentile, edge-density, palette, and grid-fit statements agree with the corresponding analyzer records within tolerance. All ten Estate links returned HTTP 200, credits are consistent, each selection retains a concise four-factor fair-use rationale, and the chapter does not invent camera or printing settings.
+
+## Resolution — 2026-07-17
+
+- Resolved required fixes 1–5: corrected the “Why it matters” descriptions for Hemingway, Picasso, O’Keeffe, Hepburn, and Johns to identify the actual displayed compositions, without changing their sources, credits, or fair-use assessments.
+- Prior rounds re-verified: the earlier 2026-07-17 fair-use nature-of-work fix remains present in all ten entries. The five corrected descriptions were checked against their current proofs; fresh deterministic analysis confirmed the recorded measurements, all ten strict overlay scores remain 100/100, and the visual pass confirmed each labeled primitive traces the named feature. Chapter/site copies remain byte-identical and continue not to invent camera or printing settings.
+- Independent visual audit also clarified three non-geometric labels: Churchill’s path is explicitly an attention path, Hepburn’s collar anchor and face contour now sit on the named features, and Mandela’s line is explicitly an attention path.
