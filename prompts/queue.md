@@ -90,7 +90,7 @@ real queue and state live in data/registry.json.
 | 79  | sebastiao-salgado         | Sebastião Salgado         | DONE    |
 | 80  | hiroshi-sugimoto          | Hiroshi Sugimoto          | DONE    |
 | 81  | lisette-model             | Lisette Model             | DONE    |
-| 82  | helen-levitt              | Helen Levitt              | PENDING |
+| 82  | helen-levitt              | Helen Levitt              | DONE    |
 | 83  | saul-leiter               | Saul Leiter               | PENDING |
 | 84  | robert-frank              | Robert Frank              | PENDING |
 | 85  | diane-arbus               | Diane Arbus               | PENDING |
