@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -52,3 +52,19 @@ verdict: resolved
 - Corresponding chapter language now describes the open right-hand crate, mural boundary, and paper-covered foreground table without carrying forward the removed axis or broader-frame claims.
 - Critique history re-verified: the required fixes from round `169eee9` (2026-07-18: Goldberg face; Lennon strap and printed border) and round `926ca62` (2026-07-18: R2-D2 crate; Haring wall field; Springsteen table) all hold in the current overlays, proofs, and chapter. The prior Goldberg and Lennon proofs received a fresh visual verification; all eleven current overlay specs score 100/80.
 - Validation: `scripts/check.sh` passed; `content/annie-leibovitz/chapter.mdx` and `src/chapters/annie-leibovitz.mdx` are byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. `02-john-lennon-yoko-ono`: The `joined heads` subject anchor is centered on the raised hand/hair above the pair, not on Lennon’s and Ono’s faces. The analyzer’s saliency peak at `(0.429, 0.211)` explains the placement, but it is not semantic evidence for the label. Move the anchor to the joined heads or relabel/remove it; the chapter currently calls this a head anchor and the proof does not support that claim.
+
+### Advisory (non-blocking)
+
+- No additional advisory findings. The previously resolved `03-whoopi-goldberg`, `05-r2-d2`, `06-keith-haring`, `09-bruce-springsteen`, and `11-john-lennon-new-york` items remain materially corrected in the current proofs and specs.
+
+### Evidence checked
+
+- Visually reviewed all eleven current proof PNGs against their overlay specs and analyzer records. All specs score 100/80 with no deterministic deductions or warnings; the Lennon–Ono defect is a semantic visual-pass failure.
+- The chapter’s stated mean luminance, edge-density, tonal-spread, and palette measurements match the current analyzer outputs within tolerance. It disclaims unavailable camera and process settings rather than inventing them.
+- Every listed Sotheby’s primary source returned HTTP 200 during this review. Each image has a traceable credit and an image-specific four-factor fair-use rationale; this is not a limited-source chapter.
