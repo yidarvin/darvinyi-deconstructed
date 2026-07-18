@@ -3,7 +3,7 @@
   "image": "03-whoopi-goldberg.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.51, "cy": 0.33, "rx": 0.075, "ry": 0.07, "label": "face above the water" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.35, "rx": 0.06, "ry": 0.07, "label": "face above the water" },
     { "type": "polyline", "points": [[0.38, 0.05], [0.40, 0.22], [0.46, 0.10]], "label": "raised left arm" },
     { "type": "polyline", "points": [[0.56, 0.10], [0.62, 0.24], [0.64, 0.05]], "label": "raised right arm" },
     { "type": "ellipse", "cx": 0.51, "cy": 0.62, "rx": 0.35, "ry": 0.42, "label": "tub as enclosing field" }

@@ -4,8 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "ellipse", "cx": 0.50, "cy": 0.31, "rx": 0.19, "ry": 0.16, "label": "Lennon's face" },
-    { "type": "polyline", "points": [[0.35, 0.45], [0.47, 0.57], [0.59, 0.69]], "label": "jacket and guitar strap" },
-    { "type": "frame_in_frame", "x": 0.24, "y": 0.06, "w": 0.52, "h": 0.86, "label": "printed portrait border" }
+    { "type": "polyline", "points": [[0.78, 0.58], [0.66, 0.64], [0.56, 0.72], [0.49, 0.80]], "label": "guitar strap" },
+    { "type": "frame_in_frame", "x": 0.132, "y": 0.122, "w": 0.734, "h": 0.754, "label": "printed portrait border" }
   ],
-  "notes": "A close frontal face sits inside the visible print border, while the jacket and strap keep the vertical portrait from becoming static."
+  "notes": "A close frontal face sits inside the visible print border, while the guitar strap keeps the vertical portrait from becoming static."
 }

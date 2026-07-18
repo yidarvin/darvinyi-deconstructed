@@ -42,7 +42,7 @@ All eleven source files are public, web-sized display renditions supplied by Sot
 
 ### 07. *Cindy Crawford, New York* (1993)
 
-- **Why it matters:** The image turns a fashion subject into a sculptural figure by organizing the body, bedding, and room as broad, gently curving tonal masses.
+- **Why it matters:** The image turns a fashion subject into a sculptural figure by organizing the body, snake, and dense outdoor foliage as broad, gently curving tonal masses.
 - **Source:** [Sotheby’s lot record](https://www.sothebys.com/en/buy/auction/2020/photographs-2/annie-leibovitz-cindy-crawford-new-york) — public 1024 × 1024 display rendition, downloaded as `raw/annie-leibovitz/07-cindy-crawford.jpg`.
 - **Use basis: fair-use.** Credit/rightsholder notice: © Annie Leibovitz (photograph); Sotheby’s identifies the work as *Cindy Crawford, New York*. Purpose and character: critical, educational analysis of tonal massing in portraiture. Nature: a published, highly creative photograph. Amount: the complete frame is necessary to teach the figure’s relation to the setting. Market effect: a web-sized study copy, credited and linked to the public lot record, does not replace a collectible print or licensed reproduction.
 
@@ -61,7 +61,7 @@ All eleven source files are public, web-sized display renditions supplied by Sot
 ### 10. *Patti Smith, New Orleans* (1978)
 
 - **Why it matters:** Flame, red light, and Smith’s lean silhouette construct a staged rock portrait whose diagonals turn performance into a symbolic, theatrical scene.
-- **Source:** [Sotheby’s public catalogue](https://www.sothebys.com/buy/68797ec1-1664-4701-9373-ff3dee03cd75) — public 2048 × 2448 display rendition, downloaded as `raw/annie-leibovitz/10-patti-smith.jpg`; title and date corroborated by [Hauser & Wirth](https://www.hauserwirth.com/ursula/35974-behind-the-image-annie-leibovitz/).
+- **Source:** [Sotheby's lot record](https://www.sothebys.com/en/buy/auction/2020/contemporary-photographs/annie-leibovitz-patti-smith-new-orleans) — public 2048 × 2448 display rendition, downloaded as `raw/annie-leibovitz/10-patti-smith.jpg`; title and date corroborated by [Hauser & Wirth](https://www.hauserwirth.com/ursula/35974-behind-the-image-annie-leibovitz/).
 - **Use basis: fair-use.** Credit/rightsholder notice: © Annie Leibovitz (photograph). Purpose and character: critical, educational analysis of color, theatrical staging, and diagonal energy. Nature: a published, highly creative photograph. Amount: the complete frame is necessary to teach the relation of performer, flames, and set. Market effect: a web-sized study copy, credited and linked to the public catalogue, does not replace a collectible print or licensed reproduction.
 
 ### 11. *John Lennon, New York City* (1970)
