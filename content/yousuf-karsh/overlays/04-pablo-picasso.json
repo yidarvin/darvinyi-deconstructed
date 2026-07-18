@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-pablo-picasso.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.735, "y": 0.460, "r": 0.032, "label": "hands on vase" },
+    { "type": "ellipse", "cx": 0.393, "cy": 0.333, "rx": 0.115, "ry": 0.110, "label": "lit face" },
+    { "type": "polyline", "points": [[0.394, 0.400], [0.535, 0.470], [0.735, 0.460]], "label": "sleeve to hands" }
+  ],
+  "notes": "Picasso's lit face and hands bridge the blue shirt to the painted vase."
+}

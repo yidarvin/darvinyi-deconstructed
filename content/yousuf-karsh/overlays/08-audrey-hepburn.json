@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-audrey-hepburn.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.710, "y": 0.617, "r": 0.032, "label": "dark collar" },
+    { "type": "ellipse", "cx": 0.478, "cy": 0.390, "rx": 0.255, "ry": 0.175, "label": "profile" },
+    { "type": "polyline", "points": [[0.235, 0.375], [0.410, 0.425], [0.610, 0.470]], "label": "forehead to chin" }
+  ],
+  "notes": "A single clean profile is suspended between pale negative space and a dark collar."
+}

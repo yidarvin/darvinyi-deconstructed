@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-winston-churchill.jpg",
+    "width": 1271,
+    "height": 1600,
+    "sha1": "9ef26596",
+    "source": "01-winston-churchill.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-albert-einstein.jpg",
+    "width": 1550,
+    "height": 1600,
+    "sha1": "57fda43a",
+    "source": "02-albert-einstein.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-ernest-hemingway.jpg",
+    "width": 1282,
+    "height": 1600,
+    "sha1": "ec684ba3",
+    "source": "03-ernest-hemingway.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-pablo-picasso.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "dbf3f473",
+    "source": "04-pablo-picasso.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-george-bernard-shaw.jpg",
+    "width": 1274,
+    "height": 1600,
+    "sha1": "ae4259c1",
+    "source": "05-george-bernard-shaw.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-jean-sibelius.jpg",
+    "width": 1239,
+    "height": 1600,
+    "sha1": "d6cbc659",
+    "source": "06-jean-sibelius.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-georgia-okeeffe.jpg",
+    "width": 1276,
+    "height": 1600,
+    "sha1": "aa4aa03d",
+    "source": "07-georgia-okeeffe.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-audrey-hepburn.jpg",
+    "width": 1271,
+    "height": 1600,
+    "sha1": "73eab257",
+    "source": "08-audrey-hepburn.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-nelson-mandela.jpg",
+    "width": 1600,
+    "height": 1455,
+    "sha1": "8eba7bcf",
+    "source": "09-nelson-mandela.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-jasper-johns.jpg",
+    "width": 1600,
+    "height": 1122,
+    "sha1": "d05b630c",
+    "source": "10-jasper-johns.jpg",
+    "exif": {}
+  }
+]

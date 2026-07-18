@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-george-bernard-shaw.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.189, "y": 0.633, "r": 0.032, "label": "glasses hand" },
+    { "type": "ellipse", "cx": 0.568, "cy": 0.340, "rx": 0.180, "ry": 0.155, "label": "bearded head" },
+    { "type": "polyline", "points": [[0.188, 0.633], [0.370, 0.530], [0.550, 0.430]], "label": "glasses to face" }
+  ],
+  "notes": "The extended glasses hand opens a dark interval before Shaw's illuminated head."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-nelson-mandela.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.648, "y": 0.577, "r": 0.032, "label": "tie knot" },
+    { "type": "ellipse", "cx": 0.650, "cy": 0.435, "rx": 0.135, "ry": 0.145, "label": "head" },
+    { "type": "polyline", "points": [[0.155, 0.180], [0.280, 0.265], [0.500, 0.395]], "label": "raised arm" }
+  ],
+  "notes": "Mandela's raised hand opens the frame while the face remains the answering center."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-albert-einstein.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.911, "y": 0.523, "r": 0.032, "label": "clasped hands" },
+    { "type": "ellipse", "cx": 0.470, "cy": 0.390, "rx": 0.220, "ry": 0.165, "label": "face and hair" },
+    { "type": "polyline", "points": [[0.505, 0.430], [0.670, 0.470], [0.905, 0.525]], "label": "look to hands" }
+  ],
+  "notes": "Einstein's gaze and interlaced hands form a diagonal exchange across the close frame."
+}

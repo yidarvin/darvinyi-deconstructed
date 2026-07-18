@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-ernest-hemingway.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.559, "y": 0.586, "r": 0.032, "label": "shirt front" },
+    { "type": "ellipse", "cx": 0.504, "cy": 0.330, "rx": 0.175, "ry": 0.145, "label": "frontal face" },
+    { "type": "polyline", "points": [[0.210, 0.605], [0.405, 0.560], [0.559, 0.586]], "label": "chair arm to shirt" }
+  ],
+  "notes": "A frontal head and one resting hand make the bright shirt a simple, firm mass."
+}

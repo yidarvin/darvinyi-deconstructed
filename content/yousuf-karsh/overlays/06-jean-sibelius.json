@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-jean-sibelius.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.458, "y": 0.664, "r": 0.032, "label": "tie knot" },
+    { "type": "ellipse", "cx": 0.507, "cy": 0.335, "rx": 0.155, "ry": 0.145, "label": "half-lit face" },
+    { "type": "polyline", "points": [[0.458, 0.664], [0.470, 0.505], [0.510, 0.420]], "label": "tie to face" }
+  ],
+  "notes": "The portrait concentrates its few highlights on a face above a sharply tied collar."
+}

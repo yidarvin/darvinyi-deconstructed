@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-winston-churchill.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.189, "y": 0.664, "r": 0.032, "label": "chair hand" },
+    { "type": "ellipse", "cx": 0.530, "cy": 0.300, "rx": 0.125, "ry": 0.115, "label": "lit face" },
+    { "type": "polyline", "points": [[0.187, 0.664], [0.330, 0.530], [0.518, 0.406]], "label": "arm to face" }
+  ],
+  "notes": "The low chair hand and concentrated face make a broad figure feel locked into the frame."
+}
