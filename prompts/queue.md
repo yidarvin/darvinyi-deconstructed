@@ -80,7 +80,7 @@ real queue and state live in data/registry.json.
 | 69  | lillian-bassman           | Lillian Bassman           | DONE    |
 | 70  | annie-leibovitz           | Annie Leibovitz           | DONE    |
 | 71  | ansel-adams               | Ansel Adams               | DONE    |
-| 72  | edward-weston             | Edward Weston             | PENDING |
+| 72  | edward-weston             | Edward Weston             | DONE    |
 | 73  | imogen-cunningham         | Imogen Cunningham         | DONE    |
 | 74  | minor-white               | Minor White               | PENDING |
 | 75  | wynn-bullock              | Wynn Bullock              | PENDING |
