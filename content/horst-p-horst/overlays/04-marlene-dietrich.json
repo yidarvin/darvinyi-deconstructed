@@ -4,9 +4,8 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.597, "y": 0.570, "r": 0.035, "label": "reflective chair panel" },
-    { "type": "vanishing_point", "x": 0.395, "y": 0.629, "label": "chair geometry" },
     { "type": "ellipse", "cx": 0.510, "cy": 0.273, "rx": 0.115, "ry": 0.105, "label": "lit face" },
-    { "type": "polyline", "points": [[0.238, 0.205], [0.495, 0.075], [0.802, 0.258]], "label": "hat brim" }
+    { "type": "polyline", "points": [[0.238, 0.205], [0.495, 0.075], [0.802, 0.258]], "label": "hat silhouette" }
   ],
   "notes": "The broad hat and hard chair planes keep the lit face suspended inside a deliberately theatrical geometry."
 }

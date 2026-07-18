@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -18,3 +18,11 @@ verdict: revise
 - **08-hattie-carnegie-dress:** the `dress contour` line reads more as a directional route through the dress toward the roses than as a literal outer contour. A future pass could relabel it as a fold/eye-path, but it remains a non-blocking interpretive placement.
 
 All other proof/spec pairs were visually checked and are materially truthful. Scores are 96.3/100 for 01 and 100/100 for 02–11; these scores support, but do not replace, the visual semantic review.
+
+## Resolution — 2026-07-18
+
+1. Replaced the false `chair geometry` vanishing point in 04 with no convergence claim and relabelled the traced path as the visible `hat silhouette`. The regenerated proof passed at 100/100 and visual review confirms that each remaining primitive names what it marks.
+2. Replaced 05's unsupported `back and chair contour` with a short `chair back edge` path that follows the visible upper edge of the chair. The regenerated proof passed at 100/100 and visual review confirms the line stays on that edge.
+3. Added an explicit factor-two assessment to all eleven per-image fair-use rationales. Corrected the research and chapter records note: V&A O1293749 documents a gelatin silver print on photographic paper using the gelatin silver process, and O1318486 documents photographic paper, photographic gelatin, and the gelatin silver process; undocumented camera and exposure details remain excluded.
+
+Re-verified prior critique rounds: 2026-07-18 (the only prior round). Required items 1–4 remain satisfied in the current overlays, proofs, source dossier, research note, and byte-identical chapter copies.
