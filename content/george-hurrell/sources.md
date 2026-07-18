@@ -19,7 +19,7 @@ and image content were not altered.
    copyrighted; credit: George Hurrell, *Photoplay*.
 
 2. **Conrad Nagel**, *The New Movie*, July 1930 — `02-conrad-nagel.jpg` (2406 × 3391).
-   A tight head-and-shoulders portrait whose forehead highlight, face, and
+   A tight head-and-shoulders portrait whose hair-part highlight, face, and
    shoulder mass make a controlled tonal construction. [Commons file
    record](https://commons.wikimedia.org/wiki/File:Conrad_Nagel_by_Hurrell.jpg).
    **Use basis: open.** Commons identifies George Hurrell as author, credits

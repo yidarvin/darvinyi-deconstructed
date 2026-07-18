@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -88,3 +88,19 @@ and Loy findings from the prior round remain resolved.
   rather than the skin-to-hair boundary. The arch still truthfully teaches the
   supporting hair silhouette and does not change the chapter's compositional
   reading, but `HAIR MASS` would be a more exact future-polish label.
+
+## Resolution — 2026-07-18
+
+Resolved the required `02-conrad-nagel` annotation correction: the anchor at
+`(0.588, 0.101)` remains on the measured bright streak in the swept hair, but
+is now truthfully labeled `HAIR-PART HIGHLIGHT`. The overlay thesis, Plate
+caption, chapter prose, source description, and regenerated proof all use that
+same claim. Its strict overlay score is 100/100 with no deductions or warnings,
+and the regenerated proof received a clean visual pass.
+
+Re-verified the required fixes from the prior 2026-07-18 critique round (the
+four-item Lombard/Nagel/Loy review): Lombard's `HAIR MASS` and `JACKET LAPEL V`
+still align with their claimed structures; Nagel remains a tight
+head-and-shoulders portrait dated *The New Movie*, July 1930; and Loy remains
+undated throughout the chapter, research note, and source dossier. Lombard's
+strict overlay score remains 100/100 with no deductions or warnings.

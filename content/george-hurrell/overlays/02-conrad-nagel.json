@@ -3,9 +3,9 @@
   "image": "02-conrad-nagel.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.588, "y": 0.101, "r": 0.035, "label": "forehead highlight" },
+    { "type": "subject_anchor", "x": 0.588, "y": 0.101, "r": 0.035, "label": "hair-part highlight" },
     { "type": "ellipse", "cx": 0.490, "cy": 0.390, "rx": 0.255, "ry": 0.250, "label": "face" },
     { "type": "polyline", "points": [[0.108, 0.757], [0.394, 0.595], [0.700, 0.740]], "label": "shoulder line" }
   ],
-  "notes": "A sharply modeled face rises out of the broad shoulder mass; the phi grid makes the small forehead highlight and eye line feel deliberately offset."
+  "notes": "A sharply modeled face rises out of the broad shoulder mass; the phi grid makes the small hair-part highlight and eye line feel deliberately offset."
 }
