@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-enfant-papillon.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.289, "y": 0.654, "label": "street convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "central street balance" },
+    { "type": "horizon_line", "y": 0.155, "angle": 0, "label": "distant curb band" },
+    { "type": "leading_line", "points": [[0.193, 0.712], [0.624, 0.391]], "arrow": true, "label": "receding street edge" }
+  ],
+  "notes": "The open street converges beneath a fleeting outstretched silhouette."
+}

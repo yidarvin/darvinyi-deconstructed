@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-la-dent.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.693, "angle": 0, "label": "schoolyard tonal break" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.61, "rx": 0.14, "ry": 0.13, "label": "tooth exchange" },
+    { "type": "leading_line", "points": [[0.706, 0.649], [0.991, 0.884]], "arrow": true, "label": "right child's shoulder" }
+  ],
+  "notes": "The crowded schoolyard is pulled toward the small exchange at a child's open mouth."
+}

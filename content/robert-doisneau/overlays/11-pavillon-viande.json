@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-pavillon-viande.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.193, "angle": 0, "label": "hanging-meat band" },
+    { "type": "ellipse", "cx": 0.4, "cy": 0.38, "rx": 0.11, "ry": 0.14, "label": "butcher" },
+    { "type": "leading_line", "points": [[0.216, 0.56], [0.48, 0.906]], "arrow": true, "label": "apron fold" }
+  ],
+  "notes": "Hanging meat and an apron fold frame the butcher in compressed working depth."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-trepidante-wanda.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.358, "angle": 0, "label": "stage threshold" },
+    { "type": "ellipse", "cx": 0.32, "cy": 0.3, "rx": 0.08, "ry": 0.11, "label": "Wanda" },
+    { "type": "frame_in_frame", "x": 0.66, "y": 0.39, "w": 0.28, "h": 0.43, "label": "bright street opening" }
+  ],
+  "notes": "Wanda's lit stage is set against the dark interior and a bright street opening."
+}

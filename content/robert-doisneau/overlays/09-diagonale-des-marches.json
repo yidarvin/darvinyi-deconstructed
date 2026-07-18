@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "09-diagonale-des-marches.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.289, "angle": 0, "label": "upper stair landing" },
+    { "type": "subject_anchor", "x": 0.226, "y": 0.376, "r": 0.035, "label": "upper passerby" }
+  ],
+  "notes": "A stair sequence turns individual passersby into a diagonal procession."
+}

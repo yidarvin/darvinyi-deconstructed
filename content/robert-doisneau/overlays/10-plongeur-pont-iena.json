@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-plongeur-pont-iena.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.481, "angle": 0, "label": "bridge-and-river band" },
+    { "type": "ellipse", "cx": 0.61, "cy": 0.44, "rx": 0.13, "ry": 0.06, "label": "diver in flight" },
+    { "type": "vanishing_point", "x": 0.445, "y": 0.344, "label": "bridge structure" },
+    { "type": "leading_line", "points": [[0.271, 0.155], [0.568, 0.445]], "arrow": true, "label": "bridge edge" }
+  ],
+  "notes": "A diver in flight interrupts the bridge's steady horizontal structure."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-aeroplane-de-papa.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.467, "angle": 0, "label": "pavement break" },
+    { "type": "ellipse", "cx": 0.44, "cy": 0.68, "rx": 0.16, "ry": 0.16, "label": "child and airplane" },
+    { "type": "polyline", "points": [[0.25, 0.77], [0.47, 0.63], [0.64, 0.77]], "label": "airplane silhouette" }
+  ],
+  "notes": "The pavement's tonal break stages a child and improvised airplane against the street."
+}

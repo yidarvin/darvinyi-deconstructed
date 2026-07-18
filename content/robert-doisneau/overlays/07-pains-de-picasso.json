@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-pains-de-picasso.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.779, "angle": 0, "label": "table edge" },
+    { "type": "vanishing_point", "x": 0.162, "y": 0.805, "label": "table-plane convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "portrait balance" },
+    { "type": "leading_line", "points": [[0.47, 0.815], [0.993, 0.943]], "arrow": true, "label": "table edge" }
+  ],
+  "notes": "A horizontal band of bread transforms the sitter's hands into a visual joke."
+}
