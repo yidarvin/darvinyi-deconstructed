@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-ecuador.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.585, "cy": 0.733, "rx": 0.130, "ry": 0.170, "label": "prone face" },
+    { "type": "polyline", "points": [[0.23, 0.14], [0.44, 0.18], [0.61, 0.22], [0.81, 0.25]], "label": "standing heads press across the bright field" },
+    { "type": "polyline", "points": [[0.06, 0.72], [0.26, 0.67], [0.43, 0.63]], "label": "foreground hairline leads to the face" }
+  ],
+  "notes": "A prone face commands the foreground while the standing group presses down from the bright field above."
+}

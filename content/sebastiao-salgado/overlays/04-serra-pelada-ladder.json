@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "04-serra-pelada-ladder.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.127, "angle": 1.0, "label": "far rim of the mine" },
+    { "type": "vanishing_point", "x": 0.362, "y": 0.532, "label": "pit depth" },
+    { "type": "subject_anchor", "x": 0.148, "y": 0.405, "r": 0.035, "label": "reaching hand" },
+    { "type": "leading_line", "points": [[0.452, 0.496], [0.654, 0.167]], "arrow": true, "label": "load strap" },
+    { "type": "polyline", "points": [[0.365, 0.97], [0.530, 0.66], [0.686, 0.40]], "label": "ladder climbing into the figure" }
+  ],
+  "notes": "The unstable ladder, reaching hand, and weighted body turn ascent into the photograph's governing diagonal."
+}
