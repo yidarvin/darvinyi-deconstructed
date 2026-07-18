@@ -84,7 +84,7 @@ real queue and state live in data/registry.json.
 | 73  | imogen-cunningham         | Imogen Cunningham         | DONE    |
 | 74  | minor-white               | Minor White               | DONE    |
 | 75  | wynn-bullock              | Wynn Bullock              | DONE    |
-| 76  | eliot-porter              | Eliot Porter              | PENDING |
+| 76  | eliot-porter              | Eliot Porter              | DONE    |
 | 77  | bill-brandt               | Bill Brandt               | PENDING |
 | 78  | josef-sudek               | Josef Sudek               | PENDING |
 | 79  | sebastiao-salgado         | Sebastião Salgado         | PENDING |
