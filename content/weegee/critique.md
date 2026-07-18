@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -13,3 +13,10 @@ Reviewed all ten rendered proofs against their overlay specifications and analys
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-17
+
+1. Added a separate, per-image factor-two assessment to all ten fair-use entries. Each records that the photographed work is an authored, expressive historical photograph and that its creative character weighs against fair use; the existing transformative purpose, whole-frame necessity, attribution/source links, and limited web-sized non-substitution analysis remain intact.
+2. Corrected the visible 02 plate label to **Manuelda Hernandez** in both canonical and rendered chapter copies.
+
+Re-verified critique history: 2026-07-17, the only prior critique round. Both required fixes in that round hold in the current `sources.md`, `content/weegee/chapter.mdx`, and `src/chapters/weegee.mdx`. `scripts/check.sh` passes.
