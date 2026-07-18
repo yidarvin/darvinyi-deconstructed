@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -49,3 +49,14 @@ Re-verified prior critique round: **2026-07-17** (the complete available critiqu
 10. Qualified Mexico City's low edge density as one of the set's sparsest rather than the sparsest.
 
 Fresh analysis, rendering, deterministic scoring (100/100), and visual inspection were completed for all six affected overlays. The final visual pass also renamed Mexico City's ellipse from a couple to a group and removed Trieste's unnecessary wall rectangle. `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-17
+
+### Required
+
+1. **03-seville — subject location is false in the chapter prose.** The proof and overlay place the boy at the wall near `(0.382, 0.267)`, left of centre beside the passage. `chapter.mdx` instead says “a child at the right,” where the proof shows a different dark figure. Revise that sentence so the described child occupies the actual position in the frame.
+
+### Advisory (non-blocking)
+
+- The source-note introduction calls every display copy “roughly 843px on the long edge,” while the listed portrait files are `843 × 1238`, `843 × 1247`, and `843 × 1223`. Each per-image entry already gives its correct dimensions and the fair-use explanations remain complete; clarify the summary wording in a future content pass.
+- `research.md` says the source shortlist itself notes a surrealist inflection, though the current shortlist does not make or cite that claim. The historical context is supportable by Fondation HCB material, but the statement would be more traceable if it cited that material directly or were phrased as interpretation.
