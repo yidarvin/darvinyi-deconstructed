@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -14,3 +14,13 @@ None. All 12 current proofs were visually checked against their specs; their nam
 
 1. Replaced the incorrect Fraenkel *Seascapes* attribution for 09–12 with Fraenkel Gallery's matching public *Theaters* portfolio. Its individual records identify *Trylon, New York* (1977), *Metropolitan Palace, Los Angeles* (1993), *Studio Drive-In, Culver City* (1993), and *U.A. Fox, New York* (1976) as Hiroshi Sugimoto gelatin silver prints, edition of 25. Each fair-use record retains its exact display-file URL and links to that matching title/date/medium/edition record with artist credit.
 2. Re-verified the complete required-fix history: critique round 2026-07-18. No earlier rounds exist in `git log -- content/hiroshi-sugimoto/critique.md`.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **02-ligurian-sea-saviore, 03-baltic-sea-rugen, 04-lake-superior-cascade-river, 05-yellow-sea-cheju, 06-ionian-sea-santa-cesarea, 07-sea-of-japan-rishiri-island, 08-north-pacific-ocean-stinson-beach, and 11-studio-drive-in-culver-city — correct the per-image copyright-credit attribution in `sources.md`.** Their fair-use entries say or imply that the National Museum of Modern Art, Tokyo supplies an “official museum exhibition credit for the series.” Its public exhibition page attaches “© Hiroshi Sugimoto / Courtesy of Gallery Koyanagi” specifically to *Caribbean Sea, Jamaica* (1980), not to these individual works or the series as a whole. Preserve the documented individual artist/gallery record, but either obtain an applicable matching credit notice or state accurately that the museum notice is attached only to *Caribbean Sea, Jamaica*. This is blocking because these entries presently make a materially false per-image rights/credit statement.
+
+### Advisory (non-blocking)
+
+- **02, 04–06, and 08 — the off-centre vertical “symmetry axis” is best read as an abstract tonal-balance marker, not literal bilateral symmetry.** The proof labels make that reading clear and the analyzer supports the placements, so this does not mislead; a future refinement could use a primitive with less literal semantic baggage.
