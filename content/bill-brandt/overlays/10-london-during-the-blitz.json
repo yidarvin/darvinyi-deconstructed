@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-london-during-the-blitz.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.544, "y": 0.424, "label": "shelter depth" },
+    { "type": "polyline", "points": [[0.15, 0.25], [0.35, 0.42], [0.55, 0.58], [0.78, 0.73]], "label": "sleeping bodies" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.78, "rx": 0.34, "ry": 0.20, "label": "foreground blanket" }
+  ],
+  "notes": "Bodies and blankets form a dense diagonal that carries the underground shelter into darkness."
+}

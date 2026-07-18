@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-nude-1955.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.22, "cy": 0.56, "rx": 0.30, "ry": 0.48, "label": "near body mass" },
+    { "type": "subject_anchor", "x": 0.754, "y": 0.163, "label": "distant room detail" },
+    { "type": "leading_line", "points": [[0.48, 0.738], [0.745, 0.561]], "arrow": true, "label": "bedspread recession" }
+  ],
+  "notes": "The bright near body becomes an abstract field, set against a small, sharply receding room."
+}

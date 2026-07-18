@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-bottle-kilns-stoke-on-trent.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.47, "rx": 0.22, "ry": 0.43, "label": "main kiln" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.43, "rx": 0.14, "ry": 0.37, "label": "second kiln" },
+    { "type": "polyline", "points": [[0.06, 0.94], [0.26, 0.81], [0.46, 0.89], [0.86, 0.79]], "label": "low roof rhythm" }
+  ],
+  "notes": "Pale sky turns the bottle kilns into an uneven rhythm of swollen, tapering silhouettes."
+}
