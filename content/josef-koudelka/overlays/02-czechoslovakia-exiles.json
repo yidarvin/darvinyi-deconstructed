@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-czechoslovakia-exiles.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.578, "angle": 0.0, "label": "STREET BAND" },
+    { "type": "vanishing_point", "x": 0.686, "y": 0.451, "label": "CART AND STREET DEPTH" },
+    { "type": "leading_line", "points": [[0.599, 0.569], [0.815, 0.324]], "arrow": true, "label": "HARNESS LINE" },
+    { "type": "ellipse", "cx": 0.517, "cy": 0.446, "rx": 0.104, "ry": 0.235, "label": "WHITE-CLAD CYCLIST" }
+  ],
+  "notes": "Harness, wheel, and paving pull a bright cyclist through a crowded lateral encounter."
+}

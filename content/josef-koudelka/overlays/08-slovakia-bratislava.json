@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "08-slovakia-bratislava.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.478, "y": 0.713, "label": "DOORWAY DEPTH" },
+    { "type": "horizon_line", "y": 0.768, "angle": 0.0, "label": "LOW BED EDGE" },
+    { "type": "subject_anchor", "x": 0.680, "y": 0.702, "r": 0.035, "label": "SMILING WOMAN" },
+    { "type": "leading_line", "points": [[0.199, 0.998], [0.505, 0.829]], "arrow": true, "label": "FLOOR EDGE" },
+    { "type": "frame_in_frame", "x": 0.367, "y": 0.085, "w": 0.273, "h": 0.698, "label": "INTERIOR DOORWAY" }
+  ],
+  "notes": "A doorway and low bed funnel crowded domestic space toward a face at the frame edge."
+}

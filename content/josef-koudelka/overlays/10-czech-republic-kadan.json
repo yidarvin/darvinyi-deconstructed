@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "10-czech-republic-kadan.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.080, "angle": 0.0, "label": "DOORWAY HEADER" },
+    { "type": "vanishing_point", "x": 0.468, "y": 0.566, "label": "ROOM DEPTH" },
+    { "type": "leading_line", "points": [[0.297, 0.331], [0.699, 0.979]], "arrow": true, "label": "CHAIR AND FLOOR DIAGONAL" },
+    { "type": "frame_in_frame", "x": 0.255, "y": 0.076, "w": 0.472, "h": 0.857, "label": "DARK DOORWAY" },
+    { "type": "ellipse", "cx": 0.498, "cy": 0.576, "rx": 0.227, "ry": 0.336, "label": "THREE DEPTHS" }
+  ],
+  "notes": "The doorway turns three men at different depths into a small, pressurized stage."
+}

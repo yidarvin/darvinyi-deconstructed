@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "05-slovakia-jarabina.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.240, "angle": -2.0, "label": "VILLAGE RIDGE" },
+    { "type": "vanishing_point", "x": 0.290, "y": 0.349, "label": "ROAD DEPTH" },
+    { "type": "leading_line", "points": [[0.128, 0.453], [0.381, 0.998]], "arrow": true, "label": "ROAD EDGE" },
+    { "type": "leading_line", "points": [[0.565, 0.354], [0.998, 0.481]], "arrow": true, "label": "CROWD EDGE" },
+    { "type": "ellipse", "cx": 0.438, "cy": 0.646, "rx": 0.089, "ry": 0.241, "label": "SOLITARY MAN" }
+  ],
+  "notes": "A solitary foreground figure is divided from the waiting crowd by the bending road."
+}

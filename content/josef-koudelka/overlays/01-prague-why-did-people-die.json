@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-prague-why-did-people-die.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.884, "angle": -1.0, "label": "LOWER TYPE BAND" },
+    { "type": "subject_anchor", "x": 0.179, "y": 0.695, "r": 0.035, "label": "PAPER CLUSTER" },
+    { "type": "frame_in_frame", "x": 0.392, "y": 0.326, "w": 0.227, "h": 0.164, "label": "HANDWRITTEN NOTICE" }
+  ],
+  "notes": "The central notice holds a storm of scraps above a low band of public type."
+}

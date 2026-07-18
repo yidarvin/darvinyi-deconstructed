@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-slovakia-rakusy.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.413, "angle": 7.8, "label": "HILLSIDE BREAK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "OPEN SKY AXIS" },
+    { "type": "subject_anchor", "x": 0.512, "y": 0.539, "r": 0.035, "label": "WRAPPED WOMAN" },
+    { "type": "polyline", "points": [[0.380, 0.951], [0.386, 0.775], [0.445, 0.666], [0.512, 0.539]], "label": "RISING PATH" }
+  ],
+  "notes": "A wrapped figure and solitary tree counterweight an immense, nearly blank sky."
+}

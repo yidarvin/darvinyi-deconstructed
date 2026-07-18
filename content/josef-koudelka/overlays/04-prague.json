@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-prague.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.390, "y": 0.535, "label": "PATH CONVERGENCE" },
+    { "type": "horizon_line", "y": 0.869, "angle": 0.0, "label": "LOW GROUND EDGE" },
+    { "type": "polyline", "points": [[0.192, 1.0], [0.284, 0.699], [0.356, 0.438], [0.432, 0.106]], "label": "ILLUMINATED PATH" },
+    { "type": "ellipse", "cx": 0.423, "cy": 0.084, "rx": 0.029, "ry": 0.052, "label": "DISTANT FIGURES" }
+  ],
+  "notes": "One thin lit path makes direction and scale inside an almost total dark field."
+}
