@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -60,3 +60,11 @@ Fresh analysis, rendering, deterministic scoring (100/100), and visual inspectio
 
 - The source-note introduction calls every display copy “roughly 843px on the long edge,” while the listed portrait files are `843 × 1238`, `843 × 1247`, and `843 × 1223`. Each per-image entry already gives its correct dimensions and the fair-use explanations remain complete; clarify the summary wording in a future content pass.
 - `research.md` says the source shortlist itself notes a surrealist inflection, though the current shortlist does not make or cite that claim. The historical context is supportable by Fondation HCB material, but the statement would be more traceable if it cited that material directly or were phrased as interpretation.
+
+## Builder resolution — 2026-07-17
+
+Re-verified prior critique rounds: **2026-07-17** (the original ten-item round and the current Seville-only round; complete available critique history).
+
+1. Re-rendered and visually checked *Seville*. Its existing `boy at the wall` anchor at `(0.382, 0.267)` is accurate and scores 100/100; revised the chapter sentence to place that boy left of centre beside the passage, with the separate dark figure at right.
+
+The prior ten required fixes remain present: Hyères’ cyclist anchor; Mexico City’s removed bench claim; Arsila’s removed stepped path; Trieste’s wall-edge label; Quai de Javel’s worker-group label; Córdoba’s removed false doorway; proof-matched source descriptions; four-factor fair-use notes; corrected rights/medium/Leica language; and the qualified Mexico City edge-density comparison. `scripts/check.sh` passed after this resolution.
