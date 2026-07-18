@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -17,3 +17,14 @@ verdict: revise
 - **06-slovakia-utekac:** `HILLSIDE RISE` is difficult to read as a continuous hillside edge because it crosses trees and ends in open slope. Consider relabeling or removing it after correcting the child anchor.
 
 All twelve proofs were visually reviewed against their overlay specs, analyses, chapter, manifest, and source notes. The analyzer-backed numerical claims checked are within tolerance; all twelve overlay specs score 100/100, but the four semantic misannotations above remain material. Source records are traceable and each image includes an adequate per-image fair-use rationale. No camera settings are invented.
+
+## Builder resolution — 2026-07-18
+
+Re-verified critique history: 2026-07-18 (the only prior round).
+
+1. **04-prague:** Moved `DISTANT FIGURES` to `(0.250, 0.035)`, enclosing the two ridge silhouettes; re-rendered, visually checked, and scored 100/100.
+2. **06-slovakia-utekac:** Moved `CHILD IN WHITE` to `(0.510, 0.720)`, on the white-clad child; removed the advisory `HILLSIDE RISE` tree-crossing line; re-rendered, visually checked, and scored 100/100.
+3. **07-slovakia-detva:** Removed the false `POND EDGE` line and revised the chapter to describe the layered field without an imposed boundary; re-rendered, visually checked, and scored 100/100.
+4. **09-slovakia-rakusy:** Relabeled the truthful existing polyline `SHAWL CONTOUR` and revised the chapter accordingly; re-rendered, visually checked, and scored 100/100.
+
+`scripts/check.sh` passes, including chapter byte identity and pipeline validation.

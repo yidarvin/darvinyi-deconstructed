@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.782, "angle": -4.8, "label": "SLOPING GROUND" },
     { "type": "vanishing_point", "x": 0.686, "y": 0.460, "label": "HILLSIDE DEPTH" },
-    { "type": "subject_anchor", "x": 0.663, "y": 0.725, "r": 0.035, "label": "CHILD IN WHITE" },
-    { "type": "leading_line", "points": [[0.617, 0.583], [0.706, 0.217]], "arrow": true, "label": "HILLSIDE RISE" }
+    { "type": "subject_anchor", "x": 0.510, "y": 0.720, "r": 0.035, "label": "CHILD IN WHITE" }
   ],
   "notes": "The small white child becomes the point of light in a widely staggered hillside gathering."
 }
