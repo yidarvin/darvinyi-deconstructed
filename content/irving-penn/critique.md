@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -48,3 +48,17 @@ verdict: resolved
 - **09-georgia-okeeffe:** Removed the false figure-ground horizon while retaining the true corner seam, face anchor, and angled studio-wall frame.
 - **11-three-asaro-mud-men:** Rebuilt the overlay around the visibly distinct steep left-hand spear bundle and shallow foreground spear, tightened the central-mask ellipse, and removed the false crossing-spear/central-hinge claim from overlay notes, prose, and caption.
 - Re-ran analysis, render, visual proof review, and scoring for all six affected images. All twelve overlays pass the >=80 scorer gate (11 at 100; 11-three-asaro-mud-men at 88 with only non-blocking edge-detector warnings); visual inspection confirms each surviving label tracks its named feature. `scripts/check.sh` passed, including the byte-identical chapter mirror gate.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+None. I visually reviewed all twelve current proofs against their overlay specs, the ingested photographs, and the resolved findings above. The corrected annotations remain materially truthful: in particular, 04's bottle/table/chair contours, 05's cup-rim ellipse, 06's upper-pigment band, 07's eyeglasses and lower diagonals, 08's eye/collar, 09's corner and studio walls, and 11's two distinct spear directions all trace visible named structures. The chapter's measured edge-density and palette claims agree with the analyzer records, and it makes no unsupported camera-setting claim.
+
+### Source integrity
+
+All twelve Art Institute records and their documented IIIF display renditions are traceable. The current official API records confirm the listed title/date, image identifier, non-public-domain status, and copyright notice for each selection; the IIIF rendition URLs return JPEGs. Every image retains a concise per-image four-factor fair-use rationale, credit, and record link. The previously replaced 09 and 11 rendition identifiers remain current.
+
+### Advisory (non-blocking)
+
+None.
