@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -139,3 +139,25 @@ resolved Nagel, Lombard, and Loy findings remain resolved.
 - **`07-karen-morley`:** the `LIT FACE` ellipse stops above the mouth and chin.
   It still correctly identifies the lit upper-face plane, but a fuller ellipse
   or a more exact upper-face label would make the annotation clearer.
+
+## Resolution — 2026-07-18
+
+Resolved the two required annotation corrections from the latest critique round:
+
+1. `05-jean-parker` no longer asserts a nonexistent `SHADOW CONTOUR`.
+   The revised overlay retains only the observed hair highlight and face; its
+   thesis and chapter text now describe the large dark silhouette as deliberately
+   unoutlined. The regenerated proof received a clean visual pass and scores
+   100/100 in strict scoring.
+2. `06-joan-crawford` no longer asserts that its lower polyline traces folded
+   hands. The revised overlay retains the measured portrait axis and face-plane
+   annotations, and the thesis, Plate caption, and prose now truthfully discuss
+   the patterned sleeves. The regenerated proof received a clean visual pass
+   and scores 100/100 in strict scoring.
+
+Re-verified every required item from all prior critique rounds in this history:
+the original 2026-07-18 four-item Lombard/Nagel/Loy round (`HAIR MASS`,
+`JACKET LAPEL V`, the tight July 1930 Nagel portrait, and undated Loy); the
+following 2026-07-18 Nagel `HAIR-PART HIGHLIGHT` round; and the present
+Parker/Crawford round. All ten current overlays score 100/100 in strict scoring,
+the chapter mirror is byte-identical, and `scripts/check.sh` passed.
