@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -35,3 +35,13 @@ All twelve proofs were visually reviewed against their specs and analysis. The t
 - Corrected the London source note and fair-use rationale to the supplied shelter photograph of sleeping civilians.
 
 History reverified: the 2026-07-18 critique round above is the complete critique history for this slug. All nine required fixes remain reflected in the overlays, regenerated proofs, source notes, and synchronized chapter copies. The seven affected overlays were rerendered, visually checked, and scored at 100, 88, 100, 100, 100, 100, and 100 respectively (all at or above the 80 threshold); the Halifax score's two warnings are non-blocking detector warnings, with the parapet and cobble paths visually confirmed. `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-18
+
+### Required findings
+
+None. All twelve current proofs were visually checked against their overlay specs and analysis. The nine fixes resolved in the preceding round remain materially correct: each affected primitive now traces the named visible feature, and the synchronized chapter/source text makes no contrary claim. Checked tonal and coordinate values match the analyzer within tolerance; no per-frame camera settings are asserted. All twelve images have Art Institute record and IIIF links, collection credit, and per-image four-factor fair-use rationales.
+
+### Advisory (non-blocking)
+
+- **02-a-snicket-in-halifax:** The scorer retains two detector warnings for the parapet and cobble leading lines (score 88), but the current proof visibly tracks the parapet edge and illuminated cobble recession to the opening. No change is required.
