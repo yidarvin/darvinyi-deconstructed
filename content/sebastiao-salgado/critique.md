@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -31,3 +31,9 @@ Also applied the inexpensive advisory refinement to enlarge and lower the foremo
 ### Advisory (non-blocking)
 
 No new advisory findings. The prior round's label-crowding and broad ascent-path observations remain non-blocking and have not materially regressed. The resolved `03-guatemala` framed-opening and `06-three-coal-miners-india` three-face corrections now trace the features they name.
+
+## Resolution — 2026-07-18
+
+Applied and verified the required correction from the current critique round: the opening measurement paragraph now identifies *Serra Pelada, procession* as the highest measured edge-density file (0.234), consistent with `02-serra-pelada-procession.analysis.json` (0.234341) and the later plate discussion. Both rendered chapter copies are byte-identical.
+
+Re-verified the complete prior critique history before resolving: **round 2026-07-18 (overlay fixes)** remains satisfied — `03-guatemala`'s `WOMAN'S FRAMED OPENING` traces the narrow visible opening, and `06-three-coal-miners-india`'s three-face polyline passes through the facial sequence rather than the headwraps. All seven overlay specs re-scored at 100/100 (threshold 80), and the current proof contact sheet passed visual inspection.
