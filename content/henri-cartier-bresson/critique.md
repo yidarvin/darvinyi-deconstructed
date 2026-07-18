@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -68,3 +68,17 @@ Re-verified prior critique rounds: **2026-07-17** (the original ten-item round a
 1. Re-rendered and visually checked *Seville*. Its existing `boy at the wall` anchor at `(0.382, 0.267)` is accurate and scores 100/100; revised the chapter sentence to place that boy left of centre beside the passage, with the separate dark figure at right.
 
 The prior ten required fixes remain present: Hyères’ cyclist anchor; Mexico City’s removed bench claim; Arsila’s removed stepped path; Trieste’s wall-edge label; Quai de Javel’s worker-group label; Córdoba’s removed false doorway; proof-matched source descriptions; four-factor fair-use notes; corrected rights/medium/Leica language; and the qualified Mexico City edge-density comparison. `scripts/check.sh` passed after this resolution.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. All twelve current proof/spec pairs were visually reviewed. The earlier required corrections remain in place, chapter measurements match the current analysis JSON within tolerance, and each displayed image has a traceable Art Institute source with a per-image four-factor fair-use rationale. No camera settings are invented.
+
+### Advisory (non-blocking)
+
+None.
+
+### Verification record
+
+Replayed `score_overlay.py` for all twelve current analysis/spec pairs: each scored 100/100. `python3 scripts/validate_pipeline.py` passed before approval.

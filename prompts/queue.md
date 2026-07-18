@@ -63,7 +63,7 @@ real queue and state live in data/registry.json.
 | 52  | margaret-bourke-white     | Margaret Bourke-White     | DONE    |
 | 53  | robert-capa               | Robert Capa               | DONE    |
 | 54  | w-eugene-smith            | W. Eugene Smith           | DONE    |
-| 55  | henri-cartier-bresson     | Henri Cartier-Bresson     | PENDING |
+| 55  | henri-cartier-bresson     | Henri Cartier-Bresson     | DONE    |
 | 56  | alfred-eisenstaedt        | Alfred Eisenstaedt        | PENDING |
 | 57  | weegee                    | Weegee (Arthur Fellig)    | PENDING |
 | 58  | yousuf-karsh              | Yousuf Karsh              | PENDING |
