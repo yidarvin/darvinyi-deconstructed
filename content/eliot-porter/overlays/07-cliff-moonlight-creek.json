@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-cliff-moonlight-creek.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.43, "cy": 0.55, "rx": 0.17, "ry": 0.29, "label": "DARK CLEFT" },
+    { "type": "polyline", "points": [[0.06,0.06],[0.18,0.33],[0.28,0.58],[0.38,0.88]], "label": "LEFT ROCK PLANE" },
+    { "type": "polyline", "points": [[0.96,0.19],[0.79,0.35],[0.66,0.52],[0.56,0.71]], "label": "RIGHT ROCK PLANE" },
+    { "type": "ellipse", "cx": 0.77, "cy": 0.18, "rx": 0.18, "ry": 0.13, "label": "SUNLIT OCHRE MASS" }
+  ],
+  "notes": "Opposing rock planes close around a black passage, with one sunlit mass holding the upper right."
+}

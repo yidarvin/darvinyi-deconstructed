@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-winter-river.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.284,0.080],[0.609,0.495]], "arrow": true, "label": "ICE-WATER EDGE" },
+    { "type": "polyline", "points": [[0.01,0.42],[0.17,0.39],[0.33,0.45],[0.46,0.56],[0.57,0.63]], "label": "DARK WATER CHANNEL" },
+    { "type": "ellipse", "cx": 0.73, "cy": 0.75, "rx": 0.16, "ry": 0.14, "label": "SNOW-CAPPED BOULDER" }
+  ],
+  "notes": "Irregular ice edges braid a dark channel around a heavy foreground boulder."
+}

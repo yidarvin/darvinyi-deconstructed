@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-chipping-sparrow.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.55, "cy": 0.54, "rx": 0.17, "ry": 0.19, "label": "ADULT SPARROW" },
+    { "type": "ellipse", "cx": 0.38, "cy": 0.60, "rx": 0.11, "ry": 0.08, "label": "NEST AND CHICKS" },
+    { "type": "polyline", "points": [[0.51,0.51],[0.35,0.40],[0.20,0.28]], "label": "UPPER WING ARC" },
+    { "type": "polyline", "points": [[0.51,0.60],[0.38,0.72],[0.27,0.85]], "label": "LOWER WING ARC" }
+  ],
+  "notes": "Two blurred wing arcs make a protective, unstable enclosure around the adult, nest, and chicks."
+}

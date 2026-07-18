@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-east-penobscot-bay.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.65, "angle": 0.0, "label": "DISTANT COAST / WATER" },
+    { "type": "polyline", "points": [[0.00,0.72],[0.12,0.70],[0.25,0.75],[0.38,0.80]], "label": "CURVING LEFT SHORE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.72, "rx": 0.13, "ry": 0.09, "label": "BOATS AND MOORINGS" },
+    { "type": "frame_in_frame", "x": 0.74, "y": 0.66, "w": 0.25, "h": 0.30, "label": "DARK DOCK MASS" }
+  ],
+  "notes": "A dark shore and dock counterweight the reflective bay beneath a low, storm-lit coast."
+}

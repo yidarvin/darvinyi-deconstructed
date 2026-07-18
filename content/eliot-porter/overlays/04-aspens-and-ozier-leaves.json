@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-aspens-and-ozier-leaves.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.42, "rx": 0.10, "ry": 0.39, "label": "CENTRAL ASPEN" },
+    { "type": "polyline", "points": [[0.10,0.06],[0.10,0.34],[0.11,0.63],[0.11,0.93]], "label": "REPEATED TRUNK RHYTHM" },
+    { "type": "polyline", "points": [[0.12,0.52],[0.35,0.48],[0.59,0.41],[0.83,0.34]], "label": "CROSSING TWIG" }
+  ],
+  "notes": "A central aspen stabilizes a forest of vertical intervals interrupted by a dark twig band."
+}

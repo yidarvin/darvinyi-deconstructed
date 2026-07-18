@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-woodland-pool-chocorua.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.53, "rx": 0.20, "ry": 0.29, "label": "BRIGHT REFLECTION" },
+    { "type": "polyline", "points": [[0.59,0.06],[0.72,0.11],[0.88,0.09],[0.97,0.18]], "label": "MOSS BANK" },
+    { "type": "polyline", "points": [[0.16,0.15],[0.20,0.35],[0.22,0.57],[0.24,0.78]], "label": "REFLECTED TRUNK RHYTHM" }
+  ],
+  "notes": "The pool makes a bright vertical interval within a dense field of leaves and broken trunk reflections."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-spruce-forest-in-fog.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.75,0.96],[0.74,0.73],[0.72,0.51],[0.69,0.30],[0.65,0.08]], "label": "MOSSY CURVED TRUNK" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.08, "w": 0.27, "h": 0.70, "label": "DARK SPRUCE MASS" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.28, "rx": 0.22, "ry": 0.20, "label": "FOG OPENING" },
+    { "type": "polyline", "points": [[0.35,0.95],[0.40,0.71],[0.45,0.51],[0.49,0.32]], "label": "FOREGROUND SAPLING WEB" }
+  ],
+  "notes": "Fog opens a pale void behind trunks, while the mossy tree and dark spruce mass hold the frame’s edges."
+}

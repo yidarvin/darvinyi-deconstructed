@@ -1,0 +1,114 @@
+[
+  {
+    "file": "01-yellow-leaves-and-asters.jpg",
+    "width": 843,
+    "height": 1059,
+    "sha1": "f488995c",
+    "source": "01-yellow-leaves-and-asters.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-woodland-pool-chocorua.jpg",
+    "width": 843,
+    "height": 1024,
+    "sha1": "c1b83ffa",
+    "source": "02-woodland-pool-chocorua.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-winter-river.jpg",
+    "width": 843,
+    "height": 660,
+    "sha1": "1a4fdd1f",
+    "source": "03-winter-river.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-aspens-and-ozier-leaves.jpg",
+    "width": 843,
+    "height": 1059,
+    "sha1": "d6a50231",
+    "source": "04-aspens-and-ozier-leaves.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-chipping-sparrow.jpg",
+    "width": 843,
+    "height": 1102,
+    "sha1": "dba0e397",
+    "source": "05-chipping-sparrow.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-redbud-tree-bottomland.jpg",
+    "width": 843,
+    "height": 1014,
+    "sha1": "32f3b91a",
+    "source": "06-redbud-tree-bottomland.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-cliff-moonlight-creek.jpg",
+    "width": 843,
+    "height": 1063,
+    "sha1": "6c83c5a0",
+    "source": "07-cliff-moonlight-creek.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-east-penobscot-bay.jpg",
+    "width": 602,
+    "height": 480,
+    "sha1": "5f314fc8",
+    "source": "08-east-penobscot-bay.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2005:12:09 12:42:30",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.3333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "09-hidden-passage-glen-canyon.jpg",
+    "width": 843,
+    "height": 1091,
+    "sha1": "882b66e7",
+    "source": "09-hidden-passage-glen-canyon.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-eastern-flicker.jpg",
+    "width": 597,
+    "height": 480,
+    "sha1": "5ecb64c6",
+    "source": "10-eastern-flicker.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "FinePix S3Pro",
+      "DateTimeOriginal": "2005:12:09 11:59:19",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.3333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "11-spruce-forest-in-fog.jpg",
+    "width": 843,
+    "height": 1053,
+    "sha1": "9ad9285c",
+    "source": "11-spruce-forest-in-fog.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-red-maples-new-hampshire.jpg",
+    "width": 843,
+    "height": 1052,
+    "sha1": "dd557dfb",
+    "source": "12-red-maples-new-hampshire.jpg",
+    "exif": {}
+  }
+]
