@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-alicante-spain.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.48, "rx": 0.40, "ry": 0.38, "label": "three-person knot" },
+    { "type": "polyline", "points": [[0.24, 0.39], [0.47, 0.45], [0.66, 0.61]], "label": "scissors and joined hands" },
+    { "type": "subject_anchor", "x": 0.754, "y": 0.500, "r": 0.04, "label": "woman at right" }
+  ],
+  "notes": "Three faces and a short chain of hands compress an ordinary grooming scene into a tight social arrangement."
+}

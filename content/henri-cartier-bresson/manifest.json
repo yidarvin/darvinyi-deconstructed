@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-hyeres-france.jpg",
+    "width": 843,
+    "height": 565,
+    "sha1": "bd697d34",
+    "source": "01-hyeres-france.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-alicante-spain.jpg",
+    "width": 843,
+    "height": 581,
+    "sha1": "80d27262",
+    "source": "02-alicante-spain.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-seville.jpg",
+    "width": 843,
+    "height": 573,
+    "sha1": "978166dc",
+    "source": "03-seville.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-valencia-spain.jpg",
+    "width": 843,
+    "height": 565,
+    "sha1": "4b66062a",
+    "source": "04-valencia-spain.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-allees-du-prado-marseilles.jpg",
+    "width": 843,
+    "height": 1238,
+    "sha1": "698a9144",
+    "source": "05-allees-du-prado-marseilles.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-mexico-city.jpg",
+    "width": 843,
+    "height": 596,
+    "sha1": "1a11755f",
+    "source": "06-mexico-city.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-juvisy-france.jpg",
+    "width": 843,
+    "height": 568,
+    "sha1": "9af8a419",
+    "source": "07-juvisy-france.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-arsila-spanish-morocco.jpg",
+    "width": 843,
+    "height": 1247,
+    "sha1": "d76f63c6",
+    "source": "08-arsila-spanish-morocco.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-piazza-della-signoria-florence.jpg",
+    "width": 843,
+    "height": 569,
+    "sha1": "3d479835",
+    "source": "09-piazza-della-signoria-florence.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-trieste-italy.jpg",
+    "width": 843,
+    "height": 632,
+    "sha1": "7ff6534c",
+    "source": "10-trieste-italy.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-quai-de-javel-paris.jpg",
+    "width": 843,
+    "height": 568,
+    "sha1": "fc4de12f",
+    "source": "11-quai-de-javel-paris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-cordoba-spain.jpg",
+    "width": 843,
+    "height": 1223,
+    "sha1": "782fea2c",
+    "source": "12-cordoba-spain.jpg",
+    "exif": {}
+  }
+]

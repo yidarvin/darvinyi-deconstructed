@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-allees-du-prado-marseilles.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.441, "y": 0.306, "label": "avenue's recession" },
+    { "type": "horizon_line", "y": 0.808, "angle": 0.0, "label": "wet pavement band" },
+    { "type": "polyline", "points": [[0.12, 0.00], [0.22, 0.41], [0.32, 0.70], [0.39, 1.00]], "label": "left tree rhythm" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.64, "rx": 0.16, "ry": 0.20, "label": "cloaked walker" }
+  ],
+  "notes": "Tree trunks meter the wet boulevard while the lone walker interrupts its deep, orderly recession."
+}

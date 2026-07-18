@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-valencia-spain.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.00, 0.71], [0.35, 0.72], [0.68, 0.74], [1.00, 0.76]], "label": "pavement band" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.75, "rx": 0.10, "ry": 0.18, "label": "child's white figure" },
+    { "type": "subject_anchor", "x": 0.569, "y": 0.749, "r": 0.04, "label": "upturned child" }
+  ],
+  "notes": "A small bright body interrupts the dark, scraped wall like a sudden gesture on an otherwise blank stage."
+}

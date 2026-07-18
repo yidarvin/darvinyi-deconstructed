@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-juvisy-france.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.05, 0.64], [0.34, 0.54], [0.60, 0.51], [0.89, 0.58]], "label": "picnic's seated arc" },
+    { "type": "ellipse", "cx": 0.38, "cy": 0.59, "rx": 0.25, "ry": 0.21, "label": "clustered diners" },
+    { "type": "subject_anchor", "x": 0.320, "y": 0.592, "r": 0.04, "label": "central diner" },
+    { "type": "polyline", "points": [[0.26, 0.19], [0.47, 0.17], [0.68, 0.21]], "label": "boat across the water" }
+  ],
+  "notes": "The picnic opens toward the boat, making a casual meal register as a sequence of bodies, water, and distance."
+}
