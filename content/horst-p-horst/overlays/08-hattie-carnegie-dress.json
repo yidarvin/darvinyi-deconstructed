@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-hattie-carnegie-dress.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.166, "angle": -3.0, "label": "upper stripe edge" },
+    { "type": "vanishing_point", "x": 0.542, "y": 0.724, "label": "dress-fold convergence" },
+    { "type": "leading_line", "points": [[0.257, 0.400], [0.690, 0.883]], "arrow": true, "label": "dress contour" },
+    { "type": "leading_line", "points": [[0.307, 0.591], [0.708, 0.903]], "arrow": true, "label": "striped fold" }
+  ],
+  "notes": "Broad green-and-white bands set a horizontal counter-rhythm to the dress's repeated diagonal folds."
+}

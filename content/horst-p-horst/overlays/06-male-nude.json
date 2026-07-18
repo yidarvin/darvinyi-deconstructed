@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-male-nude.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.793, "angle": 0.0, "label": "plinth edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "pose axis" },
+    { "type": "subject_anchor", "x": 0.560, "y": 0.616, "r": 0.035, "label": "raised knee" }
+  ],
+  "notes": "The body is built from an almost symmetric arch of arms against the plinth's plain horizontal base."
+}

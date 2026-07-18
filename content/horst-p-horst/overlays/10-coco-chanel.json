@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-coco-chanel.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.047, "y": 0.050, "w": 0.905, "h": 0.900, "label": "printed image edge" },
+    { "type": "ellipse", "cx": 0.300, "cy": 0.402, "rx": 0.225, "ry": 0.180, "label": "armchair back" },
+    { "type": "polyline", "points": [[0.186, 0.344], [0.300, 0.416], [0.460, 0.520]], "label": "Chanel's reclining profile" },
+    { "type": "subject_anchor", "x": 0.990, "y": 0.992, "r": 0.035, "label": "foreground chair corner" }
+  ],
+  "notes": "The dark reclining figure is enclosed by the armchair's bright curve and the surviving printed sheet's border."
+}

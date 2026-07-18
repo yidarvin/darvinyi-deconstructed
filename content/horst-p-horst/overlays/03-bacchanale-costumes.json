@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-bacchanale-costumes.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.885, "angle": 0.0, "label": "stage edge" },
+    { "type": "subject_anchor", "x": 0.879, "y": 0.242, "r": 0.035, "label": "raised arm" },
+    { "type": "leading_line", "points": [[0.001, 0.751], [0.190, 0.461]], "arrow": true, "label": "left cane" }
+  ],
+  "notes": "The set's recession and two opposed bodies turn costume into a deliberately balanced stage mass."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-muriel-maxwell-vogue-cover.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.791, "angle": 0.0, "label": "table edge" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.336, "r": 0.035, "label": "sunglasses" },
+    { "type": "polyline", "points": [[0.422, 0.755], [0.521, 0.558], [0.540, 0.450]], "label": "lipstick gesture" }
+  ],
+  "notes": "The face, hand, lipstick, and striped accessory gather into a compact graphic triangle against a deep blue field."
+}

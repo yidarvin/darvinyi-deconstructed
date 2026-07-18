@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "11-noel-coward-paul.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.749, "angle": 0.0, "label": "print's lower edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "portrait axis" },
+    { "type": "subject_anchor", "x": 0.283, "y": 0.477, "r": 0.035, "label": "left costume mass" },
+    { "type": "frame_in_frame", "x": 0.174, "y": 0.112, "w": 0.618, "h": 0.638, "label": "portrait image" },
+    { "type": "ellipse", "cx": 0.499, "cy": 0.332, "rx": 0.115, "ry": 0.115, "label": "Coward's face" }
+  ],
+  "notes": "The square portrait is centered inside a generous printed border, making costume, bow, and monocle read as staged performance."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-summer-fashions-vogue-cover.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "balloon axis" },
+    { "type": "vanishing_point", "x": 0.474, "y": 0.652, "label": "limb junction" },
+    { "type": "subject_anchor", "x": 0.676, "y": 0.710, "r": 0.035, "label": "reclining head" }
+  ],
+  "notes": "The centered balloon turns the inverted figure into a cover-scale diagram of axis, arc, and crossed limbs."
+}

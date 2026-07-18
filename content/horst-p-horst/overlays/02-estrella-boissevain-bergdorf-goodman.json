@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-estrella-boissevain-bergdorf-goodman.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.840, "angle": -3.1, "label": "platform edge" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.492, "r": 0.035, "label": "gloved hand" },
+    { "type": "frame_in_frame", "x": 0.160, "y": 0.205, "w": 0.705, "h": 0.425, "label": "lit backdrop" },
+    { "type": "polyline", "points": [[0.485, 0.480], [0.470, 0.695], [0.523, 0.880]], "label": "chair and cane rhythm" }
+  ],
+  "notes": "A dark profile is staged against a lit rectangle, with chair, cane, and plaster heads making the studio space active."
+}

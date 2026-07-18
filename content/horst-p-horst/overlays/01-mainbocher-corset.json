@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-mainbocher-corset.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.659, "angle": -1.0, "label": "bench edge" },
+    { "type": "subject_anchor", "x": 0.690, "y": 0.258, "r": 0.035, "label": "turned head" },
+    { "type": "leading_line", "points": [[0.552, 0.455], [0.614, 0.656]], "arrow": true, "label": "corset lacing" },
+    { "type": "polyline", "points": [[0.315, 0.352], [0.520, 0.292], [0.704, 0.332]], "label": "shoulder span" }
+  ],
+  "notes": "The bench fixes a horizontal base while back, arms, and lacing turn the pose into a measured vertical construction."
+}

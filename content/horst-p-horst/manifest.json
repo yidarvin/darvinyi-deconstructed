@@ -1,0 +1,92 @@
+[
+  {
+    "file": "01-mainbocher-corset.jpg",
+    "width": 1175,
+    "height": 1600,
+    "sha1": "25193ca6",
+    "source": "01-mainbocher-corset.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-estrella-boissevain-bergdorf-goodman.jpg",
+    "width": 1280,
+    "height": 1593,
+    "sha1": "437e8eda",
+    "source": "02-estrella-boissevain-bergdorf-goodman.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-bacchanale-costumes.jpg",
+    "width": 960,
+    "height": 1333,
+    "sha1": "0cc97522",
+    "source": "03-bacchanale-costumes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-marlene-dietrich.jpg",
+    "width": 640,
+    "height": 803,
+    "sha1": "37548f37",
+    "source": "04-marlene-dietrich.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-schiaparelli-dinner-suit.jpg",
+    "width": 1267,
+    "height": 1600,
+    "sha1": "dd464505",
+    "source": "05-schiaparelli-dinner-suit.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-male-nude.jpg",
+    "width": 1241,
+    "height": 1600,
+    "sha1": "82b7c545",
+    "source": "06-male-nude.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-summer-fashions-vogue-cover.jpg",
+    "width": 1279,
+    "height": 1600,
+    "sha1": "e5ea59f7",
+    "source": "07-summer-fashions-vogue-cover.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-hattie-carnegie-dress.jpg",
+    "width": 1248,
+    "height": 1600,
+    "sha1": "f9ee9dfc",
+    "source": "08-hattie-carnegie-dress.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-muriel-maxwell-vogue-cover.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "2d3a95a1",
+    "source": "09-muriel-maxwell-vogue-cover.jpg",
+    "exif": {
+      "DateTimeOriginal": "803060920:00:00 00:00:00\u0002"
+    }
+  },
+  {
+    "file": "10-coco-chanel.jpg",
+    "width": 1199,
+    "height": 1600,
+    "sha1": "a7927a6e",
+    "source": "10-coco-chanel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-noel-coward-paul.jpg",
+    "width": 1275,
+    "height": 1600,
+    "sha1": "2a033526",
+    "source": "11-noel-coward-paul.jpg",
+    "exif": {}
+  }
+]
