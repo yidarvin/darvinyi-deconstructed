@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -11,3 +11,9 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All seven proofs were visually checked against their overlay specs. Each uses three or four teaching primitives, and the semantic labels trace visible features. The current analyzer/spec scores are 100/100 for every image; the chapter's reported edge-density and palette values agree with the analyzer files, and the chapter makes no unsupported camera-setting claim.
+
+## Resolution — 2026-07-18
+
+Applied both required source-note corrections. For 03, the shortlist and Factors 1 and 3 now identify the supplied paired faces, their unequal scale and eye levels, and the visible print-edge frame; they make no claim about dogs or feet. For 07, the shortlist and Factors 1 and 3 now identify only the supplied crop’s scarred torso, jacket contours, hands, and belt; they make no claim about a face or gaze.
+
+Re-verified the full critique history: round 2026-07-18 (the only prior round) remains satisfied. The existing chapter and its proofs already described these crops accurately, so no overlay or chapter revision was necessary.

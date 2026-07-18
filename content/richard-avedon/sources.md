@@ -22,9 +22,9 @@ This working set traces Avedon’s defining moves across fashion, celebrity, pol
 
 ### 03 — *The Duke and Duchess of Windsor, New York City* (1957)
 
-- **Why it matters:** The couple’s posed elegance is punctured by the small dogs at their feet. The low, active animal cluster shifts the image’s attention away from the central social pair and gives the formal portrait an unstable base.
+- **Why it matters:** The supplied close portrait makes the couple’s faces an unequal paired mass: the Duke’s larger head sits higher at right while the Duchess’s lower face presses in from left. The visible print-edge border creates a second rectangle around their proximity.
 - **Source:** [Art Institute of Chicago object 156003](https://www.artic.edu/artworks/156003/the-duke-and-duchess-of-windsor-new-york-city) (collection credit: The Mary and Leigh Block Endowment Fund; direct public display rendition: https://www.artic.edu/iiif/2/9a9ac573-a7ff-c783-5275-b19e0f4247b9/full/843,/0/default.jpg)
-- **Rights / fair-use assessment:** Richard Avedon; **Copyright © The Richard Avedon Foundation.** **Factor 1:** transformative scholarship analyzes the tension between courtly pose and the dogs’ disruptive lower register. **Factor 2:** creative portrait photograph. **Factor 3:** complete-frame use keeps both the pair and the dogs in their intended hierarchy. **Factor 4:** this 843 × 870px, credited, linked display copy does not replace an original or licensed reproduction.
+- **Rights / fair-use assessment:** Richard Avedon; **Copyright © The Richard Avedon Foundation.** **Factor 1:** transformative scholarship analyzes the paired faces, their unequal scale and eye levels, and the print-edge frame that contains them. **Factor 2:** creative portrait photograph. **Factor 3:** complete-frame use is required to show both faces together with the visible print-edge border that structures their proximity. **Factor 4:** this 843 × 870px, credited, linked display copy does not replace an original or licensed reproduction.
 - **File:** `raw/richard-avedon/03-duke-and-duchess-of-windsor.jpg` (843 × 870px)
 
 ### 04 — *The Chicago Seven, Chicago* (September 25, 1969)
@@ -50,9 +50,9 @@ This working set traces Avedon’s defining moves across fashion, celebrity, pol
 
 ### 07 — *Andy Warhol, Artist, New York City* (August 20, 1969; printed 1975)
 
-- **Why it matters:** Warhol’s scarred, bare upper torso and direct face make vulnerability and presentation collide. The white field removes context, forcing the viewer to read the body’s marks and the face as one uncompromising surface.
+- **Why it matters:** Warhol’s scarred, bare torso is enclosed by dark jacket contours, with the hands and belt making a guarded lower boundary. The crop removes the face and forces attention onto the body’s marked surface and the pressure of those enclosing forms.
 - **Source:** [Art Institute of Chicago object 212068](https://www.artic.edu/artworks/212068/andy-warhol-artist-new-york-city) (collection credit: Gift of Robert A. Taub; direct public display rendition: https://www.artic.edu/iiif/2/eae8f726-e7a9-75a0-05f0-6aaf0364fd3b/full/843,/0/default.jpg)
-- **Rights / fair-use assessment:** Richard Avedon; **Copyright © The Richard Avedon Foundation.** **Factor 1:** transformative criticism examines Avedon’s confrontation between unadorned body, frontal gaze, and blank ground. **Factor 2:** creative portrait photograph. **Factor 3:** the whole torso and surrounding field are essential to the analysis. **Factor 4:** the 843 × 1048px credited display copy is web-sized, record-linked, and does not replace a print or licensed reproduction.
+- **Rights / fair-use assessment:** Richard Avedon; **Copyright © The Richard Avedon Foundation.** **Factor 1:** transformative criticism examines the exposed, scarred torso, enclosing jacket contours, hands, and belt in the supplied crop. **Factor 2:** creative photographic portrait. **Factor 3:** the complete supplied frame is essential to follow the torso, jacket contours, hands, and belt as one compositional structure. **Factor 4:** the 843 × 1048px credited display copy is web-sized, record-linked, and does not replace a print or licensed reproduction.
 - **File:** `raw/richard-avedon/07-andy-warhol.jpg` (843 × 1048px)
 
 ## Research context
