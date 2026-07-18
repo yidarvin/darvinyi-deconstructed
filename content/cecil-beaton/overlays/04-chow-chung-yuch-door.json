@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-chow-chung-yuch-door.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.69, "cy": 0.36, "rx": 0.13, "ry": 0.16, "label": "PROFILE" },
+    { "type": "polyline", "points": [[0.05, 0.14], [0.35, 0.25], [0.63, 0.37]], "label": "STUDDED DOOR RHYTHM" },
+    { "type": "polyline", "points": [[0.02, 0.63], [0.30, 0.70], [0.57, 0.77]], "label": "STUDDED DOOR RHYTHM" }
+  ],
+  "notes": "A lit profile pauses against the door's repeated circular studs and deep dark field."
+}

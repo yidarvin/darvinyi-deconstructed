@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-st-pauls-through-archway.jpg",
+    "width": 730,
+    "height": 800,
+    "sha1": "b09c576c",
+    "source": "01-st-pauls-through-archway.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-calcutta-tram-bars.jpg",
+    "width": 762,
+    "height": 800,
+    "sha1": "6fb95851",
+    "source": "02-calcutta-tram-bars.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-chengtu-mother-and-child.jpg",
+    "width": 760,
+    "height": 800,
+    "sha1": "26f2de89",
+    "source": "03-chengtu-mother-and-child.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-chow-chung-yuch-door.jpg",
+    "width": 1540,
+    "height": 1600,
+    "sha1": "ffde5524",
+    "source": "04-chow-chung-yuch-door.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-chengtu-man-sun-shadow.jpg",
+    "width": 1536,
+    "height": 1600,
+    "sha1": "379ec4ba",
+    "source": "05-chengtu-man-sun-shadow.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-desert-jeep-portrait.jpg",
+    "width": 1540,
+    "height": 1599,
+    "sha1": "40ad7d07",
+    "source": "06-desert-jeep-portrait.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-desert-group-archway.jpg",
+    "width": 1569,
+    "height": 1600,
+    "sha1": "63fdb210",
+    "source": "07-desert-group-archway.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-wellington-navigator.jpg",
+    "width": 553,
+    "height": 800,
+    "sha1": "6a8aa624",
+    "source": "08-wellington-navigator.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-wellington-rear-gunner.jpg",
+    "width": 766,
+    "height": 800,
+    "sha1": "df877d18",
+    "source": "09-wellington-rear-gunner.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-bengali-boy-spinning-wheel.jpg",
+    "width": 757,
+    "height": 800,
+    "sha1": "ed2949a9",
+    "source": "10-bengali-boy-spinning-wheel.jpg",
+    "exif": {}
+  }
+]

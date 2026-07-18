@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-chengtu-man-sun-shadow.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.42, "rx": 0.15, "ry": 0.17, "label": "LIT FACE" },
+    { "type": "polyline", "points": [[0.44, 0.08], [0.45, 0.38], [0.46, 0.76]], "label": "LIGHT-SHADOW EDGE" },
+    { "type": "polyline", "points": [[0.26, 0.76], [0.48, 0.60], [0.69, 0.78]], "label": "TUNIC SHADOW" }
+  ],
+  "notes": "A hard shaft of light crosses the figure, making the boundary between illumination and shadow the portrait's main event."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-bengali-boy-spinning-wheel.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.38, "cy": 0.46, "rx": 0.13, "ry": 0.23, "label": "SPINNING WHEEL" },
+    { "type": "ellipse", "cx": 0.66, "cy": 0.50, "rx": 0.16, "ry": 0.21, "label": "BOY AT WORK" },
+    { "type": "polyline", "points": [[0.05, 0.75], [0.25, 0.66], [0.42, 0.55]], "label": "LIT THREAD" }
+  ],
+  "notes": "Wheel, thread, and seated worker turn a quiet courtyard into a study of circular labor and light."
+}

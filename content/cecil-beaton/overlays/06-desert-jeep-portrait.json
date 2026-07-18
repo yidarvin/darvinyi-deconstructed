@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-desert-jeep-portrait.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.34, "cy": 0.42, "rx": 0.16, "ry": 0.16, "label": "DRIVER'S FACE" },
+    { "type": "polyline", "points": [[0.42, 0.76], [0.68, 0.64], [0.87, 0.48]], "label": "ARM TO WHEEL" },
+    { "type": "ellipse", "cx": 0.75, "cy": 0.68, "rx": 0.20, "ry": 0.18, "label": "STEERING WHEEL" }
+  ],
+  "notes": "Face, forearms, and the steering wheel overlap into a close, sunlit environmental portrait."
+}

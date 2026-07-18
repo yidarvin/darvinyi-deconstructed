@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-desert-group-archway.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.13, "w": 0.73, "h": 0.72, "label": "MUD-BRICK THRESHOLD" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.425, "label": "THRESHOLD BALANCE" },
+    { "type": "polyline", "points": [[0.20, 0.69], [0.47, 0.64], [0.73, 0.72]], "label": "FRONT RANK" }
+  ],
+  "notes": "A monumental threshold organizes the group as a broad, advancing human silhouette."
+}

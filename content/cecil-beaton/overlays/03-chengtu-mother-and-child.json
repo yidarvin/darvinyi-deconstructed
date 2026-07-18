@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-chengtu-mother-and-child.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.40, "cy": 0.39, "rx": 0.18, "ry": 0.16, "label": "MOTHER'S HEAD" },
+    { "type": "ellipse", "cx": 0.68, "cy": 0.32, "rx": 0.14, "ry": 0.16, "label": "CHILD'S HEAD" },
+    { "type": "polyline", "points": [[0.40, 0.47], [0.54, 0.57], [0.64, 0.55]], "label": "HAND TO CHILD" }
+  ],
+  "notes": "Two heads and the mother's hand make an intimate triangle above the bed's horizontal support."
+}
