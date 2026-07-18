@@ -69,7 +69,7 @@ real queue and state live in data/registry.json.
 | 58  | yousuf-karsh              | Yousuf Karsh              | DONE    |
 | 59  | brassai                   | Brassaï                   | DONE    |
 | 60  | robert-doisneau           | Robert Doisneau           | DONE    |
-| 61  | josef-koudelka            | Josef Koudelka            | PENDING |
+| 61  | josef-koudelka            | Josef Koudelka            | DONE    |
 | 62  | cecil-beaton              | Cecil Beaton              | PENDING |
 | 63  | horst-p-horst             | Horst P. Horst            | PENDING |
 | 64  | george-hurrell            | George Hurrell            | PENDING |

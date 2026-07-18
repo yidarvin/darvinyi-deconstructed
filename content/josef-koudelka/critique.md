@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -28,3 +28,22 @@ Re-verified critique history: 2026-07-18 (the only prior round).
 4. **09-slovakia-rakusy:** Relabeled the truthful existing polyline `SHAWL CONTOUR` and revised the chapter accordingly; re-rendered, visually checked, and scored 100/100.
 
 `scripts/check.sh` passes, including chapter byte identity and pipeline validation.
+
+## Critique round — 2026-07-18
+
+### Required (blocking)
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+Fresh-eyes review of all twelve current proof PNGs against their overlay specs,
+analysis records, chapter, manifest, research note, and source notes finds the
+four issues from the 2026-07-18 critique round resolved without regression.
+Each overlay is materially truthful and teaches a bounded compositional claim;
+all score 100/100 in the deterministic scorer. The chapter's numerical claims
+match the analysis values within tolerance, it explicitly declines unsupported
+camera and process settings, and all twelve fair-use records retain traceable
+Art Institute collection links, accurate attribution, and per-image rationale.
