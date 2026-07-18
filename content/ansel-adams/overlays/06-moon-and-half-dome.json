@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-moon-and-half-dome.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.235, "angle": 0, "label": "DOME RIM" },
+    { "type": "ellipse", "cx": 0.349, "cy": 0.105, "rx": 0.027, "ry": 0.021, "label": "MOON" },
+    { "type": "polyline", "points": [[0.44,0.31],[0.58,0.25],[0.79,0.23],[0.99,0.27]], "label": "HALF DOME CREST" }
+  ],
+  "notes": "A small moon balances the broad, vertically rising mass of Half Dome."
+}

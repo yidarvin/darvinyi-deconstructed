@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-monolith-face-of-half-dome.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.446, "y": 0.470, "label": "RECEDING SNOW SLOPES" },
+    { "type": "leading_line", "points": [[0.028,0.789],[0.680,0.306]], "arrow": true, "label": "SNOW SLOPE" },
+    { "type": "polyline", "points": [[0.48,0.05],[0.64,0.14],[0.75,0.31],[0.73,0.62],[0.62,0.92]], "label": "MONOLITH EDGE" }
+  ],
+  "notes": "The rock face rises as an immense dark wall against a spare field of sky and snow."
+}

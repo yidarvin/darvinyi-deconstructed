@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-clearing-winter-storm-yosemite.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.614, "angle": -2.8, "label": "VALLEY FLOOR" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.40, "rx": 0.19, "ry": 0.18, "label": "CLEARING" },
+    { "type": "polyline", "points": [[0.02,0.45],[0.18,0.57],[0.34,0.66]], "label": "LEFT VALLEY WALL" },
+    { "type": "polyline", "points": [[0.98,0.39],[0.82,0.55],[0.69,0.68]], "label": "RIGHT VALLEY WALL" }
+  ],
+  "notes": "Dark valley walls direct attention toward a luminous clearing held in weather."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-rose-and-driftwood.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.46, "rx": 0.30, "ry": 0.34, "label": "ROSE" },
+    { "type": "polyline", "points": [[0.01,0.79],[0.20,0.76],[0.36,0.72]], "label": "WOOD GRAIN" },
+    { "type": "polyline", "points": [[0.01,0.30],[0.17,0.29],[0.32,0.33]], "label": "WOOD GRAIN" }
+  ],
+  "notes": "A pale flower is held against the dense, directional texture of driftwood."
+}

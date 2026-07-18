@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-forest-winter-yosemite.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.10,0.05],[0.24,0.18],[0.35,0.48],[0.44,0.74]], "label": "SNOW-LOADED BRANCH" },
+    { "type": "polyline", "points": [[0.70,0.03],[0.71,0.31],[0.70,0.62],[0.69,0.92]], "label": "DARK TRUNK" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.78, "rx": 0.23, "ry": 0.10, "label": "SNOW OPENING" }
+  ],
+  "notes": "Snow turns trunks and branches into an intricate screen punctuated by open white ground."
+}
