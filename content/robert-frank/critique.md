@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -15,3 +15,16 @@ No separate advisory findings. The remaining proofs visibly support their labels
 ## Resolution — 2026-07-18
 
 Re-verified prior critique round `2026-07-18` in full. For 05, the false analyzer vanishing-point claim was removed: the proof now traces the visible left and right road edges plus the broken center markings toward the upper crest, and the chapter makes the same non-convergent claim. For 09, the unsupported `SEAT-BACK DIAGONAL` primitive and matching prose were removed. The dating note now records *Movie Usherettes, Los Angeles* once, as 1956, matching the cited source and chapter. Both revised overlay specs score 100/100 and their regenerated proofs passed visual review; `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+### Required
+
+1. **07-restaurant-us-1-south-carolina — `TELEVISION SCREEN` frames the television set, not its screen.** The frame from `(0.16, 0.08)` to `(0.49, 0.45)` encloses the casing and adjacent cabinet area; the visible CRT screen is the much smaller bright rectangle within it. This changes the chapter's claimed "picture inside the picture" from the screen to the appliance. Trace the CRT screen or rename the primitive to `TELEVISION SET` and make the chapter's wording match.
+2. **09-cafeteria-san-francisco — `DINER'S FACE` does not isolate the face it names.** The ellipse `(0.60, 0.41, rx 0.17, ry 0.16)` omits the sitter's upper head while extending well over the collar and chest. It marks an upper body, not the face, so the chapter's claim that the overlay isolates the face is false as rendered. Resize and reposition it around the actual face, or relabel it and revise the prose accordingly.
+
+### Advisory (non-blocking)
+
+- **09-cafeteria-san-francisco — `NEAR COUNTER`.** The long diagonal reads more as a route across the foreground tableware than a clearly bounded counter edge. Consider shortening it to a visible boundary or naming the foreground plane more precisely.
+
+The earlier 05 road-convergence, 09 seat-back, and *Movie Usherettes* date findings remain resolved: no material regression was found. All twelve source records and public-display rendition links returned successfully, each image retains its credited per-image fair-use rationale, the cited analyzer measurements match the chapter within tolerance, and no camera settings are asserted.
