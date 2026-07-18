@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-vj-day.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.49, "cy": 0.50, "rx": 0.19, "ry": 0.31, "label": "sailor and nurse" },
+    { "type": "polyline", "points": [[0.18, 0.37], [0.47, 0.34], [0.69, 0.36]], "label": "witness line" },
+    { "type": "polyline", "points": [[0.43, 0.24], [0.53, 0.40], [0.58, 0.60]], "label": "tilted embrace" }
+  ],
+  "notes": "A diagonal embrace interrupts the street's dispersed witnesses and makes a public scene briefly intimate."
+}

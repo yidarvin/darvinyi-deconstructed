@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-winston-churchill.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.329, "angle": 0, "label": "wall seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "portrait balance" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.41, "rx": 0.19, "ry": 0.18, "label": "face beneath hat" },
+    { "type": "polyline", "points": [[0.30, 0.14], [0.28, 0.28], [0.37, 0.40]], "label": "raised hand gesture" }
+  ],
+  "notes": "A centered face and raised hand make a ceremonial gesture read against a spare wall."
+}

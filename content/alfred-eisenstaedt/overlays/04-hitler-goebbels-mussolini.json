@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-hitler-goebbels-mussolini.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.07, "w": 0.80, "h": 0.86, "label": "printed picture area" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "print-field axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.55, "rx": 0.35, "ry": 0.40, "label": "seated political figure" }
+  ],
+  "notes": "The mounted print isolates a single seated figure inside a high-contrast, vertically balanced field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-pearl-industry.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.76, "cy": 0.67, "rx": 0.23, "ry": 0.20, "label": "foreground basket" },
+    { "type": "ellipse", "cx": 0.65, "cy": 0.33, "rx": 0.17, "ry": 0.17, "label": "floating basket" },
+    { "type": "polyline", "points": [[0.39, 0.17], [0.47, 0.35], [0.36, 0.54], [0.53, 0.74]], "label": "workers through water" }
+  ],
+  "notes": "White working clothes and round baskets step back through a field of bright, rippled water."
+}

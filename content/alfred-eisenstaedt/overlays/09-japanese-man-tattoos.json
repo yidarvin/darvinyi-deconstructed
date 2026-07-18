@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-japanese-man-tattoos.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.55, "cy": 0.58, "rx": 0.32, "ry": 0.40, "label": "tattooed back" },
+    { "type": "polyline", "points": [[0.14, 0.05], [0.11, 0.20], [0.20, 0.34], [0.41, 0.38]], "label": "raised arm" },
+    { "type": "polyline", "points": [[0.50, 0.13], [0.50, 0.31], [0.53, 0.57], [0.55, 0.83]], "label": "body center" }
+  ],
+  "notes": "A raised arm breaks a near-frontal back portrait whose tattoo pattern becomes the picture's dense surface."
+}
