@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-17
 
@@ -51,3 +51,11 @@ verdict: revise
 - `07-georgia-okeeffe`: the labeled `window seat` anchor correctly lands on the secondary counterweight, but a `subject_anchor` at an unoccupied seat is pedagogically ambiguous. A counterweight-specific label or a figure anchor would be clearer.
 
 All ten proofs were visually reviewed and all ten current specs pass the deterministic scorer at 100/100. The remaining overlay primitives visibly trace their named features. Chapter measurement and grid-fit statements match the analyzer records, the source links returned HTTP 200, and no camera or printing setting is otherwise invented.
+
+## Resolution — 2026-07-17
+
+- Resolved required fixes 1–2: redrew Hemingway’s `chair arm` path on the visible lower-left chair arm, and replaced Johns’s false `flag field` box with a path on the visible edge of the star field. Fresh renders pass the strict scorer at 100/100 and were visually checked against the named features.
+- Resolved required fixes 3–4: corrected the complete-frame necessity rationales for Hemingway, Hepburn, and Johns so each names the composition actually displayed.
+- Resolved required fix 5: recast the source dossier, research note, and both rendered chapter copies as visible compositional observations; removed unsupported claims about venue, studio setup, lighting method, and direction. No camera, printing, or exposure detail has been added.
+- Advisory clarity fixes applied: Einstein’s line is labeled a face-to-hands attention path, and O’Keeffe’s secondary anchor is labeled a window-seat counterweight.
+- Prior rounds re-verified: 2026-07-17 fair-use nature-of-work fix remains in all ten per-image assessments; 2026-07-17 source-description corrections for Hemingway, Picasso, O’Keeffe, Hepburn, and Johns remain accurate to their current proofs. All ten current overlays pass the strict scorer at 100/100, the updated proofs received a clean visual pass, and `content/yousuf-karsh/chapter.mdx` is byte-identical to `src/chapters/yousuf-karsh.mdx`.

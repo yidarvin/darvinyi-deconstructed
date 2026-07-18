@@ -3,7 +3,7 @@
   "image": "07-georgia-okeeffe.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.931, "y": 0.913, "r": 0.032, "label": "window seat" },
+    { "type": "subject_anchor", "x": 0.931, "y": 0.913, "r": 0.032, "label": "window-seat counterweight" },
     { "type": "ellipse", "cx": 0.525, "cy": 0.520, "rx": 0.125, "ry": 0.215, "label": "seated figure" },
     { "type": "frame_in_frame", "x": 0.795, "y": 0.040, "w": 0.190, "h": 0.810, "label": "bright window" }
   ],
