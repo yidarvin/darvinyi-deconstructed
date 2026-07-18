@@ -7,7 +7,7 @@ Irving Penn made the controlled studio a versatile compositional instrument: a f
 ## Shortlist
 
 ### 01 — Cuzco Children, Cuzco, Peru (1948, printed December 1976)
-- **Why it matters:** The children stand shoulder to shoulder as a dark, nearly continuous band against a sparse pale ground; their varied faces and garments make frontal grouping into a study of small internal differences within a single shape.
+- **Why it matters:** Two children stand apart on either side of a table against a sparse pale ground. Their differently weighted poses make the tabletop both a bridge and a separator within an otherwise quiet frontal arrangement.
 - **Source:** https://www.artic.edu/artworks/94529 (Art Institute of Chicago, object 94529; public display rendition: https://www.artic.edu/iiif/2/dc73af28-17bc-3004-ec54-902dd91b2046/full/1600,/0/default.jpg)
 - **Rights / fair-use assessment:** Irving Penn; © Condé Nast Publications, Inc. **Factor 1:** nonprofit transformative criticism examines the group silhouette and internal rhythm. **Factor 2:** this is a creative photographic work. **Factor 3:** the complete frame is necessary to retain every child and the surrounding field. **Factor 4:** the credited 843 × 806px display copy links to the museum record and does not substitute for a print or licensed reproduction.
 - **File:** `raw/irving-penn/01-cuzco-children.jpg` (843 × 806px)
@@ -31,9 +31,9 @@ Irving Penn made the controlled studio a versatile compositional instrument: a f
 - **File:** `raw/irving-penn/04-man-lighting-girls-cigarette.jpg` (843 × 805px)
 
 ### 05 — After Dinner Games, New York (1947, printed 1959/60)
-- **Why it matters:** A clustered group, hands, chairs, and tabletop objects make a dense field of small actions; Penn organizes social life as a tight arrangement of repeated shapes and interrupted lines.
+- **Why it matters:** A cup, cards, dominoes, a chess knight, and related tabletop objects make a compact still-life field. Penn turns their repeated edges, stacked forms, and interruptions into a tightly staged visual vocabulary.
 - **Source:** https://www.artic.edu/artworks/144747 (Art Institute of Chicago, object 144747; public display rendition: https://www.artic.edu/iiif/2/a3baadb4-a15f-a486-8ebe-8ce4475f4c95/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Irving Penn; © Condé Nast Publications, Inc. **Factor 1:** nonprofit teaching examines group density and distributed attention. **Factor 2:** the work is creative photography. **Factor 3:** the complete frame is required to keep the figures, furniture, and objects in relation. **Factor 4:** this credited 843 × 1034px display copy is web-sized, record-linked, and does not replace a licensed image or print.
+- **Rights / fair-use assessment:** Irving Penn; © Condé Nast Publications, Inc. **Factor 1:** nonprofit teaching examines the still life's object relations and distributed attention. **Factor 2:** the work is creative photography. **Factor 3:** the complete frame is required to keep the cup, cards, dominoes, knight, and related objects in relation. **Factor 4:** this credited 843 × 1034px display copy is web-sized, record-linked, and does not replace a licensed image or print.
 - **File:** `raw/irving-penn/05-after-dinner-games.jpg` (843 × 1034px)
 
 ### 06 — Mouth (for L'Oréal), New York (1986, printed 1992)
@@ -56,9 +56,10 @@ Irving Penn made the controlled studio a versatile compositional instrument: a f
 
 ### 09 — Georgia O'Keeffe (B), New York (January 31, 1948, printed September 1991)
 - **Why it matters:** O'Keeffe's dark clothing and upright pose are set against a quiet field, making the portrait depend on the edge between bodily silhouette and open studio space.
-- **Source:** https://www.artic.edu/artworks/144791 (Art Institute of Chicago, object 144791; public display rendition: https://www.artic.edu/iiif/2/b1ce9a1b-8fa9-91bd-6a88-63f68284b42d/full/1600,/0/default.jpg)
+- **Source:** https://www.artic.edu/artworks/144791 (Art Institute of Chicago, object 144791; public display rendition: https://www.artic.edu/iiif/2/b1ce9a1b-8fa9-91bd-78c8-274c65826836/full/1600,/0/default.jpg)
 - **Rights / fair-use assessment:** Irving Penn; © The Irving Penn Foundation. **Factor 1:** nonprofit teaching examines silhouette and reserved negative space. **Factor 2:** this is a creative portrait. **Factor 3:** the tall, complete frame is necessary for the figure-to-ground proportion. **Factor 4:** this 843 × 1085px credited museum display copy is web-sized, links to the record, and is non-substitutive.
 - **File:** `raw/irving-penn/09-georgia-okeeffe.jpg` (843 × 1085px)
+- **Provenance check (2026-07-18):** The working replacement rendition above returned a JPEG whose SHA-256 (`15f8397b75efa61c1c2e18029ecfde45b929792c45010ddd8a543022c1280599`) matches the retained raw file, confirming this ingested image came from the documented Art Institute rendition.
 
 ### 10 — Still Life with Triangle and Eraser, New York (January 23, 1985, printed 1985)
 - **Why it matters:** A triangle, eraser, and carefully separated planes make an ordinary tabletop into exact visual syntax; shadow, edge, and small shifts of scale do all the work.
@@ -68,9 +69,10 @@ Irving Penn made the controlled studio a versatile compositional instrument: a f
 
 ### 11 — Three Asaro Mud Men, New Guinea (1970, printed 1984)
 - **Why it matters:** Three masked figures repeat and vary a frontal, sculptural form; the portrait's symmetry is kept alive by differences in stance, head angle, and spacing.
-- **Source:** https://www.artic.edu/artworks/144871 (Art Institute of Chicago, object 144871; public display rendition: https://www.artic.edu/iiif/2/479bb206-0b6e-f887-08c2-f297b3e3e19/full/1600,/0/default.jpg)
+- **Source:** https://www.artic.edu/artworks/144871 (Art Institute of Chicago, object 144871; public display rendition: https://www.artic.edu/iiif/2/479bb206-0b6e-f887-08b7-f2e8158a7e19/full/1600,/0/default.jpg)
 - **Rights / fair-use assessment:** Irving Penn; © The Irving Penn Foundation. **Factor 1:** nonprofit criticism examines repetition, symmetry, and variation in the three-figure arrangement. **Factor 2:** the image is creative photography. **Factor 3:** the complete group frame is necessary to retain the spatial comparison among all three sitters. **Factor 4:** the credited 843 × 846px public display image links back to the collection record and is not a substitute for an original or licensed reproduction.
 - **File:** `raw/irving-penn/11-three-asaro-mud-men.jpg` (843 × 846px)
+- **Provenance check (2026-07-18):** The working replacement rendition above returned a JPEG whose SHA-256 (`c94d17f3b7995480a9936e9fb40a5b7c029cba26cd00e4ebf463fee659be1d62`) matches the retained raw file, confirming this ingested image came from the documented Art Institute rendition.
 
 ### 12 — Colette, Paris (1951, printed December 1976)
 - **Why it matters:** Colette's face and dress emerge from a restrained field, with the portrait's authority coming from minute control of gaze, head angle, and surrounding quiet.

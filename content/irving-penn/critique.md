@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -13,3 +13,11 @@ verdict: revise
 - All twelve submitted overlay specs score 100 with the deterministic scorer. Apart from required item 1, the proof pass found their labels and placements materially aligned with the visible structures.
 - The chapter's cited edge-density values and palette references agree with the corresponding analysis JSON within the stated tolerance, and it appropriately avoids unrecorded camera settings.
 - Each selection includes a per-image fair-use rationale, collection-record link, and stated copyright credit. The required source-link correction above is the only traceability defect found in that review.
+
+## Resolution — 2026-07-18
+
+- Re-verified the complete prior critique history: 2026-07-18 (`c9152bb`, the only prior round). All three numbered requirements from that round remain satisfied.
+- **06-mouth-for-loreal:** Re-ran analysis, render, visual proof review, and scoring. The horizontal primitive remains at the measured `y: 0.392` but is now truthfully labeled `UPPER PIGMENT BAND`; it aligns with the upper painted field rather than claiming the nostrils. Score: 100/100, no deductions or warnings.
+- **01-cuzco-children / 05-after-dinner-games:** Corrected both source-note descriptions to the visible photographs: two children separated by a table, and a tabletop still life of cup, cards, dominoes, knight, and related objects. The associated fair-use explanation for 05 now accurately describes the complete-frame need.
+- **09-georgia-okeeffe / 11-three-asaro-mud-men:** Replaced the stale IIIF identifiers with the working Art Institute rendition URLs. Fresh downloads returned JPEGs byte-identical to the retained raw files (SHA-256 values documented in `sources.md`), preserving accurate provenance for the ingested images.
+- Ran `scripts/check.sh` successfully after the fixes; its chapter-sync gate confirms the rendered chapter mirror is byte-identical.
