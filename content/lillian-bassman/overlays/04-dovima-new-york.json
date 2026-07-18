@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-dovima-new-york.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.63, "cy": 0.16, "rx": 0.06, "ry": 0.08, "label": "DOVIMA FACE" },
+    { "type": "polyline", "points": [[0.62, 0.23], [0.61, 0.43], [0.55, 0.66], [0.55, 0.95]], "label": "CENTRAL PALE SILHOUETTE" },
+    { "type": "polyline", "points": [[0.78, 0.17], [0.79, 0.38], [0.81, 0.60], [0.88, 0.78]], "label": "DOUBLED RIGHT FIGURE" }
+  ],
+  "notes": "A central pale figure is unsettled by a left man and a doubled, reflection-like figure at right."
+}

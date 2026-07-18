@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-black-and-white-mary-jane-russell.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.47, 0.55], [0.55, 0.42], [0.64, 0.30], [0.72, 0.29]], "label": "PROFILE–SHOULDER TURN" },
+    { "type": "polyline", "points": [[0.31, 0.70], [0.42, 0.75], [0.53, 0.78], [0.63, 0.75]], "label": "NETTED DRESS SWEEP" },
+    { "type": "ellipse", "cx": 0.43, "cy": 0.76, "rx": 0.22, "ry": 0.17, "label": "PATTERNED BODICE" }
+  ],
+  "notes": "The netted dress and turned profile make a bright figure between dark counterfigures."
+}

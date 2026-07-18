@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-day-length-dinner-dress.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.38, "cy": 0.23, "rx": 0.37, "ry": 0.24, "label": "SWEEPING HAT BRIM" },
+    { "type": "polyline", "points": [[0.10, 0.23], [0.05, 0.47], [0.11, 0.69], [0.20, 0.94]], "label": "GLOVED ARM" },
+    { "type": "polyline", "points": [[0.34, 0.53], [0.49, 0.67], [0.67, 0.72], [0.89, 0.60]], "label": "SHOULDER TO REFLECTION" }
+  ],
+  "notes": "Hat arc, gloved figure, and reflection join the horizontal frame into a soft circuit."
+}
