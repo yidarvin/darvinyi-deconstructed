@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-after-dinner-games.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.477, "angle": 0, "label": "cup-rim level" },
+    { "type": "subject_anchor", "x": 0.162, "y": 0.242, "r": 0.035, "label": "domino stack" },
+    { "type": "frame_in_frame", "x": 0.371, "y": 0.10, "w": 0.23, "h": 0.30, "label": "upright card" }
+  ],
+  "notes": "A large cup and a framed upright card turn scattered game pieces into a tightly staged tabletop."
+}

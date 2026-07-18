@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-rochas-mermaid-dress.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.771, "angle": 0, "label": "floor transition" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.55, "label": "dress axis" },
+    { "type": "subject_anchor", "x": 0.6, "y": 0.15, "r": 0.035, "label": "tilted head" }
+  ],
+  "notes": "A near-central dress axis gives the flared hem a stable base while the head breaks the pose into a slight tilt."
+}

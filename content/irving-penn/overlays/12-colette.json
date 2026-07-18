@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-colette.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.712, "angle": 0, "label": "lap line" },
+    { "type": "leading_line", "points": [[0.222, 0.707], [0.796, 0.915]], "arrow": true, "label": "robe edge" },
+    { "type": "leading_line", "points": [[0.16, 0.686], [0.732, 0.893]], "arrow": true, "label": "arm diagonal" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.34, "rx": 0.18, "ry": 0.16, "label": "Colette's face" }
+  ],
+  "notes": "The bright face and polka-dot scarf rise from a heavy robe whose diagonal folds keep the seated portrait unsettled."
+}

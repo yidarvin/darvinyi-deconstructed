@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-harlequin-dress.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.621, "angle": 0, "label": "chair-arm level" },
+    { "type": "subject_anchor", "x": 0.394, "y": 0.632, "r": 0.035, "label": "patterned torso" },
+    { "type": "leading_line", "points": [[0.427, 0.985], [0.591, 0.791]], "arrow": true, "label": "dress contour" }
+  ],
+  "notes": "The patterned body is held between chair arms while the lower contour pushes the eye back upward."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-georgia-okeeffe.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "corner seam" },
+    { "type": "horizon_line", "y": 0.569, "angle": 0, "label": "figure-ground break" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.366, "r": 0.035, "label": "O'Keeffe's face" },
+    { "type": "frame_in_frame", "x": 0.12, "y": 0, "w": 0.76, "h": 0.92, "label": "angled studio walls" }
+  ],
+  "notes": "The shallow corner confines a small upright figure while its central seam makes the surrounding void active."
+}

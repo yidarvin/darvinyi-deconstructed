@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-truman-capote.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.129, "angle": 0, "label": "forehead light" },
+    { "type": "leading_line", "points": [[0.418, 0.716], [0.941, 0.97]], "arrow": true, "label": "cuff diagonal" },
+    { "type": "leading_line", "points": [[0.402, 0.739], [0.923, 0.939]], "arrow": true, "label": "jacket edge" },
+    { "type": "ellipse", "cx": 0.34, "cy": 0.42, "rx": 0.16, "ry": 0.14, "label": "lifted glasses" }
+  ],
+  "notes": "Capote's lowered eyes are countered by the lifted glasses and the two shallow diagonals of cuff and jacket."
+}
