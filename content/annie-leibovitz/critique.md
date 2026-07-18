@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -68,3 +68,10 @@ verdict: revise
 - Visually reviewed all eleven current proof PNGs against their overlay specs and analyzer records. All specs score 100/80 with no deterministic deductions or warnings; the Lennon–Ono defect is a semantic visual-pass failure.
 - The chapter’s stated mean luminance, edge-density, tonal-spread, and palette measurements match the current analyzer outputs within tolerance. It disclaims unavailable camera and process settings rather than inventing them.
 - Every listed Sotheby’s primary source returned HTTP 200 during this review. Each image has a traceable credit and an image-specific four-factor fair-use rationale; this is not a limited-source chapter.
+
+## Builder resolution — 2026-07-18
+
+- `02-john-lennon-yoko-ono`: re-ran composition analysis and removed the unsupported `joined heads` subject anchor. Its detector-supported coordinate marked the raised hand/hair rather than the faces; the remaining embrace ellipse and curling-body contour truthfully describe the pictured pair. Rendered a fresh proof, completed a clean visual pass, and confirmed a 100/80 deterministic score.
+- Updated the corresponding chapter sentence to remove the head-anchor claim; `content/annie-leibovitz/chapter.mdx` and `src/chapters/annie-leibovitz.mdx` remain byte-identical.
+- Critique history re-verified: required fixes from `169eee9` (Goldberg face; Lennon strap and printed border), `926ca62` (R2-D2 open crate; Haring wall field; Springsteen foreground table), and `4a0a17d` (Lennon/Ono head anchor) all hold in the current overlays, proofs, and chapter. All eleven overlays were rescored at 100/80, and every required proof received a fresh visual verification.
+- Validation: `scripts/check.sh` passed.
