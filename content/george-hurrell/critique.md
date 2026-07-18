@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -161,3 +161,27 @@ the original 2026-07-18 four-item Lombard/Nagel/Loy round (`HAIR MASS`,
 following 2026-07-18 Nagel `HAIR-PART HIGHLIGHT` round; and the present
 Parker/Crawford round. All ten current overlays score 100/100 in strict scoring,
 the chapter mirror is byte-identical, and `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+Re-reviewed all ten current rendered proofs against their matching overlay and
+analysis JSON. Every spec scores 100/100 under strict scoring, with no
+deductions or warnings. The chapter's stated tonal values and palettes match
+the analyzer records within the prescribed tolerance. Rechecked the current
+Commons records for all ten files: each remains traceable, credits the stated
+creator/context, and carries the public-domain basis recorded in `sources.md`.
+The resolved Lombard, Nagel, Loy, Parker, and Crawford findings have not
+regressed. No undocumented camera setting or historical claim was found.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **`03-rita-hayworth`:** `HAIR HIGHLIGHT` remains centered on the top crop
+  edge. It still identifies the visible hair accent well enough to support the
+  composition reading, but repositioning or omitting it would improve clarity.
+- **`07-karen-morley`:** `LIT FACE` still stops above the mouth and chin. The
+  ellipse accurately identifies the illuminated upper-face plane, so this is
+  not misleading; a fuller ellipse or narrower label would be a future polish.
