@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-17
 
@@ -34,3 +34,20 @@ verdict: resolved
 - Resolved required fixes 1–5: corrected the “Why it matters” descriptions for Hemingway, Picasso, O’Keeffe, Hepburn, and Johns to identify the actual displayed compositions, without changing their sources, credits, or fair-use assessments.
 - Prior rounds re-verified: the earlier 2026-07-17 fair-use nature-of-work fix remains present in all ten entries. The five corrected descriptions were checked against their current proofs; fresh deterministic analysis confirmed the recorded measurements, all ten strict overlay scores remain 100/100, and the visual pass confirmed each labeled primitive traces the named feature. Chapter/site copies remain byte-identical and continue not to invent camera or printing settings.
 - Independent visual audit also clarified three non-geometric labels: Churchill’s path is explicitly an attention path, Hepburn’s collar anchor and face contour now sit on the named features, and Mandela’s line is explicitly an attention path.
+
+## Critique round — 2026-07-17
+
+### Required
+
+1. **`03-ernest-hemingway` — redraw or relabel the `chair arm to shirt` polyline.** In the current proof, its first point (`0.210, 0.605`) lies on the sitter's upper-left shirt/shoulder area, not on the chair arm, which is visibly lower-left. The chapter also calls this a chair-arm route. Move the path so it traces the chair arm, or change the primitive and prose to the feature actually traced.
+2. **`10-jasper-johns` — replace the `frame_in_frame` labeled `flag field`.** The box ends through uninterrupted flag stripes on its right and bottom sides; it does not trace an internal frame or bounded field. This makes the primitive's structural claim false. Remove it or replace it with a primitive that traces a real, visible flag structure, while retaining a concise teaching argument.
+3. **`03-ernest-hemingway` — correct the fair-use necessity rationale in `sources.md`.** It still invokes “sweater texture” and a “black surround,” although the linked proof and the entry's already-corrected `Why it matters` show a light short-sleeved shirt against a pale ground. State why the complete displayed composition—face, shirt, chair arm, and pale ground—is needed instead.
+4. **`08-audrey-hepburn` and `10-jasper-johns` — correct the fair-use necessity rationales in `sources.md`.** Hepburn's entry claims a hand-to-face diagonal and surrounding shadow where the proof has a handless profile, pale negative space, and dark collar. Johns's entry calls the counterweight a black field where the proof is visibly an American flag. Each per-image fair-use rationale must accurately identify the composition for which it asserts complete-frame necessity.
+5. **Chapter-wide, including `03-ernest-hemingway` — remove or source unsupported venue, lighting, and direction claims.** The Estate's Hemingway record places the 1957 sitting at his home, Finca Vigía, while the source dossier calls the set “studio portrait” work with “theatrical key and rim light”; the research and chapter further make unrecorded claims about studio staging and direction. Those are historical/technical assertions, not measurements visible in a JPEG, and conflict with the chapter's own settings disclaimer. Recast them as visible observations (pose, selective highlights, dark/light contours, and setting as pictured), or cite evidence for each asserted circumstance.
+
+### Advisory (non-blocking)
+
+- `02-albert-einstein`: `look to hands` is a useful attention path but can read as a claim that Einstein's actual gaze is directed at his hands. `face-to-hands attention path` would make the intended viewer-routing claim clearer.
+- `07-georgia-okeeffe`: the labeled `window seat` anchor correctly lands on the secondary counterweight, but a `subject_anchor` at an unoccupied seat is pedagogically ambiguous. A counterweight-specific label or a figure anchor would be clearer.
+
+All ten proofs were visually reviewed and all ten current specs pass the deterministic scorer at 100/100. The remaining overlay primitives visibly trace their named features. Chapter measurement and grid-fit statements match the analyzer records, the source links returned HTTP 200, and no camera or printing setting is otherwise invented.
