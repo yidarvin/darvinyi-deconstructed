@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -37,3 +37,14 @@ verdict: revise
 
 - Every current overlay scores 100/100 with no deductions or warnings under the deterministic scorer, including `--strict`. Those scores do not validate semantic correspondence between a label and the pictured feature; the numbered visual failures above remain blocking.
 - `01-cuzco-children`'s child-to-table arrow is understandable as an attention path but is less a single physical edge than its `leading_line` type implies. Consider an interpretive `polyline` when revising, but this does not block the chapter.
+
+## Resolution — 2026-07-18
+
+- Re-verified the complete critique history: the initial 2026-07-18 round (`c9152bb`) and the current 2026-07-18 regression round (`c8802b3`). The earlier `06-mouth-for-loreal` label remains `UPPER PIGMENT BAND`; the corrected 01 and 05 source descriptions still match the photographs; and fresh downloads from the corrected Art Institute rendition URLs for 09 and 11 still SHA-256-match the retained raw files.
+- **04-man-lighting-girls-cigarette:** Re-analyzed and replaced the false table-edge horizon, off-center bottle axis, and semantically invalid anchor with the bottle's actual centered axis, the low front table edge, and a chair-back contour. The dependent chapter text now names those visible structures.
+- **05-after-dinner-games:** Replaced the full-width false horizon with a local ellipse that follows the cup rim, and revised the associated prose and caption from a fictive level to the visible oval rim.
+- **07-truman-capote:** Removed the false forehead-light horizon, tightened the eyeglasses ellipse to the raised lens, and retained only the visible sleeve and jacket diagonals. The chapter no longer claims a forehead-light band.
+- **08-picasso-at-la-californie:** Removed the misplaced hat-brim horizon and its dependent prose claim; the overlay and chapter now make only the supported eye-and-collar argument.
+- **09-georgia-okeeffe:** Removed the false figure-ground horizon while retaining the true corner seam, face anchor, and angled studio-wall frame.
+- **11-three-asaro-mud-men:** Rebuilt the overlay around the visibly distinct steep left-hand spear bundle and shallow foreground spear, tightened the central-mask ellipse, and removed the false crossing-spear/central-hinge claim from overlay notes, prose, and caption.
+- Re-ran analysis, render, visual proof review, and scoring for all six affected images. All twelve overlays pass the >=80 scorer gate (11 at 100; 11-three-asaro-mud-men at 88 with only non-blocking edge-detector warnings); visual inspection confirms each surviving label tracks its named feature. `scripts/check.sh` passed, including the byte-identical chapter mirror gate.

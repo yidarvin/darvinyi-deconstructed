@@ -3,9 +3,8 @@
   "image": "08-picasso-at-la-californie.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.124, "angle": 0, "label": "hat brim" },
     { "type": "subject_anchor", "x": 0.499, "y": 0.523, "r": 0.035, "label": "watching eye" },
     { "type": "leading_line", "points": [[0.515, 0.766], [0.738, 0.594]], "arrow": true, "label": "collar diagonal" }
   ],
-  "notes": "The brim and high collar narrow the available field until one alert eye becomes the portrait's release."
+  "notes": "The high collar narrows the available field until one alert eye becomes the portrait's release."
 }

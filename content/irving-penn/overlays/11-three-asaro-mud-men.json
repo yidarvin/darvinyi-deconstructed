@@ -3,10 +3,9 @@
   "image": "11-three-asaro-mud-men.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.449, "angle": 0, "label": "shoulder band" },
-    { "type": "leading_line", "points": [[0.297, 0.868], [0.883, 0.411]], "arrow": true, "label": "right spear" },
-    { "type": "leading_line", "points": [[0.318, 0.881], [0.752, 0.531]], "arrow": true, "label": "crossing spear" },
-    { "type": "ellipse", "cx": 0.50, "cy": 0.49, "rx": 0.12, "ry": 0.12, "label": "central mask" }
+    { "type": "leading_line", "points": [[0.16, 0.94], [0.47, 0.07]], "arrow": true, "label": "left-hand spear bundle" },
+    { "type": "leading_line", "points": [[0.18, 0.97], [0.92, 0.42]], "arrow": true, "label": "foreground spear" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.43, "rx": 0.09, "ry": 0.075, "label": "central mask" }
   ],
-  "notes": "Three masks form a varied frontal group, but the crossed spears make the central kneeling figure its hinge."
+  "notes": "A steep left-hand spear bundle and a shallow foreground spear activate a varied three-mask group without a false central crossing."
 }
