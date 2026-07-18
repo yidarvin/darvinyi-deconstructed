@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-elle-1969-a.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "central mirror rhythm" },
+    { "type": "horizon_line", "y": 0.202, "angle": 0, "label": "mirror-header break" },
+    { "type": "subject_anchor", "x": 0.377, "y": 0.381, "r": 0.045, "label": "jacket shoulder" },
+    { "type": "frame_in_frame", "x": 0.31, "y": 0.05, "w": 0.38, "h": 0.84, "label": "central mirror bay" }
+  ],
+  "notes": "A centered figure is held between reflected repeats and narrow mirror borders."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-marie-claire-1973-b.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.54, "angle": 0, "label": "ground-to-backdrop break" },
+    { "type": "subject_anchor", "x": 0.582, "y": 0.288, "r": 0.045, "label": "meeting of hands and gaze" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.52, "w": 0.45, "h": 0.42, "label": "white table plane" },
+    { "type": "polyline", "points": [[0.31, 0.31], [0.50, 0.29], [0.66, 0.16]], "label": "leaning figure" }
+  ],
+  "notes": "A white table, red feather, and leaning figure make a staged exchange of accents and diagonals."
+}

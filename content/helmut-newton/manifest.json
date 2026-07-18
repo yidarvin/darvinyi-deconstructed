@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-nova-1971-a.jpg",
+    "width": 720,
+    "height": 1067,
+    "sha1": "213a68ab",
+    "source": "01-nova-1971-a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-nova-1971-b.jpg",
+    "width": 720,
+    "height": 1066,
+    "sha1": "9ae8cda6",
+    "source": "02-nova-1971-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-elle-1969-a.jpg",
+    "width": 720,
+    "height": 1068,
+    "sha1": "51534508",
+    "source": "03-elle-1969-a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-elle-1969-b.jpg",
+    "width": 720,
+    "height": 1070,
+    "sha1": "7bcacd8a",
+    "source": "04-elle-1969-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-nova-1973-a.jpg",
+    "width": 720,
+    "height": 1066,
+    "sha1": "1c41dbc5",
+    "source": "05-nova-1973-a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-nova-1973-b.jpg",
+    "width": 720,
+    "height": 1066,
+    "sha1": "63cc5a3e",
+    "source": "06-nova-1973-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-nova-1971-c.jpg",
+    "width": 720,
+    "height": 1075,
+    "sha1": "2794520d",
+    "source": "07-nova-1971-c.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-nova-1971-d.jpg",
+    "width": 720,
+    "height": 1082,
+    "sha1": "bff94a24",
+    "source": "08-nova-1971-d.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-marie-claire-1973-a.jpg",
+    "width": 720,
+    "height": 1080,
+    "sha1": "82003439",
+    "source": "09-marie-claire-1973-a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-marie-claire-1973-b.jpg",
+    "width": 720,
+    "height": 1080,
+    "sha1": "a642b75b",
+    "source": "10-marie-claire-1973-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-catherine-deneuve-nouvel-observateur.jpg",
+    "width": 720,
+    "height": 1075,
+    "sha1": "205a5304",
+    "source": "11-catherine-deneuve-nouvel-observateur.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-us-vogue-monaco.jpg",
+    "width": 720,
+    "height": 714,
+    "sha1": "f9c3fae8",
+    "source": "12-us-vogue-monaco.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-nova-1971-a.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.768, "angle": 0, "label": "floor break" },
+    { "type": "leading_line", "points": [[0.06, 0.17], [0.57, 0.08]], "arrow": true, "label": "raised chair rail" },
+    { "type": "subject_anchor", "x": 0.638, "y": 0.351, "r": 0.04, "label": "face and raised arms" },
+    { "type": "polyline", "points": [[0.38, 0.12], [0.50, 0.31], [0.43, 0.60], [0.64, 0.94]], "label": "body counter-curve" }
+  ],
+  "notes": "A raised chair bar counters the model's bent, rising figure over a low floor break."
+}

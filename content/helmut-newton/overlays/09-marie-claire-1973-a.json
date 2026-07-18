@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-marie-claire-1973-a.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.561, "angle": 0, "label": "ground-to-backdrop break" },
+    { "type": "subject_anchor", "x": 0.535, "y": 0.305, "r": 0.045, "label": "joined hands" },
+    { "type": "frame_in_frame", "x": 0.58, "y": 0.52, "w": 0.42, "h": 0.42, "label": "white table plane" },
+    { "type": "polyline", "points": [[0.31, 0.18], [0.47, 0.31], [0.64, 0.42]], "label": "two-figure exchange" }
+  ],
+  "notes": "A black-suited figure and seated model trade gestures across a hard white table."
+}

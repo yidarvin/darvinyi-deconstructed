@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-nova-1971-d.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.898, "angle": 0, "label": "bed's lower edge" },
+    { "type": "leading_line", "points": [[0.188, 0.273], [0.762, 0.214]], "arrow": true, "label": "bedhead edge" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.19, "w": 0.58, "h": 0.70, "label": "bed rectangle" },
+    { "type": "subject_anchor", "x": 0.489, "y": 0.794, "r": 0.045, "label": "right shoe" }
+  ],
+  "notes": "The overhead bed rectangle keeps the reclining figure in tension with the photographer at lower right."
+}
