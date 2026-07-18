@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -64,3 +64,27 @@ Resolved the four required items from the 2026-07-18 critique round:
 Re-verified required fixes from all prior critique rounds: 2026-07-18 (the
 only prior round in this critique history). The revised Lombard proof received
 a clean visual pass and scores 100/100; `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+Reviewed all ten current proofs against their overlay specifications and
+analysis records. Each spec scores 100/100 in both normal and strict scoring.
+Independently checked the source dossier, research, manifest, chapter mirror,
+and all chapter numeric claims. The resolved date, source-description, Lombard,
+and Loy findings from the prior round remain resolved.
+
+### Required
+
+1. **`02-conrad-nagel` — the `FOREHEAD HIGHLIGHT` subject anchor traces a
+   bright streak in swept hair, not forehead skin.** The proof places it at
+   `(0.588, 0.101)`, visibly above the hairline; the overlay notes and chapter
+   repeat the false “forehead highlight” claim. Relabel it as the visible hair
+   highlight/part, or move it to an actual forehead highlight, and make the
+   notes and chapter language match the corrected feature.
+
+### Advisory (non-blocking)
+
+- **`10-olivia-de-havilland`:** `HAIRLINE ARC` follows the outer hair mass
+  rather than the skin-to-hair boundary. The arch still truthfully teaches the
+  supporting hair silhouette and does not change the chapter's compositional
+  reading, but `HAIR MASS` would be a more exact future-polish label.
