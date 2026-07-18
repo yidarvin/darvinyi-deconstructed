@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-schoodic-point-maine.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.428, "y": 0.460, "label": "WATER CONVERGENCE" },
+    { "type": "subject_anchor", "x": 0.352, "y": 0.349, "r": 0.035, "label": "BRIGHT RIDGE" },
+    { "type": "leading_line", "points": [[0.09, 0.35], [0.43, 0.46], [0.79, 0.74]], "arrow": true, "label": "ROCK-WATER SEAM" },
+    { "type": "polyline", "points": [[0.25, 0.22], [0.43, 0.46], [0.74, 0.50]], "label": "DARK CHANNEL" }
+  ],
+  "notes": "Rock and water meet in a handful of directional edges and sharply weighted dark pools."
+}

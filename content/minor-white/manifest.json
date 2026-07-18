@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-portland-1938.jpg",
+    "width": 1298,
+    "height": 1600,
+    "sha1": "a9d28fec",
+    "source": "01-portland-1938.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-water-street-portland.jpg",
+    "width": 1600,
+    "height": 1296,
+    "sha1": "5cc319f9",
+    "source": "02-water-street-portland.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-navarro-river-california.jpg",
+    "width": 1314,
+    "height": 1600,
+    "sha1": "9486b68b",
+    "source": "03-navarro-river-california.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-jackson-california.jpg",
+    "width": 1156,
+    "height": 1600,
+    "sha1": "4765f358",
+    "source": "04-jackson-california.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-sandblaster-san-francisco.jpg",
+    "width": 1600,
+    "height": 1375,
+    "sha1": "84ae6727",
+    "source": "05-sandblaster-san-francisco.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-mission-district-san-francisco.jpg",
+    "width": 1289,
+    "height": 1600,
+    "sha1": "39b57ef3",
+    "source": "06-mission-district-san-francisco.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-golden-gate-bridge-san-francisco.jpg",
+    "width": 1600,
+    "height": 1258,
+    "sha1": "955b035c",
+    "source": "07-golden-gate-bridge-san-francisco.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-windowsill-daydreaming.jpg",
+    "width": 1257,
+    "height": 1600,
+    "sha1": "93386789",
+    "source": "08-windowsill-daydreaming.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-frosted-window.jpg",
+    "width": 1600,
+    "height": 1260,
+    "sha1": "b9daaeb8",
+    "source": "09-frosted-window.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-santa-fe-new-mexico.jpg",
+    "width": 1600,
+    "height": 1305,
+    "sha1": "3f4ee2bb",
+    "source": "10-santa-fe-new-mexico.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-schoodic-point-maine.jpg",
+    "width": 1600,
+    "height": 1254,
+    "sha1": "440a897f",
+    "source": "11-schoodic-point-maine.jpg",
+    "exif": {}
+  }
+]

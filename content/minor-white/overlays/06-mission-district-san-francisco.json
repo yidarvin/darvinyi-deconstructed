@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-mission-district-san-francisco.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.409, "y": 0.210, "r": 0.035, "label": "BRIGHT OPENING" },
+    { "type": "polyline", "points": [[0.51, 0.89], [0.43, 0.67], [0.35, 0.48], [0.30, 0.39]], "label": "WET WALKWAY" },
+    { "type": "vanishing_point", "x": 0.426, "y": 0.326, "label": "ALLEY DEPTH" },
+    { "type": "frame_in_frame", "x": 0.23, "y": 0.20, "w": 0.39, "h": 0.25, "label": "BACKYARD OPENING" }
+  ],
+  "notes": "A wet alley narrows toward a child while house edges make the ordinary space feel threshold-like."
+}

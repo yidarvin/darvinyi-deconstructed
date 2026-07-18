@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-windowsill-daydreaming.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.621, "angle": 0.8, "label": "WINDOWSILL" },
+    { "type": "subject_anchor", "x": 0.47, "y": 0.523, "r": 0.035, "label": "WINDOW LIGHT" },
+    { "type": "leading_line", "points": [[0.414, 0.488], [0.699, 0.469]], "arrow": false, "label": "CURTAIN HEM" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.78, "rx": 0.28, "ry": 0.16, "label": "REFLECTED OVAL" }
+  ],
+  "notes": "Curtain, sill, and a reflected oval make a domestic window behave as a luminous abstraction."
+}

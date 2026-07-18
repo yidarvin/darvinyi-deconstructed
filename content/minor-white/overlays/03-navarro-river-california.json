@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-navarro-river-california.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.22, "y": 0.27, "w": 0.57, "h": 0.45, "label": "PICTURE FIELD" },
+    { "type": "polyline", "points": [[0.36, 0.61], [0.43, 0.42], [0.48, 0.62]], "label": "RAISED ROOT" },
+    { "type": "ellipse", "cx": 0.61, "cy": 0.52, "rx": 0.09, "ry": 0.19, "label": "PALE FORM" },
+    { "type": "polyline", "points": [[0.28, 0.64], [0.48, 0.68], [0.71, 0.64]], "label": "GROUND BAND" }
+  ],
+  "notes": "A dark field turns roots and pale upright forms into an unstable natural abstraction."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-jackson-california.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.21, "y": 0.25, "w": 0.58, "h": 0.50, "label": "PICTURE FIELD" },
+    { "type": "ellipse", "cx": 0.41, "cy": 0.57, "rx": 0.10, "ry": 0.14, "label": "CROSS" },
+    { "type": "polyline", "points": [[0.37, 0.29], [0.45, 0.42], [0.50, 0.73]], "label": "CENTRAL TRUNK" },
+    { "type": "polyline", "points": [[0.31, 0.69], [0.45, 0.72], [0.61, 0.70]], "label": "MARKER RHYTHM" }
+  ],
+  "notes": "A cross and dark verticals turn a cemetery view into a severe, uneven rhythm."
+}

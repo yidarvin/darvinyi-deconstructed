@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-frosted-window.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.670, "angle": 0, "label": "LOWER TONAL BAND" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.12, "w": 0.94, "h": 0.76, "label": "WINDOW FIELD" },
+    { "type": "polyline", "points": [[0.10, 0.40], [0.42, 0.32], [0.72, 0.37], [0.93, 0.30]], "label": "FROST EDGE" },
+    { "type": "polyline", "points": [[0.09, 0.61], [0.39, 0.58], [0.68, 0.62], [0.93, 0.58]], "label": "DENSE BAND" }
+  ],
+  "notes": "Frosted strata make the window an all-over tonal field rather than a view through glass."
+}
