@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-running-legs-1940-41.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.831, "angle": -2.6, "label": "FOOTFALL BAND" },
+    { "type": "subject_anchor", "x": 0.148, "y": 0.827, "r": 0.035, "label": "LOWEST STRIDE" },
+    { "type": "polyline", "points": [[0.10, 0.84], [0.43, 0.81], [0.65, 0.84]], "label": "CADENCE" }
+  ],
+  "notes": "A low ground plane and alternating feet turn an ordinary crossing into a compressed cadence."
+}
