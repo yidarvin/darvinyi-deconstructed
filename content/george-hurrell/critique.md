@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -104,3 +104,38 @@ still align with their claimed structures; Nagel remains a tight
 head-and-shoulders portrait dated *The New Movie*, July 1930; and Loy remains
 undated throughout the chapter, research note, and source dossier. Lombard's
 strict overlay score remains 100/100 with no deductions or warnings.
+
+## Critique round — 2026-07-18
+
+Reviewed all ten current rendered proofs, their overlay specifications, and the
+matching analyzer records. Every current spec scores 100/100 with no geometric
+deductions or warnings; that does not cure the two semantic-tracing errors below.
+Checked the chapter's tonal numbers against the analyzer records (within the
+stated tolerance), and checked every cited Commons record: each source remains
+traceable, credited, and identified there as public domain. The previously
+resolved Nagel, Lombard, and Loy findings remain resolved.
+
+### Required
+
+1. **`05-jean-parker` — `SHADOW CONTOUR` does not trace a visible shadow
+   boundary.** Its polyline from `(0.413, 0.513)` through `(0.593, 0.660)` to
+   `(0.713, 0.874)` runs through the featureless black silhouette rather than
+   along an edge of the projected shadow. This makes both the label and the
+   chapter's claim that the overlay makes that contour explicit misleading.
+   Redraw it on a visible shadow boundary, or remove/relabel it and adjust the
+   Plate caption and paragraph to the truthful claim.
+
+2. **`06-joan-crawford` — `FOLDED HANDS` does not trace the folded hands.** The
+   polyline begins on the left patterned sleeve and cuts across fabric and the
+   upper hand mass; it is not aligned to a discernible hand contour. Redraw it
+   to a specific visible hand edge, or relabel it for the feature actually
+   followed, and make the caption and paragraph consistent with that result.
+
+### Advisory (non-blocking)
+
+- **`03-rita-hayworth`:** `HAIR HIGHLIGHT` remains clipped by the top crop. As
+  in the prior round, its geometry is within tolerance and it does not change
+  the compositional reading; relocating or omitting it would improve clarity.
+- **`07-karen-morley`:** the `LIT FACE` ellipse stops above the mouth and chin.
+  It still correctly identifies the lit upper-face plane, but a fuller ellipse
+  or a more exact upper-face label would make the annotation clearer.
