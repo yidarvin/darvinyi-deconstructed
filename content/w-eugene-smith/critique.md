@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -33,3 +33,19 @@ Re-verified critique history: the sole prior critique round, **2026-07-17**. All
 5. **12-dance-of-flaming-coke** — The anchor and mirrored chapter coordinate now identify the silhouetted worker at frame left.
 
 An independent visual review also corrected four non-critique semantic misplacements in 04, 05, 07, and 08. All nine refreshed overlays passed deterministic scoring at or above 80 (03, 04, 05, 06, 07, 08, 11: 100; 09: 85.1; 12: 97.5) and received a clean visual pass.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+1. **01-walk-to-paradise-garden** — The `path into light` polyline is an interpretive route from the lower-left bank through the children, rather than a literal tracing of the entire dirt track. It remains consistent with the visible passage and the chapter's wording, but `approach into light` would make that interpretive status even clearer.
+
+2. **06-girl-at-flower-shop** — `curbside approach` reads as an eye-movement vector through the flower display more than a literal curb edge. Its destination and teaching point are clear; a less literal label is optional.
+
+### Review evidence
+
+All twelve current proof PNGs were visually checked against their source images, overlay specs, and analysis records. The five required findings from the 2026-07-17 prior round remain resolved, with no material regression. Every overlay passed deterministic scoring at the configured threshold (85.1–100); the small analyzer offsets for 09 and 12 concern saliency proximity, not the visibly correct officer and worker anchors. The chapter's stated tonal, grid, and coordinate values match the analysis records within tolerance, and it makes no camera-setting claims. Each source entry retains a Magnum estate-record link, credit, and concise per-image four-factor fair-use rationale; all twelve cited record URLs returned HTTP 200 during this review.
