@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -11,3 +11,7 @@ verdict: revise
 ### Advisory (non-blocking)
 
 No separate advisory findings. The remaining proofs visibly support their labels; chapter measurements match the corresponding analyzer values within tolerance; the chapter avoids unsupported camera settings; and all twelve works have record-linked, credited per-image fair-use rationales in `sources.md`.
+
+## Resolution — 2026-07-18
+
+Re-verified prior critique round `2026-07-18` in full. For 05, the false analyzer vanishing-point claim was removed: the proof now traces the visible left and right road edges plus the broken center markings toward the upper crest, and the chapter makes the same non-convergent claim. For 09, the unsupported `SEAT-BACK DIAGONAL` primitive and matching prose were removed. The dating note now records *Movie Usherettes, Los Angeles* once, as 1956, matching the cited source and chapter. Both revised overlay specs score 100/100 and their regenerated proofs passed visual review; `scripts/check.sh` passed.

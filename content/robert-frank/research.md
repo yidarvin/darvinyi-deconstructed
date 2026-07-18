@@ -8,7 +8,7 @@ The supplied Art Institute of Chicago records are web-sized display renditions. 
 
 ## Dating and printing
 
-The object information in `sources.md` gives these dated works: *Fourth of July, Jay, New York* (1954); *Trolley, New Orleans*, *U.S. 285, New Mexico*, *Barbershop through Screen Door*, *Restaurant, U.S. 1*, and *Movie Usherettes* (1955); *Political Rally, Chicago*, *View from Motel Window*, and *Movie Usherettes* (1956); *Drugstore, Detroit* and *Cafeteria, San Francisco* (1955/56); *Elevator, Miami Beach* (1955, printed 1977); and *Marching Band, Valencia, Spain* (1951/52, printed c. 1956). No other print dates or processes are asserted here.
+The object information in `sources.md` gives these dated works: *Fourth of July, Jay, New York* (1954); *Trolley, New Orleans*, *U.S. 285, New Mexico*, *Barbershop through Screen Door*, and *Restaurant, U.S. 1* (1955); *Political Rally, Chicago*, *View from Motel Window*, and *Movie Usherettes* (1956); *Drugstore, Detroit* and *Cafeteria, San Francisco* (1955/56); *Elevator, Miami Beach* (1955, printed 1977); and *Marching Band, Valencia, Spain* (1951/52, printed c. 1956). No other print dates or processes are asserted here.
 
 ## Visual method observed in this set
 
