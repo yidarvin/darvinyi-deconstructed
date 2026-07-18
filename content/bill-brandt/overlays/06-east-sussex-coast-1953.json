@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "polyline", "points": [[0.0, 0.80], [0.20, 0.68], [0.40, 0.55], [0.56, 0.48]], "label": "body contour" },
     { "type": "subject_anchor", "x": 0.0, "y": 0.164, "label": "bright shoulder" },
-    { "type": "leading_line", "points": [[0.48, 0.847], [0.847, 0.751]], "arrow": true, "label": "shore edge" }
+    { "type": "leading_line", "points": [[0.48, 0.847], [0.847, 0.751]], "arrow": true, "label": "pebble recession" }
   ],
-  "notes": "The body contour and shore edge make pale skin and chalky coast read as related terrain."
+  "notes": "The body contour and pebble recession make pale skin and chalky coast read as related terrain."
 }

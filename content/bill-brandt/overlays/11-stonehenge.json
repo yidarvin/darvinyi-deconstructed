@@ -3,7 +3,7 @@
   "image": "11-stonehenge.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.39, "y": 0.0, "w": 0.31, "h": 0.82, "label": "gap between stones" },
+    { "type": "frame_in_frame", "x": 0.555, "y": 0.0, "w": 0.075, "h": 0.82, "label": "bright interval" },
     { "type": "polyline", "points": [[0.0, 0.82], [0.20, 0.79], [0.45, 0.84], [0.70, 0.80], [1.0, 0.83]], "label": "snow horizon" },
     { "type": "ellipse", "cx": 0.74, "cy": 0.43, "rx": 0.19, "ry": 0.43, "label": "right monolith" }
   ],

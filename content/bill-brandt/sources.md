@@ -71,9 +71,9 @@ Bill Brandt used the same hard, graphic black-and-white language to describe soc
 
 ### 10 — London During the Blitz (1940)
 
-- **Why it matters:** A ruined urban view is built from fractured verticals, rubble texture, and voids. Brandt makes destruction legible through the unstable balance of surviving and absent structure.
+- **Why it matters:** Sleeping civilians and layered blankets form a packed diagonal inside an underground shelter; the bodies recede through darkness, making wartime survival a spatial condition rather than a view of ruined architecture.
 - **Source:** [Art Institute of Chicago object 137365](https://www.artic.edu/artworks/137365/london-during-the-blitz); [public IIIF display JPEG](https://www.artic.edu/iiif/2/c975f3b0-523a-479a-d6cb-2154b347a674/full/843,/0/default.jpg).
-- **Rights / fair-use assessment:** Bill Brandt / rightsholder not specified by the Art Institute record; collection credit: The Sandor Family Collection in honor of The School of the Art Institute of Chicago. Factor 1: transformative criticism analyzes ruin as a fragmented spatial field. Factor 2: creative photographic work. Factor 3: the complete view is required to compare void, debris, and remaining architecture. Factor 4: this 843 × 1050px credited museum display is web-sized and does not replace a print or licence.
+- **Rights / fair-use assessment:** Bill Brandt / rightsholder not specified by the Art Institute record; collection credit: The Sandor Family Collection in honor of The School of the Art Institute of Chicago. Factor 1: transformative criticism analyzes the shelter's bodily sequence and tonal enclosure. Factor 2: creative photographic work. Factor 3: the complete frame is required to compare the foreground blankets with the receding sleeping bodies. Factor 4: this 843 × 1050px credited museum display is web-sized and does not replace a print or licence.
 - **File:** `raw/bill-brandt/10-london-during-the-blitz.jpg` (843 × 1050px)
 
 ### 11 — Stonehenge (1935–49)

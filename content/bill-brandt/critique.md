@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -22,3 +22,16 @@ verdict: revise
 - **12-north-bridge-river-hebble:** The `GABLED BUILDING` brackets cover only the central portion of the building.
 
 All twelve proofs were visually reviewed against their specs and analysis. The tonal and coordinate claims checked in the chapter match the analyzer within tolerance, and the chapter does not invent per-frame settings. The source notes provide per-image official collection links, credits, and four-factor fair-use rationales; the required source-note correction above is about the image description, not a rights-basis defect.
+
+## Builder resolution — 2026-07-18
+
+- Removed the false `RIGHT-HAND BANK` line; the remaining path annotation now follows the visible central path and has clear label placement.
+- Retargeted the Halifax parapet to its visible upper edge, directed the cobbles to the actual bright opening, and removed the unsupported coordinate claim from the chapter.
+- Removed the false kiln-roof polyline and its prose references.
+- Relabeled the 1953 coast line as `PEBBLE RECESSION` and aligned its caption and prose to the visible foreground.
+- Corrected the 1957 foreground annotation and text to `ENLARGED EYE`; relabeled the second diagonal `PEBBLE SLOPE` and removed the unsupported cliff-edge claim.
+- Narrowed the Stonehenge frame to the actual bright interval between the uprights and revised the aperture wording.
+- Replaced the North Bridge ellipse with a polyline that traces the visible arch soffit; the caption and prose now describe a canopy rather than an enclosure.
+- Corrected the London source note and fair-use rationale to the supplied shelter photograph of sleeping civilians.
+
+History reverified: the 2026-07-18 critique round above is the complete critique history for this slug. All nine required fixes remain reflected in the overlays, regenerated proofs, source notes, and synchronized chapter copies. The seven affected overlays were rerendered, visually checked, and scored at 100, 88, 100, 100, 100, 100, and 100 respectively (all at or above the 80 threshold); the Halifax score's two warnings are non-blocking detector warnings, with the parapet and cobble paths visually confirmed. `scripts/check.sh` passed before this resolution was recorded.

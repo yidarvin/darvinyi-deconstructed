@@ -3,9 +3,9 @@
   "image": "07-east-sussex-coast-1957.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.40, "cy": 0.82, "rx": 0.25, "ry": 0.16, "label": "enlarged ear" },
+    { "type": "ellipse", "cx": 0.40, "cy": 0.82, "rx": 0.25, "ry": 0.16, "label": "enlarged eye" },
     { "type": "leading_line", "points": [[0.149, 0.736], [0.53, 0.41]], "arrow": true, "label": "receding beach" },
-    { "type": "leading_line", "points": [[0.364, 0.593], [0.819, 0.359]], "arrow": true, "label": "cliff edge" }
+    { "type": "leading_line", "points": [[0.364, 0.593], [0.819, 0.359]], "arrow": true, "label": "pebble slope" }
   ],
-  "notes": "An oversized ear meets beach and cliff diagonals, so foreground flesh competes with the entire coast."
+  "notes": "An oversized eye meets two pebble diagonals, so foreground flesh competes with the entire coast."
 }

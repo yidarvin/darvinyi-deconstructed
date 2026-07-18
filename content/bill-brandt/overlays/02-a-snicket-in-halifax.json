@@ -3,9 +3,8 @@
   "image": "02-a-snicket-in-halifax.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.639, "y": 0.459, "label": "narrow exit" },
-    { "type": "leading_line", "points": [[0.1, 0.981], [0.792, 0.384]], "arrow": true, "label": "left parapet" },
-    { "type": "leading_line", "points": [[0.134, 0.899], [0.788, 0.336]], "arrow": true, "label": "lit cobbles" }
+    { "type": "leading_line", "points": [[0.0, 0.45], [0.69, 0.22]], "arrow": true, "label": "left parapet" },
+    { "type": "leading_line", "points": [[0.14, 0.99], [0.69, 0.22]], "arrow": true, "label": "lit cobbles" }
   ],
-  "notes": "The parapet and wet cobbles turn the lane into a bright, narrowing channel between black walls."
+  "notes": "The parapet and wet cobbles run toward the lane's small bright opening between black walls."
 }
