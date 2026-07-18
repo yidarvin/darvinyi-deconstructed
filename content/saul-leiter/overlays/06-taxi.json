@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-taxi.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.409, "angle": -1.9, "label": "TAXI BELTLINE" },
+    { "type": "frame_in_frame", "x": 0.26, "y": 0.08, "w": 0.61, "h": 0.43, "label": "TAXI WINDOWS" },
+    { "type": "polyline", "points": [[0.2, 0.18], [0.34, 0.04], [0.73, 0.04], [0.9, 0.15]], "label": "YELLOW ROOF ARC" },
+    { "type": "ellipse", "cx": 0.75, "cy": 0.28, "rx": 0.08, "ry": 0.14, "label": "DRIVER AND WHEEL" }
+  ],
+  "notes": "The taxi is read as layered red, yellow, and black fields before its driver and steering wheel resolve as a scene."
+}

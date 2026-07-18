@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-snow.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.515, "angle": 0.0, "label": "SOFT STREET BAND" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.42, "rx": 0.12, "ry": 0.2, "label": "FIGURE THROUGH GLASS" },
+    { "type": "polyline", "points": [[0.18, 0.22], [0.2, 0.46], [0.17, 0.72], [0.22, 0.96]], "label": "RUNNING CONDENSATION" },
+    { "type": "polyline", "points": [[0.64, 0.18], [0.67, 0.46], [0.65, 0.74], [0.68, 0.98]], "label": "RIGHT-HAND CONDENSATION" }
+  ],
+  "notes": "Condensation and snow reduce the street to a figure, a yellow field, and downward-running marks on the glass."
+}

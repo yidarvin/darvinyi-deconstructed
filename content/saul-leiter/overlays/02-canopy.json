@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-canopy.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.799, "angle": -4.0, "label": "CANOPY EDGE" },
+    { "type": "leading_line", "points": [[0.001, 0.779], [0.972, 0.999]], "arrow": true, "label": "SNOWY CURB" },
+    { "type": "ellipse", "cx": 0.59, "cy": 0.87, "rx": 0.035, "ry": 0.075, "label": "NEAREST PEDESTRIAN" },
+    { "type": "polyline", "points": [[0.0, 0.79], [0.37, 0.81], [0.68, 0.79], [1.0, 0.74]], "label": "WEATHER APERTURE" }
+  ],
+  "notes": "The immense dark canopy makes the snowy street a compressed aperture, with the curb slipping diagonally through it."
+}

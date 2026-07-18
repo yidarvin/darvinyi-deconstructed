@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-red-curtain.jpg",
+    "width": 820,
+    "height": 1218,
+    "sha1": "013c43b5",
+    "source": "01-red-curtain.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-canopy.jpg",
+    "width": 1054,
+    "height": 1600,
+    "sha1": "2dd40088",
+    "source": "02-canopy.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-foot-on-el.jpg",
+    "width": 876,
+    "height": 1295,
+    "sha1": "895d5ec6",
+    "source": "03-foot-on-el.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-graffiti-heads.jpg",
+    "width": 855,
+    "height": 1315,
+    "sha1": "09bb08f8",
+    "source": "04-graffiti-heads.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-cracks.jpg",
+    "width": 915,
+    "height": 1364,
+    "sha1": "1e9a09b8",
+    "source": "05-cracks.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-taxi.jpg",
+    "width": 1350,
+    "height": 899,
+    "sha1": "8f50b42c",
+    "source": "06-taxi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-mirrors.jpg",
+    "width": 1500,
+    "height": 997,
+    "sha1": "ce435cc6",
+    "source": "07-mirrors.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-phone-call.jpg",
+    "width": 1170,
+    "height": 782,
+    "sha1": "1e8c1491",
+    "source": "08-phone-call.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-bus.jpg",
+    "width": 811,
+    "height": 1227,
+    "sha1": "5224b2cc",
+    "source": "09-bus.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-snow.jpg",
+    "width": 905,
+    "height": 1353,
+    "sha1": "1bb660f8",
+    "source": "10-snow.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-through-boards.jpg",
+    "width": 852,
+    "height": 1290,
+    "sha1": "9a02a6a7",
+    "source": "11-through-boards.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-walking.jpg",
+    "width": 776,
+    "height": 1166,
+    "sha1": "33725a8e",
+    "source": "12-walking.jpg",
+    "exif": {}
+  }
+]

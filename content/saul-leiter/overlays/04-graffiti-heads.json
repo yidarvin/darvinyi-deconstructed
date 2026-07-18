@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-graffiti-heads.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.63, "angle": 0.0, "label": "PAINTED FIELD BREAK" },
+    { "type": "subject_anchor", "x": 0.645, "y": 0.304, "r": 0.035, "label": "CENTRAL DRAWN HEAD" },
+    { "type": "polyline", "points": [[0.19, 0.41], [0.28, 0.37], [0.34, 0.43], [0.34, 0.54], [0.27, 0.6]], "label": "LEFT PROFILE" },
+    { "type": "polyline", "points": [[0.58, 0.24], [0.68, 0.2], [0.75, 0.29], [0.72, 0.42], [0.62, 0.51]], "label": "CENTRAL PROFILE" }
+  ],
+  "notes": "Painted faces occupy the same reflected field as the architecture, delaying any clean distinction between mark and subject."
+}

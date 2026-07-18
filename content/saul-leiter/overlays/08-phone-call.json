@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-phone-call.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.898, "angle": 0.0, "label": "LOWER WINDOW BAND" },
+    { "type": "frame_in_frame", "x": 0.58, "y": 0.25, "w": 0.33, "h": 0.48, "label": "CALLER'S WINDOW" },
+    { "type": "frame_in_frame", "x": 0.06, "y": 0.12, "w": 0.31, "h": 0.62, "label": "REFLECTED PANEL" },
+    { "type": "polyline", "points": [[0.47, 0.0], [0.47, 1.0]], "label": "GLASS DIVIDER" }
+  ],
+  "notes": "Window bars and reflections partition the telephone gesture into a gridded urban tableau."
+}

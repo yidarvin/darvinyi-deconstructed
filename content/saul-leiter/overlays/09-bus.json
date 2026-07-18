@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-bus.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.124, "angle": -0.9, "label": "UPPER BUS WINDOW" },
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.16, "w": 0.61, "h": 0.28, "label": "BUS WINDOW" },
+    { "type": "subject_anchor", "x": 0.38, "y": 0.28, "r": 0.035, "label": "SILHOUETTED PASSENGER" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.84, "rx": 0.27, "ry": 0.23, "label": "CROPPED WHEEL ARCH" }
+  ],
+  "notes": "The bus window isolates a passenger while the red body and wheel arch turn the vehicle into a stack of graphic zones."
+}

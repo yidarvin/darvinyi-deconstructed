@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-foot-on-el.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.22, "y": 0.06, "w": 0.54, "h": 0.48, "label": "UPRIGHT SEAT BACK" },
+    { "type": "ellipse", "cx": 0.88, "cy": 0.37, "rx": 0.05, "ry": 0.05, "label": "SHOE" },
+    { "type": "leading_line", "points": [[0.33, 0.83], [0.90, 0.98]], "arrow": true, "label": "FLOORBOARD RUN" },
+    { "type": "leading_line", "points": [[0.24, 0.071], [0.675, 0.365]], "arrow": true, "label": "SEAT-FRAME DIAGONAL" }
+  ],
+  "notes": "The seat back and floorboards build a near-abstract structure; the cropped shoe breaks it with a human fragment."
+}

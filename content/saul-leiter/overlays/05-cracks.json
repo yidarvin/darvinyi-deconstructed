@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-cracks.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.457, "angle": 0.0, "label": "DISTANT STREET BREAK" },
+    { "type": "ellipse", "cx": 0.60, "cy": 0.58, "rx": 0.12, "ry": 0.20, "label": "BLURRED FIGURE" },
+    { "type": "polyline", "points": [[0.07, 0.01], [0.13, 0.22], [0.1, 0.48], [0.17, 0.77], [0.13, 1.0]], "label": "CRACKED GLASS EDGE" },
+    { "type": "polyline", "points": [[0.28, 0.1], [0.33, 0.34], [0.3, 0.63], [0.37, 0.89]], "label": "GLASS FISSURE" }
+  ],
+  "notes": "The glass surface becomes the primary drawing, keeping the distant figures behind a network of interruptions."
+}

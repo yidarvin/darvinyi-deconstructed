@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-walking.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.879, "angle": 0.0, "label": "LOWER REFLECTION BAND" },
+    { "type": "polyline", "points": [[0.425, 0.0], [0.425, 1.0]], "label": "CENTRAL GLASS SEAM" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.43, "rx": 0.13, "ry": 0.20, "label": "WALKER'S REFLECTION" },
+    { "type": "frame_in_frame", "x": 0.24, "y": 0.05, "w": 0.56, "h": 0.86, "label": "SHOP WINDOW" }
+  ],
+  "notes": "A dark passing figure is slowed by translucent verticals, glass seams, and a pale lower reflection."
+}

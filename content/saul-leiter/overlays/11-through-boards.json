@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-through-boards.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.521, "angle": 0.0, "label": "NARROW STREET SLIT" },
+    { "type": "subject_anchor", "x": 0.249, "y": 0.477, "r": 0.035, "label": "PEDESTRIAN" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.43, "w": 1.0, "h": 0.18, "label": "BOARDS' APERTURE" }
+  ],
+  "notes": "Dark boards withhold almost everything; the thin horizontal opening becomes a precise stage for cars and walkers."
+}
