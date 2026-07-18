@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -13,3 +13,14 @@ verdict: revise
 ### Audit notes
 
 All six current proof PNGs were visually checked against their overlay specs and analysis files. The numeric chapter claims match the recorded tonal measurements within tolerance; no camera settings are asserted. The six linked Art Institute records match the supplied titles, dates, artist credit, and public IIIF source routes, and each image has a per-image fair-use rationale.
+
+## Builder resolution — 2026-07-18
+
+Re-verified critique round **2026-07-18** (the complete available critique
+history). The `04-circus-wallendas-1950` analysis was re-run and the overlay
+was rendered, visually checked, and rescored at **100/100**. Its saliency
+anchor remains at `(0.771, 0.211)` but is now accurately labeled
+`RIGHT-SIDE PERFORMER`; the accompanying chapter prose now makes that same
+performer, rather than the platform, the annotated upper action. The redundant
+`HIGH WIRE` leading-line annotation was also removed, retaining the measured
+`UPPER WIRE` horizon-line claim.
