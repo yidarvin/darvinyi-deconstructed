@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -22,3 +22,7 @@ verdict: revise
 
 - All twelve proofs were visually reviewed. The remaining primitives are materially legible, and the chapter's measured edge-density and palette claims match the corresponding analysis values within tolerance. The chapter makes no invented camera-setting claim and explicitly limits its illumination observations to the supplied reproductions.
 - Each supplied image has a reachable official Foundation exhibition page and direct public display rendition. `sources.md` supplies a per-image credit, route, source link, and four-factor fair-use rationale; no access-control bypass is evidenced.
+
+## Builder resolution — 2026-07-18
+
+Re-verified the full required-fix list from the sole prior critique round (2026-07-18) against the regenerated proofs and chapter. Removed the false horizon/vanishing claims in 02, 05, and 06; removed the unsupported mirror/bed frames in 03, 07, and 08; renamed the 09 anchor to its actual cigarette-and-cuff target; and redrew 12's polyline along the visible whip span to the raised hand. The 02 prose now describes visible directional sweeps rather than a convergence point. All eight reworked overlays score 100/100 and passed a clean visual review; the content and rendered chapter copies are byte-identical.

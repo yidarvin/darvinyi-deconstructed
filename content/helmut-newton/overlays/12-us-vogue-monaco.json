@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.185, "angle": 0, "label": "sea horizon" },
     { "type": "subject_anchor", "x": 0.411, "y": 0.412, "r": 0.055, "label": "crossing figures" },
-    { "type": "polyline", "points": [[0.18, 0.26], [0.42, 0.40], [0.67, 0.16]], "label": "whip and raised arm" },
+    { "type": "polyline", "points": [[0.23, 0.30], [0.29, 0.01], [0.66, 0.145]], "label": "whip and raised arm" },
     { "type": "polyline", "points": [[0.40, 0.44], [0.61, 0.68], [0.91, 0.85]], "label": "wind-blown fabric" }
   ],
   "notes": "Crossing bodies, whip, and fabric set kinetic diagonals against a distant horizon."

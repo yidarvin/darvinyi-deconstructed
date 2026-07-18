@@ -3,10 +3,8 @@
   "image": "06-nova-1973-b.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.457, "angle": 0, "label": "green-field shift" },
-    { "type": "vanishing_point", "x": 0.567, "y": 0.413, "label": "exchange between figures" },
     { "type": "leading_line", "points": [[0.23, 0.736], [0.592, 0.374]], "arrow": true, "label": "left figure's rising dress" },
-    { "type": "leading_line", "points": [[0.305, 0.822], [0.408, 0.429]], "arrow": true, "label": "left figure's vertical" }
+    { "type": "leading_line", "points": [[0.305, 0.822], [0.408, 0.429]], "arrow": true, "label": "left figure's rising contour" }
   ],
   "notes": "Unequal figures and their small gestures make a chain across the open green stage."
 }

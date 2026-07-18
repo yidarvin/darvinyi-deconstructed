@@ -3,8 +3,6 @@
   "image": "05-nova-1973-a.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.688, "angle": 0, "label": "chair and floor edge" },
-    { "type": "vanishing_point", "x": 0.436, "y": 0.57, "label": "seated figure hinge" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "chair axis" },
     { "type": "subject_anchor", "x": 0.453, "y": 0.586, "r": 0.045, "label": "cigarette hand" }
   ],

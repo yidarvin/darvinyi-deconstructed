@@ -3,10 +3,8 @@
   "image": "02-nova-1971-b.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.275, "angle": 0, "label": "wall-to-shadow shift" },
-    { "type": "vanishing_point", "x": 0.498, "y": 0.372, "label": "gesture hinge" },
     { "type": "leading_line", "points": [[0.44, 0.397], [0.997, 0.021]], "arrow": true, "label": "raised arm" },
-    { "type": "leading_line", "points": [[0.323, 0.279], [0.828, 0.62]], "arrow": true, "label": "body diagonal" }
+    { "type": "leading_line", "points": [[0.323, 0.279], [0.828, 0.62]], "arrow": true, "label": "sweeping torso" }
   ],
   "notes": "Crossing arm and torso diagonals wrench the figure across a dark field."
 }

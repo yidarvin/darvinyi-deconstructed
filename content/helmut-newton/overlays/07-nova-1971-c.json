@@ -4,9 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.813, "angle": -0.9, "label": "bed edge" },
-    { "type": "vanishing_point", "x": 0.422, "y": 0.506, "label": "room's mirrored hinge" },
-    { "type": "frame_in_frame", "x": 0.08, "y": 0.02, "w": 0.78, "h": 0.79, "label": "mirror room" },
-    { "type": "subject_anchor", "x": 0.868, "y": 0.037, "r": 0.045, "label": "ceiling chandelier" }
+    { "type": "subject_anchor", "x": 0.868, "y": 0.037, "r": 0.045, "label": "ceiling chandelier" },
+    { "type": "leading_line", "points": [[0.111, 0.0], [0.238, 0.278]], "arrow": true, "label": "left mirror seam" }
   ],
   "notes": "A mirror room nests a staged figure, camera, framed picture, and bed in one unstable box."
 }
