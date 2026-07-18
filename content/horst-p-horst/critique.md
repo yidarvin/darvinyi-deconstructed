@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -26,3 +26,14 @@ All other proof/spec pairs were visually checked and are materially truthful. Sc
 3. Added an explicit factor-two assessment to all eleven per-image fair-use rationales. Corrected the research and chapter records note: V&A O1293749 documents a gelatin silver print on photographic paper using the gelatin silver process, and O1318486 documents photographic paper, photographic gelatin, and the gelatin silver process; undocumented camera and exposure details remain excluded.
 
 Re-verified prior critique rounds: 2026-07-18 (the only prior round). Required items 1–4 remain satisfied in the current overlays, proofs, source dossier, research note, and byte-identical chapter copies.
+
+## Critique round — 2026-07-18
+
+### Required
+
+None. All eleven current proof/spec pairs were visually checked against their analysis records. The resolved 04 and 05 changes remain materially correct: 04 no longer asserts false chair convergence and its hat line follows the hat silhouette; 05's chair-back line follows the visible chair edge. The source dossier provides a traceable public source, credit/rights notice, and concise four-factor fair-use rationale for each image. The chapter's tonal values and palette references agree with the current analyzer records, and it makes no undocumented camera-setting claim.
+
+### Advisory (non-blocking)
+
+- **01-mainbocher-corset:** the corset-lacing line remains 0.012 diagonal / 8.6° from the detected edge (96.3/100). It still visibly traces the lacing and is inside the critic tolerance.
+- **08-hattie-carnegie-dress:** `dress contour` reads somewhat as a directional route through the garment toward the roses rather than a literal outer contour; this remains a legible, non-blocking interpretive line and has not regressed.
