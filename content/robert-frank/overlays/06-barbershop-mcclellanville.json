@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-barbershop-mcclellanville.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.35, "y": 0.14, "w": 0.31, "h": 0.61, "label": "SHOP INTERIOR" },
+    { "type": "polyline", "points": [[0.00, 0.00], [0.25, 0.25], [0.48, 0.48], [0.73, 0.73], [1.0, 1.0]], "label": "SCREEN-DOOR MESH" },
+    { "type": "polyline", "points": [[0.0, 0.38], [0.25, 0.63], [0.51, 0.89]], "label": "SCREEN-DOOR MESH" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.60, "rx": 0.11, "ry": 0.19, "label": "BARBER CHAIR" }
+  ],
+  "notes": "The screen door is not a transparent nuisance: its mesh actively mediates the view of the empty chair and shop."
+}

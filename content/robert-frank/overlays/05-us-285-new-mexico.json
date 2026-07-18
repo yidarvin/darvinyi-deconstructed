@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-us-285-new-mexico.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.153, "angle": 0.0, "label": "DISTANT HORIZON" },
+    { "type": "vanishing_point", "x": 0.412, "y": 0.446, "label": "ROAD CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.253, 0.384], [0.949, 0.846]], "arrow": true, "label": "RIGHT ROAD EDGE" },
+    { "type": "leading_line", "points": [[0.012, 0.863], [0.674, 0.424]], "arrow": true, "label": "LEFT ROAD EDGE" }
+  ],
+  "notes": "Two road edges converge into an apparently empty distance, making the road itself the photograph's central subject."
+}

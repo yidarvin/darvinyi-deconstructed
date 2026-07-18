@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-view-from-motel-window-butte.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.01, "w": 0.68, "h": 0.91, "label": "WINDOW VIEW" },
+    { "type": "polyline", "points": [[0.16, 0.0], [0.22, 0.38], [0.24, 0.91]], "label": "LEFT CURTAIN EDGE" },
+    { "type": "polyline", "points": [[0.84, 0.0], [0.77, 0.43], [0.76, 0.91]], "label": "RIGHT CURTAIN EDGE" },
+    { "type": "polyline", "points": [[0.26, 0.50], [0.47, 0.35], [0.65, 0.23]], "label": "STREET RECESSION" }
+  ],
+  "notes": "Curtains and the window sill turn the town into a constrained view, with its road receding through a narrow opening."
+}

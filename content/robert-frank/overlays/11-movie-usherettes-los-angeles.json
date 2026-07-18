@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-movie-usherettes-los-angeles.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.36, "cy": 0.35, "rx": 0.14, "ry": 0.23, "label": "LEFT USHERETTE" },
+    { "type": "ellipse", "cx": 0.84, "cy": 0.39, "rx": 0.13, "ry": 0.24, "label": "RIGHT USHERETTE" },
+    { "type": "polyline", "points": [[0.00, 0.08], [0.06, 0.36], [0.10, 0.72], [0.11, 0.98]], "label": "CURTAIN EDGE" }
+  ],
+  "notes": "Repeated uniforms establish a rhythm, but the rightward crop and curtain keep the group from becoming a tidy pattern."
+}

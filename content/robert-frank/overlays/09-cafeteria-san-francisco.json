@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-cafeteria-san-francisco.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.60, "cy": 0.41, "rx": 0.17, "ry": 0.16, "label": "DINER'S FACE" },
+    { "type": "leading_line", "points": [[0.14, 0.70], [0.30, 0.43]], "arrow": true, "label": "COUNTER EDGE" },
+    { "type": "polyline", "points": [[0.17, 0.08], [0.33, 0.20], [0.45, 0.30]], "label": "SEAT-BACK DIAGONAL" },
+    { "type": "polyline", "points": [[0.56, 0.72], [0.72, 0.86], [0.91, 0.99]], "label": "NEAR COUNTER" }
+  ],
+  "notes": "The counter and hanging signs push a diner through a compressed vertical field where objects crowd as insistently as people."
+}

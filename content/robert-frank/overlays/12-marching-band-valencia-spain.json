@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-marching-band-valencia-spain.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.61, "cy": 0.41, "rx": 0.05, "ry": 0.07, "label": "CENTRAL TUBA BELL" },
+    { "type": "ellipse", "cx": 0.94, "cy": 0.23, "rx": 0.14, "ry": 0.23, "label": "CROPPED TUBA BELL" },
+    { "type": "polyline", "points": [[0.00, 0.11], [0.13, 0.19], [0.27, 0.27], [0.40, 0.35]], "label": "MARCHING LINE" },
+    { "type": "polyline", "points": [[0.54, 0.70], [0.63, 0.55], [0.72, 0.41]], "label": "INSTRUMENT RHYTHM" }
+  ],
+  "notes": "Cropped bodies and two oversized tuba bells make the procession read as an irregular, close-packed rhythm rather than a parade view."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-political-rally-chicago.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.58, "rx": 0.18, "ry": 0.16, "label": "TUBA BELL" },
+    { "type": "polyline", "points": [[0.51, 0.0], [0.51, 0.23], [0.55, 0.36]], "label": "FLAGSTAFF" },
+    { "type": "polyline", "points": [[0.51, 0.0], [0.76, 0.08], [0.99, 0.18]], "label": "FLAG EDGE" }
+  ],
+  "notes": "The tuba bell interrupts a hanging flag and converts a political spectacle into a close, awkward stack of surfaces."
+}

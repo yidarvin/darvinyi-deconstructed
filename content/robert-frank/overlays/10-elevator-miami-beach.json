@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-elevator-miami-beach.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.45, "y": 0.01, "w": 0.20, "h": 0.87, "label": "CONTROL PANEL" },
+    { "type": "ellipse", "cx": 0.59, "cy": 0.52, "rx": 0.14, "ry": 0.32, "label": "ATTENDANT" },
+    { "type": "polyline", "points": [[0.36, 0.00], [0.43, 0.34], [0.43, 0.87]], "label": "DOOR SEAM" }
+  ],
+  "notes": "The elevator's control panel and door seam hold the attendant in a bright, compressed passage while blurred bodies block both sides."
+}

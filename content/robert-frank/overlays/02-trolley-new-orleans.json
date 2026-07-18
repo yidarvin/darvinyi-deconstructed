@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "02-trolley-new-orleans.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.08, "w": 0.39, "h": 0.47, "label": "LEFT WINDOW BAY" },
+    { "type": "frame_in_frame", "x": 0.40, "y": 0.08, "w": 0.37, "h": 0.47, "label": "CENTRAL WINDOW BAY" },
+    { "type": "frame_in_frame", "x": 0.78, "y": 0.08, "w": 0.22, "h": 0.47, "label": "RIGHT WINDOW BAY" },
+    { "type": "horizon_line", "y": 0.655, "angle": 0.0, "label": "TROLLEY BELTLINE" },
+    { "type": "polyline", "points": [[0.00, 0.27], [0.39, 0.27], [0.40, 0.27], [0.77, 0.27], [0.78, 0.27], [1.0, 0.27]], "label": "TRANSOM WINDOWS" }
+  ],
+  "notes": "Window bays parcel the passengers into a social strip, while the trolley beltline makes the moving vehicle a fixed horizontal stage."
+}
