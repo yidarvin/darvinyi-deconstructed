@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -30,3 +30,10 @@ Re-verified prior required fixes: critique round 2026-07-18 (the complete histor
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-07-18
+
+1. Rebuilt `03-petit-tzigane` from a fresh analysis. The `subject_anchor` now lands on the visible child's face at `(0.724, 0.435)`; the refreshed proof passed strict deterministic scoring at 100/100 and visual inspection. The chapter's statement that the anchor identifies the child's face is now truthful.
+2. Rebuilt `08-amour-et-belote` from a fresh analysis. Removed the unsupported primitive labeled `left table edge`; the remaining three primitives identify the lower edge, convergence, and real right tabletop edge. The refreshed proof passed strict deterministic scoring at 100/100 and visual inspection.
+
+Re-verified all prior required fixes from the complete critique history: the first 2026-07-18 critique round (the three-primitive stepped figure sequence in `09-diagonale-des-marches`, scoring 100/100 after its refreshed proof; and the corrected sleeping-child/bedding description in `sources.md`) and the second 2026-07-18 critique round above. `content/robert-doisneau/chapter.mdx` and `src/chapters/robert-doisneau.mdx` remain byte-identical.
