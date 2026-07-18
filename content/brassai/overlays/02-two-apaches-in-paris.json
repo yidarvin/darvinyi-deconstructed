@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-two-apaches-in-paris.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.125, "y": 0.414, "r": 0.035, "label": "front figure" },
+    { "type": "polyline", "points": [[0.417, 0.000], [0.417, 1.000]], "label": "hard dark divide" },
+    { "type": "ellipse", "cx": 0.158, "cy": 0.205, "rx": 0.095, "ry": 0.080, "label": "lit face" },
+    { "type": "leading_line", "points": [[0.098, 0.005], [0.342, 0.366]], "arrow": true, "label": "cap and shoulder slope" }
+  ],
+  "notes": "The two men are pressed into a narrow lit strip, confronted by an unyielding black field."
+}

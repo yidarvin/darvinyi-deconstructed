@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-parisian-paving-stones.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.524, "y": 0.288, "label": "pavement convergence" },
+    { "type": "leading_line", "points": [[0.294, 0.467], [0.696, 0.178]], "arrow": true, "label": "curb seam" },
+    { "type": "polyline", "points": [[0.123, 1.000], [0.156, 0.600], [0.220, 0.210]], "label": "left curb edge" },
+    { "type": "polyline", "points": [[0.750, 0.720], [0.790, 0.350], [0.874, 0.095]], "label": "right doorway edge" }
+  ],
+  "notes": "Repeated wet cobbles funnel toward a small opening, making pavement itself the nocturnal subject."
+}

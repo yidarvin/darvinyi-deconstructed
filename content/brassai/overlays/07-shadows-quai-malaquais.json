@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-shadows-quai-malaquais.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.155, "angle": 7.9, "label": "distant parapet edge" },
+    { "type": "subject_anchor", "x": 0.116, "y": 0.223, "r": 0.035, "label": "distant dark accent" },
+    { "type": "polyline", "points": [[0.000, 0.735], [0.365, 0.500], [0.000, 0.388]], "label": "foreground shadow wedge" },
+    { "type": "polyline", "points": [[0.090, 0.555], [0.418, 0.250], [0.770, 0.095]], "label": "receding pavement edge" }
+  ],
+  "notes": "Heavy diagonal shadows turn an ordinary pavement into alternating wedges of light and dark."
+}

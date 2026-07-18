@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-bijou-bar-de-la-lune.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.575, "y": 0.035, "w": 0.380, "h": 0.415, "label": "mirror field" },
+    { "type": "ellipse", "cx": 0.253, "cy": 0.425, "rx": 0.115, "ry": 0.095, "label": "Bijou's face" },
+    { "type": "leading_line", "points": [[0.506, 0.513], [0.968, 0.528]], "arrow": true, "label": "bar rail" }
+  ],
+  "notes": "A mirror and bright bar rail split Bijou's close portrait from its softer reflected double."
+}

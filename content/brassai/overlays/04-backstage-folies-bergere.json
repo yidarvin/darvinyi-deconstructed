@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-backstage-folies-bergere.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.255, "y": 0.883, "r": 0.035, "label": "seated performer" },
+    { "type": "leading_line", "points": [[0.262, 0.742], [0.777, 0.856]], "arrow": true, "label": "diagonal rail" },
+    { "type": "frame_in_frame", "x": 0.460, "y": 0.300, "w": 0.520, "h": 0.560, "label": "reflected stage" }
+  ],
+  "notes": "A diagonal mirror divides cramped backstage bodies from their quieter reflected stage."
+}

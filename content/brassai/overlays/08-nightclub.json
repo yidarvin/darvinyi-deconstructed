@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-nightclub.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.218, "y": 0.227, "r": 0.035, "label": "singing face" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "mirror divide" },
+    { "type": "frame_in_frame", "x": 0.455, "y": 0.040, "w": 0.500, "h": 0.475, "label": "mirror reflection" },
+    { "type": "polyline", "points": [[0.337, 0.405], [0.586, 0.360], [0.795, 0.650]], "label": "violin and bow path" }
+  ],
+  "notes": "Faces, instruments, and a mirror make the club a layered sequence of performance and reflection."
+}

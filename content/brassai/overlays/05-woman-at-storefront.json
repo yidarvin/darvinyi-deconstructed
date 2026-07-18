@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-woman-at-storefront.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.568, "y": 0.338, "label": "storefront convergence" },
+    { "type": "leading_line", "points": [[0.190, 0.626], [0.659, 0.281]], "arrow": true, "label": "gate and curb recession" },
+    { "type": "ellipse", "cx": 0.586, "cy": 0.515, "rx": 0.060, "ry": 0.165, "label": "waiting figure" },
+    { "type": "frame_in_frame", "x": 0.182, "y": 0.205, "w": 0.362, "h": 0.420, "label": "closed gate" }
+  ],
+  "notes": "The waiting figure is held between a shut gate and a deep architectural recession."
+}

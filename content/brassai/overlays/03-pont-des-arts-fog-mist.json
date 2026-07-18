@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-pont-des-arts-fog-mist.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.239, "angle": 0.0, "label": "bridge deck" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "central bridge rhythm" },
+    { "type": "subject_anchor", "x": 0.374, "y": 0.336, "r": 0.035, "label": "near river marker" },
+    { "type": "frame_in_frame", "x": 0.310, "y": 0.220, "w": 0.135, "h": 0.485, "label": "reflected marker pair" }
+  ],
+  "notes": "The bridge's calm horizontal rhythm is interrupted by a near marker and its elongated reflection."
+}

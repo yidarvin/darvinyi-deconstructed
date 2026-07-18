@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-merry-go-round-in-transit.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.501, "y": 0.603, "label": "cart-rail convergence" },
+    { "type": "leading_line", "points": [[0.573, 0.572], [0.952, 0.308]], "arrow": true, "label": "drawbar" },
+    { "type": "subject_anchor", "x": 0.716, "y": 0.147, "r": 0.035, "label": "upper wheel hub" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.375, "rx": 0.125, "ry": 0.120, "label": "central wheel" }
+  ],
+  "notes": "Stacked wheels turn the transported merry-go-round into a moving grid of circles and rails."
+}
