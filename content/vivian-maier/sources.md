@@ -1,0 +1,42 @@
+# Vivian Maier — source notes
+
+## Rights and selection basis
+
+The selected works are publicly displayed by the Maloof Collection in its official
+portfolio.  The portfolio footer identifies `© Maloof Collection, Ltd.`  Rights are
+not open: the University of Chicago finding aid for the John Maloof Collection says
+that copyright is owned by the Estate of Vivian Maier and that publication requires
+Estate permission; the Chicago History Museum likewise credits its Maier images to
+the Estate.  Each file below is therefore a separate **fair-use** assessment, not
+an assertion of open licence.  The chapter uses a credited, record-linked,
+web-sized display copy for nonprofit transformative criticism, scholarship, and
+composition teaching.  Because Maier's frames are the object of analysis, a crop
+would defeat the stated teaching point; these copies neither substitute for an
+original print nor for a licensed reproduction.
+
+Official portfolio indexes: [Self-Portraits](https://www.vivianmaier.com/gallery/self-portraits/)
+and [Street 1](https://www.vivianmaier.com/gallery/street-1/).  Rights evidence:
+[University of Chicago finding aid](https://www.lib.uchicago.edu/e/scrc/findingaids/view.php?eadid=ICU.SPCL.MALOOFMAIER)
+and [Chicago History Museum collection note](https://www.chicagohistory.org/exhibition/vivian-maier-her-chicago/).
+
+## Acquired shortlist
+
+1. **Self-Portrait, 1954** — `VM1954W02936-11-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/10/VM1954W02936-11-MC.jpg).  Maier's shadowed reflection sits over two seated women, turning a shop window into a layered public/private stage.  **Use basis: fair-use.** Creator Vivian Maier; rights notice `© Maloof Collection, Ltd.` (with Estate ownership documented above).  Factor 1: transformative analysis of reflected layers and scale; Factor 2: creative photograph; Factor 3: the complete square is necessary to retain reflection, women, cars, and pavement as one spatial argument; Factor 4: this 1050 × 1050px credited display copy is web-sized, linked, and non-substitutive.
+
+2. **Self-Portrait, 1971** — `VM1971W01703-09-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/10/VM1971W01703-09-MC.jpg).  Reversed lettering, ladder, dot pattern, and the small camera-bearing figure make a rigorous window-grid self-portrait.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative criticism of framing, repetition, and scale; Factor 2: creative photograph; Factor 3: the whole frame is needed for the signs, ladder, and figure to interlock; Factor 4: the credited 1050 × 1050px public display image is record-linked and cannot replace a print or licensed file.
+
+3. **Self-Portrait, 1961** — `VM1961W00940-05-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/10/VM1961W00940-05-MC.jpg).  Layered glass, interior objects, a distant reflection, and a bright circular form convert the domestic window into a deep collage.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative teaching of planes and reflected depth; Factor 2: creative photograph; Factor 3: its full square is necessary to compare foreground reflection, window aperture, and furnishings; Factor 4: the credited 1050 × 1050px display copy is web-sized, source-linked, and non-substitutive.
+
+4. **Self-Portrait, 1954** — `VM1954W00130-07-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/10/VM1954W00130-07-MC.jpg).  A face framed by a small tabletop mirror and screened again by wire mesh makes enclosure itself the subject.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative study of nested frames and obstruction; Factor 2: creative photograph; Factor 3: the full image is needed to preserve the mesh field, mirror edge, and surrounding objects; Factor 4: this credited 1050 × 1050px public display rendition does not replace an original or licensed reproduction.
+
+5. **Self-Portrait, 1955** — `VM1955W02770-06-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/10/VM1955W02770-06-MC.jpg).  An intimate profile is compressed inside a round mirror while the camera and hand intrude at the edge.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative analysis of circular framing, edge pressure, and gaze; Factor 2: creative photograph; Factor 3: the intact square is needed to retain the mirror, hand, and surrounding negative space; Factor 4: the credited 1050 × 1050px display copy is small, linked, and non-substitutive.
+
+6. **New York, NY, undated** — `VM19XXW04205-06-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/11/VM19XXW04205-06-MC.jpg).  A sharply isolated woman is set against the repeated arches and steps of the New York Public Library; a low foreground blur adds a second spatial plane.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative teaching of figure/architecture scale and foreground interruption; Factor 2: creative photograph; Factor 3: the entire frame is needed for the central figure, stair rhythm, and façade to remain in relation; Factor 4: this credited 1100 × 1100px public display image is web-sized, source-linked, and cannot substitute for a print or licensed file.
+
+7. **Fall 1953, New York, NY** — `VM1953W03396-08-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/11/VM1953W03396-08-MC.jpg).  A woman walking through steam is counterpoised against clustered men and the receding building wall.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative criticism of directional flow, empty pavement, and social grouping; Factor 2: creative photograph; Factor 3: the full square is needed to retain the steam field and the right-hand counterweight; Factor 4: the credited 1100 × 1100px display rendition is record-linked and non-substitutive.
+
+8. **Milwaukee, Wisconsin, undated** — `VM19XXW00779-04-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/11/VM19XXW00779-04-MC.jpg).  The doorway, black tile corner, painted window, and paired smokers form a tightly ordered social tableau.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative analysis of vertical division, paired bodies, and storefront texture; Factor 2: creative photograph; Factor 3: the intact frame is necessary to see the doorway, window, and two figures as a single geometry; Factor 4: this credited 1100 × 1100px public display copy is web-sized, linked, and not a market substitute.
+
+9. **March 31, 1966, Chicago, IL** — `VM1966W01174-04-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/11/VM1966W01174-04-MC.jpg).  A man projects from the shadow of a dark wall into a narrow canyon of signs, awning, and pedestrians.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative teaching of selective light, deep recession, and near/far figure contrast; Factor 2: creative photograph; Factor 3: the complete square preserves the black wall's visual weight and the street corridor; Factor 4: the credited 1100 × 1100px display image is web-sized, source-linked, and non-substitutive of an original or licensed image.
+
+10. **New York, NY, undated** — `VM19XXW04206-02-MC`; [public display image](https://www.vivianmaier.com/wp-content/uploads/2013/11/VM19XXW04206-02-MC.jpg).  The pigeons' spread wings make a volatile foreground around a young man, with the advertising field and crowd held soft behind him.  **Use basis: fair-use.** Creator Vivian Maier; `© Maloof Collection, Ltd.` / Estate of Vivian Maier.  Factor 1: transformative criticism of foreground interruption, gesture, and focus hierarchy; Factor 2: creative photograph; Factor 3: the complete frame is required to retain both birds, hands, passerby, and signage; Factor 4: this credited 1100 × 1100px public display copy is record-linked, web-sized, and does not replace an original print or licensed reproduction.
