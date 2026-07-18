@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -59,3 +59,15 @@ All ten proofs were visually reviewed and all ten current specs pass the determi
 - Resolved required fix 5: recast the source dossier, research note, and both rendered chapter copies as visible compositional observations; removed unsupported claims about venue, studio setup, lighting method, and direction. No camera, printing, or exposure detail has been added.
 - Advisory clarity fixes applied: Einstein’s line is labeled a face-to-hands attention path, and O’Keeffe’s secondary anchor is labeled a window-seat counterweight.
 - Prior rounds re-verified: 2026-07-17 fair-use nature-of-work fix remains in all ten per-image assessments; 2026-07-17 source-description corrections for Hemingway, Picasso, O’Keeffe, Hepburn, and Johns remain accurate to their current proofs. All ten current overlays pass the strict scorer at 100/100, the updated proofs received a clean visual pass, and `content/yousuf-karsh/chapter.mdx` is byte-identical to `src/chapters/yousuf-karsh.mdx`.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+All ten current proof PNGs received a fresh visual pass against their overlay specs and analysis records. Every overlay remains a concise three-primitive teaching argument; each labeled primitive traces the named visible feature, including Hemingway’s lower-left chair arm and Johns’s star-field edge. The deterministic scorer returns 100/100 for all ten specs. The chapter’s tonal, edge-density, palette, and grid-fit claims match the stored analysis values within tolerance, and its settings disclaimer does not invent camera or printing data. Each linked Estate source returned HTTP 200, the credits are consistent, and every selection retains a work-specific four-factor fair-use rationale. No material regression of a prior resolved finding was observed.
