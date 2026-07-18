@@ -3,8 +3,8 @@
   "image": "03-country-doctor.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.794, "y": 0.586, "r": 0.031, "label": "doctor" },
-    { "type": "ellipse", "cx": 0.754, "cy": 0.575, "rx": 0.118, "ry": 0.166, "label": "solitary figure" },
+    { "type": "subject_anchor", "x": 0.520, "y": 0.575, "r": 0.031, "label": "doctor" },
+    { "type": "ellipse", "cx": 0.520, "cy": 0.535, "rx": 0.082, "ry": 0.135, "label": "solitary figure" },
     { "type": "polyline", "points": [[0.782, 0.514], [0.862, 0.512], [0.901, 0.620]], "label": "fence return" }
   ],
   "notes": "The doctor is isolated between a storm-heavy sky and the field's small fence geometry."

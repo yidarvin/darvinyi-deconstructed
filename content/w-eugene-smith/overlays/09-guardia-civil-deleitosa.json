@@ -3,9 +3,9 @@
   "image": "09-guardia-civil-deleitosa.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.421, "y": 0.523, "r": 0.029, "label": "front officer" },
+    { "type": "subject_anchor", "x": 0.282, "y": 0.440, "r": 0.029, "label": "front officer" },
     { "type": "ellipse", "cx": 0.518, "cy": 0.559, "rx": 0.300, "ry": 0.182, "label": "three officers" },
-    { "type": "polyline", "points": [[0.334, 0.455], [0.495, 0.519], [0.686, 0.534]], "label": "hat-to-hat rhythm" }
+    { "type": "polyline", "points": [[0.290, 0.340], [0.499, 0.426], [0.739, 0.426]], "label": "hat-to-hat rhythm" }
   ],
   "notes": "The officers' frontal spacing makes institutional force read as an uneven but fixed rhythm."
 }
