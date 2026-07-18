@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-sutnar-china-coffee-dinner.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.45, 0.15], [0.55, 0.39], [0.63, 0.56], [0.33, 0.73]], "label": "descending vessels" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.15, "rx": 0.12, "ry": 0.13, "label": "lidded vessel" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.40, "rx": 0.11, "ry": 0.12, "label": "teapot" }
+  ],
+  "notes": "A staggered chain of porcelain forms is paced by scale and long shadows."
+}

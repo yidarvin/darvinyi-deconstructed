@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-untitled-postcard.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.24, 0.63], [0.23, 0.45], [0.30, 0.28]], "label": "silhouette gesture" },
+    { "type": "frame_in_frame", "x": 0.54, "y": 0.05, "w": 0.37, "h": 0.73, "label": "window bay" },
+    { "type": "ellipse", "cx": 0.25, "cy": 0.43, "rx": 0.10, "ry": 0.20, "label": "statue silhouette" }
+  ],
+  "notes": "A dark statue counterweights a tall, luminous recession of windows and arches."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-sutnar-china-hostess.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.10, 0.58], [0.40, 0.20]], "arrow": false, "label": "left table edge" },
+    { "type": "leading_line", "points": [[0.80, 0.78], [0.90, 0.43]], "arrow": false, "label": "right table edge" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.49, "rx": 0.10, "ry": 0.08, "label": "central teapot" },
+    { "type": "polyline", "points": [[0.42, 0.76], [0.55, 0.72], [0.69, 0.74], [0.82, 0.70]], "label": "cup rhythm" }
+  ],
+  "notes": "The table's receding sides gather stacks and cups into a measured service."
+}

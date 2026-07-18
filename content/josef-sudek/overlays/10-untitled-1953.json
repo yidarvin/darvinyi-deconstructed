@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-untitled-1953.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.75, 0.25], [0.66, 0.43], [0.56, 0.66], [0.68, 0.86]], "label": "torso contour" },
+    { "type": "polyline", "points": [[0.34, 0.16], [0.39, 0.41], [0.40, 0.70], [0.36, 0.88]], "label": "patterned textile" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.48, "rx": 0.16, "ry": 0.29, "label": "shoulder curve" }
+  ],
+  "notes": "A bright shoulder contour is pressed beside a dense, patterned hanging form."
+}
