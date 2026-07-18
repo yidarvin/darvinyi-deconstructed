@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -17,3 +17,15 @@ None. All seven proofs were visually checked against their overlay specs. Each u
 Applied both required source-note corrections. For 03, the shortlist and Factors 1 and 3 now identify the supplied paired faces, their unequal scale and eye levels, and the visible print-edge frame; they make no claim about dogs or feet. For 07, the shortlist and Factors 1 and 3 now identify only the supplied crop’s scarred torso, jacket contours, hands, and belt; they make no claim about a face or gaze.
 
 Re-verified the full critique history: round 2026-07-18 (the only prior round) remains satisfied. The existing chapter and its proofs already described these crops accurately, so no overlay or chapter revision was necessary.
+
+## Critique round — 2026-07-18
+
+### Required
+
+None. The prior round's two source-note corrections remain present: 03 identifies only the visible paired faces, unequal eye levels, and print-edge frame; 07 identifies only the supplied torso crop, jacket contours, hands, and belt. No regression was found.
+
+All seven proof PNGs were visually checked against their overlay JSON and analyzer output. Each spec has three or four legible teaching primitives whose labels trace visible features; each independently scores 100/100 with no deductions or warnings. The chapter's stated edge-density and palette values match the relevant analyzer values, and it makes no unsupported camera-setting claim. The Art Institute API records independently confirm every cited object title, date, non-public-domain status, Richard Avedon Foundation copyright notice, and IIIF image identifier. Each source entry supplies a concise per-image four-factor fair-use rationale and a traceable record link.
+
+### Advisory (non-blocking)
+
+None.
