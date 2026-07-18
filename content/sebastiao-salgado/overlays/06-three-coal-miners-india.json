@@ -4,8 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.507, "y": 0.178, "r": 0.035, "label": "bright turban fold" },
-    { "type": "ellipse", "cx": 0.756, "cy": 0.455, "rx": 0.105, "ry": 0.145, "label": "foremost miner's face" },
-    { "type": "polyline", "points": [[0.22, 0.32], [0.47, 0.23], [0.73, 0.20]], "label": "three faces compress in depth" },
+    { "type": "ellipse", "cx": 0.756, "cy": 0.525, "rx": 0.125, "ry": 0.200, "label": "foremost miner's face" },
+    { "type": "polyline", "points": [[0.185, 0.505], [0.425, 0.485], [0.755, 0.525]], "label": "three faces compress in depth" },
     { "type": "polyline", "points": [[0.33, 0.99], [0.44, 0.79], [0.57, 0.59]], "label": "pickaxe cuts across the portrait" }
   ],
   "notes": "A frontal gaze and the pickaxe interrupt the compressed recession of the three miners."
