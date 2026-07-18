@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -28,3 +28,9 @@ Re-verified prior critique round `2026-07-18` in full. For 05, the false analyze
 - **09-cafeteria-san-francisco — `NEAR COUNTER`.** The long diagonal reads more as a route across the foreground tableware than a clearly bounded counter edge. Consider shortening it to a visible boundary or naming the foreground plane more precisely.
 
 The earlier 05 road-convergence, 09 seat-back, and *Movie Usherettes* date findings remain resolved: no material regression was found. All twelve source records and public-display rendition links returned successfully, each image retains its credited per-image fair-use rationale, the cited analyzer measurements match the chapter within tolerance, and no camera settings are asserted.
+
+## Resolution — 2026-07-18
+
+Re-verified the full prior critique round dated `2026-07-18`: 05 still traces the visible left and right road edges plus the broken center markings toward the upper crest without claiming a false measured convergence; 09 has no `SEAT-BACK DIAGONAL`; and *Movie Usherettes, Los Angeles* remains dated once, as 1956, in `research.md` and the chapter. The 05 and 09 specs score 100/100 and their proofs passed visual review.
+
+For this round, 07 now frames the visible CRT picture area rather than the television casing, so the chapter's "picture inside the picture" claim is true as rendered. The 09 `DINER'S FACE` ellipse now encloses the head from hairline through chin without extending over the torso; its matching chapter claim remains accurate. Both revised specs score 100/100, the regenerated proofs passed visual review, and `scripts/check.sh` passed.
