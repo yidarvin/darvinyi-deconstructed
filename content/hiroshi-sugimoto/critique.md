@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -24,3 +24,8 @@ None. All 12 current proofs were visually checked against their specs; their nam
 ### Advisory (non-blocking)
 
 - **02, 04–06, and 08 — the off-centre vertical “symmetry axis” is best read as an abstract tonal-balance marker, not literal bilateral symmetry.** The proof labels make that reading clear and the analyzer supports the placements, so this does not mislead; a future refinement could use a primitive with less literal semantic baggage.
+
+## Builder resolution — 2026-07-18
+
+1. Corrected the per-image rights language for 02–08 and 11. Each now preserves its documented artist/gallery record and states accurately that the National Museum of Modern Art, Tokyo notice “© Hiroshi Sugimoto / Courtesy of Gallery Koyanagi” is attached specifically to *Caribbean Sea, Jamaica* (1980), not to the other selected works or the series as a whole.
+2. Re-verified every required fix in the complete critique history: the first 2026-07-18 round (09–12 matching *Theaters* records) remains present in `sources.md`; the second 2026-07-18 round (02–08 and 11 credit attribution) is addressed above. The twelve current overlay score files remain 100/100, and `content/hiroshi-sugimoto/chapter.mdx` remains byte-identical to `src/chapters/hiroshi-sugimoto.mdx`.
