@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -21,3 +21,19 @@ verdict: resolved
 - **01-cuzco-children / 05-after-dinner-games:** Corrected both source-note descriptions to the visible photographs: two children separated by a table, and a tabletop still life of cup, cards, dominoes, knight, and related objects. The associated fair-use explanation for 05 now accurately describes the complete-frame need.
 - **09-georgia-okeeffe / 11-three-asaro-mud-men:** Replaced the stale IIIF identifiers with the working Art Institute rendition URLs. Fresh downloads returned JPEGs byte-identical to the retained raw files (SHA-256 values documented in `sources.md`), preserving accurate provenance for the ingested images.
 - Ran `scripts/check.sh` successfully after the fixes; its chapter-sync gate confirms the rendered chapter mirror is byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **04-man-lighting-girls-cigarette — overlay truthfulness.** This is a material regression after the prior round's resolution. The vertical `BOTTLE AXIS` at `x: 0.43` runs along the bottle's left side rather than its center (approximately `x: 0.50`), so it does not trace the named axis. The horizontal `TABLE EDGE` at `y: 0.634` instead follows the bottle's liquid boundary and then crosses unrelated background and figures; it is not a table edge. Finally, the `subject_anchor` is labeled `CHAIR-BACK CURVE`, which is a structural contour rather than a subject and therefore makes the primitive's semantic claim false. Rework these annotations into primitives and labels that truthfully trace the visible bottle, table, and chair features, and revise the dependent prose in `chapter.mdx`.
+2. **05-after-dinner-games — overlay truthfulness.** The full-width `horizon_line` labeled `CUP-RIM LEVEL` at `y: 0.477` cuts through the coffee/cup interior and unrelated objects; it does not follow the cup's elliptical rim or another dominant horizontal. Replace or remove it and adjust the associated chapter claim if necessary.
+3. **07-truman-capote — overlay truthfulness.** The `horizon_line` labeled `FOREHEAD LIGHT` at `y: 0.129` crosses background, head, and background rather than a horizontal light boundary. Remove it or replace it with a primitive that traces a real, correctly named feature; retain only the annotations the image supports.
+4. **08-picasso-at-la-californie — overlay truthfulness.** The horizontal line labeled `HAT BRIM` at `y: 0.124` runs through the crown/background and misses the brim's oblique curved lower edge. Remove it or use a correctly placed interpretive contour, then ensure the prose's brim claim matches that annotation.
+5. **09-georgia-okeeffe — overlay truthfulness.** The line labeled `FIGURE-GROUND BREAK` at `y: 0.569` crosses O'Keeffe's wrists and torso plus empty wall; it is not a visible horizontal figure-ground break. Remove or redraw it around an actually visible, correctly named structure.
+6. **11-three-asaro-mud-men — overlay truthfulness and chapter accuracy.** The two annotated `leading_line`s both run lower-left to upper-right and are nearly parallel; they do not depict the claimed crossing-spears structure, while `SHOULDER BAND` crosses unrelated bodies, heads, and background rather than a real horizontal band. Rebuild the overlay around true visible spear geometry (or simplify conservatively) and correct the overlay notes and chapter text that presently describe crossing spears as the central hinge.
+
+### Advisory (non-blocking)
+
+- Every current overlay scores 100/100 with no deductions or warnings under the deterministic scorer, including `--strict`. Those scores do not validate semantic correspondence between a label and the pictured feature; the numbered visual failures above remain blocking.
+- `01-cuzco-children`'s child-to-table arrow is understandable as an attention path but is less a single physical edge than its `leading_line` type implies. Consider an interpretive `polyline` when revising, but this does not block the chapter.
