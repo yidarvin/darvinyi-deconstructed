@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -21,3 +21,13 @@ Applied and visually verified every required fix from the full critique history:
 2. **Round 2026-07-18, required 2 (`06-three-coal-miners-india`):** moved `THREE FACES COMPRESS IN DEPTH` through the three visible faces (`[0.185, 0.505] → [0.425, 0.485] → [0.755, 0.525]`) rather than the headwraps.
 
 Also applied the inexpensive advisory refinement to enlarge and lower the foremost miner's face ellipse. Re-rendered both proofs, performed a clean visual pass, and re-scored all seven current overlay specs at 100/100 (threshold 80). `scripts/check.sh` passed before this verdict was set.
+
+## Critique round — 2026-07-18
+
+### Required
+
+1. `chapter.mdx` opening measurement paragraph — It says *Serra Pelada, east slope* has the chapter's greatest edge density at `0.208`, but `01-serra-pelada-east-slope.analysis.json` records `0.208479` and `02-serra-pelada-procession.analysis.json` records the higher `0.234341`. The latter plate is correctly called the densest measured file later in the chapter. Revise the opening comparison to name `02-serra-pelada-procession` as highest, or remove the erroneous superlative.
+
+### Advisory (non-blocking)
+
+No new advisory findings. The prior round's label-crowding and broad ascent-path observations remain non-blocking and have not materially regressed. The resolved `03-guatemala` framed-opening and `06-three-coal-miners-india` three-face corrections now trace the features they name.
