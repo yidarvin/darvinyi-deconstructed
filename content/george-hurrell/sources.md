@@ -18,12 +18,12 @@ and image content were not altered.
    *Photoplay* (October 1938), and marks the work Public domain / not
    copyrighted; credit: George Hurrell, *Photoplay*.
 
-2. **Conrad Nagel**, *The New Movie*, February 1930 — `02-conrad-nagel.jpg` (2406 × 3391).
-   A full vertical study whose tuxedo, chair, and receding background turn a
-   publicity portrait into a controlled geometric silhouette. [Commons file
+2. **Conrad Nagel**, *The New Movie*, July 1930 — `02-conrad-nagel.jpg` (2406 × 3391).
+   A tight head-and-shoulders portrait whose forehead highlight, face, and
+   shoulder mass make a controlled tonal construction. [Commons file
    record](https://commons.wikimedia.org/wiki/File:Conrad_Nagel_by_Hurrell.jpg).
    **Use basis: open.** Commons identifies George Hurrell as author, credits
-   the digitized 1930 *New Movie* issue at Internet Archive, and marks it Public
+   the digitized July 1930 *New Movie* issue at Internet Archive, and marks it Public
    domain / not copyrighted; credit: George Hurrell, *The New Movie*.
 
 3. **Rita Hayworth**, *The American Magazine*, December 1942 — `03-rita-hayworth.jpg` (2000 × 4964).
@@ -75,7 +75,7 @@ and image content were not altered.
    portrait c. 1937, and marks it Public domain / not copyrighted; credit:
    George Hurrell, Carole Lombard portrait.
 
-9. **Myrna Loy**, 1930s — `09-myrna-loy.jpg` (2000 × 2632).
+9. **Myrna Loy**, undated — `09-myrna-loy.jpg` (2000 × 2632).
    The high-resolution publicity portrait lets the chapter isolate the quiet
    relation between a softly lit face, dark hair mass, and open background.
    [Commons file record](https://commons.wikimedia.org/wiki/File:Myrna_Loy.jpg).

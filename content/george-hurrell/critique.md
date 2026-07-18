@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -46,3 +46,21 @@ manifest, and source dossier. The following are REQUIRED before approval.
   mark in the masthead, but a subject anchor gives that minor detail more visual
   weight than it needs. Consider simplifying it in a future polish pass.
 
+## Resolution — 2026-07-18
+
+Resolved the four required items from the 2026-07-18 critique round:
+
+1. `08-carole-lombard` now labels the upper contour as `HAIR MASS`, matching
+   the outer hair mass it traces; the chapter and overlay thesis use the same
+   reading.
+2. Its lower polyline now follows the actual jacket lapels and is labeled
+   `JACKET LAPEL V`; the Plate caption and prose were revised to that claim.
+3. `02-conrad-nagel` is corrected to *The New Movie*, July 1930 in the Plate
+   label and source dossier, and its source note now accurately describes the
+   tight head-and-shoulders portrait.
+4. `09-myrna-loy` is consistently described as undated in the source dossier,
+   research note, and Plate label.
+
+Re-verified required fixes from all prior critique rounds: 2026-07-18 (the
+only prior round in this critique history). The revised Lombard proof received
+a clean visual pass and scores 100/100; `scripts/check.sh` passed.

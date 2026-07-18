@@ -2,7 +2,7 @@
 
 ## Scope and records consulted
 
-The local source dossier identifies ten George Hurrell publicity and magazine portraits dated from 1930 through 1942: Conrad Nagel (1930), Jean Harlow (1933), Jean Parker (1935), Joan Crawford (1936), Carole Lombard (c. 1937), Bette Davis and Olivia de Havilland (1938), Rita Hayworth (1942), plus 1930s portraits of Karen Morley and Myrna Loy. The source records are Wikimedia Commons file pages, credited to Hurrell and the named publication or studio collection; each is recorded there as public domain. This chapter uses the locally acquired, normalized display files described in [sources.md](sources.md).
+The local source dossier identifies ten George Hurrell publicity and magazine portraits dated from 1930 through 1942: Conrad Nagel (July 1930), Jean Harlow (1933), Jean Parker (1935), Joan Crawford (1936), Carole Lombard (c. 1937), Bette Davis and Olivia de Havilland (1938), Rita Hayworth (1942), and a 1930s portrait of Karen Morley, plus an undated Myrna Loy publicity portrait. The source records are Wikimedia Commons file pages, credited to Hurrell and the named publication or studio collection; each is recorded there as public domain. This chapter uses the locally acquired, normalized display files described in [sources.md](sources.md).
 
 ## Visual method and era
 

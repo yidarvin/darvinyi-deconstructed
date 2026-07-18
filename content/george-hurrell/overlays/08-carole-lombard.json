@@ -5,8 +5,8 @@
   "primitives": [
     { "type": "subject_anchor", "x": 0.689, "y": 0.429, "r": 0.035, "label": "white collar" },
     { "type": "ellipse", "cx": 0.475, "cy": 0.300, "rx": 0.145, "ry": 0.135, "label": "turned face" },
-    { "type": "polyline", "points": [[0.313, 0.114], [0.506, 0.027], [0.700, 0.137]], "label": "hairline arc" },
-    { "type": "polyline", "points": [[0.148, 0.570], [0.454, 0.655], [0.824, 0.597]], "label": "jacket shoulders" }
+    { "type": "polyline", "points": [[0.313, 0.114], [0.506, 0.027], [0.700, 0.137]], "label": "hair mass" },
+    { "type": "polyline", "points": [[0.378, 0.518], [0.550, 0.680], [0.696, 0.447]], "label": "jacket lapel V" }
   ],
-  "notes": "The turned face is held above broad jacket shoulders; the hairline, white collar, and side light make the pose feel structured rather than casually observed."
+  "notes": "The turned face is held above the jacket's lapel V; the hair-mass silhouette, white collar, and side light make the pose feel structured rather than casually observed."
 }
