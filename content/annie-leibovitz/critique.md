@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -75,3 +75,19 @@ verdict: resolved
 - Updated the corresponding chapter sentence to remove the head-anchor claim; `content/annie-leibovitz/chapter.mdx` and `src/chapters/annie-leibovitz.mdx` remain byte-identical.
 - Critique history re-verified: required fixes from `169eee9` (Goldberg face; Lennon strap and printed border), `926ca62` (R2-D2 open crate; Haring wall field; Springsteen foreground table), and `4a0a17d` (Lennon/Ono head anchor) all hold in the current overlays, proofs, and chapter. All eleven overlays were rescored at 100/80, and every required proof received a fresh visual verification.
 - Validation: `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+- None.
+
+### Advisory (non-blocking)
+
+- None. The existing `08-dan-aykroyd-john-belushi` joined-suits note remains a non-blocking interpretive looseness; it has not regressed into a materially false claim.
+
+### Evidence checked
+
+- Fresh visual pass over all eleven current proof PNGs against their overlay specs and source images. The resolved Goldberg face, R2-D2 crate, Haring wall-field, Springsteen table, Lennon–Ono anchor removal, and Lennon portrait-border/strap fixes all remain materially correct; no settled finding has regressed.
+- All eleven current overlays rescore 100/80 with no deterministic deductions or warnings. The chapter's quoted luminance, edge-density, tonal-spread, and palette values match the current analyzer records within tolerance; it expressly avoids unsupported camera and process claims.
+- Every primary Sotheby's source URL returned HTTP 200. Each image retains a traceable credit and image-specific four-factor fair-use rationale. The Hauser & Wirth Patti Smith corroboration returned HTTP 429, but the primary Sotheby's record remains reachable and sufficient for the documented source chain.
