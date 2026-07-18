@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-brooklyn-1985.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.321, "y": 0.020, "w": 0.398, "h": 0.920, "label": "DOORWAY" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.550, "label": "DOOR CENTER" },
+    { "type": "subject_anchor", "x": 0.273, "y": 0.295, "r": 0.042, "label": "LEFT FIGURE" },
+    { "type": "subject_anchor", "x": 0.849, "y": 0.304, "r": 0.042, "label": "RIGHT FIGURE" }
+  ],
+  "notes": "A nearly bilateral doorway turns two unequal leaners into a held exchange."
+}

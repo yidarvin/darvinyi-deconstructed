@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-new-york-1971.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.374, "cy": 0.455, "rx": 0.103, "ry": 0.190, "label": "GIRL" },
+    { "type": "subject_anchor", "x": 0.781, "y": 0.381, "r": 0.046, "label": "BOY" },
+    { "type": "frame_in_frame", "x": 0.425, "y": 0.215, "w": 0.215, "h": 0.385, "label": "GUMBALL STACK" },
+    { "type": "polyline", "points": [[0.067, 0.892], [0.247, 0.930], [0.511, 0.986]], "label": "SIDEWALK GRID" }
+  ],
+  "notes": "Bright children, red dispensers, and a blue storefront resolve into separate color blocks."
+}

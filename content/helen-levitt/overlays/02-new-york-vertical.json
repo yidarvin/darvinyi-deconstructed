@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-new-york-vertical.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.357, "y": 0.177, "w": 0.384, "h": 0.470, "label": "MIRROR" },
+    { "type": "subject_anchor", "x": 0.358, "y": 0.567, "r": 0.040, "label": "BENT FIGURE" },
+    { "type": "leading_line", "points": [[0.606, 0.778], [0.962, 0.958]], "arrow": false, "label": "CURB EDGE" },
+    { "type": "polyline", "points": [[0.151, 0.423], [0.299, 0.391], [0.781, 0.430]], "label": "ONLOOKERS" }
+  ],
+  "notes": "A freestanding mirror makes a second moving picture inside the sidewalk crowd."
+}

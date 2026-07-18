@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-coney-island.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.165, "angle": -0.9, "label": "PIER DECK" },
+    { "type": "ellipse", "cx": 0.203, "cy": 0.398, "rx": 0.110, "ry": 0.145, "label": "TUMBLER" },
+    { "type": "ellipse", "cx": 0.514, "cy": 0.652, "rx": 0.130, "ry": 0.120, "label": "SEATED WATCHER" },
+    { "type": "polyline", "points": [[0.019, 0.168], [0.485, 0.131], [0.985, 0.097]], "label": "PIER" }
+  ],
+  "notes": "The high pier sets a fixed band above a tumbler and seated witness."
+}

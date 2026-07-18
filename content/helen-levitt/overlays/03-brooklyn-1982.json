@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-brooklyn-1982.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.329, "y": 0.503, "r": 0.048, "label": "LEFT PLAYER" },
+    { "type": "polyline", "points": [[0.305, 0.440], [0.521, 0.091], [0.698, 0.250]], "label": "BALL-TO-HOOP TRIANGLE" },
+    { "type": "frame_in_frame", "x": 0.596, "y": 0.019, "w": 0.333, "h": 0.232, "label": "BACKBOARD" },
+    { "type": "leading_line", "points": [[0.306, 0.253], [0.821, 0.189]], "arrow": false, "label": "ROOFLINE" }
+  ],
+  "notes": "Ball, hands, and hoop hold a suspended action against the graffiti wall."
+}

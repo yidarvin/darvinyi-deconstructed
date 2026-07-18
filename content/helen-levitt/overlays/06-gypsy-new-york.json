@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-gypsy-new-york.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.060, "y": 0.056, "w": 0.883, "h": 0.902, "label": "CURTAIN PROSCENIUM" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "CENTER SEAM" },
+    { "type": "ellipse", "cx": 0.538, "cy": 0.631, "rx": 0.075, "ry": 0.150, "label": "CHILD" },
+    { "type": "polyline", "points": [[0.047, 0.258], [0.310, 0.060], [0.664, 0.057], [0.960, 0.285]], "label": "CURTAIN ARCH" }
+  ],
+  "notes": "Curtains make an improvised proscenium around a child and domestic depth."
+}

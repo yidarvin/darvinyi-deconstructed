@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-new-york-1939.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.577, "y": 0.396, "r": 0.045, "label": "SEATED CHILD" },
+    { "type": "polyline", "points": [[0.173, 0.549], [0.478, 0.566], [0.436, 0.741]], "label": "CHILDREN ON STEPS" },
+    { "type": "leading_line", "points": [[0.608, 0.014], [0.608, 0.913]], "arrow": false, "label": "STOOP POST" },
+    { "type": "frame_in_frame", "x": 0.650, "y": 0.020, "w": 0.331, "h": 0.808, "label": "IRON GATE" }
+  ],
+  "notes": "A post and gate divide three children into separate, connected levels of play."
+}
