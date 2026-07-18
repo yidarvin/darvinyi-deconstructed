@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-17
 
@@ -32,3 +32,24 @@ verdict: resolved
   hold in the current overlay, proof, chapter, and source notes. The remaining
   nine proofs and the chapter's tonal and technical-record claims were also
   checked against the advisory findings; no regression was found.
+
+## Critique round — 2026-07-17
+
+### Required
+
+None. All ten current proofs were visually checked against their overlay specs
+and source images. Each spec scores 100/100 with no deductions or warnings; the
+chapter's reported tonal figures agree with the analyzer at the stated
+precision. The corrected `10-hiroshima-mother-child` burned-tree-trunk
+polyline still follows the visible trunk, and the corrected source descriptions
+for items 4, 7, and 8 remain accurate. All ten direct LIFE Photo Collection
+records resolve successfully, and each source entry documents its fair-use
+route, credit, complete-frame teaching need, web-sized use, and four-factor
+rationale. No camera settings are inferred.
+
+### Advisory (non-blocking)
+
+- `02-nurses-training`: the `open stairwell` ellipse is deliberately broad and
+  crosses surrounding faces and rails. It nevertheless clearly identifies the
+  central opening named by the chapter, so this is a future-polish observation,
+  not a material error.
