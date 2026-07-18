@@ -3,9 +3,8 @@
   "image": "05-r2-d2.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "crate center" },
-    { "type": "frame_in_frame", "x": 0.30, "y": 0.18, "w": 0.42, "h": 0.68, "label": "open crate" },
+    { "type": "frame_in_frame", "x": 0.52, "y": 0.32, "w": 0.35, "h": 0.58, "label": "open crate" },
     { "type": "ellipse", "cx": 0.65, "cy": 0.51, "rx": 0.10, "ry": 0.28, "label": "R2-D2" }
   ],
-  "notes": "The crate turns a familiar character into a small centered subject inside a practical industrial frame."
+  "notes": "The open right-hand crate turns a familiar character into a small subject inside a practical industrial frame."
 }

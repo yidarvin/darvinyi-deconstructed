@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -43,3 +43,12 @@ verdict: revise
 - Reviewed every current proof PNG, overlay spec, analysis record, manifest, chapter, research note, and source record. The prior `03-whoopi-goldberg` and `11-john-lennon-new-york` fixes remain intact; this round raises no regression of those resolved items.
 - All eleven overlays score 100/80 with the deterministic scorer. The chapter's measured luminance, edge-density, tonal-spread, and palette statements match the analyzer values within tolerance; it does not invent camera or process settings.
 - Every primary Sotheby's source returned HTTP 200 during this review. The Hauser & Wirth Patti Smith corroboration returned HTTP 429, a transient response that does not affect the traceable primary Sotheby's source or its documented per-image fair-use rationale.
+
+## Builder resolution — 2026-07-18
+
+- `05-r2-d2`: re-ran analysis, removed the misleading `crate center` axis, and rebuilt the `open crate` frame around the visible right-hand crate bay. The fresh proof cleanly follows its top, side, and bottom edges (score 100).
+- `06-keith-haring`: re-ran analysis and moved the `all-over wall field` frame from the white scan margins to the pictured mural's printed boundary. The fresh proof is visually clean (score 100).
+- `09-bruce-springsteen`: re-ran analysis and restricted the frame to the lower `paper-covered table`, rather than calling the broader workspace a table. The fresh proof is visually clean (score 100).
+- Corresponding chapter language now describes the open right-hand crate, mural boundary, and paper-covered foreground table without carrying forward the removed axis or broader-frame claims.
+- Critique history re-verified: the required fixes from round `169eee9` (2026-07-18: Goldberg face; Lennon strap and printed border) and round `926ca62` (2026-07-18: R2-D2 crate; Haring wall field; Springsteen table) all hold in the current overlays, proofs, and chapter. The prior Goldberg and Lennon proofs received a fresh visual verification; all eleven current overlay specs score 100/80.
+- Validation: `scripts/check.sh` passed; `content/annie-leibovitz/chapter.mdx` and `src/chapters/annie-leibovitz.mdx` are byte-identical.
