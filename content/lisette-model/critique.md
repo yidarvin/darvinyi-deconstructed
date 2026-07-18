@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -24,3 +24,22 @@ anchor remains at `(0.771, 0.211)` but is now accurately labeled
 performer, rather than the platform, the annotated upper action. The redundant
 `HIGH WIRE` leading-line annotation was also removed, retaining the measured
 `UPPER WIRE` horizon-line claim.
+
+## Critique round — 2026-07-18
+
+### Required
+
+None. All six proof PNGs were visually checked against their current overlay
+specs: each contains two or three truthful, pedagogically focused primitives.
+The earlier `04-circus-wallendas-1950` finding remains resolved: the anchor at
+`(0.771, 0.211)` sits on the right-side performer and the `UPPER WIRE` line
+tracks the wire. Current scoring is 100/100 for every overlay.
+
+The chapter's stated tonal values match the current analysis JSON within the
+specified tolerance, and it asserts no camera settings. The six Art Institute
+records and their IIIF identifiers match `sources.md`; each image has its own
+documented fair-use purpose, nature, amount, and market-effect rationale.
+
+### Advisory (non-blocking)
+
+None.
