@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "10-hot-coffee-mojave-desert.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.44, "w": 0.42, "h": 0.29, "label": "OVERSIZED CUP" },
+    { "type": "ellipse", "cx": 0.84, "cy": 0.58, "rx": 0.07, "ry": 0.11, "label": "CUP HANDLE" }
+  ],
+  "notes": "A deliberately oversized cup interrupts the wide desert with a comic, foreground-scale sign."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-juniper-lake-tenaya.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.14, 1.00], [0.22, 0.75], [0.32, 0.54], [0.40, 0.31]], "label": "MAIN TRUNK" },
+    { "type": "polyline", "points": [[0.04, 0.42], [0.25, 0.34], [0.46, 0.36], [0.68, 0.43], [0.93, 0.49]], "label": "SWEEPING BRANCH" },
+    { "type": "polyline", "points": [[0.47, 0.89], [0.65, 0.90], [0.84, 0.88], [1.00, 0.87]], "label": "DISTANT RIDGE" }
+  ],
+  "notes": "The juniper's massive trunk and branch push against a small opening of distant ridge."
+}

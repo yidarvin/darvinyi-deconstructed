@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-pepper.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.847, "angle": 0.0, "label": "TABLETOP EDGE" },
+    { "type": "polyline", "points": [[0.18, 0.74], [0.16, 0.56], [0.27, 0.29], [0.47, 0.12], [0.67, 0.24], [0.77, 0.54], [0.70, 0.81]], "label": "ENCLOSING CONTOUR" },
+    { "type": "polyline", "points": [[0.33, 0.31], [0.48, 0.49], [0.62, 0.56], [0.45, 0.69], [0.30, 0.56]], "label": "INNER FOLD" }
+  ],
+  "notes": "A closed, repeatedly folding contour turns the pepper into a compact sculptural mass."
+}

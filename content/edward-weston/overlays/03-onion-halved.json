@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-onion-halved.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.28, "cy": 0.48, "rx": 0.23, "ry": 0.30, "label": "LEFT RING SYSTEM" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.55, "rx": 0.25, "ry": 0.36, "label": "RIGHT RING SYSTEM" },
+    { "type": "polyline", "points": [[0.39, 0.87], [0.51, 0.68], [0.60, 0.44], [0.70, 0.14]], "label": "DIVIDING SEAM" }
+  ],
+  "notes": "Two unequal ring systems meet across a rising seam rather than settling into simple symmetry."
+}

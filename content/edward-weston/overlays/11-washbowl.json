@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-washbowl.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.73, "rx": 0.31, "ry": 0.20, "label": "LOWER BASIN" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.11, "rx": 0.40, "ry": 0.12, "label": "UPPER BOWL RIM" },
+    { "type": "polyline", "points": [[0.50, 0.18], [0.50, 0.40], [0.50, 0.58]], "label": "DRAINPIPE" }
+  ],
+  "notes": "Nested bowls, pipes, and supports convert a fixture into a centered study of curves and uprights."
+}

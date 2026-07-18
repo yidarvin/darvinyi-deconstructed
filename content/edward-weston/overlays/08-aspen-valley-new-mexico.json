@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "08-aspen-valley-new-mexico.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.13, 0.00], [0.16, 0.35], [0.20, 0.69], [0.24, 0.98]], "label": "LEFT TRUNK" },
+    { "type": "polyline", "points": [[0.50, 0.00], [0.49, 0.35], [0.51, 0.68], [0.54, 1.00]], "label": "CENTRAL TRUNK" }
+  ],
+  "notes": "Pale vertical trunks divide the image while the ground rises across their lower ends."
+}

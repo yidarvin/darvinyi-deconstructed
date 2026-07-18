@@ -43,9 +43,9 @@ This working set contains twelve web-sized JPEG renditions retrieved directly fr
 - **File:** `raw/edward-weston/06-nude-on-sand-oceano.jpg` (843 × 626px)
 
 ### 07 — *“E” Town, New Mexico* (1930, printed 1953/54)
-- **Why it matters:** The church’s dark mass, light doorway, and cloud-stacked sky establish a severe tonal architecture where a small vertical building anchors a wide landscape.
+- **Why it matters:** The supplied rendition shows a rural valley of sheds, fences, mountain ridges, and cloud-stacked sky, establishing a layered tonal architecture from foreground structures to distant terrain.
 - **Source:** https://www.artic.edu/artworks/120855 (Art Institute of Chicago object 120855; public display rendition: https://www.artic.edu/iiif/2/3cef4a13-1d42-fed5-ca50-fd1da6190593/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Edward Weston; known notice: © Center for Creative Photography, Arizona Board of Regents / ARS, New York; collection credit: Gift of Max McGraw. **Factor 1:** transformative teaching analyzes tonal mass, doorway, and sky. **Factor 2:** a creative photograph. **Factor 3:** complete-frame analysis is needed for the church-to-horizon proportion. **Factor 4:** the credited 843 × 668px source-linked web rendition does not replace an original or licensed reproduction.
+- **Rights / fair-use assessment:** Edward Weston; known notice: © Center for Creative Photography, Arizona Board of Regents / ARS, New York; collection credit: Gift of Max McGraw. **Factor 1:** transformative teaching analyzes the layered relation of ridge, shed, fence, and sky. **Factor 2:** a creative photograph. **Factor 3:** complete-frame analysis is needed for the foreground-to-mountain proportion. **Factor 4:** the credited 843 × 668px source-linked web rendition does not replace an original or licensed reproduction.
 - **File:** `raw/edward-weston/07-e-town-new-mexico.jpg` (843 × 668px)
 
 ### 08 — *Aspen Valley, New Mexico* (1937, printed 1953/54)
@@ -61,9 +61,9 @@ This working set contains twelve web-sized JPEG renditions retrieved directly fr
 - **File:** `raw/edward-weston/09-juniper-lake-tenaya.jpg` (843 × 1070px)
 
 ### 10 — *“Hot Coffee,” Mojave Desert* (1937, printed 1953/54)
-- **Why it matters:** A compact human pause is held against a broad desert field, where the small dark accents gain weight through the surrounding openness.
+- **Why it matters:** An oversized cup and saucer bearing the words “HOT COFFEE” interrupt a broad desert field, making a constructed foreground sign collide with distant terrain.
 - **Source:** https://www.artic.edu/artworks/120970 (Art Institute of Chicago object 120970; public display rendition: https://www.artic.edu/iiif/2/2c853c10-c0ed-320e-a45f-3de32ca7ef9b/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Edward Weston; known notice: © Center for Creative Photography, Arizona Board of Regents / ARS, New York; collection credit: Gift of Max McGraw. **Factor 1:** transformative scholarship studies scale and the small figure against open ground. **Factor 2:** a creative photograph. **Factor 3:** full-frame space is necessary to establish that imbalance. **Factor 4:** this credited 843 × 663px display copy is web-sized, source-linked, and not market-replacing.
+- **Rights / fair-use assessment:** Edward Weston; known notice: © Center for Creative Photography, Arizona Board of Regents / ARS, New York; collection credit: Gift of Max McGraw. **Factor 1:** transformative scholarship studies the cup's constructed scale against open ground. **Factor 2:** a creative photograph. **Factor 3:** full-frame space is necessary to establish that imbalance. **Factor 4:** this credited 843 × 663px display copy is web-sized, source-linked, and not market-replacing.
 - **File:** `raw/edward-weston/10-hot-coffee-mojave-desert.jpg` (843 × 663px)
 
 ### 11 — *Washbowl* (1925)
