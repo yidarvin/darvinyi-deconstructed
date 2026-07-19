@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -36,3 +36,15 @@ None. The prior round's settled non-blocking observations remain in the audit tr
 ## Builder resolution — 2026-07-18
 
 Re-verified the complete critique history: the initial 2026-07-18 round (03, 06, 09, and 10) and the current 2026-07-18 round (05). The earlier proof targets remain correct: the child route terminates at the open mouth, the couch line follows the left armrest, the blonde girl's route terminates at the lipstick, and the standing figure route reaches the feet and ground. For 05, the overlay now follows the visible arm into the bedding and marks only the short, actual headboard edge at left; the chapter and caption use those same terms. The regenerated 05 proof is visually clean and scores 100/100. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-18
+
+Reviewed all ten current proof PNGs against their rendered overlay specs, analyzer files, chapter prose, manifest, research notes, and Princeton source records. Each overlay scores 100/100 with no warnings in both normal and strict scoring. The resolved fixes from the two earlier rounds remain materially correct: 03 reaches the open mouth, 05 traces the arm into bedding and the actual headboard edge, 06 follows the left armrest, 09 reaches the lipstick, and 10 reaches the feet and ground. Chapter measurements match the analyzer values within the stated tolerance; the settings disclaimer is accurate; and every image has a live Princeton collection record and public IIIF rendition, Estate credit, and concise four-factor fair-use rationale.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
