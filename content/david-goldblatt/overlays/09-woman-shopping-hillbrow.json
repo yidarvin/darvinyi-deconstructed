@@ -3,7 +3,6 @@
   "image": "09-woman-shopping-hillbrow.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "PORTRAIT AXIS" },
     { "type": "horizon_line", "y": 0.667, "angle": 0.0, "label": "SHOULDER BAND" },
     { "type": "frame_in_frame", "x": 0.00, "y": 0.08, "w": 0.46, "h": 0.76, "label": "DARK SHOPFRONT" },
     { "type": "ellipse", "cx": 0.48, "cy": 0.41, "rx": 0.14, "ry": 0.17, "label": "FACE" }

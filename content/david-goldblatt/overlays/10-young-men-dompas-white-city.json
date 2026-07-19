@@ -4,8 +4,9 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.00, "y": 0.00, "w": 1.00, "h": 0.82, "label": "BRICK FIELD" },
-    { "type": "polyline", "points": [[0.18, 0.34], [0.34, 0.54], [0.48, 0.74]], "label": "LINKED ARMS" },
-    { "type": "ellipse", "cx": 0.47, "cy": 0.68, "rx": 0.10, "ry": 0.11, "label": "DOMPAS" }
+    { "type": "ellipse", "cx": 0.39, "cy": 0.30, "rx": 0.15, "ry": 0.15, "label": "OLDER FACE" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.39, "rx": 0.15, "ry": 0.15, "label": "YOUNGER FACE" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.83, "rx": 0.09, "ry": 0.08, "label": "DOMPAS" }
   ],
   "notes": "The two faces and the identity book make a descending chain of attention against the brick wall."
 }

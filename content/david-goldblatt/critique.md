@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -14,3 +14,16 @@ verdict: revise
 ### Advisory (non-blocking)
 
 - The deterministic scorer reports 100/100 for every current spec. Its result supports coordinate validity but does not resolve the semantic failures above; no other material overlay, source, provenance, numeric, or camera-settings issue was found in this round.
+
+## Builder resolution — 2026-07-19
+
+Re-verified critique history: **2026-07-19, round 1** (the complete history for this slug).
+
+1. Removed the unsupported `CHAIR DIAGONAL`; the waitress proof now limits its claim to the figure, lattice rail, and room structure (score 100).
+2. Replaced the false mid-wall line with a polyline that follows the visible high `WALL-CEILING BOUNDARY` (score 100).
+3. Removed the false `PAVEMENT BAND` and changed the watchman annotation from a claimed frame-symmetry axis to the visible figure spine and cane (score 94; the cane is visually verified despite the analyzer's non-blocking edge warning).
+4. Removed the shopping portrait's `symmetry_axis`; the face ellipse remains and the prose now describes the frame's asymmetry without contradiction (score 100).
+5. Moved the `DOMPAS` ellipse to the held identity book at lower right (score 97).
+6. Removed the unsupported `LINKED ARMS` route; separate face and document annotations now support the chapter's revised descending attention claim (score 97; the scorer's three-ellipse warning is non-blocking and all three bounds are visually verified).
+
+All affected proofs were re-analyzed, rendered, visually checked, and scored at or above 80. `scripts/check.sh` completed with `CHECK OK`; the mirrored chapter files are byte-identical.
