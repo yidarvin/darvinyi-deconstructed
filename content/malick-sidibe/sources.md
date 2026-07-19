@@ -1,7 +1,7 @@
 # Malick Sidibé — source notes
 
 This source pass establishes an eleven-photograph teaching set from the public,
-captioned display gallery [*Malick Sidibé, 1936–2016 – in pictures*](https://www.theguardian.com/artanddesign/gallery/2016/apr/16/malick-sidibe-1936-2016-in-pictures). It identifies each title and date and, for the selected works, credits “© Malick Sidibé, courtesy Galerie MAGNIN-A, Paris” (with two spelling variants of the gallery name in its captions). The selection is cross-checked against the [Fondation Cartier exhibition record](https://www.fondationcartier.com/programme/exposition/malick-sidibe-2), which identifies Sidibé’s Bamako youth, dance, party, and studio practice and credits *Nuit de Noël* to Sidibé/Galerie Magnin-A. The public [Smithsonian record for *Nuit de Noël*](https://www.si.edu/object/nuit-de-noel-happy-club%3Anmafa_2009-12-3) independently records the copyright as “(c) Malick Sidibe.”
+captioned display gallery [*Malick Sidibé, 1936–2016 – in pictures*](https://www.theguardian.com/artanddesign/gallery/2016/apr/16/malick-sidibe-1936-2016-in-pictures). It identifies each title and date. Ten selected plates display the credit “© Malick Sidibé Courtesy Galerie MAGNIN-A, Paris” (with two spelling variants of the gallery name); *Pique-nique à la Chaussée* instead displays “Photograph: Galerie Maginin-A, Paris,” recorded separately below. The selection is cross-checked against the [Fondation Cartier exhibition record](https://www.fondationcartier.com/programme/exposition/malick-sidibe-2), which identifies Sidibé’s Bamako youth, dance, party, and studio practice and credits *Nuit de Noël* to Sidibé/Galerie Magnin-A. The public [Smithsonian record for *Nuit de Noël*](https://www.si.edu/object/nuit-de-noel-happy-club%3Anmafa_2009-12-3) independently records the copyright as “(c) Malick Sidibe,” but it is not a per-image copyright statement for *Pique-nique à la Chaussée*.
 
 All eleven JPEGs were downloaded directly from the public Guardian display
 renditions without alteration and opened successfully. Their long edges run from
@@ -55,23 +55,23 @@ not an unsupported open-license claim.
 
 ### 07. *Les jeunes bergers peulhs* (1972)
 
-- **Why it matters:** The young sitters’ clothes and staggered heights organize a portrait group through alternating dark and light masses rather than a rigid row.
+- **Why it matters:** Three standing young men face forward in a studio arrangement, while the boombox held at the center interrupts the repeated verticals of hats, tunics, arms, and legs.
 - **Best source:** [Guardian public captioned display gallery](https://www.theguardian.com/artanddesign/gallery/2016/apr/16/malick-sidibe-1936-2016-in-pictures).
-- **Use basis — fair-use:** © Malick Sidibé; courtesy Galerie MAGNIN-A, Paris. This creative photograph is reproduced only as a 700 × 676px web copy for transformative criticism, scholarship, and composition teaching; the entire group is necessary to examine its staggered heights and tonal masses; the credited, linked display copy does not replace an original, collection record, or licensed reproduction.
+- **Use basis — fair-use:** © Malick Sidibé; courtesy Galerie MAGNIN-A, Paris. This creative photograph is reproduced only as a 700 × 676px web copy for transformative criticism, scholarship, and composition teaching; the complete three-figure and boombox arrangement is necessary to examine its frontal symmetry and central interruption; the credited, linked display copy does not replace an original, collection record, or licensed reproduction.
 - **File:** `raw/malick-sidibe/07-les-jeunes-bergers-peulhs.jpg` (700 × 676px)
 
 ### 08. *Yokoro* (1970)
 
-- **Why it matters:** A compressed social scene turns faces, hands, and patterned clothing into an all-over field whose focus shifts between local gestures.
+- **Why it matters:** Two costumed youths stand apart against a largely blank studio wall: one wears a swollen silhouette, while the other is painted and holds a staff. Their unequal bodies make the central gap and surrounding wall active parts of the arrangement.
 - **Best source:** [Guardian public captioned display gallery](https://www.theguardian.com/artanddesign/gallery/2016/apr/16/malick-sidibe-1936-2016-in-pictures).
-- **Use basis — fair-use:** © Malick Sidibé; courtesy Galerie MAGNIN-A, Paris. This creative photograph is reproduced only as a 700 × 703px web copy for transformative criticism, scholarship, and composition teaching; the complete dense field is needed to study its distributed attention; the credited, linked display copy is web-sized and does not replace the original or a licensed reproduction.
+- **Use basis — fair-use:** © Malick Sidibé; courtesy Galerie MAGNIN-A, Paris. This creative photograph is reproduced only as a 700 × 703px web copy for transformative criticism, scholarship, and composition teaching; the complete two-figure field is needed to study the contrast between the swollen costume, painted figure and staff, central gap, and blank wall; the credited, linked display copy is web-sized and does not replace the original or a licensed reproduction.
 - **File:** `raw/malick-sidibe/08-yokoro.jpg` (700 × 703px)
 
 ### 09. *Pique-nique à la Chaussée* (1972)
 
-- **Why it matters:** A picnic group is given a broad, relaxed stage, with repeated seated forms and open ground balancing social intimacy against spaciousness.
+- **Why it matters:** A human pyramid/action pose rises at center-left, watched by a clustered group on the left; the open ground at right makes the precarious stack read as an event rather than a general picnic scene.
 - **Best source:** [Guardian public captioned display gallery](https://www.theguardian.com/artanddesign/gallery/2016/apr/16/malick-sidibe-1936-2016-in-pictures).
-- **Use basis — fair-use:** © Malick Sidibé; courtesy Galerie MAGNIN-A, Paris. This creative photograph is reproduced only as a 700 × 707px web copy for transformative criticism, scholarship, and composition teaching; the whole group-to-ground relation is necessary to analyze its balance; the credited, linked display copy does not substitute for a print, collection record, or licensed reproduction.
+- **Use basis — fair-use:** The Guardian caption for this plate displays “Photograph: Galerie Maginin-A, Paris”; it does not display an individual copyright statement. The page titles the work *Pique-nique à la Chaussée* (1972) within its Malick Sidibé gallery, but this source note does not treat that title or gallery context as a per-image copyright notice. This creative photograph is reproduced only as a 700 × 707px web copy for transformative criticism, scholarship, and composition teaching; the complete human pyramid, watching group, and open ground are necessary to analyze the action pose and its spatial staging; the linked display copy does not substitute for a print, collection record, or licensed reproduction.
 - **File:** `raw/malick-sidibe/09-pique-nique-a-la-chaussee.jpg` (700 × 707px)
 
 ### 10. *Dansez le Twist* (1965)

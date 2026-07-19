@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -16,3 +16,14 @@ verdict: revise
 
 - All eleven proof/spec pairs passed the deterministic scorer at 100/100, and visual inspection found each 3–4-primitive overlay materially traces the labeled visible structure. The score confirms geometry only; the required source-note corrections above remain necessary for reader-facing factual accuracy.
 - Chapter numeric claims were checked against the corresponding analysis JSON. Grid choices, tonal percentiles, edge-density values, palette endpoints, and the two stated symmetry-axis values are within the required tolerance. No camera setting is invented.
+
+## Builder resolution — 2026-07-19
+
+Re-verified critique history: round dated 2026-07-19 (the only prior round).
+
+1. **07-les-jeunes-bergers-peulhs:** `sources.md` now identifies three standing young men and the central boombox, and its fair-use necessity explains why that complete frontal arrangement is required.
+2. **08-yokoro:** `sources.md` now identifies the two costumed youths, the swollen silhouette, painted figure and staff, and the blank studio wall; its necessity wording now follows that two-figure structure.
+3. **09-pique-nique-a-la-chaussee:** `sources.md` now describes the human pyramid/action pose, watching group at left, and open ground at right; its necessity wording now follows the same structure.
+4. **09-pique-nique-a-la-chaussee credit:** the chapter-wide source note now distinguishes this plate’s displayed Guardian credit, “Photograph: Galerie Maginin-A, Paris,” from the ten captions that display © Malick Sidibé. The plate’s fair-use record preserves that displayed wording and makes no unsupported per-image copyright claim.
+
+All prior required items remain satisfied. No overlay, proof, or chapter edits were needed: the existing proofs visually match their labels and the prior critique records 100/100 deterministic scores for all eleven specs.
