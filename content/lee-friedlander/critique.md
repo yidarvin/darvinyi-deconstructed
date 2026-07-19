@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -69,3 +69,28 @@ Re-verified every required fix in the full critique history: the first 2026-07-1
 1. **03-new-york-city-1964:** removed the two full-width false line claims. The replacement retains the sleeping-figure frame and traces only the measured, visibly continuous reflected-building band from `(0.33452, 0.39789)` to `(0.83155, 0.33451)`; the broad blank field is intentionally unannotated. The paired chapter copies now make the same limited claim. The regenerated proof was visually checked and scores 100/100.
 
 Re-verified every required fix from the complete critique history: the first 2026-07-18 round (Mount Rushmore's ellipse still encloses the raised left tourist camera; New York 1974's anchor still identifies billboard lettering rather than the statue); the second round (New York 1963's car is a subject anchor rather than a false vanishing point; Colorado's Kennedy portrait is the left-window ellipse while the right-door notice is separately labeled); and this third round (the New York 1964 overlay has no false full-width roofline or window-seam claim). The four earlier corrected proofs were visually rechecked; their current non-strict scores are 100/100, 88/100, 100/100, and 88/100 respectively. The rendered chapter copies remain byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **01-new-york-city-1963-a — false `door rail` leading line.** The line from `(0.00, 0.76)` to `(0.99, 0.94)` bridges distinct, interrupted lower-door rails through the man's body and the threshold; it does not trace one visible rail across the frame. Remove it or replace it with a contour that follows a single real rail. The strict scorer independently gives this line a 12-point unsupported-edge deduction.
+2. **02-new-york-city-1963-b — nonexistent `fence opening`.** The `frame_in_frame` at `x=0.34, y=0.24, w=0.36, h=0.45` encloses the sign/car region, but uninterrupted chain-link mesh crosses it; there is no opening or internal frame. Remove or recast the primitive, and revise the chapter's claims of a “small inner frame” and “narrow opening” accordingly.
+3. **03-new-york-city-1964 — sleeping-figure frame does not trace the inset.** Its top is at `y=0.55`, roughly 0.05 normalized frame height above the visible inset's top (about `y=0.60`), across blank field. Move the top edge down and reduce the height so the frame bounds the photographic inset.
+4. **04-new-york-city-1966 — two false claims.** The `camera shadow` anchor at `(0.632, 0.439)` falls on the bright street-side sign/traffic area beyond the woman's shoulder, not on the photographer's dark silhouette on her coat. Also, the `street recession` line from `(0.61, 0.55)` to `(0.99, 0.37)` floats across vehicles and pavement rather than a real receding edge (strict scorer: 12-point unsupported-edge deduction). Move or relabel the anchor and remove or redraw the line on a visible structural edge.
+5. **06-madison-wisconsin — portrait overlays misstate their features.** The `framed portrait` bracket begins at `y=0.38`, well below the actual outer frame top (about `y=0.31`), while the `portrait oval` ellipse is visibly left and low of the oval it names (approximately `.04` normalized in each direction). Refit both primitives to the actual outer frame and inner oval; the chapter explicitly relies on this distinction.
+6. **07-route-9w-new-york — mirror frame cuts through the mirror.** The `rear-view mirror` box ends at `x=0.23`, through the reflected face/camera, although the mirror's right boundary is near `x=0.33`. Extend it to the true boundary or rename it to the smaller region actually marked.
+7. **08-colorado — false left boundary for `window reflection`.** The `frame_in_frame` begins at `x=0.11`, where the proof has no window edge; the continuous left pane begins at the image edge and ends near `x=0.58`. Refit it to the pane (approximately `x=0.00, w=0.58`) or use a primitive whose claim matches the intended region.
+8. **10-mount-rushmore-south-dakota — window-panel frames cross mullions.** The `left window panel` box (`x=0.02–0.25`) crosses a mullion around `x=0.15`; the `center window panel` box (`x=0.51–0.74`) likewise starts and ends across multiple pane/mullion regions. Refit each to a single actual pane or relabel them as broader reflected zones.
+9. **12-new-york-city-1974 — two false full-width advertising lines.** The `billboard band` at `y=0.42` and `advertising band` at `y=0.73` do not trace continuous edges across the frame. Remove them or replace them with only local, visible contours. Strict score is 76 because each line receives a 12-point unsupported-edge deduction (the non-strict 88 score treats these as warnings).
+10. **Record/technique statement is false by omission.** `research.md` and the chapter's process-and-settings section say the supplied records do not establish a per-frame printing process. All twelve cited Art Institute records actually identify the collection object as a gelatin silver print (the Madison record: gelatin silver print on paper). Revise this to retain the documented print-medium fact while continuing to decline unsupported camera, exposure, negative, and darkroom claims.
+
+### Advisory (non-blocking)
+
+- **12-new-york-city-1974:** The `fence enclosure` `frame_in_frame` reads as an approximate crop rather than a bounded internal fence frame. A local fence contour or tighter structural annotation would teach the feature more clearly, but it still identifies the relevant fenced zone and does not independently block approval.
+
+### Audit notes
+
+- All twelve current proofs were visually checked against their current overlay specs and analysis data. The four previously resolved rounds remain resolved: the Mount Rushmore camera ellipse and New York 1974 lettering anchor are still correctly labeled; New York 1963's screened car remains an anchor rather than a vanishing point; Colorado still distinguishes the Kennedy portrait from the right-door notice; and New York 1964 retains only the true reflected-building band.
+- Current non-strict overlay scores are at least 80, but the listed requirements are visual/semantic errors. Strict scoring corroborates the unsupported-line findings for 01, 04, and 12.
+- The source audit confirmed all twelve Art Institute object IDs, titles, dates/print dates, artist, collection credits, non-public-domain status, IIIF image IDs, and individual fair-use rationales. The record-medium correction above is the only source/prose discrepancy found; no invented camera settings were found.
