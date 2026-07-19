@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-water-towers-international.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.01, "y": 0.04, "w": 0.98, "h": 0.91, "label": "thirty-print field" },
+    { "type": "polyline", "points": [[0.5, 0.05], [0.5, 0.94]], "label": "central column gutter" },
+    { "type": "polyline", "points": [[0.01, 0.34], [0.99, 0.34]], "label": "print-row gutter" }
+  ],
+  "notes": "A broad typology compares water-tower contours rather than sites."
+}

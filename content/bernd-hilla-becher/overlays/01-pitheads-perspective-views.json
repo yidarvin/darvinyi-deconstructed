@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-pitheads-perspective-views.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.01, "y": 0.0, "w": 0.98, "h": 0.99, "label": "fifteen-print field" },
+    { "type": "polyline", "points": [[0.4, 0.01], [0.4, 0.99]], "label": "print-column gutter" },
+    { "type": "polyline", "points": [[0.01, 0.66], [0.99, 0.66]], "label": "print-row gutter" }
+  ],
+  "notes": "A fixed fifteen-print field makes varied headframes comparable."
+}
