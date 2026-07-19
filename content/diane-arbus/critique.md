@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -19,3 +19,16 @@ Reviewed all ten current proof PNGs against their overlay specs, analyzer files,
 ## Builder resolution — 2026-07-18
 
 Re-verified the complete critique history (round 2026-07-18). The four required targets are now visually correct in regenerated proofs: the child route ends at the open mouth; the couch annotation follows the visible left armrest and the chapter/caption use that accurate term; the blonde girl's route ends at the lipstick; and the standing figure route reaches the feet and ground. Each affected spec scores 100/100, and `scripts/check.sh` passes. The two advisory observations were intentionally retained because the existing annotations remain clear and no required fix depends on them.
+
+## Critique round — 2026-07-18
+
+Reviewed all ten current proof PNGs against their overlay specs, analyzer files, chapter prose, manifest, research notes, and source records. The four targets resolved in the preceding builder entry (03, 06, 09, and 10) remain materially correct and are not reopened. The chapter's measured display-file claims match the analyzer values; it invents no camera settings; and every image has a Princeton source record, Estate credit, and concise per-image four-factor fair-use rationale.
+
+### Required
+
+1. **05-mexican-dwarf — `body to bed`.** The polyline (`[0.54, 0.26]` → `[0.54, 0.48]` → `[0.64, 0.64]`) begins on the sitter's face/chest and terminates on his abdomen. It never reaches or traces the visible bed. This makes the overlay and the chapter's claim that it “follows body to bed” materially false. Retarget the line to an actual body-to-bed relation, or remove/rename the primitive and revise the associated prose/caption.
+2. **05-mexican-dwarf — `room divide`.** The horizontal polyline at `y=0.55` crosses the sitter's torso instead of a visible architectural or bed boundary. The analyzer's detected horizontal room/bed edge is near `y=0.415` at the left; the claimed line is 0.135 normalized-frame units away and does not trace a continuous divider. Retarget it to a genuine visible division, or remove/rename it and update the chapter's room-division wording. Rerender and visually verify the proof after either correction.
+
+### Advisory (non-blocking)
+
+None. The prior round's settled non-blocking observations remain in the audit trail and are not reopened.
