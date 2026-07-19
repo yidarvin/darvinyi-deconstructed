@@ -1,7 +1,14 @@
 {
-  "score": 100,
+  "score": 97,
   "deductions": [],
-  "warnings": [],
+  "warnings": [
+    {
+      "primitive": "spec",
+      "points": 3,
+      "reason": "3x 'ellipse' primitives",
+      "fix": "one is usually enough"
+    }
+  ],
   "threshold": 80.0,
   "pass": true
 }

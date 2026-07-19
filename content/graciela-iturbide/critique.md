@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -41,3 +41,20 @@ overlay, proof, or chapter change was required for this prose-only correction.
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-19
+
+Resolved required items 1–5. The `SHOULDER BREAK` line on 01 was removed and
+the chapter now names the frontal face beneath the iguana crown. On 08, the
+internal frame now tightly encloses the upper-right devotional portrait, with
+matching prose. On 09, an ellipse encloses the child's visible face. On 11,
+ellipses trace the central carved lizard and the right woman rather than the
+detector's unrelated edge features. On 12, individual ellipses identify the
+three upper wall openings and a polyline follows the visible curved transition
+between light wall and shadow; the chapter was revised to make only those claims.
+
+Re-verified prior required rounds: the initial 2026-07-19 source-note round,
+whose 02 and 04–12 `Why it matters` entries remain bound to the current proofs;
+and the current 2026-07-19 five-overlay round. All affected proofs were rendered
+and visually checked after the edits. Scores: 01 100, 08 89, 09 100, 11 100,
+12 97 (all meet the >=80 threshold). `scripts/check.sh` passes.
