@@ -1,4 +1,16 @@
-verdict: revise
+verdict: resolved
+
+## Resolution — 2026-07-19
+
+Resolved every required item from the 2026-07-19 critique round (the complete critique history):
+
+1. Removed `06-her-study`'s false vanishing point and rewrote the chapter claim to describe only the two visible crossing architectural edges.
+2. Re-traced `08-afternoon-chat` as the visible bright platform edge and corrected the chapter language.
+3. Re-labeled `09-arrow`'s actual pavement seam, retained the real shadow edge, and removed the unsupported painted-sign claim from chapter and source notes.
+4. Reduced `10-childhood` to its visible fruit-stall anchor; removed unsupported recession and arm-line claims, and corrected its source description to a close fruit-seller portrait.
+5. Added image-specific four-factor fair-use rationales for all twelve entries, preserving every public link, credit, and rights notice.
+
+Re-verified: critique round 2026-07-19 (the only prior round). The four affected overlays were freshly analyzed, rendered, visually checked, and each scores 100/100.
 
 ## Critique round — 2026-07-19
 

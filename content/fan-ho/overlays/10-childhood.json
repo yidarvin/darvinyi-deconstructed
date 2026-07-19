@@ -3,10 +3,7 @@
   "image": "10-childhood.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.529, "y": 0.597, "label": "street recession" },
-    { "type": "horizon_line", "y": 0.513, "angle": 0.0, "label": "crowd band" },
-    { "type": "subject_anchor", "x": 0.663, "y": 0.818, "r": 0.035, "label": "fruit stall" },
-    { "type": "leading_line", "points": [[0.398, 0.783], [0.616, 0.489]], "arrow": true, "label": "arm-to-street diagonal" }
+    { "type": "subject_anchor", "x": 0.663, "y": 0.818, "r": 0.035, "label": "fruit stall" }
   ],
-  "notes": "The young seller holds the near field while the crowd recedes behind her."
+  "notes": "The young seller and fruit stall hold the foreground against a blurred market background."
 }
