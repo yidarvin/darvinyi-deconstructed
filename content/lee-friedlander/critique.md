@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -23,3 +23,20 @@ verdict: resolved
 2. **12-new-york-city-1974:** retained the measured anchor position but relabeled it `billboard lettering`; revised the corresponding chapter sentence so it no longer claims the statue is anchored. The regenerated proof was visually checked and scores 88/100.
 
 Re-verified required fixes from the full critique history: 2026-07-18 round (the only prior round). `scripts/check.sh` passed after the corrections, and the rendered chapter copies remain byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **02-new-york-city-1963-b — false vanishing-point claim.** The overlay uses a `vanishing_point` primitive at `(0.546, 0.516)` but labels that point `screened car`. The two marked `mesh diagonal` lines are effectively parallel (their endpoint slopes are both about `-0.485`) and do not converge at the car. This falsely teaches convergence where the image instead presents an all-over screen. Replace the primitive with a `subject_anchor` for the car, or redraw only genuinely convergent lines and label their actual vanishing point; make the chapter's “toward the measured center” wording agree with the corrected overlay.
+2. **08-colorado — Kennedy anchor is on the wrong feature.** The `Kennedy portrait` anchor at `(0.731, 0.166)` lands on the white notice/reflection in the right-hand door. The Kennedy portrait is in the left-hand window near `(0.28, 0.11)`. Move the anchor to the portrait or relabel it to the feature actually marked, and keep the chapter sentence consistent. This is materially misleading because the chapter explicitly says the anchor stays on the Kennedy portrait.
+
+### Advisory (non-blocking)
+
+- The registry's broad provenance label says `Artist / Fraenkel Gallery`, while the chapter's actual per-image sources are Art Institute of Chicago records and IIIF renditions. The chapter itself is traceable and accurate; this is a non-blocking future-audit clarity issue.
+
+### Audit notes
+
+- All twelve current proofs were visually reviewed against their overlay specs and analysis. The two requirements above are semantic/structural defects that the geometric score does not catch; all twelve specs currently meet the 80-point score threshold.
+- The two requirements resolved in the preceding round remain resolved: the Mount Rushmore ellipse marks the left tourist's camera, and the New York 1974 anchor marks billboard lettering rather than the statue.
+- Source review confirmed each Art Institute record, title/date/print-date where stated, credit, non-public-domain status, IIIF identifier, local dimension/hash, and individual four-factor fair-use rationale. No camera-setting or unsupported historical claims were found; chapter numeric claims are within the stated analysis tolerances.
