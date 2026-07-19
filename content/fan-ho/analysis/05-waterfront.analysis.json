@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "image": "05-waterfront.jpg",
+  "width": 1600,
+  "height": 501,
+  "aspect": 3.1936,
+  "tonal": {
+    "mean": 0.9114327225030637,
+    "std": 0.15229929910899095,
+    "p05": 0.6352941176470588,
+    "p95": 1.0,
+    "edge_density": 0.0131866455078125
+  },
+  "palette": [
+    "#fefefe",
+    "#bbbbbb",
+    "#e5e5e5",
+    "#838383",
+    "#3b3b3b"
+  ],
+  "lines": [
+    {
+      "x1": 0.4462890625,
+      "y1": 0.46875,
+      "x2": 0.44921875,
+      "y2": 0.796875,
+      "angle_deg": 88.36342295838328,
+      "length": 0.09791142151722204,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.6083984375,
+      "y1": 0.509375,
+      "x2": 0.611328125,
+      "y2": 0.81875,
+      "angle_deg": 88.26429541107161,
+      "length": 0.09232118488638251,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.8056640625,
+      "y1": 0.765625,
+      "x2": 0.8056640625,
+      "y2": 0.55,
+      "angle_deg": -90.0,
+      "length": 0.06431554539493853,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.27734375,
+      "y1": 0.83125,
+      "x2": 0.322265625,
+      "y2": 0.83125,
+      "angle_deg": 0.0,
+      "length": 0.04287703026329235,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.486328125,
+      "y1": 0.834375,
+      "x2": 0.529296875,
+      "y2": 0.834375,
+      "angle_deg": 0.0,
+      "length": 0.041012811556192685,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.4833984375,
+      "y1": 0.721875,
+      "x2": 0.5234375,
+      "y2": 0.725,
+      "angle_deg": 1.3971810272963765,
+      "length": 0.0382278489927448,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.728515625,
+      "y1": 0.675,
+      "x2": 0.734375,
+      "y2": 0.8,
+      "angle_deg": 81.46923439005187,
+      "length": 0.037701490125076564,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.87890625,
+      "y1": 0.8,
+      "x2": 0.91796875,
+      "y2": 0.8,
+      "angle_deg": 0.0,
+      "length": 0.03728437414199335,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.7890625,
+      "y1": 0.709375,
+      "x2": 0.7900390625,
+      "y2": 0.83125,
+      "angle_deg": 88.53119928561418,
+      "length": 0.036364212944818224,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.162109375,
+      "y1": 0.83125,
+      "x2": 0.197265625,
+      "y2": 0.83125,
+      "angle_deg": 0.0,
+      "length": 0.033555936727794014,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.83125,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.1640625,
+      0.771875
+    ],
+    "regions": [
+      {
+        "cx": 0.16899759478013715,
+        "cy": 0.7723539761790182,
+        "x": 0.12109375,
+        "y": 0.60625,
+        "w": 0.095703125,
+        "h": 0.36875,
+        "area_frac": 0.0253662109375
+      },
+      {
+        "cx": 0.7769529635179826,
+        "cy": 0.47507234394377845,
+        "x": 0.755859375,
+        "y": 0.36875,
+        "w": 0.0439453125,
+        "h": 0.21875,
+        "area_frac": 0.0073822021484375
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8380603981034322,
+    "vertical_axis_x": 0.4625,
+    "horizontal": 0.6367525645036198,
+    "horizontal_axis_y": 0.4625
+  },
+  "subject_anchor": {
+    "x": 0.1640625,
+    "y": 0.771875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.831,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.463,
+      "confidence": 0.84,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.164,
+      "y": 0.772,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

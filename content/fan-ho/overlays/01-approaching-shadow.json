@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-approaching-shadow.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.165, "y": 0.804, "r": 0.035, "label": "pedestrian" },
+    { "type": "leading_line", "points": [[0.169, 0.951], [0.633, 0.419]], "arrow": true, "label": "shadow edge" },
+    { "type": "leading_line", "points": [[0.533, 0.531], [0.995, 0.002]], "arrow": true, "label": "shadow apex" }
+  ],
+  "notes": "A small pedestrian gives the immense diagonal shadow its human scale."
+}

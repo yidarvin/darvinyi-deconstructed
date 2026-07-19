@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-afternoon-chat.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625 },
+    { "type": "subject_anchor", "x": 0.492, "y": 0.302, "r": 0.035, "label": "central figure" },
+    { "type": "polyline", "points": [[0.022, 0.768], [0.198, 0.710], [0.394, 0.649], [0.594, 0.615], [0.804, 0.594]], "label": "window-sill band" }
+  ],
+  "notes": "Figures in a bright opening answer the low architectural band beneath them."
+}

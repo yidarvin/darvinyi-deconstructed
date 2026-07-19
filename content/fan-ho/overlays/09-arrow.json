@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-arrow.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.000, "y": 0.583, "label": "off-frame pull" },
+    { "type": "leading_line", "points": [[0.002, 0.792], [0.544, 0.653]], "arrow": true, "label": "painted arrow" },
+    { "type": "leading_line", "points": [[0.417, 0.561], [0.772, 0.858]], "arrow": true, "label": "shadow edge" }
+  ],
+  "notes": "The sign and its hard shadow make competing vectors point beyond the frame."
+}

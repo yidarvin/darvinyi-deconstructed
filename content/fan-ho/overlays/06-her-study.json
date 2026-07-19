@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-her-study.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.192, "y": 0.555, "label": "alley recession" },
+    { "type": "leading_line", "points": [[0.349, 0.115], [0.862, 0.657]], "arrow": true, "label": "upper wall edge" },
+    { "type": "leading_line", "points": [[0.166, 0.766], [0.628, 0.295]], "arrow": true, "label": "lit doorway edge" }
+  ],
+  "notes": "Dark enclosing walls and lit diagonal edges turn the interior into a narrow, receding stage."
+}

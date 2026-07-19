@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-a-day-is-done.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.747, "angle": 0.0, "label": "street-light threshold" },
+    { "type": "subject_anchor", "x": 0.801, "y": 0.820, "r": 0.035, "label": "bicycle" },
+    { "type": "polyline", "points": [[0.141, 0.980], [0.240, 0.838], [0.359, 0.718], [0.465, 0.598]], "label": "sunlit street edge" }
+  ],
+  "notes": "A bicycle and the rising edge of light lead outward through the constricted street."
+}

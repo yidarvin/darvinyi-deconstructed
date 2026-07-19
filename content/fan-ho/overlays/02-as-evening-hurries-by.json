@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-as-evening-hurries-by.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.701, "y": 0.423, "label": "street recession" },
+    { "type": "leading_line", "points": [[0.291, 0.232], [0.995, 0.802]], "arrow": true, "label": "curb line" },
+    { "type": "leading_line", "points": [[0.306, 0.054], [0.999, 0.614]], "arrow": true, "label": "facade edge" }
+  ],
+  "notes": "Parallel curb and facade edges send the cart into a sharply divided evening street."
+}

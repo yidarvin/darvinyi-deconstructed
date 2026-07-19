@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "11-sun-rays.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.063, "y": 0.509, "label": "rays converge off left" },
+    { "type": "leading_line", "points": [[0.135, 0.516], [0.838, 0.052]], "arrow": true, "label": "upper light wedge" },
+    { "type": "leading_line", "points": [[0.348, 0.638], [0.999, 0.282]], "arrow": true, "label": "lower light wedge" },
+    { "type": "horizon_line", "y": 0.692, "angle": 0.0, "label": "platform edge" },
+    { "type": "subject_anchor", "x": 0.647, "y": 0.648, "r": 0.035, "label": "waiting group" }
+  ],
+  "notes": "Raking light wedges direct attention to a small waiting group on the platform."
+}

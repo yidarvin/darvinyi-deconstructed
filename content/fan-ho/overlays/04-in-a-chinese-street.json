@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-in-a-chinese-street.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.319, "y": 0.261, "label": "covered-street recession" },
+    { "type": "horizon_line", "y": 0.614, "angle": -7.0, "label": "market-light threshold" },
+    { "type": "subject_anchor", "x": 0.352, "y": 0.990, "r": 0.035, "label": "foreground vendor" },
+    { "type": "frame_in_frame", "x": 0.049, "y": 0.058, "w": 0.899, "h": 0.884, "label": "covered street" }
+  ],
+  "notes": "A dark canopy frames the market while receding signs and light pull the eye inward."
+}
