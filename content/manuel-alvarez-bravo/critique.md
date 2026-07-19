@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -27,3 +27,24 @@ Re-verified critique history: the 2026-07-18 critique round above (the only prio
 4. Removed the false `MAT CONVERGENCE` marker from *La buena fama durmiendo*.
 
 The four affected images were freshly analyzed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passed, including chapter byte-identity and production build checks.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **03-optical-parable** — `SIGN EDGE` at `y=0.182` traces the horizontal top boundary of the mounted print/picture field, not a sign edge; the reflected shop sign is diagonal. Remove or accurately relabel/recast this primitive, and remove the chapter's corresponding general claim that this plate supplies a “sign edge.”
+2. **06-striking-worker-murdered** — The `HEAD` anchor at `(0.632, 0.289)` lands on the worker’s upper torso/collar, not his head, and the adjacent `ARM TO BODY` segment starts at that same non-arm point. Reposition both claims onto the named visible anatomy or remove them, then align the chapter prose with the retained overlay.
+3. **07-the-crouched-ones** — `SHOPFRONT AXIS` is encoded as a `symmetry_axis`, whose schema claim is mirrored structure. The seated figures, stools, and spacing are not symmetric, and the chapter explicitly denies bilateral symmetry. Remove or recast the primitive and revise the related “axis” prose as necessary.
+4. **08-portrait-of-the-eternal** — `LIT FACE` at `(0.284, 0.258)` circles the raised hand, not the face. `LIT FIGURE` likewise begins at the hand while the chapter says it runs from the face through the dress. Move both to the visible face/figure contour or relabel and revise the prose honestly.
+5. **09-good-reputation-sleeping** — `WALL EDGE` from `(0.333, 0.553)` to `(0.588, 0.248)` crosses the knee/body and blank wall instead of tracing a visible wall boundary. Remove it or place a line on a real named edge, and remove or correct the chapter’s claim about a strong diagonal wall edge.
+6. **11-xray-window** — The axis-aligned `TILTED DISPLAY` frame does not trace the tilted left display: its right bracket sits inside the image while the actual display edge slopes substantially leftward toward the bottom. Replace it with primitives that follow the visible frame or use an accurately scoped claim.
+7. **12-cemetery-visitation** — `WALL BALANCE` is encoded as a `symmetry_axis`, which falsely asserts mirror symmetry in an asymmetric scene of visitor, candles, and grave mounds. Remove or recast the primitive and revise the related “axis” prose as necessary.
+8. **Source integrity** — `sources.md` abbreviates eight AIC credit lines to “credit: AIC,” rather than preserving the published credit lines. Record the official lines for objects 48888 (Purchased with funds provided by Exchange National Bank), 48891 (Purchased with funds provided by Exchange National Bank), 48876 (Purchased with funds provided by Helen Harvey Mills), 48883 (Purchased with funds provided by Reva and David Logan), 48880 (Purchased with funds provided by Helen Harvey Mills), 126417 (Gift of D. Richard Ryan Jr.), 63535 (Special Photography Acquisition Fund), and 48900 (Purchased with funds provided by Exchange National Bank). Also state the actual derivative change for the CC BY-SA *La buena fama durmiendo* rendition: it was resized/normalized from the Commons source to the committed 1,599 px-long-edge JPEG.
+
+### Advisory (non-blocking)
+
+- **02-laughing-mannequins** — `WINDOW RAIL` and `CANOPY EDGE` labels overlap at the upper left. The traces remain legible.
+
+### Evidence checked
+
+All twelve current proofs were visually reviewed against their source images, overlay specs, analyzer outputs, and chapter prose. The findings above are semantic visual-pass and schema-meaning errors, not coordinate-tolerance or cosmetic issues. All twelve listed source pages returned HTTP 200 during this review. The chapter correctly avoids invented camera settings; the fair-use routes include per-image four-factor rationale, and limited mode is not applicable.
