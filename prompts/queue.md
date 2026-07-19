@@ -104,7 +104,7 @@ real queue and state live in data/registry.json.
 | 93  | seydou-keita              | Seydou Keïta              | DONE    |
 | 94  | malick-sidibe             | Malick Sidibé             | DONE    |
 | 95  | daido-moriyama            | Daido Moriyama            | DONE    |
-| 96  | shomei-tomatsu            | Shomei Tomatsu            | PENDING |
+| 96  | shomei-tomatsu            | Shomei Tomatsu            | DONE    |
 | 97  | fan-ho                    | Fan Ho                    | PENDING |
 | 98  | raghu-rai                 | Raghu Rai                 | PENDING |
 | 99  | david-goldblatt           | David Goldblatt           | PENDING |
