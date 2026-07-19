@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-chicago-march-1966.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.213, 0.019], [0.725, 0.777]], "arrow": true, "label": "awning-to-street diagonal" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 0.35, "h": 1.0, "label": "dark wall" },
+    { "type": "polyline", "points": [[0.56, 0.1], [0.7, 0.44], [0.89, 0.76]], "label": "street corridor" }
+  ],
+  "notes": "A man emerges from a heavy wall into a narrow corridor of signs, awnings, and bodies."
+}

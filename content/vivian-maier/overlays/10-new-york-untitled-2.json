@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-new-york-untitled-2.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.555, "y": 0.507, "r": 0.035, "label": "foreground pigeons" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.55, "rx": 0.27, "ry": 0.23, "label": "winged foreground" },
+    { "type": "leading_line", "points": [[0.311, 0.515], [0.704, 0.674]], "arrow": true, "label": "wing sweep" }
+  ],
+  "notes": "Pigeons make a volatile foreground around a young man's lowered concentration."
+}

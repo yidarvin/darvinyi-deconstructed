@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-new-york-fall-1953.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.32, "y": 0.507, "r": 0.035, "label": "woman in steam" },
+    { "type": "leading_line", "points": [[0.229, 0.573], [0.693, 0.413]], "arrow": true, "label": "facade recession" },
+    { "type": "frame_in_frame", "x": 0.73, "y": 0.08, "w": 0.27, "h": 0.74, "label": "dark doorway" }
+  ],
+  "notes": "Steam opens a pale field while a walker and a dense doorway hold opposite sides of the street."
+}

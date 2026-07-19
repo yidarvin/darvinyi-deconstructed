@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-milwaukee-untitled.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.57, "y": 0.367, "r": 0.035, "label": "smoking man" },
+    { "type": "frame_in_frame", "x": 0.7, "y": 0.1, "w": 0.29, "h": 0.74, "label": "painted door" },
+    { "type": "horizon_line", "y": 0.844, "angle": 0, "label": "pavement edge" }
+  ],
+  "notes": "A hard storefront division pins two smokers into a casual but tightly ordered tableau."
+}

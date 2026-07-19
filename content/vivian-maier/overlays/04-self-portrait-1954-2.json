@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-self-portrait-1954-2.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "mirror's centered enclosure" },
+    { "type": "frame_in_frame", "x": 0.25, "y": 0.35, "w": 0.5, "h": 0.45, "label": "tabletop mirror" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.57, "rx": 0.24, "ry": 0.22, "label": "face behind mesh" }
+  ],
+  "notes": "A small mirror and an intervening wire screen make enclosure, rather than revelation, the subject."
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-self-portrait-1954.jpg",
+    "width": 1050,
+    "height": 1050,
+    "sha1": "2a11334e",
+    "source": "01-self-portrait-1954.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-self-portrait-1971.jpg",
+    "width": 1050,
+    "height": 1050,
+    "sha1": "4f4aa1b0",
+    "source": "02-self-portrait-1971.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-self-portrait-1961.jpg",
+    "width": 1050,
+    "height": 1050,
+    "sha1": "6642049f",
+    "source": "03-self-portrait-1961.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-self-portrait-1954-2.jpg",
+    "width": 1050,
+    "height": 1050,
+    "sha1": "ad195712",
+    "source": "04-self-portrait-1954-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-self-portrait-1955.jpg",
+    "width": 1050,
+    "height": 1050,
+    "sha1": "d6322058",
+    "source": "05-self-portrait-1955.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-new-york-untitled.jpg",
+    "width": 1100,
+    "height": 1100,
+    "sha1": "235b4cb4",
+    "source": "06-new-york-untitled.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-new-york-fall-1953.jpg",
+    "width": 1100,
+    "height": 1100,
+    "sha1": "0d32101b",
+    "source": "07-new-york-fall-1953.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-milwaukee-untitled.jpg",
+    "width": 1100,
+    "height": 1100,
+    "sha1": "b1d51d92",
+    "source": "08-milwaukee-untitled.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-chicago-march-1966.jpg",
+    "width": 1100,
+    "height": 1100,
+    "sha1": "c7854bfb",
+    "source": "09-chicago-march-1966.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-new-york-untitled-2.jpg",
+    "width": 1100,
+    "height": 1100,
+    "sha1": "553d1def",
+    "source": "10-new-york-untitled-2.jpg",
+    "exif": {}
+  }
+]

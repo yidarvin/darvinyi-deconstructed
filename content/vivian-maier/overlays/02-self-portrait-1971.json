@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-self-portrait-1971.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.245, "angle": 0, "label": "window transom" },
+    { "type": "polyline", "points": [[0.27, 0.29], [0.17, 0.82]], "label": "ladder leg" },
+    { "type": "frame_in_frame", "x": 0.58, "y": 0.34, "w": 0.26, "h": 0.48, "label": "reflected self-portrait" }
+  ],
+  "notes": "Lettering, dots, and panes organize a small reflected figure without isolating it."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-self-portrait-1955.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.29, "y": 0.15, "w": 0.63, "h": 0.65, "label": "mirror enclosure" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.48, "rx": 0.25, "ry": 0.25, "label": "round mirror" },
+    { "type": "subject_anchor", "x": 0.632, "y": 0.07, "r": 0.035, "label": "hand at frame edge" }
+  ],
+  "notes": "The circular mirror pulls a profile inward while hand and camera press against the frame."
+}

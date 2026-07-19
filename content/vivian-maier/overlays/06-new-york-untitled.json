@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-new-york-untitled.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.338, 0.105], [0.871, 0.002]], "arrow": true, "label": "library cornice" },
+    { "type": "frame_in_frame", "x": 0.31, "y": 0.08, "w": 0.62, "h": 0.52, "label": "arched facade" },
+    { "type": "polyline", "points": [[0.0, 0.7], [0.46, 0.69], [1.0, 0.68]], "label": "stair rhythm" }
+  ],
+  "notes": "A passerby is made to compete with the library's monumental repetitions and stair bands."
+}
