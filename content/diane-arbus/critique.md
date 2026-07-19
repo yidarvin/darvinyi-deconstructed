@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -32,3 +32,7 @@ Reviewed all ten current proof PNGs against their overlay specs, analyzer files,
 ### Advisory (non-blocking)
 
 None. The prior round's settled non-blocking observations remain in the audit trail and are not reopened.
+
+## Builder resolution — 2026-07-18
+
+Re-verified the complete critique history: the initial 2026-07-18 round (03, 06, 09, and 10) and the current 2026-07-18 round (05). The earlier proof targets remain correct: the child route terminates at the open mouth, the couch line follows the left armrest, the blonde girl's route terminates at the lipstick, and the standing figure route reaches the feet and ground. For 05, the overlay now follows the visible arm into the bedding and marks only the short, actual headboard edge at left; the chapter and caption use those same terms. The regenerated 05 proof is visually clean and scores 100/100. `scripts/check.sh` passes.
