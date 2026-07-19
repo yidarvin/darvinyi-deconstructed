@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-two-pairs-of-legs.jpg",
+    "width": 843,
+    "height": 1067,
+    "sha1": "0c59f366",
+    "source": "01-two-pairs-of-legs.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-laughing-mannequins.jpg",
+    "width": 843,
+    "height": 649,
+    "sha1": "d10c6fc2",
+    "source": "02-laughing-mannequins.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-optical-parable.jpg",
+    "width": 843,
+    "height": 1106,
+    "sha1": "4405d115",
+    "source": "03-optical-parable.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-the-dreamer.jpg",
+    "width": 843,
+    "height": 661,
+    "sha1": "48d9bfa4",
+    "source": "04-the-dreamer.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-daughter-of-the-dancers.jpg",
+    "width": 843,
+    "height": 1199,
+    "sha1": "1d69d907",
+    "source": "05-daughter-of-the-dancers.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-striking-worker-murdered.jpg",
+    "width": 843,
+    "height": 661,
+    "sha1": "f7b37966",
+    "source": "06-striking-worker-murdered.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-crouched-ones.jpg",
+    "width": 843,
+    "height": 690,
+    "sha1": "0879ed79",
+    "source": "07-the-crouched-ones.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-portrait-of-the-eternal.jpg",
+    "width": 843,
+    "height": 1055,
+    "sha1": "334787d0",
+    "source": "08-portrait-of-the-eternal.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-good-reputation-sleeping.jpg",
+    "width": 1599,
+    "height": 1337,
+    "sha1": "cfde8d72",
+    "source": "09-good-reputation-sleeping.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-the-unbandaging.jpg",
+    "width": 843,
+    "height": 1200,
+    "sha1": "cc151523",
+    "source": "10-the-unbandaging.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-xray-window.jpg",
+    "width": 843,
+    "height": 1125,
+    "sha1": "7ccb45fc",
+    "source": "11-xray-window.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-cemetery-visitation.jpg",
+    "width": 843,
+    "height": 647,
+    "sha1": "72a91b53",
+    "source": "12-cemetery-visitation.jpg",
+    "exif": {}
+  }
+]
