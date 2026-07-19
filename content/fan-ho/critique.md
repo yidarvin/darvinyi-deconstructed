@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Resolution — 2026-07-19
 
@@ -29,3 +29,13 @@ Re-verified: critique round 2026-07-19 (the only prior round). The four affected
 ### Advisory (non-blocking)
 
 None. All twelve proof/spec pairs were visually inspected; geometry scores are 100/100, and the chapter's reported analyzer measurements are within the stated tolerance. The required findings above are semantic/feature-truthfulness failures that the scorer does not detect.
+
+## Critique round — 2026-07-19
+
+### Required
+
+None. All twelve current proof/spec pairs were visually inspected against their source images and analyzer records. The corrected `06-her-study`, `08-afternoon-chat`, `09-arrow`, and `10-childhood` overlays trace only visible features, and the matching chapter claims no longer repeat the resolved false claims. All twelve overlays score 100/100 with no scorer deductions; the chapter's reported analyzer measurements agree with the current records within tolerance. Each source entry retains a traceable public display route, the Fan Ho Estate/Blue Lotus credit and rights context, and an image-specific fair-use rationale covering transformative purpose, the creative published work, the necessary complete web-sized frame, and market substitution.
+
+### Advisory (non-blocking)
+
+None.
