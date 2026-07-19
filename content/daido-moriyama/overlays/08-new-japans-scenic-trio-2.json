@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-new-japans-scenic-trio-2.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.251, "y": 0.597, "label": "station depth" },
+    { "type": "horizon_line", "y": 0.231, "angle": 0, "label": "sign and ceiling band" },
+    { "type": "leading_line", "points": [[0.32, 0.431], [0.616, 0.046]], "arrow": true, "label": "ceiling signage" },
+    { "type": "leading_line", "points": [[0.239, 0.433], [0.492, 0.04]], "arrow": true, "label": "overhead perspective" }
+  ],
+  "notes": "Foreground silhouettes block and release a staggered passage through the terminal."
+}

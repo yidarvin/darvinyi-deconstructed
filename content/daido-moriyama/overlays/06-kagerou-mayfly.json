@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-kagerou-mayfly.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.656, "angle": 0, "label": "tunnel mouth" },
+    { "type": "vanishing_point", "x": 0.53, "y": 0.666, "label": "road convergence" },
+    { "type": "leading_line", "points": [[0.489, 0.692], [0.998, 0.382]], "arrow": true, "label": "right tunnel wall" },
+    { "type": "leading_line", "points": [[0.555, 0.645], [0.997, 0.258]], "arrow": true, "label": "right light row" }
+  ],
+  "notes": "Paired tunnel walls accelerate toward a small, unstable central opening."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-obari.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.379, "angle": 0, "label": "mountain and settlement band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "rail corridor" },
+    { "type": "leading_line", "points": [[0.965, 0.96], [0.61, 0.47]], "arrow": true, "label": "curving rails" },
+    { "type": "polyline", "points": [[0.06, 0.68], [0.39, 0.55], [0.57, 0.45]], "label": "walking figures toward train" }
+  ],
+  "notes": "Tracks and a walking pair pull the open rail yard toward the train and mountain band."
+}

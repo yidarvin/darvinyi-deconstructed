@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-tokyo.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.8, "angle": 0, "label": "collar edge" },
+    { "type": "vanishing_point", "x": 0.58, "y": 0.499, "label": "head field" },
+    { "type": "leading_line", "points": [[0.314, 0.25], [0.736, 0.832]], "arrow": false, "label": "left head contour" },
+    { "type": "leading_line", "points": [[0.297, 0.323], [0.73, 0.879]], "arrow": false, "label": "right head contour" }
+  ],
+  "notes": "A child’s shaved head becomes a pale oval contained by a dark street and collar."
+}

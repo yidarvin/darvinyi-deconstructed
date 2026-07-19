@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-yokosuka-club-crown.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.683, "angle": 0, "label": "street threshold" },
+    { "type": "vanishing_point", "x": 0.737, "y": 0.52, "label": "lane recession" },
+    { "type": "leading_line", "points": [[0.585, 0.419], [0.928, 0.795]], "arrow": true, "label": "right storefront edge" }
+  ],
+  "notes": "The sign interrupts a narrow street corridor and turns the small family into a scale measure."
+}

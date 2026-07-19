@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-yokosuka-american-flag.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.215, "y": 0.741, "label": "shadow convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "flag's interrupted field" },
+    { "type": "horizon_line", "y": 0.202, "angle": 0, "label": "bright upper field" },
+    { "type": "subject_anchor", "x": 0.52, "y": 0.586, "r": 0.035, "label": "flag" }
+  ],
+  "notes": "The flag is caught between a hard dark obstruction and a blown-out field of light."
+}

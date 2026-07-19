@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-memory-of-dog-epilogue.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.566, "y": 0.683, "label": "alley depth" },
+    { "type": "leading_line", "points": [[0.145, 0.323], [0.962, 0.879]], "arrow": true, "label": "crossing utility wire" },
+    { "type": "leading_line", "points": [[0.0, 0.945], [0.665, 0.565]], "arrow": true, "label": "left wire run" },
+    { "type": "horizon_line", "y": 0.585, "angle": 0, "label": "alley threshold" }
+  ],
+  "notes": "Globe-like lights and tangled wires turn a narrow alley into a suspended field."
+}
