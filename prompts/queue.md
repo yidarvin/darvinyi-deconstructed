@@ -103,7 +103,7 @@ real queue and state live in data/registry.json.
 | 92  | graciela-iturbide         | Graciela Iturbide         | DONE    |
 | 93  | seydou-keita              | Seydou Keïta              | DONE    |
 | 94  | malick-sidibe             | Malick Sidibé             | DONE    |
-| 95  | daido-moriyama            | Daido Moriyama            | PENDING |
+| 95  | daido-moriyama            | Daido Moriyama            | DONE    |
 | 96  | shomei-tomatsu            | Shomei Tomatsu            | PENDING |
 | 97  | fan-ho                    | Fan Ho                    | PENDING |
 | 98  | raghu-rai                 | Raghu Rai                 | PENDING |

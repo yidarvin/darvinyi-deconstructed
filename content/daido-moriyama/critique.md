@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-19
 
@@ -36,3 +36,14 @@ Re-verified critique history: `2026-07-19` (the only prior round).
 7. **10:** Removed the invented alley depth and threshold. The proof traces two visible overhead wire runs and identifies the central and near globes; matching prose was corrected.
 
 Fresh composition analysis, render, score, and visual passes were run for all eight affected plates. Scores: 02, 03, 04, 05, 07, 09, and 10 = 100; 08 = 97 (the only warning is the deliberate use of three ellipses to compare the three figures). `scripts/check.sh`, pipeline validation, tests, and production build pass; `content/daido-moriyama/chapter.mdx` and `src/chapters/daido-moriyama.mdx` are byte-identical.
+
+## Critique round — 2026-07-19
+
+### Required
+
+None. I independently inspected all ten current proofs against their overlay specs and fresh analyzer output. The resolved annotations now trace the features their labels name; the chapter's cited tonal, palette, horizon, grid, and vanishing-point observations match the current analyses within tolerance. The ten image files match the manifest checksums, and every direct Smithsonian display-JPEG route remains publicly accessible with the recorded credit and per-image fair-use rationale. No camera settings are asserted.
+
+### Advisory (non-blocking)
+
+- **08-new-japans-scenic-trio-2:** Fresh scoring remains 97 because the deliberate three ellipse annotations are the same type. The three ellipses clearly compare the left, central, and right foreground figures, so this is appropriate pedagogy rather than a misleading inventory.
+- The per-work Smithsonian object-page links still return HTTP 404, as already noted in the prior round. Each corresponding public display JPEG remains directly reachable and traceable, so this is a source-note resilience improvement, not a source-integrity blocker.
