@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -26,3 +26,17 @@ All twelve current proof/spec pairs were visually reviewed, and the deterministi
 Applied all seven required fixes. The *Memphis* source note and overlay thesis now describe the open oven cavity and its two rack planes; the unrelated long-edge wording was also corrected. Re-rendered and visually checked the revised overlays for the truck bed edge, full entrance-door perimeter, shoe organizer, blue television, right fluorescent run, central shopper pair, car-and-onlookers group, and Cadillac emblem. Each revised spec scores 100/100 with no warnings.
 
 Re-verified critique history: 2026-07-18 (the sole prior critique round). Its seven required findings all hold in the current source note, overlays, proofs, and synchronized grocery-store prose. `scripts/check.sh` passed before this verdict was set.
+
+## Critique round — 2026-07-18
+
+### Required
+
+None. The seven required findings resolved in the preceding resolution were independently rechecked against the current proofs, overlay specs, chapter, and source notes; none has materially regressed.
+
+### Advisory (non-blocking)
+
+None.
+
+### Audit notes
+
+All twelve current proof/spec pairs were visually reviewed. Every overlay contains three or four named primitives that trace the stated visible feature, and each deterministic overlay score is 100/100 with no deductions or warnings. Chapter measurements match the current analyzer JSON within the stated tolerance; the chapter makes no unsupported historical camera-setting claim. All twelve sources retain direct Art Institute or Whitney collection-record links (each returned HTTP 200 during this review), a credit/rightsholder notice, and a concise per-image four-factor fair-use rationale.

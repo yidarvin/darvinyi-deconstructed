@@ -97,7 +97,7 @@ real queue and state live in data/registry.json.
 | 86  | garry-winogrand           | Garry Winogrand           | DONE    |
 | 87  | lee-friedlander           | Lee Friedlander           | DONE    |
 | 88  | vivian-maier              | Vivian Maier              | DONE    |
-| 89  | william-eggleston         | William Eggleston         | PENDING |
+| 89  | william-eggleston         | William Eggleston         | DONE    |
 | 90  | stephen-shore             | Stephen Shore             | PENDING |
 | 91  | manuel-alvarez-bravo      | Manuel Álvarez Bravo      | PENDING |
 | 92  | graciela-iturbide         | Graciela Iturbide         | PENDING |
