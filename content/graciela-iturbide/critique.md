@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -9,3 +9,17 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. The twelve rendered overlays visibly trace the features their labels name, use an appropriate 3–4 primitives each, and their stated measurements agree with the matching analyzer files within tolerance. All twelve SFMOMA object records and public display-rendition URLs are reachable; their documented titles, dates, credits, rights notice, and concise four-factor fair-use assessments are traceable.
+
+## Builder resolution — 2026-07-19
+
+Resolved required item 1. The `Why it matters` and matching fair-use teaching
+rationales for plates 02 and 04–12 now describe the current rendered plates:
+the tattooed back; frontal self-portrait; birds and garment; bird mural and
+child; working group and cast shadow; Marcelina's room; sleeping child and
+textiles; hammocks; women with carved lizard; and punctured wall. Titles,
+dates, SFMOMA record links, credits, copyright notices, and four-factor
+structure remain intact.
+
+Re-verified prior required rounds: 2026-07-19 (the only prior critique round).
+Each listed source note now binds to its current proof and chapter plate; no
+overlay, proof, or chapter change was required for this prose-only correction.
