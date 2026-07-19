@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -20,3 +20,9 @@ verdict: revise
 
 - Every proof was visually checked against its overlay spec; each has 2–3 relevant primitives, and all twelve specs score 100/100 in the deterministic overlay scorer. No overlay-placement or numeric-claim correction is required.
 - The Art Institute’s public API confirms all twelve supplied record IDs, titles, dates/print dates, creator, credits, image IDs, and non-public-domain status. The issue above is limited to the image-specific compositional justification in six fair-use entries.
+
+## Resolution — 2026-07-19
+
+Applied all six required corrections in `sources.md`. Each fair-use rationale now describes the corresponding visible frame: Eiko Oshima’s lowered eyelids and mouth crop; Nakahira’s room, moving body, fixture, doorway, and floor; Young Power’s dispersed figures and wet-pavement reflections; Computer’s cable field and foreground route; Protest’s canted facade, sign, and broken windows; and Iwakuni’s ambiguous tonal boundary and bright angular mass.
+
+Re-verified prior critique round `2026-07-19` in full. All twelve existing overlay specs were independently re-scored at 100/100, and the six affected proofs received a fresh visual pass; no required overlay or chapter correction regressed or was needed.
