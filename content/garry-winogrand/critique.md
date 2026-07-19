@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Builder resolution — 2026-07-18
 
@@ -67,3 +67,21 @@ Fresh analysis, render, deterministic scoring, and visual proof checks pass for 
 - All twelve current proofs were visually reviewed against their overlay specs and analyzer output. The deterministic scorer returns 100/100 for each spec; the required findings above are semantic visual-pass failures outside that geometric score.
 - The corrected `BARE TREE`, `WADING FIGURE`, and `REFLECTED ANIMAL` primitives from the prior resolved round now trace their named features. `11`'s newly identified arm/torso mismatch is not a re-raise of that round's removed horizon claim.
 - The twelve Art Institute object records, titles, dates, collection credits, IIIF identifiers, per-image four-factor fair-use rationales, and source links are traceable. Chapter and research text contain no invented camera, film, print, or exposure settings.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **01-worlds-fair-new-york-city** — `DISTANT WALKERS` still reads more as the hedge/bench transition than as a line through the individual walkers. The upper pedestrian band remains plainly visible and the chapter does not rely on that exact trace, so this is not a material compositional misidentification.
+- **06-centennial-ball-feather-boa** — `BOA ENCLOSURE` remains a deliberately diagrammatic three-point enclosure rather than a close contour of the feathers. It still teaches the enclosing relation and does not make a false subject claim.
+- **09-hippy-hollow-lake-travis** — the bracketed `TREE OPENING` is necessarily approximate to the irregular branch-made opening. Its placement continues to identify the screened opening around the figure; no false architectural frame is claimed.
+
+### Verified in this round
+
+- Looked at all twelve current proof PNGs against their current overlay specs and analysis. Every deterministic score is 100/100; the resolved `03`, `04`, `08`, `09`, and `11` repairs remain visually truthful, and no settled required finding has materially regressed.
+- Chapter measurements match the analyzer output within the stated tolerance (including rounded tonal and edge-density values), and no camera, lens, film, exposure, or print setting is invented.
+- All twelve Art Institute object pages and IIIF rendition links are reachable. Each image has artist and collection-credit attribution plus a concise per-image four-factor fair-use rationale; no source-integrity blocker was found.
