@@ -3,7 +3,7 @@
   "image": "08-colorado.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.11, "y": 0.0, "w": 0.47, "h": 0.98, "label": "window reflection" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 0.58, "h": 0.98, "label": "window reflection" },
     { "type": "frame_in_frame", "x": 0.67, "y": 0.08, "w": 0.31, "h": 0.83, "label": "door glass" },
     { "type": "subject_anchor", "x": 0.731, "y": 0.166, "r": 0.04, "label": "right-door notice" },
     { "type": "ellipse", "cx": 0.25, "cy": 0.13, "rx": 0.07, "ry": 0.11, "label": "Kennedy portrait" }

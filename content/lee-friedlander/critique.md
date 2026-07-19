@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -94,3 +94,18 @@ Re-verified every required fix from the complete critique history: the first 202
 - All twelve current proofs were visually checked against their current overlay specs and analysis data. The four previously resolved rounds remain resolved: the Mount Rushmore camera ellipse and New York 1974 lettering anchor are still correctly labeled; New York 1963's screened car remains an anchor rather than a vanishing point; Colorado still distinguishes the Kennedy portrait from the right-door notice; and New York 1964 retains only the true reflected-building band.
 - Current non-strict overlay scores are at least 80, but the listed requirements are visual/semantic errors. Strict scoring corroborates the unsupported-line findings for 01, 04, and 12.
 - The source audit confirmed all twelve Art Institute object IDs, titles, dates/print dates, artist, collection credits, non-public-domain status, IIIF image IDs, and individual fair-use rationales. The record-medium correction above is the only source/prose discrepancy found; no invented camera settings were found.
+
+## Resolution — 2026-07-18
+
+1. **01-new-york-city-1963-a:** removed the false full-width `door rail` line; the remaining door frame and passing-figure annotations make only claims that land on their named features. The regenerated proof was visually checked and scores 100/100.
+2. **02-new-york-city-1963-b:** removed the nonexistent `fence opening` frame and revised the chapter to describe the uninterrupted mesh screen. The car remains a deliberately visual subject anchor, and the two real mesh diagonals remain. The regenerated proof was visually checked and scores 88.6/100.
+3. **03-new-york-city-1964:** refit the sleeping-figure frame to the actual inset (`x=.58, y=.60, w=.18, h=.24`), while retaining only the local reflected-building band. The regenerated proof was visually checked and scores 100/100.
+4. **04-new-york-city-1966:** removed the mislabeled `camera shadow` anchor and unsupported `street recession` line; the accurately placed ellipse now makes the sole, bounded claim about the coat and photographer's shadow. The regenerated proof was visually checked and scores 100/100.
+5. **06-madison-wisconsin:** raised the framed-portrait box to its visible top edge and moved the oval right and up to the actual portrait oval. The regenerated proof was visually checked and scores 94/100 (88/100 strict).
+6. **07-route-9w-new-york:** extended the rear-view-mirror frame to its actual right boundary near `x=.33`. The regenerated proof was visually checked and scores 94/100 (88/100 strict).
+7. **08-colorado:** refit the left window-reflection frame to the continuous pane from the image edge through `x=.58`; the Kennedy portrait ellipse and right-door notice remain correctly distinct. The regenerated proof was visually checked and scores 100/100.
+8. **10-mount-rushmore-south-dakota:** removed the misleading pane boxes rather than drawing through mullions. The retained ellipse remains precisely on the raised left tourist's camera. The regenerated proof was visually checked and scores 100/100.
+9. **12-new-york-city-1974:** removed the two false full-width advertising lines and revised the chapter to leave those discontinuous edges unclaimed. The billboard-lettering anchor and fence enclosure remain. The regenerated proof was visually checked and scores 100/100.
+10. **Record and technique statement:** research and the mirrored chapter now state the documented gelatin silver print medium for all twelve collection objects (with Madison's gelatin silver print on paper), while continuing to avoid unsupported camera, exposure, negative, and darkroom claims.
+
+Re-verified every required fix from the complete critique history: round one (Mount Rushmore's ellipse remains on the raised left tourist camera; New York 1974's anchor remains billboard lettering rather than the statue); round two (New York 1963's car is a subject anchor, not a vanishing point; Colorado distinguishes the left-window Kennedy portrait from the right-door notice); round three (New York 1964 has no false full-width roofline or window seam); and the present ten-item round. All twelve overlays score at least 80 under the strict scorer (minimum 88), every affected regenerated proof passed a clean visual check, and the mirrored chapters remain byte-identical.

@@ -4,8 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.38, "y": 0.0, "w": 0.32, "h": 0.98, "label": "glass door" },
-    { "type": "subject_anchor", "x": 0.68, "y": 0.273, "r": 0.035, "label": "passing figure" },
-    { "type": "leading_line", "points": [[0.0, 0.76], [0.99, 0.94]], "arrow": false, "label": "door rail" }
+    { "type": "subject_anchor", "x": 0.68, "y": 0.273, "r": 0.035, "label": "passing figure" }
   ],
   "notes": "The door turns two pedestrians and their reflections into nested, interrupted panels."
 }

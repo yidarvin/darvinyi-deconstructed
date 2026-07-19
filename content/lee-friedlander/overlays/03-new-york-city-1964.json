@@ -3,7 +3,7 @@
   "image": "03-new-york-city-1964.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.53, "y": 0.55, "w": 0.22, "h": 0.29, "label": "sleeping figure" },
+    { "type": "frame_in_frame", "x": 0.58, "y": 0.60, "w": 0.18, "h": 0.24, "label": "sleeping figure inset" },
     { "type": "leading_line", "points": [[0.33452, 0.39789], [0.83155, 0.33451]], "arrow": false, "label": "reflected building band" }
   ],
   "notes": "A tiny inset figure interrupts a broad blank field while a short reflected building band expands the scene above it."
