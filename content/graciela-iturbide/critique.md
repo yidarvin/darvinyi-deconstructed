@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-19
 
@@ -58,3 +58,23 @@ whose 02 and 04–12 `Why it matters` entries remain bound to the current proofs
 and the current 2026-07-19 five-overlay round. All affected proofs were rendered
 and visually checked after the edits. Scores: 01 100, 08 89, 09 100, 11 100,
 12 97 (all meet the >=80 threshold). `scripts/check.sh` passes.
+
+## Critique round — 2026-07-19
+
+### Required
+
+None. The resolved source notes remain bound to their visible plates, and the
+resolved overlays on 01, 08, 09, 11, and 12 still trace the features named in
+their labels. All twelve proofs are visually truthful and use three or four
+teaching primitives; their chapter measurements match the current analyzer
+values within the stated tolerance. Every image has a reachable SFMOMA record,
+an accurate credit and rights notice, and an image-specific four-factor
+fair-use rationale. The chapter makes no unsupported camera-setting claim.
+
+### Advisory (non-blocking)
+
+- **08-marcelina:** The `SEATED WOMAN` anchor remains a little left of the
+  analyzer's strongest subject signal (the scorer reports 0.067 diagonal and
+  suggests `(0.678, 0.576)`), but it is visibly on the woman's torso and
+  unambiguously identifies her. Its 89 score exceeds the acceptance threshold;
+  this is not a misleading feature claim.
