@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-19
 
@@ -27,3 +27,16 @@ Re-verified critique history: **2026-07-19, round 1** (the complete history for 
 6. Removed the unsupported `LINKED ARMS` route; separate face and document annotations now support the chapter's revised descending attention claim (score 97; the scorer's three-ellipse warning is non-blocking and all three bounds are visually verified).
 
 All affected proofs were re-analyzed, rendered, visually checked, and scored at or above 80. `scripts/check.sh` completed with `CHECK OK`; the mirrored chapter files are byte-identical.
+
+## Critique round — 2026-07-19
+
+### Required
+
+None. All eleven current proofs were inspected against their current overlay specs and analysis files. The six required findings from the preceding round remain resolved: the unsupported waitress and watchman bands/diagonals are gone; the parlour boundary now follows the visible ceiling line; the shopping portrait no longer claims frame symmetry; and the dompas, faces, and described descending attention route now match the visible held document. Every spec scores at least 94/100 (the chapter's acceptance threshold is 80), and the chapter's reported tonal, edge-density, symmetry, size, source, and no-settings claims agree with the current records.
+
+### Advisory (non-blocking)
+
+- **08-watchman-balnagask-court:** the deterministic scorer's 94/100 result retains a non-blocking warning that the vertical `CANE` line does not coincide with a detected edge. Visual inspection confirms that it traces the visible cane; no change is required.
+- **10-young-men-dompas-white-city:** the scorer's 97/100 output warns that three ellipses are usually more than necessary. Here they accurately distinguish the two faces from the held dompas and support the chapter's stated chain of attention; this is pedagogically justified, not a blocking defect.
+
+The publicly accessible LensCulture project identifies all eleven displayed works with the stated titles, dates, and © David Goldblatt credit, and each linked public rendition was reachable as a JPEG during this review. The individual fair-use entries contain the required four-factor rationale. No camera settings are asserted.
