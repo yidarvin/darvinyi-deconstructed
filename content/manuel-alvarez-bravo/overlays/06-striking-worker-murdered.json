@@ -1,1 +1,38 @@
-{"version":1,"image":"06-striking-worker-murdered.jpg","grid":{"type":"phi"},"primitives":[{"type":"horizon_line","y":0.209,"angle":0,"label":"WALL BREAK"},{"type":"subject_anchor","x":0.632,"y":0.289,"r":0.035,"label":"HEAD"},{"type":"leading_line","points":[[0.607,0.284],[0.716,0.418]],"arrow":true,"label":"ARM TO BODY"}],"notes":"A body set on the pavement is structured by the arm's diagonal and the hard wall-ground break."}
+{
+  "version": 1,
+  "image": "06-striking-worker-murdered.jpg",
+  "grid": {
+    "type": "phi"
+  },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.209,
+      "angle": 0,
+      "label": "WALL BREAK"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          0.7,
+          0.47
+        ],
+        [
+          0.55,
+          0.66
+        ],
+        [
+          0.39,
+          0.78
+        ],
+        [
+          0.24,
+          0.89
+        ]
+      ],
+      "label": "EXTENDED ARM"
+    }
+  ],
+  "notes": "A body set on the pavement is structured by the arm's diagonal and the hard wall-ground break."
+}

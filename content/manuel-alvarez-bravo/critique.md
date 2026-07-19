@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -48,3 +48,41 @@ The four affected images were freshly analyzed, rendered, visually checked, and 
 ### Evidence checked
 
 All twelve current proofs were visually reviewed against their source images, overlay specs, analyzer outputs, and chapter prose. The findings above are semantic visual-pass and schema-meaning errors, not coordinate-tolerance or cosmetic issues. All twelve listed source pages returned HTTP 200 during this review. The chapter correctly avoids invented camera settings; the fair-use routes include per-image four-factor rationale, and limited mode is not applicable.
+
+## Resolution — 2026-07-18
+
+Re-verified critique history: both prior 2026-07-18 rounds in `git log -p --
+content/manuel-alvarez-bravo/critique.md`. The earlier four fixes remain in
+place: *The Dreamer* has no false sloping-curb claim; *The Daughter of the
+Dancers* keeps the hat anchor on the hat and no tile-field horizon; *Striking
+Worker Murdered* has no pavement-convergence claim; and *La buena fama
+durmiendo* has no mat-convergence claim.
+
+1. Removed *Optical Parable*'s false `SIGN EDGE` horizon and removed the
+   corresponding introductory prose claim.
+2. Removed the misplaced `HEAD` anchor from *Striking Worker Murdered* and
+   replaced the short false segment with an `EXTENDED ARM` contour; its prose
+   and caption now name only that visible arm and the wall-ground break.
+3. Removed the false-symmetry `SHOPFRONT AXIS` from *The Crouched Ones* and
+   deleted the related axis prose.
+4. Relabeled the *Portrait of the Eternal* anchor as `RAISED HAND` and moved
+   the `FACE TO DRESS` contour onto the visible face and garment; the chapter
+   now distinguishes those two claims.
+5. Removed *La buena fama durmiendo*'s unsupported `WALL EDGE` and revised
+   its notes, paragraph, and caption to discuss the mat and reclining contour
+   without a fabricated architectural diagonal.
+6. Removed the axis-aligned `TILTED DISPLAY` frame from *X-ray Window* and
+   narrowed the overlay notes, paragraph, and caption to the visible tilted
+   top edge and right-hand display.
+7. Removed *Panteón, Visitacion*'s false-symmetry `WALL BALANCE` axis and its
+   unsupported candle/grave path; the overlay and prose now identify the
+   shadow line, visitor, and uneven earth mound without implying bilateral
+   order.
+8. Restored the eight official AIC credit lines in `sources.md` and recorded
+   that the CC BY-SA Commons rendition of *La buena fama durmiendo* was
+   normalized/resized from 2,772 × 2,317 px to the committed 1,599 × 1,337 px
+   JPEG.
+
+All twelve overlays score 100/100; the seven affected plates received fresh
+analysis, re-rendering, and visual checks, and the two chapter copies are
+byte-identical. `scripts/check.sh` passed.

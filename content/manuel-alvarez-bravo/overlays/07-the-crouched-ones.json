@@ -1,1 +1,57 @@
-{"version":1,"image":"07-the-crouched-ones.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.906,"angle":0,"label":"TILE EDGE"},{"type":"symmetry_axis","orientation":"vertical","pos":0.5,"label":"SHOPFRONT AXIS"},{"type":"subject_anchor","x":0.773,"y":0.623,"r":0.035,"label":"RIGHT STOOL"},{"type":"frame_in_frame","x":0.047,"y":0.05,"w":0.900,"h":0.80,"label":"OPEN COUNTER"},{"type":"polyline","points":[[0.22,0.51],[0.39,0.57],[0.56,0.52],[0.73,0.57],[0.88,0.52]],"label":"BOWED BACKS"}],"notes":"The open storefront frames a repeated row of backs, stools, and shoes as a measured rhythm."}
+{
+  "version": 1,
+  "image": "07-the-crouched-ones.jpg",
+  "grid": {
+    "type": "thirds"
+  },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.906,
+      "angle": 0,
+      "label": "TILE EDGE"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.773,
+      "y": 0.623,
+      "r": 0.035,
+      "label": "RIGHT STOOL"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.047,
+      "y": 0.05,
+      "w": 0.900,
+      "h": 0.80,
+      "label": "OPEN COUNTER"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          0.22,
+          0.51
+        ],
+        [
+          0.39,
+          0.57
+        ],
+        [
+          0.56,
+          0.52
+        ],
+        [
+          0.73,
+          0.57
+        ],
+        [
+          0.88,
+          0.52
+        ]
+      ],
+      "label": "BOWED BACKS"
+    }
+  ],
+  "notes": "The open storefront frames a repeated row of backs, stools, and shoes as a measured rhythm."
+}

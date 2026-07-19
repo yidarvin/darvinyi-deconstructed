@@ -1,1 +1,45 @@
-{"version":1,"image":"08-portrait-of-the-eternal.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.836,"angle":0,"label":"BED EDGE"},{"type":"subject_anchor","x":0.284,"y":0.258,"r":0.035,"label":"LIT FACE"},{"type":"polyline","points":[[0.29,0.28],[0.47,0.39],[0.55,0.61],[0.40,0.79]],"label":"LIT FIGURE"}],"notes":"A single lit face and dress emerge from a large, nearly featureless dark field."}
+{
+  "version": 1,
+  "image": "08-portrait-of-the-eternal.jpg",
+  "grid": {
+    "type": "thirds"
+  },
+  "primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.836,
+      "angle": 0,
+      "label": "BED EDGE"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.284,
+      "y": 0.258,
+      "r": 0.035,
+      "label": "RAISED HAND"
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          0.415,
+          0.225
+        ],
+        [
+          0.46,
+          0.34
+        ],
+        [
+          0.55,
+          0.61
+        ],
+        [
+          0.40,
+          0.79
+        ]
+      ],
+      "label": "FACE TO DRESS"
+    }
+  ],
+  "notes": "A single lit face and dress emerge from a large, nearly featureless dark field."
+}

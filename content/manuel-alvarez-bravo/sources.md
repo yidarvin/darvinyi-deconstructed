@@ -42,7 +42,9 @@ licensed reproduction. This assessment is made for each identified work.
    — The image's compressed shadow, wall, and object relationships make a
    lesson in how a modest encounter can be made visually enigmatic. Source:
    [Art Institute of Chicago object 48888](https://www.artic.edu/artworks/48888).
-   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Purchased with funds provided by Exchange National Bank.” Holding
+   institution: AIC. AIC
    displays no copyright notice; the four-factor criticism, complete-frame
    necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -50,7 +52,9 @@ licensed reproduction. This assessment is made for each identified work.
    — A figure, diagonals, and tight tonal zones turn an observed sleeper into a
    poised Surrealist-like scene without abandoning the everyday. Source:
    [Art Institute of Chicago object 48891](https://www.artic.edu/artworks/48891).
-   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Purchased with funds provided by Exchange National Bank.” Holding
+   institution: AIC. AIC
    displays no copyright notice; the four-factor criticism, complete-frame
    necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -58,7 +62,9 @@ licensed reproduction. This assessment is made for each identified work.
    — The frontal child and surrounding dark mass show how Bravo gives a
    documentary encounter the stillness and weight of a formal portrait. Source:
    [Art Institute of Chicago object 48876](https://www.artic.edu/artworks/48876).
-   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Purchased with funds provided by Helen Harvey Mills.” Holding institution:
+   AIC. AIC
    displays no copyright notice; the four-factor criticism, complete-frame
    necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -75,7 +81,9 @@ licensed reproduction. This assessment is made for each identified work.
    — A row of bowed figures and the nearly continuous bench create a social
    tableau whose rhythm depends on the frame's full width. Source:
    [Art Institute of Chicago object 48883](https://www.artic.edu/artworks/48883).
-   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Purchased with funds provided by Reva and David Logan.” Holding
+   institution: AIC. AIC
    displays no copyright notice; the four-factor criticism, complete-frame
    necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -83,7 +91,9 @@ licensed reproduction. This assessment is made for each identified work.
    — Its suspended gesture, shallow ground, and high tonal contrast clarify
    Bravo's gift for making a brief street encounter feel allegorical. Source:
    [Art Institute of Chicago object 48880](https://www.artic.edu/artworks/48880).
-   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Purchased with funds provided by Helen Harvey Mills.” Holding institution:
+   AIC. AIC
    displays no copyright notice; the four-factor criticism, complete-frame
    necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -95,13 +105,15 @@ licensed reproduction. This assessment is made for each identified work.
    on the file page, which licenses this rendition under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
    Required credit: “Manuel Álvarez Bravo, *La buena fama durmiendo* (1938),
    Casa MAB, CC BY-SA 4.0,” with the licence link and an indication of any
-   derivative changes.
+   derivative changes. This committed rendition was normalized and resized
+   from the 2,772 × 2,317 px Commons original to a 1,599 × 1,337 px JPEG.
 
 10. **The Unbandaging (La Desvendada), 1938**
     — The work's revealed face, banded cloth, and vertical framing make a
     concentrated study of symbolic concealment and interval. Source:
     [Art Institute of Chicago object 126417](https://www.artic.edu/artworks/126417).
-    **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line: “Gift
+   of D. Richard Ryan Jr.” Holding institution: AIC. AIC
     displays no copyright notice; the four-factor criticism, complete-frame
     necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -109,7 +121,8 @@ licensed reproduction. This assessment is made for each identified work.
     — Translucent films in a window turn a found architectural grid into a
     lesson in nested rectangles, scale, and luminous density. Source:
     [Art Institute of Chicago object 63535](https://www.artic.edu/artworks/63535).
-    **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Special Photography Acquisition Fund.” Holding institution: AIC. AIC
     displays no copyright notice; the four-factor criticism, complete-frame
     necessity, web-size, and credit/link rationale above applies specifically.
 
@@ -117,7 +130,9 @@ licensed reproduction. This assessment is made for each identified work.
     — The cemetery's crossed planes and small attending figure extend Bravo's
     compositional vocabulary into a late, quietly architectural meditation.
     Source: [Art Institute of Chicago object 48900](https://www.artic.edu/artworks/48900).
-    **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit: AIC. AIC
+   **Use basis: fair-use.** Creator: Manuel Álvarez Bravo; credit line:
+   “Purchased with funds provided by Exchange National Bank.” Holding
+   institution: AIC. AIC
     displays no copyright notice; the four-factor criticism, complete-frame
     necessity, web-size, and credit/link rationale above applies specifically.
 
