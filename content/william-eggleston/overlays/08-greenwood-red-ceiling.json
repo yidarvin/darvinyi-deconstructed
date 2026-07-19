@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-greenwood-red-ceiling.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.43, "cy": 0.34, "rx": 0.05, "ry": 0.11, "label": "bulb fixture" },
+    { "type": "polyline", "points": [[0.43, 0.34], [0.21, 0.18], [0.0, 0.12]], "label": "left wire" },
+    { "type": "polyline", "points": [[0.43, 0.34], [0.68, 0.17], [0.90, 0.0]], "label": "right wire" },
+    { "type": "polyline", "points": [[0.0, 0.62], [0.47, 0.76], [1.0, 0.61]], "label": "ceiling corner" }
+  ],
+  "notes": "A red ceiling field gains tension from a bulb, white wires, and small peripheral interruptions."
+}

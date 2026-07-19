@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-memphis-oven.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.03, "w": 0.81, "h": 0.91, "label": "oven cavity" },
+    { "type": "polyline", "points": [[0.18, 0.34], [0.47, 0.27], [0.77, 0.33]], "label": "upper rack plane" },
+    { "type": "polyline", "points": [[0.19, 0.54], [0.48, 0.46], [0.76, 0.53]], "label": "lower rack plane" }
+  ],
+  "notes": "A close red appliance becomes a field of circular burners, hard edges, and one diagonal interruption."
+}

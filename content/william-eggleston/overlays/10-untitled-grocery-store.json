@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-untitled-grocery-store.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.386, "y": 0.344, "label": "aisle convergence" },
+    { "type": "polyline", "points": [[0.02, 0.16], [0.19, 0.25], [0.39, 0.34]], "label": "left fluorescent run" },
+    { "type": "polyline", "points": [[0.98, 0.14], [0.68, 0.25], [0.39, 0.34]], "label": "right fluorescent run" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.57, "rx": 0.15, "ry": 0.20, "label": "central shoppers" }
+  ],
+  "notes": "Carts, shelves, and shoppers make a commercial interior both an aisle and a distributed field of attention."
+}

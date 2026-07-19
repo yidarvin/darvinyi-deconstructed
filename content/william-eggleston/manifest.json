@@ -1,0 +1,138 @@
+[
+  {
+    "file": "01-memphis-oven.jpg",
+    "width": 809,
+    "height": 544,
+    "sha1": "d4447f7b",
+    "source": "01-memphis-oven.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-near-jackson.jpg",
+    "width": 843,
+    "height": 1303,
+    "sha1": "155dbbdf",
+    "source": "02-near-jackson.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-halloween-morton.jpg",
+    "width": 843,
+    "height": 566,
+    "sha1": "325b9aa0",
+    "source": "03-halloween-morton.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-shiloh-national-park.jpg",
+    "width": 843,
+    "height": 560,
+    "sha1": "4c5e007e",
+    "source": "04-shiloh-national-park.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-untitled-1974.jpg",
+    "width": 843,
+    "height": 570,
+    "sha1": "af3487c5",
+    "source": "05-untitled-1974.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-tennessee.jpg",
+    "width": 843,
+    "height": 558,
+    "sha1": "c18ef700",
+    "source": "06-tennessee.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-rosa-sleeping.jpg",
+    "width": 843,
+    "height": 1249,
+    "sha1": "ca9ded8d",
+    "source": "07-rosa-sleeping.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-greenwood-red-ceiling.jpg",
+    "width": 729,
+    "height": 473,
+    "sha1": "44c47955",
+    "source": "08-greenwood-red-ceiling.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2012:02:16 12:29:11",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "09-huntsville-alabama.jpg",
+    "width": 503,
+    "height": 722,
+    "sha1": "b385aa1b",
+    "source": "09-huntsville-alabama.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2012:02:10 14:21:21",
+      "FocalLength": "120.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "10-untitled-grocery-store.jpg",
+    "width": 1794,
+    "height": 1194,
+    "sha1": "5de1ba43",
+    "source": "10-untitled-grocery-store.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2012:02:03 12:06:35",
+      "FocalLength": "120.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "11-untitled-car-wreck.jpg",
+    "width": 709,
+    "height": 486,
+    "sha1": "0bbfe09d",
+    "source": "11-untitled-car-wreck.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2021-05-04T09:49:31",
+      "FocalLength": "120.0",
+      "ExposureTime": "0.008",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "12-baby-doll-cadillac.jpg",
+    "width": 718,
+    "height": 462,
+    "sha1": "d8ceaf7e",
+    "source": "12-baby-doll-cadillac.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2021-05-04T11:34:55",
+      "FocalLength": "120.0",
+      "ExposureTime": "0.008",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "100"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-untitled-car-wreck.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.0, 0.24], [0.29, 0.47], [0.54, 0.59]], "label": "bridge deck" },
+    { "type": "polyline", "points": [[0.08, 0.98], [0.37, 0.72], [0.67, 0.59]], "label": "concrete slope" },
+    { "type": "ellipse", "cx": 0.61, "cy": 0.56, "rx": 0.16, "ry": 0.19, "label": "car and onlookers" }
+  ],
+  "notes": "A car held on a concrete slope makes spectators and bridge edge feel precariously suspended."
+}

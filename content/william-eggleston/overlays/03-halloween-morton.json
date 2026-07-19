@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-halloween-morton.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.52, "cy": 0.39, "rx": 0.18, "ry": 0.24, "label": "costumed group" },
+    { "type": "polyline", "points": [[0.25, 0.56], [0.43, 0.50], [0.72, 0.55], [0.96, 0.68]], "label": "pale road curve" },
+    { "type": "polyline", "points": [[0.48, 0.53], [0.40, 0.79], [0.31, 0.98]], "label": "cast shadow" }
+  ],
+  "notes": "A small frontal group is held between a curving road, long shadowed ground, and a dark tree mass."
+}
