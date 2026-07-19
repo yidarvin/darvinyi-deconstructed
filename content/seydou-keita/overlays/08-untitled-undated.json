@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-untitled-undated.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.67, "cy": 0.41, "rx": 0.25, "ry": 0.34, "label": "seated sitter" },
+    { "type": "frame_in_frame", "x": 0.66, "y": 0.38, "w": 0.31, "h": 0.54, "label": "wicker chair" },
+    { "type": "polyline", "points": [[0.42, 0.56], [0.59, 0.62], [0.70, 0.64]], "label": "clasped hands" }
+  ],
+  "notes": "The offset sitter, angled chair, and clasped hands make diagonals answer the backdrop's rigid checkerboard."
+}

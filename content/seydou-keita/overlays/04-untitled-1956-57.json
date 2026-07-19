@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-untitled-1956-57.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "group spine" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.47, "rx": 0.38, "ry": 0.44, "label": "three-person group" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.55, "rx": 0.15, "ry": 0.32, "label": "central floral dress" }
+  ],
+  "notes": "A nearly mirrored group stacks three figures against an arabesque cloth, with the central floral dress as a tonal bridge."
+}

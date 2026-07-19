@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-untitled-june-2-1955-b.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.49, "cy": 0.49, "rx": 0.30, "ry": 0.42, "label": "seated sitter" },
+    { "type": "polyline", "points": [[0.37, 0.33], [0.60, 0.40], [0.49, 0.56]], "label": "crossed arms" },
+    { "type": "polyline", "points": [[0.47, 0.54], [0.60, 0.76], [0.71, 0.91]], "label": "crossed legs" }
+  ],
+  "notes": "Crossed arms and long crossed legs create a relaxed diagonal counterpoint to the chair and studio cloth."
+}

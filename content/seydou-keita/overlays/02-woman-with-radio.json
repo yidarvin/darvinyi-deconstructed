@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-woman-with-radio.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.40, "cy": 0.47, "rx": 0.32, "ry": 0.42, "label": "sitter and robe" },
+    { "type": "frame_in_frame", "x": 0.61, "y": 0.45, "w": 0.35, "h": 0.34, "label": "radio" },
+    { "type": "polyline", "points": [[0.43, 0.21], [0.40, 0.33], [0.31, 0.36]], "label": "raised arm" }
+  ],
+  "notes": "The pale robe makes a large calm field that the dark radio and raised arm answer across the right side."
+}

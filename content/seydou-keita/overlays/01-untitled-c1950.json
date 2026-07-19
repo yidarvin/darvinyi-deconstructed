@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-untitled-c1950.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.54, "rx": 0.47, "ry": 0.45, "label": "three-person group" },
+    { "type": "polyline", "points": [[0.24, 0.34], [0.49, 0.13], [0.75, 0.36]], "label": "three faces" },
+    { "type": "polyline", "points": [[0.22, 0.61], [0.49, 0.77], [0.77, 0.61]], "label": "seated base" }
+  ],
+  "notes": "A standing center and two seated figures make a stable three-person portrait, while distinct fabrics keep the mass internally active."
+}

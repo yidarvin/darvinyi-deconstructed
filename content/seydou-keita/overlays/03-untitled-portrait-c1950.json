@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-untitled-portrait-c1950.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.30, "cy": 0.57, "rx": 0.26, "ry": 0.31, "label": "left sitter" },
+    { "type": "ellipse", "cx": 0.66, "cy": 0.59, "rx": 0.25, "ry": 0.31, "label": "right sitter" },
+    { "type": "polyline", "points": [[0.42, 0.35], [0.49, 0.42], [0.55, 0.44]], "label": "linking arm" }
+  ],
+  "notes": "Two seated figures create a low horizontal stage, joined by one arm and grounded by the checkered textile."
+}
