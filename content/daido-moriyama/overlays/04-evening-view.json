@@ -3,10 +3,10 @@
   "image": "04-evening-view.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "hanging-light field" },
+    { "type": "polyline", "points": [[0.02, 0.01], [0.15, 0.20], [0.26, 0.45], [0.35, 0.58]], "label": "sagging foreground cable" },
     { "type": "horizon_line", "y": 0.592, "angle": 0, "label": "dark treetop band" },
-    { "type": "subject_anchor", "x": 0.708, "y": 0.758, "r": 0.035, "label": "light chain" },
-    { "type": "polyline", "points": [[0.08, 0.02], [0.28, 0.31], [0.56, 0.55], [0.78, 0.78]], "label": "sagging cable" }
+    { "type": "polyline", "points": [[0.38, 0.57], [0.50, 0.67], [0.63, 0.77], [0.77, 0.85]], "label": "receding light chain" },
+    { "type": "ellipse", "cx": 0.23, "cy": 0.54, "rx": 0.09, "ry": 0.12, "label": "red bulb" }
   ],
   "notes": "A chain of bulbs gives the dark blue street a diagonal pulse of color."
 }

@@ -3,9 +3,9 @@
   "image": "09-shinjuku-11.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.487, "angle": 0, "label": "street-light band" },
-    { "type": "vanishing_point", "x": 0.487, "y": 0.657, "label": "street recession" },
-    { "type": "subject_anchor", "x": 0.036, "y": 0.334, "r": 0.035, "label": "bright sign edge" }
+    { "type": "frame_in_frame", "x": 0.45, "y": 0.00, "w": 0.20, "h": 1.00, "label": "vertical barrier" },
+    { "type": "ellipse", "cx": 0.74, "cy": 0.74, "rx": 0.21, "ry": 0.25, "label": "near hand" },
+    { "type": "polyline", "points": [[0.46, 0.00], [0.45, 0.34], [0.44, 0.69], [0.43, 1.00]], "label": "barrier's left edge" }
   ],
-  "notes": "A pale hand and barrier force a night street into a narrow, blocked view."
+  "notes": "A pale hand pressed against a vertical barrier forces the street into a narrow, blocked view."
 }

@@ -4,9 +4,9 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "horizon_line", "y": 0.379, "angle": 0, "label": "mountain and settlement band" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "rail corridor" },
-    { "type": "leading_line", "points": [[0.965, 0.96], [0.61, 0.47]], "arrow": true, "label": "curving rails" },
-    { "type": "polyline", "points": [[0.06, 0.68], [0.39, 0.55], [0.57, 0.45]], "label": "walking figures toward train" }
+    { "type": "polyline", "points": [[0.97, 0.96], [0.87, 0.78], [0.78, 0.61], [0.70, 0.48]], "label": "near rail curve" },
+    { "type": "polyline", "points": [[0.88, 0.95], [0.82, 0.77], [0.75, 0.59], [0.69, 0.48]], "label": "second rail curve" },
+    { "type": "ellipse", "cx": 0.43, "cy": 0.58, "rx": 0.10, "ry": 0.13, "label": "walking pair" }
   ],
   "notes": "Tracks and a walking pair pull the open rail yard toward the train and mountain band."
 }

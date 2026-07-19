@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -22,3 +22,17 @@ verdict: revise
 
 - **03-obari:** the scorer warns that the interpretive walking-figure polyline does not follow a detected edge. It remains legible as a figure path in the proof, so this is not a blocking geometric error; keep it only if the rebuilt overlay makes that pedagogical role clear.
 - All cited Smithsonian display JPEG URLs and the collection gallery returned successfully in this review. The ten per-work object-page URLs currently return HTTP 404, so updating those reference links when a stable object record is available would improve source-note resilience, but the live display JPEGs keep the present source chain traceable.
+
+## Resolution — 2026-07-19
+
+Re-verified critique history: `2026-07-19` (the only prior round).
+
+1. **02:** Removed the false symmetry, horizon, and vanishing-point claims; the proof now traces the flag silhouette, the near-field obstruction, flagpole edge, and tree-shadow intrusion.
+2. **03–04:** Removed both false symmetry axes. *Obari* now follows the two rail curves and isolates the walking pair; *Evening View* traces the cable and receding light chain around the red bulb.
+3. **05:** Replaced the false vanishing point and body-to-ground line with dog silhouette, leg, underside, and head annotations; matching prose now describes those visible features only.
+4. **07:** Replaced the false scalp diagonals and vanishing point with a scalp oval, actual side edges, and collar edge; matching prose was corrected.
+5. **08:** Removed the invented station-depth and overhead-perspective claims. The proof now identifies the three overlapping foreground figures; matching prose describes their staggered scale and overlaps.
+6. **09:** Rebuilt the proof around the vertical barrier, its edge, and the near hand; matching prose now makes that pressure system the overlay's subject.
+7. **10:** Removed the invented alley depth and threshold. The proof traces two visible overhead wire runs and identifies the central and near globes; matching prose was corrected.
+
+Fresh composition analysis, render, score, and visual passes were run for all eight affected plates. Scores: 02, 03, 04, 05, 07, 09, and 10 = 100; 08 = 97 (the only warning is the deliberate use of three ellipses to compare the three figures). `scripts/check.sh`, pipeline validation, tests, and production build pass; `content/daido-moriyama/chapter.mdx` and `src/chapters/daido-moriyama.mdx` are byte-identical.
