@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-les-jeunes-bergers-peulhs.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "three-figure spine" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.48, "rx": 0.34, "ry": 0.40, "label": "three young men" },
+    { "type": "frame_in_frame", "x": 0.43, "y": 0.56, "w": 0.20, "h": 0.19, "label": "boombox" }
+  ],
+  "notes": "Three frontal figures make a near-symmetrical studio arrangement, with the boombox interrupting its calm center."
+}

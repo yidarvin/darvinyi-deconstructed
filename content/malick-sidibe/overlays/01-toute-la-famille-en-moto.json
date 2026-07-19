@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-toute-la-famille-en-moto.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.50, "rx": 0.38, "ry": 0.36, "label": "family on motorcycle" },
+    { "type": "polyline", "points": [[0.12, 0.66], [0.34, 0.77], [0.69, 0.84], [0.93, 0.73]], "label": "motorcycle base" },
+    { "type": "polyline", "points": [[0.34, 0.36], [0.45, 0.29], [0.61, 0.31], [0.72, 0.40]], "label": "heads and shoulders" }
+  ],
+  "notes": "The motorcycle supplies a long low base for an interlocking family group, whose faces gather in the upper middle of the studio frame."
+}

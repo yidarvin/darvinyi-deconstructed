@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-une-soiree-a-la-chaussee.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.48, "rx": 0.44, "ry": 0.31, "label": "beach party group" },
+    { "type": "polyline", "points": [[0.10, 0.34], [0.31, 0.31], [0.51, 0.29], [0.69, 0.31], [0.88, 0.35]], "label": "shoulder rhythm" },
+    { "type": "polyline", "points": [[0.28, 0.73], [0.42, 0.62], [0.57, 0.68]], "label": "seated foreground" }
+  ],
+  "notes": "A loose arc of standing bodies is countered by three low figures, letting the beach become a wide social stage."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-combat-des-amis-avec-pierres.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.301, "y": 0.476, "r": 0.035, "label": "left figure" },
+    { "type": "polyline", "points": [[0.12, 0.27], [0.27, 0.36], [0.31, 0.51], [0.23, 0.79]], "label": "left body's force" },
+    { "type": "polyline", "points": [[0.77, 0.18], [0.66, 0.31], [0.64, 0.52], [0.75, 0.81]], "label": "right body's force" }
+  ],
+  "notes": "Two raised arms and opposing bent bodies charge an otherwise open field with diagonal tension."
+}

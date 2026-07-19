@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-amis-des-espagnols.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.49, "rx": 0.41, "ry": 0.37, "label": "four friends" },
+    { "type": "subject_anchor", "x": 0.586, "y": 0.674, "r": 0.035, "label": "foreground sitter" },
+    { "type": "polyline", "points": [[0.34, 0.28], [0.65, 0.31], [0.29, 0.53], [0.58, 0.58]], "label": "staggered faces" }
+  ],
+  "notes": "Two standing and two seated figures make a shallow, staggered social chain, activated by hats, sunglasses, hands, and patterned shirts."
+}

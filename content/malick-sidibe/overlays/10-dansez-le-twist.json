@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-dansez-le-twist.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.58, "rx": 0.31, "ry": 0.32, "label": "central dancers" },
+    { "type": "polyline", "points": [[0.16, 0.43], [0.34, 0.65], [0.48, 0.48], [0.68, 0.77]], "label": "crossing dance motion" },
+    { "type": "polyline", "points": [[0.28, 0.79], [0.49, 0.56], [0.66, 0.42]], "label": "leaning body" }
+  ],
+  "notes": "A leaning foreground dancer and angled limbs make a circulating web of movement across the floor."
+}

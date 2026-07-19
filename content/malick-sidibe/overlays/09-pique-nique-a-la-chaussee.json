@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-pique-nique-a-la-chaussee.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.42, "cy": 0.51, "rx": 0.40, "ry": 0.38, "label": "picnic group" },
+    { "type": "polyline", "points": [[0.24, 0.51], [0.42, 0.38], [0.48, 0.17], [0.55, 0.46]], "label": "human pyramid" },
+    { "type": "polyline", "points": [[0.01, 0.57], [0.18, 0.51], [0.29, 0.48]], "label": "watching figures" }
+  ],
+  "notes": "A human pyramid rises from a semicircle of watchers, leaving the right side's open ground to amplify the act."
+}
