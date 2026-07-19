@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "10-untitled-27.jpg",
+  "width": 1200,
+  "height": 1209,
+  "aspect": 0.9926,
+  "tonal": {
+    "mean": 0.4925297642740659,
+    "std": 0.22184681673354847,
+    "p05": 0.12941176470588237,
+    "p95": 0.8,
+    "edge_density": 0.008612204724409447
+  },
+  "palette": [
+    "#c9bfb7",
+    "#2d2826",
+    "#a09790",
+    "#7f7771",
+    "#58514c"
+  ],
+  "lines": [
+    {
+      "x1": 0.37893700787401574,
+      "y1": 0.771484375,
+      "x2": 0.39173228346456695,
+      "y2": 0.6201171875,
+      "angle_deg": -85.2057679333694,
+      "length": 0.10782893831089994,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.3935546875,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0,
+      0.4443359375
+    ],
+    "regions": [
+      {
+        "cx": 0.14595586692283838,
+        "cy": 0.4567284780315369,
+        "x": 0.0,
+        "y": 0.3857421875,
+        "w": 0.38188976377952755,
+        "h": 0.123046875,
+        "area_frac": 0.025967335137795276
+      },
+      {
+        "cx": 0.5061961928939804,
+        "cy": 0.3870572765656712,
+        "x": 0.4389763779527559,
+        "y": 0.2890625,
+        "w": 0.1486220472440945,
+        "h": 0.189453125,
+        "area_frac": 0.01657561054379921
+      },
+      {
+        "cx": 0.5038675312644743,
+        "cy": 0.8545837678520928,
+        "x": 0.4478346456692913,
+        "y": 0.806640625,
+        "w": 0.11318897637795275,
+        "h": 0.0966796875,
+        "area_frac": 0.008496862696850394
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9184516446595974,
+    "vertical_axis_x": 0.4625,
+    "horizontal": 0.68297536378702,
+    "horizontal_axis_y": 0.4
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.4443359375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2214023919753086,
+    "phi": 0.40152342129668595,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.394,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.463,
+      "confidence": 0.92,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.444,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

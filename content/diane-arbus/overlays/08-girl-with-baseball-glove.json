@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-girl-with-baseball-glove.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.557, "y": 0.335, "r": 0.035, "label": "face" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.43, "rx": 0.14, "ry": 0.13, "label": "baseball glove" },
+    { "type": "polyline", "points": [[0.55, 0.34], [0.50, 0.43], [0.49, 0.71]], "label": "face, glove, stance" }
+  ],
+  "notes": "A dark glove interrupts the centered stance and makes attention shuttle between hand and face."
+}

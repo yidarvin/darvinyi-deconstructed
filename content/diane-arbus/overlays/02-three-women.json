@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-three-women.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.32, "cy": 0.48, "rx": 0.09, "ry": 0.18, "label": "left figure" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.58, "rx": 0.12, "ry": 0.16, "label": "bent figure" },
+    { "type": "polyline", "points": [[0.32, 0.48], [0.51, 0.58], [0.70, 0.43]], "label": "three poses" }
+  ],
+  "notes": "Three unlike poses form a shallow triangle rather than a conventional group portrait."
+}

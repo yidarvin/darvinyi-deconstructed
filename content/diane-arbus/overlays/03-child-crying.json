@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-child-crying.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.533, "y": 0.336, "r": 0.035, "label": "face" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.35, "rx": 0.23, "ry": 0.20, "label": "close address" },
+    { "type": "polyline", "points": [[0.41, 0.33], [0.53, 0.34], [0.61, 0.43]], "label": "eyes to mouth" }
+  ],
+  "notes": "A close frontal face concentrates the photograph's emotional information into a small field."
+}

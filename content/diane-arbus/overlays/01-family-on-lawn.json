@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-family-on-lawn.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.225, "y": 0.616, "r": 0.035, "label": "left chair" },
+    { "type": "subject_anchor", "x": 0.703, "y": 0.593, "r": 0.035, "label": "right chair" },
+    { "type": "polyline", "points": [[0.22, 0.62], [0.47, 0.63], [0.70, 0.59]], "label": "family interval" }
+  ],
+  "notes": "The paired chaise lounges make a low, uneasy social symmetry across the lawn."
+}

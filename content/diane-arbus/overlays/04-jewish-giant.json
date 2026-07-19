@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-jewish-giant.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.47, "rx": 0.13, "ry": 0.31, "label": "towering figure" },
+    { "type": "ellipse", "cx": 0.64, "cy": 0.53, "rx": 0.15, "ry": 0.13, "label": "seated parents" },
+    { "type": "polyline", "points": [[0.48, 0.25], [0.48, 0.57], [0.64, 0.53]], "label": "scale chain" }
+  ],
+  "notes": "The standing body and the small seated pair turn domestic scale into the photograph's governing relation."
+}

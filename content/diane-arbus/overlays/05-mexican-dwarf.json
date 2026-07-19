@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-mexican-dwarf.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.53, "cy": 0.40, "rx": 0.20, "ry": 0.28, "label": "sitter" },
+    { "type": "polyline", "points": [[0.54, 0.26], [0.54, 0.48], [0.64, 0.64]], "label": "body to bed" },
+    { "type": "polyline", "points": [[0.18, 0.55], [0.42, 0.55], [0.73, 0.55]], "label": "room divide" }
+  ],
+  "notes": "The seated figure and the room's horizontal division make the interior read as a tight stage."
+}

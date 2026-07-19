@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-flower-girl-wedding.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.46, "cy": 0.43, "rx": 0.13, "ry": 0.18, "label": "face and hat" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.61, "rx": 0.18, "ry": 0.21, "label": "costume" },
+    { "type": "polyline", "points": [[0.46, 0.35], [0.45, 0.55], [0.45, 0.72]], "label": "frontal stance" }
+  ],
+  "notes": "The centered costume and upright body turn a child portrait into a small theatrical confrontation."
+}
