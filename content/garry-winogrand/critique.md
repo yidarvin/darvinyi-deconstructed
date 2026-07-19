@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Builder resolution — 2026-07-18
 
@@ -31,3 +31,26 @@ Fresh analysis, render, deterministic scoring, and visual proof checks pass for 
 - All twelve proofs were visually reviewed against their overlay specs and analysis files.
 - The chapter's stated analyzer values agree with the analysis JSON within the stated tolerance. The research and chapter do not invent camera, film, or print settings.
 - Every image has an Art Institute object record and collection credit, and every fair-use entry provides a concise per-image four-factor rationale. No source-integrity blocker was found.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **03-central-park-zoo** — Remove or redraw `DIVERGENT GAZES`. Its polyline starts on the woman's headscarf, arcs above the man's eye line, and ends by the chimp rather than tracing any pictured gaze direction. The labeled feature is therefore not visible as drawn.
+2. **04-cape-kennedy-apollo-11** — Remove or accurately relocate `SPECTATOR PLATFORM`. The horizontal at `y=0.608` runs on the gravel below the spectator wall/platform rather than along that structure; the analyzer's tonal split is not evidence for the claimed platform edge.
+3. **08-new-york-phone-booth** — Remove or re-anchor `MAILBOX`. The anchor at `(0.116, 0.127)` circles a small bright upper-left form, while the USPS mailbox named by the label is the large object at far-left mid-frame.
+4. **08-new-york-phone-booth** — Remove or replace `TILTED PHONE BOOTH` `frame_in_frame`. Its axis-aligned box crosses unrelated storefront space and misses substantial booth structure, so it does not frame the canted booth named by its label. The aligned `BOOTH EDGE` may remain.
+5. **09-hippy-hollow-lake-travis** — Remove or relocate `WATERLINE`. The horizontal at `y=0.675` crosses foreground shore vegetation; the visible water/shore boundary is irregular and substantially higher where it can be seen. This also makes the chapter's statement that the overlay marks the waterline false.
+6. **11-venice-california** — Remove, relabel, or redraw `BLOCKING ARM`. The polyline from `(0.38, 0.01)` to `(0.50, 0.82)` follows the foreground man's back/torso contour, not the horizontally extended arm that occludes the woman. This is distinct from, and does not reopen, the prior round's resolved `BENCH AND PAVEMENT BAND` finding.
+
+### Advisory (non-blocking)
+
+- **01-worlds-fair-new-york-city** — `CENTRAL GESTURES` is approximate rather than tightly following the pictured hands, but its claim remains intelligible.
+- **05-hard-hat-rally** — `CROWD BACKLINE` reads as a broad tonal/crowd transition rather than a discrete backline; a more precise label would improve it.
+- **06-centennial-ball-feather-boa** — `FOREGROUND INTERRUPTION` lands on an ambiguous bottom-edge sliver, and `BOA ENCLOSURE` reads as a diagrammatic triangle rather than a close contour. Both are nonessential and may be simplified on the repair pass.
+
+### Verified in this round
+
+- All twelve current proofs were visually reviewed against their overlay specs and analyzer output. The deterministic scorer returns 100/100 for each spec; the required findings above are semantic visual-pass failures outside that geometric score.
+- The corrected `BARE TREE`, `WADING FIGURE`, and `REFLECTED ANIMAL` primitives from the prior resolved round now trace their named features. `11`'s newly identified arm/torso mismatch is not a re-raise of that round's removed horizon claim.
+- The twelve Art Institute object records, titles, dates, collection credits, IIIF identifiers, per-image four-factor fair-use rationales, and source links are traceable. Chapter and research text contain no invented camera, film, print, or exposure settings.
