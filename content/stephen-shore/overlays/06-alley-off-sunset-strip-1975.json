@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-alley-off-sunset-strip-1975.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.837, "y": 0.768, "label": "alley bend" },
+    { "type": "horizon_line", "y": 0.839, "angle": 0, "label": "shadow threshold" },
+    { "type": "frame_in_frame", "x": 0.103, "y": 0.014, "w": 0.779, "h": 0.834, "label": "alley opening" }
+  ],
+  "notes": "Dark walls turn a service alley into a shallow funnel whose bright hillside is held just beyond the road bend."
+}

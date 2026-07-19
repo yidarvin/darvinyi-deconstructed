@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-bay-theater-ashland-1973.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.575, "label": "marquee axis" },
+    { "type": "frame_in_frame", "x": 0.236, "y": 0.195, "w": 0.544, "h": 0.397, "label": "theater facade" },
+    { "type": "polyline", "points": [[0.010, 0.700], [0.500, 0.730], [0.990, 0.742]], "label": "car band" }
+  ],
+  "notes": "The theater's vertical marquee anchors a broad band of cars, signs, and entrance activity."
+}

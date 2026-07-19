@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-second-street-east-kalispell-1974.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.401, "angle": -1.9, "label": "distant grade" },
+    { "type": "subject_anchor", "x": 0.851, "y": 0.449, "r": 0.035, "label": "signal cluster" },
+    { "type": "polyline", "points": [[0.393, 0.955], [0.560, 0.730], [0.626, 0.567]], "label": "road recession" }
+  ],
+  "notes": "A low road trajectory moves into the light, while traffic poles and storefront signs keep the wide street from becoming empty perspective."
+}

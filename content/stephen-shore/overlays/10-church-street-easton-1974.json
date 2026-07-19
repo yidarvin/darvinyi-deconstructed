@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-church-street-easton-1974.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.750, "angle": 0, "label": "cross street" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "center facade" },
+    { "type": "frame_in_frame", "x": 0.390, "y": 0.140, "w": 0.264, "h": 0.488, "label": "awning facade" },
+    { "type": "polyline", "points": [[0.507, 0.950], [0.613, 0.803], [0.734, 0.746]], "label": "right curb" }
+  ],
+  "notes": "The central awnings hold an intersection whose curbs and side walls make the civic space read as a measured plane."
+}

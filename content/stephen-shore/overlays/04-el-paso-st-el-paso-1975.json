@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-el-paso-st-el-paso-1975.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.451, "y": 0.304, "label": "cross-street convergence" },
+    { "type": "subject_anchor", "x": 0.617, "y": 0.518, "r": 0.035, "label": "crossing figure" },
+    { "type": "frame_in_frame", "x": 0.028, "y": 0.027, "w": 0.249, "h": 0.874, "label": "tree trunk" },
+    { "type": "polyline", "points": [[0.452, 0.663], [0.646, 0.663], [0.992, 0.666]], "label": "street edge" }
+  ],
+  "notes": "A tree and signs interrupt the crossing street, keeping near pedestrian scale and distant architecture active at once."
+}

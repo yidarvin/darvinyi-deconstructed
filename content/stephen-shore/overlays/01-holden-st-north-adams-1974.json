@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-holden-st-north-adams-1974.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.306, "y": 0.724, "label": "street recession" },
+    { "type": "horizon_line", "y": 0.761, "angle": 0, "label": "far curb" },
+    { "type": "leading_line", "points": [[0.087, 0.183], [0.375, 0.761]], "arrow": true, "label": "fire-escape edge" },
+    { "type": "subject_anchor", "x": 0.523, "y": 0.657, "r": 0.035, "label": "white house" }
+  ],
+  "notes": "Two close facades and a fire escape funnel the apparently open street toward the small white house."
+}

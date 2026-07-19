@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-meeting-st-charleston-1975.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.202, "y": 0.057, "w": 0.704, "h": 0.619, "label": "main facade" },
+    { "type": "leading_line", "points": [[0.783, 0.487], [0.950, 0.677]], "arrow": true, "label": "fire stair" },
+    { "type": "polyline", "points": [[0.006, 0.846], [0.507, 0.748], [0.997, 0.871]], "label": "parking edge" }
+  ],
+  "notes": "The repeated windows make an all-over facade, while the angled stair and parked cars introduce the image's few directional departures."
+}

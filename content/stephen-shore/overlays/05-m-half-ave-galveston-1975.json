@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-m-half-ave-galveston-1975.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.459, "angle": 0, "label": "porch rail" },
+    { "type": "vanishing_point", "x": 0.258, "y": 0.439, "label": "stair recession" },
+    { "type": "leading_line", "points": [[0.292, 0.450], [0.585, 0.818]], "arrow": true, "label": "stair rail" },
+    { "type": "frame_in_frame", "x": 0.558, "y": 0.493, "w": 0.260, "h": 0.271, "label": "lower doorway" }
+  ],
+  "notes": "The stair, rail, doorway, and parked car turn a modest porch into a layered set of lateral pressures."
+}

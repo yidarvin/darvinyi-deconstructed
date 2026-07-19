@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-us-93-kingman-1975.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.472, "angle": 0, "label": "ridge line" },
+    { "type": "frame_in_frame", "x": 0.013, "y": 0.720, "w": 0.955, "h": 0.180, "label": "concrete apron" },
+    { "type": "polyline", "points": [[0.588, 0.583], [0.761, 0.556], [0.996, 0.562]], "label": "roadside run" }
+  ],
+  "notes": "A broad concrete foreground holds the small highway businesses and distant ridge in a deliberately even field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-us-10-post-falls-1974.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.640, "angle": 0, "label": "storefront base" },
+    { "type": "subject_anchor", "x": 0.680, "y": 0.990, "r": 0.035, "label": "onion bags" },
+    { "type": "frame_in_frame", "x": 0.506, "y": 0.393, "w": 0.262, "h": 0.245, "label": "open car" }
+  ],
+  "notes": "Produce, vehicles, and the repeated Falls sign distribute attention across a loading space rather than isolating a single subject."
+}
