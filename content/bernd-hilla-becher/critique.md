@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-19
 
@@ -41,3 +41,36 @@ Validation: `scripts/check.sh` was run after the correction; its deterministic
 pipeline, registry/content, chapter-sync, prose-lint, test, and production-build
 gates completed successfully. The test environment emits known jsdom
 `Window.scrollTo()` notices without test failures.
+
+## Critique round — 2026-07-19 (approval re-review)
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Review evidence
+
+- Visually re-reviewed all ten current proof PNGs against their source images and
+  overlay specs. Every frame boundary and labeled row or column gutter traces the
+  displayed print field; each overlay uses three relevant primitives and makes no
+  false horizon, symmetry, vanishing-point, or individual-subject claim.
+- The former required finding from the 2026-07-19 critique round remains
+  resolved: the six affected three-column layouts place their vertical
+  `left inter-column gutter` at x=0.34 in the visible whitespace, not through a
+  middle print. No material regression was found.
+- The chapter's luminance, percentile, edge-density, and palette values agree
+  with the corresponding analyzer records at the stated rounding tolerance.
+  Its explicit no-settings statement is consistent with the empty EXIF manifest
+  and research record.
+- All ten images have matching source entries, collection links, credits, and
+  concise per-image four-factor fair-use rationales. The chapter is not limited,
+  and no untraceable image or access-control concern is documented.
+- `python3 scripts/validate_pipeline.py` passed after this review. The local
+  composition scorer referenced by the build contract is not present in this
+  checkout, so this round relied on the retained prior 100/100 score records plus
+  direct proof/spec visual verification; that absence does not undermine the
+  visually confirmed resolved correction.
