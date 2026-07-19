@@ -1,0 +1,14 @@
+{
+  "score": 89.0,
+  "deductions": [
+    {
+      "primitive": "subject_anchor[3]",
+      "points": 11.0,
+      "reason": "anchor is 0.067 diag away from nearest measured subject",
+      "fix": "move anchor toward (0.678, 0.576)"
+    }
+  ],
+  "warnings": [],
+  "threshold": 80.0,
+  "pass": true
+}

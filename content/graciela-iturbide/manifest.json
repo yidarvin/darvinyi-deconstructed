@@ -1,0 +1,100 @@
+[
+  {
+    "file": "01-our-lady-of-the-iguanas.jpg",
+    "width": 1332,
+    "height": 1600,
+    "sha1": "5795fb13",
+    "source": "01-our-lady-of-the-iguanas.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-la-frontera.jpg",
+    "width": 1101,
+    "height": 1600,
+    "sha1": "430342e3",
+    "source": "02-la-frontera.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-mujer-angel.jpg",
+    "width": 1600,
+    "height": 1185,
+    "sha1": "7a13d37a",
+    "source": "03-mujer-angel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-self-portrait-with-seris.jpg",
+    "width": 1560,
+    "height": 1600,
+    "sha1": "fb7d74f5",
+    "source": "04-self-portrait-with-seris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-comadres.jpg",
+    "width": 1600,
+    "height": 1061,
+    "sha1": "b332f212",
+    "source": "05-comadres.jpg",
+    "exif": {
+      "ISOSpeedRatings": "800"
+    }
+  },
+  {
+    "file": "06-tehuantepec.jpg",
+    "width": 1600,
+    "height": 1059,
+    "sha1": "2c95b9c5",
+    "source": "06-tehuantepec.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-despues-del-rapto.jpg",
+    "width": 1600,
+    "height": 1068,
+    "sha1": "cfe1de08",
+    "source": "07-despues-del-rapto.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-marcelina.jpg",
+    "width": 1065,
+    "height": 1600,
+    "sha1": "ac85cd69",
+    "source": "08-marcelina.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-jueves-santo.jpg",
+    "width": 1600,
+    "height": 1068,
+    "sha1": "a3e661b2",
+    "source": "09-jueves-santo.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-fiesta-del-lagarto.jpg",
+    "width": 1600,
+    "height": 1067,
+    "sha1": "e380fabd",
+    "source": "10-fiesta-del-lagarto.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-lagarto.jpg",
+    "width": 1085,
+    "height": 1600,
+    "sha1": "c260bae6",
+    "source": "11-lagarto.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-self-portrait-trotskys-house.jpg",
+    "width": 1587,
+    "height": 1600,
+    "sha1": "f6b58368",
+    "source": "12-self-portrait-trotskys-house.jpg",
+    "exif": {}
+  }
+]
