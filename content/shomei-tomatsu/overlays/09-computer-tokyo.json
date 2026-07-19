@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-computer-tokyo.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.13, "y": 0.05, "w": 0.72, "h": 0.83, "label": "cable field" },
+    { "type": "polyline", "points": [[0.04, 0.77], [0.23, 0.73], [0.45, 0.79], [0.67, 0.87], [0.94, 0.90]], "label": "foreground cable" },
+    { "type": "polyline", "points": [[0.29, 0.23], [0.48, 0.31], [0.62, 0.39], [0.75, 0.52]], "label": "tangled wire route" }
+  ],
+  "notes": "A dense net of cables suppresses depth and makes the machine read as a textured rectangle."
+}

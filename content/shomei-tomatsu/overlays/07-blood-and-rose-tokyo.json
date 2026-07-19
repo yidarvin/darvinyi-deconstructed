@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-blood-and-rose-tokyo.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.476, "y": 0.613, "r": 0.035, "label": "central figure" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.42, "w": 0.90, "h": 0.42, "label": "lit screen" },
+    { "type": "polyline", "points": [[0.0, 0.06], [0.24, 0.01], [0.55, 0.05], [0.84, 0.10], [1.0, 0.16]], "label": "blue upper band" }
+  ],
+  "notes": "A small figure and rose-colored screen are pressed beneath a sweeping, dark-blue ceiling band."
+}

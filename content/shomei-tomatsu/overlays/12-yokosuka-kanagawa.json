@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "12-yokosuka-kanagawa.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.26, "cy": 0.43, "rx": 0.15, "ry": 0.18, "label": "near sailor's face" },
+    { "type": "polyline", "points": [[0.00, 0.55], [0.14, 0.51], [0.31, 0.49], [0.47, 0.50]], "label": "curved canopy edge" }
+  ],
+  "notes": "A near sailor fills the low-angle frame while canopy and street edges compress the encounter."
+}
