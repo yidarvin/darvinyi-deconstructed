@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-concession-store-crown-mines.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.89, "angle": 0.0, "label": "LOWER SHELF" },
+    { "type": "polyline", "points": [[0.50, 0.04], [0.50, 0.55], [0.50, 0.95]], "label": "GUITAR SPINE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.41, "rx": 0.11, "ry": 0.20, "label": "GUITAR" }
+  ],
+  "notes": "The guitar is a bright vertical interruption in a serial field of folded goods and horizontal shelves."
+}

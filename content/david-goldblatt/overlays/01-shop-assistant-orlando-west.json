@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-shop-assistant-orlando-west.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.266, "angle": 0.0, "label": "SHELF BAND" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.05, "w": 1.00, "h": 0.67, "label": "SHELVED FIELD" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.39, "rx": 0.08, "ry": 0.10, "label": "FACE" }
+  ],
+  "notes": "The assistant interrupts an all-over shelf grid, with one level band holding the face against repeated cans."
+}

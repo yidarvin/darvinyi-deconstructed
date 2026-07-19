@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-waitress-bezuidenhout-park.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.55, "angle": 0.0, "label": "LATTICE RAIL" },
+    { "type": "leading_line", "points": [[0.395, 0.85], [0.521, 0.353]], "arrow": true, "label": "CHAIR DIAGONAL" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.43, "rx": 0.07, "ry": 0.08, "label": "WAITRESS" }
+  ],
+  "notes": "The waitress holds the center of a room divided into a table foreground, a level lattice band, and a decorative upper wall."
+}

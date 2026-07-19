@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-hold-up-hillbrow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.631, "angle": 0.0, "label": "CAR AND CURB BAND" },
+    { "type": "polyline", "points": [[0.50, 0.56], [0.59, 0.53], [0.65, 0.50]], "label": "TOY GESTURE" },
+    { "type": "ellipse", "cx": 0.61, "cy": 0.56, "rx": 0.12, "ry": 0.17, "label": "CHILD" }
+  ],
+  "notes": "A child's small gesture is set against the larger man and a sidewalk that recedes toward the street."
+}

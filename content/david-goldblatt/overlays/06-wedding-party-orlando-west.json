@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-wedding-party-orlando-west.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.154, "angle": 0.0, "label": "HEAD-HEIGHT BAND" },
+    { "type": "leading_line", "points": [[0.073, 0.746], [0.187, 0.154]], "arrow": true, "label": "LEFT FIGURE EDGE" },
+    { "type": "ellipse", "cx": 0.68, "cy": 0.43, "rx": 0.19, "ry": 0.37, "label": "BRIDE AND GROOM" }
+  ],
+  "notes": "A close row of bodies makes a social frieze, with the bride and groom held as the bright center-right pair."
+}

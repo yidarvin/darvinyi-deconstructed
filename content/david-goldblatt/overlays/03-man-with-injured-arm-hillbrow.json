@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-man-with-injured-arm-hillbrow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.19, "angle": 0.0, "label": "CONCRETE LINTEL" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "FIGURE SPINE" },
+    { "type": "polyline", "points": [[0.47, 0.52], [0.43, 0.67], [0.34, 0.75]], "label": "SLING AND ARM" }
+  ],
+  "notes": "A frontal figure is pinned to the dark architectural opening while the sling cuts the suit with a single diagonal."
+}

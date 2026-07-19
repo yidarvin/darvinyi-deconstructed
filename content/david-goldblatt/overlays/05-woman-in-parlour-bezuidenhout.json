@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-woman-in-parlour-bezuidenhout.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.35, "angle": 0.0, "label": "WALL-CEILING BAND" },
+    { "type": "frame_in_frame", "x": 0.66, "y": 0.35, "w": 0.31, "h": 0.48, "label": "DISPLAY CABINET" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.55, "rx": 0.12, "ry": 0.22, "label": "SITTER" }
+  ],
+  "notes": "The sitter occupies the open central interval between a looming lamp, a cabinet of objects, and the floor line."
+}

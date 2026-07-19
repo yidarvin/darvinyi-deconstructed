@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-newsboy-hillbrow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.157, "angle": -0.9, "label": "WALL TOP" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.14, "w": 0.94, "h": 0.67, "label": "BRICK FIELD" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.51, "rx": 0.09, "ry": 0.25, "label": "NEWSBOY" }
+  ],
+  "notes": "A small dark figure is isolated in the broad measured field of the brick wall, papers enlarging the right side."
+}

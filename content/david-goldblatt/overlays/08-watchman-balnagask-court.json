@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-watchman-balnagask-court.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "SEATED FIGURE SPINE" },
+    { "type": "horizon_line", "y": 0.873, "angle": 0.0, "label": "PAVEMENT BAND" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.46, "rx": 0.19, "ry": 0.36, "label": "WATCHMAN" }
+  ],
+  "notes": "The watchman is held on a near-central spine, a still figure separated from the blurred traffic field behind."
+}
