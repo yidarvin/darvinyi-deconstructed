@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.51, "cy": 0.47, "rx": 0.11, "ry": 0.23, "label": "standing figure" },
     { "type": "polyline", "points": [[0.16, 0.51], [0.51, 0.47], [0.83, 0.50]], "label": "open field" },
-    { "type": "polyline", "points": [[0.51, 0.30], [0.51, 0.56], [0.44, 0.66]], "label": "body to ground" }
+    { "type": "polyline", "points": [[0.51, 0.30], [0.51, 0.56], [0.51, 0.90]], "label": "body to ground" }
   ],
   "notes": "A solitary figure is held inside a broad outdoor field, so distance becomes part of the portrait."
 }

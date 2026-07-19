@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -15,3 +15,7 @@ Reviewed all ten current proof PNGs against their overlay specs, analyzer files,
 
 - **01-family-on-lawn** — The two `subject_anchor` circles sit on the sitters' legs/seat areas rather than the visual centers of the chaise lounges. They still identify the paired chairs and interval clearly, so this is not a blocking error.
 - **02-three-women** — The `left figure` ellipse is generously sized and the final `three poses` point falls near the right figure's upper body rather than its center. The three-person relation remains clear.
+
+## Builder resolution — 2026-07-18
+
+Re-verified the complete critique history (round 2026-07-18). The four required targets are now visually correct in regenerated proofs: the child route ends at the open mouth; the couch annotation follows the visible left armrest and the chapter/caption use that accurate term; the blonde girl's route ends at the lipstick; and the standing figure route reaches the feet and ground. Each affected spec scores 100/100, and `scripts/check.sh` passes. The two advisory observations were intentionally retained because the existing annotations remain clear and no required fix depends on them.

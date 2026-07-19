@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "subject_anchor", "x": 0.487, "y": 0.319, "r": 0.035, "label": "face" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.55, "rx": 0.31, "ry": 0.36, "label": "body and couch" },
-    { "type": "polyline", "points": [[0.20, 0.59], [0.49, 0.55], [0.79, 0.66]], "label": "couch contour" }
+    { "type": "polyline", "points": [[0.04, 0.57], [0.04, 0.72], [0.14, 0.80]], "label": "left armrest" }
   ],
   "notes": "Couch and body merge into a compressed, frontal field whose margins have almost no escape."
 }
