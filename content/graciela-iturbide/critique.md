@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-19
 
@@ -23,3 +23,21 @@ structure remain intact.
 Re-verified prior required rounds: 2026-07-19 (the only prior critique round).
 Each listed source note now binds to its current proof and chapter plate; no
 overlay, proof, or chapter change was required for this prose-only correction.
+
+## Critique round — 2026-07-19
+
+### Required
+
+1. **01-our-lady-of-the-iguanas:** The `SHOULDER BREAK` horizon line at y=0.589 crosses the neck/iguana layer, not either shoulder or the break into the shirt. This makes the chapter's claim that the line separates the head-load from the patterned shirt visibly false. Rebind it to the actual shoulder break or remove the claim.
+
+2. **08-marcelina:** The `LARGE DEVOTIONAL IMAGE` `frame_in_frame` (x=0.22, y=0.27, w=0.37, h=0.46) spans several distinct devotional pictures and altar objects; it does not trace one large internal frame. The chapter repeats that the overlay gives the large image its own frame. Draw the frame around the named image, or change both the primitive and prose to a truthful, specific structure.
+
+3. **09-jueves-santo:** The cross labelled `CHILD'S FACE` is at (0.686, 0.671), in the lower patterned cloth/hand area; the child's visible face is high in the frame. This is a wrong-feature label, not a small endpoint error. Place the face marker on the face or relabel/remove it.
+
+4. **11-lagarto:** Two labelled anchors trace the wrong things: `CARVED LIZARD` at (0.367, 0.424) lies on the left woman's garment rather than the central carving, and `RIGHT WOMAN` at (0.988, 0.382) lies on the cropped right-edge hand. Reposition or relabel both primitives so the proof supports the chapter's account of the pair and lizard.
+
+5. **12-self-portrait-trotskys-house:** `OPENING RHYTHM` does not connect the pictured wall openings; its polyline runs through unpunctured wall/shadow. The horizontal `SHADOW THRESHOLD` at y=0.695 likewise does not trace the image's principal diagonal transition from light wall into shadow. Both are material visual claims repeated in the chapter, so revise them to the visible openings and actual threshold (or remove the unsupported claims).
+
+### Advisory (non-blocking)
+
+None.
