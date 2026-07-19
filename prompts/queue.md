@@ -99,7 +99,7 @@ real queue and state live in data/registry.json.
 | 88  | vivian-maier              | Vivian Maier              | DONE    |
 | 89  | william-eggleston         | William Eggleston         | DONE    |
 | 90  | stephen-shore             | Stephen Shore             | DONE    |
-| 91  | manuel-alvarez-bravo      | Manuel Álvarez Bravo      | PENDING |
+| 91  | manuel-alvarez-bravo      | Manuel Álvarez Bravo      | DONE    |
 | 92  | graciela-iturbide         | Graciela Iturbide         | PENDING |
 | 93  | seydou-keita              | Seydou Keïta              | PENDING |
 | 94  | malick-sidibe             | Malick Sidibé             | PENDING |

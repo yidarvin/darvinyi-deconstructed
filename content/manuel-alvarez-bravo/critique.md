@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -86,3 +86,27 @@ durmiendo* has no mat-convergence claim.
 All twelve overlays score 100/100; the seven affected plates received fresh
 analysis, re-rendering, and visual checks, and the two chapter copies are
 byte-identical. `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Evidence checked
+
+Fresh visual review of all twelve current proof PNGs against their overlay
+specifications and analyzer outputs found that each primitive traces the named
+visible feature. The resolved issues from both earlier rounds remain resolved:
+no false curb, pavement, mat, sign, wall, display, or symmetry claims have
+returned. All twelve specs score 100/100 with no deductions or warnings under
+the composition scorer. The prose's measured tonal and edge-density values
+match the current analyzer JSON within the stated tolerance, and it makes no
+camera-setting claims. The eleven AIC object URLs and the Commons file URL
+resolve publicly; their titles, dates, makers, and source credits match
+`sources.md`. Each AIC image retains its per-image fair-use rationale, while
+the Commons rendition records its CC BY-SA 4.0 credit and normalization change.
