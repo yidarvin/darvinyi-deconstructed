@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -40,3 +40,10 @@ Re-verified required fixes from the full critique history: 2026-07-18 round (the
 - All twelve current proofs were visually reviewed against their overlay specs and analysis. The two requirements above are semantic/structural defects that the geometric score does not catch; all twelve specs currently meet the 80-point score threshold.
 - The two requirements resolved in the preceding round remain resolved: the Mount Rushmore ellipse marks the left tourist's camera, and the New York 1974 anchor marks billboard lettering rather than the statue.
 - Source review confirmed each Art Institute record, title/date/print-date where stated, credit, non-public-domain status, IIIF identifier, local dimension/hash, and individual four-factor fair-use rationale. No camera-setting or unsupported historical claims were found; chapter numeric claims are within the stated analysis tolerances.
+
+## Resolution — 2026-07-18
+
+1. **02-new-york-city-1963-b:** replaced the false `vanishing_point` claim with a `screened car` subject anchor on the car's visible front edge. The chapter now identifies the mesh runs as nearly parallel rather than as lines that converge at a measured centre. The rebuilt proof was visually checked and scores 88.6/100.
+2. **08-colorado:** relabeled the measured right-door anchor as `right-door notice` and added a precise ellipse around the Kennedy portrait in the left window. The chapter now makes the same distinction. The unsupported sidewalk-seam line was removed as a clean, non-regressive simplification; the rebuilt proof was visually checked and scores 100/100.
+
+Re-verified every required fix in the full critique history: the first 2026-07-18 round (Mount Rushmore's ellipse remains on the left tourist's raised camera; New York 1974's anchor remains on billboard lettering, not the statue) and the subsequent 2026-07-18 round (the two corrections above). The earlier proofs were visually rechecked; their current scores are 100/100 and 88/100 respectively. All twelve Lee Friedlander overlays score at least 80, `scripts/check.sh` passed, and the rendered chapter copies remain byte-identical.
