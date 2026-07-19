@@ -1,4 +1,15 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution — 2026-07-18
+
+Re-verified the full required-fix history: critique round **2026-07-18** (the only prior round in `git log -p -- content/garry-winogrand/critique.md`).
+
+1. **07-peace-demonstration-central-park:** moved the `BARE TREE` polyline onto the pictured trunk (x 0.432–0.450 through its visible height), then re-rendered and visually checked the proof.
+2. **09-hippy-hollow-lake-travis:** replaced the detector-driven false `subject_anchor` with a `WADING FIGURE` ellipse at the actual figure (center 0.390, 0.550); this preserves the intended claim without mislabeling foreground foliage.
+3. **11-venice-california:** removed the false `BENCH AND PAVEMENT BAND` horizon claim; the surviving overlay names only the older woman and the blocking arm.
+4. **12-new-york-city:** replaced the detector-driven false `subject_anchor` with a `REFLECTED ANIMAL` ellipse at the visible reflected face (center 0.820, 0.127), rather than the oversized arm.
+
+Fresh analysis, render, deterministic scoring, and visual proof checks pass for all four corrected overlays (100/100 each). `scripts/check.sh` passed before this resolution was recorded.
 
 ## Critique round — 2026-07-18
 
