@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-a-village-near-delhi.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.827, "angle": -7.0, "label": "WALL-TO-GROUND SEAM" },
+    { "type": "leading_line", "points": [[0.378, 0.387], [0.578, 0.648], [0.650, 0.777]], "arrow": false, "label": "HANGING CABLE" },
+    { "type": "subject_anchor", "x": 0.377, "y": 0.241, "r": 0.035, "label": "TREE CROWN" }
+  ],
+  "notes": "A wire, cables, and the low wall seam make a sparse vertical field structurally active."
+}

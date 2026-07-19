@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-a-village-near-delhi.jpg",
+    "width": 1044,
+    "height": 1600,
+    "sha1": "88c66c26",
+    "source": "01-a-village-near-delhi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-portrait-of-the-gandhi-family.jpg",
+    "width": 1600,
+    "height": 1064,
+    "sha1": "920927e9",
+    "source": "02-portrait-of-the-gandhi-family.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-a-view-of-a-bathroom-delhi.jpg",
+    "width": 1084,
+    "height": 1600,
+    "sha1": "04e68714",
+    "source": "03-a-view-of-a-bathroom-delhi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-feeding-the-seagulls-jamuna-delhi.jpg",
+    "width": 1600,
+    "height": 685,
+    "sha1": "dd64aba4",
+    "source": "04-feeding-the-seagulls-jamuna-delhi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-visitors-at-kanyakumari.jpg",
+    "width": 1600,
+    "height": 617,
+    "sha1": "0729a587",
+    "source": "05-visitors-at-kanyakumari.jpg",
+    "exif": {}
+  }
+]

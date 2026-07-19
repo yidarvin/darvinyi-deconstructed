@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-a-view-of-a-bathroom-delhi.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.616, "angle": 0.0, "label": "TILE SEAM" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.305, "r": 0.035, "label": "WINDOW OPENING" },
+    { "type": "frame_in_frame", "x": 0.322, "y": 0.142, "w": 0.292, "h": 0.546, "label": "WINDOW FRAME" },
+    { "type": "polyline", "points": [[0.427, 0.310], [0.544, 0.378], [0.428, 0.439], [0.544, 0.507], [0.431, 0.570]], "label": "EXTERIOR STAIR RHYTHM" }
+  ],
+  "notes": "The bathroom window turns an exterior stair into a nested, repeating interior picture."
+}

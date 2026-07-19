@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-visitors-at-kanyakumari.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.617, "angle": 0.0, "label": "LOWER TONAL DIVIDE" },
+    { "type": "leading_line", "points": [[0.050, 0.557], [0.363, 0.610], [0.629, 0.586]], "arrow": false, "label": "TABLE EDGE" },
+    { "type": "polyline", "points": [[0.018, 0.334], [0.205, 0.291], [0.421, 0.333], [0.656, 0.310]], "label": "VISITOR BAND" }
+  ],
+  "notes": "Silhouetted visitors, a long table, and the divided ground turn a panorama into a lateral social rhythm."
+}

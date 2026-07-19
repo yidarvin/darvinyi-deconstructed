@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-feeding-the-seagulls-jamuna-delhi.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.234, "angle": 0.9, "label": "FAR WATERLINE" },
+    { "type": "leading_line", "points": [[0.345, 0.450], [0.515, 0.414], [0.683, 0.432]], "arrow": false, "label": "BOAT GUNWALE" },
+    { "type": "subject_anchor", "x": 0.992, "y": 0.868, "r": 0.035, "label": "LOWER-RIGHT GULL" },
+    { "type": "polyline", "points": [[0.225, 0.585], [0.426, 0.476], [0.620, 0.546], [0.799, 0.431]], "label": "DENSEST BIRD FIELD" }
+  ],
+  "notes": "The still boat gives the scattered bird field a horizontal center and human scale."
+}

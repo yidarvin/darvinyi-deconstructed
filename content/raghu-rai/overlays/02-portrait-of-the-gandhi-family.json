@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-portrait-of-the-gandhi-family.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.269, "angle": 0.0, "label": "FAR CURB" },
+    { "type": "leading_line", "points": [[0.003, 0.660], [0.196, 0.770], [0.441, 0.996]], "arrow": false, "label": "CAST SHADOW EDGE" },
+    { "type": "frame_in_frame", "x": 0.807, "y": 0.255, "w": 0.179, "h": 0.338, "label": "CARRIED PORTRAIT" }
+  ],
+  "notes": "The curb and the long cast shadow put three carried portraits into a staged public roadway."
+}
