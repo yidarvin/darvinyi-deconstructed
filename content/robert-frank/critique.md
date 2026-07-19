@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -55,3 +55,13 @@ The prior 05 road-convergence and 09 seat-back/date findings remain resolved. Th
 Re-verified every required fix from the prior critique rounds dated 2026-07-18: 05 continues to trace the two road edges and broken center markings without asserting a false single convergence; 09 has no `SEAT-BACK DIAGONAL`, and its `DINER'S FACE` ellipse encloses the face rather than the torso; *Movie Usherettes, Los Angeles* is dated once as 1956 in `research.md`; and 07 continues to frame the CRT picture area rather than the television casing.
 
 For the current round, 03's `FLAGSTAFF` now follows the visible vertical staff through its lower endpoint, and its source note identifies the tuba player, bell, flag, and vertical stack without inventing a speaker or gesture. The 07 `WINDOW` frame now reaches the visible sill, so the chapter's bright-window reading matches the proof. Both revised overlay specs score 100/100 and their regenerated proofs passed visual review. `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+### Required
+
+No required findings. All twelve current proofs were visually checked against their overlay specs and analyzer evidence. The resolved 03 flagstaff, 07 CRT-screen/window, 09 face/seat-back, 05 road, and *Movie Usherettes* date corrections remain materially accurate. The chapter's reported analyzer measurements match the current analysis files within tolerance, no camera settings are asserted, and all twelve credited Art Institute object/IIIF sources and per-image four-factor fair-use rationales are present and traceable.
+
+### Advisory (non-blocking)
+
+- **04-drugstore-detroit — `COUNTER RECESSION`.** The 94/100 scorer result retains a detector warning that the long leading line does not cleanly track a single measured edge. In the proof it still reads as the counter's visible receding route and does not mislabel the scene, so this is non-blocking; a future pass could tighten it to a more discrete counter contour.

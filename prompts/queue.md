@@ -92,7 +92,7 @@ real queue and state live in data/registry.json.
 | 81  | lisette-model             | Lisette Model             | DONE    |
 | 82  | helen-levitt              | Helen Levitt              | DONE    |
 | 83  | saul-leiter               | Saul Leiter               | DONE    |
-| 84  | robert-frank              | Robert Frank              | PENDING |
+| 84  | robert-frank              | Robert Frank              | DONE    |
 | 85  | diane-arbus               | Diane Arbus               | PENDING |
 | 86  | garry-winogrand           | Garry Winogrand           | PENDING |
 | 87  | lee-friedlander           | Lee Friedlander           | PENDING |
