@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-18
 
@@ -109,3 +109,22 @@ Re-verified every required fix from the complete critique history: the first 202
 10. **Record and technique statement:** research and the mirrored chapter now state the documented gelatin silver print medium for all twelve collection objects (with Madison's gelatin silver print on paper), while continuing to avoid unsupported camera, exposure, negative, and darkroom claims.
 
 Re-verified every required fix from the complete critique history: round one (Mount Rushmore's ellipse remains on the raised left tourist camera; New York 1974's anchor remains billboard lettering rather than the statue); round two (New York 1963's car is a subject anchor, not a vanishing point; Colorado distinguishes the left-window Kennedy portrait from the right-door notice); round three (New York 1964 has no false full-width roofline or window seam); and the present ten-item round. All twelve overlays score at least 80 under the strict scorer (minimum 88), every affected regenerated proof passed a clean visual check, and the mirrored chapters remain byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **05-albuquerque-new-mexico:** The hydrant ellipse favours its lower body and nozzles over its cap. It still plainly identifies the hydrant, so this is a minor fit issue rather than a misleading claim.
+- **06-madison-wisconsin:** The `display shelf` line crosses the portrait where the shelf is occluded. It still identifies the shelf/display plane; its strict-score unsupported-edge deduction is not evidence of a false feature.
+- **07-route-9w-new-york:** The `road edge` line begins slightly inside the rear-view-mirror area before continuing along the visible curb/road boundary. The named boundary remains clear; this is a small endpoint overrun.
+- **12-new-york-city-1974:** The `fence enclosure` remains a broad bracket for the fenced zone rather than a tightly bounded internal frame. It continues to identify the correct zone and is non-blocking.
+
+### Audit notes
+
+- All twelve current proofs were visually checked against their current specs and analyzer output. Every strict overlay score is at least 80 (minimum 88). The previous required corrections remain materially resolved: the screened car is an anchor rather than a vanishing point; the Colorado portrait and notice are distinct; the reflected-building and sleeping-figure annotations are bounded; the Mount Rushmore ellipse encloses the raised camera; and the New York 1974 anchor names billboard lettering rather than the statue.
+- The chapter's quoted densities, tonal values, palettes, and grid comparison agree with the current analysis files within tolerance. It documents the gelatin-silver print medium and declines unsupported camera or exposure settings.
+- Source review rechecked all twelve cited Art Institute API records and IIIF IDs: each is reachable, identifies Lee Friedlander, is marked non-public-domain, and matches the stated title/date, credit, medium, and image identifier. Each image retains an individual four-factor fair-use rationale and a web-sized, non-substitutive use statement.
