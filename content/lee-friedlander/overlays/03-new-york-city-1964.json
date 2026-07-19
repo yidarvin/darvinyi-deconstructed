@@ -1,11 +1,10 @@
 {
   "version": 1,
   "image": "03-new-york-city-1964.jpg",
-  "grid": { "type": "thirds" },
+  "grid": { "type": "phi" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.53, "y": 0.55, "w": 0.22, "h": 0.29, "label": "sleeping figure" },
-    { "type": "leading_line", "points": [[0.0, 0.09], [0.99, 0.0]], "arrow": false, "label": "reflected roofline" },
-    { "type": "leading_line", "points": [[0.0, 0.29], [0.99, 0.23]], "arrow": false, "label": "window seam" }
+    { "type": "leading_line", "points": [[0.33452, 0.39789], [0.83155, 0.33451]], "arrow": false, "label": "reflected building band" }
   ],
-  "notes": "A tiny inset figure interrupts a broad blank field while reflection expands the scene above it."
+  "notes": "A tiny inset figure interrupts a broad blank field while a short reflected building band expands the scene above it."
 }

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -63,3 +63,9 @@ Re-verified every required fix in the full critique history: the first 2026-07-1
 - All twelve current proofs were visually checked against their overlay specs and the source images. The previously resolved fixes remain resolved: the Mount Rushmore ellipse encloses the left tourist's camera, the New York 1974 anchor identifies billboard lettering rather than the statue, the New York 1963 mesh uses a car anchor rather than a false vanishing point, and Colorado distinguishes the right-door notice from the Kennedy portrait.
 - Non-strict overlay scores remain at least 80. The `03-new-york-city-1964` strict-score failure is corroborating evidence for the required visual finding above, not a separate scoring-only requirement.
 - All twelve Art Institute object records were rechecked against the documented titles, dates/print dates, artist, collection credits, non-public-domain status, and IIIF ids. Each image retains an individual four-factor fair-use rationale. The chapter's quoted analysis values match the current analyzer data within tolerance, and it expressly avoids inventing camera settings.
+
+## Resolution — 2026-07-18
+
+1. **03-new-york-city-1964:** removed the two full-width false line claims. The replacement retains the sleeping-figure frame and traces only the measured, visibly continuous reflected-building band from `(0.33452, 0.39789)` to `(0.83155, 0.33451)`; the broad blank field is intentionally unannotated. The paired chapter copies now make the same limited claim. The regenerated proof was visually checked and scores 100/100.
+
+Re-verified every required fix from the complete critique history: the first 2026-07-18 round (Mount Rushmore's ellipse still encloses the raised left tourist camera; New York 1974's anchor still identifies billboard lettering rather than the statue); the second round (New York 1963's car is a subject anchor rather than a false vanishing point; Colorado's Kennedy portrait is the left-window ellipse while the right-door notice is separately labeled); and this third round (the New York 1964 overlay has no false full-width roofline or window-seam claim). The four earlier corrected proofs were visually rechecked; their current non-strict scores are 100/100, 88/100, 100/100, and 88/100 respectively. The rendered chapter copies remain byte-identical.
