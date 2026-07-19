@@ -1,4 +1,17 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution — 2026-07-18
+
+Re-verified every required fix in the full critique history: the initial **2026-07-18** round and the follow-up **2026-07-18** round.
+
+1. **03-central-park-zoo:** removed the unsupported `DIVERGENT GAZES` polyline; the crowd band, right-edge child, and human-animal quartet remain visually truthful.
+2. **04-cape-kennedy-apollo-11:** replaced the false detector-led platform horizon with a `SPECTATOR WALL TOP` polyline on the pictured wall edge; adjusted the chapter so it no longer treats the lower tonal split as a structural platform.
+3. **08-new-york-phone-booth:** replaced the false mailbox anchor with a visually checked `USPS MAILBOX` ellipse over the actual left-edge mailbox and removed the axis-aligned `TILTED PHONE BOOTH` box; the aligned booth-edge and passerby lines remain.
+4. **09-hippy-hollow-lake-travis:** removed the false `WATERLINE` horizon and its chapter claim while retaining the already-correct `WADING FIGURE` ellipse at `(0.390, 0.550)`.
+5. **11-venice-california:** redrew `BLOCKING ARM` as a short multi-point contour along the foreground arm; the earlier removed `BENCH AND PAVEMENT BAND` horizon remains absent.
+6. **Prior round retained:** `07`'s `BARE TREE` follows the trunk, and `12`'s `REFLECTED ANIMAL` ellipse remains on the reflected face.
+
+Fresh analysis, render, deterministic scoring, and visual checks passed for `03`, `04`, `08`, `09`, and `11` (100/100 each). The regenerated contact sheet includes all twelve proofs. `scripts/check.sh` passed, including pipeline validation, chapter-byte-parity, tests, and production build.
 
 ## Builder resolution — 2026-07-18
 
