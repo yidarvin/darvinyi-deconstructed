@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -47,3 +47,19 @@ Re-verified required fixes from the full critique history: 2026-07-18 round (the
 2. **08-colorado:** relabeled the measured right-door anchor as `right-door notice` and added a precise ellipse around the Kennedy portrait in the left window. The chapter now makes the same distinction. The unsupported sidewalk-seam line was removed as a clean, non-regressive simplification; the rebuilt proof was visually checked and scores 100/100.
 
 Re-verified every required fix in the full critique history: the first 2026-07-18 round (Mount Rushmore's ellipse remains on the left tourist's raised camera; New York 1974's anchor remains on billboard lettering, not the statue) and the subsequent 2026-07-18 round (the two corrections above). The earlier proofs were visually rechecked; their current scores are 100/100 and 88/100 respectively. All twelve Lee Friedlander overlays score at least 80, `scripts/check.sh` passed, and the rendered chapter copies remain byte-identical.
+
+## Critique round — 2026-07-18
+
+### Required fixes
+
+1. **03-new-york-city-1964 — two false line claims.** The `reflected roofline` line from `(0.00, 0.09)` to `(0.99, 0.00)` crosses the blank upper field for most of its length rather than a continuous roofline. The `window seam` line from `(0.00, 0.29)` to `(0.99, 0.23)` likewise runs above the visible sloping division between the reflected buildings/window band and the blank field. The current proof therefore labels structure that is not where the lines lie; the strict scorer independently flags both as tracking no edge. Remove these lines or redraw them on the actual features, and revise the chapter's claim that the overlay follows “two true seams” if the corrected annotation no longer supports it.
+
+### Advisory (non-blocking)
+
+- **02-new-york-city-1963-b:** the deterministic scorer's nearest-subject signal lies away from the `screened car` anchor, but direct visual inspection confirms that the anchor lands on the car's front edge. This remains a detector limitation, not a misleading annotation.
+
+### Audit notes
+
+- All twelve current proofs were visually checked against their overlay specs and the source images. The previously resolved fixes remain resolved: the Mount Rushmore ellipse encloses the left tourist's camera, the New York 1974 anchor identifies billboard lettering rather than the statue, the New York 1963 mesh uses a car anchor rather than a false vanishing point, and Colorado distinguishes the right-door notice from the Kennedy portrait.
+- Non-strict overlay scores remain at least 80. The `03-new-york-city-1964` strict-score failure is corroborating evidence for the required visual finding above, not a separate scoring-only requirement.
+- All twelve Art Institute object records were rechecked against the documented titles, dates/print dates, artist, collection credits, non-public-domain status, and IIIF ids. Each image retains an individual four-factor fair-use rationale. The chapter's quoted analysis values match the current analyzer data within tolerance, and it expressly avoids inventing camera settings.
