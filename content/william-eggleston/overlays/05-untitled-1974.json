@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "ellipse", "cx": 0.38, "cy": 0.49, "rx": 0.25, "ry": 0.20, "label": "truck cab and grille" },
-    { "type": "polyline", "points": [[0.14, 0.60], [0.46, 0.58], [0.77, 0.61]], "label": "truck bed line" },
+    { "type": "polyline", "points": [[0.47, 0.40], [0.66, 0.41], [0.87, 0.43]], "label": "truck bed line" },
     { "type": "polyline", "points": [[0.0, 0.45], [0.48, 0.43], [1.0, 0.46]], "label": "low tree line" }
   ],
   "notes": "The loaded truck sits low against a broad sky, its dark mass and cab color blocks competing with empty space."

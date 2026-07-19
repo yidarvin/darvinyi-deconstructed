@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -20,3 +20,9 @@ verdict: revise
 ### Audit notes
 
 All twelve current proof/spec pairs were visually reviewed, and the deterministic scorer returned 100/100 with no warnings for each. The required findings above are semantic/placement errors that scoring cannot establish; all twelve source entries retain traceable public collection links, credits, and concise per-image fair-use rationales.
+
+## Resolution — 2026-07-18
+
+Applied all seven required fixes. The *Memphis* source note and overlay thesis now describe the open oven cavity and its two rack planes; the unrelated long-edge wording was also corrected. Re-rendered and visually checked the revised overlays for the truck bed edge, full entrance-door perimeter, shoe organizer, blue television, right fluorescent run, central shopper pair, car-and-onlookers group, and Cadillac emblem. Each revised spec scores 100/100 with no warnings.
+
+Re-verified critique history: 2026-07-18 (the sole prior critique round). Its seven required findings all hold in the current source note, overlays, proofs, and synchronized grocery-store prose. `scripts/check.sh` passed before this verdict was set.

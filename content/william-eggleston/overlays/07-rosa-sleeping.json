@@ -3,9 +3,9 @@
   "image": "07-rosa-sleeping.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "polyline", "points": [[0.19, 0.68], [0.42, 0.74], [0.72, 0.80]], "label": "sleeping body axis" },
-    { "type": "frame_in_frame", "x": 0.02, "y": 0.26, "w": 0.20, "h": 0.35, "label": "left organizer" },
-    { "type": "frame_in_frame", "x": 0.67, "y": 0.39, "w": 0.22, "h": 0.16, "label": "blue television" }
+    { "type": "polyline", "points": [[0.17, 0.73], [0.42, 0.84], [0.71, 0.90]], "label": "sleeping body axis" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.37, "w": 0.18, "h": 0.31, "label": "left organizer" },
+    { "type": "frame_in_frame", "x": 0.66, "y": 0.68, "w": 0.24, "h": 0.17, "label": "blue television" }
   ],
   "notes": "A sleeping body enters a compressed room as a diagonal among bedding folds and enclosing edges."
 }

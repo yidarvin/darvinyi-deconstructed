@@ -1,13 +1,13 @@
 # William Eggleston — source shortlist
 
-This twelve-image working set traces Eggleston's “democratic camera” from the saturated interiors and roadside scenes of the late 1960s and early 1970s through later domestic and vernacular subjects. Seven JPEGs come from the Art Institute of Chicago's public IIIF display service and five from publicly visible Whitney collection pages. Every downloaded file was opened and measured; its long edge is at least 843px, so each clears the project’s 640px floor. The records retain the complete photographed frame and are deliberately web-sized rather than reproduction-quality masters.
+This twelve-image working set traces Eggleston's “democratic camera” from the saturated interiors and roadside scenes of the late 1960s and early 1970s through later domestic and vernacular subjects. Seven JPEGs come from the Art Institute of Chicago's public IIIF display service and five from publicly visible Whitney collection pages. Every downloaded file was opened and measured; each clears the project’s 640px floor. The records retain the complete photographed frame and are deliberately web-sized rather than reproduction-quality masters.
 
 **Rights basis:** **fair-use** for every selection. The Art Institute records mark the works as not public domain; the Whitney records identify **© Eggleston Artistic Trust, courtesy Cheim & Read, NYC**, which is used here as the known rightsholder notice for the photographer’s work. Each assessment below is individual: this nonprofit book uses the complete frame only for transformative criticism, scholarship, and composition teaching; the works are creative photographs; the whole frame is required for the specific compositional relation named; and the credited, record-linked web copy is not a substitute for the museum record, original, print, or licensed reproduction.
 
 ## Shortlist
 
 ### 01 — *Memphis* (c. 1970, printed 2002)
-- **Why it matters:** The red oven and its circular burner pattern turn an ordinary kitchen into a nearly monochrome field, with a small diagonal handle breaking the grid of hard edges.
+- **Why it matters:** The dark cavity of an open oven is held by its enamel surround, while two receding rack planes turn the close interior into a shallow lattice of reflections and hard edges.
 - **Source:** https://www.artic.edu/artworks/188843/memphis (Art Institute of Chicago, object 188843; public display rendition: https://www.artic.edu/iiif/2/b109fbf4-f0b2-1570-8a04-e0ac87467c93/full/1600,/0/default.jpg)
 - **Rights / fair-use assessment:** William Eggleston; Art Institute API: not public domain; collection credit: Purchased with funds provided by Robert and Joan Feitler; known rightsholder: © Eggleston Artistic Trust. **Factor 1:** transformative criticism studies the oven’s red field and interruptions. **Factor 2:** creative photograph. **Factor 3:** the complete frame is required for the appliance’s rectangular and circular geometry. **Factor 4:** the credited 843 × 567px display copy links to the record and does not replace a licensed reproduction.
 - **File:** `raw/william-eggleston/01-memphis-oven.jpg` (843 × 567px)
