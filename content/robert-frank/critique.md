@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -49,3 +49,9 @@ For this round, 07 now frames the visible CRT picture area rather than the telev
 - **02-trolley-new-orleans — duplicated frames.** The three window-bay `frame_in_frame` annotations are visibly truthful and pedagogically useful, though the scorer's 97/100 duplicate-type warning suggests a possible future simplification.
 
 The prior 05 road-convergence and 09 seat-back/date findings remain resolved. The current 05 proof still truthfully traces the road and markings without claiming a measured convergence; the 07 CRT screen and 09 diner-face corrections remain materially accurate. All twelve current per-image Art Institute record and IIIF links returned successfully, their credited four-factor fair-use rationales remain present, the chapter's analyzer-derived numerical values are within tolerance, and no camera settings are asserted.
+
+## Resolution — 2026-07-18
+
+Re-verified every required fix from the prior critique rounds dated 2026-07-18: 05 continues to trace the two road edges and broken center markings without asserting a false single convergence; 09 has no `SEAT-BACK DIAGONAL`, and its `DINER'S FACE` ellipse encloses the face rather than the torso; *Movie Usherettes, Los Angeles* is dated once as 1956 in `research.md`; and 07 continues to frame the CRT picture area rather than the television casing.
+
+For the current round, 03's `FLAGSTAFF` now follows the visible vertical staff through its lower endpoint, and its source note identifies the tuba player, bell, flag, and vertical stack without inventing a speaker or gesture. The 07 `WINDOW` frame now reaches the visible sill, so the chapter's bright-window reading matches the proof. Both revised overlay specs score 100/100 and their regenerated proofs passed visual review. `scripts/check.sh` passed.

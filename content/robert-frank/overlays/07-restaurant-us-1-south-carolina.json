@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.29, "y": 0.10, "w": 0.15, "h": 0.17, "label": "TELEVISION SCREEN" },
-    { "type": "frame_in_frame", "x": 0.66, "y": 0.05, "w": 0.24, "h": 0.33, "label": "WINDOW" },
+    { "type": "frame_in_frame", "x": 0.66, "y": 0.05, "w": 0.24, "h": 0.45, "label": "WINDOW" },
     { "type": "polyline", "points": [[0.14, 0.62], [0.45, 0.66], [0.74, 0.62]], "label": "TABLE EDGE" },
     { "type": "ellipse", "cx": 0.54, "cy": 0.58, "rx": 0.20, "ry": 0.13, "label": "CHAIR CLUSTER" }
   ],

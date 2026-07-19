@@ -22,9 +22,9 @@ This working set uses twelve direct, public-display JPEG renditions served by th
 
 ### 03 — Political Rally, Chicago (1956)
 
-- **Why it matters:** A speaker's gesture rises through a tall field of flags and dark figures, making public spectacle read as a precarious vertical stack.
+- **Why it matters:** A tuba player obscured by the bell stands beneath a hanging flag, making public spectacle read as a precarious vertical stack of brass, cloth, and figures.
 - **Source:** https://www.artic.edu/artworks/87177/political-rally-chicago (Art Institute of Chicago, object 87177; public display rendition: https://www.artic.edu/iiif/2/21ea0c3b-519d-ea7e-f2ec-75798e59850a/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** © Robert Frank; collection credit: Photography Gallery Fund. Factor 1: transformative teaching of the flag, gesture, and crowd alignment. Factor 2: creative photographic work. Factor 3: the full tall frame is required for that vertical relation. Factor 4: the credited 843 × 1214px public display copy is web-sized and non-substitutive.
+- **Rights / fair-use assessment:** © Robert Frank; collection credit: Photography Gallery Fund. Factor 1: transformative teaching of the flag, tuba bell, and vertical stack. Factor 2: creative photographic work. Factor 3: the full tall frame is required for that vertical relation. Factor 4: the credited 843 × 1214px public display copy is web-sized and non-substitutive.
 - **File:** `raw/robert-frank/03-political-rally-chicago.jpg` (843 × 1214px)
 
 ### 04 — Drugstore, Detroit (1955/56)
