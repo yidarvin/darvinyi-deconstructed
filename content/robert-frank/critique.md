@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-18
 
@@ -34,3 +34,18 @@ The earlier 05 road-convergence, 09 seat-back, and *Movie Usherettes* date findi
 Re-verified the full prior critique round dated `2026-07-18`: 05 still traces the visible left and right road edges plus the broken center markings toward the upper crest without claiming a false measured convergence; 09 has no `SEAT-BACK DIAGONAL`; and *Movie Usherettes, Los Angeles* remains dated once, as 1956, in `research.md` and the chapter. The 05 and 09 specs score 100/100 and their proofs passed visual review.
 
 For this round, 07 now frames the visible CRT picture area rather than the television casing, so the chapter's "picture inside the picture" claim is true as rendered. The 09 `DINER'S FACE` ellipse now encloses the head from hairline through chin without extending over the torso; its matching chapter claim remains accurate. Both revised specs score 100/100, the regenerated proofs passed visual review, and `scripts/check.sh` passed.
+
+## Critique round — 2026-07-18
+
+### Required
+
+1. **03-political-rally-chicago — `FLAGSTAFF` stops tracing the flagstaff.** The overlay follows the staff at `x≈0.51` from the top to `y=0.23`, then its final segment jogs to `(0.55, 0.36)` across the flag fabric. The actual staff continues essentially vertically beside the flag. This is a materially false structural trace, not a small endpoint overshoot. Re-trace that final segment on the staff or remove the primitive; keep the chapter's flagstaff language consistent with the resulting spec.
+2. **03-political-rally-chicago — the source note describes an absent subject/action.** The image's `sources.md` “Why it matters” entry says “A speaker's gesture rises,” but the pictured central figure is a tuba player obscured by the bell; no speaker or gesture is identifiable. Replace that sentence with an account of the visible tuba, flag, and vertical stack.
+3. **07-restaurant-us-1-south-carolina — `WINDOW` does not frame the window it names.** The `frame_in_frame` runs from `y=0.05` to `y=0.38`, so its lower corners sit across the bright pane rather than on the visible sill, which is substantially lower (about `y=0.50`). It therefore marks an arbitrary portion of the window rather than its frame. Extend it to the actual window boundary, or relabel it as the specific bounded substructure and revise the prose if necessary.
+
+### Advisory (non-blocking)
+
+- **09-cafeteria-san-francisco — `NEAR COUNTER`.** The polyline reads more as a route through foreground tableware than a sharply bounded counter edge. This remains the previously noted interpretive, non-blocking concern; it does not contradict the chapter's central face-and-crowding reading.
+- **02-trolley-new-orleans — duplicated frames.** The three window-bay `frame_in_frame` annotations are visibly truthful and pedagogically useful, though the scorer's 97/100 duplicate-type warning suggests a possible future simplification.
+
+The prior 05 road-convergence and 09 seat-back/date findings remain resolved. The current 05 proof still truthfully traces the road and markings without claiming a measured convergence; the 07 CRT screen and 09 diner-face corrections remain materially accurate. All twelve current per-image Art Institute record and IIIF links returned successfully, their credited four-factor fair-use rationales remain present, the chapter's analyzer-derived numerical values are within tolerance, and no camera settings are asserted.
