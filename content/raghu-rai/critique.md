@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-19
 
@@ -11,3 +11,9 @@ verdict: revise
 
 - All five overlay specs score 94–100 against their current analyses. The detector warns that several interpretive leading lines are not detected edges; visual inspection confirms the cast-shadow edge (02), boat gunwale (04), and table edge (05) name visible features. No change is required for those lines.
 - The remaining chapter measurements match the analyzer values within the stated tolerance, the chapter explicitly avoids invented camera settings, and each displayed image has a traceable institutional source with a documented fair-use basis.
+
+## Resolution — 2026-07-19
+
+1. Re-ran composition analysis for `01-a-village-near-delhi`, removed the unsupported `HANGING CABLE` leading line, rendered a new proof, and visually checked the conservative wall-seam and tree-crown overlay. The revised spec scores 100/100 with no deductions or warnings. The corresponding plate prose no longer says that a marked cable descends.
+2. Replaced the first source-note description with the actual visible utility wall, punctures, wires, tents, tree, and stool while preserving its linked MoMA record, credit, fair-use basis, and non-substitution rationale.
+3. Re-verified every required fix from the complete prior critique history: the 2026-07-19 critique round. `scripts/check.sh` passed before this verdict was set.
