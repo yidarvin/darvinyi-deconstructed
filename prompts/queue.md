@@ -101,7 +101,7 @@ real queue and state live in data/registry.json.
 | 90  | stephen-shore             | Stephen Shore             | DONE    |
 | 91  | manuel-alvarez-bravo      | Manuel Álvarez Bravo      | DONE    |
 | 92  | graciela-iturbide         | Graciela Iturbide         | DONE    |
-| 93  | seydou-keita              | Seydou Keïta              | PENDING |
+| 93  | seydou-keita              | Seydou Keïta              | DONE    |
 | 94  | malick-sidibe             | Malick Sidibé             | PENDING |
 | 95  | daido-moriyama            | Daido Moriyama            | PENDING |
 | 96  | shomei-tomatsu            | Shomei Tomatsu            | PENDING |
