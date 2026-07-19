@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-18
 
@@ -16,3 +16,14 @@ verdict: revise
 ### Evidence checked
 
 All 12 proofs were visually reviewed against their overlay JSON and analyzer outputs. Each current overlay scores 100/100 under the deterministic scorer, so the required items above are semantic visual-pass errors rather than score-tolerance failures. The chapter's twelve plates have matching analysis, overlay, and proof files. Source links are present and traceable; eleven AIC object links returned 200, and AIC's API confirmed object 48876 after its web page followed a redirect loop. The source notes document a per-image fair-use rationale for the eleven AIC images and a CC BY-SA 4.0 route for *La buena fama durmiendo*; no camera settings are invented.
+
+## Resolution — 2026-07-18
+
+Re-verified critique history: the 2026-07-18 critique round above (the only prior round in `git log -p -- content/manuel-alvarez-bravo/critique.md`).
+
+1. Removed the false `SLOPING CURB` line from *The Dreamer* and revised the chapter to distinguish the low curb edge from the body's upper contour.
+2. Removed the false `TILE FIELD` horizon from *The Daughter of the Dancers* and moved the hat anchor onto the visible hat at `(0.476, 0.435)`.
+3. Removed the false `PAVEMENT CONVERGENCE` marker from *Striking Worker Murdered* and deleted the matching local-pavement claim from the chapter.
+4. Removed the false `MAT CONVERGENCE` marker from *La buena fama durmiendo*.
+
+The four affected images were freshly analyzed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passed, including chapter byte-identity and production build checks.
