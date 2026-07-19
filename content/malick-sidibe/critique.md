@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-19
 
@@ -27,3 +27,15 @@ Re-verified critique history: round dated 2026-07-19 (the only prior round).
 4. **09-pique-nique-a-la-chaussee credit:** the chapter-wide source note now distinguishes this plate’s displayed Guardian credit, “Photograph: Galerie Maginin-A, Paris,” from the ten captions that display © Malick Sidibé. The plate’s fair-use record preserves that displayed wording and makes no unsupported per-image copyright claim.
 
 All prior required items remain satisfied. No overlay, proof, or chapter edits were needed: the existing proofs visually match their labels and the prior critique records 100/100 deterministic scores for all eleven specs.
+
+## Critique round — 2026-07-19
+
+### Required
+
+None. The four requirements resolved in the preceding builder-resolution entry remain satisfied: 07 now describes the three standing men and boombox; 08 the two costumed youths, painted figure, staff, and blank wall; and 09 the human pyramid, watching group, open ground, and its distinct displayed Guardian credit.
+
+All eleven current proof/spec pairs were visually reviewed and independently rescored at 100/100. Every overlay contains three or four pedagogically distinct primitives that trace the labeled visible feature. Chapter grid choices, tonal percentiles, edge-density values, palette references, and the stated symmetry axes match their corresponding analyzer records within tolerance. The source records provide a traceable public Guardian display source and a concise per-image fair-use rationale; the Guardian page confirms the ten displayed © Malick Sidibé credits and the distinct “Photograph: Galerie Maginin-A, Paris” display credit for 09. No camera setting is asserted.
+
+### Advisory (non-blocking)
+
+None.
