@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-madison-wisconsin.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.20, "y": 0.38, "w": 0.38, "h": 0.60, "label": "framed portrait" },
+    { "type": "ellipse", "cx": 0.39, "cy": 0.73, "rx": 0.12, "ry": 0.22, "label": "portrait oval" },
+    { "type": "leading_line", "points": [[0.0, 0.78], [0.99, 0.83]], "arrow": false, "label": "display shelf" }
+  ],
+  "notes": "A reflected self, a portrait, and a shop display turn authorship into a layered still life."
+}

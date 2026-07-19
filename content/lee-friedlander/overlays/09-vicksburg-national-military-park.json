@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-vicksburg-national-military-park.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.0, 0.67], [0.99, 0.66]], "arrow": false, "label": "ditch edge" },
+    { "type": "subject_anchor", "x": 0.370, "y": 0.278, "r": 0.04, "label": "memorial field" },
+    { "type": "ellipse", "cx": 0.18, "cy": 0.34, "rx": 0.05, "ry": 0.13, "label": "memorial statue" }
+  ],
+  "notes": "Brush and ditch keep the memorial field distant, peripheral, and hard to possess as a single view."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-new-york-city-1974.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.304, "y": 0.631, "r": 0.045, "label": "colonial statue" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.39, "w": 0.28, "h": 0.61, "label": "fence enclosure" },
+    { "type": "leading_line", "points": [[0.0, 0.42], [0.99, 0.44]], "arrow": false, "label": "billboard band" },
+    { "type": "leading_line", "points": [[0.0, 0.73], [0.99, 0.73]], "arrow": false, "label": "advertising band" }
+  ],
+  "notes": "Civic memory is trapped between fence, billboard, and commercial lettering."
+}

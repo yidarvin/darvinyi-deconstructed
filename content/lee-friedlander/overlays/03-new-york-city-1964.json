@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-new-york-city-1964.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.53, "y": 0.55, "w": 0.22, "h": 0.29, "label": "sleeping figure" },
+    { "type": "leading_line", "points": [[0.0, 0.09], [0.99, 0.0]], "arrow": false, "label": "reflected roofline" },
+    { "type": "leading_line", "points": [[0.0, 0.29], [0.99, 0.23]], "arrow": false, "label": "window seam" }
+  ],
+  "notes": "A tiny inset figure interrupts a broad blank field while reflection expands the scene above it."
+}

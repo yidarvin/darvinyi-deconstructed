@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-new-york-city-1963-b.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.007, 0.725], [0.987, 0.249]], "arrow": true, "label": "mesh diagonal" },
+    { "type": "leading_line", "points": [[0.027, 0.986], [0.983, 0.522]], "arrow": true, "label": "mesh diagonal" },
+    { "type": "vanishing_point", "x": 0.546, "y": 0.516, "label": "screened car" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.24, "w": 0.36, "h": 0.45, "label": "fence opening" }
+  ],
+  "notes": "The mesh is an active screen: it keeps the car, sign, and street available only in fragments."
+}

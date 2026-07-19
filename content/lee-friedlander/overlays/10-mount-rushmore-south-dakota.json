@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-mount-rushmore-south-dakota.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.02, "y": 0.0, "w": 0.23, "h": 0.99, "label": "left window panel" },
+    { "type": "frame_in_frame", "x": 0.51, "y": 0.0, "w": 0.23, "h": 0.99, "label": "center window panel" },
+    { "type": "subject_anchor", "x": 0.367, "y": 0.724, "r": 0.04, "label": "tourist camera" }
+  ],
+  "notes": "Mullions split tourist bodies, reflected monument, and their own picture-taking into simultaneous panels."
+}

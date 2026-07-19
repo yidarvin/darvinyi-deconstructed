@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-new-york-city-1963-a.jpg",
+    "width": 843,
+    "height": 557,
+    "sha1": "b30855b5",
+    "source": "01-new-york-city-1963-a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-new-york-city-1963-b.jpg",
+    "width": 843,
+    "height": 563,
+    "sha1": "a641039f",
+    "source": "02-new-york-city-1963-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-new-york-city-1964.jpg",
+    "width": 843,
+    "height": 568,
+    "sha1": "0bb47a98",
+    "source": "03-new-york-city-1964.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-new-york-city-1966.jpg",
+    "width": 843,
+    "height": 561,
+    "sha1": "f44dde56",
+    "source": "04-new-york-city-1966.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-albuquerque-new-mexico.jpg",
+    "width": 843,
+    "height": 551,
+    "sha1": "80986391",
+    "source": "05-albuquerque-new-mexico.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-madison-wisconsin.jpg",
+    "width": 843,
+    "height": 564,
+    "sha1": "646c7ef3",
+    "source": "06-madison-wisconsin.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-route-9w-new-york.jpg",
+    "width": 843,
+    "height": 564,
+    "sha1": "5258d8de",
+    "source": "07-route-9w-new-york.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-colorado.jpg",
+    "width": 843,
+    "height": 570,
+    "sha1": "62e23b99",
+    "source": "08-colorado.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-vicksburg-national-military-park.jpg",
+    "width": 843,
+    "height": 570,
+    "sha1": "e38d996c",
+    "source": "09-vicksburg-national-military-park.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-mount-rushmore-south-dakota.jpg",
+    "width": 843,
+    "height": 558,
+    "sha1": "ed016476",
+    "source": "10-mount-rushmore-south-dakota.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-texas.jpg",
+    "width": 843,
+    "height": 562,
+    "sha1": "e9063253",
+    "source": "11-texas.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-new-york-city-1974.jpg",
+    "width": 843,
+    "height": 563,
+    "sha1": "f62dec3a",
+    "source": "12-new-york-city-1974.jpg",
+    "exif": {}
+  }
+]
