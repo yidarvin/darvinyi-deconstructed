@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-dream-theater.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.687, "angle": 0, "label": "stage threshold" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "cathedral axis" },
+    { "type": "frame_in_frame", "x": 0.18, "y": 0.27, "w": 0.64, "h": 0.40, "label": "arched inner stage" }
+  ],
+  "notes": "An open book becomes a stage apron beneath a cathedral-like interior, where an arch and tiny figure give the dream a measurable depth."
+}

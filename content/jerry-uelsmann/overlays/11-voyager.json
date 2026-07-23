@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-voyager.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.747, "angle": 0, "label": "mountain-and-water seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "wake and craft axis" },
+    { "type": "polyline", "points": [[0.08, 0.94], [0.28, 0.84], [0.50, 0.75], [0.72, 0.84], [0.93, 0.94]], "label": "radiating wake" }
+  ],
+  "notes": "A small hovering craft sits above a centred wake, so the mountains and cloud columns make its scale deliberately uncertain."
+}

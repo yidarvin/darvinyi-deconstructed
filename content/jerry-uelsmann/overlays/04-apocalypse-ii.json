@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-apocalypse-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.624, "angle": 0, "label": "waterline" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "mirrored tree axis" },
+    { "type": "frame_in_frame", "x": 0.44, "y": 0.30, "w": 0.12, "h": 0.26, "label": "central trunk" }
+  ],
+  "notes": "The doubled tree uses a strict central axis to turn branching into a monumental canopy over the small group."
+}

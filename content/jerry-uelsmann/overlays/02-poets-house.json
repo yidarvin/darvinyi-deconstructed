@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-poets-house.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.445, "angle": 0, "label": "far tree band" },
+    { "type": "frame_in_frame", "x": 0.43, "y": 0.36, "w": 0.16, "h": 0.10, "label": "small house" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.16, "rx": 0.33, "ry": 0.15, "label": "suspended tree crown" }
+  ],
+  "notes": "The tiny house holds the centre while the tree's inverted crown turns reflection into an enclosing, downward pressure."
+}

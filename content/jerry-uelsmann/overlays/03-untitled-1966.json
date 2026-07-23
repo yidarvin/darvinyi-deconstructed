@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-untitled-1966.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.431, "angle": 0, "label": "lower palm edge" },
+    { "type": "leading_line", "points": [[0.333, 0.425], [0.660, 0.138]], "arrow": true, "label": "raised-hand contour" },
+    { "type": "polyline", "points": [[0.04, 0.18], [0.25, 0.19], [0.45, 0.28], [0.68, 0.24]], "label": "giant palm silhouette" }
+  ],
+  "notes": "A huge hand makes a roof over the sleeping body, then contains a second, smaller figure inside its palm."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-magrittes-touchstone.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.446, "angle": 0, "label": "field-to-sky seam" },
+    { "type": "subject_anchor", "x": 0.694, "y": 0.257, "r": 0.06, "label": "suspended rock" },
+    { "type": "ellipse", "cx": 0.33, "cy": 0.88, "rx": 0.15, "ry": 0.08, "label": "sleeping face" }
+  ],
+  "notes": "A hovering rock interrupts a quiet field above the reclining figure; the low horizon makes the three zones read as one impossible space."
+}

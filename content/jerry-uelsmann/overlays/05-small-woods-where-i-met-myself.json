@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-small-woods-where-i-met-myself.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.418, "angle": 0, "label": "reflection seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "woodland mirror axis" },
+    { "type": "polyline", "points": [[0.06, 0.15], [0.08, 0.44], [0.09, 0.72]], "label": "left standing figure and reflection" }
+  ],
+  "notes": "Repeated trunks make a mirrored enclosure whose reflected figures turn the forest into a psychological interior."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-untitled-man-at-desk-1976.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.721, "angle": 0, "label": "carpet-to-floor break" },
+    { "type": "polyline", "points": [[0.00, 0.30], [0.25, 0.50], [0.48, 0.54]], "label": "left eave to desk" },
+    { "type": "frame_in_frame", "x": 0.23, "y": 0.34, "w": 0.43, "h": 0.31, "label": "tilted drafting table" }
+  ],
+  "notes": "The tilted table gives the ornate room a near-to-far vector; dense furniture and floor pattern make the interior feel staged rather than settled."
+}
