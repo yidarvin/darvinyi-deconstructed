@@ -109,7 +109,7 @@ real queue and state live in data/registry.json.
 | 98  | raghu-rai                 | Raghu Rai                    | DONE    |
 | 99  | david-goldblatt           | David Goldblatt              | DONE    |
 | 100 | bernd-hilla-becher        | Bernd & Hilla Becher         | DONE    |
-| 101 | jerry-uelsmann            | Jerry Uelsmann               | PENDING |
+| 101 | jerry-uelsmann            | Jerry Uelsmann               | DONE    |
 | 102 | sandy-skoglund            | Sandy Skoglund               | PENDING |
 | 103 | cindy-sherman             | Cindy Sherman                | PENDING |
 | 104 | jeff-wall                 | Jeff Wall                    | PENDING |

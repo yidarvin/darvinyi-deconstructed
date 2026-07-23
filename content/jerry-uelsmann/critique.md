@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -24,3 +24,20 @@ verdict: resolved
 - Resolved the plate 07 advisory by removing the competing ellipse label and regenerating the proof. Its visible band label now reads `MOUNTAIN-AND-WATER BAND`, matching the final JSON; it scores 100/100.
 - Re-verified every required item from the complete critique history: the sole prior round, **Critique round — 2026-07-23**. The current overlay, proof, and byte-identical chapter pair retain the correction.
 - `scripts/check.sh` passed.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None. The 08 correction remains materially intact: the tabletop outline traces the visible table, the cornice path ends on the rear wall, and the fireplace frame encloses the opening. No resolved issue has regressed.
+
+### Advisory (non-blocking)
+
+None.
+
+### Evidence checked
+
+- Visually reviewed all 12 current proof PNGs against their images and overlay specs. Each overlay makes three compositionally useful, visible claims; no label names an absent feature.
+- Re-scored all 12 overlay specs against their matching current analysis JSON. Every score is 100/100 with no deductions or warnings.
+- Checked every quantitative statement in `chapter.mdx` against the matching analysis record: stated seams, tonal percentiles, edge densities, and palette values match within the review tolerance.
+- Confirmed that all 12 cited Estate display renditions and the Estate portfolio are reachable and that every image has a credited, per-image four-factor fair-use rationale. The chapter and research note explicitly avoid undocumented camera settings.
