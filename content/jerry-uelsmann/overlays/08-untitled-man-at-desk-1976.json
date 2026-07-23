@@ -3,9 +3,9 @@
   "image": "08-untitled-man-at-desk-1976.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.721, "angle": 0, "label": "carpet-to-floor break" },
-    { "type": "polyline", "points": [[0.00, 0.30], [0.25, 0.50], [0.48, 0.54]], "label": "left eave to desk" },
-    { "type": "frame_in_frame", "x": 0.23, "y": 0.34, "w": 0.43, "h": 0.31, "label": "tilted drafting table" }
+    { "type": "polyline", "points": [[0.20, 0.69], [0.54, 0.65], [0.49, 0.76], [0.24, 0.74], [0.20, 0.69]], "label": "tilted tabletop" },
+    { "type": "polyline", "points": [[0.00, 0.25], [0.15, 0.49], [0.47, 0.52]], "label": "left cornice to rear wall" },
+    { "type": "frame_in_frame", "x": 0.67, "y": 0.64, "w": 0.23, "h": 0.18, "label": "fireplace opening" }
   ],
-  "notes": "The tilted table gives the ornate room a near-to-far vector; dense furniture and floor pattern make the interior feel staged rather than settled."
+  "notes": "The genuine tilted tabletop, left cornice, and fireplace opening establish a believable room below the impossible cloud ceiling."
 }

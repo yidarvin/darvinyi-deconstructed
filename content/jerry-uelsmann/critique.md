@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -16,3 +16,11 @@ verdict: revise
 - Re-scored all 12 overlays against their analysis JSON; each returned 100/100 with no geometric deductions or warnings.
 - Verified prose figures against the analysis records, including all stated horizon positions, tonal percentiles, edge densities, and palette values; no material disagreement found.
 - Confirmed each of the 12 estate work URLs and the portfolio URL is publicly reachable (HTTP 200). Each source entry supplies a credit, source route, and concise four-factor fair-use rationale. No camera settings are claimed; the chapter explicitly discloses their absence.
+
+## Resolution — 2026-07-23
+
+- Replaced the false desk frame and eave-to-desk path in plate 08 with a traced tilted tabletop, a separately labelled left-cornice-to-rear-wall path, and the visible fireplace opening. Regenerated the proof after a clean visual pass; the overlay scores 100/100.
+- Revised plate 08's caption and paragraph so neither claims that the cornice/eave descends into the table or that y0.721 is a carpet-to-floor break.
+- Resolved the plate 07 advisory by removing the competing ellipse label and regenerating the proof. Its visible band label now reads `MOUNTAIN-AND-WATER BAND`, matching the final JSON; it scores 100/100.
+- Re-verified every required item from the complete critique history: the sole prior round, **Critique round — 2026-07-23**. The current overlay, proof, and byte-identical chapter pair retain the correction.
+- `scripts/check.sh` passed.

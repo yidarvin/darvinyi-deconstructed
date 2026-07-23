@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.494, "angle": 1.98, "label": "mountain-and-water band" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "island mirror axis" },
-    { "type": "ellipse", "cx": 0.50, "cy": 0.59, "rx": 0.39, "ry": 0.09, "label": "floating island" }
+    { "type": "ellipse", "cx": 0.50, "cy": 0.59, "rx": 0.39, "ry": 0.09 }
   ],
   "notes": "A centred tree and its roots hold a floating island between reflected mountains and an impossible, seed-like lower form."
 }
