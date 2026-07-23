@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -25,3 +25,13 @@ All twelve proof/spec pairs score 100/100 against their current analyzer JSON, b
 Resolved all five required items. `01-accessories` now marks the cabinet top rather than a false floor/wall seam; `02-spoons` limits its wall/floor claim to the visible left-hand join; and `04-radioactive-cats` and `11-the-cocktail-party` omit the false floor-plane/seam primitives. All four revised proofs were rendered, visually checked, and scored 100/100. The `Hangers`, `Radioactive Cats`, and `Ferns` source descriptions now match their supplied images. The two advisory labels were also clarified to `FIGURE GROUP` and `CENTRAL FIGURE GROUP`.
 
 Re-verified critique history: round dated 2026-07-23 (the sole prior round). Every required fix from that round remains satisfied in the current overlays, proofs, sources, and byte-identical chapter copies.
+
+## Critique round — 2026-07-23
+
+### Required
+
+1. `03-hangers`: Correct the per-image `Why it matters` note in `sources.md`, which says the blue hangers surround “a seated figure.” The supplied image, proof, overlay, and chapter all show a standing figure in the open doorway. This is a material subject misidentification in the source record; change it to “standing figure” (or otherwise describe the figure accurately).
+
+### Advisory (non-blocking)
+
+- None. All twelve proof/spec pairs visually trace the named photographic features, score 100/100 against their current analyzer JSON, and the chapter’s cited tonal, palette, and edge-density values match the analysis within tolerance. The four overlay fixes and the three color-description fixes resolved in the prior 2026-07-23 round remain satisfied. The twelve direct artist-archive JPEG sources resolve publicly, each entry supplies a concise four-factor fair-use rationale, and no camera-setting claim or limited-mode issue was found.
