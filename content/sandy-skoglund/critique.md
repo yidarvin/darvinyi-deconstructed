@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -19,3 +19,9 @@ verdict: revise
 ### Verification notes
 
 All twelve proof/spec pairs score 100/100 against their current analyzer JSON, but the four required overlay findings above are semantic visual mismatches that the geometric scorer does not detect. The chapter's measured luminance, tonal-range, palette, and edge-density claims match the corresponding analyzer values within the stated tolerance. No camera-setting claims or limited-mode issues were found.
+
+## Resolution — 2026-07-23
+
+Resolved all five required items. `01-accessories` now marks the cabinet top rather than a false floor/wall seam; `02-spoons` limits its wall/floor claim to the visible left-hand join; and `04-radioactive-cats` and `11-the-cocktail-party` omit the false floor-plane/seam primitives. All four revised proofs were rendered, visually checked, and scored 100/100. The `Hangers`, `Radioactive Cats`, and `Ferns` source descriptions now match their supplied images. The two advisory labels were also clarified to `FIGURE GROUP` and `CENTRAL FIGURE GROUP`.
+
+Re-verified critique history: round dated 2026-07-23 (the sole prior round). Every required fix from that round remains satisfied in the current overlays, proofs, sources, and byte-identical chapter copies.

@@ -19,19 +19,19 @@ Skoglund constructs rooms, objects, and figures as deliberately artificial envir
 - **File:** `raw/sandy-skoglund/02-spoons.jpg` (1280 × 960px)
 
 ### 03 — *Hangers* (1979; Art Institute of Chicago dates its collection print 1980)
-- **Why it matters:** Dense red hangers arc through a green room around a seated figure, turning one household object into a color-driven enclosing structure.
+- **Why it matters:** Dense blue hangers crowd a yellow-and-pink room around a seated figure, turning one household object into a color-driven enclosing structure.
 - **Source:** [Artist archive, Images 1979–84](https://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/index.html); public display JPEG: http://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/data1/images/3hangers.jpg. Collection cross-check: [Art Institute of Chicago, object 1999.427](https://www.artic.edu/artworks/154354/hangers).
 - **Rights / fair-use assessment:** © 1979 Sandy Skoglund. Transformative criticism examines the full-frame color and enclosure; the underlying creative photograph needs the complete room; the credited web display is a small educational copy and not a substitute for the collectible print or licensed reproduction.
 - **File:** `raw/sandy-skoglund/03-hangers.jpg` (1280 × 960px)
 
 ### 04 — *Radioactive Cats* (1980)
-- **Why it matters:** Identical green cats swarm a pink dining room while the people remain still, setting massed repetition against a calm central human arrangement.
+- **Why it matters:** Identical green cats swarm a gray-green dining room while the people remain still, setting massed repetition against a calm central human arrangement.
 - **Source:** [Artist archive, Images 1979–84](https://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/index.html); public display JPEG: http://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/data1/images/4radioactive_cats.jpg
 - **Rights / fair-use assessment:** © 1980 Sandy Skoglund. Transformative criticism teaches the cats' distribution, color opposition, and still human center; that spatial argument requires the full creative frame; this credited 1280px web display is non-market-substituting.
 - **File:** `raw/sandy-skoglund/04-radioactive-cats.jpg` (1280 × 960px)
 
 ### 05 — *Ferns* (1980)
-- **Why it matters:** Plastic foliage slices across a blue domestic interior in vertical and diagonal screens, making depth read as a series of interruptions rather than a continuous room.
+- **Why it matters:** Plastic foliage slices across a tan-and-olive domestic interior in vertical and diagonal screens, making depth read as a series of interruptions rather than a continuous room.
 - **Source:** [Artist archive, Images 1979–84](https://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/index.html); public display JPEG: http://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/data1/images/5ferns.jpg
 - **Rights / fair-use assessment:** © 1980 Sandy Skoglund. Transformative criticism studies foreground screening and depth in the complete constructed scene; the photograph is creative, and its full frame is necessary; the credited web copy does not replace an original or licensed reproduction.
 - **File:** `raw/sandy-skoglund/05-ferns.jpg` (1280 × 960px)
