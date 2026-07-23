@@ -48,6 +48,21 @@ def validate() -> list[str]:
     if not isinstance(photographers, list) or not photographers:
         return ["data/registry.json photographers must be a non-empty array"]
 
+    wave_metadata = data.get("_meta", {}).get("waves", {})
+    declared_waves: set[int] = set()
+    if not isinstance(wave_metadata, dict) or not wave_metadata:
+        errors.append("data/registry.json _meta.waves must declare at least one wave")
+    else:
+        for key in wave_metadata:
+            if not isinstance(key, str) or not key.isdigit() or int(key) < 1:
+                errors.append(f"invalid _meta.waves key: {key!r}")
+                continue
+            declared_waves.add(int(key))
+        if declared_waves and sorted(declared_waves) != list(
+            range(1, max(declared_waves) + 1)
+        ):
+            errors.append("_meta.waves must be contiguous starting at 1")
+
     seen: set[str] = set()
     expected_site: dict[str, str] = {}
     expected_order: list[str] = []
@@ -76,8 +91,8 @@ def validate() -> list[str]:
             errors.append(f"{slug}: invalid stage {stage!r}")
         if rights not in VALID_RIGHTS:
             errors.append(f"{slug}: invalid rights {rights!r}")
-        if not isinstance(wave, int) or not 1 <= wave <= 9:
-            errors.append(f"{slug}: wave must be an integer from 1 to 9")
+        if not isinstance(wave, int) or wave not in declared_waves:
+            errors.append(f"{slug}: wave must be declared in _meta.waves")
         if not isinstance(minimum, int) or not 1 <= minimum <= 12:
             errors.append(f"{slug}: minImages must be an integer from 1 to 12")
             minimum = 4
@@ -134,6 +149,22 @@ def validate() -> list[str]:
                     errors.append(f"{slug}: limited chapter is missing its visible image-availability disclosure")
         if stage == "approved" and first_verdict(slug) != "verdict: approve":
             errors.append(f"{slug}: approved stage requires critique verdict: approve")
+
+    for wave in sorted(declared_waves):
+        metadata = wave_metadata.get(str(wave), {})
+        members = [entry for entry in photographers if entry.get("wave") == wave]
+        if not isinstance(metadata, dict):
+            errors.append(f"wave {wave}: metadata must be an object")
+            continue
+        if metadata.get("count") != len(members):
+            errors.append(
+                f"wave {wave}: declared count {metadata.get('count')!r} "
+                f"disagrees with {len(members)} entries"
+            )
+        declared_rights = metadata.get("rights")
+        actual_rights = sorted({entry.get("rights") for entry in members})
+        if not isinstance(declared_rights, list) or sorted(declared_rights) != actual_rights:
+            errors.append(f"wave {wave}: declared rights disagree with entries")
 
     try:
         site = json.loads((ROOT / "content" / "registry.json").read_text(encoding="utf-8"))

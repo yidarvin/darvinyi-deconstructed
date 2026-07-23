@@ -914,6 +914,294 @@
       "part": "X. Global Masters & the Postwar World",
       "status": "done",
       "approvedAt": "2026-07-19"
+    },
+    {
+      "num": 101,
+      "slug": "jerry-uelsmann",
+      "title": "Jerry Uelsmann",
+      "subtitle": "1934–2022",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 102,
+      "slug": "sandy-skoglund",
+      "title": "Sandy Skoglund",
+      "subtitle": "b. 1946",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 103,
+      "slug": "cindy-sherman",
+      "title": "Cindy Sherman",
+      "subtitle": "b. 1954",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 104,
+      "slug": "jeff-wall",
+      "title": "Jeff Wall",
+      "subtitle": "b. 1946",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 105,
+      "slug": "gregory-crewdson",
+      "title": "Gregory Crewdson",
+      "subtitle": "b. 1962",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 106,
+      "slug": "james-casebere",
+      "title": "James Casebere",
+      "subtitle": "b. 1953",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 107,
+      "slug": "thomas-demand",
+      "title": "Thomas Demand",
+      "subtitle": "b. 1964",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 108,
+      "slug": "david-levinthal",
+      "title": "David Levinthal",
+      "subtitle": "b. 1949",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 109,
+      "slug": "bernard-faucon",
+      "title": "Bernard Faucon",
+      "subtitle": "b. 1950",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 110,
+      "slug": "teun-hocks",
+      "title": "Teun Hocks",
+      "subtitle": "1947–2022",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 111,
+      "slug": "lori-nix",
+      "title": "Lori Nix",
+      "subtitle": "b. 1969",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 112,
+      "slug": "jeeyoung-lee",
+      "title": "JeeYoung Lee",
+      "subtitle": "b. 1983",
+      "part": "XI. Constructed Realities & Staged Worlds",
+      "status": "pending"
+    },
+    {
+      "num": 113,
+      "slug": "nancy-burson",
+      "title": "Nancy Burson",
+      "subtitle": "b. 1948",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 114,
+      "slug": "joan-fontcuberta",
+      "title": "Joan Fontcuberta",
+      "subtitle": "b. 1955",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 115,
+      "slug": "andreas-gursky",
+      "title": "Andreas Gursky",
+      "subtitle": "b. 1955",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 116,
+      "slug": "thomas-ruff",
+      "title": "Thomas Ruff",
+      "subtitle": "b. 1958",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 117,
+      "slug": "beate-gutschow",
+      "title": "Beate Gütschow",
+      "subtitle": "b. 1970",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 118,
+      "slug": "filip-dujardin",
+      "title": "Filip Dujardin",
+      "subtitle": "b. 1971",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 119,
+      "slug": "craig-kalpakjian",
+      "title": "Craig Kalpakjian",
+      "subtitle": "b. 1961",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 120,
+      "slug": "loretta-lux",
+      "title": "Loretta Lux",
+      "subtitle": "b. 1969",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 121,
+      "slug": "ruud-van-empel",
+      "title": "Ruud van Empel",
+      "subtitle": "b. 1958",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 122,
+      "slug": "maggie-taylor",
+      "title": "Maggie Taylor",
+      "subtitle": "b. 1961",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 123,
+      "slug": "inez-vinoodh",
+      "title": "Inez & Vinoodh",
+      "subtitle": "b. 1963 / b. 1961",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 124,
+      "slug": "vibeke-tandberg",
+      "title": "Vibeke Tandberg",
+      "subtitle": "b. 1967",
+      "part": "XII. The Digital Image & Post-Photography",
+      "status": "pending"
+    },
+    {
+      "num": 125,
+      "slug": "erik-johansson",
+      "title": "Erik Johansson",
+      "subtitle": "b. 1985",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 126,
+      "slug": "david-lachapelle",
+      "title": "David LaChapelle",
+      "subtitle": "b. 1963",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 127,
+      "slug": "tim-walker",
+      "title": "Tim Walker",
+      "subtitle": "b. 1970",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 128,
+      "slug": "eugenio-recuenco",
+      "title": "Eugenio Recuenco",
+      "subtitle": "b. 1968",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 129,
+      "slug": "kirsty-mitchell",
+      "title": "Kirsty Mitchell",
+      "subtitle": "b. 1976",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 130,
+      "slug": "brooke-shaden",
+      "title": "Brooke Shaden",
+      "subtitle": "b. 1987",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 131,
+      "slug": "flora-borsi",
+      "title": "Flóra Borsi",
+      "subtitle": "b. 1993",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 132,
+      "slug": "miss-aniela",
+      "title": "Miss Aniela (Natalie Dybisz)",
+      "subtitle": "b. 1986",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 133,
+      "slug": "aydin-buyuktas",
+      "title": "Aydın Büyüktaş",
+      "subtitle": "b. 1972",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 134,
+      "slug": "julia-fullerton-batten",
+      "title": "Julia Fullerton-Batten",
+      "subtitle": "b. 1970",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 135,
+      "slug": "tom-chambers",
+      "title": "Tom Chambers",
+      "subtitle": "b. 1948",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
+    },
+    {
+      "num": 136,
+      "slug": "alex-prager",
+      "title": "Alex Prager",
+      "subtitle": "b. 1979",
+      "part": "XIII. Contemporary Surreal & Composite Photography",
+      "status": "pending"
     }
   ]
 }

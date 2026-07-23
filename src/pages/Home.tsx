@@ -11,7 +11,7 @@ export function Home() {
   const parts = groupByPart(registry.chapters);
 
   // Progress: chapters with num > 0 exclude the fixed num:0 intro chapter, which is
-  // always `done` but is not part of the 100-photographer queue being counted.
+  // always `done` but is not part of the photographer queue being counted.
   const numbered = registry.chapters.filter((c) => c.num > 0);
   const approvedCount = numbered.filter((c) => c.status === "done").length;
   const totalCount = numbered.length;

@@ -13,7 +13,7 @@ invocation's model and High effort; do not request or switch models.
 3. If Playwright is available, screenshot 2-3 chapter pages and confirm
    overlays sit aligned on their images (no object-fit or aspect
    regressions).
-4. Update the home/index page: progress (approved count / 100), newest
+4. Update the home/index page: progress (approved count / registry total), newest
    chapters.
 5. Leave the integration changes uncommitted for the parent runner, then stop.
 6. Stop after this one wave integration pass. The driver records the shipped

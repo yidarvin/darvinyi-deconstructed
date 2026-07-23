@@ -10,10 +10,10 @@
   },
   "note": "status is a SOURCING and takedown-likelihood heuristic, not legal advice. Dates and PD calls are best-known and get verified per-image in the deep-research batch pass.",
   "counts": {
-   "total": 100,
+   "total": 136,
    "pd": 36,
    "mixed": 14,
-   "copyrighted": 50
+   "copyrighted": 86
   },
   "imageTargetDefault": 12,
   "batch1": [
@@ -89,6 +89,24 @@
     ]
    },
    "9": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "10": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "11": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "12": {
     "count": 12,
     "rights": [
      "copyrighted"
@@ -1298,6 +1316,438 @@
    "rights": "copyrighted",
    "stage": "approved",
    "wave": 9
+  },
+  {
+   "slug": "jerry-uelsmann",
+   "name": "Jerry Uelsmann",
+   "dates": "1934–2022",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Jerry Uelsmann Estate / Harn Museum / Met",
+   "note": "Darkroom combination printing; seamless dream spaces assembled from multiple negatives.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "sandy-skoglund",
+   "name": "Sandy Skoglund",
+   "dates": "b. 1946",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Ryan Lee Gallery / museum collections",
+   "note": "Hand-built monochrome installations photographed as uncanny domestic worlds.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "cindy-sherman",
+   "name": "Cindy Sherman",
+   "dates": "b. 1954",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Hauser & Wirth / MoMA",
+   "note": "Staged self-transformation, prosthetics, costume, and constructed photographic identities.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "jeff-wall",
+   "name": "Jeff Wall",
+   "dates": "b. 1946",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Gagosian / museum collections",
+   "note": "Large-scale cinematic tableaux, reconstructed events, and digitally assembled scenes.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "gregory-crewdson",
+   "name": "Gregory Crewdson",
+   "dates": "b. 1962",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Gagosian / museum collections",
+   "note": "Elaborately lit suburban tableaux produced with the scale and control of cinema.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "james-casebere",
+   "name": "James Casebere",
+   "dates": "b. 1953",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Sean Kelly / Met",
+   "note": "Photographs of fabricated architectural models where scale, light, and reality remain unstable.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "thomas-demand",
+   "name": "Thomas Demand",
+   "dates": "b. 1964",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Matthew Marks Gallery / museum collections",
+   "note": "Life-size paper reconstructions photographed before the models are destroyed.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "david-levinthal",
+   "name": "David Levinthal",
+   "dates": "b. 1949",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / George Eastman Museum / Met",
+   "note": "Toy-scale staged histories that exploit photographic blur and apparent realism.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "bernard-faucon",
+   "name": "Bernard Faucon",
+   "dates": "b. 1950",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Maison Européenne de la Photographie / galleries",
+   "note": "Staged childhood dream worlds populated by mannequins, fire, summer light, and memory.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "teun-hocks",
+   "name": "Teun Hocks",
+   "dates": "1947–2022",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Estate / Torch Gallery / museum collections",
+   "note": "Painted and staged self-portraits turning ordinary predicaments into deadpan theater.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "lori-nix",
+   "name": "Lori Nix",
+   "dates": "b. 1969",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Yancey Richardson / museum collections",
+   "note": "Meticulously built miniature interiors photographed as posthuman ruins.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "jeeyoung-lee",
+   "name": "JeeYoung Lee",
+   "dates": "b. 1983",
+   "group": "XI. Constructed Realities & Staged Worlds",
+   "source": "Artist / Gallery Now / museum and festival records",
+   "note": "Surreal room-sized sets constructed by hand and photographed without digital compositing.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 10
+  },
+  {
+   "slug": "nancy-burson",
+   "name": "Nancy Burson",
+   "dates": "b. 1948",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Met / LACMA",
+   "note": "Pioneering computer-generated composite portraits and algorithmic faces.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "joan-fontcuberta",
+   "name": "Joan Fontcuberta",
+   "dates": "b. 1955",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Galeria Àngels Barcelona / museum collections",
+   "note": "Elaborate photographic fictions, fabricated archives, and critiques of image truth.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "andreas-gursky",
+   "name": "Andreas Gursky",
+   "dates": "b. 1955",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Sprüth Magers / museum collections",
+   "note": "Monumental digitally refined spaces organized by repetition, scale, and global systems.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "thomas-ruff",
+   "name": "Thomas Ruff",
+   "dates": "b. 1958",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / David Zwirner / MoMA",
+   "note": "Digital enlargement, compression, found imagery, and image-generation systems test photography's limits.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "beate-gutschow",
+   "name": "Beate Gütschow",
+   "dates": "b. 1970",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Galerie Barbara Weiss / Met",
+   "note": "Digitally constructed landscapes and cities assembled from many photographic fragments.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "filip-dujardin",
+   "name": "Filip Dujardin",
+   "dates": "b. 1971",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Gallery FIFTY ONE / Met",
+   "note": "Impossible architecture made plausible through restrained digital photomontage.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "craig-kalpakjian",
+   "name": "Craig Kalpakjian",
+   "dates": "b. 1961",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Met / museum collections",
+   "note": "Early photoreal computer-generated interiors with no camera-world counterpart.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "loretta-lux",
+   "name": "Loretta Lux",
+   "dates": "b. 1969",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Yossi Milo / MoMA and MoCP collections",
+   "note": "Digitally altered child portraits combining photographed figures with painted, uncanny spaces.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "ruud-van-empel",
+   "name": "Ruud van Empel",
+   "dates": "b. 1958",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Flatland Gallery / museum collections",
+   "note": "Hyper-detailed portraits and forests composited from separately photographed fragments.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "maggie-taylor",
+   "name": "Maggie Taylor",
+   "dates": "b. 1961",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / Harn Museum / gallery and museum collections",
+   "note": "Layered digital collages combining scans, photographs, drawing, and found Victorian material.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "inez-vinoodh",
+   "name": "Inez & Vinoodh",
+   "dates": "b. 1963 / b. 1961",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artists / Kunstmuseum Den Haag / official archive",
+   "note": "Early digital distortion and fashion-image intervention used to destabilize bodies and identity.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "vibeke-tandberg",
+   "name": "Vibeke Tandberg",
+   "dates": "b. 1967",
+   "group": "XII. The Digital Image & Post-Photography",
+   "source": "Artist / OSL contemporary / KODE Bergen",
+   "note": "Early digital doubles and altered self-portraits probe unstable identity and authorship.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 11
+  },
+  {
+   "slug": "erik-johansson",
+   "name": "Erik Johansson",
+   "dates": "b. 1985",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / Fotografiska",
+   "note": "Photographed elements composited into seamless, physically impossible visual ideas.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "david-lachapelle",
+   "name": "David LaChapelle",
+   "dates": "b. 1963",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / Fotografiska / museum and gallery records",
+   "note": "Hyper-saturated staged worlds, elaborate sets, and post-production shaped by pop and art history.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "tim-walker",
+   "name": "Tim Walker",
+   "dates": "b. 1970",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / Victoria and Albert Museum / official archive",
+   "note": "Fantasy fashion narratives built through extravagant props, sets, scale, and controlled finishing.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "eugenio-recuenco",
+   "name": "Eugenio Recuenco",
+   "dates": "b. 1968",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / official archive / exhibition records",
+   "note": "Painterly cinematic tableaux combining constructed sets, costume, allegory, and digital finishing.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "kirsty-mitchell",
+   "name": "Kirsty Mitchell",
+   "dates": "b. 1976",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / Wonderland official archive / exhibition records",
+   "note": "Handmade costumes and sets expanded through meticulous fantasy post-production.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "brooke-shaden",
+   "name": "Brooke Shaden",
+   "dates": "b. 1987",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / official archive / exhibition and publication records",
+   "note": "Dark surreal self-portraits built through compositing, texture, symbolic props, and tonal control.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "flora-borsi",
+   "name": "Flóra Borsi",
+   "dates": "b. 1993",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / official archive / Hasselblad records",
+   "note": "Surreal self-portrait transformations created through precise digital editing and visual substitution.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "miss-aniela",
+   "name": "Miss Aniela (Natalie Dybisz)",
+   "dates": "b. 1986",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / official archive / exhibition and publication records",
+   "note": "Surreal fashion and self-portrait composites mixing photographed figures with impossible environments.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "aydin-buyuktas",
+   "name": "Aydın Büyüktaş",
+   "dates": "b. 1972",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / official Flatland archive / exhibition records",
+   "note": "Drone and ground photographs mapped into folded cityscapes with impossible curved perspective.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "julia-fullerton-batten",
+   "name": "Julia Fullerton-Batten",
+   "dates": "b. 1970",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / National Portrait Gallery / museum collections",
+   "note": "Cinematic staged narratives using elaborate locations, lighting, scale, and controlled post-production.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "tom-chambers",
+   "name": "Tom Chambers",
+   "dates": "b. 1948",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / Photo-Eye / gallery and publication records",
+   "note": "Narrative photomontages blending separately photographed and hand-drawn elements into magic realism.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
+  },
+  {
+   "slug": "alex-prager",
+   "name": "Alex Prager",
+   "dates": "b. 1979",
+   "group": "XIII. Contemporary Surreal & Composite Photography",
+   "source": "Artist / MoMA / museum collections",
+   "note": "Cinematic crowd tableaux, melodramatic color, and post-production that heighten constructed unease.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 12
   }
  ]
 }
