@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -26,3 +26,25 @@ verdict: resolved
 ### Prior required rounds re-verified
 
 - **2026-07-24 (this round):** Both required fixes above hold in the current overlays, proof, source notes, research note, and chapter. No earlier critique rounds exist in `git log -p -- content/nancy-burson/critique.md`.
+
+## Critique round — 2026-07-24
+
+### Required
+
+None. The five current proofs were visually reviewed against their overlay specs
+and analysis records. The corrected `WHITE COLLAR / LAPELS` polyline in
+**02-the-president-second-version** follows the visible white collar and lapels,
+not the lower face or neck. The source, research, and chapter references for
+**05-aged-barbie** consistently use SFMOMA's documented medium, “dye diffusion
+transfer print.” The remaining overlays each use three to four pedagogically
+useful primitives that trace their named facial, axis, and framing features.
+
+The current linked collection records and per-image fair-use notes trace every
+image, including creator, copyright/credit context, and all four statutory
+factors. The chapter's measured symmetry, tonal, palette, and edge-density
+claims match the corresponding analyzer records within the required tolerance;
+no camera settings are asserted.
+
+### Advisory (non-blocking)
+
+None.
