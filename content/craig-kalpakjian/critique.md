@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -31,3 +31,9 @@ Each refreshed overlay was rendered, visually checked, and scored 100/100 agains
 
 - **02-hallway:** “NESTED DOORWAY” and “LIT THRESHOLD” labels are tightly stacked above the opening, though both remain legible and their geometry is truthful.
 - All ten specs score 100/100 against their paired analyses. The earlier required-fix round remains resolved: 08 has no symmetry-axis claim, 09’s fixture is located by its aligned anchor and ellipse, and 10 has no symmetry-axis claim. All ten artist-site display-image URLs returned public JPEG responses during this review; each source entry retains a traceable link, rights notice, and per-image four-factor fair-use rationale. No camera data or limited-mode claims were invented.
+
+## Builder resolution — 2026-07-24
+
+1. **05-monitor:** Removed the false `horizon_line` claim labelled “CEILING-PANEL REGISTER.” The refreshed proof retains only the visible diagonal ceiling seam, the measured dome axis, and the reflective-dome ellipse; it no longer treats the analyzer’s luminance split as an architectural panel edge.
+
+The refreshed `05-monitor` overlay was rendered, visually checked, and scored 100/100 against its paired analysis JSON. Re-verified critique history: the first 2026-07-24 critique round (08-dark-hall-ii, 09-stair, and 10-co) and this 2026-07-24 round (05-monitor). The three earlier proofs retain no symmetry-axis claim, and the current proof retains no false horizontal ceiling-panel claim.
