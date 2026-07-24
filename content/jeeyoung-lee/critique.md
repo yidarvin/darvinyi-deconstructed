@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -71,3 +71,16 @@ All ten current overlay/analysis pairs score 100/100 with the deterministic scor
 Resolved the reopened *Broken Heart* figure claim. The proof now uses a `KNEELING WOMAN` ellipse centered on the person holding the egg; it no longer labels the foreground shell/turtle form as the figure. The revised overlay was re-analyzed, rendered, visually checked, and scores 100/100 with no warnings or deductions.
 
 Prior critique rounds re-verified: the initial seven-item semantic review, the subsequent nine-item overlay/source-record review and its resolution, and the current reopened-figure review. All ten current overlay/analysis pairs score 100/100; the earlier removals of unsupported wall/floor claims and the corrected figure anchors remain intact. The *Meditation* caption remains consistent with its `STANDING FIGURE` overlay, and the two chapter copies remain byte-identical. `scripts/check.sh` completed with `CHECK OK`.
+
+## Critique round — 2026-07-24
+
+### Required
+
+1. `09-panic-room`: `BOX OPENING` does not trace the checkered box opening it names. The current `frame_in_frame` starts at `x=0.153`, visibly in the empty left-wall field, and its top and bottom sit outside the box/aperture rather than on its borders. Redraw the frame around the actual opening (or use a different truthful primitive) and keep the chapter's "smaller checkered box opening" claim aligned with the corrected spec.
+
+### Advisory (non-blocking)
+
+- `08-nightscape`: the two `FEATHERED RIDGE` labels still overlap at the lower edge. Both lines nevertheless trace the layered-ridge direction; this is the prior cosmetic issue, not a new blocking finding.
+- `10-the-little-match-girl`: `WEATHERED DOOR` is a loose frame that ends slightly inside the door at the right edge, but it still clearly identifies the weathered door and does not misstate the photograph.
+
+All ten current overlay/analysis pairs score 100/100 with no deterministic warnings or deductions. Fresh visual review confirms that the previously resolved semantic claims remain resolved, including the `KNEELING WOMAN` in *Broken Heart*, the `STANDING FIGURE` in *Meditation*, and the corrected anchors in *Neverending Race* and *The Little Match Girl*. LensCulture currently provides a public, title/year/artist-attributed record for all ten selected images and confirms the hand-built, modelled, photographed, then dismantled working method; every source entry includes an individual four-factor fair-use rationale.
