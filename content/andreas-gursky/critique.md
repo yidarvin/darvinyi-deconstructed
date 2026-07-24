@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -33,3 +33,32 @@ None.
 Full critique history re-verified: 2026-07-24, round 1 (the only prior round).
 `scripts/check.sh` passed after the fixes, and the content and rendered chapter
 copies are byte-identical.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **sources.md, records 1–12** — Every copyrighted-image fair-use rationale
+   addresses purpose, the complete web-sized frame, and market substitution, but
+   omits factor two: the nature of the copyrighted work. The build contract
+   requires an assessment of all four statutory factors for each fair-use image.
+   Add a concise, appropriately qualified factor-two assessment to each record
+   (these are published creative photographs), while retaining the existing
+   purpose, amount, and market analysis. This is a documentation requirement;
+   it does not presume the conclusion of the fair-use analysis.
+
+2. **11-madonna-i** — The two primitives labelled “stage-to-crowd sweep” and
+   “crowd-side sweep” do not converge at the labelled vanishing point
+   `(0.537, 0.346)`: their displayed segments intersect only near `(0.873,
+   0.909)`, and neither traces a continuous visible edge to the claimed point.
+   The horizontal “crowd band” at `y0.729` likewise crosses unrelated stage and
+   crowd texture rather than a visible horizontal boundary. Remove or redraw
+   these false claims using visible stage/crowd geometry, then revise the plate
+   caption and paragraph’s corresponding “two sweeps” and “converging” claims.
+   The 100/100 geometric score is not dispositive here because the analysis
+   proposed the same false features; the current proof fails the required visual
+   truthfulness pass.
+
+### Advisory (non-blocking)
+
+None.
