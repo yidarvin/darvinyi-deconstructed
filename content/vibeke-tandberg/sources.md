@@ -111,15 +111,17 @@ reproduction.
 
 ### 08. *Old Man Cowboy #05* (2022–23)
 
-The small rider is embedded in a smoky open landscape, reversing *Living Together*'s
-domestic control and making scale, haze, and low horizon the teaching problem. Source:
+The frame-dominant horse-and-rider silhouette is centered in a smoky field, reversing
+*Living Together*'s domestic control and making scale, haze, and centered mass the
+teaching problem. Source:
 [Kode exhibition record](https://www.kodebergen.no/en/whats-happening/exhibitions/vibeke-tandberg-no); public display file: `https://cdn.sanity.io/images/zv9pm4dt/production/c02f9b665fa213b429590b910fe714892d1aceb5-3543x2356.jpg`.
 
 **Use basis: fair-use.** Creator/rightsholder notice: © Vibeke Tandberg/BONO. (1)
 The complete 3,543 × 2,356px frame supports criticism, scholarship, and transformative
-teaching of silhouette, atmospheric depth, and horizon placement. (2) It is creative
-and authored, weighing against use. (3) The rider's scale depends on the whole
-smoke-filled landscape, not a decorative crop. (4) The credited, linked web copy does
+teaching of silhouette, atmospheric depth, and the scale relationship between the
+centered figure and smoke field. (2) It is creative and authored, weighing against
+use. (3) The centered silhouette depends on the whole smoke field, not a decorative
+crop. (4) The credited, linked web copy does
 not replace Kode's record, the work, or a licensed reproduction.
 
 ### 09. *Living Together #4* (1996)
@@ -150,7 +152,7 @@ replace OSL's record, the editioned print, or a licensed reproduction.
 
 ### 11. *Old Man Going Up and Down a Staircase #79* (2003)
 
-The vertical stairwell turns the masked, pregnant performer into a steep ascending
+The vertical stairwell turns the masked, pregnant performer into a steep descending
 figure, a clear case of architectural diagonals directing a staged identity. Source:
 [OSL contemporary artist page](https://oslcontemporary.com/artists/vibeke-tandberg); public display file: `https://oslcontemporary.com/uploads/images/artists/vibeke-tandberg/_m_lightboxImage/VT10-01.jpg`.
 
@@ -165,7 +167,7 @@ licensed reproduction.
 ### 12. *Old Man Going Up and Down a Staircase #82* (2003)
 
 A second stair image establishes the old-man persona as a repeatable compositional
-device: mask, suited body, and rising architectural rhythm are held by a tall frame.
+device: mask, suited body, and sloping architectural rhythm are held by a tall frame.
 Source: [OSL contemporary artist page](https://oslcontemporary.com/artists/vibeke-tandberg); public display file: `https://oslcontemporary.com/uploads/images/artists/vibeke-tandberg/_m_lightboxImage/VT11.13OldManNo82.jpg`.
 
 **Use basis: fair-use.** Creator: Vibeke Tandberg; OSL identifies it as a 2003
@@ -173,7 +175,7 @@ black-and-white RC print and unique work. (1) This complete 767 × 1,200px frame
 supports criticism, scholarship, and transformative teaching of vertical rhythm,
 masked performance, and repeated persona. (2) It is creative and authored, weighing
 against use. (3) The full stair architecture and figure are needed to analyze the
-staged ascent. (4) The credited, linked web copy does not replace OSL's record, the
+staged descent. (4) The credited, linked web copy does not replace OSL's record, the
 unique print, or a licensed reproduction.
 
 ## Acquisition record

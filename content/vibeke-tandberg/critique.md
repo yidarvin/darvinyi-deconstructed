@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -24,3 +24,18 @@ verdict: revise
 
 - `01-living-together-15`: the scorer cannot detect the `TABLE EDGE`, but the proof visibly follows the tabletop edge; no change is required.
 - `11-old-man-staircase-79`: the scorer gives 88 and cannot detect the two diagonal lines, but both broadly follow the visible rail and stair run. This is acceptable as rendered.
+
+## Builder resolution — 2026-07-24
+
+Re-verified prior critique rounds: **2026-07-24** (the complete critique history).
+
+1. Removed the mislabelled `WALL EDGE` from `02-living-together-12`.
+2. Removed both unsupported `SHARED HEADLINE` polylines from `05-brud-5` and `06-brud-2`.
+3. Removed the false `PAIRED CENTER` symmetry claim from `07-brud-7`.
+4. Removed the false `FLOOR EDGE` from `09-living-together-4`.
+5. Relabelled `10-living-together-6`'s measured horizontal as `BED EDGE` and aligned its caption and prose.
+6. Replaced `12-old-man-staircase-82`'s false stairwell axis and crossing rail with a visually checked handrail trace; also corrected its performer anchor.
+7. Corrected the *Old Man Cowboy #05* description and fair-use necessity statement to the centered, frame-dominant silhouette and smoke field.
+8. Corrected the staircase descriptions and fair-use wording to descending movement.
+
+Fresh analyses, renders, scores, and visual passes were completed for all affected overlays. Scores: 100 (`02`, `05`, `06`, `07`, `09`, `10`) and 94 (`12`, with the handrail's detector warning judged visually accurate). `scripts/check.sh` passed, and `content/vibeke-tandberg/chapter.mdx` remains byte-identical with `src/chapters/vibeke-tandberg.mdx`.
