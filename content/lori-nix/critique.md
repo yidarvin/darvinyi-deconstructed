@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -47,3 +47,9 @@ verdict: revise
 ### Advisory (non-blocking)
 
 - **06-botanic-garden:** The analyzer still measures its symmetry axis at 0.425 while the overlay retains 0.500 (score 90/100). This is the previously resolved visual judgment: the 0.500 line visibly follows the centered roof arch and planting-bed spine, so there is no material regression.
+
+## Builder resolution — 2026-07-24
+
+- Relabeled the `09-circulation-desk` polyline as `ROOF-APERTURE WIRE GRID`; the existing points visibly follow the wire grid inside the sky aperture rather than the broken plaster perimeter. The rendered proof is clean and scores 100/100.
+- Replaced the stale `11-subway` proof-contact-sheet caption with the visible car-interior structure: ceiling, seats, sanded floor, and carriage-end opening. The current Subway overlay remains visually clean and scores 100/100.
+- Re-verified every required fix from the 2026-07-23 round and both earlier 2026-07-24 rounds: `06-botanic-garden` retains the visually centered greenhouse axis (90/100); `08-bar` retains no false stool-rhythm path (100/100); `09-circulation-desk` retains the right-foreground curved desk rim (100/100); and `11-subway` retains its corrected `sources.md` fair-use rationale and car-interior vocabulary. `scripts/check.sh` passes, and the chapter source and rendered copy remain byte-identical.
