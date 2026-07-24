@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.28, "angle": 0, "label": "greenhouse crossbar" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.425, "label": "greenhouse axis" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "greenhouse axis" },
     { "type": "polyline", "points": [[0.03, 0.15], [0.18, 0.08], [0.34, 0.13], [0.50, 0.25]], "label": "left roof ribs" },
     { "type": "polyline", "points": [[0.51, 0.25], [0.67, 0.14], [0.82, 0.08], [0.97, 0.18]], "label": "right roof ribs" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.62, "rx": 0.26, "ry": 0.26, "label": "planting bed" }

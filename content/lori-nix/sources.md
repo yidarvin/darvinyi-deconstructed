@@ -67,9 +67,9 @@ This source set centers on *The City* (2005–15), Nix’s sequence of meticulou
 - **File:** `raw/lori-nix/10-violin-repair-shop.jpg` (1500 × 1205px)
 
 ### 11 — *Subway* (2012)
-- **Why it matters:** A tunnel-like station reduces the built world to strong linear perspective, flooded track bed, and vegetation pushing inward from the margins.
+- **Why it matters:** The abandoned subway-car interior turns ceiling rails, seats, a sanded floor, and the carriage-end opening into a strong one-point route.
 - **Source:** https://www.lorinix.net/the-city (artist portfolio; public display derivative: https://images.squarespace-cdn.com/content/v1/55d77558e4b05e2874c32d03/1440197950245-JS3CQ7FILF5NE3TYDEVR/Subway.jpg)
-- **Rights / fair-use assessment:** Lori Nix / Kathleen Gerber; © 2012 artists/ClampArt as documented by Art Works for Change. The intact frame is required to teach converging tracks, platform edges, and the distant vanishing point; this credited 1500 × 1195px web derivative does not replace a print or licensed reproduction.
+- **Rights / fair-use assessment:** Lori Nix / Kathleen Gerber; © 2012 artists/ClampArt as documented by Art Works for Change. The intact frame is required to teach the converging ceiling edge, seat-and-floor recession, and carriage-end opening; this credited 1500 × 1195px web derivative does not replace a print or licensed reproduction.
 - **File:** `raw/lori-nix/11-subway.jpg` (1500 × 1195px)
 
 ### 12 — *Observatory* (2015)

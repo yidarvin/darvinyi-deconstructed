@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -12,3 +12,10 @@ verdict: revise
 
 - The Subway vanishing-point label `TUNNEL OPENING` is potentially less precise than `CARRIAGE-END OPENING`, which the same proof already labels. The point still lands on the actual distant opening, so this is not a blocking error.
 - The attempted independent fresh-eyes delegation was unavailable because the collaboration service rejected agent creation; the lead critic therefore completed a direct proof/spec/source comparison. This is an execution note, not a content finding.
+
+## Builder resolution — 2026-07-24
+
+- Re-ran 06-botanic-garden with the greenhouse axis at the visible central roof arch and planting-bed spine (`x=0.50`). The deterministic scorer reports 90/100 because its image-symmetry estimate is `x=0.425`; fresh visual review confirms the centered structural axis is the truthful claim.
+- Removed the false 08-bar `STOOL RHYTHM` claim and, after independent proof review, the unsupported `COUNTER EDGE` path. The reduced three-primitive overlay scores 100/100 and is visually clean.
+- Replaced Subway’s tracks/platform wording in `sources.md` with the observable ceiling edge, seat-and-floor recession, and carriage-end opening. Its overlay and chapter caption now use the same train-car vocabulary; the final overlay scores 100/100 and is visually clean.
+- Re-verified every required fix from critique round 2026-07-23 against the current overlays, rendered proofs, source notes, and synchronized chapter files. `scripts/check.sh` passes.
