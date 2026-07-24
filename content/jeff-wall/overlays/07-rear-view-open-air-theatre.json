@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-rear-view-open-air-theatre.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.545, "cy": 0.360, "rx": 0.370, "ry": 0.260, "label": "BARREL ROOF" },
+    { "type": "frame_in_frame", "x": 0.215, "y": 0.415, "w": 0.070, "h": 0.155, "label": "UPPER DOOR" },
+    { "type": "frame_in_frame", "x": 0.675, "y": 0.540, "w": 0.100, "h": 0.085, "label": "LIT WINDOW" },
+    { "type": "polyline", "points": [[0.185, 0.540], [0.285, 0.405], [0.420, 0.325], [0.580, 0.285], [0.780, 0.335]], "label": "CURVING ROOF LINE" }
+  ],
+  "notes": "The curved theatre roof gives a street-side building portrait the enclosed scale of a constructed stage."
+}

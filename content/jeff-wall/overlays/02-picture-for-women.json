@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-picture-for-women.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.445, "y": 0.355, "w": 0.112, "h": 0.210, "label": "CAMERA IN THE MIRROR" },
+    { "type": "polyline", "points": [[0.500, 0.000], [0.500, 0.940]], "label": "MIRROR CENTERLINE" },
+    { "type": "frame_in_frame", "x": 0.238, "y": 0.220, "w": 0.485, "h": 0.360, "label": "REAR WINDOW BANK" },
+    { "type": "polyline", "points": [[0.000, 0.926], [0.962, 0.926]], "label": "COUNTER EDGE" }
+  ],
+  "notes": "A camera on the mirror axis makes the photographer, model, and viewer part of one reciprocal arrangement."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-a-sudden-gust-of-wind.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.640, "angle": 0.0, "label": "FAR BANK" },
+    { "type": "leading_line", "points": [[0.430, 0.980], [0.670, 0.650]], "arrow": true, "label": "CANAL BANK" },
+    { "type": "ellipse", "cx": 0.472, "cy": 0.752, "rx": 0.055, "ry": 0.115, "label": "RUNNING FIGURE" },
+    { "type": "polyline", "points": [[0.245, 0.740], [0.405, 0.530], [0.615, 0.430]], "label": "PAPERS IN THE WIND" }
+  ],
+  "notes": "Bodies, papers, tree, and canal carry a single gust diagonally across an otherwise open panorama."
+}

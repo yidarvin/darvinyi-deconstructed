@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-the-destroyed-room.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.042, "y": 0.130, "w": 0.113, "h": 0.690, "label": "LEANING DOORWAY" },
+    { "type": "leading_line", "points": [[0.411, 0.538], [0.798, 0.992]], "arrow": true, "label": "MATTRESS DIAGONAL" },
+    { "type": "frame_in_frame", "x": 0.853, "y": 0.170, "w": 0.104, "h": 0.285, "label": "OPEN WINDOW" },
+    { "type": "ellipse", "cx": 0.535, "cy": 0.659, "rx": 0.195, "ry": 0.180, "label": "TORN MATTRESS" }
+  ],
+  "notes": "The room's broken edges turn domestic wreckage into a deliberately staged set of receding and opposing diagonals."
+}

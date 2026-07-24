@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-knife-throw.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.375, "cy": 0.530, "rx": 0.145, "ry": 0.240, "label": "THROWER" },
+    { "type": "polyline", "points": [[0.470, 0.390], [0.560, 0.332], [0.670, 0.315]], "label": "THROWING PATH" },
+    { "type": "frame_in_frame", "x": 0.575, "y": 0.345, "w": 0.215, "h": 0.180, "label": "RED WALL NICHE" },
+    { "type": "polyline", "points": [[0.200, 0.720], [0.550, 0.650], [0.900, 0.640]], "label": "RAISED PLATFORM EDGE" }
+  ],
+  "notes": "A raised arm sends a small, uncertain trajectory across a deliberately broad field of empty workshop wall."
+}

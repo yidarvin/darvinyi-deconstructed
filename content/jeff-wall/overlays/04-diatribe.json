@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-diatribe.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.000, 0.780], [0.470, 0.700]], "arrow": true, "label": "CURVING DIRT PATH" },
+    { "type": "ellipse", "cx": 0.690, "cy": 0.505, "rx": 0.120, "ry": 0.190, "label": "WALKING WOMAN" },
+    { "type": "ellipse", "cx": 0.805, "cy": 0.500, "rx": 0.105, "ry": 0.180, "label": "ADULT AND CHILD" },
+    { "type": "polyline", "points": [[0.640, 0.540], [0.735, 0.515], [0.840, 0.500]], "label": "SHARED WALKING DIRECTION" }
+  ],
+  "notes": "A small family group is held to one side of an exposed threshold and its converging track."
+}

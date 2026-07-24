@@ -31,7 +31,7 @@ This set follows Wall’s constructed photographic tableaux from the early light
 - **File:** `raw/jeff-wall/04-diatribe.jpg` (1600 × 1401px)
 
 ### 05 — *The Well* (1989)
-- **Why it matters:** Its vertical interior organizes separate figures and passages into a deep, layered domestic architecture rather than a single instant.
+- **Why it matters:** The overhead view confines a woman working in an excavation, making the pit, shovel, discarded tool, and surrounding earth read as a tightly ordered field rather than an incidental outdoor view.
 - **Source:** https://www.glenstone.org/artworks/the-well (Glenstone; public display derivative: https://www.glenstone.org/medias/azure-101819.jpg?format=jpg&quality=80&width=1600)
 - **Rights / fair-use assessment:** Jeff Wall; © Jeff Wall. **Factor 1:** transformative criticism examines nested rooms, depth, and delayed recognition. **Factor 2:** a creative staged photograph. **Factor 3:** the full tall frame is essential to the work’s vertical sequence of spaces. **Factor 4:** the credited 1600 × 2057px display file is limited to teaching use and does not replace the light box or licensed file.
 - **File:** `raw/jeff-wall/05-the-well.jpg` (1600 × 2057px)
@@ -43,7 +43,7 @@ This set follows Wall’s constructed photographic tableaux from the early light
 - **File:** `raw/jeff-wall/06-a-sudden-gust-of-wind.jpg` (600 × 364px)
 
 ### 07 — *Rear view, open-air theatre, Vancouver* (2005)
-- **Why it matters:** A crowd viewed from behind becomes a layered surface of heads, seats, and stage-oriented attention, testing how a frame makes spectatorship visible.
+- **Why it matters:** The rear of a curved-roof theatre, bracketed by trees and parked vehicles, turns an apparently ordinary exterior into a study of enclosure, repeated shingles, and a stage-like architectural shell.
 - **Source:** https://www.glenstone.org/artworks/rear-view-open-air-theatre-vancouver (Glenstone; public display derivative: https://www.glenstone.org/medias/azure-43937.jpg?format=jpg&quality=80&width=1600)
 - **Rights / fair-use assessment:** Jeff Wall; © Jeff Wall; collection photo credit Tim Nighswander / Imaging4Art.com. **Factor 1:** transformative teaching analyzes massed figures and a reversed viewing position. **Factor 2:** a creative staged photograph. **Factor 3:** the full width is needed to retain the crowd’s patterned field and implied off-frame stage. **Factor 4:** the credited 1600 × 1236px derivative is public-display scale and cannot replace the work or a licensed reproduction.
 - **File:** `raw/jeff-wall/07-rear-view-open-air-theatre.jpg` (1600 × 1236px)
@@ -55,7 +55,7 @@ This set follows Wall’s constructed photographic tableaux from the early light
 - **File:** `raw/jeff-wall/08-dressing-poultry.jpg` (1600 × 1280px)
 
 ### 09 — *Knife Throw* (2008)
-- **Why it matters:** The distant action is suspended in a broad field, using scale and lateral spacing to turn a small gesture into a cinematic point of tension.
+- **Why it matters:** A shirtless thrower, onlookers, raised arm, tiled niche, and platform edge turn an indoor workshop into a compressed scene of directed action and watchfulness.
 - **Source:** https://www.glenstone.org/artworks/knife-throw (Glenstone; public display derivative: https://www.glenstone.org/medias/azure-101823.jpg?format=jpg&quality=80&width=1600)
 - **Rights / fair-use assessment:** Jeff Wall; © Jeff Wall. **Factor 1:** transformative composition teaching examines small-scale action against an expansive setting. **Factor 2:** a creative staged photograph. **Factor 3:** the full horizontal frame is necessary to preserve distance, trajectory, and negative space. **Factor 4:** this credited 1600 × 1150px display derivative does not replace the original lightjet print or licensed image.
 - **File:** `raw/jeff-wall/09-knife-throw.jpg` (1600 × 1150px)
