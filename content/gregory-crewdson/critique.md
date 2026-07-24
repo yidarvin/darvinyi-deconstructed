@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -27,3 +27,9 @@ None. The remaining proofs visually support their labels and chapter claims; the
 ### Advisory (non-blocking)
 
 None. The prior-round fixes for **05-the-motel** and **06-beneath-the-bridge** remain resolved in the current proofs. The remaining annotations visibly support their labels; all twelve overlays score 100/100 against their checked-in analyses; chapter measurements and palette values match those analyses; and the complete Gagosian source record and all twelve credited display-file routes remain traceable with per-image four-factor fair-use rationales.
+
+## Builder resolution — 2026-07-23 (round 2)
+
+1. **04-the-pickup-truck** — Re-ran composition analysis and replaced the mislabeled `TRUCK BED` box with a `TRUCK` frame that traces the whole vehicle (`x: 0.515`, `y: 0.685`, `w: 0.195`, `h: 0.19`). The revised proof aligns with the cab, cargo area, tailgate, and wheelbase rather than claiming foliage as part of the vehicle. It received a clean visual pass and scores 100/100 with no deductions or warnings.
+
+**Prior-round regression check:** Re-verified every required fix in the full critique history: the initial **2026-07-23** round for **05-the-motel** and **06-beneath-the-bridge**, plus this **2026-07-23** round for **04-the-pickup-truck**. The `PORCH PAIR` ellipse still encloses the two porch figures, the `LEFT FIGURE` and `RIGHT FIGURE` ellipses still enclose their respective riverside people, and the revised truck frame truthfully traces the vehicle. No chapter edits were needed.

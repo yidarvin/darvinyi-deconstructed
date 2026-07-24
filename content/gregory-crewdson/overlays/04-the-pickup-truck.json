@@ -3,7 +3,7 @@
   "image": "04-the-pickup-truck.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.47, "y": 0.52, "w": 0.25, "h": 0.23, "label": "truck bed" },
+    { "type": "frame_in_frame", "x": 0.515, "y": 0.685, "w": 0.195, "h": 0.19, "label": "truck" },
     { "type": "ellipse", "cx": 0.56, "cy": 0.70, "rx": 0.11, "ry": 0.11, "label": "figures" },
     { "type": "polyline", "points": [[0.16, 0.98], [0.35, 0.83], [0.53, 0.72]], "label": "debris route" }
   ],
