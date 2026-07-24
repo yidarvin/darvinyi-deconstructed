@@ -2,13 +2,13 @@
 
 ## What the supplied sources establish
 
-This selection spans 1999–2007 and consists of twelve works that Maggie Taylor's public portfolio identifies by title, date, creator, and the medium "Digital composite." The source record describes the relevant early work as digital photomontage: photographs, scans and objects, historical imagery, figures, and animals are assembled into square tableaux. The Harn Museum's *Dreaming Alice* material supports the narrower contextual description of nineteenth-century photographic material combined with scans of insects, dolls, period etchings, and Victorian flora and fauna. [Source notes](sources.md)
+This selection consists of twelve works that Maggie Taylor's public portfolio identifies by title and creator. At the group level, the source record describes relevant early work as digital photomontage: photographs, scans and objects, historical imagery, figures, and animals are assembled into square tableaux. The Harn Museum's *Dreaming Alice* material supports the narrower contextual description of nineteenth-century photographic material combined with scans of insects, dolls, period etchings, and Victorian flora and fauna. [Source notes](sources.md)
 
 The public-display WebPs supplied by the artist portfolio were converted without visual alteration to the 800 × 800 JPEGs used here. They are contemporary, copyrighted works used under the per-image fair-use rationale recorded in the source notes. The displayed files have no capture EXIF.
 
 ## What the supplied sources do not establish
 
-They do not establish a camera body, lens, focal length, aperture, shutter speed, sensitivity, film, scanning hardware, retouching software, printer, paper, edition, or a uniform print process for these twelve works. "Digital composite" names the finished work's medium, not a recoverable recipe for each source photograph. This chapter therefore treats technical claims as limited to the documented composite practice and treats tonal and palette measurements as descriptions of the supplied web-display derivatives, not of an original print.
+They do not establish a camera body, lens, focal length, aperture, shutter speed, sensitivity, film, scanning hardware, retouching software, printer, paper, edition, a uniform print process, or authoritative per-work dates and medium labels for these twelve images. This chapter therefore treats technical claims as limited to the documented group-level photomontage practice and treats tonal and palette measurements as descriptions of the supplied web-display derivatives, not of an original print.
 
 ## Method for this chapter
 

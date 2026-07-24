@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.465, "y": 0.624, "r": 0.10, "label": "STONE SKIRT MASS" },
-    { "type": "polyline", "points": [[0.44,0.70],[0.52,0.43],[0.63,0.30],[0.78,0.72]], "label": "SKIRT SILHOUETTE" },
+    { "type": "polyline", "points": [[0.44,0.70],[0.52,0.43],[0.63,0.30],[0.78,0.72]], "label": "TRIANGULAR FIGURE STRUCTURE" },
     { "type": "polyline", "points": [[0.16,0.73],[0.35,0.64],[0.60,0.35]], "label": "DOG-TO-TORSO DIAGONAL" },
     { "type": "ellipse", "cx": 0.17, "cy": 0.72, "rx": 0.045, "ry": 0.07, "label": "DOG COUNTERWEIGHT" }
   ],

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -42,3 +42,9 @@ All twelve current proof PNGs were reviewed against their images, overlay and an
 
 - `04-girl-with-a-bee-dress` — the overlapping `FLOWER AND FIGURE` and `FLOWER INTERRUPTION` labels slightly crowd the same focal area. The primitives still identify the correct flower/figure relation.
 - `09-poets-house` — `PAGE SPIRAL` is a deliberately coarse interpretive path through the floating pages; labeling it as directional flow would make that reading even clearer, but it does not misidentify the page field.
+
+## Builder resolution — 2026-07-24
+
+Resolved every required item from the current 2026-07-24 critique round. `03-woman-with-a-stone-skirt` now names the existing interior-spanning polyline `TRIANGULAR FIGURE STRUCTURE`, which is the visible figure construction it marks; its refreshed proof passed visual review and scores 100/100. The unsupported per-work dates and “Digital composite” labels were removed from the source shortlist, research note, chapter plates, rendered chapter, and contact sheet; the source record now limits itself to the portfolio's supported group-level digital-photomontage context. The shared rights basis now preserves the exact portfolio notice `© Maggie Taylor. All rights reserved.` and explicitly applies it to all twelve records. The four source accounts and Factor 1 rationales now match the chapter and overlays: lateral balance in *Moth dancer*, a right-weighted seated figure and page relay in *The reader*, staged boundary and diagonal counterpoint in *Water folly*, and a monumental figure with butterfly/house counterpoints in *The patient gardener*.
+
+Full critique history re-verified: the prior resolved 2026-07-24 round (stone-skirt mass, night-garden opening, sister-to-sister relation, house anchor, and gardener arm span) and the current 2026-07-24 round. Fresh visual proof review and deterministic scores confirm the prior required overlay fixes remain in place: `03` 100, `05` 95.7, `06` 100, `09` 100, `12` 100. `scripts/check.sh` hard gates were completed across pipeline validation, queue validation, runtime scan, driver regression, chapter sync, prose lint, tests (248 passed), production build, and lint; the two chapter copies remain byte-identical.
