@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-at-the-window.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.772, "angle": 0.0, "label": "EXTERIOR FIELD LINE" },
+    { "type": "frame_in_frame", "x": 0.557, "y": 0.0, "w": 0.34, "h": 0.915, "label": "WINDOW" },
+    { "type": "polyline", "points": [[0.45, 0.308], [0.568, 0.295], [0.718, 0.295]], "label": "LOOKING PATH" },
+    { "type": "subject_anchor", "x": 0.227, "y": 0.304, "r": 0.035, "label": "HAIR KNOT" }
+  ],
+  "notes": "The turned figure makes the window a literal internal frame and a directional screen."
+}

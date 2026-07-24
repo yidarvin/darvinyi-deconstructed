@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-the-rosegarden.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.486, "angle": 0.0, "label": "GARDEN WALL" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "GARDEN AXIS" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.383, "rx": 0.142, "ry": 0.301, "label": "CENTRAL FIGURE" }
+  ],
+  "notes": "A central child interrupts the garden's paired paths and carefully level horizon."
+}

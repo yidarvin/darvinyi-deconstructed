@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "06-the-wanderer.jpg",
+  "width": 900,
+  "height": 590,
+  "aspect": 1.5254,
+  "tonal": {
+    "mean": 0.8158785716923305,
+    "std": 0.14980927183718726,
+    "p05": 0.5098039215686274,
+    "p95": 0.9333333333333333,
+    "edge_density": 0.008152542372881355
+  },
+  "palette": [
+    "#e6e9e9",
+    "#c5bfb2",
+    "#aaa694",
+    "#918c76",
+    "#6b604e"
+  ],
+  "lines": [
+    {
+      "x1": 0.7933333333333333,
+      "y1": 0.8254237288135593,
+      "x2": 0.8233333333333334,
+      "y2": 0.6677966101694915,
+      "angle_deg": -73.81079374297306,
+      "length": 0.08998747862124448,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6044444444444445,
+      "y1": 0.7813559322033898,
+      "x2": 0.6722222222222223,
+      "y2": 0.7457627118644068,
+      "angle_deg": -18.996654155488557,
+      "length": 0.059948456690995446,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.6322033898305085,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.6788888888888889,
+      0.8152542372881356
+    ],
+    "regions": [
+      {
+        "cx": 0.6192149898914108,
+        "cy": 0.8373587173201835,
+        "x": 0.4722222222222222,
+        "y": 0.7101694915254237,
+        "w": 0.29555555555555557,
+        "h": 0.28983050847457625,
+        "area_frac": 0.05019774011299435
+      },
+      {
+        "cx": 0.08839075688390756,
+        "cy": 0.9661847169160845,
+        "x": 0.051111111111111114,
+        "y": 0.923728813559322,
+        "w": 0.07222222222222222,
+        "h": 0.07627118644067797,
+        "area_frac": 0.004536723163841808
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.940873571504789,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.8611646051541884,
+    "horizontal_axis_y": 0.4375
+  },
+  "subject_anchor": {
+    "x": 0.6788888888888889,
+    "y": 0.8152542372881356,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5682768440212105,
+    "phi": 0.5049098399371271,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.632,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.94,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.679,
+      "y": 0.815,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

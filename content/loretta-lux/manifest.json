@@ -1,0 +1,122 @@
+[
+  {
+    "file": "01-the-red-ball.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "1cf4e43e",
+    "source": "01-the-red-ball.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:44:46"
+    }
+  },
+  {
+    "file": "02-girl-with-crossed-arms.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "b7d77545",
+    "source": "02-girl-with-crossed-arms.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 10:51:03"
+    }
+  },
+  {
+    "file": "03-the-rosegarden.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "e3e87579",
+    "source": "03-the-rosegarden.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 10:56:18"
+    }
+  },
+  {
+    "file": "04-study-of-a-boy-2.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "6869d301",
+    "source": "04-study-of-a-boy-2.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:28:57"
+    }
+  },
+  {
+    "file": "05-the-book.jpg",
+    "width": 900,
+    "height": 590,
+    "sha1": "7f8ac320",
+    "source": "05-the-book.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:49:54"
+    }
+  },
+  {
+    "file": "06-the-wanderer.jpg",
+    "width": 900,
+    "height": 590,
+    "sha1": "5591c57f",
+    "source": "06-the-wanderer.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:49:11"
+    }
+  },
+  {
+    "file": "07-marianne.jpg",
+    "width": 900,
+    "height": 1255,
+    "sha1": "317fcfbe",
+    "source": "07-marianne.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 10:22:20"
+    }
+  },
+  {
+    "file": "08-at-the-window.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "3e6294de",
+    "source": "08-at-the-window.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:51:35"
+    }
+  },
+  {
+    "file": "09-the-drummer.jpg",
+    "width": 900,
+    "height": 1066,
+    "sha1": "460b27ba",
+    "source": "09-the-drummer.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:50:40"
+    }
+  },
+  {
+    "file": "10-the-walk.jpg",
+    "width": 900,
+    "height": 712,
+    "sha1": "89d5f7a3",
+    "source": "10-the-walk.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 11:52:18"
+    }
+  },
+  {
+    "file": "11-sasha-and-ruby.jpg",
+    "width": 900,
+    "height": 645,
+    "sha1": "5b04c2c0",
+    "source": "11-sasha-and-ruby.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 12:05:47"
+    }
+  },
+  {
+    "file": "12-the-waiting-girl.jpg",
+    "width": 900,
+    "height": 645,
+    "sha1": "63964648",
+    "source": "12-the-waiting-girl.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:05:31 12:08:51"
+    }
+  }
+]

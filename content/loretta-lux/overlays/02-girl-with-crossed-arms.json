@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-girl-with-crossed-arms.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.484, "angle": 0.0, "label": "FIELD BREAK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FRONTAL AXIS" },
+    { "type": "polyline", "points": [[0.285, 0.588], [0.464, 0.502], [0.686, 0.646]], "label": "CROSSED-ARM LOCK" }
+  ],
+  "notes": "The frontal figure locks itself against a level, manufactured-looking field."
+}

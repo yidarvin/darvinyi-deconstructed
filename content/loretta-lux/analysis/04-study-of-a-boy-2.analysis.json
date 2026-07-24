@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "04-study-of-a-boy-2.jpg",
+  "width": 900,
+  "height": 900,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.7579048317598645,
+    "std": 0.13733904423865234,
+    "p05": 0.49411764705882355,
+    "p95": 0.8901960784313725,
+    "edge_density": 0.004123456790123456
+  },
+  "palette": [
+    "#d7ddd1",
+    "#c6cbbc",
+    "#9f8879",
+    "#b2a598",
+    "#665847"
+  ],
+  "lines": [
+    {
+      "x1": 0.74,
+      "y1": 0.7633333333333333,
+      "x2": 0.9988888888888889,
+      "y2": 0.7633333333333333,
+      "angle_deg": 0.0,
+      "length": 0.18306208890718395,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.034444444444444444,
+      "y1": 0.7622222222222222,
+      "x2": 0.16,
+      "y2": 0.7633333333333333,
+      "angle_deg": 0.5070290609147756,
+      "length": 0.08878466111543547,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.7633333333333333,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5855555555555556,
+      0.2111111111111111
+    ],
+    "regions": [
+      {
+        "cx": 0.5409034673612242,
+        "cy": 0.2589537323421419,
+        "x": 0.3988888888888889,
+        "y": 0.16,
+        "w": 0.2477777777777778,
+        "h": 0.24444444444444444,
+        "area_frac": 0.0303358024691358
+      },
+      {
+        "cx": 0.5948460484604845,
+        "cy": 0.8047544475444754,
+        "x": 0.5088888888888888,
+        "y": 0.7388888888888889,
+        "w": 0.17,
+        "h": 0.1288888888888889,
+        "area_frac": 0.013717283950617285
+      },
+      {
+        "cx": 0.4217838910025038,
+        "cy": 0.7179693038077586,
+        "x": 0.3844444444444444,
+        "y": 0.68,
+        "w": 0.07555555555555556,
+        "h": 0.07555555555555556,
+        "area_frac": 0.004218518518518518
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9489069464726467,
+    "vertical_axis_x": 0.525,
+    "horizontal": 0.6223250101348722,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.5855555555555556,
+    "y": 0.2111111111111111,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.25781281345723484,
+    "phi": 0.10008849456140395,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.763,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.525,
+      "confidence": 0.95,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.586,
+      "y": 0.211,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

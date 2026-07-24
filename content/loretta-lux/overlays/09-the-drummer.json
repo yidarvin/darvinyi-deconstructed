@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-the-drummer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.771, "angle": 0.0, "label": "TABLE EDGE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FRONTAL AXIS" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.744, "rx": 0.207, "ry": 0.113, "label": "DRUM" },
+    { "type": "subject_anchor", "x": 0.361, "y": 0.711, "r": 0.035, "label": "LEFT MALLET" }
+  ],
+  "notes": "A frontal child and oval drum are held still against patterned verticals."
+}

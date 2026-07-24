@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-sasha-and-ruby.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PAIR AXIS" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.53, "rx": 0.125, "ry": 0.275, "label": "LEFT FIGURE" },
+    { "type": "ellipse", "cx": 0.665, "cy": 0.53, "rx": 0.125, "ry": 0.275, "label": "RIGHT FIGURE" }
+  ],
+  "notes": "The paired figures hover on an axis while the path refuses a sentimental symmetry."
+}

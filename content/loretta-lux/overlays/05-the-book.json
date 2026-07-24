@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-the-book.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.249, "angle": 0.0, "label": "WALL RELIEF SEAM" },
+    { "type": "frame_in_frame", "x": 0.629, "y": 0.135, "w": 0.154, "h": 0.403, "label": "RECEDING DOORWAY" },
+    { "type": "polyline", "points": [[0.245, 0.738], [0.313, 0.69], [0.389, 0.699]], "label": "OPEN BOOK" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.231, "r": 0.035, "label": "STANDING FIGURE" }
+  ],
+  "notes": "The low reader, upright companion, and empty doorway establish an uneasy lateral tableau."
+}

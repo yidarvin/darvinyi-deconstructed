@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-the-wanderer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.632, "angle": 0.0, "label": "DISTANT RIDGE" },
+    { "type": "polyline", "points": [[0.229, 0.758], [0.469, 0.732], [0.644, 0.743]], "label": "RECLINING FIGURE" },
+    { "type": "ellipse", "cx": 0.832, "cy": 0.73, "rx": 0.071, "ry": 0.103, "label": "BAG" }
+  ],
+  "notes": "A low horizontal body is dwarfed by the deliberately vacant sky and ridge."
+}

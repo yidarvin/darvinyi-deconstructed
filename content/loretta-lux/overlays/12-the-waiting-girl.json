@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-the-waiting-girl.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.771, "angle": 0.0, "label": "FLOOR-WALL BREAK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "SOFA AXIS" },
+    { "type": "frame_in_frame", "x": 0.15, "y": 0.39, "w": 0.7, "h": 0.378, "label": "SETTEE" },
+    { "type": "subject_anchor", "x": 0.617, "y": 0.878, "r": 0.035, "label": "CROSSED SHOES" }
+  ],
+  "notes": "The small seated body and sleeping cat tilt a formal settee toward suspended waiting."
+}

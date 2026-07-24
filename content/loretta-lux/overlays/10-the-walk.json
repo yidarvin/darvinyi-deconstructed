@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-the-walk.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.501, "angle": 0.0, "label": "FIELD BREAK" },
+    { "type": "leading_line", "points": [[0.169, 1.0], [0.305, 0.738], [0.445, 0.591]], "arrow": true, "label": "PATH EDGE" },
+    { "type": "polyline", "points": [[0.487, 0.36], [0.559, 0.326], [0.633, 0.372]], "label": "PAIRED HEADS" },
+    { "type": "subject_anchor", "x": 0.586, "y": 0.31, "r": 0.035, "label": "RIGHT FIGURE" }
+  ],
+  "notes": "Two similarly posed children interrupt a long path and unusually broad field."
+}

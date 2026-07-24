@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "02-girl-with-crossed-arms.jpg",
+  "width": 900,
+  "height": 900,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.6270681868796901,
+    "std": 0.17845135585132735,
+    "p05": 0.2823529411764706,
+    "p95": 0.807843137254902,
+    "edge_density": 0.010343209876543209
+  },
+  "palette": [
+    "#bdcabb",
+    "#cb641a",
+    "#7c874b",
+    "#4d4a2e",
+    "#bba17c"
+  ],
+  "lines": [
+    {
+      "x1": 0.45222222222222225,
+      "y1": 0.6388888888888888,
+      "x2": 0.49777777777777776,
+      "y2": 0.8055555555555556,
+      "angle_deg": 74.71256557588325,
+      "length": 0.12217423300302131,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.8355555555555556,
+      "y1": 0.76,
+      "x2": 0.9922222222222222,
+      "y2": 0.7577777777777778,
+      "angle_deg": -0.8126515942537369,
+      "length": 0.11079120614031013,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.6155555555555555,
+      "y1": 0.8588888888888889,
+      "x2": 0.64,
+      "y2": 0.9933333333333333,
+      "angle_deg": 79.69515353123397,
+      "length": 0.09662515072736715,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.04555555555555556,
+      "y1": 0.63,
+      "x2": 0.15666666666666668,
+      "y2": 0.6688888888888889,
+      "angle_deg": 19.290046219188735,
+      "length": 0.0832406892431761,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3477777777777778,
+      "y1": 0.5533333333333333,
+      "x2": 0.4488888888888889,
+      "y2": 0.54,
+      "angle_deg": -7.512144103052749,
+      "length": 0.07211530547637317,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.48444444444444446,
+    "angle_deg": 0.0,
+    "confidence": 0.975472925720934,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.41333333333333333,
+      0.4911111111111111
+    ],
+    "regions": [
+      {
+        "cx": 0.3991840427365156,
+        "cy": 0.49006653646581266,
+        "x": 0.3022222222222222,
+        "y": 0.4266666666666667,
+        "w": 0.17777777777777778,
+        "h": 0.13555555555555557,
+        "area_frac": 0.014328395061728396
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9078147459015281,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.6818897540084262,
+    "horizontal_axis_y": 0.4
+  },
+  "subject_anchor": {
+    "x": 0.41333333333333333,
+    "y": 0.4911111111111111,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.09226806070592619,
+    "phi": 0.32303843852291086,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.484,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.98,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.91,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.413,
+      "y": 0.491,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

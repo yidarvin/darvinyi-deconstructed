@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-marianne.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.9, "angle": 3.9, "label": "COAT HEM" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.463, "label": "FIGURE AXIS" },
+    { "type": "polyline", "points": [[0.451, 0.242], [0.469, 0.48], [0.492, 0.76]], "label": "COAT CENTER" }
+  ],
+  "notes": "A cool, vertical figure is pressed into a narrow field whose floor barely arrives."
+}
