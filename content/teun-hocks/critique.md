@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -53,3 +53,15 @@ Re-verified required fixes from every prior critique round: the first 2026-07-23
 6. **11-untitled-208-2004:** Confirmed the unsupported lower-branch line remains absent; only the snowfield edge and branch-bundle anchor remain (100).
 
 All twelve overlay specs pass the 80-point deterministic threshold; 01 and 06 each carry one documented saliency-only deduction, while the remaining ten score 100. The chapter's existing literal descriptions of the can, water stream, and raised wine-glass hand match the corrected proofs, so no chapter text changed.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None.
+
+The twelve current proofs were visually rechecked against their overlay specs and analyzer output. The six prior required findings remain resolved: 01's can and water trace the literal prop and stream; 05's line follows the rod; 06's anchor is on the wine-glass hand; 08's measured line is accurately named `TERRAIN BREAK`; and the unsupported body/branch polylines remain absent in 10 and 11. All specs pass the deterministic threshold (01: 89.9; 06: 86.8; all others: 100); the two deductions are saliency-only and do not contradict the visually named features. The chapter's tonal figures match the analyzer values within tolerance, the camera-setting caveat does not present downloaded metadata as original capture evidence, and each selected image is traceable to the official artist/estate page with its per-image four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.
