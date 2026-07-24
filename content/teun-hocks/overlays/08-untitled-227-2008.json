@@ -3,7 +3,7 @@
   "image": "08-untitled-227-2008.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.554, "angle": 0, "label": "housing-block baseline" },
+    { "type": "horizon_line", "y": 0.554, "angle": 0, "label": "terrain break" },
     { "type": "subject_anchor", "x": 0.366, "y": 0.779, "r": 0.035, "label": "sleeping figure" },
     { "type": "frame_in_frame", "x": 0.200, "y": 0.500, "w": 0.650, "h": 0.330, "label": "cardboard shelter" }
   ],

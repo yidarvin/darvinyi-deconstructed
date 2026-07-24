@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.541, "angle": 0, "label": "water-and-sky break" },
     { "type": "subject_anchor", "x": 0.726, "y": 0.323, "r": 0.035, "label": "waiting fisherman" },
-    { "type": "polyline", "points": [[0.340, 0.610], [0.430, 0.510], [0.590, 0.470], [0.780, 0.470], [0.940, 0.520]], "label": "bent fishing rod" }
+    { "type": "polyline", "points": [[0.340, 0.550], [0.370, 0.510], [0.480, 0.480], [0.610, 0.460], [0.760, 0.470], [0.940, 0.520]], "label": "bent fishing rod" }
   ],
   "notes": "A small seated figure at right makes the empty water and sky feel like a patiently held interval."
 }

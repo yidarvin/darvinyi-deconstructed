@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -15,3 +15,14 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-07-23
+
+Re-verified required fixes from all prior critique rounds: 2026-07-23 (the sole prior round).
+
+1. **05-untitled-253-2014:** Replotted `BENT FISHING ROD` from the pond-side bend across the literal rod at the fisherman's lap level; rendered proof is visually clean and scores 100.
+2. **08-untitled-227-2008:** Renamed the measured y=0.554 primitive `TERRAIN BREAK`, matching the feature it follows rather than claiming a housing-block baseline; rendered proof is visually clean and scores 100.
+3. **10-untitled-215-2007:** Removed the unsupported `SLEEPING BODY` polyline and revised the chapter to state that the overlay follows the literal ridge and moon; rendered proof is visually clean and scores 100.
+4. **11-untitled-208-2004:** Removed the unsupported `LOWER BRANCH SWEEP`; the remaining snowfield edge and branch-bundle anchor are visually clean and score 100.
+
+The research callout now treats downloaded image metadata as unreliable for original capture settings, consistent with the cited artist/estate and museum records.
