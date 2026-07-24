@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.385, "angle": 0.0, "label": "WINDOW BAND" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.600, "label": "WINDOW DIVISION" },
-    { "type": "frame_in_frame", "x": 0.521, "y": 0.241, "w": 0.445, "h": 0.208, "label": "WINDOW PAIR" }
+    { "type": "frame_in_frame", "x": 0.521, "y": 0.241, "w": 0.300, "h": 0.170, "label": "WINDOW PAIR" }
   ],
   "notes": "The room is compressed into a dark ramp toward two bright window bays and their shadows."
 }

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -13,3 +13,14 @@ verdict: revise
 
 - `sources.md` incorrectly calls *Turning Hallway* (`756 × 600` in `manifest.json`) a 600px-long-edge exception. Its long edge is 756px, above the normal 640px floor; only *Green Staircase #1* needs the documented exception. Correct this source-note detail during the resolution.
 - The artist portfolio confirms all eleven selected titles and dates, the chapter’s measured values agree with the current analysis JSON within tolerance, and the source notes provide a per-image four-factor fair-use rationale. The generic copyright wording should be qualified to the portfolio’s actual notice (or its absence) when the source notes are next revised.
+
+## Builder resolution — 2026-07-23
+
+1. `05-yellow-hallway-2` — tightened `TILTED DOOR` from the full recess to the tilted door itself (`x=0.436–0.540`, `y=0.085–0.490`).
+2. `07-green-staircase-4` — retained the measured straight architectural edge but relabelled it `CEILING-WALL DIVISION`; the chapter prose now makes the same, non-soffit claim.
+3. `08-dorm-room` — tightened `WINDOW PAIR` to the two visible window bays (`x=0.521–0.821`, `y=0.241–0.411`).
+4. `09-turning-hallway` — repositioned `WINDOW EXIT` to the bright gridded opening (`x=0.553–0.643`, `y=0.217–0.422`).
+
+Each affected image was re-analyzed, rendered, visually checked, and scored 100/100 against the composition rubric. The advisory long-edge wording for *Turning Hallway* is corrected in `sources.md`.
+
+Re-verified critique history: 2026-07-23, the only prior critique round; all four required fixes remain satisfied. `scripts/check.sh` passes, including the chapter byte-identity check.
