@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-the-den.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.47, "cy": 0.60, "rx": 0.13, "ry": 0.09, "label": "reclining figure" },
+    { "type": "ellipse", "cx": 0.73, "cy": 0.59, "rx": 0.08, "ry": 0.18, "label": "seated figure" },
+    { "type": "frame_in_frame", "x": 0.42, "y": 0.70, "w": 0.34, "h": 0.17, "label": "coffee table" },
+    { "type": "frame_in_frame", "x": 0.93, "y": 0.24, "w": 0.07, "h": 0.39, "label": "window light" }
+  ],
+  "notes": "Two distinct bodies share a low room, separated by a table and a hard window light."
+}

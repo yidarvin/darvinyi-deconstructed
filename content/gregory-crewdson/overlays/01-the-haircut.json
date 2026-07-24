@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-the-haircut.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.61, "w": 0.16, "h": 0.28, "label": "shack" },
+    { "type": "frame_in_frame", "x": 0.75, "y": 0.64, "w": 0.23, "h": 0.24, "label": "fallen cabin" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.78, "rx": 0.10, "ry": 0.09, "label": "figures" },
+    { "type": "polyline", "points": [[0.31, 0.82], [0.45, 0.69], [0.57, 0.51]], "label": "earthen rise" }
+  ],
+  "notes": "Two improvised shelters bracket a small pair at the base of the rising forest floor."
+}

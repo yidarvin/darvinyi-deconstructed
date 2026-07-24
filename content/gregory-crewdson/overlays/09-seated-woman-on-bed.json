@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-seated-woman-on-bed.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.65, "cy": 0.59, "rx": 0.12, "ry": 0.24, "label": "seated woman" },
+    { "type": "frame_in_frame", "x": 0.28, "y": 0.05, "w": 0.15, "h": 0.39, "label": "window light" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.27, "w": 0.13, "h": 0.41, "label": "mirror reflection" },
+    { "type": "polyline", "points": [[0.55, 0.63], [0.78, 0.72], [0.98, 0.82]], "label": "bed edge" }
+  ],
+  "notes": "A window and mirror set a seated body against two incompatible directions of looking."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-the-basement.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.37, "cy": 0.49, "rx": 0.08, "ry": 0.16, "label": "seated man" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.58, "rx": 0.13, "ry": 0.13, "label": "reclining woman" },
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.68, "w": 0.25, "h": 0.22, "label": "table" },
+    { "type": "frame_in_frame", "x": 0.55, "y": 0.13, "w": 0.06, "h": 0.39, "label": "high window" }
+  ],
+  "notes": "Two separated bodies face across a low table and a deliberately open carpet field."
+}

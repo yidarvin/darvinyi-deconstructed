@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-woman-in-bathroom.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.30, "y": 0.13, "w": 0.35, "h": 0.83, "label": "bathroom doorway" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.56, "rx": 0.07, "ry": 0.23, "label": "woman" },
+    { "type": "ellipse", "cx": 0.42, "cy": 0.48, "rx": 0.05, "ry": 0.16, "label": "mirror reflection" },
+    { "type": "frame_in_frame", "x": 0.67, "y": 0.20, "w": 0.23, "h": 0.43, "label": "interior window" }
+  ],
+  "notes": "Nested doorways and a mirror multiply one figure across a narrow domestic passage."
+}

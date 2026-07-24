@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-mother-and-daughter.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.52, "y": 0.14, "w": 0.31, "h": 0.57, "label": "sliding door" },
+    { "type": "ellipse", "cx": 0.29, "cy": 0.64, "rx": 0.10, "ry": 0.18, "label": "seated figure" },
+    { "type": "ellipse", "cx": 0.39, "cy": 0.72, "rx": 0.13, "ry": 0.10, "label": "reclining figure" },
+    { "type": "polyline", "points": [[0.00, 0.59], [0.26, 0.67], [0.52, 0.91]], "label": "sofa edge" }
+  ],
+  "notes": "A couch-bound pair and a bright doorway divide the room between intimacy and distance."
+}

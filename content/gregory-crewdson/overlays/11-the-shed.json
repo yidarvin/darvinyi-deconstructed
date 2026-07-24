@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-the-shed.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.48, "y": 0.14, "w": 0.18, "h": 0.66, "label": "doorway" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.49, "rx": 0.04, "ry": 0.12, "label": "figure" },
+    { "type": "polyline", "points": [[0.12, 0.92], [0.36, 0.86], [0.57, 0.74]], "label": "floor threshold" }
+  ],
+  "notes": "A bright doorway opens through a dark shed interior and makes its figure a distant threshold."
+}

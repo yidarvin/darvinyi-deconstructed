@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-the-motel.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.35, "y": 0.23, "w": 0.63, "h": 0.45, "label": "house facade" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.50, "rx": 0.09, "ry": 0.08, "label": "porch pair" },
+    { "type": "polyline", "points": [[0.35, 0.43], [0.49, 0.40], [0.61, 0.35]], "label": "porch roof" },
+    { "type": "polyline", "points": [[0.07, 0.93], [0.44, 0.79], [0.78, 0.70]], "label": "snow field" }
+  ],
+  "notes": "The porch pair is held between a house facade and an expansive blank foreground."
+}

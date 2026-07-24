@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-the-haircut.jpg",
+    "width": 1200,
+    "height": 899,
+    "sha1": "3dc985eb",
+    "source": "01-the-haircut.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-reclining-woman-on-sofa.jpg",
+    "width": 900,
+    "height": 673,
+    "sha1": "bbc2e6f5",
+    "source": "02-reclining-woman-on-sofa.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-the-basement.jpg",
+    "width": 900,
+    "height": 673,
+    "sha1": "5f1238cb",
+    "source": "03-the-basement.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-the-pickup-truck.jpg",
+    "width": 900,
+    "height": 674,
+    "sha1": "416ac1c9",
+    "source": "04-the-pickup-truck.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-the-motel.jpg",
+    "width": 900,
+    "height": 674,
+    "sha1": "879d40e0",
+    "source": "05-the-motel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-beneath-the-bridge.jpg",
+    "width": 900,
+    "height": 675,
+    "sha1": "d056d5a0",
+    "source": "06-beneath-the-bridge.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-woman-at-sink.jpg",
+    "width": 900,
+    "height": 673,
+    "sha1": "597cacfa",
+    "source": "07-woman-at-sink.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-mother-and-daughter.jpg",
+    "width": 900,
+    "height": 675,
+    "sha1": "18f7be64",
+    "source": "08-mother-and-daughter.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-seated-woman-on-bed.jpg",
+    "width": 900,
+    "height": 675,
+    "sha1": "114b625e",
+    "source": "09-seated-woman-on-bed.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-the-den.jpg",
+    "width": 900,
+    "height": 675,
+    "sha1": "5510c684",
+    "source": "10-the-den.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-the-shed.jpg",
+    "width": 900,
+    "height": 675,
+    "sha1": "4cda91f7",
+    "source": "11-the-shed.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-woman-in-bathroom.jpg",
+    "width": 900,
+    "height": 673,
+    "sha1": "6745dbc1",
+    "source": "12-woman-in-bathroom.jpg",
+    "exif": {}
+  }
+]

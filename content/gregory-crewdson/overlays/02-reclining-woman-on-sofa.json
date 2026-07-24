@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-reclining-woman-on-sofa.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.14, "y": 0.11, "w": 0.84, "h": 0.35, "label": "window bank" },
+    { "type": "ellipse", "cx": 0.65, "cy": 0.60, "rx": 0.24, "ry": 0.13, "label": "reclining body" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.78, "rx": 0.22, "ry": 0.10, "label": "table" }
+  ],
+  "notes": "A bright window band, sofa, and low table establish a shallow, lateral stage."
+}
