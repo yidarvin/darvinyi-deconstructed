@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -53,3 +53,13 @@ None. The current proofs support all overlay labels, including every previously 
 3. **05-the-motel** — Rewrote the `sources.md` description and its image-specific fair-use rationale around the visible white house façade, porch pair, snow field, and porch threshold; they no longer claim a parked car.
 
 **Prior-round regression check:** Re-verified every required fix in the full critique history: the first **2026-07-23** round for **05-the-motel** and **06-beneath-the-bridge**; the second **2026-07-23** round for **04-the-pickup-truck**; and this third **2026-07-23** round for the source notes for **01-the-haircut**, **03-the-basement**, and **05-the-motel**. The `PORCH PAIR` ellipse still encloses the two porch figures, the `LEFT FIGURE` and `RIGHT FIGURE` ellipses still enclose their respective riverside people, and the revised `TRUCK` frame still traces the vehicle. The current proofs also confirm that all three corrected source descriptions match their visible subjects and structures. No chapter edit was required.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None. I visually reviewed all twelve current proof PNGs against their overlay specs and checked-in analyzer records. The previously resolved `PORCH PAIR`, riverside-figure, and `TRUCK` annotations still trace the named features. Every overlay scores 100/100 against its current analysis, and the chapter's reported tonal values, edge densities, and palette colors match those analyses within tolerance. The prose makes no unsupported capture-setting claims. All twelve Gagosian display-file routes and the exhibition record returned HTTP 200 during this review; each plate has a traceable credit and a concise four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.

@@ -113,7 +113,7 @@ real queue and state live in data/registry.json.
 | 102 | sandy-skoglund            | Sandy Skoglund               | DONE    |
 | 103 | cindy-sherman             | Cindy Sherman                | DONE    |
 | 104 | jeff-wall                 | Jeff Wall                    | DONE    |
-| 105 | gregory-crewdson          | Gregory Crewdson             | PENDING |
+| 105 | gregory-crewdson          | Gregory Crewdson             | DONE    |
 | 106 | james-casebere            | James Casebere               | PENDING |
 | 107 | thomas-demand             | Thomas Demand                | PENDING |
 | 108 | david-levinthal           | David Levinthal              | PENDING |
