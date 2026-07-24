@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -58,3 +58,14 @@ All five required fixes in the current round are resolved.
 5. `12-untitled-179` removes the unsupported `SCATTER OF PROPS` polyline; the figure-and-chair ellipse and a single visible right-side-prop anchor make only claims that the proof supports. Strict score: 100.
 
 Re-verified full critique history: both 2026-07-23 critique rounds. The earlier required corrections remain intact: the #41 roof-beam and raised-platform polylines trace the concrete court; the #56 reflected-eye ellipse is on the visible eye; the #88 face marker is on the face; the #92 seam follows the right-side floorboard; and the #24, #41, #50, and #92 source descriptions and fair-use factors truthfully match the shown works. All twelve strict scores are at least 80, the regenerated proofs and contact sheet pass visual review, the two chapter copies are byte-identical, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None. All twelve rendered proofs were rechecked against their current overlay specs and source images. The resolved #41 architectural polylines, #56 reflected-eye ellipse, #88 face anchor, and #92 floorboard seam remain on their named visible features. The remaining strict scorer deductions are the already recorded non-blocking placements for #3, #12, and #24; visual inspection confirms they do not make a false compositional claim. No camera settings are claimed, the chapter metrics match the analyzer output within rounding tolerance, and all twelve credited Art Institute object pages resolve from the source links. Each image retains a concise, image-specific four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+- `01-film-still-03`, `02-film-still-12`, and `03-film-still-24`: retain the advisories from the first round. Their counter/bed/water-boundary lines remain slightly loose or detector-unsupported, but still identify the correct visible feature and do not mislead the reader.
+- `10-untitled-145`: retain the prior advisory. `BODY'S DIAGONAL` reads as the figure's overall gesture rather than a literal contour; it remains visually understandable and is not a material error.
