@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -179,3 +179,30 @@ source-note descriptions remain in place. All current overlays pass: `02`
 scores 94 with its previously accepted detector-only fence-wire warning, and
 the other eleven score 100/100. `scripts/check.sh` passed before this
 resolution was recorded.
+
+## Critique round — 2026-07-24
+
+Reviewed all twelve current rendered proofs, matching overlay and analyzer JSON,
+the chapter, research note, manifest, and image-by-image source records. Every
+current overlay is materially truthful and teaches a visible compositional
+relationship: the earlier corrected paired-faces line (04), VOGUE-letter
+baseline (08), left rotor blade (09), red-coated-figure anchor (11), and
+propeller blade (06) remain correctly placed. The chapter's numeric claims
+match the analyzer records, including 08's 0.249 edge density. No camera
+settings or unsupported capture claims appear. All twelve official public asset
+URLs currently return `200 image/jpeg`; each record identifies the source and
+credit and retains its concise, image-specific four-factor fair-use rationale.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **02-cut-and-paste:** the scorer still gives 94/100 because `FENCE WIRES`
+  lacks a detector edge/vanishing-path match. The proof visibly places the line
+  on the sloping fence wires, so this is the previously settled detector-only
+  warning, not a regression.
+- The V&A contextual link in `sources.md` still returns 404. This is the
+  previously recorded link-maintenance advisory; it does not affect the
+  traceability of any displayed image or the chapter's compositional claims.
