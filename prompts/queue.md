@@ -125,7 +125,7 @@ real queue and state live in data/registry.json.
 | 114 | joan-fontcuberta          | Joan Fontcuberta             | DONE    |
 | 115 | andreas-gursky            | Andreas Gursky               | DONE    |
 | 116 | thomas-ruff               | Thomas Ruff                  | DONE    |
-| 117 | beate-gutschow            | Beate Gütschow               | PENDING |
+| 117 | beate-gutschow            | Beate Gütschow               | DONE    |
 | 118 | filip-dujardin            | Filip Dujardin               | PENDING |
 | 119 | craig-kalpakjian          | Craig Kalpakjian             | PENDING |
 | 120 | loretta-lux               | Loretta Lux                  | PENDING |
