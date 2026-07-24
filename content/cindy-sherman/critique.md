@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -15,3 +15,15 @@ verdict: revise
 - `01-film-still-03`: `COUNTER EDGE` is slightly detached through the middle of its path; tightening it to the visible diagonal would make the claim cleaner.
 - `02-film-still-12`: `BED EDGE` crosses suitcase/bed surface and is only loosely continuous as a single edge. A more precise mattress boundary or label would improve legibility.
 - `03-film-still-24`: `FAR-BANK SEAM` and `WATERLINE` are both plausible, but their close parallel placement competes visually. Separating their roles or retaining the stronger boundary would clarify the teaching argument.
+
+## Builder resolution — 2026-07-23
+
+All five required fixes are resolved.
+
+1. `04-film-still-41` replaces the false screen-aligned court rectangle with polylines that trace the raised platform edge and receding roof beam; the proof is visually clean and scores 100 under the strict overlay scorer.
+2. `06-film-still-56` replaces the misplaced eye anchor with a small `VISIBLE REFLECTED EYE` ellipse centered on the visible eye; strict score 100.
+3. `07-untitled-88` moves `LIT FACE` to `(0.654, 0.200)`, on the face rather than the hand/chin; strict score 84.1.
+4. `08-untitled-92` replaces the unsupported diagonal with `OUTER FLOORBOARD SEAM`, traced wholly in the visible right-side floor; strict score 100.
+5. `sources.md` now truthfully identifies the waterfront portrait (#24), concrete court (#41), furnished interior (#50), and overhead floorboard scene (#92) in both the compositional descriptions and fair-use factors 1 and 3.
+
+Re-verified full critique history: 2026-07-23, the sole prior critique round. The chapter mirrors remain byte-identical, the contact sheet has been regenerated, and `scripts/check.sh` passes.

@@ -19,21 +19,21 @@ This set traces Sherman’s staged identities from the black-and-white *Untitled
 - **File:** `raw/cindy-sherman/02-film-still-12.jpg` (843 × 679px)
 
 ### 03 — *Untitled Film Still #24* (1978)
-- **Why it matters:** A tightly organized domestic scene turns the protagonist’s face, a patterned wall, and a low band of furniture into competing visual cues.
+- **Why it matters:** A waterfront portrait sets Sherman’s turned face and dark hair against broad bands of water and sky, while a distant industrial building fixes the scene’s uneasy horizon.
 - **Source:** https://www.artic.edu/artworks/72434/untitled-film-still-24 (Art Institute of Chicago, object 72434; public display rendition: https://www.artic.edu/iiif/2/49d97a59-a249-7489-be2a-3afeacab7d22/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Purchased with funds provided by Paul and Camille Oliver-Hoffmann. **Factor 1:** transformative criticism studies how domestic texture competes with the performer’s expression. **Factor 2:** a creative staged photograph. **Factor 3:** the intact frame is required to compare figure, wall, and furniture. **Factor 4:** the credited 843 × 678px display copy does not substitute for a print or licensed reproduction.
+- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Purchased with funds provided by Paul and Camille Oliver-Hoffmann. **Factor 1:** transformative composition criticism analyzes the foreground figure’s silhouette, the waterline and far-bank seam, and the distant building’s role in directing the gaze. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is necessary to preserve the relation among the foreground figure, open water, far bank, and industrial structure. **Factor 4:** the credited 843 × 678px display copy does not substitute for a print or licensed reproduction.
 - **File:** `raw/cindy-sherman/03-film-still-24.jpg` (843 × 678px)
 
 ### 04 — *Untitled Film Still #41* (1979)
-- **Why it matters:** Sherman’s figure is held against a crowded apartment-like setting, where verticals and small objects make the image feel observed rather than posed.
+- **Why it matters:** A small standing figure in a striped dress is isolated within a sparse concrete court, where pillars, recesses, and a raised platform make architecture control her scale.
 - **Source:** https://www.artic.edu/artworks/72437/untitled-film-still-41 (Art Institute of Chicago, object 72437; public display rendition: https://www.artic.edu/iiif/2/138e6ad6-4f69-fe09-9c67-d415e43c9927/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Purchased with funds provided by Paul and Camille Oliver-Hoffmann. **Factor 1:** transformative teaching analyzes the controlled clutter and off-center actor. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame keeps the figure’s scale within the setting legible. **Factor 4:** the credited 843 × 674px web rendition is limited, linked, and non-market-replacing.
+- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Purchased with funds provided by Paul and Camille Oliver-Hoffmann. **Factor 1:** transformative teaching analyzes how the figure’s placement, the platform edge, and the court’s enclosing planes construct exposure and spatial pressure. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is necessary to retain the figure’s scale relative to the platform, deep recess, columns, and surrounding concrete court. **Factor 4:** the credited 843 × 674px web rendition is limited, linked, and non-market-replacing.
 - **File:** `raw/cindy-sherman/04-film-still-41.jpg` (843 × 674px)
 
 ### 05 — *Untitled Film Still #50* (1979; printed 1983)
-- **Why it matters:** Seen outdoors in a road-bound landscape, the figure becomes a small narrative hinge between a broad sky, receding route, and the frame’s exposed edge.
+- **Why it matters:** A seated woman, bright table lamp, cat, sculpture, and surrounding furniture turn a furnished living room into a densely staged interior.
 - **Source:** https://www.artic.edu/artworks/212195/untitled-film-still-50 (Art Institute of Chicago, object 212195; public display rendition: https://www.artic.edu/iiif/2/bc56411b-6178-bfe0-8787-e54e7ef2c67a/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Gift of Robert A. Taub. **Factor 1:** transformative criticism considers the figure’s scale, road direction, and open landscape. **Factor 2:** a creative staged photograph. **Factor 3:** the full horizontal frame is necessary to show exposure and route. **Factor 4:** this credited 843 × 575px museum display file cannot replace an original or licensed reproduction.
+- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Gift of Robert A. Taub. **Factor 1:** transformative criticism analyzes the lamp’s concentrated light, the seated figure’s placement, and the competing visual roles of furniture, cat, and sculpture. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is necessary to preserve the spatial relationship among the figure, lamp, furniture, sculpture, and cat. **Factor 4:** this credited 843 × 575px museum display file cannot replace an original or licensed reproduction.
 - **File:** `raw/cindy-sherman/05-film-still-50.jpg` (843 × 575px)
 
 ### 06 — *Untitled Film Still #56* (1980)
@@ -49,9 +49,9 @@ This set traces Sherman’s staged identities from the black-and-white *Untitled
 - **File:** `raw/cindy-sherman/07-untitled-88.jpg` (843 × 418px)
 
 ### 08 — *Untitled #92* (1981)
-- **Why it matters:** The low, distressed body is pressed against a broad horizontal field; its vulnerable pose is made structural by the extremely wide frame.
+- **Why it matters:** From a steep overhead view, a crouched wet-haired figure meets the camera’s gaze while diagonal floorboards and tartan fabric lock the body into a tilted grid.
 - **Source:** https://www.artic.edu/artworks/229389/untitled-92 (Art Institute of Chicago, object 229389; public display rendition: https://www.artic.edu/iiif/2/265cf372-53bb-8b66-2f3c-388f23ae4e26/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Gift of Edlis Neeson Collection. **Factor 1:** transformative composition teaching analyzes the low viewpoint, pose, and empty lateral field. **Factor 2:** a creative staged photograph. **Factor 3:** the entire horizontal extent is necessary to show the image’s pressure and isolation. **Factor 4:** this credited 843 × 422px display copy does not replace the work or a licensed reproduction.
+- **Rights / fair-use assessment:** Cindy Sherman; © Cindy Sherman, courtesy Metro Pictures, New York; Art Institute credit: Gift of Edlis Neeson Collection. **Factor 1:** transformative composition teaching analyzes the overhead viewpoint, confrontational gaze, crouched pose, and floorboard geometry rather than reproducing the work for its original expressive purpose. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is necessary to retain the figure’s pose, plaid garment, surrounding dark field, and the diagonal floorboard grid that structures the image. **Factor 4:** this credited 843 × 422px display copy does not replace the work or a licensed reproduction.
 - **File:** `raw/cindy-sherman/08-untitled-92.jpg` (843 × 422px)
 
 ### 09 — *Untitled #96* (1981)

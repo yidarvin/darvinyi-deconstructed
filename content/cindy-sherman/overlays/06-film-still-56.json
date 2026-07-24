@@ -3,7 +3,7 @@
   "image": "06-film-still-56.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.443, "y": 0.536, "r": 0.04, "label": "reflected eye" },
+    { "type": "ellipse", "cx": 0.617, "cy": 0.449, "rx": 0.065, "ry": 0.04, "label": "visible reflected eye" },
     { "type": "ellipse", "cx": 0.574, "cy": 0.441, "rx": 0.188, "ry": 0.325, "label": "mirror face" },
     { "type": "polyline", "points": [[0.02, 0.055], [0.243, 0.179], [0.343, 0.501]], "label": "foreground hair mass" }
   ],
