@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -55,3 +55,14 @@ Re-verified prior required rounds: the complete critique history from 2026-07-23
 1. **05-the-well:** replaced the false `DISCARDED TOOL AND EARTH EDGE` claim with `DISCARDED SHOVEL`, tracing the visible black spade and its wooden handle from `[0.045, 0.690]` through `[0.280, 0.865]`. The chapter now identifies it as the discarded shovel beside the pit, distinct from the worker's held shovel.
 
 Re-analyzed, rendered, and visually checked `05-the-well`; its deterministic overlay score is 100 with no deductions or warnings. `scripts/check.sh` passed after the correction.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None. Every resolved finding remains corrected in the current proof and overlay: the rear-window bank, curb and trio, held and discarded shovels, theatre source rationale, front table edge, and downward gaze each match the visible photograph and the chapter's corresponding claim. All ten collection-record links are reachable, and each image has a traceable, image-specific four-factor fair-use rationale. The chapter makes no unsupported camera-setting claim.
+
+### Advisory (non-blocking)
+
+- `03-mimic`, `06-a-sudden-gust-of-wind`, and `08-dressing-poultry` each receive a detector-unconfirmed leading-line warning (score 94), but visual review confirms the curb, canal bank, and front table edge respectively. No change is needed.
+- `10-mother-of-pearl` still has slight label-box crowding near the desk/tray annotations; both primitives remain truthful and legible.
