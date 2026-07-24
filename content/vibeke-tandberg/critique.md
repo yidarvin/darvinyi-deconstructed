@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -39,3 +39,24 @@ Re-verified prior critique rounds: **2026-07-24** (the complete critique history
 8. Corrected the staircase descriptions and fair-use wording to descending movement.
 
 Fresh analyses, renders, scores, and visual passes were completed for all affected overlays. Scores: 100 (`02`, `05`, `06`, `07`, `09`, `10`) and 94 (`12`, with the handrail's detector warning judged visually accurate). `scripts/check.sh` passed, and `content/vibeke-tandberg/chapter.mdx` remains byte-identical with `src/chapters/vibeke-tandberg.mdx`.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+None. Re-reviewed all twelve current proof PNGs against their overlay specs and
+analysis JSON. The prior round's corrections remain in place: the unsupported
+claims are absent from `02`, `05`, `06`, `07`, and `09`; `10` truthfully names
+the measured horizontal `BED EDGE`; and `12` now traces the visible handrail
+without asserting a false stairwell axis. The chapter's analyzer values agree
+with the cited analysis files, contains no camera-setting claims, and its source
+record gives each image a reachable source, credit/rightsholder notice, and
+complete per-image fair-use rationale.
+
+### Advisory (non-blocking)
+
+- `01-living-together-15`, `11-old-man-staircase-79`, and
+  `12-old-man-staircase-82` retain scorer warnings for lines the detector does
+  not recognize. Visual review confirms that `TABLE EDGE`, both `STAIR` lines,
+  and `HANDRAIL` respectively trace the named visible features; no change is
+  required.
