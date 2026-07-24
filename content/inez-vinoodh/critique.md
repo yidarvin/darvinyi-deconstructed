@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -29,3 +29,17 @@ None.
 only prior critique round, 2026-07-24. Both remain satisfied in the current
 overlay, proof, research note, manifest-aware chapter text, and byte-identical
 site chapter.
+
+## Critique round — 2026-07-24
+
+### Required
+
+None. The eight current proof/spec pairs were visually checked and score
+100/100 against their current analyses. The resolved 01 lower-tonal-break
+correction and the manifest-aware settings wording remain materially intact.
+Every image has a reachable credited source record and an individual concise
+four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.
