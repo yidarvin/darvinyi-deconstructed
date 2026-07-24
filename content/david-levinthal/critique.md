@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -23,3 +23,26 @@ None.
 2. Updated the corresponding chapter sentence in both mirrored chapter files to distinguish the small illuminated window from the car and pool.
 
 Prior required rounds re-verified: 2026-07-23 (the only critique round in `git log -p -- content/david-levinthal/critique.md`).
+
+## Critique round — 2026-07-23
+
+### Required
+
+1. **01-modern-romance-1985 — `red-pool boundary` traces the print edge, not the pool.** The `horizon_line` at `y: 0.797` in `overlays/01-modern-romance-1985.json` lies on the lower black image/white signed-margin transition in the current proof. The red pool ends materially above it. Remove the primitive or replace it with a line that traces a real red-pool boundary and label it accordingly. This is distinct from, and does not re-raise, the prior round's resolved ellipse label.
+2. **02-modern-romance-1984 — `street-level boundary` traces the print edge, not a street feature.** The `horizon_line` at `y: 0.800` lies on the lower photograph/white-margin transition; the visible street, figures, and car masses are substantially higher in the frame. Remove it or place a truthfully labeled line on the actual street-level structure.
+3. **02-modern-romance-1984 — false symmetry claim.** The `symmetry_axis` at `x: 0.5` is labeled `marquee field center`, but that primitive asserts mirroring across its axis. The large center-left marquee, cropped right marquee, figures, and car masses visibly do not mirror. The analyzer's correlation is a dark-field false positive here; remove this primitive rather than treating it as a generic center line.
+4. **03-american-beauties-1990 — `outstretched gesture` does not trace the named gesture.** The polyline `[(0.42,0.58), (0.55,0.54), (0.78,0.37)]` crosses the torso/empty space and stops at the raised arm's elbow instead of following an arm to its hand. Reposition it on a clearly visible arm contour, or remove it. The chapter's statement that the line follows the lifted arm must then match the resulting spec.
+5. **10-baseball-2004 — `stadium color break` is the upper print border.** The `horizon_line` at `y: 0.095` follows the lower edge of the broad black print border, not a stadium feature. Remove it or label and use an appropriate primitive only if the print border is deliberately being analyzed.
+6. **10-baseball-2004 — `bat swing` does not trace a bat.** The polyline `[(0.36,0.45), (0.62,0.52), (0.97,0.63)]` descends across the player's chest to the lower-right arm/hand area; the visible swing/extended-arm gesture is higher and nearly horizontal. Redraw it to the actual feature and revise the chapter sentence if needed, or remove it.
+
+### Advisory (non-blocking)
+
+- **04-american-beauties-1990-b:** The `bent leg` polyline begins a little below and left of the thigh before it reaches the knee-to-foot direction. It remains readable as the pose's directional turn.
+- **07-wild-west-1988:** `near-ground edge` is defensible as the transition adjacent to the lower ground, but it reads close to a print-border annotation and adds less pedagogically than the figure and fence.
+- **11-iwo-jima-2013:** `ground boundary` follows an analyzer-supported broad transition, although the rubble makes it visually weaker than the ellipse and flagpole line.
+
+### Checks completed
+
+- Independently reviewed all twelve current proof PNGs against their source images, overlay specs, and analysis files; the deterministic scorer returns 100/100 with no warnings for every current spec, but these required findings are semantic visual-pass failures rather than score failures.
+- Rechecked the chapter's quoted tonal, palette, and edge-density values against the analysis files; they remain within tolerance. No camera settings are asserted.
+- Confirmed all twelve `sources.md` Smithsonian object-record links resolve, and each selection retains a linked source, credit/copyright statement, and concise per-image four-factor fair-use rationale.
