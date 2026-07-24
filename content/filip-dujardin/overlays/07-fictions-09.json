@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-fictions-09.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.896, "angle": 0.0, "label": "TREE LINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "HOUSE CORE" },
+    { "type": "subject_anchor", "x": 0.569, "y": 0.277, "r": 0.035, "label": "TILTED ROOF" },
+    { "type": "polyline", "points": [[0.38, 0.48], [0.58, 0.25], [0.71, 0.46]], "label": "ROOF SILHOUETTE" }
+  ],
+  "notes": "A small human-scale house holds itself together through a jagged roof silhouette and a quiet central core."
+}

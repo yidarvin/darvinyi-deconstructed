@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-fictions-06.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.788, "angle": 0.0, "label": "LOWER BLOCK EDGE" },
+    { "type": "subject_anchor", "x": 0.118, "y": 0.638, "r": 0.035, "label": "PROJECTING MASS" },
+    { "type": "polyline", "points": [[0.04, 0.48], [0.38, 0.34], [0.62, 0.07]], "label": "RISING NOTCHES" }
+  ],
+  "notes": "Projected blocks and dark triangular recesses turn a close façade into a jagged rhythm of mass and void."
+}

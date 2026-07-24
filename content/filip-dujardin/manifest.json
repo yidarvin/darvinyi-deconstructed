@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-fictions-00.jpg",
+    "width": 700,
+    "height": 700,
+    "sha1": "e4afa51e",
+    "source": "01-fictions-00.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-fictions-02.jpg",
+    "width": 782,
+    "height": 782,
+    "sha1": "068d4b4e",
+    "source": "02-fictions-02.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-fictions-03a.jpg",
+    "width": 720,
+    "height": 721,
+    "sha1": "d856a241",
+    "source": "03-fictions-03a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-fictions-05.jpg",
+    "width": 720,
+    "height": 720,
+    "sha1": "effe0159",
+    "source": "04-fictions-05.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-fictions-05a.jpg",
+    "width": 720,
+    "height": 470,
+    "sha1": "75018aba",
+    "source": "05-fictions-05a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-fictions-06.jpg",
+    "width": 1005,
+    "height": 859,
+    "sha1": "7d483e2a",
+    "source": "06-fictions-06.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-fictions-09.jpg",
+    "width": 720,
+    "height": 719,
+    "sha1": "212268bc",
+    "source": "07-fictions-09.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-fictions-10.jpg",
+    "width": 720,
+    "height": 483,
+    "sha1": "c18a89ee",
+    "source": "08-fictions-10.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-fictions-11.jpg",
+    "width": 720,
+    "height": 719,
+    "sha1": "776421fd",
+    "source": "09-fictions-11.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-fictions-14.jpg",
+    "width": 720,
+    "height": 720,
+    "sha1": "209fa348",
+    "source": "10-fictions-14.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-fictions-03a.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.878, "angle": 0.0, "label": "TREE LINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "VERTICAL CORE" },
+    { "type": "vanishing_point", "x": 0.398, "y": 0.498, "label": "CROSSING ARMS" },
+    { "type": "subject_anchor", "x": 0.357, "y": 0.383, "r": 0.035, "label": "UPPER CANTILEVER" }
+  ],
+  "notes": "The tower's vertical core steadies branching apartment bars against an open, measured landscape."
+}

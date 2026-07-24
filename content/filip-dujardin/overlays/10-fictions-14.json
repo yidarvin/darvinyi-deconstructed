@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-fictions-14.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.904, "angle": -0.7, "label": "TREE LINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "TOWER AXIS" },
+    { "type": "subject_anchor", "x": 0.194, "y": 0.632, "r": 0.035, "label": "TREE SCALE MARKER" },
+    { "type": "frame_in_frame", "x": 0.43, "y": 0.04, "w": 0.14, "h": 0.67, "label": "GLAZED SPINE" }
+  ],
+  "notes": "A centered tower axis and deep cantilever make one restrained slab appear structurally impossible over the lawn."
+}

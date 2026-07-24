@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-fictions-00.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.863, "angle": 0.0, "label": "FIELD EDGE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "STACKED CENTER" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.164, "r": 0.035, "label": "TOP BLOCK" }
+  ],
+  "notes": "A field edge and near-central stack make impossible cantilevers read as a single, grounded mass."
+}
