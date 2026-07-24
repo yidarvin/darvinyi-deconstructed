@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -13,3 +13,23 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-24
+
+1. **06-em-arena-amsterdam-ii** — Rebuilt the proof after replacing the false
+   stadium-tier and crowd claims with a visible halfway-line polyline, pitch axis,
+   and centre-circle ellipse. The caption and prose now identify the pitch
+   markings and player spacing; the revised overlay scores 100/100.
+2. **08-pyongyang-iv** — Removed both false diagonal/vanishing-point claims.
+   The revised proof marks the stage-to-performer threshold, the central ceremonial
+   axis, and the globe/platform anchor; it scores 100/100. The caption and prose
+   now describe the mountain/globe hinge and repeated performer rows without
+   inventing perspective sweeps.
+3. **12-sao-paulo-se** — Corrected the source record to identify concentric metro
+   concourses, the skylit atrium, platforms, and commuters; retained the Broad
+   link, rights notice, and fair-use rationale. Updated the one residual chapter
+   reference from congregation to crowd.
+
+Full critique history re-verified: 2026-07-24, round 1 (the only prior round).
+`scripts/check.sh` passed after the fixes, and the content and rendered chapter
+copies are byte-identical.

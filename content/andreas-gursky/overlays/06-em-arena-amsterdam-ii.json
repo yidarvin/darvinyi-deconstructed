@@ -1,11 +1,11 @@
 {
   "version": 1,
   "image": "06-em-arena-amsterdam-ii.jpg",
-  "grid": { "type": "thirds" },
+  "grid": { "type": "none" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.889, "angle": 0, "label": "lower stadium tier" },
+    { "type": "polyline", "points": [[0, 0.311], [1, 0.311]], "label": "halfway line" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "pitch axis" },
-    { "type": "subject_anchor", "x": 0.255, "y": 0.852, "r": 0.035, "label": "crowd interruption" }
+    { "type": "ellipse", "cx": 0.5, "cy": 0.311, "rx": 0.217, "ry": 0.097, "label": "centre circle" }
   ],
-  "notes": "A vertical stadium view makes spectators, pitch, and tiers read as a disciplined grid."
+  "notes": "The pitch's centre line and circle turn play into small deviations across a striped green field."
 }
