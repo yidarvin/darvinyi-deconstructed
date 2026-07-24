@@ -41,18 +41,18 @@ linked web copy does not replace the artist's edition, original, or licensed mar
 
 ### 02. *The Architect* (2015)
 
-An outsized hand appears to draw a house into the landscape, using a bright diagonal
-arm and receding roof planes to turn the picture into a lesson in forced scale and
-perspective continuity.
+A man at a small drawing table works directly in front of a full-scale house. Its
+roof planes and the table-to-house scale contrast make the picture a lesson in
+perspective continuity without inventing an outsized hand or a separate landscape.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [direct public
 gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149406943-75PJ4TQFI3KGBHAO8EHG/the+architect.jpg?format=1500w).
 File: `raw/erik-johansson/02-the-architect-2015.jpg` (1,500 × 1,125px).
 
 **Use basis: fair-use.** (1) Transformative criticism and composition teaching focus
-on the hand-to-house scale bridge and converging planes. (2) This is a creative,
+on the table-to-house scale contrast and converging planes. (2) This is a creative,
 copyrighted Johansson work, weighing against use. (3) The whole frame is needed to
-read the distant site, drawn structure, and hand as one forced-perspective system.
+read the house, drawing table, and roof planes as one forced-perspective system.
 (4) This credited, linked web rendition is not a substitute for a signed print,
 original, or licensed reproduction.
 
@@ -73,9 +73,9 @@ does not displace a limited-edition print, original, or licensed reproduction.
 
 ### 04. *Soundscapes* (2015)
 
-The headland is shaped like a giant turntable and speaker, a compact case study in
-silhouette, nested circles, and the conversion of a landscape into an object-scale
-metaphor.
+An oversized gramophone sits at the shore while two figures carry a large record in
+the foreground, a compact case study in circular form and the conversion of a
+landscape into an object-scale scene.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [direct public
 gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149396975-30X43EX4111VFV4BO6UC/soundscapes.jpg?format=1500w).
@@ -89,16 +89,16 @@ copy does not replace the original, signed edition, or licensed market.
 
 ### 05. *Demand & Supply* (2017)
 
-Rows of houses are carried like products on a long truck, making repeated rectangles,
-one horizon, and a thin roadway read as a system of visual supply and pressure.
+Dense architecture rises from an impossible island above a quiet sea, making repeated
+rectangles, cranes, and one horizon read as a system of visual weight and pressure.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [direct public
 gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149394559-ITDLFQPKQISQ61G4O72G/Demand+and+Supply.jpg?format=1500w).
 File: `raw/erik-johansson/05-demand-and-supply-2017.jpg` (1,500 × 1,125px).
 
 **Use basis: fair-use.** (1) Transformative scholarship examines the repeated-house
-rhythm, vehicle scale, and directional line. (2) This creative copyrighted work
-weighs against use. (3) The full road and load are required to explain its visual
+rhythm, built-island scale, and sea horizon. (2) This creative copyrighted work
+weighs against use. (3) The full island and sea are required to explain its visual
 system. (4) A credited, linked web-sized analytical copy does not replace Johansson's
 original, print editions, or licensed reproductions.
 
@@ -120,16 +120,16 @@ does not substitute for an original, signed print, or licensed reproduction.
 
 ### 07. *The Light Keeper* (2018)
 
-The lighthouse beam becomes a painted diagonal band across a dark seascape, showing
-how a high-contrast wedge can simultaneously divide space and direct attention.
+A giant light bulb held at the rocky shore and a distant lighthouse make a dark
+seascape, showing how separated points of light can divide attention across a frame.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [direct public
 gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149392135-T8AJM1PTHTKHTM3UJY53/thelightkeeper.jpg?format=1500w).
 File: `raw/erik-johansson/07-the-light-keeper-2018.jpg` (1,500 × 1,125px).
 
-**Use basis: fair-use.** (1) Transformative teaching analyzes the beam's diagonal,
+**Use basis: fair-use.** (1) Transformative teaching analyzes the lighthouse, bulb,
 tonal hierarchy, and scale. (2) This is a creative copyrighted work, weighing against
-use. (3) The full sea, tower, and beam are necessary to analyze the directional
+use. (3) The full sea, tower, and bulb are necessary to analyze the directional
 structure. (4) The small credited, linked image does not replace Johansson's original
 or limited-edition and licensed print markets.
 
@@ -150,8 +150,8 @@ Johansson original, signed print, or licensed reproduction.
 
 ### 09. *Endless Reflections* (2015)
 
-The repeated house-and-water image forms a near-symmetrical tunnel, offering a direct
-example of recursive reflection, horizon placement, and controlled visual repetition.
+The shore tree, an overturned boat, and their reflection form a quiet, asymmetric
+water scene, offering a direct example of horizon placement and controlled reflection.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [direct public
 gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149393990-B0AWTBBMKHY5OD0MWC0U/Endless+Reflections.jpg?format=1500w).
@@ -159,7 +159,7 @@ File: `raw/erik-johansson/09-endless-reflections-2015.jpg` (1,500 × 1,125px).
 
 **Use basis: fair-use.** (1) It is used transformatively to teach reflection,
 symmetry, and recursive depth. (2) The creative copyrighted work weighs against use.
-(3) The complete repeated architecture and waterline are essential to the analysis.
+(3) The complete shore, boat, reflected tree, and waterline are essential to the analysis.
 (4) This credited, linked, web-sized reference does not replace an original,
 limited-edition print, or licensed reproduction.
 
@@ -181,17 +181,17 @@ limited edition, or licensed reproduction.
 
 ### 11. *Fishy Island* (2010)
 
-An island becomes the body of a fish caught by its own fishing line, a memorable
-lesson in contour matching, the circular return of a gesture, and scale inversion.
+An island sits directly over the body of a giant fish, a memorable lesson in aligned
+silhouette, waterline division, and scale inversion.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [artist
 portfolio](https://www.erikjo.com/work); [direct public gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149391756-A3Q9V5PSGR0F7B8H1C1M/fishy+island.jpg?format=1500w).
 File: `raw/erik-johansson/11-fishy-island-2010.jpg` (1,500 × 1,000px).
 
-**Use basis: fair-use.** (1) This serves transformative teaching of contour,
-directional gesture, and landscape/object scale reversal. (2) It is a creative
-copyrighted Johansson work, weighing against use. (3) The whole island, line, and
-water are needed to read the closed visual loop. (4) The credited, linked web-sized
+**Use basis: fair-use.** (1) This serves transformative teaching of silhouette,
+waterline division, and landscape/object scale reversal. (2) It is a creative
+copyrighted Johansson work, weighing against use. (3) The whole island, waterline,
+and fish are needed to read the scale inversion. (4) The credited, linked web-sized
 copy does not replace the original, signed edition, or licensed market.
 
 ### 12. *Go Your Own Road* (2008)

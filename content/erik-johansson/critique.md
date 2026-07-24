@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -27,3 +27,7 @@ verdict: revise
 - All twelve proofs were visually checked against their current specs and analyzer outputs. Current geometric score runs report 100/100 for every spec, but those scores do not validate semantic label truthfulness.
 - The chapter contains no invented camera settings; the manifest’s empty EXIF and the chapter’s explicit “unreported” treatment are consistent.
 - Each of the twelve artist CDN renditions and the cited artist routes resolved publicly during this review, and every item carries a concise four-factor fair-use rationale. The blocking source changes above concern materially false descriptions of the displayed works, not access, rights, or credit traceability.
+
+## Resolution — 2026-07-24
+
+Resolved all seven required items from the 2026-07-24 critique round. Re-rendered and visually checked the affected proofs: the moon anchor now centers the moon; *The Architect* names only visible roof planes; *Soundscapes* traces the carried record; *Demand & Supply* names the sea horizon and built island; *The Light Keeper* removes the nonexistent cable; *Endless Reflections* names the shore tree and boat; and *Fishy Island* traces the actual underwater fish body. The matching chapter, research, and source text was reconciled, including the fair-use necessity descriptions. The full prior critique history was re-verified (round 2026-07-24; no earlier rounds). All 12 overlay specs score at least 80 (94.6–100) and the full `scripts/check.sh` gate passes.

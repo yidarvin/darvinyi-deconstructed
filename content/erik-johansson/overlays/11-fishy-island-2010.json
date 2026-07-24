@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.362, "angle": 0.0, "label": "distant waterline" },
-    { "type": "subject_anchor", "x": 0.542, "y": 0.3, "r": 0.06, "label": "island-fish body" },
-    { "type": "polyline", "points": [[0.1, 0.26], [0.52, 0.3], [0.91, 0.21]], "label": "fishing-line loop" }
+    { "type": "ellipse", "cx": 0.542, "cy": 0.59, "rx": 0.32, "ry": 0.19, "label": "underwater fish body" }
   ],
-  "notes": "A fishing-line gesture completes the island's transformation into a fish."
+  "notes": "The waterline stacks an island directly over the giant fish beneath it."
 }

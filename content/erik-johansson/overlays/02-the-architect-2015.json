@@ -3,9 +3,8 @@
   "image": "02-the-architect-2015.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.759, "angle": 0.0, "label": "distant field edge" },
     { "type": "leading_line", "points": [[0.359, 0.201], [0.999, 0.43]], "arrow": true, "label": "drawn roof plane" },
     { "type": "leading_line", "points": [[0.317, 0.151], [0.953, 0.346]], "arrow": true, "label": "upper roof plane" }
   ],
-  "notes": "The drawn roof planes transfer the hand's scale into the distant house."
+  "notes": "The roof planes make the house dominate the modest drawing table below."
 }

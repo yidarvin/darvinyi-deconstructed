@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.528, "angle": -5.0, "label": "field edge" },
     { "type": "vanishing_point", "x": 0.289, "y": 0.531, "label": "road convergence" },
-    { "type": "subject_anchor", "x": 0.231, "y": 0.341, "r": 0.05, "label": "moon" }
+    { "type": "subject_anchor", "x": 0.277, "y": 0.289, "r": 0.05, "label": "moon" }
   ],
   "notes": "The moon and the slanting field boundary make scale feel physically anchored."
 }

@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.52, "angle": 2.0, "label": "reflection seam" },
-    { "type": "vanishing_point", "x": 0.209, "y": 0.369, "label": "receding house axis" },
-    { "type": "subject_anchor", "x": 0.156, "y": 0.358, "r": 0.05, "label": "first house" }
+    { "type": "subject_anchor", "x": 0.132, "y": 0.363, "r": 0.05, "label": "shore tree" }
   ],
-  "notes": "The reflection seam repeats the house into a receding, nearly endless corridor."
+  "notes": "The shore tree, overturned boat, and reflection seam suspend a quiet shoreline."
 }
