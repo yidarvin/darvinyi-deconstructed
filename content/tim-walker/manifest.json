@@ -1,0 +1,101 @@
+[
+  {
+    "file": "01-only-a-northern-song.jpg",
+    "width": 1107,
+    "height": 1600,
+    "sha1": "32800d1d",
+    "source": "01-only-a-northern-song.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-cut-and-paste.jpg",
+    "width": 1268,
+    "height": 1600,
+    "sha1": "d9744fe3",
+    "source": "02-cut-and-paste.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-mechanical-dolls.jpg",
+    "width": 1235,
+    "height": 1600,
+    "sha1": "5f1ee9c4",
+    "source": "03-mechanical-dolls.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-the-lion-king.jpg",
+    "width": 1600,
+    "height": 1302,
+    "sha1": "3938a6c7",
+    "source": "04-the-lion-king.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-far-far-from-land.jpg",
+    "width": 1600,
+    "height": 1009,
+    "sha1": "6fd56bcb",
+    "source": "05-far-far-from-land.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-chocks-away.jpg",
+    "width": 1600,
+    "height": 1097,
+    "sha1": "bebbd55f",
+    "source": "06-chocks-away.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-checking-out.jpg",
+    "width": 1309,
+    "height": 1600,
+    "sha1": "7126a33e",
+    "source": "07-checking-out.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-deliver-us.jpg",
+    "width": 1287,
+    "height": 1600,
+    "sha1": "31216455",
+    "source": "08-deliver-us.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-artist-of-the-floating-world.jpg",
+    "width": 1600,
+    "height": 1080,
+    "sha1": "e660fb3d",
+    "source": "09-artist-of-the-floating-world.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-jamaican-rhapsody.jpg",
+    "width": 1131,
+    "height": 1600,
+    "sha1": "1e77f72b",
+    "source": "10-jamaican-rhapsody.jpg",
+    "exif": {
+      "Make": "Microtek",
+      "Model": "SM 9800XL 9800"
+    }
+  },
+  {
+    "file": "11-land-of-dreamy-dreams.jpg",
+    "width": 1600,
+    "height": 1163,
+    "sha1": "c6b987a6",
+    "source": "11-land-of-dreamy-dreams.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-garden-of-earthly-delights.jpg",
+    "width": 1262,
+    "height": 1600,
+    "sha1": "46d4c5dd",
+    "source": "12-garden-of-earthly-delights.jpg",
+    "exif": {}
+  }
+]
