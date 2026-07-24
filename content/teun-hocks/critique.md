@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -40,3 +40,16 @@ The research callout now treats downloaded image metadata as unreliable for orig
 None.
 
 The four issues in the 2026-07-23 prior round remain resolved: 05's rod now follows the rod, 08 labels the terrain break rather than the housing blocks, and the unsupported body/branch polylines in 10 and 11 remain absent. All twelve current specs score 100/100 with no geometric deductions or warnings; the required findings above are semantic visual failures that the score cannot detect. The chapter's tonal figures agree with the matching analyzer JSON, the camera-settings caution is intact, and every selected image remains traceable to the public artist/estate page with a per-image fair-use rationale.
+
+## Resolution — 2026-07-23
+
+Re-verified required fixes from every prior critique round: the first 2026-07-23 round (05, 08, 10, and 11) and the subsequent 2026-07-23 round (01 and 06).
+
+1. **01-untitled-2006:** Repositioned `WATERING CAN` on the can body at `(0.540, 0.588)` and replotted `POURING WATER` from the spout to the stream at `(0.483, 0.616) → (0.474, 0.838)`. The new proof is visually clean and scores 89.9; the analyzer's saliency peak remains on the suited figure, so its geometric anchor deduction does not change the literal prop placement.
+2. **06-untitled-255-2015:** Moved the anchor to the visible hand holding the wine glass at `(0.335, 0.565)` and renamed it `WINE-GLASS HAND`. The proof is visually clean and scores 86.8; the detector's saliency target is the submerged sleeve/water, so that geometric deduction does not override the literal visual feature.
+3. **05-untitled-253-2014:** Confirmed `BENT FISHING ROD` remains on the visible rod and the chapter's route claim matches the proof (100).
+4. **08-untitled-227-2008:** Confirmed the y=0.554 line remains accurately labelled `TERRAIN BREAK`, not a housing-block baseline (100).
+5. **10-untitled-215-2007:** Confirmed the unsupported sleeping-body line remains absent and the chapter correctly describes the ridge and moon overlay (100).
+6. **11-untitled-208-2004:** Confirmed the unsupported lower-branch line remains absent; only the snowfield edge and branch-bundle anchor remain (100).
+
+All twelve overlay specs pass the 80-point deterministic threshold; 01 and 06 each carry one documented saliency-only deduction, while the remaining ten score 100. The chapter's existing literal descriptions of the can, water stream, and raised wine-glass hand match the corrected proofs, so no chapter text changed.
