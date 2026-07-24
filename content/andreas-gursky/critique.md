@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -81,3 +81,42 @@ copies are byte-identical.
 ### Advisory (non-blocking)
 
 None.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **04-greeley** — The vertical `symmetry_axis` at x=0.388, labelled
+   “repeated pen field,” asserts a mirror relationship that is not present in
+   the feedlot. The proof instead shows perspective-organized fences, roads,
+   and uneven herd distribution. Replace this primitive with a conservative
+   claim that traces an actual structural feature (for example, a visible
+   fence or road leading line), then regenerate and visually verify the proof.
+   The deterministic score is not sufficient here: it measures agreement with
+   the same detector proposal, not whether the frame is symmetrical.
+
+2. **09-amazon** — The `symmetry_axis` at x=0.625, labelled “warehouse
+   balance,” falsely represents the irregular inventory field as mirrored.
+   The upper racks repeat, but the two sides do not mirror across that axis.
+   Remove the symmetry primitive or replace it with a primitive that traces a
+   visible rack edge or other genuine structure, then update the proof.
+
+3. **10-nha-trang** — The labelled “workroom convergence” and the two long
+   diagonals do not trace continuous visible bamboo-rack or weaver-row lines:
+   the proof overlays an unsupported X across the factory’s stacked horizontal
+   work bands. Remove the unsupported vanishing-point and diagonal claims and
+   rebuild the overlay around actual visible rows/bands (or use the
+   conservative fallback), then revise the caption/paragraph only as needed
+   to match the resulting truthful claims.
+
+### Advisory (non-blocking)
+
+- **05-f1-boxenstopp-i** — The vertical line is more naturally read as a
+  central seam than as literal bilateral symmetry, but its “panoramic center”
+  label keeps the compositional reading clear; this does not block approval.
+
+The prior resolutions for **06-em-arena-amsterdam-ii**,
+**08-pyongyang-iv**, **11-madonna-i**, and **12-sao-paulo-se** were
+independently rechecked against the current proofs and remain resolved. All
+twelve source links returned their corresponding public collection records;
+the fair-use entries retain per-image four-factor rationales.
