@@ -117,7 +117,7 @@ real queue and state live in data/registry.json.
 | 106 | james-casebere            | James Casebere               | DONE    |
 | 107 | thomas-demand             | Thomas Demand                | DONE    |
 | 108 | david-levinthal           | David Levinthal              | DONE    |
-| 109 | bernard-faucon            | Bernard Faucon               | PENDING |
+| 109 | bernard-faucon            | Bernard Faucon               | DONE    |
 | 110 | teun-hocks                | Teun Hocks                   | PENDING |
 | 111 | lori-nix                  | Lori Nix                     | PENDING |
 | 112 | jeeyoung-lee              | JeeYoung Lee                 | PENDING |

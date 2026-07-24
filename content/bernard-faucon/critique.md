@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -30,3 +30,28 @@ Re-verified critique history: the sole prior round, **2026-07-23**.
 4. **08-la-comete:** redrew `comet arc` along the visible luminous curve from the upper-left flame to its right-hand end, rather than the earlier clearing-to-corner diagonal.
 
 Fresh render, visual review, and deterministic scoring all pass: 01-le-chemin 94; 03-le-cimetiere-de-lioux 100; 07-la-chasse-aux-papillons 100; 08-la-comete 100. `scripts/check.sh` passed, and the content and rendered chapter files remain byte-identical.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None. Every proof was visually reviewed against its current overlay and analysis
+specification. The four required findings from the prior round remain resolved:
+the road and oak canopy in `01-le-chemin`, the monument/crossing/divide in
+`03-le-cimetiere-de-lioux`, the blue net in `07-la-chasse-aux-papillons`, and
+the luminous arc in `08-la-comete` each trace the feature named without a
+material regression.
+
+### Advisory (non-blocking)
+
+None added. The prior `05-le-banquet` stone-wall-band observation remains an
+explicitly non-blocking broad approximation, not a false claim about the scene.
+
+### Checks completed
+
+All ten current proof PNGs, overlay specs, analysis files, chapter prose,
+research notes, manifest, and source notes were checked. The chapter's reported
+metrics agree with the current analysis JSON within tolerance, and it expressly
+does not infer camera settings. Each plate has a credited official artist source
+and an image-specific four-factor fair-use rationale; the official series page
+and all ten cited public display JPEG URLs returned HTTP 200 during this review.
