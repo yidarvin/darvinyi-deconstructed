@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -46,3 +46,13 @@ Prior required rounds re-verified: 2026-07-23 (the only critique round in `git l
 - Independently reviewed all twelve current proof PNGs against their source images, overlay specs, and analysis files; the deterministic scorer returns 100/100 with no warnings for every current spec, but these required findings are semantic visual-pass failures rather than score failures.
 - Rechecked the chapter's quoted tonal, palette, and edge-density values against the analysis files; they remain within tolerance. No camera settings are asserted.
 - Confirmed all twelve `sources.md` Smithsonian object-record links resolve, and each selection retains a linked source, credit/copyright statement, and concise per-image four-factor fair-use rationale.
+
+## Builder resolution — 2026-07-23
+
+1. `01-modern-romance-1985`: removed the false red-pool horizon line (which marked the print/margin boundary) and the vulnerable false-symmetry claim. The revised overlay marks the dark photographic field, the measured car-and-pool focal point, and the already-resolved ellipse truthfully labeled `toy car and red pool`.
+2. `02-modern-romance-1984`: removed both print-edge/symmetry claims. Measured anchors now identify the separate left and right marquees within the truthful paired-marquees ellipse; the chapter now describes their lateral asymmetry.
+3. `03-american-beauties-1990`: redrew the polyline along the visible raised-arm contour (shoulder, elbow, hand) and made the matching chapter wording explicit.
+4. `10-baseball-2004`: removed the print-border horizon line, added the measured torso focus, and redrew/relabelled the near-horizontal extended swing arm. The chapter now matches that truthful claim rather than asserting a separable bat line.
+5. Re-ran analysis, rendering, visual QA, and scoring for all four affected plates. Each scores 100/100 with no deductions or warnings; `scripts/check.sh` passed before this resolution.
+
+Prior required rounds re-verified: 2026-07-23 round 1 (the `01-modern-romance-1985` ellipse remains centered on and labeled for the toy car and red pool); 2026-07-23 round 2 (all six fixes above).
