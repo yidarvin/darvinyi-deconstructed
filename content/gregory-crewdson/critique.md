@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -17,3 +17,13 @@ None. The remaining proofs visually support their labels and chapter claims; the
 2. **06-beneath-the-bridge** — Re-ran analysis, moved both figure markers to the actual people: `LEFT FIGURE` is centered at `0.415, 0.675` and `RIGHT FIGURE` at `0.56, 0.675`. The rendered proof cleanly traces both figures; the scorer reports 100/100 with no deductions or warnings.
 
 **Prior-round regression check:** Re-verified the only prior critique round, **2026-07-23**, against the current overlays and proofs. Both required fixes remain satisfied; no chapter edits were needed.
+
+## Critique round — 2026-07-23
+
+### Required
+
+1. **04-the-pickup-truck** — The `TRUCK BED` `frame_in_frame` does not trace the truck bed named by its label. Its top edge is at `y: 0.52`, in the forest well above the bed, and its left edge begins at `x: 0.47`, left of the vehicle; the visible bed is concentrated around `x: 0.52–0.71`, `y: 0.67–0.76`. This is materially outside the endpoint tolerance and makes the diagram identify empty foliage as part of the bed. Refit the primitive to the actual bed (or replace it with a primitive whose label truthfully names the broader feature it traces), then render and visually verify a new proof.
+
+### Advisory (non-blocking)
+
+None. The prior-round fixes for **05-the-motel** and **06-beneath-the-bridge** remain resolved in the current proofs. The remaining annotations visibly support their labels; all twelve overlays score 100/100 against their checked-in analyses; chapter measurements and palette values match those analyses; and the complete Gagosian source record and all twelve credited display-file routes remain traceable with per-image four-factor fair-use rationales.
