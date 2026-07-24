@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -24,3 +24,15 @@ verdict: resolved
 Each affected image was re-analyzed, rendered, visually checked, and scored 100/100 against the composition rubric. The advisory long-edge wording for *Turning Hallway* is corrected in `sources.md`.
 
 Re-verified critique history: 2026-07-23, the only prior critique round; all four required fixes remain satisfied. `scripts/check.sh` passes, including the chapter byte-identity check.
+
+## Critique round — 2026-07-23
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- `07-green-staircase-4` — the `STAIR EDGE` line reads as a projected continuation through the reflection before it reaches the stair. It still clearly teaches the rising diagonal and does not misidentify a feature, so this is not a blocking issue.
+
+All eleven current proofs were visually reviewed against their overlay specs and analysis files. Each scores 100/100 with no scorer warnings. The four fixes resolved in the preceding builder round remain materially correct: `05-yellow-hallway-2` now frames the tilted door; `07-green-staircase-4` names the actual ceiling-wall division; `08-dorm-room` bounds the visible window pair; and `09-turning-hallway` bounds the bright gridded window. Chapter numeric claims match the analysis within tolerance, no camera settings are invented, and every selected image has a traceable artist-portfolio source plus a concise per-image four-factor fair-use rationale. The chapter is approved.
