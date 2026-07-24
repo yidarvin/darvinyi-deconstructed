@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -41,3 +41,17 @@ Re-verified critique history: round dated 2026-07-23 (the sole prior round). Eve
 Corrected the `03-hangers` source note to identify the person accurately as a standing figure in the open doorway. The affected proof and overlay were re-rendered and visually checked: the `FIGURE'S FACE` anchor and `OPEN DOORWAY` frame both align with the standing figure; the score remains 100/100.
 
 Re-verified critique history: the initial 2026-07-23 round (all five required fixes) and the subsequent 2026-07-23 round resolved here. `01-accessories` retains the truthful `CABINET TOP`; `02-spoons` retains its left-hand `WALL / FLOOR JOIN`; `04-radioactive-cats` and `11-the-cocktail-party` retain no false floor-plane/seam claim; and the `Hangers`, `Radioactive Cats`, and `Ferns` color descriptions remain consistent with their supplied images. The chapter copies remain byte-identical.
+
+## Critique round — 2026-07-23
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Verification notes
+
+Fresh visual review of all twelve current proof PNGs finds each overlay primitive on the feature its label names, with three to four pedagogically distinct primitives per image. The earlier required corrections remain intact: `01-accessories` marks the cabinet top; `02-spoons` limits the wall/floor join to its visible left-hand run; `04-radioactive-cats` and `11-the-cocktail-party` do not reintroduce false floor claims; and `03-hangers` accurately identifies the standing figure. The composition scorer returns 100/100 for every proof/spec pair. Chapter luminance, tonal-range, palette, and edge-density statements match the corresponding analyzer values within tolerance; it makes no invented camera-setting claim. Every image record names a credited, publicly accessible artist-archive display route and includes a concise per-image four-factor fair-use rationale. This is a standard (non-limited) twelve-image chapter.
