@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-pyongyang-iv.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.438, "angle": 0, "label": "card-display division" },
+    { "type": "vanishing_point", "x": 0.515, "y": 0.473, "label": "display center" },
+    { "type": "leading_line", "points": [[0.088, 0.899], [0.82, 0.198]], "arrow": true, "label": "rising crowd diagonal" },
+    { "type": "leading_line", "points": [[0.081, 0.169], [0.914, 0.748]], "arrow": true, "label": "crossing card field" }
+  ],
+  "notes": "Synchronized participants and colored cards construct a monumental human raster."
+}

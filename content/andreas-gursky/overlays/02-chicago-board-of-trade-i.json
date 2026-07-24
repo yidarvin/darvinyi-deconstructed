@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-chicago-board-of-trade-i.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.292, "angle": 0, "label": "upper trading rail" },
+    { "type": "leading_line", "points": [[0.01, 0.348], [0.773, 0.537]], "arrow": true, "label": "curving floor edge" },
+    { "type": "subject_anchor", "x": 0.977, "y": 0.721, "r": 0.035, "label": "trader cluster" }
+  ],
+  "notes": "An elevated viewpoint converts a trading floor into a packed, layered pattern."
+}

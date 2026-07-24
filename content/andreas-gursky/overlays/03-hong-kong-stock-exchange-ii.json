@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-hong-kong-stock-exchange-ii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.182, "angle": -2.9, "label": "upper display band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "exchange center" },
+    { "type": "subject_anchor", "x": 0.352, "y": 0.744, "r": 0.035, "label": "trader field" }
+  ],
+  "notes": "Tiered terminals and bodies build a dense, nearly bilateral information surface."
+}

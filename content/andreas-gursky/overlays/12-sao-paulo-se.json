@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-sao-paulo-se.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.421, "angle": 0, "label": "upper concourse rail" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "station axis" },
+    { "type": "subject_anchor", "x": 0.552, "y": 0, "r": 0.035, "label": "skylight opening" }
+  ],
+  "notes": "A station axis and layered commuters turn the interior into a symmetrical social field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-99-cent.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.854, "angle": 0, "label": "lower shelf band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.463, "label": "aisle balance" },
+    { "type": "subject_anchor", "x": 0.179, "y": 0.366, "r": 0.035, "label": "dense price field" }
+  ],
+  "notes": "Stacked shelves and their reflection turn retail abundance into a nearly symmetrical field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-amazon.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.189, "angle": 1, "label": "upper rack edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "warehouse balance" },
+    { "type": "subject_anchor", "x": 0.757, "y": 0.417, "r": 0.035, "label": "bright inventory cluster" }
+  ],
+  "notes": "Warehouse racks and scattered stock turn logistics into a dense distributed tableau."
+}

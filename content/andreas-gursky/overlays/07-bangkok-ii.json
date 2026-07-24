@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-bangkok-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.249, "angle": 0, "label": "upper reflection band" },
+    { "type": "vanishing_point", "x": 0.412, "y": 0.436, "label": "converging surface seams" },
+    { "type": "leading_line", "points": [[0.334, 0.482], [0.841, 0.101]], "arrow": true, "label": "reflected diagonal" },
+    { "type": "leading_line", "points": [[0.32, 0.384], [0.75, 0.708]], "arrow": true, "label": "surface break" }
+  ],
+  "notes": "Reflections and debris hold a polluted river surface between landscape and abstraction."
+}

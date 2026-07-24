@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-nha-trang.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.512, "y": 0.445, "label": "workroom convergence" },
+    { "type": "leading_line", "points": [[0.292, 0.999], [0.999, 0.139]], "arrow": true, "label": "bamboo-rack diagonal" },
+    { "type": "leading_line", "points": [[0.001, 0.123], [0.991, 0.792]], "arrow": true, "label": "weaver-row diagonal" },
+    { "type": "horizon_line", "y": 0.106, "angle": 0, "label": "upper workroom band" }
+  ],
+  "notes": "Rows of weavers and bamboo racks braid labor, color, and architecture into one patterned plane."
+}
