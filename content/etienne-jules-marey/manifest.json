@@ -40,27 +40,11 @@
     "exif": {}
   },
   {
-    "file": "05-falling-cat-sequence.jpg",
-    "width": 1019,
-    "height": 329,
-    "sha1": "72cb484c",
-    "source": "05-falling-cat-sequence.png",
-    "exif": {}
-  },
-  {
     "file": "06-falling-cat-study.jpg",
     "width": 900,
     "height": 1174,
     "sha1": "e2c0151b",
     "source": "06-falling-cat-study.jpg",
-    "exif": {}
-  },
-  {
-    "file": "06-falling-cat-study.jpg",
-    "width": 900,
-    "height": 1174,
-    "sha1": "a3e03383",
-    "source": "06-falling-cat-study.png",
     "exif": {}
   }
 ]
