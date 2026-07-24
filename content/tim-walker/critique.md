@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -14,3 +14,15 @@ Reviewed all twelve rendered proofs, their overlay and analyzer JSON, chapter an
 ### Advisory (non-blocking)
 
 - **02-cut-and-paste:** the deterministic scorer warns that `FENCE WIRES` does not follow a detector edge, but the rendered line visually follows the actual sloping fence wires. No revision is required.
+
+## Resolution — 2026-07-24
+
+Resolved all required items from the critique round dated 2026-07-24, the full
+critique history for this slug. Re-rendered and visually checked the four
+affected proofs after fresh analysis: the Lion King line now joins the two
+faces; the Deliver Us polyline follows the letters' lower baseline; the Artist
+of the Floating World line follows the left rotor blade; and the Land of Dreamy
+Dreams anchor is on the red-coated figure. Deterministic scores are 100/100 for
+each revised overlay. Re-verified that no required fixes from prior rounds
+regressed (there is one prior critique round: 2026-07-24). `scripts/check.sh`
+passed before this resolution was recorded.

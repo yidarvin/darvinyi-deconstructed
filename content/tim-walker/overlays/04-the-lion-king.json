@@ -1,1 +1,26 @@
-{"version":1,"image":"04-the-lion-king.jpg","grid":{"type":"thirds"},"primitives":[{"type":"subject_anchor","x":0.164,"y":0.375,"r":0.035,"label":"model's face"},{"type":"leading_line","points":[[0.133,0.092],[0.773,0.88]],"arrow":true,"label":"paired-faces diagonal"},{"type":"polyline","points":[[0.0,0.73],[0.42,0.74],[0.78,0.88]],"label":"velvet platform edge"}],"notes":"The model and lion share a stage, with the animal's diagonal overwhelming the quiet human pose."}
+{
+  "version": 1,
+  "image": "04-the-lion-king.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.164,
+      "y": 0.375,
+      "r": 0.035,
+      "label": "model's face"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.164, 0.375], [0.538, 0.478]],
+      "arrow": true,
+      "label": "paired faces"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.0, 0.73], [0.42, 0.74], [0.78, 0.88]],
+      "label": "velvet platform edge"
+    }
+  ],
+  "notes": "The model and lion share a stage, their faces set against the animal's larger mass."
+}
