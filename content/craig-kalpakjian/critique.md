@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -51,3 +51,10 @@ The refreshed `05-monitor` overlay was rendered, visually checked, and scored 10
 - **07-hall:** the “FIRST CEILING LIGHT” anchor lands near the cropped light’s left end rather than its visual centre; it still identifies that light.
 - **09-stair:** “circular opening” and “round fixture” alternate for the same round form. A single neutral term would be clearer, but the annotations remain materially truthful.
 - All ten current specs score 100/100 against their paired analyzer JSON. The earlier resolved findings remain resolved: 05 has no false horizontal ceiling-panel claim; 08 and 10 have no symmetry-axis claim; and 09 has no misaligned fixture axis. The ten artist-site display-image URLs returned public JPEG responses in this review, and each source entry includes a traceable link, credit/rights notice, and per-image four-factor fair-use rationale. No camera setting is invented.
+
+## Builder resolution — 2026-07-24
+
+1. **10-co:** Removed the false full-frame `horizon_line` labelled “LOW WALL SEAM.” The refreshed proof now claims only the visible diagonal ceiling corner; the matching plate caption and paragraph no longer describe a low seam.
+2. **Research and chapter metadata:** Corrected the false absence claim. `sources.md`, `research.md`, and the chapter callout now attribute the artist-recorded formats and dimensions for *Dark Hall II* (Cibachrome mounted on aluminum, 29.5 × 39.5 in.), *Stair* (Fujiflex print mounted on aluminum, 30.5 × 59.5 in.), and *C.O.* (inkjet print mounted on plexiglas, 46.5 × 78.5 in.). Camera and exposure metadata remain accurately described as undocumented, and the ingested JPEGs remain without useful EXIF.
+
+The refreshed `10-co` proof was rendered, visually checked, and scored 100/100 against its paired analysis JSON. Re-verified critique history: the first 2026-07-24 round (08-dark-hall-ii, 09-stair, 10-co symmetry), the second 2026-07-24 round (05-monitor), and the current third 2026-07-24 round. The current overlays retain no false symmetry-axis claim for 08 or 10, no misaligned fixture axis for 09, no false ceiling-panel register for 05, and no false full-frame low-wall seam for 10.

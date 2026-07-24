@@ -10,10 +10,13 @@ records support describing this group as computer-generated architectural images
 not as camera-made documents of occupied buildings.
 
 No supplied record identifies a camera body, lens, film or sensor, focal length,
-aperture, shutter speed, sensitivity, lighting plan, printing process, edition, or
-display-specific print details for these individual works. The ingested artist-site
-JPEGs contain no useful EXIF. The chapter therefore treats the rendered surfaces as
-visible image structure, not as evidence for invented production settings.
+aperture, shutter speed, sensitivity, or lighting plan; the ingested artist-site
+JPEGs contain no useful EXIF. The artist’s Works record does document three
+work-specific display formats: *Dark Hall II* (2000), Cibachrome mounted on
+aluminum, 29.5 × 39.5 in.; *Stair* (2001), Fujiflex print mounted on aluminum,
+30.5 × 59.5 in.; and *C.O.* (2002), inkjet print mounted on plexiglas, 46.5 ×
+78.5 in. (recorded in `sources.md`). The chapter therefore treats the rendered
+surfaces as visible image structure, not as evidence for invented camera settings.
 
 ## Visual working method supported by the selection
 

@@ -3,8 +3,7 @@
   "image": "10-co.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.772, "angle": -7.0, "label": "low wall seam" },
     { "type": "leading_line", "points": [[0.172, 0.152], [0.738, 0.696]], "arrow": true, "label": "ceiling corner" }
   ],
-  "notes": "A single diagonal ceiling corner makes nearly blank planes feel clipped and architecturally unstable."
+  "notes": "A single diagonal ceiling corner clips the pale planes into an architecturally unstable enclosure."
 }

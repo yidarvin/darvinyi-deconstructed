@@ -51,19 +51,22 @@ This set follows Kalpakjian’s photoreal computer-generated institutional inter
 ### 08 — *Dark Hall II* (2000)
 - **Why it matters:** A shadowed passage uses a bright threshold and near-black foreground to turn depth into a staged reveal.
 - **Source:** Artist’s official Works index, https://kalpakjian.com/#works (public display image: https://kalpakjian.com/media/pages/works/dark-hall-ii/3a03e520d8-1633446858/craig-kalpakjian-2021-website-page-55-image-0001-800x.jpg)
+- **Artist-recorded display details:** Cibachrome mounted on aluminum, 29.5 × 39.5 in. (artist’s Works record).
 - **Rights / fair-use assessment:** © Craig Kalpakjian; no open licence stated. **Factor 1:** transformative composition teaching studies threshold contrast and delayed depth. **Factor 2:** a creative digital image. **Factor 3:** the whole frame is required for the dark-to-light transition. **Factor 4:** this credited 800 × 600px artist display is web-sized and does not replace the original or licensed reproduction.
 - **File:** `raw/craig-kalpakjian/08-dark-hall-ii.jpg` (800 × 600px)
 
 ### 09 — *Stair* (2001)
 - **Why it matters:** The panoramic stair bends through the frame as a long, shallow diagonal, making circulation read as an image of control.
 - **Source:** Artist’s official Works index, https://kalpakjian.com/#works (public display image: https://kalpakjian.com/media/pages/works/stair/22834ccfa9-1633446905/craig-kalpakjian-2021-website-page-54-image-0001-800x.jpg)
+- **Artist-recorded display details:** Fujiflex print mounted on aluminum, 30.5 × 59.5 in. (artist’s Works record).
 - **Rights / fair-use assessment:** © Craig Kalpakjian; no open licence stated. **Factor 1:** transformative criticism examines the stair’s lateral sweep and enclosing planes. **Factor 2:** a creative rendered work. **Factor 3:** the panoramic whole is essential to the diagonal route. **Factor 4:** the credited 800 × 410px public display rendition is deliberately web-sized and non-substitutive.
 - **File:** `raw/craig-kalpakjian/09-stair.jpg` (800 × 410px)
 
 ### 10 — *C.O.* (2002)
 - **Why it matters:** Cropped office partitions and a blank field make corporate space register as an abstract system of boundaries rather than a usable room.
 - **Source:** Artist’s official Works index, https://kalpakjian.com/#works (public display image: https://kalpakjian.com/media/pages/works/c-o/1856e64853-1633446945/craig-kalpakjian-2021-website-page-55-image-0002-800x.jpg)
-- **Rights / fair-use assessment:** © Craig Kalpakjian; no open licence stated. **Factor 1:** transformative teaching studies the cropped partition, low horizon, and organizational enclosure. **Factor 2:** a creative digital image. **Factor 3:** the complete published frame is needed to analyze its boundary structure. **Factor 4:** the credited 800 × 480px artist display is web-sized, links to the authorial record, and cannot replace a licensed reproduction.
+- **Artist-recorded display details:** Inkjet print mounted on plexiglas, 46.5 × 78.5 in. (artist’s Works record).
+- **Rights / fair-use assessment:** © Craig Kalpakjian; no open licence stated. **Factor 1:** transformative teaching studies the cropped partition, ceiling corner, and organizational enclosure. **Factor 2:** a creative digital image. **Factor 3:** the complete published frame is needed to analyze its boundary structure. **Factor 4:** the credited 800 × 480px artist display is web-sized, links to the authorial record, and cannot replace a licensed reproduction.
 - **File:** `raw/craig-kalpakjian/10-co.jpg` (800 × 480px)
 
 ## Research context
