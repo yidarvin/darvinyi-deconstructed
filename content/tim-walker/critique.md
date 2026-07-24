@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -125,3 +125,35 @@ sofa/rug line remains removed). The latest 2026-07-24 round is resolved as
 described above. Every current overlay passes the deterministic threshold: 02
 scores 94 with its previously accepted detector-only fence-wire warning; the
 other eleven score 100/100. `scripts/check.sh` passed after this resolution.
+
+## Critique round — 2026-07-24
+
+Fresh review of all twelve current proof PNGs, their overlay specs and analyzer
+JSON, chapter and research prose, manifest, and per-image source records. The
+prior required fixes remain resolved: the corrected feature placements still
+trace their named objects; the corrected portfolio attributions match the
+listed official image responses; and the `06` propeller blade remains on the
+visible blade. All twelve official asset URLs currently return `200 image/jpeg`.
+Every fair-use record retains an image-specific four-factor rationale, and no
+camera-setting claim appears in the chapter or research note. Deterministic
+scores remain 100/100 for eleven overlays and 94/100 for `02` (the settled,
+visually accurate fence-wire detector warning).
+
+### Required
+
+1. **08-deliver-us — chapter’s edge-density claim contradicts its analyzer
+   record and changes the reading.** The prose calls the photograph “sparse”
+   with “edge density 0.054,” but
+   `analysis/08-deliver-us.analysis.json` records `tonal.edge_density` as
+   `0.248606...` (0.249 to three decimals). The 0.195 discrepancy is well
+   outside the 0.03 tolerance and makes the following claim about unusually
+   forceful letters materially misleading. Replace the value and revise the
+   interpretation to fit the measured density. This finding has not appeared
+   in a prior round.
+
+### Advisory (non-blocking)
+
+- **02-cut-and-paste:** the strict scorer again reports that `FENCE WIRES`
+  lacks a detected edge/vanishing-path match (88/100 strict), but the rendered
+  line visibly follows the sloping fence wires. This is the previously settled
+  detector-only warning, not a regression.
