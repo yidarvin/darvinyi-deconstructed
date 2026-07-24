@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "image": "09-panic-room.jpg",
+  "width": 1000,
+  "height": 800,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.390025318627451,
+    "std": 0.22042772090915236,
+    "p05": 0.09411764705882353,
+    "p95": 0.8392156862745098,
+    "edge_density": 0.11146
+  },
+  "palette": [
+    "#035a5f",
+    "#088888",
+    "#17bfba",
+    "#01282e",
+    "#91e5e0"
+  ],
+  "lines": [
+    {
+      "x1": 0.129,
+      "y1": 0.1525,
+      "x2": 0.875,
+      "y2": 0.1525,
+      "angle_deg": 0.0,
+      "length": 0.5825281318445006,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.493,
+      "y1": 0.17375,
+      "x2": 0.997,
+      "y2": 0.63125,
+      "angle_deg": 35.98679564435727,
+      "length": 0.4863828663541992,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.5,
+      "y1": 0.62875,
+      "x2": 0.894,
+      "y2": 0.13625,
+      "angle_deg": -45.0,
+      "length": 0.43510021273489546,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.165,
+      "y1": 0.14625,
+      "x2": 0.567,
+      "y2": 0.5825,
+      "angle_deg": 40.96318249048311,
+      "length": 0.41570172820096424,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.211,
+      "y1": 0.00375,
+      "x2": 0.219,
+      "y2": 0.605,
+      "angle_deg": 89.04714349669904,
+      "length": 0.3756498434420661,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.633,
+      "y1": 0.3225,
+      "x2": 0.998,
+      "y2": 0.705,
+      "angle_deg": 39.97499360240485,
+      "length": 0.371927248327923,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0,
+      "y1": 0.62625,
+      "x2": 0.364,
+      "y2": 0.27125,
+      "angle_deg": -37.962059236815335,
+      "length": 0.36051453744241313,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.628,
+      "y1": 0.29125,
+      "x2": 0.999,
+      "y2": 0.6275,
+      "angle_deg": 35.94464249191482,
+      "length": 0.3578407467016578,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.117,
+      "y1": 0.45875,
+      "x2": 0.573,
+      "y2": 0.44875,
+      "angle_deg": -1.0050860052541812,
+      "length": 0.356130970701346,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.924,
+      "y1": 0.56625,
+      "x2": 0.939,
+      "y2": 0.0075,
+      "angle_deg": -88.07804404106858,
+      "length": 0.3492448299109268,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.514,
+      "y1": 0.17625,
+      "x2": 0.823,
+      "y2": 0.5625,
+      "angle_deg": 45.0,
+      "length": 0.34123341557127584,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.757,
+      "y1": 0.52,
+      "x2": 0.764,
+      "y2": 0.0,
+      "angle_deg": -89.03597930462136,
+      "length": 0.324887410141256,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.6225,
+    "angle_deg": 0.0,
+    "confidence": 0.9338276164275986,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5063036985997739,
+    "y": 0.1801118114245787,
+    "inliers": 6,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.32,
+      0.36125
+    ],
+    "regions": [
+      {
+        "cx": 0.6929795320090169,
+        "cy": 0.6530271909957773,
+        "x": 0.508,
+        "y": 0.29375,
+        "w": 0.39,
+        "h": 0.6,
+        "area_frac": 0.11811125
+      },
+      {
+        "cx": 0.34294490750152473,
+        "cy": 0.6148780875177882,
+        "x": 0.262,
+        "y": 0.51625,
+        "w": 0.179,
+        "h": 0.20375,
+        "area_frac": 0.024595
+      },
+      {
+        "cx": 0.32085288966725045,
+        "cy": 0.3605550902307165,
+        "x": 0.257,
+        "y": 0.2825,
+        "w": 0.129,
+        "h": 0.16375,
+        "area_frac": 0.01641625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7456096509902619,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.6514019061251614,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.32,
+    "y": 0.36125,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5708955649602038,
+    "phi": 0.5984610824267391,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.506,
+      "y": 0.18,
+      "confidence": 1.0,
+      "why": "6 converging diagonals"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.493,
+          0.174
+        ],
+        [
+          0.997,
+          0.631
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.97,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.623,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.93,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.5,
+          0.629
+        ],
+        [
+          0.894,
+          0.136
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.87,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

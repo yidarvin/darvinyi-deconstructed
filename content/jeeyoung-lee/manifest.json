@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-black-birds.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "ea313f7f",
+    "source": "01-black-birds.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-broken-heart.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "c4ec52c9",
+    "source": "02-broken-heart.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-desire.jpg",
+    "width": 1000,
+    "height": 732,
+    "sha1": "c7db4754",
+    "source": "03-desire.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-gamer.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "b4dae4fa",
+    "source": "04-gamer.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-meditation.jpg",
+    "width": 1000,
+    "height": 586,
+    "sha1": "387f66e5",
+    "source": "05-meditation.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-my-chemical-romance.jpg",
+    "width": 1000,
+    "height": 757,
+    "sha1": "ff026b33",
+    "source": "06-my-chemical-romance.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ160",
+      "DateTimeOriginal": "2013:01:30 15:29:17",
+      "FocalLength": "55.0",
+      "ExposureTime": "0.25",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "07-neverending-race.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "e49fa46e",
+    "source": "07-neverending-race.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-nightscape.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "c2368fb1",
+    "source": "08-nightscape.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-panic-room.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "2a8cd9a0",
+    "source": "09-panic-room.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-the-little-match-girl.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "01664e19",
+    "source": "10-the-little-match-girl.jpg",
+    "exif": {}
+  }
+]

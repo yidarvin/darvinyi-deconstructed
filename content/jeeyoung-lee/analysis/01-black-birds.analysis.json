@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "image": "01-black-birds.jpg",
+  "width": 1000,
+  "height": 800,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.6630995098039215,
+    "std": 0.22286517018341453,
+    "p05": 0.027450980392156862,
+    "p95": 0.8862745098039215,
+    "edge_density": 0.02112625
+  },
+  "palette": [
+    "#c6ba98",
+    "#d9d8c5",
+    "#92a2a2",
+    "#12100d",
+    "#ac8d5c"
+  ],
+  "lines": [
+    {
+      "x1": 0.599,
+      "y1": 0.26875,
+      "x2": 0.697,
+      "y2": 0.3825,
+      "angle_deg": 42.87890360333855,
+      "length": 0.10442934360072387,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.62,
+      "y1": 0.275,
+      "x2": 0.707,
+      "y2": 0.395,
+      "angle_deg": 47.81555668421123,
+      "length": 0.10116697137683313,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.439,
+      "y1": 0.09875,
+      "x2": 0.53,
+      "y2": 0.2125,
+      "angle_deg": 45.0,
+      "length": 0.10049268872811037,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.309,
+      "y1": 0.8225,
+      "x2": 0.427,
+      "y2": 0.76,
+      "angle_deg": -22.963773059854553,
+      "length": 0.10007314398149716,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.551,
+      "y1": 0.44625,
+      "x2": 0.585,
+      "y2": 0.5975,
+      "angle_deg": 74.30507585657999,
+      "length": 0.0981443685249986,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.488,
+      "y1": 0.13,
+      "x2": 0.52,
+      "y2": 0.27625,
+      "angle_deg": 74.70345268556993,
+      "length": 0.09471716562173213,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.491,
+      "y1": 0.25125,
+      "x2": 0.576,
+      "y2": 0.145,
+      "angle_deg": -45.0,
+      "length": 0.09386679716361956,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.558,
+      "y1": 0.50875,
+      "x2": 0.655,
+      "y2": 0.42375,
+      "angle_deg": -35.03164382952617,
+      "length": 0.09250247195114934,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.304,
+      "y1": 0.8225,
+      "x2": 0.378,
+      "y2": 0.70875,
+      "angle_deg": -50.882445590095344,
+      "length": 0.09158828873904318,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.592,
+      "y1": 0.225,
+      "x2": 0.674,
+      "y2": 0.3275,
+      "angle_deg": 45.0,
+      "length": 0.09055385138137417,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.599,
+      "y1": 0.225,
+      "x2": 0.672,
+      "y2": 0.335,
+      "angle_deg": 50.322750707768236,
+      "length": 0.08928236927532017,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.605,
+      "y1": 0.20875,
+      "x2": 0.71,
+      "y2": 0.2625,
+      "angle_deg": 22.27026792005531,
+      "length": 0.08860022573334675,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5325,
+    "angle_deg": 0.0,
+    "confidence": 0.865760872415876,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5096112889264288,
+    "y": 0.15144164182667133,
+    "inliers": 24,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.148,
+      0.14625
+    ],
+    "regions": [
+      {
+        "cx": 0.6047348215214903,
+        "cy": 0.2696435633260485,
+        "x": 0.393,
+        "y": 0.0,
+        "w": 0.393,
+        "h": 0.5725,
+        "area_frac": 0.1201125
+      },
+      {
+        "cx": 0.16426016051034056,
+        "cy": 0.10316699248893918,
+        "x": 0.088,
+        "y": 0.0,
+        "w": 0.173,
+        "h": 0.21375,
+        "area_frac": 0.0242975
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6546992033017143,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.6633129525766515,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.148,
+    "y": 0.14625,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.09573892013918107,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.51,
+      "y": 0.151,
+      "confidence": 1.0,
+      "why": "24 converging diagonals"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.532,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.87,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.148,
+      "y": 0.146,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.599,
+          0.269
+        ],
+        [
+          0.697,
+          0.382
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.21,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

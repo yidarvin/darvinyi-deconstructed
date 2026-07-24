@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "image": "02-broken-heart.jpg",
+  "width": 1000,
+  "height": 800,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.385212,
+    "std": 0.18032737291598858,
+    "p05": 0.07058823529411765,
+    "p95": 0.713921568627177,
+    "edge_density": 0.0402525
+  },
+  "palette": [
+    "#037b8a",
+    "#3ca1ac",
+    "#1b241d",
+    "#7f5e37",
+    "#bbba9c"
+  ],
+  "lines": [
+    {
+      "x1": 0.0,
+      "y1": 0.795,
+      "x2": 0.226,
+      "y2": 0.71375,
+      "angle_deg": -16.045797280947617,
+      "length": 0.18363039495470113,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.011,
+      "y1": 0.55875,
+      "x2": 0.224,
+      "y2": 0.4825,
+      "angle_deg": -15.980917148394935,
+      "length": 0.17301134884529484,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.01,
+      "y1": 0.75875,
+      "x2": 0.225,
+      "y2": 0.70625,
+      "angle_deg": -11.053462479220205,
+      "length": 0.17106018053846914,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.036,
+      "y1": 0.81375,
+      "x2": 0.217,
+      "y2": 0.7275,
+      "angle_deg": -20.867620405419185,
+      "length": 0.1512589445047232,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.347,
+      "y1": 0.4125,
+      "x2": 0.491,
+      "y2": 0.5425,
+      "angle_deg": 35.83765295427829,
+      "length": 0.13870481026353737,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.12,
+      "y1": 0.9175,
+      "x2": 0.271,
+      "y2": 0.80875,
+      "angle_deg": -29.948780007409024,
+      "length": 0.13608193371247643,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.038,
+      "y1": 0.8075,
+      "x2": 0.188,
+      "y2": 0.7,
+      "angle_deg": -29.82708465447474,
+      "length": 0.13501580756593995,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.402,
+      "y1": 0.335,
+      "x2": 0.517,
+      "y2": 0.47875,
+      "angle_deg": 45.0,
+      "length": 0.12699625498607353,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.396,
+      "y1": 0.48125,
+      "x2": 0.485,
+      "y2": 0.3225,
+      "angle_deg": -54.97771262015058,
+      "length": 0.12109762238104209,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.48,
+      "y1": 0.4475,
+      "x2": 0.626,
+      "y2": 0.46375,
+      "angle_deg": 5.088260197537607,
+      "length": 0.11445789512348006,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.063,
+      "y1": 0.8275,
+      "x2": 0.164,
+      "y2": 0.70125,
+      "angle_deg": -45.0,
+      "length": 0.11153584133559502,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.559,
+      "y1": 0.5725,
+      "x2": 0.697,
+      "y2": 0.57625,
+      "angle_deg": 1.2453642667683475,
+      "length": 0.1077853558087984,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.75,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5151670051897531,
+    "y": 0.5165962152906913,
+    "inliers": 13,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.367,
+      0.46125
+    ],
+    "regions": [
+      {
+        "cx": 0.24685195166478308,
+        "cy": 0.737120425106494,
+        "x": 0.188,
+        "y": 0.6475,
+        "w": 0.119,
+        "h": 0.19875,
+        "area_frac": 0.01437875
+      },
+      {
+        "cx": 0.6802372770566812,
+        "cy": 0.6549251797553459,
+        "x": 0.622,
+        "y": 0.57125,
+        "w": 0.11,
+        "h": 0.16,
+        "area_frac": 0.01338625
+      },
+      {
+        "cx": 0.3663768078175896,
+        "cy": 0.46744478827361563,
+        "x": 0.316,
+        "y": 0.40875,
+        "w": 0.1,
+        "h": 0.12,
+        "area_frac": 0.00959375
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7027299060510309,
+    "vertical_axis_x": 0.4375,
+    "horizontal": 0.6485414832225243,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.367,
+    "y": 0.46125,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2848455140081487,
+    "phi": 0.35479066802784776,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.75,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.515,
+      "y": 0.517,
+      "confidence": 1.0,
+      "why": "13 converging diagonals"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.367,
+      "y": 0.461,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.0,
+          0.795
+        ],
+        [
+          0.226,
+          0.714
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.37,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

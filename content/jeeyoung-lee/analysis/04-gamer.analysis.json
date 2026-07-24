@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "image": "04-gamer.jpg",
+  "width": 1000,
+  "height": 800,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.39597670098039217,
+    "std": 0.20833183328831312,
+    "p05": 0.10980392156862745,
+    "p95": 0.8,
+    "edge_density": 0.10160875
+  },
+  "palette": [
+    "#0757a0",
+    "#1699cc",
+    "#182f42",
+    "#b1c7cd",
+    "#9e6e59"
+  ],
+  "lines": [
+    {
+      "x1": 0.348,
+      "y1": 0.4375,
+      "x2": 0.763,
+      "y2": 0.50125,
+      "angle_deg": 7.006039819645979,
+      "length": 0.32649842191378986,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.421,
+      "y1": 0.2175,
+      "x2": 0.785,
+      "y2": 0.005,
+      "angle_deg": -25.034125290967864,
+      "length": 0.3137071805393546,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.41,
+      "y1": 0.16625,
+      "x2": 0.795,
+      "y2": 0.175,
+      "angle_deg": 1.0416266760099742,
+      "length": 0.30068417918100726,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.021,
+      "y1": 0.185,
+      "x2": 0.372,
+      "y2": 0.17,
+      "angle_deg": -1.9580674292340414,
+      "length": 0.27424508355421534,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.212,
+      "y1": 0.02125,
+      "x2": 0.531,
+      "y2": 0.05625,
+      "angle_deg": 5.016240741853261,
+      "length": 0.25005487202690185,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.002,
+      "y1": 0.22625,
+      "x2": 0.313,
+      "y2": 0.20625,
+      "angle_deg": -2.945096319375127,
+      "length": 0.2431713738768828,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.305,
+      "y1": 0.105,
+      "x2": 0.614,
+      "y2": 0.085,
+      "angle_deg": -2.964124547043769,
+      "length": 0.24161171228273504,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.07,
+      "y1": 0.18,
+      "x2": 0.28,
+      "y2": 0.4425,
+      "angle_deg": 45.0,
+      "length": 0.23190620475717777,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.442,
+      "y1": 0.23625,
+      "x2": 0.688,
+      "y2": 0.02875,
+      "angle_deg": -34.011348903506025,
+      "length": 0.2317378670489358,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.442,
+      "y1": 0.31625,
+      "x2": 0.646,
+      "y2": 0.57125,
+      "angle_deg": 45.0,
+      "length": 0.22528031319268696,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.307,
+      "y1": 0.04875,
+      "x2": 0.588,
+      "y2": 0.0675,
+      "angle_deg": 3.0555934577529356,
+      "length": 0.21973653847611102,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.533,
+      "y1": 0.265,
+      "x2": 0.703,
+      "y2": 0.0025,
+      "angle_deg": -51.00900595749453,
+      "length": 0.2109791343283767,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.35125,
+    "angle_deg": 0.0,
+    "confidence": 0.9571174936838303,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.41973273188789956,
+    "y": 0.2884159148598743,
+    "inliers": 3,
+    "confidence": 0.6
+  },
+  "saliency": {
+    "peak": [
+      0.554,
+      0.225
+    ],
+    "regions": [
+      {
+        "cx": 0.5635876265962131,
+        "cy": 0.2678592396888302,
+        "x": 0.474,
+        "y": 0.0775,
+        "w": 0.163,
+        "h": 0.3875,
+        "area_frac": 0.034065
+      },
+      {
+        "cx": 0.0937655629139073,
+        "cy": 0.21390507726269317,
+        "x": 0.062,
+        "y": 0.16125,
+        "w": 0.065,
+        "h": 0.11,
+        "area_frac": 0.0056625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6334882200718472,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.6451269823075962,
+    "horizontal_axis_y": 0.5875
+  },
+  "subject_anchor": {
+    "x": 0.554,
+    "y": 0.225,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5201282147061774,
+    "phi": 0.4998311254496473,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.351,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.96,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.421,
+          0.218
+        ],
+        [
+          0.785,
+          0.005
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.63,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.554,
+      "y": 0.225,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.42,
+      "y": 0.288,
+      "confidence": 0.6,
+      "why": "3 converging diagonals"
+    }
+  ]
+}
