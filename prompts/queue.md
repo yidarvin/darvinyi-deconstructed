@@ -129,7 +129,7 @@ real queue and state live in data/registry.json.
 | 118 | filip-dujardin            | Filip Dujardin               | DONE    |
 | 119 | craig-kalpakjian          | Craig Kalpakjian             | DONE    |
 | 120 | loretta-lux               | Loretta Lux                  | DONE    |
-| 121 | ruud-van-empel            | Ruud van Empel               | PENDING |
+| 121 | ruud-van-empel            | Ruud van Empel               | DONE    |
 | 122 | maggie-taylor             | Maggie Taylor                | PENDING |
 | 123 | inez-vinoodh              | Inez & Vinoodh               | PENDING |
 | 124 | vibeke-tandberg           | Vibeke Tandberg              | PENDING |
