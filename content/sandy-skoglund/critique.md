@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -35,3 +35,9 @@ Re-verified critique history: round dated 2026-07-23 (the sole prior round). Eve
 ### Advisory (non-blocking)
 
 - None. All twelve proof/spec pairs visually trace the named photographic features, score 100/100 against their current analyzer JSON, and the chapter’s cited tonal, palette, and edge-density values match the analysis within tolerance. The four overlay fixes and the three color-description fixes resolved in the prior 2026-07-23 round remain satisfied. The twelve direct artist-archive JPEG sources resolve publicly, each entry supplies a concise four-factor fair-use rationale, and no camera-setting claim or limited-mode issue was found.
+
+## Resolution — 2026-07-23
+
+Corrected the `03-hangers` source note to identify the person accurately as a standing figure in the open doorway. The affected proof and overlay were re-rendered and visually checked: the `FIGURE'S FACE` anchor and `OPEN DOORWAY` frame both align with the standing figure; the score remains 100/100.
+
+Re-verified critique history: the initial 2026-07-23 round (all five required fixes) and the subsequent 2026-07-23 round resolved here. `01-accessories` retains the truthful `CABINET TOP`; `02-spoons` retains its left-hand `WALL / FLOOR JOIN`; `04-radioactive-cats` and `11-the-cocktail-party` retain no false floor-plane/seam claim; and the `Hangers`, `Radioactive Cats`, and `Ferns` color descriptions remain consistent with their supplied images. The chapter copies remain byte-identical.

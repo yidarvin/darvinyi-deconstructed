@@ -19,7 +19,7 @@ Skoglund constructs rooms, objects, and figures as deliberately artificial envir
 - **File:** `raw/sandy-skoglund/02-spoons.jpg` (1280 × 960px)
 
 ### 03 — *Hangers* (1979; Art Institute of Chicago dates its collection print 1980)
-- **Why it matters:** Dense blue hangers crowd a yellow-and-pink room around a seated figure, turning one household object into a color-driven enclosing structure.
+- **Why it matters:** Dense blue hangers crowd a yellow-and-pink room around a standing figure in the open doorway, turning one household object into a color-driven enclosing structure.
 - **Source:** [Artist archive, Images 1979–84](https://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/index.html); public display JPEG: http://www.sandyskoglund.com/pages/imagelist/1280_960/79_84/data1/images/3hangers.jpg. Collection cross-check: [Art Institute of Chicago, object 1999.427](https://www.artic.edu/artworks/154354/hangers).
 - **Rights / fair-use assessment:** © 1979 Sandy Skoglund. Transformative criticism examines the full-frame color and enclosure; the underlying creative photograph needs the complete room; the credited web display is a small educational copy and not a substitute for the collectible print or licensed reproduction.
 - **File:** `raw/sandy-skoglund/03-hangers.jpg` (1280 × 960px)
