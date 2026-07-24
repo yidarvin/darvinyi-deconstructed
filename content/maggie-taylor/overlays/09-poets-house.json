@@ -3,7 +3,7 @@
   "image": "09-poets-house.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.54, "y": 0.78, "r": 0.05, "label": "HOUSE" },
+    { "type": "subject_anchor", "x": 0.632, "y": 0.804, "r": 0.05, "label": "HOUSE" },
     { "type": "polyline", "points": [[0.50,0.72],[0.56,0.60],[0.68,0.51],[0.57,0.41],[0.35,0.43],[0.25,0.29],[0.45,0.17],[0.68,0.30],[0.78,0.50]], "label": "PAGE SPIRAL" },
     { "type": "horizon_line", "y": 0.80, "label": "GROUND-SKY BOUNDARY" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.46, "rx": 0.28, "ry": 0.27, "label": "FLYING MANUSCRIPT FIELD" }

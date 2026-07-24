@@ -4,9 +4,9 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.45, "y": 0.48, "r": 0.075, "label": "TREE" },
-    { "type": "polyline", "points": [[0.47,0.39],[0.52,0.55],[0.48,0.72],[0.34,0.88]], "label": "TREE SHADOW" },
-    { "type": "polyline", "points": [[0.61,0.41],[0.64,0.50],[0.64,0.68]], "label": "LADDER DESCENT" },
-    { "type": "ellipse", "cx": 0.64, "cy": 0.69, "rx": 0.08, "ry": 0.04, "label": "DARK OPENING" }
+    { "type": "polyline", "points": [[0.47,0.39],[0.52,0.55],[0.48,0.72],[0.34,0.88]], "label": "TREE-TO-SHADOW DESCENT" },
+    { "type": "polyline", "points": [[0.61,0.41],[0.64,0.50],[0.64,0.76]], "label": "LADDER DESCENT" },
+    { "type": "ellipse", "cx": 0.64, "cy": 0.80, "rx": 0.09, "ry": 0.05, "label": "DARK OPENING" }
   ],
   "notes": "Tree shadow and ladder make two linked descents through an otherwise quiet blue field."
 }
