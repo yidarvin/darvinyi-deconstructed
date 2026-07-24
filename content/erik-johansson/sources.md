@@ -133,10 +133,12 @@ use. (3) The full sea, tower, and bulb are necessary to analyze the directional
 structure. (4) The small credited, linked image does not replace Johansson's original
 or limited-edition and licensed print markets.
 
-### 08. *Imminent* (2016)
+### 08. *Imminent / Don’t Worry* (2016)
 
 A boulder floats just above an exposed figure and landscape, creating a poised
 vertical stack that makes gravity—and the gap that suspends it—the subject.
+The artist's featured gallery uses the expanded title *Imminent / Don’t Worry*;
+the chapter uses the shorter *Imminent* title for continuity with the portfolio.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [direct public
 gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149397990-AXVHSYY15OFVM9YGMKW3/immenent.jpg?format=1500w).
@@ -179,14 +181,14 @@ against use. (3) The full landscape is necessary to show the fold's spatial effe
 (4) The credited linked web copy does not substitute for the artist's original,
 limited edition, or licensed reproduction.
 
-### 11. *Fishy Island* (2010)
+### 11. *Fishy Island* (2009)
 
 An island sits directly over the body of a giant fish, a memorable lesson in aligned
 silhouette, waterline division, and scale inversion.
 
 Source: [artist featured gallery](https://www.erikjo.com/featured); [artist
 portfolio](https://www.erikjo.com/work); [direct public gallery rendition](https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1534149391756-A3Q9V5PSGR0F7B8H1C1M/fishy+island.jpg?format=1500w).
-File: `raw/erik-johansson/11-fishy-island-2010.jpg` (1,500 × 1,000px).
+File: `raw/erik-johansson/11-fishy-island-2009.jpg` (1,500 × 1,000px).
 
 **Use basis: fair-use.** (1) This serves transformative teaching of silhouette,
 waterline division, and landscape/object scale reversal. (2) It is a creative

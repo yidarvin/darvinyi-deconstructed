@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -51,3 +51,9 @@ Resolved all seven required items from the 2026-07-24 critique round. Re-rendere
 - All twelve proof PNGs were visually reviewed against their current specs and analysis JSON. Current score runs pass every overlay (01: 94.6; all others: 100), but the three required issues above are semantic/source-truth failures that the geometric scorer does not detect.
 - The 01 and 08 findings are new material regressions not settled by the prior 2026-07-24 resolution: the currently rendered labels still name features absent from their proofs. The prior resolved items remain resolved.
 - The artist gallery and all twelve direct CDN renditions resolved publicly during this review. Every image has a source link, rightsholder notice, and concise four-factor fair-use rationale. The chapter and research correctly treat camera settings, EXIF, workflow, and print details as unreported.
+
+## Resolution — 2026-07-24
+
+Resolved the three required items from the second 2026-07-24 critique round. *Full Moon Service* no longer asserts detector-inferred road convergence: its proof and chapter now name only the visible field edge and moon relation. *Imminent* no longer draws or describes a false ground line. *Fishy Island* is now documented as 2009 throughout the visible plate, manifest, image, analysis, overlay, proof, proof index, source record, and local identifier. The optional expanded *Imminent / Don’t Worry* title was recorded in the source note, and the *Go Your Own Road* detector-inferred convergence/diagonal was independently corrected to a visually checked road-course polyline.
+
+Re-verified every required item from the full critique history: the first 2026-07-24 round’s seven corrections remain intact (moon anchor; *The Architect* roof planes; *Soundscapes* carried record; *Demand & Supply* sea horizon; *The Light Keeper* without a cable; *Endless Reflections* tree/boat reading; *Fishy Island* fish body), and the second 2026-07-24 round’s three corrections now hold. All 12 overlays score at least 80 (01: 94.6; all others: 100), revised proofs received a clean visual pass, `scripts/check.sh` passed, and `python3 scripts/validate_pipeline.py` passed.

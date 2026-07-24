@@ -3,7 +3,6 @@
   "image": "08-imminent-2016.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.725, "angle": 0.0, "label": "ground line" },
     { "type": "subject_anchor", "x": 0.787, "y": 0.767, "r": 0.05, "label": "village scale witness" },
     { "type": "ellipse", "cx": 0.2, "cy": 0.225, "rx": 0.135, "ry": 0.165, "label": "suspended boulder" }
   ],

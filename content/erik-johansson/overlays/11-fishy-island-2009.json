@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "image": "11-fishy-island-2010.jpg",
+  "image": "11-fishy-island-2009.jpg",
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.362, "angle": 0.0, "label": "distant waterline" },
