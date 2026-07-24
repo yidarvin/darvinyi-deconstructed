@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -53,3 +53,16 @@ verdict: resolved
 - Relabeled the `09-circulation-desk` polyline as `ROOF-APERTURE WIRE GRID`; the existing points visibly follow the wire grid inside the sky aperture rather than the broken plaster perimeter. The rendered proof is clean and scores 100/100.
 - Replaced the stale `11-subway` proof-contact-sheet caption with the visible car-interior structure: ceiling, seats, sanded floor, and carriage-end opening. The current Subway overlay remains visually clean and scores 100/100.
 - Re-verified every required fix from the 2026-07-23 round and both earlier 2026-07-24 rounds: `06-botanic-garden` retains the visually centered greenhouse axis (90/100); `08-bar` retains no false stool-rhythm path (100/100); `09-circulation-desk` retains the right-foreground curved desk rim (100/100); and `11-subway` retains its corrected `sources.md` fair-use rationale and car-interior vocabulary. `scripts/check.sh` passes, and the chapter source and rendered copy remain byte-identical.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **05-aquarium — correct or remove `LEFT ARCH`.** The `frame_in_frame` at `x=0.05, y=0.36, w=0.36, h=0.43` spans the left relief panel, the much narrower lower-left arch, and part of the adjacent central doorway. Its top, right, and bottom edges do not trace the arch named by the label, so it makes a materially false structural claim. Retarget the frame to the actual arch opening or omit the primitive.
+
+### Advisory (non-blocking)
+
+- **04-library:** `REAR SHELVING BAY` is broad and slightly right-shifted; its right boundary enters the adjacent wall/rail. The frame still identifies the central shelving area, so this is not blocking.
+- **05-aquarium:** the `CEILING MEDALLION` ellipse is loose around the medallion, but it still clearly names that visible feature.
+- **10-violin-repair-shop:** the `HANGING INSTRUMENTS` ellipse includes some empty wall and clips part of the cluster; the labeled feature remains unambiguous.
+- All twelve current source-derivative URLs returned HTTP 200. Each entry contains a source, credit/rights basis, whole-frame teaching need, web-size use, and non-substitution rationale; the chapter expressly declines undocumented camera settings. The resolved 06, 08, 09, and 11 findings show no material regression.
