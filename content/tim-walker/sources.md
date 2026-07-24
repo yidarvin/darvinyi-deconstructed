@@ -12,16 +12,16 @@ This set follows Walker's fantasy-fashion practice through twelve complete frame
 - **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Japan*, 2002. **Factor 1:** transformative composition teaching examines the vertical route and scale contrast. **Factor 2:** a highly creative fashion photograph. **Factor 3:** the full frame is necessary to retain the relation of figure, set, and open space. **Factor 4:** the later 1600px credited derivative links to the official portfolio and cannot replace an original print, magazine issue, or licensed file.
 - **File:** `raw/tim-walker/01-only-a-northern-song.jpg` (1731 × 2500px)
 
-### 02 — *Cut & Paste* (Vogue Japan, 2006)
+### 02 — *Like a Doll* (Vogue Italia, 2012)
 - **Why it matters:** The image turns doll-like scale and a fabricated interior into a compact lesson in how props can make a body feel alternately monumental and miniature.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_890.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Japan*, 2006. **Factor 1:** transformative criticism analyzes the staged scale illusion. **Factor 2:** a highly creative photograph. **Factor 3:** the complete frame is required to compare figure, oversized prop, and enclosing set. **Factor 4:** a credited 1600px teaching derivative linked to the portfolio is non-substitutive for the print, editorial, or licensed reproduction.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Italia*, 2012. **Factor 1:** transformative criticism analyzes the staged scale illusion. **Factor 2:** a highly creative photograph. **Factor 3:** the complete frame is required to compare figure, oversized prop, and enclosing set. **Factor 4:** a credited 1600px teaching derivative linked to the portfolio is non-substitutive for the print, editorial, or licensed reproduction.
 - **File:** `raw/tim-walker/02-cut-and-paste.jpg` (1982 × 2500px)
 
-### 03 — *Mechanical Dolls* (Vogue Italia, 2011)
+### 03 — *McQueen ‘Dark Angel’* (British Vogue, 2014)
 - **Why it matters:** Figure, costume, and mechanical prop form a deliberately stiff rhythm, making artificiality and repeated shape part of the picture's subject.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_431.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Italia*, 2011. **Factor 1:** transformative scholarship studies repetition, costume, and staged bodily pose. **Factor 2:** a creative editorial photograph. **Factor 3:** the complete composition is essential to see each figure and the mechanical setting together. **Factor 4:** the linked, credited 1600px derivative does not replace the magazine image, print, or licensed file.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *British Vogue*, 2014. **Factor 1:** transformative scholarship studies repetition, costume, and staged bodily pose. **Factor 2:** a creative editorial photograph. **Factor 3:** the complete composition is essential to see each figure and the mechanical setting together. **Factor 4:** the linked, credited 1600px derivative does not replace the magazine image, print, or licensed file.
 - **File:** `raw/tim-walker/03-mechanical-dolls.jpg` (1930 × 2500px)
 
 ### 04 — *The Lion King* (Love Magazine, 2013)
@@ -42,16 +42,16 @@ This set follows Walker's fantasy-fashion practice through twelve complete frame
 - **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *British Vogue*, 2009. **Factor 1:** transformative teaching analyzes the diagonal flight path and the staging of scale. **Factor 2:** a highly creative editorial photograph. **Factor 3:** the intact composition is required to read object, figure, and surrounding negative space. **Factor 4:** this limited, credited 1600px use links to the official portfolio and cannot replace a print, issue, or licensed image.
 - **File:** `raw/tim-walker/06-chocks-away.jpg` (3645 × 2500px)
 
-### 07 — *Checking Out* (American Vogue, 2012)
+### 07 — *Beauty and the Beast* (Love Magazine, 2012)
 - **Why it matters:** Walker uses a furnished interior as a shallow stage, with its architecture and objects determining the direction and tension of the posed body.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_502.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *American Vogue*, 2012. **Factor 1:** transformative criticism examines set geometry and the body/object relationship. **Factor 2:** a creative fashion photograph. **Factor 3:** the full room is needed to analyze the architecture, props, and pose as one system. **Factor 4:** the official-source-linked 1600px derivative does not substitute for the magazine, original, or licensed reproduction.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Love Magazine*, 2012. **Factor 1:** transformative criticism examines set geometry and the body/object relationship. **Factor 2:** a creative fashion photograph. **Factor 3:** the full room is needed to analyze the architecture, props, and pose as one system. **Factor 4:** the official-source-linked 1600px derivative does not substitute for the magazine, original, or licensed reproduction.
 - **File:** `raw/tim-walker/07-checking-out.jpg` (2046 × 2500px)
 
-### 08 — *Deliver Us* (Italian Vogue, 2018)
+### 08 — *India, Various Publications* (date not listed)
 - **Why it matters:** Costume and an elaborate dark setting build a painterly hierarchy in which the eye moves through layered surfaces before locating the figure.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_912.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Italian Vogue*, 2018. **Factor 1:** transformative scholarship examines layered staging and controlled visual revelation. **Factor 2:** a highly creative photograph. **Factor 3:** the whole frame is essential for the surface-to-figure sequence. **Factor 4:** a small credited teaching derivative linked to the portfolio does not replace the editorial image, print, or licence.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *India, Various Publications* (official portfolio metadata supplies no caption or date). **Factor 1:** transformative scholarship examines layered staging and controlled visual revelation. **Factor 2:** a highly creative photograph. **Factor 3:** the whole frame is essential for the surface-to-figure sequence. **Factor 4:** a small credited teaching derivative linked to the portfolio does not replace the editorial image, print, or licence.
 - **File:** `raw/tim-walker/08-deliver-us.jpg` (2011 × 2500px)
 
 ### 09 — *An Artist of the Floating World* (British Vogue, 2016)
@@ -60,10 +60,10 @@ This set follows Walker's fantasy-fashion practice through twelve complete frame
 - **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *British Vogue*, 2016. **Factor 1:** transformative composition teaching studies theatrical depth and color hierarchy. **Factor 2:** a creative editorial work. **Factor 3:** cropping would remove the designed relation between foreground figure and staged world. **Factor 4:** the credited 1600px derivative is limited, portfolio-linked, and non-substitutive for the work or a licensed copy.
 - **File:** `raw/tim-walker/09-artist-of-the-floating-world.jpg` (3702 × 2500px)
 
-### 10 — *Jamaican Rhapsody* (British Vogue, 2018)
+### 10 — *Morocco, Namibia* (Vogue Italia, 2006; British Vogue, 2011)
 - **Why it matters:** Walker's expansive horizontal arrangement uses costume, vegetation, and group placement to create a decorative rhythm that still reads as a narrative scene.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_633.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *British Vogue*, 2018. **Factor 1:** transformative criticism examines lateral rhythm and staged group placement. **Factor 2:** a highly creative fashion photograph. **Factor 3:** the full wide frame is required to retain the group and environmental pattern. **Factor 4:** the web-sized, credited derivative links to the artist's portfolio and cannot replace the magazine original, print, or licence.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Italia*, 2006; *British Vogue*, 2011. **Factor 1:** transformative criticism examines lateral rhythm and staged group placement. **Factor 2:** a highly creative fashion photograph. **Factor 3:** the full wide frame is required to retain the group and environmental pattern. **Factor 4:** the web-sized, credited derivative links to the artist's portfolio and cannot replace the magazine originals, print, or licence.
 - **File:** `raw/tim-walker/10-jamaican-rhapsody.jpg` (1768 × 2500px)
 
 ### 11 — *In the Land of Dreamy Dreams* (British Vogue, 2015)

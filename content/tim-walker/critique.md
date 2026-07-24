@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -64,3 +64,23 @@ anchors the red-coated figure. No camera-setting claim was introduced.
   V&A exhibition page and verify the “largest exhibition” wording against the
   replacement; this link-maintenance issue does not block the image- and
   composition-specific corrections above.
+
+## Resolution — 2026-07-24
+
+Resolved the two required items from the latest 2026-07-24 critique round.
+The `02`, `03`, `07`, `08`, and `10` source records, fair-use attributions,
+chapter plate labels, and contact-sheet labels now use the official portfolio
+metadata: *Like a Doll* (*Vogue Italia*, 2012); *McQueen ‘Dark Angel’*
+(*British Vogue*, 2014); *Beauty and the Beast* (*Love Magazine*, 2012);
+*India, Various Publications* (no caption or date supplied); and *Morocco,
+Namibia* (*Vogue Italia*, 2006; *British Vogue*, 2011). The false `SOFA AND
+RUG BASE` primitive was removed from `07`; its current overlay retains only
+the visible window frame and gown descent, was freshly analyzed and rendered,
+and scores 100/100 with a clean visual pass.
+
+Re-verified every required fix from the full prior critique history: the first
+2026-07-24 round remains resolved for `04` (line joins the two faces), `08`
+(the line follows the lower VOGUE-letter baseline), `09` (the line follows the
+left rotor blade), and `11` (the anchor lies on the red-coated figure). Fresh
+analysis, render, visual review, and deterministic scoring returned 100/100
+for all four. `scripts/check.sh` passed for the completed unit.
