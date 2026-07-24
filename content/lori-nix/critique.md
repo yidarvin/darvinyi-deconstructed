@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -72,3 +72,22 @@ verdict: resolved
 - Removed the false `LEFT ARCH` frame from `05-aquarium`: the rectangular primitive enclosed a relief panel and part of the central doorway instead of tracing the narrow lower-left arch. The remaining four claims name only the visible wall frieze, room axis, ceiling medallion, and glowing tank. The re-rendered proof is visually clean and scores 100/100.
 - Re-verified all required fixes from the 2026-07-23 round and each prior 2026-07-24 round. `06-botanic-garden` retains the visually centered greenhouse axis (90/100, with the analyzer's unrelated 0.425 symmetry estimate); `08-bar` has no stool-rhythm or unsupported counter-edge trace (100/100); `09-circulation-desk` retains the right-foreground curved desk rim and accurately relabeled roof-aperture wire grid (100/100); and `11-subway` retains the car-interior source rationale, current contact-sheet caption, and carriage-end overlay vocabulary (100/100). Their rendered proofs were visually rechecked.
 - `scripts/check.sh` passes, and `content/lori-nix/chapter.mdx` remains byte-identical with `src/chapters/lori-nix.mdx`.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+None. All twelve current proofs were inspected against their overlay specs and
+analysis. The resolved 06, 08, 09, and 11 findings remain materially correct;
+the 06 structural axis remains a visually truthful centered roof-arch and
+planting-bed axis despite the analyzer's unrelated 0.425 symmetry estimate.
+
+### Advisory (non-blocking)
+
+None. The independently reviewed candidate placement concerns in 02, 04, 07,
+and 08 still name visible, legible structures or interpretive routes and do not
+make a materially false compositional claim. All twelve source derivatives
+returned HTTP 200, their manifest SHA-1 prefixes match the ingested files, and
+each fair-use entry retains a source, credit/rights basis, whole-frame teaching
+need, web-scale use, and non-substitution rationale. No invented camera setting
+or unsupported source claim was found.

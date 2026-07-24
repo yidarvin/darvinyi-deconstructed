@@ -119,7 +119,7 @@ real queue and state live in data/registry.json.
 | 108 | david-levinthal           | David Levinthal              | DONE    |
 | 109 | bernard-faucon            | Bernard Faucon               | DONE    |
 | 110 | teun-hocks                | Teun Hocks                   | DONE    |
-| 111 | lori-nix                  | Lori Nix                     | PENDING |
+| 111 | lori-nix                  | Lori Nix                     | DONE    |
 | 112 | jeeyoung-lee              | JeeYoung Lee                 | PENDING |
 | 113 | nancy-burson              | Nancy Burson                 | PENDING |
 | 114 | joan-fontcuberta          | Joan Fontcuberta             | PENDING |
