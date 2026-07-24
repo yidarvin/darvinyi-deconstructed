@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "12-observatory.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.729, "angle": 0, "label": "gallery rail" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.54, "rx": 0.11, "ry": 0.15, "label": "telescope" },
+    { "type": "polyline", "points": [[0.43, 0.57], [0.51, 0.49], [0.62, 0.38]], "label": "telescope barrel" },
+    { "type": "polyline", "points": [[0.50, 0.23], [0.59, 0.15], [0.68, 0.23], [0.70, 0.38], [0.61, 0.46], [0.54, 0.36]], "label": "broken oculus" },
+    { "type": "polyline", "points": [[0.08, 0.06], [0.18, 0.22], [0.25, 0.40]], "label": "left dome ribs" }
+  ],
+  "notes": "Nested circular architecture opens upward through a broken oculus."
+}

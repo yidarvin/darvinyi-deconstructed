@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "04-library.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.651, "angle": 3.0, "label": "balcony rail" },
+    { "type": "frame_in_frame", "x": 0.35, "y": 0.44, "w": 0.30, "h": 0.31, "label": "rear shelving bay" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.48, "rx": 0.10, "ry": 0.40, "label": "central birch" },
+    { "type": "polyline", "points": [[0.02, 0.52], [0.21, 0.53], [0.39, 0.59]], "label": "left gallery rail" },
+    { "type": "polyline", "points": [[0.61, 0.59], [0.79, 0.53], [0.98, 0.52]], "label": "right gallery rail" }
+  ],
+  "notes": "The library's ordered recession drives directly into an obstructing thicket."
+}

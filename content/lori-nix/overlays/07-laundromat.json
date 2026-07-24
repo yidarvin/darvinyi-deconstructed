@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "07-laundromat.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.261, "angle": 0, "label": "storefront beam" },
+    { "type": "vanishing_point", "x": 0.48, "y": 0.535, "label": "machine-row convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "laundromat axis" },
+    { "type": "polyline", "points": [[0.19, 0.90], [0.36, 0.68], [0.56, 0.43]], "label": "floor recession" },
+    { "type": "frame_in_frame", "x": 0.30, "y": 0.29, "w": 0.39, "h": 0.31, "label": "bright storefront opening" }
+  ],
+  "notes": "A stable machine rhythm is undone by floodwater, plants, and a broken facade."
+}

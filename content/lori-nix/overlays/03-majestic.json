@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "03-majestic.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.626, "angle": 0, "label": "balcony front" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "proscenium axis" },
+    { "type": "frame_in_frame", "x": 0.29, "y": 0.20, "w": 0.42, "h": 0.48, "label": "proscenium" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.35, "rx": 0.06, "ry": 0.08, "label": "chandelier" },
+    { "type": "polyline", "points": [[0.25, 0.91], [0.35, 0.76], [0.45, 0.63]], "label": "left seating aisle" }
+  ],
+  "notes": "The cinema's axial viewing machine remains legible beneath a ruined ceiling."
+}

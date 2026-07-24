@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "01-museum-of-art.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.517, "angle": 1.9, "label": "gallery cornice" },
+    { "type": "vanishing_point", "x": 0.461, "y": 0.349, "label": "central arch convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "museum axis" },
+    { "type": "frame_in_frame", "x": 0.35, "y": 0.26, "w": 0.30, "h": 0.46, "label": "central arcade" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.29, "rx": 0.08, "ry": 0.19, "label": "bee swarm" }
+  ],
+  "notes": "A centered civic axis is broken open to weather and growth."
+}

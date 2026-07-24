@@ -1,0 +1,134 @@
+[
+  {
+    "file": "01-museum-of-art.jpg",
+    "width": 1500,
+    "height": 1092,
+    "sha1": "d7196b20",
+    "source": "01-museum-of-art.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1301032217"
+    }
+  },
+  {
+    "file": "02-natural-history.jpg",
+    "width": 1500,
+    "height": 476,
+    "sha1": "365fe5d0",
+    "source": "02-natural-history.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1209221817"
+    }
+  },
+  {
+    "file": "03-majestic.jpg",
+    "width": 1500,
+    "height": 1059,
+    "sha1": "e4b75e5f",
+    "source": "03-majestic.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1212021302"
+    }
+  },
+  {
+    "file": "04-library.jpg",
+    "width": 1500,
+    "height": 1166,
+    "sha1": "8751ae16",
+    "source": "04-library.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-aquarium.jpg",
+    "width": 1500,
+    "height": 1146,
+    "sha1": "051af726",
+    "source": "05-aquarium.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-botanic-garden.jpg",
+    "width": 1500,
+    "height": 1100,
+    "sha1": "0b99fef4",
+    "source": "06-botanic-garden.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1212221324"
+    }
+  },
+  {
+    "file": "07-laundromat.jpg",
+    "width": 1500,
+    "height": 1176,
+    "sha1": "36e0c09d",
+    "source": "07-laundromat.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1302131706"
+    }
+  },
+  {
+    "file": "08-bar.jpg",
+    "width": 1500,
+    "height": 997,
+    "sha1": "7ca74a7c",
+    "source": "08-bar.jpg",
+    "exif": {
+      "DateTimeOriginal": "1212221710"
+    }
+  },
+  {
+    "file": "09-circulation-desk.jpg",
+    "width": 1500,
+    "height": 1155,
+    "sha1": "d6382f01",
+    "source": "09-circulation-desk.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1211061433"
+    }
+  },
+  {
+    "file": "10-violin-repair-shop.jpg",
+    "width": 1500,
+    "height": 1205,
+    "sha1": "f3706e7d",
+    "source": "10-violin-repair-shop.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1302271825"
+    }
+  },
+  {
+    "file": "11-subway.jpg",
+    "width": 1500,
+    "height": 1195,
+    "sha1": "549d16a5",
+    "source": "11-subway.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1209211555"
+    }
+  },
+  {
+    "file": "12-observatory.jpg",
+    "width": 1500,
+    "height": 1188,
+    "sha1": "f7ee95af",
+    "source": "12-observatory.jpg",
+    "exif": {
+      "Make": "Itek Colour Graphics Ltd"
+    }
+  }
+]
