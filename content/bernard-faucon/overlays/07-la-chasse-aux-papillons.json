@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-la-chasse-aux-papillons.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.270, "angle": 0, "label": "grass skyline" },
+    { "type": "subject_anchor", "x": 0.794, "y": 0.360, "r": 0.060, "label": "yellow-net figure" },
+    { "type": "ellipse", "cx": 0.956, "cy": 0.138, "rx": 0.105, "ry": 0.102, "label": "yellow net" },
+    { "type": "ellipse", "cx": 0.478, "cy": 0.146, "rx": 0.092, "ry": 0.105, "label": "blue net" }
+  ],
+  "notes": "Nets, weeds, and a staggered row make a childlike game look deliberately posed."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-le-cimetiere-de-lioux.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.386, 0.786], [0.774, 0.397]], "arrow": true, "label": "tomb edges" },
+    { "type": "subject_anchor", "x": 0.709, "y": 0.350, "r": 0.060, "label": "monument" },
+    { "type": "leading_line", "points": [[0.032, 0.516], [0.367, 0.656]], "arrow": true, "label": "iron railing" }
+  ],
+  "notes": "Graves, figures, and a dominant monument make the cemetery a layered stage."
+}

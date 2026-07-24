@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-le-jeune-orateur.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.687, "angle": 0, "label": "crowd line" },
+    { "type": "polyline", "points": [[0.413, 0.765], [0.479, 0.690], [0.535, 0.645]], "label": "microphone cluster" },
+    { "type": "ellipse", "cx": 0.697, "cy": 0.603, "rx": 0.115, "ry": 0.155, "label": "young speaker" }
+  ],
+  "notes": "A looming speaker and a low crowd turn a meadow into a public address."
+}

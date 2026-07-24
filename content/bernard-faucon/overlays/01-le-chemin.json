@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-le-chemin.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.507, 0.506], [0.559, 0.719], [0.650, 0.995]], "arrow": true, "label": "road" },
+    { "type": "horizon_line", "y": 0.229, "angle": 0, "label": "distant field" },
+    { "type": "frame_in_frame", "x": 0.016, "y": 0.000, "w": 0.961, "h": 0.632, "label": "oak canopy" }
+  ],
+  "notes": "The road and enclosing oak turn an arranged group into a slow procession."
+}

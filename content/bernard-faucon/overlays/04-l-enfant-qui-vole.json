@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-l-enfant-qui-vole.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.484, "y": 0.292, "r": 0.055, "label": "flying figure" },
+    { "type": "polyline", "points": [[0.488, 0.363], [0.514, 0.425], [0.539, 0.466]], "label": "flight path" },
+    { "type": "ellipse", "cx": 0.611, "cy": 0.214, "rx": 0.180, "ry": 0.072, "label": "distant figure ring" }
+  ],
+  "notes": "Foreground witnesses ring a suspended figure against a receding field."
+}

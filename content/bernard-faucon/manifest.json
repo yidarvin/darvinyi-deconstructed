@@ -1,0 +1,103 @@
+[
+  {
+    "file": "01-le-chemin.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "012c1f1c",
+    "source": "01-le-chemin.jpg",
+    "exif": {
+      "Make": "NewcolorV2 2.4554312229 0.92308622599 4.1649479866 4.1649479866 0.34691378474\u0000"
+    }
+  },
+  {
+    "file": "02-ceremonie.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "d05e0707",
+    "source": "02-ceremonie.jpg",
+    "exif": {
+      "Make": "NewcolorV2 2.4554195404 0.92308390141 4.1650562286 4.1650562286 0.34691607952\u0000"
+    }
+  },
+  {
+    "file": "03-le-cimetiere-de-lioux.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "196c7932",
+    "source": "03-le-cimetiere-de-lioux.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-l-enfant-qui-vole.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "da9cd9e6",
+    "source": "04-l-enfant-qui-vole.jpg",
+    "exif": {
+      "Make": "REALVIEW 1 1 1 1\u0000",
+      "Model": "ScanMate 11000\u0000"
+    }
+  },
+  {
+    "file": "05-le-banquet.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "26bce57e",
+    "source": "05-le-banquet.jpg",
+    "exif": {
+      "Make": "REALVIEW 0 1 1 1\u0000",
+      "Model": "ScanMate 11000\u0000"
+    }
+  },
+  {
+    "file": "06-diabolo-menthe.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "95e9b636",
+    "source": "06-diabolo-menthe.jpg",
+    "exif": {
+      "Make": "REALVIEW 0 1 1 1\u0000",
+      "Model": "ScanMate 11000\u0000"
+    }
+  },
+  {
+    "file": "07-la-chasse-aux-papillons.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "eb246414",
+    "source": "07-la-chasse-aux-papillons.jpg",
+    "exif": {
+      "Make": "NewcolorV2 2.4604587555 0.92409175634 4.117688179 4.117688179 0.34590825438\u0000"
+    }
+  },
+  {
+    "file": "08-la-comete.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "d5e286c1",
+    "source": "08-la-comete.jpg",
+    "exif": {
+      "Make": "REALVIEW 0 1 1 1\u0000",
+      "Model": "ScanMate 11000\u0000"
+    }
+  },
+  {
+    "file": "09-le-jeune-orateur.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "1cdc310c",
+    "source": "09-le-jeune-orateur.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-la-neige-qui-brule.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "5cbb7d7e",
+    "source": "10-la-neige-qui-brule.jpg",
+    "exif": {
+      "Make": "REALVIEW 0 1 1 1\u0000",
+      "Model": "ScanMate 11000\u0000"
+    }
+  }
+]

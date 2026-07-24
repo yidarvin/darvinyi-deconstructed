@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-le-banquet.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.452, "angle": 0, "label": "stone-wall band" },
+    { "type": "leading_line", "points": [[0.004, 0.393], [0.821, 0.643]], "arrow": true, "label": "table edge" },
+    { "type": "polyline", "points": [[0.246, 0.696], [0.480, 0.485], [0.489, 0.372]], "label": "guest to fire" }
+  ],
+  "notes": "The table directs a crowded picnic tableau toward the implausible fire."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-la-neige-qui-brule.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.399, "angle": -3.0, "label": "distant ridge" },
+    { "type": "vanishing_point", "x": 0.182, "y": 0.406, "label": "snowfield recession" },
+    { "type": "polyline", "points": [[0.475, 0.704], [0.487, 0.554], [0.563, 0.459], [0.683, 0.388]], "label": "relay of fires" }
+  ],
+  "notes": "A blurred face crowds a snowy field whose small fires lead toward the horizon."
+}

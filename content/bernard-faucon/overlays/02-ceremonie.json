@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-ceremonie.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.368, "angle": 0, "label": "sea horizon" },
+    { "type": "leading_line", "points": [[0.000, 0.671], [0.444, 0.693]], "arrow": true, "label": "shoreline" },
+    { "type": "subject_anchor", "x": 0.477, "y": 0.530, "r": 0.085, "label": "ceremonial group" },
+    { "type": "polyline", "points": [[0.254, 0.523], [0.453, 0.573], [0.610, 0.515]], "label": "posed row" }
+  ],
+  "notes": "A small posed group interrupts broad, divided bands of sky, sea, and sand."
+}

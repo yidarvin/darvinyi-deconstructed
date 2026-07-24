@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-diabolo-menthe.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.646, "angle": 0, "label": "fire line" },
+    { "type": "polyline", "points": [[0.255, 0.561], [0.496, 0.521], [0.740, 0.550]], "label": "green-glass chain" },
+    { "type": "subject_anchor", "x": 0.945, "y": 0.366, "r": 0.055, "label": "right-hand jacket" }
+  ],
+  "notes": "Four fixed faces and raised glasses form a bright, frontal ritual before fire."
+}
