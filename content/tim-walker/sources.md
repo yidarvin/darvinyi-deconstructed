@@ -49,9 +49,9 @@ This set follows Walker's fantasy-fashion practice through twelve complete frame
 - **File:** `raw/tim-walker/07-checking-out.jpg` (2046 × 2500px)
 
 ### 08 — *India, Various Publications* (date not listed)
-- **Why it matters:** Costume and an elaborate dark setting build a painterly hierarchy in which the eye moves through layered surfaces before locating the figure.
+- **Why it matters:** A gold-clad model, rusted car, oversized *VOGUE* letters, and broad tree make a sunlit outdoor stage in which typography and figure continually trade scale.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_912.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *India, Various Publications* (official portfolio metadata supplies no caption or date). **Factor 1:** transformative scholarship examines layered staging and controlled visual revelation. **Factor 2:** a highly creative photograph. **Factor 3:** the whole frame is essential for the surface-to-figure sequence. **Factor 4:** a small credited teaching derivative linked to the portfolio does not replace the editorial image, print, or licence.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *India, Various Publications* (official portfolio metadata supplies no caption or date). **Factor 1:** transformative scholarship examines the relation of oversized typography, car, figure, and tree canopy. **Factor 2:** a highly creative photograph. **Factor 3:** the whole frame is essential to retain the letter-to-figure scale relation and outdoor setting. **Factor 4:** a small credited teaching derivative linked to the portfolio does not replace the editorial image, print, or licence.
 - **File:** `raw/tim-walker/08-deliver-us.jpg` (2011 × 2500px)
 
 ### 09 — *An Artist of the Floating World* (British Vogue, 2016)
@@ -61,9 +61,9 @@ This set follows Walker's fantasy-fashion practice through twelve complete frame
 - **File:** `raw/tim-walker/09-artist-of-the-floating-world.jpg` (3702 × 2500px)
 
 ### 10 — *Morocco, Namibia* (Vogue Italia, 2006; British Vogue, 2011)
-- **Why it matters:** Walker's expansive horizontal arrangement uses costume, vegetation, and group placement to create a decorative rhythm that still reads as a narrative scene.
+- **Why it matters:** A folded printed map turns its white border, horizontal crease, and vertical fold into the frame's primary structure before individual roads can be read.
 - **Source:** https://www.timwalkerphotography.com/ (official portfolio; public display file: https://assets.timwalkerphotography.com/image/timwalker_633.jpg)
-- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Italia*, 2006; *British Vogue*, 2011. **Factor 1:** transformative criticism examines lateral rhythm and staged group placement. **Factor 2:** a highly creative fashion photograph. **Factor 3:** the full wide frame is required to retain the group and environmental pattern. **Factor 4:** the web-sized, credited derivative links to the artist's portfolio and cannot replace the magazine originals, print, or licence.
+- **Rights / fair-use assessment:** Tim Walker / Tim Walker Photography; *Vogue Italia*, 2006; *British Vogue*, 2011. **Factor 1:** transformative criticism examines the printed map's folds, border, and internal image rather than treating them as a real landscape. **Factor 2:** a highly creative fashion photograph. **Factor 3:** the full frame is required to retain the paper border and intersecting crease structure. **Factor 4:** the web-sized, credited derivative links to the artist's portfolio and cannot replace the magazine originals, print, or licence.
 - **File:** `raw/tim-walker/10-jamaican-rhapsody.jpg` (1768 × 2500px)
 
 ### 11 — *In the Land of Dreamy Dreams* (British Vogue, 2015)

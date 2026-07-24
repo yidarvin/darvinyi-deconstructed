@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -103,3 +103,25 @@ not re-raised.
 ### Advisory (non-blocking)
 
 - **02-cut-and-paste:** the scorer continues to warn that `FENCE WIRES` is not a detected edge/vanishing path, but the proof visibly places it on the real sloping fence wires. It remains settled and requires no change.
+
+## Resolution — 2026-07-24
+
+Resolved both required items from the latest 2026-07-24 critique round. For
+`06-chocks-away`, a fresh analysis and render pass placed `PROPELLER BLADE`
+directly on the nearly vertical black-and-yellow blade above the hub; the
+rendered proof is visually clean and the deterministic score is 100/100. The
+`08-deliver-us` source note and Factor 1 now describe the sunlit tree, rusted
+car, gold-clad model, and oversized *VOGUE* letters actually shown. The
+`10-jamaican-rhapsody` note and Factor 1 now describe the displayed folded map,
+its border, and its intersecting creases.
+
+Re-verified every required fix from the full critique history. The first
+2026-07-24 round remains resolved for `04` (the line joins the paired faces),
+`08` (the line follows the lower VOGUE-letter baseline), `09` (the line traces
+the left rotor blade), and `11` (the anchor sits on the red-coated figure). The
+second 2026-07-24 round remains resolved for the official source attributions
+and chapter labels of `02`, `03`, `07`, `08`, and `10`, and for `07` (the false
+sofa/rug line remains removed). The latest 2026-07-24 round is resolved as
+described above. Every current overlay passes the deterministic threshold: 02
+scores 94 with its previously accepted detector-only fence-wire warning; the
+other eleven score 100/100. `scripts/check.sh` passed after this resolution.
