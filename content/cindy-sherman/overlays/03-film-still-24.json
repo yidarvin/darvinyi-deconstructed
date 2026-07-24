@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-film-still-24.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.421, "y": 0.276, "r": 0.04, "label": "hair silhouette" },
+    { "type": "horizon_line", "y": 0.609, "angle": -2.1, "label": "far-bank seam" },
+    { "type": "leading_line", "points": [[0.0, 0.633], [0.977, 0.668]], "arrow": true, "label": "waterline" }
+  ],
+  "notes": "A turned portrait interrupts the long horizontal water bands and distant industrial blocks."
+}

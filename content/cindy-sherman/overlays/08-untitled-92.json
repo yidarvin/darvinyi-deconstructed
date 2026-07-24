@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-untitled-92.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.397, 0.08], [0.505, 0.21], [0.609, 0.168]], "label": "wet hair contour" },
+    { "type": "ellipse", "cx": 0.468, "cy": 0.483, "rx": 0.287, "ry": 0.397, "label": "crouched figure" },
+    { "type": "leading_line", "points": [[0.702, 0.055], [0.982, 0.922]], "arrow": true, "label": "floorboard diagonal" }
+  ],
+  "notes": "The steep viewpoint locks the figure to the floorboard grid while the direct gaze rises against it."
+}

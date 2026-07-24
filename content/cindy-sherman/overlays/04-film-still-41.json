@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-film-still-41.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.458, "y": 0.526, "r": 0.04, "label": "standing figure" },
+    { "type": "leading_line", "points": [[0.063, 0.734], [0.892, 0.666]], "arrow": true, "label": "platform edge" },
+    { "type": "frame_in_frame", "x": 0.165, "y": 0.169, "w": 0.749, "h": 0.585, "label": "concrete court" }
+  ],
+  "notes": "A small figure is held in a large architectural rectangle whose edges make the scene feel observed."
+}

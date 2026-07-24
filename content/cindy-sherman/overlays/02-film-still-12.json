@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-film-still-12.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.237, "y": 0.218, "r": 0.04, "label": "standing woman" },
+    { "type": "leading_line", "points": [[0.202, 0.708], [0.946, 0.827]], "arrow": true, "label": "bed edge" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.635, "rx": 0.17, "ry": 0.21, "label": "open suitcase" }
+  ],
+  "notes": "The standing figure, open suitcase, and bed make a small bedroom read as a stage of departure."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-untitled-145.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.376, "y": 0.953, "r": 0.04, "label": "foreground hand" },
+    { "type": "ellipse", "cx": 0.509, "cy": 0.529, "rx": 0.449, "ry": 0.353, "label": "body on gravel" },
+    { "type": "polyline", "points": [[0.025, 0.762], [0.408, 0.504], [0.79, 0.215]], "label": "body's diagonal" }
+  ],
+  "notes": "An exposed face and body run diagonally through gravel, with the surrounding texture becoming active ground."
+}

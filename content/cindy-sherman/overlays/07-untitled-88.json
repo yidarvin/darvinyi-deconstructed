@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-untitled-88.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.654, "y": 0.387, "r": 0.04, "label": "lit face" },
+    { "type": "ellipse", "cx": 0.733, "cy": 0.498, "rx": 0.245, "ry": 0.443, "label": "crouched body" },
+    { "type": "polyline", "points": [[0.993, 0.155], [0.839, 0.298], [0.679, 0.511]], "label": "edge of warm light" }
+  ],
+  "notes": "A small warm figure is isolated against a large field of black, making its pose and face disproportionately charged."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-untitled-96.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.873, "y": 0.133, "r": 0.04, "label": "face" },
+    { "type": "polyline", "points": [[0.057, 0.393], [0.412, 0.252], [0.983, 0.109]], "label": "orange torso" },
+    { "type": "leading_line", "points": [[0.012, 0.02], [0.424, 0.75]], "arrow": true, "label": "tile-grid diagonal" }
+  ],
+  "notes": "The orange torso and newspaper make a long diagonal chain across the tight, tiled overhead view."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-film-still-50.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.782, "y": 0.660, "r": 0.04, "label": "cat" },
+    { "type": "ellipse", "cx": 0.611, "cy": 0.465, "rx": 0.16, "ry": 0.19, "label": "lamp and face" },
+    { "type": "polyline", "points": [[0.455, 0.058], [0.459, 0.261], [0.457, 0.406]], "label": "standing sculpture" }
+  ],
+  "notes": "A bright lamp crowns the seated figure while chairs and table edges turn the room into a shallow set."
+}

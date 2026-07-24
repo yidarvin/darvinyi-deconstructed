@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-film-still-03.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.866, "y": 0.032, "r": 0.04, "label": "woman's face" },
+    { "type": "leading_line", "points": [[0.0, 0.627], [0.511, 0.463]], "arrow": true, "label": "counter edge" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 0.166, "h": 0.392, "label": "cupboard" }
+  ],
+  "notes": "A cropped face and hard counter edge turn a domestic kitchen into a tense, off-balance scene."
+}
