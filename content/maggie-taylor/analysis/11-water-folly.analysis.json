@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "image": "11-water-folly.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.5274338480392157,
+    "std": 0.22362873093354285,
+    "p05": 0.11372549019607843,
+    "p95": 0.8509803921568627,
+    "edge_density": 0.0100953125
+  },
+  "palette": [
+    "#c1cbcd",
+    "#919f9b",
+    "#6d7467",
+    "#5a4d20",
+    "#221a0b"
+  ],
+  "lines": [
+    {
+      "x1": 0.5,
+      "y1": 0.53375,
+      "x2": 0.53875,
+      "y2": 0.81625,
+      "angle_deg": 82.1895855964993,
+      "length": 0.20162813853725872,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.4325,
+      "y1": 0.8425,
+      "x2": 0.47875,
+      "y2": 0.58375,
+      "angle_deg": -79.86574871260433,
+      "length": 0.18586369333465852,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.535,
+      "y1": 0.58375,
+      "x2": 0.58,
+      "y2": 0.83375,
+      "angle_deg": 79.79602627826831,
+      "length": 0.17961764946686057,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.52125,
+      "y1": 0.73125,
+      "x2": 0.545,
+      "y2": 0.94875,
+      "angle_deg": 83.76825439495988,
+      "length": 0.15470990999286371,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.47125,
+      "y1": 0.9075,
+      "x2": 0.49375,
+      "y2": 0.69375,
+      "angle_deg": -83.99099404250548,
+      "length": 0.15197913096869584,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.48625,
+      "y1": 0.7275,
+      "x2": 0.51,
+      "y2": 0.5325,
+      "angle_deg": -83.05586948900677,
+      "length": 0.1389047560380853,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.015,
+      "y1": 0.23625,
+      "x2": 0.03,
+      "y2": 0.405,
+      "angle_deg": 84.92039213998542,
+      "length": 0.11979474633722464,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.5725,
+      "y1": 0.76125,
+      "x2": 0.60625,
+      "y2": 0.925,
+      "angle_deg": 78.35402575151679,
+      "length": 0.11822251266150623,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.42875,
+      "y1": 0.85375,
+      "x2": 0.49875,
+      "y2": 0.715,
+      "angle_deg": -63.22884978553789,
+      "length": 0.10988985963226998,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.9825,
+      "y1": 0.24375,
+      "x2": 0.9875,
+      "y2": 0.10125,
+      "angle_deg": -87.99044618697886,
+      "length": 0.1008247241503789,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.02375,
+      "y1": 0.70625,
+      "x2": 0.035,
+      "y2": 0.565,
+      "angle_deg": -85.44623202084138,
+      "length": 0.10019512213675874,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.4175,
+      "y1": 0.90875,
+      "x2": 0.44625,
+      "y2": 0.77125,
+      "angle_deg": -78.19011704297175,
+      "length": 0.09932978531135563,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.8575,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.50625,
+      0.53875
+    ],
+    "regions": [
+      {
+        "cx": 0.5032046584383303,
+        "cy": 0.6053653467043799,
+        "x": 0.455,
+        "y": 0.48625,
+        "w": 0.09375,
+        "h": 0.24625,
+        "area_frac": 0.0182296875
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.95763663668662,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.9274891242257943,
+    "horizontal_axis_y": 0.4125
+  },
+  "subject_anchor": {
+    "x": 0.50625,
+    "y": 0.53875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.01822370444891703,
+    "phi": 0.19664382011975315,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.858,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.96,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.506,
+      "y": 0.539,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

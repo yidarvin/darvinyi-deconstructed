@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-girl-with-a-bee-dress.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "FRONTAL FIGURE AXIS" },
+    { "type": "subject_anchor", "x": 0.50, "y": 0.48, "r": 0.08, "label": "FLOWER AND FIGURE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.46, "rx": 0.035, "ry": 0.045, "label": "FLOWER INTERRUPTION" },
+    { "type": "polyline", "points": [[0.34,0.55],[0.40,0.67],[0.50,0.88],[0.62,0.68],[0.66,0.55]], "label": "BEE-MASS TAPER" }
+  ],
+  "notes": "A frontal axis contains a growing bee mass, interrupted by one centered flower."
+}

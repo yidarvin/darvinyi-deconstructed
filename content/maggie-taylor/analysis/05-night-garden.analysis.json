@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "image": "05-night-garden.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.19946753676470588,
+    "std": 0.11776863072705723,
+    "p05": 0.023529411764705882,
+    "p95": 0.4196078431372549,
+    "edge_density": 0.0729984375
+  },
+  "palette": [
+    "#1a2331",
+    "#2a3d56",
+    "#1b4291",
+    "#0b0d10",
+    "#526785"
+  ],
+  "lines": [
+    {
+      "x1": 0.3725,
+      "y1": 0.58625,
+      "x2": 0.99,
+      "y2": 0.5975,
+      "angle_deg": 1.0437347660606466,
+      "length": 0.43671089550181813,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.34625,
+      "y1": 0.2225,
+      "x2": 0.695,
+      "y2": 0.65375,
+      "angle_deg": 51.03768252142289,
+      "length": 0.39217542312082737,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4725,
+      "y1": 0.65125,
+      "x2": 0.99375,
+      "y2": 0.66,
+      "angle_deg": 0.9617093298587618,
+      "length": 0.36863133683939564,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.33375,
+      "y1": 0.14,
+      "x2": 0.70125,
+      "y2": 0.5075,
+      "angle_deg": 45.0,
+      "length": 0.3675,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.51125,
+      "y1": 0.58625,
+      "x2": 0.99375,
+      "y2": 0.6975,
+      "angle_deg": 12.983775584947855,
+      "length": 0.3501305560073271,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.2725,
+      "y1": 0.1575,
+      "x2": 0.70875,
+      "y2": 0.38,
+      "angle_deg": 27.022884419398043,
+      "length": 0.3462804589491009,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.31375,
+      "y1": 0.10125,
+      "x2": 0.64125,
+      "y2": 0.42875,
+      "angle_deg": 45.0,
+      "length": 0.3275,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.5325,
+      "y1": 0.595,
+      "x2": 0.9925,
+      "y2": 0.60375,
+      "angle_deg": 1.0897339522895475,
+      "length": 0.32532795952699795,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0,
+      "y1": 0.755,
+      "x2": 0.37625,
+      "y2": 0.51125,
+      "angle_deg": -32.93680214839064,
+      "length": 0.3170000985804263,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4825,
+      "y1": 0.08875,
+      "x2": 0.75625,
+      "y2": 0.44,
+      "angle_deg": 52.068595117003156,
+      "length": 0.31489333511524187,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.25125,
+      "y1": 0.255,
+      "x2": 0.61625,
+      "y2": 0.50125,
+      "angle_deg": 34.00586783712204,
+      "length": 0.3113390936744051,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.35625,
+      "y1": 0.1325,
+      "x2": 0.54875,
+      "y2": 0.5275,
+      "angle_deg": 64.01809183701988,
+      "length": 0.3107098727108619,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5275,
+    "angle_deg": 0.0,
+    "confidence": 0.960141620326832,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5347669397978344,
+    "y": 0.40302944151243636,
+    "inliers": 9,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.585,
+      0.475
+    ],
+    "regions": [
+      {
+        "cx": 0.49928030784382244,
+        "cy": 0.44152893382469743,
+        "x": 0.34,
+        "y": 0.3175,
+        "w": 0.335,
+        "h": 0.23125,
+        "area_frac": 0.0491828125
+      },
+      {
+        "cx": 0.7760671809707489,
+        "cy": 0.908927193828351,
+        "x": 0.7375,
+        "y": 0.87,
+        "w": 0.07875,
+        "h": 0.07875,
+        "area_frac": 0.0048609375
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8615482952077593,
+    "vertical_axis_x": 0.45,
+    "horizontal": 0.6699080854960308,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.585,
+    "y": 0.475,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.16967051412101988,
+    "phi": 0.4533808816410867,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.535,
+      "y": 0.403,
+      "confidence": 1.0,
+      "why": "9 converging diagonals"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.527,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.96,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.45,
+      "confidence": 0.86,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.346,
+          0.222
+        ],
+        [
+          0.695,
+          0.654
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.78,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

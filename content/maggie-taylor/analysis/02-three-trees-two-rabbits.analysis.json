@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "image": "02-three-trees-two-rabbits.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3224378431372549,
+    "std": 0.23069648911253596,
+    "p05": 0.00392156862745098,
+    "p95": 0.7450980392156863,
+    "edge_density": 0.2075421875
+  },
+  "palette": [
+    "#15120d",
+    "#603b13",
+    "#9b7330",
+    "#b7b69b",
+    "#4a635a"
+  ],
+  "lines": [
+    {
+      "x1": 0.2725,
+      "y1": 0.20125,
+      "x2": 0.9725,
+      "y2": 0.90125,
+      "angle_deg": 45.0,
+      "length": 0.7,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.04625,
+      "y1": 0.83625,
+      "x2": 0.975,
+      "y2": 0.705,
+      "angle_deg": -8.043716020047519,
+      "length": 0.6632507538631223,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.32125,
+      "y1": 0.17875,
+      "x2": 0.97,
+      "y2": 0.8275,
+      "angle_deg": 45.0,
+      "length": 0.6487499999999999,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.08375,
+      "y1": 0.64375,
+      "x2": 0.93875,
+      "y2": 0.955,
+      "angle_deg": 20.003281091317294,
+      "length": 0.6433900692814585,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.035,
+      "y1": 0.69625,
+      "x2": 0.89,
+      "y2": 0.97375,
+      "angle_deg": 17.981429696964042,
+      "length": 0.6356222345072582,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0775,
+      "y1": 0.855,
+      "x2": 0.96875,
+      "y2": 0.94875,
+      "angle_deg": 6.004822867809829,
+      "length": 0.6336858941936454,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.36875,
+      "y1": 0.11375,
+      "x2": 0.9925,
+      "y2": 0.7375,
+      "angle_deg": 45.0,
+      "length": 0.62375,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.06,
+      "y1": 0.77375,
+      "x2": 0.67625,
+      "y2": 0.1575,
+      "angle_deg": -45.0,
+      "length": 0.6162500000000001,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.13375,
+      "y1": 0.73375,
+      "x2": 0.99625,
+      "y2": 0.73375,
+      "angle_deg": 0.0,
+      "length": 0.6098795987733973,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0325,
+      "y1": 0.8525,
+      "x2": 0.88,
+      "y2": 0.97125,
+      "angle_deg": 7.976240890980676,
+      "length": 0.6051271818799746,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.05625,
+      "y1": 0.515,
+      "x2": 0.71875,
+      "y2": 0.99625,
+      "angle_deg": 35.995220874722705,
+      "length": 0.5790111451863427,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.43625,
+      "y1": 0.99125,
+      "x2": 0.99625,
+      "y2": 0.43125,
+      "angle_deg": -45.0,
+      "length": 0.5599999999999999,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.47375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5585616277679375,
+    "y": 0.8569517191225073,
+    "inliers": 4,
+    "confidence": 0.8
+  },
+  "saliency": {
+    "peak": [
+      0.5075,
+      0.28875
+    ],
+    "regions": [
+      {
+        "cx": 0.4889418917338946,
+        "cy": 0.3183422970497681,
+        "x": 0.37,
+        "y": 0.2225,
+        "w": 0.30625,
+        "h": 0.24375,
+        "area_frac": 0.0400921875
+      },
+      {
+        "cx": 0.7114914610367781,
+        "cy": 0.8008363309352518,
+        "x": 0.65125,
+        "y": 0.6775,
+        "w": 0.11875,
+        "h": 0.2475,
+        "area_frac": 0.0232390625
+      },
+      {
+        "cx": 0.42399346024346024,
+        "cy": 0.6898815073815073,
+        "x": 0.38125,
+        "y": 0.645,
+        "w": 0.08625,
+        "h": 0.08875,
+        "area_frac": 0.0060328125
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9034193296339079,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7643143876786738,
+    "horizontal_axis_y": 0.525
+  },
+  "subject_anchor": {
+    "x": 0.5075,
+    "y": 0.28875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.09200099467739689,
+    "phi": 0.2110380079914366,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.474,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.272,
+          0.201
+        ],
+        [
+          0.972,
+          0.901
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.046,
+          0.836
+        ],
+        [
+          0.975,
+          0.705
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.9,
+      "why": "strong left/right mirror correlation"
+    }
+  ]
+}

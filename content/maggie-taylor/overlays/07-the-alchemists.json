@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-the-alchemists.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.72, "y": 0.39, "r": 0.10, "label": "FIGURE GROUP" },
+    { "type": "leading_line", "points": [[0.57,0.53],[0.99,0.73]], "arrow": true, "label": "ROCK EDGE" },
+    { "type": "polyline", "points": [[0.47,0.37],[0.40,0.35],[0.33,0.40],[0.28,0.55]], "label": "ROD TO POD" },
+    { "type": "ellipse", "cx": 0.28, "cy": 0.55, "rx": 0.075, "ry": 0.12, "label": "SUSPENDED POD" }
+  ],
+  "notes": "A rock diagonal holds the group at right while a curved rod reaches toward the hanging pod."
+}

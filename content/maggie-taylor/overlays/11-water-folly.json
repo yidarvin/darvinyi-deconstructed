@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "11-water-folly.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.48,0.87],[0.52,0.67],[0.55,0.43]], "label": "LADDER" },
+    { "type": "subject_anchor", "x": 0.503, "y": 0.605, "r": 0.07, "label": "LADDER STRUCTURE" },
+    { "type": "ellipse", "cx": 0.39, "cy": 0.83, "rx": 0.07, "ry": 0.04, "label": "BLUE BASIN" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.25, "rx": 0.02, "ry": 0.015, "label": "BLUE BUTTERFLY" },
+    { "type": "horizon_line", "y": 0.858, "label": "STAGE BACKDROP ROLL" }
+  ],
+  "notes": "A ladder becomes the central scaffold between basin, backdrop, and a small airborne accent."
+}

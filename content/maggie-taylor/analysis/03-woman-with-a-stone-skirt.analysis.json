@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "image": "03-woman-with-a-stone-skirt.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3899607475490196,
+    "std": 0.283107559873478,
+    "p05": 0.01568627450980392,
+    "p95": 0.8823529411764706,
+    "edge_density": 0.102671875
+  },
+  "palette": [
+    "#1b1407",
+    "#4c3b22",
+    "#bc9996",
+    "#8b6a57",
+    "#e2d5d7"
+  ],
+  "lines": [
+    {
+      "x1": 0.1175,
+      "y1": 0.505,
+      "x2": 0.8175,
+      "y2": 0.505,
+      "angle_deg": 0.0,
+      "length": 0.49497474683058323,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.2175,
+      "y1": 0.86375,
+      "x2": 0.65625,
+      "y2": 0.425,
+      "angle_deg": -45.0,
+      "length": 0.43875000000000003,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.33875,
+      "y1": 0.815,
+      "x2": 0.73875,
+      "y2": 0.415,
+      "angle_deg": -45.0,
+      "length": 0.4,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3375,
+      "y1": 0.7525,
+      "x2": 0.5925,
+      "y2": 0.2525,
+      "angle_deg": -62.97841840882297,
+      "length": 0.3968784448669391,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.305,
+      "y1": 0.455,
+      "x2": 0.66375,
+      "y2": 0.8675,
+      "angle_deg": 48.98661484040986,
+      "length": 0.38656035266178035,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.35375,
+      "y1": 0.79125,
+      "x2": 0.7775,
+      "y2": 0.48375,
+      "angle_deg": -35.96703030102891,
+      "length": 0.37021636410347936,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.37125,
+      "y1": 0.7325,
+      "x2": 0.73,
+      "y2": 0.37375,
+      "angle_deg": -45.0,
+      "length": 0.35875,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.36375,
+      "y1": 0.81375,
+      "x2": 0.8475,
+      "y2": 0.72875,
+      "angle_deg": -9.965744972357257,
+      "length": 0.3473032266622353,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.38125,
+      "y1": 0.5175,
+      "x2": 0.73375,
+      "y2": 0.82375,
+      "angle_deg": 40.98392627631547,
+      "length": 0.3301857905028621,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.45375,
+      "y1": 0.8325,
+      "x2": 0.665,
+      "y2": 0.41625,
+      "angle_deg": -63.091864423398476,
+      "length": 0.3300686481627723,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.36375,
+      "y1": 0.78625,
+      "x2": 0.6425,
+      "y2": 0.41625,
+      "angle_deg": -53.00642034548394,
+      "length": 0.3275679795859174,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.42375,
+      "y1": 0.77125,
+      "x2": 0.8075,
+      "y2": 0.5325,
+      "angle_deg": -31.88780188484623,
+      "length": 0.31958224684734915,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.505,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": {
+    "x": 0.5033637743212849,
+    "y": 0.6405686922679459,
+    "inliers": 20,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.57,
+      0.3825
+    ],
+    "regions": [
+      {
+        "cx": 0.6085992456497593,
+        "cy": 0.37383688911514257,
+        "x": 0.48625,
+        "y": 0.22375,
+        "w": 0.2525,
+        "h": 0.27875,
+        "area_frac": 0.0337625
+      },
+      {
+        "cx": 0.4650553623188406,
+        "cy": 0.6244489855072464,
+        "x": 0.4,
+        "y": 0.54375,
+        "w": 0.13,
+        "h": 0.15,
+        "area_frac": 0.0134765625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.934513633492126,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.7847208276890847,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.57,
+    "y": 0.3825,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.25875062027478063,
+    "phi": 0.4539382819422205,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.505,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.503,
+      "y": 0.641,
+      "confidence": 1.0,
+      "why": "20 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.93,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.218,
+          0.864
+        ],
+        [
+          0.656,
+          0.425
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.88,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

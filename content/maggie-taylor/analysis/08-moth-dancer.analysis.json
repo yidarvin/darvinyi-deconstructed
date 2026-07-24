@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "image": "08-moth-dancer.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.29996514705882354,
+    "std": 0.21866116372929628,
+    "p05": 0.03137254901960784,
+    "p95": 0.7254901960784313,
+    "edge_density": 0.049878124999999995
+  },
+  "palette": [
+    "#21100a",
+    "#40342d",
+    "#5b605d",
+    "#859ba0",
+    "#cbc598"
+  ],
+  "lines": [
+    {
+      "x1": 0.04625,
+      "y1": 0.77,
+      "x2": 0.04625,
+      "y2": 0.42,
+      "angle_deg": -90.0,
+      "length": 0.24748737341529162,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.50625,
+      "y1": 0.01125,
+      "x2": 0.805,
+      "y2": 0.01125,
+      "angle_deg": 0.0,
+      "length": 0.21124815087948107,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.52375,
+      "y1": 0.37625,
+      "x2": 0.54375,
+      "y2": 0.0975,
+      "angle_deg": -85.89612452736306,
+      "length": 0.1976127051836496,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.46625,
+      "y1": 0.6875,
+      "x2": 0.485,
+      "y2": 0.9575,
+      "angle_deg": 86.02750405924934,
+      "length": 0.1913786332117564,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.0375,
+      "y1": 0.42125,
+      "x2": 0.28375,
+      "y2": 0.42125,
+      "angle_deg": 0.0,
+      "length": 0.17412504486718733,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.42125,
+      "y1": 0.08625,
+      "x2": 0.5475,
+      "y2": 0.2975,
+      "angle_deg": 59.136061798147075,
+      "length": 0.17401957504832608,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.24875,
+      "y1": 0.57375,
+      "x2": 0.4,
+      "y2": 0.38,
+      "angle_deg": -52.022793835573204,
+      "length": 0.17380394845917624,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.2725,
+      "y1": 0.6,
+      "x2": 0.47875,
+      "y2": 0.48125,
+      "angle_deg": -29.931511840507792,
+      "length": 0.16828640022295327,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.45625,
+      "y1": 0.2025,
+      "x2": 0.62125,
+      "y2": 0.3675,
+      "angle_deg": 45.0,
+      "length": 0.165,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.36125,
+      "y1": 0.93,
+      "x2": 0.51625,
+      "y2": 0.775,
+      "angle_deg": -45.0,
+      "length": 0.15500000000000003,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.36125,
+      "y1": 0.34625,
+      "x2": 0.51625,
+      "y2": 0.50125,
+      "angle_deg": 45.0,
+      "length": 0.15500000000000003,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.63125,
+      "y1": 0.67625,
+      "x2": 0.76625,
+      "y2": 0.50375,
+      "angle_deg": -51.95295746817391,
+      "length": 0.15488907321047538,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.38125,
+    "angle_deg": 0.0,
+    "confidence": 0.6977165534236803,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.7024030913173651,
+    "y": 0.49492331853313554,
+    "inliers": 6,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.50625,
+      0.21
+    ],
+    "regions": [
+      {
+        "cx": 0.50493,
+        "cy": 0.20515403846153846,
+        "x": 0.44875,
+        "y": 0.1475,
+        "w": 0.11125,
+        "h": 0.1175,
+        "area_frac": 0.01015625
+      },
+      {
+        "cx": 0.49403175591531756,
+        "cy": 0.8826842050643421,
+        "x": 0.465,
+        "y": 0.84375,
+        "w": 0.0625,
+        "h": 0.0775,
+        "area_frac": 0.0037640625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9234690011701692,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.8210619858482373,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.50625,
+    "y": 0.21,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2744125130195679,
+    "phi": 0.42899179130866827,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.702,
+      "y": 0.495,
+      "confidence": 1.0,
+      "why": "6 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.92,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.381,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.7,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.506,
+      "y": 0.21,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

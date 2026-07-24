@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-cloud-sisters.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "PAIRING TENSION" },
+    { "type": "subject_anchor", "x": 0.290, "y": 0.433, "r": 0.07, "label": "LEFT SISTER" },
+    { "type": "subject_anchor", "x": 0.741, "y": 0.445, "r": 0.09, "label": "RIGHT SISTER" },
+    { "type": "polyline", "points": [[0.08,0.42],[0.31,0.45],[0.54,0.38],[0.78,0.41]], "label": "CLOUD CROSSING" }
+  ],
+  "notes": "A paired portrait almost balances before different scale and clouds pull it apart."
+}

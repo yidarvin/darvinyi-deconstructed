@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-moth-dancer.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "DANCER AXIS" },
+    { "type": "subject_anchor", "x": 0.506, "y": 0.210, "r": 0.055, "label": "DANCER HEAD" },
+    { "type": "polyline", "points": [[0.29,0.60],[0.36,0.65],[0.50,0.62]], "label": "LEFT MOTH BALANCE" },
+    { "type": "polyline", "points": [[0.50,0.62],[0.64,0.64],[0.70,0.59]], "label": "RIGHT MOTH BALANCE" }
+  ],
+  "notes": "A centered dancer is held in place by an uneven, winged peripheral balance."
+}

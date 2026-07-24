@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "image": "04-girl-with-a-bee-dress.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.39182386642156863,
+    "std": 0.216526777457754,
+    "p05": 0.058823529411764705,
+    "p95": 0.7215686274509804,
+    "edge_density": 0.056028125
+  },
+  "palette": [
+    "#2a160b",
+    "#8c919c",
+    "#866c5d",
+    "#60422a",
+    "#e4b474"
+  ],
+  "lines": [
+    {
+      "x1": 0.41375,
+      "y1": 0.98875,
+      "x2": 0.65625,
+      "y2": 0.46875,
+      "angle_deg": -64.99818832716183,
+      "length": 0.40571310676388056,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.21875,
+      "y1": 0.99125,
+      "x2": 0.6175,
+      "y2": 0.5925,
+      "angle_deg": -45.0,
+      "length": 0.39875,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3625,
+      "y1": 0.97625,
+      "x2": 0.65375,
+      "y2": 0.575,
+      "angle_deg": -54.02572741481184,
+      "length": 0.3505910188524515,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3675,
+      "y1": 0.80375,
+      "x2": 0.61625,
+      "y2": 0.46125,
+      "angle_deg": -54.00994474651451,
+      "length": 0.29931823574583627,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.405,
+      "y1": 0.7425,
+      "x2": 0.6475,
+      "y2": 0.46375,
+      "angle_deg": -48.97819342286716,
+      "length": 0.26125448560742454,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.24375,
+      "y1": 0.97,
+      "x2": 0.50125,
+      "y2": 0.7125,
+      "angle_deg": -45.0,
+      "length": 0.2575,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.45,
+      "y1": 0.99125,
+      "x2": 0.4675,
+      "y2": 0.6575,
+      "angle_deg": -86.99847567230084,
+      "length": 0.236321087188596,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.41375,
+      "y1": 0.79125,
+      "x2": 0.6475,
+      "y2": 0.5575,
+      "angle_deg": -45.0,
+      "length": 0.23375,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.26375,
+      "y1": 0.48875,
+      "x2": 0.48375,
+      "y2": 0.70875,
+      "angle_deg": 45.0,
+      "length": 0.22,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4375,
+      "y1": 0.7575,
+      "x2": 0.6275,
+      "y2": 0.99125,
+      "angle_deg": 50.89460814703555,
+      "length": 0.21300124706207707,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.51625,
+      "y1": 0.76,
+      "x2": 0.7275,
+      "y2": 0.97125,
+      "angle_deg": 45.0,
+      "length": 0.21125000000000002,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3225,
+      "y1": 0.99625,
+      "x2": 0.485,
+      "y2": 0.74625,
+      "angle_deg": -56.97613244420336,
+      "length": 0.2108390974179125,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.75,
+    "angle_deg": 0.0,
+    "confidence": 0.6899309053592159,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.4890944047945846,
+    "y": 0.7273127663786617,
+    "inliers": 30,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.61625,
+      0.5225
+    ],
+    "regions": [
+      {
+        "cx": 0.4331342952509718,
+        "cy": 0.597191777928004,
+        "x": 0.33875,
+        "y": 0.51,
+        "w": 0.19375,
+        "h": 0.17875,
+        "area_frac": 0.018490625
+      },
+      {
+        "cx": 0.603064705882353,
+        "cy": 0.5398610962566844,
+        "x": 0.5325,
+        "y": 0.46125,
+        "w": 0.14,
+        "h": 0.16,
+        "area_frac": 0.014609375
+      },
+      {
+        "cx": 0.45857795261349255,
+        "cy": 0.20332089889672633,
+        "x": 0.39125,
+        "y": 0.16,
+        "w": 0.16625,
+        "h": 0.10875,
+        "area_frac": 0.0086390625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8907295576595353,
+    "vertical_axis_x": 0.4875,
+    "horizontal": 0.6849324818492819,
+    "horizontal_axis_y": 0.45
+  },
+  "subject_anchor": {
+    "x": 0.61625,
+    "y": 0.5225,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2715428706123196,
+    "phi": 0.2986392639873831,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.489,
+      "y": 0.727,
+      "confidence": 1.0,
+      "why": "30 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "confidence": 0.89,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.414,
+          0.989
+        ],
+        [
+          0.656,
+          0.469
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.81,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.219,
+          0.991
+        ],
+        [
+          0.618,
+          0.592
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.8,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

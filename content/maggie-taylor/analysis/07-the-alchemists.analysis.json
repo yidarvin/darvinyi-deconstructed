@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "image": "07-the-alchemists.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.4093975551470588,
+    "std": 0.29348232394215024,
+    "p05": 0.00392156862745098,
+    "p95": 0.8980392156862745,
+    "edge_density": 0.0613078125
+  },
+  "palette": [
+    "#15120b",
+    "#cfdcc5",
+    "#48635b",
+    "#8f9c82",
+    "#78561c"
+  ],
+  "lines": [
+    {
+      "x1": 0.67375,
+      "y1": 0.19875,
+      "x2": 0.6825,
+      "y2": 0.74,
+      "angle_deg": 89.07382096460387,
+      "length": 0.3827715539326296,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.5425,
+      "y1": 0.48125,
+      "x2": 0.9125,
+      "y2": 0.85125,
+      "angle_deg": 45.0,
+      "length": 0.37,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.5325,
+      "y1": 0.64,
+      "x2": 0.86875,
+      "y2": 0.30375,
+      "angle_deg": -45.0,
+      "length": 0.33625,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.65625,
+      "y1": 0.52875,
+      "x2": 0.9175,
+      "y2": 0.88875,
+      "angle_deg": 54.03181644870932,
+      "length": 0.31452469100215324,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.51875,
+      "y1": 0.55125,
+      "x2": 0.90875,
+      "y2": 0.7325,
+      "angle_deg": 24.926347106486748,
+      "length": 0.304098308528673,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.605,
+      "y1": 0.38875,
+      "x2": 0.925,
+      "y2": 0.57375,
+      "angle_deg": 30.033280435995138,
+      "length": 0.26136660077370255,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.275,
+      "y1": 0.64,
+      "x2": 0.275,
+      "y2": 0.3025,
+      "angle_deg": -90.0,
+      "length": 0.2386485386504598,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.60125,
+      "y1": 0.5425,
+      "x2": 0.93375,
+      "y2": 0.56,
+      "angle_deg": 3.0127875041833403,
+      "length": 0.2354384208237899,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.65125,
+      "y1": 0.685,
+      "x2": 0.77,
+      "y2": 0.3775,
+      "angle_deg": -68.88449313449982,
+      "length": 0.23308561999831734,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.54125,
+      "y1": 0.50125,
+      "x2": 0.77,
+      "y2": 0.73,
+      "angle_deg": 45.0,
+      "length": 0.22875000000000004,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.60625,
+      "y1": 0.65,
+      "x2": 0.91125,
+      "y2": 0.755,
+      "angle_deg": 18.996654155488557,
+      "length": 0.22808989455914086,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6625,
+      "y1": 0.41125,
+      "x2": 0.90875,
+      "y2": 0.59,
+      "angle_deg": 35.97545937377728,
+      "length": 0.2151634553078194,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.74625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.6736102983080293,
+    "y": 0.5783623475099723,
+    "inliers": 18,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.7575,
+      0.3825
+    ],
+    "regions": [
+      {
+        "cx": 0.7410550421530481,
+        "cy": 0.3575176313229572,
+        "x": 0.59625,
+        "y": 0.22375,
+        "w": 0.2625,
+        "h": 0.29,
+        "area_frac": 0.03855
+      },
+      {
+        "cx": 0.5313677862939585,
+        "cy": 0.3038559513074842,
+        "x": 0.46375,
+        "y": 0.25625,
+        "w": 0.1425,
+        "h": 0.10625,
+        "area_frac": 0.010396875
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8133390378962094,
+    "vertical_axis_x": 0.575,
+    "horizontal": 0.7641544049936118,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.7575,
+    "y": 0.3825,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.47167289708042,
+    "phi": 0.3122552780562519,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.746,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.674,
+      "y": 0.578,
+      "confidence": 1.0,
+      "why": "18 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.575,
+      "confidence": 0.81,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.542,
+          0.481
+        ],
+        [
+          0.912,
+          0.851
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.74,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

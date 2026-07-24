@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "image": "10-the-reader.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3241803370098039,
+    "std": 0.1882572748826169,
+    "p05": 0.050980392156862744,
+    "p95": 0.6705882352941176,
+    "edge_density": 0.0565453125
+  },
+  "palette": [
+    "#201b14",
+    "#726c77",
+    "#49413a",
+    "#977727",
+    "#dbbe71"
+  ],
+  "lines": [
+    {
+      "x1": 0.54,
+      "y1": 0.46125,
+      "x2": 0.86625,
+      "y2": 0.7875,
+      "angle_deg": 45.0,
+      "length": 0.32625,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.64375,
+      "y1": 0.63375,
+      "x2": 0.72125,
+      "y2": 0.23125,
+      "angle_deg": -79.10127419424714,
+      "length": 0.2898383169975978,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6025,
+      "y1": 0.5575,
+      "x2": 0.8375,
+      "y2": 0.7925,
+      "angle_deg": 45.0,
+      "length": 0.23500000000000004,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4625,
+      "y1": 0.555,
+      "x2": 0.695,
+      "y2": 0.7875,
+      "angle_deg": 45.0,
+      "length": 0.2325,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.59625,
+      "y1": 0.70875,
+      "x2": 0.795,
+      "y2": 0.915,
+      "angle_deg": 46.06091169026423,
+      "length": 0.2025347192458616,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.595,
+      "y1": 0.32125,
+      "x2": 0.71125,
+      "y2": 0.56,
+      "angle_deg": 64.03804001730255,
+      "length": 0.18777063801350838,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.7125,
+      "y1": 0.84875,
+      "x2": 0.7125,
+      "y2": 0.58375,
+      "angle_deg": -90.0,
+      "length": 0.1873832970144351,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.725,
+      "y1": 0.50875,
+      "x2": 0.7525,
+      "y2": 0.76875,
+      "angle_deg": 83.96231747857712,
+      "length": 0.1848732674022937,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.55375,
+      "y1": 0.47875,
+      "x2": 0.7225,
+      "y2": 0.65875,
+      "angle_deg": 46.8476102659946,
+      "length": 0.17446570221679675,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.655,
+      "y1": 0.5975,
+      "x2": 0.79125,
+      "y2": 0.79125,
+      "angle_deg": 54.884124007522075,
+      "length": 0.16748600687818668,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6,
+      "y1": 0.67375,
+      "x2": 0.77375,
+      "y2": 0.83,
+      "angle_deg": 41.96443087494444,
+      "length": 0.16523184469102803,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.65125,
+      "y1": 0.3725,
+      "x2": 0.78125,
+      "y2": 0.17875,
+      "angle_deg": -56.1396631995877,
+      "length": 0.16498342719800677,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.79,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5562581151205659,
+    "y": 0.5392326322560677,
+    "inliers": 9,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.71,
+      0.7575
+    ],
+    "regions": [
+      {
+        "cx": 0.29501469010866016,
+        "cy": 0.8223384670988202,
+        "x": 0.13875,
+        "y": 0.66,
+        "w": 0.36,
+        "h": 0.25625,
+        "area_frac": 0.0335046875
+      },
+      {
+        "cx": 0.6531309671036359,
+        "cy": 0.7277195770467475,
+        "x": 0.51375,
+        "y": 0.62375,
+        "w": 0.2925,
+        "h": 0.1875,
+        "area_frac": 0.0315859375
+      },
+      {
+        "cx": 0.6867238183503244,
+        "cy": 0.22006603336422614,
+        "x": 0.64875,
+        "y": 0.1775,
+        "w": 0.07875,
+        "h": 0.0875,
+        "area_frac": 0.0050578125
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7240233118523428,
+    "vertical_axis_x": 0.525,
+    "horizontal": 0.7533327895817539,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.71,
+    "y": 0.7575,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.27028111418906475,
+    "phi": 0.22052921953353133,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.79,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.556,
+      "y": 0.539,
+      "confidence": 1.0,
+      "why": "9 converging diagonals"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.54,
+          0.461
+        ],
+        [
+          0.866,
+          0.788
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.65,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.71,
+      "y": 0.758,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

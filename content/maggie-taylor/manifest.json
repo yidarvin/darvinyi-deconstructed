@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-garden.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "342c7010",
+    "source": "01-garden.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-three-trees-two-rabbits.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "75f97e51",
+    "source": "02-three-trees-two-rabbits.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-woman-with-a-stone-skirt.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "ba0c9a5d",
+    "source": "03-woman-with-a-stone-skirt.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-girl-with-a-bee-dress.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "e78de09f",
+    "source": "04-girl-with-a-bee-dress.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-night-garden.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "d26eced4",
+    "source": "05-night-garden.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-cloud-sisters.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "0e0ea16e",
+    "source": "06-cloud-sisters.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-alchemists.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "c3da7368",
+    "source": "07-the-alchemists.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-moth-dancer.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "e3becd08",
+    "source": "08-moth-dancer.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-poets-house.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "e41d9b65",
+    "source": "09-poets-house.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-the-reader.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "ed227646",
+    "source": "10-the-reader.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-water-folly.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "26326bb7",
+    "source": "11-water-folly.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-the-patient-gardener.jpg",
+    "width": 800,
+    "height": 800,
+    "sha1": "604615c5",
+    "source": "12-the-patient-gardener.jpg",
+    "exif": {}
+  }
+]

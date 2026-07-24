@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "image": "12-the-patient-gardener.jpg",
+  "width": 800,
+  "height": 800,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.262934381127451,
+    "std": 0.20811633958681838,
+    "p05": 0.011764705882352941,
+    "p95": 0.6745098039215687,
+    "edge_density": 0.1559296875
+  },
+  "palette": [
+    "#0a140e",
+    "#29402a",
+    "#6f7023",
+    "#557c72",
+    "#adb47e"
+  ],
+  "lines": [
+    {
+      "x1": 0.0,
+      "y1": 0.705,
+      "x2": 0.99625,
+      "y2": 0.705,
+      "angle_deg": 0.0,
+      "length": 0.704455130757098,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.01,
+      "y1": 0.90125,
+      "x2": 0.99375,
+      "y2": 0.7625,
+      "angle_deg": -8.028152676140392,
+      "length": 0.7025011120987638,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.00125,
+      "y1": 0.71125,
+      "x2": 0.9825,
+      "y2": 0.84875,
+      "angle_deg": 7.976768787526628,
+      "length": 0.7006275089161144,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0175,
+      "y1": 0.95375,
+      "x2": 0.9975,
+      "y2": 0.95375,
+      "angle_deg": 0.0,
+      "length": 0.6929646455628166,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.00625,
+      "y1": 0.9125,
+      "x2": 0.9525,
+      "y2": 0.86375,
+      "angle_deg": -2.9492226660122456,
+      "length": 0.6699871733846849,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0,
+      "y1": 0.80875,
+      "x2": 0.92625,
+      "y2": 0.695,
+      "angle_deg": -7.001267557495338,
+      "length": 0.6598780663880259,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.08125,
+      "y1": 0.8,
+      "x2": 0.9975,
+      "y2": 0.73625,
+      "angle_deg": -3.9800588842037756,
+      "length": 0.6494528947506507,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.395,
+      "y1": 0.99875,
+      "x2": 0.4425,
+      "y2": 0.10125,
+      "angle_deg": -86.97045934438971,
+      "length": 0.6355165222085103,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.2725,
+      "y1": 0.9975,
+      "x2": 0.42875,
+      "y2": 0.1125,
+      "angle_deg": -79.98740366649928,
+      "length": 0.63546796241038,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4275,
+      "y1": 0.1125,
+      "x2": 0.5525,
+      "y2": 0.995,
+      "angle_deg": 81.93807981855414,
+      "length": 0.6302504462513294,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0975,
+      "y1": 0.79375,
+      "x2": 0.9525,
+      "y2": 0.99,
+      "angle_deg": 12.927303614016623,
+      "length": 0.6202979374864953,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.1325,
+      "y1": 0.78875,
+      "x2": 0.995,
+      "y2": 0.91,
+      "angle_deg": 8.002184244254622,
+      "length": 0.6158765349077686,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.66125,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.6325,
+      0.86625
+    ],
+    "regions": [
+      {
+        "cx": 0.43519678048617827,
+        "cy": 0.3789736236620094,
+        "x": 0.35375,
+        "y": 0.15,
+        "w": 0.205,
+        "h": 0.45625,
+        "area_frac": 0.0468578125
+      },
+      {
+        "cx": 0.5832841847013713,
+        "cy": 0.8761857412101125,
+        "x": 0.41625,
+        "y": 0.8075,
+        "w": 0.3,
+        "h": 0.12625,
+        "area_frac": 0.0240421875
+      },
+      {
+        "cx": 0.11748663802137915,
+        "cy": 0.8674989520016768,
+        "x": 0.0675,
+        "y": 0.8225,
+        "w": 0.10125,
+        "h": 0.09125,
+        "area_frac": 0.0074546875
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8491884499987289,
+    "vertical_axis_x": 0.6125,
+    "horizontal": 0.818962331910791,
+    "horizontal_axis_y": 0.5125
+  },
+  "subject_anchor": {
+    "x": 0.6325,
+    "y": 0.86625,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.4496429889549862,
+    "phi": 0.2843851435181288,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.661,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.613,
+      "confidence": 0.85,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.632,
+      "y": 0.866,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
