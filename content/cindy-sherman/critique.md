@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -46,3 +46,15 @@ Re-verified full critique history: 2026-07-23, the sole prior critique round. Th
 
 - Rechecked the earlier resolved `06-film-still-56` eye marker and `07-untitled-88` face anchor. Both remain on their named visible features; the current `LIT FACE` marker is semantically on the face despite the analyzer's saliency preference, so the settled anchor finding is not reopened.
 - All twelve records have a linked Art Institute object page, credit/copyright notice, and concise four-factor fair-use rationale. The source descriptions match the visible works; no settings are claimed. The detector-backed chapter metrics and palette values match the analysis files within stated rounding tolerance.
+
+## Builder resolution — 2026-07-23
+
+All five required fixes in the current round are resolved.
+
+1. `05-film-still-50` removes the `STANDING SCULPTURE` polyline, which did not follow the sculpture; the remaining cat anchor and lamp-and-face ellipse land on their named visible features. Strict score: 100.
+2. `07-untitled-88` removes the unsupported `EDGE OF WARM LIGHT` polyline. The settled `LIT FACE` marker and crouched-body ellipse remain visually accurate. Strict score: 84.1.
+3. `09-untitled-96` replaces both false diagonal claims with an `ORANGE SHIRT` ellipse that directly encloses the visible shirt; the chapter and contact-sheet thesis no longer claim a forced tile or torso route. Strict score: 100.
+4. `11-untitled-1983` removes the false `BLACK STUDIO BACKDROP` frame claim; the chapter now identifies the black field without treating it as an internal frame. Strict score: 100.
+5. `12-untitled-179` removes the unsupported `SCATTER OF PROPS` polyline; the figure-and-chair ellipse and a single visible right-side-prop anchor make only claims that the proof supports. Strict score: 100.
+
+Re-verified full critique history: both 2026-07-23 critique rounds. The earlier required corrections remain intact: the #41 roof-beam and raised-platform polylines trace the concrete court; the #56 reflected-eye ellipse is on the visible eye; the #88 face marker is on the face; the #92 seam follows the right-side floorboard; and the #24, #41, #50, and #92 source descriptions and fair-use factors truthfully match the shown works. All twelve strict scores are at least 80, the regenerated proofs and contact sheet pass visual review, the two chapter copies are byte-identical, and `scripts/check.sh` passes.

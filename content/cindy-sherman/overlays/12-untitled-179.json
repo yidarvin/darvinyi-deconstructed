@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.617, "y": 0.335, "r": 0.04, "label": "right-side prop" },
-    { "type": "ellipse", "cx": 0.443, "cy": 0.356, "rx": 0.305, "ry": 0.352, "label": "figure and chair" },
-    { "type": "polyline", "points": [[0.068, 0.098], [0.478, 0.483], [0.903, 0.85]], "label": "scatter of props" }
+    { "type": "ellipse", "cx": 0.443, "cy": 0.356, "rx": 0.305, "ry": 0.352, "label": "figure and chair" }
   ],
   "notes": "A back-turned figure occupies one side of a tall frame while scattered props turn the floor into evidence."
 }

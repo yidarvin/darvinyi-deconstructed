@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.503, "y": 0.445, "r": 0.04, "label": "seated performer" },
-    { "type": "ellipse", "cx": 0.499, "cy": 0.48, "rx": 0.202, "ry": 0.267, "label": "chair and figure" },
-    { "type": "frame_in_frame", "x": 0.138, "y": 0.021, "w": 0.646, "h": 0.473, "label": "black studio backdrop" }
+    { "type": "ellipse", "cx": 0.499, "cy": 0.48, "rx": 0.202, "ry": 0.267, "label": "chair and figure" }
   ],
   "notes": "The performer sits before a literal studio field, while lights, stand, and mannequin expose the construction."
 }
