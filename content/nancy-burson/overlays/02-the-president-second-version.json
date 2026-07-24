@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "PORTRAIT AXIS" },
     { "type": "ellipse", "cx": 0.505, "cy": 0.403, "rx": 0.245, "ry": 0.25, "label": "COMPOSITE FACE" },
-    { "type": "polyline", "points": [[0.355, 0.714], [0.505, 0.794], [0.68, 0.715]], "label": "JACKET V" }
+    { "type": "polyline", "points": [[0.32, 0.785], [0.42, 0.885], [0.5, 0.865], [0.58, 0.885], [0.68, 0.785]], "label": "WHITE COLLAR / LAPELS" }
   ],
   "notes": "The high, centered head and enclosing jacket make a constructed political likeness feel formally official."
 }

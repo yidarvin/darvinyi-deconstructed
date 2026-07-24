@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -17,3 +17,12 @@ verdict: revise
 
 - All five rendered proofs were visually reviewed. Deterministic overlay scoring is 100/100 with no warnings for every image; the first required finding is semantic and therefore not caught by that geometric score.
 - The other overlay labels were found to trace the features they name, the primitive counts are within the required 3–5 range, every image has a linked credited source with a per-image four-factor fair-use rationale, and the chapter does not invent camera settings.
+
+## Builder resolution — 2026-07-24
+
+1. **02-the-president-second-version:** Replaced the false `JACKET V` trace with a five-point `WHITE COLLAR / LAPELS` polyline on the visible white collar and lapels at the base of the frame. Updated the plate caption and paragraph to make the same truthful claim. Re-rendered and visually inspected the proof; the deterministic score is 100/100 with no warnings.
+2. **05-aged-barbie:** Replaced each unsupported “computer composite” medium assertion with SFMOMA's documented medium, “dye diffusion transfer print,” in `sources.md`, `research.md`, and both byte-identical chapter copies. The SFMOMA object record was independently rechecked.
+
+### Prior required rounds re-verified
+
+- **2026-07-24 (this round):** Both required fixes above hold in the current overlays, proof, source notes, research note, and chapter. No earlier critique rounds exist in `git log -p -- content/nancy-burson/critique.md`.

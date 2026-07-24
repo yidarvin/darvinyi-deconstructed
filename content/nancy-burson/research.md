@@ -13,7 +13,7 @@ individual work. [Source notes](sources.md)
 The individual records identify *First Beauty Composite* as a 1982 work printed
 in 1999; *Mankind* as a computer-generated silver print; *Mankind II* as a
 gelatin silver print; *The President (second version)* as a color photoprint;
-and *Aged Barbie* as a computer composite. Those are work-specific medium or
+and *Aged Barbie* as a dye diffusion transfer print. Those are work-specific medium or
 presentation facts and are not generalized across the selection.
 
 ## Technical limits for this chapter
