@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -84,3 +84,22 @@ Re-verified every required fix from the full prior critique history: the first
 left rotor blade), and `11` (the anchor lies on the red-coated figure). Fresh
 analysis, render, visual review, and deterministic scoring returned 100/100
 for all four. `scripts/check.sh` passed for the completed unit.
+
+## Critique round — 2026-07-24
+
+Fresh visual review of all twelve current proof PNGs, their overlay and analyzer
+JSON, and the chapter, research, manifest, and per-image source records. I
+re-ran the deterministic scorer: every spec passes (02 scores 94 with its
+already-settled detector-only fence-wire warning; the other eleven score 100).
+Every listed official public-display URL returned its image/jpeg response. The
+four overlay corrections resolved in the earlier rounds remain resolved and are
+not re-raised.
+
+### Required
+
+1. **06-chocks-away — `PROPELLER BLADE` traces empty window space, not a blade.** The polyline runs from the hub at approximately `(0.59, 0.52)` to `(0.73, 0.11)`, well to the right of the nearly vertical black-and-yellow blade visible above the hub (about `x=0.58`). It therefore makes a false feature claim. Reposition it on the actual blade or remove it. The local analyzer/score cannot catch this semantic mismatch, but the rendered proof makes it unambiguous.
+2. **08-deliver-us and 10-jamaican-rhapsody — source notes materially describe different photographs.** `sources.md` says 08 has an “elaborate dark setting” and “layered surfaces”; the displayed image is a sunlit outdoor tree-and-car scene with a gold-clad model and oversized *VOGUE* letters. Its 10 entry claims “costume, vegetation, and group placement”; the displayed photograph is a folded map. Replace those two `Why it matters` descriptions (and the associated fair-use Factor 1 wording where it repeats the wrong composition) with truthful accounts of the respective displayed images. These are reader-facing source records, not merely stale internal notes.
+
+### Advisory (non-blocking)
+
+- **02-cut-and-paste:** the scorer continues to warn that `FENCE WIRES` is not a detected edge/vanishing path, but the proof visibly places it on the real sloping fence wires. It remains settled and requires no change.
