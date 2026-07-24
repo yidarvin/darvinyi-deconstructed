@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -57,3 +57,19 @@ Resolved all seven required items from the 2026-07-24 critique round. Re-rendere
 Resolved the three required items from the second 2026-07-24 critique round. *Full Moon Service* no longer asserts detector-inferred road convergence: its proof and chapter now name only the visible field edge and moon relation. *Imminent* no longer draws or describes a false ground line. *Fishy Island* is now documented as 2009 throughout the visible plate, manifest, image, analysis, overlay, proof, proof index, source record, and local identifier. The optional expanded *Imminent / Don’t Worry* title was recorded in the source note, and the *Go Your Own Road* detector-inferred convergence/diagonal was independently corrected to a visually checked road-course polyline.
 
 Re-verified every required item from the full critique history: the first 2026-07-24 round’s seven corrections remain intact (moon anchor; *The Architect* roof planes; *Soundscapes* carried record; *Demand & Supply* sea horizon; *The Light Keeper* without a cable; *Endless Reflections* tree/boat reading; *Fishy Island* fish body), and the second 2026-07-24 round’s three corrections now hold. All 12 overlays score at least 80 (01: 94.6; all others: 100), revised proofs received a clean visual pass, `scripts/check.sh` passed, and `python3 scripts/validate_pipeline.py` passed.
+
+## Critique round — 2026-07-24
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **03-the-cover-up-2013:** `ROAD INTO REVEAL` follows a readable dark route through the grass to the lifted edge, but it reads more as a soft eye path than a continuously delineated road. `PATH INTO REVEAL` or `EYE PATH INTO REVEAL` would be more precise; this does not misstate the image’s directional structure.
+
+### Review notes
+
+- All twelve current proof PNGs were visually checked against their overlay and analysis JSON. Every overlay clears the 80-point scorer threshold (01: 94.6; all others: 100); the lone 01 deduction is the analyzer favoring the worker/ladder saliency region rather than the visibly centered, truthfully labeled moon.
+- The resolved issues from both prior 2026-07-24 rounds remain resolved; no material regression was found. Chapter coordinates and reported tonal values match the current specs/analyzer within the stated tolerance, and the manifest’s empty EXIF remains consistent with the chapter’s treatment of camera settings as unreported.
+- Source integrity is sufficient: every work retains an official-gallery route, direct public rendition, credit, and per-image four-factor fair-use rationale. The official artist site identifies Johansson as the photographer/digital artist and its published store terms reserve copyright in the works exclusively to him; this supports the current copyrighted/fair-use treatment.
