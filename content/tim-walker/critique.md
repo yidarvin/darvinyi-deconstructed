@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -26,3 +26,41 @@ Dreams anchor is on the red-coated figure. Deterministic scores are 100/100 for
 each revised overlay. Re-verified that no required fixes from prior rounds
 regressed (there is one prior critique round: 2026-07-24). `scripts/check.sh`
 passed before this resolution was recorded.
+
+## Critique round — 2026-07-24
+
+Fresh review of all twelve rendered proofs, their current specs and analyzer
+records, the chapter, manifest, research, and source records. The four fixes
+resolved in the preceding entry remain resolved: `04` joins the two faces,
+`08` follows the letter baseline, `09` follows the left rotor blade, and `11`
+anchors the red-coated figure. No camera-setting claim was introduced.
+
+### Required
+
+1. **Portfolio attribution is false for five displayed files.** The official
+   Tim Walker Stories data for the exact direct-asset URLs identifies `02` as
+   *Like a Doll* (*Vogue Italia*, 2012), `03` as *McQueen ‘Dark Angel’*
+   (*British Vogue*, 2014), `07` as *Beauty and the Beast* (*Love Magazine*,
+   2012), `08` as *India, Various Publications* (with no caption), and `10`
+   as *Morocco, Namibia* (*Vogue Italia*, 2006; *British Vogue*, 2011). These
+   contradict the titles/publications/dates in `sources.md` and the five
+   corresponding `Plate` labels in `chapter.mdx`. Correct each source record,
+   plate label, and associated fair-use attribution to the official portfolio
+   metadata, or replace the file with the intended documented work and revise
+   its source record. A direct image URL alone does not make an incorrect work
+   title or originating-publication credit truthful.
+2. **07-checking-out — `SOFA AND RUG BASE` names a feature the polyline does
+   not trace.** The line from `(0.04, 0.78)` through `(0.47, 0.74)` to
+   `(0.94, 0.89)` crosses the gown and ends on the pink cushion; it is not a
+   sofa/rug boundary. Realign it to an actual sofa/rug edge or remove/relabel
+   it, then correct the chapter sentence that calls this structure a “rug and
+   sofa baseline.”
+
+### Advisory (non-blocking)
+
+- `01-only-a-northern-song`: `RED SHOULDER ARC` reads as a short, angular
+  polyline rather than a smooth arc, but it still lies on the red coat.
+- The former V&A URL in `sources.md` returns 404. Replace it with the current
+  V&A exhibition page and verify the “largest exhibition” wording against the
+  replacement; this link-maintenance issue does not block the image- and
+  composition-specific corrections above.
