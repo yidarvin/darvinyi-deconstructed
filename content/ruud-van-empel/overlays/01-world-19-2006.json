@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "01-world-19-2006.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.58, "rx": 0.24, "ry": 0.38, "label": "FRONTAL FIGURE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PORTRAIT AXIS" }
+  ],
+  "notes": "A centered portrait stays legible against an enclosing, oversized leaf field."
+}

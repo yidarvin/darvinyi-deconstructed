@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-world-19-2006.jpg",
+    "width": 857,
+    "height": 1200,
+    "sha1": "36eaa76f",
+    "source": "01-world-19-2006.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-moon-5-2007.jpg",
+    "width": 1200,
+    "height": 840,
+    "sha1": "b49cd963",
+    "source": "02-moon-5-2007.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-dawn-1-2008.jpg",
+    "width": 842,
+    "height": 1200,
+    "sha1": "6db632d6",
+    "source": "03-dawn-1-2008.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-world-36-2010.jpg",
+    "width": 1600,
+    "height": 1120,
+    "sha1": "39b9f44d",
+    "source": "04-world-36-2010.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-generation-1-2010.jpg",
+    "width": 1600,
+    "height": 600,
+    "sha1": "032113c9",
+    "source": "05-generation-1-2010.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-theatre-8-2013.jpg",
+    "width": 1600,
+    "height": 533,
+    "sha1": "cb9570f4",
+    "source": "06-theatre-8-2013.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-voyage-pittoresque-6-2017.jpg",
+    "width": 1600,
+    "height": 800,
+    "sha1": "fe5b4bd7",
+    "source": "07-voyage-pittoresque-6-2017.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-floresta-negra-1-2018.jpg",
+    "width": 840,
+    "height": 1200,
+    "sha1": "5126d341",
+    "source": "08-floresta-negra-1-2018.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-theatre-10-2019.jpg",
+    "width": 1600,
+    "height": 533,
+    "sha1": "33783f44",
+    "source": "09-theatre-10-2019.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-floresta-14-2024.jpg",
+    "width": 1571,
+    "height": 1101,
+    "sha1": "e817b92f",
+    "source": "10-floresta-14-2024.jpg",
+    "exif": {}
+  }
+]

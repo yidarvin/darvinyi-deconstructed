@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-floresta-negra-1-2018.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.54, "rx": 0.37, "ry": 0.42, "label": "DARK FLOWER MASS" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.31, "rx": 0.14, "ry": 0.13, "label": "BRIGHT-CENTERED BLOOM" },
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.035, "w": 0.92, "h": 0.92, "label": "COMPRESSED FLORAL FIELD" }
+  ],
+  "notes": "Large dark blooms advance as an all-over mass while isolated bright centers keep the field from closing completely."
+}

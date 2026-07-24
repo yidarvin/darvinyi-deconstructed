@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-theatre-10-2019.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.025, "y": 0.07, "w": 0.95, "h": 0.86, "label": "MEADOW STAGE" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.56, "rx": 0.43, "ry": 0.32, "label": "DENSE MEADOW FIELD" },
+    { "type": "ellipse", "cx": 0.84, "cy": 0.52, "rx": 0.11, "ry": 0.29, "label": "RIGHT FLOWER CLUSTER" }
+  ],
+  "notes": "A continuous line of stems makes the wide field read as a theatrical screen rather than a single receding landscape."
+}

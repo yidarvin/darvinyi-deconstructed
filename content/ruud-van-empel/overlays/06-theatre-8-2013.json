@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-theatre-8-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.795, "angle": 0, "label": "GROUND BAND" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "CENTRAL OPENING" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.03, "w": 0.3, "h": 0.87, "label": "CACTUS CORRIDOR" }
+  ],
+  "notes": "A narrow central opening makes a dense row of vertical cactus forms read as a staged corridor."
+}

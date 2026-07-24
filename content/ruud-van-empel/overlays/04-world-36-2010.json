@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-world-36-2010.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.47, "rx": 0.13, "ry": 0.18, "label": "CENTRAL SWIMMER" },
+    { "type": "polyline", "points": [[0.37, 0.49], [0.45, 0.56], [0.54, 0.57], [0.64, 0.50]], "label": "RIPPLE RING" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.11, "rx": 0.05, "ry": 0.035, "label": "DISTANT BIRD" }
+  ],
+  "notes": "The centered swimmer holds an expansive pale water field whose scattered lilies deny a stable scale."
+}

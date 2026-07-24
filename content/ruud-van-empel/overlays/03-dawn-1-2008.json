@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-dawn-1-2008.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.78, "cy": 0.31, "rx": 0.1, "ry": 0.1, "label": "ORCHID CLUSTER" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.35, "rx": 0.23, "ry": 0.24, "label": "RECLINING FIGURE" },
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.06, "w": 0.84, "h": 0.87, "label": "LEAF ENCLOSURE" }
+  ],
+  "notes": "A reclining figure is contained by leaves that read as both setting and shallow enclosure."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-generation-1-2010.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.025, "y": 0.08, "w": 0.95, "h": 0.86, "label": "CLASS PORTRAIT FIELD" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.57, "rx": 0.09, "ry": 0.23, "label": "CENTRAL FIGURE" },
+    { "type": "polyline", "points": [[0.05, 0.36], [0.28, 0.30], [0.51, 0.33], [0.74, 0.30], [0.95, 0.35]], "label": "UPPER ROW RHYTHM" }
+  ],
+  "notes": "Repeated rows make individual clothing, posture, and expression read as small but deliberate differences."
+}

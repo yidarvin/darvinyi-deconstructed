@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-moon-5-2007.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.635, "angle": 0, "label": "WATER / DARKNESS DIVIDE" },
+    { "type": "polyline", "points": [[0.47, 0.48], [0.56, 0.45], [0.67, 0.47]], "label": "RIPPLE RELAY" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.43, "rx": 0.13, "ry": 0.16, "label": "EMERGING HEAD" }
+  ],
+  "notes": "The small head is held in a nearly black pond by a scattering of floating forms and reflections."
+}
