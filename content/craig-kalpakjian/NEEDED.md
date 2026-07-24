@@ -1,0 +1,3 @@
+# Craig Kalpakjian — needed / flagged
+
+None outstanding. This sourcing pass selected and verified ten publicly served, artist-published display JPEGs for the core digital-interior series. All files open successfully. Seven have a long edge of 800px, clearing the normal 640px quality floor. *Lobby*, *Corridor*, and *HVAC* are 595px, 599px, and 599px respectively; `sources.md` records these as rare compositionally essential 480–639px exceptions after verifying that their perspective, light, and structural relations remain legible. The official artist site provides no open licence, so `sources.md` documents a distinct fair-use assessment, creator notice, source route, and full-frame necessity for each selection.
