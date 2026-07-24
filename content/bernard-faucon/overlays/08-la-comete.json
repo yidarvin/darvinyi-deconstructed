@@ -3,7 +3,7 @@
   "image": "08-la-comete.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "polyline", "points": [[0.319, 0.708], [0.457, 0.564], [0.606, 0.390], [0.807, 0.012]], "label": "comet arc" },
+    { "type": "polyline", "points": [[0.175, 0.140], [0.259, 0.174], [0.365, 0.236], [0.486, 0.326], [0.590, 0.402], [0.677, 0.494]], "label": "comet arc" },
     { "type": "polyline", "points": [[0.859, 0.737], [0.729, 0.671], [0.629, 0.573]], "label": "chairs into clearing" },
     { "type": "subject_anchor", "x": 0.552, "y": 0.490, "r": 0.050, "label": "lit clearing" }
   ],

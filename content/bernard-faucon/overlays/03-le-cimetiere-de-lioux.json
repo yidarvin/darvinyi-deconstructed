@@ -3,9 +3,9 @@
   "image": "03-le-cimetiere-de-lioux.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.386, 0.786], [0.774, 0.397]], "arrow": true, "label": "tomb edges" },
     { "type": "subject_anchor", "x": 0.709, "y": 0.350, "r": 0.060, "label": "monument" },
-    { "type": "leading_line", "points": [[0.032, 0.516], [0.367, 0.656]], "arrow": true, "label": "iron railing" }
+    { "type": "vanishing_point", "x": 0.547, "y": 0.656, "label": "graveyard crossing" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "central divide" }
   ],
   "notes": "Graves, figures, and a dominant monument make the cemetery a layered stage."
 }

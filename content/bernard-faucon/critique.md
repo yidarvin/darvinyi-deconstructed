@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -19,3 +19,14 @@ verdict: revise
 ### Checks completed
 
 The remaining proofs were visually reviewed. Chapter prose and analyzer-derived metrics match their current analysis JSON within tolerance; the chapter explicitly avoids unsupported camera settings. All ten plates have traceable official-source URLs, credits, and per-image four-factor fair-use rationales.
+
+## Resolution — 2026-07-23
+
+Re-verified critique history: the sole prior round, **2026-07-23**.
+
+1. **01-le-chemin:** removed the false `distant field` horizon claim. The proof now names only the road and oak canopy; it no longer draws a horizontal through trunk and sky.
+2. **03-le-cimetiere-de-lioux:** removed both unfaithful `iron railing` and `tomb edges` lines. The replacement proof marks the measured graveyard crossing and central divide alongside the monument; chapter caption and prose now describe those actual marks.
+3. **07-la-chasse-aux-papillons:** recentered and resized the `blue net` ellipse on the circular blue net at upper left, clear of the central figure's face.
+4. **08-la-comete:** redrew `comet arc` along the visible luminous curve from the upper-left flame to its right-hand end, rather than the earlier clearing-to-corner diagonal.
+
+Fresh render, visual review, and deterministic scoring all pass: 01-le-chemin 94; 03-le-cimetiere-de-lioux 100; 07-la-chasse-aux-papillons 100; 08-la-comete 100. `scripts/check.sh` passed, and the content and rendered chapter files remain byte-identical.
