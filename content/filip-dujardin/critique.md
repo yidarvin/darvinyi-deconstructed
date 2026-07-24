@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -41,3 +41,18 @@ All ten proofs were visually inspected against their matching specs and analyzer
 Resolved all eleven required items. The ten overlays were re-analyzed, rendered, visually checked, and rescored; false symmetry and perspective claims were removed, and the remaining structural annotations were redrawn or relabeled to their visible features. The Gessato origin URLs were replaced with working public WordPress image-CDN routes, each verified as `200 image/jpeg` and byte-matched against its ingested raw file. Chapter prose was brought into line with the revised overlays in both mirrored chapter files.
 
 Re-verified critique history: 2026-07-24, the only prior critique round. `scripts/check.sh` passed after the repairs (including pipeline validation, chapter sync, 240 tests, production build, and lint).
+
+## Critique round — 2026-07-24
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- 01-fictions-00, 04-fictions-05, 05-fictions-05a, 06-fictions-06, and 09-fictions-11 each use a deliberately conservative two-primitive overlay after the resolved false-claim removals. The remaining annotations are truthful and sufficient to read the stated lesson; a future expansion could add a third feature only where it makes a distinct, supportable compositional claim.
+- 02-fictions-02 and 08-fictions-10 retain an analyzer warning under normal scoring (88/100 under strict scoring) because their visually truthful bridge-underside and balcony-band paths do not coincide with the detector's selected edge. Both paths visibly trace the named features and remain above the acceptance threshold.
+
+### Review evidence
+
+All ten proof PNGs were visually inspected against their current overlay specs, source images, analyzer measurements, and chapter prose. The ten direct WordPress image-CDN routes returned public JPEGs and byte-matched the corresponding `raw/filip-dujardin/` files on this review; the Gessato overview returned HTTP 200. Normal overlay scores are 94 or 100; strict scores are 88 for 02 and 08 and 100 for the remaining eight. The two strict deductions are detector disagreements only: the rendered lines sit on the visible bridge underside and balcony band. Prior round's required false symmetry, false perspective, and mis-traced feature findings have not regressed. Source credits, individual fair-use four-factor rationales, and the chapter's explicit absence of camera/print claims are materially adequate.
