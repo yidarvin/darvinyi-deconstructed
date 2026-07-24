@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -36,3 +36,14 @@ Re-verified prior required rounds: 2026-07-23 (the complete critique history; th
 7. Corrected the derivative-dimension wording in `sources.md` (advisory).
 
 Re-analyzed and rendered all affected images. Deterministic scores: 02 100, 03 94, 05 100, 08 94, 10 100; the two 94s retain only detector-unconfirmed warnings for visually verified physical edges. `scripts/check.sh` passed after the corrections.
+
+## Critique round — 2026-07-23
+
+### Required
+
+1. **05-the-well — the line labelled `DISCARDED TOOL AND EARTH EDGE` does not trace the discarded tool.** In the current proof, its points (`[0.020, 0.675]` → `[0.405, 0.600]`) leave the tool at lower left and follow the dirt rim instead. This makes the chapter's statement that the two tool lines distinguish the held shovel from the discarded tool materially false. Trace the actual discarded tool with a separate, accurately labelled primitive, or relabel this line solely as the earth edge and revise the corresponding chapter sentence. This is separate from—and does not reopen—the earlier resolved `SHOVEL HANDLE` correction.
+
+### Advisory (non-blocking)
+
+- **10-mother-of-pearl:** the `DESK DIAGONAL` and `MOTHER-OF-PEARL TRAY` label boxes touch/partly stack in the proof. The primitives still identify the correct desk and tray, so this is a presentation improvement only.
+- All ten current collection-record URLs return successfully, every image has an image-specific four-factor fair-use rationale, and the chapter correctly disclaims unavailable camera settings. The deterministic scorer passes all specs: 01, 02, 04, 05, 07, 09, and 10 score 100; 03, 06, and 08 score 94 (88 strict) only for visually credible, detector-unconfirmed leading lines.
