@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-the-lovers.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.546, "y": 0.547, "label": "central floral pivot" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "paired still-life axis" },
+    { "type": "horizon_line", "y": 0.52, "angle": 0.0, "label": "central floral break" },
+    { "type": "subject_anchor", "x": 0.257, "y": 0.271, "r": 0.035, "label": "left orchid cluster" }
+  ],
+  "notes": "Paired forms make attraction and decay play against a rigid but unsettled axial arrangement."
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "12-gas-shell.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.139, 0.318], [0.386, 0.125], [0.56, 0.323]], "label": "illuminated canopy roof" },
+    { "type": "frame_in_frame", "x": 0.3, "y": 0.29, "w": 0.33, "h": 0.42, "label": "pump stage" }
+  ],
+  "notes": "A low abandoned canopy confronts dense foliage as a ruin reclaimed by jungle."
+}

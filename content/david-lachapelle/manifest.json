@@ -1,0 +1,142 @@
+[
+  {
+    "file": "01-deluge.jpg",
+    "width": 800,
+    "height": 208,
+    "sha1": "a09de1e8",
+    "source": "01-deluge.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 45",
+      "DateTimeOriginal": "2006:11:09 15:03:43",
+      "ISOSpeedRatings": "100",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.125",
+      "FNumber": "5.6"
+    }
+  },
+  {
+    "file": "02-intercession.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "62d3ce31",
+    "source": "02-intercession.jpg",
+    "exif": {
+      "Make": "HEIDELBERG PREPRESS",
+      "Model": "Scanner DC3000"
+    }
+  },
+  {
+    "file": "03-last-supper.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "67c5191b",
+    "source": "03-last-supper.jpg",
+    "exif": {
+      "Make": "HEIDELBERG PREPRESS",
+      "Model": "Scanner DC3000"
+    }
+  },
+  {
+    "file": "04-loaves-fishes.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "bfc078ac",
+    "source": "04-loaves-fishes.jpg",
+    "exif": {
+      "Make": "HEIDELBERG PREPRESS",
+      "Model": "Scanner DC3000"
+    }
+  },
+  {
+    "file": "05-anointing.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "fbb4cc19",
+    "source": "05-anointing.jpg",
+    "exif": {
+      "Make": "HEIDELBERG PREPRESS",
+      "Model": "Scanner DC3000"
+    }
+  },
+  {
+    "file": "06-late-summer.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "3c26155b",
+    "source": "06-late-summer.jpg",
+    "exif": {
+      "Make": "Phase One A/S",
+      "Model": "P 30+",
+      "DateTimeOriginal": "2008:11:26 16:11:19",
+      "ISOSpeedRatings": "200",
+      "FocalLength": "35.0",
+      "ExposureTime": "3.0",
+      "FNumber": "32.0"
+    }
+  },
+  {
+    "file": "07-deathless-winter.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "3f060cf0",
+    "source": "07-deathless-winter.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 40+",
+      "DateTimeOriginal": "2009:05:30 05:54:22",
+      "FocalLength": "28.0",
+      "ExposureTime": "14.999889831442106",
+      "FNumber": "14.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "08-the-lovers.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "31f8c923",
+    "source": "08-the-lovers.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 40+",
+      "DateTimeOriginal": "2009:05:29 06:01:55",
+      "FocalLength": "28.0",
+      "ExposureTime": "14.999889831442106",
+      "FNumber": "22.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "09-land-scape-pacific-sunset.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "78d67826",
+    "source": "09-land-scape-pacific-sunset.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-land-scape-riverside.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "a0657df4",
+    "source": "10-land-scape-riverside.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-land-scape-luna-park.jpg",
+    "width": 960,
+    "height": 704,
+    "sha1": "940e84bd",
+    "source": "11-land-scape-luna-park.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-gas-shell.jpg",
+    "width": 800,
+    "height": 487,
+    "sha1": "485a641e",
+    "source": "12-gas-shell.jpg",
+    "exif": {}
+  }
+]

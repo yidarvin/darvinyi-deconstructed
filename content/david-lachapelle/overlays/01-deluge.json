@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-deluge.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.233, 0.04], [0.306, 0.238], [0.376, 0.556]], "label": "collapsing diagonal structure" },
+    { "type": "polyline", "points": [[0.534, 0.457], [0.693, 0.53], [0.853, 0.571]], "label": "flooded lateral route" },
+    { "type": "subject_anchor", "x": 0.992, "y": 0.966, "r": 0.035, "label": "right-hand rescue cluster" }
+  ],
+  "notes": "A shallow architectural band holds a crowded lateral disaster frieze."
+}

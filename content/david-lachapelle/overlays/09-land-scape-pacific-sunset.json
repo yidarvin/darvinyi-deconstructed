@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "09-land-scape-pacific-sunset.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.875, "angle": 0.0, "label": "front platform edge" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.989, "r": 0.035, "label": "right foreground detail" }
+  ],
+  "notes": "An open, luminous horizon makes the miniature refinery feel like a precarious shrine."
+}

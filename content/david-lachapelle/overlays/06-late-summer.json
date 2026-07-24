@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-late-summer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.732, "angle": 0.0, "label": "tabletop edge" },
+    { "type": "vanishing_point", "x": 0.497, "y": 0.242, "label": "central floral convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "still-life balance" },
+    { "type": "leading_line", "points": [[0.362, 0.416], [0.652, 0.021]], "arrow": true, "label": "rising flower stem" }
+  ],
+  "notes": "A dense vanitas is organized around a central rise and an unstable floral symmetry."
+}

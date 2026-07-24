@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-land-scape-riverside.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.653, "angle": 1.9, "label": "waterbank reflection seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "refinery balance" },
+    { "type": "subject_anchor", "x": 0.476, "y": 0.619, "r": 0.035, "label": "center refinery" }
+  ],
+  "notes": "A centered manufactured monument is tested by reflection and flanking vegetation."
+}

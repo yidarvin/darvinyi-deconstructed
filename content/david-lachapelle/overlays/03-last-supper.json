@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-last-supper.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.678, "angle": 4.9, "label": "table edge" },
+    { "type": "vanishing_point", "x": 0.471, "y": 0.598, "label": "table setting convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "tableau balance" },
+    { "type": "leading_line", "points": [[0.173, 0.882], [0.53, 0.378]], "arrow": true, "label": "left table diagonal" }
+  ],
+  "notes": "The table makes a contemporary sacred scene into an unstable, nearly symmetrical stage."
+}
