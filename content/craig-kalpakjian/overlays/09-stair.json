@@ -4,7 +4,6 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.454, "angle": 0.0, "label": "ceiling-plane seam" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "fixture axis" },
     { "type": "subject_anchor", "x": 0.679, "y": 0.639, "r": 0.035, "label": "round fixture" },
     { "type": "ellipse", "cx": 0.680, "cy": 0.640, "rx": 0.115, "ry": 0.160, "label": "circular opening" }
   ],

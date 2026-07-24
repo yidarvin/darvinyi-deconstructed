@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -12,3 +12,11 @@ verdict: revise
 
 - All ten current overlay specs score 100/100 against their paired analyzer JSON. The remaining line, frame, anchor, ellipse, and tonal claims were visually consistent with the proofs, and all chapter statistics match the analyzer within the stated rounding tolerance.
 - Every supplied artist-site image URL returned a public JPEG response at review; each source entry includes a traceable link, credit/rights notice, and concise four-factor fair-use rationale. No invented camera settings or unsupported limited-mode claims were found.
+
+## Builder resolution — 2026-07-24
+
+1. **08-dark-hall-ii:** Removed the false `symmetry_axis` claim. The refreshed proof now retains only the shadow threshold plus the visible receding wall and floor-edge boundaries.
+2. **09-stair:** Removed the misaligned `symmetry_axis`; the round fixture remains located by its aligned `subject_anchor` and ellipse.
+3. **10-co:** Removed the false `symmetry_axis`; the proof now limits its claim to the measured low wall seam and visible ceiling-corner diagonal.
+
+Each refreshed overlay was rendered, visually checked, and scored 100/100 against its paired analysis JSON. Re-verified critique history: round dated 2026-07-24 (the only prior round); all three required fixes hold in the current overlays and proofs.
