@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-s-24-2007.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.748, "angle": 0, "label": "DISTANT CITY BAND" },
+    { "type": "subject_anchor", "x": 0.675, "y": 0.414, "label": "RIGHT-HAND PLATFORM" },
+    { "type": "polyline", "points": [[0.40, 0.82], [0.43, 0.70], [0.40, 0.64], [0.43, 0.58]], "label": "EXPOSED STAIR" }
+  ],
+  "notes": "A cylindrical tank, distant city band, and exposed stair make a single building read as an assembled vertical field."
+}

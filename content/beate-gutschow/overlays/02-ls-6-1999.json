@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-ls-6-1999.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.417, "angle": 6, "label": "HILL CREST" },
+    { "type": "subject_anchor", "x": 0.819, "y": 0.412, "label": "RIGHT-HAND TREE MASS" },
+    { "type": "polyline", "points": [[0.07, 0.84], [0.26, 0.72], [0.44, 0.67]], "label": "FALLEN-TRUNK SWEEP" },
+    { "type": "frame_in_frame", "x": 0.82, "y": 0.08, "w": 0.16, "h": 0.72, "label": "TREE EDGE" }
+  ],
+  "notes": "The fallen trunk enters the low field beneath a tilted hill crest, with a tree mass closing the view at right."
+}

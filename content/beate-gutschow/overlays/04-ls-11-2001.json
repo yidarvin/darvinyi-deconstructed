@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-ls-11-2001.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.629, "angle": 0, "label": "DISTANT TREE LINE" },
+    { "type": "subject_anchor", "x": 0.990, "y": 0.461, "label": "ISOLATED RIGHT-HAND TREE" },
+    { "type": "polyline", "points": [[0.56, 0.92], [0.74, 0.78], [0.90, 0.69]], "label": "RISING EMBANKMENT" },
+    { "type": "frame_in_frame", "x": 0.72, "y": 0.79, "w": 0.28, "h": 0.20, "label": "COVERED OBJECT" }
+  ],
+  "notes": "The portrait frame holds a deliberately open sky above a rising embankment and small covered object."
+}

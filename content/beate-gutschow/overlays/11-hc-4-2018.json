@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-hc-4-2018.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.304, "angle": 0, "label": "WALL CAP" },
+    { "type": "polyline", "points": [[0.13, 0.94], [0.27, 0.68], [0.42, 0.52]], "label": "PLANTER-EDGE ZIGZAG" },
+    { "type": "frame_in_frame", "x": 0.72, "y": 0.42, "w": 0.27, "h": 0.25, "label": "RIGHT-HAND PLANTER" }
+  ],
+  "notes": "A wall cap and planter-edge zigzag hold an ordered courtyard whose geometry keeps changing direction."
+}

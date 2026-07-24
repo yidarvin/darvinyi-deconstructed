@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-ls-5-2000.jpg",
+    "width": 1200,
+    "height": 700,
+    "sha1": "4c95e895",
+    "source": "01-ls-5-2000.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-ls-6-1999.jpg",
+    "width": 1200,
+    "height": 669,
+    "sha1": "1232e979",
+    "source": "02-ls-6-1999.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-ls-10-2001.jpg",
+    "width": 1200,
+    "height": 823,
+    "sha1": "8543842e",
+    "source": "03-ls-10-2001.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-ls-11-2001.jpg",
+    "width": 1171,
+    "height": 1500,
+    "sha1": "e70ee3b0",
+    "source": "04-ls-11-2001.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-ls-18-2003.jpg",
+    "width": 1200,
+    "height": 861,
+    "sha1": "1d79ea8b",
+    "source": "05-ls-18-2003.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-s-1-2004.jpg",
+    "width": 1200,
+    "height": 1500,
+    "sha1": "be42829b",
+    "source": "06-s-1-2004.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-s-2-2005.jpg",
+    "width": 1200,
+    "height": 1500,
+    "sha1": "fe6b8f7f",
+    "source": "07-s-2-2005.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-s-24-2007.jpg",
+    "width": 1200,
+    "height": 1500,
+    "sha1": "c9a0ac7c",
+    "source": "08-s-24-2007.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-s-30-2008.jpg",
+    "width": 1200,
+    "height": 756,
+    "sha1": "9b9e5859",
+    "source": "09-s-30-2008.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-hc-1-2018.jpg",
+    "width": 1200,
+    "height": 905,
+    "sha1": "81be4501",
+    "source": "10-hc-1-2018.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-hc-4-2018.jpg",
+    "width": 1165,
+    "height": 1500,
+    "sha1": "61dcfc41",
+    "source": "11-hc-4-2018.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-hc-12-2020.jpg",
+    "width": 1200,
+    "height": 1086,
+    "sha1": "d9020bf7",
+    "source": "12-hc-12-2020.jpg",
+    "exif": {}
+  }
+]

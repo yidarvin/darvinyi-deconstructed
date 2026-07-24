@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-ls-5-2000.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.442, "angle": 0, "label": "DISTANT RIDGE" },
+    { "type": "subject_anchor", "x": 0.882, "y": 0.365, "label": "BRIGHT RIGHT-HAND OPENING" },
+    { "type": "polyline", "points": [[0.98, 0.60], [0.72, 0.58], [0.55, 0.64]], "label": "SHALLOW VALLEY" }
+  ],
+  "notes": "A low ridge and shallow valley keep the panorama open while a bright interruption unsettles its ideal landscape." 
+}

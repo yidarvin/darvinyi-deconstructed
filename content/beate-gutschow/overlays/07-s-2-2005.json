@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-s-2-2005.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.647, "angle": 0, "label": "LOW ARCHITECTURAL BREAK" },
+    { "type": "polyline", "points": [[0.13, 0.72], [0.36, 0.63], [0.59, 0.54]], "label": "STAIR OR RAMP" },
+    { "type": "frame_in_frame", "x": 0.23, "y": 0.25, "w": 0.46, "h": 0.42, "label": "RECTANGULAR OPENING" },
+    { "type": "frame_in_frame", "x": 0.39, "y": 0.68, "w": 0.11, "h": 0.12, "label": "FIGURE GROUP" }
+  ],
+  "notes": "A ramp and large opening order the severe architecture around a small figure group."
+}

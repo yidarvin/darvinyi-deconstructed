@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-hc-1-2018.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.586, "y": 0.697, "label": "CIRCULAR FOUNTAIN" },
+    { "type": "frame_in_frame", "x": 0.14, "y": 0.04, "w": 0.74, "h": 0.55, "label": "WALLED ENCLOSURE" },
+    { "type": "polyline", "points": [[0.48, 0.33], [0.52, 0.47], [0.55, 0.63]], "label": "DARK RAMP" }
+  ],
+  "notes": "The overhead view nests a circular fountain within a shallow enclosure and a dark ramp."
+}

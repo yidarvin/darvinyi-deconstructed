@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-ls-10-2001.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.914, "y": 0.570, "label": "RIGHT-HAND TREE" },
+    { "type": "polyline", "points": [[0.06, 0.745], [0.35, 0.744], [0.66, 0.744], [0.88, 0.741]], "label": "WATER-SHORE EDGE" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.62, "w": 0.25, "h": 0.29, "label": "LEFT SHRUB MASS" }
+  ],
+  "notes": "A lateral water edge makes the tall right-hand tree a counterweight to the broad, bright field."
+}
