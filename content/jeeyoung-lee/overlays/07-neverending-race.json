@@ -1,1 +1,11 @@
-{"version":1,"image":"07-neverending-race.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.85,"label":"FLOOR / WALL JOIN"},{"type":"leading_line","points":[[0.719,0.53],[0.998,0.931]],"arrow":true,"label":"RIGHT FLOOR EDGE"},{"type":"subject_anchor","x":0.242,"y":0.225,"r":0.035,"label":"FIGURE"},{"type":"vanishing_point","x":0.504,"y":0.221,"label":"ROOM CONVERGENCE"}],"notes":"Checkerboard planes and oversized dice make a shallow room read as a receding game route around the figure."}
+{
+  "version": 1,
+  "image": "07-neverending-race.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.719, 0.53], [0.998, 0.931]], "arrow": true, "label": "RIGHT FLOOR EDGE" },
+    { "type": "subject_anchor", "x": 0.775, "y": 0.423, "r": 0.035, "label": "SEATED FIGURE" },
+    { "type": "vanishing_point", "x": 0.504, "y": 0.221, "label": "ROOM CONVERGENCE" }
+  ],
+  "notes": "Checkerboard planes and oversized dice make a shallow room read as a receding game route around the seated figure."
+}

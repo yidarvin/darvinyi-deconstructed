@@ -1,1 +1,10 @@
-{"version":1,"image":"01-black-birds.jpg","grid":{"type":"thirds"},"primitives":[{"type":"vanishing_point","x":0.51,"y":0.151,"label":"ROOM CONVERGENCE"},{"type":"horizon_line","y":0.532,"label":"FLOOR / WALL JOIN"},{"type":"leading_line","points":[[0.599,0.269],[0.697,0.382]],"arrow":true,"label":"RIGHT WALL EDGE"}],"notes":"The small seated figure is enclosed by a room whose floor and wall seams direct the swarm toward the far end."}
+{
+  "version": 1,
+  "image": "01-black-birds.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.51, "y": 0.151, "label": "ROOM CONVERGENCE" },
+    { "type": "horizon_line", "y": 0.532, "label": "FLOOR / WALL JOIN" }
+  ],
+  "notes": "The small seated figure is enclosed by a room whose floor and wall seams direct the swarm toward the far end."
+}

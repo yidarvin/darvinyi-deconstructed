@@ -1,1 +1,12 @@
-{"version":1,"image":"05-meditation.jpg","grid":{"type":"thirds"},"primitives":[{"type":"vanishing_point","x":0.507,"y":0.459,"label":"ROOM CENTER"},{"type":"horizon_line","y":0.737,"label":"FLOOR / BACK-WALL JOIN"},{"type":"subject_anchor","x":0.413,"y":0.526,"r":0.035,"label":"SEATED FIGURE"},{"type":"leading_line","points":[[0.276,0.751],[0.464,0.43]],"arrow":true,"label":"LEFT FLOOR SEAM"}],"notes":"The figure holds a broad dark field while floor seams and a loose central convergence provide quiet depth."}
+{
+  "version": 1,
+  "image": "05-meditation.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.507, "y": 0.459, "label": "ROOM CENTER" },
+    { "type": "horizon_line", "y": 0.737, "label": "FLOOR / BACK-WALL JOIN" },
+    { "type": "ellipse", "cx": 0.424, "cy": 0.417, "rx": 0.032, "ry": 0.105, "label": "STANDING FIGURE" },
+    { "type": "leading_line", "points": [[0.276, 0.751], [0.464, 0.43]], "arrow": true, "label": "LEFT FLOOR SEAM" }
+  ],
+  "notes": "The standing figure holds a broad dark field while floor seams and a loose central convergence provide quiet depth."
+}

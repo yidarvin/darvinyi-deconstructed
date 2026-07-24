@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -17,3 +17,9 @@ verdict: revise
 - `08-nightscape`: the two `FEATHERED RIDGE` labels overlap near the lower edge, reducing legibility, though both paths still describe visible ridges.
 
 All ten overlay/analysis pairs score 100 under the deterministic scorer, and the LensCulture source record publicly identifies each selected title, year, and JeeYoung Lee copyright. The required findings above are semantic proof failures that the geometric scorer cannot detect.
+
+## Builder resolution — 2026-07-24
+
+Resolved all seven required semantic proof failures. Removed the unsupported `RIGHT WALL EDGE`, `FLOOR / BACK-WALL JOIN` and false figure claim in *Broken Heart*, the false `BACK-WALL BREAK`, the false floor/wall join in *Neverending Race*, and the chair-crossing `RIGHT FLOOR SEAM`. Replaced the inaccurate *Meditation* anchor with a visually checked `STANDING FIGURE` ellipse, and moved the *Neverending Race* and *The Little Match Girl* anchors to the depicted seated figures. Updated both byte-identical chapter files so no prose repeats a removed or corrected claim; rerendered and visually checked every affected proof.
+
+Prior critique rounds re-verified: 2026-07-24 (the only prior round in `git log -p -- content/jeeyoung-lee/critique.md`). All ten overlays pass the deterministic scorer at 100/100, and `scripts/check.sh` passes.
