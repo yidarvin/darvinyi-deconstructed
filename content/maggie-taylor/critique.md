@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -26,3 +26,19 @@ All twelve rendered proofs were reviewed against their overlay and analysis JSON
 All required items from the 2026-07-24 critique round were re-verified after a fresh analyze → render → score → visual-review loop. `03-woman-with-a-stone-skirt` now names its marked interior truthfully as `STONE SKIRT MASS`; `05-night-garden` centers and resizes `DARK OPENING` on the visible hole and extends the ladder route to it; `06-cloud-sisters` replaces the false symmetry axis with a head-to-head relational polyline, with the chapter wording updated to match; `09-poets-house` moves the `HOUSE` anchor to `(0.632, 0.804)`; and `12-the-patient-gardener` redraws `ARM SPAN` from the left hand through both shoulders to the right hand. Scores are 100, 95.7, 100, 100, and 100 respectively; each rendered proof passed visual review.
 
 Full critique history re-verified: 2026-07-24 (the only prior round).
+
+## Critique round — 2026-07-24
+
+All twelve current proof PNGs were reviewed against their images, overlay and analysis JSON, chapter, manifest, research note, and per-image source records. The prior five required overlay fixes remain resolved: their current specs and proofs match the recorded resolutions. The current review also independently checked the linked artist portfolio, which identifies the works by title, describes the collection as early digital photomontages, and displays the copyright notice `© Maggie Taylor. All rights reserved.`
+
+### Required
+
+1. `03-woman-with-a-stone-skirt` — `SKIRT SILHOUETTE` does not trace the skirt's silhouette. Its points run from the lower stone mass through the torso/collar at `(0.63, 0.30)` and back down through the mass, crossing interior rather than following an outer edge. Redraw it on the visible skirt contour or rename it to the triangular figure structure it actually marks.
+2. Source integrity — `sources.md` says the artist portfolio identifies every selected work's date and medium “Digital composite”; the linked page supports the titles and a group-level early-digital-photomontage description, but not those per-work facts. The unsourced exact dates appear in every shortlist heading and plate label, and “Digital composite” is repeated in `sources.md` and `research.md`. Add traceable authoritative per-work metadata for every date/medium claim, or remove/qualify the claims.
+3. Source integrity — the official artist page's copyright notice, `© Maggie Taylor. All rights reserved.`, is not preserved in `sources.md`. Add that exact notice to the shared rights basis (explicitly applying it to all twelve records) or to each record, alongside the existing creator, source links, and four-factor rationales.
+4. Source/chapter accuracy — four per-image “Why it matters” descriptions in `sources.md` materially contradict the completed overlays and chapter: `08-moth-dancer` claims upward/vertical lift although the chapter and lateral balance paths explicitly reject upward motion; `10-the-reader` calls a central reading figure despite the chapter's visible seated, right-weighted non-reader; `11-water-folly` treats reflection as the organizing device despite the chapter's backdrop reading; and `12-the-patient-gardener` calls the figure small and emphasizes empty intervals despite the visible monumental figure and dense field. Reconcile each source description and its paired fair-use Factor 1 wording with the current visible/compositional account.
+
+### Advisory (non-blocking)
+
+- `04-girl-with-a-bee-dress` — the overlapping `FLOWER AND FIGURE` and `FLOWER INTERRUPTION` labels slightly crowd the same focal area. The primitives still identify the correct flower/figure relation.
+- `09-poets-house` — `PAGE SPIRAL` is a deliberately coarse interpretive path through the floating pages; labeling it as directional flow would make that reading even clearer, but it does not misidentify the page field.
