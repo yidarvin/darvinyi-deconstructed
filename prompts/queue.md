@@ -130,7 +130,7 @@ real queue and state live in data/registry.json.
 | 119 | craig-kalpakjian          | Craig Kalpakjian             | DONE    |
 | 120 | loretta-lux               | Loretta Lux                  | DONE    |
 | 121 | ruud-van-empel            | Ruud van Empel               | DONE    |
-| 122 | maggie-taylor             | Maggie Taylor                | PENDING |
+| 122 | maggie-taylor             | Maggie Taylor                | DONE    |
 | 123 | inez-vinoodh              | Inez & Vinoodh               | PENDING |
 | 124 | vibeke-tandberg           | Vibeke Tandberg              | PENDING |
 | 125 | erik-johansson            | Erik Johansson               | PENDING |

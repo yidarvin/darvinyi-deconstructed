@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -48,3 +48,15 @@ All twelve current proof PNGs were reviewed against their images, overlay and an
 Resolved every required item from the current 2026-07-24 critique round. `03-woman-with-a-stone-skirt` now names the existing interior-spanning polyline `TRIANGULAR FIGURE STRUCTURE`, which is the visible figure construction it marks; its refreshed proof passed visual review and scores 100/100. The unsupported per-work dates and “Digital composite” labels were removed from the source shortlist, research note, chapter plates, rendered chapter, and contact sheet; the source record now limits itself to the portfolio's supported group-level digital-photomontage context. The shared rights basis now preserves the exact portfolio notice `© Maggie Taylor. All rights reserved.` and explicitly applies it to all twelve records. The four source accounts and Factor 1 rationales now match the chapter and overlays: lateral balance in *Moth dancer*, a right-weighted seated figure and page relay in *The reader*, staged boundary and diagonal counterpoint in *Water folly*, and a monumental figure with butterfly/house counterpoints in *The patient gardener*.
 
 Full critique history re-verified: the prior resolved 2026-07-24 round (stone-skirt mass, night-garden opening, sister-to-sister relation, house anchor, and gardener arm span) and the current 2026-07-24 round. Fresh visual proof review and deterministic scores confirm the prior required overlay fixes remain in place: `03` 100, `05` 95.7, `06` 100, `09` 100, `12` 100. `scripts/check.sh` hard gates were completed across pipeline validation, queue validation, runtime scan, driver regression, chapter sync, prose lint, tests (248 passed), production build, and lint; the two chapter copies remain byte-identical.
+
+## Critique round — 2026-07-24
+
+All twelve current proof PNGs were visually reviewed against their ingested images, overlay specs, analysis JSON, chapter, research note, manifest, and source records. Deterministic overlay scores remain passing (83.7–100); the score deductions for `02`, `04`, `05`, and `07` concern analyzer subject/edge signals, but each corresponding labelled primitive visibly lands on the named rabbit, flower-and-figure relation, tree, or rock structure. The prior resolved findings have not regressed: `03` truthfully marks a triangular figure structure, `05` centers the opening, `06` uses a relational tension line rather than false symmetry, `09` anchors the house, and `12` follows the visible arm span. Numeric prose claims match the analysis values within the stated tolerance, and the chapter makes no camera-setting claims. All twelve direct artist-portfolio image URLs and the portfolio page returned HTTP 200 during this review; the page identifies the twelve titles and preserves `© Maggie Taylor. All rights reserved.`, matching the source record's shared rights basis and per-image four-factor fair-use rationales.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
