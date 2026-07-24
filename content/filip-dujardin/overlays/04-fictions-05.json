@@ -4,9 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.858, "angle": -3.2, "label": "COURTYARD EDGE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FAÇADE CENTER" },
-    { "type": "subject_anchor", "x": 0.304, "y": 0.304, "r": 0.035, "label": "WINDOW CLUSTER" },
-    { "type": "frame_in_frame", "x": 0.083, "y": 0.0, "w": 0.833, "h": 0.84, "label": "BEIGE FAÇADE" }
+    { "type": "subject_anchor", "x": 0.304, "y": 0.304, "r": 0.035, "label": "WINDOW CLUSTER" }
   ],
   "notes": "A nearly square façade holds scattered windows in balance, while the enclosing side walls make a frame."
 }

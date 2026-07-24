@@ -3,8 +3,7 @@
   "image": "08-fictions-10.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.321, "angle": 0.0, "label": "ROOF EDGE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "CENTRAL NOTCH" },
+    { "type": "horizon_line", "y": 0.321, "angle": 0.0, "label": "UPPER SLAB BAND" },
     { "type": "subject_anchor", "x": 0.336, "y": 0.319, "r": 0.035, "label": "UPPER BALCONY" },
     { "type": "leading_line", "points": [[0.03, 0.51], [0.95, 0.51]], "arrow": true, "label": "BALCONY BAND" }
   ],

@@ -4,9 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.898, "angle": 0.0, "label": "GROUND EDGE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.388, "label": "TOWER SEAM" },
-    { "type": "subject_anchor", "x": 0.912, "y": 0.737, "r": 0.035, "label": "LOW RIGHT BLOCK" },
-    { "type": "polyline", "points": [[0.07, 0.02], [0.07, 0.83], [0.42, 0.83]], "label": "TALL LEFT TOWER" }
+    { "type": "subject_anchor", "x": 0.912, "y": 0.737, "r": 0.035, "label": "LOW RIGHT BLOCK" }
   ],
   "notes": "A tall, panelled tower and lower attached blocks turn mismatched cladding into a stack of measured colour fields."
 }

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -35,3 +35,9 @@ verdict: revise
 ### Review evidence
 
 All ten proofs were visually inspected against their matching specs and analyzer output. Normal scoring passes every proof (94 or 100); strict scoring is 88 for 02 and 08 and 100 for the remainder. Those measurements confirm coordinate tolerance, but they do not validate the visual semantics of `symmetry_axis`, `frame_in_frame`, `ellipse`, or interpretive paths. The required findings above are semantic mismatches visible in the current rendered proofs, not cosmetic endpoint or rounding differences. The chapter contains no invented camera settings; its caution about unknown capture and print details is appropriately supported by the empty manifest EXIF and the source notes.
+
+## Resolution — 2026-07-24
+
+Resolved all eleven required items. The ten overlays were re-analyzed, rendered, visually checked, and rescored; false symmetry and perspective claims were removed, and the remaining structural annotations were redrawn or relabeled to their visible features. The Gessato origin URLs were replaced with working public WordPress image-CDN routes, each verified as `200 image/jpeg` and byte-matched against its ingested raw file. Chapter prose was brought into line with the revised overlays in both mirrored chapter files.
+
+Re-verified critique history: 2026-07-24, the only prior critique round. `scripts/check.sh` passed after the repairs (including pipeline validation, chapter sync, 240 tests, production build, and lint).

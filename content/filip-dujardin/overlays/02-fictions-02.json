@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.849, "angle": 0.0, "label": "QUAYSIDE" },
-    { "type": "leading_line", "points": [[0.07, 0.12], [0.67, 0.48]], "arrow": true, "label": "DARK BRIDGE" },
+    { "type": "leading_line", "points": [[0.44, 0.235], [0.56, 0.3], [0.7, 0.385]], "arrow": true, "label": "BRIDGE UNDERSIDE" },
     { "type": "subject_anchor", "x": 0.382, "y": 0.0, "r": 0.035, "label": "ROOFLINE INTERRUPTION" }
   ],
   "notes": "A single dark bridge cuts across a compressed field of vertical bays and competing industrial planes."
