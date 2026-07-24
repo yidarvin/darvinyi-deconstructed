@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -141,3 +141,36 @@ records and 11-madonna-i), and round 3 (04-greeley, 09-amazon, and 10-nha-trang)
 The current overlays, proofs, source record, and both byte-identical chapter copies
 retain every required correction. `scripts/check.sh` and
 `python3 scripts/validate_pipeline.py` passed.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **02-chicago-board-of-trade-i** — The `TRADER CLUSTER` anchor sits at the
+  right boundary, so part of its circle is clipped. It still identifies the
+  peripheral trader/workstation cluster and does not change the chapter's
+  full-floor reading.
+- **03-hong-kong-stock-exchange-ii** — The labelled upper display band also
+  follows the adjacent sloping soffit edge across parts of the frame. The
+  displayed board and exchange-centre claims remain correctly identified, but
+  a future refinement could make the architectural/display distinction more
+  explicit.
+- **04-greeley** — The foreground-herd anchor is deliberately placed at the
+  lower-left frame edge and is partially clipped. Its label still points to
+  visible foreground cattle; this is a presentation-margin issue only.
+- **11-madonna-i** — The conservative one-anchor overlay truthfully marks the
+  lit stage, but it leaves the stage-versus-audience contrast primarily to the
+  prose. A future revision could add a visually defensible crowd-mass primitive
+  without reviving the previously rejected convergence claim.
+
+All twelve proofs were visually rechecked against their current specs and
+analyzer measurements. Every overlay scores 100/100 under the strict scorer;
+the 2026-07-24 resolutions for 04, 06, 08–12 remain materially intact. The
+chapter's normalized coordinates and tonal figures match the analyses within
+tolerance, no camera settings are asserted, and all twelve credited The Broad
+collection links returned their public artwork records. Each fair-use record
+contains a concise four-factor rationale.
