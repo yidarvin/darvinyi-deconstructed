@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-nevisian-underground-1.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.574, "angle": 4.0, "label": "WATERLINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "ARCH RHYTHM" },
+    { "type": "frame_in_frame", "x": 0.204, "y": 0.270, "w": 0.377, "h": 0.315, "label": "RECEDING ARCH" }
+  ],
+  "notes": "A sequence of arches and a low reflective split pull the room inward without offering a clear exit."
+}

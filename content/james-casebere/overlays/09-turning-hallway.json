@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-turning-hallway.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.604, "angle": 3.0, "label": "STEP LANDING" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "CORRIDOR AXIS" },
+    { "type": "frame_in_frame", "x": 0.577, "y": 0.163, "w": 0.132, "h": 0.239, "label": "WINDOW EXIT" }
+  ],
+  "notes": "The corridor gives one bright window as a destination, but its step and turn withhold a straight path to it."
+}

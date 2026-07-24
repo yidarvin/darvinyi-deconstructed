@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-tunnel-2.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.409, "y": 0.221, "w": 0.287, "h": 0.472, "label": "DARK TERMINUS" },
+    { "type": "polyline", "points": [[0.628, 0.826], [0.768, 0.717], [0.804, 0.538], [0.770, 0.376]], "label": "LIT ARCH EDGES" },
+    { "type": "polyline", "points": [[0.171, 0.451], [0.350, 0.391], [0.445, 0.378]], "label": "LIGHT WEDGE" }
+  ],
+  "notes": "The tunnel repeats its arch as a narrowing sequence while a lateral wedge of light sharpens the pull into darkness."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-green-staircase-4.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.372, "angle": 2.1, "label": "CURVED SOFFIT" },
+    { "type": "leading_line", "points": [[0.209, 0.828], [0.618, 0.436]], "arrow": true, "label": "STAIR EDGE" },
+    { "type": "frame_in_frame", "x": 0.113, "y": 0.338, "w": 0.415, "h": 0.355, "label": "ARCHED DOORWAY" }
+  ],
+  "notes": "A rising stair cuts through an arched enclosure, making the reflected room feel split between ascent and flood."
+}

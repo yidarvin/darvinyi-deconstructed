@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-pink-hallway-3.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.721, "angle": 0.0, "label": "WATERLINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "AXIAL DOORWAY" },
+    { "type": "frame_in_frame", "x": 0.356, "y": 0.294, "w": 0.293, "h": 0.352, "label": "INNER THRESHOLD" }
+  ],
+  "notes": "The flooded floor doubles a centered doorway, making the passage alternately shallow and bottomless."
+}

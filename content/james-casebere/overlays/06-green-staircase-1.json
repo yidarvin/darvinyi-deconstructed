@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-green-staircase-1.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.688, "angle": 0.0, "label": "WATERLINE" },
+    { "type": "vanishing_point", "x": 0.678, "y": 0.530, "label": "STAIR / DOOR CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.225, 0.575], [0.489, 0.265]], "arrow": true, "label": "STAIR RAIL" }
+  ],
+  "notes": "The rising stair counters the horizontal waterline and points into an illuminated, unstable interior."
+}

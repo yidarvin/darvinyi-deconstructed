@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-monticello-3.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.671, "angle": 0.0, "label": "WATERLINE" },
+    { "type": "frame_in_frame", "x": 0.000, "y": 0.221, "w": 0.580, "h": 0.419, "label": "WINDOW RHYTHM" },
+    { "type": "polyline", "points": [[0.000, 0.731], [0.315, 0.665], [0.628, 0.615]], "label": "REFLECTED EDGE" }
+  ],
+  "notes": "The oblique window row is held against its broken reflection, so the flooded room feels shifted off balance."
+}
