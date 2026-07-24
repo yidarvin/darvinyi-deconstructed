@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-23
 
@@ -56,3 +56,19 @@ Prior required rounds re-verified: 2026-07-23 (the only critique round in `git l
 5. Re-ran analysis, rendering, visual QA, and scoring for all four affected plates. Each scores 100/100 with no deductions or warnings; `scripts/check.sh` passed before this resolution.
 
 Prior required rounds re-verified: 2026-07-23 round 1 (the `01-modern-romance-1985` ellipse remains centered on and labeled for the toy car and red pool); 2026-07-23 round 2 (all six fixes above).
+
+## Critique round — 2026-07-23
+
+### Required
+
+None. All twelve current proof PNGs were visually reviewed against their overlay specs and image evidence. The previous required corrections remain in place: the `01-modern-romance-1985` ellipse truthfully encloses the toy car and red pool; the resolved print-edge and false-symmetry primitives remain absent; and the `03-american-beauties-1990` arm and `10-baseball-2004` extended-arm polylines trace the named visible gestures. The remaining overlays make three bounded, pedagogical claims each and are materially truthful.
+
+### Advisory (non-blocking)
+
+None observed in this round. The previously recorded advisory placements have not materially regressed and are not reopened.
+
+### Checks completed
+
+- Re-ran the deterministic scorer for every current overlay: 12/12 score 100/100, with no deductions or warnings.
+- Rechecked every chapter measurement against its matching analysis JSON; stated mean, percentile, palette, and edge-density values match within tolerance. The chapter and research note explicitly decline to infer camera or process settings.
+- Confirmed 12/12 linked Smithsonian object records return HTTP 200. Each image has a matching record-linked source, David Levinthal credit/copyright notice, and concise per-image four-factor fair-use rationale.
