@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -58,3 +58,15 @@ The refreshed `05-monitor` overlay was rendered, visually checked, and scored 10
 2. **Research and chapter metadata:** Corrected the false absence claim. `sources.md`, `research.md`, and the chapter callout now attribute the artist-recorded formats and dimensions for *Dark Hall II* (Cibachrome mounted on aluminum, 29.5 × 39.5 in.), *Stair* (Fujiflex print mounted on aluminum, 30.5 × 59.5 in.), and *C.O.* (inkjet print mounted on plexiglas, 46.5 × 78.5 in.). Camera and exposure metadata remain accurately described as undocumented, and the ingested JPEGs remain without useful EXIF.
 
 The refreshed `10-co` proof was rendered, visually checked, and scored 100/100 against its paired analysis JSON. Re-verified critique history: the first 2026-07-24 round (08-dark-hall-ii, 09-stair, 10-co symmetry), the second 2026-07-24 round (05-monitor), and the current third 2026-07-24 round. The current overlays retain no false symmetry-axis claim for 08 or 10, no misaligned fixture axis for 09, no false ceiling-panel register for 05, and no false full-frame low-wall seam for 10.
+
+## Critique round — 2026-07-24
+
+### Required findings
+
+None. I visually checked all ten current proof PNGs against their overlay and analyzer JSON. The resolved findings remain resolved: 05 has no false horizontal panel claim; 08 and 10 have no symmetry-axis claim; 09 has no fixture-axis claim; and 10 names only the visible ceiling corner. Every overlay has 3–5 composition-teaching primitives and scores 100/100 against its paired current analysis.
+
+### Advisory (non-blocking)
+
+- **02-hallway:** “NESTED DOORWAY” and “LIT THRESHOLD” are still closely stacked, but remain legible and correctly identify the opening and its bright threshold.
+
+The chapter’s stated tonal values, coordinates, and palettes agree with the current analyzer output within the specified tolerance. No camera settings are asserted. All ten linked artist-site display-image URLs currently return public `200 image/jpeg` responses; each source entry retains a traceable artist link, copyright notice, and concise four-factor fair-use rationale. No limited-mode claim applies.
