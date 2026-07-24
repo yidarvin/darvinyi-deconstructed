@@ -3,10 +3,7 @@
   "image": "11-madonna-i.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.537, "y": 0.346, "label": "stage-and-crowd convergence" },
-    { "type": "leading_line", "points": [[0.26, 0.14], [0.941, 0.994]], "arrow": true, "label": "stage-to-crowd sweep" },
-    { "type": "leading_line", "points": [[0.525, 0.006], [0.888, 0.947]], "arrow": true, "label": "crowd-side sweep" },
-    { "type": "horizon_line", "y": 0.729, "angle": 0, "label": "crowd band" }
+    { "type": "subject_anchor", "x": 0.077, "y": 0.751, "r": 0.035, "label": "lit stage" }
   ],
-  "notes": "Stage light and a packed audience stack concert spectacle into a theatrical vertical field."
+  "notes": "A lit stage at left and a packed audience at right make concert spectacle a theatrical field."
 }

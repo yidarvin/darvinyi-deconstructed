@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -13,6 +13,25 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-24
+
+1. **sources.md, records 1–12** — Added the missing factor-two assessment to
+   every fair-use record: each identifies the work as a published, highly
+   creative photograph and records that this factor weighs against fair use.
+   Each record retains its separate purpose, amount, and market-effect analysis.
+2. **11-madonna-i** — Re-ran composition analysis and rejected its false
+   detector-proposed convergence. The new conservative overlay retains the
+   thirds grid and anchors only the visible lit stage at `(0.077, 0.751)`.
+   Its regenerated proof scores 100/100 and passes visual review. The plate
+   caption and paragraph now describe the lit stage and packed audience without
+   claiming sweeps, a crowd band, or convergence.
+
+Full critique history re-verified: 2026-07-24 round 1 (06-em-arena-amsterdam-ii,
+08-pyongyang-iv, and 12-sao-paulo-se) remains correct in the current overlays,
+source record, proofs, and chapter; 2026-07-24 round 2 is resolved above.
+`scripts/check.sh` and `python3 scripts/validate_pipeline.py` passed, and the
+content and rendered chapter copies are byte-identical.
 
 ## Builder resolution — 2026-07-24
 
