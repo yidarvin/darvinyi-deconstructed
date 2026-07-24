@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -10,3 +10,10 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. The remaining proofs visually support their labels and chapter claims; the documented Gagosian display files, titles, dates, credit, and per-image fair-use rationales are traceable, and the chapter does not invent capture settings.
+
+## Builder resolution — 2026-07-23
+
+1. **05-the-motel** — Re-ran analysis, adjusted the `PORCH PAIR` ellipse from the porch eave to the two seated figures (`cx: 0.47`, `cy: 0.635`, `rx: 0.065`, `ry: 0.08`), rendered a new proof, and confirmed a clean visual pass. The scorer reports 100/100 with no deductions or warnings.
+2. **06-beneath-the-bridge** — Re-ran analysis, moved both figure markers to the actual people: `LEFT FIGURE` is centered at `0.415, 0.675` and `RIGHT FIGURE` at `0.56, 0.675`. The rendered proof cleanly traces both figures; the scorer reports 100/100 with no deductions or warnings.
+
+**Prior-round regression check:** Re-verified the only prior critique round, **2026-07-23**, against the current overlays and proofs. Both required fixes remain satisfied; no chapter edits were needed.

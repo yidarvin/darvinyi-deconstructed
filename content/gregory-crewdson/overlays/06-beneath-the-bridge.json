@@ -4,8 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.20, "y": 0.07, "w": 0.72, "h": 0.76, "label": "bridge span" },
-    { "type": "ellipse", "cx": 0.48, "cy": 0.61, "rx": 0.03, "ry": 0.08, "label": "left figure" },
-    { "type": "ellipse", "cx": 0.58, "cy": 0.62, "rx": 0.03, "ry": 0.08, "label": "right figure" },
+    { "type": "ellipse", "cx": 0.415, "cy": 0.675, "rx": 0.018, "ry": 0.055, "label": "left figure" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.675, "rx": 0.018, "ry": 0.055, "label": "right figure" },
     { "type": "polyline", "points": [[0.02, 0.82], [0.28, 0.87], [0.58, 0.99]], "label": "fallen trunk" }
   ],
   "notes": "The arch turns the river scene into an enclosure, reducing two figures to a measured scale."
