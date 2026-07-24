@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -157,3 +157,25 @@ visually accurate fence-wire detector warning).
   lacks a detected edge/vanishing-path match (88/100 strict), but the rendered
   line visibly follows the sloping fence wires. This is the previously settled
   detector-only warning, not a regression.
+
+## Resolution — 2026-07-24
+
+Resolved the latest required item: `08-deliver-us` now reports the analyzer's
+edge density as 0.249 and reads the photograph as an edge-rich field of
+branches, car parts, grass, and letter contours, rather than calling it sparse.
+The same correction is byte-identical in `content/tim-walker/chapter.mdx` and
+`src/chapters/tim-walker.mdx`.
+
+Re-verified every required fix in the full critique history. The first round's
+`04` paired-faces line, `08` VOGUE-letter baseline, and `11` red-coated-figure
+anchor remain visually aligned. During that recheck, `09`'s prior rotor-blade
+fix had regressed onto the overhead wires; a fresh analyze → render → visual
+review → score loop now puts it directly on the left rotor blade, with a
+100/100 deterministic score. The second round's official portfolio
+attributions and plate labels for `02`, `03`, `07`, `08`, and `10` remain in
+place, and the false `07` sofa/rug line remains absent. The third round's `06`
+propeller-blade path remains on the actual blade; the truthful `08` and `10`
+source-note descriptions remain in place. All current overlays pass: `02`
+scores 94 with its previously accepted detector-only fence-wire warning, and
+the other eleven score 100/100. `scripts/check.sh` passed before this
+resolution was recorded.
