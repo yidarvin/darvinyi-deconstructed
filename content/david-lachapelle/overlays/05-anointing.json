@@ -3,9 +3,8 @@
   "image": "05-anointing.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.774, "angle": 0.0, "label": "floor threshold" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "ceremonial balance" },
+    { "type": "polyline", "points": [[0.18, 0.487], [0.45, 0.484], [0.67, 0.486]], "label": "kitchen counter edge" },
     { "type": "subject_anchor", "x": 0.257, "y": 0.706, "r": 0.035, "label": "reclining figure" }
   ],
-  "notes": "A close ceremonial knot is held by saturated interior bands and partial symmetry."
+  "notes": "A close ceremonial knot is held by saturated interior bands and unequal bodies."
 }

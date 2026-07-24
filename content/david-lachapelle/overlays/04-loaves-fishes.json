@@ -3,9 +3,8 @@
   "image": "04-loaves-fishes.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.097, "angle": 0.0, "label": "upper storefront band" },
+    { "type": "horizon_line", "y": 0.097, "angle": 0, "label": "upper storefront band" },
     { "type": "vanishing_point", "x": 0.466, "y": 0.558, "label": "sidewalk recession" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "crowd balance" },
     { "type": "subject_anchor", "x": 0.851, "y": 0.511, "r": 0.035, "label": "right-side figure cluster" }
   ],
   "notes": "A long street field distributes food, hands, and bodies without one central hero."

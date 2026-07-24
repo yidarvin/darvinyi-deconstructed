@@ -4,7 +4,6 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "vanishing_point", "x": 0.116, "y": 0.276, "label": "left-side recession" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.4, "label": "group balance" },
     { "type": "polyline", "points": [[0.303, 0.48], [0.4, 0.434], [0.499, 0.473]], "label": "outstretched arms" }
   ],
   "notes": "Night architecture draws the group toward a glowing staged confrontation."

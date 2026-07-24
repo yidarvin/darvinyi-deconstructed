@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -54,3 +54,17 @@ The revised overlay scores 100/100 in both standard and strict scoring, has a cl
 ### Review evidence
 
 All twelve current proof PNGs were visually reviewed against their overlay JSON and analyzer output, including an independent fresh-eyes pass for each proof group. Every deterministic score is 100/100, but the listed findings are semantic failures that the scorer cannot measure. The resolved 2026-07-24 `03-last-supper` table-edge finding remains resolved: the current line follows the visible front tabletop, and no earlier cosmetic issue was reopened. Chapter geometry, tonal, and palette figures are within the stated tolerance of the analyzer. All twelve artist-record URLs returned HTTP 200; each image has a credited, linked fair-use record with a per-image application of the documented four-factor rationale. No undocumented camera settings or source-integrity defect was found.
+
+## Resolution — 2026-07-24
+
+1. `01-deluge`: replaced the clipped lower-right saliency anchor with an ellipse that encloses the visible rescue group at right.
+2. `02-intercession` and `04-loaves-fishes`: removed the unsupported symmetry-axis claims; their remaining overlays describe the actual recession, arms, storefront band, and figure cluster.
+3. `05-anointing`: replaced the false floor threshold and mirror claim with the continuous kitchen-counter edge; revised the caption and prose accordingly.
+4. `06-late-summer`: replaced the false mirror, disconnected stem, and tabletop claims with a central flower mass and the visible hanging tulip stems; revised the matching caption and prose.
+5. `08-the-lovers`: replaced the false vanishing point with a central floral-cluster ellipse.
+6. `09-land-scape-pacific-sunset`: removed the clipped foreground subject anchor and its matching prose claim.
+7. `11-land-scape-luna-park`: removed the unsupported shoreline and mirror-axis claims; revised the matching caption and prose.
+8. `12-gas-shell`: replaced the false frame-in-frame with an ellipse enclosing the actual pump bank; revised the matching caption and prose.
+9. Re-verified both prior critique rounds from 2026-07-24. The `03-last-supper` resolution remains intact: no overlay primitive or chapter text calls the foreground diagonal a table edge, and the retained line follows the visible front tabletop.
+
+All nine affected overlays were freshly analyzed, rendered, visually inspected, and scored 100/100 in both standard and strict mode. The two chapter copies are byte-identical.

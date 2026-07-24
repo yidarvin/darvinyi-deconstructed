@@ -3,8 +3,6 @@
   "image": "11-land-scape-luna-park.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.761, "angle": -4.0, "label": "lower shoreline" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "tower-field balance" },
     { "type": "subject_anchor", "x": 0.179, "y": 0.706, "r": 0.035, "label": "left foreground pipe cluster" }
   ],
   "notes": "Repeated miniature towers convert a refinery into a theatrical nocturnal skyline."
