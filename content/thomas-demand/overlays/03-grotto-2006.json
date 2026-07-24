@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-grotto-2006.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.438, "y": 0.464, "label": "CAVE INTERIOR CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.224, 0.766], [0.544, 0.44]], "arrow": true, "label": "LEFT CAVE RIDGE" },
+    { "type": "subject_anchor", "x": 0.46, "y": 0.703, "r": 0.035, "label": "LIT CENTRAL FORMATION" }
+  ],
+  "notes": "A bright central formation is reached through layered, cave-like diagonals."
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "08-atelier-2014.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.726, "y": 0.601, "r": 0.035, "label": "PAPER OFFCUTS" }
+  ],
+  "notes": "A long worktable leaves a broad parquet field around a colored scatter of paper."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-workshop-2017.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.218, "angle": 1.1, "label": "HANGING-INSTRUMENT RAIL" },
+    { "type": "subject_anchor", "x": 0.992, "y": 0.363, "r": 0.035, "label": "RIGHT-HAND WINDOW LIGHT" },
+    { "type": "frame_in_frame", "x": 0.77, "y": 0.17, "w": 0.19, "h": 0.46, "label": "WINDOW OPENING" }
+  ],
+  "notes": "A ceiling rail of repeated instruments divides a workshop between crowded shadow and window light."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-vault-2012.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "STORAGE CORRIDOR AXIS" },
+    { "type": "subject_anchor", "x": 0.56, "y": 0.49, "r": 0.035, "label": "REAR FRAME" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.18, "w": 0.66, "h": 0.57, "label": "INNER STORAGE BAY" }
+  ],
+  "notes": "Nested bays and stacked frames make concealment into the image's central geometry."
+}

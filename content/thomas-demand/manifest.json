@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-studio-1997.jpg",
+    "width": 800,
+    "height": 405,
+    "sha1": "f1e47f7e",
+    "source": "01-studio-1997.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-terrace-1998.jpg",
+    "width": 800,
+    "height": 543,
+    "sha1": "a1104493",
+    "source": "02-terrace-1998.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-grotto-2006.jpg",
+    "width": 800,
+    "height": 364,
+    "sha1": "511cdd71",
+    "source": "03-grotto-2006.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-landing-2006.jpg",
+    "width": 800,
+    "height": 509,
+    "sha1": "7f9cc125",
+    "source": "04-landing-2006.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-presidency-2008.jpg",
+    "width": 800,
+    "height": 1113,
+    "sha1": "196b619b",
+    "source": "05-presidency-2008.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-control-room-2011.jpg",
+    "width": 800,
+    "height": 533,
+    "sha1": "87febf28",
+    "source": "06-control-room-2011.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-vault-2012.jpg",
+    "width": 800,
+    "height": 636,
+    "sha1": "f291d8d4",
+    "source": "07-vault-2012.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-atelier-2014.jpg",
+    "width": 800,
+    "height": 562,
+    "sha1": "72636371",
+    "source": "08-atelier-2014.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-parkett-2014.jpg",
+    "width": 800,
+    "height": 584,
+    "sha1": "7ed36411",
+    "source": "09-parkett-2014.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-workshop-2017.jpg",
+    "width": 800,
+    "height": 465,
+    "sha1": "cebe3aa6",
+    "source": "10-workshop-2017.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-pond-2020.jpg",
+    "width": 800,
+    "height": 400,
+    "sha1": "3e021876",
+    "source": "11-pond-2020.jpg",
+    "exif": {}
+  }
+]

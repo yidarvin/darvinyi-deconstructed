@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "01-studio-1997.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.549, "angle": -0.8, "label": "TABLETOP EDGE" },
+    { "type": "subject_anchor", "x": 0.82, "y": 0.546, "r": 0.035, "label": "RIGHT PLACE SETTING" }
+  ],
+  "notes": "A level table interrupts a striped wall of repeated color bands."
+}

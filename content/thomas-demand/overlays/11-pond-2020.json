@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "11-pond-2020.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.318, "angle": 0.0, "label": "MIDDLE LILY BAND" },
+    { "type": "polyline", "points": [[0.50, 0.98], [0.49, 0.72], [0.50, 0.48], [0.50, 0.318]], "label": "OPEN WATER CHANNEL" }
+  ],
+  "notes": "A channel of dark water divides the lily-pad field and carries the eye into the distance."
+}
