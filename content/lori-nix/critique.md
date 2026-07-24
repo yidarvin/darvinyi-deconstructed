@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -36,3 +36,14 @@ verdict: resolved
 - Re-ran `09-circulation-desk`: `CURVED DESK RIM` now follows the visible right-foreground desk rim (`[0.62,0.69]` to `[0.91,0.73]`) instead of the rubble field. Its rendered proof is visually clean and the deterministic scorer reports 100/100.
 - Re-verified every required fix from critique rounds 2026-07-23 and 2026-07-24. `06-botanic-garden` retains its visually truthful centered roof-arch/planting-bed axis (90/100 despite the analyzer's unrelated 0.425 symmetry estimate); `08-bar` retains no false stool-rhythm claim (100/100); and `11-subway` retains its corrected source rationale and carriage-end vocabulary (100/100).
 - `scripts/check.sh` passes; the chapter source and rendered chapter remain byte-identical.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **09-circulation-desk — correct or relabel `ROOF RUPTURE`.** The polyline `[[0.27, 0.10], [0.42, 0.04], [0.58, 0.12], [0.70, 0.05]]` runs across the wire/grid visible inside the sky aperture, rather than tracing the irregular broken plaster perimeter that constitutes the roof rupture. The separate `OPEN ROOF` ellipse already identifies the aperture. Retarget this path to the broken roof edge or label the wire feature it actually traces.
+2. **11-subway — correct the stale proof contact-sheet caption.** `proofs/index.html` says “Tracks and platform edges funnel the emptied station,” while the current proof visibly depicts a subway-car interior with seats, a sanded floor, a ceiling edge, and a carriage-end opening. Replace the caption with accurate train-car vocabulary. This is not a re-opening of the 2026-07-23 source-rationale fix: that round corrected `sources.md`; this separate reader-visible proof-package caption retained the rejected claim.
+
+### Advisory (non-blocking)
+
+- **06-botanic-garden:** The analyzer still measures its symmetry axis at 0.425 while the overlay retains 0.500 (score 90/100). This is the previously resolved visual judgment: the 0.500 line visibly follows the centered roof arch and planting-bed spine, so there is no material regression.
