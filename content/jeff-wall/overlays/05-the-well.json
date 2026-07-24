@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.470, "cy": 0.720, "rx": 0.250, "ry": 0.220, "label": "EXCAVATED PIT" },
     { "type": "polyline", "points": [[0.465, 0.710], [0.545, 0.790], [0.615, 0.925]], "label": "SHOVEL HANDLE" },
-    { "type": "polyline", "points": [[0.020, 0.675], [0.220, 0.650], [0.405, 0.600]], "label": "DISCARDED TOOL AND EARTH EDGE" },
+    { "type": "polyline", "points": [[0.045, 0.690], [0.155, 0.750], [0.280, 0.865]], "label": "DISCARDED SHOVEL" },
     { "type": "ellipse", "cx": 0.538, "cy": 0.704, "rx": 0.080, "ry": 0.130, "label": "WOMAN IN THE PIT" }
   ],
   "notes": "The high view converts a simple act of digging into a tight relation between a body, a tool, and a deep void."

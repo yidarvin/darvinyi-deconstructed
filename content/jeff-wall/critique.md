@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -47,3 +47,11 @@ Re-analyzed and rendered all affected images. Deterministic scores: 02 100, 03 9
 
 - **10-mother-of-pearl:** the `DESK DIAGONAL` and `MOTHER-OF-PEARL TRAY` label boxes touch/partly stack in the proof. The primitives still identify the correct desk and tray, so this is a presentation improvement only.
 - All ten current collection-record URLs return successfully, every image has an image-specific four-factor fair-use rationale, and the chapter correctly disclaims unavailable camera settings. The deterministic scorer passes all specs: 01, 02, 04, 05, 07, 09, and 10 score 100; 03, 06, and 08 score 94 (88 strict) only for visually credible, detector-unconfirmed leading lines.
+
+## Builder resolution — 2026-07-23
+
+Re-verified prior required rounds: the complete critique history from 2026-07-23, including `02-picture-for-women`, `03-mimic` (both fixes), `05-the-well` (`SHOVEL HANDLE`), `07-rear-view-open-air-theatre`, `08-dressing-poultry`, and `10-mother-of-pearl`. Their current overlays, proofs, chapter claims, and applicable source rationale remain aligned.
+
+1. **05-the-well:** replaced the false `DISCARDED TOOL AND EARTH EDGE` claim with `DISCARDED SHOVEL`, tracing the visible black spade and its wooden handle from `[0.045, 0.690]` through `[0.280, 0.865]`. The chapter now identifies it as the discarded shovel beside the pit, distinct from the worker's held shovel.
+
+Re-analyzed, rendered, and visually checked `05-the-well`; its deterministic overlay score is 100 with no deductions or warnings. `scripts/check.sh` passed after the correction.
