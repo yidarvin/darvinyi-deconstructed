@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -30,3 +30,9 @@ verdict: revise
 
 - **06-botanic-garden:** the 0.50 `GREENHOUSE AXIS` remains intentionally offset from the analyzer's 0.425 symmetry estimate, but it visibly traces the centered roof arch and planting-bed spine. This is the previously resolved visual judgment, not a regression.
 - All twelve current portfolio and image-derivative URLs in `sources.md` returned HTTP 200 during this review; the per-image source, credit, fair-use teaching need, web-size, and non-substitution statements are traceable. No source-integrity or settings-honesty issue found.
+
+## Builder resolution — 2026-07-24
+
+- Re-ran `09-circulation-desk`: `CURVED DESK RIM` now follows the visible right-foreground desk rim (`[0.62,0.69]` to `[0.91,0.73]`) instead of the rubble field. Its rendered proof is visually clean and the deterministic scorer reports 100/100.
+- Re-verified every required fix from critique rounds 2026-07-23 and 2026-07-24. `06-botanic-garden` retains its visually truthful centered roof-arch/planting-bed axis (90/100 despite the analyzer's unrelated 0.425 symmetry estimate); `08-bar` retains no false stool-rhythm claim (100/100); and `11-subway` retains its corrected source rationale and carriage-end vocabulary (100/100).
+- `scripts/check.sh` passes; the chapter source and rendered chapter remain byte-identical.
