@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-modern-romance-1985.jpg",
+    "width": 974,
+    "height": 1200,
+    "sha1": "bb808503",
+    "source": "01-modern-romance-1985.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-modern-romance-1984.jpg",
+    "width": 977,
+    "height": 1200,
+    "sha1": "f5de64b0",
+    "source": "02-modern-romance-1984.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-american-beauties-1990.jpg",
+    "width": 890,
+    "height": 1199,
+    "sha1": "9482fa00",
+    "source": "03-american-beauties-1990.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-american-beauties-1990-b.jpg",
+    "width": 890,
+    "height": 1200,
+    "sha1": "e841e4c5",
+    "source": "04-american-beauties-1990-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-barbie-1998.jpg",
+    "width": 921,
+    "height": 1200,
+    "sha1": "8d480900",
+    "source": "05-barbie-1998.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-barbie-1998-b.jpg",
+    "width": 922,
+    "height": 1200,
+    "sha1": "4f0f68ff",
+    "source": "06-barbie-1998-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-wild-west-1988.jpg",
+    "width": 886,
+    "height": 1200,
+    "sha1": "0b237e87",
+    "source": "07-wild-west-1988.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-wild-west-1989.jpg",
+    "width": 893,
+    "height": 1200,
+    "sha1": "44bded6b",
+    "source": "08-wild-west-1989.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-wild-west-sepia-1998.jpg",
+    "width": 880,
+    "height": 1200,
+    "sha1": "ee88e294",
+    "source": "09-wild-west-sepia-1998.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-baseball-2004.jpg",
+    "width": 916,
+    "height": 1200,
+    "sha1": "5e4772d2",
+    "source": "10-baseball-2004.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-iwo-jima-2013.jpg",
+    "width": 1200,
+    "height": 926,
+    "sha1": "843c2867",
+    "source": "11-iwo-jima-2013.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-washington-crossing-delaware-2013.jpg",
+    "width": 1199,
+    "height": 924,
+    "sha1": "f6114096",
+    "source": "12-washington-crossing-delaware-2013.jpg",
+    "exif": {}
+  }
+]
