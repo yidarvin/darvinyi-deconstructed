@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -23,3 +23,25 @@ All ten overlay/analysis pairs score 100 under the deterministic scorer, and the
 Resolved all seven required semantic proof failures. Removed the unsupported `RIGHT WALL EDGE`, `FLOOR / BACK-WALL JOIN` and false figure claim in *Broken Heart*, the false `BACK-WALL BREAK`, the false floor/wall join in *Neverending Race*, and the chair-crossing `RIGHT FLOOR SEAM`. Replaced the inaccurate *Meditation* anchor with a visually checked `STANDING FIGURE` ellipse, and moved the *Neverending Race* and *The Little Match Girl* anchors to the depicted seated figures. Updated both byte-identical chapter files so no prose repeats a removed or corrected claim; rerendered and visually checked every affected proof.
 
 Prior critique rounds re-verified: 2026-07-24 (the only prior round in `git log -p -- content/jeeyoung-lee/critique.md`). All ten overlays pass the deterministic scorer at 100/100, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-24
+
+### Required
+
+1. `01-black-birds` has only two primitives, and `02-broken-heart` also has only two; each falls short of the required 3–5-primitive teaching argument. Add distinct, visually truthful claims rather than filler. In `02-broken-heart`, the existing `LEFT FLOOR EDGE` line runs along the foreground shell/turtle form, not a floor edge, so it must be removed, relabeled to the actual feature, or replaced.
+2. `03-desire`: `DENSE CENTER` is encoded as a `vanishing_point`, which asserts that diagonals converge there. The proof shows an all-over tether field and a dense knot, not a single perspective convergence at that crosshair; the two annotated tethers do not meet there. Use a primitive that truthfully describes the cluster or remove the claim.
+3. `04-gamer`: `BLOCK WALL EDGE` cuts across separate blocks rather than tracing one wall edge, and `ROOM CONVERGENCE` at `(0.420, 0.288)` sits on a foreground block rather than the room's visible recession. Remove or redraw both claims against actual receding edges. The back-wall/floor break and figure anchor are sound.
+4. `05-meditation`: `LEFT FLOOR SEAM` crosses the suitcase/figure area instead of a continuous floor seam, and `ROOM CENTER` is labeled as a vanishing point without visible edge convergence at `(0.507, 0.459)`. Remove or replace these claims. This also reopens the 2026-07-24 resolved figure finding: the current plate caption still calls the model “seated,” while the proof and current overlay call her `STANDING FIGURE`; correct the contradictory caption so the resolved claim does not regress.
+5. `06-my-chemical-romance` has only two primitives, both duplicate `STRIPED PIPE RUN` claims. Provide 3–5 distinct, visually defensible teaching claims; retain a pipe direction only where the line can trace the named feature.
+6. `09-panic-room`: `RIGHT-WALL SEAM` runs through the chair rather than along a wall seam, and `FLOOR / BACK-WALL JOIN` at `y=0.623` crosses floor/furnishings rather than a continuous room junction. Both labels therefore make false structural claims and must be removed or redrawn to actual visible features.
+7. `10-the-little-match-girl` has only two primitives, and `FLOOR / CLOUD BREAK` at `y=0.725` traverses the matchbook and foreground cloud mass instead of a continuous floor/cloud boundary. Remove or trace a real feature, then provide 3–5 distinct truthful claims. The `SEATED FIGURE` anchor is correct.
+8. Correct the camera-record and working-method claims. `research.md` says all supplied JPEGs have empty EXIF and the chapter says no camera settings are documented, but `manifest.json` records Phase One IQ160, 55mm, 1/4s, f/16, ISO 100, and a timestamp for `06-my-chemical-romance.jpg`. Qualify that retained web-derivative metadata as not establishing original-capture provenance; do not describe every record as empty or absent. Also, the cited K11 URL currently returns 404, while the available LensCulture page supports hand-building, using a model, photographing, and demolition but not “no ulterior photographic alteration.” Remove that assertion or provide a traceable source before presenting it as established.
+9. `sources.md` says Echo Fine Arts confirms the selected works’ dates, but its current page lists `Blackbirds` as 2011 while LensCulture identifies the selected `Black Birds` image as 2009. Reconcile the work/date distinction or narrow the claim so the citation does not purport to confirm every date.
+
+### Advisory (non-blocking)
+
+- `03-desire`: the two otherwise visible tether paths have identical labels; distinguish their roles if both are retained.
+- `06-my-chemical-romance` and `08-nightscape`: lower label overlap/repeated directional claims reduce legibility. The existing `08` ridge-label crowding remains advisory, not a gate.
+- `07-neverending-race`: the right floor edge and seated-figure anchor are correct; the convergence marker is visually less explicit than the other claims, but its analyzer support keeps this non-blocking.
+
+All ten overlay/analysis pairs again score 100/100 under the deterministic scorer. These required findings are the semantic, pedagogical, and source-record failures that the geometric score cannot establish.
