@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-untitled-d-01.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.828, "angle": 0.0, "label": "WATERLINE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.47, "rx": 0.15, "ry": 0.29, "label": "ROCKET" },
+    { "type": "polyline", "points": [[0.18, 0.60], [0.40, 0.47], [0.62, 0.50], [0.81, 0.62]], "label": "EXCHANGED LIPSTICK" },
+    { "type": "ellipse", "cx": 0.37, "cy": 0.79, "rx": 0.23, "ry": 0.17, "label": "LEFT BICYCLE" }
+  ],
+  "notes": "An implausible studio relay runs between two riders through a central rocket." 
+}

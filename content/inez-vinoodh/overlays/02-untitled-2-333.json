@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-untitled-2-333.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.564, "y": 0.173, "r": 0.04, "label": "KISSING PROFILES" },
+    { "type": "vanishing_point", "x": 0.581, "y": 0.269, "label": "CONTACT HINGE" },
+    { "type": "leading_line", "points": [[0.587, 0.229], [0.753, 0.474]], "arrow": true, "label": "PAINTED SHOULDER" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.50, "rx": 0.18, "ry": 0.39, "label": "RED FIGURE" }
+  ],
+  "notes": "Two profiles meet at the hinge between a black mass and a painted red body." 
+}

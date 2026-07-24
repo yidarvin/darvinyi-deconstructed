@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-untitled-sh20034.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.092, "angle": 0.0, "label": "MOUNTED IMAGE EDGE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "CENTERED JEWEL" },
+    { "type": "leading_line", "points": [[0.562, 0.480], [0.703, 0.862]], "arrow": true, "label": "JEWEL'S RIGHT EDGE" },
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.12, "w": 0.80, "h": 0.74, "label": "TAPED PORTRAIT" }
+  ],
+  "notes": "A centered jewel masks and reorders a taped fashion portrait." 
+}

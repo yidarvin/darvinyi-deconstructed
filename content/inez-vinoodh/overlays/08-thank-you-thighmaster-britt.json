@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-thank-you-thighmaster-britt.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.51, "rx": 0.28, "ry": 0.46, "label": "ALTERED BODY" },
+    { "type": "polyline", "points": [[0.58, 0.13], [0.44, 0.42], [0.47, 0.67], [0.67, 0.93]], "label": "LEANING BODY AXIS" },
+    { "type": "polyline", "points": [[0.43, 0.46], [0.21, 0.58]], "label": "LEFT ARM" }
+  ],
+  "notes": "A sparse white field makes the altered, leaning nude read as a designed object." 
+}

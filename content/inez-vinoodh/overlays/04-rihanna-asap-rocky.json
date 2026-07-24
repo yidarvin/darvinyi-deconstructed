@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-rihanna-asap-rocky.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.570, "angle": 4.9, "label": "SHORELINE" },
+    { "type": "subject_anchor", "x": 0.351, "y": 0.210, "r": 0.04, "label": "ROCKY AND CHILD" },
+    { "type": "vanishing_point", "x": 0.557, "y": 0.416, "label": "JOINED HANDS" },
+    { "type": "polyline", "points": [[0.35, 0.20], [0.46, 0.48], [0.61, 0.58]], "label": "FAMILY RELAY" }
+  ],
+  "notes": "The shoreline and joined hands bind the separated figures into one shallow field." 
+}

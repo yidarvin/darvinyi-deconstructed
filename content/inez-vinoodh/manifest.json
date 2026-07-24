@@ -1,0 +1,99 @@
+[
+  {
+    "file": "01-think-love.jpg",
+    "width": 1600,
+    "height": 1214,
+    "sha1": "73a09c6b",
+    "source": "01-think-love.jpg",
+    "exif": {
+      "Make": "Obsidian",
+      "Model": "Cam 7",
+      "DateTimeOriginal": "2025:08:05 14:00:36",
+      "FocalLength": "6.764999865652793",
+      "ExposureTime": "0.0004",
+      "FNumber": "1.8",
+      "ISOSpeedRatings": "64",
+      "LensModel": "Cam 7 back triple camera 6.765mm f/1.78"
+    }
+  },
+  {
+    "file": "02-untitled-2-333.jpg",
+    "width": 850,
+    "height": 660,
+    "sha1": "7c4c61ee",
+    "source": "02-untitled-2-333.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "ProBack",
+      "DateTimeOriginal": "2009:04:22 01:07:43",
+      "ExposureTime": "0.004",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "03-untitled-d-01.jpg",
+    "width": 850,
+    "height": 604,
+    "sha1": "3723fc73",
+    "source": "03-untitled-d-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-rihanna-asap-rocky.jpg",
+    "width": 567,
+    "height": 567,
+    "sha1": "517bee12",
+    "source": "04-rihanna-asap-rocky.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-taylor-swift-time.jpg",
+    "width": 567,
+    "height": 567,
+    "sha1": "b0fb98dc",
+    "source": "05-taylor-swift-time.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS R5",
+      "DateTimeOriginal": "2023:10:25 11:44:06",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "400",
+      "LensModel": "RF24-105mm F4 L IS USM"
+    }
+  },
+  {
+    "file": "06-untitled-sh20034.jpg",
+    "width": 660,
+    "height": 850,
+    "sha1": "29ef55e0",
+    "source": "06-untitled-sh20034.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-untitled-vmag.jpg",
+    "width": 850,
+    "height": 843,
+    "sha1": "7bb6eccd",
+    "source": "07-untitled-vmag.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2013:04:27 02:20:52",
+      "FocalLength": "63.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "5.6",
+      "ISOSpeedRatings": "320",
+      "LensModel": "EF24-70mm f/2.8L II USM"
+    }
+  },
+  {
+    "file": "08-thank-you-thighmaster-britt.jpg",
+    "width": 512,
+    "height": 790,
+    "sha1": "6b961c53",
+    "source": "08-thank-you-thighmaster-britt.jpg",
+    "exif": {}
+  }
+]

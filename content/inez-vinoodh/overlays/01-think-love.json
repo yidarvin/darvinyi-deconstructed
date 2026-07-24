@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-think-love.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.715, "angle": 0.0, "label": "DISTANT RIDGE" },
+    { "type": "vanishing_point", "x": 0.457, "y": 0.185, "label": "ROAD'S DISTANT POINT" },
+    { "type": "leading_line", "points": [[0.53, 0.383], [0.72, 0.897]], "arrow": true, "label": "DRAPED SILHOUETTE EDGE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.55, "rx": 0.31, "ry": 0.45, "label": "RED VEIL" }
+  ],
+  "notes": "A central red veil interrupts an otherwise receding road." 
+}
