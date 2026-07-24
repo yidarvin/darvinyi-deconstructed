@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "image": "08-old-man-cowboy-5.jpg",
+  "width": 1600,
+  "height": 1063,
+  "aspect": 1.5052,
+  "tonal": {
+    "mean": 0.503067076439951,
+    "std": 0.21339018209419985,
+    "p05": 0.23137254901960785,
+    "p95": 0.8823529411764706,
+    "edge_density": 0.005743049172794118
+  },
+  "palette": [
+    "#4e463e",
+    "#766c62",
+    "#a19688",
+    "#c7c0b2",
+    "#e8e3de"
+  ],
+  "lines": [
+    {
+      "x1": 0.5146484375,
+      "y1": 0.19852941176470587,
+      "x2": 0.541015625,
+      "y2": 0.40147058823529413,
+      "angle_deg": 78.92979742206063,
+      "length": 0.1143951204970948,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.7119140625,
+      "y1": 0.5647058823529412,
+      "x2": 0.75,
+      "y2": 0.7485294117647059,
+      "angle_deg": 72.67207822275877,
+      "length": 0.1065252658240491,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3828125,
+      "y1": 0.2529411764705882,
+      "x2": 0.474609375,
+      "y2": 0.1338235294117647,
+      "angle_deg": -40.7515454706387,
+      "length": 0.1009460365318966,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3310546875,
+      "y1": 0.3161764705882353,
+      "x2": 0.4189453125,
+      "y2": 0.2161764705882353,
+      "angle_deg": -37.0730733173104,
+      "length": 0.09176626318165743,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6083984375,
+      "y1": 0.6073529411764705,
+      "x2": 0.6953125,
+      "y2": 0.538235294117647,
+      "angle_deg": -27.8380811971347,
+      "length": 0.08187964284074874,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.325,
+    "angle_deg": 0.0,
+    "confidence": 0.5328601638084686,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5944327291381175,
+    "y": -0.002323177613912735,
+    "inliers": 2,
+    "confidence": 0.4
+  },
+  "saliency": {
+    "peak": [
+      0.5078125,
+      0.36764705882352944
+    ],
+    "regions": [
+      {
+        "cx": 0.5143198504574583,
+        "cy": 0.35632255295570975,
+        "x": 0.451171875,
+        "y": 0.2647058823529412,
+        "w": 0.1376953125,
+        "h": 0.17941176470588235,
+        "area_frac": 0.01860064338235294
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9069895594742772,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.8282881001645039,
+    "horizontal_axis_y": 0.5125
+  },
+  "subject_anchor": {
+    "x": 0.5078125,
+    "y": 0.36764705882352944,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.4739950753179404,
+    "phi": 0.44767745216762,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.91,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.508,
+      "y": 0.368,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.325,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.53,
+      "why": "luminance split / dominant horizontal (gradient)"
+    }
+  ]
+}
