@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-untitled-moon-2007.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.352, "y": 0.385, "r": 0.035, "label": "raised hands" },
+    { "type": "polyline", "points": [[0.000, 0.770], [0.250, 0.705], [0.500, 0.690], [0.750, 0.710], [1.000, 0.780]], "label": "lunar rim" },
+    { "type": "polyline", "points": [[0.407, 0.420], [0.417, 0.620], [0.520, 0.820], [0.660, 0.950]], "label": "trailing cord" }
+  ],
+  "notes": "A solitary vertical body is held between a dark field and the shallow rise of the moon."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-untitled-240-2010.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.620, "angle": 0, "label": "landscape break" },
+    { "type": "polyline", "points": [[0.410, 0.470], [0.580, 0.560], [0.768, 0.699]], "label": "hunter-to-fox interval" },
+    { "type": "subject_anchor", "x": 0.382, "y": 0.457, "r": 0.035, "label": "walking hunter" }
+  ],
+  "notes": "The hunter's lateral movement is delayed by a shallow landscape that opens toward the fox at right."
+}

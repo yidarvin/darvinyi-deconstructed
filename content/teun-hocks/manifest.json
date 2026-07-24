@@ -1,0 +1,150 @@
+[
+  {
+    "file": "01-untitled-2006.jpg",
+    "width": 800,
+    "height": 596,
+    "sha1": "86004816",
+    "source": "01-untitled-2006.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-untitled-moon-2007.jpg",
+    "width": 1181,
+    "height": 1134,
+    "sha1": "2f7d1890",
+    "source": "02-untitled-moon-2007.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-untitled-261-2015.jpg",
+    "width": 1322,
+    "height": 1343,
+    "sha1": "518bd751",
+    "source": "03-untitled-261-2015.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H3D-31",
+      "DateTimeOriginal": "2015:09:06 17:30:01",
+      "FocalLength": "75.0",
+      "ExposureTime": "0.03333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "HCD 35-90"
+    }
+  },
+  {
+    "file": "04-untitled-259-2015.jpg",
+    "width": 1320,
+    "height": 1311,
+    "sha1": "efba84ef",
+    "source": "04-untitled-259-2015.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H3D-31",
+      "DateTimeOriginal": "2015:09:06 18:21:35",
+      "FocalLength": "90.0",
+      "ExposureTime": "0.03333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "HCD 35-90"
+    }
+  },
+  {
+    "file": "05-untitled-253-2014.jpg",
+    "width": 1600,
+    "height": 1292,
+    "sha1": "0ec86942",
+    "source": "05-untitled-253-2014.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H3D-31",
+      "DateTimeOriginal": "2015:09:06 18:09:46",
+      "FocalLength": "65.0",
+      "ExposureTime": "0.04",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "HCD 35-90"
+    }
+  },
+  {
+    "file": "06-untitled-255-2015.jpg",
+    "width": 1600,
+    "height": 1083,
+    "sha1": "333eac41",
+    "source": "06-untitled-255-2015.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H3D-31",
+      "DateTimeOriginal": "2015:09:06 17:38:20",
+      "FocalLength": "60.0",
+      "ExposureTime": "0.03333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "HCD 35-90"
+    }
+  },
+  {
+    "file": "07-untitled-260-2015.jpg",
+    "width": 1600,
+    "height": 1044,
+    "sha1": "ed382294",
+    "source": "07-untitled-260-2015.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H3D-31",
+      "DateTimeOriginal": "2015:09:06 17:13:32",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.03333333333333333",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "HCD 35-90"
+    }
+  },
+  {
+    "file": "08-untitled-227-2008.jpg",
+    "width": 1280,
+    "height": 876,
+    "sha1": "b51426cf",
+    "source": "08-untitled-227-2008.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-untitled-240-2010.jpg",
+    "width": 1181,
+    "height": 884,
+    "sha1": "8db8d84f",
+    "source": "09-untitled-240-2010.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-untitled-215-2007.jpg",
+    "width": 1039,
+    "height": 1280,
+    "sha1": "6db0a60e",
+    "source": "10-untitled-215-2007.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-untitled-208-2004.jpg",
+    "width": 1024,
+    "height": 795,
+    "sha1": "51e94f9b",
+    "source": "11-untitled-208-2004.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-untitled-242-2011.jpg",
+    "width": 1000,
+    "height": 752,
+    "sha1": "30eedbb7",
+    "source": "12-untitled-242-2011.jpg",
+    "exif": {
+      "Model": "Hasselblad",
+      "DateTimeOriginal": "2011:03:28 16:56:29",
+      "ISOSpeedRatings": "100",
+      "FocalLength": "90.0",
+      "ExposureTime": "0.06666666641831398",
+      "FNumber": "12.0"
+    }
+  }
+]

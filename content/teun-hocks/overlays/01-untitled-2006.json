@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-untitled-2006.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.640, "angle": -0.7, "label": "field edge" },
+    { "type": "subject_anchor", "x": 0.601, "y": 0.520, "r": 0.035, "label": "watering can" },
+    { "type": "polyline", "points": [[0.593, 0.630], [0.588, 0.710], [0.580, 0.820]], "label": "pouring water" }
+  ],
+  "notes": "The low field edge gives the small figure and duck an outsized stage of pale air."
+}

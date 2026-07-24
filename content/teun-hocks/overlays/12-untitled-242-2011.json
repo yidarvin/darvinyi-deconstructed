@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-untitled-242-2011.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.593, "angle": 0, "label": "sea horizon" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.531, "r": 0.035, "label": "traveller's hand" },
+    { "type": "polyline", "points": [[0.760, 0.585], [0.755, 0.440], [0.745, 0.300], [0.730, 0.130]], "label": "ship's smoke" }
+  ],
+  "notes": "The traveller and suitcase hold the foreground while the smoking ship remains a small disturbance at depth."
+}
