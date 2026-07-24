@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "vanishing_point", "x": 0.506, "y": 0.18, "label": "ROOM CONVERGENCE" },
-    { "type": "frame_in_frame", "x": 0.153, "y": 0.255, "w": 0.239, "h": 0.292, "label": "BOX OPENING" },
+    { "type": "frame_in_frame", "x": 0.229, "y": 0.266, "w": 0.164, "h": 0.224, "label": "BOX OPENING" },
     { "type": "ellipse", "cx": 0.316, "cy": 0.373, "rx": 0.065, "ry": 0.12, "label": "HIDDEN FIGURE" }
   ],
   "notes": "Checkerboard walls converge toward the rear arch while a figure is partly hidden inside a smaller checkered opening."

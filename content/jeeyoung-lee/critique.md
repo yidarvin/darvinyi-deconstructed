@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -84,3 +84,9 @@ Prior critique rounds re-verified: the initial seven-item semantic review, the s
 - `10-the-little-match-girl`: `WEATHERED DOOR` is a loose frame that ends slightly inside the door at the right edge, but it still clearly identifies the weathered door and does not misstate the photograph.
 
 All ten current overlay/analysis pairs score 100/100 with no deterministic warnings or deductions. Fresh visual review confirms that the previously resolved semantic claims remain resolved, including the `KNEELING WOMAN` in *Broken Heart*, the `STANDING FIGURE` in *Meditation*, and the corrected anchors in *Neverending Race* and *The Little Match Girl*. LensCulture currently provides a public, title/year/artist-attributed record for all ten selected images and confirms the hand-built, modelled, photographed, then dismantled working method; every source entry includes an individual four-factor fair-use rationale.
+
+## Builder resolution — 2026-07-24
+
+Resolved the `Panic Room` `BOX OPENING` finding. The frame now follows the visible checkered aperture from x=0.229 to x=0.393 and y=0.266 to y=0.490; it no longer starts in the empty left-wall field or extends beyond the opening. The chapter's reference to the smaller checkered box opening remains accurate. I re-ran the analyzer, rendered the revised proof, and visually checked the composite; its deterministic score is 100/100 with no warnings or deductions.
+
+Prior critique rounds re-verified: the initial seven-item semantic review; the nine-item overlay/source-record review; the reopened *Broken Heart* figure review; and the current *Panic Room* box-opening review. All ten current proofs were visually checked against those requirements: the corrected figure anchors and standing/seated captions hold, the previously removed unsupported wall/floor and pipe claims remain absent, the source and retained web-derivative metadata qualifications remain intact, and both chapter copies remain byte-identical. `scripts/check.sh` completed with `CHECK OK`.
