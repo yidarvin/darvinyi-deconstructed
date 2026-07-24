@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-jpeg-ny01-2004.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.23, "y": 0.04, "w": 0.26, "h": 0.63, "label": "SPIRE FIELD" },
+    { "type": "horizon_line", "y": 0.73, "label": "DISTANT SKYLINE" },
+    { "type": "polyline", "points": [[0.32, 0.05], [0.33, 0.38], [0.34, 0.66]], "label": "COMPRESSED SPIRE" }
+  ],
+  "notes": "The compressed spire remains legible inside a grid of enlarged JPEG blocks."
+}

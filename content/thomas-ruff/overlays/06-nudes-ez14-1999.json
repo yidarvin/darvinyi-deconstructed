@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-nudes-ez14-1999.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.55, "cy": 0.52, "rx": 0.22, "ry": 0.10, "label": "SOFTENED MOUTH" },
+    { "type": "ellipse", "cx": 0.32, "cy": 0.34, "rx": 0.12, "ry": 0.07, "label": "SOFTENED EYE" },
+    { "type": "polyline", "points": [[0.36, 0.52], [0.55, 0.60], [0.75, 0.57]], "label": "BLURRED LIP EDGE" }
+  ],
+  "notes": "Blurred facial fragments make recognition depend on soft color rather than detail."
+}

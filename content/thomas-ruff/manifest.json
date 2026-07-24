@@ -1,0 +1,102 @@
+[
+  {
+    "file": "01-portrait-p-lappat-1987.jpg",
+    "width": 900,
+    "height": 1199,
+    "sha1": "751e1c69",
+    "source": "01-portrait-p-lappat-1987.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-house-nr-1-i-1987.jpg",
+    "width": 1600,
+    "height": 857,
+    "sha1": "8f859ab8",
+    "source": "02-house-nr-1-i-1987.jpg",
+    "exif": {
+      "Make": "Creo",
+      "Model": "EverSmart Supremw",
+      "DateTimeOriginal": "1609290936"
+    }
+  },
+  {
+    "file": "03-house-nr-7-i-1988.jpg",
+    "width": 903,
+    "height": 1200,
+    "sha1": "eab6e768",
+    "source": "03-house-nr-7-i-1988.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-00h-00m-minus-20-1990.jpg",
+    "width": 797,
+    "height": 1199,
+    "sha1": "2ae32f55",
+    "source": "04-00h-00m-minus-20-1990.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-nacht-2-i-1992.jpg",
+    "width": 1269,
+    "height": 1200,
+    "sha1": "5efd64bd",
+    "source": "05-nacht-2-i-1992.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-nudes-ez14-1999.jpg",
+    "width": 1600,
+    "height": 1051,
+    "sha1": "57b608af",
+    "source": "06-nudes-ez14-1999.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-jpeg-ny01-2004.jpg",
+    "width": 850,
+    "height": 1199,
+    "sha1": "f4ba9aea",
+    "source": "07-jpeg-ny01-2004.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-jpeg-nt01-2004.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "9310de82",
+    "source": "08-jpeg-nt01-2004.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-ma-r-s-01-2010.jpg",
+    "width": 841,
+    "height": 1199,
+    "sha1": "c2c50e8b",
+    "source": "09-ma-r-s-01-2010.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-ma-r-s-13-2011.jpg",
+    "width": 841,
+    "height": 1199,
+    "sha1": "689e0bdb",
+    "source": "10-ma-r-s-13-2011.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-phg-05-2012.jpg",
+    "width": 841,
+    "height": 1199,
+    "sha1": "21d4516e",
+    "source": "11-phg-05-2012.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-press-00-53-2015.jpg",
+    "width": 1096,
+    "height": 1200,
+    "sha1": "a24309e4",
+    "source": "12-press-00-53-2015.jpg",
+    "exif": {}
+  }
+]

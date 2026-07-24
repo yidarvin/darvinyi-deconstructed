@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "image": "06-nudes-ez14-1999.jpg",
+  "width": 1600,
+  "height": 1051,
+  "aspect": 1.5224,
+  "tonal": {
+    "mean": 0.5921149245831145,
+    "std": 0.29879548385186633,
+    "p05": 0.054901960784313725,
+    "p95": 0.9294117647058824,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#f8d7c6",
+    "#dfa795",
+    "#1b120b",
+    "#b76d59",
+    "#75382c"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.37797619047619047,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0,
+      0.9880952380952381
+    ],
+    "regions": [
+      {
+        "cx": 0.021240026948810536,
+        "cy": 0.9628159515717927,
+        "x": 0.0,
+        "y": 0.9166666666666666,
+        "w": 0.0498046875,
+        "h": 0.08333333333333333,
+        "area_frac": 0.003420875186011905
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.40957178619122075,
+    "vertical_axis_x": 0.5375,
+    "horizontal": 0.3665210473850965,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.9880952380952381,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.27910052910052907,
+    "phi": 0.4296673304669824,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.378,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.988,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

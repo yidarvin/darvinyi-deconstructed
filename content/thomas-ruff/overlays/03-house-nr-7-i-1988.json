@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-house-nr-7-i-1988.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.723, "label": "STREET EDGE" },
+    { "type": "leading_line", "points": [[0.173, 0.894], [0.69, 0.782]], "arrow": true, "label": "CURB LINE" },
+    { "type": "subject_anchor", "x": 0.594, "y": 0.32, "r": 0.035, "label": "CHIMNEY" }
+  ],
+  "notes": "The near facade and curb give an ordinary street a measured recession."
+}

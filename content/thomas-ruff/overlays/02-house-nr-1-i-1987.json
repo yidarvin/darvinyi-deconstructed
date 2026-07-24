@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-house-nr-1-i-1987.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FACADE AXIS" },
+    { "type": "horizon_line", "y": 0.411, "label": "ROOF EAVE" },
+    { "type": "subject_anchor", "x": 0.71, "y": 0.131, "r": 0.035, "label": "STREETLAMP" }
+  ],
+  "notes": "The nominally symmetrical house is interrupted by a pole and two unequal entrances."
+}

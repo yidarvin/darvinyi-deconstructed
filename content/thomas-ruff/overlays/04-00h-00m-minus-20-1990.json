@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-00h-00m-minus-20-1990.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.44, "y": 0.163, "r": 0.025, "label": "BRIGHT STAR" },
+    { "type": "ellipse", "cx": 0.25, "cy": 0.31, "rx": 0.025, "ry": 0.02, "label": "BRIGHT STAR" },
+    { "type": "ellipse", "cx": 0.71, "cy": 0.31, "rx": 0.035, "ry": 0.025, "label": "BRIGHT STAR" }
+  ],
+  "notes": "A few brighter points punctuate an otherwise dispersed astronomical field."
+}

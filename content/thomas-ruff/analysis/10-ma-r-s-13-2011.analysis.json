@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "image": "10-ma-r-s-13-2011.jpg",
+  "width": 841,
+  "height": 1199,
+  "aspect": 0.7014,
+  "tonal": {
+    "mean": 0.5503828110065404,
+    "std": 0.09478316907567792,
+    "p05": 0.36470588235294116,
+    "p95": 0.6666666666666666,
+    "edge_density": 0.0033458826601671307
+  },
+  "palette": [
+    "#a09e91",
+    "#8e8d7f",
+    "#787769",
+    "#4f4e46",
+    "#b7b5ae"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.2451171875,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0,
+      0.2568359375
+    ],
+    "regions": [
+      {
+        "cx": 0.03803282350236419,
+        "cy": 0.2505299928323099,
+        "x": 0.0,
+        "y": 0.2001953125,
+        "w": 0.09331476323119778,
+        "h": 0.1044921875,
+        "area_frac": 0.007530956215181059
+      },
+      {
+        "cx": 0.9669674657499457,
+        "cy": 0.3053926764223195,
+        "x": 0.9233983286908078,
+        "y": 0.2763671875,
+        "w": 0.0766016713091922,
+        "h": 0.060546875,
+        "area_frac": 0.0037294350626740948
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.4903463470251479,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7554357608908755,
+    "horizontal_axis_y": 0.4625
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.2568359375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.1177179783950618,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.245,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.257,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

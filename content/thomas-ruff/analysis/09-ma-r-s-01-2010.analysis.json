@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "image": "09-ma-r-s-01-2010.jpg",
+  "width": 841,
+  "height": 1199,
+  "aspect": 0.7014,
+  "tonal": {
+    "mean": 0.5562486078823939,
+    "std": 0.10349112838466186,
+    "p05": 0.4,
+    "p95": 0.7254901960784313,
+    "edge_density": 0.0012880288126740948
+  },
+  "palette": [
+    "#a38b6f",
+    "#8d7559",
+    "#b9a185",
+    "#786043",
+    "#d2ba9e"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.697265625,
+    "angle_deg": 0.0,
+    "confidence": 0.9439963798599948,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.38993664244663967,
+        "cy": 0.029996696650645336,
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.8983286908077994,
+        "h": 0.0888671875,
+        "area_frac": 0.05058267322423398
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.776081530107263,
+    "vertical_axis_x": 0.6,
+    "horizontal": 0.5281666645942152,
+    "horizontal_axis_y": 0.5625
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.33111496913580235,
+    "phi": 0.15099393981442513,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.697,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.94,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

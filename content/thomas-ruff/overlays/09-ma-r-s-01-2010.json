@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-ma-r-s-01-2010.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.16, 0.05], [0.23, 0.28], [0.18, 0.54], [0.25, 0.83]], "label": "DUNE CREST" },
+    { "type": "polyline", "points": [[0.48, 0.02], [0.55, 0.27], [0.50, 0.54], [0.58, 0.84]], "label": "DUNE CREST" },
+    { "type": "polyline", "points": [[0.75, 0.03], [0.68, 0.30], [0.74, 0.60], [0.68, 0.88]], "label": "DUNE CREST" }
+  ],
+  "notes": "Repeated dune crests turn top-down terrain into a vertically paced field."
+}

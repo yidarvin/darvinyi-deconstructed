@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-press-00-53-2015.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.03, "w": 0.91, "h": 0.94, "label": "ARCHIVAL SHEET" },
+    { "type": "horizon_line", "y": 0.103, "label": "ARCHIVE IMAGE EDGE" },
+    { "type": "subject_anchor", "x": 0.56, "y": 0.726, "r": 0.035, "label": "COMMAND MODULE" }
+  ],
+  "notes": "The press-sheet border and lunar scene remain inseparable layers of the image."
+}

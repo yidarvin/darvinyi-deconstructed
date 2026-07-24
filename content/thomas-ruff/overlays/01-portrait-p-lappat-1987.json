@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-portrait-p-lappat-1987.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FRONTAL AXIS" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.43, "rx": 0.34, "ry": 0.32, "label": "FACIAL FIELD" },
+    { "type": "horizon_line", "y": 0.727, "label": "SWEATER EDGE" }
+  ],
+  "notes": "A centered, nearly symmetrical face is held above the dark sweater edge."
+}

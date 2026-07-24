@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-phg-05-2012.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.058, 0.415], [0.235, 0.162]], "arrow": true, "label": "DIAGONAL ROD" },
+    { "type": "horizon_line", "y": 0.655, "label": "BRIGHT BAR" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.23, "rx": 0.06, "ry": 0.045, "label": "CIRCULAR FILTER" }
+  ],
+  "notes": "A bright rod, bar, and circular filter organize a virtual-darkroom construction."
+}
