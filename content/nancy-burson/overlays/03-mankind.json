@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-mankind.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "COMPOSITE AXIS" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.437, "rx": 0.3, "ry": 0.35, "label": "FACIAL FIELD" },
+    { "type": "polyline", "points": [[0.355, 0.475], [0.5, 0.455], [0.645, 0.475]], "label": "EYE LINE" }
+  ],
+  "notes": "A frontal axis and broad facial field make the demographic composite appear neutral before its premise is read."
+}

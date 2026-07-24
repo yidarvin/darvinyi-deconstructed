@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-mankind-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "COMPOSITE AXIS" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.44, "rx": 0.33, "ry": 0.365, "label": "FACIAL FIELD" },
+    { "type": "polyline", "points": [[0.335, 0.46], [0.5, 0.446], [0.665, 0.46]], "label": "EYE LINE" }
+  ],
+  "notes": "The close rectangular crop gives the frontal face little lateral escape, making its grain and blend confrontational."
+}

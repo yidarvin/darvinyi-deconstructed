@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-first-beauty-composite.jpg",
+    "width": 900,
+    "height": 859,
+    "sha1": "b51af676",
+    "source": "01-first-beauty-composite.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-the-president-second-version.jpg",
+    "width": 1251,
+    "height": 1600,
+    "sha1": "3940d72e",
+    "source": "02-the-president-second-version.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-mankind.jpg",
+    "width": 1013,
+    "height": 1200,
+    "sha1": "eab67d93",
+    "source": "03-mankind.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-mankind-ii.jpg",
+    "width": 1200,
+    "height": 1357,
+    "sha1": "1a920fd8",
+    "source": "04-mankind-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-aged-barbie.jpg",
+    "width": 1024,
+    "height": 971,
+    "sha1": "865138c8",
+    "source": "05-aged-barbie.jpg",
+    "exif": {}
+  }
+]

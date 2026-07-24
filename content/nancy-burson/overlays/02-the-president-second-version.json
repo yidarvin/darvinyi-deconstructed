@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-the-president-second-version.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "PORTRAIT AXIS" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.403, "rx": 0.245, "ry": 0.25, "label": "COMPOSITE FACE" },
+    { "type": "polyline", "points": [[0.355, 0.714], [0.505, 0.794], [0.68, 0.715]], "label": "JACKET V" }
+  ],
+  "notes": "The high, centered head and enclosing jacket make a constructed political likeness feel formally official."
+}

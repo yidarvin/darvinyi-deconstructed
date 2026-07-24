@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-first-beauty-composite.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "COMPOSITE AXIS" },
+    { "type": "ellipse", "cx": 0.503, "cy": 0.473, "rx": 0.285, "ry": 0.355, "label": "BLENDED FACE" },
+    { "type": "polyline", "points": [[0.335, 0.472], [0.5, 0.452], [0.665, 0.472]], "label": "EYE LINE" }
+  ],
+  "notes": "A centered, nearly bilateral facial field makes the five-source blend read as one beauty ideal."
+}
