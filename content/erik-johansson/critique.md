@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -31,3 +31,23 @@ verdict: resolved
 ## Resolution — 2026-07-24
 
 Resolved all seven required items from the 2026-07-24 critique round. Re-rendered and visually checked the affected proofs: the moon anchor now centers the moon; *The Architect* names only visible roof planes; *Soundscapes* traces the carried record; *Demand & Supply* names the sea horizon and built island; *The Light Keeper* removes the nonexistent cable; *Endless Reflections* names the shore tree and boat; and *Fishy Island* traces the actual underwater fish body. The matching chapter, research, and source text was reconciled, including the fair-use necessity descriptions. The full prior critique history was re-verified (round 2026-07-24; no earlier rounds). All 12 overlay specs score at least 80 (94.6–100) and the full `scripts/check.sh` gate passes.
+
+## Critique round — 2026-07-24
+
+### Required
+
+1. **01-full-moon-service-2017 — remove or truthfully replace the false road-convergence claim.** The `vanishing_point` at `x=0.289, y=0.531` lands in grass/distant vegetation beside the ladder; the proof contains no road or converging road edges there. The analyzer’s generic 12-diagonal proposal establishes a coordinate, not a road. Remove this primitive or replace it with a visible, correctly named feature, and revise the chapter’s claim that this point is a road convergence drawing the eye to the service vehicle and figures.
+
+2. **08-imminent-2016 — remove or replace the false ground line.** The horizontal `horizon_line` at `y=0.725` crosses the rising left hillside and the village roofs at right instead of tracing a continuous ground plane, horizon, road, or other feature. The analyzer marks it only as a low-confidence (`0.607`) luminance split. Omit it or use a primitive that follows an actual named structure, then correct the chapter sentence that says this line holds the lower valley steady.
+
+3. **11-fishy-island-2010 — correct the documented year for *Fishy Island*.** The linked primary artist gallery’s image alt text identifies the exact linked rendition as “Fishy Island, 2009,” while `sources.md` and the visible Plate label assert 2010. Correct the visible bibliographic/source record and reconcile any year-bearing local identifiers or metadata so they do not perpetuate the unsupported 2010 date.
+
+### Advisory (non-blocking)
+
+- The same primary artist gallery expands *Imminent* to “Imminent / Don’t Worry, 2016,” while the portfolio uses *Imminent*. Consider recording the alternate title in `sources.md` for stronger bibliographic traceability; the current shorter title is not materially misleading.
+
+### Review notes
+
+- All twelve proof PNGs were visually reviewed against their current specs and analysis JSON. Current score runs pass every overlay (01: 94.6; all others: 100), but the three required issues above are semantic/source-truth failures that the geometric scorer does not detect.
+- The 01 and 08 findings are new material regressions not settled by the prior 2026-07-24 resolution: the currently rendered labels still name features absent from their proofs. The prior resolved items remain resolved.
+- The artist gallery and all twelve direct CDN renditions resolved publicly during this review. Every image has a source link, rightsholder notice, and concise four-factor fair-use rationale. The chapter and research correctly treat camera settings, EXIF, workflow, and print details as unreported.
