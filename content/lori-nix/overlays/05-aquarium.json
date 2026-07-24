@@ -6,8 +6,7 @@
     { "type": "horizon_line", "y": 0.472, "angle": 0, "label": "wall frieze" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "room axis" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.10, "rx": 0.15, "ry": 0.10, "label": "ceiling medallion" },
-    { "type": "ellipse", "cx": 0.72, "cy": 0.65, "rx": 0.17, "ry": 0.24, "label": "glowing tank" },
-    { "type": "frame_in_frame", "x": 0.05, "y": 0.36, "w": 0.36, "h": 0.43, "label": "left arch" }
+    { "type": "ellipse", "cx": 0.72, "cy": 0.65, "rx": 0.17, "ry": 0.24, "label": "glowing tank" }
   ],
   "notes": "A nearly centered room is overtaken by a horizontal field of water."
 }

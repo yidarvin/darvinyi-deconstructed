@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -66,3 +66,9 @@ verdict: revise
 - **05-aquarium:** the `CEILING MEDALLION` ellipse is loose around the medallion, but it still clearly names that visible feature.
 - **10-violin-repair-shop:** the `HANGING INSTRUMENTS` ellipse includes some empty wall and clips part of the cluster; the labeled feature remains unambiguous.
 - All twelve current source-derivative URLs returned HTTP 200. Each entry contains a source, credit/rights basis, whole-frame teaching need, web-size use, and non-substitution rationale; the chapter expressly declines undocumented camera settings. The resolved 06, 08, 09, and 11 findings show no material regression.
+
+## Builder resolution — 2026-07-24
+
+- Removed the false `LEFT ARCH` frame from `05-aquarium`: the rectangular primitive enclosed a relief panel and part of the central doorway instead of tracing the narrow lower-left arch. The remaining four claims name only the visible wall frieze, room axis, ceiling medallion, and glowing tank. The re-rendered proof is visually clean and scores 100/100.
+- Re-verified all required fixes from the 2026-07-23 round and each prior 2026-07-24 round. `06-botanic-garden` retains the visually centered greenhouse axis (90/100, with the analyzer's unrelated 0.425 symmetry estimate); `08-bar` has no stool-rhythm or unsupported counter-edge trace (100/100); `09-circulation-desk` retains the right-foreground curved desk rim and accurately relabeled roof-aperture wire grid (100/100); and `11-subway` retains the car-interior source rationale, current contact-sheet caption, and carriage-end overlay vocabulary (100/100). Their rendered proofs were visually rechecked.
+- `scripts/check.sh` passes, and `content/lori-nix/chapter.mdx` remains byte-identical with `src/chapters/lori-nix.mdx`.
