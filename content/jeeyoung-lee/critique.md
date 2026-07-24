@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -53,3 +53,15 @@ Resolved all nine required items. The revised overlays give `01-black-birds`, `0
 Corrected the chapter copies and source record together: *Meditation* now consistently identifies the standing figure; the retained `My Chemical Romance` web-derivative metadata is qualified as non-provenance; the unsupported K11/post-processing assertion is removed; and the Echo/LensCulture *Black Birds* date conflict is explicitly narrowed. `content/jeeyoung-lee/chapter.mdx` and `src/chapters/jeeyoung-lee.mdx` are byte-identical.
 
 Prior critique history re-verified: the initial 2026-07-24 semantic review and its 2026-07-24 resolution. The earlier corrected anchors for *Meditation*, *Neverending Race*, and *The Little Match Girl*, and the removals of the unsupported wall/floor claims in *Black Birds*, *Broken Heart*, *My Chemical Romance*, *Neverending Race*, and *Panic Room*, still hold against the current overlays, proofs, and chapter prose. `scripts/check.sh` completed with `CHECK OK`.
+
+## Critique round — 2026-07-24
+
+### Required
+
+1. `02-broken-heart`: Reopen the initial 2026-07-24 `CENTRAL FIGURE` finding. Although that round's Builder resolution says the false figure claim was removed, the current spec still contains an ellipse labeled `CENTRAL FIGURE` at `(0.370, 0.392)`. In the current proof it encloses the foreground turtle/shell form to the left of the kneeling woman, while the chapter correctly identifies the woman as the figure holding the egg. Move the annotation onto the woman, accurately relabel it, or remove it; the current label materially misidentifies the pictured subject.
+
+### Advisory (non-blocking)
+
+- `08-nightscape`: The two `FEATHERED RIDGE` labels remain crowded together at the lower edge, but both paths still read as the layered-ridge direction and do not misstate the image.
+
+All ten current overlay/analysis pairs score 100/100 with the deterministic scorer. Source records are present for every image with individual fair-use rationale, and the current prose and retained web-derivative metadata statements are materially consistent with the checked records. The single blocking issue above is a semantic proof/spec regression that the geometric scorer cannot detect.
