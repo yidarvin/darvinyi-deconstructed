@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -37,3 +37,17 @@ Each refreshed overlay was rendered, visually checked, and scored 100/100 agains
 1. **05-monitor:** Removed the false `horizon_line` claim labelled “CEILING-PANEL REGISTER.” The refreshed proof retains only the visible diagonal ceiling seam, the measured dome axis, and the reflective-dome ellipse; it no longer treats the analyzer’s luminance split as an architectural panel edge.
 
 The refreshed `05-monitor` overlay was rendered, visually checked, and scored 100/100 against its paired analysis JSON. Re-verified critique history: the first 2026-07-24 critique round (08-dark-hall-ii, 09-stair, and 10-co) and this 2026-07-24 round (05-monitor). The three earlier proofs retain no symmetry-axis claim, and the current proof retains no false horizontal ceiling-panel claim.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **10-co — remove or replace the full-frame `horizon_line` labelled “LOW WALL SEAM,” and revise the matching caption/prose.** The primitive extrapolates from x=0 to x=1 at y=0.772/−7°, but the proof shows no corresponding wall seam across the blank lower field. The visible structural edge is the diagonal ceiling corner, followed only by a short right-side junction. This makes a material false architectural claim despite the analyzer-alignment score of 100/100. Use a bounded primitive that traces a visible feature, or omit it; update the plate caption and the paragraph’s “low seam” claim to match.
+2. **Correct the false absence claim about print/display metadata in `research.md` and the chapter callout.** Both currently state that no printing process or work-specific print details are documented. The linked primary artist Works record documents them: *Dark Hall II* (2000), “Cibachrome mounted on aluminum,” 29.5 × 39.5 in.; *Stair* (2001), “Fujiflex print mounted on aluminum,” 30.5 × 59.5 in.; and *C.O.* (2002), “Inkjet print mounted on plexiglas,” 46.5 × 78.5 in. Attribute these details to the artist record (and add them to the relevant source notes if appropriate). The chapter may still accurately state that camera/exposure metadata and useful JPEG EXIF are absent.
+
+### Advisory (non-blocking)
+
+- **02-hallway:** “NESTED DOORWAY” and “LIT THRESHOLD” remain tightly stacked, though both labels and their matching primitives are legible and truthful.
+- **07-hall:** the “FIRST CEILING LIGHT” anchor lands near the cropped light’s left end rather than its visual centre; it still identifies that light.
+- **09-stair:** “circular opening” and “round fixture” alternate for the same round form. A single neutral term would be clearer, but the annotations remain materially truthful.
+- All ten current specs score 100/100 against their paired analyzer JSON. The earlier resolved findings remain resolved: 05 has no false horizontal ceiling-panel claim; 08 and 10 have no symmetry-axis claim; and 09 has no misaligned fixture axis. The ten artist-site display-image URLs returned public JPEG responses in this review, and each source entry includes a traceable link, credit/rights notice, and per-image four-factor fair-use rationale. No camera setting is invented.
