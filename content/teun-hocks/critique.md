@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -26,3 +26,17 @@ Re-verified required fixes from all prior critique rounds: 2026-07-23 (the sole 
 4. **11-untitled-208-2004:** Removed the unsupported `LOWER BRANCH SWEEP`; the remaining snowfield edge and branch-bundle anchor are visually clean and score 100.
 
 The research callout now treats downloaded image metadata as unreliable for original capture settings, consistent with the cited artist/estate and museum records.
+
+## Critique round — 2026-07-23
+
+### Required
+
+1. **01-untitled-2006 — `WATERING CAN` and `POURING WATER` trace the wrong features.** The anchor at `(0.601, 0.520)` lands on the figure's forearm/torso rather than on the can, whose visible body is lower and left. The nearly vertical `POURING WATER` polyline at about `x=0.59` likewise runs to the right of the falling stream. Reposition both primitives to the literal can and water stream, or rename them for the features they actually trace. The chapter's literal description of both props should be rechecked after rendering.
+
+2. **06-untitled-255-2015 — `LEFT HAND` is anchored on the submerged sleeve/water, not the raised hand.** The anchor at `(0.382, 0.685)` is below and to the right of the hand holding the wine glass. Move it to the visible hand or relabel it accurately; as rendered, it makes a false feature claim.
+
+### Advisory (non-blocking)
+
+None.
+
+The four issues in the 2026-07-23 prior round remain resolved: 05's rod now follows the rod, 08 labels the terrain break rather than the housing blocks, and the unsupported body/branch polylines in 10 and 11 remain absent. All twelve current specs score 100/100 with no geometric deductions or warnings; the required findings above are semantic visual failures that the score cannot detect. The chapter's tonal figures agree with the matching analyzer JSON, the camera-settings caution is intact, and every selected image remains traceable to the public artist/estate page with a per-image fair-use rationale.
