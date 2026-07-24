@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-cebus-nigittatus.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.500, "cy": 0.440, "rx": 0.290, "ry": 0.310, "label": "ANIMAL-LIKE FACE" },
+    { "type": "polyline", "points": [[0.427, 0.377], [0.530, 0.468], [0.639, 0.554]], "label": "DARK TANGLE" },
+    { "type": "frame_in_frame", "x": 0.035, "y": 0.035, "w": 0.930, "h": 0.920, "label": "WORN IMAGE FIELD" }
+  ],
+  "notes": "A ghostly face remains unstable inside a worn field, where scratches and a dark tangle mimic evidence."
+}

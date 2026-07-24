@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-supratex-horadatus.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.669, "y": 0.674, "r": 0.035, "label": "SIDE GROWTH" },
+    { "type": "polyline", "points": [[0.487, 0.160], [0.477, 0.345], [0.526, 0.535], [0.553, 0.716]], "label": "SPECIMEN SPINE" },
+    { "type": "ellipse", "cx": 0.447, "cy": 0.116, "rx": 0.142, "ry": 0.092, "label": "SWOLLEN HEAD" }
+  ],
+  "notes": "The isolated silhouette rises through a pale reserve, with the head and side growth upsetting its apparent centrality."
+}

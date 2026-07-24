@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-garden-of-the-dragon.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.146, 0.767], [0.361, 0.141]], "arrow": true, "label": "PALE FRACTURE" },
+    { "type": "polyline", "points": [[0.252, 0.638], [0.360, 0.380], [0.480, 0.107]], "label": "SECOND FRACTURE" },
+    { "type": "ellipse", "cx": 0.578, "cy": 0.482, "rx": 0.250, "ry": 0.365, "label": "DENSE SURFACE FIELD" }
+  ],
+  "notes": "Cracked bands and interrupted slabs keep the surface from settling into a stable figure-ground."
+}

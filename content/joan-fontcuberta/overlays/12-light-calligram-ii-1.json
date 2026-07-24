@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-light-calligram-ii-1.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.436, "y": 0.570, "r": 0.035, "label": "INK BURST" },
+    { "type": "vanishing_point", "x": 0.484, "y": 0.544, "label": "RAY CENTER" },
+    { "type": "leading_line", "points": [[0.518, 0.513], [0.695, 0.394]], "arrow": true, "label": "UPPER-RIGHT RAY" }
+  ],
+  "notes": "An off-center burst turns a mostly blank sheet into a diagram of outward force."
+}

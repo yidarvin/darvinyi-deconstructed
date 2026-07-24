@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-pirofagus-catalanae.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "SHEET AXIS" },
+    { "type": "subject_anchor", "x": 0.898, "y": 0.392, "r": 0.035, "label": "SIDE STUDY" },
+    { "type": "frame_in_frame", "x": 0.072, "y": 0.070, "w": 0.850, "h": 0.760, "label": "ARCHIVAL SHEET" }
+  ],
+  "notes": "An old-paper sheet stages separate studies and labels as a single piece of archival evidence."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-pirulera-salbitana.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.303, "y": 0.413, "r": 0.030, "label": "SMALL FLY" },
+    { "type": "polyline", "points": [[0.220, 0.947], [0.206, 0.725], [0.265, 0.470], [0.419, 0.343], [0.688, 0.226], [0.936, 0.061]], "label": "UPPER ARC" },
+    { "type": "polyline", "points": [[0.177, 0.989], [0.192, 0.762], [0.251, 0.548], [0.303, 0.413]], "label": "LOWER ARC" }
+  ],
+  "notes": "Two long curves close around a small fly, making empty paper carry the picture's tension."
+}

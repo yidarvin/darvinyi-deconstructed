@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-apocalypse-st-john.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.424, "angle": 0.0, "label": "BLACK-SKY BOUNDARY" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "FIELD AXIS" },
+    { "type": "vanishing_point", "x": 0.520, "y": 0.692, "label": "DOTTED FIELD CENTER" }
+  ],
+  "notes": "A low luminous field of marks is compressed beneath a broad, featureless black sky."
+}

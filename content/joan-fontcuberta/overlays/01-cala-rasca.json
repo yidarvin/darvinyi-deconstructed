@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-cala-rasca.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.669, "y": 0.725, "r": 0.035, "label": "WRAPPED BASE" },
+    { "type": "polyline", "points": [[0.690, 0.958], [0.678, 0.730], [0.565, 0.470], [0.437, 0.243]], "label": "ARCING STEM" },
+    { "type": "ellipse", "cx": 0.430, "cy": 0.235, "rx": 0.112, "ry": 0.075, "label": "FLOWER OPENING" }
+  ],
+  "notes": "A single arcing stem makes the blank field an active interval between wrapped base and flower."
+}
