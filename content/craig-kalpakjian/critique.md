@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -20,3 +20,14 @@ verdict: resolved
 3. **10-co:** Removed the false `symmetry_axis`; the proof now limits its claim to the measured low wall seam and visible ceiling-corner diagonal.
 
 Each refreshed overlay was rendered, visually checked, and scored 100/100 against its paired analysis JSON. Re-verified critique history: round dated 2026-07-24 (the only prior round); all three required fixes hold in the current overlays and proofs.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **05-monitor — remove or replace the `horizon_line` labelled “CEILING-PANEL REGISTER.”** The horizontal line at y=0.298 crosses the upper portion of the reflective dome and unrelated diagonal ceiling-tile joints; no horizontal ceiling-panel register occupies that path. The analyzer’s luminance split is geometrically valid, but the current label makes a false architectural claim in the proof. Retain only an annotation that traces a visible panel edge or omit this primitive.
+
+### Advisory (non-blocking)
+
+- **02-hallway:** “NESTED DOORWAY” and “LIT THRESHOLD” labels are tightly stacked above the opening, though both remain legible and their geometry is truthful.
+- All ten specs score 100/100 against their paired analyses. The earlier required-fix round remains resolved: 08 has no symmetry-axis claim, 09’s fixture is located by its aligned anchor and ellipse, and 10 has no symmetry-axis claim. All ten artist-site display-image URLs returned public JPEG responses during this review; each source entry retains a traceable link, rights notice, and per-image four-factor fair-use rationale. No camera data or limited-mode claims were invented.
