@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -90,3 +90,13 @@ All ten current overlay/analysis pairs score 100/100 with no deterministic warni
 Resolved the `Panic Room` `BOX OPENING` finding. The frame now follows the visible checkered aperture from x=0.229 to x=0.393 and y=0.266 to y=0.490; it no longer starts in the empty left-wall field or extends beyond the opening. The chapter's reference to the smaller checkered box opening remains accurate. I re-ran the analyzer, rendered the revised proof, and visually checked the composite; its deterministic score is 100/100 with no warnings or deductions.
 
 Prior critique rounds re-verified: the initial seven-item semantic review; the nine-item overlay/source-record review; the reopened *Broken Heart* figure review; and the current *Panic Room* box-opening review. All ten current proofs were visually checked against those requirements: the corrected figure anchors and standing/seated captions hold, the previously removed unsupported wall/floor and pipe claims remain absent, the source and retained web-derivative metadata qualifications remain intact, and both chapter copies remain byte-identical. `scripts/check.sh` completed with `CHECK OK`.
+
+## Critique round — 2026-07-24
+
+### Required
+
+None. All ten proofs are materially truthful against their current overlay specs and analysis records. The earlier corrected figure anchors, removed false structural claims, and *Panic Room* box-opening correction remain resolved. Each analysis/spec pair scores 100/100 with no deductions or warnings; the chapter's measured claims, EXIF qualification, and individual four-factor fair-use records match the audited files. The linked LensCulture record remains public and identifies all ten selected title/year/copyright records as well as the hand-built, modelled, photographed, then demolished working method.
+
+### Advisory (non-blocking)
+
+- `08-nightscape`: the two `FEATHERED RIDGE` labels remain crowded at the lower edge. Both paths still trace visible layered ridges, so this is cosmetic and does not block approval.
