@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-hallway.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.300, "angle": 0.0, "label": "doorway lintel" },
+    { "type": "subject_anchor", "x": 0.398, "y": 0.260, "r": 0.035, "label": "lit threshold" },
+    { "type": "frame_in_frame", "x": 0.377, "y": 0.210, "w": 0.350, "h": 0.630, "label": "nested doorway" }
+  ],
+  "notes": "A small lit threshold interrupts a nearly blank field and makes the room read as a sequence of enclosures."
+}

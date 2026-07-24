@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-corridor.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.582, "y": 0.500, "label": "turning pull" },
+    { "type": "horizon_line", "y": 0.542, "angle": 0.0, "label": "floor-to-wall register" },
+    { "type": "subject_anchor", "x": 0.569, "y": 0.551, "r": 0.035, "label": "bend in passage" },
+    { "type": "leading_line", "points": [[0.000, 0.991], [0.302, 0.731]], "arrow": true, "label": "floor-edge route" }
+  ],
+  "notes": "The floor edge and a measured central pull turn a curving corridor into a controlled route."
+}

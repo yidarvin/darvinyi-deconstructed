@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-hall.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.225, "angle": -5.1, "label": "ceiling-wall edge" },
+    { "type": "leading_line", "points": [[0.060, 0.998], [0.638, 0.657]], "arrow": true, "label": "floor-edge route" },
+    { "type": "subject_anchor", "x": 0.429, "y": 0.030, "r": 0.035, "label": "first ceiling light" }
+  ],
+  "notes": "A low floor route and a dwindling chain of ceiling lights make an empty hall feel insistently directional."
+}

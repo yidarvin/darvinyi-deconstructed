@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-monitor.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.298, "angle": 0.0, "label": "ceiling-panel register" },
+    { "type": "leading_line", "points": [[0.476, 0.000], [0.998, 0.505]], "arrow": true, "label": "ceiling seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "dome axis" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.520, "rx": 0.235, "ry": 0.240, "label": "reflective dome" }
+  ],
+  "notes": "A dark reflective dome interrupts the ceiling grid and folds a second interior into the surface."
+}

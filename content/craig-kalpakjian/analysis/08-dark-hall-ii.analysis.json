@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "image": "08-dark-hall-ii.jpg",
+  "width": 800,
+  "height": 600,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.10063288398692811,
+    "std": 0.03079946667085877,
+    "p05": 0.047058823529411764,
+    "p95": 0.1450980392156863,
+    "edge_density": 0.0010354166666666667
+  },
+  "palette": [
+    "#141410",
+    "#1f1e19",
+    "#26231c",
+    "#191814",
+    "#0c0c0a"
+  ],
+  "lines": [
+    {
+      "x1": 0.56875,
+      "y1": 0.7983333333333333,
+      "x2": 0.99875,
+      "y2": 0.9316666666666666,
+      "angle_deg": 13.091893064346847,
+      "length": 0.3531798408743059,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.505,
+      "y1": 0.37333333333333335,
+      "x2": 0.505,
+      "y2": 0.22666666666666666,
+      "angle_deg": -90.0,
+      "length": 0.088,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.405,
+    "angle_deg": 0.0,
+    "confidence": 0.6370917251615197,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9925,
+      0.9683333333333334
+    ],
+    "regions": [
+      {
+        "cx": 0.9718195110977804,
+        "cy": 0.9379309138172365,
+        "x": 0.93875,
+        "y": 0.87,
+        "w": 0.06125,
+        "h": 0.13,
+        "area_frac": 0.006945833333333333
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7987731770563048,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.9404755773376785,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.9925,
+    "y": 0.9683333333333334,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.17901234567901217,
+    "phi": 0.3591333750003896,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.8,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.569,
+          0.798
+        ],
+        [
+          0.999,
+          0.932
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.71,
+      "why": "dominant diagonal"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.405,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.64,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.968,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

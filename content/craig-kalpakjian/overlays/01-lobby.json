@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-lobby.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.394, "angle": 0.0, "label": "ceiling-to-wall register" },
+    { "type": "leading_line", "points": [[0.272, 0.374], [0.998, 0.114]], "arrow": true, "label": "reflected ceiling edge" },
+    { "type": "leading_line", "points": [[0.304, 0.647], [0.995, 0.911]], "arrow": true, "label": "floor-to-glass edge" }
+  ],
+  "notes": "Two oblique architectural registers make the mirrored lobby feel deeper than its shallow enclosure."
+}

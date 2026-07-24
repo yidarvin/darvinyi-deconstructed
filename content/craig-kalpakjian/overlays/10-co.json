@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-co.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.772, "angle": -7.0, "label": "low wall seam" },
+    { "type": "leading_line", "points": [[0.172, 0.152], [0.738, 0.696]], "arrow": true, "label": "ceiling corner" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "cropped corner balance" }
+  ],
+  "notes": "A single diagonal ceiling corner makes nearly blank planes feel clipped and architecturally unstable."
+}

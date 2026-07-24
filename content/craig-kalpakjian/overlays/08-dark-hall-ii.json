@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-dark-hall-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.405, "angle": 0.0, "label": "shadow threshold" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "dark field balance" },
+    { "type": "leading_line", "points": [[0.569, 0.798], [0.999, 0.932]], "arrow": true, "label": "floor-edge release" },
+    { "type": "polyline", "points": [[0.000, 0.520], [0.330, 0.670], [0.580, 0.800]], "label": "receding wall boundary" }
+  ],
+  "notes": "Barely visible wall and floor boundaries make the image a slow negotiation between darkness and a small release of space."
+}

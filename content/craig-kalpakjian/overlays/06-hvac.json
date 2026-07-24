@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-hvac.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.424, "angle": 0.0, "label": "central duct register" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "bright central axis" },
+    { "type": "frame_in_frame", "x": 0.305, "y": 0.235, "w": 0.510, "h": 0.555, "label": "gridded chamber" }
+  ],
+  "notes": "A bright, gridded core holds the near-black mechanical enclosure in a strict frontal order."
+}

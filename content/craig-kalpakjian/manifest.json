@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-lobby.jpg",
+    "width": 595,
+    "height": 447,
+    "sha1": "6b19c931",
+    "source": "01-lobby.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-hallway.jpg",
+    "width": 800,
+    "height": 600,
+    "sha1": "c141a84a",
+    "source": "02-hallway.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-corridor.jpg",
+    "width": 599,
+    "height": 450,
+    "sha1": "8ef3bc64",
+    "source": "03-corridor.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-corridor-ii.jpg",
+    "width": 800,
+    "height": 599,
+    "sha1": "f2b8e5b8",
+    "source": "04-corridor-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-monitor.jpg",
+    "width": 800,
+    "height": 600,
+    "sha1": "bfdb6a52",
+    "source": "05-monitor.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-hvac.jpg",
+    "width": 599,
+    "height": 450,
+    "sha1": "e6b657b5",
+    "source": "06-hvac.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-hall.jpg",
+    "width": 800,
+    "height": 600,
+    "sha1": "b9da75a3",
+    "source": "07-hall.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-dark-hall-ii.jpg",
+    "width": 800,
+    "height": 600,
+    "sha1": "0a089343",
+    "source": "08-dark-hall-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-stair.jpg",
+    "width": 800,
+    "height": 410,
+    "sha1": "47906612",
+    "source": "09-stair.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-co.jpg",
+    "width": 800,
+    "height": 480,
+    "sha1": "4c1fb082",
+    "source": "10-co.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "image": "02-hallway.jpg",
+  "width": 800,
+  "height": 600,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.28753434640522874,
+    "std": 0.11445310042366691,
+    "p05": 0.2235294117647059,
+    "p95": 0.5450980392156862,
+    "edge_density": 0.007864583333333333
+  },
+  "palette": [
+    "#3d3b33",
+    "#5b564c",
+    "#7d786b",
+    "#9a9387",
+    "#1d1c19"
+  ],
+  "lines": [
+    {
+      "x1": 0.7225,
+      "y1": 0.6016666666666667,
+      "x2": 0.7225,
+      "y2": 0.05333333333333334,
+      "angle_deg": -90.0,
+      "length": 0.329,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.0,
+      "y1": 0.96,
+      "x2": 0.375,
+      "y2": 0.8816666666666667,
+      "angle_deg": -8.903961957374914,
+      "length": 0.30365934861288235,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.72625,
+      "y1": 0.4666666666666667,
+      "x2": 0.72625,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.28,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.68,
+      "y1": 0.8316666666666667,
+      "x2": 0.99625,
+      "y2": 0.765,
+      "angle_deg": -8.984255553140017,
+      "length": 0.2561425384429537,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.68625,
+      "y1": 0.6766666666666666,
+      "x2": 0.68625,
+      "y2": 0.25,
+      "angle_deg": -90.0,
+      "length": 0.256,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.725,
+      "y1": 0.8366666666666667,
+      "x2": 0.725,
+      "y2": 0.44166666666666665,
+      "angle_deg": -90.0,
+      "length": 0.237,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.38125,
+      "y1": 0.7383333333333333,
+      "x2": 0.65875,
+      "y2": 0.81,
+      "angle_deg": 10.962087262325289,
+      "length": 0.22612607103118387,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3775,
+      "y1": 0.54,
+      "x2": 0.3775,
+      "y2": 0.21166666666666667,
+      "angle_deg": -90.0,
+      "length": 0.197,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.44125,
+      "y1": 0.22,
+      "x2": 0.68,
+      "y2": 0.24833333333333332,
+      "angle_deg": 5.086221709634632,
+      "length": 0.19175505208468432,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.69625,
+      "y1": 0.835,
+      "x2": 0.9175,
+      "y2": 0.8516666666666667,
+      "angle_deg": 3.2336121248878653,
+      "length": 0.17728226081590903,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.48125,
+      "y1": 0.7633333333333333,
+      "x2": 0.68625,
+      "y2": 0.815,
+      "angle_deg": 10.704006749277976,
+      "length": 0.16690416411821485,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.38,
+      "y1": 0.87,
+      "x2": 0.38,
+      "y2": 0.6933333333333334,
+      "angle_deg": -90.0,
+      "length": 0.106,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.3,
+    "angle_deg": 0.0,
+    "confidence": 0.8142670390028636,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.3975,
+      0.26
+    ],
+    "regions": [
+      {
+        "cx": 0.39755785589191894,
+        "cy": 0.26113293303310814,
+        "x": 0.35,
+        "y": 0.20666666666666667,
+        "w": 0.0975,
+        "h": 0.11,
+        "area_frac": 0.008327083333333334
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8330104772920164,
+    "vertical_axis_x": 0.525,
+    "horizontal": 0.7587147129408335,
+    "horizontal_axis_y": 0.4
+  },
+  "subject_anchor": {
+    "x": 0.3975,
+    "y": 0.26,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.6261358295550079,
+    "phi": 0.4215063081447389,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.525,
+      "confidence": 0.83,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.3,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.81,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.398,
+      "y": 0.26,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
