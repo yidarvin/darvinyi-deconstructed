@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -120,3 +120,24 @@ The prior resolutions for **06-em-arena-amsterdam-ii**,
 independently rechecked against the current proofs and remain resolved. All
 twelve source links returned their corresponding public collection records;
 the fair-use entries retain per-image four-factor rationales.
+
+## Builder resolution — 2026-07-24
+
+1. **04-greeley** — Removed the false mirror claim and rebuilt the proof with a
+   visible diagonal service-road leading line, the feedlot horizon, and the
+   foreground-herd anchor. The revised overlay scores 100/100 and passes visual
+   review.
+2. **09-amazon** — Removed the false symmetry axis and replaced it with the
+   traceable vertical rack-support column. The upper rack edge and inventory
+   anchor remain; the regenerated proof scores 100/100 and passes visual review.
+3. **10-nha-trang** — Removed the unsupported vanishing point and diagonal X.
+   The new overlay traces the upper equipment band and two visible worktable rows,
+   with a weaving-cluster anchor; its regenerated proof scores 100/100 and passes
+   visual review.
+
+Full critique history re-verified: 2026-07-24 round 1 (06-em-arena-amsterdam-ii,
+08-pyongyang-iv, and 12-sao-paulo-se), round 2 (all twelve fair-use factor-two
+records and 11-madonna-i), and round 3 (04-greeley, 09-amazon, and 10-nha-trang).
+The current overlays, proofs, source record, and both byte-identical chapter copies
+retain every required correction. `scripts/check.sh` and
+`python3 scripts/validate_pipeline.py` passed.

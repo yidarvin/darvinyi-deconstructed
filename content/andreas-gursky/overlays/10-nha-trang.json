@@ -1,12 +1,12 @@
 {
   "version": 1,
   "image": "10-nha-trang.jpg",
-  "grid": { "type": "phi" },
+  "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.512, "y": 0.445, "label": "workroom convergence" },
-    { "type": "leading_line", "points": [[0.292, 0.999], [0.999, 0.139]], "arrow": true, "label": "bamboo-rack diagonal" },
-    { "type": "leading_line", "points": [[0.001, 0.123], [0.991, 0.792]], "arrow": true, "label": "weaver-row diagonal" },
-    { "type": "horizon_line", "y": 0.106, "angle": 0, "label": "upper workroom band" }
+    { "type": "horizon_line", "y": 0.106, "angle": 0, "label": "upper equipment band" },
+    { "type": "polyline", "points": [[0.0, 0.4], [1.0, 0.4]], "label": "middle worktable row" },
+    { "type": "polyline", "points": [[0.0, 0.636], [1.0, 0.636]], "label": "lower worktable row" },
+    { "type": "subject_anchor", "x": 0.523, "y": 0.695, "r": 0.035, "label": "weaving cluster" }
   ],
-  "notes": "Rows of weavers and bamboo racks braid labor, color, and architecture into one patterned plane."
+  "notes": "Repeated worktable rows and a dense weaving cluster make labor read as a patterned plane."
 }

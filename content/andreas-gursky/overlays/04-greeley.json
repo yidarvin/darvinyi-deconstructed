@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.312, "angle": 1, "label": "feedlot horizon" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.388, "label": "repeated pen field" },
+    { "type": "leading_line", "points": [[0.119, 0.343], [0.848, 0.671]], "arrow": true, "label": "diagonal service road" },
     { "type": "subject_anchor", "x": 0, "y": 0.99, "r": 0.035, "label": "foreground herd" }
   ],
   "notes": "A low horizon and immense repeated herd make industrial scale visible as a field."
