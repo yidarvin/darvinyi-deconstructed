@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -19,3 +19,14 @@ verdict: resolved
 - Removed the false 08-bar `STOOL RHYTHM` claim and, after independent proof review, the unsupported `COUNTER EDGE` path. The reduced three-primitive overlay scores 100/100 and is visually clean.
 - Replaced Subway’s tracks/platform wording in `sources.md` with the observable ceiling edge, seat-and-floor recession, and carriage-end opening. Its overlay and chapter caption now use the same train-car vocabulary; the final overlay scores 100/100 and is visually clean.
 - Re-verified every required fix from critique round 2026-07-23 against the current overlays, rendered proofs, source notes, and synchronized chapter files. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **09-circulation-desk — correct or remove `CURVED DESK RIM`.** The current polyline runs from the left side of the rubble field (`0.24, 0.55`) through loose debris to `0.58, 0.75`; it does not follow the visible curved wooden circulation desk, which occupies the right foreground. This is a false feature trace, so the label materially misleads. Retarget the primitive to the actual desk rim or omit it; retain only claims that the proof visibly supports.
+
+### Advisory (non-blocking)
+
+- **06-botanic-garden:** the 0.50 `GREENHOUSE AXIS` remains intentionally offset from the analyzer's 0.425 symmetry estimate, but it visibly traces the centered roof arch and planting-bed spine. This is the previously resolved visual judgment, not a regression.
+- All twelve current portfolio and image-derivative URLs in `sources.md` returned HTTP 200 during this review; the per-image source, credit, fair-use teaching need, web-size, and non-substitution statements are traceable. No source-integrity or settings-honesty issue found.
