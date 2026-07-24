@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -11,3 +11,21 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-07-24
+
+1. **01-think-love.** Re-rendered and visually checked the proof after
+   relabeling the measured y=0.715 horizontal as `LOWER TONAL BREAK`; the
+   chapter now describes that same lower tonal transition rather than a ridge.
+   The revised overlay scores 100/100 against its current analysis.
+2. **Metadata evidence.** Corrected `research.md` and both synchronized
+   chapter copies to state that the manifest retains embedded display-file
+   tags for 01, 02, 05, and 07, while treating them as non-authoritative for
+   capture claims. The source-backed Apple iPhone 17 Pro Max statement for
+   *Think Love* remains explicit, and the manifest's conflicting 01 tag is
+   disclosed.
+
+**Prior-round regression check:** re-verified every required item from the
+only prior critique round, 2026-07-24. Both remain satisfied in the current
+overlay, proof, research note, manifest-aware chapter text, and byte-identical
+site chapter.

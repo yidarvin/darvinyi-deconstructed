@@ -23,6 +23,11 @@ document the method or software used for each individual image. The 2025
 Max. Beyond that one statement, the sources do not establish camera body,
 lens, focal length, aperture, shutter speed, ISO, capture format, lighting
 setup, printer, paper, edition, or print process for this web-display set.
-The ingest manifest contains no capture EXIF, as expected for the downloaded
-display JPEGs. The chapter therefore treats the overlays as evidence about
-the finished frames, not as evidence about unrecorded production settings.
+The ingest manifest does retain file-embedded EXIF fields for 01, 02, 05, and
+07, including make/model and, where present, exposure fields. Those are tags
+preserved from the public display JPEGs, not independently documented capture
+records: for example, 01's manifest tag says “Obsidian Cam 7,” while the
+museum caption identifies *Think Love* as shot on an Apple iPhone 17 Pro Max.
+The chapter therefore reports the museum's specific statement, does not infer
+production settings from the embedded tags, and treats the overlays as
+evidence about the finished frames.
