@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-23
 
@@ -33,3 +33,15 @@ None. The prior-round fixes for **05-the-motel** and **06-beneath-the-bridge** r
 1. **04-the-pickup-truck** — Re-ran composition analysis and replaced the mislabeled `TRUCK BED` box with a `TRUCK` frame that traces the whole vehicle (`x: 0.515`, `y: 0.685`, `w: 0.195`, `h: 0.19`). The revised proof aligns with the cab, cargo area, tailgate, and wheelbase rather than claiming foliage as part of the vehicle. It received a clean visual pass and scores 100/100 with no deductions or warnings.
 
 **Prior-round regression check:** Re-verified every required fix in the full critique history: the initial **2026-07-23** round for **05-the-motel** and **06-beneath-the-bridge**, plus this **2026-07-23** round for **04-the-pickup-truck**. The `PORCH PAIR` ellipse still encloses the two porch figures, the `LEFT FIGURE` and `RIGHT FIGURE` ellipses still enclose their respective riverside people, and the revised truck frame truthfully traces the vehicle. No chapter edits were needed.
+
+## Critique round — 2026-07-23
+
+### Required
+
+1. **01-the-haircut — `sources.md` “Why it matters.”** The source note calls this an image of a “room” whose light opens a narrative. The current proof is an outdoor woodland clearing containing a shack, a fallen cabin, and two women; it has no room. Replace the description with one that truthfully identifies its visible setting and structures.
+2. **03-the-basement — `sources.md` “Why it matters.”** The source note describes a “downward-looking” scene of stairs, beams, and one figure. The current proof is a level interior with a seated man, a reclining woman, a low table, wall paneling, lamps, and a high window; the claimed stairs and downward-looking viewpoint are absent, and the note collapses two visible people into one. Rewrite it to match the actual plate.
+3. **05-the-motel — `sources.md` “Why it matters.”** The source note says the exterior is organized by “parked-car geometry,” but the current proof shows a house facade, porch pair, and snow field with no parked car. Remove or replace that claim with a visible compositional structure.
+
+### Advisory (non-blocking)
+
+None. The current proofs support all overlay labels, including every previously resolved primitive; the chapter’s analyzer-derived values and palette references match the checked-in analyses within tolerance. All twelve Gagosian display-file URLs and the exhibition record returned HTTP 200 during this review, and each entry retains a concise, per-image four-factor fair-use rationale and copyright credit. The chapter correctly declines to invent capture settings.
