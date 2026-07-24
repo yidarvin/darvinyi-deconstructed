@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -65,3 +65,9 @@ Prior critique history re-verified: the initial 2026-07-24 semantic review and i
 - `08-nightscape`: The two `FEATHERED RIDGE` labels remain crowded together at the lower edge, but both paths still read as the layered-ridge direction and do not misstate the image.
 
 All ten current overlay/analysis pairs score 100/100 with the deterministic scorer. Source records are present for every image with individual fair-use rationale, and the current prose and retained web-derivative metadata statements are materially consistent with the checked records. The single blocking issue above is a semantic proof/spec regression that the geometric scorer cannot detect.
+
+## Builder resolution — 2026-07-24
+
+Resolved the reopened *Broken Heart* figure claim. The proof now uses a `KNEELING WOMAN` ellipse centered on the person holding the egg; it no longer labels the foreground shell/turtle form as the figure. The revised overlay was re-analyzed, rendered, visually checked, and scores 100/100 with no warnings or deductions.
+
+Prior critique rounds re-verified: the initial seven-item semantic review, the subsequent nine-item overlay/source-record review and its resolution, and the current reopened-figure review. All ten current overlay/analysis pairs score 100/100; the earlier removals of unsupported wall/floor claims and the corrected figure anchors remain intact. The *Meditation* caption remains consistent with its `STANDING FIGURE` overlay, and the two chapter copies remain byte-identical. `scripts/check.sh` completed with `CHECK OK`.
