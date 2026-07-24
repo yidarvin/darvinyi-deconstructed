@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-the-cover-up-2013.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.528, "angle": 0.0, "label": "roadside horizon" },
+    { "type": "subject_anchor", "x": 0.68, "y": 0.477, "r": 0.045, "label": "lifted grass edge" },
+    { "type": "polyline", "points": [[0.16, 0.97], [0.39, 0.72], [0.68, 0.477]], "label": "road into reveal" }
+  ],
+  "notes": "The road leads directly into the lifted edge that changes the landscape's rules."
+}

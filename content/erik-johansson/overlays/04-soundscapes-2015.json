@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-soundscapes-2015.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.578, "angle": 1.0, "label": "waterline" },
+    { "type": "subject_anchor", "x": 0.289, "y": 0.572, "r": 0.05, "label": "turntable center" },
+    { "type": "ellipse", "cx": 0.31, "cy": 0.56, "rx": 0.21, "ry": 0.12, "label": "record silhouette" }
+  ],
+  "notes": "Nested circular forms make the headland read at once as landscape and turntable."
+}

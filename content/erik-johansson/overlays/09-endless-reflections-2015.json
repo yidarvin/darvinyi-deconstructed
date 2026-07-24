@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-endless-reflections-2015.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.52, "angle": 2.0, "label": "reflection seam" },
+    { "type": "vanishing_point", "x": 0.209, "y": 0.369, "label": "receding house axis" },
+    { "type": "subject_anchor", "x": 0.156, "y": 0.358, "r": 0.05, "label": "first house" }
+  ],
+  "notes": "The reflection seam repeats the house into a receding, nearly endless corridor."
+}

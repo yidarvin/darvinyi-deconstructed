@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "04-soundscapes-2015.jpg",
+  "width": 1500,
+  "height": 1125,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.5835916207506765,
+    "std": 0.2701384899049237,
+    "p05": 0.16470588235294117,
+    "p95": 0.8784313725490196,
+    "edge_density": 0.011179606119791666
+  },
+  "palette": [
+    "#d7d7d4",
+    "#34322c",
+    "#bdc0ba",
+    "#56554c",
+    "#899084"
+  ],
+  "lines": [
+    {
+      "x1": 0.3623046875,
+      "y1": 0.7109375,
+      "x2": 0.505859375,
+      "y2": 0.7239583333333334,
+      "angle_deg": 3.891676294080756,
+      "length": 0.1151091745705463,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.1103515625,
+      "y1": 0.5768229166666666,
+      "x2": 0.2177734375,
+      "y2": 0.5794270833333334,
+      "angle_deg": 1.0416266760099742,
+      "length": 0.08595170337171917,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.3935546875,
+      "y1": 0.7083333333333334,
+      "x2": 0.4677734375,
+      "y2": 0.7044270833333334,
+      "angle_deg": -2.260501911141272,
+      "length": 0.059421240218145065,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.578125,
+    "angle_deg": 1.0416266760099742,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.2890625,
+      0.5716145833333334
+    ],
+    "regions": [
+      {
+        "cx": 0.2817948764534884,
+        "cy": 0.5554704457364341,
+        "x": 0.212890625,
+        "y": 0.48046875,
+        "w": 0.1279296875,
+        "h": 0.15234375,
+        "area_frac": 0.013669331868489584
+      },
+      {
+        "cx": 0.7189213975505655,
+        "cy": 0.7806213299260548,
+        "x": 0.6787109375,
+        "y": 0.7369791666666666,
+        "w": 0.0830078125,
+        "h": 0.08984375,
+        "area_frac": 0.005846659342447917
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9722256663839952,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.6176721374885322,
+    "horizontal_axis_y": 0.475
+  },
+  "subject_anchor": {
+    "x": 0.2890625,
+    "y": 0.5716145833333334,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.42342539326910295,
+    "phi": 0.5582260359697735,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.578,
+      "angle": 1.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.97,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.289,
+      "y": 0.572,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

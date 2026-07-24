@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-go-your-own-road-2008.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.154, "angle": 0.0, "label": "far field edge" },
+    { "type": "vanishing_point", "x": 0.638, "y": 0.489, "label": "road convergence" },
+    { "type": "leading_line", "points": [[0.61, 0.443], [0.999, 0.899]], "arrow": true, "label": "road curve" }
+  ],
+  "notes": "The road's curve becomes both a route through the picture and a carried object."
+}

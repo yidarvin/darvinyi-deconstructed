@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-the-light-keeper-2018.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.49, "angle": 0.0, "label": "sea horizon" },
+    { "type": "vanishing_point", "x": 0.744, "y": 0.604, "label": "bulb convergence" },
+    { "type": "leading_line", "points": [[0.166, 0.905], [0.865, 0.389]], "arrow": true, "label": "cable to bulb" }
+  ],
+  "notes": "The cable and giant bulb turn the sea into a directional stage."
+}
