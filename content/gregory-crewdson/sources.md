@@ -7,9 +7,9 @@ This set takes twelve complete frames from *Cathedral of the Pines* (2013–14),
 ## Shortlist
 
 ### 01 — *The Haircut* (2014)
-- **Why it matters:** A grooming action becomes an uneasy domestic tableau through the side-by-side figures, the chair’s central anchor, and a room whose light opens a narrative beyond the literal action.
+- **Why it matters:** A grooming action becomes an uneasy outdoor tableau: two women occupy a woodland clearing between a blue shack and a collapsed cabin, while the earthen rise and dense trees press around their small interval.
 - **Source:** https://gagosian.com/exhibitions/2016/gregory-crewdson-cathedral-of-the-pines/ (Gagosian, *Cathedral of the Pines*; public display derivative: https://gagosian.com/media/images/exhibitions/2016/gregory-crewdson-cathedral-of-the-pines/Nwi5glP3Paap_1200x1200.jpg)
-- **Rights / fair-use assessment:** Gregory Crewdson; © Gregory Crewdson. **Factor 1:** transformative criticism studies the staged blocking and directed interior light. **Factor 2:** a highly creative constructed photograph. **Factor 3:** the complete room is necessary to relate both figures, chair, furnishings, and light source. **Factor 4:** this credited 1200 × 899px public display derivative links to the exhibition record and cannot replace the editioned print or licensed image.
+- **Rights / fair-use assessment:** Gregory Crewdson; © Gregory Crewdson. **Factor 1:** transformative criticism studies the staged blocking of the two women between the shack, collapsed cabin, and rising woodland bank. **Factor 2:** a highly creative constructed photograph. **Factor 3:** the complete clearing is necessary to relate both figures to the two structures, earthen rise, and enclosing trees. **Factor 4:** this credited 1200 × 899px public display derivative links to the exhibition record and cannot replace the editioned print or licensed image.
 - **File:** `raw/gregory-crewdson/01-the-haircut.jpg` (1200 × 899px)
 
 ### 02 — *Reclining Woman on Sofa* (2014)
@@ -19,9 +19,9 @@ This set takes twelve complete frames from *Cathedral of the Pines* (2013–14),
 - **File:** `raw/gregory-crewdson/02-reclining-woman-on-sofa.jpg` (900 × 673px)
 
 ### 03 — *The Basement* (2014)
-- **Why it matters:** A downward-looking domestic space turns stairs, beams, and a figure into a dense hierarchy of vertical and diagonal cues, with lighting making the architecture psychologically active.
+- **Why it matters:** A level, wood-paneled interior separates a seated man from a reclining woman across a low table and an open carpet field; lamps and high windows make the room’s broad planes psychologically active.
 - **Source:** https://gagosian.com/exhibitions/2016/gregory-crewdson-cathedral-of-the-pines/ (Gagosian; public display derivative: https://gagosian.com/media/images/exhibitions/2016/gregory-crewdson-cathedral-of-the-pines/8U55cKt8G5uY_1200x1200.jpg)
-- **Rights / fair-use assessment:** Gregory Crewdson; © Gregory Crewdson. **Factor 1:** transformative criticism examines descent, framing members, and staged illumination. **Factor 2:** a highly creative constructed photograph. **Factor 3:** the intact image is needed to connect the figure to the stairwell and enclosing basement geometry. **Factor 4:** this credited 900 × 673px public display derivative is web-sized, links to the record, and is non-substitutive.
+- **Rights / fair-use assessment:** Gregory Crewdson; © Gregory Crewdson. **Factor 1:** transformative criticism examines the separated figures, low table, broad carpet field, and staged illumination. **Factor 2:** a highly creative constructed photograph. **Factor 3:** the intact image is needed to connect the seated man and reclining woman to the table, wall paneling, lamps, and high windows. **Factor 4:** this credited 900 × 673px public display derivative is web-sized, links to the record, and is non-substitutive.
 - **File:** `raw/gregory-crewdson/03-the-basement.jpg` (900 × 673px)
 
 ### 04 — *The Pickup Truck* (2014)
@@ -31,9 +31,9 @@ This set takes twelve complete frames from *Cathedral of the Pines* (2013–14),
 - **File:** `raw/gregory-crewdson/04-the-pickup-truck.jpg` (900 × 674px)
 
 ### 05 — *The Motel* (2014)
-- **Why it matters:** Crewdson’s exterior uses a façade and parked-car geometry to organize isolation at several scales, while the deadpan nighttime light makes the threshold feel theatrical.
+- **Why it matters:** The exterior uses a white house façade, a porch pair, and a broad snow field to organize isolation at several scales, making the porch threshold feel theatrical.
 - **Source:** https://gagosian.com/exhibitions/2016/gregory-crewdson-cathedral-of-the-pines/ (Gagosian; public display derivative: https://gagosian.com/media/images/exhibitions/2016/gregory-crewdson-cathedral-of-the-pines/ABqcbfphr3AI_1200x1200.jpg)
-- **Rights / fair-use assessment:** Gregory Crewdson; © Gregory Crewdson. **Factor 1:** transformative criticism analyzes façade rhythm, vehicle placement, and cinematic exterior lighting. **Factor 2:** a highly creative staged photograph. **Factor 3:** the whole frame is required to retain the motel’s breadth, lot, and figure-scale relationships. **Factor 4:** this credited 900 × 674px public display rendition is linked to Gagosian’s record and cannot substitute for the work or licensed imagery.
+- **Rights / fair-use assessment:** Gregory Crewdson; © Gregory Crewdson. **Factor 1:** transformative criticism analyzes the façade, porch pair, snow field, and threshold relationship. **Factor 2:** a highly creative staged photograph. **Factor 3:** the whole frame is required to retain the house, porch figures, broad snow field, and their scale relationships. **Factor 4:** this credited 900 × 674px public display rendition is linked to Gagosian’s record and cannot substitute for the work or licensed imagery.
 - **File:** `raw/gregory-crewdson/05-the-motel.jpg` (900 × 674px)
 
 ### 06 — *Beneath the Bridge* (2014)

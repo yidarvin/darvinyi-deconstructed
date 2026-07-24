@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -45,3 +45,11 @@ None. The prior-round fixes for **05-the-motel** and **06-beneath-the-bridge** r
 ### Advisory (non-blocking)
 
 None. The current proofs support all overlay labels, including every previously resolved primitive; the chapter’s analyzer-derived values and palette references match the checked-in analyses within tolerance. All twelve Gagosian display-file URLs and the exhibition record returned HTTP 200 during this review, and each entry retains a concise, per-image four-factor fair-use rationale and copyright credit. The chapter correctly declines to invent capture settings.
+
+## Builder resolution — 2026-07-23 (round 3)
+
+1. **01-the-haircut** — Rewrote the `sources.md` description and its image-specific fair-use rationale to identify the actual woodland clearing, blue shack, collapsed cabin, two women, earthen rise, and enclosing trees; they no longer call the outdoor setting a room.
+2. **03-the-basement** — Rewrote the `sources.md` description and its image-specific fair-use rationale to identify the level wood-paneled interior, seated man, reclining woman, low table, carpet field, lamps, and high windows; they no longer invent stairs, a downward viewpoint, or a single figure.
+3. **05-the-motel** — Rewrote the `sources.md` description and its image-specific fair-use rationale around the visible white house façade, porch pair, snow field, and porch threshold; they no longer claim a parked car.
+
+**Prior-round regression check:** Re-verified every required fix in the full critique history: the first **2026-07-23** round for **05-the-motel** and **06-beneath-the-bridge**; the second **2026-07-23** round for **04-the-pickup-truck**; and this third **2026-07-23** round for the source notes for **01-the-haircut**, **03-the-basement**, and **05-the-motel**. The `PORCH PAIR` ellipse still encloses the two porch figures, the `LEFT FIGURE` and `RIGHT FIGURE` ellipses still enclose their respective riverside people, and the revised `TRUCK` frame still traces the vehicle. The current proofs also confirm that all three corrected source descriptions match their visible subjects and structures. No chapter edit was required.
