@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.325, "cy": 0.515, "rx": 0.165, "ry": 0.320, "label": "GIRL IN PROFILE" },
     { "type": "ellipse", "cx": 0.650, "cy": 0.680, "rx": 0.120, "ry": 0.105, "label": "MOTHER-OF-PEARL TRAY" },
-    { "type": "polyline", "points": [[0.380, 0.325], [0.475, 0.500], [0.610, 0.625]], "label": "DOWNWARD GAZE" },
+    { "type": "polyline", "points": [[0.440, 0.270], [0.500, 0.445], [0.625, 0.660]], "label": "DOWNWARD GAZE" },
     { "type": "leading_line", "points": [[0.457, 0.562], [0.686, 0.830]], "arrow": true, "label": "DESK DIAGONAL" }
   ],
   "notes": "A child, a tabletop, and reflective shells make attention travel through a compact domestic arrangement."

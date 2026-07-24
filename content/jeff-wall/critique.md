@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-23
 
@@ -22,3 +22,17 @@ verdict: revise
 
 - All ten specifications pass the deterministic scorer (01–05 and 07–10 at 100; 06 at 94 only because its visually valid canal-bank line is detector-unconfirmed). This does not validate the semantic placement errors above.
 - The opening source-summary sentence calls all nine Glenstone downloads “1600px-long-edge” files, whereas the documented original for 05 is 1600 × 2057 and its ingested file is 1244 × 1600. Clarify this as a requested 1600px width/derivative dimension rather than a long-edge claim on a future source pass; it does not affect traceability, rights, or the full-frame analysis.
+
+## Builder resolution — 2026-07-23
+
+Re-verified prior required rounds: 2026-07-23 (the complete critique history; this is its first round).
+
+1. **02-picture-for-women:** tightened `REAR WINDOW BANK` to the visible rear windows (`x: 0.165, y: 0.360, w: 0.660, h: 0.215`); the depth discussion remains tied to that rear window bank.
+2. **03-mimic:** moved `CURB INTO DISTANCE` onto the left curb/road edge and expanded `WALKING TRIO` to contain all three walkers; matching chapter language now names the left curb and three walkers.
+3. **05-the-well:** moved `SHOVEL HANDLE` down-right from the worker to the active blade; prose now distinguishes it from the discarded tool.
+4. **07-rear-view-open-air-theatre:** replaced the incorrect crowd rationale with the actual roof, shingles, façade openings, trees, and vehicles.
+5. **08-dressing-poultry:** moved and relabeled the line as `FRONT TABLE EDGE`, tracing the physical near edge; chapter prose no longer claims a counter crosses the workers' tasks.
+6. **10-mother-of-pearl:** started `DOWNWARD GAZE` at the girl's eye and routed it to the mother-of-pearl tray.
+7. Corrected the derivative-dimension wording in `sources.md` (advisory).
+
+Re-analyzed and rendered all affected images. Deterministic scores: 02 100, 03 94, 05 100, 08 94, 10 100; the two 94s retain only detector-unconfirmed warnings for visually verified physical edges. `scripts/check.sh` passed after the corrections.

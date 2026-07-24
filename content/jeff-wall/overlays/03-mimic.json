@@ -3,9 +3,9 @@
   "image": "03-mimic.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.176, 0.988], [0.466, 0.510]], "arrow": true, "label": "CURB INTO DISTANCE" },
+    { "type": "leading_line", "points": [[0.170, 0.988], [0.238, 0.455]], "arrow": true, "label": "CURB INTO DISTANCE" },
     { "type": "leading_line", "points": [[0.497, 0.010], [0.568, 0.480]], "arrow": true, "label": "RECEDING FACADE" },
-    { "type": "ellipse", "cx": 0.715, "cy": 0.520, "rx": 0.175, "ry": 0.245, "label": "WALKING TRIO" },
+    { "type": "ellipse", "cx": 0.655, "cy": 0.540, "rx": 0.280, "ry": 0.370, "label": "WALKING TRIO" },
     { "type": "polyline", "points": [[0.651, 0.420], [0.687, 0.405], [0.704, 0.386]], "label": "DIRECTED GESTURE" }
   ],
   "notes": "The sidewalk's recession keeps a charged three-person encounter visibly connected to the wider street."

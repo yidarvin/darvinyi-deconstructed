@@ -3,7 +3,7 @@
   "image": "08-dressing-poultry.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.142, 0.383], [0.661, 0.686]], "arrow": true, "label": "COUNTER EDGE" },
+    { "type": "leading_line", "points": [[0.475, 0.790], [0.835, 0.800]], "arrow": true, "label": "FRONT TABLE EDGE" },
     { "type": "polyline", "points": [[0.010, 0.040], [0.175, 0.280], [0.315, 0.510]], "label": "LEFT ROOF TRUSSES" },
     { "type": "ellipse", "cx": 0.576, "cy": 0.571, "rx": 0.250, "ry": 0.180, "label": "SHARED LABOR" },
     { "type": "frame_in_frame", "x": 0.345, "y": 0.055, "w": 0.385, "h": 0.405, "label": "REAR STORAGE BAY" }
