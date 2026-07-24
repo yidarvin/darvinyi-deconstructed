@@ -4,8 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "vanishing_point", "x": 0.506, "y": 0.18, "label": "ROOM CONVERGENCE" },
-    { "type": "leading_line", "points": [[0.493, 0.174], [0.997, 0.631]], "arrow": true, "label": "RIGHT-WALL SEAM" },
-    { "type": "horizon_line", "y": 0.623, "label": "FLOOR / BACK-WALL JOIN" }
+    { "type": "frame_in_frame", "x": 0.153, "y": 0.255, "w": 0.239, "h": 0.292, "label": "BOX OPENING" },
+    { "type": "ellipse", "cx": 0.316, "cy": 0.373, "rx": 0.065, "ry": 0.12, "label": "HIDDEN FIGURE" }
   ],
-  "notes": "Checkerboard seams make the room converge around a compressed central opening, intensifying the patterned clutter."
+  "notes": "Checkerboard walls converge toward the rear arch while a figure is partly hidden inside a smaller checkered opening."
 }

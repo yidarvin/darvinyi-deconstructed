@@ -1,1 +1,12 @@
-{"version":1,"image":"04-gamer.jpg","grid":{"type":"thirds"},"primitives":[{"type":"horizon_line","y":0.351,"label":"BACK-WALL / FLOOR BREAK"},{"type":"leading_line","points":[[0.421,0.218],[0.785,0.005]],"arrow":true,"label":"BLOCK WALL EDGE"},{"type":"subject_anchor","x":0.554,"y":0.225,"r":0.035,"label":"FIGURE"},{"type":"vanishing_point","x":0.42,"y":0.288,"label":"ROOM CONVERGENCE"}],"notes":"A small figure is embedded in a deep, repeated-block environment whose wall and floor edges establish the room."}
+{
+  "version": 1,
+  "image": "04-gamer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.351, "label": "BACK-WALL / FLOOR BREAK" },
+    { "type": "subject_anchor", "x": 0.554, "y": 0.225, "r": 0.035, "label": "FIGURE" },
+    { "type": "polyline", "points": [[0.483, 0.928], [0.496, 0.646], [0.493, 0.438]], "label": "STUDDED FLOOR CHANNEL" },
+    { "type": "polyline", "points": [[0.042, 0.469], [0.22, 0.437], [0.393, 0.393]], "label": "LEFT BLOCK TERRACES" }
+  ],
+  "notes": "A small figure is embedded in a deep repeated-block environment, with studded floor channels and terraces guiding the eye inward."
+}

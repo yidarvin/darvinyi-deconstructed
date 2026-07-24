@@ -3,8 +3,9 @@
   "image": "02-broken-heart.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.515, "y": 0.517, "label": "ROOM CENTER" },
-    { "type": "leading_line", "points": [[0, 0.795], [0.226, 0.714]], "arrow": true, "label": "LEFT FLOOR EDGE" }
+    { "type": "ellipse", "cx": 0.37, "cy": 0.392, "rx": 0.052, "ry": 0.135, "label": "CENTRAL FIGURE" },
+    { "type": "polyline", "points": [[0.0, 0.557], [0.175, 0.515], [0.37, 0.457]], "label": "LEFT WALL / FLOOR SEAM" },
+    { "type": "polyline", "points": [[1.0, 0.555], [0.72, 0.512], [0.47, 0.456]], "label": "RIGHT WALL / FLOOR SEAM" }
   ],
-  "notes": "The room's receding seams give an otherwise dispersed field of broken shells and rocks a common directional field."
+  "notes": "A kneeling figure holding an egg stabilizes the broken shells and rocks within the blue room."
 }

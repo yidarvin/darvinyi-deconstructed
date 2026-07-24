@@ -3,10 +3,9 @@
   "image": "05-meditation.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.507, "y": 0.459, "label": "ROOM CENTER" },
-    { "type": "horizon_line", "y": 0.737, "label": "FLOOR / BACK-WALL JOIN" },
     { "type": "ellipse", "cx": 0.424, "cy": 0.417, "rx": 0.032, "ry": 0.105, "label": "STANDING FIGURE" },
-    { "type": "leading_line", "points": [[0.276, 0.751], [0.464, 0.43]], "arrow": true, "label": "LEFT FLOOR SEAM" }
+    { "type": "frame_in_frame", "x": 0.337, "y": 0.438, "w": 0.183, "h": 0.18, "label": "PINK SUITCASE" },
+    { "type": "polyline", "points": [[0.085, 0.425], [0.315, 0.384], [0.562, 0.413], [0.798, 0.368]], "label": "SUSPENDED-ROCK BAND" }
   ],
-  "notes": "The standing figure holds a broad dark field while floor seams and a loose central convergence provide quiet depth."
+  "notes": "The standing figure and pink suitcase hold a broad dark field crossed by a band of suspended rocks."
 }

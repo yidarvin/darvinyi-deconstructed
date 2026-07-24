@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -45,3 +45,11 @@ Prior critique rounds re-verified: 2026-07-24 (the only prior round in `git log 
 - `07-neverending-race`: the right floor edge and seated-figure anchor are correct; the convergence marker is visually less explicit than the other claims, but its analyzer support keeps this non-blocking.
 
 All ten overlay/analysis pairs again score 100/100 under the deterministic scorer. These required findings are the semantic, pedagogical, and source-record failures that the geometric score cannot establish.
+
+## Builder resolution — 2026-07-24
+
+Resolved all nine required items. The revised overlays give `01-black-birds`, `02-broken-heart`, `06-my-chemical-romance`, and `10-the-little-match-girl` three or more distinct, visually checked claims; remove the false shell-as-floor, generic-center, foreground-pipe, chair-crossing, and cloud-boundary assertions; and replace the `Desire` vanishing point with a dense-knot ellipse. The `Gamer`, `Meditation`, and `Panic Room` claims now trace only the visible figure, blocks, suitcase, rock band, box opening, and room structure identified in their proofs. All affected proofs were rerendered and visually checked, and each deterministic score is 100/100.
+
+Corrected the chapter copies and source record together: *Meditation* now consistently identifies the standing figure; the retained `My Chemical Romance` web-derivative metadata is qualified as non-provenance; the unsupported K11/post-processing assertion is removed; and the Echo/LensCulture *Black Birds* date conflict is explicitly narrowed. `content/jeeyoung-lee/chapter.mdx` and `src/chapters/jeeyoung-lee.mdx` are byte-identical.
+
+Prior critique history re-verified: the initial 2026-07-24 semantic review and its 2026-07-24 resolution. The earlier corrected anchors for *Meditation*, *Neverending Race*, and *The Little Match Girl*, and the removals of the unsupported wall/floor claims in *Black Birds*, *Broken Heart*, *My Chemical Romance*, *Neverending Race*, and *Panic Room*, still hold against the current overlays, proofs, and chapter prose. `scripts/check.sh` completed with `CHECK OK`.

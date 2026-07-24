@@ -3,8 +3,9 @@
   "image": "06-my-chemical-romance.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.32, 0.707], [0.674, 0.271]], "arrow": true, "label": "STRIPED PIPE RUN" },
-    { "type": "leading_line", "points": [[0.204, 0.727], [0.454, 0.217]], "arrow": true, "label": "STRIPED PIPE RUN" }
+    { "type": "leading_line", "points": [[0.32, 0.707], [0.674, 0.271]], "arrow": true, "label": "RISING PIPE RUN" },
+    { "type": "ellipse", "cx": 0.557, "cy": 0.273, "rx": 0.045, "ry": 0.08, "label": "FIGURE" },
+    { "type": "frame_in_frame", "x": 0.472, "y": 0.17, "w": 0.202, "h": 0.24, "label": "PIPE OPENING" }
   ],
-  "notes": "Repeated striped pipes cross the constructed room diagonally, turning its orange-and-black surface into a directional maze."
+  "notes": "A rising striped pipe directs the eye through a framed opening toward a partially concealed figure."
 }

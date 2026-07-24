@@ -1,1 +1,12 @@
-{"version":1,"image":"03-desire.jpg","grid":{"type":"phi"},"primitives":[{"type":"horizon_line","y":0.262,"label":"UPPER FIELD BREAK"},{"type":"vanishing_point","x":0.513,"y":0.308,"label":"DENSE CENTER"},{"type":"leading_line","points":[[0.289,0.309],[0.807,0.093]],"arrow":true,"label":"TETHER DIAGONAL"},{"type":"leading_line","points":[[0.214,0.52],[0.595,0]],"arrow":true,"label":"TETHER DIAGONAL"}],"notes":"An all-over red construction concentrates its lines and hanging forms around a compact central knot."}
+{
+  "version": 1,
+  "image": "03-desire.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.262, "label": "UPPER FIELD BREAK" },
+    { "type": "ellipse", "cx": 0.513, "cy": 0.308, "rx": 0.086, "ry": 0.11, "label": "DENSE CENTRAL KNOT" },
+    { "type": "leading_line", "points": [[0.289, 0.309], [0.807, 0.093]], "arrow": true, "label": "UPPER TETHER" },
+    { "type": "leading_line", "points": [[0.214, 0.52], [0.595, 0.0]], "arrow": true, "label": "LEFT TETHER" }
+  ],
+  "notes": "An all-over red construction packs strings and hanging forms around a dense central knot rather than a perspective vanishing point."
+}

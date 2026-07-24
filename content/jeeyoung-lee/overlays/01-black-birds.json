@@ -4,7 +4,9 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "vanishing_point", "x": 0.51, "y": 0.151, "label": "ROOM CONVERGENCE" },
-    { "type": "horizon_line", "y": 0.532, "label": "FLOOR / WALL JOIN" }
+    { "type": "horizon_line", "y": 0.532, "label": "FLOOR / WALL JOIN" },
+    { "type": "ellipse", "cx": 0.286, "cy": 0.425, "rx": 0.05, "ry": 0.105, "label": "SEATED FIGURE" },
+    { "type": "polyline", "points": [[0.204, 0.034], [0.407, 0.104], [0.614, 0.274], [0.752, 0.542]], "label": "FLOCK ARC" }
   ],
-  "notes": "The small seated figure is enclosed by a room whose floor and wall seams direct the swarm toward the far end."
+  "notes": "The seated figure is pressed left as the flock arcs through a pale room toward its deep center."
 }
