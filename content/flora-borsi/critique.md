@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -51,3 +51,53 @@ Re-verified the complete required-fix history: the sole prior critique round,
 `2026-07-24` (`verdict: revise`). Both required fixes from that round hold in
 the current specs and proofs. `scripts/check.sh` passes; the advisory source-link
 refresh was not changed because it is explicitly non-blocking.
+
+## Critique round — 2026-07-24
+
+Fresh-eyes review of all twelve current proofs, their specs and analyzer
+records, chapter, manifest, and source record. The two prior required fixes
+remain resolved: `06-animeyed-beetle`'s `FACE CENTERLINE` follows the visible
+nose-and-mouth centerline (the remaining 90/100 scorer deduction is the
+documented detector disagreement), and `09-animeyed-chameleon`'s `TAIL
+S-CURVE` follows the tail through its coil. All twelve direct, credited
+Squarespace display URLs resolve on this review date; each source entry retains
+its four-factor fair-use rationale. The following newly observed overlay claims
+are materially misleading and were not addressed by the prior round.
+
+### Required
+
+1. `03-animeyed-black-swan`: Replace the `vanishing_point` labelled `DARK HEAD
+   MASS` at `(0.335, 0.244)`. The marker sits in the dark feather/hair area, but
+   there are no visible converging diagonals in the photograph. This is an
+   analyzer false positive used as a semantic claim: a `vanishing_point`
+   primitive asserts convergence while the label names a mass. Use an
+   appropriately typed mass/subject annotation, or remove it.
+
+2. `03-animeyed-black-swan`: Redraw or relabel `RED BEAK BRIDGE`. Its path
+   starts above the red beak in the dark head area and ends across the sitter's
+   cheek; it does not follow the beak, whose visible course descends from the
+   swan's eye toward the mouth. The endpoint displacement is well outside the
+   approximately 2% tolerance, so the current label falsely teaches the marked
+   line as the beak.
+
+3. `05-animeyed-puffin`: Redraw or relabel `ORANGE BEAK WEDGE`. Its path leaves
+   the puffin at the beak root and crosses the sitter's eye/cheek instead of
+   tracing the orange beak's visible descending wedge. The named feature and
+   line do not agree, which makes the chapter's beak-bridge reading misleading.
+
+### Advisory (non-blocking)
+
+- `02-animeyed-white-swan`: `BEAK DIAGONAL` reaches slightly beyond the beak
+  into the sitter's cheek. It still visibly describes the beak's directional
+  bridge; tighten the endpoint or name the extended eye-path on a future pass.
+- `07-animeyed-bunny`: `EARS ABOVE` traces the left oversized ear rather than
+  both; a singular label would be more exact.
+- `08-animeyed-poodle`: the `POODLE TEXTURE` label is flush with the proof's
+  left edge. It remains readable and is cosmetic only.
+- `sources.md` describes the raw working-set long-edge range as 1,186–1,750px;
+  the Poodle source is 1200 × 1186px, so the stated long-edge minimum should be
+  1,200px. This does not affect the documented 640px compliance conclusion.
+- `chapter.mdx` says the record does not document a lens, while raw source files
+  09–12 retain `aux:Lens="18-35mm"`. No camera setting is invented and no
+  focal length is established, but scope that sentence to the normalized
+  manifest or remove the categorical lens statement for precision.
