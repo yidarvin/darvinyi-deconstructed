@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -45,3 +45,19 @@ verdict: resolved
 - Resolved required item 3: `research.md` and the chapter callout now preserve the uncertainty about camera settings and unrecorded workflow while acknowledging documented Walker media, including the inkjet and color-chromogenic records.
 - Resolved required item 4: the *Wald (Briol I)* source record now includes the CC BY-SA 4.0 licence URL, source-page link, and an accurate note that the ingested JPEG was re-encoded and normalized without changing visual content.
 - Re-verified critique history: the 2026-07-25 first round (the *Everlast II* source-note correction) remains satisfied: `sources.md` describes overlapping dark material and a rising pale fold, matching the current proof and overlay. Re-verified this 2026-07-25 round after the changes above; all four required fixes remain satisfied.
+
+## Critique round — 2026-07-25
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- `07-lighter-beige-ii`: the large `LOW-CONTRAST FIELD` ellipse is visually emphatic for a deliberately subtle image, but it still truthfully bounds the shallow tonal field. This is a presentation preference, not a correction request.
+
+### Review evidence
+
+- Visually reviewed all twelve current proof PNGs against their specs and the supplied images. The annotations make two to four bounded, truthful claims per plate; the prior lower-left Venus contact and non-convergent *Everlast II* fold corrections remain materially intact.
+- Replayed every analysis/spec pair with the deterministic scorer: all twelve score 100/100 with no deductions or warnings. The displayed chapter measurements (edge densities, palette representatives, and the `0.427` red-green boundary) match their analysis JSON within the stated tolerance.
+- Reviewed `chapter.mdx`, `research.md`, `sources.md`, and `manifest.json`. No camera setting is inferred; the documented media caveat remains accurate. Every image has a traceable source route; the eleven fair-use records include concise four-factor rationales, and the Commons image includes author, CC BY-SA 4.0 licence, source page, and re-encoding notice. The publicly reachable cited sources responded successfully except the MoMA route, which returned a client-side 403 while its record identifier and matching display-source attribution remain documented.
