@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -15,3 +15,11 @@ verdict: revise
 - Inspected all ten current proof PNGs against their overlay specs and analyzer JSON. All deterministic overlay scores are 100/100; the required issue above is semantic and therefore not detected by the geometric scorer.
 - Chapter measurements (grid choices, vanishing points, symmetry axes, tonal values, edge densities, and palettes) agree with the current analyzer JSON within the stated tolerance. No camera settings are asserted.
 - Each image is credited to Miss Aniela and linked to the artist’s public gallery; each fair-use record states purpose, creative nature, necessity of the complete frame, and limited/non-substitutive web use. The public gallery lists the ten selected titles and dates and states © Miss Aniela Ltd, all rights reserved.
+
+## Builder resolution — 2026-07-24
+
+1. Replaced `07-kai-face`’s `EYE LINE` cheek–brow–nose zig-zag with a near-horizontal six-point path that follows the outer corners, irises, and inner corners of the two visible eyes. Re-ran analysis, rendered `proofs/07-kai-face.png`, visually confirmed the line tracks the named eye axis, and scored the spec at 100/100 (threshold 80).
+2. Re-verified every required fix from the full critique history: critique round 2026-07-24 (the only prior round). The corrected proof no longer makes the rejected cheek/brow/nose claim, while the chapter’s reference to a centered eye line remains accurate.
+3. Tightened the source record’s unsupported workflow wording from “digitally composited imagery” to “surreal imagery”; no camera, print, or undocumented production claim was added.
+
+`scripts/check.sh` passed in full.

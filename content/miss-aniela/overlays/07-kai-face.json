@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "face axis" },
     { "type": "ellipse", "cx": 0.5, "cy": 0.54, "rx": 0.34, "ry": 0.38, "label": "portrait field" },
-    { "type": "polyline", "points": [[0.15, 0.52], [0.34, 0.35], [0.5, 0.43], [0.67, 0.35], [0.85, 0.52]], "label": "eye line" }
+    { "type": "polyline", "points": [[0.267, 0.411], [0.351, 0.410], [0.427, 0.415], [0.583, 0.416], [0.657, 0.411], [0.738, 0.413]], "label": "eye line" }
   ],
   "notes": "A frontal face becomes an image-bearing surface, held by a near-perfect central axis."
 }

@@ -6,8 +6,7 @@ This ten-work shortlist follows the public gallery's own arc through the early
 *Surreal Fashion* pictures, its best-known mid-2010s tableaux, and its portrait
 scale experiments. It gives the builder clear comparisons among square, vertical,
 and horizontal frames, while keeping the subject on the artist's characteristic
-collision of fashion, staged architecture, animals, and digitally composited
-imagery.
+collision of fashion, staged architecture, animals, and surreal imagery.
 
 All files were retrieved directly from the public display responses embedded in
 Miss Aniela's official [Surreal Fashion gallery](https://www.surrealfashion.co.uk/),
