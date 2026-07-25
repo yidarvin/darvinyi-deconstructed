@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -97,3 +97,39 @@ the chapter makes no false comparative edge-density claim. The earlier
 advisory `RIGHT TUB FOOT` clarification also remains in place. Source review
 also removed unsupported metadata and self-portrait claims. `bash
 scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-24
+
+Reviewed all twelve current rendered proofs against their overlay
+specifications and analysis records, with three independent fresh-eyes
+reviews of the proof set. Re-checked the previously resolved edge-density,
+paint-can, braid, and berry-path findings: they remain resolved. Each current
+spec scores 100/100 against its analysis record; the required findings below
+are visual/semantic errors that the geometric scorer does not measure. The
+source notes retain a traceable public official-delivery route, © Brooke
+Shaden credit, and a concise per-image four-factor fair-use rationale for all
+twelve works. No camera-setting claim or source-integrity defect was found.
+
+### REQUIRED
+
+1. **`04-we-are-infinite` — correct `SKIRT SWEEP`.** The polyline's final
+   point (`[0.25, 0.92]`) is on the stone floor to the left of the blue skirt,
+   not on the garment. Shorten or reposition the path so every segment traces
+   the named skirt sweep.
+2. **`04-we-are-infinite` — correct `FIGURE`.** The subject anchor at
+   (`[0.647, 0.476]`) is centered on the right-hand wall/rock edge rather than
+   the figure or her hand. Reposition it onto the figure, or remove the
+   primitive and revise the matching chapter sentence.
+3. **`12-life-after-death` — replace or remove `TREE BALANCE` as a
+   `symmetry_axis`.** A symmetry axis claims mirroring across the vertical,
+   but the proof visibly counterbalances a much larger upper-right canopy
+   against a smaller left tree. That is the chapter's own reading, not
+   bilateral symmetry. Use a primitive that describes the actual unequal
+   counterbalance or remove the claim.
+
+### Advisory (non-blocking)
+
+- **`06-the-creation-of-blood-and-bones`:** the `UMBRELLA` ellipse remains
+  somewhat generous around the canopy. This is the already-settled advisory
+  from the preceding round; it still identifies the correct umbrella and is
+  not a blocking regression.
