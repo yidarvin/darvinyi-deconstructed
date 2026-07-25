@@ -74,6 +74,8 @@ describe("registry and modules line up", () => {
     }
   });
 
+  // This checks the full queue serially through the rendered Home page. As the
+  // registry grows, its legitimate completion time exceeds Vitest's 5s default.
   it("home lists every chapter title", async () => {
     render(
       <MDXProvider components={mdxComponents}>
@@ -85,5 +87,5 @@ describe("registry and modules line up", () => {
     for (const chapter of registry.chapters) {
       expect(await screen.findAllByText(chapter.title)).not.toHaveLength(0);
     }
-  });
+  }, 12_000);
 });
