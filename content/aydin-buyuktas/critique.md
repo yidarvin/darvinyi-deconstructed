@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -48,3 +48,21 @@ item was left unchanged because it is non-blocking.
 - Independently inspected all eleven current proofs, overlay specs, analyzer outputs, chapter prose, research note, manifest, and source record. All eleven overlay specs score 100/100 against the current deterministic analyzer; the required findings above are visual/semantic mismatches that score cannot detect.
 - The prior round's resolved findings for 06-galata-bridge, 09-basibuyuk's cross-town carriageway, and 11-yeni-cami remain resolved. The unchanged 05-kaykaypist anchor remains the prior round's settled non-blocking advisory and is not reopened.
 - The Bant Mag source page is live, credits Aydın Büyüktaş, describes *Flatland*, and exposes the named display images; each image has a complete per-image fair-use rationale in `sources.md`. No camera setting is claimed.
+
+## Resolution — 2026-07-24
+
+Resolved every required item in the latest 2026-07-24 critique round.
+`03-maltepe-stadi` now marks only the visible curving track edge and centered
+stadium balance; the unsupported bowl ellipse and all oval-bowl prose are gone.
+`08-demirciler` now uses the central street and visible roof-edge rhythm without
+an invented enclosing ellipse. `09-basibuyuk` now names the measured y=0.165
+feature as the upper carriageway band, and its caption and prose discuss the
+actual road network rather than a hillside break. Each refreshed proof had a
+clean visual pass and scores 100/100 against the deterministic analyzer.
+
+Re-verified the full critique history: both critique rounds dated
+**2026-07-24**. The prior round's `06-galata-bridge` bridge-deck and shoreline
+transition, `09-basibuyuk` cross-town-carriageway, and `11-yeni-cami` central
+dome and mosque-to-plaza corrections remain present in the current overlays,
+proofs, and byte-identical chapter copies. The non-blocking advisories for
+`05-kaykaypist` and `02-sali-pazari` remain deliberately unchanged.

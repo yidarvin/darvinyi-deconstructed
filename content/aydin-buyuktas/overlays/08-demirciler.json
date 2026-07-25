@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "leading_line", "points": [[0.500, 0.000], [0.500, 0.970]], "arrow": true, "label": "central street" },
-    { "type": "ellipse", "cx": 0.500, "cy": 0.580, "rx": 0.400, "ry": 0.120, "label": "compressed roof field" },
-    { "type": "polyline", "points": [[0.000, 0.497], [0.344, 0.572], [0.663, 0.606], [1.000, 0.482]], "label": "compressed roof rhythm" }
+    { "type": "polyline", "points": [[0.000, 0.497], [0.344, 0.572], [0.663, 0.606], [1.000, 0.482]], "label": "roof-edge rhythm" }
   ],
-  "notes": "Dense roofs, lanes, and a central street turn the aerial city into a coherent material field."
+  "notes": "A central street and repeated roof edges turn the aerial city into a coherent material field."
 }

@@ -4,8 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "polyline", "points": [[0.000, 0.170], [0.150, 0.520], [0.070, 0.820]], "label": "curving track edge" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "stadium balance" },
-    { "type": "ellipse", "cx": 0.500, "cy": 0.300, "rx": 0.340, "ry": 0.250, "label": "stadium bowl" }
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "stadium balance" }
   ],
-  "notes": "The stable stadium bowl turns the full aerial frame into an unusually legible geometric field."
+  "notes": "The centered pitch and its curving track edge turn the full aerial frame into an unusually legible geometric field."
 }
