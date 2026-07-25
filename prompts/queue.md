@@ -146,7 +146,7 @@ real queue and state live in data/registry.json.
 | 135 | tom-chambers              | Tom Chambers                 | DONE    |
 | 136 | alex-prager               | Alex Prager                  | DONE    |
 | 137 | nan-goldin                | Nan Goldin                   | DONE    |
-| 138 | carrie-mae-weems          | Carrie Mae Weems             | PENDING |
+| 138 | carrie-mae-weems          | Carrie Mae Weems             | DONE    |
 | 139 | lorna-simpson             | Lorna Simpson                | PENDING |
 | 140 | rineke-dijkstra           | Rineke Dijkstra              | PENDING |
 | 141 | wolfgang-tillmans         | Wolfgang Tillmans            | PENDING |

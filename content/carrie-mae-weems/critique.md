@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -34,3 +34,17 @@ Re-verified critique history: **2026-07-25, round 1** (the only prior round in `
 6. Removed `12-woman-playing-solitaire`’s unsupported tabletop convergence; the advisory was addressed with a broad irregular-card-field annotation.
 
 All twelve affected images were freshly analyzed, rendered, visually inspected in the proof contact sheet, and strict-scored at 100/100. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass; `chapter.mdx` and the rendered site chapter are byte-identical. Source notes now attribute print processes to their specific institutional holdings rather than generalizing MoMA's individual records to the whole series.
+
+## Critique round — 2026-07-25
+
+Re-reviewed all twelve current proofs against the image files, overlay specifications, analyzer records, chapter, research, manifest, and source notes. The resolved round's corrections remain intact: no `symmetry_axis` is being repurposed as an alignment line; the mirror/cage distinction is correct in `03-eating-lobster`, `11-woman-feeding-bird`, and `12-woman-playing-solitaire`; the current annotations trace visible table edges, mirrors, gestures, figures, objects, and the card field without reviving the rejected detector-line claims.
+
+Every overlay scores 100/100 under the strict scorer and the rendered proofs retain the images' natural square aspect. The chapter's stated p05, p95, palettes, and edge-density figures agree with their current analyzer records within the required tolerance. It does not invent camera settings. Each of the twelve copyrighted selections has a traceable official artist-page source, a credit/rightsholder statement, and an individual four-factor fair-use rationale that documents the complete-frame educational use and its non-substitutive web scale.
+
+### Required (blocking)
+
+None.
+
+### Advisory (non-blocking)
+
+None.
