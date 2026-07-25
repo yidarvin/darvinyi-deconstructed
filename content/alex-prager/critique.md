@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-25
 
@@ -30,3 +30,13 @@ verdict: resolved
 2. Re-rendered the affected overlays: the Hazelwood anchor is now on the red-haired figure; the Cedar and Broad frame encloses the DON'T WALK sign; and the Speedy-click curtain-top claim was removed while the ellipse was moved to the plaid jacket.
 3. Re-verified all required items from the full critique history: round 2026-07-25 (the only prior round). All ten overlays pass strict deterministic scoring (nine at 100; Hazelwood at 95.3 because the semantic anchor is intentionally on the red-haired subject rather than the detector's neighboring saliency signal), and the fresh proof visual pass is clean.
 4. `scripts/check.sh` and `git diff --check` passed before this resolution.
+
+## Critique round — 2026-07-25
+
+### Required
+
+1. **`02-crowd-4-new-haven-2013` — correct or remove `UPTURNED FACE`.** The ellipse centered at `(0.545, 0.500)` encloses the rear-facing central figure and adjacent torso rather than an upturned face. Its label therefore names a feature the proof does not show at that position. Move the ellipse onto the intended face, relabel it accurately, or remove it.
+
+### Advisory (non-blocking)
+
+None. The previously resolved source rationales and overlays remain materially correct. All ten current specs meet the deterministic score threshold; the Hazelwood anchor's 95.3 score remains a visually defensible intentional semantic placement rather than a regression.
