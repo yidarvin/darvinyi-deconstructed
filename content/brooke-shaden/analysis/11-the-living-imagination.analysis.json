@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "image": "11-the-living-imagination.jpg",
+  "width": 1500,
+  "height": 1500,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3938208636115579,
+    "std": 0.20959805054779043,
+    "p05": 0.06274509803921569,
+    "p95": 0.6313725490196078,
+    "edge_density": 0.006282806396484375
+  },
+  "palette": [
+    "#999899",
+    "#151413",
+    "#85817d",
+    "#6a635b",
+    "#433c31"
+  ],
+  "lines": [
+    {
+      "x1": 0.873046875,
+      "y1": 0.21875,
+      "x2": 0.93359375,
+      "y2": 0.328125,
+      "angle_deg": 61.032339353935974,
+      "length": 0.0883991365830731,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.2294921875,
+      "y1": 0.109375,
+      "x2": 0.3349609375,
+      "y2": 0.0556640625,
+      "angle_deg": -26.987890581748488,
+      "length": 0.08369146322562238,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.234375,
+      "y1": 0.8955078125,
+      "x2": 0.337890625,
+      "y2": 0.9462890625,
+      "angle_deg": 26.13100054493858,
+      "length": 0.08152981040914764,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.021484375,
+      "y1": 0.4990234375,
+      "x2": 0.03515625,
+      "y2": 0.38671875,
+      "angle_deg": -83.05901657125743,
+      "length": 0.07999769684337257,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.6025390625,
+      "y1": 0.9599609375,
+      "x2": 0.70703125,
+      "y2": 0.921875,
+      "angle_deg": -20.0260890941166,
+      "length": 0.07864208759878218,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0244140625,
+      "y1": 0.5556640625,
+      "x2": 0.0244140625,
+      "y2": 0.4462890625,
+      "angle_deg": -90.0,
+      "length": 0.07733980419227864,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.025390625,
+      "y1": 0.439453125,
+      "x2": 0.05078125,
+      "y2": 0.3369140625,
+      "angle_deg": -76.0922221901453,
+      "length": 0.07469586058232922,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.3388671875,
+      "y1": 0.9462890625,
+      "x2": 0.44140625,
+      "y2": 0.9697265625,
+      "angle_deg": 12.875001559612476,
+      "length": 0.07437598989132482,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.765625,
+    "angle_deg": 0.0,
+    "confidence": 0.7561894127724438,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.6842879117357797,
+    "y": 0.7534739098736286,
+    "inliers": 3,
+    "confidence": 0.6
+  },
+  "saliency": {
+    "peak": [
+      0.5224609375,
+      0.3515625
+    ],
+    "regions": [
+      {
+        "cx": 0.5120387878503285,
+        "cy": 0.345773357234589,
+        "x": 0.4541015625,
+        "y": 0.2666015625,
+        "w": 0.1181640625,
+        "h": 0.15625,
+        "area_frac": 0.013645172119140625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9234920623706909,
+    "vertical_axis_x": 0.4875,
+    "horizontal": 0.905907444554142,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.5224609375,
+    "y": 0.3515625,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.33522500869071126,
+    "phi": 0.29198181505965976,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "confidence": 0.92,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.766,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.76,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.522,
+      "y": 0.352,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.684,
+      "y": 0.753,
+      "confidence": 0.6,
+      "why": "3 converging diagonals"
+    }
+  ]
+}

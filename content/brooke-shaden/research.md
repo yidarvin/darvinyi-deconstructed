@@ -1,0 +1,7 @@
+# Brooke Shaden — research notes
+
+The source record identifies twelve Brooke Shaden works dated 2011–2024 and credits every work © Brooke Shaden. Her print shop describes signed, numbered, artist-proofed limited editions. The available record does not establish an original print process, camera body, lens, exposure, lighting plan, capture format, compositing workflow, or retouching sequence for these individual works.
+
+The supplied files are square web-display JPEGs: eleven measure 1500 × 1500 pixels and one measures 1080 × 1080 pixels. No aperture, shutter speed, ISO, lens, focal length, or capture-date field is available. Embedded delivery metadata includes software and camera-like strings for some files, but those values are not a documented historical technical record and are not used as evidence of Shaden’s working method.
+
+The visible photographs support narrower claims: figures can be isolated through dark surrounds, framed by apertures or circular fields, made to carry large cloth forms, or offset by one saturated red or blue accent. The analysis files measure predominantly low-to-mid key tonal distributions, with deliberate local highlights rather than uniformly bright scenes. Their palette samples repeatedly return umber, charcoal, muted olive, cream, crimson, and blue; those readings are useful descriptions of the delivered images, not a statement about original prints. [Source notes](sources.md)
