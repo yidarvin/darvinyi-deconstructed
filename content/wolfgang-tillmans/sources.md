@@ -53,7 +53,7 @@ This 12-image working set follows Tillmans from the early, intimate portrait thr
 - **File:** `raw/wolfgang-tillmans/08-paper-drop-sl.jpg` (1800 × 1243px)
 
 ### 09 — *Everlast II* (2009)
-- **Why it matters:** The immense vertical abstraction lets color, chemical-looking bloom, and the paper's surface become the subject, testing the boundary between photograph and painting.
+- **Why it matters:** Overlapping dark material and a rising pale fold turn the vertical frame into a directional field, testing how the photograph can make texture, fold, and scale carry the composition.
 - **Source:** [Walker Art Center collection record](https://www.walkerart.org/collections/artwork/everlast-ii/) (public display file: `https://imgix-proxy.walkerart.org/wac_17913.tif?fm=jpg&w=1800&h=1800&fit=fit`).
 - **Rights / fair-use assessment:** Wolfgang Tillmans, identified as artist by Walker; reproduction rights remain with the creator/rightsholder. **Factor 1:** transformative scholarship studies abstraction, surface, and vertical scale. **Factor 2:** a highly creative photograph. **Factor 3:** the whole 1211 × 1800px frame is essential to analyze the color field. **Factor 4:** the credited, record-linked web copy cannot replace the artwork or licensed reproduction.
 - **File:** `raw/wolfgang-tillmans/09-everlast-ii.jpg` (1211 × 1800px)
