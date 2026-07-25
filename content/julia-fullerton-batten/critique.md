@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -27,3 +27,17 @@ Re-verified the complete critique history: the 2026-07-24 round above is the onl
 5. **10-birdcage:** Removed the unsupported `GARDEN EDGE`; revised the chapter so it no longer relies on that claim. Rendered proof is visually clean; score 100/100.
 
 The chapter copies in `content/` and `src/chapters/` are byte-identical. The advisory source-footer observation is non-blocking and unchanged.
+
+## Critique round — 2026-07-24
+
+Re-reviewed all 12 current proof PNGs against their overlay specs, ingested-image analysis records, chapter, research note, manifest, and source record. All twelve artist project pages and all twelve recorded public display-image URLs return HTTP 200. The per-image fair-use records contain the required four-factor rationale, and the chapter's numerical tonal, percentile, edge-density, and palette claims agree with the analysis JSON within tolerance. The deterministic scorer returns 100/100 for every overlay; the required findings below are semantic visual errors that that scorer cannot measure.
+
+### Required fixes
+
+1. **04-bike-accident — `GRASS-ROAD EDGE`:** The full-width horizontal `horizon_line` at `y: 0.195` overlaps the grass/road boundary only briefly near the central tunnel approach. Across the left it crosses grass and the building forecourt; across the right it crosses grass and the bicycle. It therefore asserts a continuous edge that is not visible. This is a material regression after the prior 2026-07-24 round resolved `BANK EDGE`: that primitive was removed, but the replacement now names and traces the wrong feature. Remove it or replace it with a primitive that follows a genuine visible structure.
+2. **07-broken-eggs — `DIAGONAL GARDEN AXIS`:** The arrowed line from `[0.213, 0.005]` to `[0.992, 0.994]` runs through unrelated trees, roofs, the reclining figure, and foreground plants rather than tracing a discernible garden axis. The named structure is not in the frame along that route. Remove it or replace it with a line on a visible edge; update the chapter sentence that currently relies on this claimed axis.
+3. **11-torch-with-fox — `FOX-TO-TORCH PATH`:** The polyline ends at `[0.74, 0.45]`, on the woman's upper torso, while the handheld torch is roughly a tenth of the frame lower at her right hand. That endpoint is far outside the allowed endpoint margin, so the line does not reach the feature its label names. Extend/reposition it to the torch or relabel it truthfully; align the chapter wording with the correction.
+
+### Advisory (non-blocking)
+
+- None.
