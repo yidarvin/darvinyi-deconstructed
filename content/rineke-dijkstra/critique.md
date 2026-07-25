@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -17,3 +17,15 @@ verdict: resolved
 ### Critique-history regression check
 
 - Re-verified the 2026-07-25 critique round (the only prior round in `git log -p -- content/rineke-dijkstra/critique.md`): its sole required correction now holds, and its recorded overlay, tonal/palette, attribution, and fair-use checks remain unchanged.
+
+## Critique round — 2026-07-25
+
+### Required
+
+- None.
+
+### Advisory (non-blocking)
+
+- **03-hilton-head-june-27-1992** and **12-amit-golani-brigade-1999:** The selected thirds grids are not the analyzer's nominal best fit (phi is higher by 0.0515 and 0.0145 respectively), but neither difference changes the visible reading and both remain inside the scorer's 0.10 grid-fit margin. No correction is warranted.
+
+All twelve proofs were visually rechecked against their specs and analyzer records. Each contains three focused primitives whose labels trace visible figure, shore/water, ridge, collar, or arm structures; the resolved 09 `water band` continues to trace water behind the sitter's knees rather than claiming the gravel shoreline. The prose matches the shown structures and measured file values, makes no camera-setting claim, and the twelve Art Institute records independently confirm title, artist, non-public-domain status, image route, and stated collection credit. Each fair-use entry includes the required pedagogical need, creative-work, limited-use, attribution, source, and market-substitution rationale.
