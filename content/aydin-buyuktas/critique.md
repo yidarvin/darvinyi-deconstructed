@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -28,3 +28,23 @@ Re-verified the full critique history: the only prior/current critique round is
 **2026-07-24**, and all three of its required corrections hold in the current
 overlays, proofs, and byte-identical chapter copies. The advisory `05-kaykaypist`
 item was left unchanged because it is non-blocking.
+
+## Critique round — 2026-07-24
+
+### Required
+
+1. **03-maltepe-stadi — correct the `stadium bowl` ellipse and the overlay-dependent description.** The ellipse spans x=0.160–0.840 and y=0.050–0.550, cutting through the pitch and ending well above the lower track, rather than tracing the visible stadium bowl. Replace it with a primitive that follows a real, correctly bounded structural feature (or remove it), then make the plate caption and paragraph describe that corrected cue rather than an oval bowl.
+
+2. **08-demirciler — remove or replace the `compressed roof field` ellipse.** The ellipse (x=0.100–0.900, y=0.460–0.700) creates an oval across unrelated roofs, roads, and industrial lots; the photograph has no oval roof structure or bounded field at that perimeter. Use primitives that trace the visible street/roof rhythm instead, and keep the caption and prose aligned to those real features.
+
+3. **09-basibuyuk — relabel or remove `hillside break`.** The horizontal line at y=0.165 follows the upper carriageway/urban band, not a hillside break. The analyzer supports a dominant horizontal at that coordinate, but not the stated feature; name the visible road-band transition or remove the claim.
+
+### Advisory (non-blocking)
+
+- **02-sali-pazari — `diagonal market aisle` is a broad directional path rather than a clearly bounded aisle.** Its starting point lies in the construction parcel before crossing the tents. A less literal label would make the cue clearer, but the visible diagonal still supports the chapter's directional reading.
+
+### Verification
+
+- Independently inspected all eleven current proofs, overlay specs, analyzer outputs, chapter prose, research note, manifest, and source record. All eleven overlay specs score 100/100 against the current deterministic analyzer; the required findings above are visual/semantic mismatches that score cannot detect.
+- The prior round's resolved findings for 06-galata-bridge, 09-basibuyuk's cross-town carriageway, and 11-yeni-cami remain resolved. The unchanged 05-kaykaypist anchor remains the prior round's settled non-blocking advisory and is not reopened.
+- The Bant Mag source page is live, credits Aydın Büyüktaş, describes *Flatland*, and exposes the named display images; each image has a complete per-image fair-use rationale in `sources.md`. No camera setting is claimed.
