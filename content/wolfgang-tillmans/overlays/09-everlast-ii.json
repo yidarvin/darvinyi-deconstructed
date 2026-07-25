@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "polyline", "points": [[0.042, 0.816], [0.269, 0.607], [0.495, 0.485]], "label": "left folded contour" },
     { "type": "polyline", "points": [[0.067, 0.856], [0.291, 0.443]], "label": "rising pale fold" },
-    { "type": "vanishing_point", "x": 0.301, "y": 0.662, "label": "convergent folds" },
     { "type": "ellipse", "cx": 0.424, "cy": 0.569, "rx": 0.335, "ry": 0.250, "label": "dark material mass" }
   ],
-  "notes": "Rising folds and overlapping dark material make the field read as directional space."
+  "notes": "Two visible folds and an overlapping dark material mass make the field read as directional space."
 }

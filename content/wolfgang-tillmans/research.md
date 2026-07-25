@@ -8,7 +8,7 @@ MoMA's survey context, as summarized in the supplied notes, supports the chapter
 
 ## Process, printing, and settings
 
-The available records do not document a camera body, lens, focal length, aperture, shutter speed, sensitivity, film stock, negative format, lighting setup, darkroom process, or original printing process for these individual photographs. The ingested web-display JPEGs contain no EXIF. The chapter therefore does not infer technical settings from visible grain, colour, blur, or the white margins around reproduced works.
+The available records do not document a camera body, lens, focal length, aperture, shutter speed, sensitivity, film stock, negative format, lighting setup, or a full account of the capture and darkroom workflow for these individual photographs. The ingested web-display JPEGs contain no EXIF. The Walker records do identify media for collection works where stated—for example, *The Cock (kiss)* is an inkjet print on paper and *Venus transit, passage* a color chromogenic print—but those entries do not establish camera settings or a uniform process for the whole selection. The chapter therefore does not infer technical settings from visible grain, colour, blur, or the white margins around reproduced works.
 
 The source notes do identify several images as public collection-display files and describe Tillmans's broader practice as including camera-less abstraction and installation-derived paper forms. Those facts do not establish a single process for every plate. Descriptions of a print border, the visible paper field, or tonal structure refer only to the supplied reproduction.
 

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -37,3 +37,11 @@ verdict: revise
 - All twelve current analysis/spec pairs replay at 100/100. That geometric score does not override the visual findings above: `04` and `09` show why semantic review is still required.
 - Every proof was visually reviewed. The remaining overlays make bounded, readable claims, and the prior `09-everlast-ii` source-note correction remains resolved; this round reopens neither that settled source finding nor any cosmetic issue.
 - The twelve source links are traceable display or collection routes. All fair-use entries contain concise four-factor rationales; no camera settings are invented. The outstanding source issue is the incomplete CC BY-SA attribution record described above.
+
+## Resolution — 2026-07-25
+
+- Resolved required item 1: `04-venus-transit-passage` now marks the visible lower-left disc contact with a bounded ellipse; the plate caption, overlay note, and comparison prose all identify it as lower-left. The regenerated proof was visually checked and scores 100/100.
+- Resolved required item 2: `09-everlast-ii` no longer makes a vanishing-point or “convergent folds” claim. Its two labeled polylines trace distinct visible fold contours, and its ellipse identifies the dark material mass. The regenerated proof was visually checked and scores 100/100.
+- Resolved required item 3: `research.md` and the chapter callout now preserve the uncertainty about camera settings and unrecorded workflow while acknowledging documented Walker media, including the inkjet and color-chromogenic records.
+- Resolved required item 4: the *Wald (Briol I)* source record now includes the CC BY-SA 4.0 licence URL, source-page link, and an accurate note that the ingested JPEG was re-encoded and normalized without changing visual content.
+- Re-verified critique history: the 2026-07-25 first round (the *Everlast II* source-note correction) remains satisfied: `sources.md` describes overlapping dark material and a rising pale fold, matching the current proof and overlay. Re-verified this 2026-07-25 round after the changes above; all four required fixes remain satisfied.

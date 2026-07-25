@@ -73,7 +73,7 @@ This 12-image working set follows Tillmans from the early, intimate portrait thr
 ### 12 — *Wald (Briol I)* (2008)
 - **Why it matters:** The dense forest substitutes a dispersed, immersive field for a single privileged subject, making a useful counterweight to the near-abstract works and intimate portraits.
 - **Source:** [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Wolfgang_Tillmans_%22Wald_(Briol_I),_2008%22.jpg) (direct public file: `https://upload.wikimedia.org/wikipedia/commons/b/bc/Wolfgang_Tillmans_%22Wald_%28Briol_I%29%2C_2008%22.jpg`).
-- **Rights / open licence:** Wolfgang Tillmans, **CC BY-SA 4.0**. Commons identifies Tillmans as author and the work as *Wald (Briol I)*, 2008. Required credit: “Wolfgang Tillmans, *Wald (Briol I)*, 2008, CC BY-SA 4.0, via Wikimedia Commons,” with a link to the licence and source page.
+- **Rights / open licence:** Wolfgang Tillmans, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Commons identifies Tillmans as author and the work as *Wald (Briol I)*, 2008. Required credit: “Wolfgang Tillmans, *Wald (Briol I)*, 2008, CC BY-SA 4.0, via Wikimedia Commons,” linked to this [licence](https://creativecommons.org/licenses/by-sa/4.0/) and the [source page](https://commons.wikimedia.org/wiki/File:Wolfgang_Tillmans_%22Wald_(Briol_I),_2008%22.jpg). The ingested 676 × 990px JPEG was re-encoded and normalized for this site; no visual content was altered.
 - **File:** `raw/wolfgang-tillmans/12-wald-briol-i.jpg` (676 × 990px)
 
 ## Research notes
