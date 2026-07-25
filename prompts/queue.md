@@ -136,7 +136,7 @@ real queue and state live in data/registry.json.
 | 125 | erik-johansson            | Erik Johansson               | DONE    |
 | 126 | david-lachapelle          | David LaChapelle             | DONE    |
 | 127 | tim-walker                | Tim Walker                   | DONE    |
-| 128 | eugenio-recuenco          | Eugenio Recuenco             | PENDING |
+| 128 | eugenio-recuenco          | Eugenio Recuenco             | DONE    |
 | 129 | kirsty-mitchell           | Kirsty Mitchell              | PENDING |
 | 130 | brooke-shaden             | Brooke Shaden                | PENDING |
 | 131 | flora-borsi               | Flóra Borsi                  | PENDING |
