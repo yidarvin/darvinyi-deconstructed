@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.601, "y": 0.430, "r": 0.035, "label": "HUMAN EYE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.388, "label": "FACE AXIS" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "FACE CENTERLINE" },
     { "type": "ellipse", "cx": 0.46, "cy": 0.48, "rx": 0.27, "ry": 0.34, "label": "PALE FACE FIELD" }
   ],
   "notes": "A minute dark beetle interrupts an almost monochrome, near-frontal field of skin and freckles."

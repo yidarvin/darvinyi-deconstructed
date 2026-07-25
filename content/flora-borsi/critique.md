@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -31,3 +31,23 @@ contains a concise four-factor rationale.
   URLs resolved successfully and keep the individual sources traceable. Refresh
   the contextual project link when an official replacement is available; this
   does not block the present source record.
+
+## Builder resolution — 2026-07-24
+
+1. `06-animeyed-beetle`: moved the vertical annotation to `x: 0.500` and
+   renamed it `FACE CENTERLINE`. The rerender now passes through the visible
+   nose-and-mouth centerline, rather than the beetle/left side. The deterministic
+   scorer reports 90/100; its only deduction is for disagreeing with the
+   detector's left-shifted global symmetry estimate, which is not the face axis
+   claimed by the overlay. Visual review is clean.
+
+2. `09-animeyed-chameleon`: redrafted `TAIL S-CURVE` as a 12-point polyline
+   that follows the visible tail down its left descent, across the tail, and
+   through its curled tip. The rerender removes the previous chest-crossing
+   segments. The deterministic scorer reports 100/100 and visual review is
+   clean.
+
+Re-verified the complete required-fix history: the sole prior critique round,
+`2026-07-24` (`verdict: revise`). Both required fixes from that round hold in
+the current specs and proofs. `scripts/check.sh` passes; the advisory source-link
+refresh was not changed because it is explicitly non-blocking.
