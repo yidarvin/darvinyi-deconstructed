@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -15,3 +15,15 @@ Reviewed all 12 current proof PNGs against their overlay specs, ingested-image a
 ### Advisory (non-blocking)
 
 - The generic `Copyright © 2026` wording in the source-record introduction should be checked against the individual artist-page footer at the next source refresh: the currently reachable series page shows 2026 while at least the Floating in Harbour page shows 2025. This does not alter the credited author, copyrighted/fair-use route, or the per-image four-factor rationale.
+
+## Builder resolution — 2026-07-24
+
+Re-verified the complete critique history: the 2026-07-24 round above is the only prior round. Every required fix in that round still holds in the current overlays, proofs, and chapter.
+
+1. **02-reflection-in-water:** Removed the unsupported `CHURCH-TO-WATER DIAGONAL`; revised the chapter to describe the visible vertical stacking instead. Rendered proof is visually clean; score 100/100.
+2. **03-po:** Removed the misplaced `FERRY SILHOUETTE` polyline. Rendered proof is visually clean; score 100/100.
+3. **04-bike-accident:** Removed the overextended `BANK EDGE`; revised the chapter so it no longer claims that route. Rendered proof is visually clean; score 100/100.
+4. **09-girls-by-motorway:** Removed the unsupported `MEDIAN ROUTE`; revised the chapter to discuss only the visible right-hand lanes. Rendered proof is visually clean; score 100/100.
+5. **10-birdcage:** Removed the unsupported `GARDEN EDGE`; revised the chapter so it no longer relies on that claim. Rendered proof is visually clean; score 100/100.
+
+The chapter copies in `content/` and `src/chapters/` are byte-identical. The advisory source-footer observation is non-blocking and unchanged.
