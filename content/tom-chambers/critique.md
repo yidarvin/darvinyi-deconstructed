@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -15,3 +15,13 @@ verdict: revise
 - `03-a-view-from-the-bridge`, `04-one-oar-out`, `08-springs-landfall`, `09-aground`, and `12-genesis` each have a semantic physical-feature line that the geometric scorer cannot corroborate. The visual pass supports the named balustrade, boat hull/rim, branch, or stone wall; their passing normal scores remain sufficient. Refining those paths could reduce future scorer warnings but is not required.
 - Align the per-image “Why it matters” text in `sources.md`, especially for `06-late-for-dinner`, with the composition actually discussed in the chapter so the fair-use teaching rationales are clearer.
 - The individual source URLs, artist attribution, four-factor fair-use records, manifest dimensions, analysis-backed chapter measurements, and camera-settings caveat were otherwise verified.
+
+## Resolution — 2026-07-24
+
+1. Re-ran the composition-analysis loop for *Spring's Landfall*: removed the false diagonal rim claim, retained the visible white-hull contour, rendered and visually checked the proof, and scored 94/100.
+2. Re-ran the composition-analysis loop for *Hide Your Eyes*: replaced the false rectangular aperture bracket with a polyline on the large arch's actual edge, rendered and visually checked the proof, and scored 100/100.
+3. Corrected *Buffalo Gal* to `undated (*The Ties That Bind* series, 2021)`.
+4. Limited the photographed-or-hand-drawn claim to the *Declaration* series in both the chapter and source record.
+5. Removed the terminal period from the artist licensing-contact URL; the resulting endpoint returns HTTP 200.
+
+Re-verified critique history: 2026-07-24 round 1 (the only prior round). All five required fixes remain present in the current overlays, proofs, chapter, and source record.
