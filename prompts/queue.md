@@ -138,7 +138,7 @@ real queue and state live in data/registry.json.
 | 127 | tim-walker                | Tim Walker                   | DONE    |
 | 128 | eugenio-recuenco          | Eugenio Recuenco             | DONE    |
 | 129 | kirsty-mitchell           | Kirsty Mitchell              | DONE    |
-| 130 | brooke-shaden             | Brooke Shaden                | PENDING |
+| 130 | brooke-shaden             | Brooke Shaden                | DONE    |
 | 131 | flora-borsi               | Flóra Borsi                  | PENDING |
 | 132 | miss-aniela               | Miss Aniela (Natalie Dybisz) | PENDING |
 | 133 | aydin-buyuktas            | Aydın Büyüktaş               | PENDING |

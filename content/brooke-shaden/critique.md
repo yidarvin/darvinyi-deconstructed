@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -153,3 +153,31 @@ the `PAINT CAN` ellipse, removal of `BRAIDED V`, and corrected `BERRY RHYTHM`
 path still visibly match their named features; and the previously corrected
 anchors remain in place. All twelve current overlays score 100/100 under the
 strict scorer. `bash scripts/check.sh` and pipeline validation then passed.
+
+## Critique round — 2026-07-24
+
+Reviewed all twelve current proof PNGs against their overlay specifications,
+analysis records, chapter, research, manifest, and source notes. The twelve
+public official-delivery links and the portfolio/print-shop links each return
+successfully; every displayed work has © Brooke Shaden credit and its own
+concise four-factor fair-use rationale. No camera-setting or unsupported
+historical-process claim appears in the chapter.
+
+All overlay specs pass the strict scorer at 100/100. Visual inspection confirms
+that the retained primitives trace their named features. The previously
+resolved `04` skirt/figure, `07` paint-can, `09` braid, `10` berry-path, and
+`12` tree-balance findings remain resolved without material regression. The
+chapter's cited tonal, horizon, grid, and edge-density values agree with the
+current analysis records within the stated tolerance, including *Life After
+Death*'s standalone edge density of 0.073.
+
+### REQUIRED
+
+None.
+
+### Advisory (non-blocking)
+
+- **`04-we-are-infinite`:** the overlay makes its argument with two accurate
+  primitives rather than the preferred three-to-five. The broken opening and
+  skirt sweep still teach the chapter's central relationship clearly, so this
+  is a pedagogical enhancement, not a truthfulness defect.
