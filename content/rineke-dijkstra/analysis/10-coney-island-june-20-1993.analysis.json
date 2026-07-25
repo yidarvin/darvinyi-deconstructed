@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "10-coney-island-june-20-1993.jpg",
+  "width": 843,
+  "height": 1071,
+  "aspect": 0.7871,
+  "tonal": {
+    "mean": 0.5783505981486887,
+    "std": 0.14378610591014265,
+    "p05": 0.30196078431372547,
+    "p95": 0.7333333333333333,
+    "edge_density": 0.004474497906327543
+  },
+  "palette": [
+    "#abb6b1",
+    "#818278",
+    "#999b91",
+    "#69655b",
+    "#202220"
+  ],
+  "lines": [
+    {
+      "x1": 0.36724565756823824,
+      "y1": 0.55078125,
+      "x2": 0.4119106699751861,
+      "y2": 0.4462890625,
+      "angle_deg": -71.40455921724337,
+      "length": 0.08663112758958894,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.45285359801488834,
+      "y1": 0.1806640625,
+      "x2": 0.46153846153846156,
+      "y2": 0.2705078125,
+      "angle_deg": 85.64892204842613,
+      "length": 0.07080197363489335,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.7255859375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.46898263027295284,
+      0.3037109375
+    ],
+    "regions": [
+      {
+        "cx": 0.4784071408707684,
+        "cy": 0.29910212393087027,
+        "x": 0.3970223325062035,
+        "y": 0.244140625,
+        "w": 0.1674937965260546,
+        "h": 0.1064453125,
+        "area_frac": 0.013740937112282879
+      },
+      {
+        "cx": 0.5120308188079717,
+        "cy": 0.5431308135830785,
+        "x": 0.4478908188585608,
+        "y": 0.513671875,
+        "w": 0.12406947890818859,
+        "h": 0.0625,
+        "area_frac": 0.0059429765043424315
+      },
+      {
+        "cx": 0.5140143023921661,
+        "cy": 0.1738082094141324,
+        "x": 0.4801488833746898,
+        "y": 0.142578125,
+        "w": 0.06947890818858561,
+        "h": 0.0673828125,
+        "area_frac": 0.0033864667338709678
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9236027960934063,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7219174554147296,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.46898263027295284,
+    "y": 0.3037109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.459306139255748,
+    "phi": 0.29900113701537345,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.726,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.92,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.469,
+      "y": 0.304,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

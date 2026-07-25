@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-coney-island-june-20-1993.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.726, "angle": 0.0, "label": "waterline" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "body axis" },
+    { "type": "ellipse", "cx": 0.470, "cy": 0.560, "rx": 0.145, "ry": 0.385, "label": "standing figure" }
+  ],
+  "notes": "A frontal figure occupies a restrained beach field; the low waterline makes each arm and foot placement readable."
+}

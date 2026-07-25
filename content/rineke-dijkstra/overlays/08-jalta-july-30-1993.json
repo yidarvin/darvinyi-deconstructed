@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-jalta-july-30-1993.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "middle figure axis" },
+    { "type": "ellipse", "cx": 0.510, "cy": 0.595, "rx": 0.310, "ry": 0.360, "label": "three figures" },
+    { "type": "polyline", "points": [[0.355, 0.590], [0.505, 0.610], [0.655, 0.580]], "label": "linked arms" }
+  ],
+  "notes": "The middle child and linked arms bind a three-person row without making its unequal poses symmetrical."
+}

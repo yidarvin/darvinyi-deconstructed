@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-hilton-head-june-22-1992.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.622, "angle": 1.0, "label": "shore break" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "figure axis" },
+    { "type": "ellipse", "cx": 0.475, "cy": 0.545, "rx": 0.140, "ry": 0.440, "label": "standing figure" }
+  ],
+  "notes": "A frontal figure occupies a spare vertical field, with the low shore break giving the pose a ground."
+}

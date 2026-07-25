@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-kolobrzeg-july-23-1992.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.681, "angle": 2.0, "label": "shore break" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "group balance" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.550, "rx": 0.285, "ry": 0.335, "label": "three figures" }
+  ],
+  "notes": "Three differently scaled children are held as a compact band above the low, angled shore."
+}

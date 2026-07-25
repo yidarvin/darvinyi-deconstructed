@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-hilton-head-june-24-1992.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.631, "angle": 0.0, "label": "waterline" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "body axis" },
+    { "type": "ellipse", "cx": 0.415, "cy": 0.565, "rx": 0.135, "ry": 0.390, "label": "standing figure" }
+  ],
+  "notes": "The low waterline and near-central body make the raised hand and uneven shoulders visible as small departures."
+}

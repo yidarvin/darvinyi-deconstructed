@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "image": "02-hilton-head-june-24-1992.jpg",
+  "width": 843,
+  "height": 1047,
+  "aspect": 0.8052,
+  "tonal": {
+    "mean": 0.5100261020860104,
+    "std": 0.08562526798880965,
+    "p05": 0.3568627450980392,
+    "p95": 0.596078431372549,
+    "edge_density": 0.00515184124696602
+  },
+  "palette": [
+    "#7a98a9",
+    "#688393",
+    "#55687a",
+    "#ae867c",
+    "#3b4557"
+  ],
+  "lines": [
+    {
+      "x1": 0.5885922330097088,
+      "y1": 0.630859375,
+      "x2": 0.6881067961165048,
+      "y2": 0.630859375,
+      "angle_deg": 0.0,
+      "length": 0.06238760129953748,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.630859375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.4016990291262136,
+      0.3037109375
+    ],
+    "regions": [
+      {
+        "cx": 0.4152934240097939,
+        "cy": 0.2825090479125863,
+        "x": 0.33980582524271846,
+        "y": 0.1552734375,
+        "w": 0.1553398058252427,
+        "h": 0.2578125,
+        "area_frac": 0.02541432797330097
+      },
+      {
+        "cx": 0.48007975840173456,
+        "cy": 0.900056231367121,
+        "x": 0.42718446601941745,
+        "y": 0.8515625,
+        "w": 0.10800970873786407,
+        "h": 0.09375,
+        "area_frac": 0.007652504930218447
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8769345908114783,
+    "vertical_axis_x": 0.4125,
+    "horizontal": 0.6509642800922105,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.4016990291262136,
+    "y": 0.3037109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.6870906597949299,
+    "phi": 0.7220921043082288,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.631,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.412,
+      "confidence": 0.88,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.402,
+      "y": 0.304,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

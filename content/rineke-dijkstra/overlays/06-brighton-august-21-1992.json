@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-brighton-august-21-1992.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.522, "angle": 0.0, "label": "waterline" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "body axis" },
+    { "type": "ellipse", "cx": 0.490, "cy": 0.565, "rx": 0.135, "ry": 0.365, "label": "still figure" }
+  ],
+  "notes": "Crossed hands and a central body make stillness legible against a textured shore and open sky."
+}

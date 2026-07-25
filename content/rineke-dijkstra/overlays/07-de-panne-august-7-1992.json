@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-de-panne-august-7-1992.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.776, "angle": 1.0, "label": "shore break" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "body axis" },
+    { "type": "ellipse", "cx": 0.535, "cy": 0.555, "rx": 0.145, "ry": 0.395, "label": "standing figure" }
+  ],
+  "notes": "A central, vertical body is unsettled by wind-blown hair and a slight lean, all above a low shore band."
+}

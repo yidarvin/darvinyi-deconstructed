@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-annemiek-february-11-1997.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "face axis" },
+    { "type": "ellipse", "cx": 0.510, "cy": 0.390, "rx": 0.290, "ry": 0.365, "label": "head and hair" },
+    { "type": "polyline", "points": [[0.295, 0.720], [0.505, 0.745], [0.715, 0.720]], "label": "collar line" }
+  ],
+  "notes": "The close crop gives a face and collar a near-symmetrical field while preserving a subtly uneven expression."
+}

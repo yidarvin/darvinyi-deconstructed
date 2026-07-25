@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-amit-golani-brigade-1999.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.502, "angle": 0.0, "label": "distant ridge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "figure axis" },
+    { "type": "ellipse", "cx": 0.435, "cy": 0.565, "rx": 0.170, "ry": 0.430, "label": "uniformed figure" }
+  ],
+  "notes": "The upright uniformed figure is held against a low ridge, with the rifle creating a visible diagonal counterweight."
+}

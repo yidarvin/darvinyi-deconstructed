@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "image": "09-odessa-august-4-1993.jpg",
+  "width": 843,
+  "height": 1051,
+  "aspect": 0.8021,
+  "tonal": {
+    "mean": 0.6339622973313869,
+    "std": 0.092437594917995,
+    "p05": 0.49019607843137253,
+    "p95": 0.7254901960784313,
+    "edge_density": 0.002865455618148599
+  },
+  "palette": [
+    "#a2babd",
+    "#7f9fa2",
+    "#7c8c87",
+    "#a5806f",
+    "#652a2a"
+  ],
+  "lines": [
+    {
+      "x1": 0.4190012180267966,
+      "y1": 0.45703125,
+      "x2": 0.5310596833130329,
+      "y2": 0.44921875,
+      "angle_deg": -4.969740728110304,
+      "length": 0.07036055093994362,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.4056029232643118,
+      "y1": 0.416015625,
+      "x2": 0.4397076735688185,
+      "y2": 0.330078125,
+      "angle_deg": -72.34987578006988,
+      "length": 0.0703605509399436,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.453125,
+    "angle_deg": -4.969740728110304,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.53836784409257,
+      0.1640625
+    ],
+    "regions": [
+      {
+        "cx": 0.5406656213430389,
+        "cy": 0.16846531184302732,
+        "x": 0.48112058465286234,
+        "y": 0.123046875,
+        "w": 0.11936662606577345,
+        "h": 0.0908203125,
+        "area_frac": 0.008486934759439707
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9398573014548066,
+    "vertical_axis_x": 0.525,
+    "horizontal": 0.7553851896981336,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.53836784409257,
+    "y": 0.1640625,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0007716049382715282,
+    "phi": 0.1808926342596489,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.453,
+      "angle": -5.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.525,
+      "confidence": 0.94,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.538,
+      "y": 0.164,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
