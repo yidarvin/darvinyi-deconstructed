@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-storm-door.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.19, "y": 0.06, "w": 0.43, "h": 0.66, "label": "doorway" },
+    { "type": "polyline", "points": [[0.26, 0.53], [0.45, 0.48], [0.68, 0.4], [0.86, 0.29]], "label": "ships' surge" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.48, "rx": 0.18, "ry": 0.29, "label": "figure and portal" }
+  ],
+  "notes": "A literal doorway contains the figure while the invented sea crosses its threshold."
+}

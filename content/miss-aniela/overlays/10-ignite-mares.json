@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-ignite-mares.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.13, 0.72], [0.3, 0.58], [0.48, 0.42], [0.63, 0.25]], "label": "horse-motif climb" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.36, "rx": 0.17, "ry": 0.16, "label": "figure" },
+    { "type": "leading_line", "points": [[0.362, 0.774], [0.493, 0.116]], "arrow": true, "label": "central dress rise" }
+  ],
+  "notes": "The red dress turns the portrait into a vertical, animal-charged surge."
+}
