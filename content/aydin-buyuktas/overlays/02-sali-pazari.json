@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-sali-pazari.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.771, "angle": 0, "label": "market-to-city turn" },
+    { "type": "vanishing_point", "x": 0.629, "y": 0.409, "label": "market lattice convergence" },
+    { "type": "leading_line", "points": [[0.094, 0.299], [0.722, 0.744]], "arrow": true, "label": "diagonal market aisle" }
+  ],
+  "notes": "The market lattice remains legible as it crosses the picture's impossible change of orientation."
+}

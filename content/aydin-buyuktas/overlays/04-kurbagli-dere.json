@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-kurbagli-dere.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.879, "angle": 0, "label": "city fold" },
+    { "type": "vanishing_point", "x": 0.507, "y": 0.437, "label": "street convergence" },
+    { "type": "leading_line", "points": [[0.524, 0.472], [0.956, 0.903]], "arrow": true, "label": "creek-side route" }
+  ],
+  "notes": "A winding watercourse supplies a directional contour across the folded city surface."
+}

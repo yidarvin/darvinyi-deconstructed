@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-grand-bazaar.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.684, "angle": 0, "label": "roof-to-city turn" },
+    { "type": "vanishing_point", "x": 0.401, "y": 0.498, "label": "roof-grid convergence" },
+    { "type": "leading_line", "points": [[0.003, 0.022], [0.767, 0.967]], "arrow": true, "label": "bazaar roof diagonal" }
+  ],
+  "notes": "The bazaar roof makes foreground enclosure and urban expanse read as one directional system."
+}

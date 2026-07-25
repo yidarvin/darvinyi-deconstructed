@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-sultanahmet.jpg",
+    "width": 776,
+    "height": 1024,
+    "sha1": "73b72ee3",
+    "source": "01-sultanahmet.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-sali-pazari.jpg",
+    "width": 726,
+    "height": 1024,
+    "sha1": "a7fa0e08",
+    "source": "02-sali-pazari.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-maltepe-stadi.jpg",
+    "width": 558,
+    "height": 1024,
+    "sha1": "f5ef9c8a",
+    "source": "03-maltepe-stadi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-kurbagli-dere.jpg",
+    "width": 639,
+    "height": 1024,
+    "sha1": "f6ebc32d",
+    "source": "04-kurbagli-dere.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-kaykaypist.jpg",
+    "width": 658,
+    "height": 1024,
+    "sha1": "0e1efb13",
+    "source": "05-kaykaypist.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-galata-bridge.jpg",
+    "width": 598,
+    "height": 1024,
+    "sha1": "fd947d0e",
+    "source": "06-galata-bridge.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-fenerbahce-stadium.jpg",
+    "width": 763,
+    "height": 1024,
+    "sha1": "6598c02b",
+    "source": "07-fenerbahce-stadium.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-demirciler.jpg",
+    "width": 541,
+    "height": 1024,
+    "sha1": "e6d78446",
+    "source": "08-demirciler.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-basibuyuk.jpg",
+    "width": 540,
+    "height": 1024,
+    "sha1": "adcd25bb",
+    "source": "09-basibuyuk.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-grand-bazaar.jpg",
+    "width": 701,
+    "height": 1024,
+    "sha1": "34cb3b2d",
+    "source": "10-grand-bazaar.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-yeni-cami.jpg",
+    "width": 1024,
+    "height": 956,
+    "sha1": "c2f20e66",
+    "source": "11-yeni-cami.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-sultanahmet.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.451, "angle": 0, "label": "fold transition" },
+    { "type": "vanishing_point", "x": 0.410, "y": 0.509, "label": "courtyard convergence" },
+    { "type": "leading_line", "points": [[0.000, 0.879], [0.586, 0.435]], "arrow": true, "label": "mosque-square route" }
+  ],
+  "notes": "The mosque precinct is held between an aerial carpet and an upright civic wall."
+}
