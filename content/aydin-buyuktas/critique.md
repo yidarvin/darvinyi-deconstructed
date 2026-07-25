@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -66,3 +66,29 @@ transition, `09-basibuyuk` cross-town-carriageway, and `11-yeni-cami` central
 dome and mosque-to-plaza corrections remain present in the current overlays,
 proofs, and byte-identical chapter copies. The non-blocking advisories for
 `05-kaykaypist` and `02-sali-pazari` remain deliberately unchanged.
+
+## Critique round — 2026-07-24
+
+### Required
+
+None. All eleven current proofs were inspected against their overlay specs and
+analyzer records. The two prior required sets remain resolved: the Maltepe track
+edge and stadium balance trace visible features; Demirciler now identifies the
+central street and roof-edge rhythm without an invented enclosure; Basibuyuk's
+two carriageway cues trace the visible roads; and the Galata Bridge and Yeni
+Cami corrections continue to name the marked bridge, dome, and plaza features.
+Every current overlay scores 100/100 against its matching analyzer record.
+
+The chapter's measured coordinates and compositional descriptions agree with
+the visible proofs and specs, and it makes no camera-setting claim. All eleven
+files have a traceable Bant Mag editorial/source-image route, artist credit, and
+per-image four-factor fair-use rationale; the editorial page and a sampled
+direct image route returned HTTP 200 during this review.
+
+### Advisory (non-blocking)
+
+- The settled `02-sali-pazari` “diagonal market aisle” remains a broad
+  directional cue rather than a sharply bounded aisle, and the settled
+  `05-kaykaypist` ramp-crest anchor remains at the image edge. Both still read
+  as the features named and remain non-blocking; neither has materially
+  regressed.
