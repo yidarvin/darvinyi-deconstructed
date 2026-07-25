@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -63,3 +63,23 @@ Re-verified critique history: 2026-07-25, the only prior critique round.
 
 The revised proofs received a clean visual pass. Strict overlay scores are 88,
 88, 100, and 88 respectively; all exceed the required threshold of 80.
+
+## Critique round — 2026-07-25
+
+### Required
+
+None. All twelve current proofs were inspected against their overlay and
+analysis JSON. The four previously required corrections remain materially
+truthful: 03 labels the salient cropped body without a false ordinal, 06 frames
+one fourth figure unit, 10's ellipses follow the two circular crop boundaries,
+and 12's frame encloses the first portrait panel.
+
+The chapter's reported p05, p95, and edge-density figures match the current
+analysis files within rounding tolerance. It invents no camera settings. Each
+image retains a direct, public artist-archive URL, a credit/rights statement,
+and an item-specific four-factor fair-use rationale; all twelve asset URLs and
+the linked archive/collection records returned HTTP 200 in this review.
+
+### Advisory (non-blocking)
+
+None.
