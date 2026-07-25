@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -127,3 +127,33 @@ corrected. The remaining cosmetic advisories were left unchanged. All twelve
 overlays pass at >=80 (eleven at 100/100; Beetle at 90/100), visual review is
 clean, `scripts/check.sh` passes, and `python3 scripts/validate_pipeline.py`
 passes.
+
+## Critique round — 2026-07-24
+
+Re-reviewed all twelve current rendered proofs against their overlay specs and
+analyzer records, then checked the chapter, manifest, research, and source
+record. The prior required corrections remain resolved without regression:
+`06-animeyed-beetle`'s centerline follows the visible nose-and-mouth axis,
+`09-animeyed-chameleon`'s polyline follows the tail through its curl, and the
+Black Swan and Puffin beak annotations trace the visible beaks. Every overlay
+scores at least 80 (eleven at 100; Beetle at 90 for the documented global-
+symmetry detector disagreement). Chapter tonal, palette, and edge-density
+figures agree with the analyzer values within tolerance, and no unsupported
+camera setting is asserted.
+
+All twelve credited direct Squarespace display URLs returned HTTP 200 on this
+review date. Each individual entry identifies fair-use, credit, source, and a
+concise four-factor rationale; the inaccessible contextual project and Artsy
+pages do not make the individually resolving image sources untraceable.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- The contextual official project URL still returns HTTP 404 and the cited
+  Artsy research page returns HTTP 403. The twelve direct artist-hosted display
+  files remain publicly resolvable and individually documented, so this is not
+  a source-integrity blocker; refresh the contextual links if durable public
+  replacements become available.
