@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-louvre-4-paris.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.15, "y": 0.05, "w": 0.70, "h": 0.58, "label": "PAINTING" },
+    { "type": "horizon_line", "y": 0.653, "angle": 0, "label": "VIEWING LINE" },
+    { "type": "subject_anchor", "x": 0.516, "y": 0.814, "r": 0.08, "label": "CENTRAL VIEWER" },
+    { "type": "polyline", "points": [[0.31, 0.75], [0.50, 0.65], [0.69, 0.74]], "label": "SPECTATOR BAND" }
+  ],
+  "notes": "The painting's frame contains one scene while a low band of viewers makes looking the second subject."
+}

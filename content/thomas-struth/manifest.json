@@ -1,0 +1,132 @@
+[
+  {
+    "file": "01-crosby-street-new-york-soho.jpg",
+    "width": 1000,
+    "height": 704,
+    "sha1": "36e340e5",
+    "source": "01-crosby-street-new-york-soho.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "iQSmart 3",
+      "DateTimeOriginal": "1203211026"
+    }
+  },
+  {
+    "file": "02-the-hirose-family-hiroshima.jpg",
+    "width": 1000,
+    "height": 717,
+    "sha1": "97058804",
+    "source": "02-the-hirose-family-hiroshima.jpg",
+    "exif": {
+      "Make": "Kodak",
+      "Model": "iQSmart 3",
+      "DateTimeOriginal": "1301241544"
+    }
+  },
+  {
+    "file": "03-louvre-4-paris.jpg",
+    "width": 1000,
+    "height": 781,
+    "sha1": "a7411a31",
+    "source": "03-louvre-4-paris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-pantheon-rome.jpg",
+    "width": 1000,
+    "height": 704,
+    "sha1": "e58ad67c",
+    "source": "04-pantheon-rome.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-paradise-02-daintree.jpg",
+    "width": 1000,
+    "height": 785,
+    "sha1": "56f80d43",
+    "source": "05-paradise-02-daintree.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-semi-submersible-rig.jpg",
+    "width": 1000,
+    "height": 794,
+    "sha1": "52898bd4",
+    "source": "06-semi-submersible-rig.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-tokamak-asdex-upgrade-interior-2.jpg",
+    "width": 1000,
+    "height": 795,
+    "sha1": "d0b79ccb",
+    "source": "07-tokamak-asdex-upgrade-interior-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-brillenbaer-leibniz-izw.jpg",
+    "width": 1000,
+    "height": 719,
+    "sha1": "f8937834",
+    "source": "08-brillenbaer-leibniz-izw.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ3 100MP",
+      "DateTimeOriginal": "2018:05:14 05:36:12",
+      "FocalLength": "50.0",
+      "ExposureTime": "3.0",
+      "FNumber": "7.1",
+      "ISOSpeedRatings": "100",
+      "LensModel": "Schneider Kreuznach LS 40-80mm f/4.0-5.6"
+    }
+  },
+  {
+    "file": "09-schlichter-weg.jpg",
+    "width": 1000,
+    "height": 481,
+    "sha1": "961755b7",
+    "source": "09-schlichter-weg.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ4 150MP",
+      "DateTimeOriginal": "2021:02:15 05:10:29",
+      "ExposureTime": "0.1",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "50",
+      "LensModel": "0 mm f/1"
+    }
+  },
+  {
+    "file": "10-x-ray-telescope-cast.jpg",
+    "width": 762,
+    "height": 1000,
+    "sha1": "8c56f3ee",
+    "source": "10-x-ray-telescope-cast.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ4 150MP",
+      "DateTimeOriginal": "2021:11:29 18:25:31",
+      "ExposureTime": "4.0",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "50",
+      "LensModel": "0 mm f/1"
+    }
+  },
+  {
+    "file": "11-container-7-cern.jpg",
+    "width": 750,
+    "height": 1000,
+    "sha1": "68a7e26e",
+    "source": "11-container-7-cern.jpg",
+    "exif": {
+      "Make": "FUJIFILM",
+      "Model": "GFX100S",
+      "DateTimeOriginal": "2023:03:26 12:32:07",
+      "FocalLength": "33.8",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "7.1",
+      "ISOSpeedRatings": "8000",
+      "LensModel": "GF32-64mmF4 R LM WR"
+    }
+  }
+]

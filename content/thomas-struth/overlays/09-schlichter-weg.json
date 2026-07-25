@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "09-schlichter-weg.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.04, 0.54], [0.56, 0.37]], "arrow": true, "label": "FALLEN LIMB" },
+    { "type": "leading_line", "points": [[0.34, 0.52], [1.00, 0.91]], "arrow": true, "label": "FALLEN LIMB" }
+  ],
+  "notes": "Two fallen limbs push attention laterally through a crowded winter thicket."
+}

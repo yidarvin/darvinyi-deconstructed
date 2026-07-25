@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-the-hirose-family-hiroshima.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.405, "y": 0.055, "w": 0.165, "h": 0.245, "label": "WALL PORTRAIT" },
+    { "type": "frame_in_frame", "x": 0.71, "y": 0.08, "w": 0.18, "h": 0.42, "label": "DOORWAY" },
+    { "type": "subject_anchor", "x": 0.335, "y": 0.530, "r": 0.08, "label": "FRONT-ROW SITTER" }
+  ],
+  "notes": "The frontal family arrangement is deepened by a portrait above and two table edges below."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-semi-submersible-rig.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "RIG AXIS" },
+    { "type": "horizon_line", "y": 0.625, "angle": 2.9, "label": "WATERLINE" },
+    { "type": "leading_line", "points": [[0.09, 0.82], [0.43, 0.39]], "arrow": true, "label": "MOORING LINE" },
+    { "type": "leading_line", "points": [[0.97, 0.82], [0.53, 0.39]], "arrow": true, "label": "MOORING LINE" }
+  ],
+  "notes": "A massive, nearly bilateral rig is crossed by working lines that link the foreground dock to the hull."
+}

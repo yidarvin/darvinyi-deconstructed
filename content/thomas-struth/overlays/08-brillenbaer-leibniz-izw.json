@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-brillenbaer-leibniz-izw.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.708, "y": 0.770, "r": 0.20, "label": "FORWARD PAW" },
+    { "type": "polyline", "points": [[0.14, 0.68], [0.34, 0.39], [0.65, 0.43], [0.86, 0.56]], "label": "BODY ARC" },
+    { "type": "ellipse", "cx": 0.84, "cy": 0.53, "rx": 0.075, "ry": 0.09, "label": "FACE" }
+  ],
+  "notes": "The bear's suspended body forms one large dark arc, with face and forward paw locating its direction against a blank institutional ground."
+}

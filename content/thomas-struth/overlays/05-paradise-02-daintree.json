@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-paradise-02-daintree.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.11, 0.00], [0.89, 1.00]], "arrow": false, "label": "CROSS LIMB A" },
+    { "type": "leading_line", "points": [[0.18, 0.00], [0.96, 1.00]], "arrow": false, "label": "CROSS LIMB B" },
+    { "type": "subject_anchor", "x": 0.884, "y": 0.676, "r": 0.06, "label": "LOWER FOLIAGE" }
+  ],
+  "notes": "Crossing trunks supply local routes, but the foliage refuses a single dominant center."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-crosby-street-new-york-soho.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "STREET AXIS" },
+    { "type": "vanishing_point", "x": 0.55, "y": 0.62, "label": "DISTANT STREET" },
+    { "type": "leading_line", "points": [[0.27, 0.99], [0.55, 0.62]], "arrow": true, "label": "LEFT CURB" },
+    { "type": "leading_line", "points": [[0.85, 0.99], [0.55, 0.62]], "arrow": true, "label": "RIGHT CURB" }
+  ],
+  "notes": "The empty street is held as a centered corridor; curbs and façades tighten toward a distant opening."
+}
