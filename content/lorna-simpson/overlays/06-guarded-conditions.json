@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "leading_line", "points": [[0.07, 0.48], [0.92, 0.48]], "arrow": false, "label": "repeated figure panels" },
-    { "type": "frame_in_frame", "x": 0.43, "y": 0.20, "w": 0.15, "h": 0.58, "label": "central figure unit" },
-    { "type": "leading_line", "points": [[0.13, 0.864], [0.86, 0.864]], "arrow": false, "label": "staggered plaques" },
+    { "type": "frame_in_frame", "x": 0.515, "y": 0.155, "w": 0.125, "h": 0.60, "label": "fourth figure unit" },
     { "type": "subject_anchor", "x": 0.335, "y": 0.114, "r": 0.035, "label": "title lettering" }
   ],
   "notes": "A repeated rear-view frieze is tightened by a second, staggered line of phrase plaques."

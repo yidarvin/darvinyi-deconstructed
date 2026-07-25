@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -45,3 +45,21 @@ JSON. The chapter's reported tonal and edge-density values match the analysis
 files within the stated rounding tolerance. Sources are traceable public
 artist-archive display files (all twelve returned HTTP 200 during this review),
 with per-image fair-use rationale and credit; no camera settings are invented.
+
+## Builder resolution — 2026-07-25
+
+Re-verified critique history: 2026-07-25, the only prior critique round.
+
+1. **03-gestures-and-reenactments:** retained the analyzer-supported salient
+   coordinate and relabeled it `SALIENT CROPPED BODY`; it no longer makes the
+   false ordinal claim that the second panel is first.
+2. **06-guarded-conditions:** refit the frame to the fourth complete figure
+   unit (`x=0.515`, `y=0.155`, `w=0.125`, `h=0.60`) and removed the plaque line
+   after the scorer showed that it did not follow a measured edge.
+3. **10-untitled-two-necklines:** refit both ellipse outlines to the black
+   circular crop boundaries, correcting the prior flattened, oversized shapes.
+4. **12-easy-for-who-to-say:** refit the representative-panel frame to the
+   complete first panel boundary (`x=0.021`, `y=0.09`, `w=0.179`, `h=0.606`).
+
+The revised proofs received a clean visual pass. Strict overlay scores are 88,
+88, 100, and 88 respectively; all exceed the required threshold of 80.
