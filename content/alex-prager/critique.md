@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -45,3 +45,26 @@ None. The previously resolved source rationales and overlays remain materially c
 
 1. Replaced the misplaced `UPTURNED FACE` ellipse in `02-crowd-4-new-haven-2013` with a precisely placed `BLONDE FIGURE` ellipse on the visible blonde figure's face, then regenerated its proof.
 2. Re-ran analysis, rendering, strict scoring, and a visual proof pass. New Haven scores 100/100; all ten chapter overlays remain at or above the 80-point strict threshold (Hazelwood remains 95.3 for its documented semantic anchor placement).
+
+## Critique round — 2026-07-25
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+All ten current proof PNGs were independently reviewed against their overlay
+specifications, analyzer outputs, chapter prose, and per-image source records.
+The prior required corrections remain in place: the three corrected source and
+fair-use rationales match their visible works; `BLONDE FIGURE`, `RED-HAIRED
+FIGURE`, `DON'T WALK SIGNAL`, and `PLAID JACKET` trace their named features;
+and the removed `CURTAIN TOP` claim has not regressed. The strict deterministic
+scores are 100 for nine overlays and 95.3 for Hazelwood; the latter's anchor is
+visually on the named red-haired figure and remains a defensible semantic
+placement. The chapter's luminance, tonal-spread, and edge-density claims agree
+with the corresponding analysis values, no camera settings are asserted, and
+each credited public display file remains traceable and available with a
+per-image four-factor fair-use rationale.
