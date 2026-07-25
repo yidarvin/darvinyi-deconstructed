@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -51,3 +51,17 @@ Re-verified both prior critique rounds from 2026-07-24 against the current overl
 3. **11-torch-with-fox:** Extended `FOX-TO-TORCH PATH` to the visible handheld torch at `[0.742, 0.572]`; the chapter's path wording now matches the actual endpoint. Rendered proof is visually clean and scores 100/100.
 
 `scripts/check.sh` passes, and `content/julia-fullerton-batten/chapter.mdx` remains byte-identical to `src/chapters/julia-fullerton-batten.mdx`.
+
+## Critique round — 2026-07-24
+
+Re-reviewed all 12 current proof PNGs against their overlay specs, ingested-image analysis records, chapter, research note, manifest, source record, and the two prior critique/resolution rounds. The earlier required findings remain resolved: `CHURCH-TO-WATER DIAGONAL`, `FERRY SILHOUETTE`, `BANK EDGE`, `MEDIAN ROUTE`, `GARDEN EDGE`, `GRASS-ROAD EDGE`, `DIAGONAL GARDEN AXIS`, and the original `FOX-TO-TORCH PATH` endpoint have not regressed. Every current overlay scores 100/100 under the strict deterministic scorer and is visually consistent with the feature its label names.
+
+All twelve artist project pages and their recorded public display-image URLs currently return HTTP 200. Each manifest image matches its recorded SHA-1 prefix; each source entry gives the artist credit, source link, and concise per-image four-factor fair-use rationale. The chapter's tonal, percentile, edge-density, and palette claims agree with the matching analyzer records within tolerance, and it expressly disclaims undocumented camera and production settings.
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- The previously noted generic source-footer year remains non-blocking: the current project pages show the same 2026 copyright notice, and it does not affect authorship, rights route, credit, or the fair-use assessments.

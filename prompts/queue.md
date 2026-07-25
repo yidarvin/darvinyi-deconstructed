@@ -142,6 +142,6 @@ real queue and state live in data/registry.json.
 | 131 | flora-borsi               | Flóra Borsi                  | DONE    |
 | 132 | miss-aniela               | Miss Aniela (Natalie Dybisz) | DONE    |
 | 133 | aydin-buyuktas            | Aydın Büyüktaş               | DONE    |
-| 134 | julia-fullerton-batten    | Julia Fullerton-Batten       | PENDING |
+| 134 | julia-fullerton-batten    | Julia Fullerton-Batten       | DONE    |
 | 135 | tom-chambers              | Tom Chambers                 | PENDING |
 | 136 | alex-prager               | Alex Prager                  | PENDING |
