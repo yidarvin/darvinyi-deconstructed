@@ -15,7 +15,7 @@ date for an individual file.  The site was accessed on 2026-07-24.
 
 All twelve files were retrieved as direct, publicly visible official display
 responses, converted only from the server's WebP delivery where necessary to
-ordinary JPEG files, opened locally, and verified at 1,186–1,750px on their long
+ordinary JPEG files, opened locally, and verified at 1,200–1,750px on their long
 edge.  No image was upscaled, retouched, or cropped.
 
 **Rights basis:** **fair-use** for every item.  The official site footer reads

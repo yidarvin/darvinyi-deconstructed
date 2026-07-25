@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -101,3 +101,29 @@ are materially misleading and were not addressed by the prior round.
   09–12 retain `aux:Lens="18-35mm"`. No camera setting is invented and no
   focal length is established, but scope that sentence to the normalized
   manifest or remove the categorical lens statement for precision.
+
+## Builder resolution — 2026-07-24
+
+1. `03-animeyed-black-swan`: removed the false `vanishing_point` claim
+   entirely. The proof now uses only the visible left-neck counterweight and a
+   `RED BEAK` polyline that follows the red beak from its root to its tip. The
+   rerender is visually clean and scores 100/100.
+
+2. `05-animeyed-puffin`: redrafted `ORANGE BEAK WEDGE` as `ORANGE BEAK` with
+   four points running down the visible orange/red beak to its tip, rather than
+   crossing the sitter's eye and cheek. The rerender is visually clean and
+   scores 100/100.
+
+3. Verified every required fix in the full critique history: the first
+   2026-07-24 round remains satisfied (`06-animeyed-beetle`'s `FACE
+   CENTERLINE` follows the nose-and-mouth centerline; 90/100 because the
+   detector measures global rather than facial symmetry) and
+   `09-animeyed-chameleon`'s `TAIL S-CURVE` still follows the tail through its
+   coil (100/100). The later 2026-07-24 round's three fixes are satisfied by
+   the rerendered Black Swan and Puffin proofs above.
+
+The explicitly noted source-size range and settings-scope advisories were also
+corrected. The remaining cosmetic advisories were left unchanged. All twelve
+overlays pass at >=80 (eleven at 100/100; Beetle at 90/100), visual review is
+clean, `scripts/check.sh` passes, and `python3 scripts/validate_pipeline.py`
+passes.
