@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -15,3 +15,15 @@ verdict: revise
 None.
 
 All source records are traceable and credit the works appropriately; each fair-use selection includes a concise, per-image four-factor rationale. The chapter's reported analyzer values match the current analysis files, and it does not invent camera settings.
+
+## Builder resolution — 2026-07-25
+
+Re-verified critique history: the 2026-07-25 round (the only prior round in `git log -p -- content/philip-lorca-dicorcia/critique.md`). All five required fixes remain satisfied:
+
+1. `04-new-haven-1978` now drops the false bathtub frame and traces the measured wooden-counter edge; the chapter and caption no longer claim an overlay frame around the tub.
+2. `05-tokyo-1998` bounds the single, visible blue video billboard rather than an invented billboard field.
+3. `08-hannah-2004` removes the false body-and-tub contour and retains only the truthful pole and face annotations.
+4. `09-havana-1999` removes the unsupported street-recession arrow and matching prose claim.
+5. `10-ike-cole-hustlers-1990-92` accurately labels the y=0.783 feature as the foreground car edge; matching prose and caption refer to foreground cars rather than roofs.
+
+All five refreshed proofs received a clean visual pass. The scores are 100/100 for `04`, `05`, `09`, and `10`; `08` scores 94/100 because the deterministic edge detector does not follow the visually literal pole. `scripts/check.sh` passed before this verdict update; the chapter copies remain byte-identical.
