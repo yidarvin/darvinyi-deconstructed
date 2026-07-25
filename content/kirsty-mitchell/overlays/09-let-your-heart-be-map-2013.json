@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-let-your-heart-be-map-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.45, "rx": 0.22, "ry": 0.28, "label": "DIRECT FACE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.43, "rx": 0.35, "ry": 0.47, "label": "LEAF HOOD" },
+    { "type": "polyline", "points": [[0.05, 0.31], [0.30, 0.45], [0.70, 0.40], [0.94, 0.65]], "label": "WIND-BLOWN HAIR" }
+  ],
+  "notes": "A circular leaf hood holds the face while loose hair pushes the portrait outward into dark space."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-gammelyns-daughter-waking-dream-2012.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.55, "cy": 0.44, "rx": 0.39, "ry": 0.25, "label": "RECLINING BODY" },
+    { "type": "polyline", "points": [[0.08, 0.62], [0.34, 0.47], [0.61, 0.43], [0.91, 0.38]], "label": "BODY'S HORIZONTAL ROUTE" },
+    { "type": "ellipse", "cx": 0.90, "cy": 0.37, "rx": 0.08, "ry": 0.11, "label": "FACE IN HEATHER" }
+  ],
+  "notes": "The figure reads as a horizontal clearing inside a dense lavender field rather than as an isolated portrait."
+}

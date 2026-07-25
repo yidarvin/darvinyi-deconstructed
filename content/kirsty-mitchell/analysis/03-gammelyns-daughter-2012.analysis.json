@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "image": "03-gammelyns-daughter-2012.jpg",
+  "width": 1000,
+  "height": 800,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.31550195588235297,
+    "std": 0.26367068840577484,
+    "p05": 0.023529411764705882,
+    "p95": 0.8588235294117647,
+    "edge_density": 0.3044925
+  },
+  "palette": [
+    "#1f0d16",
+    "#4b263e",
+    "#7b486e",
+    "#e6c7dd",
+    "#b584a8"
+  ],
+  "lines": [
+    {
+      "x1": 0.018,
+      "y1": 0.00375,
+      "x2": 0.979,
+      "y2": 0.97625,
+      "angle_deg": 38.992709125556814,
+      "length": 0.9655041018720258,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.088,
+      "y1": 0.0,
+      "x2": 0.887,
+      "y2": 0.99875,
+      "angle_deg": 45.0,
+      "length": 0.8823478933380239,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.01,
+      "y1": 0.00125,
+      "x2": 0.808,
+      "y2": 0.99875,
+      "angle_deg": 45.0,
+      "length": 0.8812435780772755,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.182,
+      "y1": 0.00125,
+      "x2": 0.98,
+      "y2": 0.99875,
+      "angle_deg": 45.0,
+      "length": 0.8812435780772755,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.267,
+      "y1": 0.04875,
+      "x2": 0.998,
+      "y2": 0.9625,
+      "angle_deg": 45.0,
+      "length": 0.8072544556071284,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.274,
+      "y1": 0.00125,
+      "x2": 0.999,
+      "y2": 0.9075,
+      "angle_deg": 45.0,
+      "length": 0.8006285640426375,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.004,
+      "y1": 0.095,
+      "x2": 0.727,
+      "y2": 0.99875,
+      "angle_deg": 45.0,
+      "length": 0.7984199335211406,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.158,
+      "y1": 0.0,
+      "x2": 0.872,
+      "y2": 0.8925,
+      "angle_deg": 45.0,
+      "length": 0.7884810961744044,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.001,
+      "y1": 0.00375,
+      "x2": 0.695,
+      "y2": 0.87125,
+      "angle_deg": 45.0,
+      "length": 0.7663947909594351,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.309,
+      "y1": 0.13,
+      "x2": 0.998,
+      "y2": 0.99125,
+      "angle_deg": 45.0,
+      "length": 0.7608732146556927,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.338,
+      "y1": 0.00125,
+      "x2": 0.999,
+      "y2": 0.8275,
+      "angle_deg": 45.0,
+      "length": 0.7299523873547357,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.133,
+      "y1": 0.17875,
+      "x2": 0.785,
+      "y2": 0.99375,
+      "angle_deg": 45.0,
+      "length": 0.7200135500079995,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5975,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.789,
+      0.3425
+    ],
+    "regions": [
+      {
+        "cx": 0.7431077543538039,
+        "cy": 0.33374097158570115,
+        "x": 0.626,
+        "y": 0.20625,
+        "w": 0.235,
+        "h": 0.22875,
+        "area_frac": 0.03409375
+      },
+      {
+        "cx": 0.54392778061659,
+        "cy": 0.8809761255890536,
+        "x": 0.489,
+        "y": 0.73875,
+        "w": 0.108,
+        "h": 0.26125,
+        "area_frac": 0.02201625
+      },
+      {
+        "cx": 0.7471023872320282,
+        "cy": 0.6160863427334821,
+        "x": 0.636,
+        "y": 0.555,
+        "w": 0.229,
+        "h": 0.12125,
+        "area_frac": 0.01848375
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7746452843991016,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.7560851016730685,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.789,
+    "y": 0.3425,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3893909918024977,
+    "phi": 0.42113550421626833,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.598,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.018,
+          0.004
+        ],
+        [
+          0.979,
+          0.976
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "dominant diagonal"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.789,
+      "y": 0.342,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

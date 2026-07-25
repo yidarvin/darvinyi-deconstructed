@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-journey-home-2013.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.70, "cy": 0.75, "rx": 0.12, "ry": 0.24, "label": "LOW FIGURE" },
+    { "type": "polyline", "points": [[0.19, 0.96], [0.34, 0.80], [0.54, 0.66], [0.47, 0.57]], "label": "WINDING LEAF PATH" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.04, "w": 0.90, "h": 0.83, "label": "ENCLOSING TRUNKS" }
+  ],
+  "notes": "The leaf path enters from the foreground, slips into the wood, and returns attention to the figure at lower right."
+}

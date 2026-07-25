@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-last-dance-flowers-2014.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.28, "cy": 0.51, "rx": 0.19, "ry": 0.39, "label": "FLOWERED FIGURE" },
+    { "type": "frame_in_frame", "x": 0.33, "y": 0.10, "w": 0.56, "h": 0.70, "label": "WOODLAND CORRIDOR" },
+    { "type": "polyline", "points": [[0.16, 0.95], [0.34, 0.81], [0.47, 0.72]], "label": "FLOWER TRAIL" }
+  ],
+  "notes": "Dark trunks frame a flowered figure at left and reserve the right-hand woodland as a corridor of depth."
+}

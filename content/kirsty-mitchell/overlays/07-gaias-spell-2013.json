@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-gaias-spell-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.27, "cy": 0.57, "rx": 0.15, "ry": 0.37, "label": "YELLOW GOWN" },
+    { "type": "frame_in_frame", "x": 0.43, "y": 0.31, "w": 0.49, "h": 0.39, "label": "YELLOW SHIP" },
+    { "type": "polyline", "points": [[0.52, 0.66], [0.72, 0.61], [0.96, 0.58]], "label": "SHIP'S BOW" }
+  ],
+  "notes": "Figure and ship are separate theatrical anchors made contiguous by their repeated yellow against the field."
+}

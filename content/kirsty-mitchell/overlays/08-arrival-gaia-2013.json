@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-arrival-gaia-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.54, "rx": 0.20, "ry": 0.38, "label": "YELLOW FIGURE" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.89, "rx": 0.49, "ry": 0.16, "label": "FOREGROUND FABRIC" },
+    { "type": "polyline", "points": [[0.01, 0.92], [0.35, 0.78], [0.51, 0.61]], "label": "FABRIC SWEEP" }
+  ],
+  "notes": "A low sweep of yellow fabric moves through the foreground and rises into the figure at the tree."
+}
