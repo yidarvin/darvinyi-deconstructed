@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -22,3 +22,17 @@ Reviewed all six proof PNGs against their overlay specs and analysis JSON. Each 
 2. Applied the precise source-dimension advisory: the shared source note now says the files are 843px wide with long edges from 843px to 1210px.
 
 Re-verified required fixes from the full prior critique history: 2026-07-25, round 1. The repaired overlay label, the matching chapter claim, content/site chapter byte parity, and all six current overlay scores remain valid. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-25
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Verification
+
+Re-reviewed every current proof PNG against its image, overlay spec, and analysis JSON. The prior required issue from the 2026-07-25 critique round remains resolved: `02-kim-and-mark-in-the-red-car` now labels the enclosing oval `GROUPED FIGURES`, which is the pair it traces, and the chapter makes the corresponding grouped-figure claim. All six overlays score 100/100 with no deductions or warnings. The reported tonal, palette, grid, and coordinate values agree with the analysis artifacts within the stated tolerance. No invented capture settings or unsupported historical claims were found. Each Art Institute record and its linked IIIF image route was successfully rechecked without authentication; the current official metadata matches the documented titles, dates, artists, credits, image IDs, and non-public-domain status, and every fair-use entry includes its per-image four-factor rationale. `python3 scripts/validate_pipeline.py` passes.
