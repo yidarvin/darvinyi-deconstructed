@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-24
 
@@ -23,3 +23,27 @@ verdict: resolved
 3. Tightened the source record’s unsupported workflow wording from “digitally composited imagery” to “surreal imagery”; no camera, print, or undocumented production claim was added.
 
 `scripts/check.sh` passed in full.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+1. **02-swan-lake — make `DRESS AND RAISED-ARM SWEEP` trace the named arm.** The proof's path reaches the torso, then turns up-right to `[0.61, 0.37]` into the wall/panel space. The visible raised arm instead rises up-left from the torso. This is a material semantic error: the label claims to trace a feature it does not follow. Retarget the final segment to the arm (or relabel the path to the dress-only movement), then regenerate and inspect the proof.
+
+2. **06-poster-and-plumage — make `FEATHERED HEADPIECE` describe the headpiece.** The current ellipse (`cx=0.43`, `cy=0.43`, `rx=0.17`, `ry=0.22`) encloses much of the sitter and sofa while excluding a substantial upper-right portion of the radiating plumes. It therefore does not truthfully bound the feature its label names. Resize/recenter it around the actual plume mass, or remove the primitive, then regenerate and inspect the proof.
+
+3. **All ten selected works — replace the non-compliant acquisition route.** `sources.md` records each JPEG as retrieved directly from Miss Aniela's official gallery. The live page currently declares `meta[name="robots"]` as `noai, noimageai`; under the repository contract, this agent route must not bypass a robots/access restriction. Re-source every affected image from a permitted public or authoritative route (or, after the required exhaustive compliant pass, follow the documented limited-source policy), and update the per-image source records and fair-use rationales to the actual route. Do not retain the current official-gallery download route as the acquisition basis.
+
+### Advisory (non-blocking)
+
+- **01-white-witch-awakening:** `ARCHED-WINDOW RHYTHM` is a broad frame bracket rather than a literal single frame; it still truthfully identifies the left arcade.
+- **03-pokerface:** The `CARD-HOUSE INTERRUPTION` ellipse deliberately includes adjacent cards and dress as well as the house; the teaching claim remains legible.
+- **05-storm-door:** `SHIPS' SURGE` reads as an interpretive directional cue rather than a tightly tracked ship contour. A later refinement could land it more explicitly on the visible ship forms, but it does not materially change the stated threshold reading.
+- **08-girl-of-prey:** The two distinct polylines share the label `WING SPAN`; distinguish their labels in a later pass to make the two paths easier to teach from.
+
+### Review evidence
+
+- Independently inspected all ten current proof PNGs against the overlay specs and analyzer JSON. All deterministic overlay scores are 100/100; the two blocking overlay defects above are semantic and are therefore not detected by that scorer.
+- Rechecked the prior 07-kai-face resolution. Its revised `EYE LINE` now follows the two visible eyes; no resolved finding is being reopened.
+- The chapter's measured grid choices, anchors, axes, convergence values, tonal values, edge densities, and palette references match the current analyzer JSON within the specified tolerance. The chapter and research note make no invented camera, print, lighting, or workflow claims.
+- Apart from the prohibited acquisition route, each image record supplies a title, credit, source link, and concise four-factor fair-use rationale; the files match the manifest and meet the stated size floor.
