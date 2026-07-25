@@ -10,10 +10,10 @@
   },
   "note": "status is a SOURCING and takedown-likelihood heuristic, not legal advice. Dates and PD calls are best-known and get verified per-image in the deep-research batch pass.",
   "counts": {
-   "total": 136,
+   "total": 184,
    "pd": 36,
    "mixed": 14,
-   "copyrighted": 86
+   "copyrighted": 134
   },
   "imageTargetDefault": 12,
   "batch1": [
@@ -37,7 +37,7 @@
    "built": "ingested, overlays, proofs, chapter.mdx done; wired into site",
    "approved": "critic verdict: approve"
   },
-  "queue": "registry IS the queue. A prompt's active wave = the lowest wave containing photographers at its input stage. Waves are PD-first: 1=batch1, 2-4=remaining PD, 5=mixed, 6-9=copyrighted.",
+  "queue": "registry IS the queue. A prompt's active wave = the lowest wave containing photographers at its input stage. Waves 1-4 are public-domain-first, wave 5 is mixed, and waves 6+ are copyrighted chronological/thematic sections.",
   "waves": {
    "1": {
     "count": 4,
@@ -107,6 +107,30 @@
     ]
    },
    "12": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "13": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "14": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "15": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "16": {
     "count": 12,
     "rights": [
      "copyrighted"
@@ -1748,6 +1772,582 @@
    "rights": "copyrighted",
    "stage": "approved",
    "wave": 12
+  },
+  {
+   "slug": "nan-goldin",
+   "name": "Nan Goldin",
+   "dates": "b. 1953",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / artist archive / museum collections",
+   "note": "Intimate color sequences use flash, proximity, and unstable framing to turn private life into a diaristic visual structure.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "carrie-mae-weems",
+   "name": "Carrie Mae Weems",
+   "dates": "b. 1953",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Whitney Museum / artist archive",
+   "note": "Staged domestic tableaux, repetition, and image-text pairings expose how framing constructs race, gender, family, and power.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "lorna-simpson",
+   "name": "Lorna Simpson",
+   "dates": "b. 1960",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Whitney Museum / artist archive",
+   "note": "Fragmented bodies, serial grids, and terse captions make absence and withheld identity active compositional forces.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "rineke-dijkstra",
+   "name": "Rineke Dijkstra",
+   "dates": "b. 1959",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Guggenheim / artist archive",
+   "note": "Frontal portraits against spare backgrounds reveal identity through tiny shifts of posture, distance, and gaze.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "wolfgang-tillmans",
+   "name": "Wolfgang Tillmans",
+   "dates": "b. 1968",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Tate / artist archive",
+   "note": "Vernacular observation, camera-less abstraction, and fluid installation constellations dismantle the hierarchy of photographic subjects.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "philip-lorca-dicorcia",
+   "name": "Philip-Lorca diCorcia",
+   "dates": "b. 1951",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Whitney Museum / artist archive",
+   "note": "Cinematic lighting inserted into streets and domestic scenes makes documentary moments feel precisely staged and psychologically unstable.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "thomas-struth",
+   "name": "Thomas Struth",
+   "dates": "b. 1954",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Metropolitan Museum / artist archive",
+   "note": "Frontal architecture, museum crowds, and technologically dense interiors organize social systems through scale and patient detail.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "candida-hofer",
+   "name": "Candida Höfer",
+   "dates": "b. 1944",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "Guggenheim / Tate / artist archive",
+   "note": "Empty libraries, theaters, and museums use symmetry, repetition, and color to turn institutional space into portraiture.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "boris-mikhailov",
+   "name": "Boris Mikhailov",
+   "dates": "b. 1938",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Tate / artist archive",
+   "note": "Sequences, hand-coloring, performance, and raw social observation test the unstable border between document and construction.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "yasumasa-morimura",
+   "name": "Yasumasa Morimura",
+   "dates": "b. 1951",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Getty Museum / artist archive",
+   "note": "Elaborate self-portrait reenactments use costume, staging, and digital intervention to inhabit and disrupt canonical images.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "shirin-neshat",
+   "name": "Shirin Neshat",
+   "dates": "b. 1957",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "Guggenheim / Smithsonian / artist archive",
+   "note": "Stark portraiture, inscribed surfaces, and polarized spatial arrangements turn gaze and gesture into political structure.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "vik-muniz",
+   "name": "Vik Muniz",
+   "dates": "b. 1961",
+   "group": "XIV. Contemporary Identity & the Global Turn",
+   "source": "MoMA / Metropolitan Museum / artist archive",
+   "note": "Images assembled from dust, sugar, wire, refuse, and other materials become photographs about scale, illusion, and visual memory.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 13
+  },
+  {
+   "slug": "pedro-meyer",
+   "name": "Pedro Meyer",
+   "dates": "b. 1935",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "Artist archive / Museum of Contemporary Photography / NAMOC",
+   "note": "A pioneering passage from documentary photography to digital montage makes truth, memory, and manipulation visibly inseparable.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "aziz-cucher",
+   "name": "Aziz + Cucher",
+   "dates": "collaborating since 1991",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "SFMOMA / artist archive / museum collections",
+   "note": "Digitally altered bodies and featureless faces use seamless retouching to make identity, technology, and bodily anxiety uncanny.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "idris-khan",
+   "name": "Idris Khan",
+   "dates": "b. 1978",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "National Gallery of Art / Smithsonian / artist archive",
+   "note": "Dozens of scanned photographs, texts, and scores are layered into dense images that compress sequence into simultaneous time.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "penelope-umbrico",
+   "name": "Penelope Umbrico",
+   "dates": "b. 1957",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "MoMA / artist archive / museum collections",
+   "note": "Masses of appropriated online photographs become grids that expose repetition, abundance, and the collective grammar of search.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "joachim-schmid",
+   "name": "Joachim Schmid",
+   "dates": "b. 1955",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "Artist archive / museum and photobook collections",
+   "note": "Found photographs and network archives are classified and resequenced to reveal the recurring templates of vernacular image culture.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "michael-wolf",
+   "name": "Michael Wolf",
+   "dates": "1954–2019",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "Artist archive / museum collections / World Press Photo",
+   "note": "Compressed facades and Google Street View crops turn urban density and automated seeing into layered fields of surveillance.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "doug-rickard",
+   "name": "Doug Rickard",
+   "dates": "b. 1968",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "MoMA New Photography 2011 / artist archive",
+   "note": "Google Street View frames are remotely navigated, cropped, and rephotographed to examine poverty, distance, authorship, and machine capture.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "mishka-henner",
+   "name": "Mishka Henner",
+   "dates": "b. 1976",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "ICP / Tate / artist archive",
+   "note": "Satellite, Street View, YouTube, and public datasets are appropriated into typologies that expose the camera systems surrounding everyday life.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "jon-rafman",
+   "name": "Jon Rafman",
+   "dates": "b. 1981",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "Artist archive / museum and biennial records",
+   "note": "Found Google Street View scenes isolate accidental gestures, glitches, and uncanny landscapes authored jointly by machines and selection.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "corinne-vionnet",
+   "name": "Corinne Vionnet",
+   "dates": "b. 1969",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "Artist archive / museum and festival records",
+   "note": "Hundreds of tourist photographs are aligned and layered until landmarks hover between collective memory and digital blur.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "jason-salavon",
+   "name": "Jason Salavon",
+   "dates": "b. 1970",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "Whitney Museum / MFA Houston / artist archive",
+   "note": "Computational averaging and aggregation transform large image sets into ghostly composite portraits of visual convention.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "walead-beshty",
+   "name": "Walead Beshty",
+   "dates": "b. 1976",
+   "group": "XV. Post-Photography & the Networked Image",
+   "source": "MoMA / artist archive / museum collections",
+   "note": "Rule-based photograms, scanner traces, and shipping damage make photographic production and circulation part of the composition.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 14
+  },
+  {
+   "slug": "trevor-paglen",
+   "name": "Trevor Paglen",
+   "dates": "b. 1974",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "ICP / Smithsonian / artist archive",
+   "note": "Long lenses, orbital imaging, and machine-vision systems visualize infrastructures designed to remain unseen.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "richard-mosse",
+   "name": "Richard Mosse",
+   "dates": "b. 1980",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "Artist archive / Barbican / museum collections",
+   "note": "Military infrared and thermal cameras convert conflict and migration into estranging palettes that implicate the technology of seeing.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "taryn-simon",
+   "name": "Taryn Simon",
+   "dates": "b. 1975",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "MoMA / Tate / artist archive",
+   "note": "Systematic typologies, controlled lighting, and exact captions map hidden institutions and the limits of photographic evidence.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "daniel-gordon",
+   "name": "Daniel Gordon",
+   "dates": "b. 1980",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "MoMA New Photography 2009 / artist archive",
+   "note": "Internet image fragments become handmade paper sculptures and are photographed again, collapsing collage, object, and camera view.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "sara-cwynar",
+   "name": "Sara Cwynar",
+   "dates": "b. 1985",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "MoMA Ocean of Images / artist archive / museum collections",
+   "note": "Studio tableaux recombine commercial archives, color standards, and obsolete objects into dense critiques of visual desire.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "lucas-blalock",
+   "name": "Lucas Blalock",
+   "dates": "b. 1978",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "MoMA Ocean of Images / artist archive",
+   "note": "Deliberately visible Photoshop operations treat retouching tools as marks, exposing the labor and absurdity inside seamless images.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "kate-steciw",
+   "name": "Kate Steciw",
+   "dates": "b. 1978",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "ICP / artist archive / museum collections",
+   "note": "Stock photographs are cut, warped, layered, and extended into objects that reveal the physical afterlife of circulating digital files.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "ilit-azoulay",
+   "name": "Ilit Azoulay",
+   "dates": "b. 1972",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "MoMA Ocean of Images / artist archive",
+   "note": "Individually photographed fragments are digitally recomposed into panoramic fields where archives become nonlinear spatial systems.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "noemie-goudal",
+   "name": "Noémie Goudal",
+   "dates": "b. 1984",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "Artist archive / Photographers’ Gallery / museum collections",
+   "note": "Printed scenery, architectural sets, and landscape photographs create layered spatial illusions that reveal their own construction.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "cristina-de-middel",
+   "name": "Cristina de Middel",
+   "dates": "b. 1975",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "ICP / Magnum Photos / artist archive",
+   "note": "Staged documentary, props, and archival evidence build speculative narratives that question photography's promise of factual truth.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "max-pinckers",
+   "name": "Max Pinckers",
+   "dates": "b. 1988",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "Artist archive / ICP / museum and publication records",
+   "note": "Theatrical lighting and collaborative staging interrupt documentary conventions while preserving the social realities under study.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "farah-al-qasimi",
+   "name": "Farah Al Qasimi",
+   "dates": "b. 1991",
+   "group": "XVI. Computational Vision & Digital Construction",
+   "source": "ICP / MoMA / artist archive",
+   "note": "Saturated interiors, screens, reflections, and staged details map how digital media and consumer images inhabit everyday space.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 15
+  },
+  {
+   "slug": "zanele-muholi",
+   "name": "Zanele Muholi",
+   "dates": "b. 1972",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Tate / artist archive / museum collections",
+   "note": "High-contrast self-portraits and collaborative visual activism use direct gaze, costume, and seriality to claim visibility.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "deana-lawson",
+   "name": "Deana Lawson",
+   "dates": "b. 1979",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "MoMA New Photography 2011 / Guggenheim / artist archive",
+   "note": "Carefully staged domestic portraits combine intimate detail, frontal presence, and symbolic environments into expansive Black narratives.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "viviane-sassen",
+   "name": "Viviane Sassen",
+   "dates": "b. 1972",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "MoMA New Photography 2011 / artist archive / museum collections",
+   "note": "Hard shadows, saturated color, sculptural bodies, and graphic occlusion push fashion and portraiture toward abstraction.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "tyler-mitchell",
+   "name": "Tyler Mitchell",
+   "dates": "b. 1995",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / ICP / museum collections",
+   "note": "Luminous color, open space, and collaborative fashion portraiture imagine Black leisure, tenderness, and self-possession.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "nadine-ijewere",
+   "name": "Nadine Ijewere",
+   "dates": "b. 1992",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / Tate / Victoria and Albert Museum",
+   "note": "Inclusive fashion portraits use rich color relationships, textured settings, and relaxed group geometry to broaden visual ideals.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "campbell-addy",
+   "name": "Campbell Addy",
+   "dates": "b. 1993",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / National Portrait Gallery / exhibition records",
+   "note": "Fashion and portrait images combine saturated color, tactile lighting, and symbolic styling to explore identity and belonging.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "namsa-leuba",
+   "name": "Namsa Leuba",
+   "dates": "b. 1982",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / museum and festival records",
+   "note": "Staged figures, vivid backdrops, and hybrid cultural symbols turn ethnographic visual codes into assertive contemporary tableaux.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "juno-calypso",
+   "name": "Juno Calypso",
+   "dates": "b. 1989",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / Saatchi Gallery / exhibition records",
+   "note": "Pastel interiors and solitary staged self-portraits use artificial lighting and meticulous production to make femininity surreal and claustrophobic.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "signe-pierce",
+   "name": "Signe Pierce",
+   "dates": "b. 1988",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / MoMA and museum exhibition records",
+   "note": "Neon color, reflective surfaces, performance, and postdigital hyperreality dissolve the boundary between lived space and screen aesthetics.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "charlie-engman",
+   "name": "Charlie Engman",
+   "dates": "active 2010s–present",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "ICP Alternative Images of AI / artist archive",
+   "note": "Disjunctive fashion and family photographs now extend into AI collaboration, testing continuity between camera, collage, and synthetic scene.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "sofia-crespo",
+   "name": "Sofia Crespo",
+   "dates": "b. 1991",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "ZKM / artist archive / museum collections",
+   "note": "Machine-learned biological forms construct speculative organisms and bring photographic surface, taxonomy, and synthetic vision into direct contact.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
+  },
+  {
+   "slug": "boris-eldagsen",
+   "name": "Boris Eldagsen",
+   "dates": "b. 1970",
+   "group": "XVII. Photography in the 2020s & Synthetic Futures",
+   "source": "Artist archive / Deutsche Fotografische Akademie / museum records",
+   "note": "Prompted and iteratively edited fake memories make the boundary between photograph and generated image the explicit subject.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 16
   }
  ]
 }

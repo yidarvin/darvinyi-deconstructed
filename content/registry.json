@@ -1238,6 +1238,390 @@
       "part": "XIII. Contemporary Surreal & Composite Photography",
       "status": "done",
       "approvedAt": "2026-07-25"
+    },
+    {
+      "num": 137,
+      "slug": "nan-goldin",
+      "title": "Nan Goldin",
+      "subtitle": "b. 1953",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 138,
+      "slug": "carrie-mae-weems",
+      "title": "Carrie Mae Weems",
+      "subtitle": "b. 1953",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 139,
+      "slug": "lorna-simpson",
+      "title": "Lorna Simpson",
+      "subtitle": "b. 1960",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 140,
+      "slug": "rineke-dijkstra",
+      "title": "Rineke Dijkstra",
+      "subtitle": "b. 1959",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 141,
+      "slug": "wolfgang-tillmans",
+      "title": "Wolfgang Tillmans",
+      "subtitle": "b. 1968",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 142,
+      "slug": "philip-lorca-dicorcia",
+      "title": "Philip-Lorca diCorcia",
+      "subtitle": "b. 1951",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 143,
+      "slug": "thomas-struth",
+      "title": "Thomas Struth",
+      "subtitle": "b. 1954",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 144,
+      "slug": "candida-hofer",
+      "title": "Candida Höfer",
+      "subtitle": "b. 1944",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 145,
+      "slug": "boris-mikhailov",
+      "title": "Boris Mikhailov",
+      "subtitle": "b. 1938",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 146,
+      "slug": "yasumasa-morimura",
+      "title": "Yasumasa Morimura",
+      "subtitle": "b. 1951",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 147,
+      "slug": "shirin-neshat",
+      "title": "Shirin Neshat",
+      "subtitle": "b. 1957",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 148,
+      "slug": "vik-muniz",
+      "title": "Vik Muniz",
+      "subtitle": "b. 1961",
+      "part": "XIV. Contemporary Identity & the Global Turn",
+      "status": "pending"
+    },
+    {
+      "num": 149,
+      "slug": "pedro-meyer",
+      "title": "Pedro Meyer",
+      "subtitle": "b. 1935",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 150,
+      "slug": "aziz-cucher",
+      "title": "Aziz + Cucher",
+      "subtitle": "collaborating since 1991",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 151,
+      "slug": "idris-khan",
+      "title": "Idris Khan",
+      "subtitle": "b. 1978",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 152,
+      "slug": "penelope-umbrico",
+      "title": "Penelope Umbrico",
+      "subtitle": "b. 1957",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 153,
+      "slug": "joachim-schmid",
+      "title": "Joachim Schmid",
+      "subtitle": "b. 1955",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 154,
+      "slug": "michael-wolf",
+      "title": "Michael Wolf",
+      "subtitle": "1954–2019",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 155,
+      "slug": "doug-rickard",
+      "title": "Doug Rickard",
+      "subtitle": "b. 1968",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 156,
+      "slug": "mishka-henner",
+      "title": "Mishka Henner",
+      "subtitle": "b. 1976",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 157,
+      "slug": "jon-rafman",
+      "title": "Jon Rafman",
+      "subtitle": "b. 1981",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 158,
+      "slug": "corinne-vionnet",
+      "title": "Corinne Vionnet",
+      "subtitle": "b. 1969",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 159,
+      "slug": "jason-salavon",
+      "title": "Jason Salavon",
+      "subtitle": "b. 1970",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 160,
+      "slug": "walead-beshty",
+      "title": "Walead Beshty",
+      "subtitle": "b. 1976",
+      "part": "XV. Post-Photography & the Networked Image",
+      "status": "pending"
+    },
+    {
+      "num": 161,
+      "slug": "trevor-paglen",
+      "title": "Trevor Paglen",
+      "subtitle": "b. 1974",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 162,
+      "slug": "richard-mosse",
+      "title": "Richard Mosse",
+      "subtitle": "b. 1980",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 163,
+      "slug": "taryn-simon",
+      "title": "Taryn Simon",
+      "subtitle": "b. 1975",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 164,
+      "slug": "daniel-gordon",
+      "title": "Daniel Gordon",
+      "subtitle": "b. 1980",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 165,
+      "slug": "sara-cwynar",
+      "title": "Sara Cwynar",
+      "subtitle": "b. 1985",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 166,
+      "slug": "lucas-blalock",
+      "title": "Lucas Blalock",
+      "subtitle": "b. 1978",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 167,
+      "slug": "kate-steciw",
+      "title": "Kate Steciw",
+      "subtitle": "b. 1978",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 168,
+      "slug": "ilit-azoulay",
+      "title": "Ilit Azoulay",
+      "subtitle": "b. 1972",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 169,
+      "slug": "noemie-goudal",
+      "title": "Noémie Goudal",
+      "subtitle": "b. 1984",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 170,
+      "slug": "cristina-de-middel",
+      "title": "Cristina de Middel",
+      "subtitle": "b. 1975",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 171,
+      "slug": "max-pinckers",
+      "title": "Max Pinckers",
+      "subtitle": "b. 1988",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 172,
+      "slug": "farah-al-qasimi",
+      "title": "Farah Al Qasimi",
+      "subtitle": "b. 1991",
+      "part": "XVI. Computational Vision & Digital Construction",
+      "status": "pending"
+    },
+    {
+      "num": 173,
+      "slug": "zanele-muholi",
+      "title": "Zanele Muholi",
+      "subtitle": "b. 1972",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 174,
+      "slug": "deana-lawson",
+      "title": "Deana Lawson",
+      "subtitle": "b. 1979",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 175,
+      "slug": "viviane-sassen",
+      "title": "Viviane Sassen",
+      "subtitle": "b. 1972",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 176,
+      "slug": "tyler-mitchell",
+      "title": "Tyler Mitchell",
+      "subtitle": "b. 1995",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 177,
+      "slug": "nadine-ijewere",
+      "title": "Nadine Ijewere",
+      "subtitle": "b. 1992",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 178,
+      "slug": "campbell-addy",
+      "title": "Campbell Addy",
+      "subtitle": "b. 1993",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 179,
+      "slug": "namsa-leuba",
+      "title": "Namsa Leuba",
+      "subtitle": "b. 1982",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 180,
+      "slug": "juno-calypso",
+      "title": "Juno Calypso",
+      "subtitle": "b. 1989",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 181,
+      "slug": "signe-pierce",
+      "title": "Signe Pierce",
+      "subtitle": "b. 1988",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 182,
+      "slug": "charlie-engman",
+      "title": "Charlie Engman",
+      "subtitle": "active 2010s–present",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 183,
+      "slug": "sofia-crespo",
+      "title": "Sofia Crespo",
+      "subtitle": "b. 1991",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
+    },
+    {
+      "num": 184,
+      "slug": "boris-eldagsen",
+      "title": "Boris Eldagsen",
+      "subtitle": "b. 1970",
+      "part": "XVII. Photography in the 2020s & Synthetic Futures",
+      "status": "pending"
     }
   ]
 }

@@ -18,7 +18,7 @@
 
 ## The queue
 data/registry.json IS the queue. Per photographer: `rights`
-(pd|mixed|copyrighted), `wave` (1-9, PD-first), `stage`
+(pd|mixed|copyrighted), `wave` (positive integer; early waves are PD-first and later waves are chronological/thematic), `stage`
 (pending -> sourced -> built -> approved), and optional `minImages` (default
 4) for historically small surviving corpora. A prompt's active wave is the
 lowest wave containing photographers at its input stage. Prompts update stages
