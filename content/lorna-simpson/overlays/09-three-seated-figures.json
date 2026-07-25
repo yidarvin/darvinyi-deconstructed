@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-three-seated-figures.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.22, 0.34], [0.78, 0.34]], "arrow": false, "label": "three portrait tops" },
+    { "type": "frame_in_frame", "x": 0.39, "y": 0.24, "w": 0.22, "h": 0.46, "label": "middle seated-body panel" },
+    { "type": "leading_line", "points": [[0.20, 0.17], [0.80, 0.17]], "arrow": false, "label": "upper title plaques" },
+    { "type": "subject_anchor", "x": 0.492, "y": 0.22, "r": 0.035, "label": "middle title plaque" }
+  ],
+  "notes": "Repeated seated crops are paced by title plaques above and peripheral plaques at either side."
+}

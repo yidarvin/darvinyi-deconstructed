@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "05-youre-fine.jpg",
+  "width": 1098,
+  "height": 800,
+  "aspect": 1.3725,
+  "tonal": {
+    "mean": 0.9090884790368895,
+    "std": 0.11952450552232392,
+    "p05": 0.6470588235294118,
+    "p95": 0.9764705882352941,
+    "edge_density": 0.005677414963136729
+  },
+  "palette": [
+    "#eeebea",
+    "#f7f4f3",
+    "#a4999e",
+    "#e0d6c4",
+    "#4c403a"
+  ],
+  "lines": [
+    {
+      "x1": 0.0,
+      "y1": 0.953083109919571,
+      "x2": 0.9990234375,
+      "y2": 0.953083109919571,
+      "angle_deg": 0.0,
+      "length": 0.8074686477650415,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.2099609375,
+      "y1": 0.5080428954423593,
+      "x2": 0.78515625,
+      "y2": 0.5080428954423593,
+      "angle_deg": 0.0,
+      "length": 0.4649061911374481,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.3447265625,
+      "y1": 0.4517426273458445,
+      "x2": 0.439453125,
+      "y2": 0.44235924932975873,
+      "angle_deg": -4.127591702511724,
+      "length": 0.07676260240436411,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5080428954423593,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7099609375,
+      0.4008042895442359
+    ],
+    "regions": [
+      {
+        "cx": 0.7080678758195442,
+        "cy": 0.4032351958912514,
+        "x": 0.63671875,
+        "y": 0.3257372654155496,
+        "w": 0.1455078125,
+        "h": 0.15281501340482573,
+        "area_frac": 0.016771740951742626
+      },
+      {
+        "cx": 0.43485703768935174,
+        "cy": 0.42671242244222846,
+        "x": 0.3955078125,
+        "y": 0.37935656836461124,
+        "w": 0.0791015625,
+        "h": 0.09651474530831099,
+        "area_frac": 0.005876392845174262
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.885708197547101,
+    "vertical_axis_x": 0.5625,
+    "horizontal": 0.9413607206350152,
+    "horizontal_axis_y": 0.4125
+  },
+  "subject_anchor": {
+    "x": 0.7099609375,
+    "y": 0.4008042895442359,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3594730244007026,
+    "phi": 0.31438803017948336,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.508,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.562,
+      "confidence": 0.89,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.71,
+      "y": 0.401,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

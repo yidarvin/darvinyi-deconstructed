@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-five-day-forecast.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.33, "w": 0.80, "h": 0.30, "label": "five-part photo strip" },
+    { "type": "leading_line", "points": [[0.13, 0.48], [0.87, 0.48]], "arrow": false, "label": "aligned crossed arms" },
+    { "type": "leading_line", "points": [[0.10, 0.64], [0.90, 0.64]], "arrow": false, "label": "lower plaque rhythm" },
+    { "type": "subject_anchor", "x": 0.741, "y": 0.437, "r": 0.035, "label": "fourth image unit" }
+  ],
+  "notes": "The five matching upper units meet a deliberately separate lower run of plaques."
+}

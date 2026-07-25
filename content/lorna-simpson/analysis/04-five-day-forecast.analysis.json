@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "04-five-day-forecast.jpg",
+  "width": 1068,
+  "height": 800,
+  "aspect": 1.335,
+  "tonal": {
+    "mean": 0.8722690901654012,
+    "std": 0.18062251340366828,
+    "p05": 0.3803921568627451,
+    "p95": 0.9372549019607843,
+    "edge_density": 0.0095466305410691
+  },
+  "palette": [
+    "#eeedef",
+    "#d7d6d3",
+    "#5c5955",
+    "#1c1c19",
+    "#8f8b87"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.6414602346805737,
+    "angle_deg": 0.0,
+    "confidence": 0.8630007244128397,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7412109375,
+      0.4367666232073012
+    ],
+    "regions": [
+      {
+        "cx": 0.25198400437864427,
+        "cy": 0.46775440558054177,
+        "x": 0.0947265625,
+        "y": 0.2711864406779661,
+        "w": 0.3896484375,
+        "h": 0.4015645371577575,
+        "area_frac": 0.07227708401238592
+      },
+      {
+        "cx": 0.7213993892018357,
+        "cy": 0.4075638309488257,
+        "x": 0.5517578125,
+        "y": 0.258148631029987,
+        "w": 0.3251953125,
+        "h": 0.2646675358539765,
+        "area_frac": 0.06006686970338983
+      },
+      {
+        "cx": 0.49948827860885736,
+        "cy": 0.6207183048555482,
+        "x": 0.458984375,
+        "y": 0.590612777053455,
+        "w": 0.0830078125,
+        "h": 0.06258148631029987,
+        "area_frac": 0.003766195404172099
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9821220299494988,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.8098351395091671,
+    "horizontal_axis_y": 0.475
+  },
+  "subject_anchor": {
+    "x": 0.7412109375,
+    "y": 0.4367666232073012,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5879362367324455,
+    "phi": 0.5283562408171382,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.641,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.86,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.741,
+      "y": 0.437,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

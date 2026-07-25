@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-gestures-and-reenactments.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.07, 0.36], [0.92, 0.36]], "arrow": false, "label": "repeated image units" },
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.25, "w": 0.11, "h": 0.37, "label": "representative image unit" },
+    { "type": "polyline", "points": [[0.12, 0.42], [0.28, 0.39], [0.48, 0.43], [0.68, 0.40], [0.87, 0.37]], "label": "alternating arm positions" },
+    { "type": "subject_anchor", "x": 0.227, "y": 0.348, "r": 0.035, "label": "first cropped body" }
+  ],
+  "notes": "Repeated framed fragments and the pauses between their plaques create a measured horizontal cadence."
+}

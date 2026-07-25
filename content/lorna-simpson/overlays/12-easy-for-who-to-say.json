@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-easy-for-who-to-say.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.12, 0.31], [0.88, 0.31]], "arrow": false, "label": "five portrait centers" },
+    { "type": "frame_in_frame", "x": 0.06, "y": 0.05, "w": 0.18, "h": 0.55, "label": "representative portrait panel" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.31, "rx": 0.07, "ry": 0.17, "label": "central lettered oval" },
+    { "type": "subject_anchor", "x": 0.132, "y": 0.307, "r": 0.035, "label": "first lettered oval" }
+  ],
+  "notes": "Repeated portrait panels turn withheld faces into a measured sentence whose lower labels alter the sequence."
+}

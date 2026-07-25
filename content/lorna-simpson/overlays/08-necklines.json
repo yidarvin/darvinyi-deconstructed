@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-necklines.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.08, "w": 0.28, "h": 0.58, "label": "central neckline panel" },
+    { "type": "leading_line", "points": [[0.04, 0.70], [0.96, 0.70]], "arrow": false, "label": "three-panel baseline" },
+    { "type": "polyline", "points": [[0.41, 0.52], [0.50, 0.56], [0.59, 0.52]], "label": "central scalloped neckline" },
+    { "type": "subject_anchor", "x": 0.335, "y": 0.87, "r": 0.035, "label": "left word plaque" }
+  ],
+  "notes": "Three distinct crops are held against two dense word blocks; the neckline contour answers their enclosure."
+}

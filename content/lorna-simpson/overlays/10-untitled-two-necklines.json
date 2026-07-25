@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-untitled-two-necklines.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.31, "cy": 0.52, "rx": 0.16, "ry": 0.14, "label": "left circular crop" },
+    { "type": "ellipse", "cx": 0.69, "cy": 0.52, "rx": 0.16, "ry": 0.14, "label": "right circular crop" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "stacked-word column" },
+    { "type": "subject_anchor", "x": 0.773, "y": 0.516, "r": 0.035, "label": "right neckline" }
+  ],
+  "notes": "The two circular body crops bracket a severe vertical word column that both joins and interrupts them."
+}
