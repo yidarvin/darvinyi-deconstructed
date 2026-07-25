@@ -2,7 +2,7 @@
 
 Researched and acquired 2026-07-24. All twelve files below were retrieved from the public display delivery URLs embedded in [Brooke Shaden’s official portfolio](https://brookeshaden.com/portfolio), without login, paywall, or access-control bypass. Each opened successfully as a JPEG; eleven are 1500 × 1500 px and *Life After Death* is 1080 × 1080 px.
 
-The official portfolio identifies the artist, title, and year. The artist’s [print shop](https://brookeshaden.com/prints/) describes the works as signed, numbered, artist-proofed limited-edition prints; therefore no open licence or public-domain claim is made here. Credit/rightsholder for every work: **© Brooke Shaden; all rights reserved.**
+The official portfolio identifies the artist, title, and year. The artist’s [print shop](https://brookeshaden.com/prints/) describes Brooke’s work as available as signed, numbered, artist-proofed limited-edition prints; it does not establish a particular edition for every selected work. Therefore no open licence or public-domain claim is made here. Credit/rightsholder for every work: **© Brooke Shaden; all rights reserved.**
 
 ## Selected works
 
@@ -50,7 +50,7 @@ The official portfolio identifies the artist, title, and year. The artist’s [p
 
    **Use basis: fair-use.** (1) Noncommercial criticism, scholarship, and transformative teaching about scale, containment, and light separation. (2) Highly creative published photograph, weighing against use. (3) The complete frame is required to analyze its enclosed figure and surrounding space; the copy is web-sized. (4) It is credited and linked to the official portfolio and does not substitute for an original or limited-edition print.
 
-12. **Life After Death** (2024) — A precisely arranged self-portrait and symbolic environment consolidate Shaden’s later grief-oriented imagery; it supports analysis of central anchoring, dark surround, and controlled object hierarchy. [Portfolio record](https://brookeshaden.com/portfolio) · [public delivery](https://images.squarespace-cdn.com/content/v1/65a3fe61ac3fba1c19060466/8c95ab78-db09-421f-ac7c-8e8eae59b994/life_after_death.jpg) · local `12-life-after-death.jpg`.
+12. **Life After Death** (2024) — A precisely arranged reclining figure, skull form, and tree-filled setting make a study in central anchoring, dark surround, and controlled object hierarchy. [Portfolio record](https://brookeshaden.com/portfolio) · [public delivery](https://images.squarespace-cdn.com/content/v1/65a3fe61ac3fba1c19060466/8c95ab78-db09-421f-ac7c-8e8eae59b994/life_after_death.jpg) · local `12-life-after-death.jpg`.
 
    **Use basis: fair-use.** (1) Noncommercial scholarly criticism and transformative composition teaching about central anchoring and object hierarchy. (2) Highly creative published photograph, weighing against use. (3) The full square frame is necessary to study its symbolic layout; only a web-sized 1080 px copy is retained. (4) The artist is credited and linked to the official portfolio, and this use does not replace the original or a limited-edition reproduction.
 
