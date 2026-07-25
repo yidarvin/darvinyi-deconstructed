@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-suzanne-crying-nyc.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.400, "label": "FACE CENTER" },
+    { "type": "leading_line", "points": [[0.191, 0.207], [0.501, 0.596]], "arrow": false, "label": "LEFT FACIAL FALL" },
+    { "type": "leading_line", "points": [[0.306, 0.170], [0.586, 0.589]], "arrow": false, "label": "RIGHT FACIAL FALL" },
+    { "type": "ellipse", "cx": 0.431, "cy": 0.530, "rx": 0.248, "ry": 0.341, "label": "CLOSE FACE" }
+  ],
+  "notes": "A face pressed close to the lens is organized by a narrow central axis and the downward pull of its two sides."
+}

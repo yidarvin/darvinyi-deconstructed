@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-j-and-richard-chicago.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.579, "angle": 0.0, "label": "BED EDGE" },
+    { "type": "frame_in_frame", "x": 0.020, "y": 0.086, "w": 0.244, "h": 0.503, "label": "DARK HEADBOARD" },
+    { "type": "polyline", "points": [[0.053, 0.606], [0.331, 0.573], [0.516, 0.641], [0.673, 0.714]], "label": "BED AND BODY CONTOUR" },
+    { "type": "ellipse", "cx": 0.493, "cy": 0.642, "rx": 0.259, "ry": 0.147, "label": "RESTING FIGURE" }
+  ],
+  "notes": "A low bed-edge band and an enclosing headboard hold two differently directed bodies in a shallow room."
+}

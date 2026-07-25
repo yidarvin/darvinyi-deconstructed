@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-kim-and-mark-in-the-red-car.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "CAR INTERIOR CENTER" },
+    { "type": "leading_line", "points": [[0.395, 0.365], [0.680, 0.299]], "arrow": false, "label": "WINDSHIELD EDGE" },
+    { "type": "polyline", "points": [[0.020, 0.199], [0.273, 0.023], [0.771, 0.023], [0.998, 0.084]], "label": "ROOFLINE" },
+    { "type": "ellipse", "cx": 0.495, "cy": 0.536, "rx": 0.250, "ry": 0.215, "label": "SHARED BACK SEAT" }
+  ],
+  "notes": "The car roof, windshield, and continuous red seat turn two leaning bodies into one close enclosure."
+}

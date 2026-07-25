@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-the-ballad-of-sexual-dependency.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.356, "angle": 0.0, "label": "SCREEN BASE" },
+    { "type": "subject_anchor", "x": 0.788, "y": 0.216, "r": 0.035, "label": "PROJECTED FIGURE" },
+    { "type": "frame_in_frame", "x": 0.607, "y": 0.076, "w": 0.291, "h": 0.236, "label": "PROJECTED FRAME" },
+    { "type": "polyline", "points": [[0.018, 0.731], [0.252, 0.792], [0.508, 0.858], [0.763, 0.923]], "label": "BENCH RHYTHM" }
+  ],
+  "notes": "A bright projected rectangle holds the room's attention above the dark, stepped rhythm of seated viewers."
+}

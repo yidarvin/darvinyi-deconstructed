@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "03-self-portrait.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.513, "angle": 0.0, "label": "MONTAGE ROW BREAK" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.083, "r": 0.035, "label": "UPPER MONTAGE LIGHT" },
+    { "type": "frame_in_frame", "x": 0.013, "y": 0.013, "w": 0.974, "h": 0.974, "label": "SIXTEEN-PANEL FIELD" },
+    { "type": "polyline", "points": [[0.014, 0.258], [0.987, 0.258]], "label": "FIRST ROW DIVIDER" },
+    { "type": "polyline", "points": [[0.014, 0.750], [0.987, 0.750]], "label": "LOWER ROW DIVIDER" }
+  ],
+  "notes": "The full sixteen-part field makes recurrence and interruption legible as a sequence rather than a single portrait."
+}
