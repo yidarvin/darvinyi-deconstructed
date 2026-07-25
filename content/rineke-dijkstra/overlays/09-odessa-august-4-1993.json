@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "body axis" },
     { "type": "ellipse", "cx": 0.515, "cy": 0.555, "rx": 0.150, "ry": 0.395, "label": "standing figure" },
-    { "type": "polyline", "points": [[0.360, 0.710], [0.510, 0.700], [0.660, 0.715]], "label": "shore band" }
+    { "type": "polyline", "points": [[0.360, 0.710], [0.510, 0.700], [0.660, 0.715]], "label": "water band" }
   ],
   "notes": "A nearly centered body is held against expansive pale water, concentrating attention on the asymmetry of its stance."
 }
