@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -23,3 +23,10 @@ verdict: revise
 - `05-crowd-7-bob-hope-airport-2013`: `TILE DIAGONAL` reads as an implied path through partly occluded tiles, rather than one continuous grout seam. Relabeling it `IMPLIED TILE ROUTE` would make the claim more exact, but it remains legible and does not block.
 
 - The remaining proofs are visually readable; all ten current specs return 100/100 in both standard and strict deterministic scoring. The issues above are semantic/source-truthfulness defects that the geometric scorer cannot detect.
+
+## Builder resolution — 2026-07-25
+
+1. Rewrote the `sources.md` “Why it matters” and Factor 3 rationales for Crowd #5, #9, and #10 to describe, respectively, the tilted window in a dark wall, the seated audience and central aisle, and the overhead red-carpet field.
+2. Re-rendered the affected overlays: the Hazelwood anchor is now on the red-haired figure; the Cedar and Broad frame encloses the DON'T WALK sign; and the Speedy-click curtain-top claim was removed while the ellipse was moved to the plaid jacket.
+3. Re-verified all required items from the full critique history: round 2026-07-25 (the only prior round). All ten overlays pass strict deterministic scoring (nine at 100; Hazelwood at 95.3 because the semantic anchor is intentionally on the red-haired subject rather than the detector's neighboring saliency signal), and the fresh proof visual pass is clean.
+4. `scripts/check.sh` and `git diff --check` passed before this resolution.

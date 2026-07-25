@@ -39,9 +39,9 @@ a licensed reproduction.
 
 ### 03 — *Face In The Crowd: Crowd #5 (Washington Square West)* (2013)
 
-- **Why it matters:** A tilted, street-level tableau balances tight clusters with small openings of pavement, showing how negative space can keep a crowded cinematic set intelligible.
+- **Why it matters:** A tilted open window cuts a crowded interior out of a dark green wall, turning the gathered figures into a deliberately bounded stage within the larger frame.
 - **Source:** [Alex Prager Studio — selected work](https://www.alexprager.com/part-ii-view) (public display file: https://images.squarespace-cdn.com/content/v1/5c18026a45776eb989d7c74a/1558044512745-BIJNFBXGLM9XHVTAZ58N/AP_Crowd-%235_Washington_Square_West_2013_WEB.jpg)
-- **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative criticism analyzes clustering, negative space, and directional tilt. **Factor 2:** a creative staged photograph. **Factor 3:** full-frame use preserves the relation of figures to the gaps between them. **Factor 4:** the credited, linked 2500 × 2064px web rendition does not replace a print or licensed reproduction.
+- **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative criticism analyzes framing, crowd density, and directional tilt. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is needed to compare the crowded window opening with the surrounding dark wall and its sloping upper edge. **Factor 4:** the credited, linked 2500 × 2064px web rendition does not replace a print or licensed reproduction.
 - **File:** `raw/alex-prager/03-crowd-5-washington-square-west-2013.jpg` (2500 × 2064px)
 
 ### 04 — *Face In The Crowd: Crowd #6 (Hazelwood)* (2013)
@@ -67,16 +67,16 @@ a licensed reproduction.
 
 ### 07 — *Face In The Crowd: Crowd #9 (Sunset Five)* (2013)
 
-- **Why it matters:** The unusually broad scene lets several small action centers coexist; horizon, pavement, and costume color coordinate a panoramic image without collapsing it into visual noise.
+- **Why it matters:** Rows of seated spectators and a central aisle turn the audience into a shallow, frontal field, while small gestures and color accents interrupt its repeated tiers.
 - **Source:** [Alex Prager Studio — selected work](https://www.alexprager.com/part-ii-view) (public display file: https://images.squarespace-cdn.com/content/v1/5c18026a45776eb989d7c74a/1558044741359-5G1KMD0VG3PIS3DS0YSB/AP_Crowd-%239_Sunset_Five_2013_WEB.jpg)
-- **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative teaching analyzes panoramic distribution and multiple focal centers. **Factor 2:** a creative staged photograph. **Factor 3:** the entire width is essential to the relation among those centers. **Factor 4:** the credited, linked 2500 × 1619px display copy is web-sized and non-substitutive.
+- **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative teaching analyzes repeated seating, central-axis organization, and focal interruptions. **Factor 2:** a creative staged photograph. **Factor 3:** the full frame is needed to read the central aisle against the audience tiers and their distributed gestures. **Factor 4:** the credited, linked 2500 × 1619px display copy is web-sized and non-substitutive.
 - **File:** `raw/alex-prager/07-crowd-9-sunset-five-2013.jpg` (2500 × 1619px)
 
 ### 08 — *Face In The Crowd: Crowd #10 (Imperial Theatre)* (2013)
 
-- **Why it matters:** Theatre architecture turns the crowd into a layered audience image, using vertical bands, seating geometry, and small, theatrically posed faces to make looking itself the subject.
+- **Why it matters:** An overhead red-carpet field distributes figures in formalwear across a broad diagonal sweep, while a turquoise-dressed figure creates a local pause inside the social pattern.
 - **Source:** [Alex Prager Studio — selected work](https://www.alexprager.com/part-ii-view) (public display file: https://images.squarespace-cdn.com/content/v1/5c18026a45776eb989d7c74a/1558044757447-R8WWTI8PQ1E31ZKZ76G7/AP_Crowd-%2310_Imperial_Theatre_2013_WEB.jpg)
-- **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative criticism studies layered depth, repeated geometry, and audience gaze. **Factor 2:** a creative staged photograph. **Factor 3:** full-frame use is essential to preserve the theatre's spatial hierarchy. **Factor 4:** the credited, linked 2500 × 2203px public copy cannot replace an original, print, or licensed reproduction.
+- **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative criticism studies distributed figures, color hierarchy, and directional crowd flow. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is needed to compare the red-carpet ground with the dispersed formalwear and the isolated turquoise figure. **Factor 4:** the credited, linked 2500 × 2203px public copy cannot replace an original, print, or licensed reproduction.
 - **File:** `raw/alex-prager/08-crowd-10-imperial-theatre-2013.jpg` (2500 × 2203px)
 
 ### 09 — *Face In The Crowd: Crowd #11 (Cedar and Broad Street)* (2013)
@@ -92,4 +92,3 @@ a licensed reproduction.
 - **Source:** [Alex Prager Studio — selected work](https://www.alexprager.com/part-ii-view) (public display file: https://images.squarespace-cdn.com/content/v1/5c18026a45776eb989d7c74a/1558044801420-O9DHU7QNI1U2OSZ4KEE4/AP_Crowd-%2312_Speedyclick_2013_WEB.jpg)
 - **Rights / fair-use assessment:** © Alex Prager; no licence stated. **Factor 1:** transformative composition teaching examines vertical field design, anchors, and distributed narrative. **Factor 2:** a creative staged photograph. **Factor 3:** the complete frame is necessary to compare its multiple staged incidents. **Factor 4:** the credited, linked 2358 × 2500px public web copy is limited in scale and does not replace an original, print, or licensed reproduction.
 - **File:** `raw/alex-prager/10-crowd-12-speedy-click-2013.jpg` (2358 × 2500px)
-

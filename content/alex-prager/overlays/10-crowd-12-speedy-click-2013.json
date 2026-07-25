@@ -4,8 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.903, "y": 0.487, "r": 0.035, "label": "RIGHT-HAND FIGURE" },
-    { "type": "polyline", "points": [[0.045, 0.085], [0.500, 0.085], [0.955, 0.085]], "label": "CURTAIN TOP" },
-    { "type": "ellipse", "cx": 0.610, "cy": 0.730, "rx": 0.075, "ry": 0.140, "label": "PLAID JACKET" }
+    { "type": "ellipse", "cx": 0.770, "cy": 0.690, "rx": 0.055, "ry": 0.110, "label": "PLAID JACKET" }
   ],
   "notes": "A high curtain field opens above scattered social knots, with the raised cup acting as a small bright signal."
 }
