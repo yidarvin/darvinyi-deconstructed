@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-the-cock-kiss.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.360, "cy": 0.315, "rx": 0.250, "ry": 0.190, "label": "left face" },
+    { "type": "ellipse", "cx": 0.665, "cy": 0.400, "rx": 0.220, "ry": 0.210, "label": "right face" },
+    { "type": "polyline", "points": [[0.468, 0.448], [0.514, 0.446], [0.552, 0.450]], "label": "kiss contact" },
+    { "type": "frame_in_frame", "x": 0.018, "y": 0.018, "w": 0.963, "h": 0.962, "label": "print border" }
+  ],
+  "notes": "The close faces meet at a small central contact inside the visible print border."
+}

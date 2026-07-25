@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-venus-transit-edge.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.506, "cy": 0.580, "rx": 0.366, "ry": 0.274, "label": "solar disc" },
+    { "type": "ellipse", "cx": 0.832, "cy": 0.648, "rx": 0.024, "ry": 0.018, "label": "Venus at edge" },
+    { "type": "frame_in_frame", "x": 0.098, "y": 0.038, "w": 0.811, "h": 0.914, "label": "black image field" }
+  ],
+  "notes": "Venus appears at the disc's lower-right edge, giving the broad solar field an asymmetric point of tension."
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "10-lighter-green-red-iv.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.427, "angle": 0.0, "label": "red-green division" },
+    { "type": "frame_in_frame", "x": 0.042, "y": 0.030, "w": 0.916, "h": 0.933, "label": "colour field" }
+  ],
+  "notes": "A hard red-green division makes colour itself the frame's subject."
+}

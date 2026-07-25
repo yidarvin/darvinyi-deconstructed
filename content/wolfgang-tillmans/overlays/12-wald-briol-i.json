@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-wald-briol-i.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.503, 0.000], [0.493, 0.467], [0.501, 1.000]], "label": "central trunk" },
+    { "type": "polyline", "points": [[0.041, 0.715], [0.312, 0.663], [0.614, 0.687], [0.945, 0.613]], "label": "forest floor break" },
+    { "type": "polyline", "points": [[0.003, 0.155], [0.260, 0.268], [0.430, 0.397]], "label": "left branch sweep" },
+    { "type": "polyline", "points": [[0.612, 0.436], [0.804, 0.398], [0.989, 0.327]], "label": "right branch sweep" }
+  ],
+  "notes": "A central trunk and competing branch sweeps turn dense forest into a dispersed field of directions."
+}

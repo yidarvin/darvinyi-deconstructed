@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-ceremony.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.006, 0.195], [0.496, 0.217], [0.994, 0.198]], "label": "upper balcony band" },
+    { "type": "polyline", "points": [[0.006, 0.420], [0.494, 0.441], [0.995, 0.428]], "label": "middle balcony band" },
+    { "type": "polyline", "points": [[0.010, 0.694], [0.500, 0.670], [0.990, 0.674]], "label": "crowd horizon" },
+    { "type": "ellipse", "cx": 0.520, "cy": 0.733, "rx": 0.206, "ry": 0.118, "label": "central gathering" }
+  ],
+  "notes": "Curved balcony bands stack a dispersed crowd into a shallow civic theatre."
+}

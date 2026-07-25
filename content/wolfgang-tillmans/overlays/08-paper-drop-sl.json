@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-paper-drop-sl.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.184, 0.536], [0.260, 0.355], [0.471, 0.285], [0.706, 0.519]], "label": "paper crest" },
+    { "type": "polyline", "points": [[0.189, 0.536], [0.347, 0.668], [0.622, 0.689], [0.865, 0.654]], "label": "grounding shadow" },
+    { "type": "ellipse", "cx": 0.490, "cy": 0.498, "rx": 0.345, "ry": 0.220, "label": "paper mass" }
+  ],
+  "notes": "A single folded sheet arcs from a broad crest into a long, grounding shadow."
+}

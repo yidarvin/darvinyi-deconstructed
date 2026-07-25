@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-lighter-beige-ii.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.098, 0.808], [0.358, 0.714], [0.574, 0.586], [0.900, 0.454]], "label": "rising pale contour" },
+    { "type": "polyline", "points": [[0.221, 0.760], [0.439, 0.657], [0.665, 0.570]], "label": "inner pale fold" },
+    { "type": "ellipse", "cx": 0.525, "cy": 0.619, "rx": 0.387, "ry": 0.196, "label": "low-contrast field" }
+  ],
+  "notes": "A near-monochrome field makes shallow pale contours do all the compositional work."
+}

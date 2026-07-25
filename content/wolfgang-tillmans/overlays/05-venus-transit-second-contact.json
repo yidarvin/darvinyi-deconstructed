@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-venus-transit-second-contact.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.508, "cy": 0.571, "rx": 0.358, "ry": 0.278, "label": "solar disc" },
+    { "type": "ellipse", "cx": 0.355, "cy": 0.690, "rx": 0.023, "ry": 0.018, "label": "Venus at edge" },
+    { "type": "frame_in_frame", "x": 0.093, "y": 0.040, "w": 0.820, "h": 0.912, "label": "black image field" }
+  ],
+  "notes": "The large disc nearly fills its black field, making Venus's lower-left edge contact consequential."
+}

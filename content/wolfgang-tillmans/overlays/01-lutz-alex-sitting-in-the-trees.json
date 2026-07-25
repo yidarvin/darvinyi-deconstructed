@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-lutz-alex-sitting-in-the-trees.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.742, "cy": 0.287, "rx": 0.115, "ry": 0.145, "label": "upper sitter" },
+    { "type": "ellipse", "cx": 0.390, "cy": 0.664, "rx": 0.125, "ry": 0.170, "label": "lower sitter" },
+    { "type": "polyline", "points": [[0.001, 0.094], [0.382, 0.205], [0.750, 0.040]], "label": "upper branch arc" },
+    { "type": "polyline", "points": [[0.000, 0.403], [0.403, 0.319], [0.740, 0.370]], "label": "shared branch" }
+  ],
+  "notes": "Two sitters occupy separate heights, held by a crossed lattice of branches."
+}

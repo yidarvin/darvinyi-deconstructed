@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "07-lighter-beige-ii.jpg",
+  "width": 1600,
+  "height": 1366,
+  "aspect": 1.1713,
+  "tonal": {
+    "mean": 0.7666766307853233,
+    "std": 0.059634343307890025,
+    "p05": 0.7215686274509804,
+    "p95": 0.9215686274509803,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#cdbda7",
+    "#c5b7a0",
+    "#e5e6e6",
+    "#cdcdc8",
+    "#f8f8f7"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.5034324942791762,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0,
+      0.9908466819221968
+    ],
+    "regions": [
+      {
+        "cx": 0.03129108849894152,
+        "cy": 0.9688129570679348,
+        "x": 0.0,
+        "y": 0.9290617848970252,
+        "w": 0.0732421875,
+        "h": 0.07093821510297482,
+        "area_frac": 0.004222459596681922
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9640404507574086,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.8954713396217818,
+    "horizontal_axis_y": 0.575
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.9908466819221968,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.019994464923264645,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.503,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.96,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.991,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-conor-donlon.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.138, 0.223], [0.430, 0.223], [0.600, 0.223]], "label": "title line" },
+    { "type": "horizon_line", "y": 0.494, "angle": 0.0, "label": "sea horizon" },
+    { "type": "ellipse", "cx": 0.704, "cy": 0.663, "rx": 0.108, "ry": 0.225, "label": "figure and tower" },
+    { "type": "polyline", "points": [[0.540, 0.634], [0.802, 0.625], [0.986, 0.812]], "label": "platform rail" }
+  ],
+  "notes": "Title, horizon, and right-edge tower distribute a portrait across a page-like field."
+}

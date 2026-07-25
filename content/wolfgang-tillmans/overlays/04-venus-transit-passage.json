@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-venus-transit-passage.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.511, "cy": 0.570, "rx": 0.361, "ry": 0.279, "label": "solar disc" },
+    { "type": "subject_anchor", "x": 0.260, "y": 0.288, "r": 0.024, "label": "upper edge contact" },
+    { "type": "frame_in_frame", "x": 0.095, "y": 0.040, "w": 0.819, "h": 0.912, "label": "black image field" }
+  ],
+  "notes": "The disc's placement and a tiny upper-left contact make the astronomical event a study in marginal pressure."
+}
