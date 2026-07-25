@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -27,3 +27,17 @@ Re-verified critique history: the 2026-07-25 round (the only prior round in `git
 5. `10-ike-cole-hustlers-1990-92` accurately labels the y=0.783 feature as the foreground car edge; matching prose and caption refer to foreground cars rather than roofs.
 
 All five refreshed proofs received a clean visual pass. The scores are 100/100 for `04`, `05`, `09`, and `10`; `08` scores 94/100 because the deterministic edge detector does not follow the visually literal pole. `scripts/check.sh` passed before this verdict update; the chapter copies remain byte-identical.
+
+## Critique round — 2026-07-25
+
+### Required
+
+None.
+
+The five required findings from the prior 2026-07-25 round remain resolved: `04-new-haven-1978` traces the wooden counter edge rather than asserting a bathtub frame; `05-tokyo-1998` bounds the visible blue video billboard; `08-hannah-2004` labels only the visible pole and face; `09-havana-1999` no longer asserts unsupported street recession; and `10-ike-cole-hustlers-1990-92` accurately names the foreground car edge. Every current proof was visually checked against its overlay and analysis file. Current overlay scores pass at or above the required threshold; the `08-hannah-2004` pole warning is a detector limitation, not a false visual claim.
+
+Source records are traceable, credits and titles match the set, and every fair-use image includes a concise per-image four-factor rationale. Chapter measurements match the current analyzer files within the stated tolerance, and no camera settings are invented.
+
+### Advisory (non-blocking)
+
+None.
