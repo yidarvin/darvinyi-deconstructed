@@ -3,11 +3,9 @@
   "image": "02-man-smoking.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.892, "angle": 0.0, "label": "FRONT TABLE EDGE" },
-    { "type": "vanishing_point", "x": 0.525, "y": 0.833, "label": "TABLE-PLANE CONVERGENCE" },
     { "type": "subject_anchor", "x": 0.567, "y": 0.657, "r": 0.035, "label": "CARD EXCHANGE" },
-    { "type": "leading_line", "points": [[0.524, 0.830], [0.823, 0.605]], "arrow": true, "label": "RIGHT-SIDE TABLE EDGE" },
+    { "type": "ellipse", "cx": 0.488, "cy": 0.755, "rx": 0.150, "ry": 0.080, "label": "CARDS AND DISHES" },
     { "type": "ellipse", "cx": 0.365, "cy": 0.803, "rx": 0.115, "ry": 0.070, "label": "FOREGROUND BOWL" }
   ],
-  "notes": "Opposed profiles are kept apart by the bright tabletop, while cards and a foreground bowl make the exchange tangible."
+  "notes": "Opposed profiles are kept apart by the bright tabletop, while the cards, dishes, and foreground bowl make the exchange tangible."
 }

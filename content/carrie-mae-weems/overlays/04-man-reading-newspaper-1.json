@@ -4,8 +4,6 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.824, "angle": 3.0, "label": "TABLE EDGE" },
-    { "type": "vanishing_point", "x": 0.556, "y": 0.651, "label": "TABLE-PLANE CONVERGENCE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.613, "label": "LAMP / NEWSPAPER AXIS" },
     { "type": "polyline", "points": [[0.438, 0.693], [0.562, 0.743], [0.719, 0.777]], "label": "NEWSPAPER SCREEN" }
   ],
   "notes": "The open newspaper makes a literal screen across the table while each figure remains occupied by an inward gesture."

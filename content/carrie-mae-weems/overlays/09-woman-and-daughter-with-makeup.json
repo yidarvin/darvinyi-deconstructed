@@ -4,9 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.287, "angle": 0.0, "label": "LAMP RIM" },
-    { "type": "vanishing_point", "x": 0.897, "y": 0.995, "label": "RIGHT TABLE EDGE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.400, "label": "LAMP / LARGE MIRROR AXIS" },
-    { "type": "ellipse", "cx": 0.449, "cy": 0.643, "rx": 0.110, "ry": 0.125, "label": "LARGE MIRROR" }
+    { "type": "ellipse", "cx": 0.460, "cy": 0.630, "rx": 0.075, "ry": 0.085, "label": "TABLE MIRROR" },
+    { "type": "ellipse", "cx": 0.592, "cy": 0.782, "rx": 0.050, "ry": 0.070, "label": "HAND MIRROR" }
   ],
   "notes": "Two mirrors and parallel makeup gestures make the adult and child comparable without claiming that they share a gaze."
 }

@@ -3,10 +3,10 @@
   "image": "12-woman-playing-solitaire.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.505, "y": 0.671, "label": "TABLE-PLANE CONVERGENCE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "LAMP / FACE AXIS" },
     { "type": "horizon_line", "y": 0.249, "angle": 0.0, "label": "LAMP RIM" },
-    { "type": "polyline", "points": [[0.352, 0.757], [0.499, 0.731], [0.653, 0.756]], "label": "CARD FIELD" }
+    { "type": "ellipse", "cx": 0.515, "cy": 0.805, "rx": 0.300, "ry": 0.095, "label": "IRREGULAR CARD FIELD" },
+    { "type": "ellipse", "cx": 0.250, "cy": 0.420, "rx": 0.140, "ry": 0.150, "label": "STANDING MIRROR" },
+    { "type": "frame_in_frame", "x": 0.155, "y": 0.295, "w": 0.180, "h": 0.190, "label": "CAGE IN MIRROR" }
   ],
   "notes": "Raised hands bracket a solitary figure above an irregular card field, with the cage and glass holding the sides in balance."
 }

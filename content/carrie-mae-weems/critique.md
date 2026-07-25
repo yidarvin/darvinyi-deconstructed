@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -21,3 +21,16 @@ Reviewed all twelve rendered proofs against their overlay specifications, analys
 ### Advisory (non-blocking)
 
 - `12-woman-playing-solitaire`: the thin three-point `CARD FIELD` polyline marks only an upper strip of the spread, while `chapter.mdx:57` describes a broad irregular zone. Either expand the visual treatment or soften the prose for a closer correspondence.
+
+## Resolution — 2026-07-25
+
+Re-verified critique history: **2026-07-25, round 1** (the only prior round in `git log -p -- content/carrie-mae-weems/critique.md`). Every required fix from that round still holds:
+
+1. Removed every `symmetry_axis`; replacement annotations identify only visible mirrors, figures, cage reflections, gestures, or card fields.
+2. Removed the unsupported table-edge and convergence claims in `02-man-smoking`; chapter prose now names the visible cards, dishes, and bowl instead.
+3. Removed the false table-edge/perspective claims in `05-woman-and-phone` and `06-girlfriends-1`; both proofs now make only phone/cord or figure/touch claims, and matching prose was revised.
+4. Retargeted `08-woman-brushing-hair` to the short, visible brush-to-hair contact and corrected the chapter wording.
+5. Corrected `11-woman-feeding-bird`: the round form is labeled as the standing mirror, the rectangular cage is marked inside it, and the polyline follows the raised arm. The same mirror/cage distinction was also corrected for `03-eating-lobster`.
+6. Removed `12-woman-playing-solitaire`’s unsupported tabletop convergence; the advisory was addressed with a broad irregular-card-field annotation.
+
+All twelve affected images were freshly analyzed, rendered, visually inspected in the proof contact sheet, and strict-scored at 100/100. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass; `chapter.mdx` and the rendered site chapter are byte-identical. Source notes now attribute print processes to their specific institutional holdings rather than generalizing MoMA's individual records to the whole series.

@@ -4,9 +4,9 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.327, "angle": 0.0, "label": "LAMP RIM" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "LAMP / BODY AXIS" },
-    { "type": "ellipse", "cx": 0.218, "cy": 0.440, "rx": 0.140, "ry": 0.180, "label": "CAGE CIRCLE" },
-    { "type": "polyline", "points": [[0.592, 0.650], [0.490, 0.525], [0.348, 0.380]], "label": "REACH TOWARD CAGE" }
+    { "type": "ellipse", "cx": 0.180, "cy": 0.430, "rx": 0.130, "ry": 0.170, "label": "STANDING MIRROR" },
+    { "type": "frame_in_frame", "x": 0.090, "y": 0.305, "w": 0.180, "h": 0.205, "label": "CAGE IN MIRROR" },
+    { "type": "polyline", "points": [[0.405, 0.300], [0.480, 0.365], [0.560, 0.470]], "label": "RAISED ARM" }
   ],
-  "notes": "The raised arm reaches across the fixed room toward the cage, while the chair and table preserve the distance."
+  "notes": "The raised arm meets the standing mirror, where a rectangular cage appears inside the circular reflection."
 }

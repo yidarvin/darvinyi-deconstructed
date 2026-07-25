@@ -3,11 +3,9 @@
   "image": "05-woman-and-phone.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "LAMP / PHONE AXIS" },
-    { "type": "horizon_line", "y": 0.836, "angle": 0.0, "label": "TABLE EDGE" },
-    { "type": "subject_anchor", "x": 0.335, "y": 0.929, "r": 0.035, "label": "PHONE CORD" },
+    { "type": "subject_anchor", "x": 0.378, "y": 0.589, "r": 0.060, "label": "SEATED FIGURE" },
     { "type": "ellipse", "cx": 0.500, "cy": 0.890, "rx": 0.170, "ry": 0.075, "label": "TELEPHONE" },
-    { "type": "polyline", "points": [[0.484, 0.904], [0.391, 0.955], [0.267, 0.973]], "label": "CORD PATH" }
+    { "type": "polyline", "points": [[0.482, 0.914], [0.411, 0.955], [0.332, 0.978]], "label": "CORD'S VISIBLE RUN" }
   ],
-  "notes": "The telephone anchors the foreground while the withdrawn figure remains beyond its tactile cord and the long table plane."
+  "notes": "The telephone anchors the foreground while the withdrawn seated figure remains beyond its visible cord."
 }

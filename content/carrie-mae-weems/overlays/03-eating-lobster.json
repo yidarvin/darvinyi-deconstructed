@@ -4,10 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.313, "angle": 0.0, "label": "LAMP RIM" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.400, "label": "CAGE / TABLE BALANCE" },
-    { "type": "subject_anchor", "x": 0.331, "y": 0.976, "r": 0.035, "label": "CARD PILE" },
-    { "type": "ellipse", "cx": 0.180, "cy": 0.430, "rx": 0.110, "ry": 0.155, "label": "BIRD CAGE" },
-    { "type": "polyline", "points": [[0.428, 0.685], [0.505, 0.735], [0.565, 0.717]], "label": "HANDS AND FOOD" }
+    { "type": "ellipse", "cx": 0.180, "cy": 0.430, "rx": 0.110, "ry": 0.155, "label": "STANDING MIRROR" },
+    { "type": "frame_in_frame", "x": 0.100, "y": 0.335, "w": 0.165, "h": 0.140, "label": "CAGE IN MIRROR" }
   ],
-  "notes": "A shared meal is staged between a conspicuous cage and the receding tabletop, with gestures—not a reciprocal gaze—making the connection."
+  "notes": "A shared meal is staged beside a standing mirror that contains a cage, with food and gesture—not a reciprocal gaze—making the connection."
 }
