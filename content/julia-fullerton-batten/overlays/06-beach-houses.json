@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-beach-houses.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.84, "angle": 0, "label": "LOWER GARDEN BAND" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.38, "rx": 0.08, "ry": 0.22, "label": "STANDING FIGURE" },
+    { "type": "ellipse", "cx": 0.85, "cy": 0.62, "rx": 0.1, "ry": 0.2, "label": "SEATED FIGURE" },
+    { "type": "polyline", "points": [[0.44, 0.77], [0.55, 0.65], [0.66, 0.7]], "label": "ROAD BETWEEN FIGURES" }
+  ],
+  "notes": "The small road steers between competing giant figures and repeatedly scaled houses."
+}

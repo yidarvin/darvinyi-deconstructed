@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-girls-by-motorway.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.363, "angle": 0, "label": "BRIDGE BAND" },
+    { "type": "vanishing_point", "x": 0.458, "y": 0.317, "label": "MOTORWAY CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.407, 0.443], [0.734, 0.998]], "arrow": true, "label": "RIGHT-HAND LANES" },
+    { "type": "leading_line", "points": [[0.167, 0.666], [0.539, 0.176]], "arrow": true, "label": "MEDIAN ROUTE" }
+  ],
+  "notes": "Road lanes funnel the eye between a close face and a distant standing figure."
+}

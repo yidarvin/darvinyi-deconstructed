@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-floating-in-harbour.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.133, "angle": -1, "label": "HARBOUR WALL" },
+    { "type": "vanishing_point", "x": 0.7, "y": 0.73, "label": "DOCK CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.577, 0.307], [0.722, 0.717]], "arrow": true, "label": "CRANE BOOM" },
+    { "type": "polyline", "points": [[0.03, 0.52], [0.22, 0.43], [0.42, 0.54]], "label": "FLOATING FIGURE" }
+  ],
+  "notes": "The floating figure occupies open water while cranes and docks retain the small harbour's industrial geometry."
+}

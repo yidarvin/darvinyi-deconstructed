@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-marbles.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.533, "angle": 0, "label": "PALACE BASELINE" },
+    { "type": "vanishing_point", "x": 0.57, "y": 0.6, "label": "PAVING CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.188, 0.105], [0.894, 0.998]], "arrow": true, "label": "ARCHITECTURAL DIAGONAL" },
+    { "type": "leading_line", "points": [[0.375, 0.29], [0.934, 0.996]], "arrow": true, "label": "ARCHITECTURAL DIAGONAL" }
+  ],
+  "notes": "The converging paving makes the oversized girls and marbles occupy a measured miniature court."
+}

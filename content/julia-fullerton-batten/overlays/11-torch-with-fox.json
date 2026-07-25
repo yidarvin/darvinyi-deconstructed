@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-torch-with-fox.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.419, "angle": 0, "label": "MODEL ROOFLINE" },
+    { "type": "subject_anchor", "x": 0.742, "y": 0.31, "r": 0.06, "label": "WOMAN WITH TORCH" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.35, "w": 0.42, "h": 0.34, "label": "ILLUMINATED FACADE" },
+    { "type": "polyline", "points": [[0.18, 0.73], [0.35, 0.69], [0.56, 0.57], [0.74, 0.45]], "label": "FOX-TO-TORCH PATH" }
+  ],
+  "notes": "The fox and torch-holder bracket a dark model town, connected by a deliberately sparse attention path."
+}

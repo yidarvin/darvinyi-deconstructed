@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-birdcage.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.232, "angle": 0, "label": "DISTANT ROOFLINE" },
+    { "type": "vanishing_point", "x": 0.636, "y": 0.522, "label": "GARDEN CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.428, 0.836], [0.95, 0.169]], "arrow": true, "label": "GARDEN EDGE" },
+    { "type": "frame_in_frame", "x": 0.5, "y": 0.48, "w": 0.25, "h": 0.27, "label": "BIRDCAGE" }
+  ],
+  "notes": "A small cage occupies the foreground while the seated figure and lit windows compound the nested scale."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-red-dress-in-city.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.46, "angle": 0, "label": "CITY ROOFLINE" },
+    { "type": "vanishing_point", "x": 0.505, "y": 0.737, "label": "STREET CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.145, 0.254], [0.666, 0.558]], "arrow": true, "label": "SHOPFRONT BAND" },
+    { "type": "polyline", "points": [[0.53, 0.03], [0.56, 0.34], [0.57, 0.61]], "label": "RED DRESS AXIS" }
+  ],
+  "notes": "The red dress turns the city’s converging signs and streets into a stage viewed from behind."
+}

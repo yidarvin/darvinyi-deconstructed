@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-airport.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.71, "angle": 0, "label": "APRON BAND" },
+    { "type": "leading_line", "points": [[0, 0.413], [0.517, 0.298]], "arrow": true, "label": "RUNWAY EDGE" },
+    { "type": "subject_anchor", "x": 0.702, "y": 0.464, "r": 0.06, "label": "TRAVELLER" },
+    { "type": "polyline", "points": [[0.0, 0.71], [0.25, 0.58], [0.49, 0.55]], "label": "AIRCRAFT APPROACH" }
+  ],
+  "notes": "Runway markings and a model aircraft make the traveller's cropped body loom over the airport."
+}
