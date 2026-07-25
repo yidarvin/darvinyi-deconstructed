@@ -1,6 +1,6 @@
 # Nan Goldin — source shortlist
 
-This six-work working set uses the Art Institute of Chicago’s public IIIF display renditions for collection objects by Nan Goldin. The museum API identifies every object as not public domain, so each reproduction is documented as fair use. The direct display JPEGs were retrieved without authentication, open successfully, preserve the published full frame, and measure 843px on the long edge—above the project’s 640px floor while remaining modest web derivatives.
+This six-work working set uses the Art Institute of Chicago’s public IIIF display renditions for collection objects by Nan Goldin. The museum API identifies every object as not public domain, so each reproduction is documented as fair use. The direct display JPEGs were retrieved without authentication, open successfully, preserve the published full frame, and are 843px wide, with long edges from 843px to 1210px—above the project’s 640px floor while remaining modest web derivatives.
 
 **Rights basis:** **fair-use** for every selection. Each is an individual, limited assessment: this nonprofit book uses a credited, collection-linked, web-sized rendition for transformative criticism, scholarship, and composition teaching; the whole published frame is needed for the stated visual analysis; and the copy neither replaces a collection record, original print, nor licensed reproduction. The Art Institute’s object records identify Nan Goldin as artist and `is_public_domain: false`; no more specific rightsholder notice appears in those records.
 

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -15,3 +15,10 @@ verdict: revise
 ### Verification
 
 Reviewed all six proof PNGs against their overlay specs and analysis JSON. Each deterministic overlay score is 100/100, the reported chapter measurements match the analysis within tolerance, all six Art Institute collection and IIIF source routes are traceable, and `python3 scripts/validate_pipeline.py` passes. No undocumented camera settings or unsupported rights route was found.
+
+## Builder resolution — 2026-07-25
+
+1. Reclassified the image 02 ellipse as `GROUPED FIGURES`, which truthfully describes the pair it encloses, regenerated its proof, and changed the corresponding chapter wording to “grouped figure mass.” The refreshed deterministic score is 100/100, and the rendered proof is visually clean.
+2. Applied the precise source-dimension advisory: the shared source note now says the files are 843px wide with long edges from 843px to 1210px.
+
+Re-verified required fixes from the full prior critique history: 2026-07-25, round 1. The repaired overlay label, the matching chapter claim, content/site chapter byte parity, and all six current overlay scores remain valid. `scripts/check.sh` passes.
