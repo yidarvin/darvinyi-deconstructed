@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-animeyed-puffin.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.617, "y": 0.398, "r": 0.035, "label": "HUMAN EYE" },
+    { "type": "ellipse", "cx": 0.42, "cy": 0.56, "rx": 0.38, "ry": 0.38, "label": "BIRD MASS" },
+    { "type": "polyline", "points": [[0.50,0.39],[0.60,0.44],[0.64,0.53]], "label": "ORANGE BEAK WEDGE" }
+  ],
+  "notes": "A broad dark puffin occupies the left half while its orange beak becomes the portrait's sharp bridge."
+}

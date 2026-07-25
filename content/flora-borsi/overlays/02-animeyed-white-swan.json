@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-animeyed-white-swan.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.445, "y": 0.451, "r": 0.035, "label": "SWAN HEAD" },
+    { "type": "polyline", "points": [[0.27,0.98],[0.25,0.63],[0.30,0.44],[0.44,0.45]], "label": "NECK SWEEP" },
+    { "type": "polyline", "points": [[0.44,0.45],[0.53,0.53],[0.63,0.58]], "label": "BEAK DIAGONAL" }
+  ],
+  "notes": "The swan's rising neck interrupts an otherwise frontal portrait and sends the eye through the beak."
+}

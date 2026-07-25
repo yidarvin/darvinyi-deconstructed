@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "image": "08-animeyed-poodle.jpg",
+  "width": 1200,
+  "height": 1186,
+  "aspect": 1.0118,
+  "tonal": {
+    "mean": 0.8633094350635511,
+    "std": 0.09622562754037982,
+    "p05": 0.6588235294117647,
+    "p95": 0.9372549019607843,
+    "edge_density": 0.001864346590909091
+  },
+  "palette": [
+    "#ece9de",
+    "#dbd6ca",
+    "#b9b3a7",
+    "#8f857b",
+    "#32251d"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.38735177865612647,
+    "angle_deg": 0.0,
+    "confidence": 0.9139205736975875,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5234375,
+      0.5306324110671937
+    ],
+    "regions": [
+      {
+        "cx": 0.5252937468437886,
+        "cy": 0.5267147723003456,
+        "x": 0.478515625,
+        "y": 0.4673913043478261,
+        "w": 0.0927734375,
+        "h": 0.11956521739130435,
+        "area_frac": 0.008598960906620554
+      },
+      {
+        "cx": 0.5903711847681986,
+        "cy": 0.3988499884719379,
+        "x": 0.548828125,
+        "y": 0.3547430830039526,
+        "w": 0.0859375,
+        "h": 0.08992094861660078,
+        "area_frac": 0.006005087388833992
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7223729743021602,
+    "vertical_axis_x": 0.45,
+    "horizontal": 0.7660017656555433,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.5234375,
+    "y": 0.5306324110671937,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2824486104769279,
+    "phi": 0.6425990980897864,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.387,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.91,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.523,
+      "y": 0.531,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

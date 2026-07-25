@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-animeyed-red-squirrel.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.569, "y": 0.377, "r": 0.035, "label": "SHARED GAZE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "PORTRAIT AXIS" },
+    { "type": "ellipse", "cx": 0.30, "cy": 0.56, "rx": 0.28, "ry": 0.27, "label": "SQUIRREL MASS" }
+  ],
+  "notes": "The squirrel's warm compact mass weighs the left side while shared colour and gaze keep the portrait coherent."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-animeyed-poodle.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.523, "y": 0.531, "r": 0.035, "label": "FUSION SEAM" },
+    { "type": "ellipse", "cx": 0.31, "cy": 0.50, "rx": 0.31, "ry": 0.38, "label": "POODLE TEXTURE" },
+    { "type": "polyline", "points": [[0.42,0.25],[0.50,0.43],[0.53,0.58],[0.48,0.70]], "label": "SHADOW SEAM" }
+  ],
+  "notes": "Low-contrast curls and a pale face fuse at a narrow seam, leaving the paired brown eyes to secure the reading."
+}

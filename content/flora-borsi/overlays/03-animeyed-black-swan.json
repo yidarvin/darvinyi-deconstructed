@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-animeyed-black-swan.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.335, "y": 0.244, "label": "DARK HEAD MASS" },
+    { "type": "polyline", "points": [[0.22,0.98],[0.22,0.65],[0.24,0.48],[0.38,0.29]], "label": "NECK COUNTERWEIGHT" },
+    { "type": "polyline", "points": [[0.45,0.34],[0.54,0.48],[0.61,0.54]], "label": "RED BEAK BRIDGE" }
+  ],
+  "notes": "A dark vertical swan mass is offset by a small, emphatic red beak that crosses toward the portrait."
+}

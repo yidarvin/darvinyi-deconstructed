@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "image": "06-animeyed-beetle.jpg",
+  "width": 1600,
+  "height": 1600,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.6692321478151808,
+    "std": 0.11935800610361404,
+    "p05": 0.48627450980392156,
+    "p95": 0.8941176470588236,
+    "edge_density": 0.0020532608032226562
+  },
+  "palette": [
+    "#b3a49a",
+    "#a09087",
+    "#cabab0",
+    "#e9dbd2",
+    "#7e6b64"
+  ],
+  "lines": [
+    {
+      "x1": 0.7021484375,
+      "y1": 0.58203125,
+      "x2": 0.7333984375,
+      "y2": 0.447265625,
+      "angle_deg": -76.9447527762034,
+      "length": 0.09782212475110276,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.458984375,
+    "angle_deg": 0.0,
+    "confidence": 0.9358368356253717,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.6005859375,
+      0.4296875
+    ],
+    "regions": [
+      {
+        "cx": 0.5961440581710328,
+        "cy": 0.4361295175558908,
+        "x": 0.548828125,
+        "y": 0.3896484375,
+        "w": 0.09375,
+        "h": 0.09375,
+        "area_frac": 0.006953239440917969
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8552884781006802,
+    "vertical_axis_x": 0.3875,
+    "horizontal": 0.8795187323553448,
+    "horizontal_axis_y": 0.4375
+  },
+  "subject_anchor": {
+    "x": 0.6005859375,
+    "y": 0.4296875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.24957058007304977,
+    "phi": 0.5816767166419461,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.459,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.94,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.388,
+      "confidence": 0.86,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.601,
+      "y": 0.43,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

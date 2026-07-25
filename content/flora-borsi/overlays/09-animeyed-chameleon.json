@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-animeyed-chameleon.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.335, "y": 0.465, "r": 0.035, "label": "CHAMELEON BODY" },
+    { "type": "polyline", "points": [[0.24,0.63],[0.24,0.80],[0.37,0.89],[0.51,0.88],[0.54,0.79]], "label": "TAIL S-CURVE" },
+    { "type": "ellipse", "cx": 0.35, "cy": 0.53, "rx": 0.16, "ry": 0.18, "label": "LIZARD MASS" }
+  ],
+  "notes": "A chameleon crosses the left eye and completes a long green S-curve through the lower portrait."
+}

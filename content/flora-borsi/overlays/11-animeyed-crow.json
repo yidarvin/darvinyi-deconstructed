@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-animeyed-crow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.632, "y": 0.358, "r": 0.035, "label": "HUMAN EYE" },
+    { "type": "polyline", "points": [[0.08,0.62],[0.33,0.48],[0.57,0.37]], "label": "BIRD BODY" },
+    { "type": "polyline", "points": [[0.54,0.37],[0.62,0.36],[0.67,0.38]], "label": "BEAK MASK" }
+  ],
+  "notes": "The crow's low, horizontal body crosses the centered portrait as a dark mask in an otherwise grey field."
+}

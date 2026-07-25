@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01-animeyed-black-cat.jpg",
+    "width": 1419,
+    "height": 1600,
+    "sha1": "096d15f6",
+    "source": "01-animeyed-black-cat.jpg",
+    "exif": {
+      "DateTimeOriginal": "2015:10:22 19:11:37"
+    }
+  },
+  {
+    "file": "02-animeyed-white-swan.jpg",
+    "width": 1600,
+    "height": 1534,
+    "sha1": "9e902d03",
+    "source": "02-animeyed-white-swan.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-animeyed-black-swan.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "5a8aaaae",
+    "source": "03-animeyed-black-swan.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-animeyed-dalmatian.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "c0daf2f7",
+    "source": "04-animeyed-dalmatian.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-animeyed-puffin.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "dc31ac7b",
+    "source": "05-animeyed-puffin.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-animeyed-beetle.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "a6c7d81f",
+    "source": "06-animeyed-beetle.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-animeyed-bunny.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "12f2fb61",
+    "source": "07-animeyed-bunny.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-animeyed-poodle.jpg",
+    "width": 1200,
+    "height": 1186,
+    "sha1": "a2852fb2",
+    "source": "08-animeyed-poodle.jpg",
+    "exif": {
+      "DateTimeOriginal": "2017:02:08 15:30:15"
+    }
+  },
+  {
+    "file": "09-animeyed-chameleon.jpg",
+    "width": 1500,
+    "height": 1401,
+    "sha1": "28da1f86",
+    "source": "09-animeyed-chameleon.jpg",
+    "exif": {
+      "DateTimeOriginal": "2016:09:01 19:08:40"
+    }
+  },
+  {
+    "file": "10-animeyed-flamingo.jpg",
+    "width": 1500,
+    "height": 1516,
+    "sha1": "e49a5543",
+    "source": "10-animeyed-flamingo.jpg",
+    "exif": {
+      "DateTimeOriginal": "2016:09:01 19:10:08"
+    }
+  },
+  {
+    "file": "11-animeyed-crow.jpg",
+    "width": 1300,
+    "height": 1174,
+    "sha1": "48541eff",
+    "source": "11-animeyed-crow.jpg",
+    "exif": {
+      "DateTimeOriginal": "2016:09:01 19:04:22"
+    }
+  },
+  {
+    "file": "12-animeyed-red-squirrel.jpg",
+    "width": 1500,
+    "height": 1343,
+    "sha1": "01dce4d1",
+    "source": "12-animeyed-red-squirrel.jpg",
+    "exif": {
+      "DateTimeOriginal": "2016:09:01 19:09:48"
+    }
+  }
+]

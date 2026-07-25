@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-animeyed-black-cat.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.635, "y": 0.434, "r": 0.035, "label": "SHARED GAZE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.600, "label": "SPLIT PORTRAIT" },
+    { "type": "polyline", "points": [[0.17,0.94],[0.27,0.61],[0.43,0.39],[0.56,0.50]], "label": "CAT CONTOUR" }
+  ],
+  "notes": "A near-centered human face is unsettled by the cat's dark left-side mass and a deliberately shared gaze."
+}
