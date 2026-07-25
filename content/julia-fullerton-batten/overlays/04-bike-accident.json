@@ -3,7 +3,6 @@
   "image": "04-bike-accident.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.195, "angle": 0, "label": "GRASS-ROAD EDGE" },
     { "type": "leading_line", "points": [[0, 0.965], [0.65, 0.094]], "arrow": true, "label": "MINIATURE ROAD" },
     { "type": "subject_anchor", "x": 0.7, "y": 0.532, "r": 0.07, "label": "FALLEN FIGURE" }
   ],

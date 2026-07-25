@@ -4,7 +4,6 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "horizon_line", "y": 0.39, "angle": 0, "label": "HOUSE ROOFLINE" },
-    { "type": "leading_line", "points": [[0.213, 0.005], [0.992, 0.994]], "arrow": true, "label": "DIAGONAL GARDEN AXIS" },
     { "type": "ellipse", "cx": 0.54, "cy": 0.72, "rx": 0.11, "ry": 0.07, "label": "EGGS" }
   ],
   "notes": "The central path and the reclining body meet at the scattered eggs, a small event enlarged by scale."

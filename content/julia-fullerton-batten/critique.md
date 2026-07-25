@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -41,3 +41,13 @@ Re-reviewed all 12 current proof PNGs against their overlay specs, ingested-imag
 ### Advisory (non-blocking)
 
 - None.
+
+## Builder resolution — 2026-07-24
+
+Re-verified both prior critique rounds from 2026-07-24 against the current overlays, proofs, and chapter: the first round's removals/replacements for **CHURCH-TO-WATER DIAGONAL**, **FERRY SILHOUETTE**, **BANK EDGE**, **MEDIAN ROUTE**, and **GARDEN EDGE** remain intact; their current truthful replacements were also visually checked. The second round's required fixes are resolved as follows.
+
+1. **04-bike-accident:** Removed the false full-width `GRASS-ROAD EDGE` horizon line. The visible miniature-road edge and fallen-figure anchor remain; rendered proof is visually clean and scores 100/100.
+2. **07-broken-eggs:** Removed the unsupported `DIAGONAL GARDEN AXIS` line and revised the chapter so it no longer claims that route. The roofline and egg ellipse remain; rendered proof is visually clean and scores 100/100.
+3. **11-torch-with-fox:** Extended `FOX-TO-TORCH PATH` to the visible handheld torch at `[0.742, 0.572]`; the chapter's path wording now matches the actual endpoint. Rendered proof is visually clean and scores 100/100.
+
+`scripts/check.sh` passes, and `content/julia-fullerton-batten/chapter.mdx` remains byte-identical to `src/chapters/julia-fullerton-batten.mdx`.
