@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -39,3 +39,19 @@ historical capture evidence.
 - **10-x-ray-telescope-cast:** the straight `OVERHEAD CABLE` line follows the
   cable near its start but crosses unrelated apparatus toward the lower right.
   A segmented route or a shorter line would make the cue cleaner.
+
+## Resolution — 2026-07-25
+
+Re-verified prior critique round 2026-07-25 in full. For **04-pantheon-rome**,
+removed both misleading floor-joint routes, moved the visitor-group anchor to the
+measured subject signal, changed the grid to the measured phi fit, and revised
+the overlay note, plate caption, and chapter prose so they make no false
+convergence claim. The refreshed proof passes strict scoring at 100 and visually
+places the sole annotation on the visitor group.
+
+For **06-semi-submersible-rig**, removed the unsupported right-hand mooring-line
+primitive and revised the overlay note, plate caption, and prose to refer only to
+the one visibly traceable foreground cable. The refreshed proof passes strict
+scoring at 100 with no deductions or warnings. `scripts/check.sh` passed before
+this resolution was recorded, and the rendered chapter copy remains byte-identical
+to `content/thomas-struth/chapter.mdx`.

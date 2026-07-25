@@ -1,11 +1,9 @@
 {
   "version": 1,
   "image": "04-pantheon-rome.jpg",
-  "grid": { "type": "thirds" },
+  "grid": { "type": "phi" },
   "primitives": [
-    { "type": "subject_anchor", "x": 0.50, "y": 0.85, "r": 0.07, "label": "VISITOR GROUP" },
-    { "type": "leading_line", "points": [[0.22, 0.99], [0.49, 0.62]], "arrow": true, "label": "FLOOR JOINT" },
-    { "type": "leading_line", "points": [[0.83, 0.99], [0.49, 0.62]], "arrow": true, "label": "FLOOR JOINT" }
+    { "type": "subject_anchor", "x": 0.515, "y": 0.903, "r": 0.07, "label": "VISITOR GROUP" }
   ],
-  "notes": "Floor joints converge on a small visitor group, making the monumental interior legible through human scale."
+  "notes": "A compact visitor group establishes human scale within the Pantheon's broad, concentric architectural enclosure."
 }
