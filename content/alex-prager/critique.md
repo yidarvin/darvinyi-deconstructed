@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -40,3 +40,8 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. The previously resolved source rationales and overlays remain materially correct. All ten current specs meet the deterministic score threshold; the Hazelwood anchor's 95.3 score remains a visually defensible intentional semantic placement rather than a regression.
+
+## Builder resolution — 2026-07-25
+
+1. Replaced the misplaced `UPTURNED FACE` ellipse in `02-crowd-4-new-haven-2013` with a precisely placed `BLONDE FIGURE` ellipse on the visible blonde figure's face, then regenerated its proof.
+2. Re-ran analysis, rendering, strict scoring, and a visual proof pass. New Haven scores 100/100; all ten chapter overlays remain at or above the 80-point strict threshold (Hazelwood remains 95.3 for its documented semantic anchor placement).
