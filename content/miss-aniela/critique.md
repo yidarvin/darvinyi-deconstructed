@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-24
 
@@ -56,3 +56,19 @@ verdict: resolved
 4. Re-verified every required finding from the full critique history: the first 2026-07-24 round's `07-kai-face` eye-line correction remains accurate in its rebuilt proof; this second 2026-07-24 round's `02-swan-lake`, `06-poster-and-plumage`, and acquisition-route fixes all hold. The revised site and pipeline chapter files are byte-identical.
 
 `scripts/check.sh` passed in full.
+
+## Critique round — 2026-07-24
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **10-ignite-mares:** The deterministic scorer retains a six-point warning for `CENTRAL DRESS RISE` because its intentionally interpretive path does not follow a detected edge or vanishing point. In the rendered proof it nevertheless follows the conspicuous central dress movement and remains a clear, non-misleading teaching cue (94/100 overall); no revision is required.
+
+### Review evidence
+
+- Inspected every current proof PNG against its source image, overlay spec, and analysis JSON. The previously resolved `02-swan-lake` raised-arm sweep, `06-poster-and-plumage` headpiece ellipse, and `07-kai-face` eye line still trace the named visible features; none has materially regressed.
+- Re-ran the deterministic scorer: `01`–`09` score 100/100 and `10` scores 94/100, each above the 80 threshold. The prose’s stated analyzer measurements, palette values, and tonal statistics agree with the current analysis files within the stated tolerance. Grid choices whose measured fits are close remain within the scorer’s 0.10 grid-fit tolerance and do not alter the chapter’s compositional reading.
+- All ten records retain a title, credited public route, direct display-image URL, and concise four-factor fair-use rationale. The linked images resolve; the documented Saatchi listing edge response remains an access observation, not an acquisition bypass. The chapter asserts no camera settings or undocumented production facts.
