@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -133,3 +133,23 @@ twelve works. No camera-setting claim or source-integrity defect was found.
   somewhat generous around the canopy. This is the already-settled advisory
   from the preceding round; it still identifies the correct umbrella and is
   not a blocking regression.
+
+## Resolution — 2026-07-24
+
+1. Repositioned `04-we-are-infinite`’s `SKIRT SWEEP` entirely onto the blue
+   rightward skirt mass. Removed the misplaced `FIGURE` anchor and revised
+   both byte-identical chapter copies so they describe the traced skirt sweep,
+   not a nonexistent figure anchor. The rerendered proof received a clean
+   visual pass and a strict score of 100/100.
+2. Replaced `12-life-after-death`’s false `TREE BALANCE` symmetry axis with
+   separate `LARGE TREE` and `SMALL TREE` ellipses. They describe the actual
+   unequal counterbalance stated in the chapter without asserting bilateral
+   mirroring. The rerendered proof received a clean visual pass and a strict
+   score of 100/100.
+
+Re-verified every required fix from all prior rounds in the complete
+`git log -p` history: the 2026-07-24 edge-density correction remains accurate;
+the `PAINT CAN` ellipse, removal of `BRAIDED V`, and corrected `BERRY RHYTHM`
+path still visibly match their named features; and the previously corrected
+anchors remain in place. All twelve current overlays score 100/100 under the
+strict scorer. `bash scripts/check.sh` and pipeline validation then passed.
