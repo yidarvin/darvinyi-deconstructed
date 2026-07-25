@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-head-9-2000.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.611, "y": 0.518, "r": 0.055, "label": "face" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.42, "rx": 0.18, "ry": 0.19, "label": "head and glasses" },
+    { "type": "polyline", "points": [[0.37, 0.69], [0.56, 0.78], [0.78, 0.71]], "label": "shoulder line" }
+  ],
+  "notes": "A frontal face is extracted from a deep, unfocused city darkness."
+}

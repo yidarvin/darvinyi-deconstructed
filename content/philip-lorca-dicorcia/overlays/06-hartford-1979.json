@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-hartford-1979.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.769, "y": 0.425, "r": 0.045, "label": "man at window" },
+    { "type": "frame_in_frame", "x": 0.64, "y": 0.23, "w": 0.30, "h": 0.51, "label": "lit window" },
+    { "type": "polyline", "points": [[0.07, 0.52], [0.26, 0.35], [0.43, 0.42]], "label": "roofline" }
+  ],
+  "notes": "A warm window interrupts a large dark field and puts an ordinary house under stage light."
+}

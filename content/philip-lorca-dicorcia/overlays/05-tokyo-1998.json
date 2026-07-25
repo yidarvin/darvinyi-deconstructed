@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-tokyo-1998.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.751, "angle": 0.0, "label": "street crossing" },
+    { "type": "frame_in_frame", "x": 0.40, "y": 0.0, "w": 0.20, "h": 0.39, "label": "billboard field" },
+    { "type": "polyline", "points": [[0.15, 0.83], [0.44, 0.67], [0.75, 0.72]], "label": "pedestrian current" }
+  ],
+  "notes": "Signage and crossing space make the crowd read as a staggered, cinematic flow."
+}

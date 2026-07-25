@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-hartford-1978.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.56, "y": 0.0, "w": 0.17, "h": 0.9, "label": "open pantry" },
+    { "type": "ellipse", "cx": 0.68, "cy": 0.79, "rx": 0.07, "ry": 0.07, "label": "cat" },
+    { "type": "horizon_line", "y": 0.906, "angle": 0.0, "label": "floor threshold" }
+  ],
+  "notes": "A narrow opening and a low white animal activate an otherwise still blue room."
+}

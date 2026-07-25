@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-naples-1995.jpg",
+    "width": 1600,
+    "height": 1014,
+    "sha1": "43a71ed4",
+    "source": "01-naples-1995.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-hartford-1978.jpg",
+    "width": 1600,
+    "height": 1020,
+    "sha1": "3fe786d3",
+    "source": "02-hartford-1978.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-salonika-1980.jpg",
+    "width": 1600,
+    "height": 1027,
+    "sha1": "243c2c01",
+    "source": "03-salonika-1980.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-new-haven-1978.jpg",
+    "width": 1600,
+    "height": 1187,
+    "sha1": "d383eeb9",
+    "source": "04-new-haven-1978.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-tokyo-1998.jpg",
+    "width": 850,
+    "height": 567,
+    "sha1": "fb895870",
+    "source": "05-tokyo-1998.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-hartford-1979.jpg",
+    "width": 850,
+    "height": 551,
+    "sha1": "39c81fb2",
+    "source": "06-hartford-1979.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-head-9-2000.jpg",
+    "width": 850,
+    "height": 679,
+    "sha1": "b529122c",
+    "source": "07-head-9-2000.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-hannah-2004.jpg",
+    "width": 1023,
+    "height": 1539,
+    "sha1": "386f3be9",
+    "source": "08-hannah-2004.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-havana-1999.jpg",
+    "width": 843,
+    "height": 570,
+    "sha1": "3f0df7e2",
+    "source": "09-havana-1999.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-ike-cole-hustlers-1990-92.jpg",
+    "width": 843,
+    "height": 566,
+    "sha1": "540785a2",
+    "source": "10-ike-cole-hustlers-1990-92.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-new-haven-1978.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.819, "y": 0.542, "r": 0.045, "label": "face" },
+    { "type": "frame_in_frame", "x": 0.23, "y": 0.30, "w": 0.77, "h": 0.56, "label": "bathtub" },
+    { "type": "polyline", "points": [[0.30, 0.46], [0.60, 0.47], [0.90, 0.46]], "label": "tub rim" }
+  ],
+  "notes": "The tub holds the body on a diagonal while the face resists the room's pale enclosure."
+}
