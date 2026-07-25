@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-crowd-3-pelican-beach-2013.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.369, "y": 0.616, "r": 0.035, "label": "LIME TOWEL ACCENT" },
+    { "type": "polyline", "points": [[0.260, 0.655], [0.385, 0.585], [0.525, 0.610]], "label": "LIME TOWEL BAND" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.285, "rx": 0.090, "ry": 0.140, "label": "STANDING COUPLE" }
+  ],
+  "notes": "Small clusters, towels, and bright costume accents make the beach a deliberately distributed field."
+}

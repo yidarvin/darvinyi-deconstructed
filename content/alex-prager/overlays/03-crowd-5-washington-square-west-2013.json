@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-crowd-5-washington-square-west-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.255, "y": 0.160, "w": 0.505, "h": 0.705, "label": "OPEN WINDOW" },
+    { "type": "subject_anchor", "x": 0.626, "y": 0.552, "r": 0.035, "label": "CROWD CENTER" },
+    { "type": "polyline", "points": [[0.260, 0.160], [0.500, 0.080], [0.760, 0.160]], "label": "SLOPING WINDOW TOP" }
+  ],
+  "notes": "A dark wall and a slightly tilted window turn the gathering into a framed interior stage."
+}

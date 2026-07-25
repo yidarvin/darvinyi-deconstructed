@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-crowd-6-hazelwood-2013.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.555, "y": 0.276, "r": 0.035, "label": "RED-HAIRED FIGURE" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.285, "rx": 0.065, "ry": 0.095, "label": "BRIGHT DRESS" },
+    { "type": "polyline", "points": [[0.080, 0.565], [0.495, 0.550], [0.880, 0.540]], "label": "MISTED CROWD BAND" }
+  ],
+  "notes": "A bright central costume holds its ground inside a smoky, laterally compressed crowd."
+}

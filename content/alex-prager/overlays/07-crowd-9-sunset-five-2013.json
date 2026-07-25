@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-crowd-9-sunset-five-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "CENTRAL AISLE" },
+    { "type": "subject_anchor", "x": 0.543, "y": 0.143, "r": 0.035, "label": "UPPER SEAT FIGURE" },
+    { "type": "polyline", "points": [[0.400, 0.180], [0.500, 0.355], [0.600, 0.180]], "label": "SEAT-TIER WEDGE" }
+  ],
+  "notes": "Tiered seating makes spectators read in rows while the red blouse interrupts the cool, repeated seats."
+}

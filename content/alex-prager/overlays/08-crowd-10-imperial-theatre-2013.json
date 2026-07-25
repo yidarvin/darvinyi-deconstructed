@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-crowd-10-imperial-theatre-2013.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.725, "y": 0.438, "r": 0.035, "label": "RIGHT-HAND FIGURE" },
+    { "type": "ellipse", "cx": 0.405, "cy": 0.430, "rx": 0.055, "ry": 0.100, "label": "STILL FIGURE" },
+    { "type": "polyline", "points": [[0.190, 0.140], [0.490, 0.300], [0.815, 0.450]], "label": "RED-CARPET CROWD SWEEP" }
+  ],
+  "notes": "A turquoise figure becomes a calm focal point inside a red-carpet field of overlapping evening dress."
+}
