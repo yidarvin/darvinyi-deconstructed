@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-woman-and-daughter-with-makeup.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.287, "angle": 0.0, "label": "LAMP RIM" },
+    { "type": "vanishing_point", "x": 0.897, "y": 0.995, "label": "RIGHT TABLE EDGE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.400, "label": "LAMP / LARGE MIRROR AXIS" },
+    { "type": "ellipse", "cx": 0.449, "cy": 0.643, "rx": 0.110, "ry": 0.125, "label": "LARGE MIRROR" }
+  ],
+  "notes": "Two mirrors and parallel makeup gestures make the adult and child comparable without claiming that they share a gaze."
+}

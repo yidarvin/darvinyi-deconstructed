@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-man-and-mirror.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.843, "angle": 7.0, "label": "TABLE EDGE" },
+    { "type": "vanishing_point", "x": 0.457, "y": 0.614, "label": "TABLE-PLANE CONVERGENCE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.538, "label": "LAMP / MIRROR AXIS" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.680, "rx": 0.105, "ry": 0.122, "label": "MIRROR SCREEN" }
+  ],
+  "notes": "The lamp, mirror, and table plane hold a direct seated figure within a deliberately centered domestic stage."
+}

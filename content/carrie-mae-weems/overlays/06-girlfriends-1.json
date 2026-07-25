@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "06-girlfriends-1.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.398, "y": 0.651, "label": "TABLE-PLANE CONVERGENCE" },
+    { "type": "horizon_line", "y": 0.843, "angle": 0.0, "label": "FRONT TABLE EDGE" },
+    { "type": "leading_line", "points": [[0.092, 0.971], [0.552, 0.557]], "arrow": true, "label": "LEFT TABLE EDGE" },
+    { "type": "subject_anchor", "x": 0.391, "y": 0.609, "r": 0.035, "label": "CENTRAL FIGURE" },
+    { "type": "polyline", "points": [[0.358, 0.660], [0.435, 0.625], [0.563, 0.731]], "label": "CHAIN OF TOUCH" }
+  ],
+  "notes": "Three bodies form a compact social triangle whose contact is organized by the lamp and the receding table."
+}

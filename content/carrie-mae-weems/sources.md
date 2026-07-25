@@ -7,13 +7,13 @@ This set follows the narrative sequence of Weems’s *Kitchen Table Series* (199
 ## Shortlist
 
 ### 01 — *Untitled (Man and Mirror)*, from *Kitchen Table Series* (1990)
-- **Why it matters:** The mirror doubles the man’s profile and turns the tabletop into a hinge between the woman’s frontal address, his turned body, and a second, delayed gaze.
+- **Why it matters:** The foreground mirror interrupts the woman’s frontal address and turns the tabletop into a hinge between her face, his turned body, and the domestic props.
 - **Source:** https://www.carriemaeweems.net/kitchentable (Carrie Mae Weems official portfolio; public display derivative: https://images.squarespace-cdn.com/content/v1/6411e2c97d34b32c7a81a941/c4c6ef09-113d-4c9a-a0fe-afbf439a6d77/01_e.+Untitled+%28Man+and+Mirror%29.JPG?format=1500w)
 - **Rights / fair-use assessment:** Carrie Mae Weems; © Carrie Mae Weems. **Factor 1:** transformative criticism studies the mirror’s double gaze and the table’s dividing line. **Factor 2:** a highly creative staged photograph. **Factor 3:** the complete square frame is needed to retain both reflected and direct figures, lamp, and table. **Factor 4:** this credited, official 1500px display derivative is linked to the artist’s page and does not replace a print or licensed reproduction.
 - **File:** `raw/carrie-mae-weems/01-man-and-mirror.jpg` (1500 × 1500px)
 
 ### 02 — *Untitled (Man Smoking)*, from *Kitchen Table Series* (1990)
-- **Why it matters:** Across cards, bottle, and peanuts, the two figures occupy a compressed diagonal exchange whose power rests on the protagonist’s direct look.
+- **Why it matters:** Across cards, bottle, and peanuts, the two figures occupy a compressed diagonal exchange whose power rests on their opposed, unequal orientations.
 - **Source:** https://www.carriemaeweems.net/kitchentable (Carrie Mae Weems official portfolio; public display derivative: https://images.squarespace-cdn.com/content/v1/6411e2c97d34b32c7a81a941/757306f5-e688-47ec-ad49-7eeff1e393c7/02e.+Untitled+%28Man+Smoking%29.JPG?format=1500w)
 - **Rights / fair-use assessment:** Carrie Mae Weems; © Carrie Mae Weems. **Factor 1:** transformative teaching analyzes the card-table geometry, gaze, and unequal body orientation. **Factor 2:** a creative staged photograph. **Factor 3:** the full frame is necessary to connect both figures with the lamp, cards, and background poster. **Factor 4:** the credited 1500px portfolio derivative is record-linked, web-sized, and cannot substitute for the original or a licensed image.
 - **File:** `raw/carrie-mae-weems/02-man-smoking.jpg` (1500 × 1500px)
@@ -80,4 +80,4 @@ This set follows the narrative sequence of Weems’s *Kitchen Table Series* (199
 
 ## Research context
 
-MoMA identifies *Kitchen Table Series* as twenty gelatin silver prints and fourteen text panels. It describes the recurring domestic interior—anchored by the wooden table and overhead light—and identifies *Untitled (Man Smoking)* and *Untitled (Woman and Daughter with Makeup)* as key scenes: https://www.moma.org/artists/7177-carrie-mae-weems. The Cleveland Museum of Art’s records for *Man Smoking*, *Eating Lobster*, *Man Reading Newspaper*, and *Woman Feeding Bird* corroborate the 1990 date, series title, and the artist credit: https://www.clevelandart.org/art/2008.116.2 and https://www.clevelandart.org/art/2008.116.17. The source selection preserves a teachable progression from couple scenes to friendship, mothering, and solitude without mixing undocumented third-party reproductions into the asset set.
+MoMA identifies *Kitchen Table Series* as twenty gelatin silver prints and fourteen text panels. It describes the recurring domestic interior—anchored by the wooden table and overhead light—and identifies *Untitled (Man Smoking)* and *Untitled (Woman and Daughter with Makeup)* as key scenes: https://www.moma.org/artists/7177-carrie-mae-weems. The Cleveland Museum of Art’s record for *Man Smoking* corroborates the 1990 date, series title, and artist credit: https://www.clevelandart.org/art/2008.116.2. The source selection preserves a teachable progression from couple scenes to friendship, mothering, and solitude without mixing undocumented third-party reproductions into the asset set.
