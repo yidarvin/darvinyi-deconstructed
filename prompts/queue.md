@@ -151,7 +151,7 @@ real queue and state live in data/registry.json.
 | 140 | rineke-dijkstra           | Rineke Dijkstra              | DONE    |
 | 141 | wolfgang-tillmans         | Wolfgang Tillmans            | DONE    |
 | 142 | philip-lorca-dicorcia     | Philip-Lorca diCorcia        | DONE    |
-| 143 | thomas-struth             | Thomas Struth                | PENDING |
+| 143 | thomas-struth             | Thomas Struth                | DONE    |
 | 144 | candida-hofer             | Candida Höfer                | PENDING |
 | 145 | boris-mikhailov           | Boris Mikhailov              | PENDING |
 | 146 | yasumasa-morimura         | Yasumasa Morimura            | PENDING |

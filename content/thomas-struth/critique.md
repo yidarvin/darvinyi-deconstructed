@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -55,3 +55,34 @@ the one visibly traceable foreground cable. The refreshed proof passes strict
 scoring at 100 with no deductions or warnings. `scripts/check.sh` passed before
 this resolution was recorded, and the rendered chapter copy remains byte-identical
 to `content/thomas-struth/chapter.mdx`.
+
+## Critique round — 2026-07-25
+
+Re-reviewed all eleven current proof PNGs against their overlay specifications,
+analysis JSON, chapter, research note, manifest, and sources. The two required
+findings from the prior round remain resolved: **04-pantheon-rome** now makes
+only the accurate visitor-group claim, and **06-semi-submersible-rig** retains
+only the visibly traceable foreground mooring line. Each current overlay scores
+100 with no deductions or warnings. Chapter measurements agree with the current
+analyzer values within the stated tolerance; the chapter does not present the
+derivative JPEG metadata as historical camera data. Every direct official
+artist-site image endpoint is traceable and reachable, and each fair-use entry
+contains an image-specific four-factor rationale.
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **05-paradise-02-daintree:** `CROSS LIMB A` and `CROSS LIMB B` labels still
+  collide at the top edge, although both routes remain readable.
+- **08-brillenbaer-leibniz-izw:** `BODY ARC` remains an intentionally broad
+  direction cue rather than a close silhouette trace; a closer contour could
+  read more cleanly.
+- **09-schlichter-weg:** the two genuine fallen-limb primitives make a coherent
+  argument, but sit below the usual 3–5 primitive teaching range.
+- **10-x-ray-telescope-cast:** `OVERHEAD CABLE` becomes a generalized route
+  across apparatus toward its lower-right endpoint; shortening or segmenting it
+  would make the cue more precise. This is unchanged from the prior
+  non-blocking finding and has not materially regressed.
