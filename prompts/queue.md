@@ -143,5 +143,5 @@ real queue and state live in data/registry.json.
 | 132 | miss-aniela               | Miss Aniela (Natalie Dybisz) | DONE    |
 | 133 | aydin-buyuktas            | Aydın Büyüktaş               | DONE    |
 | 134 | julia-fullerton-batten    | Julia Fullerton-Batten       | DONE    |
-| 135 | tom-chambers              | Tom Chambers                 | PENDING |
+| 135 | tom-chambers              | Tom Chambers                 | DONE    |
 | 136 | alex-prager               | Alex Prager                  | PENDING |
