@@ -3,9 +3,14 @@
   "image": "06-galata-bridge.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.149, "angle": 0, "label": "waterfront break" },
-    { "type": "vanishing_point", "x": 0.370, "y": 0.677, "label": "bridge convergence" },
-    { "type": "leading_line", "points": [[0.025, 0.950], [0.110, 0.597]], "arrow": true, "label": "bridge-side edge" }
+    { "type": "horizon_line", "y": 0.149, "angle": 0, "label": "shoreline transition" },
+    { "type": "vanishing_point", "x": 0.370, "y": 0.677, "label": "street-and-water convergence" },
+    {
+      "type": "leading_line",
+      "points": [[0.487, 0.500], [0.487, 0.086]],
+      "arrow": true,
+      "label": "bridge deck"
+    }
   ],
-  "notes": "The bridge provides a hard lateral route through water, shore, and the lifted city."
+  "notes": "The bridge deck cuts vertically through the water and fixes the frame's two shorelines."
 }

@@ -3,9 +3,9 @@
   "image": "11-yeni-cami.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.415, "angle": 0, "label": "waterfront fold" },
+    { "type": "horizon_line", "y": 0.415, "angle": 0, "label": "mosque-to-plaza transition" },
     { "type": "vanishing_point", "x": 0.386, "y": 0.300, "label": "mosque-district convergence" },
-    { "type": "leading_line", "points": [[0.380, 0.283], [0.815, 0.750]], "arrow": true, "label": "waterfront route" }
+    { "type": "ellipse", "cx": 0.496, "cy": 0.203, "rx": 0.133, "ry": 0.170, "label": "central dome" }
   ],
-  "notes": "The mosque remains a recognizable focal point while surrounding waterfront routes are made to bend."
+  "notes": "The central dome and plaza keep the mosque legible while the district shifts between aerial and frontal views."
 }

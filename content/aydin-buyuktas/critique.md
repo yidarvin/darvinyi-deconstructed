@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -13,3 +13,18 @@ verdict: revise
 ### Advisory (non-blocking)
 
 - The `ramp crest` anchor in **05-kaykaypist** sits on the top image boundary. It remains a plausible local feature, but moving it slightly into the visible crest would make the teaching cue easier to read.
+
+## Resolution — 2026-07-24
+
+Resolved all required items from the 2026-07-24 critique round. `06-galata-bridge`
+now marks the central bridge deck and names the measured upper shoreline transition;
+`09-basibuyuk` traces the visible cross-town carriageway rather than the green
+infield; and `11-yeni-cami` removes the unsupported waterfront route in favor of
+the visible central dome and mosque-to-plaza transition. The corresponding plate
+captions and prose now make the same claims as their overlays. Each refreshed proof
+received a clean visual pass and scores 100/100 against the deterministic analyzer.
+
+Re-verified the full critique history: the only prior/current critique round is
+**2026-07-24**, and all three of its required corrections hold in the current
+overlays, proofs, and byte-identical chapter copies. The advisory `05-kaykaypist`
+item was left unchanged because it is non-blocking.

@@ -4,8 +4,13 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.165, "angle": 0, "label": "hillside break" },
-    { "type": "vanishing_point", "x": 0.467, "y": 0.650, "label": "road convergence" },
-    { "type": "leading_line", "points": [[0.385, 0.620], [0.889, 0.896]], "arrow": true, "label": "diagonal road" }
+    { "type": "vanishing_point", "x": 0.467, "y": 0.650, "label": "interchange convergence" },
+    {
+      "type": "leading_line",
+      "points": [[0.000, 0.585], [1.000, 0.585]],
+      "arrow": true,
+      "label": "cross-town carriageway"
+    }
   ],
-  "notes": "A road resists the upright lift by maintaining a broad diagonal route across the frame."
+  "notes": "The broad cross-town carriageway keeps the aerial interchange readable as a connected route."
 }
