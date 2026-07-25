@@ -1,81 +1,81 @@
 [
   {
     "file": "01-white-witch-awakening.jpg",
-    "width": 1599,
+    "width": 1600,
     "height": 1067,
-    "sha1": "229badce",
+    "sha1": "f80f13be",
     "source": "01-white-witch-awakening.jpg",
     "exif": {}
   },
   {
     "file": "02-swan-lake.jpg",
-    "width": 1199,
-    "height": 1212,
-    "sha1": "3a001c02",
+    "width": 1000,
+    "height": 1011,
+    "sha1": "9fd49165",
     "source": "02-swan-lake.jpg",
     "exif": {}
   },
   {
     "file": "03-pokerface.jpg",
-    "width": 1284,
-    "height": 1399,
-    "sha1": "50070df0",
+    "width": 1468,
+    "height": 1600,
+    "sha1": "7c8d4dfe",
     "source": "03-pokerface.jpg",
     "exif": {}
   },
   {
     "file": "04-away-with-the-canaries.jpg",
-    "width": 1599,
-    "height": 1342,
-    "sha1": "3e230df1",
+    "width": 1600,
+    "height": 1343,
+    "sha1": "6da119bc",
     "source": "04-away-with-the-canaries.jpg",
     "exif": {}
   },
   {
     "file": "05-storm-door.jpg",
-    "width": 999,
-    "height": 1059,
-    "sha1": "34b4e261",
+    "width": 1508,
+    "height": 1600,
+    "sha1": "e5858b82",
     "source": "05-storm-door.jpg",
     "exif": {}
   },
   {
     "file": "06-poster-and-plumage.jpg",
-    "width": 1299,
-    "height": 1107,
-    "sha1": "de739714",
+    "width": 1600,
+    "height": 1363,
+    "sha1": "6be1d973",
     "source": "06-poster-and-plumage.jpg",
     "exif": {}
   },
   {
     "file": "07-kai-face.jpg",
-    "width": 1279,
+    "width": 1280,
     "height": 1600,
-    "sha1": "8ff09e37",
+    "sha1": "9f681e75",
     "source": "07-kai-face.jpg",
     "exif": {}
   },
   {
     "file": "08-girl-of-prey.jpg",
-    "width": 999,
-    "height": 930,
-    "sha1": "55ca7aa7",
+    "width": 1600,
+    "height": 1489,
+    "sha1": "8a90a4e3",
     "source": "08-girl-of-prey.jpg",
     "exif": {}
   },
   {
     "file": "09-migration-season.jpg",
-    "width": 1599,
-    "height": 1599,
-    "sha1": "30432d58",
+    "width": 770,
+    "height": 770,
+    "sha1": "b674552e",
     "source": "09-migration-season.jpg",
     "exif": {}
   },
   {
     "file": "10-ignite-mares.jpg",
-    "width": 1199,
-    "height": 1501,
-    "sha1": "ebf5d66b",
+    "width": 600,
+    "height": 748,
+    "sha1": "3aa877af",
     "source": "10-ignite-mares.jpg",
     "exif": {}
   }

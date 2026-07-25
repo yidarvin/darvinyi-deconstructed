@@ -1,9 +1,9 @@
 {
   "version": 1,
   "image": "01-white-witch-awakening.jpg",
-  "grid": { "type": "thirds" },
+  "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.713, "y": 0.673, "label": "room recession" },
+    { "type": "vanishing_point", "x": 0.617, "y": 0.602, "label": "room recession" },
     { "type": "frame_in_frame", "x": 0.03, "y": 0.07, "w": 0.48, "h": 0.64, "label": "arched-window rhythm" },
     { "type": "polyline", "points": [[0.46, 0.52], [0.56, 0.48], [0.69, 0.61]], "label": "figure to zebra exchange" }
   ],

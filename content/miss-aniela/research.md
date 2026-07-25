@@ -2,7 +2,7 @@
 
 ## Scope and evidence
 
-This chapter considers ten artist-site display JPEGs made between 2011 and 2016, documented individually in [sources.md](sources.md). The source record identifies Natalie Dybisz as Miss Aniela and places the selection across the *Surreal Fashion* gallery: an Aynhoe Park commission for Nikon's D810 campaign, a Seattle ballroom, Belvoir Castle, the Hamptons, a French château, London, and a Mayfair installation. It also records the artist's captions for specific works, including *Storm Door*'s portal and ships, *Migration Season*'s 2012 *Vogue Italia* publication, and *Ignite Mares*'s reference to George Stubbs paintings.
+This chapter considers ten public commercial-display JPEGs made between 2011 and 2016, documented individually in [sources.md](sources.md). The source record identifies Natalie Dybisz as Miss Aniela and records the permitted replacement routes used for each file. It does not rely on the retired direct-download route from the artist's Surreal Fashion gallery.
 
 ## Visual method and era
 

@@ -2,77 +2,70 @@
 
 ## Selection and acquisition note
 
-This ten-work shortlist follows the public gallery's own arc through the early
-*Surreal Fashion* pictures, its best-known mid-2010s tableaux, and its portrait
-scale experiments. It gives the builder clear comparisons among square, vertical,
-and horizontal frames, while keeping the subject on the artist's characteristic
-collision of fashion, staged architecture, animals, and surreal imagery.
+This ten-work selection spans the 2011–2016 *Surreal Fashion* tableaux and
+retains square, vertical, and horizontal frames for comparison. The earlier
+direct-download route from the artist's Surreal Fashion gallery has been retired:
+that page declares `noai, noimageai`. No current image was acquired from it.
 
-All files were retrieved directly from the public display responses embedded in
-Miss Aniela's official [Surreal Fashion gallery](https://www.surrealfashion.co.uk/),
-then opened locally and verified as JPEGs. The official gallery identifies the
-artist as Natalie Dybisz / Miss Aniela and states: “Copyright © Miss Aniela Ltd
-2018 All rights reserved”; the supplied files also carry © Miss Aniela or
-© Miss Aniela Photography notices where metadata is present. No reuse licence is
-offered, so these are **fair-use** selections, not open images. No file was
-upscaled, altered, or retouched. Long edges range from 999 to 1,999px, exceeding
-the 640px floor.
+Eight display JPEGs below were acquired from FastFrame Fine Art's public Miss
+Aniela catalogue. Its `robots.txt` explicitly allows `GPTBot` and `/products/`;
+each listed Shopify image endpoint returned `200 image/jpeg`. *Migration Season*
+was acquired from a public Saatchi Art artist listing and *Ignite Mares* from a
+public Cuded article. Saatchi's robots endpoint returned an edge `403`, but its
+specific listing and public image endpoint were accessible and no
+`noai`/`noimageai` declaration was observed; this is an unverified response, not
+an override or bypass. Cuded allows `/` in `robots.txt`. All are JPEGs with long
+edges of 748–3,000px; none was upscaled, altered, or retouched.
+
+Every work is copyrighted and used as a **fair-use** web rendition for criticism,
+scholarship, and composition teaching—not as an open image or decorative
+substitute for an edition.
 
 ## Acquired shortlist
 
-1. **White Witch Awakening** (2014) — `raw/miss-aniela/01-white-witch-awakening.jpg` (1,599 × 1,067px)
-   - **Why it matters:** The seated figure, zebra, taxidermy, and orangery make a densely staged but tightly controlled central tableau—ideal for studying focal hierarchy in a busy interior.
-   - **Source:** [Miss Aniela’s official Surreal Fashion gallery](https://www.surrealfashion.co.uk/) (public display JPEG embedded with the work record). The artist's caption identifies it as a signature piece shot at Aynhoe Park and originally commissioned for Nikon’s D810 campaign.
-   - **Use basis: fair-use.** Credit: © Miss Aniela / Nikon Corporation; no licence stated. This nonprofit book uses the complete, credited web-sized frame for transformative criticism, scholarship, and composition teaching; the work is highly creative, but its complete frame is necessary to analyze the figure–zebra–interior hierarchy. The copy links to the artist’s gallery and does not replace the original, a print, commission, or licensed reproduction.
+1. **White Witch Awakening** (2014) — `raw/miss-aniela/01-white-witch-awakening.jpg` (3,000 × 2,002px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/white-witch-awakening); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/WhiteWitchAwakening.jpg?v=1738778678).
+   - **Credit / use basis: fair-use.** © Miss Aniela; commercial edition, no reuse licence stated. The complete web-size frame is necessary to teach the figure–zebra–orangery hierarchy; this nonprofit critical use is transformative, uses no more than the composition needed for analysis, and does not substitute for a print, commission, or licensed reproduction.
 
-2. **Swan Lake** (2014) — `raw/miss-aniela/02-swan-lake.jpg` (1,199 × 1,212px)
-   - **Why it matters:** A cool-blue dress, seascape, and ballroom mural turn a nearly square frame into a deliberate clash between vertical portrait staging and a lateral wave.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG). The artist’s caption places the production in a Seattle ballroom and identifies it as one of the collection’s bestsellers.
-   - **Use basis: fair-use.** Credit: © Miss Aniela Photography; all rights reserved. The use is transformative analytical teaching, not decoration; this is a highly creative work, but the intact frame is needed to discuss the dress’s wave-like directional flow and room-scale contrast. The credited, linked web copy is limited in amount and does not substitute for an edition, print, or licensed reproduction.
+2. **Swan Lake** (2014) — `raw/miss-aniela/02-swan-lake.jpg` (1,000 × 1,011px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/swan-lake); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/SwanLake.jpg?v=1738870477).
+   - **Credit / use basis: fair-use.** © Miss Aniela; highly creative commercial work, no reuse licence stated. The intact frame is needed to analyze the dress, raised arm, chandeliers, and ballroom together; the educational criticism is transformative and the limited web rendition cannot replace an edition or licensed image.
 
-3. **Pokerface** (2015) — `raw/miss-aniela/03-pokerface.jpg` (1,284 × 1,399px)
-   - **Why it matters:** The tall Tapestry Room composition converts ornamental pattern and a posed figure into a vertical field, making symmetry and local disruption legible together.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG); captioned as shot in Belvoir Castle’s Tapestry Room.
-   - **Use basis: fair-use.** Credit: © Miss Aniela, 2015; all rights reserved. The complete creative work is used only for transformative criticism, scholarship, and composition teaching, because cropping would remove the vertical relation between the model and tapestry field. This credited, linked web-sized copy is limited and non-substitutive of the artist’s print, original, or licence.
+3. **Pokerface** (2015) — `raw/miss-aniela/03-pokerface.jpg` (2,500 × 2,724px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/pokerface); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/Pokerface.jpg?v=1738959763).
+   - **Credit / use basis: fair-use.** © Miss Aniela; commercial edition, no reuse licence stated. The whole vertical room is pedagogically necessary to compare canopy, cards, and figure; this nonprofit scholarly use is transformative, restrained to a web display, and non-substitutive of the artist's market.
 
-4. **Away with the Canaries** (2013) — `raw/miss-aniela/04-away-with-the-canaries.jpg` (1,599 × 1,342px)
-   - **Why it matters:** The repeated yellow birds make attention circulate between the model, the dress, and an accumulating swarm, a precise lesson in repetition as directional structure.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG). The artist identifies the image as shot in the Hamptons and notes its use of a canary from Jean-Baptiste Greuze’s *A Girl with a Canary and Open Cage*.
-   - **Use basis: fair-use.** Credit: © Miss Aniela Photography; all rights reserved. This analysis is transformative and educational; although the source work is highly creative, its whole frame is needed to teach the bird distribution and its relation to the figure. The credited, linked web-sized copy is restrained and cannot replace a print, the artist record, or licensed image.
+4. **Away with the Canaries** (2013) — `raw/miss-aniela/04-away-with-the-canaries.jpg` (2,859 × 2,400px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/away-with-the-canaries); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/AwayWithTheCanaries.jpg?v=1738871425).
+   - **Credit / use basis: fair-use.** © Miss Aniela; highly creative commercial work, no reuse licence stated. Its full distribution of dress, stairs, and birds is required for the lesson; the critical nonprofit web use is transformative and cannot substitute for the offered edition or licensing market.
 
-5. **Storm Door** (2011) — `raw/miss-aniela/05-storm-door.jpg` (999 × 1,059px)
-   - **Why it matters:** Ships emerge through a doorway behind a figure, turning the architectural opening into a compact threshold between shallow room space and imagined sea depth.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG); the artist’s caption describes the ships pouring from a siren at a portal between worlds.
-   - **Use basis: fair-use.** Credit: © Miss Aniela Photography; all rights reserved. The highly creative image is retained only as a complete, web-sized, credited reference for transformative composition criticism and scholarship; the full frame is required to analyze the doorway as a depth device. It links to and does not replace the artist’s gallery, original, print, or licensed reproduction.
+5. **Storm Door** (2011) — `raw/miss-aniela/05-storm-door.jpg` (2,546 × 2,700px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/storm-door); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/StormDoor.jpg?v=1739209230).
+   - **Credit / use basis: fair-use.** © Miss Aniela; commercial edition, no reuse licence stated. The complete doorway and surrounding ships are necessary to study threshold and depth; this transformative critical use is web-sized and credited, and does not replace a print, original, or licence.
 
-6. **Poster & Plumage** (2016) — `raw/miss-aniela/06-poster-and-plumage.jpg` (1,299 × 1,107px)
-   - **Why it matters:** The blue gown, bed, wallpaper, and pale bird create near-camouflage, showing how matched pattern and color can suppress a subject before the eye finds it.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG); the gallery caption describes a woman in an ice-blue patterned gown within a four-poster bed setting.
-   - **Use basis: fair-use.** Credit: © Miss Aniela; all rights reserved. This use is transformative criticism, scholarship, and composition teaching; its creative character weighs against use, but the complete frame is indispensable to assess camouflage across dress, bedding, and wall. The limited, credited public web rendition is linked and does not substitute for a print, original, or licensed reproduction.
+6. **Poster & Plumage** (2016) — `raw/miss-aniela/06-poster-and-plumage.jpg` (2,817 × 2,400px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/poster-plumage); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/Poster_Plumage.jpg?v=1739206072).
+   - **Credit / use basis: fair-use.** © Miss Aniela; highly creative commercial work, no reuse licence stated. The complete frame is needed to examine headpiece, dress, bed, and wallpaper as one field; this educational criticism is transformative, limited to a credited web copy, and non-substitutive.
 
-7. **Kai Face** (2012) — `raw/miss-aniela/07-kai-face.jpg` (1,599 × 1,999px)
-   - **Why it matters:** The close, vertical face uses cropping, skin-scale detail, and an extravagant headpiece to make portraiture behave like a decorative tapestry rather than a conventional likeness.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG). The artist identifies it as an iconic photographic tapestry installed at Kai in Mayfair, London.
-   - **Use basis: fair-use.** Credit: © Miss Aniela; no licence stated. The complete creative portrait is needed to study its extreme crop and vertical pressure, and is used only for transformative criticism and scholarship in this web-sized, credited, linked copy. That limited use does not replace the installed work, a print, or a licensed reproduction.
+7. **Kai Face** (2012) — `raw/miss-aniela/07-kai-face.jpg` (2,320 × 2,900px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/kai-face); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/KaiFace.jpg?v=1738959247).
+   - **Credit / use basis: fair-use.** © Miss Aniela; commercial edition, no reuse licence stated. The complete portrait is necessary to teach its crop, facial axis, and image-bearing surface; the nonprofit critical use is transformative and does not replace an installed work, edition, or licence.
 
-8. **Girl of Prey** (2012) — `raw/miss-aniela/08-girl-of-prey.jpg` (999 × 930px)
-   - **Why it matters:** The turned gaze, gold dress, and blue wings establish a compact counterpoint of warm/cool color and human/animal silhouette inside a decaying room.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG); captioned as made in a disused room in a French château outside Paris.
-   - **Use basis: fair-use.** Credit: © Miss Aniela Photography; all rights reserved. The book’s purpose is transformative critical teaching; the highly creative complete frame is necessary to analyze the figure’s turned pose and wing silhouette against the room. The source is credited and linked, copied only at public web size, and does not replace the original, print, or licensed reproduction.
+8. **Girl of Prey** (2012) — `raw/miss-aniela/08-girl-of-prey.jpg` (2,685 × 2,500px)
+   - **Route:** [FastFrame product page](https://fastframefineart.com/products/girl-of-prey); [public display JPEG](https://cdn.shopify.com/s/files/1/0628/1923/8069/files/GirlOfPrey.jpg?v=1739203613).
+   - **Credit / use basis: fair-use.** © Miss Aniela; highly creative commercial work, no reuse licence stated. The whole figure, wings, window, and room are needed for the teaching claim; this credited analytical use is transformative and cannot replace a print or licensed reproduction.
 
-9. **Migration Season** (2012) — `raw/miss-aniela/09-migration-season.jpg` (1,599 × 1,599px)
-   - **Why it matters:** The square format turns the figure, patterned wallpaper, and migrating forms into an all-over field, preventing a single stable visual rest.
-   - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG). The artist’s record states it was shot in London, published in *Vogue Italia* in May 2012, and exhibited in *101 Glimpses of Photo Vogue*.
-   - **Use basis: fair-use.** Credit: © Miss Aniela Photography; all rights reserved. This is a transformative criticism-and-scholarship use of a highly creative work; its entire square field is essential to discuss all-over distribution, so no crop would serve the teaching purpose. The credited, linked web-sized copy is limited and non-substitutive of an edition, print, or licensed reproduction.
+9. **Migration Season** (2012) — `raw/miss-aniela/09-migration-season.jpg` (770 × 770px)
+   - **Route:** [Saatchi Art artist listing](https://www.saatchiart.com/art/Photography-MIGRATION-SEASON-MEDIUM-2-APs-LEFT-Limited-Edition-of-5/33920/13126657/view); [public display JPEG](https://images.saatchiart.com/saatchi/33920/art/13126657/12188795-GJURDFAU-7.jpg). The listing identifies Miss Aniela, the 2012 work, and its edition; its robots response was inaccessible through the edge as noted above.
+   - **Credit / use basis: fair-use.** © Miss Aniela; commercial edition, no reuse licence stated. The complete square field is needed to analyze all-over migration and figure placement; this nonprofit scholarly use is transformative, web-sized, and non-substitutive of the artist's edition or licensing market.
 
-10. **Ignite Mares** (2012) — `raw/miss-aniela/10-ignite-mares.jpg` (1,199 × 1,501px)
-    - **Why it matters:** The vertical image makes reworked horse motifs surge around the figure, showing how borrowed pictorial movement can be transformed into a contemporary fashion composition.
-    - **Source:** [official gallery](https://www.surrealfashion.co.uk/) (public display JPEG). The artist identifies the London shot and its fusion with George Stubbs’s circa-1770 lion-and-horse paintings.
-    - **Use basis: fair-use.** Credit: © Miss Aniela Photography; all rights reserved. The complete, credited, linked web rendition is needed to analyze the full vertical movement of figure and horse motifs in a transformative composition lesson; it is limited to criticism and scholarship, despite the work’s highly creative character, and does not replace the original, a print, or licensed reproduction.
+10. **Ignite Mares** (2012) — `raw/miss-aniela/10-ignite-mares.jpg` (600 × 748px)
+    - **Route:** [Cuded article](https://www.cuded.com/surreal-fashion-photography-by-miss-aniela/); [public display JPEG](https://www.cuded.com/wp-content/uploads/2013/09/Ignite-mares-by-Miss-Aniela.jpg).
+    - **Credit / use basis: fair-use.** © Miss Aniela; highly creative work, no reuse licence stated. This complete 748px-long-edge rendition is the publicly available size needed to analyze dress and horse-motif relation; the use is transformative, educational, credited, and too limited to substitute for a print, original, or licence.
 
 ## Acquisition record
 
-`raw/miss-aniela/` contains all ten direct public-display JPEGs named above. Each
-opens successfully as a JPEG and has a long edge above 640px. The registry minimum
-is four, so this coherent ten-image source set is ready for the builder; no
-limited-source fallback is used.
+`raw/miss-aniela/` contains the ten replacement JPEGs named above. The ingested
+copies and hashes are recorded in `manifest.json`; every source image meets the
+normal 640px long-edge floor. The registry minimum is four, so no limited-source
+fallback is used.

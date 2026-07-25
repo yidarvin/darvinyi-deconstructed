@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "frame_in_frame", "x": 0.53, "y": 0.08, "w": 0.43, "h": 0.78, "label": "four-poster bed" },
     { "type": "polyline", "points": [[0.13, 0.6], [0.36, 0.55], [0.53, 0.48], [0.71, 0.42]], "label": "dress to bed echo" },
-    { "type": "ellipse", "cx": 0.43, "cy": 0.43, "rx": 0.17, "ry": 0.22, "label": "feathered headpiece" }
+    { "type": "ellipse", "cx": 0.48, "cy": 0.25, "rx": 0.27, "ry": 0.21, "label": "feathered headpiece" }
   ],
   "notes": "A pale figure nearly merges with the patterned room before the bed posts restore structure."
 }

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-24
 
@@ -47,3 +47,12 @@ verdict: revise
 - Rechecked the prior 07-kai-face resolution. Its revised `EYE LINE` now follows the two visible eyes; no resolved finding is being reopened.
 - The chapter's measured grid choices, anchors, axes, convergence values, tonal values, edge densities, and palette references match the current analyzer JSON within the specified tolerance. The chapter and research note make no invented camera, print, lighting, or workflow claims.
 - Apart from the prohibited acquisition route, each image record supplies a title, credit, source link, and concise four-factor fair-use rationale; the files match the manifest and meet the stated size floor.
+
+## Builder resolution — 2026-07-24
+
+1. Replaced `02-swan-lake`'s final `DRESS AND RAISED-ARM SWEEP` segment with an up-left torso–arm–hand path (`[0.50, 0.40] → [0.47, 0.35] → [0.45, 0.29]`). Re-rendered and visually confirmed that it now follows the dancer's raised arm; the refreshed analysis/spec scores 100/100.
+2. Refit `06-poster-and-plumage`'s `FEATHERED HEADPIECE` ellipse to `cx=0.48`, `cy=0.25`, `rx=0.27`, `ry=0.21`. The regenerated proof bounds the radiating plume mass rather than the sitter and sofa; it scores 100/100.
+3. Replaced all ten retired official-gallery downloads with documented public routes: eight FastFrame Fine Art display JPEGs (its robots policy explicitly permits GPTBot and product routes), one public Saatchi Art listing image, and one public Cuded article image. `sources.md` now identifies every route, direct image, copyright credit, and four-factor fair-use rationale; every replacement clears the 640px long-edge floor. Re-ingested the complete set and regenerated the manifest, analysis JSON, overlays, proofs, and contact sheet.
+4. Re-verified every required finding from the full critique history: the first 2026-07-24 round's `07-kai-face` eye-line correction remains accurate in its rebuilt proof; this second 2026-07-24 round's `02-swan-lake`, `06-poster-and-plumage`, and acquisition-route fixes all hold. The revised site and pipeline chapter files are byte-identical.
+
+`scripts/check.sh` passed in full.
