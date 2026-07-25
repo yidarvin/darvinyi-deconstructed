@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-genesis.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "organizing center axis" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.640, "rx": 0.075, "ry": 0.100, "label": "held fire" },
+    { "type": "polyline", "points": [[0.300, 0.570], [0.500, 0.350], [0.700, 0.570], [0.300, 0.570]], "label": "three-figure tableau" },
+    { "type": "leading_line", "points": [[0.060, 0.670], [0.940, 0.670]], "arrow": false, "label": "stone wall" }
+  ],
+  "notes": "A central fire and a three-figure triangle give an asymmetrical scene the gravity of an altarpiece."
+}

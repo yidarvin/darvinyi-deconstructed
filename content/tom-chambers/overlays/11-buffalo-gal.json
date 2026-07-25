@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-buffalo-gal.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.500, "cy": 0.840, "rx": 0.300, "ry": 0.140, "label": "outsized boots and legs" },
+    { "type": "polyline", "points": [[0.030, 0.565], [0.500, 0.555], [0.960, 0.565]], "label": "mesa ridge behind the herd" },
+    { "type": "ellipse", "cx": 0.320, "cy": 0.610, "rx": 0.280, "ry": 0.120, "label": "buffalo herd" }
+  ],
+  "notes": "Foreground boots make the herd small against a mesa-bound middle distance."
+}

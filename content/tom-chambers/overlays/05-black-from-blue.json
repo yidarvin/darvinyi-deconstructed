@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-black-from-blue.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.640, "cy": 0.410, "rx": 0.310, "ry": 0.300, "label": "fox's rising body" },
+    { "type": "horizon_line", "y": 0.607, "angle": 3.0, "label": "grassy ridge" },
+    { "type": "polyline", "points": [[0.405, 0.210], [0.630, 0.320], [0.890, 0.580]], "label": "fox's rising contour" }
+  ],
+  "notes": "The fox's lifted contour presses against a tilted ridge while the dark field keeps the encounter unstable."
+}

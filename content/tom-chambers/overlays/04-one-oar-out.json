@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-one-oar-out.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.584, "angle": 3.1, "label": "distant ice edge" },
+    { "type": "subject_anchor", "x": 0.570, "y": 0.585, "r": 0.035, "label": "woman in the boat" },
+    { "type": "leading_line", "points": [[0.240, 0.670], [0.740, 0.660]], "arrow": false, "label": "boat hull" },
+    { "type": "polyline", "points": [[0.600, 0.380], [0.620, 0.520], [0.620, 0.680]], "label": "upright oar" }
+  ],
+  "notes": "A small boat and its vertical oar interrupt a pale, gently tilted ice-and-water field."
+}

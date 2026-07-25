@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-hide-your-eyes.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.170, "y": 0.050, "w": 0.660, "h": 0.690, "label": "arched aperture" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "organizing center axis" },
+    { "type": "subject_anchor", "x": 0.483, "y": 0.208, "r": 0.035, "label": "girl's face" },
+    { "type": "horizon_line", "y": 0.609, "angle": 0.0, "label": "distant shoreline" }
+  ],
+  "notes": "An arched aperture gives a vertically staged portrait an icon-like center while the falcon offsets it."
+}

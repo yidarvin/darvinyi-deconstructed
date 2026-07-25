@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-caging-the-songbird.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.297, 0.170], [0.297, 0.842]], "arrow": false, "label": "doorway edge" },
+    { "type": "ellipse", "cx": 0.430, "cy": 0.635, "rx": 0.100, "ry": 0.105, "label": "bird and chair" },
+    { "type": "polyline", "points": [[0.910, 0.625], [0.735, 0.620], [0.530, 0.630]], "label": "girl's attention across the room" }
+  ],
+  "notes": "An internal threshold separates the watchful girl from the bird-and-chair enclosure."
+}

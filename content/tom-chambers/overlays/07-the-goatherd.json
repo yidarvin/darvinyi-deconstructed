@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-the-goatherd.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.500, "cy": 0.490, "rx": 0.080, "ry": 0.060, "label": "open book" },
+    { "type": "polyline", "points": [[0.280, 0.480], [0.500, 0.490], [0.670, 0.490], [0.500, 0.620], [0.280, 0.480]], "label": "goats gather around the pages" },
+    { "type": "polyline", "points": [[0.540, 0.360], [0.510, 0.430], [0.500, 0.490]], "label": "hand leads to the book" }
+  ],
+  "notes": "The book concentrates an unstable triangle of animal heads and the keeper's reaching hand."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-glass-flower.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.180, 0.620], [0.540, 0.570]], "arrow": true, "label": "table edge into the tableau" },
+    { "type": "ellipse", "cx": 0.120, "cy": 0.560, "rx": 0.075, "ry": 0.130, "label": "seated girl" },
+    { "type": "ellipse", "cx": 0.520, "cy": 0.490, "rx": 0.115, "ry": 0.120, "label": "deer and glass flower" }
+  ],
+  "notes": "Two table edges make the central hybrid figure the hinge of an asymmetric domestic tableau."
+}

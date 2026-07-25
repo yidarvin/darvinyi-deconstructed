@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-aground.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.585, "y": 0.479, "r": 0.035, "label": "boy on the boat" },
+    { "type": "horizon_line", "y": 0.424, "angle": 0.0, "label": "distant shoreline" },
+    { "type": "polyline", "points": [[0.500, 0.980], [0.500, 0.700], [0.570, 0.500]], "label": "stump and boat stack upward" },
+    { "type": "leading_line", "points": [[0.430, 0.590], [0.680, 0.590]], "arrow": false, "label": "boat rim" }
+  ],
+  "notes": "A vertical stack from stump to boat rises against a clear, distant shoreline."
+}

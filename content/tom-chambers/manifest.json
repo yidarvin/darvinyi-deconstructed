@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-caging-the-songbird.jpg",
+    "width": 1029,
+    "height": 1029,
+    "sha1": "b8438c5c",
+    "source": "01-caging-the-songbird.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-glass-flower.jpg",
+    "width": 1029,
+    "height": 1029,
+    "sha1": "c80f1260",
+    "source": "02-glass-flower.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-a-view-from-the-bridge.jpg",
+    "width": 1007,
+    "height": 1007,
+    "sha1": "d384d600",
+    "source": "03-a-view-from-the-bridge.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-one-oar-out.jpg",
+    "width": 1008,
+    "height": 1008,
+    "sha1": "15e74f9b",
+    "source": "04-one-oar-out.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-black-from-blue.jpg",
+    "width": 1008,
+    "height": 1008,
+    "sha1": "7ceb7728",
+    "source": "05-black-from-blue.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-late-for-dinner.jpg",
+    "width": 864,
+    "height": 864,
+    "sha1": "ac4dbd72",
+    "source": "06-late-for-dinner.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-goatherd.jpg",
+    "width": 864,
+    "height": 864,
+    "sha1": "ee0a6e22",
+    "source": "07-the-goatherd.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-springs-landfall.jpg",
+    "width": 864,
+    "height": 864,
+    "sha1": "7225d0c1",
+    "source": "08-springs-landfall.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-aground.jpg",
+    "width": 1008,
+    "height": 750,
+    "sha1": "d01de9ad",
+    "source": "09-aground.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-hide-your-eyes.jpg",
+    "width": 868,
+    "height": 1500,
+    "sha1": "e08bff5a",
+    "source": "10-hide-your-eyes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-buffalo-gal.jpg",
+    "width": 1008,
+    "height": 1008,
+    "sha1": "292884c8",
+    "source": "11-buffalo-gal.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-genesis.jpg",
+    "width": 1170,
+    "height": 1008,
+    "sha1": "de6bbe8e",
+    "source": "12-genesis.jpg",
+    "exif": {}
+  }
+]
