@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -21,3 +21,23 @@ verdict: revise
 - All ten proof PNGs were visually reviewed against their matching overlay specs and analysis files. The deterministic scorer reports `100/100` for each; the required findings above are semantic visual failures that the geometry scorer cannot establish.
 - The chapter's quoted palette values match the corresponding analysis JSON values, and it makes no camera-settings claims.
 - Each of the ten used images has a cited museum or artist-archive source; all listed source and direct-rendition URLs returned HTTP 200 during this review. The fair-use entries provide the required critical purpose, complete-image necessity, creative-work consideration, web-sized amount, and non-substitution rationale.
+
+## Resolution — 2026-07-25
+
+1. `04-ajusco-girls` now marks the actual vertical spread gutter and the bounded
+   right-page picture; it removes the false horizon, convergence, and figure-route
+   claims.
+2. `07-ajusco-children` retains the defensible page-number margin and spread
+   gutter, with the false ceiling-beam anchor removed.
+3. `09-virgilio-sunlit-room` now marks the window field, a visible raking beam,
+   and the floor-light boundary; the unsupported vanishing point and diagonals
+   are removed. The matching chapter sentence now uses those same terms.
+4. `10-virgilio-parade` removes the false anchor from the quotation page.
+
+Re-verified prior critique rounds: 2026-07-25 (the only prior round in this
+slug's critique history). All four required fixes hold in the regenerated proofs.
+The non-blocking label-collision advisory for `06-ajusco-men-portrait-pair` was
+left unchanged to avoid altering an otherwise passing, semantically sound overlay.
+
+Validation: each corrected overlay was re-analysed, rendered, visually checked,
+and scored at least 80 (04: 90; 07, 09, 10: 100); `scripts/check.sh` passed.
