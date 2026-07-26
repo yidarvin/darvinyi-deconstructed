@@ -4,7 +4,8 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "leading_line", "points": [[0.0, 0.560], [0.435, 0.480]], "arrow": true, "label": "access trace" },
-    { "type": "subject_anchor", "x": 0.435, "y": 0.480, "r": 0.035, "label": "cleared pad" }
+    { "type": "subject_anchor", "x": 0.435, "y": 0.480, "r": 0.035, "label": "pumpjack" },
+    { "type": "frame_in_frame", "x": 0.368, "y": 0.309, "w": 0.169, "h": 0.191, "label": "cleared pad" }
   ],
   "notes": "Tracks converge on a bright cleared pad, revealing industrial order inside scrub."
 }

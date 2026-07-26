@@ -3,9 +3,9 @@
   "image": "01-api-21930378-slaughter-tx.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.511, 0.0], [0.511, 0.500]], "arrow": true, "label": "access trace" },
+    { "type": "polyline", "points": [[0.476, 0.0], [0.474, 0.238], [0.468, 0.401], [0.477, 0.477], [0.519, 0.507]], "label": "access trace" },
     { "type": "horizon_line", "y": 0.522, "angle": 4.1, "label": "field boundary" },
     { "type": "subject_anchor", "x": 0.519, "y": 0.507, "r": 0.035, "label": "pumpjack" }
   ],
-  "notes": "A straight access trace pins the small pumpjack to a stack of cultivated fields."
+  "notes": "A bending access trace pins the small pumpjack to a stack of cultivated fields."
 }

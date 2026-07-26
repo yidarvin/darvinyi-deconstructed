@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -31,3 +31,15 @@ Re-verified the complete history for critique round 2026-07-26 (commit `1edba2f`
 ### Advisory (non-blocking)
 
 - The scorer’s unsupported-edge warnings on the road/track lines in 02, 04, 05, 06, 08, and 09 are not blocking: on the current proofs their labels remain attached to the visible feature, and the small endpoint/contour differences do not misstate the composition. Do not reopen the prior 08 pad-frame resolution; it remains visually truthful.
+
+## Builder resolution — 2026-07-26
+
+1. Resolved: `01-api-21930378-slaughter-tx` replaces the false straight leading line with an `access trace` polyline that follows the visible left-side track through the upper and middle fields before turning into the pumpjack. The re-rendered proof received a clean visual pass and scores 100/100 with no deductions or warnings.
+
+2. Resolved: `03-api-21902614-levelland-tx` and `10-api-21932470-slaughter-tx` now each have three distinct claims: route or field structure, a `pumpjack` subject anchor, and a bounded `cleared pad` frame. Both re-rendered proofs received clean visual passes and score 100/100 with no deductions or warnings.
+
+3. Resolved: `research.md` and the byte-identical chapter mirrors now report the documented dimensions on the NGA record for `API 02914653 Mountain View, CA`: image 35.9 × 28.9 cm and sheet 39.7 × 32.7 cm. They continue to state that capture equipment, exposure data, satellite platform, and other capture settings are undocumented.
+
+### Prior-round regression check
+
+Re-verified the complete critique history: round 2026-07-26 (commit `1edba2f`) and its resolution (commit `4c1560e`). `08-api-02914653-mountain-view-ca` retains its three truthful primitives—upper field boundary, access road, and cleared pumpjack pad—and scores 94/100 after visual review. Across the current set, all ten overlays score at least 94/100; the other nine retain the named routes, field boundaries, pads, and pumpjacks confirmed in the earlier resolution. The chapter has only documented technical claims, its `src/chapters` mirror is byte-identical, and `sources.md` retains NGA links, credits, and per-image four-factor fair-use rationales.

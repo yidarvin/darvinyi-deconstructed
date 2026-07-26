@@ -16,11 +16,13 @@ retain a geographical index while the repeated format creates a typology.
 
 ## Technique and limits
 
-The source records document the 2012 date, series, and inkjet-print medium. They
-do not establish a camera body, lens, focal length, aperture, shutter speed,
-sensitivity, film or sensor format, satellite platform, or edition-specific print
-dimensions. No such setting is inferred here. The available public NGA display
-files are 716–722 × 900px and the ingested manifest contains no EXIF metadata.
+The source records document the 2012 date, series, and inkjet-print medium. The
+NGA record for *API 02914653 Mountain View, CA* also gives an image size of 35.9
+× 28.9 cm and a sheet size of 39.7 × 32.7 cm. They do not establish a camera
+body, lens, focal length, aperture, shutter speed, sensitivity, film or sensor
+format, or satellite platform. No such capture setting is inferred here. The
+available public NGA display files are 716–722 × 900px and the ingested manifest
+contains no EXIF metadata.
 
 ## Measured evidence
 
