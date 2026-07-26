@@ -174,7 +174,7 @@ real queue and state live in data/registry.json.
 | 163 | taryn-simon               | Taryn Simon                  | DONE    |
 | 164 | daniel-gordon             | Daniel Gordon                | DONE    |
 | 165 | sara-cwynar               | Sara Cwynar                  | DONE    |
-| 166 | lucas-blalock             | Lucas Blalock                | PENDING |
+| 166 | lucas-blalock             | Lucas Blalock                | DONE    |
 | 167 | kate-steciw               | Kate Steciw                  | PENDING |
 | 168 | ilit-azoulay              | Ilit Azoulay                 | PENDING |
 | 169 | noemie-goudal             | Noémie Goudal                | PENDING |

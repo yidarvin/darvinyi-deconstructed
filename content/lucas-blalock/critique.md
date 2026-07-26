@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -19,3 +19,13 @@ verdict: resolved
 2. **09-the-guitar-player:** Re-ran analysis, render, visual inspection, and scoring. Removed the unsupported `CUTOUT CONVERGENCE` marker and the two divergent leading-line claims. The overlay now traces the cutout's visible upper and lower contours; the caption and prose no longer claim convergence. Score: 100.
 
 **Prior critique rounds re-verified:** 2026-07-26 (the only prior round). Both required fixes above hold in the current proofs and byte-identical rendered chapter. `scripts/check.sh` passed.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None. All ten current proof/spec pairs remain materially truthful: the `04-the-house-guest` anchor identifies the visible curled tabletop form, and `09-the-guitar-player` now traces only the cutout's visible upper and lower contours. The ten current deterministic scores are 100 with no deductions or warnings. Chapter statements match the proofs and specs; it makes no invented camera-setting claim. Each selected image has a credited Galerie Eva Presenhuber source record and a concise four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.
