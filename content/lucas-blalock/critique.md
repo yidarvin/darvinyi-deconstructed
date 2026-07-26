@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -12,3 +12,10 @@ verdict: revise
 
 - All ten proofs were visually inspected. The remaining labels trace visible, intelligible features at the stated scale, and each paired analysis/spec scores 100 with the deterministic scorer.
 - The chapter makes no camera-setting claim. Every selected copyrighted image has a reachable gallery record/display file and a concise four-factor, per-image fair-use rationale with credit and source link; no source-integrity issue found.
+
+## Builder resolution — 2026-07-26
+
+1. **04-the-house-guest:** Re-ran analysis, render, visual inspection, and scoring. The anchor remains at the visible curled form on the right, but its label now accurately reads `CURLED TABLETOP FORM`; the chapter names that same right-hand form rather than implying it is the central plywood figure. Score: 100.
+2. **09-the-guitar-player:** Re-ran analysis, render, visual inspection, and scoring. Removed the unsupported `CUTOUT CONVERGENCE` marker and the two divergent leading-line claims. The overlay now traces the cutout's visible upper and lower contours; the caption and prose no longer claim convergence. Score: 100.
+
+**Prior critique rounds re-verified:** 2026-07-26 (the only prior round). Both required fixes above hold in the current proofs and byte-identical rendered chapter. `scripts/check.sh` passed.
