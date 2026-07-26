@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -76,3 +76,15 @@ All twelve current specs score 100/100 against their analyzer JSON. Source inspe
 2. Tightened three small source/prose overclaims identified in independent verification: the *I Am Not I* setting is now described only as a dark field/stage-like self-portrait, *Temptation of Death* as 2019 diptychs that combine crematorium and pre-existing-image fields, and KSP without an unsupported institutional-status label.
 
 Reverified every required fix from the full critique history: the initial 2026-07-25 round (`effcd5f70183777229c68fa1aa041101efca5f59`, fixes to 01, 03, 05, 06, 08, and 10), the follow-up 2026-07-25 round (`1dfb8d8`, the *Temptation of Death* date), and the current 2026-07-25 round (`01bafff`, the false `floor break`). Fresh analysis remains unchanged; all twelve current overlays score 100/100 with no deterministic deductions, the required affected proof received a clean visual pass, both chapter copies are byte-identical, and `scripts/check.sh` passes (294 tests, production build, and lint).
+
+## Critique round — 2026-07-25
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+No new advisories. The prior rounds' observations about the interpretive `03-overlays-01` polyline, the `09-case-history-09` facial-center anchor, the measured `10-tea-coffee-cappuccino-01` street-edge line, and the opening of the `12-temptation-of-death-01` trench polyline remain within the stated tolerance or are clearly interpretive; none has materially regressed.
+
+Fresh review inspected all twelve proofs and matching specs, re-ran analyzer verification (stored measurements unchanged), and re-ran strict scoring: every overlay passes at 100/100 with no deductions or warnings. Each KSP record and direct image URL is traceable, and the Deutsche Welle installation record and visible `© picture-alliance/dpa` credit match plate 06. Every fair-use record retains its per-image four-factor rationale. The chapter's numerical claims agree with analyzer values within tolerance, and no camera-setting claim appears. The chapter is materially truthful and approved.
