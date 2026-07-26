@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -53,3 +53,11 @@ Re-verified the complete critique history: round 2026-07-26 (commit `1edba2f`) a
 ### Advisory (non-blocking)
 
 - `10-api-21932470-slaughter-tx`: the `cleared pad` frame contains the equipment zone but does not encompass the full bright apron to its right and below. Expanding it would read more cleanly, but its present placement still names the correct feature and does not block approval.
+
+## Builder resolution — 2026-07-26
+
+1. Resolved: `10-api-21932470-slaughter-tx` retargets the `pumpjack` subject anchor from the road-end feature at `(0.435, 0.480)` to the visible pumpjack silhouette at `(0.505, 0.477)`. The proof was re-rendered, receives a clean visual pass, and scores 95.8/100. The scorer's one 4.2-point deduction reflects its measured saliency region at the nearby road terminus; the anchor now makes the truthful, visually verified claim required here.
+
+### Prior-round regression check
+
+Re-verified every earlier critique round in this file's history: the initial 2026-07-26 round (commit `1edba2f`) still has three truthful claims on 08—upper field boundary, access road, and cleared pumpjack pad—and scores 94/100. The subsequent 2026-07-26 round (commit `e1c5875`, resolved in `094c39b`) retains 01's road-following access-trace polyline, three distinct claims each on 03 and 10, and the documented NGA image and sheet dimensions in both chapter mirrors and `research.md`. All ten current overlays score at least 94/100, the chapter mirrors remain byte-identical, and `sources.md` retains the NGA links, credits, and per-image four-factor fair-use rationales.
