@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-travel-picture-meadow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.695, "angle": -1.1, "label": "CABINET TOP" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.6, "label": "STACKED FURNITURE AXIS" },
+    { "type": "subject_anchor", "x": 0.271, "y": 0.727, "r": 0.035, "label": "LOW CABINET" },
+    { "type": "polyline", "points": [[0.50,0.42],[0.56,0.55],[0.61,0.69]], "label": "CHAIR-TO-CABINET STACK" }
+  ],
+  "notes": "A chair and cabinets create a precarious vertical stack against an open wall."
+}

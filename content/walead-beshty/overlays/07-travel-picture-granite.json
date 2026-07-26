@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-travel-picture-granite.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.241, "angle": 0, "label": "UPPER SHELF BAND" },
+    { "type": "subject_anchor", "x": 0, "y": 0.805, "r": 0.035, "label": "NEAR PAPER FIELD" },
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.32, "w": 0.46, "h": 0.38, "label": "TIPPED DESK" },
+    { "type": "polyline", "points": [[0.30,0.50],[0.47,0.64],[0.66,0.83]], "label": "FURNITURE DIAGONAL" }
+  ],
+  "notes": "A tipped desk compresses the room into competing rectangles and diagonals."
+}

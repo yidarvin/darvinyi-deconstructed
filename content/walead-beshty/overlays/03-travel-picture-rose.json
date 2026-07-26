@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "03-travel-picture-rose.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.277, "angle": 0, "label": "REAR WALL BREAK" },
+    { "type": "vanishing_point", "x": 0.355, "y": 0.244, "label": "ROOM CONVERGENCE" },
+    { "type": "subject_anchor", "x": 0.185, "y": 0.272, "r": 0.035, "label": "PAPER MASS" },
+    { "type": "leading_line", "points": [[0.429,0.346],[0.538,0.544]], "arrow": true, "label": "FALLEN BOARD" },
+    { "type": "polyline", "points": [[0.12,0.21],[0.46,0.34],[0.80,0.18]], "label": "UPPER PAPER RHYTHM" }
+  ],
+  "notes": "A low, dense paper field is held against the room's shallow convergence."
+}

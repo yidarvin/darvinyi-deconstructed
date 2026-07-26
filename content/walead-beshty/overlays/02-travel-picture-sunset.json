@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "02-travel-picture-sunset.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.19, "angle": 1, "label": "WINDOW-SILL BAND" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "STACKED ROOM AXIS" },
+    { "type": "subject_anchor", "x": 0.652, "y": 0.507, "r": 0.035, "label": "TYPEWRITER" },
+    { "type": "leading_line", "points": [[0,0.489],[0.462,0.530]], "arrow": true, "label": "DESK EDGE" },
+    { "type": "frame_in_frame", "x": 0.18, "y": 0.08, "w": 0.70, "h": 0.35, "label": "BROKEN WINDOW" }
+  ],
+  "notes": "Window, desk, and typewriter make a room of stacked thresholds."
+}

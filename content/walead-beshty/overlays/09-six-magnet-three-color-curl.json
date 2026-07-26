@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "09-six-magnet-three-color-curl.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.55, "angle": 0, "label": "CENTRAL COLOUR BAND" },
+    { "type": "subject_anchor", "x": 0.075, "y": 0.022, "r": 0.035, "label": "UPPER LIGHT WEDGE" },
+    { "type": "leading_line", "points": [[0.068,0.573],[0.983,0.663]], "arrow": true, "label": "YELLOW-GREEN STRIP" },
+    { "type": "leading_line", "points": [[0.278,0.791],[0.875,0.966]], "arrow": true, "label": "LOWER YELLOW CURL" },
+    { "type": "frame_in_frame", "x": 0.02, "y": 0.007, "w": 0.96, "h": 0.98, "label": "PAPER EDGE" }
+  ],
+  "notes": "Curling paper becomes a scaffold for intersecting CMY light bands."
+}

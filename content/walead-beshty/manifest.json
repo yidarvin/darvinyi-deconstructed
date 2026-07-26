@@ -1,0 +1,138 @@
+[
+  {
+    "file": "01-travel-picture-violet.jpg",
+    "width": 473,
+    "height": 843,
+    "sha1": "75a63156",
+    "source": "01-travel-picture-violet.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:08:23 10:45:37",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.02",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "02-travel-picture-sunset.jpg",
+    "width": 907,
+    "height": 1600,
+    "sha1": "d14c0b64",
+    "source": "02-travel-picture-sunset.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:10:22 11:55:27",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.022222222222222223",
+      "FNumber": "6.8",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "03-travel-picture-rose.jpg",
+    "width": 896,
+    "height": 1600,
+    "sha1": "e8a158bc",
+    "source": "03-travel-picture-rose.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2014:05:23 16:05:54",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.022222222222222223",
+      "FNumber": "4.8",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "04-travel-picture-mist.jpg",
+    "width": 903,
+    "height": 1600,
+    "sha1": "a187c21a",
+    "source": "04-travel-picture-mist.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2014:05:27 10:10:55",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.022222222222222223",
+      "FNumber": "4.8",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "05-travel-picture-meadow.jpg",
+    "width": 896,
+    "height": 1600,
+    "sha1": "28c3974b",
+    "source": "05-travel-picture-meadow.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:08:23 11:43:18",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.02",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "06-travel-picture-marsh.jpg",
+    "width": 897,
+    "height": 1600,
+    "sha1": "e5472dc9",
+    "source": "06-travel-picture-marsh.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:08:23 12:09:01",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.02",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "07-travel-picture-granite.jpg",
+    "width": 892,
+    "height": 1600,
+    "sha1": "fc090702",
+    "source": "07-travel-picture-granite.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:08:23 09:47:13",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.02",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "08-fold-directional-light.jpg",
+    "width": 1132,
+    "height": 648,
+    "sha1": "b648e93b",
+    "source": "08-fold-directional-light.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-six-magnet-three-color-curl.jpg",
+    "width": 573,
+    "height": 1132,
+    "sha1": "bbd332da",
+    "source": "09-six-magnet-three-color-curl.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-picture-made-by-my-hand.jpg",
+    "width": 404,
+    "height": 800,
+    "sha1": "86948723",
+    "source": "10-picture-made-by-my-hand.jpg",
+    "exif": {}
+  }
+]

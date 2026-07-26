@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "image": "01-travel-picture-violet.jpg",
+  "width": 473,
+  "height": 843,
+  "aspect": 0.5611,
+  "tonal": {
+    "mean": 0.6903245127322708,
+    "std": 0.06530691859553202,
+    "p05": 0.5686274509803921,
+    "p95": 0.7803921568627451,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#c79da2",
+    "#d9b6bc",
+    "#d3a9b3",
+    "#bc8e8e",
+    "#a0797d"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.8244365361803084,
+    "angle_deg": 0.0,
+    "confidence": 0.6576509607052672,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9577167019027484,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.6926597325547511,
+        "cy": 0.9805622961990638,
+        "x": 0.3763213530655391,
+        "y": 0.9537366548042705,
+        "w": 0.6236786469344608,
+        "h": 0.046263345195729534,
+        "area_frac": 0.022689027158115962
+      },
+      {
+        "cx": 0.4208690168273512,
+        "cy": 0.6732518710531867,
+        "x": 0.32346723044397463,
+        "y": 0.6215895610913404,
+        "w": 0.1945031712473573,
+        "h": 0.1055753262158956,
+        "area_frac": 0.016344024537354007
+      },
+      {
+        "cx": 0.546935853968056,
+        "cy": 0.3137936925700159,
+        "x": 0.47357293868921774,
+        "y": 0.27995255041518385,
+        "w": 0.14376321353065538,
+        "h": 0.06998813760379596,
+        "area_frac": 0.007992696977220689
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7361157207079233,
+    "vertical_axis_x": 0.4375,
+    "horizontal": 0.8666437778511406,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.9577167019027484,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.824,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.66,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.958,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

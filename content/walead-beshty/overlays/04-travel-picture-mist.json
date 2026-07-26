@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-travel-picture-mist.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.389, "angle": 0, "label": "SHELF/FLOOR BREAK" },
+    { "type": "subject_anchor", "x": 0, "y": 0.992, "r": 0.035, "label": "NEAR FLOOR CLUTTER" },
+    { "type": "leading_line", "points": [[0.54,0.18],[0.87,0.61]], "arrow": true, "label": "LEANING BOARD" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.08, "w": 0.38, "h": 0.52, "label": "SHELVING BAY" }
+  ],
+  "notes": "The leaning board cuts across the shelving grid and unsettles the room."
+}
