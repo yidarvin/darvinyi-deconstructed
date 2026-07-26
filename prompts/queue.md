@@ -157,7 +157,7 @@ real queue and state live in data/registry.json.
 | 146 | yasumasa-morimura         | Yasumasa Morimura            | DONE    |
 | 147 | shirin-neshat             | Shirin Neshat                | DONE    |
 | 148 | vik-muniz                 | Vik Muniz                    | DONE    |
-| 149 | pedro-meyer               | Pedro Meyer                  | PENDING |
+| 149 | pedro-meyer               | Pedro Meyer                  | DONE    |
 | 150 | aziz-cucher               | Aziz + Cucher                | PENDING |
 | 151 | idris-khan                | Idris Khan                   | PENDING |
 | 152 | penelope-umbrico          | Penelope Umbrico             | PENDING |

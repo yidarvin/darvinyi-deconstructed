@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -41,3 +41,36 @@ left unchanged to avoid altering an otherwise passing, semantically sound overla
 
 Validation: each corrected overlay was re-analysed, rendered, visually checked,
 and scored at least 80 (04: 90; 07, 09, 10: 100); `scripts/check.sh` passed.
+
+## Critique round — 2026-07-25
+
+### REQUIRED
+
+None. The four corrections resolved in the preceding round remain in the
+current proofs: `04-ajusco-girls` traces the central spread gutter and
+right-page picture; `07-ajusco-children` does not revive the false
+ceiling-beam anchor; `09-virgilio-sunlit-room` traces the actual window field,
+raking rays, and floor-light boundary; and `10-virgilio-parade` has no
+architectural anchor on the quotation page.
+
+### Advisory (non-blocking)
+
+- `06-ajusco-men-portrait-pair`: the `ANIMAL LINE` and `BRICK-YARD DIAGONAL`
+  labels still meet at the left edge, but both line paths visibly follow their
+  named relays through the yard. This remains cosmetic and does not block
+  approval.
+
+### Verified in this round
+
+- All ten current proof PNGs were visually checked against their overlay specs
+  and analyzer outputs. The annotations make 2–3 bounded compositional claims
+  per image and visibly trace the named page, subject, light, or architectural
+  features; no detector artifact is presented as a photographic structure.
+- Chapter claims agree with the rendered proofs and palette values in the
+  corresponding analyzer JSON. The chapter explicitly declines undocumented
+  camera or process data.
+- Every used image has a traceable LACMA or Pedro Meyer archive source. The
+  LACMA object/rendition URLs and all cited *Colonia Ajusco* and *Virgilio*
+  book/rendition URLs returned HTTP 200 in this review. Each fair-use entry
+  documents critical purpose, complete-image necessity, the creative-work
+  factor, web-sized amount, credit, and non-substitution rationale.
