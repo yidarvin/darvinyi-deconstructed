@@ -3,13 +3,13 @@
 ## Selection and acquisition note
 
 Pedro Meyer is a living photographer and the registry classifies this corpus as
-copyrighted. The set combines one museum collection rendition with ten public
+copyrighted. The set combines one museum collection rendition with nine public
 artist-archive renders from Meyer's Miramar books. The Miramar files are publicly
 served from the artist's own site; their project pages identify the two books used
 here: *Colonia Ajusco* and *Virgilio*. The book-page reproductions retain the
-photographic frame and, where present, their printed caption. For the three
-*Virgilio* selections, only the surrounding facing-page quotation/pagination was
-trimmed; no photographic content was altered. All files opened successfully after
+photographic frame and, where present, their printed caption. The retained book-page
+reproductions may include surrounding quotation or pagination; no photographic
+content was altered. All files opened successfully after
 acquisition. Their shortest long edge is 1,474px, so every image exceeds the 640px
 source floor without upscaling.
 
@@ -64,40 +64,40 @@ purpose, credit, and source links limit any market substitution.
      spread is necessary; the credited, linked web copy is limited to composition
      criticism and does not substitute for the source book or licensed prints.
 
-5. **Laundry among lava rock** (1974) — `raw/pedro-meyer/05-ajusco-laundry.jpg`
-   - **Why it matters:** Clotheslines make a shifting horizontal grid over the rough
-     volcanic ground, turning domestic evidence into the image's organizing geometry.
+5. **Ajusco children** (1974) — `raw/pedro-meyer/05-ajusco-laundry.jpg`
+   - **Why it matters:** Several children press into the frame from every direction,
+     making overlap and the off-center smile a compact lesson in crowded proximity.
    - **Collection/source:** Pedro Meyer, [*Colonia Ajusco* online book](https://pedromeyer.com/onlinemiramar/digital-colonia-ajusco/), page 110 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Colonia-Ajusco-Version-Digital-25.NOV_Pagina_110.jpg`.
    - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
-     The full frame is required to study the tension between hanging cloth and broken
-     terrain; this small, credited teaching use is transformative and non-substitutive.
+     The complete close frame is required to study overlap and edge pressure; this
+     small, credited teaching use is transformative and non-substitutive.
 
-6. **Ajusco men, portrait pair** (1974) — `raw/pedro-meyer/06-ajusco-men-portrait-pair.jpg`
-   - **Why it matters:** The two close portraits counter a frontal grin with a wider
-     working pose, making a spread useful for comparing proximity, pose, and gaze.
+6. **El Arca de Noé / Noah's Ark** (1974) — `raw/pedro-meyer/06-ajusco-men-portrait-pair.jpg`
+   - **Why it matters:** Sheep, rabbits, a dog, and the family are arranged from the
+     low foreground through a dense yard, making domestic scale accumulate in layers.
    - **Collection/source:** Pedro Meyer, [*Colonia Ajusco* online book](https://pedromeyer.com/onlinemiramar/digital-colonia-ajusco/), page 121 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Colonia-Ajusco-Version-Digital-25.NOV_Pagina_121.jpg`.
    - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
-     Both photographs and their relation are needed for the analysis; the credited,
-     linked web copy supports criticism and teaching without replacing the artist's
-     book or any licensed reproduction.
+     The complete frame is needed to analyze the layered animal and family group; the
+     credited, linked web copy supports criticism and teaching without replacing the
+     artist's book or any licensed reproduction.
 
-7. **Ajusco children** (1974) — `raw/pedro-meyer/07-ajusco-children.jpg`
-   - **Why it matters:** The unusually close cluster lets faces spill past every edge,
-     a direct lesson in proximity, overlap, and a deliberately unstable center.
-   - **Collection/source:** Pedro Meyer, [*Colonia Ajusco* online book](https://pedromeyer.com/onlinemiramar/digital-colonia-ajusco/), page 123 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Colonia-Ajusco-Version-Digital-25.NOV_Pagina_123.jpg`.
-   - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
-     The whole close frame is indispensable to analyze edge pressure and overlapping
-     expressions; the credited, linked web copy is a limited transformative use and
-     does not replace the original or a licensed print.
-
-8. **The Bedroom** (1974) — `raw/pedro-meyer/08-ajusco-bedroom-pair.jpg`
+7. **The Bedroom** (1974) — `raw/pedro-meyer/07-ajusco-children.jpg`
    - **Why it matters:** The paired interiors turn beds, posters, and walls into two
      dense inventories, demonstrating how serial framing can compare private spaces.
+   - **Collection/source:** Pedro Meyer, [*Colonia Ajusco* online book](https://pedromeyer.com/onlinemiramar/digital-colonia-ajusco/), page 123 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Colonia-Ajusco-Version-Digital-25.NOV_Pagina_123.jpg`.
+   - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
+     The paired frames are necessary to discuss serial contrast; the credited, linked
+     web copy is a limited transformative use and does not replace the original or a
+     licensed print.
+
+8. **Viva México flag, Colonia Ajusco** (date not verified) — `raw/pedro-meyer/08-ajusco-bedroom-pair.jpg`
+   - **Why it matters:** A flag's repeated eagles and the brick field turn a small
+     sign of national identity into a nearly symmetrical, wall-sized graphic.
    - **Collection/source:** Pedro Meyer, [*Colonia Ajusco* online book](https://pedromeyer.com/onlinemiramar/digital-colonia-ajusco/), page 140 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Colonia-Ajusco-Version-Digital-25.NOV_Pagina_140.jpg`.
    - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
-     The paired frames are necessary to discuss the serial contrast; this credited,
-     linked web-sized copy is transformative criticism and is not a substitute for the
-     book, original photographs, or licensed reproductions.
+     The whole frame is needed to analyze the repeated emblems against the brickwork;
+     this credited, linked web-sized copy is transformative criticism and is not a
+     substitute for the book, original photograph, or licensed reproductions.
 
 9. **Interior of Pedro Meyer's house, Coyoacán** (2024) — `raw/pedro-meyer/09-virgilio-sunlit-room.jpg`
    - **Why it matters:** Window bars, radiant light, reflection, and the small mouse
@@ -108,27 +108,28 @@ purpose, credit, and source links limit any market substitution.
      frame is needed for criticism of its light and layered geometry. The credited,
      linked web copy is limited, transformative, and non-substitutive.
 
-10. **University Olympic Stadium, Mexico City** (1968–2024) — `raw/pedro-meyer/10-virgilio-parade.jpg`
-    - **Why it matters:** Repeated hats and marching legs create a rhythmic field,
-      while the mouse near the lower edge interrupts the institutional pattern.
+10. **St. Patrick's Cathedral, Manhattan** (2024) — `raw/pedro-meyer/10-virgilio-parade.jpg`
+    - **Why it matters:** The aisle's arches, columns, and stained glass form a
+      vertical hierarchy that makes the building's scale legible from the nave.
     - **Collection/source:** Pedro Meyer, [*Virgilio* online book](https://pedromeyer.com/onlinemiramar/virgilio/), page 43 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Virgilio-300dpi-12.SEP_.25-1_Pagina_43-scaled.jpg`.
     - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
-      Only the facing-page quotation was removed; the complete photograph is required
-      to teach repetition and counterpoint. The credited, linked reference copy is
-      transformative criticism and does not replace a book page or licensed print.
+      The downloaded book spread includes a facing-page quotation, but the full
+      photographic page is necessary to teach nested arches and vertical scale. The
+      credited, linked reference copy is transformative criticism and does not replace
+      a book page or licensed print.
 
-11. **St. Patrick's Cathedral, Manhattan** (2024) — `raw/pedro-meyer/11-virgilio-st-patricks.jpg`
-    - **Why it matters:** The vaulted architecture becomes a precise hierarchy of
-      converging verticals and arches, making scale and symmetry readable at once.
+11. **Excluded quotation page** — `raw/pedro-meyer/11-virgilio-st-patricks.jpg`
+    - **Why it matters:** This file is a quotation/pagination page rather than a
+      photograph and is not ingested or rendered as a plate.
     - **Collection/source:** Pedro Meyer, [*Virgilio* online book](https://pedromeyer.com/onlinemiramar/virgilio/), page 62 render: `https://pedromeyer.com/wp-content/uploads/2025/08/Virgilio-300dpi-12.SEP_.25-1_Pagina_62-scaled.jpg`.
-    - **Use basis:** **fair-use**. Creator/rightsholder: Pedro Meyer (artist archive).
-      Only the facing-page quotation was removed; the full architectural frame is
-      needed to teach converging geometry. This credited, linked web use is limited,
-      transformative scholarship and does not replace the artist's book or a licensed
-      reproduction.
+    - **Use basis:** Not used in the chapter. It remains in the raw acquisition
+      folder solely to document the source-page mismatch found during recovery.
 
 ## Acquisition record
 
-`raw/pedro-meyer/` contains the eleven files above. This source pass reaches the
-default four-image readiness threshold and the 10–12-image target; no limited-source
-fallback is used.
+`raw/pedro-meyer/` retains eleven downloaded files, of which ten are photographs
+used for this chapter and one is the excluded quotation page described above. Visual
+inspection during recovery also corrected the original provisional filenames for
+items 5 through 10; the original filenames are retained so they remain traceable to
+the download record. The verified ten-image set reaches the default four-image
+readiness threshold and the 10–12-image target; no limited-source fallback is used.
