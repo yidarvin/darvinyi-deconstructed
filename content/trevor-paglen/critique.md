@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -57,3 +57,10 @@ Re-verified critique history: the original 2026-07-26 revision and its first res
 - **01-stss-carson-city** and **04-reaper-drone** retain fewer than the usual 3–5 primitives, but their current single claims remain legible. This remains non-blocking, consistent with the prior round.
 - **03-national-security-agencies** retains the previously noted loose `symmetry_axis` schema fit for `TRIPTYCH CENTER`; it has not materially regressed and is not reopened.
 - **11-last-pictures-narbona-predator** — `UPPER TERRAIN BAND` crosses the right-hand instrumental panel as well as the terrain panel. The chapter expressly distinguishes those meanings, so this is advisory only.
+
+## Resolution — 2026-07-26
+
+1. **09-overhead-nsa:** re-ran the analysis/render/score loop against the ingested image. The unchanged overlay cleanly distinguishes the measured `LIT ACCESS LINE` endpoint (x0.452, y0.610) from the separate `COMPOUND CONVERGENCE` marker (x0.546, y0.658), scoring 100/100. The plate paragraph now makes that distinction explicit and no longer claims a false termination relationship.
+2. **Institutional credits:** replaced shorthand in every source entry with the displayed institutional credit/copyright notice. The SAAM entries now retain collection, donor, artist/copyright, gallery, and photo-credit language; the NGA entry retains its displayed credit line and accession; and the Rollins entries retain their collection, donor, accession, process, and displayed copyright language (or explicitly note when the linked caption has none).
+
+Re-verified critique history: the original 2026-07-26 round and its resolution, the second 2026-07-26 round and its resolution, and the current 2026-07-26 round. Earlier required fixes remain intact: Reaper and Cosmos contain no unsupported symmetry axes; Mastic Beach and Keawaula confine shoreline claims to the photograph panels; EchoStar XVI retains the physical vertical divide without a false seam or convergence claim; and the research/chapter wording distinguishes retained downloaded-file EXIF from original capture settings. All 11 overlay specs score 100/100, affected proofs have clean visual passes, `chapter.mdx` and `src/chapters/trevor-paglen.mdx` are byte-identical, and `scripts/check.sh` passes.
