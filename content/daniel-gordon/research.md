@@ -3,9 +3,10 @@
 ## Documented method and period
 
 The twelve works in this chapter date from 2008 to 2020. Daniel Gordon’s studio
-archive identifies the early figure works as C-prints and the later works as
-pigment prints (with *Glass Vase With Blue Handles* specified as a pigment print
-with UV protectant). The archive’s *Still Lifes, Portraits & Parts* statement
+archive identifies the 2008–12 works and *Asparagus* (2013) as C-prints; the
+documented 2016–20 works in this selection are pigment prints (with *Glass Vase
+With Blue Handles* specified as a pigment print with UV protectant). The archive’s
+*Still Lifes, Portraits & Parts* statement
 describes Gordon’s process as cutting and pasting internet-sourced image
 printouts into three-dimensional tableaux, which he photographs with an 8 × 10
 camera; MoMA’s *New Photography 2009* account confirms that the temporary

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -22,3 +22,15 @@ verdict: revise
 ### Verification
 
 All twelve current overlay specs pass the deterministic scorer at 100/100. The required overlay findings above are visual/semantic errors that the geometry scorer cannot detect. The source notes contain traceable studio-record and display-derivative links and per-image four-factor rationales; the media corrections above are based on those records.
+
+## Builder resolution — 2026-07-26
+
+Re-verified prior critique round: 2026-07-26 (the only prior round).
+
+1. Removed the false `PORTRAIT BALANCE` symmetry axis from 05 and retained only the cut-paper face, a local facial-cut seam, and the red-shoulder anchor.
+2. Removed the false `HEAD BALANCE` symmetry axis from 06 and replaced it with local offset-blue-cutout and ruby-profile contours.
+3. Replaced 07’s frame-spanning `PINEAPPLE LEAVES` leading line with a local `PINEAPPLE LEAF FAN` contour.
+4. Replaced 08’s false horizon with a polyline on the ragged red-blue tear, and retargeted `UPPER ASPARAGUS` to the spear’s actual slope.
+5. Corrected the media chronology: 2008–12 and *Asparagus* (2013) are C-prints; the documented 2016–20 works are pigment prints. Replaced the 09 “painting” reference with “work.”
+
+All four revised proofs were rerendered, visually reviewed, and scored 100/100; `scripts/check.sh` passed. The source and rendered chapter files are byte-identical.

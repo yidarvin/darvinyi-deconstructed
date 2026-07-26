@@ -4,8 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.765, "angle": 0.0, "label": "TABLE EDGE" },
-    { "type": "leading_line", "points": [[0.122,0.87],[0.857,0.099]], "arrow": true, "label": "PINEAPPLE LEAVES" },
+    { "type": "polyline", "points": [[0.652,0.374],[0.616,0.182],[0.681,0.365],[0.667,0.135],[0.713,0.369],[0.734,0.177],[0.747,0.385]], "label": "PINEAPPLE LEAF FAN" },
     { "type": "leading_line", "points": [[0.126,0.874],[0.554,0.339]], "arrow": true, "label": "TABLE CLOTH EDGE" }
   ],
-  "notes": "Diagonal leaves and patterned table edges make the still life an all-over constructed field."
+  "notes": "A tight pineapple leaf fan and patterned table edge make the still life an all-over constructed field."
 }
