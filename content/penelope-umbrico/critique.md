@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -22,3 +22,33 @@ verdict: resolved
 - Applied the inexpensive advisory correction for plate 07: the source note now describes its visible pale green, purple, and brown color treatment.
 - Re-verified every required item from the full critique history: round 2026-07-26 (the only prior round). The plate 06 proof still shows the mountain landscape named by its `MOUNTAIN-RIDGE CONTOUR` overlay; the chapter's existing "mountain-like contour" reading remains accurate.
 - Re-ran all twelve overlay scores (82–100, each passing the required 80 threshold), visually checked the proof contact sheet, confirmed chapter-copy parity, and passed `scripts/check.sh` plus `python3 scripts/validate_pipeline.py`.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **06-weston-calotype-filters** — Correct the `notes` thesis in
+   `overlays/06-weston-calotype-filters.json`. It still says that the filter
+   field presses “a borrowed still-life” into a mediated surface, while the
+   current proof visibly depicts a mountain landscape and its primitive is
+   correctly labeled `MOUNTAIN-RIDGE CONTOUR`. Replace the false still-life
+   identification with a visually supported mountain/landscape description.
+   This is not a reopening of the prior `sources.md` finding: that source-note
+   correction remains resolved; the remaining false claim is in the current
+   overlay specification.
+
+### Advisory (non-blocking)
+
+- None.
+
+### Review evidence
+
+- Visually rechecked all twelve current proof PNGs against their overlay specs
+  and analyzer outputs. Apart from the plate 06 spec-thesis misidentification,
+  the 3–5 primitives per plate trace the named visible structures and the
+  rerun scores pass at 82–100.
+- Chapter values agree with the analyzer at the stated precision; the chapter
+  and research note do not invent camera or print settings.
+- All twelve gallery-record and public-display URLs returned HTTP 200, and
+  every plate retains a per-image four-factor fair-use rationale, credit, and
+  source link.
