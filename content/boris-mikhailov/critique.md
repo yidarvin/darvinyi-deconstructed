@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-25
 
@@ -35,3 +35,13 @@ All twelve overlay specs score 100/100 against their current analyzer JSON, but 
 6. `08-at-dusk-10`: corrected source and research language to chemically toned black-and-white images using color-toning stains and defects.
 
 Reverified prior critique rounds: 2026-07-25 (`effcd5f70183777229c68fa1aa041101efca5f59`), the only prior round in `git log -p -- content/boris-mikhailov/critique.md`. Re-ran analysis, render, visual proof review, and strict scoring for the three affected overlays; each scores 100/100. `scripts/check.sh` passes, and `content/boris-mikhailov/chapter.mdx` remains byte-identical to `src/chapters/boris-mikhailov.mdx`.
+
+## Critique round — 2026-07-25
+
+### Required fixes
+
+1. `12-temptation-of-death-01`: the plate label, source-shortlist heading, and research note give *Temptation of Death* the unsupported date span `2017–2019`. The cited KSP artist and project records identify this series as `2019`. Correct the date consistently to the documented year, or add a traceable source that establishes the broader range. This is a factual date claim, not a compositional interpretation.
+
+### Advisory (non-blocking)
+
+None. The prior round's advisories remain non-blocking and show no material regression in the current proofs.
