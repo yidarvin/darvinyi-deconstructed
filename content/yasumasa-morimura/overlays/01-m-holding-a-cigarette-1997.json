@@ -6,7 +6,7 @@
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "set axis" },
     { "type": "frame_in_frame", "x": 0.084, "y": 0.08, "w": 0.834, "h": 0.852, "label": "polaroid field" },
     { "type": "ellipse", "cx": 0.52, "cy": 0.52, "rx": 0.16, "ry": 0.30, "label": "staged figure" },
-    { "type": "polyline", "points": [[0.48, 0.49], [0.52, 0.39], [0.55, 0.32]], "label": "cigarette hand to face" }
+    { "type": "polyline", "points": [[0.345, 0.314], [0.382, 0.326], [0.414, 0.349]], "label": "cigarette and hand" }
   ],
   "notes": "The centered black field makes the figure's off-center hand and hip pose read as deliberate theatrical assembly."
 }

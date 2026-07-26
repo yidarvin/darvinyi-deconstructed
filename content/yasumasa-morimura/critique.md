@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -97,3 +97,28 @@ phases also passed (`npm run build`, `npm run lint`).
   folded-hands-to-flower annotations land on their named visible structures.
   The 03 drapery annotations remain materially plausible and do not justify a
   new blocking finding.
+
+## Builder resolution — 2026-07-25
+
+Re-verified every required fix from both prior critique rounds (**2026-07-25**,
+including the earlier resolved round) against the current overlays, rendered
+proofs, and chapter.
+
+1. **01:** moved and relabelled the polyline from the false torso-to-face path
+   to the visible cigarette and raised hand; the matching chapter sentence now
+   calls it a cigarette-and-hand mark.
+2. **01, prior round:** the signature remains unannotated as a subject; the
+   staged-figure ellipse remains the only figure claim.
+3. **02, prior round:** the unsupported wall-break horizon and false scene
+   symmetry remain absent; the tightened cap-and-mask ellipse and the
+   Polaroid-field frame still land on their named structures.
+4. **04, prior round:** the false hair-silhouette horizon and misplaced face
+   anchor remain absent. The collar and coiffure claims remain visually
+   grounded, and the folded-hands-to-flower path was tightened again so its
+   first point begins on the hands rather than the kimono.
+5. **03:** the existing drapery claims remain materially plausible, as the
+   preceding critic round found; no new claim was introduced.
+
+The two affected proofs were freshly analyzed, rendered, visually inspected,
+and scored at 100/100. Re-scoring all four current overlays returned 100/100;
+the two chapter files remain byte-identical.
