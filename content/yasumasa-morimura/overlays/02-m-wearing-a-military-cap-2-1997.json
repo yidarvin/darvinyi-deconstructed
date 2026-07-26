@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "02-m-wearing-a-military-cap-2-1997.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.38, "angle": 0.0, "label": "wall break" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "set axis" },
+    { "type": "subject_anchor", "x": 0.55, "y": 0.336, "r": 0.035, "label": "bare shoulder" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.205, "rx": 0.11, "ry": 0.06, "label": "cap and mask" },
+    { "type": "frame_in_frame", "x": 0.095, "y": 0.08, "w": 0.80, "h": 0.84, "label": "polaroid field" }
+  ],
+  "notes": "A centered studio field contains an asymmetric, over-the-shoulder performance of costume and gaze."
+}

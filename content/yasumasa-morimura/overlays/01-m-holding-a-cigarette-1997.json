@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-m-holding-a-cigarette-1997.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "set axis" },
+    { "type": "subject_anchor", "x": 0.601, "y": 0.992, "r": 0.025, "label": "signature" },
+    { "type": "frame_in_frame", "x": 0.084, "y": 0.08, "w": 0.834, "h": 0.852, "label": "polaroid field" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.52, "rx": 0.16, "ry": 0.30, "label": "staged figure" }
+  ],
+  "notes": "The centered black field makes the figure's off-center hand and hip pose read as deliberate theatrical assembly."
+}
