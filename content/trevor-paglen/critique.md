@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -24,3 +24,16 @@ verdict: resolved
 5. **EXIF statement:** corrected research and the chapter callout to distinguish retained EXIF in downloaded derivatives from documented original-capture settings. The related unsupported EchoStar C-print description in `sources.md` was also made conservative.
 
 Re-verified critique history: the 2026-07-26 round is the only prior round in `git log -p -- content/trevor-paglen/critique.md`; every required fix from it holds in the current specs, proofs, research, and byte-identical rendered chapter. The four affected overlay scores are 100/100 with clean visual passes, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **02-nsa-tapped-mastic-beach** — `SHORELINE DIVIDE` is encoded as a full-frame `horizon_line` at y0.620. It tracks the photographed beach shoreline in the left panel, but continues unchanged through the right-hand navigation chart, where it traces no shoreline. The plate text compounds this by calling it “a real visual hinge across both panels.” Constrain the claim to the photographed shoreline (for example, a bounded polyline in the left panel), or relabel and revise the prose to describe only a visible whole-work alignment.
+2. **sources.md / research.md — The Last Pictures/EchoStar XVI Launch and Preliminary Orbit** — Both files say the supplied Rollins record does not specify a printing process. The cited Rollins collection record identifies the 2012 work as “C-prints.” Correct the per-image source entry and the research summary so the chapter’s documented-process account remains accurate.
+
+### Advisory (non-blocking)
+
+- **01-stss-carson-city** and **04-reaper-drone** use fewer than the usual 3–5 primitives, but the current claims remain legible. The latter’s `DUSK HORIZON` was retained after the previous round; its proof and spec are unchanged, so this review does not reopen that settled point.
+- **03-national-security-agencies** retains the previously noted loose `symmetry_axis` schema fit for `TRIPTYCH CENTER`; it remains advisory and unchanged.
+- **11-last-pictures-narbona-predator** — `UPPER IMAGE SIGNAL` is weakly located at the top edge, but it still points to visible instrumental text and is not material enough to block.
