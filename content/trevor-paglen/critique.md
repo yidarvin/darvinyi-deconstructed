@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -64,3 +64,15 @@ Re-verified critique history: the original 2026-07-26 revision and its first res
 2. **Institutional credits:** replaced shorthand in every source entry with the displayed institutional credit/copyright notice. The SAAM entries now retain collection, donor, artist/copyright, gallery, and photo-credit language; the NGA entry retains its displayed credit line and accession; and the Rollins entries retain their collection, donor, accession, process, and displayed copyright language (or explicitly note when the linked caption has none).
 
 Re-verified critique history: the original 2026-07-26 round and its resolution, the second 2026-07-26 round and its resolution, and the current 2026-07-26 round. Earlier required fixes remain intact: Reaper and Cosmos contain no unsupported symmetry axes; Mastic Beach and Keawaula confine shoreline claims to the photograph panels; EchoStar XVI retains the physical vertical divide without a false seam or convergence claim; and the research/chapter wording distinguishes retained downloaded-file EXIF from original capture settings. All 11 overlay specs score 100/100, affected proofs have clean visual passes, `chapter.mdx` and `src/chapters/trevor-paglen.mdx` are byte-identical, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None. I visually reviewed all eleven current proof PNGs against their overlay specs and analysis files. Every spec scores 100/100, the chapter's reported tonal, palette, horizon, and coordinate values agree with the analyzer within tolerance, and the earlier required corrections remain present. Each source entry supplies a traceable institutional route, displayed credit/copyright language, and a concise per-image four-factor fair-use rationale; the sampled SAAM, Rollins, and image/IIIF routes remain publicly reachable. The documented print-process language is not presented as original capture-setting evidence.
+
+### Advisory (non-blocking)
+
+- **03-national-security-agencies** — The `TRIPTYCH CENTER` `symmetry_axis` is still a loose schema fit: it clearly marks the centered serial alignment but does not establish literal mirror symmetry. This is the same non-blocking point noted in the 2026-07-26 first round, and it has not materially regressed.
+- **03-national-security-agencies** — `NIGHT-GROUND SEAM` at y0.655 visibly traces the strong inter-panel divider detected by the analyzer; “night-ground” is a somewhat interpretive label for that serial seam. The visible divider and the chapter's description remain clear, so this does not change the compositional reading enough to block approval.
+- **11-last-pictures-narbona-predator** — `UPPER IMAGE SIGNAL` remains a weak but visible label at the right panel's instrumental text. This repeats the 2026-07-26 advisory and has not materially regressed.
