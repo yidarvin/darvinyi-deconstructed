@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-25
 
@@ -71,3 +71,29 @@ The affected overlays were freshly analyzed, rendered, visually inspected, and
 scored at 100/100. `scripts/check.sh` completed its state, sync, prose, and
 pipeline gates; its test phase passed 296 tests. The remaining build and lint
 phases also passed (`npm run build`, `npm run lint`).
+
+## Critique round — 2026-07-25
+
+### Required
+
+1. **01-m-holding-a-cigarette-1997:** the polyline labelled `cigarette hand
+   to face` does not trace that path. Its current points begin on the lower
+   torso at (0.480, 0.490) and rise through the chest to the face at (0.550,
+   0.320); the cigarette-holding hand is visibly left of that line, around
+   x=0.40, y=0.34. The proof therefore teaches a torso-to-face line while
+   naming a cigarette-hand-to-face relation. Move the path onto the actual
+   hand and cigarette, relabel it to the feature it follows, or remove it;
+   update the matching chapter sentence if the claim changes. This is a new
+   finding, not a re-opening of the resolved `signature`-anchor correction.
+
+### Advisory (non-blocking)
+
+- **01-m-holding-a-cigarette-1997:** `set axis` is geometrically aligned with
+  the centered Polaroid field, but a more specific label would make the
+  compositional claim easier to read. No change is required.
+
+- The prior resolved findings remain resolved: 02 does not restore a wall
+  break or false scene symmetry, and 04's portrait-axis, coiffure, collar, and
+  folded-hands-to-flower annotations land on their named visible structures.
+  The 03 drapery annotations remain materially plausible and do not justify a
+  new blocking finding.
