@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-untitled-women-of-allah.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "MOUTH / MIDDLE FINGER AXIS" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.49, "rx": 0.33, "ry": 0.43, "label": "HAND AND MOUTH FIELD" },
+    { "type": "polyline", "points": [[0.54, 0.27], [0.54, 0.73]], "label": "MIDDLE FINGER" }
+  ],
+  "notes": "Vertical fingers covered in script interrupt the mouth’s central, tightly cropped address."
+}

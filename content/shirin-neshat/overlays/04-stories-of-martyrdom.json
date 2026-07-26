@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-stories-of-martyrdom.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.184, "y": 0.253, "w": 0.634, "h": 0.522, "label": "PHOTOGRAPHED IMAGE FIELD" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PAIRED HANDS AXIS" },
+    { "type": "subject_anchor", "x": 0.461, "y": 0.627, "r": 0.035, "label": "INSCRIBED PALM" }
+  ],
+  "notes": "Within the photographed object’s inner field, paired hands and a rifle make the crop a concentrated confrontation."
+}

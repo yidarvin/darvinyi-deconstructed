@@ -1,0 +1,67 @@
+[
+  {
+    "file": "01-rebellious-silence.jpg",
+    "width": 1053,
+    "height": 1599,
+    "sha1": "e46be015",
+    "source": "01-rebellious-silence.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 12 mini",
+      "DateTimeOriginal": "2026:02:19 15:02:31",
+      "FocalLength": "4.2",
+      "ExposureTime": "0.00980392156862745",
+      "FNumber": "1.6",
+      "ISOSpeedRatings": "64",
+      "LensModel": "iPhone 12 mini back dual wide camera 4.2mm f/1.6"
+    }
+  },
+  {
+    "file": "03-faceless.jpg",
+    "width": 653,
+    "height": 1080,
+    "sha1": "7dc15bfc",
+    "source": "03-faceless.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-stories-of-martyrdom.jpg",
+    "width": 1200,
+    "height": 896,
+    "sha1": "bbcdf043",
+    "source": "04-stories-of-martyrdom.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-i-am-its-secret.jpg",
+    "width": 800,
+    "height": 1200,
+    "sha1": "f1718b6c",
+    "source": "05-i-am-its-secret.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-offered-eyes.jpg",
+    "width": 500,
+    "height": 692,
+    "sha1": "f052a16c",
+    "source": "06-offered-eyes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-bonding.jpg",
+    "width": 500,
+    "height": 325,
+    "sha1": "97dea479",
+    "source": "07-bonding.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-untitled-women-of-allah.jpg",
+    "width": 500,
+    "height": 722,
+    "sha1": "9cf974ff",
+    "source": "08-untitled-women-of-allah.jpg",
+    "exif": {}
+  }
+]

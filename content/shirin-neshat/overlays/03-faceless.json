@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-faceless.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.45, "label": "FRONTAL PORTRAIT AXIS" },
+    { "type": "subject_anchor", "x": 0.486, "y": 0.335, "r": 0.035, "label": "GUN MUZZLE" },
+    { "type": "leading_line", "points": [[0.486, 0.275], [0.486, 0.51]], "arrow": false, "label": "GUN BARREL" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.30, "rx": 0.22, "ry": 0.18, "label": "INSCRIBED FACE FIELD" }
+  ],
+  "notes": "A frontal portrait is made confrontational by the barrel that occupies its center."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-rebellious-silence.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "RIFLE / PORTRAIT AXIS" },
+    { "type": "leading_line", "points": [[0.477, 0.17], [0.497, 0.95]], "arrow": false, "label": "RIFLE BARREL" },
+    { "type": "subject_anchor", "x": 0.607, "y": 0.413, "r": 0.035, "label": "RIGHT EYE" }
+  ],
+  "notes": "The rifle divides a nearly bilateral portrait while the direct eye contact resists that split."
+}
