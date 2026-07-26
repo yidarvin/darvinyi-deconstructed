@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-schindler-house-los-angeles-viii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.113, "angle": 0.0, "label": "CEILING BEAM" },
+    { "type": "frame_in_frame", "x": 0.062, "y": 0.436, "w": 0.165, "h": 0.275, "label": "GLAZED OPENING" },
+    { "type": "subject_anchor", "x": 0.593, "y": 0.590, "r": 0.045, "label": "HEARTH EDGE" }
+  ],
+  "notes": "Low beams and a centered hearth set weight against a bright, empty floor."
+}

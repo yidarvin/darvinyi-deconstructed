@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-schindler-house-los-angeles-viii.jpg",
+    "width": 736,
+    "height": 750,
+    "sha1": "357a3969",
+    "source": "01-schindler-house-los-angeles-viii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-schindler-house-los-angeles-iii.jpg",
+    "width": 750,
+    "height": 747,
+    "sha1": "e57caa8b",
+    "source": "02-schindler-house-los-angeles-iii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-harvard-university-art-museum-cambridge-i.jpg",
+    "width": 750,
+    "height": 741,
+    "sha1": "6a215322",
+    "source": "03-harvard-university-art-museum-cambridge-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-landesbibliothek-dresden-ii.jpg",
+    "width": 736,
+    "height": 750,
+    "sha1": "5a2ff4c6",
+    "source": "04-landesbibliothek-dresden-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-burger-von-calais-metropolitan-museum-iii.jpg",
+    "width": 750,
+    "height": 736,
+    "sha1": "a172eae2",
+    "source": "05-burger-von-calais-metropolitan-museum-iii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-rodin-museum-philadelphia-iv.jpg",
+    "width": 750,
+    "height": 746,
+    "sha1": "8f132d2f",
+    "source": "06-rodin-museum-philadelphia-iv.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-biblioteca-seminario-patriarcale-venezia-iii.jpg",
+    "width": 625,
+    "height": 750,
+    "sha1": "a026ecaa",
+    "source": "07-biblioteca-seminario-patriarcale-venezia-iii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-osterreichische-nationalbibliothek-vi.jpg",
+    "width": 750,
+    "height": 609,
+    "sha1": "ef67d385",
+    "source": "08-osterreichische-nationalbibliothek-vi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-teylers-museum-haarlem-i.jpg",
+    "width": 602,
+    "height": 750,
+    "sha1": "32dd6424",
+    "source": "09-teylers-museum-haarlem-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-biblioteca-del-mncars-iii-madrid.jpg",
+    "width": 1520,
+    "height": 1509,
+    "sha1": "3515dfc0",
+    "source": "10-biblioteca-del-mncars-iii-madrid.jpg",
+    "exif": {}
+  }
+]

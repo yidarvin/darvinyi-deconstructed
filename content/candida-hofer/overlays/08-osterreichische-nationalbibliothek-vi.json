@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-osterreichische-nationalbibliothek-vi.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.679, "angle": 0.9, "label": "CHAIR ROW" },
+    { "type": "frame_in_frame", "x": 0.44, "y": 0.46, "w": 0.14, "h": 0.22, "label": "CENTRAL DOOR" },
+    { "type": "subject_anchor", "x": 0.412, "y": 0.707, "r": 0.045, "label": "FRONT CHAIR" }
+  ],
+  "notes": "Paired book walls and chair rows make the central door a calm, distant destination."
+}

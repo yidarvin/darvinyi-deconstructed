@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-burger-von-calais-metropolitan-museum-iii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.425, "label": "SCULPTURE AXIS" },
+    { "type": "subject_anchor", "x": 0.397, "y": 0.41, "r": 0.065, "label": "FIGURE GROUP" },
+    { "type": "frame_in_frame", "x": 0.68, "y": 0.30, "w": 0.24, "h": 0.40, "label": "REVOLVING DOOR" }
+  ],
+  "notes": "A dark figure group interrupts the pale grid while the glazed door supplies a second vertical chamber."
+}

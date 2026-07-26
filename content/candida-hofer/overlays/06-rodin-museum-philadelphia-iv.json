@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-rodin-museum-philadelphia-iv.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.411, "y": 0.326, "label": "GALLERY TURN" },
+    { "type": "horizon_line", "y": 0.269, "angle": 0.0, "label": "CORNICE" },
+    { "type": "frame_in_frame", "x": 0.73, "y": 0.24, "w": 0.20, "h": 0.42, "label": "TALL WINDOW" },
+    { "type": "subject_anchor", "x": 0.461, "y": 0.721, "r": 0.045, "label": "SCULPTURE BASE" }
+  ],
+  "notes": "A foreground sculpture blocks a gallery whose cornice and ceiling edge turn toward a second room."
+}

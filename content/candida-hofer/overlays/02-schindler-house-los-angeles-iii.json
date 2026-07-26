@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-schindler-house-los-angeles-iii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.364, "angle": 3.1, "label": "BEAM EDGE" },
+    { "type": "frame_in_frame", "x": 0.71, "y": 0.41, "w": 0.29, "h": 0.48, "label": "LUMINOUS SCREEN" },
+    { "type": "subject_anchor", "x": 0.571, "y": 0.356, "r": 0.04, "label": "BEAM JOINT" }
+  ],
+  "notes": "A tilted beam and bright screen turn the empty room into a sequence of planes and recesses."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-teylers-museum-haarlem-i.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.595, "angle": 0.0, "label": "TABLE EDGE" },
+    { "type": "frame_in_frame", "x": 0.38, "y": 0.45, "w": 0.20, "h": 0.26, "label": "READING STAND" },
+    { "type": "subject_anchor", "x": 0.658, "y": 0.529, "r": 0.055, "label": "RIGHT BOOKS" }
+  ],
+  "notes": "The reading stand rises from a dark table, held within a vertical enclosure of books and carved wood."
+}

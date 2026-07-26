@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-harvard-university-art-museum-cambridge-i.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.481, "y": 0.445, "label": "AISLE TERMINUS" },
+    { "type": "horizon_line", "y": 0.437, "angle": 0.0, "label": "COUNTER LINE" },
+    { "type": "leading_line", "points": [[0.05, 0.95], [0.481, 0.445]], "arrow": true, "label": "LEFT CABINET RUN" },
+    { "type": "leading_line", "points": [[0.96, 0.95], [0.481, 0.445]], "arrow": true, "label": "RIGHT CABINET RUN" }
+  ],
+  "notes": "The storage aisle is compressed by two cabinet runs that meet at a workroom terminus."
+}

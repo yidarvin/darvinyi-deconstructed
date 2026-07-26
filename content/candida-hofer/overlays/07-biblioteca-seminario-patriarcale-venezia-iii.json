@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-biblioteca-seminario-patriarcale-venezia-iii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.659, "y": 0.367, "label": "DARK DOORWAY" },
+    { "type": "leading_line", "points": [[0.112, 0.06], [0.659, 0.367]], "arrow": true, "label": "UPPER SHELF EDGE" },
+    { "type": "leading_line", "points": [[0.006, 0.156], [0.659, 0.367]], "arrow": true, "label": "BALCONY RAIL" },
+    { "type": "ellipse", "cx": 0.37, "cy": 0.58, "rx": 0.10, "ry": 0.10, "label": "ARMILLARY SPHERE" }
+  ],
+  "notes": "Layered shelving and balcony edges direct attention past globes toward the dark doorway."
+}

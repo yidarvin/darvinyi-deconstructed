@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-landesbibliothek-dresden-ii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.475, "y": 0.498, "label": "CENTRAL PASSAGE" },
+    { "type": "horizon_line", "y": 0.495, "angle": 0.0, "label": "PASSAGE LEVEL" },
+    { "type": "leading_line", "points": [[0.946, 0.768], [0.475, 0.498]], "arrow": true, "label": "RIGHT DRAWER BANK" }
+  ],
+  "notes": "Drawer banks and arches turn the corridor into an orderly, bright central passage."
+}
