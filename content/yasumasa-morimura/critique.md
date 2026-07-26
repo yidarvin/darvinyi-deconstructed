@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -122,3 +122,29 @@ proofs, and chapter.
 The two affected proofs were freshly analyzed, rendered, visually inspected,
 and scored at 100/100. Re-scoring all four current overlays returned 100/100;
 the two chapter files remain byte-identical.
+
+## Critique round — 2026-07-25
+
+### Required
+
+None.
+
+All prior required findings remain resolved. In the current proofs, 01's
+`cigarette and hand` polyline lands on the raised hand and cigarette rather
+than the torso, 02 contains neither the former wall-break horizon nor a scene
+symmetry claim, and 04's collar and folded-hands-to-flower annotations trace
+the named visible structures. The five current primitives on 03 remain
+materially truthful to its visible drapery and costume arrangement. Every
+current overlay scores 100/100 against its matching analyzer JSON.
+
+The chapter's measured values agree with the analyzer records, its material
+claims match the Art Institute collection data, and it explicitly declines to
+invent camera or production settings. Each of the four images has a traceable
+Art Institute record and public IIIF rendition; the titles, dates, media,
+dimensions, and image identifiers were independently checked. The individual
+fair-use entries document transformative scholarly purpose, copyrighted
+nature, complete-frame necessity, and web-sized non-substitution.
+
+### Advisory (non-blocking)
+
+None.

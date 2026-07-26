@@ -154,7 +154,7 @@ real queue and state live in data/registry.json.
 | 143 | thomas-struth             | Thomas Struth                | DONE    |
 | 144 | candida-hofer             | Candida Höfer                | DONE    |
 | 145 | boris-mikhailov           | Boris Mikhailov              | DONE    |
-| 146 | yasumasa-morimura         | Yasumasa Morimura            | PENDING |
+| 146 | yasumasa-morimura         | Yasumasa Morimura            | DONE    |
 | 147 | shirin-neshat             | Shirin Neshat                | PENDING |
 | 148 | vik-muniz                 | Vik Muniz                    | PENDING |
 | 149 | pedro-meyer               | Pedro Meyer                  | PENDING |
