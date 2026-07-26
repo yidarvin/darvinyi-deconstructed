@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-broken-spectre-still-01.jpg",
+    "width": 1270,
+    "height": 365,
+    "sha1": "292f6703",
+    "source": "01-broken-spectre-still-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-broken-spectre-still-02.jpg",
+    "width": 1270,
+    "height": 365,
+    "sha1": "84351a9f",
+    "source": "02-broken-spectre-still-02.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-broken-spectre-still-03.jpg",
+    "width": 1270,
+    "height": 365,
+    "sha1": "d2f9080a",
+    "source": "03-broken-spectre-still-03.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-broken-spectre-still-04.jpg",
+    "width": 1270,
+    "height": 365,
+    "sha1": "dcee0b83",
+    "source": "04-broken-spectre-still-04.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-broken-spectre-still-05.jpg",
+    "width": 1270,
+    "height": 365,
+    "sha1": "6820962d",
+    "source": "05-broken-spectre-still-05.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-broken-spectre-still-06.jpg",
+    "width": 1270,
+    "height": 365,
+    "sha1": "9cdc1e09",
+    "source": "06-broken-spectre-still-06.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-domesticated-palms-amazonas.jpg",
+    "width": 1127,
+    "height": 900,
+    "sha1": "f1719446",
+    "source": "07-domesticated-palms-amazonas.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-burnt-pantanal-i.jpg",
+    "width": 1409,
+    "height": 1600,
+    "sha1": "2ea4e98a",
+    "source": "08-burnt-pantanal-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-bobo-43392.jpg",
+    "width": 1440,
+    "height": 960,
+    "sha1": "f8e7189e",
+    "source": "09-bobo-43392.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-broken-spectre-gis-aerial-01.jpg",
+    "width": 1600,
+    "height": 900,
+    "sha1": "a9542c28",
+    "source": "10-broken-spectre-gis-aerial-01.jpg",
+    "exif": {}
+  }
+]

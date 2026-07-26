@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-broken-spectre-still-02.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.769, "angle": 0, "label": "floodwater edge" },
+    { "type": "leading_line", "points": [[0.67, 0.39], [0.93, 0.23]], "arrow": false, "label": "chapel roof" },
+    { "type": "subject_anchor", "x": 0.679, "y": 0.046, "r": 0.035, "label": "light flare" }
+  ],
+  "notes": "The waterline steadies a small chapel against turbulent sky and reflections."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-broken-spectre-still-06.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.881, "angle": 3.0, "label": "ground silhouette" },
+    { "type": "subject_anchor", "x": 0.397, "y": 0.139, "r": 0.04, "label": "bright opening" },
+    { "type": "polyline", "points": [[0.02, 0.74], [0.28, 0.64], [0.52, 0.71], [0.76, 0.62], [0.98, 0.75]], "label": "palm rhythm" }
+  ],
+  "notes": "A serrated palm silhouette encloses small bright breaks in a dark panoramic field."
+}

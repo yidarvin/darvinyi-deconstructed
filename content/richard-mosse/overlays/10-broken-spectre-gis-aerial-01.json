@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-broken-spectre-gis-aerial-01.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.04, 0.82], [0.23, 0.74], [0.35, 0.60], [0.31, 0.48], [0.47, 0.40], [0.67, 0.47]], "label": "near river curve" },
+    { "type": "polyline", "points": [[0.35, 0.60], [0.52, 0.67], [0.74, 0.61], [0.90, 0.44], [0.97, 0.27]], "label": "far river curve" },
+    { "type": "subject_anchor", "x": 0.742, "y": 0.179, "r": 0.04, "label": "river fork" }
+  ],
+  "notes": "Turquoise river bends cut through a red infrared canopy like a map drawn in channels."
+}

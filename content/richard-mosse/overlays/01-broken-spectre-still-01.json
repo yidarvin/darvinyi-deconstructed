@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-broken-spectre-still-01.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.03, 0.09], [0.56, 0.52]], "arrow": true, "label": "outstretched arm" },
+    { "type": "leading_line", "points": [[0.00, 0.68], [0.56, 0.62]], "arrow": false, "label": "horizontal tool" },
+    { "type": "subject_anchor", "x": 0.037, "y": 0.354, "r": 0.04, "label": "left hand" }
+  ],
+  "notes": "An arm, tool, and hand turn the panoramic strip into a directed act."
+}

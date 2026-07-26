@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-broken-spectre-still-04.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.650, "angle": 0, "label": "fireline" },
+    { "type": "leading_line", "points": [[0.02, 0.26], [0.48, 0.57]], "arrow": true, "label": "fallen branch" },
+    { "type": "subject_anchor", "x": 0.116, "y": 0.469, "r": 0.04, "label": "foreground branch" }
+  ],
+  "notes": "A fallen branch crosses a low fireline, holding a blaze behind a dark foreground screen."
+}

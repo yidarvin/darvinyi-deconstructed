@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "08-burnt-pantanal-i.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.047, "y": 0.638, "r": 0.04, "label": "bright left-bank detail" }
+  ],
+  "notes": "Conservative fallback: the irregular aerial field resists a single, unambiguous directional claim."
+}

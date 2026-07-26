@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-broken-spectre-still-05.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.00, 0.00], [0.28, 0.22], [0.62, 0.48], [1.00, 0.80]], "label": "sweeping cable" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.25, "rx": 0.06, "ry": 0.10, "label": "dark opening" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.15, "w": 0.27, "h": 0.85, "label": "figures at left" }
+  ],
+  "notes": "A cable sweeps across an overexposed field, dividing a faint crowd from a black aperture."
+}
