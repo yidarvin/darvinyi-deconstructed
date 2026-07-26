@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -61,3 +61,21 @@ Re-verified the complete critique history: round 2026-07-26 (commit `1edba2f`) a
 ### Prior-round regression check
 
 Re-verified every earlier critique round in this file's history: the initial 2026-07-26 round (commit `1edba2f`) still has three truthful claims on 08—upper field boundary, access road, and cleared pumpjack pad—and scores 94/100. The subsequent 2026-07-26 round (commit `e1c5875`, resolved in `094c39b`) retains 01's road-following access-trace polyline, three distinct claims each on 03 and 10, and the documented NGA image and sheet dimensions in both chapter mirrors and `research.md`. All ten current overlays score at least 94/100, the chapter mirrors remain byte-identical, and `sources.md` retains the NGA links, credits, and per-image four-factor fair-use rationales.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. `01-api-21930378-slaughter-tx`: the current `access trace` polyline at approximately x=0.476 lies about 0.04–0.06 frame-width to the right of the visible tan two-track for most of its length; it only meets the site near the lower end. Redraw it on the actual trace (or remove the access-trace claim), then re-render and re-score. This reopens the 2026-07-26 Builder resolution that cited commit `094c39b` only because the current proof materially regresses to tracing an adjacent crop band rather than the named road; this is not an endpoint-margin issue.
+
+2. `02-api-21931252-san-andres-tx`: the `pumpjack` subject anchor at `(0.578, 0.522)` circles the access road to the right of the black pumpjack. Retarget the anchor to the visible machinery (approximately `(0.50, 0.49)`) and begin the road line at the true site, then re-render and re-score.
+
+3. `03-api-21902614-levelland-tx`: `field edge` at y=0.879 crosses an internal run of crop rows, not a visible field edge. Move it to a genuine field perimeter/road edge or rename it to the feature actually traced; update the associated chapter reading if the claim changes, then re-render and re-score.
+
+4. `05-api-50133229-clear-fork-tx`: the vertical `approach track` at x=0.500 traces one of the otherwise repeated planted furrows, not a distinct access route. Remove it or truthfully relabel it as a crop-row structure, and correct the plate caption/paragraph's unsupported "approach track" claim if retained as a different feature; then re-render and re-score.
+
+5. `09-api-21931656-levelland-tx`: the `pumpjack` anchor at `(0.518, 0.538)` marks the pale clearing below the rig; the visible black pumpjack is approximately `(0.505, 0.49)`. In addition, the horizontal `entry spur` at y=0.540 crosses unbroken vegetation rather than a readable lateral route. Retarget the anchor, remove or retrace the false spur, and revise the plate caption/paragraph so it does not claim an entry spur unless a visible one is shown; then re-render and re-score.
+
+### Advisory (non-blocking)
+
+None.
