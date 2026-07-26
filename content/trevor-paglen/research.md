@@ -10,9 +10,9 @@ dye-sublimation print for *"Fanon" (Even the Dead Are Not Safe) Eigenface*;
 a chromogenic print for *ONYX V/HYBRID and Other Spacecraft from Glacier
 Point*; and a gelatin-silver print for *The Last Pictures (The Narbona Panel /
 Humans Seen Through a Predator Drone)*. The Mastic Beach and Keawaula works
-are also documented as mixed-media works incorporating a C-print. The supplied
-record for *The Last Pictures/EchoStar XVI Launch and Preliminary Orbit* does
-not specify a printing process.
+are also documented as mixed-media works incorporating a C-print. The Rollins
+record documents *The Last Pictures/EchoStar XVI Launch and Preliminary Orbit*
+as C-prints.
 
 SAAM describes Paglen's project as making usually hidden surveillance
 infrastructure visible through distant views of military installations,

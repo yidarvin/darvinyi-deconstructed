@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -37,3 +37,10 @@ Re-verified critique history: the 2026-07-26 round is the only prior round in `g
 - **01-stss-carson-city** and **04-reaper-drone** use fewer than the usual 3–5 primitives, but the current claims remain legible. The latter’s `DUSK HORIZON` was retained after the previous round; its proof and spec are unchanged, so this review does not reopen that settled point.
 - **03-national-security-agencies** retains the previously noted loose `symmetry_axis` schema fit for `TRIPTYCH CENTER`; it remains advisory and unchanged.
 - **11-last-pictures-narbona-predator** — `UPPER IMAGE SIGNAL` is weakly located at the top edge, but it still points to visible instrumental text and is not material enough to block.
+
+## Resolution — 2026-07-26
+
+1. **02-nsa-tapped-mastic-beach:** replaced the full-frame `SHORELINE DIVIDE` horizon claim and the misleading chart anchor with a `PHOTOGRAPHED SHORELINE` polyline constrained to x0.019–0.462 in the beach panel. The proof is visually clean, scores 100/100, and the caption and paragraph now state that the line does not continue through the map.
+2. **EchoStar XVI process:** corrected `sources.md` and `research.md` to record the Rollins collection entry's C-prints designation.
+
+Re-verified critique history: the original 2026-07-26 revision and its first resolution, plus the current 2026-07-26 revision. The earlier required fixes remain intact: the Reaper and Cosmos overlays have no unsupported symmetry axes; Keawaula confines its shoreline to the coast photograph; EchoStar XVI retains only its physical vertical divide and launch anchor, with no false horizontal seam or convergence; and the EXIF wording continues to distinguish downloaded-file metadata from original capture settings. All 11 overlay specs score 100/100, the affected proofs pass visual inspection, `chapter.mdx` and `src/chapters/trevor-paglen.mdx` are byte-identical, and `scripts/check.sh` passes.
