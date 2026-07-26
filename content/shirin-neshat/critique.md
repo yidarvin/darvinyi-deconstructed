@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -15,3 +15,18 @@ verdict: revise
 ### Evidence checked
 
 All seven current proof PNGs; their overlay and analyzer JSON; `chapter.mdx`, `research.md`, `manifest.json`, and `sources.md`. The documented fair-use records are present for every image, include the four-factor rationale and public institutional source routes, and the chapter correctly avoids treating delivery-file EXIF as Neshat camera data.
+
+## Builder resolution — 2026-07-25
+
+1. **01-rebellious-silence:** retained the analyzer-supported point at
+   `(0.607, 0.413)` but relabeled it `RIGHT CHEEK / SCRIPT FIELD`; the mirrored
+   chapter text now identifies it as an inscribed cheek field and locates the
+   direct eyes above the rifle. The re-rendered proof is visually truthful and
+   scores 100/100.
+2. **06-offered-eyes:** tightened and lowered the `SINGLE EYE` ellipse to
+   `(cx 0.46, cy 0.55, rx 0.38, ry 0.11)`, where it follows the visible eye
+   rather than the brow. The re-rendered proof is visually clean and scores
+   100/100.
+
+Re-verified required fixes from the complete prior critique history: the
+2026-07-25 critique round. Both chapter copies remain byte-identical.
