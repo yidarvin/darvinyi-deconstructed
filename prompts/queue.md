@@ -162,7 +162,7 @@ real queue and state live in data/registry.json.
 | 151 | idris-khan                | Idris Khan                   | DONE    |
 | 152 | penelope-umbrico          | Penelope Umbrico             | DONE    |
 | 153 | joachim-schmid            | Joachim Schmid               | DONE    |
-| 154 | michael-wolf              | Michael Wolf                 | PENDING |
+| 154 | michael-wolf              | Michael Wolf                 | DONE    |
 | 155 | doug-rickard              | Doug Rickard                 | PENDING |
 | 156 | mishka-henner             | Mishka Henner                | PENDING |
 | 157 | jon-rafman                | Jon Rafman                   | PENDING |
