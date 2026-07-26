@@ -70,14 +70,14 @@ central mountain remain unambiguously legible.
 
 ### 06 — *Weston with Calotype SepiaPlate Oyster2 GrungeScratch SplitScreen and LightLeak Camera App Filters (IMG_2189)* (2014)
 
-- **Why it matters:** A borrowed modernist still-life is overwhelmed by named app effects, making the frame a lesson in how surface presets redirect attention from subject to interface.
+- **Why it matters:** A mountain landscape is overwhelmed by named app effects, making the frame a lesson in how surface presets redirect attention from subject to interface.
 - **Source:** [David B. Smith Gallery record](https://www.davidbsmithgallery.com/artists/58-penelope-umbrico/works/1667-penelope-umbrico-weston-with-calotype-sepiaplate-oyster2-grungescratch-splitscreen-and-2014/); [public display rendition](https://static-assets.artlogic.net/w_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/davidbsmithgallery/images/view/2a842d9e40f4ff1c542762b5694e1037j/davidb.smithgallery-penelope-umbrico-weston-with-calotype-sepiaplate-oyster2-grungescratch-splitscreen-and-lightleak-camera-app-filters-img_2189-2014.jpg). Credit/rightsholder notice: © Penelope Umbrico; David B. Smith Gallery.
 - **Use basis — fair-use:** F1 analyzes filter layers and split-screen framing; F2 is creative work; F3 needs the intact image to retain the relation of subject and effects; F4 is a credited 1600 × 1200px display copy, linked and non-substitutive.
 - **File:** `raw/penelope-umbrico/06-weston-calotype-filters.jpg` (1600 × 1200px)
 
 ### 07 — *Swiss Alps with Duotone6 Rusty and Burn Camera App Filters (IMG_6388)* (2014)
 
-- **Why it matters:** The mountain's conventional depth is made shallow by red-orange grading and distressed texture, a strong case for color treatment changing a landscape's spatial reading.
+- **Why it matters:** The mountain's conventional depth is made shallow by a pale green, purple, and brown color treatment with distressed texture, a strong case for color treatment changing a landscape's spatial reading.
 - **Source:** [David B. Smith Gallery record](https://www.davidbsmithgallery.com/artists/58-penelope-umbrico/works/1670-penelope-umbrico-swiss-alps-with-duotone6-rusty-and-burn-camera-2014/); [public display rendition](https://static-assets.artlogic.net/w_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/davidbsmithgallery/images/view/b881fdaee4ff302e3041fe9f9d7bc748j/davidb.smithgallery-penelope-umbrico-swiss-alps-with-duotone6-rusty-and-burn-camera-app-filters-img_6388-2014.jpg). Credit/rightsholder notice: © Penelope Umbrico; David B. Smith Gallery.
 - **Use basis — fair-use:** F1 studies color-driven depth and simulated damage; F2 is creative work; F3 needs the whole mountain and border treatment; F4 is a credited 1583 × 1296px display copy, record-linked and non-substitutive.
 - **File:** `raw/penelope-umbrico/07-swiss-alps-duotone-filters.jpg` (1583 × 1296px)
