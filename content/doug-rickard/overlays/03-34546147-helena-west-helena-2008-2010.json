@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-34546147-helena-west-helena-2008-2010.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.625, "angle": 1.2, "label": "LOW GROUND BAND" },
+    { "type": "ellipse", "cx": 0.025, "cy": 0.610, "rx": 0.035, "ry": 0.055, "label": "SETTING SUN" },
+    { "type": "frame_in_frame", "x": 0.500, "y": 0.520, "w": 0.500, "h": 0.260, "label": "TEAL HOUSE" }
+  ],
+  "notes": "The setting sun and teal house pull a sparse winter frame from edge to edge."
+}

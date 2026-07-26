@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-40805716-new-york-city-2009.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.607, "angle": 0.0, "label": "SIDEWALK BAND" },
+    { "type": "ellipse", "cx": 0.080, "cy": 0.820, "rx": 0.075, "ry": 0.190, "label": "ENTERING PASSERBY" },
+    { "type": "ellipse", "cx": 0.553, "cy": 0.672, "rx": 0.035, "ry": 0.115, "label": "WAITING FIGURE" },
+    { "type": "polyline", "points": [[0.000, 0.674], [0.280, 0.705], [0.500, 0.724]], "label": "CURB ARC" }
+  ],
+  "notes": "Two blurred figures activate a storefront corridor bracketed by dark and red façades."
+}

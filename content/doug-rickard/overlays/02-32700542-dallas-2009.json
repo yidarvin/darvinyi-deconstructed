@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-32700542-dallas-2009.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.145, 0.000], [0.185, 0.450], [0.205, 0.840]], "label": "UTILITY POLE" },
+    { "type": "polyline", "points": [[0.195, 0.255], [0.375, 0.560], [0.490, 0.845]], "label": "POLE SHADOW" },
+    { "type": "subject_anchor", "x": 0.413, "y": 0.987, "r": 0.040, "label": "WHITE DOG" }
+  ],
+  "notes": "A pole and its shadow turn the vacant verge into a pointed near-field encounter."
+}

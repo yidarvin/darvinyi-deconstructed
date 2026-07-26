@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-120074209-fresno-2009.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.115, "angle": 1.8, "label": "ROOFLINE" },
+    { "type": "leading_line", "points": [[0.190, 0.930], [0.831, 0.730]], "arrow": true, "label": "CURB" },
+    { "type": "ellipse", "cx": 0.520, "cy": 0.560, "rx": 0.055, "ry": 0.125, "label": "MOTORCYCLE" },
+    { "type": "frame_in_frame", "x": 0.180, "y": 0.400, "w": 0.290, "h": 0.220, "label": "PARKED PICKUP" }
+  ],
+  "notes": "Two parked vehicles measure a broad, quiet street against a low domestic façade."
+}

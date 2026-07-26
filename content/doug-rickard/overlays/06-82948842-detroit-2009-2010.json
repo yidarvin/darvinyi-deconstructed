@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "06-82948842-detroit-2009-2010.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.387, "angle": 0.0, "label": "DISTANT STREET BAND" },
+    { "type": "leading_line", "points": [[0.092, 0.987], [0.484, 0.500]], "arrow": true, "label": "LEFT ROAD EDGE" },
+    { "type": "leading_line", "points": [[0.861, 0.987], [0.484, 0.500]], "arrow": true, "label": "RIGHT ROAD EDGE" },
+    { "type": "subject_anchor", "x": 0.524, "y": 0.703, "r": 0.050, "label": "CROSSING PEDESTRIANS" },
+    { "type": "vanishing_point", "x": 0.484, "y": 0.500, "label": "STREET AXIS" }
+  ],
+  "notes": "Road edges and lane marks pull behind three pedestrians crossing the wide foreground."
+}

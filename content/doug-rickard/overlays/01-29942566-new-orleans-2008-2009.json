@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-29942566-new-orleans-2008-2009.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.472, "angle": 1.1, "label": "STREET-TO-SKY BREAK" },
+    { "type": "leading_line", "points": [[0.344, 0.787], [0.662, 0.620]], "arrow": true, "label": "ROAD EDGE" },
+    { "type": "subject_anchor", "x": 0.492, "y": 0.550, "r": 0.040, "label": "WALKERS" }
+  ],
+  "notes": "A road edge and small figures make distance tangible beneath a broad sky."
+}
