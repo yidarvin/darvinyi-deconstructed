@@ -11,7 +11,7 @@ them under **fair-use**, not as open-licensed material. Centre Pompidou's
 records identify Taryn Simon as creator and name its Musée national d'art
 moderne as copyright holder; Simon's official project page is credited to the
 artist. Each copy is used only as a credited, record-linked, web-sized complete
-frame for nonprofit criticism, scholarship, and transformative composition
+frame for criticism, scholarship, and transformative composition
 teaching. That use does not replace the original print, collection record, or
 licensed reproduction.
 

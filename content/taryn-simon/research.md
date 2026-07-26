@@ -8,7 +8,7 @@ This is a four-image selection from *An American Index of the Hidden and Unfamil
 
 The working files are public display JPEG renditions: three 800-pixel Centre Pompidou images and one 600-pixel image served from Simon's official project page. Their pixel dimensions, embedded colour profiles, and 72-dpi tags describe those web derivatives, not the original photographs or prints. The first three files contain no useful capture EXIF. The Hanford file embeds `HEIDELBERG PREPRESS / Scanner DC3000`; that is metadata of the supplied derivative and is not evidence of Simon's camera, original scan, or production process.
 
-No supplied source establishes a camera body, lens, focal length, aperture, shutter speed, sensitivity, lighting plan, original scan, or print process. This chapter therefore treats tonal values, palette, edge density, and geometry as measurements of the supplied web images only, and limits historical facts to the titles, dates, project membership, credits, and collection records documented in [the source notes](sources.md).
+The Centre Pompidou records for images 01–03 identify their medium as `Epreuve chromogène` (chromogenic print). No supplied source establishes a camera body, lens, focal length, aperture, shutter speed, sensitivity, lighting plan, original scan, or a print process for image 04. This chapter therefore treats tonal values, palette, edge density, and geometry as measurements of the supplied web images only, and limits historical facts to the titles, dates, project membership, credits, print-process record for images 01–03, and collection records documented in [the source notes](sources.md).
 
 ## Source and rights record
 

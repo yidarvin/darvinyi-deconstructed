@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -16,3 +16,12 @@ verdict: revise
 
 - All four rendered proofs were visually reviewed against their overlay specs and ingested images. Stored overlay scores are 100/100 with no deductions or warnings for 01–04; semantic review, rather than score, produced required item 1.
 - The image sources and direct display renditions for all four files resolve successfully. Each image has a record-linked, per-image four-factor fair-use rationale; the 600px Hanford exception is documented. Centre Pompidou’s current structured record metadata identifies Taryn Simon as creator and Centre Pompidou Musée national d’art moderne, Paris as copyright holder, so no attribution correction is required on that point.
+
+## Builder resolution — 2026-07-26
+
+Re-verified the 2026-07-26 critique round in full.
+
+1. **01-hoh-rain-forest:** replaced the unsupported `fallen limb` claim with `low mossed branch` in the overlay, proof, caption, and chapter prose. A fresh analyzer/render/score replay returned 100/100 with no deductions or warnings; the rendered PNG is byte-identical to the stored proof, and the visual pass confirms the stroke follows the selected branch.
+2. **Print-process limitation:** research and the chapter callout now identify images 01–03 as Centre Pompidou-recorded chromogenic prints while retaining the stated limits for camera, lighting, original-scan, and image 04 process claims.
+
+Also removed the unsupported `nonprofit` qualifier from the fair-use overview. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass.
