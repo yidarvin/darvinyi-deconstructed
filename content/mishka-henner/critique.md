@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -43,3 +43,13 @@ Re-verified the complete history for critique round 2026-07-26 (commit `1edba2f`
 ### Prior-round regression check
 
 Re-verified the complete critique history: round 2026-07-26 (commit `1edba2f`) and its resolution (commit `4c1560e`). `08-api-02914653-mountain-view-ca` retains its three truthful primitives—upper field boundary, access road, and cleared pumpjack pad—and scores 94/100 after visual review. Across the current set, all ten overlays score at least 94/100; the other nine retain the named routes, field boundaries, pads, and pumpjacks confirmed in the earlier resolution. The chapter has only documented technical claims, its `src/chapters` mirror is byte-identical, and `sources.md` retains NGA links, credits, and per-image four-factor fair-use rationales.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. `10-api-21932470-slaughter-tx`: the `subject_anchor` at `(0.435, 0.480)` labelled `pumpjack` lands on the small dark wellhead/road-end feature to the left of the visible pumpjack silhouette (approximately `(0.50–0.52, 0.47–0.49)`). Retarget the anchor to the actual pumpjack (or rename it to the feature it marks), then re-render, visually inspect, and re-score the proof. This reopens the immediately preceding 2026-07-26 builder resolution only because that resolution materially changed the unmoved anchor's label from `cleared pad` to `pumpjack`; the new label is now a false compositional claim.
+
+### Advisory (non-blocking)
+
+- `10-api-21932470-slaughter-tx`: the `cleared pad` frame contains the equipment zone but does not encompass the full bright apron to its right and below. Expanding it would read more cleanly, but its present placement still names the correct feature and does not block approval.
