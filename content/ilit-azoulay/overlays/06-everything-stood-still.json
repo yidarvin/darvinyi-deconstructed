@@ -3,9 +3,8 @@
   "image": "06-everything-stood-still.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.30, "y": 0.31, "w": 0.48, "h": 0.25, "label": "central light box" },
-    { "type": "frame_in_frame", "x": 0.38, "y": 0.58, "w": 0.52, "h": 0.27, "label": "lower display" },
-    { "type": "polyline", "points": [[0.28, 0.52], [0.46, 0.52], [0.60, 0.50]], "label": "shelf seam" }
+    { "type": "frame_in_frame", "x": 0.445, "y": 0.316, "w": 0.320, "h": 0.219, "label": "central light box" },
+    { "type": "frame_in_frame", "x": 0.38, "y": 0.58, "w": 0.52, "h": 0.27, "label": "lower display" }
   ],
   "notes": "A bright void and repeated display boxes hold the vertical cascade in suspension."
 }

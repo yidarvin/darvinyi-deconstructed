@@ -1,4 +1,16 @@
-verdict: revise
+verdict: resolved
+
+## Resolution — 2026-07-26
+
+Re-verified critique history: the sole prior round, **2026-07-26**.
+
+1. Removed `CELESTIAL ARC` from `03-new-head`; the proof no longer claims a contour across blank space.
+2. Relabelled the measured anchor in `05-neither-dream-nor-riddle` as `LOWER-LEFT DOLL`, which is the structure it actually marks; revised the accompanying prose so the green figure is no longer described as the anchor.
+3. Tightened `CENTRAL LIGHT BOX` in `06-everything-stood-still` to the white rectangular box and removed the false `SHELF SEAM`; revised the caption and prose accordingly.
+4. Retargeted `DOCUMENT FIELD` in `09-contemplating` to the upright framed document panel.
+5. Removed the unsupported `STORAGE BAY` from `10-glass-storage`; revised its caption and prose accordingly.
+
+The five regenerated proofs received deterministic scores of 100, 97, 100, 97, and 100 respectively (threshold 80), and each passed visual inspection. `scripts/check.sh` passes with the rendered and content chapter files byte-identical.
 
 ## Critique round — 2026-07-26
 
