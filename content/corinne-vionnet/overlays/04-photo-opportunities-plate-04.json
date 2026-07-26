@@ -5,7 +5,6 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.682, "angle": 0.0, "label": "valley band" },
     { "type": "vanishing_point", "x": 0.219, "y": 0.563, "label": "layered approach" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.4, "label": "peak alignment" },
     { "type": "ellipse", "cx": 0.51, "cy": 0.38, "rx": 0.32, "ry": 0.31, "label": "Matterhorn mass" }
   ],
   "notes": "The mountain view is compressed into a portrait stack of peak, valley, and repeated foreground approaches."
