@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-return-of-things.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.03, "w": 0.94, "h": 0.41, "label": "object wall" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.43, "w": 0.94, "h": 0.53, "label": "gold field" },
+    { "type": "polyline", "points": [[0.03, 0.44], [0.51, 0.44], [0.97, 0.44]], "label": "vitrine divide" }
+  ],
+  "notes": "A hard horizontal divide turns a catalog wall above into a monumental object field below."
+}

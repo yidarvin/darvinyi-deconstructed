@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-dreamtime.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.797, "y": 0.43, "r": 0.035, "label": "tree and figure" },
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.04, "w": 0.92, "h": 0.93, "label": "outer vitrine" },
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.30, "w": 0.28, "h": 0.35, "label": "glass cabinet" },
+    { "type": "polyline", "points": [[0.60, 0.72], [0.74, 0.66], [0.87, 0.55]], "label": "stair descent" }
+  ],
+  "notes": "The central statue and stair turn a pile of archive views into an interrupted route."
+}

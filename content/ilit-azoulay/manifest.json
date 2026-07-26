@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-under-the-surface.jpg",
+    "width": 1210,
+    "height": 1600,
+    "sha1": "7ec86968",
+    "source": "01-under-the-surface.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "02-dreamtime.jpg",
+    "width": 1434,
+    "height": 1600,
+    "sha1": "2c6a1c5e",
+    "source": "02-dreamtime.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "03-new-head.jpg",
+    "width": 1217,
+    "height": 1600,
+    "sha1": "81bd41c9",
+    "source": "03-new-head.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "04-true-story.jpg",
+    "width": 1356,
+    "height": 1600,
+    "sha1": "1f62af9a",
+    "source": "04-true-story.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "05-neither-dream-nor-riddle.jpg",
+    "width": 1130,
+    "height": 1600,
+    "sha1": "8dde0bc1",
+    "source": "05-neither-dream-nor-riddle.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "06-everything-stood-still.jpg",
+    "width": 1043,
+    "height": 1600,
+    "sha1": "d96e80e1",
+    "source": "06-everything-stood-still.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-return-of-things.jpg",
+    "width": 1131,
+    "height": 1599,
+    "sha1": "595ce3c7",
+    "source": "07-return-of-things.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-place-they-occupied.jpg",
+    "width": 1600,
+    "height": 1159,
+    "sha1": "b809da44",
+    "source": "08-place-they-occupied.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "09-contemplating.jpg",
+    "width": 1415,
+    "height": 1600,
+    "sha1": "28930d05",
+    "source": "09-contemplating.jpeg",
+    "exif": {}
+  },
+  {
+    "file": "10-glass-storage.jpg",
+    "width": 1191,
+    "height": 1600,
+    "sha1": "82dfba14",
+    "source": "10-glass-storage.jpeg",
+    "exif": {}
+  }
+]
