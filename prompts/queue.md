@@ -172,7 +172,7 @@ real queue and state live in data/registry.json.
 | 161 | trevor-paglen             | Trevor Paglen                | DONE    |
 | 162 | richard-mosse             | Richard Mosse                | DONE    |
 | 163 | taryn-simon               | Taryn Simon                  | DONE    |
-| 164 | daniel-gordon             | Daniel Gordon                | PENDING |
+| 164 | daniel-gordon             | Daniel Gordon                | DONE    |
 | 165 | sara-cwynar               | Sara Cwynar                  | PENDING |
 | 166 | lucas-blalock             | Lucas Blalock                | PENDING |
 | 167 | kate-steciw               | Kate Steciw                  | PENDING |
