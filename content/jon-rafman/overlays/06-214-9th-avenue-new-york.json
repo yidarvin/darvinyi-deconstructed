@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.39, "angle": 0, "label": "FAR CURB BAND" },
-    { "type": "ellipse", "cx": 0.46, "cy": 0.55, "rx": 0.045, "ry": 0.16, "label": "RAISED-ARM FIGURE" },
+    { "type": "ellipse", "cx": 0.475, "cy": 0.585, "rx": 0.055, "ry": 0.235, "label": "RAISED-ARM FIGURE" },
     { "type": "polyline", "points": [[0.33,0.84],[0.47,0.72],[0.62,0.72],[0.79,0.83]], "label": "CURB CHOREOGRAPHY" },
     { "type": "frame_in_frame", "x": 0.48, "y": 0, "w": 0.31, "h": 0.38, "label": "SIGN FIELD" }
   ],

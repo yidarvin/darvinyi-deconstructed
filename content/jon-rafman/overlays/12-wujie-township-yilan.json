@@ -6,7 +6,7 @@
     { "type": "horizon_line", "y": 0.236, "angle": 0, "label": "BALCONY AND AWNING BAND" },
     { "type": "frame_in_frame", "x": 0.58, "y": 0.30, "w": 0.42, "h": 0.55, "label": "FOLDING-GATE GRID" },
     { "type": "ellipse", "cx": 0.51, "cy": 0.70, "rx": 0.07, "ry": 0.14, "label": "CYCLIST AND ARM" },
-    { "type": "polyline", "points": [[0.0,0.85],[0.42,0.82],[0.78,0.82],[1,0.86]], "label": "STREET EDGE" }
+    { "type": "polyline", "points": [[0.0,0.74],[0.25,0.77],[0.51,0.84],[0.74,0.91],[1,0.985]], "label": "STREET EDGE" }
   ],
   "notes": "An involuntary raised arm interrupts a dense field of gates and shutters."
 }

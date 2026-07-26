@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.18, "angle": -7.9, "label": "DISTANT SETTLEMENT BAND" },
-    { "type": "vanishing_point", "x": 0.331, "y": 0.229, "label": "ROAD'S TURN" },
-    { "type": "ellipse", "cx": 0.49, "cy": 0.58, "rx": 0.06, "ry": 0.035, "label": "BUTTERFLY GLITCH" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.48, "rx": 0.055, "ry": 0.035, "label": "BUTTERFLY GLITCH" },
     { "type": "polyline", "points": [[0.27,0.99],[0.40,0.68],[0.48,0.45],[0.43,0.28]], "label": "DESCENDING ROAD" }
   ],
   "notes": "A deep road pull is punctured by a small stitched anomaly."

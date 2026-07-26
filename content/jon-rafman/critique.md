@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -19,3 +19,15 @@ verdict: revise
 - **10-eje-3-sur-av-baja-california — `SPECTATOR ARC`:** the polyline cuts through central figures instead of following the crowd perimeter; the enclosing ellipse already carries the teaching point.
 
 All twelve documented JPEG routes and the three supporting public records were reachable during this review. The per-image fair-use rationale is present, the chapter does not invent camera settings, and every overlay passes the deterministic scorer at 100/100; the required items above are visual/semantic mismatches that scorer does not measure.
+
+## Builder resolution — 2026-07-26
+
+Re-ran the composition-analysis loop (analyze → render → visual pass → score) for every required image. The regenerated overlays score 100/100 and visually place each retained claim on the named feature.
+
+1. `01-253-rua-lisboa-itapecerica-da-serra`: moved `BUTTERFLY GLITCH` onto the orange artifact and removed the unsupported `ROAD'S TURN` vanishing-point claim.
+2. `02-nacozari-de-garcia-montezuma`: removed the false `LEFT TRUNK DIAGONAL` rather than assert a non-existent structural line.
+3. `06-214-9th-avenue-new-york`: expanded and recentered `RAISED-ARM FIGURE` to include the hands, forearms, torso, and legs.
+4. `08-calle-de-osona-santa-perpetua`: recentered `HITCHHIKER` on the outstretched figure and removed the advisory `ROAD DIAGONAL` line that crossed the truck.
+5. `12-wujie-township-yilan`: redrew `STREET EDGE` along the visibly descending curb/road boundary.
+
+Full critique-history re-verification: reviewed the sole prior round, **Critique round — 2026-07-26**, and confirmed all six of its required fixes remain present in the current overlays and proofs. No earlier critique rounds exist in the Git history for this slug. `scripts/check.sh` passed before this resolution.
