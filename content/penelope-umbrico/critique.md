@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -66,3 +66,23 @@ verdict: resolved
   100/100 (passing the 80 threshold).
 - Passed `scripts/check.sh`, `python3 scripts/validate_pipeline.py`, and
   chapter-copy parity verification.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **Documented material and edition information is incorrectly denied throughout the chapter and research note.** The linked David B. Smith Gallery records do supply material data for all twelve selected works—for example: 01 and 03, chromogenic machine prints; 05, archival pigment prints; 06–10, chromogenic prints; 11, archival giclée prints on polyester canvas with UV protective coating; and 12, c-prints on metallic paper mounted to aluminum. Several records also state dimensions and/or edition information. Correct the claims in `research.md` and `chapter.mdx` that the supplied sources state no print medium, edition, dimensions, or material specification (including the final Callout). Preserve the justified caution about unverified exposure, lens, and original-source settings, but do not characterize documented object metadata as unavailable.
+
+2. **05-range-masters-of-photography — Correct the chapter/research denial of the documented workflow.** Its linked gallery record says that Umbrico rephotographed mountain images with her iPhone and processed them through camera apps. `chapter.mdx` and `research.md` currently say the record provides no camera information or capture workflow. Replace that false blanket denial with an accurate, bounded account; it still must not invent lens, exposure, or other unrecorded settings.
+
+3. **10-adams-lomoredscale-filters — Correct the unsupported physical claim in the overlay and chapter.** The rendered proof supports a vertical visual/color division, but not the overlay label `PRINT DIVISION` or the chapter’s claim that it is a “material boundary.” The linked record identifies the object as a single chromogenic print and does not establish a physical internal seam. Rename the primitive and revise the corresponding chapter language to describe the visible image/color division only.
+
+### Advisory (non-blocking)
+
+- None.
+
+### Review evidence
+
+- Visually rechecked all twelve rendered proof PNGs against their specs. Apart from the plate 10 physical-seam claim, the 3–5 primitives per plate trace the named visible structures; rerun deterministic scores pass at 82–100.
+- The prior plate 06 mountain-landscape correction and plate 07 color-treatment correction remain resolved. The new source-integrity findings are not a reopening of those settled fixes.
+- Every linked gallery record and public display rendition returned HTTP 200. Each source entry retains a credit/rightsholder notice and concise per-image four-factor fair-use rationale.
