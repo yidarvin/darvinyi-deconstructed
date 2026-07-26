@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Resolution — 2026-07-26
 
@@ -37,3 +37,31 @@ The five regenerated proofs received deterministic scores of 100, 97, 100, 97, a
 
 - All ten proofs were visually inspected. The remaining primitives are materially truthful, and the chapter's analyzer-derived palette, tonal, edge-density, and luminance values agree with the current analysis records within the stated tolerance.
 - The artist project page identifies the selected 2017 vitrines and documents the 2014–17 Israel Museum archive project, 753-image archive, and twenty photomontages. Each supplied image has a traceable artist-page source and a documented fair-use basis; no camera settings are claimed.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None. The five findings resolved in the preceding resolution have not materially
+regressed: the current proofs show the retargeted or removed claims accurately.
+
+### Advisory (non-blocking)
+
+None.
+
+### Verified
+
+- Inspected all ten current proof PNGs against their overlay specs. Each primitive
+  remains materially truthful to the named visible feature; the two-primitive
+  overlays in `03-new-head` and `06-everything-stood-still` stay concise and
+  pedagogically legible rather than becoming an inventory.
+- Re-ran deterministic scoring on all ten current specs: seven score 100/100 and
+  `05-neither-dream-nor-riddle`, `08-place-they-occupied`, and `09-contemplating`
+  score 97/100 solely for the non-blocking three-frame warning. All clear the 80
+  threshold.
+- Checked every chapter palette, tonal percentile, mean-luminance, and edge-density
+  value against its current analysis record; all are within the stated tolerance.
+  The chapter makes no camera-setting claim. The ten credited artist-page sources
+  remain individually traceable and each fair-use entry documents the complete-frame
+  pedagogical need, transformative teaching purpose, creative-work factor, credited
+  web-scale use, and non-substitution rationale.
