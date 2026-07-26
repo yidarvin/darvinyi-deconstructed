@@ -31,9 +31,9 @@ Muniz makes temporary drawings, arrangements, and reconstructions from materials
 - **File:** `raw/vik-muniz/04-self-portrait.jpg` (843 × 997px)
 
 ### 05 — *Double Elvis* (1999)
-- **Why it matters:** Muniz remakes Warhol's doubled celebrity image in chocolate syrup, preserving the pair while turning pop-image repetition into a viscous, unstable surface.
+- **Why it matters:** Muniz remakes Warhol's celebrity image in chocolate syrup, turning an iconic quotation into a viscous, unstable surface.
 - **Source:** https://www.artic.edu/artworks/154279/double-elvis (Art Institute of Chicago, object 154279; public display rendition: https://www.artic.edu/iiif/2/d37b05af-ca3e-5356-d1e6-387d3684369e/full/1600,/0/default.jpg)
-- **Rights / fair-use assessment:** Artist: Vik Muniz; Art Institute API: not public domain; copyright notice not supplied; collection credit: Horace W. Goldsmith Foundation Fund. **Factor 1:** transformative teaching studies doubled silhouette, quotation, and syrup's false continuity. **Factor 2:** a creative photographic work. **Factor 3:** the full paired image is required to analyze repetition and its source-image logic. **Factor 4:** the 843 × 1071px public collection derivative is record-linked and cannot substitute for the print or a licensed reproduction.
+- **Rights / fair-use assessment:** Artist: Vik Muniz; Art Institute API: not public domain; copyright notice not supplied; collection credit: Horace W. Goldsmith Foundation Fund. **Factor 1:** transformative teaching studies the central figure, quotation, and syrup's false continuity. **Factor 2:** a creative photographic work. **Factor 3:** the full figure is required to analyze the iconic pose and material translation. **Factor 4:** the 843 × 1071px public collection derivative is record-linked and cannot substitute for the print or a licensed reproduction.
 - **File:** `raw/vik-muniz/05-double-elvis.jpg` (843 × 1071px)
 
 ### 06 — *Pillow II (after Dürer)* (1999)

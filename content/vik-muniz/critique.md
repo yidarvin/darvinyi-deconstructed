@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -11,3 +11,16 @@ verdict: revise
 - The remaining proofs use three primitives each and their labels trace visible features with adequate clarity. The faint low tonal break in `01-wind` and the interpretive contour/diagonal labels in `07`–`10` remain materially readable rather than misleading.
 - The numeric tonal, palette, edge-density, and coordinate claims in `chapter.mdx` agree with the current analyzer output within the stated tolerance. No camera-setting claims appear.
 - All ten records provide traceable public source links, artist/collection credit, and a concise per-image four-factor fair-use rationale. The 640px floor is met.
+
+## Resolution — 2026-07-25
+
+1. Re-ran the composition-analysis loop for `05-double-elvis`: its vertical
+   primitive remains at the measured x0.488 axis, is now labelled `CENTRAL FIGURE
+   AXIS`, and its regenerated proof visibly traces the one central Elvis figure.
+   The deterministic score is 100/100 with no deductions or warnings.
+2. Removed the unsupported “preserving the pair” and paired-image assertions from
+   `sources.md`. The work title *Double Elvis* and the documented historical
+   reference to Warhol's *Double Elvis* remain intact.
+3. Re-verified every required item from critique round 2026-07-25 (the complete
+   critique history for this slug). No earlier required rounds exist, and the
+   current chapter remains byte-identical to `src/chapters/vik-muniz.mdx`.
