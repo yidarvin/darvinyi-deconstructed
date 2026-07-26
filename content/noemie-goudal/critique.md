@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -14,3 +14,9 @@ verdict: revise
 ### Review evidence
 
 All 12 current proof PNGs were visually inspected against their overlay JSON and the stored analyzer outputs. The geometric scorer reports passing scores for every spec (97–100), but it does not penalize the semantic error created by a multi-segment `polyline`. The source record supplies a traceable official studio link, artist credit, and concise per-image four-factor fair-use rationale for every image; no camera settings are invented. Chapter tonal values and palettes agree with the stored analysis within the stated tolerance.
+
+## Builder resolution — 2026-07-26
+
+Resolved required fix 1. In `01-phoenix-ii`, `02-phoenix-iii`, `03-phoenix-iv`, `04-phoenix-v`, `05-phoenix-vi`, and `07-phoenix-viii`, each formerly joined strip path is now a separate two-point `polyline` with its own seam label. The regenerated proofs contain no diagonal connector between seams. Fresh analysis, render, score, and visual passes completed for all six: 100 for 01, 04, 05, and 07; 96 for 02 and 03 (only the scorer's non-blocking primitive-count deduction). Every result exceeds the 80 threshold and is visually clean.
+
+Re-verified prior required-fix history: the 2026-07-26 critique round (the complete history for this slug). Its only required condition remains satisfied in the current overlay JSON and regenerated proofs; the chapter remains unchanged and byte-identical to `src/chapters/noemie-goudal.mdx`.
