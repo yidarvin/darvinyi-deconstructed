@@ -1,0 +1,106 @@
+[
+  {
+    "file": "01-golem-printer.jpg",
+    "width": 640,
+    "height": 753,
+    "sha1": "601a2cb3",
+    "source": "01-golem-printer.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-homes-dallas-fort-worth.jpg",
+    "width": 700,
+    "height": 553,
+    "sha1": "02efa6af",
+    "source": "02-homes-dallas-fort-worth.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-emblem-apocalypse-now.jpg",
+    "width": 700,
+    "height": 700,
+    "sha1": "7dacbaa2",
+    "source": "03-emblem-apocalypse-now.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-100-special-moments-newlyweds.jpg",
+    "width": 541,
+    "height": 720,
+    "sha1": "37185bc4",
+    "source": "04-100-special-moments-newlyweds.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-100-special-moments-little-leaguer.jpg",
+    "width": 473,
+    "height": 720,
+    "sha1": "b43ee429",
+    "source": "05-100-special-moments-little-leaguer.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-still-life-speed-of-sunrise.jpg",
+    "width": 700,
+    "height": 587,
+    "sha1": "915589f4",
+    "source": "06-still-life-speed-of-sunrise.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-loop-chicago.jpg",
+    "width": 720,
+    "height": 480,
+    "sha1": "c853eba1",
+    "source": "07-the-loop-chicago.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-american-varietal-us-population.jpg",
+    "width": 720,
+    "height": 430,
+    "sha1": "6f3944e6",
+    "source": "08-american-varietal-us-population.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-baroque-painting.jpg",
+    "width": 720,
+    "height": 720,
+    "sha1": "feb4686a",
+    "source": "09-baroque-painting.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-color-wheel.jpg",
+    "width": 720,
+    "height": 720,
+    "sha1": "5c99c956",
+    "source": "10-color-wheel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-good-and-evil-12.jpg",
+    "width": 720,
+    "height": 693,
+    "sha1": "1267f5aa",
+    "source": "11-good-and-evil-12.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-automatic-pattern-for-you.jpg",
+    "width": 720,
+    "height": 535,
+    "sha1": "da234a1a",
+    "source": "12-automatic-pattern-for-you.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 6s",
+      "DateTimeOriginal": "2016:08:26 16:31:34",
+      "FocalLength": "4.15",
+      "ExposureTime": "0.025",
+      "FNumber": "2.2",
+      "ISOSpeedRatings": "25"
+    }
+  }
+]

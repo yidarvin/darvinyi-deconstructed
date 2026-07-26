@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-american-varietal-us-population.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.050, "y": 0.260, "w": 0.890, "h": 0.410, "label": "multi-panel mural" },
+    { "type": "leading_line", "points": [[0.050, 0.600], [0.940, 0.600]], "arrow": true, "label": "mural lower rail" },
+    { "type": "polyline", "points": [[0.120, 0.580], [0.310, 0.270], [0.550, 0.280], [0.860, 0.600]], "label": "alternating diagonal colour flow" }
+  ],
+  "notes": "The installation's long panel array turns data into an angled sequence of colour fields."
+}

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "image": "04-100-special-moments-newlyweds.jpg",
+  "width": 541,
+  "height": 720,
+  "aspect": 0.7514,
+  "tonal": {
+    "mean": 0.4358203057357673,
+    "std": 0.2375131480772433,
+    "p05": 0.12156862745098039,
+    "p95": 0.8470588235294118,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#60534b",
+    "#2b272b",
+    "#d9cecc",
+    "#95776b",
+    "#b9a69f"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.10138888888888889,
+    "angle_deg": 0.0,
+    "confidence": 0.670051334281735,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.0,
+      0.9916666666666667
+    ],
+    "regions": [
+      {
+        "cx": 0.03631855217701749,
+        "cy": 0.9759476125820321,
+        "x": 0.0,
+        "y": 0.9458333333333333,
+        "w": 0.08687615526802218,
+        "h": 0.05416666666666667,
+        "area_frac": 0.003781577325939618
+      },
+      {
+        "cx": 0.9685066935529043,
+        "cy": 0.9762509352787131,
+        "x": 0.9297597042513863,
+        "y": 0.9472222222222222,
+        "w": 0.07024029574861368,
+        "h": 0.05277777777777778,
+        "area_frac": 0.0030499075785582253
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6880775419945301,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.9201420344804578,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.9916666666666667,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.101,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.67,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.992,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

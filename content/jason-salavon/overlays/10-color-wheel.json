@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-color-wheel.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.060, "y": 0.080, "w": 0.880, "h": 0.840, "label": "mounted print" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.500, "rx": 0.390, "ry": 0.390, "label": "colour-wheel perimeter" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.500, "rx": 0.110, "ry": 0.110, "label": "central void" }
+  ],
+  "notes": "Small search-result images are ordered as a ring with a deliberately empty center."
+}

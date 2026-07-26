@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-still-life-speed-of-sunrise.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.130, "y": 0.150, "w": 0.740, "h": 0.660, "label": "video image field" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.420, "rx": 0.120, "ry": 0.220, "label": "pitcher" },
+    { "type": "ellipse", "cx": 0.660, "cy": 0.560, "rx": 0.090, "ry": 0.100, "label": "right vessel" }
+  ],
+  "notes": "The documented display frame contains a centered generated still life, with its base held low in the field."
+}

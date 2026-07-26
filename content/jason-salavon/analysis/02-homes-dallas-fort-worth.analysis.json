@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "02-homes-dallas-fort-worth.jpg",
+  "width": 700,
+  "height": 553,
+  "aspect": 1.2658,
+  "tonal": {
+    "mean": 0.5942488083841132,
+    "std": 0.2128019376123682,
+    "p05": 0.3254901960784314,
+    "p95": 1.0,
+    "edge_density": 0.006708860759493671
+  },
+  "palette": [
+    "#8eacb8",
+    "#546043",
+    "#fcfdfc",
+    "#829a7f",
+    "#6f825e"
+  ],
+  "lines": [
+    {
+      "x1": 0.032857142857142856,
+      "y1": 0.04159132007233273,
+      "x2": 0.9657142857142857,
+      "y2": 0.04159132007233273,
+      "angle_deg": 0.0,
+      "length": 0.7319960846556691,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.03571428571428571,
+      "y1": 0.9312839059674503,
+      "x2": 0.9628571428571429,
+      "y2": 0.9312839059674503,
+      "angle_deg": 0.0,
+      "length": 0.7275121882718671,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.032857142857142856,
+      "y1": 0.9294755877034359,
+      "x2": 0.032857142857142856,
+      "y2": 0.0433996383363472,
+      "angle_deg": -90.0,
+      "length": 0.5492773070157394,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.9657142857142857,
+      "y1": 0.9294755877034359,
+      "x2": 0.9657142857142857,
+      "y2": 0.0433996383363472,
+      "angle_deg": -90.0,
+      "length": 0.5492773070157394,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.8137432188065099,
+    "angle_deg": 0.0,
+    "confidence": 0.6868329825997957,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5071428571428571,
+      0.9891500904159132
+    ],
+    "regions": [
+      {
+        "cx": 0.5000630891950689,
+        "cy": 0.9700746275506925,
+        "x": 0.4542857142857143,
+        "y": 0.9330922242314648,
+        "w": 0.09285714285714286,
+        "h": 0.06690777576853527,
+        "area_frac": 0.005089124257297856
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9970963080728865,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.9469229954628313,
+    "horizontal_axis_y": 0.4875
+  },
+  "subject_anchor": {
+    "x": 0.5071428571428571,
+    "y": 0.9891500904159132,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.814,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.69,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.507,
+      "y": 0.989,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

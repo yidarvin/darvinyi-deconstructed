@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-100-special-moments-newlyweds.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.320, "cy": 0.620, "rx": 0.290, "ry": 0.380, "label": "white dress mass" },
+    { "type": "ellipse", "cx": 0.700, "cy": 0.600, "rx": 0.270, "ry": 0.380, "label": "dark suit mass" },
+    { "type": "polyline", "points": [[0.350, 0.170], [0.500, 0.260], [0.650, 0.170]], "label": "paired face contour" }
+  ],
+  "notes": "Two facial masses and opposed pale and dark body masses remain legible while the individual photographs dissolve."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-good-and-evil-12.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.150, "y": 0.150, "w": 0.320, "h": 0.650, "label": "left aggregate panel" },
+    { "type": "frame_in_frame", "x": 0.530, "y": 0.150, "w": 0.310, "h": 0.650, "label": "right aggregate panel" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "diptych comparison axis" },
+    { "type": "leading_line", "points": [[0.150, 0.800], [0.840, 0.800]], "arrow": true, "label": "shared panel baseline" }
+  ],
+  "notes": "Two tall, closely spaced image fields make the binary search system read as a paired installation."
+}

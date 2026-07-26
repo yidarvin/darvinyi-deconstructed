@@ -2,8 +2,10 @@
 
 ## Selection and acquisition note
 
-This is a cross-section of Salavon's canonical aggregation practice: averaged
-vernacular images, screen and art-historical source material, and image indexes.
+This is a cross-section of Salavon's computational image-making: artist-authored
+software, statistical composites, sampled screen material, virtual
+reconstructions, data visualization, palette systems, image-search results, and
+procedural patterning. It is not a uniform survey of photographic averaging.
 All twelve files came from public display renditions on [Jason Salavon's official
 archive](https://salavon.com/), whose footer states “Copyright © 1997–2026 Jason
 Salavon.” They are therefore documented as **fair-use**, not as open-licensed works.
@@ -16,24 +18,27 @@ instruction; (2) the work is a creative copyrighted image, weighing against use;
 (3) the whole displayed frame is required to analyze its aggregate structure rather
 than decorate the chapter; and (4) the credited, linked, web-sized copy does not
 substitute for the artist's original, archive page, or a licensed reproduction.
-Credit and copyright notice for every item: Jason Salavon, © Jason Salavon.
+Credit for each displayed work: Jason Salavon; the artist archive footer carries
+the notice “Copyright © 1997–2026 Jason Salavon.” That identifies the public
+archive/display route, not ownership of every incorporated source image.
 
 ## Acquired shortlist
 
 ### 01. *Golem (Printer)* (2002)
 
-The printer's dense, centrally stacked machinery lets an averaged image retain a
-surprising silhouette: useful for reading how alignment produces a stable subject
-from varied inputs. Source: [artist archive work page](https://salavon.com/work/Golem/image/253/); direct public display rendition: `https://salavon.com/site_media/projects/Golem/Golem_printer_web.png`.
+This artist-supplied installation view shows a printer presenting successive
+abstract paintings. The archive identifies *Golem* as an artist-authored
+automaton program that produced 100,000 paintings; the printer is documentation
+of that output, not an averaged printer image. Source: [artist archive work page](https://salavon.com/work/Golem/image/253/); direct public display rendition: `https://salavon.com/site_media/projects/Golem/Golem_printer_web.png`.
 
-**Use basis: fair-use.** The complete portrait frame is needed to teach the machine's
-centered mass, symmetrical margins, and cumulative texture; the 640 × 753px credited
-teaching copy is not a market substitute.
+**Use basis: fair-use.** The complete installation frame is needed to teach the printer,
+continuous paper, and serial display; the 640 × 753px credited teaching copy is not a
+market substitute.
 
 ### 02. *114 Homes for Sale, Dallas/Ft. Worth Metroplex* (2002)
 
-The composite turns real-estate photographs into a nearly generic suburban frontage,
-making repeated gables, lawns, and horizon lines legible as a typology. Source:
+The digital C-print mean-averages realtor photographs in regional median-price bands,
+producing a nearly generic suburban landscape. Source:
 [artist archive work page](https://salavon.com/work/Homes/image/174/); direct public
 display rendition: `https://salavon.com/site_media/projects/Homes/HomesForSale_DFW.png`.
 
@@ -43,8 +48,8 @@ transformative criticism, not replacement.
 
 ### 03. *Emblem (Apocalypse Now)* (2004)
 
-An averaged movie image compresses cinematic spectacle into a dark, circular emblem,
-showing how tonal clustering can survive when narrative detail disappears. Source:
+Sampled film frames are organized in outwardly flowing concentric rings, producing a
+circular emblem rather than a cinematic still. Source:
 [artist archive work page](https://salavon.com/work/Emblem/image/14/); direct public
 display rendition: `https://salavon.com/site_media/projects/emblem/Emblem_Apocalypse.png`.
 
@@ -54,8 +59,9 @@ non-substitutive.
 
 ### 04. *100 Special Moments (Newlyweds)* (2004)
 
-The merged wedding snapshots make a white central gown and paired faces emerge from
-many photographs, a clear lesson in convergence, symmetry, and ghosted detail.
+One hundred online commemorative photographs are combined with mean and median
+operations; the supplied rendition makes a white gown and paired face masses appear
+from the resulting composite.
 Source: [artist archive work page](https://salavon.com/work/SpecialMoments/image/176/);
 direct public display rendition: `https://salavon.com/site_media/projects/100SpecialMoments/Newlyweds_web.png`.
 
@@ -65,9 +71,9 @@ transformative scholarship and composition teaching.
 
 ### 05. *100 Special Moments (Little Leaguer)* (2004)
 
-Repeated youth-sports snapshots concentrate into a player-like figure while field and
-sky smear into broad bands, demonstrating how a centered convention governs an image
-set. Source: [artist archive work page](https://salavon.com/work/SpecialMoments/image/177/);
+One hundred online commemorative photographs are combined with mean and median
+operations; the supplied rendition concentrates into a player-like figure against a
+soft field. Source: [artist archive work page](https://salavon.com/work/SpecialMoments/image/177/);
 direct public display rendition: `https://salavon.com/site_media/projects/100SpecialMoments/LittleLeaguer_web.png`.
 
 **Use basis: fair-use.** The whole vertical frame is necessary to teach the figure's
@@ -76,9 +82,9 @@ transformative and not a substitute for the archive or a licensed print.
 
 ### 06. *Still Life at the Speed of Sunrise* (2005)
 
-This accumulated still life converts photographic variation into a luminous horizontal
-field and a suspended central object, useful for studying temporal aggregation as
-composition. Source: [artist archive work page](https://salavon.com/work/StillLife/image/119/);
+This completely synthetic, photorealistic 3D animation changes continuously over
+eighty minutes. The supplied still documents a central pitcher and vessels; it is not
+a photographic aggregate. Source: [artist archive work page](https://salavon.com/work/StillLife/image/119/);
 direct public display rendition: `https://salavon.com/site_media/projects/StillLifeSpeedSunrise/StillLifeAtTheSpeedOfSunrise_Inst.png`.
 
 **Use basis: fair-use.** The complete landscape display is needed to analyze the
@@ -87,9 +93,9 @@ a non-substitutive critical reference.
 
 ### 07. *The Loop, Chicago, 1848–2007* (2007)
 
-The historical city index makes architecture read as an accumulated corridor: its
-receding street bands show how a large archive can produce an apparently continuous
-urban space. Source: [artist archive work page](https://salavon.com/work/LoopChicago/image/219/);
+The city was virtually reconstructed with semi-transparent textured rectangles and
+then virtually photographed. This installation view makes that modeled city read as
+a lateral corridor; it is not a historical image index. Source: [artist archive work page](https://salavon.com/work/LoopChicago/image/219/);
 direct public display rendition: `https://salavon.com/site_media/projects/LoopChicago1848-2007/TheLoop_Inst2.png`.
 
 **Use basis: fair-use.** The full installation view is necessary to analyze its
@@ -98,8 +104,9 @@ does not replace the original work or any licensed reproduction.
 
 ### 08. *American Varietal (US Population, by County, 1790–2000)* (2009)
 
-This population index uses repeated vertical units and changing density to translate
-historical data into an architectural field, making modular rhythm the teaching focus.
+This permanent Census Bureau installation maps 3,171 counties and their 1790–2010
+population-growth curves as a three-dimensional form. Its panels turn that data into
+an architectural field.
 Source: [artist archive work page](https://salavon.com/work/AmericanVarietalGSA/image/11/);
 direct public display rendition: `https://salavon.com/site_media/projects/AmericanVarietalGSA/AmVar_Census_One.png`.
 
@@ -109,9 +116,9 @@ transformative analytical use.
 
 ### 09. *Baroque Painting* (2010)
 
-An aggregate of baroque painting resolves into an off-center warm-toned mass and deep
-perimeter shadow, helping distinguish an averaged composition from a merely blurred
-picture. Source: [artist archive work page](https://salavon.com/work/BaroqueImpressionistPainting/image/310/);
+An archival inkjet uses a 1,024-colour palette derived from Rubens paintings; colour
+is ordered by saturation and frequency. The pictured nested-square optical field is
+therefore generated from a palette system, not a blurred average. Source: [artist archive work page](https://salavon.com/work/BaroqueImpressionistPainting/image/310/);
 direct public display rendition: `https://salavon.com/site_media/projects/BaroqueImpressionistPainting/Salavon_BaroquePainting_web.png`.
 
 **Use basis: fair-use.** The full square field is needed to teach central weight,
@@ -120,8 +127,8 @@ and non-substitutive.
 
 ### 10. *&lt;Color&gt; Wheel* (2012)
 
-The circular montage organizes search-derived images by hue, turning the standard
-color wheel into a dense radial composition of small photographs and color families.
+Thousands of Bing image-search results for colour terms are organized into a dense
+radial wheel of small images and colour families.
 Source: [artist archive work page](https://salavon.com/work/color-wheel/image/409/);
 direct public display rendition: `https://salavon.com/site_media/projects/color-wheel/ColorWheel_MMG12_mEdit1_jWeb_1.png`.
 
@@ -131,8 +138,9 @@ supports transformative teaching and cannot replace the archive or licensed imag
 
 ### 11. *Good and Evil ’12* (2012)
 
-The paired high-contrast aggregate shows how an inherited moral opposition can be
-rebuilt as an image structure of facing dark and light masses. Source: [artist archive
+Two structurally isomorphic sunbursts assemble roughly 25,000 search thumbnails: one
+from one hundred positive words and one from one hundred negative words. The paired
+installation visualizes a query system; it does not establish a moral truth. Source: [artist archive
 work page](https://salavon.com/work/good-and-evil-2012/image/417/); direct public
 display rendition: `https://salavon.com/site_media/projects/good-and-evil-2012/ge_inst1_web.png`.
 
@@ -142,9 +150,9 @@ limited scholarly reproduction, not a market replacement.
 
 ### 12. *Automatic Pattern for You* (2016)
 
-The large procedural pattern makes small repeated motifs cohere into a field while
-still allowing local deviations, a late example of Salavon's move from average image
-to generated visual system. Source: [artist archive work page](https://salavon.com/work/automatic-pattern/image/544/);
+This series transforms photographs of patterns—such as rugs and tiles—into painterly
+abstractions. The archive documents 300 unique one-off archival-inkjet prints; the
+display view shows eight examples rather than a single averaged image. Source: [artist archive work page](https://salavon.com/work/automatic-pattern/image/544/);
 direct public display rendition: `https://salavon.com/site_media/projects/automatic-pattern-you/APNew.png`.
 
 **Use basis: fair-use.** The complete landscape frame is necessary to examine the

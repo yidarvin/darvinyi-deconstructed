@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "05-100-special-moments-little-leaguer.jpg",
+  "width": 473,
+  "height": 720,
+  "aspect": 0.6569,
+  "tonal": {
+    "mean": 0.42559574311284293,
+    "std": 0.061285168340400036,
+    "p05": 0.33725490196078434,
+    "p95": 0.5411764705882353,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#736450",
+    "#806f5b",
+    "#635646",
+    "#947869",
+    "#a0908a"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.1597222222222222,
+    "angle_deg": 0.0,
+    "confidence": 0.9079466329162599,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5116279069767442,
+      0.05416666666666667
+    ],
+    "regions": [
+      {
+        "cx": 0.5114498417357783,
+        "cy": 0.050494931811796234,
+        "x": 0.4334038054968288,
+        "y": 0.0,
+        "w": 0.15644820295983086,
+        "h": 0.11388888888888889,
+        "area_frac": 0.015095724688747944
+      },
+      {
+        "cx": 0.32373797689780426,
+        "cy": 0.6091392025948813,
+        "x": 0.25158562367864695,
+        "y": 0.5527777777777778,
+        "w": 0.1543340380549683,
+        "h": 0.11527777777777778,
+        "area_frac": 0.013780244303500118
+      },
+      {
+        "cx": 0.2614570595965945,
+        "cy": 0.415289039039039,
+        "x": 0.2156448202959831,
+        "y": 0.37916666666666665,
+        "w": 0.09513742071881606,
+        "h": 0.0763888888888889,
+        "area_frac": 0.0054322292694385715
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7973784541490025,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.7796263629996316,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.5116279069767442,
+    "y": 0.05416666666666667,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.16,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.91,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.8,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.512,
+      "y": 0.054,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

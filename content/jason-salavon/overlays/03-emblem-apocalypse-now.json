@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-emblem-apocalypse-now.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.500, "cy": 0.500, "rx": 0.465, "ry": 0.465, "label": "outer aggregate disc" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.500, "rx": 0.180, "ry": 0.180, "label": "compressed central core" },
+    { "type": "subject_anchor", "x": 0.797, "y": 0.834, "r": 0.035, "label": "outer ring" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "radial axis" }
+  ],
+  "notes": "Sampled film frames become a centered, concentric emblem rather than a scene."
+}

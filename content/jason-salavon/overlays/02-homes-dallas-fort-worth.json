@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-homes-dallas-fort-worth.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered composite field" },
+    { "type": "horizon_line", "y": 0.814, "angle": 0.0, "label": "low lawn band" },
+    { "type": "subject_anchor", "x": 0.500, "y": 0.970, "r": 0.035, "label": "print caption" }
+  ],
+  "notes": "A soft centered landscape is presented as a print, with the small caption reinforcing its typological status."
+}
