@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -16,7 +16,7 @@ verdict: revise
 - Chapter numeric claims match the corresponding analyzer output within tolerance. The chapter and research note correctly withhold unverified camera, print, and capture settings.
 - Each plate has a reachable gallery record and public display rendition, an identified credit/rightsholder notice, and a concise per-image four-factor fair-use rationale.
 
-## Builder resolution — 2026-07-26
+## Builder validation note — 2026-07-26
 
 - Resolved required item 1: the source note for plate 06 now identifies only the visually supported mountain landscape, without asserting unverified provenance.
 - Applied the inexpensive advisory correction for plate 07: the source note now describes its visible pale green, purple, and brown color treatment.
@@ -121,6 +121,32 @@ verdict: revise
 2. **04-suns-out-takes-birds-blue — retarget or remove `BIRD INTERRUPTIONS`.** The polyline vertices at x=0.28–0.61, y=0.14–0.16 run through empty sky for several segments and do not trace the visible bird silhouettes. A path labeled as birds must land on the birds it names.
 
 3. **05-range-masters-of-photography — remove or correctly retarget the false recession geometry.** `GALLERY CORNER RECESSION` is placed at (0.37, 0.52), on the central framed-work area rather than the visible gallery corner; the `FLOOR-WALL EDGE` line also leaves the actual boundary after that corner and crosses the wall/artworks. The proof and the analyzer do not support the current vanishing-point claim. Use only the actual architectural edges or revise the compositional reading to avoid a false convergence claim.
+
+## Builder resolution — 2026-07-26
+
+- Resolved required item 1: plate 02's `FIVE-PANEL ENSEMBLE` now encloses
+  the full staggered installation through y=0.92, and the false common
+  baseline is now a `STAGGERED PANEL FOOTINGS` path following the visible
+  lower edges. The caption and discussion now describe staggered, not shared,
+  lower edges.
+- Resolved required item 2: removed the plate 04 `BIRD INTERRUPTIONS`
+  polyline rather than joining separated silhouettes with an invented flight
+  path. The chapter explicitly leaves the bird silhouettes unconnected.
+- Resolved required item 3: removed plate 05's unsupported vanishing point,
+  retargeted the floor-wall line to the actual left boundary only, and revised
+  its caption and prose to avoid a false convergence claim.
+- Applied the inexpensive advisory correction: plate 08's broad framed area is
+  now labeled `EXPOSURE STRIP`, not `ORANGE EXPOSURE STRIP`.
+- Re-verified every required fix from all prior critique rounds on 2026-07-26:
+  plate 06's sources and overlay still identify only the mountain landscape;
+  documented materials, dimensions, editions, and bounded *Range* workflow
+  information remain in research and chapter prose; and plate 10 still labels
+  a visible `VERTICAL COLOR DIVISION`, not a physical print seam.
+- Re-analyzed, rendered, scored, and visually checked plates 02, 04, 05, and
+  08. All twelve current overlays score 82–100; chapter and site copies are
+  byte-identical; and `python3 scripts/validate_pipeline.py` passes. The full
+  `scripts/check.sh` gate cannot complete because Vitest hangs before test
+  discovery; retry this exact unit after the test runner is healthy.
 
 ### Advisory (non-blocking)
 

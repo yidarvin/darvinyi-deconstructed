@@ -1,1 +1,11 @@
-{"version":1,"image":"04-suns-out-takes-birds-blue.jpg","grid":{"type":"phi"},"primitives":[{"type":"frame_in_frame","x":0.0,"y":0.0,"w":1.0,"h":1.0,"label":"twelve-image blue matrix"},{"type":"leading_line","points":[[0.0,0.333],[1.0,0.333]],"arrow":false,"label":"row seam"},{"type":"leading_line","points":[[0.5,0.0],[0.5,1.0]],"arrow":false,"label":"central vertical seam"},{"type":"polyline","points":[[0.28,0.16],[0.33,0.14],[0.39,0.16],[0.54,0.15],[0.61,0.16]],"label":"bird interruptions"}],"notes":"A quiet blue field makes small interruptions in a repeated image system unusually forceful."}
+{
+  "version": 1,
+  "image": "04-suns-out-takes-birds-blue.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 1.0, "h": 1.0, "label": "twelve-image blue matrix" },
+    { "type": "leading_line", "points": [[0.0, 0.333], [1.0, 0.333]], "arrow": false, "label": "row seam" },
+    { "type": "leading_line", "points": [[0.5, 0.0], [0.5, 1.0]], "arrow": false, "label": "central vertical seam" }
+  ],
+  "notes": "A quiet blue field makes small interruptions in a repeated image system unusually forceful."
+}

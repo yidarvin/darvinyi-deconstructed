@@ -1,1 +1,11 @@
-{"version":1,"image":"05-range-masters-of-photography.jpg","grid":{"type":"phi"},"primitives":[{"type":"vanishing_point","x":0.37,"y":0.52,"label":"gallery corner recession"},{"type":"leading_line","points":[[0.02,0.74],[0.37,0.62],[0.99,0.66]],"arrow":true,"label":"floor-wall edge"},{"type":"leading_line","points":[[0.03,0.1],[0.37,0.08],[0.99,0.16]],"arrow":true,"label":"ceiling-wall edge"},{"type":"polyline","points":[[0.13,0.48],[0.29,0.45],[0.43,0.42],[0.62,0.39],[0.88,0.36]],"label":"receding framed works"}],"notes":"Multiple reframed landscapes turn app-made treatments into a compositional matrix."}
+{
+  "version": 1,
+  "image": "05-range-masters-of-photography.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.02, 0.77], [0.22, 0.75]], "arrow": true, "label": "left floor-wall edge" },
+    { "type": "leading_line", "points": [[0.03, 0.1], [0.37, 0.08], [0.99, 0.16]], "arrow": true, "label": "ceiling-wall boundary" },
+    { "type": "polyline", "points": [[0.13, 0.48], [0.29, 0.45], [0.43, 0.42], [0.62, 0.39], [0.88, 0.36]], "label": "receding framed works" }
+  ],
+  "notes": "Multiple reframed landscapes turn app-made treatments into a compositional matrix."
+}
