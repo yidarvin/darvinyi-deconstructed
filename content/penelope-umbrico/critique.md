@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -111,3 +111,23 @@ verdict: resolved
   revision; 94 for the re-rendered plate 10), visually rechecked plates 06, 07,
   and 10, confirmed chapter-copy parity, and passed `scripts/check.sh` plus
   `python3 scripts/validate_pipeline.py`.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **02-everyones-photos-any-license — correct the enclosing frame and baseline claims.** The `FIVE-PANEL ENSEMBLE` frame ends at y=0.80 while several visible panels continue to roughly y=0.90, so it does not trace the ensemble it labels. The `COMMON DISPLAY BASELINE` at y=0.78 also crosses the interiors of the panels rather than a common bottom edge. Retarget these primitives to the visible panel bounds/baseline or remove them; the current proof materially misstates the displayed structure.
+
+2. **04-suns-out-takes-birds-blue — retarget or remove `BIRD INTERRUPTIONS`.** The polyline vertices at x=0.28–0.61, y=0.14–0.16 run through empty sky for several segments and do not trace the visible bird silhouettes. A path labeled as birds must land on the birds it names.
+
+3. **05-range-masters-of-photography — remove or correctly retarget the false recession geometry.** `GALLERY CORNER RECESSION` is placed at (0.37, 0.52), on the central framed-work area rather than the visible gallery corner; the `FLOOR-WALL EDGE` line also leaves the actual boundary after that corner and crosses the wall/artworks. The proof and the analyzer do not support the current vanishing-point claim. Use only the actual architectural edges or revise the compositional reading to avoid a false convergence claim.
+
+### Advisory (non-blocking)
+
+- **08-adams-splitscreen-filters** — `ORANGE EXPOSURE STRIP` encloses both the orange band and an adjacent broad white flare through the black divider. Consider either narrowing the frame to the orange band or using a broader label such as `EXPOSURE STRIP`.
+
+### Review evidence
+
+- Independently inspected all twelve current proof PNGs against their image, overlay, and analyzer files. Current deterministic scores are 82–100; detector warnings for otherwise visibly valid seams and interpretive paths were not elevated. The required items above are visual/semantic mismatches, not score-threshold failures.
+- Fresh-eyes review corroborated the proof-level findings for plates 02, 04, and 05. Plates 06–12 remain materially truthful; in particular, plate 10 continues to identify a visible `VERTICAL COLOR DIVISION`, not a physical print seam.
+- All twelve gallery-record and public-display source URLs returned HTTP 200 in this review. Each source entry retains a credit/rightsholder notice and concise four-factor fair-use rationale. The chapter's source and settings claims remain supported; no limited-source fallback applies.
