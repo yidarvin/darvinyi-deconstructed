@@ -49,15 +49,15 @@ This twelve-image set traces Mikhailov’s movement from the charged color signs
 - **File:** `raw/boris-mikhailov/07-i-am-not-i-10.jpg` (494 × 800px)
 
 ### 08 — *Untitled, from At Dusk* (1993)
-- **Why it matters:** Chemical color toning in black-and-white images, along with the long, shallow panorama, makes twilight both a real light condition and a metaphor for a society in transition.
+- **Why it matters:** Chemical color toning in black-and-white images, along with the long, shallow panorama, makes twilight a visibly constructed light condition.
 - **Source:** https://ksp.ui.org.ua/series/at-dusk/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/at_dusk/boris_mikhailov_at_dusk10web.jpg)
 - **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies the panorama’s tonal mood and lateral pacing. **Factor 2:** a creative photograph. **Factor 3:** the full horizontal frame is needed to see its extended spatial relation. **Factor 4:** the credited 792 × 371px public display copy is record-linked and cannot substitute for the work or licensed imagery.
 - **File:** `raw/boris-mikhailov/08-at-dusk-10.jpg` (792 × 371px)
 
 ### 09 — *Untitled, from Case History* (1997–1998)
-- **Why it matters:** The close, confronting portrait exemplifies Mikhailov’s deliberately uneasy mixture of collaboration, performance, social document, and direct address.
+- **Why it matters:** The extreme facial crop turns eye, mouth, and beard into a close, confronting field of direct address.
 - **Source:** https://ksp.ui.org.ua/series/case-history/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/case_history/01boris_mikhailov_case_history_9rs.jpg)
-- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative scholarship analyzes the portrait’s direct address and ethical visual tension. **Factor 2:** a creative photograph addressing a socially sensitive subject. **Factor 3:** the whole vertical frame is required to preserve subject, pose, and environment together. **Factor 4:** this credited 718 × 1080px KSP display image is record-linked and does not replace an original or licensed reproduction.
+- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative scholarship analyzes the portrait’s direct address and ethical visual tension. **Factor 2:** a creative photograph addressing a socially sensitive subject. **Factor 3:** the whole vertical crop is required to study the face’s scale, gaze, mouth, and beard as one enclosing field. **Factor 4:** this credited 718 × 1080px KSP display image is record-linked and does not replace an original or licensed reproduction.
 - **File:** `raw/boris-mikhailov/09-case-history-09.jpg` (718 × 1080px)
 
 ### 10 — *Untitled, from Tea Coffee Cappuccino* (2000–2010)
@@ -67,15 +67,15 @@ This twelve-image set traces Mikhailov’s movement from the charged color signs
 - **File:** `raw/boris-mikhailov/10-tea-coffee-cappuccino-01.jpg` (1920 × 1348px)
 
 ### 11 — *Untitled, from Industrial Zone* (2011)
-- **Why it matters:** Industrial setting and human scale are held in a deliberately provisional balance, extending Mikhailov’s social observation into a more spatially dispersed late image.
+- **Why it matters:** An oval picture field encloses heavy steel beams, using convergence and crop to make industrial space feel unstable rather than orderly.
 - **Source:** https://ksp.ui.org.ua/series/promzona/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/promzona/01bm-pz.jpg)
-- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies figure-to-industrial-field scale. **Factor 2:** a creative photograph. **Factor 3:** the entire frame is needed to analyze the figure’s placement within its setting. **Factor 4:** this credited 1600 × 1237px KSP display copy is record-linked and cannot replace a print or licensed file.
+- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies the oval field, beam directions, and spatial convergence. **Factor 2:** a creative photograph. **Factor 3:** the entire frame is needed to analyze how its oval format contains the intersecting beams. **Factor 4:** this credited 1600 × 1237px KSP display copy is record-linked and cannot replace a print or licensed file.
 - **File:** `raw/boris-mikhailov/11-industrial-zone-01.jpg` (1600 × 1237px)
 
-### 12 — *Untitled, from Temptation of Death* (2017–2019)
-- **Why it matters:** The late work makes a staged, uncanny body image feel both intimate and allegorical, concentrating attention through a sparse field and heightened gesture.
+### 12 — *Untitled, from Temptation of Death* (2019)
+- **Why it matters:** Two mismatched panels hold a quiet seascape beside a trench-bound body, making the join between unlike spaces the image’s central tension.
 - **Source:** https://ksp.ui.org.ua/series/temptation-of-death/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/temptation_of_death/01tdweb.jpg)
-- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies staged gesture, isolation, and visual allegory. **Factor 2:** a creative photograph. **Factor 3:** the complete frame is required to explain the body’s relation to the empty field. **Factor 4:** the credited 1200 × 888px KSP display copy is limited, record-linked, and does not replace an original or licensed reproduction.
+- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies the tension between a seascape panel and a trench-bound body panel. **Factor 2:** a creative photograph. **Factor 3:** the complete frame is required to explain the relation and seam between those two panels. **Factor 4:** the credited 1200 × 888px KSP display copy is limited, record-linked, and does not replace an original or licensed reproduction.
 - **File:** `raw/boris-mikhailov/12-temptation-of-death-01.jpg` (1200 × 888px)
 
 ## Research context

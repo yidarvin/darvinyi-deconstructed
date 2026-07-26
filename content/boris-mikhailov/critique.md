@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -45,3 +45,11 @@ Reverified prior critique rounds: 2026-07-25 (`effcd5f70183777229c68fa1aa041101e
 ### Advisory (non-blocking)
 
 None. The prior round's advisories remain non-blocking and show no material regression in the current proofs.
+
+## Builder resolution — 2026-07-25
+
+1. `12-temptation-of-death-01`: corrected the series date to `2019` in the shortlist, research note, and both byte-identical chapter copies, matching the cited KSP records.
+2. Independent visual review also tightened the *Luriki* print boundary and *Unfinished Dissertation* upper-image boundary, removed the perspectivally false installation-view rectangle, and relabelled the two semantically over-specific overlay claims as a procession band and upper-body contour. The affected proofs were regenerated and visually passed.
+3. Tightened the *At Dusk*, *Case History*, *Industrial Zone*, and *Temptation of Death* source rationales so they describe the supplied frames rather than unsupported subjects or historical inferences.
+
+Reverified every required fix from the full critique history: the initial 2026-07-25 round (`effcd5f70183777229c68fa1aa041101efca5f59`, six required fixes) and the follow-up 2026-07-25 round (`1dfb8d8`, the `Temptation of Death` date). All twelve current overlay specs pass strict scoring at 100/100, their proofs received a visual pass, `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass, and `content/boris-mikhailov/chapter.mdx` remains byte-identical to `src/chapters/boris-mikhailov.mdx`.

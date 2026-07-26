@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.435, "angle": -1.9, "label": "street edge" },
-    { "type": "polyline", "points": [[0.02,0.48],[0.30,0.28],[0.55,0.29],[0.84,0.45]], "label": "linked arms" }
+    { "type": "polyline", "points": [[0.02,0.48],[0.30,0.28],[0.55,0.29],[0.84,0.45]], "label": "upper-body contour" }
   ],
-  "notes": "Three men lock arms across the foreground while the street remains a pale, public backdrop."
+  "notes": "The three men form a compact upper-body contour against a pale, public street."
 }
