@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-hamba.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.03, 0.82], [0.4, 0.61], [0.84, 0.46]], "arrow": true, "label": "DUNE RIDGE" },
+    { "type": "subject_anchor", "x": 0.404, "y": 0.571, "r": 0.035, "label": "CLIMBING FIGURE" },
+    { "type": "polyline", "points": [[0.35, 0.57], [0.41, 0.48], [0.47, 0.51]], "label": "LIFTED LEG AND PACK" }
+  ],
+  "notes": "A lone suited figure breaks the diagonal dune ridge, converting open sky into a deliberately sparse expedition stage."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-umfundi.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "1a1e788c",
+    "source": "01-umfundi.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-butungakuna.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "9dd11f5f",
+    "source": "02-butungakuna.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-hamba.jpg",
+    "width": 750,
+    "height": 750,
+    "sha1": "0458cfc9",
+    "source": "03-hamba.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-yinqaba.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "9e57e3ea",
+    "source": "04-yinqaba.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-bongo.jpg",
+    "width": 750,
+    "height": 750,
+    "sha1": "456df4ec",
+    "source": "05-bongo.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-jambo.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "0f7edc44",
+    "source": "06-jambo.jpg",
+    "exif": {}
+  }
+]

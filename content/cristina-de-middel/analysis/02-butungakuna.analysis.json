@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "image": "02-butungakuna.jpg",
+  "width": 1600,
+  "height": 1600,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.34609474107330923,
+    "std": 0.2362342147837602,
+    "p05": 0.08627450980392157,
+    "p95": 0.996078431372549,
+    "edge_density": 0.0813455581665039
+  },
+  "palette": [
+    "#4d453b",
+    "#26211b",
+    "#787367",
+    "#aeb4b2",
+    "#fbfcfb"
+  ],
+  "lines": [
+    {
+      "x1": 0.986328125,
+      "y1": 0.951171875,
+      "x2": 0.986328125,
+      "y2": 0.046875,
+      "angle_deg": -90.0,
+      "length": 0.6394344525183037,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.0419921875,
+      "y1": 0.9853515625,
+      "x2": 0.83984375,
+      "y2": 0.9853515625,
+      "angle_deg": 0.0,
+      "length": 0.5641662502240326,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.20703125,
+      "y1": 0.0126953125,
+      "x2": 0.9521484375,
+      "y2": 0.0126953125,
+      "angle_deg": 0.0,
+      "length": 0.5268774160598981,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0126953125,
+      "y1": 0.728515625,
+      "x2": 0.0126953125,
+      "y2": 0.048828125,
+      "angle_deg": -90.0,
+      "length": 0.48061164033773146,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.7197265625,
+      "y1": 0.912109375,
+      "x2": 0.978515625,
+      "y2": 0.302734375,
+      "angle_deg": -66.99006428622309,
+      "length": 0.4681397598445516,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.158203125,
+      "y1": 0.767578125,
+      "x2": 0.708984375,
+      "y2": 0.5888671875,
+      "angle_deg": -17.97659236492158,
+      "length": 0.4094493769281444,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.7607421875,
+      "y1": 0.9658203125,
+      "x2": 0.947265625,
+      "y2": 0.4248046875,
+      "angle_deg": -70.97758131108809,
+      "length": 0.4046534932698327,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.8779296875,
+      "y1": 0.982421875,
+      "x2": 0.90625,
+      "y2": 0.4326171875,
+      "angle_deg": -87.05131365816027,
+      "length": 0.3892860352601094,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.021484375,
+      "y1": 0.802734375,
+      "x2": 0.544921875,
+      "y2": 0.6328125,
+      "angle_deg": -17.98482289109191,
+      "length": 0.38914024464822805,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.7041015625,
+      "y1": 0.400390625,
+      "x2": 0.9013671875,
+      "y2": 0.9140625,
+      "angle_deg": 68.99169171390118,
+      "length": 0.38908387397363065,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6201171875,
+      "y1": 0.986328125,
+      "x2": 0.9814453125,
+      "y2": 0.5849609375,
+      "angle_deg": -48.00508645859623,
+      "length": 0.3818727753569739,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0302734375,
+      "y1": 0.8232421875,
+      "x2": 0.4775390625,
+      "y2": 0.5751953125,
+      "angle_deg": -29.01209981940161,
+      "length": 0.3616447092824021,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.625,
+    "angle_deg": 0.0,
+    "confidence": 0.9537272267115031,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.8552579972805701,
+    "y": 0.5367374945797002,
+    "inliers": 6,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.0,
+      0.9921875
+    ],
+    "regions": []
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7705310544248463,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.8581077594088982,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.9921875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2175925925925927,
+    "phi": 0.3139833020830411,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.855,
+      "y": 0.537,
+      "confidence": 1.0,
+      "why": "6 converging diagonals"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.625,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.95,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.72,
+          0.912
+        ],
+        [
+          0.979,
+          0.303
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.94,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.158,
+          0.768
+        ],
+        [
+          0.709,
+          0.589
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.82,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

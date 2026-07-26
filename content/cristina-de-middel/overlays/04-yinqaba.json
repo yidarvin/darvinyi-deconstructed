@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-yinqaba.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.52, "rx": 0.35, "ry": 0.36, "label": "REFLECTIVE HELMET" },
+    { "type": "polyline", "points": [[0.12, 0.55], [0.18, 0.42], [0.23, 0.3]], "label": "LEFT GLOVE" },
+    { "type": "polyline", "points": [[0.88, 0.55], [0.82, 0.42], [0.77, 0.3]], "label": "RIGHT GLOVE" }
+  ],
+  "notes": "The centered reflective helmet turns face, gloves, and surroundings into one compressed, unstable self-portrait."
+}

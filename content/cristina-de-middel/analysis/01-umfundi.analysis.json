@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "image": "01-umfundi.jpg",
+  "width": 1600,
+  "height": 1600,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3682386173921473,
+    "std": 0.23160560030301466,
+    "p05": 0.08627450980392157,
+    "p95": 0.984313725490196,
+    "edge_density": 0.04767131805419922
+  },
+  "palette": [
+    "#2a1f1e",
+    "#4f4540",
+    "#766d69",
+    "#97a3a3",
+    "#f9f9f8"
+  ],
+  "lines": [
+    {
+      "x1": 0.046875,
+      "y1": 0.986328125,
+      "x2": 0.9521484375,
+      "y2": 0.986328125,
+      "angle_deg": 0.0,
+      "length": 0.6401249864843062,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.986328125,
+      "y1": 0.9521484375,
+      "x2": 0.986328125,
+      "y2": 0.046875,
+      "angle_deg": -90.0,
+      "length": 0.6401249864843062,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.046875,
+      "y1": 0.0126953125,
+      "x2": 0.951171875,
+      "y2": 0.0126953125,
+      "angle_deg": 0.0,
+      "length": 0.6394344525183037,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0126953125,
+      "y1": 0.9521484375,
+      "x2": 0.0126953125,
+      "y2": 0.0478515625,
+      "angle_deg": -90.0,
+      "length": 0.6394344525183037,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.017578125,
+      "y1": 0.6376953125,
+      "x2": 0.2861328125,
+      "y2": 0.369140625,
+      "angle_deg": -45.0,
+      "length": 0.2685546875,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0166015625,
+      "y1": 0.5341796875,
+      "x2": 0.296875,
+      "y2": 0.4033203125,
+      "angle_deg": -25.027821530516256,
+      "length": 0.21872057035571324,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0166015625,
+      "y1": 0.7666015625,
+      "x2": 0.158203125,
+      "y2": 0.5400390625,
+      "angle_deg": -57.9946167919165,
+      "length": 0.1889200477830389,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0224609375,
+      "y1": 0.5166015625,
+      "x2": 0.271484375,
+      "y2": 0.42578125,
+      "angle_deg": -20.037210169192985,
+      "length": 0.18743132287175754,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.1083984375,
+      "y1": 0.5078125,
+      "x2": 0.310546875,
+      "y2": 0.41796875,
+      "angle_deg": -23.962488974578186,
+      "length": 0.15642232928478256,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.2333984375,
+      "y1": 0.40234375,
+      "x2": 0.3505859375,
+      "y2": 0.234375,
+      "angle_deg": -55.097504384075286,
+      "length": 0.14482128837434863,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0478515625,
+      "y1": 0.517578125,
+      "x2": 0.1923828125,
+      "y2": 0.373046875,
+      "angle_deg": -45.0,
+      "length": 0.14453125,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0634765625,
+      "y1": 0.7607421875,
+      "x2": 0.109375,
+      "y2": 0.5625,
+      "angle_deg": -76.96416322993372,
+      "length": 0.14388646821318285,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5224609375,
+    "angle_deg": 0.0,
+    "confidence": 0.8958473321767154,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.20383505918420355,
+    "y": 0.4531911541422403,
+    "inliers": 11,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.9921875,
+      0.0
+    ],
+    "regions": []
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8601822510041397,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.8192712172339228,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.9921875,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.042048014968120745,
+    "phi": 0.09176373616150867,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.204,
+      "y": 0.453,
+      "confidence": 1.0,
+      "why": "11 converging diagonals"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.522,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.9,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.86,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
