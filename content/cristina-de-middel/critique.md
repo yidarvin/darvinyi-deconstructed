@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -17,3 +17,9 @@ None.
 - Re-scoring all six current overlay specs against their analysis files returned 100/100 with no deductions. The two required findings above are semantic/visual failures that the geometric scorer cannot detect.
 - The prose's quoted tonal values and palettes match the matching analyzer JSON, and the chapter explicitly avoids unverified camera settings.
 - Each image has a traceable public source, artist/series credit, and a concise per-image four-factor fair-use rationale; no limited-source mode applies.
+
+## Resolution — 2026-07-26
+
+- Resolved required item 1: `03-hamba` now traces the visible pack down to the raised boot, with the label narrowed to `PACK TO RAISED BOOT`; the re-rendered proof was visually checked and scores 100/100.
+- Resolved required item 2: `06-jambo` now follows the breathing hose's left-side descent, lower bend, and cross-body run; the re-rendered proof was visually checked and scores 100/100.
+- Re-verified all required fixes from the complete prior critique history: round 2026-07-26 (the only prior round). All six current overlay specs score 100/100, and the chapter, source, and evidence claims remain unchanged and valid.

@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.5, "cy": 0.39, "rx": 0.22, "ry": 0.235, "label": "SPACE HELMET" },
     { "type": "frame_in_frame", "x": 0.37, "y": 0.32, "w": 0.265, "h": 0.155, "label": "FACE OPENING" },
-    { "type": "polyline", "points": [[0.32, 0.52], [0.28, 0.74], [0.55, 0.88]], "label": "BREATHING HOSE" }
+    { "type": "polyline", "points": [[0.32, 0.52], [0.30, 0.67], [0.30, 0.79], [0.37, 0.88], [0.52, 0.92], [0.66, 0.91]], "label": "BREATHING HOSE" }
   ],
   "notes": "A helmet aperture frames the face while hose, raffia collar, and scrap mound make the heroic portrait visibly assembled."
 }
