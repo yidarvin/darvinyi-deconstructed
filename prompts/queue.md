@@ -160,7 +160,7 @@ real queue and state live in data/registry.json.
 | 149 | pedro-meyer               | Pedro Meyer                  | DONE    |
 | 150 | aziz-cucher               | Aziz + Cucher                | DONE    |
 | 151 | idris-khan                | Idris Khan                   | DONE    |
-| 152 | penelope-umbrico          | Penelope Umbrico             | PENDING |
+| 152 | penelope-umbrico          | Penelope Umbrico             | DONE    |
 | 153 | joachim-schmid            | Joachim Schmid               | PENDING |
 | 154 | michael-wolf              | Michael Wolf                 | PENDING |
 | 155 | doug-rickard              | Doug Rickard                 | PENDING |
