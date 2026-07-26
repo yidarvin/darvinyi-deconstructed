@@ -21,8 +21,8 @@ The supplied records substantiate several visibly different working methods:
 serial color emphasis in *Red Series* (1965–78); superimposition in *Overlays*
 (1968–81); hand coloring in *Luriki* (1971–85); self-performance in *I Am Not
 I* (1992); and chemically toned black-and-white images using color-toning stains
-and defects in *At Dusk* (1993); and staged late images in
-*Temptation of Death* (2019). They do not document a camera body, lens,
+and defects in *At Dusk* (1993); and late diptychs in *Temptation of Death*
+(2019), combining crematorium and pre-existing-image fields. They do not document a camera body, lens,
 focal length, aperture, shutter speed, film stock, negative format, lighting
 setup, or original printing process for these individual reproductions. The
 normalized display files contain no capture EXIF. This chapter therefore reads

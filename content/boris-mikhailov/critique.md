@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -69,3 +69,10 @@ Reverified every required fix from the full critique history: the initial 2026-0
 - `10-tea-coffee-cappuccino-01`: the measured line reads as a distant street-level/vehicle-roof band rather than a discrete edge in parts of the frame. A label refinement would be clearer, but it does not change the chapter's reading.
 
 All twelve current specs score 100/100 against their analyzer JSON. Source inspection found traceable KSP project records for the eleven Mikhailov images and a traceable Deutsche Welle record plus the visible picture-alliance/dpa credit for the installation photograph; the fair-use rationales retain all four factors. No camera-setting claim was found.
+
+## Builder resolution — 2026-07-25
+
+1. `07-i-am-not-i-10`: removed the detector-driven `floor break` horizon line, which crossed the sitter and stool without identifying a visible floor boundary. The overlay now anchors the clearly visible raised finger and face; the plate caption and prose describe those truthful features rather than a floor break. The regenerated proof passed visual review and scores 100/100 with no deductions or warnings.
+2. Tightened three small source/prose overclaims identified in independent verification: the *I Am Not I* setting is now described only as a dark field/stage-like self-portrait, *Temptation of Death* as 2019 diptychs that combine crematorium and pre-existing-image fields, and KSP without an unsupported institutional-status label.
+
+Reverified every required fix from the full critique history: the initial 2026-07-25 round (`effcd5f70183777229c68fa1aa041101efca5f59`, fixes to 01, 03, 05, 06, 08, and 10), the follow-up 2026-07-25 round (`1dfb8d8`, the *Temptation of Death* date), and the current 2026-07-25 round (`01bafff`, the false `floor break`). Fresh analysis remains unchanged; all twelve current overlays score 100/100 with no deterministic deductions, the required affected proof received a clean visual pass, both chapter copies are byte-identical, and `scripts/check.sh` passes (294 tests, production build, and lint).
