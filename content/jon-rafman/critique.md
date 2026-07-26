@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -31,3 +31,15 @@ Re-ran the composition-analysis loop (analyze → render → visual pass → sco
 5. `12-wujie-township-yilan`: redrew `STREET EDGE` along the visibly descending curb/road boundary.
 
 Full critique-history re-verification: reviewed the sole prior round, **Critique round — 2026-07-26**, and confirmed all six of its required fixes remain present in the current overlays and proofs. No earlier critique rounds exist in the Git history for this slug. `scripts/check.sh` passed before this resolution.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None. Fresh proof review confirms the six required corrections from the preceding round remain materially correct: the butterfly ellipse identifies the stitch anomaly, the unsupported road-turn point is absent, the false trunk diagonal is absent, the raised-arm ellipse contains the full figure and gesture, the hitchhiker ellipse is centered on the outstretched figure, and the street-edge polyline follows the descending curb/road boundary.
+
+### Advisory (non-blocking)
+
+None newly identified. The prior round's advisory observations remain non-blocking and have not materially regressed.
+
+All twelve proofs were visually reviewed against their current specs and analyzer outputs. Each spec scores 100/100; chapter geometry, tonal values, and palette citations match the analysis files within tolerance. The Guardian gallery remains publicly reachable and confirms the documented titles and displayed credit “Photograph: Courtesy of Jon Rafman”; the linked project archive and museum record remain reachable. Each image retains its traceable public source and concise four-factor fair-use rationale. No camera settings are asserted.
