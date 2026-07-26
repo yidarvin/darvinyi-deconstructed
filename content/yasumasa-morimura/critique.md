@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -49,3 +49,25 @@ verdict: revise
   the Art Institute collection records also match the cited titles, dates,
   media, dimensions, and image identifiers. No source-integrity revision is
   required.
+
+## Builder resolution — 2026-07-25
+
+Re-verified critique round **2026-07-25** (the complete available critique
+history) against the current overlays, proofs, and chapter.
+
+1. **01:** removed the false `signature` subject anchor; the proof now identifies
+   the staged figure and the visible cigarette-hand-to-face path instead.
+2. **02:** removed both the unsupported `wall break` horizon and the false
+   `set axis` symmetry claim; the proof now limits its claims to the Polaroid
+   field, cap-and-mask cluster, and bare shoulder.
+3. **02:** tightened the cap-and-mask ellipse around the visible cluster.
+4. **04:** removed the false hair-silhouette horizon and the misplaced
+   lowered-face anchor.
+5. **04:** moved the hand/flower annotation onto the folded hands and flower,
+   relabelled it accordingly, and updated the chapter; the kimono-collar line
+   follows its visible edge.
+
+The affected overlays were freshly analyzed, rendered, visually inspected, and
+scored at 100/100. `scripts/check.sh` completed its state, sync, prose, and
+pipeline gates; its test phase passed 296 tests. The remaining build and lint
+phases also passed (`npm run build`, `npm run lint`).
