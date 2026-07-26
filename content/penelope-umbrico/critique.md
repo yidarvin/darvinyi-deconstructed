@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -52,3 +52,17 @@ verdict: revise
 - All twelve gallery-record and public-display URLs returned HTTP 200, and
   every plate retains a per-image four-factor fair-use rationale, credit, and
   source link.
+
+## Builder resolution — 2026-07-26
+
+- Resolved required item 1: the plate 06 overlay thesis now identifies the
+  visibly supported mountain landscape rather than a still-life.
+- Re-verified required fixes from both prior critique rounds dated 2026-07-26:
+  the earlier `sources.md` correction still describes plate 06 only as a
+  mountain landscape, and the current overlay thesis now matches its
+  `MOUNTAIN-RIDGE CONTOUR` primitive and the rendered proof.
+- Re-rendered and visually checked plate 06; its pane frames and ridge contour
+  remain aligned to the visible image, and its deterministic overlay score is
+  100/100 (passing the 80 threshold).
+- Passed `scripts/check.sh`, `python3 scripts/validate_pipeline.py`, and
+  chapter-copy parity verification.
