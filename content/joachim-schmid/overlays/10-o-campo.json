@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-o-campo.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.07, "y": 0.51, "w": 0.18, "h": 0.19, "label": "SATELLITE FIELD" },
+    { "type": "frame_in_frame", "x": 0.31, "y": 0.51, "w": 0.18, "h": 0.19, "label": "SATELLITE FIELD" },
+    { "type": "frame_in_frame", "x": 0.54, "y": 0.51, "w": 0.18, "h": 0.19, "label": "SATELLITE FIELD" },
+    { "type": "frame_in_frame", "x": 0.78, "y": 0.51, "w": 0.18, "h": 0.19, "label": "SATELLITE FIELD" }
+  ],
+  "notes": "Four orange football fields repeat against dense urban image texture."
+}

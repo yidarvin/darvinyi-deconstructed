@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-bilder-von-der-strasse-03.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.49, 0.0], [0.48, 0.5], [0.52, 1.0]], "label": "TORN SEAM" },
+    { "type": "frame_in_frame", "x": 0.52, "y": 0.0, "w": 0.48, "h": 1.0, "label": "RIGHT STREET VIEW" },
+    { "type": "polyline", "points": [[0.97, 0.7], [0.72, 0.49]], "label": "RIGHT CURB" },
+    { "type": "polyline", "points": [[0.7, 0.0], [0.7, 0.55]], "label": "LAMP POST" }
+  ],
+  "notes": "A torn join keeps two streets from resolving into one seamless urban view."
+}

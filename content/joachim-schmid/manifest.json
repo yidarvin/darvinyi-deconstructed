@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-bilder-von-der-strasse-01.jpg",
+    "width": 1600,
+    "height": 1210,
+    "sha1": "6d0bddf3",
+    "source": "01-bilder-von-der-strasse-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-bilder-von-der-strasse-05.jpg",
+    "width": 1069,
+    "height": 1600,
+    "sha1": "51bf4a6c",
+    "source": "02-bilder-von-der-strasse-05.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-bilder-von-der-strasse-02.jpg",
+    "width": 1178,
+    "height": 1600,
+    "sha1": "884972bf",
+    "source": "03-bilder-von-der-strasse-02.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-bilder-von-der-strasse-03.jpg",
+    "width": 1600,
+    "height": 1178,
+    "sha1": "76c2d4fd",
+    "source": "04-bilder-von-der-strasse-03.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-security-check-01.jpg",
+    "width": 1600,
+    "height": 1201,
+    "sha1": "f9d35b64",
+    "source": "05-security-check-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-security-check-04.jpg",
+    "width": 1600,
+    "height": 1154,
+    "sha1": "1b5c4f7f",
+    "source": "06-security-check-04.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-security-check-06.jpg",
+    "width": 1600,
+    "height": 1154,
+    "sha1": "c3035fca",
+    "source": "07-security-check-06.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-security-check-05.jpg",
+    "width": 1600,
+    "height": 1154,
+    "sha1": "c1b193e1",
+    "source": "08-security-check-05.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-x-marks-the-spot.jpg",
+    "width": 1600,
+    "height": 1198,
+    "sha1": "729a678c",
+    "source": "09-x-marks-the-spot.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-o-campo.jpg",
+    "width": 1600,
+    "height": 1201,
+    "sha1": "d647038a",
+    "source": "10-o-campo.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-statics-womens-fashion.jpg",
+    "width": 1600,
+    "height": 1225,
+    "sha1": "8a287d6a",
+    "source": "11-statics-womens-fashion.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-statics-mens-fashion.jpg",
+    "width": 1600,
+    "height": 1225,
+    "sha1": "2d634daf",
+    "source": "12-statics-mens-fashion.jpg",
+    "exif": {}
+  }
+]

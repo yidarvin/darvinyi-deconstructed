@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-security-check-04.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.0, 0.12], [0.52, 0.2]], "arrow": true, "label": "CURTAIN RAIL" },
+    { "type": "polyline", "points": [[0.07, 0.22], [0.13, 0.65], [0.2, 0.95]], "label": "HANGING FOLD" },
+    { "type": "polyline", "points": [[0.22, 0.23], [0.28, 0.63], [0.35, 0.95]], "label": "HANGING FOLD" },
+    { "type": "frame_in_frame", "x": 0.59, "y": 0.0, "w": 0.41, "h": 1.0, "label": "PALE THRESHOLD" }
+  ],
+  "notes": "Curtain rhythm and a pale threshold make an obstructed security-space fragment."
+}
