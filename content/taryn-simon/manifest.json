@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-hoh-rain-forest.jpg",
+    "width": 800,
+    "height": 615,
+    "sha1": "836881dd",
+    "source": "01-hoh-rain-forest.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-playboy-braille-edition.jpg",
+    "width": 800,
+    "height": 620,
+    "sha1": "5115dd6a",
+    "source": "02-playboy-braille-edition.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-cryopreservation-unit.jpg",
+    "width": 800,
+    "height": 621,
+    "sha1": "95edb835",
+    "source": "03-cryopreservation-unit.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-nuclear-waste-encapsulation.jpg",
+    "width": 600,
+    "height": 464,
+    "sha1": "8a3e8ab8",
+    "source": "04-nuclear-waste-encapsulation.jpg",
+    "exif": {
+      "Make": "HEIDELBERG PREPRESS",
+      "Model": "Scanner DC3000"
+    }
+  }
+]

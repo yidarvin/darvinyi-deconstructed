@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "image": "02-playboy-braille-edition.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.476,
+      "y": 0.439,
+      "r": 0.04,
+      "label": "cover emblem"
+    },
+    {
+      "type": "frame_in_frame",
+      "x": 0.29,
+      "y": 0.17,
+      "w": 0.43,
+      "h": 0.61,
+      "label": "braille edition"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.84, 0.08], [0.82, 0.38], [0.86, 0.68], [0.82, 0.94]],
+      "label": "marble seam"
+    }
+  ],
+  "notes": "A near-centered cover holds against the black marbled surround, making printed and tactile marks share one plane."
+}

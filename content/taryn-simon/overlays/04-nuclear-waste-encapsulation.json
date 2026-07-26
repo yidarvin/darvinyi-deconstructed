@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "04-nuclear-waste-encapsulation.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.53,
+      "cy": 0.54,
+      "rx": 0.18,
+      "ry": 0.16,
+      "label": "central void"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.382, 0.317], [0.905, 0.425]],
+      "arrow": false,
+      "label": "upper field edge"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.13, 0.29], [0.13, 0.69], [0.37, 0.83], [0.73, 0.83], [0.88, 0.69]],
+      "label": "irregular blue boundary"
+    }
+  ],
+  "notes": "Repeated dark circular forms puncture a luminous blue field around a central absence."
+}

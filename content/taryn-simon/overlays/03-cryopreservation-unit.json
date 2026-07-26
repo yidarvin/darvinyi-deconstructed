@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "image": "03-cryopreservation-unit.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.43,
+      "cy": 0.36,
+      "rx": 0.17,
+      "ry": 0.18,
+      "label": "faceted vessel end"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.88, 0.10], [0.84, 0.20], [0.79, 0.34], [0.70, 0.38], [0.61, 0.29]],
+      "label": "corrugated hose"
+    },
+    {
+      "type": "leading_line",
+      "points": [[0.301, 0.739], [0.534, 0.691]],
+      "arrow": false,
+      "label": "stand rail"
+    }
+  ],
+  "notes": "A pale circular vessel end is held by a spare stand while one hose interrupts the softened enclosure."
+}
