@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -23,3 +23,20 @@ None.
 - Resolved required item 1: `03-hamba` now traces the visible pack down to the raised boot, with the label narrowed to `PACK TO RAISED BOOT`; the re-rendered proof was visually checked and scores 100/100.
 - Resolved required item 2: `06-jambo` now follows the breathing hose's left-side descent, lower bend, and cross-body run; the re-rendered proof was visually checked and scores 100/100.
 - Re-verified all required fixes from the complete prior critique history: round 2026-07-26 (the only prior round). All six current overlay specs score 100/100, and the chapter, source, and evidence claims remain unchanged and valid.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Verified in this round
+
+- Visually rechecked all six rendered proofs. The repaired `03-hamba` `PACK TO RAISED BOOT` polyline follows the pack, raised leg, and boot; the repaired `06-jambo` `BREATHING HOSE` polyline follows the hose's descent, lower bend, and cross-body run. No resolved finding has materially regressed.
+- Re-scored every current overlay against its matching analysis JSON: all six return 100/100 with no deductions or warnings. Each plate uses three legible, compositionally relevant primitives.
+- Rechecked every chapter metric and palette against the analyzer values; the rounded numbers are within tolerance. The chapter and research notes explicitly avoid unsupported camera, exposure, and production-setting claims.
+- Rechecked all six source-page and direct-display URLs: each is publicly reachable. Each selected image retains a traceable artist/series credit and a concise per-image four-factor fair-use rationale.
