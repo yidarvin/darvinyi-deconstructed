@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-reverse-titanic-hell-is-in-the-air.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.807, "angle": 0, "label": "LOWER SHELF EDGE" },
+    { "type": "vanishing_point", "x": 0.676, "y": 0.433, "label": "NET CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.412, 0.129], [0.8, 0.484]], "arrow": true, "label": "NET DIAGONAL" }
+  ],
+  "notes": "The stretched net turns the paired fish into a compressed, crisscrossed field."
+}

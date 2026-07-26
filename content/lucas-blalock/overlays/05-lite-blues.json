@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-lite-blues.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.542, "angle": -5.9, "label": "BLUE FIELD BREAK" },
+    { "type": "polyline", "points": [[0.0, 0.656], [0.27, 0.63], [0.5, 0.55]], "label": "LOWER PALE SWEEP" },
+    { "type": "frame_in_frame", "x": 0.64, "y": 0.25, "w": 0.18, "h": 0.3, "label": "DARK INSERT" }
+  ],
+  "notes": "A low blue sweep and discrete inserts keep the collage from settling into one depth."
+}

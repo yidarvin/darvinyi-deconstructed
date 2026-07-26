@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-the-guitar-player.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.33, "y": 0.728, "label": "CUTOUT CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.003, 0.87], [0.96, 0.593]], "arrow": true, "label": "LOWER EDGE" },
+    { "type": "leading_line", "points": [[0.006, 0.904], [0.821, 0.45]], "arrow": true, "label": "CUTOUT DIAGONAL" }
+  ],
+  "notes": "The portrait is interrupted by a large green cutout that reroutes the frame's diagonals."
+}

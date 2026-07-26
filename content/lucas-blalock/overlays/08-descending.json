@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-descending.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.237, "angle": 1, "label": "UPPER SAUSAGE ROW" },
+    { "type": "subject_anchor", "x": 0.689, "y": 0.523, "r": 0.035, "label": "COLLAPSED CLUSTER" },
+    { "type": "polyline", "points": [[0.68, 0.19], [0.62, 0.39], [0.76, 0.53], [0.4, 0.69]], "label": "FALLING SEQUENCE" }
+  ],
+  "notes": "Repeated horizontal sausages give way to a compact, collapsing central knot."
+}

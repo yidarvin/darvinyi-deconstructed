@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-conch-and-berries-and.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.338, "angle": 3, "label": "TILE-BACKSPLASH BREAK" },
+    { "type": "frame_in_frame", "x": 0.58, "y": 0.56, "w": 0.28, "h": 0.29, "label": "RASPBERRY BOWL FIELD" },
+    { "type": "subject_anchor", "x": 0.664, "y": 0.813, "r": 0.035, "label": "RASPBERRY BOWL" }
+  ],
+  "notes": "The fruit bowl and shell vignette make an uneven counterweight across the long counter."
+}

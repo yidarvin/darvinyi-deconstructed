@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-reverse-titanic-hell-is-in-the-air.jpg",
+    "width": 1171,
+    "height": 1000,
+    "sha1": "2d9572e5",
+    "source": "01-reverse-titanic-hell-is-in-the-air.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-after-animals-2.jpg",
+    "width": 791,
+    "height": 1000,
+    "sha1": "80c5afd8",
+    "source": "02-after-animals-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-the-nonconformist.jpg",
+    "width": 734,
+    "height": 1000,
+    "sha1": "bbebf3f4",
+    "source": "03-the-nonconformist.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-the-house-guest.jpg",
+    "width": 1266,
+    "height": 1000,
+    "sha1": "c3bdfd04",
+    "source": "04-the-house-guest.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-lite-blues.jpg",
+    "width": 1250,
+    "height": 1000,
+    "sha1": "0929b8d7",
+    "source": "05-lite-blues.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-emile-man-of-the-future.jpg",
+    "width": 787,
+    "height": 1000,
+    "sha1": "fd6a22b1",
+    "source": "06-emile-man-of-the-future.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-conch-and-berries-and.jpg",
+    "width": 1250,
+    "height": 1000,
+    "sha1": "3dfdf93c",
+    "source": "07-conch-and-berries-and.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-descending.jpg",
+    "width": 788,
+    "height": 1000,
+    "sha1": "e96ca330",
+    "source": "08-descending.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-the-guitar-player.jpg",
+    "width": 795,
+    "height": 1000,
+    "sha1": "e08f1f2e",
+    "source": "09-the-guitar-player.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-blue-bottles.jpg",
+    "width": 795,
+    "height": 1000,
+    "sha1": "b093e17c",
+    "source": "10-blue-bottles.jpg",
+    "exif": {}
+  }
+]

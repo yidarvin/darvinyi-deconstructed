@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-blue-bottles.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.08, "angle": 3, "label": "UPPER BOTTLE EDGE" },
+    { "type": "subject_anchor", "x": 0.489, "y": 0.429, "r": 0.035, "label": "CENTRAL BLUE BOTTLE" },
+    { "type": "polyline", "points": [[0.22, 0.68], [0.4, 0.52], [0.5, 0.43], [0.64, 0.67]], "label": "BOTTLE RHYTHM" }
+  ],
+  "notes": "Overlapping blue bottle forms stack a central vertical rhythm against a cyan field."
+}
