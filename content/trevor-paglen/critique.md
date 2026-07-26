@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -44,3 +44,16 @@ Re-verified critique history: the 2026-07-26 round is the only prior round in `g
 2. **EchoStar XVI process:** corrected `sources.md` and `research.md` to record the Rollins collection entry's C-prints designation.
 
 Re-verified critique history: the original 2026-07-26 revision and its first resolution, plus the current 2026-07-26 revision. The earlier required fixes remain intact: the Reaper and Cosmos overlays have no unsupported symmetry axes; Keawaula confines its shoreline to the coast photograph; EchoStar XVI retains only its physical vertical divide and launch anchor, with no false horizontal seam or convergence; and the EXIF wording continues to distinguish downloaded-file metadata from original capture settings. All 11 overlay specs score 100/100, the affected proofs pass visual inspection, `chapter.mdx` and `src/chapters/trevor-paglen.mdx` are byte-identical, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **09-overhead-nsa — access-line/convergence claim:** `chapter.mdx` says the overlay's lit access line “terminates at” the measured convergence near x0.546, y0.658. The current spec instead ends that arrow at x0.452, y0.610 (`leading_line`), while its separate `compound convergence` point is x0.546, y0.658; the endpoint is 0.106 in x and 0.048 in y from the measured point, well outside the stated tolerance. The proof visibly keeps the arrow and convergence marker distinct. Make the overlay trace a defensible route into the measured point, or revise the prose so it does not assert that false termination relationship.
+2. **sources.md — incomplete and inaccurate preservation of institutional credits:** The fair-use entries must preserve the source credit/copyright notice, but several SAAM-based entries replace it with materially incomplete or inaccurate shorthand. The linked SAAM exhibition record identifies, for example: 01 as “Smithsonian American Art Museum, Gift of Mike Wilkins and Sheila Duignan … Photo by: Gene Young”; 03 as “Smithsonian American Art Museum, Museum purchase made possible by the American Art Forum … Courtesy of the artist and Metro Pictures. Photo by: Gene Young”; 04 as “Collection of Allison Card”; 05 as “Smithsonian American Art Museum; Gift of Mike Wilkins and Sheila Duignan … Photo by Gene Young”; 06 as “The Alfond Collection of Contemporary Art, Cornell Fine Arts Museum, Rollins College”; and 07 with the Metropolitan Museum's full acquisition credit. Correct these entries (and verify the NGA and Rollins entries against their linked records) by preserving the displayed credit/copyright text rather than paraphrasing it. Until then, the source notes' claim that every source credit/copyright notice is recorded is untrue.
+
+### Advisory (non-blocking)
+
+- **01-stss-carson-city** and **04-reaper-drone** retain fewer than the usual 3–5 primitives, but their current single claims remain legible. This remains non-blocking, consistent with the prior round.
+- **03-national-security-agencies** retains the previously noted loose `symmetry_axis` schema fit for `TRIPTYCH CENTER`; it has not materially regressed and is not reopened.
+- **11-last-pictures-narbona-predator** — `UPPER TERRAIN BAND` crosses the right-hand instrumental panel as well as the terrain panel. The chapter expressly distinguishes those meanings, so this is advisory only.
