@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "image": "04-api-21902673-levelland-tx.jpg",
+  "width": 716,
+  "height": 900,
+  "aspect": 0.7956,
+  "tonal": {
+    "mean": 0.5946246333418532,
+    "std": 0.05809972933949099,
+    "p05": 0.5019607843137255,
+    "p95": 0.6862745098039216,
+    "edge_density": 0.002112042209807573
+  },
+  "palette": [
+    "#cf8955",
+    "#c47f4c",
+    "#da925e",
+    "#b47240",
+    "#e5a270"
+  ],
+  "lines": [
+    {
+      "x1": 0.6256983240223464,
+      "y1": 0.5244444444444445,
+      "x2": 0.744413407821229,
+      "y2": 0.5244444444444445,
+      "angle_deg": 0.0,
+      "length": 0.07390868453126691,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5244444444444445,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.49022346368715086,
+      0.5077777777777778
+    ],
+    "regions": [
+      {
+        "cx": 0.5045675045916408,
+        "cy": 0.5154906353342782,
+        "x": 0.43575418994413406,
+        "y": 0.4622222222222222,
+        "w": 0.13966480446927373,
+        "h": 0.10555555555555556,
+        "area_frac": 0.011314400993171943
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6039144119083039,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.6667866570931733,
+    "horizontal_axis_y": 0.525
+  },
+  "subject_anchor": {
+    "x": 0.49022346368715086,
+    "y": 0.5077777777777778,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.24786897987523182,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.524,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.49,
+      "y": 0.508,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

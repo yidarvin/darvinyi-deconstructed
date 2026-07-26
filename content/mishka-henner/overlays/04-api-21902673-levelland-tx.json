@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-api-21902673-levelland-tx.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.524, "angle": 0, "label": "access track" },
+    { "type": "leading_line", "points": [[0.490, 0.508], [1.0, 0.524]], "arrow": true, "label": "outgoing road" },
+    { "type": "subject_anchor", "x": 0.490, "y": 0.508, "r": 0.035, "label": "pumpjack" }
+  ],
+  "notes": "A tiny extraction site concentrates the otherwise near-monochrome field."
+}

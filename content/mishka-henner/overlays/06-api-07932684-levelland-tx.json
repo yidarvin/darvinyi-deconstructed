@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-api-07932684-levelland-tx.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.499, 1.0], [0.499, 0.492]], "arrow": true, "label": "access trace" },
+    { "type": "leading_line", "points": [[0.484, 0.509], [0.669, 0.417]], "arrow": true, "label": "turning spur" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.492, "r": 0.035, "label": "pumpjack" }
+  ],
+  "notes": "The road's slight turn makes the small extraction point a junction in open scrub."
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "03-api-21902614-levelland-tx.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.879, "angle": 0, "label": "field edge" },
+    { "type": "subject_anchor", "x": 0.509, "y": 0.507, "r": 0.035, "label": "pumpjack" }
+  ],
+  "notes": "The centered pumpjack breaks two tightly ruled agricultural surfaces."
+}

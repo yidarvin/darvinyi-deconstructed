@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-api-50133229-clear-fork-tx.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.500, 0.0], [0.500, 0.522]], "arrow": true, "label": "approach track" },
+    { "type": "horizon_line", "y": 0.588, "angle": 0, "label": "crossing track" },
+    { "type": "subject_anchor", "x": 0.500, "y": 0.522, "r": 0.035, "label": "pumpjack" }
+  ],
+  "notes": "A central pumpjack is held by a thin vertical route through scrub."
+}
