@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-blue-still-life-with-white-peonies-eggs-and-onions.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.094, "angle": 0.0, "label": "UPPER SHELF EDGE" },
+    { "type": "leading_line", "points": [[0.295,0.587],[0.55,0.385]], "arrow": true, "label": "FLOWER STEMS" },
+    { "type": "ellipse", "cx": 0.64, "cy": 0.73, "rx": 0.13, "ry": 0.07, "label": "EGG BOWL" }
+  ],
+  "notes": "White blooms, an oval egg bowl, and blue planes assemble a tightly staged color rhythm."
+}

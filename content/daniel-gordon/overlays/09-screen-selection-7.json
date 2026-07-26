@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-screen-selection-7.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FRAME AXIS" },
+    { "type": "horizon_line", "y": 0.707, "angle": 0.0, "label": "LOWER REPEAT" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.04, "w": 0.90, "h": 0.88, "label": "BLACK FRAME" }
+  ],
+  "notes": "The literal frame and repeated orange-white marks turn the image into a measured field."
+}

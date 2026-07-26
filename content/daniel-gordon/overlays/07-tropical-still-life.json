@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-tropical-still-life.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.765, "angle": 0.0, "label": "TABLE EDGE" },
+    { "type": "leading_line", "points": [[0.122,0.87],[0.857,0.099]], "arrow": true, "label": "PINEAPPLE LEAVES" },
+    { "type": "leading_line", "points": [[0.126,0.874],[0.554,0.339]], "arrow": true, "label": "TABLE CLOTH EDGE" }
+  ],
+  "notes": "Diagonal leaves and patterned table edges make the still life an all-over constructed field."
+}

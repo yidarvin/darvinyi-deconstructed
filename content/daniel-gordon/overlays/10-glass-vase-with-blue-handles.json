@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-glass-vase-with-blue-handles.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.56, "angle": 0.8, "label": "TABLE BACK EDGE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "VESSEL AXIS" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.58, "rx": 0.19, "ry": 0.33, "label": "VASE BODY" }
+  ],
+  "notes": "Near-symmetry and the vessel's oval body make the paper construction look briefly credible."
+}

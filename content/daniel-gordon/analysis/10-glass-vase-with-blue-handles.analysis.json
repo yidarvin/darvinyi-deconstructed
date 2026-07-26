@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "image": "10-glass-vase-with-blue-handles.jpg",
+  "width": 750,
+  "height": 1000,
+  "aspect": 0.75,
+  "tonal": {
+    "mean": 0.5924606065359477,
+    "std": 0.20643695482752422,
+    "p05": 0.24313725490196078,
+    "p95": 0.796078431372549,
+    "edge_density": 0.009837333333333333
+  },
+  "palette": [
+    "#d8babb",
+    "#a23d25",
+    "#b9b0a3",
+    "#a1897a",
+    "#3a151d"
+  ],
+  "lines": [
+    {
+      "x1": 0.312,
+      "y1": 0.241,
+      "x2": 0.36,
+      "y2": 0.427,
+      "angle_deg": 79.04593735660167,
+      "length": 0.15156147267693068,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.30266666666666664,
+      "y1": 0.74,
+      "x2": 0.38666666666666666,
+      "y2": 0.889,
+      "angle_deg": 67.08044516753337,
+      "length": 0.12941715496795625,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.7813333333333333,
+      "y1": 0.559,
+      "x2": 0.972,
+      "y2": 0.561,
+      "angle_deg": 0.8012873301070143,
+      "length": 0.11441118826408544,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.364,
+      "y1": 0.884,
+      "x2": 0.5266666666666666,
+      "y2": 0.91,
+      "angle_deg": 12.030596096537868,
+      "length": 0.09979178322888112,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.37333333333333335,
+      "y1": 0.439,
+      "x2": 0.432,
+      "y2": 0.33,
+      "angle_deg": -68.01756179688137,
+      "length": 0.09403658862379048,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6,
+      "y1": 0.352,
+      "x2": 0.6826666666666666,
+      "y2": 0.441,
+      "angle_deg": 55.13780385308514,
+      "length": 0.08677326777297258,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6466666666666666,
+      "y1": 0.374,
+      "x2": 0.6826666666666666,
+      "y2": 0.271,
+      "angle_deg": -75.31121322668162,
+      "length": 0.08518403606310282,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.632,
+      "y1": 0.355,
+      "x2": 0.6613333333333333,
+      "y2": 0.449,
+      "angle_deg": 76.82744657667311,
+      "length": 0.07723211767134189,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.43466666666666665,
+      "y1": 0.277,
+      "x2": 0.436,
+      "y2": 0.193,
+      "angle_deg": -89.31793960682735,
+      "length": 0.06720476173605557,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.3546666666666667,
+      "y1": 0.491,
+      "x2": 0.3893333333333333,
+      "y2": 0.412,
+      "angle_deg": -71.78290480217515,
+      "length": 0.06653480292298158,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.744,
+      "y1": 0.703,
+      "x2": 0.744,
+      "y2": 0.624,
+      "angle_deg": -90.0,
+      "length": 0.0632,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.6946666666666667,
+      "y1": 0.3,
+      "x2": 0.7066666666666667,
+      "y2": 0.224,
+      "angle_deg": -83.24642596446901,
+      "length": 0.06122483156367194,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.56,
+    "angle_deg": 0.8012873301070143,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": {
+    "x": 0.37263673609258635,
+    "y": 0.4432640752602604,
+    "inliers": 4,
+    "confidence": 0.8
+  },
+  "saliency": {
+    "peak": [
+      0.384,
+      0.163
+    ],
+    "regions": [
+      {
+        "cx": 0.3816258637211883,
+        "cy": 0.15951868663943108,
+        "x": 0.32133333333333336,
+        "y": 0.115,
+        "w": 0.124,
+        "h": 0.09,
+        "area_frac": 0.008812
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9586651849484457,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.5054619801927276,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.384,
+    "y": 0.163,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.16412772334869746,
+    "phi": 0.33986632837239805,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.56,
+      "angle": 0.8,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.96,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.373,
+      "y": 0.443,
+      "confidence": 0.8,
+      "why": "4 converging diagonals"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.384,
+      "y": 0.163,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

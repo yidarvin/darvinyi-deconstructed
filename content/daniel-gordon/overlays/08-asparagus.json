@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-asparagus.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.649, "angle": -1.1, "label": "TORN PAPER SEAM" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.575, "label": "STACKED BALANCE" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.19, "r": 0.035, "label": "TOP SPEAR" },
+    { "type": "polyline", "points": [[0.18,0.19],[0.83,0.19]], "label": "UPPER ASPARAGUS" }
+  ],
+  "notes": "Parallel spears cross torn color fields, replacing tabletop depth with stacked paper bands."
+}
