@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-toucan-in-nature-post-it-notes.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.43, "cy": 0.59, "rx": 0.28, "ry": 0.18, "label": "TOUCAN INTERRUPT" },
+    { "type": "polyline", "points": [[0.00, 0.83], [0.35, 0.68], [0.73, 0.62], [1.00, 0.50]], "label": "BRANCH SWEEP" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.00, "w": 1.00, "h": 1.00, "label": "STICKER SCREEN" }
+  ],
+  "notes": "A dense screen of green stickers crosses a reproduced bird and branch."
+}

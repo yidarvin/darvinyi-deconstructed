@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-vases-encyclopedia-pictures.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.42, "cy": 0.50, "rx": 0.34, "ry": 0.36, "label": "COLLAGE FIELD" },
+    { "type": "ellipse", "cx": 0.71, "cy": 0.79, "rx": 0.18, "ry": 0.13, "label": "LOWER CLUSTER" },
+    { "type": "polyline", "points": [[0.23, 0.88], [0.17, 0.57], [0.33, 0.38], [0.48, 0.23]], "label": "RISING ARC" }
+  ],
+  "notes": "Small picture fragments collect into two suspended clusters over a black field."
+}

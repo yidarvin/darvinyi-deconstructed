@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-print-test-panel-darkroom-manuals.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.11, "y": 0.15, "w": 0.79, "h": 0.75, "label": "PRINTED PANEL" },
+    { "type": "polyline", "points": [[0.12, 0.17], [0.50, 0.18], [0.88, 0.17]], "label": "OFFSET TOP EDGE" },
+    { "type": "polyline", "points": [[0.12, 0.89], [0.50, 0.88], [0.89, 0.89]], "label": "OFFSET BASE" }
+  ],
+  "notes": "Misregistered color outlines make the printed panel appear to shift against itself."
+}

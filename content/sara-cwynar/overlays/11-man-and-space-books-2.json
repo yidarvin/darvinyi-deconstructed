@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-man-and-space-books-2.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.02, "y": 0.01, "w": 0.96, "h": 0.98, "label": "PEGBOARD ARCHIVE" },
+    { "type": "frame_in_frame", "x": 0.53, "y": 0.25, "w": 0.19, "h": 0.25, "label": "MAN AND SPACE" },
+    { "type": "polyline", "points": [[0.11, 0.59], [0.46, 0.61], [0.78, 0.56], [0.95, 0.62]], "label": "MIDDLE BOOK BAND" }
+  ],
+  "notes": "The pegboard's literal grid counters an all-over archive of overlapping books."
+}

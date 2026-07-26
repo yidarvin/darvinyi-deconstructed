@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-corinthian-column-plastic-cups.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.37, "y": 0.11, "w": 0.27, "h": 0.76, "label": "CUP COLUMN" },
+    { "type": "polyline", "points": [[0.04, 0.49], [0.49, 0.49], [0.95, 0.49]], "label": "BACKDROP SEAM" },
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.04, "w": 0.23, "h": 0.15, "label": "CAPITAL REFERENCE" }
+  ],
+  "notes": "A central column of disposable vessels meets a backdrop seam and an off-axis classical reference."
+}

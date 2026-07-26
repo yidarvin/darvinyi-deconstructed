@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-man-from-contact-sheet-2.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.18, "y": 0.12, "w": 0.64, "h": 0.74, "label": "OCCLUDED PORTRAIT" },
+    { "type": "polyline", "points": [[0.30, 0.12], [0.32, 0.48], [0.30, 0.86]], "label": "REGISTRATION STREAK" },
+    { "type": "polyline", "points": [[0.72, 0.12], [0.70, 0.48], [0.72, 0.86]], "label": "REGISTRATION STREAK" }
+  ],
+  "notes": "Vertical color streaks turn a centered portrait into a procedural screen."
+}
