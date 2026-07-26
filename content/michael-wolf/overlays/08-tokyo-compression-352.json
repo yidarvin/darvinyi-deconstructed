@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-tokyo-compression-352.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.044, "y": 0.0, "w": 0.901, "h": 1.0, "label": "window bounds" },
+    { "type": "ellipse", "cx": 0.574, "cy": 0.655, "rx": 0.246, "ry": 0.223, "label": "upturned face" },
+    { "type": "polyline", "points": [[0.503, 0.539], [0.613, 0.529], [0.742, 0.564], [0.809, 0.618]], "label": "brow-to-cheek plane" }
+  ],
+  "notes": "An upturned face presses into the lower frame while the window turns the surrounding crowd into reflected density."
+}

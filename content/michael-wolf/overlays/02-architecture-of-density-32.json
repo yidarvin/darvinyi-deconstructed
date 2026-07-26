@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-architecture-of-density-32.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central tower" },
+    { "type": "frame_in_frame", "x": 0.359, "y": 0.352, "w": 0.288, "h": 0.322, "label": "dense middle slab" },
+    { "type": "frame_in_frame", "x": 0.666, "y": 0.155, "w": 0.111, "h": 0.499, "label": "side tower" }
+  ],
+  "notes": "Three tower faces make a shallow canyon while the central slab holds the image's tightest repetition."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-paris-street-view-016.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 0.383, "h": 1.0, "label": "shutter field" },
+    { "type": "frame_in_frame", "x": 0.386, "y": 0.0, "w": 0.365, "h": 1.0, "label": "doorway" },
+    { "type": "ellipse", "cx": 0.240, "cy": 0.756, "rx": 0.179, "ry": 0.216, "label": "couple" }
+  ],
+  "notes": "A found private gesture is compressed into the narrow seam between a shutter, doorway, and blank wall."
+}

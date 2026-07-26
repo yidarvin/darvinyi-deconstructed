@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-tokyo-compression-118.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.031, "y": 0.0, "w": 0.926, "h": 1.0, "label": "window bounds" },
+    { "type": "ellipse", "cx": 0.665, "cy": 0.512, "rx": 0.218, "ry": 0.276, "label": "profile" },
+    { "type": "polyline", "points": [[0.575, 0.085], [0.674, 0.150], [0.730, 0.306], [0.740, 0.415]], "label": "falling hair" }
+  ],
+  "notes": "A near-profile is trapped between dark mass, a pale reflection, and the thin boundary of the train window."
+}

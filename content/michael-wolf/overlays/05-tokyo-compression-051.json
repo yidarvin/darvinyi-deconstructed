@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-tokyo-compression-051.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.050, "y": 0.091, "w": 0.898, "h": 0.909, "label": "train window" },
+    { "type": "ellipse", "cx": 0.599, "cy": 0.454, "rx": 0.266, "ry": 0.260, "label": "compressed face" },
+    { "type": "polyline", "points": [[0.051, 0.689], [0.120, 0.586], [0.184, 0.479], [0.274, 0.367]], "label": "window curve" }
+  ],
+  "notes": "The window's hard curve and condensation turn a face into a layered surface under physical pressure."
+}

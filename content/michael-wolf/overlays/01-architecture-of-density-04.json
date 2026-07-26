@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-architecture-of-density-04.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "repeated bays" },
+    { "type": "frame_in_frame", "x": 0.111, "y": 0.054, "w": 0.105, "h": 0.061, "label": "one occupied cell" },
+    { "type": "frame_in_frame", "x": 0.642, "y": 0.588, "w": 0.105, "h": 0.080, "label": "hanging laundry" }
+  ],
+  "notes": "A strict apartment grid is made human by the small deviations inside repeated cells."
+}

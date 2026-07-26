@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-transparent-city-20.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.6, "label": "office rhythm" },
+    { "type": "frame_in_frame", "x": 0.045, "y": 0.0, "w": 0.889, "h": 1.0, "label": "window field" },
+    { "type": "frame_in_frame", "x": 0.407, "y": 0.358, "w": 0.104, "h": 0.061, "label": "dark interruption" }
+  ],
+  "notes": "Repeated lit windows turn the facade into a surveillance grid, disturbed by dark empty cells."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-transparent-city-01.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 0.297, "h": 1.0, "label": "office grid" },
+    { "type": "frame_in_frame", "x": 0.328, "y": 0.0, "w": 0.209, "h": 1.0, "label": "narrow tower" },
+    { "type": "frame_in_frame", "x": 0.674, "y": 0.0, "w": 0.326, "h": 1.0, "label": "night offices" }
+  ],
+  "notes": "Three overlapping office facades parcel night work into small illuminated cells."
+}

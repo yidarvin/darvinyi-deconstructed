@@ -1,0 +1,121 @@
+[
+  {
+    "file": "01-architecture-of-density-04.jpg",
+    "width": 900,
+    "height": 745,
+    "sha1": "dd4fa30d",
+    "source": "01-architecture-of-density-04.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-architecture-of-density-32.jpg",
+    "width": 900,
+    "height": 720,
+    "sha1": "2fd5c933",
+    "source": "02-architecture-of-density-32.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-architecture-of-density-57.jpg",
+    "width": 900,
+    "height": 601,
+    "sha1": "1bee4d43",
+    "source": "03-architecture-of-density-57.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-architecture-of-density-99.jpg",
+    "width": 900,
+    "height": 802,
+    "sha1": "14170d59",
+    "source": "04-architecture-of-density-99.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-tokyo-compression-051.jpg",
+    "width": 719,
+    "height": 900,
+    "sha1": "5eda87b5",
+    "source": "05-tokyo-compression-051.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-tokyo-compression-118.jpg",
+    "width": 720,
+    "height": 900,
+    "sha1": "925a256e",
+    "source": "06-tokyo-compression-118.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark II",
+      "DateTimeOriginal": "2008:09:08 07:13:21",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.07692307692307693",
+      "FNumber": "3.5",
+      "ISOSpeedRatings": "200",
+      "LensModel": "EF50mm f/2.5 Compact Macro"
+    }
+  },
+  {
+    "file": "07-tokyo-compression-223.jpg",
+    "width": 719,
+    "height": 900,
+    "sha1": "3371284b",
+    "source": "07-tokyo-compression-223.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-tokyo-compression-352.jpg",
+    "width": 719,
+    "height": 900,
+    "sha1": "ec794aa6",
+    "source": "08-tokyo-compression-352.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-transparent-city-01.jpg",
+    "width": 900,
+    "height": 675,
+    "sha1": "0cd1652a",
+    "source": "09-transparent-city-01.jpg",
+    "exif": {
+      "DateTimeOriginal": "2007:10:04 02:10:44",
+      "ISOSpeedRatings": "100",
+      "FocalLength": "90.0",
+      "ExposureTime": "61.0",
+      "FNumber": "11.0"
+    }
+  },
+  {
+    "file": "10-transparent-city-20.jpg",
+    "width": 720,
+    "height": 900,
+    "sha1": "1f238b52",
+    "source": "10-transparent-city-20.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 45+",
+      "DateTimeOriginal": "2007:10:11 01:39:47",
+      "ISOSpeedRatings": "200",
+      "FocalLength": "135.0",
+      "ExposureTime": "6.0",
+      "FNumber": "11.0"
+    }
+  },
+  {
+    "file": "11-paris-street-view-007.jpg",
+    "width": 720,
+    "height": 900,
+    "sha1": "1b9c0eca",
+    "source": "11-paris-street-view-007.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-paris-street-view-016.jpg",
+    "width": 675,
+    "height": 900,
+    "sha1": "da4535b2",
+    "source": "12-paris-street-view-016.jpg",
+    "exif": {}
+  }
+]

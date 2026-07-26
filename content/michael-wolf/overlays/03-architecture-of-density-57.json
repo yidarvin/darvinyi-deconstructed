@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-architecture-of-density-57.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.613, "label": "tower seam" },
+    { "type": "frame_in_frame", "x": 0.333, "y": 0.0, "w": 0.134, "h": 1.0, "label": "pale tower" },
+    { "type": "frame_in_frame", "x": 0.521, "y": 0.0, "w": 0.172, "h": 1.0, "label": "warm tower" }
+  ],
+  "notes": "The crop turns towers into adjacent patterned strips, with their vertical seams doing more work than a skyline."
+}

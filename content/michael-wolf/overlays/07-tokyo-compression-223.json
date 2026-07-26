@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-tokyo-compression-223.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.004, "y": 0.0, "w": 0.985, "h": 1.0, "label": "wet window" },
+    { "type": "ellipse", "cx": 0.772, "cy": 0.280, "rx": 0.190, "ry": 0.237, "label": "partial face" },
+    { "type": "polyline", "points": [[0.107, 0.691], [0.119, 0.584], [0.125, 0.486], [0.130, 0.391]], "label": "raised hand" }
+  ],
+  "notes": "A hand, a partial face, and reflected bodies occupy separate planes behind one wet pane."
+}

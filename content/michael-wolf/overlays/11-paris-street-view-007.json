@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-paris-street-view-007.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.188, "y": 0.071, "w": 0.617, "h": 0.888, "label": "screen crop" },
+    { "type": "ellipse", "cx": 0.510, "cy": 0.524, "rx": 0.141, "ry": 0.342, "label": "walking figure" },
+    { "type": "polyline", "points": [[0.510, 0.711], [0.630, 0.746], [0.748, 0.818], [0.870, 0.885]], "label": "cast shadow" }
+  ],
+  "notes": "Pixel structure makes the found street view read as a screen before it reads as a person in a street."
+}
