@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -19,3 +19,26 @@ All twelve proof PNGs were visually reviewed against their overlay specs. Determ
 1. Removed the Matterhorn `symmetry_axis` labelled `PEAK ALIGNMENT` from `04-photo-opportunities-plate-04`. The retained mass ellipse, measured valley line, and measured lower-slope convergence make only supportable claims; the chapter already describes those features and makes no peak-axis claim, so no prose change was needed.
 
 Re-verified prior critique round: 2026-07-26. The regenerated Matterhorn proof received a clean visual pass and scores 100/100; all twelve current overlay specs score 100/100. `scripts/check.sh` passes.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Review evidence
+
+All twelve current proof PNGs were visually reviewed against the matching
+overlay specifications and analyzer records. The resolved `04-photo-opportunities-plate-04`
+peak-axis issue has not regressed: its current overlay contains only the
+Matterhorn mass, valley band, and measured layered-approach point, each of
+which visibly traces its named feature. Every current overlay scores 100/100
+against its stored analysis. Chapter horizon, anchor, convergence, tonal-range,
+palette, and edge-density claims match those records within the stated rounding
+tolerance. The artist portfolio remains publicly reachable and every image has
+an individual source record, credit, and four-factor fair-use rationale; the
+chapter and research note expressly decline to infer camera settings.
