@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-fanon-eigenface.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "facial axis" },
+    { "type": "subject_anchor", "x": 0.305, "y": 0.336, "r": 0.035, "label": "left eye field" },
+    { "type": "polyline", "points": [[0.31, 0.34], [0.5, 0.36], [0.67, 0.33]], "label": "eye-line" }
+  ],
+  "notes": "A frontal synthetic face is stabilized by a central axis and an interrupted eye-line."
+}

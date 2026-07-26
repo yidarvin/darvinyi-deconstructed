@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "01-stss-carson-city.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.5, "rx": 0.3, "ry": 0.3, "label": "star-trail rotation" }
+  ],
+  "notes": "Concentric star trails make the frame turn around its central point."
+}

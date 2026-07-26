@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "image": "08-onyx-v-glacier-point.jpg",
+  "width": 1600,
+  "height": 1236,
+  "aspect": 1.2945,
+  "tonal": {
+    "mean": 0.6006883457199251,
+    "std": 0.2679347365244245,
+    "p05": 0.0784313725490196,
+    "p95": 0.807843137254902,
+    "edge_density": 0.002181524573324905
+  },
+  "palette": [
+    "#d1bebc",
+    "#17131a",
+    "#322b32",
+    "#614e50",
+    "#837075"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.7130214917825537,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7724609375,
+      0.6826801517067004
+    ],
+    "regions": [
+      {
+        "cx": 0.7640916693489056,
+        "cy": 0.7676750838881504,
+        "x": 0.5009765625,
+        "y": 0.606826801517067,
+        "w": 0.4990234375,
+        "h": 0.336283185840708,
+        "area_frac": 0.06712478271175727
+      },
+      {
+        "cx": 0.06826583070571089,
+        "cy": 0.8151084543910617,
+        "x": 0.0,
+        "y": 0.6447534766118836,
+        "w": 0.1748046875,
+        "h": 0.3552465233881163,
+        "area_frac": 0.04468483328065739
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.980421237134375,
+    "vertical_axis_x": 0.55,
+    "horizontal": 0.8601592475670409,
+    "horizontal_axis_y": 0.4125
+  },
+  "subject_anchor": {
+    "x": 0.7724609375,
+    "y": 0.6826801517067004,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5161133821638275,
+    "phi": 0.17248239038030183,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.713,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.55,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.772,
+      "y": 0.683,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

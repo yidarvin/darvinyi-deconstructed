@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "02-nsa-tapped-mastic-beach.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.62, "angle": 0, "label": "shoreline divide" },
+    { "type": "subject_anchor", "x": 0.93, "y": 0.739, "r": 0.035, "label": "coastal focal point" }
+  ],
+  "notes": "A long lateral shore divide holds an informational landscape at the edge of the frame."
+}

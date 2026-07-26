@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-overhead-nsa.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.546, "y": 0.658, "label": "compound convergence" },
+    { "type": "horizon_line", "y": 0.1, "angle": 0, "label": "upper light band" },
+    { "type": "subject_anchor", "x": 0.319, "y": 0.988, "r": 0.035, "label": "foreground light" },
+    { "type": "leading_line", "points": [[0.234, 0.473], [0.452, 0.61]], "arrow": true, "label": "lit access line" }
+  ],
+  "notes": "An oblique night view makes a complex read through converging lit paths."
+}

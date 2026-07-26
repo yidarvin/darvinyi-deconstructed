@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "06-fanon-eigenface.jpg",
+  "width": 1600,
+  "height": 1600,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.44949034522561465,
+    "std": 0.2483762327216698,
+    "p05": 0.07450980392156863,
+    "p95": 0.8823529411764706,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#9b9ca1",
+    "#424453",
+    "#1b1b26",
+    "#70707c",
+    "#ddd3d6"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.224609375,
+    "angle_deg": 0.0,
+    "confidence": 0.6550282170741222,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.3046875,
+      0.3359375
+    ],
+    "regions": [
+      {
+        "cx": 0.3103534509058481,
+        "cy": 0.33577166863207547,
+        "x": 0.2431640625,
+        "y": 0.2880859375,
+        "w": 0.1435546875,
+        "h": 0.09375,
+        "area_frac": 0.010159492492675781
+      },
+      {
+        "cx": 0.6655039903223395,
+        "cy": 0.3257248514722001,
+        "x": 0.619140625,
+        "y": 0.2958984375,
+        "w": 0.095703125,
+        "h": 0.0615234375,
+        "area_frac": 0.0047855377197265625
+      },
+      {
+        "cx": 0.43283333786682415,
+        "cy": 0.5556475476405123,
+        "x": 0.3935546875,
+        "y": 0.5244140625,
+        "w": 0.080078125,
+        "h": 0.0634765625,
+        "area_frac": 0.0038347244262695312
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9918761133734408,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7433969227993775,
+    "horizontal_axis_y": 0.55
+  },
+  "subject_anchor": {
+    "x": 0.3046875,
+    "y": 0.3359375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.521988332601209,
+    "phi": 0.31999021466671107,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.99,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.225,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.66,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.305,
+      "y": 0.336,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

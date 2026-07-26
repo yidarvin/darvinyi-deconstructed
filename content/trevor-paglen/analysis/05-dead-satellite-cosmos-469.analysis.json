@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "05-dead-satellite-cosmos-469.jpg",
+  "width": 1398,
+  "height": 1124,
+  "aspect": 1.2438,
+  "tonal": {
+    "mean": 0.5234879742259905,
+    "std": 0.24214605066787226,
+    "p05": 0.11372549019607843,
+    "p95": 0.8745098039215686,
+    "edge_density": 0.008227806044957474
+  },
+  "palette": [
+    "#8e8e8e",
+    "#242424",
+    "#b0b0b0",
+    "#d7d7d7",
+    "#464646"
+  ],
+  "lines": [
+    {
+      "x1": 0.4541015625,
+      "y1": 0.7849331713244229,
+      "x2": 0.59765625,
+      "y2": 0.7849331713244229,
+      "angle_deg": 0.0,
+      "length": 0.11189453898420573,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.841796875,
+      "y1": 0.732685297691373,
+      "x2": 0.97265625,
+      "y2": 0.732685297691373,
+      "angle_deg": 0.0,
+      "length": 0.10199910356383379,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.8134765625,
+      "y1": 0.7083839611178615,
+      "x2": 0.908203125,
+      "y2": 0.707168894289186,
+      "angle_deg": -0.590657214646671,
+      "length": 0.0738390955246109,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.1279296875,
+      "y1": 0.7023086269744836,
+      "x2": 0.2216796875,
+      "y2": 0.707168894289186,
+      "angle_deg": 2.3859440303888126,
+      "length": 0.07313738941358437,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.732685297691373,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5537109375,
+      0.6366950182260024
+    ],
+    "regions": [
+      {
+        "cx": 0.7216304622564572,
+        "cy": 0.6225253560632312,
+        "x": 0.6484375,
+        "y": 0.5589307411907655,
+        "w": 0.1494140625,
+        "h": 0.12879708383961117,
+        "area_frac": 0.013276740962940462
+      },
+      {
+        "cx": 0.5521478125322564,
+        "cy": 0.647236425315531,
+        "x": 0.5029296875,
+        "y": 0.5710814094775213,
+        "w": 0.0986328125,
+        "h": 0.14702308626974483,
+        "area_frac": 0.011495671324422843
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9506646169482673,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.924902066323457,
+    "horizontal_axis_y": 0.5125
+  },
+  "subject_anchor": {
+    "x": 0.5537109375,
+    "y": 0.6366950182260024,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.42206510642162437,
+    "phi": 0.384692018051695,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.733,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.95,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.554,
+      "y": 0.637,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

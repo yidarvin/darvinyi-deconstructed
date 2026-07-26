@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-dead-satellite-cosmos-469.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.733, "angle": 0, "label": "desert horizon" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "open-sky balance" },
+    { "type": "subject_anchor", "x": 0.554, "y": 0.637, "r": 0.035, "label": "monument formation" }
+  ],
+  "notes": "A broad desert register leaves a small remote signal suspended above the horizon."
+}

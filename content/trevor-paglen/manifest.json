@@ -1,0 +1,134 @@
+[
+  {
+    "file": "01-stss-carson-city.jpg",
+    "width": 1124,
+    "height": 1132,
+    "sha1": "23c5794c",
+    "source": "01-stss-carson-city.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2012:11:15 12:10:13",
+      "FocalLength": "80.0",
+      "ExposureTime": "5.0",
+      "FNumber": "12.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "02-nsa-tapped-mastic-beach.jpg",
+    "width": 1600,
+    "height": 630,
+    "sha1": "02dbdecc",
+    "source": "02-nsa-tapped-mastic-beach.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-national-security-agencies.jpg",
+    "width": 796,
+    "height": 1600,
+    "sha1": "d3f5c114",
+    "source": "03-national-security-agencies.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-reaper-drone.jpg",
+    "width": 1417,
+    "height": 1134,
+    "sha1": "6534babe",
+    "source": "04-reaper-drone.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark II",
+      "DateTimeOriginal": "2010:11:05 07:20:02",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.025",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "400"
+    }
+  },
+  {
+    "file": "05-dead-satellite-cosmos-469.jpg",
+    "width": 1398,
+    "height": 1124,
+    "sha1": "733a651d",
+    "source": "05-dead-satellite-cosmos-469.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2012:11:15 12:28:57",
+      "FocalLength": "80.0",
+      "ExposureTime": "16.0",
+      "FNumber": "12.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "06-fanon-eigenface.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "0091d2ec",
+    "source": "06-fanon-eigenface.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-nsa-tapped-keawaula.jpg",
+    "width": 1600,
+    "height": 628,
+    "sha1": "a2bb4320",
+    "source": "07-nsa-tapped-keawaula.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-onyx-v-glacier-point.jpg",
+    "width": 1600,
+    "height": 1236,
+    "sha1": "583e2f9f",
+    "source": "08-onyx-v-glacier-point.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-overhead-nsa.jpg",
+    "width": 640,
+    "height": 431,
+    "sha1": "627e4352",
+    "source": "09-overhead-nsa.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 6D",
+      "DateTimeOriginal": "2012:08:19 17:34:56",
+      "FocalLength": "45.0",
+      "ExposureTime": "0.25",
+      "FNumber": "2.8",
+      "ISOSpeedRatings": "6400"
+    }
+  },
+  {
+    "file": "10-last-pictures-echostar-xvi.jpg",
+    "width": 640,
+    "height": 283,
+    "sha1": "aaf6df2a",
+    "source": "10-last-pictures-echostar-xvi.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2012:11:19 17:48:39",
+      "FocalLength": "200.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "2.8",
+      "ISOSpeedRatings": "800",
+      "LensModel": "EF70-200mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "11-last-pictures-narbona-predator.jpg",
+    "width": 640,
+    "height": 238,
+    "sha1": "f4aa7d86",
+    "source": "11-last-pictures-narbona-predator.jpg",
+    "exif": {
+      "Make": "NewcolorV2 2.4900000095 0.93000000715 2.8074560165 2.8074560165 0.25235173106",
+      "DateTimeOriginal": "2012:07:14 09:15:50"
+    }
+  }
+]

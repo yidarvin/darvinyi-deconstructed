@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "03-national-security-agencies.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.655, "angle": 0, "label": "night-ground seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "triptych center" }
+  ],
+  "notes": "Repeated nocturnal views are ordered by a central axis and a shared low register."
+}
