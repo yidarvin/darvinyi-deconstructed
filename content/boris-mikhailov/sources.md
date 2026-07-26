@@ -1,8 +1,8 @@
 # Boris Mikhailov — source shortlist
 
-This twelve-image set traces Mikhailov’s movement from the charged color signs of Soviet everyday life through superimposition, hand-coloring, staged self-performance, post-Soviet street work, and the late industrial and mortality projects. Every JPEG was retrieved from the publicly viewable Boris Mikhailov project pages of the Kharkiv School of Photography (KSP), an authoritative Ukrainian archive, and was verified as an opening JPEG. KSP identifies the artist on each project page but does not offer an open licence for these copyrighted photographs.
+This twelve-image set traces Mikhailov’s movement from the charged color signs of Soviet everyday life through superimposition, hand-coloring, staged self-performance, post-Soviet social work, and late industrial and mortality projects. Eleven JPEGs were retrieved from publicly viewable Boris Mikhailov project pages of the Kharkiv School of Photography (KSP), an authoritative Ukrainian archive; the remaining installation photograph is a credited Deutsche Welle/picture-alliance-dpa editorial image, recorded separately below. KSP identifies Mikhailov on its project pages but does not offer an open licence for these copyrighted photographs.
 
-**Rights basis:** **fair-use** for every selection. KSP’s project pages identify Boris Mikhailov as artist; no separate rightsholder notice is supplied on the individual pages. Each reproduction is a small, credited, record-linked public display copy used here for transformative criticism, scholarship, and composition teaching. The complete frame is retained because the argument concerns Mikhailov’s framing and sequencing; the files are web-sized and do not replace an original print, the KSP record, or a licensed reproduction.
+**Rights basis:** **fair-use** for every selection. The eleven KSP reproductions are credited to Mikhailov as identified by KSP; the installation photograph retains its visible `© picture-alliance/dpa` credit. Each is a small, credited, record-linked public display copy used here for transformative criticism, scholarship, and composition teaching. The complete frame is retained because the argument concerns Mikhailov’s framing and sequencing, or—in the installation photograph—the display geometry; the files are web-sized and do not replace an original print, an editorial agency image, the KSP record, or a licensed reproduction.
 
 ## Shortlist
 
@@ -18,7 +18,7 @@ This twelve-image set traces Mikhailov’s movement from the charged color signs
 - **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative teaching compares serial color emphasis and visual hierarchy. **Factor 2:** a creative photograph. **Factor 3:** the intact frame is needed to assess the red accent against the full scene. **Factor 4:** the credited 733 × 1080px KSP display copy is record-linked and non-substitutive.
 - **File:** `raw/boris-mikhailov/02-red-series-10.jpg` (733 × 1080px)
 
-### 03 — *Untitled, from Overlays (Yesterday’s Sandwich)* (1968–1981)
+### 03 — *Untitled, from Overlays* (1968–1981)
 - **Why it matters:** Two slide images collide into a dense, unstable surface, making superimposition itself the compositional subject rather than a hidden darkroom device.
 - **Source:** https://ksp.ui.org.ua/series/overlays-mikhailov/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/overlays/Boris_Mikhailov_Overlays1.jpg)
 - **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies the collision of two complete image structures. **Factor 2:** a creative photograph. **Factor 3:** both overlaid fields must remain whole to explain the effect. **Factor 4:** this credited 1920 × 1248px display rendition is public-web scale, record-linked, and not a substitute for a print or licensed file.
@@ -36,10 +36,10 @@ This twelve-image set traces Mikhailov’s movement from the charged color signs
 - **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative scholarship studies pose and the frame’s conceptual withholding. **Factor 2:** a creative photograph. **Factor 3:** the entire vertical frame is needed to evaluate body, setting, and crop. **Factor 4:** the credited 791 × 1080px public display copy is record-linked and not a replacement for a print or licensed reproduction.
 - **File:** `raw/boris-mikhailov/05-unfinished-dissertation-01.jpg` (791 × 1080px)
 
-### 06 — *Untitled, from By the Ground* (1991)
-- **Why it matters:** The low, compressed view makes the pavement and a figure’s proximity carry the weight of the post-Soviet street; distance is nearly erased.
-- **Source:** https://ksp.ui.org.ua/series/by-the-ground/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/by_the_ground/1borismikhailov-bythegroundweb.jpg)
-- **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies the radical low viewpoint and compression. **Factor 2:** a creative photograph. **Factor 3:** the complete horizontal frame is needed to retain the ground-to-figure relation. **Factor 4:** this credited 659 × 371px KSP display rendition is web-sized, linked, and non-substitutive.
+### 06 — *Boris Mikhailov before a photograph display* (installation photograph; supplied file, undated)
+- **Why it matters:** This is a documentary installation photograph, not a work from *By the Ground*: a gallery wall, the artist’s body, and a receding row of framed photographs make presentation and authorship visible together.
+- **Source:** Deutsche Welle, “Бомжи как художественный объект” (2015): https://www.dw.com/ru/%D0%BC%D0%BE%D1%80%D0%B0%D0%BB%D0%B8%D1%81%D1%82-%D0%B1%D0%BE%D1%80%D0%B8%D1%81-%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2-%D0%B1%D0%BE%D0%BC%D0%B6%D0%B8-%D0%BA%D0%B0%D0%BA-%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82/a-15774225. The supplied image carries the visible credit `© picture-alliance/dpa`; it is therefore not attributed here to Mikhailov or KSP.
+- **Rights / fair-use assessment:** © picture-alliance/dpa (as printed on the supplied installation photograph). **Factor 1:** transformative criticism analyzes the display-wall geometry and the relation between artist and exhibited works, not a reproduction of a Mikhailov series image. **Factor 2:** a creative editorial/documentary photograph. **Factor 3:** the complete 659 × 371px frame is necessary to show the artist, the wall, and the receding arrangement together. **Factor 4:** this small, credited, linked web reproduction is used for criticism and does not substitute for the agency’s licensed image or exhibition documentation.
 - **File:** `raw/boris-mikhailov/06-by-the-ground-01.jpg` (659 × 371px)
 
 ### 07 — *Untitled, from I Am Not I* (1992)
@@ -49,7 +49,7 @@ This twelve-image set traces Mikhailov’s movement from the charged color signs
 - **File:** `raw/boris-mikhailov/07-i-am-not-i-10.jpg` (494 × 800px)
 
 ### 08 — *Untitled, from At Dusk* (1993)
-- **Why it matters:** Blue hand-toning and the long, shallow panorama make twilight both a real light condition and a metaphor for a society in transition.
+- **Why it matters:** Chemical color toning in black-and-white images, along with the long, shallow panorama, makes twilight both a real light condition and a metaphor for a society in transition.
 - **Source:** https://ksp.ui.org.ua/series/at-dusk/ (KSP public display image: https://ksp.ui.org.ua/storage/static-content/source/boris_mikhailov/at_dusk/boris_mikhailov_at_dusk10web.jpg)
 - **Rights / fair-use assessment:** Boris Mikhailov; KSP identifies the artist and supplies no open licence or separate rights notice. **Factor 1:** transformative criticism studies the panorama’s tonal mood and lateral pacing. **Factor 2:** a creative photograph. **Factor 3:** the full horizontal frame is needed to see its extended spatial relation. **Factor 4:** the credited 792 × 371px public display copy is record-linked and cannot substitute for the work or licensed imagery.
 - **File:** `raw/boris-mikhailov/08-at-dusk-10.jpg` (792 × 371px)

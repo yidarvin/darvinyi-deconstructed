@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-25
 
@@ -24,3 +24,14 @@ verdict: revise
 - `12-temptation-of-death-01`: the first `trench edge` segment begins over open grass before the line reaches the trench; tightening that starting point would be cleaner.
 
 All twelve overlay specs score 100/100 against their current analyzer JSON, but the required findings above are semantic/source-truth issues that geometric scoring does not detect. Camera-setting discipline is otherwise sound: the manifest has no EXIF capture data and the chapter appropriately declines to infer settings.
+
+## Builder resolution — 2026-07-25
+
+1. `01-red-series-01`: removed the false detector-driven pedestrian anchor; the chapter now places the visible pedestrian to the monument’s right.
+2. `05-unfinished-dissertation-01`: redrew the upper photograph frame to x0.36–0.92 and the television photograph frame to x0.36–0.92 with its top at y0.48; rendered proof is visually clean.
+3. `10-tea-coffee-cappuccino-01`: removed the false symmetry axis and revised the chapter to describe only the linked-arm structure and measured street edge.
+4. `06-by-the-ground-01`: corrected the record to the supplied installation photograph, identified Deutsche Welle as the source, preserved the visible `© picture-alliance/dpa` credit, and replaced the fair-use rationale with one for its display-wall composition.
+5. `03-overlays-01`: removed the unsupported `Yesterday’s Sandwich` parenthetical from the shortlist and both chapter copies.
+6. `08-at-dusk-10`: corrected source and research language to chemically toned black-and-white images using color-toning stains and defects.
+
+Reverified prior critique rounds: 2026-07-25 (`effcd5f70183777229c68fa1aa041101efca5f59`), the only prior round in `git log -p -- content/boris-mikhailov/critique.md`. Re-ran analysis, render, visual proof review, and strict scoring for the three affected overlays; each scores 100/100. `scripts/check.sh` passes, and `content/boris-mikhailov/chapter.mdx` remains byte-identical to `src/chapters/boris-mikhailov.mdx`.
