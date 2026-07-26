@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -18,3 +18,15 @@ verdict: resolved
 ### Prior-round regression check
 
 - Re-verified critique round 2026-07-26 (commit `9548b73df42f5b7f3a076096f9297a596fa10965`): the required caption/spec/proof agreement now holds. The advisory semantic-line warnings for 01, 02, 03, and 07 remain non-blocking; each overlay scores 94/100 and the visual review confirms its named feature.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **08-burnt-pantanal-i:** The chapter’s phrase “it is also logged for automatic re-audit” describes a completed process rather than a currently visible reader-facing record; the conservative phi grid and bright left-bank anchor are truthful and the fallback is materially sound. This does not misdescribe the photograph or its composition.
+- Re-reviewed all ten current proofs against their overlay and analyzer JSON. Every labelled primitive traces the named visible feature; the interpretive detector warnings on 01, 02, 03, and 07 remain non-blocking, and every spec scores at least 94/100. The earlier 08 phi-grid caption correction remains intact.
+- Each ingested image’s SHA-1 prefix matches `manifest.json`; all ten documented artist-site display URLs return publicly accessible JPEG responses, and every selection retains a concise, per-image four-factor fair-use assessment. No individual camera settings or unsupported capture metadata appear in the chapter.

@@ -170,7 +170,7 @@ real queue and state live in data/registry.json.
 | 159 | jason-salavon             | Jason Salavon                | DONE    |
 | 160 | walead-beshty             | Walead Beshty                | DONE    |
 | 161 | trevor-paglen             | Trevor Paglen                | DONE    |
-| 162 | richard-mosse             | Richard Mosse                | PENDING |
+| 162 | richard-mosse             | Richard Mosse                | DONE    |
 | 163 | taryn-simon               | Taryn Simon                  | PENDING |
 | 164 | daniel-gordon             | Daniel Gordon                | PENDING |
 | 165 | sara-cwynar               | Sara Cwynar                  | PENDING |
