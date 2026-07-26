@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -44,3 +44,25 @@ at 100, 100, 94, and 100 respectively (all above the 80 threshold). The
 94-point mural score retains only a non-blocking detector warning for the
 visually verified lower rail. `scripts/check.sh` passed, including the
 content/site chapter byte-identity gate.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None. All twelve current proofs were visually checked against their overlay
+specifications and analyzer evidence. The four requirements from the preceding
+round remain resolved: the Little Leaguer centreline is explicitly interpretive;
+the Loop and American Varietal perimeter/edge paths trace the visible installation
+geometry; and the Automatic Pattern paths are truthfully described as row
+alignments. No resolved point has materially regressed.
+
+The chapter's tonal, palette, and edge-density measurements match the associated
+analyzer JSON within the stated tolerance. It makes no production-camera claim.
+Each displayed image has a reachable official-archive work page and public PNG
+rendition, an accurate Jason Salavon credit/copyright notice, and item-specific
+four-factor fair-use reasoning appropriate to the complete web-scale frame.
+
+### Advisory (non-blocking)
+
+None newly observed. The prior round's advisories remain non-blocking and do not
+misstate the pictured composition.

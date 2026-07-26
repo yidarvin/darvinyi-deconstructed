@@ -167,7 +167,7 @@ real queue and state live in data/registry.json.
 | 156 | mishka-henner             | Mishka Henner                | DONE    |
 | 157 | jon-rafman                | Jon Rafman                   | DONE    |
 | 158 | corinne-vionnet           | Corinne Vionnet              | DONE    |
-| 159 | jason-salavon             | Jason Salavon                | PENDING |
+| 159 | jason-salavon             | Jason Salavon                | DONE    |
 | 160 | walead-beshty             | Walead Beshty                | PENDING |
 | 161 | trevor-paglen             | Trevor Paglen                | PENDING |
 | 162 | richard-mosse             | Richard Mosse                | PENDING |
