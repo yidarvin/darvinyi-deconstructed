@@ -4,8 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "vanishing_point", "x": 0.416, "y": 0.529, "label": "receding panel" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "photograph center" },
-    { "type": "leading_line", "points": [[0.511, 0.139], [0.827, 0.518]], "arrow": true, "label": "right panel edge" }
+    { "type": "subject_anchor", "x": 0.352, "y": 0.613, "r": 0.035, "label": "flower field" },
+    { "type": "leading_line", "points": [[0.511, 0.139], [0.827, 0.518]], "arrow": true, "label": "right edge of panel" }
   ],
   "notes": "The low view makes a flat flower image read as a receding physical panel."
 }

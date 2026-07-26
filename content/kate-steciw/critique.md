@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -12,3 +12,13 @@ verdict: revise
 
 - All twelve specs pass the deterministic scorer at 100/100. The required items above are semantic/visual-truth failures that the geometric scorer is not designed to detect.
 - The other proofs were visually checked against their specs and chapter claims; no additional materially misleading issue was found.
+
+## Resolution — 2026-07-26
+
+All required corrections are applied and were re-rendered, visually checked, and re-scored at 100/100:
+
+1. **01-the-strangeness-of-this-idea:** `sources.md` now identifies the single floor-level flower panel and bases the fair-use rationale on its oblique view, visible edge, and surrounding floor. The overlay now labels the actual panel edge and flower field.
+2. **03-construction-1029:** source notes and chapter now describe the satin work as floor-bound. The false symmetry/hanging-center claim was replaced by a `red textile arc` tracing the visible folded form.
+3. **08-clean-machine:** the anchor now lands on the lower blue base at `(0.450, 0.690)`; the chapter uses the same feature name. The false symmetry guide was replaced with the visible framed-image structure.
+
+Re-verified prior required-fix rounds: 2026-07-26 critique round (the complete critique history). The content and site chapter remain byte-identical.

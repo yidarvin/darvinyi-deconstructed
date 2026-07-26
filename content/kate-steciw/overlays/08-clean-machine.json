@@ -4,8 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.218, "angle": 0, "label": "upper frame edge" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "panel center" },
-    { "type": "subject_anchor", "x": 0.279, "y": 0.555, "r": 0.035, "label": "left blue mass" }
+    { "type": "frame_in_frame", "x": 0.219, "y": 0.218, "w": 0.573, "h": 0.566, "label": "framed image" },
+    { "type": "subject_anchor", "x": 0.450, "y": 0.690, "r": 0.035, "label": "blue base" }
   ],
   "notes": "Torn and folded color fields challenge the single depth promised by the frame."
 }

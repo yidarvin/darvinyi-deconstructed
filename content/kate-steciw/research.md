@@ -8,7 +8,7 @@ Gallery and press material locates Steciw’s practice in the physical afterlife
 
 ## Technique and era
 
-The sequence spans an early image-object view from 2010, hanging *Construction* works from 2015, and recent canvas collages from 2023–24. Across it, photographic material is not treated as a transparent window. It is printed, folded, cut, layered, suspended, framed, and shown with the room around it. The result is a recurring oscillation between the visible source image and the literal object that carries it.
+The sequence spans an early image-object view from 2010, 2015 *Construction* works, and recent canvas collages from 2023–24. Across it, photographic material is not treated as a transparent window. It is printed, folded, cut, layered, suspended where the view shows suspension, framed, and shown with the room around it. The result is a recurring oscillation between the visible source image and the literal object that carries it.
 
 The records identify the 2015 *Construction* works as dye sublimation on aluminum or satin, with chain and carabiners where listed. They identify the 2023–24 collages as inkjet prints on canvas, collage on panel. Those are recorded media descriptions, not complete production recipes. The chapter therefore describes visible cut edges, overlaps, folds, frames, and installation relations rather than claiming undocumented software steps.
 
