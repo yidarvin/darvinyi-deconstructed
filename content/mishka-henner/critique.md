@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -17,3 +17,17 @@ None. The other nine proofs visibly trace the routes, field boundaries, pads, an
 ### Prior-round regression check
 
 Re-verified the complete history for critique round 2026-07-26 (commit `1edba2f`): the nine previously accepted proofs retain their named routes, field boundaries, pads, and pumpjacks; all ten overlays score at least 94/100; the chapter retains only documented technical claims; and the NGA links, credits, and per-image four-factor fair-use rationales remain in `sources.md`.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. `01-api-21930378-slaughter-tx`: the vertical `ACCESS TRACE` leading line at x=0.511 does not trace the visible access track. The actual track runs substantially left of it through the upper and middle fields before bending into the pumpjack. Redraw it as a road-following polyline or remove the claim, then re-render and re-score.
+
+2. `03-api-21902614-levelland-tx` and `10-api-21932470-slaughter-tx` each contain only two primitives. Add one truthful, non-duplicative compositional claim to each, so every proof meets the 3–5-primitive pedagogy requirement; re-render, inspect, and re-score the changed proofs.
+
+3. The technical-limits claim in `chapter.mdx`, its byte-identical `src/chapters/mishka-henner.mdx` mirror, and `research.md` falsely says the source records do not establish edition-specific print dimensions. NGA’s object record for `API 02914653 Mountain View, CA` supplies image and sheet dimensions (35.9 × 28.9 cm and 39.7 × 32.7 cm), while the records still do not establish camera, lens, exposure, satellite platform, or other capture settings. Correct the limit statement without introducing undocumented capture data. Source: https://www.nga.gov/artworks/223007-api-02914653-mountain-view-ca
+
+### Advisory (non-blocking)
+
+- The scorer’s unsupported-edge warnings on the road/track lines in 02, 04, 05, 06, 08, and 09 are not blocking: on the current proofs their labels remain attached to the visible feature, and the small endpoint/contour differences do not misstate the composition. Do not reopen the prior 08 pad-frame resolution; it remains visually truthful.
