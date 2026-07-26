@@ -29,15 +29,30 @@ plate in this chapter is used under the chapter's documented fair-use rationale 
   exposures; they do not establish a camera body, capture settings, or the source
   photograph's original technical history.
 
-## Printing and camera record
+## Documented object information and camera record
 
-The supplied sources do not state print medium, paper, edition, dimensions of a
-physical edition, camera body, lens, focal length, aperture, shutter speed, ISO,
-film stock, sensor format, lighting, or Umbrico's capture workflow for any plate.
-The ingested display JPEGs contain no usable EXIF settings. This chapter therefore
-does not assign a print process or photographic settings. Its observations concern
-the visible reproduction or installation view, not a claim about the unverified
-physical object.
+The gallery records do document the selected objects' materials and, in most
+cases, their dimensions and edition information. This is object metadata, not
+evidence for the exposure, lens, or original-source settings of the photographs
+within them.
+
+| Plates | Documented material | Documented dimensions / edition information |
+| --- | --- | --- |
+| 01, 03 | Chromogenic machine prints | 48 × 48 in. and 48 × 82.5 in., respectively; both records also give framed dimensions |
+| 02 | UV print on plexiglass panels, framed, with attribution book and image map | Five panels, 62 × 139 in. overall |
+| 04 | Chromogenic prints | 12 × 24 in.; edition 1/3 |
+| 05 | Archival pigment prints | Various dimensions from 40 × 52 in. to 11 × 14 in. |
+| 06–10 | Chromogenic prints | The records give object dimensions; 06–10 each state edition 1/3 with 2 APs |
+| 11 | Fifteen archival giclée prints on polyester canvas with UV protective coating | 20 × 16 in. each; edition 1/3 with 2 APs |
+| 12 | Thirty-eight c-prints on metallic paper, mounted to aluminum | 72 × 202 in. overall |
+
+The *Range* record also gives a bounded workflow: Umbrico rephotographed iconic
+mountain images from online and print media with her iPhone, then processed them
+through camera-app filters. That account supports the discussion of rephotography
+and filtering; it does not supply a lens, focal length, aperture, shutter speed,
+ISO, lighting setup, or the original technical history of the borrowed images.
+The ingested display JPEGs contain no usable EXIF settings. Elsewhere, the camera-
+app titles document named effects, but not those unrecorded parameters.
 
 ## Image-analysis evidence
 

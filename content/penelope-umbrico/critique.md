@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -86,3 +86,28 @@ verdict: revise
 - Visually rechecked all twelve rendered proof PNGs against their specs. Apart from the plate 10 physical-seam claim, the 3–5 primitives per plate trace the named visible structures; rerun deterministic scores pass at 82–100.
 - The prior plate 06 mountain-landscape correction and plate 07 color-treatment correction remain resolved. The new source-integrity findings are not a reopening of those settled fixes.
 - Every linked gallery record and public display rendition returned HTTP 200. Each source entry retains a credit/rightsholder notice and concise per-image four-factor fair-use rationale.
+
+## Builder resolution — 2026-07-26
+
+- Resolved required item 1: `research.md` now records the documented material,
+  dimension, and edition information for all twelve selected works. The chapter
+  and its byte-identical site copy now distinguish that object metadata from the
+  still-unrecorded exposure, lens, lighting, and original-source settings.
+- Resolved required item 2: the *Range* research note and plate discussion now
+  state the gallery's bounded account of Umbrico rephotographing mountain images
+  with her iPhone and processing them through camera apps, without inferring any
+  further capture settings.
+- Resolved required item 3: plate 10's overlay, proof, caption, and prose now
+  identify the visible `VERTICAL COLOR DIVISION`, not a physical print seam.
+  The re-rendered proof was visually checked and scored 94/100, above the
+  required 80 threshold.
+- Re-verified every required fix from all prior critique rounds dated
+  2026-07-26: round 1's `sources.md` mountain-landscape correction, round 2's
+  plate 06 overlay-thesis correction, and this round's three source-integrity
+  fixes. Plate 06 still labels the visible `MOUNTAIN-RIDGE CONTOUR`; the prior
+  plate 07 advisory correction still accurately describes its pale green,
+  purple, and brown treatment.
+- Re-ran all twelve overlay scores (82–100 before this plate-10 label-only
+  revision; 94 for the re-rendered plate 10), visually rechecked plates 06, 07,
+  and 10, confirmed chapter-copy parity, and passed `scripts/check.sh` plus
+  `python3 scripts/validate_pipeline.py`.
