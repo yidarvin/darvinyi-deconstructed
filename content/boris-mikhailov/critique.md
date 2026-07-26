@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-25
 
@@ -53,3 +53,19 @@ None. The prior round's advisories remain non-blocking and show no material regr
 3. Tightened the *At Dusk*, *Case History*, *Industrial Zone*, and *Temptation of Death* source rationales so they describe the supplied frames rather than unsupported subjects or historical inferences.
 
 Reverified every required fix from the full critique history: the initial 2026-07-25 round (`effcd5f70183777229c68fa1aa041101efca5f59`, six required fixes) and the follow-up 2026-07-25 round (`1dfb8d8`, the `Temptation of Death` date). All twelve current overlay specs pass strict scoring at 100/100, their proofs received a visual pass, `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass, and `content/boris-mikhailov/chapter.mdx` remains byte-identical to `src/chapters/boris-mikhailov.mdx`.
+
+## Critique round — 2026-07-25
+
+### Required fixes
+
+1. `07-i-am-not-i-10`: the horizontal primitive at `y=0.636`, labelled `floor break`, follows the analyzer's luminance split but not a visible floor boundary. In the proof it crosses the sitter and stool, while the visible floor plane begins materially lower in the frame. Remove it or replace/relabel it with a primitive that truthfully identifies the feature, and revise the matching plate caption and chapter sentence that call it a floor break. The 100/100 geometric score does not validate this semantic claim.
+
+### Advisory (non-blocking)
+
+- `01-red-series-01` and `06-by-the-ground-01` use two clear primitives rather than the usual three to five; both still make truthful, readable claims. Adding an interpretive subject anchor could deepen the teaching argument, but is not needed for accuracy.
+- `02-red-series-10`: the `central face` anchor visibly lands on a background placard portrait, while the spec note calls the compositional destination a `central veteran`. Clarifying that distinction would prevent ambiguity, but the on-proof label still names a face that is present.
+- `05-unfinished-dissertation-01`: the two frame callouts are slightly loose at their shared boundary, but each still clearly identifies the photograph it names.
+- `09-case-history-09`: `facial center` remains slightly right of the face's midline, on the nostril; it is still inside the named facial focus and has not materially regressed.
+- `10-tea-coffee-cappuccino-01`: the measured line reads as a distant street-level/vehicle-roof band rather than a discrete edge in parts of the frame. A label refinement would be clearer, but it does not change the chapter's reading.
+
+All twelve current specs score 100/100 against their analyzer JSON. Source inspection found traceable KSP project records for the eleven Mikhailov images and a traceable Deutsche Welle record plus the visible picture-alliance/dpa credit for the installation photograph; the fair-use rationales retain all four factors. No camera-setting claim was found.
