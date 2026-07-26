@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-construction-034.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "chain axis" },
+    { "type": "subject_anchor", "x": 0.512, "y": 0.319, "r": 0.035, "label": "upper cutout cluster" },
+    { "type": "polyline", "points": [[0.51, 0.0], [0.51, 0.5], [0.51, 0.86]], "label": "suspension path" }
+  ],
+  "notes": "A narrow suspended cluster holds against an unusually large gallery field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-construction-1029.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.622, "y": 0.297, "label": "fold convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "hanging center" },
+    { "type": "subject_anchor", "x": 0.823, "y": 0.523, "r": 0.035, "label": "outer bend" }
+  ],
+  "notes": "The piled textile makes its folds and outer silhouette more active than a flat picture plane."
+}

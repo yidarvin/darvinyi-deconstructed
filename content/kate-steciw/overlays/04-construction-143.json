@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-construction-143.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.583, "angle": 0, "label": "floor-wall seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "hanging center" },
+    { "type": "subject_anchor", "x": 0.469, "y": 0.43, "r": 0.035, "label": "orange cutout" },
+    { "type": "polyline", "points": [[0.5, 0.0], [0.5, 0.34], [0.51, 0.74]], "label": "chain and rope" }
+  ],
+  "notes": "The suspension line and floor seam make the layered object read as a body in real space."
+}

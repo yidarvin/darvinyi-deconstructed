@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-img-0383-heicxpict0711.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.121, "angle": 0, "label": "upper frame edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "panel center" },
+    { "type": "polyline", "points": [[0.17, 0.83], [0.48, 0.68], [0.75, 0.58]], "label": "tabletop edge" }
+  ],
+  "notes": "Cut bottle forms and their tabletop fragments make a still life behave like an edited file."
+}

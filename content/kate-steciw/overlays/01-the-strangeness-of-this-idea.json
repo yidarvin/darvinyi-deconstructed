@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-the-strangeness-of-this-idea.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.416, "y": 0.529, "label": "receding panel" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "photograph center" },
+    { "type": "leading_line", "points": [[0.511, 0.139], [0.827, 0.518]], "arrow": true, "label": "right panel edge" }
+  ],
+  "notes": "The low view makes a flat flower image read as a receding physical panel."
+}
