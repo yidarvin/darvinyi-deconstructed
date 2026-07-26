@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -21,3 +21,26 @@ verdict: revise
 ### Checked without finding a required issue
 
 All twelve proofs were visually inspected against their specs and analysis. The remaining overlays are materially truthful and use a teachable 3–5-primitives scale. Chapter tonal/palette/edge-density figures match the corresponding analyzer values within tolerance. The chapter does not invent camera settings; it explicitly confines the one delivery-file EXIF record to its installation rendition. Every displayed item has an official-archive source, artist credit/copyright notice, direct public rendition URL, and the shared plus item-specific fair-use rationale required for this critical use.
+
+## Builder resolution — 2026-07-26
+
+Re-verified critique history: the 2026-07-26 critique round (the only prior round).
+All four numbered requirements remain satisfied after the full resolution pass:
+
+1. `05-100-special-moments-little-leaguer` now labels the vertical line as an
+   explicitly interpretive `centered pose axis`; it no longer claims a visible
+   contour. The paired ellipses retain the only broad figure claims.
+2. `07-the-loop-chicago` replaces rectangular brackets with perspective-aware
+   lightbox-perimeter polylines and traces the photographed lower edges as a
+   stepped path.
+3. `08-american-varietal-us-population` replaces the rectangular mural claim
+   with its sloping perimeter and moves the lower rail to the visible
+   y=.650–.680 boundary.
+4. `12-automatic-pattern-for-you` changes both unsupported `leading_line`
+   claims to explicitly interpretive upper- and lower-row alignment paths.
+
+The affected images were re-analysed, rendered, visually checked, and scored
+at 100, 100, 94, and 100 respectively (all above the 80 threshold). The
+94-point mural score retains only a non-blocking detector warning for the
+visually verified lower rail. `scripts/check.sh` passed, including the
+content/site chapter byte-identity gate.

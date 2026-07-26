@@ -3,10 +3,10 @@
   "image": "07-the-loop-chicago.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.050, "y": 0.340, "w": 0.140, "h": 0.340, "label": "left panel" },
-    { "type": "frame_in_frame", "x": 0.200, "y": 0.250, "w": 0.360, "h": 0.480, "label": "centre panel" },
-    { "type": "frame_in_frame", "x": 0.580, "y": 0.170, "w": 0.360, "h": 0.560, "label": "right panel" },
-    { "type": "polyline", "points": [[0.060, 0.700], [0.380, 0.720], [0.930, 0.740]], "label": "shared lower-panel rhythm" }
+    { "type": "polyline", "points": [[0.050, 0.450], [0.128, 0.425], [0.128, 0.735], [0.050, 0.720], [0.050, 0.450]], "label": "left lightbox perimeter" },
+    { "type": "polyline", "points": [[0.157, 0.395], [0.509, 0.302], [0.509, 0.776], [0.157, 0.731], [0.157, 0.395]], "label": "centre lightbox perimeter" },
+    { "type": "polyline", "points": [[0.580, 0.266], [0.935, 0.157], [0.935, 0.784], [0.580, 0.735], [0.580, 0.266]], "label": "right lightbox perimeter" },
+    { "type": "polyline", "points": [[0.050, 0.720], [0.128, 0.735], [0.157, 0.731], [0.509, 0.776], [0.580, 0.735], [0.935, 0.784]], "label": "stepped lower lightbox edges" }
   ],
   "notes": "Three photographed lightboxes stage a transparent city as a continuous lateral corridor."
 }
