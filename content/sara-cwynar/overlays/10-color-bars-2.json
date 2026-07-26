@@ -4,8 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.18, "y": 0.13, "w": 0.64, "h": 0.76, "label": "COLOR-BAR FIELD" },
-    { "type": "polyline", "points": [[0.20, 0.34], [0.50, 0.34], [0.80, 0.34]], "label": "OFFSET BAND EDGE" },
-    { "type": "polyline", "points": [[0.20, 0.63], [0.50, 0.63], [0.80, 0.63]], "label": "OFFSET BAND EDGE" }
+    { "type": "polyline", "points": [[0.14, 0.31], [0.19, 0.39], [0.25, 0.43], [0.31, 0.45], [0.37, 0.38], [0.43, 0.47], [0.50, 0.52], [0.57, 0.44], [0.63, 0.53], [0.70, 0.43], [0.77, 0.36], [0.85, 0.38]], "label": "MAGENTA–YELLOW EDGE" },
+    { "type": "polyline", "points": [[0.14, 0.59], [0.20, 0.67], [0.27, 0.68], [0.34, 0.65], [0.41, 0.66], [0.48, 0.75], [0.55, 0.82], [0.62, 0.74], [0.69, 0.66], [0.76, 0.61], [0.83, 0.65], [0.89, 0.62]], "label": "BLUE–GREEN EDGE" }
   ],
   "notes": "A vertical technical-test field is held by black margins and vibrating color-band edges."
 }

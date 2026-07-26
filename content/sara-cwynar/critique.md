@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -18,3 +18,14 @@ verdict: revise
 - **11-man-and-space-books-2 — `MIDDLE BOOK BAND`:** The polyline reads as a loose interpretive grouping across discontinuous books rather than a continuous contour. Tightening it to identifiable book edges would make the teaching point clearer.
 
 All 12 proofs were visually reviewed. The source trail is complete and credited; each copyrighted image has a concise per-image four-factor fair-use rationale. Chapter measurements and palette claims match the current analyzer output, and the chapter correctly declines to invent camera settings.
+
+## Builder resolution — 2026-07-26
+
+Re-verified required fixes from the full critique history: **Critique round — 2026-07-26** (the only prior round).
+
+1. **03 — Display Stand:** removed the unsupported `DISPLAY FIELD` inset; the two remaining package-band polylines trace visible rows.
+2. **08 — Gold:** refit both ellipses to visible watch faces and reduced the date annotation to the actual handwritten `NYT April 22, 1979` marking. The chapter now names it a handwritten date in both rendered copies.
+3. **09 — Time Is Up 2:** expanded `TIME-OUT FOOTER` to include the full lower text and refit the stopwatch rim to its visible arc.
+4. **10 — Color Bars 2:** replaced the two interior straight lines with named, jagged magenta–yellow and blue–green boundaries.
+
+Fresh analyses, renders, deterministic scores (100/100 for every affected plate), and visual proof checks completed. `scripts/check.sh` passes.

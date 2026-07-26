@@ -3,9 +3,9 @@
   "image": "08-gold-nyt-april-22-1979.jpg",
   "grid": { "type": "none" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.47, "cy": 0.51, "rx": 0.16, "ry": 0.17, "label": "CENTRAL CLOCK" },
-    { "type": "ellipse", "cx": 0.17, "cy": 0.68, "rx": 0.13, "ry": 0.14, "label": "LOWER CLOCK" },
-    { "type": "frame_in_frame", "x": 0.05, "y": 0.83, "w": 0.90, "h": 0.12, "label": "TITLE STRIP" }
+    { "type": "ellipse", "cx": 0.467, "cy": 0.371, "rx": 0.056, "ry": 0.066, "label": "CENTRAL WATCH FACE" },
+    { "type": "ellipse", "cx": 0.364, "cy": 0.592, "rx": 0.050, "ry": 0.044, "label": "LOWER WATCH FACE" },
+    { "type": "frame_in_frame", "x": 0.405, "y": 0.971, "w": 0.245, "h": 0.023, "label": "HANDWRITTEN DATE" }
   ],
-  "notes": "Clocks make a loose triangle inside a frontal gold-toned collage and title strip."
+  "notes": "Watch faces punctuate the frontal gold-toned collage, ending on its handwritten date."
 }
