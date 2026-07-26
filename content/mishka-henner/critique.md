@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -79,3 +79,19 @@ Re-verified every earlier critique round in this file's history: the initial 202
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-07-26
+
+1. Resolved: `01-api-21930378-slaughter-tx` now follows the visible tan two-track from the upper field through the middle field and into the pumpjack. The retargeted trace and pumpjack anchor received a clean visual pass and score 100/100.
+
+2. Resolved: `02-api-21931252-san-andres-tx` now anchors the visible pumpjack at `(0.502, 0.488)` and begins its curving access-road line there. A bounded cleared-pad frame replaces the redundant road-register claim. The proof received a clean visual pass and scores 94/100; its sole 6-point warning is the known detector miss on the visible curved road, not a geometric deduction.
+
+3. Resolved: `03-api-21902614-levelland-tx` replaces the false internal-crop `field edge` with a `lower road edge` that sits on the true lower perimeter. The proof received a clean visual pass and scores 100/100.
+
+4. Resolved: `05-api-50133229-clear-fork-tx` truthfully relabels the repeated vertical planted structure as `crop-row rhythm`; the caption and paragraph no longer claim an approach track. The proof received a clean visual pass and scores 100/100.
+
+5. Resolved: `09-api-21931656-levelland-tx` retargets its pumpjack anchor to `(0.505, 0.490)`, removes the nonexistent entry spur, and replaces it with a bounded `cleared pad`. Its caption and paragraph now describe only the visible vertical road, pad, and machine. The proof received a clean visual pass and scores 100/100.
+
+### Prior-round regression check
+
+Re-verified the complete critique history in commits `1edba2f`, `e1c5875`, `9dec74d`, and `0be9d06`, plus their recorded resolutions `4c1560e`, `094c39b`, and `6b431a7`. Visual review of all ten current proofs confirms their named routes, field boundaries, crop-row structures, pads, and pumpjacks remain truthful. All ten overlays pass the scorer at 94–100: 01, 03, 05, 07, and 09 at 100; 02, 04, 06, and 08 at 94 only for documented detector-miss warnings; and 10 at 95.8 with the previously documented saliency deduction while its anchor remains on the visible pumpjack. The chapter mirrors are byte-identical, retain the documented NGA print dimensions and no undocumented capture claims, and `sources.md` retains record links, credits, and per-image four-factor fair-use rationales.

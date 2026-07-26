@@ -3,9 +3,9 @@
   "image": "09-api-21931656-levelland-tx.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.518, 0.0], [0.518, 0.538]], "arrow": true, "label": "access road" },
-    { "type": "leading_line", "points": [[0.0, 0.540], [0.518, 0.538]], "arrow": true, "label": "entry spur" },
-    { "type": "subject_anchor", "x": 0.518, "y": 0.538, "r": 0.035, "label": "pumpjack" }
+    { "type": "leading_line", "points": [[0.505, 0.0], [0.505, 0.490]], "arrow": true, "label": "access road" },
+    { "type": "subject_anchor", "x": 0.505, "y": 0.490, "r": 0.035, "label": "pumpjack" },
+    { "type": "frame_in_frame", "x": 0.430, "y": 0.430, "w": 0.170, "h": 0.150, "label": "cleared pad" }
   ],
-  "notes": "A narrow vertical road makes the pumpjack a solitary interruption in dark vegetation."
+  "notes": "A narrow vertical road terminates at a cleared pad and small pumpjack in dark vegetation."
 }

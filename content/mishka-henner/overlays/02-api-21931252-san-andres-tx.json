@@ -3,9 +3,9 @@
   "image": "02-api-21931252-san-andres-tx.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.578, 0.522], [1.0, 0.522]], "arrow": true, "label": "access road" },
-    { "type": "horizon_line", "y": 0.531, "angle": 0, "label": "road register" },
-    { "type": "subject_anchor", "x": 0.578, "y": 0.522, "r": 0.035, "label": "pumpjack" }
+    { "type": "leading_line", "points": [[0.502, 0.488], [0.548, 0.535], [1.0, 0.545]], "arrow": true, "label": "access road" },
+    { "type": "subject_anchor", "x": 0.502, "y": 0.488, "r": 0.035, "label": "pumpjack" },
+    { "type": "frame_in_frame", "x": 0.435, "y": 0.442, "w": 0.180, "h": 0.142, "label": "cleared pad" }
   ],
-  "notes": "A small machine interrupts a dense field of circular vegetation marks."
+  "notes": "A curving access road draws the eye into the small pumpjack and pale cleared pad."
 }
