@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "image": "09-photo-opportunities-plate-09.jpg",
+  "width": 800,
+  "height": 600,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.5412307352941176,
+    "std": 0.19405067918688498,
+    "p05": 0.2549019607843137,
+    "p95": 0.796078431372549,
+    "edge_density": 0.00926875
+  },
+  "palette": [
+    "#aac7df",
+    "#646362",
+    "#484544",
+    "#7c7d80",
+    "#8196b4"
+  ],
+  "lines": [
+    {
+      "x1": 0.4875,
+      "y1": 0.8383333333333334,
+      "x2": 0.58875,
+      "y2": 0.8383333333333334,
+      "angle_deg": 0.0,
+      "length": 0.081,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.24875,
+      "y1": 0.7266666666666667,
+      "x2": 0.3475,
+      "y2": 0.725,
+      "angle_deg": -0.725224299059252,
+      "length": 0.07900632886041471,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.26,
+      "y1": 0.715,
+      "x2": 0.34375,
+      "y2": 0.73,
+      "angle_deg": 7.650650955359411,
+      "length": 0.06760177512462229,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.33375,
+      "y1": 0.705,
+      "x2": 0.41375,
+      "y2": 0.6966666666666667,
+      "angle_deg": -4.467159061389273,
+      "length": 0.06419501538281613,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.46,
+    "angle_deg": 0.0,
+    "confidence": 0.6568581981143132,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9925,
+      0.6133333333333333
+    ],
+    "regions": [
+      {
+        "cx": 0.5726719146116617,
+        "cy": 0.8013311438887608,
+        "x": 0.38125,
+        "y": 0.67,
+        "w": 0.3325,
+        "h": 0.28,
+        "area_frac": 0.036158333333333334
+      },
+      {
+        "cx": 0.940034474478595,
+        "cy": 0.5847575923893157,
+        "x": 0.8375,
+        "y": 0.5033333333333333,
+        "w": 0.1625,
+        "h": 0.18,
+        "area_frac": 0.015183333333333333
+      },
+      {
+        "cx": 0.8681964481373265,
+        "cy": 0.9367354516678842,
+        "x": 0.79125,
+        "y": 0.8666666666666667,
+        "w": 0.14125,
+        "h": 0.13333333333333333,
+        "area_frac": 0.011408333333333333
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.979181997400992,
+    "vertical_axis_x": 0.475,
+    "horizontal": 0.90871085089593,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.9925,
+    "y": 0.6133333333333333,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.15542967129668586,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.475,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.46,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.66,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.613,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

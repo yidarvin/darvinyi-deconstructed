@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-photo-opportunities-plate-01.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.53, "angle": 0.0, "label": "crowd band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "mausoleum axis" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.552, "r": 0.035, "label": "central portal" }
+  ],
+  "notes": "Layered tourist viewpoints preserve the Taj Mahal's axial pull while making its crowd band porous."
+}

@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "07-photo-opportunities-plate-07.jpg",
+  "width": 800,
+  "height": 600,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.5931915277777777,
+    "std": 0.29223136532861943,
+    "p05": 0.1803921568627451,
+    "p95": 0.9058823529411765,
+    "edge_density": 0.00105
+  },
+  "palette": [
+    "#d9e2e7",
+    "#3a3c27",
+    "#5e6141",
+    "#bcc1bc",
+    "#8e8f7c"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.5616666666666666,
+    "angle_deg": 0.0,
+    "confidence": 0.8094338395384478,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9925,
+      0.99
+    ],
+    "regions": [
+      {
+        "cx": 0.5071300571314689,
+        "cy": 0.4546788015677938,
+        "x": 0.3675,
+        "y": 0.36,
+        "w": 0.275,
+        "h": 0.17333333333333334,
+        "area_frac": 0.03136041666666667
+      },
+      {
+        "cx": 0.19224478919943155,
+        "cy": 0.9495965577135638,
+        "x": 0.11375,
+        "y": 0.8766666666666667,
+        "w": 0.15,
+        "h": 0.12333333333333334,
+        "area_frac": 0.01319375
+      },
+      {
+        "cx": 0.9434758499170813,
+        "cy": 0.958012023217247,
+        "x": 0.87,
+        "y": 0.9,
+        "w": 0.13,
+        "h": 0.1,
+        "area_frac": 0.01005
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9831694127530769,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7156609776569266,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.9925,
+    "y": 0.99,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0555555555555556,
+    "phi": 0.23567658487693277,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.562,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.81,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.99,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

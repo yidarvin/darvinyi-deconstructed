@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-photo-opportunities-plate-12.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.682, "angle": 0.0, "label": "visitor band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.55, "label": "temple axis" },
+    { "type": "subject_anchor", "x": 0.616, "y": 0.282, "r": 0.035, "label": "column cluster" }
+  ],
+  "notes": "Repeated columns and visitors turn a frontal temple view into a vibrating collective façade."
+}

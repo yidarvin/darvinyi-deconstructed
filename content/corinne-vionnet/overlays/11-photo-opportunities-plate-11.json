@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-photo-opportunities-plate-11.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.5, "angle": 0.0, "label": "waterfront band" },
+    { "type": "frame_in_frame", "x": 0.32, "y": 0.24, "w": 0.16, "h": 0.29, "label": "twin towers" },
+    { "type": "polyline", "points": [[0.0, 0.72], [0.48, 0.70], [1.0, 0.70]], "label": "shore rhythm" }
+  ],
+  "notes": "Two tall vertical anchors stabilize an unstable, repeatedly layered waterfront skyline."
+}

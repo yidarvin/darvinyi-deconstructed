@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-photo-opportunities-plate-06.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.465, "angle": 0.0, "label": "hill crest" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "hillside alignment" },
+    { "type": "subject_anchor", "x": 0.399, "y": 0.53, "r": 0.035, "label": "Hollywood sign" }
+  ],
+  "notes": "A distant word-mark holds an otherwise diffuse, accumulated hillside."
+}

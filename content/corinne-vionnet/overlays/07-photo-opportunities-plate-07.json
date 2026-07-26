@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-photo-opportunities-plate-07.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.562, "angle": 0.0, "label": "courtyard band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "dome axis" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.47, "rx": 0.18, "ry": 0.16, "label": "central dome" }
+  ],
+  "notes": "A centered dome is surrounded by vibrating, repeatedly aligned minarets and courtyard edges."
+}

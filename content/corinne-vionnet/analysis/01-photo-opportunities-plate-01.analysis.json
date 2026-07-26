@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "01-photo-opportunities-plate-01.jpg",
+  "width": 800,
+  "height": 600,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.5979619934640523,
+    "std": 0.23983980913722575,
+    "p05": 0.20784313725490197,
+    "p95": 0.8901960784313725,
+    "edge_density": 0.0007166666666666667
+  },
+  "palette": [
+    "#d3dee3",
+    "#6a6853",
+    "#3d3f2f",
+    "#8e8878",
+    "#c4c2b5"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.53,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5075,
+      0.5516666666666666
+    ],
+    "regions": [
+      {
+        "cx": 0.9169351177278007,
+        "cy": 0.5083458276141203,
+        "x": 0.79625,
+        "y": 0.44333333333333336,
+        "w": 0.20375,
+        "h": 0.16333333333333333,
+        "area_frac": 0.01973125
+      },
+      {
+        "cx": 0.5066590068215979,
+        "cy": 0.5437721123829344,
+        "x": 0.42625,
+        "y": 0.4666666666666667,
+        "w": 0.15,
+        "h": 0.16166666666666665,
+        "area_frac": 0.01801875
+      },
+      {
+        "cx": 0.20482298431807383,
+        "cy": 0.5160251333227731,
+        "x": 0.1125,
+        "y": 0.4666666666666667,
+        "w": 0.21125,
+        "h": 0.10666666666666667,
+        "area_frac": 0.013152083333333333
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9840042718183624,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.880576278337446,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.5075,
+    "y": 0.5516666666666666,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.019160309699038924,
+    "phi": 0.31476469595800055,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.53,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.507,
+      "y": 0.552,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

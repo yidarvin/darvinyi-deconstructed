@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-photo-opportunities-plate-02.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.592, "angle": 0.0, "label": "desert band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "pyramid field axis" },
+    { "type": "ellipse", "cx": 0.525, "cy": 0.48, "rx": 0.27, "ry": 0.30, "label": "dominant pyramid" }
+  ],
+  "notes": "A near-central pyramid field is dispersed by many translucent tracks and smaller peaks."
+}

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "08-photo-opportunities-plate-08.jpg",
+  "width": 800,
+  "height": 600,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.5490565522875818,
+    "std": 0.2383034449846411,
+    "p05": 0.1607843137254902,
+    "p95": 0.8392156862745098,
+    "edge_density": 0.0037833333333333334
+  },
+  "palette": [
+    "#bed1e2",
+    "#9da8ad",
+    "#2f331e",
+    "#847f77",
+    "#565341"
+  ],
+  "lines": [
+    {
+      "x1": 0.33875,
+      "y1": 0.6033333333333334,
+      "x2": 0.3425,
+      "y2": 0.7516666666666667,
+      "angle_deg": 88.06941255883301,
+      "length": 0.08905054744357274,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.41375,
+      "y1": 0.5983333333333334,
+      "x2": 0.415,
+      "y2": 0.4533333333333333,
+      "angle_deg": -89.3414568224364,
+      "length": 0.08700574693662483,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.41375,
+      "y1": 0.5416666666666666,
+      "x2": 0.415,
+      "y2": 0.3983333333333333,
+      "angle_deg": -89.33380002981687,
+      "length": 0.08600581375697809,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.44,
+    "angle_deg": 0.0,
+    "confidence": 0.5357075134438966,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.6175,
+      0.53
+    ],
+    "regions": [
+      {
+        "cx": 0.6249729508196722,
+        "cy": 0.5345469945355191,
+        "x": 0.57125,
+        "y": 0.4583333333333333,
+        "w": 0.10875,
+        "h": 0.14833333333333334,
+        "area_frac": 0.012708333333333334
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9598521586995372,
+    "vertical_axis_x": 0.575,
+    "horizontal": 0.38698130300173905,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.6175,
+    "y": 0.53,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.26810253377214915,
+    "phi": 0.5894218168528368,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.575,
+      "confidence": 0.96,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.618,
+      "y": 0.53,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.44,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.54,
+      "why": "luminance split / dominant horizontal (gradient)"
+    }
+  ]
+}
