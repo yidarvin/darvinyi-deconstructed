@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-lost-happiness.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "FRAMED FIELD AXIS" },
+    { "type": "frame_in_frame", "x": 0.18, "y": 0.05, "w": 0.62, "h": 0.84, "label": "FRAMED BLUE FIELD" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.48, "rx": 0.29, "ry": 0.35, "label": "ACCUMULATED MARK FIELD" },
+    { "type": "horizon_line", "y": 0.843, "angle": 0, "label": "LOWER FRAME EDGE" }
+  ],
+  "notes": "A framed blue field turns layered marks into a dense, centered visual register."
+}

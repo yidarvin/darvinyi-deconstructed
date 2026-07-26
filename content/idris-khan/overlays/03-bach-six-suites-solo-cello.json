@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-bach-six-suites-solo-cello.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "SCORE BLOCK AXIS" },
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.08, "w": 0.80, "h": 0.84, "label": "ACCUMULATED PAGE FIELD" },
+    { "type": "polyline", "points": [[0.12, 0.24], [0.50, 0.25], [0.88, 0.24]], "label": "UPPER NOTATION REGISTER" },
+    { "type": "polyline", "points": [[0.12, 0.63], [0.50, 0.64], [0.88, 0.63]], "label": "DENSE CENTRAL REGISTER" }
+  ],
+  "notes": "Layered score pages become a centered block of horizontal rhythmic pressure."
+}

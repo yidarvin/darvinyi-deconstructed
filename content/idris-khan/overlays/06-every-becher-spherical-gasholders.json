@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-every-becher-spherical-gasholders.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "SPHERE AXIS" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.51, "rx": 0.39, "ry": 0.36, "label": "ACCUMULATED SPHERE" },
+    { "type": "horizon_line", "y": 0.134, "angle": 0, "label": "UPPER STRUCTURAL BAND" }
+  ],
+  "notes": "A serial industrial archive gathers into a hovering, near-symmetrical sphere."
+}

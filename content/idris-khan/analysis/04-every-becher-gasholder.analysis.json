@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "04-every-becher-gasholder.jpg",
+  "width": 868,
+  "height": 1200,
+  "aspect": 0.7233,
+  "tonal": {
+    "mean": 0.8359458372664945,
+    "std": 0.15943747682296835,
+    "p05": 0.43529411764705883,
+    "p95": 0.9254901960784314,
+    "edge_density": 0.0009673247466216216
+  },
+  "palette": [
+    "#ece7e6",
+    "#726c6b",
+    "#91857f",
+    "#dfd9d1",
+    "#b9afa4"
+  ],
+  "lines": [
+    {
+      "x1": 0.46621621621621623,
+      "y1": 0.6865234375,
+      "x2": 0.7527027027027027,
+      "y2": 0.6865234375,
+      "angle_deg": 0.0,
+      "length": 0.16780135856807035,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.24054054054054055,
+      "y1": 0.6875,
+      "x2": 0.5243243243243243,
+      "y2": 0.6875,
+      "angle_deg": 0.0,
+      "length": 0.1662183268834659,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.7527027027027027,
+      "y1": 0.685546875,
+      "x2": 0.7527027027027027,
+      "y2": 0.5068359375,
+      "angle_deg": -90.0,
+      "length": 0.144847399141306,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.23783783783783785,
+      "y1": 0.6865234375,
+      "x2": 0.23783783783783785,
+      "y2": 0.544921875,
+      "angle_deg": -90.0,
+      "length": 0.11476979713382171,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.6865234375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.25,
+      0.6796875
+    ],
+    "regions": [
+      {
+        "cx": 0.266526599592293,
+        "cy": 0.6769657181417275,
+        "x": 0.19054054054054054,
+        "y": 0.6318359375,
+        "w": 0.1554054054054054,
+        "h": 0.0908203125,
+        "area_frac": 0.010847761824324325
+      },
+      {
+        "cx": 0.7429530248733384,
+        "cy": 0.676677442235467,
+        "x": 0.672972972972973,
+        "y": 0.62890625,
+        "w": 0.13918918918918918,
+        "h": 0.09375,
+        "area_frac": 0.010102143158783784
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9956917934413794,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.944323666536651,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.25,
+    "y": 0.6796875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.741500716083891,
+    "phi": 0.40544036377291126,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.687,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.25,
+      "y": 0.68,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

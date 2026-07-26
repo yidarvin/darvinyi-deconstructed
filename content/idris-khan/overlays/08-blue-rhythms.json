@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-blue-rhythms.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "INSTALLATION AXIS" },
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.20, "w": 0.80, "h": 0.43, "label": "EIGHTEEN-PANEL FIELD" },
+    { "type": "polyline", "points": [[0.13, 0.38], [0.50, 0.38], [0.87, 0.38]], "label": "UPPER PANEL RHYTHM" },
+    { "type": "horizon_line", "y": 0.806, "angle": 0, "label": "WALL-TO-FLOOR SEAM" }
+  ],
+  "notes": "The two-row installation turns eighteen separate prints into one paced horizontal cadence."
+}

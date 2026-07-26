@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "01-every-william-turner-postcard.jpg",
+  "width": 1024,
+  "height": 740,
+  "aspect": 1.3838,
+  "tonal": {
+    "mean": 0.31973707853073663,
+    "std": 0.21036328238083743,
+    "p05": 0.023529411764705882,
+    "p95": 0.6431372549019608,
+    "edge_density": 0.0013223184121621623
+  },
+  "palette": [
+    "#1f0601",
+    "#5f5d33",
+    "#808250",
+    "#aba25d",
+    "#442c08"
+  ],
+  "lines": [
+    {
+      "x1": 0.84765625,
+      "y1": 0.0013513513513513514,
+      "x2": 0.9365234375,
+      "y2": 0.0013513513513513514,
+      "angle_deg": 0.0,
+      "length": 0.0720279416495019,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.6094594594594595,
+    "angle_deg": 0.0,
+    "confidence": 0.9630196180361865,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9921875,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.3986894685967559,
+        "cy": 0.6980213993699471,
+        "x": 0.3388671875,
+        "y": 0.6148648648648649,
+        "w": 0.15625,
+        "h": 0.1608108108108108,
+        "area_frac": 0.013993876689189189
+      },
+      {
+        "cx": 0.9692498874877656,
+        "cy": 0.5730370261200798,
+        "x": 0.921875,
+        "y": 0.4689189189189189,
+        "w": 0.078125,
+        "h": 0.1783783783783784,
+        "area_frac": 0.009438344594594595
+      },
+      {
+        "cx": 0.9706614678549664,
+        "cy": 0.03420747072483818,
+        "x": 0.9345703125,
+        "y": 0.0,
+        "w": 0.0654296875,
+        "h": 0.07972972972972973,
+        "area_frac": 0.004331186655405405
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.94451268072282,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.8826637277792808,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.9921875,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.232565899232566,
+    "phi": 0.41268692855394323,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.609,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.96,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.94,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.992,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
