@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-by-the-ground-01.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.553, "angle": 0, "label": "gallery rail" },
+    { "type": "leading_line", "points": [[0.499,0.208],[0.988,0.439]], "arrow": true, "label": "receding display" },
+    { "type": "frame_in_frame", "x": 0.00, "y": 0.00, "w": 0.98, "h": 0.82, "label": "photograph wall" }
+  ],
+  "notes": "A display sequence takes the eye from a near photograph toward a receding wall of related pictures."
+}

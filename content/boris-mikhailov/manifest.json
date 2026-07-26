@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-red-series-01.jpg",
+    "width": 733,
+    "height": 1080,
+    "sha1": "28398695",
+    "source": "01-red-series-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-red-series-10.jpg",
+    "width": 733,
+    "height": 1080,
+    "sha1": "0b917472",
+    "source": "02-red-series-10.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-overlays-01.jpg",
+    "width": 1600,
+    "height": 1040,
+    "sha1": "1dc79193",
+    "source": "03-overlays-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-luriki-01.jpg",
+    "width": 719,
+    "height": 1080,
+    "sha1": "8afdb607",
+    "source": "04-luriki-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-unfinished-dissertation-01.jpg",
+    "width": 791,
+    "height": 1080,
+    "sha1": "e5f03e1c",
+    "source": "05-unfinished-dissertation-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-by-the-ground-01.jpg",
+    "width": 659,
+    "height": 371,
+    "sha1": "5a0a7bcf",
+    "source": "06-by-the-ground-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-i-am-not-i-10.jpg",
+    "width": 494,
+    "height": 800,
+    "sha1": "e16d52ac",
+    "source": "07-i-am-not-i-10.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-at-dusk-10.jpg",
+    "width": 792,
+    "height": 371,
+    "sha1": "b5fc03a7",
+    "source": "08-at-dusk-10.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-case-history-09.jpg",
+    "width": 718,
+    "height": 1080,
+    "sha1": "6b1dac18",
+    "source": "09-case-history-09.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-tea-coffee-cappuccino-01.jpg",
+    "width": 1600,
+    "height": 1123,
+    "sha1": "3da91a56",
+    "source": "10-tea-coffee-cappuccino-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-industrial-zone-01.jpg",
+    "width": 1600,
+    "height": 1237,
+    "sha1": "6e71f9c8",
+    "source": "11-industrial-zone-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-temptation-of-death-01.jpg",
+    "width": 1200,
+    "height": 888,
+    "sha1": "7a0c5cfb",
+    "source": "12-temptation-of-death-01.jpg",
+    "exif": {}
+  }
+]

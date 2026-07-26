@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-industrial-zone-01.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "oval field axis" },
+    { "type": "vanishing_point", "x": 0.478, "y": 0.394, "label": "plant depth" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.50, "rx": 0.46, "ry": 0.41, "label": "oval picture field" }
+  ],
+  "notes": "A circular print field and converging industrial beams make machinery feel at once enclosed and unstable."
+}

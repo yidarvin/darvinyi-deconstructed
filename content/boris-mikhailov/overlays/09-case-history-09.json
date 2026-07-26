@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-case-history-09.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "facial axis" },
+    { "type": "subject_anchor", "x": 0.559, "y": 0.227, "r": 0.04, "label": "facial center" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.58, "rx": 0.44, "ry": 0.39, "label": "beard field" }
+  ],
+  "notes": "An extreme face and beard turn direct address into a near-abstract field of hair, mouth, and gaze."
+}
