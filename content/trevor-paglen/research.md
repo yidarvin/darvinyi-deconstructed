@@ -28,8 +28,9 @@ The source records identify the listed dates, titles, institutions, and the
 print processes above, but they do not establish camera body, lens, focal
 length, aperture, shutter speed, sensitivity, film stock, sensor, telescope,
 tracking mount, exposure duration, or post-production workflow. The ingested
-manifest contains no retained EXIF metadata. No camera setting is inferred
-here.
+manifest preserves EXIF fields from several downloaded web-display files, but
+those embedded fields do not independently establish Paglen's original capture
+settings. No camera setting is inferred here.
 
 The works instead establish method at the level documented by their titles and
 records: long-distance observation of sites and orbital objects, a paired

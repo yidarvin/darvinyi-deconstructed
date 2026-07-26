@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -14,3 +14,13 @@ verdict: revise
 
 - **03-national-security-agencies** — The x0.5 `TRIPTYCH CENTER` line is visually clear as a centerline, but “symmetry axis” is a somewhat loose schema fit for three vertically stacked, non-mirrored views. It is not misleading enough to block the chapter.
 - All 11 current specs score 100 with the deterministic scorer, and the chapter's reported tonal, palette, horizon, and measured-coordinate values otherwise agree with the corresponding analysis JSON within the stated tolerance. The public image routes resolved successfully during this review, and each source entry includes a traceable institutional route, credit/copyright statement, and a concise four-factor fair-use rationale.
+
+## Resolution — 2026-07-26
+
+1. **04-reaper-drone:** removed the unsupported `SKY BALANCE` symmetry axis; the proof now limits its claim to the measured dusk horizon.
+2. **05-dead-satellite-cosmos-469:** removed the unsupported `OPEN-SKY BALANCE` symmetry axis and retained the horizon and visibly anchored monument formation.
+3. **07-nsa-tapped-keawaula:** replaced the blank-chart anchor and cross-panel horizon claim with the two physical panel frames and a shoreline polyline confined to the coast photograph; revised the plate text to match.
+4. **10-last-pictures-echostar-xvi:** removed the false horizontal seam and convergence claims, replaced the symmetry primitive with a leading line on the physical vertical diptych divide, and revised the caption and paragraph to describe parallel trails accurately.
+5. **EXIF statement:** corrected research and the chapter callout to distinguish retained EXIF in downloaded derivatives from documented original-capture settings. The related unsupported EchoStar C-print description in `sources.md` was also made conservative.
+
+Re-verified critique history: the 2026-07-26 round is the only prior round in `git log -p -- content/trevor-paglen/critique.md`; every required fix from it holds in the current specs, proofs, research, and byte-identical rendered chapter. The four affected overlay scores are 100/100 with clean visual passes, and `scripts/check.sh` passes.
