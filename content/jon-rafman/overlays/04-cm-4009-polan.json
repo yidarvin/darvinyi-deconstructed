@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-cm-4009-polan.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.514, "angle": 0, "label": "STITCHED FIELD BREAK" },
+    { "type": "vanishing_point", "x": 0.427, "y": 0.468, "label": "ROAD CONTINUITY" },
+    { "type": "frame_in_frame", "x": 0.27, "y": 0, "w": 0.25, "h": 1, "label": "CYAN STITCH BAND" },
+    { "type": "frame_in_frame", "x": 0.52, "y": 0, "w": 0.22, "h": 0.69, "label": "MAGENTA STITCH BAND" }
+  ],
+  "notes": "Machine seams redivide a continuous road into emphatic color planes."
+}

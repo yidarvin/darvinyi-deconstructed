@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-eje-3-sur-av-baja-california.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.435, "angle": -6.9, "label": "FAR STREET BAND" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.70, "rx": 0.18, "ry": 0.20, "label": "CROWD CIRCLE" },
+    { "type": "polyline", "points": [[0.28,0.69],[0.40,0.58],[0.57,0.56],[0.73,0.66]], "label": "SPECTATOR ARC" },
+    { "type": "frame_in_frame", "x": 0.43, "y": 0.58, "w": 0.22, "h": 0.28, "label": "CENTRAL EVENT" }
+  ],
+  "notes": "A loose ring of spectators turns a panoramic street into an intimate scene."
+}

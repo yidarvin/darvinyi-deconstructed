@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-d52-blaru.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.432, "angle": 0, "label": "BIN AND LANDING" },
+    { "type": "polyline", "points": [[0.58,0.03],[0.57,0.37],[0.77,0.37],[0.78,0.03]], "label": "STAIR STRUCTURE" },
+    { "type": "frame_in_frame", "x": 0.47, "y": 0.50, "w": 0.15, "h": 0.30, "label": "UTILITY-BIN FRAME" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.73, "rx": 0.045, "ry": 0.09, "label": "CHILD AT EDGE" }
+  ],
+  "notes": "Stacked service rectangles make a barely visible figure charge the lower edge."
+}

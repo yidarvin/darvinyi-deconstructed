@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-rv888-norway.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.349, "angle": 0.8, "label": "FAR SHORELINE" },
+    { "type": "vanishing_point", "x": 0.776, "y": 0.428, "label": "ROAD BEND" },
+    { "type": "leading_line", "points": [[0.02,0.92],[0.42,0.68],[0.78,0.43]], "arrow": true, "label": "GUARDRAIL" },
+    { "type": "ellipse", "cx": 0.78, "cy": 0.67, "rx": 0.08, "ry": 0.16, "label": "RUNNING REINDEER" }
+  ],
+  "notes": "The road's expected recession reverses when the animal runs toward the viewer."
+}

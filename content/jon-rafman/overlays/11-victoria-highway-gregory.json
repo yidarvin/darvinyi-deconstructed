@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-victoria-highway-gregory.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.465, "angle": 0, "label": "TREE-LINE BREAK" },
+    { "type": "vanishing_point", "x": 0.494, "y": 0.538, "label": "FLOODED ROAD AXIS" },
+    { "type": "leading_line", "points": [[0.061,0.811],[0.442,0.577]], "arrow": true, "label": "LEFT BRIDGE RAIL" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.77, "rx": 0.045, "ry": 0.11, "label": "NEAR WALKER" }
+  ],
+  "notes": "Floodwater becomes a route whose receding walkers set the scene's scale."
+}

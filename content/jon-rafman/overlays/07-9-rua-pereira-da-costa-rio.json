@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-9-rua-pereira-da-costa-rio.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.392, "angle": 0, "label": "ROOF AND WALL BAND" },
+    { "type": "ellipse", "cx": 0.40, "cy": 0.57, "rx": 0.13, "ry": 0.26, "label": "SMOKE AND FIRE" },
+    { "type": "polyline", "points": [[0,0.16],[0.34,0.22],[0.68,0.20],[1,0.27]], "label": "UTILITY-WIRE SCREEN" },
+    { "type": "frame_in_frame", "x": 0.48, "y": 0.44, "w": 0.33, "h": 0.22, "label": "WITNESS WALL" }
+  ],
+  "notes": "A fire is caught below a dense screen of wires and detached witnesses."
+}

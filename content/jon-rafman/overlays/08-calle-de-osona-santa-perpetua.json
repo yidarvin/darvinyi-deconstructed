@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-calle-de-osona-santa-perpetua.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.164, "angle": 0, "label": "UPPER ROAD BREAK" },
+    { "type": "frame_in_frame", "x": 0.27, "y": 0, "w": 0.73, "h": 0.86, "label": "TRUCK MASS" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.57, "rx": 0.04, "ry": 0.16, "label": "HITCHHIKER" },
+    { "type": "polyline", "points": [[0.01,0.08],[0.29,0.38],[0.45,0.63]], "label": "ROAD DIAGONAL" }
+  ],
+  "notes": "A small outstretched body makes the truck's cropped scale feel unstable."
+}
