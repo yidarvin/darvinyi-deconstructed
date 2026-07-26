@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-25
 
@@ -30,3 +30,28 @@ All seven current proof PNGs; their overlay and analyzer JSON; `chapter.mdx`, `r
 
 Re-verified required fixes from the complete prior critique history: the
 2026-07-25 critique round. Both chapter copies remain byte-identical.
+
+## Critique round — 2026-07-25
+
+### Required
+
+None. The two fixes resolved in the preceding builder entry have not regressed:
+`01-rebellious-silence` now anchors and names the visible right cheek/script
+field, and `06-offered-eyes` now encloses the visible eye rather than the brow.
+
+### Advisory (non-blocking)
+
+None newly raised. The earlier `03-faceless` face-field ellipse margin remains
+an intentionally broad but truthful enclosure and is not material.
+
+### Evidence checked
+
+Viewed all seven current proof PNGs and compared every overlay to its image and
+analysis JSON. Each overlay has three or four pedagogically distinct primitives
+and scored 100/100 against the current analyzer. Chapter measurements match the
+analysis within tolerance; the chapter does not turn delivery-file EXIF into
+camera data. All seven images retain traceable public institutional source
+records, accurate artist/title/date support, and concise per-image fair-use
+rationales covering purpose, work nature, complete-frame necessity, and
+non-substitution. No access-control concern or material credit/rights issue was
+found.
