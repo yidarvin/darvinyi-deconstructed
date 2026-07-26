@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-ice-pillar.jpg",
+    "width": 450,
+    "height": 550,
+    "sha1": "b73c6fe7",
+    "source": "01-ice-pillar.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-peacock.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "306f9815",
+    "source": "02-peacock.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-rooftop-mattresses.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "74d225c7",
+    "source": "03-rooftop-mattresses.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-ceremonial-cart.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "bec3c670",
+    "source": "04-ceremonial-cart.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-men-at-concrete-wall.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "d210b439",
+    "source": "05-men-at-concrete-wall.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-papers-in-suburb.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "5d3e1820",
+    "source": "06-papers-in-suburb.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-figure-in-street.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "5bdceba4",
+    "source": "07-figure-in-street.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-fallen-figure.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "7a1cb1f5",
+    "source": "08-fallen-figure.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-shadow-street.jpg",
+    "width": 672,
+    "height": 550,
+    "sha1": "3f28fd63",
+    "source": "09-shadow-street.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-car-mirror.jpg",
+    "width": 824,
+    "height": 550,
+    "sha1": "6c64cfe3",
+    "source": "10-car-mirror.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-subway-platform.jpg",
+    "width": 824,
+    "height": 550,
+    "sha1": "e0721e05",
+    "source": "11-subway-platform.jpg",
+    "exif": {}
+  }
+]
