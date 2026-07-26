@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -25,3 +25,20 @@ Re-verified the 2026-07-26 critique round in full.
 2. **Print-process limitation:** research and the chapter callout now identify images 01–03 as Centre Pompidou-recorded chromogenic prints while retaining the stated limits for camera, lighting, original-scan, and image 04 process claims.
 
 Also removed the unsupported `nonprofit` qualifier from the fair-use overview. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Verification notes
+
+- Fresh visual review of all four current proofs confirms that each overlay primitive traces the feature its label names. The two prior required findings remain resolved: 01 identifies the traced feature as a low mossed branch, and the research/callout accurately record Centre Pompidou's chromogenic-print evidence for 01–03.
+- The chapter's tonal, edge-density, palette, title, date, and project claims agree with the current analysis and source materials. It does not infer camera settings from derivative-file metadata.
+- All four source records and their public display renditions resolve. Each image has a credited, image-specific four-factor fair-use rationale; the documented 600px Hanford exception remains legible and accurately described.
+- Independent fresh-eyes reviewers found no required or new advisory issues. `python3 scripts/validate_pipeline.py` passes for the current artifacts.
