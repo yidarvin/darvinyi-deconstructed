@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-maria.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.565, "cy": 0.421, "rx": 0.235, "ry": 0.300, "label": "turned face field" },
+    { "type": "polyline", "points": [[0.306,0.651],[0.457,0.715],[0.650,0.744],[0.836,0.846]], "label": "shoulder contour" },
+    { "type": "polyline", "points": [[0.340,0.171],[0.465,0.092],[0.678,0.167],[0.818,0.341]], "label": "hair contour" }
+  ],
+  "notes": "Hair and shoulder bracket the tilted blank face, allowing silhouette and the red ground to carry the portrait's sense of address."
+}

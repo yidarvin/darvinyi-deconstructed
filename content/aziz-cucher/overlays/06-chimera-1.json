@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-chimera-1.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "specimen axis" },
+    { "type": "ellipse", "cx": 0.512, "cy": 0.458, "rx": 0.175, "ry": 0.430, "label": "suspended body" },
+    { "type": "ellipse", "cx": 0.558, "cy": 0.855, "rx": 0.100, "ry": 0.115, "label": "lower appendage" }
+  ],
+  "notes": "A vertical, almost symmetrical body is isolated in a black field; its small lower protrusion interrupts the specimen-like axis."
+}

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "07-chimera-6.jpg",
+  "width": 1500,
+  "height": 1200,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.47434573188249657,
+    "std": 0.4703327835693536,
+    "p05": 0.011764705882352941,
+    "p95": 1.0,
+    "edge_density": 0.005923763736263736
+  },
+  "palette": [
+    "#090100",
+    "#ffffff",
+    "#ba8e75",
+    "#93705c",
+    "#61412b"
+  ],
+  "lines": [
+    {
+      "x1": 0.80859375,
+      "y1": 0.9987789987789988,
+      "x2": 0.80859375,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.6238393984122298,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.2265625,
+      "y1": 0.9987789987789988,
+      "x2": 0.2265625,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.6238393984122298,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.12454212454212454,
+    "angle_deg": 0.0,
+    "confidence": 0.9230165911302809,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5537109375,
+      0.7741147741147741
+    ],
+    "regions": [
+      {
+        "cx": 0.5414040638396047,
+        "cy": 0.3629258783343089,
+        "x": 0.4541015625,
+        "y": 0.21001221001221002,
+        "w": 0.150390625,
+        "h": 0.40415140415140416,
+        "area_frac": 0.025034102182539684
+      },
+      {
+        "cx": 0.5579784689806774,
+        "cy": 0.7803050632279588,
+        "x": 0.4892578125,
+        "y": 0.6446886446886447,
+        "w": 0.140625,
+        "h": 0.23931623931623933,
+        "area_frac": 0.019222422542735044
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9850409167713714,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.9891004929938111,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.5537109375,
+    "y": 0.7741147741147741,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.1450384612561323,
+    "phi": 0.14937385204076342,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.99,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.125,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.92,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.554,
+      "y": 0.774,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

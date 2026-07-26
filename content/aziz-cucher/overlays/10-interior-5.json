@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-interior-5.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.823, "angle": 0, "label": "floor threshold" },
+    { "type": "frame_in_frame", "x": 0.108, "y": 0.145, "w": 0.753, "h": 0.687, "label": "outer opening" },
+    { "type": "frame_in_frame", "x": 0.638, "y": 0.277, "w": 0.224, "h": 0.440, "label": "inner opening" }
+  ],
+  "notes": "Nested rectangular openings press the eye laterally through a skin-clad room, replacing a stable horizon with successive thresholds."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-chris.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "portrait axis" },
+    { "type": "horizon_line", "y": 0.731, "angle": 0, "label": "shoulder break" },
+    { "type": "ellipse", "cx": 0.525, "cy": 0.420, "rx": 0.325, "ry": 0.360, "label": "sealed head" }
+  ],
+  "notes": "A nearly bilateral head rises from a low shoulder line; the erased features leave the portrait axis as the strongest organizing fact."
+}

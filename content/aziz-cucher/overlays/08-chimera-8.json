@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-chimera-8.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "display axis" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.558, "r": 0.035, "label": "pinched waist" },
+    { "type": "ellipse", "cx": 0.506, "cy": 0.489, "rx": 0.176, "ry": 0.425, "label": "stacked body" }
+  ],
+  "notes": "A centered stacked form nearly obeys an anatomical axis, then breaks at its narrow middle like a body made from incompatible parts."
+}

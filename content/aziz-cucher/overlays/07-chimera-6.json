@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-chimera-6.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "display axis" },
+    { "type": "ellipse", "cx": 0.487, "cy": 0.286, "rx": 0.155, "ry": 0.180, "label": "upper lobe" },
+    { "type": "ellipse", "cx": 0.509, "cy": 0.616, "rx": 0.128, "ry": 0.320, "label": "lower body" }
+  ],
+  "notes": "The narrow hybrid is held in a high, centered reserve, with its wavy profile making an otherwise clinical presentation unstable."
+}

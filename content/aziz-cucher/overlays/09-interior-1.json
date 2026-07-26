@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-interior-1.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "body-room axis" },
+    { "type": "frame_in_frame", "x": 0.354, "y": 0.241, "w": 0.291, "h": 0.519, "label": "central recess" },
+    { "type": "polyline", "points": [[0.354,0.261],[0.354,0.502],[0.357,0.700]], "label": "left recess edge" }
+  ],
+  "notes": "An architectural recess divides the skin-like surface into nested planes, turning a vertical room into a bodily enclosure."
+}

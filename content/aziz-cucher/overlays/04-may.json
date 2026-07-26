@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-may.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "frontal portrait axis" },
+    { "type": "leading_line", "points": [[0.586,0.137],[0.940,0.420]], "arrow": true, "label": "right wreath edge" },
+    { "type": "ellipse", "cx": 0.503, "cy": 0.570, "rx": 0.265, "ry": 0.245, "label": "blank face field" }
+  ],
+  "notes": "The centered erased face is crowned by an uneven floral arc, so ceremonial decoration sharpens rather than restores identity."
+}

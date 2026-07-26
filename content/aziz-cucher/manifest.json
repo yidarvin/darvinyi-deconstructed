@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-pam-and-kim.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "dd0147c1",
+    "source": "01-pam-and-kim.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-chris.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "571cf93b",
+    "source": "02-chris.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-maria.jpg",
+    "width": 749,
+    "height": 864,
+    "sha1": "b01147e6",
+    "source": "03-maria.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-may.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "134cf1cd",
+    "source": "04-may.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-john.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "c8e0b151",
+    "source": "05-john.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-chimera-1.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "cb5421a4",
+    "source": "06-chimera-1.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-chimera-6.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "005c93c2",
+    "source": "07-chimera-6.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-chimera-8.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "4bc3f31f",
+    "source": "08-chimera-8.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-interior-1.jpg",
+    "width": 1256,
+    "height": 1600,
+    "sha1": "b2f9bf39",
+    "source": "09-interior-1.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-interior-5.jpg",
+    "width": 1500,
+    "height": 996,
+    "sha1": "63b6f228",
+    "source": "10-interior-5.jpg",
+    "exif": {}
+  }
+]

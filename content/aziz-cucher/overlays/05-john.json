@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-john.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "torso axis" },
+    { "type": "polyline", "points": [[0.142,0.610],[0.316,0.634],[0.516,0.667],[0.730,0.722]], "label": "torso strap" },
+    { "type": "ellipse", "cx": 0.527, "cy": 0.330, "rx": 0.175, "ry": 0.170, "label": "sealed face" }
+  ],
+  "notes": "The body is staged on a central axis, while the horizontal strap and dark backdrop make the missing features feel theatrically withheld."
+}

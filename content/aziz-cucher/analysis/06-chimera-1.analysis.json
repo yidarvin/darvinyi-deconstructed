@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "06-chimera-1.jpg",
+  "width": 1500,
+  "height": 1200,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.4835618876289832,
+    "std": 0.4718296572802113,
+    "p05": 0.0,
+    "p95": 1.0,
+    "edge_density": 0.005366920405982906
+  },
+  "palette": [
+    "#000000",
+    "#ffffff",
+    "#c59e7c",
+    "#9f7a5d",
+    "#674a30"
+  ],
+  "lines": [
+    {
+      "x1": 0.2265625,
+      "y1": 0.9987789987789988,
+      "x2": 0.2265625,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.6238393984122298,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.80859375,
+      "y1": 0.9987789987789988,
+      "x2": 0.80859375,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.6238393984122298,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.3994140625,
+      "y1": 0.1575091575091575,
+      "x2": 0.482421875,
+      "y2": 0.17826617826617827,
+      "angle_deg": 11.309932474020213,
+      "length": 0.06610816322675189,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.12576312576312576,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5546875,
+      0.7545787545787546
+    ],
+    "regions": [
+      {
+        "cx": 0.5612443735546746,
+        "cy": 0.7808242590912845,
+        "x": 0.466796875,
+        "y": 0.6752136752136753,
+        "w": 0.1748046875,
+        "h": 0.23931623931623933,
+        "area_frac": 0.02526542467948718
+      },
+      {
+        "cx": 0.559442680306277,
+        "cy": 0.10749437597410788,
+        "x": 0.48828125,
+        "y": 0.0,
+        "w": 0.1474609375,
+        "h": 0.22832722832722832,
+        "area_frac": 0.018502222603785104
+      },
+      {
+        "cx": 0.5995063466969548,
+        "cy": 0.49577135372813175,
+        "x": 0.5712890625,
+        "y": 0.42857142857142855,
+        "w": 0.05859375,
+        "h": 0.1391941391941392,
+        "area_frac": 0.006069234584859585
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9774381583190018,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.992457467802343,
+    "horizontal_axis_y": 0.4
+  },
+  "subject_anchor": {
+    "x": 0.5546875,
+    "y": 0.7545787545787546,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.17311325676733577,
+    "phi": 0.19038826172305967,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.126,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.555,
+      "y": 0.755,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

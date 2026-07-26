@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "08-chimera-8.jpg",
+  "width": 1500,
+  "height": 1200,
+  "aspect": 1.25,
+  "tonal": {
+    "mean": 0.5073964094184683,
+    "std": 0.4506043034172885,
+    "p05": 0.0392156862745098,
+    "p95": 1.0,
+    "edge_density": 0.005517160790598291
+  },
+  "palette": [
+    "#1b0303",
+    "#fffffe",
+    "#d0a186",
+    "#a98168",
+    "#73533e"
+  ],
+  "lines": [
+    {
+      "x1": 0.2255859375,
+      "y1": 0.9987789987789988,
+      "x2": 0.2255859375,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.6238393984122298,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.80859375,
+      "y1": 0.9987789987789988,
+      "x2": 0.80859375,
+      "y2": 0.0,
+      "angle_deg": -90.0,
+      "length": 0.6238393984122298,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.44140625,
+      "y1": 0.6862026862026862,
+      "x2": 0.45703125,
+      "y2": 0.8266178266178266,
+      "angle_deg": 82.07926009835893,
+      "length": 0.08854836564043056,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.470703125,
+      "y1": 0.05860805860805861,
+      "x2": 0.5693359375,
+      "y2": 0.06105006105006105,
+      "angle_deg": 1.1344216309770068,
+      "length": 0.07704172528643269,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.3418803418803419,
+    "angle_deg": 0.0,
+    "confidence": 0.6867211082295157,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5068359375,
+      0.557997557997558
+    ],
+    "regions": [
+      {
+        "cx": 0.5004190733299849,
+        "cy": 0.5630786647361232,
+        "x": 0.443359375,
+        "y": 0.49206349206349204,
+        "w": 0.1171875,
+        "h": 0.1452991452991453,
+        "area_frac": 0.011870182768620268
+      },
+      {
+        "cx": 0.5133460459083018,
+        "cy": 0.027001162417829086,
+        "x": 0.478515625,
+        "y": 0.0,
+        "w": 0.072265625,
+        "h": 0.06349206349206349,
+        "area_frac": 0.0037774725274725275
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9831571944313202,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.9863580209050598,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.5068359375,
+    "y": 0.557997557997558,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.44212224992861837,
+    "phi": 0.5012017606590781,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.342,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.69,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.507,
+      "y": 0.558,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

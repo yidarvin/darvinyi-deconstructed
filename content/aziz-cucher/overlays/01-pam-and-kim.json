@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-pam-and-kim.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.211, "y": 0.343, "r": 0.035, "label": "left ear" },
+    { "type": "ellipse", "cx": 0.354, "cy": 0.414, "rx": 0.190, "ry": 0.295, "label": "left face field" },
+    { "type": "ellipse", "cx": 0.694, "cy": 0.459, "rx": 0.185, "ry": 0.285, "label": "right face field" }
+  ],
+  "notes": "The paired blank faces overlap across a thirds grid, making recognition depend on two adjoining contours rather than expressions."
+}
