@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-wind.jpg",
+    "width": 843,
+    "height": 1045,
+    "sha1": "73040ac0",
+    "source": "01-wind.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-jacinthe-loves-orange-juice.jpg",
+    "width": 843,
+    "height": 1077,
+    "sha1": "ccc07120",
+    "source": "02-jacinthe-loves-orange-juice.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-11-eggs.jpg",
+    "width": 843,
+    "height": 1001,
+    "sha1": "fe7efbc2",
+    "source": "03-11-eggs.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-self-portrait.jpg",
+    "width": 843,
+    "height": 997,
+    "sha1": "e4bd295f",
+    "source": "04-self-portrait.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-double-elvis.jpg",
+    "width": 843,
+    "height": 1071,
+    "sha1": "b7fee529",
+    "source": "05-double-elvis.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-pillow-ii-after-durer.jpg",
+    "width": 843,
+    "height": 697,
+    "sha1": "457163a2",
+    "source": "06-pillow-ii-after-durer.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-11000-yards-helmingham-dell.jpg",
+    "width": 843,
+    "height": 691,
+    "sha1": "f46d068e",
+    "source": "07-11000-yards-helmingham-dell.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-medusa-marinara.jpg",
+    "width": 843,
+    "height": 671,
+    "sha1": "dd787fcb",
+    "source": "08-medusa-marinara.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-pictures-of-garbage-the-gipsy-magna.jpg",
+    "width": 950,
+    "height": 1200,
+    "sha1": "badc44eb",
+    "source": "09-pictures-of-garbage-the-gipsy-magna.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-pictures-of-garbage-mother-and-children.jpg",
+    "width": 930,
+    "height": 1200,
+    "sha1": "b7748d7e",
+    "source": "10-pictures-of-garbage-mother-and-children.jpg",
+    "exif": {}
+  }
+]

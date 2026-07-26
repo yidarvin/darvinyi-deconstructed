@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-pillow-ii-after-durer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.773, "y": 0.759, "r": 0.035, "label": "DENSEST FOLD" },
+    { "type": "polyline", "points": [[0.705, 0.145], [0.783, 0.500], [0.861, 0.854]], "label": "FOLD CONTOUR" },
+    { "type": "horizon_line", "y": 0.802, "angle": -4.0, "label": "LOW EDGE BREAK" }
+  ],
+  "notes": "Hard marks make the pillow's soft volume read through a diagonal fold."
+}

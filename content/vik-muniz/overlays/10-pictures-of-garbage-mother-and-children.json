@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-pictures-of-garbage-mother-and-children.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.520, "y": 0.258, "r": 0.035, "label": "MOTHER'S FACE" },
+    { "type": "polyline", "points": [[0.139, 0.042], [0.448, 0.282], [0.757, 0.521]], "label": "GROUPING DIAGONAL" },
+    { "type": "polyline", "points": [[0.000, 0.561], [0.268, 0.313], [0.536, 0.065]], "label": "COUNTER-DIAGONAL" }
+  ],
+  "notes": "Crossed body diagonals bind the maternal group inside a dense field of refuse."
+}

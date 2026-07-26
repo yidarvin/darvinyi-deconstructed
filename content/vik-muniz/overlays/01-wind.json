@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-wind.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.479, "y": 0.491, "r": 0.035, "label": "WIRE FIGURE" },
+    { "type": "polyline", "points": [[0.469, 0.203], [0.505, 0.300], [0.541, 0.395]], "label": "GESTURE" },
+    { "type": "horizon_line", "y": 0.594, "angle": 0, "label": "LOW TONAL BREAK" }
+  ],
+  "notes": "A tiny wire figure makes an almost blank field into a measured stage."
+}

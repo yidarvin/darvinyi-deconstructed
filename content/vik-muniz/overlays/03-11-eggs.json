@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-11-eggs.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "BALANCED FIELD" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.66, "rx": 0.25, "ry": 0.25, "label": "EGG CLUSTER" },
+    { "type": "polyline", "points": [[0.48, 0.43], [0.53, 0.60], [0.58, 0.78]], "label": "STACKED OVALS" }
+  ],
+  "notes": "Repeated eggs read as a centered rhythm rather than separate still-life objects."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-11000-yards-helmingham-dell.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.511, "y": 0.656, "label": "RECEDING PATH" },
+    { "type": "leading_line", "points": [[0.224, 0.965], [0.607, 0.599]], "arrow": true, "label": "BANK" },
+    { "type": "polyline", "points": [[0.512, 0.692], [0.545, 0.413], [0.578, 0.133]], "label": "TREE MASS" }
+  ],
+  "notes": "Thread makes the landscape's recession visible as a constructed route."
+}

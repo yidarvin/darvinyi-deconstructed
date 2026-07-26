@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-self-portrait.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.488, "label": "FACE AXIS" },
+    { "type": "subject_anchor", "x": 0.416, "y": 0.242, "r": 0.035, "label": "EYE" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.49, "rx": 0.29, "ry": 0.40, "label": "HEAD AND SHOULDERS" }
+  ],
+  "notes": "A centered portrait resolves from an unstable field of marks."
+}

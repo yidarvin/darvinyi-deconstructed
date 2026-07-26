@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-pictures-of-garbage-the-gipsy-magna.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.549, "y": 0.336, "r": 0.035, "label": "FACE" },
+    { "type": "polyline", "points": [[0.423, 0.862], [0.504, 0.548], [0.549, 0.336], [0.671, 0.571]], "label": "DRESS SILHOUETTE" },
+    { "type": "horizon_line", "y": 0.561, "angle": 4.9, "label": "MATERIAL BREAK" }
+  ],
+  "notes": "A monumental figure resolves from refuse through face and dress silhouette."
+}
