@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -27,3 +27,13 @@ All required fixes from the 2026-07-26 critique round were re-verified against t
 4. Every per-image fair-use assessment now explicitly records factor two: each is a published, creative contemporary photograph, which weighs against fair use.
 
 The advisory labels for `07-figure-in-street` and the `10-car-mirror` proof were also clarified. Fresh render/score passes for `06`, `07`, `10`, and `11` each scored 100/100, and the composite PNGs passed visual inspection. `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-07-26
+
+### Required fixes
+
+None. All eleven current proof composites were inspected against their overlay specs and analyzer measurements. The four prior required findings remain resolved: `06-papers-in-suburb` now marks the visible raised papers, `11-subway-platform` accurately identifies the inter-train aperture, the `08` and `09` source records describe the frames shown, and every image has an explicit four-factor fair-use rationale. Every overlay scores 100/100 against its current analysis; the prose's geometry, grid-fit, tonal, palette, and edge-density claims match those analyses within tolerance. The image-specific artist-archive display-file URLs are reachable and traceable to the supplied plates. No camera settings are asserted.
+
+### Advisory (non-blocking)
+
+None.

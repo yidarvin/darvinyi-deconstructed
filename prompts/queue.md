@@ -179,7 +179,7 @@ real queue and state live in data/registry.json.
 | 168 | ilit-azoulay              | Ilit Azoulay                 | DONE    |
 | 169 | noemie-goudal             | Noémie Goudal                | DONE    |
 | 170 | cristina-de-middel        | Cristina de Middel           | DONE    |
-| 171 | max-pinckers              | Max Pinckers                 | PENDING |
+| 171 | max-pinckers              | Max Pinckers                 | DONE    |
 | 172 | farah-al-qasimi           | Farah Al Qasimi              | PENDING |
 | 173 | zanele-muholi             | Zanele Muholi                | PENDING |
 | 174 | deana-lawson              | Deana Lawson                 | PENDING |
