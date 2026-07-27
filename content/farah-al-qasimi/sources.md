@@ -72,7 +72,7 @@ The tall domestic view makes ordinary remnants and spatial intervals carry the i
 
 ### 09 — *Aviary* (2019)
 
-Birds, fluorescent ceiling, and a woman with a camera make enclosure visible at several scales, turning the full horizontal field into a tension between movement and containment.
+Birds, fluorescent ceiling, and a woman taking a photograph make enclosure visible at several scales, turning the full horizontal field into a tension between movement and containment.
 
 - **Source:** [Farah Al Qasimi, *Arrival*](https://farahalqasimi.com/Arrival); [direct public display JPEG](https://freight.cargo.site/i/8923a45baaf0bb0b0fcacb9a58d9d99c9037583e39073f45e95ecad0646ec7b7/FAQ_Aviary--2019_Inkjet-print_114-x-152.5cm-45-x-60-in.-edit.jpg).
 - **Use basis: fair-use.** Creator/rightsholder notice: Farah Al Qasimi, artist; no open licence is stated. **Factor 1:** criticism examines the composition's layered enclosures, subject placement, and ceiling grid. **Factor 2:** a highly creative published photograph. **Factor 3:** the whole 1,601 × 1,200px frame is necessary to keep birds, woman, and ceiling in their designed relation. **Factor 4:** this credited, linked display JPEG is a web-sized teaching copy and does not replace the print, exhibition record, or licensed reproduction.

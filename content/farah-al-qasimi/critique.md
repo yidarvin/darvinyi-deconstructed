@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -15,3 +15,11 @@ None.
 - Looked at all twelve current proof PNGs and their matching specs. The remaining overlays use three or fewer pedagogically distinct primitives that visibly trace the named features.
 - Re-ran the deterministic scorer for every image; all twelve current specs score 100/100 with no deductions or warnings. This does not override the semantic error above.
 - The chapter's numeric readings agree with the analysis records within the stated tolerances, makes no camera-setting claims, and the source notes provide an individual public source, credit, and four-factor fair-use rationale for each image. The official *Arrival* page confirms the 2019 exhibition context and publishes the image set.
+
+## Resolution — 2026-07-26
+
+1. **03-winter-fog:** Removed the `OPEN FIELD AXIS` `symmetry_axis` from the overlay and re-rendered its proof. The remaining `FOG-TO-GROUND SEAM` and `RECEDING FENCE` claims visibly trace the photographed structure without asserting bilateral symmetry. The revised overlay scores 100/100 with no deductions or warnings, and the rendered proof received a clean visual pass.
+
+### Prior rounds re-verified
+
+- Re-verified the sole prior critique round dated 2026-07-26. Its only required fix is satisfied: `03-winter-fog` contains no `symmetry_axis` or `OPEN FIELD AXIS` claim. All twelve current overlays score 100/100 with no deductions or warnings; the two chapter copies remain byte-identical.
