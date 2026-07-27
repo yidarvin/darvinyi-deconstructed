@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-27
 
@@ -150,3 +150,27 @@ overlays pass the deterministic threshold: eleven score 100/100 and
 `11-the-mask` scores 85.5/100 because the saliency detector prefers the nearby
 hand while the visible dark aperture is correctly marked. `scripts/check.sh`
 passes.
+
+## Critique round — 2026-07-27
+
+Independently re-reviewed all twelve current proof PNGs against their overlay
+specs and analysis records, including a fresh deterministic score run. Eleven
+overlays score 100/100; `11-the-mask` scores 85.5/100 solely because the
+saliency detector prefers the nearby hand, while its `MASK'S DARK OPENING`
+anchor visibly remains on the lower-right aperture. The prior repairs remain
+intact: `03-the-leftovers` identifies the actual middle face, and
+`07-the-breath` makes no blade, threat, or stale-diagonal claim. The chapter's
+numeric tonal, edge-density, palette, and coordinate statements agree with
+the current analysis records; it asserts no camera settings. All twelve direct
+artist-hosted image URLs and the project page returned HTTP 200 during this
+review. Every image retains a traceable credit and image-specific fair-use
+record, including the four-factor basis, full-frame teaching need, and
+non-substitution rationale.
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+None.
