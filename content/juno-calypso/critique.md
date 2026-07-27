@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -66,3 +66,11 @@ None. I visually reviewed all twelve current proof composites against their over
 ### Advisory (non-blocking)
 
 None. This follow-up supersedes the immediately preceding approval after an independent fresh-eyes pass identified the required 06 error. I independently confirmed it against the current proof. The previously resolved 01 fallback and 04 mirror-edge changes have not materially regressed; source integrity, settings honesty, and the chapter's measured claims remain satisfactory.
+
+## Builder resolution — 2026-07-27
+
+Resolved the required 06 finding by removing the false straight-sided heart-rim polyline. The replacement deliberately marks only the measured bath axis and curled body; the chapter now says that the curved rim is not falsely straightened. Its regenerated proof passes a clean visual check and the strict scorer at 100.
+
+During the independent recheck, I also made four bounded, visually verified corrections that preserve the chapter's existing claims: 03 now traces the inner tub opening rather than the outer ledge; 05's pillow-seam polyline follows the visible edge; 11's two room frames now align with the window openings; and 12 drops the nonexistent pool-surface line. Each regenerated proof passes a clean visual check and the strict scorer at 100. All twelve overlays pass the strict scorer at 100.
+
+Re-verified every prior required round in this critique history: the five source-description corrections (01 standing tiled-bathroom figure and cosmetic device; 03 central green-painted figure in pink mirrors; 05 close masked reclining figure and pillow; 09 empty sink and painted window; 11 seated figure in the left room); the 04 source-note correction (centered figure, reflecting basin, pin lights, and mirrored architecture); and the 01 conservative fallback plus 04 tapering mirror-edge resolution. They remain intact. The content and rendered chapter files are byte-identical. `scripts/check.sh` passed in full.

@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "bath axis" },
-    { "type": "subject_anchor", "x": 0.585, "y": 0.44, "r": 0.045, "label": "curled body" },
-    { "type": "polyline", "points": [[0.50, 0.23], [0.37, 0.35], [0.34, 0.54], [0.50, 0.72], [0.66, 0.54], [0.63, 0.35], [0.50, 0.23]], "label": "heart-shaped tub" }
+    { "type": "subject_anchor", "x": 0.585, "y": 0.44, "r": 0.045, "label": "curled body" }
   ],
-  "notes": "The overhead view makes the heart-shaped bath a bright enclosure around a curled body."
+  "notes": "The overhead view uses the bath's bilateral order to center a curled body without reducing its curved rim to a false geometric trace."
 }

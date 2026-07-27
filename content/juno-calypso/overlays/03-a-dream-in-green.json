@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "mirror axis" },
     { "type": "subject_anchor", "x": 0.616, "y": 0.345, "r": 0.045, "label": "mirror reflection" },
-    { "type": "ellipse", "cx": 0.50, "cy": 0.70, "rx": 0.35, "ry": 0.14, "label": "tub opening" }
+    { "type": "ellipse", "cx": 0.50, "cy": 0.70, "rx": 0.25, "ry": 0.10, "label": "tub opening" }
   ],
   "notes": "The green figure is doubled around a central axis and caught inside the pink bath geometry."
 }
