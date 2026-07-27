@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -33,3 +33,19 @@ Re-verified critique history: the sole prior round, **2026-07-27**, and every on
 6. **12-sangoma — MOUNTAIN BACKDROP.** Replaced the foreground-crossing path with the short, visible exposed ridge at left; revised the chapter to state that limited claim.
 
 The four affected images were re-analyzed, rendered, and scored at 100/100; the refreshed proofs and the full 12-image contact sheet passed visual review. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass, and the rendered chapter remains byte-identical to `content/namsa-leuba/chapter.mdx`.
+
+## Critique round — 2026-07-27
+
+### Required
+
+1. **11-qkhwini — ROCK SHELTER ARC.** The polyline from `(0.23, 0.18)` through `(0.40, 0.15)` to `(0.68, 0.20)` enters on undifferentiated rock, then crosses the headdress before returning to rock. It does not trace a visible rock-shelter arc, yet the overlay notes and chapter describe that arc as an enclosing structure. Refit it to a visible rock contour or remove the primitive and revise the matching prose/notes so the chapter does not claim a structure absent from the frame.
+
+### Advisory (non-blocking)
+
+- All twelve deterministic scorer runs return 100/100, but the scorer cannot establish the semantic truth of interpretive polylines. The remaining required finding is based on the current visual proof rather than a score deduction.
+
+### Checks completed
+
+- Looked at every current proof PNG and its paired overlay/analysis JSON, including a regression pass over the six fixes resolved in the prior round. Those six repairs remain materially correct.
+- Chapter palette, tonal, edge-density, grid, and recorded per-file camera-metadata claims match the current analyses and manifest within tolerance.
+- All twelve official project-page links and all twelve direct image links in `sources.md` returned HTTP 200 in this review. Each image has an artist credit, route, and concise per-image four-factor fair-use rationale; no source-integrity blocker was found.
