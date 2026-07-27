@@ -4,8 +4,9 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered body" },
-    { "type": "frame_in_frame", "x": 0.08, "y": 0.05, "w": 0.84, "h": 0.70, "label": "mirrored chamber" },
+    { "type": "polyline", "points": [[0.10, 0.05], [0.04, 0.55], [0.02, 0.82]], "label": "left mirror edge" },
+    { "type": "polyline", "points": [[0.90, 0.05], [0.96, 0.55], [0.98, 0.82]], "label": "right mirror edge" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.77, "rx": 0.54, "ry": 0.18, "label": "reflecting basin" }
   ],
-  "notes": "The body rises from an oval basin against a field of reflected pin lights."
+  "notes": "The centered body rises from an oval basin between the mirrored room's tapering edges."
 }

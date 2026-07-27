@@ -1,11 +1,9 @@
 {
   "version": 1,
   "image": "01-slendertone-ii.jpg",
-  "grid": { "type": "none" },
+  "grid": { "type": "phi" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.03, "y": 0.05, "w": 0.90, "h": 0.90, "label": "tiled enclosure" },
-    { "type": "polyline", "points": [[0.14, 0.98], [0.55, 0.72]], "label": "left floor grout" },
-    { "type": "polyline", "points": [[0.89, 0.98], [0.55, 0.72]], "label": "right floor grout" }
+    { "type": "subject_anchor", "x": 0.816, "y": 0.397, "r": 0.035, "label": "measured saliency" }
   ],
-  "notes": "The tiled corner makes the beauty apparatus and standing body feel spatially trapped."
+  "notes": "Conservative analyzer fallback: phi grid and measured saliency only; the room's enclosure remains prose-led."
 }

@@ -6,13 +6,13 @@ Juno Calypso (b. 1989) is represented here through twelve artist-portfolio image
 
 ## Method and visual conditions
 
-The record supports describing these photographs as constructed, staged self-portraits in controlled interiors. It supports the recurring use of motel, bathroom, bunker, mirror, heart-shaped-bath, and kitchen settings; artificial and chromatic lighting; pastel or saturated colour; and the contrast between a solitary figure and a highly designed room. The composition work in this chapter is limited to visible structures in the supplied complete web renditions: mirrors, internal frames, tiles, counters, tubs, curtains, window mullions, and the positions of bodies.
+The record supports describing these photographs as constructed, staged self-portraits in controlled interiors. It supports the recurring use of motel, bathroom, bunker, mirror, heart-shaped-bath, and kitchen settings; artificial and chromatic lighting; pastel or saturated colour; and the contrast between a solitary figure and a highly designed room. The Dazed and 1854 accounts recorded in [sources.md](sources.md) describe Calypso sourcing rooms, props, and costumes, then working alone between the camera and the set. The composition work in this chapter is limited to visible structures in the supplied complete web renditions: mirrors, internal frames, tiles, counters, tubs, curtains, window mullions, and the positions of bodies.
 
 The imagery is organized less as spontaneous observation than as an exacting relation between a body and a set. In the hotel works, reflections, bath rims, tiled corners, and cosmetic props turn ostensibly romantic or restorative rooms into enclosing machines. In the bunker works, the same control carries into kitchens, windowed rooms, and submerged artificial nature, making longevity and duplication feel like extensions of domestic décor rather than escape from it.
 
 ## Process and settings: what is not established
 
-The sources do not establish camera body, lens, focal length, aperture, shutter speed, ISO, film stock, digital capture workflow, print medium, edition, or darkroom/printing process for these works. The ingested display files contain no usable capture EXIF. This chapter therefore does not infer those facts. Its tonal, palette, and geometric observations are deterministic measurements of the supplied artist-portfolio web renditions, not claims about original prints or capture settings.
+The sources do not establish camera body, lens, focal length, aperture, shutter speed, ISO, capture format, film stock, print medium, edition, or darkroom/printing process for these works. The ingested display files contain no usable capture EXIF. This chapter therefore does not infer those facts. Its tonal, palette, and geometric observations are deterministic measurements of the supplied artist-portfolio web renditions, not claims about original prints or capture settings.
 
 ## Sources consulted
 

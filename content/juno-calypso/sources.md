@@ -1,6 +1,6 @@
 # Juno Calypso — source shortlist
 
-This chapter follows Calypso's two most consequential self-portrait bodies of work: *The Honeymoon* (2014–16), in which her character Joyce occupies couples-only hotel interiors alone, and *What To Do With A Million Years* (2017–18), staged in a Las Vegas underground bunker. The twelve complete, high-resolution display files below were retrieved directly from the artist's public portfolio pages. They are not open licensed: the source page identifies the artist and title/date but states no reuse licence, so every selection has an individual **fair-use** assessment.
+This chapter follows two selected self-portrait bodies of work: *The Honeymoon* (2014–16), in which her character Joyce occupies couples-only hotel interiors alone, and *What To Do With A Million Years* (2017–18), staged in a Las Vegas underground bunker. The twelve complete, high-resolution display files below were retrieved directly from the artist's public portfolio pages. They are not open licensed: the source page identifies the artist and title/date but states no reuse licence, so every selection has an individual **fair-use** assessment.
 
 **Rights basis:** This nonprofit book uses each credited, record-linked, web-sized display copy for criticism, scholarship, and transformative composition teaching. It does not publish a substitute print or licensed reproduction. The artist's portfolio is linked for every work and remains the authoritative presentation.
 
@@ -34,10 +34,10 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 - **Rights / fair-use assessment:** **Factor 1:** transformative teaching examines the centered figure, reflecting basin, pin-light rhythm, and mirrored chamber. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the full 2100 × 1400px view is needed to retain the relation among the figure, basin, and enclosing mirrored architecture. **Factor 4:** this credited public display rendition links to the artist and cannot replace a print or licensed reproduction.
 - **File:** `raw/juno-calypso/04-the-champagne-suite.jpg` (2100 × 1400px)
 
-### 05 — *Eternal Beauty* (2015)
+### 05 — *Eternal Beauty* (2014)
 - **Why it matters:** The close crop of a reclining masked figure and blue pillow makes the facial treatment a mask-like focal point, collapsing care ritual and horror tableau without relying on a surrounding interior.
 - **Source:** [Juno Calypso, *The Honeymoon*](https://www.junocalypso.com/honeymoon) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1483110925371-UINLTKU7F2K3KZW5A9XE/Eternal-Beauty-2015.jpg).
-- **Credit / copyright notice:** Juno Calypso, *Eternal Beauty*, 2015. The artist's portfolio supplies the title and date; no public licence is stated.
+- **Credit / copyright notice:** Juno Calypso, *Eternal Beauty*, 2014. The artist's portfolio supplies the title and date; no public licence is stated.
 - **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the masked face, reclining body, pillow seam, and cosmetic ritual. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1260px close frame is needed to preserve the relation between mask, body, and pillow. **Factor 4:** this credited portfolio image links to the artist and does not substitute for the original or a licensed file.
 - **File:** `raw/juno-calypso/05-eternal-beauty.jpg` (2100 × 1260px)
 

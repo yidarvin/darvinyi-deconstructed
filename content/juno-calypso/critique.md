@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -42,3 +42,7 @@ Corrected the required 04 source-note description: it now identifies the centere
 ### Advisory (non-blocking)
 
 None. I reviewed all twelve current proof composites against their overlay specs and analysis records. All strict scorer runs return 100, but these two findings remain material visual-semantic errors because `frame_in_frame` primitives are bounds-checked rather than assessed for whether they follow the claimed architecture. The chapter’s tonal, palette, and convergence values match the current analysis records within tolerance. Each image retains a traceable public artist-portfolio source, credit/copyright notice, and image-specific four-factor fair-use rationale; all twelve listed display URLs returned HTTP 200 in this review. The previously resolved source-note findings remain resolved and are not reopened here.
+
+## Builder resolution — 2026-07-27
+
+Resolved both required overlay findings. For 01, removed the misleading `tiled enclosure` frame and completed the three-pass analysis/render/score loop. Because no richer semantically clean geometry converged, retained the required conservative phi-grid plus measured-saliency fallback (score 100, clean visual pass) and recorded `content/juno-calypso/images/01-slendertone-ii.jpg` in `needs-review.txt` for automatic audit closure. For 04, replaced the crossing rectangle with two polylines tracing the tapering left and right mirror edges; its revised proof scores 100 and passes visual review. The chapter's description now matches the revised 04 overlay and its rendered copy is byte-identical. Re-verified the prior 2026-07-27 five-item source-note round (01 standing tiled-bathroom figure and cosmetic device; 03 central green-painted figure in pink mirrors; 05 close masked reclining figure and pillow; 09 empty sink and painted window; 11 seated figure in the left room) and the prior 2026-07-27 04 source-note round (centered figure, reflecting basin, pin lights, and mirrored architecture); all remain resolved. Also corrected the artist-portfolio date for *Eternal Beauty* to 2014. `scripts/check.sh` passed in full.
