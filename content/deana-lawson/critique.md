@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -74,3 +74,24 @@ and source review.
 Fresh analysis, rendering, visual inspection, and scoring of `04-nation`,
 `07-hellshire-beach-towel-with-flies`, and `10-dirty-south` each returned
 100/100. `scripts/check.sh` passed before this resolution note was recorded.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None. All twelve current proofs were visually reviewed against their overlay
+specifications and analysis records. The previously resolved doorway,
+horse-and-rider, mask, couch-edge, towel-edge, car-ground-plane, fair-use, and
+lighting findings remain resolved without material regression. Every overlay
+contains a small, pedagogically useful set of primitives that names visible
+features; deterministic scoring returns 100/100 for all twelve current specs.
+
+The chapter's measured tonal, palette, symmetry, convergence, and edge-density
+claims agree with the current analyzer output within the stated tolerance. It
+does not assert undocumented camera settings. Each displayed work has a
+traceable public gallery record, correct title/date/media/artist credit, and a
+per-image four-factor fair-use rationale matched to the visible frame.
+
+### Advisory (non-blocking)
+
+None.

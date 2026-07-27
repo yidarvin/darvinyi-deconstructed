@@ -182,7 +182,7 @@ real queue and state live in data/registry.json.
 | 171 | max-pinckers              | Max Pinckers                 | DONE    |
 | 172 | farah-al-qasimi           | Farah Al Qasimi              | DONE    |
 | 173 | zanele-muholi             | Zanele Muholi                | DONE    |
-| 174 | deana-lawson              | Deana Lawson                 | PENDING |
+| 174 | deana-lawson              | Deana Lawson                 | DONE    |
 | 175 | viviane-sassen            | Viviane Sassen               | PENDING |
 | 176 | tyler-mitchell            | Tyler Mitchell               | PENDING |
 | 177 | nadine-ijewere            | Nadine Ijewere               | PENDING |
