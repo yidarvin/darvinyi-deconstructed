@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -23,3 +23,19 @@ None.
 ### Prior rounds re-verified
 
 - Re-verified the sole prior critique round dated 2026-07-26. Its only required fix is satisfied: `03-winter-fog` contains no `symmetry_axis` or `OPEN FIELD AXIS` claim. All twelve current overlays score 100/100 with no deductions or warnings; the two chapter copies remain byte-identical.
+
+## Critique round — 2026-07-26
+
+### Required fixes
+
+1. **07-shower-with-lux-soap — make `SHOWER ROD` trace the finite rod.** The current `horizon_line` at y=0.310 renders across the entire frame, but the visible shower rod ends at approximately x=0.76; its rightmost quarter is empty tiled wall. This is not a small endpoint overrun: it visibly asserts a named rod where none exists. Replace it with a finite primitive following the actual rod (or otherwise remove the unsupported extension), then re-render the proof. The chapter's y0.310 reading may remain if the revised overlay still marks the rod's actual position.
+
+### Advisory (non-blocking)
+
+None.
+
+### Review evidence
+
+- Looked at all twelve current proof PNGs with their matching overlay specs and analysis records. The prior `03-winter-fog` symmetry-axis error remains resolved; no `symmetry_axis` or `OPEN FIELD AXIS` assertion has regressed.
+- Re-ran the deterministic scorer for every current spec: all twelve score 100/100 with no deductions or warnings. The scorer confirms the y-coordinate of 07's horizontal, but it cannot evaluate the semantic false extension created by a full-width `horizon_line`.
+- The chapter's measured values agree with the current analysis records within tolerance, it makes no invented camera-setting claim, and all twelve images have credited public source links with per-image four-factor fair-use rationales.
