@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-mom-02.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.676, "angle": 0, "label": "billboard base" },
+    { "type": "subject_anchor", "x": 0.758, "y": 0.7, "r": 0.035, "label": "festival placard" },
+    { "type": "frame_in_frame", "x": 0.14, "y": 0.22, "w": 0.72, "h": 0.43, "label": "billboard field" }
+  ],
+  "notes": "The large billboard turns a reclining figure into an architectural inset against repeating glass."
+}

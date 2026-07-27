@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-mom-with-plum.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.678, "y": 0.491, "r": 0.035, "label": "plum" },
+    { "type": "ellipse", "cx": 0.678, "cy": 0.491, "rx": 0.075, "ry": 0.052, "label": "fruit weight" },
+    { "type": "polyline", "points": [[0.03, 0.75], [0.43, 0.59], [0.76, 0.51]], "label": "arm contour" }
+  ],
+  "notes": "A single small plum becomes a weighted focal point against the body-scale curve of the arm."
+}

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "06-mom-on-the-ground-2.jpg",
+  "width": 640,
+  "height": 426,
+  "aspect": 1.5023,
+  "tonal": {
+    "mean": 0.7147632876507412,
+    "std": 0.18505128106460092,
+    "p05": 0.2196078431372549,
+    "p95": 0.8156862745098039,
+    "edge_density": 0.00911825117370892
+  },
+  "palette": [
+    "#d4c9b9",
+    "#b39b8d",
+    "#3e4147",
+    "#966655",
+    "#222125"
+  ],
+  "lines": [
+    {
+      "x1": 0.309375,
+      "y1": 0.7065727699530516,
+      "x2": 0.4578125,
+      "y2": 0.7136150234741784,
+      "angle_deg": 1.8087393224920654,
+      "length": 0.12362843747626319,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.3515625,
+      "y1": 0.6502347417840375,
+      "x2": 0.465625,
+      "y2": 0.5563380281690141,
+      "angle_deg": -28.720326797869486,
+      "length": 0.10827136644232911,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.784375,
+      "y1": 0.6971830985915493,
+      "x2": 0.890625,
+      "y2": 0.6901408450704225,
+      "angle_deg": -2.526116911619555,
+      "length": 0.08853387789430643,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.4671875,
+      "y1": 0.5563380281690141,
+      "x2": 0.5640625,
+      "y2": 0.5211267605633803,
+      "angle_deg": -13.600542516658743,
+      "length": 0.08297020862386226,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.515625,
+      "y1": 0.3474178403755869,
+      "x2": 0.54375,
+      "y2": 0.4694835680751174,
+      "angle_deg": 70.90650799951439,
+      "length": 0.07157416210615643,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.710093896713615,
+    "angle_deg": 1.8087393224920654,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.88125,
+      0.5821596244131455
+    ],
+    "regions": [
+      {
+        "cx": 0.8717619091580502,
+        "cy": 0.5867171517534553,
+        "x": 0.825,
+        "y": 0.5046948356807511,
+        "w": 0.0953125,
+        "h": 0.17136150234741784,
+        "area_frac": 0.012415639671361502
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8824580419972108,
+    "vertical_axis_x": 0.4375,
+    "horizontal": 0.8051375307982682,
+    "horizontal_axis_y": 0.4625
+  },
+  "subject_anchor": {
+    "x": 0.88125,
+    "y": 0.5821596244131455,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.28360285167796895,
+    "phi": 0.10348182235659178,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.71,
+      "angle": 1.8,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.438,
+      "confidence": 0.88,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.881,
+      "y": 0.582,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

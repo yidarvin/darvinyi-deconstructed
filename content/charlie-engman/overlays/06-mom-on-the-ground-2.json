@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-mom-on-the-ground-2.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.71, "angle": 1.8, "label": "floor contact" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "folded body balance" },
+    { "type": "subject_anchor", "x": 0.881, "y": 0.582, "r": 0.035, "label": "face" }
+  ],
+  "notes": "The near-empty studio field makes the curled figure and sideways gaze unusually forceful."
+}

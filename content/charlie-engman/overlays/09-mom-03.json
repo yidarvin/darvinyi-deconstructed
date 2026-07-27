@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-mom-03.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.844, "angle": 0, "label": "curb line" },
+    { "type": "frame_in_frame", "x": 0.44, "y": 0.25, "w": 0.22, "h": 0.41, "label": "double-sided billboard" },
+    { "type": "polyline", "points": [[0.12, 0.11], [0.51, 0.1], [0.88, 0.11]], "label": "factory roofline" }
+  ],
+  "notes": "A narrow double-sided sign splits the façade while its two portraits refuse one stable viewing position."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-available-material.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.34, "angle": 0, "label": "market horizon" },
+    { "type": "subject_anchor", "x": 0.085, "y": 0.444, "r": 0.035, "label": "foreground bundle" },
+    { "type": "frame_in_frame", "x": 0.09, "y": 0.35, "w": 0.62, "h": 0.39, "label": "windshield field" }
+  ],
+  "notes": "The cropped foreground bundle and the windshield make the carrier's body read through overlapping transport frames."
+}

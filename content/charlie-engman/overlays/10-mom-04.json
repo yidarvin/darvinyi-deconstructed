@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-mom-04.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.135, "angle": -0.8, "label": "factory roofline" },
+    { "type": "frame_in_frame", "x": 0.49, "y": 0.22, "w": 0.47, "h": 0.39, "label": "billboard portrait" },
+    { "type": "polyline", "points": [[0.02, 0.84], [0.34, 0.7], [0.55, 0.68]], "label": "street recession" }
+  ],
+  "notes": "The wide roadside view makes the curled body a contained image within a deep urban recession."
+}

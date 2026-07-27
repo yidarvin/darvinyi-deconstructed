@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-algorithmic-altruism.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.437, "angle": 6.1, "label": "waterline" },
+    { "type": "vanishing_point", "x": 0.44, "y": 0.578, "label": "boat convergence" },
+    { "type": "subject_anchor", "x": 0.398, "y": 0.444, "r": 0.035, "label": "reflected figure" },
+    { "type": "polyline", "points": [[0.06, 0.32], [0.34, 0.48], [0.47, 0.73]], "label": "foil-to-boat turn" }
+  ],
+  "notes": "A reflective interruption at left bends the boat's forward movement back into the frame."
+}

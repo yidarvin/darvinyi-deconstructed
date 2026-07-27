@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-extended-producer-responsibility.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.248, "angle": 0, "label": "textile threshold" },
+    { "type": "vanishing_point", "x": 0.509, "y": 0.424, "label": "fold convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "seated balance" },
+    { "type": "frame_in_frame", "x": 0.32, "y": 0.1, "w": 0.38, "h": 0.59, "label": "figure and goods" }
+  ],
+  "notes": "Writing, cloth, and merchandise turn a seated portrait into a shallow, distributed field."
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-available-material.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "3ba6fca8",
+    "source": "01-available-material.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-algorithmic-altruism.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "2bb8e60e",
+    "source": "02-algorithmic-altruism.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-extended-producer-responsibility.jpg",
+    "width": 1200,
+    "height": 937,
+    "sha1": "ff1de878",
+    "source": "03-extended-producer-responsibility.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-kantamanto-registry.jpg",
+    "width": 1200,
+    "height": 830,
+    "sha1": "0bff6584",
+    "source": "04-kantamanto-registry.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-projection-mapping.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "ade27a77",
+    "source": "05-projection-mapping.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-mom-on-the-ground-2.jpg",
+    "width": 640,
+    "height": 426,
+    "sha1": "3af6a0cc",
+    "source": "06-mom-on-the-ground-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-mom-01.jpg",
+    "width": 435,
+    "height": 640,
+    "sha1": "a63975d2",
+    "source": "07-mom-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-mom-02.jpg",
+    "width": 640,
+    "height": 426,
+    "sha1": "afe87618",
+    "source": "08-mom-02.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-mom-03.jpg",
+    "width": 640,
+    "height": 423,
+    "sha1": "d4dde961",
+    "source": "09-mom-03.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-mom-04.jpg",
+    "width": 640,
+    "height": 456,
+    "sha1": "549c8d7b",
+    "source": "10-mom-04.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-mom-05.jpg",
+    "width": 640,
+    "height": 484,
+    "sha1": "7d10967b",
+    "source": "11-mom-05.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-mom-with-plum.jpg",
+    "width": 426,
+    "height": 640,
+    "sha1": "f4652986",
+    "source": "12-mom-with-plum.jpg",
+    "exif": {}
+  }
+]
