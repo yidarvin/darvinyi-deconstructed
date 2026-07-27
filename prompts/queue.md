@@ -188,7 +188,7 @@ real queue and state live in data/registry.json.
 | 177 | nadine-ijewere            | Nadine Ijewere               | DONE    |
 | 178 | campbell-addy             | Campbell Addy                | DONE    |
 | 179 | namsa-leuba               | Namsa Leuba                  | DONE    |
-| 180 | juno-calypso              | Juno Calypso                 | PENDING |
+| 180 | juno-calypso              | Juno Calypso                 | DONE    |
 | 181 | signe-pierce              | Signe Pierce                 | PENDING |
 | 182 | charlie-engman            | Charlie Engman               | PENDING |
 | 183 | sofia-crespo              | Sofia Crespo                 | PENDING |
