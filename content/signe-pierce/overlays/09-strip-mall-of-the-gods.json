@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-strip-mall-of-the-gods.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.336, "angle": 0.0, "label": "laundromat sign band" },
+    { "type": "vanishing_point", "x": 0.516, "y": 0.651, "label": "parking-lot convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.538, "label": "statuary balance" }
+  ],
+  "notes": "Statuary becomes a foreground proscenium around the commercial sign and receding asphalt."
+}

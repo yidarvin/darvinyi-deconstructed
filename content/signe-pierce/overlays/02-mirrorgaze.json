@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-mirrorgaze.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.344,0.192],[0.915,0.652]], "arrow": true, "label": "windshield edge" },
+    { "type": "frame_in_frame", "x": 0.591, "y": 0.720, "w": 0.302, "h": 0.181, "label": "car mirror" },
+    { "type": "ellipse", "cx": 0.742, "cy": 0.809, "rx": 0.068, "ry": 0.067, "label": "reflected face" }
+  ],
+  "notes": "The car mirror creates a small portrait aperture inside an aggressively diagonal vehicle frame."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-3am-donut-shop.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.545, "angle": 0.0, "label": "counter and sign band" },
+    { "type": "leading_line", "points": [[0.277,0.688],[0.846,0.998]], "arrow": true, "label": "table edge" },
+    { "type": "polyline", "points": [[0.020,0.230],[0.351,0.230],[0.694,0.192],[0.982,0.177]], "label": "neon sign run" }
+  ],
+  "notes": "Tables recede toward a continuous neon band, making the shop both empty and insistently staged."
+}

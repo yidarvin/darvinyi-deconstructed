@@ -1,0 +1,136 @@
+[
+  {
+    "file": "01-cheap-thrills.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "51b741ad",
+    "source": "01-cheap-thrills.jpg",
+    "exif": {
+      "DateTimeOriginal": "2014:12:15 11:05:32"
+    }
+  },
+  {
+    "file": "02-mirrorgaze.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "57bb942b",
+    "source": "02-mirrorgaze.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-3am-donut-shop.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "bfbc5423",
+    "source": "03-3am-donut-shop.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-chinese-takeout-ii.jpg",
+    "width": 1600,
+    "height": 1200,
+    "sha1": "d0e415f9",
+    "source": "04-chinese-takeout-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-column-rail.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "8d8cc913",
+    "source": "05-column-rail.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 7D",
+      "DateTimeOriginal": "2016:09:25 14:45:32",
+      "FocalLength": "44.0",
+      "ExposureTime": "0.07692307692307693",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "1000",
+      "LensModel": "EF-S18-135mm f/3.5-5.6 IS"
+    }
+  },
+  {
+    "file": "06-heightened-realism.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "b00cdcc5",
+    "source": "06-heightened-realism.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-hyperspace.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "b445e534",
+    "source": "07-hyperspace.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 5s",
+      "DateTimeOriginal": "2015:04:07 18:21:01",
+      "FocalLength": "4.12",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "2.2",
+      "ISOSpeedRatings": "40",
+      "LensModel": "iPhone 5s back camera 4.12mm f/2.2"
+    }
+  },
+  {
+    "file": "08-kawasaki-angel.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "599c897c",
+    "source": "08-kawasaki-angel.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-strip-mall-of-the-gods.jpg",
+    "width": 1140,
+    "height": 1520,
+    "sha1": "e79ba4be",
+    "source": "09-strip-mall-of-the-gods.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 6s",
+      "DateTimeOriginal": "2016:01:17 20:54:10",
+      "FocalLength": "4.15",
+      "ExposureTime": "0.05",
+      "FNumber": "2.2",
+      "ISOSpeedRatings": "200",
+      "LensModel": "iPhone 6s back camera 4.15mm f/2.2"
+    }
+  },
+  {
+    "file": "10-neon-snow-i.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "470203c0",
+    "source": "10-neon-snow-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-neon-palm.jpg",
+    "width": 1199,
+    "height": 1600,
+    "sha1": "c0d1cc88",
+    "source": "11-neon-palm.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 5s",
+      "DateTimeOriginal": "2015:04:26 00:11:36",
+      "FocalLength": "4.12",
+      "ExposureTime": "0.05",
+      "FNumber": "2.2",
+      "ISOSpeedRatings": "320",
+      "LensModel": "iPhone 5s back camera 4.12mm f/2.2"
+    }
+  },
+  {
+    "file": "12-self-parallaxxx.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "6d5ab7d0",
+    "source": "12-self-parallaxxx.jpg",
+    "exif": {}
+  }
+]

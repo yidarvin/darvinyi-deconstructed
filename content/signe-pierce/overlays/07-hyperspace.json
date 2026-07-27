@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-hyperspace.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.680, "angle": 0.0, "label": "lower tile edge" },
+    { "type": "leading_line", "points": [[0.288,0.002],[0.736,0.433]], "arrow": false, "label": "ceiling seam" },
+    { "type": "polyline", "points": [[0.603,0.474],[0.993,0.445]], "label": "upper fluorescent tube" },
+    { "type": "polyline", "points": [[0.632,0.515],[0.999,0.487]], "label": "lower fluorescent tube" }
+  ],
+  "notes": "Tilted ceiling panels and parallel fluorescent tubes convert a tiled corner into a chromatic diagram."
+}

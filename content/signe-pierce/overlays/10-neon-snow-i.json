@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-neon-snow-i.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.084, "angle": -1.1, "label": "dark snow boundary" },
+    { "type": "subject_anchor", "x": 0.135, "y": 0.069, "r": 0.035, "label": "bright snow ridge" },
+    { "type": "polyline", "points": [[0.038,0.705],[0.331,0.600],[0.515,0.460],[0.784,0.363]], "label": "cyan melt channel" }
+  ],
+  "notes": "Pinks, cyan melt channels, and granular snow suppress ordinary scale into an all-over luminous surface."
+}

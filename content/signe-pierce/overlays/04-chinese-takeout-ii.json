@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-chinese-takeout-ii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.678, "angle": 0.0, "label": "mural base" },
+    { "type": "frame_in_frame", "x": 0.350, "y": 0.152, "w": 0.585, "h": 0.473, "label": "Great Wall mural" },
+    { "type": "polyline", "points": [[0.414,0.365],[0.553,0.381],[0.687,0.345],[0.839,0.409]], "label": "painted wall path" }
+  ],
+  "notes": "A panoramic mural supplies a second landscape above the dining room's quiet seating rhythm."
+}

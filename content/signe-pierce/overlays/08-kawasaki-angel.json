@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-kawasaki-angel.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.077, "y": 0.687, "label": "mechanical convergence" },
+    { "type": "leading_line", "points": [[0.095,0.684],[0.535,0.213]], "arrow": true, "label": "handlebar run" },
+    { "type": "ellipse", "cx": 0.659, "cy": 0.654, "rx": 0.333, "ry": 0.256, "label": "blue fuel tank" }
+  ],
+  "notes": "The fuel tank is a large blue anchor while handlebars thrust the eye upward through the close mechanical view."
+}

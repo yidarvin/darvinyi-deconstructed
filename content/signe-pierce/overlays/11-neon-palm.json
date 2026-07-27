@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-neon-palm.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.354, "angle": 0.0, "label": "lamp edge" },
+    { "type": "polyline", "points": [[0.045,0.537],[0.333,0.605],[0.565,0.706],[0.756,0.820],[0.898,0.960]], "label": "palm spine" },
+    { "type": "ellipse", "cx": 0.211, "cy": 0.402, "rx": 0.202, "ry": 0.138, "label": "haloed lampshade" }
+  ],
+  "notes": "A silhouetted palm spine slices through the dotted pink field and a lamp's hard halo."
+}

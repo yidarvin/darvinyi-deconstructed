@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-self-parallaxxx.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.284, "angle": 0.0, "label": "upper monitor edge" },
+    { "type": "frame_in_frame", "x": 0.038, "y": 0.263, "w": 0.474, "h": 0.315, "label": "CRT screen" },
+    { "type": "frame_in_frame", "x": 0.055, "y": 0.737, "w": 0.451, "h": 0.194, "label": "reflected CRT" },
+    { "type": "subject_anchor", "x": 0.656, "y": 0.461, "r": 0.035, "label": "camera mount" }
+  ],
+  "notes": "Screens, reflection, flowers, and a camera make a dense apparatus of recursive looking."
+}

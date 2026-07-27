@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-column-rail.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.596,0.733],[0.746,0.588],[0.995,0.372]], "label": "black handrail" },
+    { "type": "ellipse", "cx": 0.673, "cy": 0.462, "rx": 0.128, "ry": 0.282, "label": "lit column" },
+    { "type": "polyline", "points": [[0.592,0.146],[0.603,0.425],[0.623,0.674]], "label": "column fluting" }
+  ],
+  "notes": "The dark handrail cuts through the column's vertical mass and turns the threshold into a collision of directions."
+}
