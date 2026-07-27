@@ -3,9 +3,8 @@
   "image": "03-kokos.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.49, "cy": 0.51, "rx": 0.22, "ry": 0.43, "label": "PROFILE FIGURE" },
-    { "type": "polyline", "points": [[0.48, 0.10], [0.43, 0.35], [0.49, 0.62], [0.56, 0.88]], "label": "PROFILE-TO-HIP CONTOUR" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.51, "rx": 0.22, "ry": 0.43, "label": "COSTUMED FIGURE" },
     { "type": "polyline", "points": [[0.23, 0.44], [0.34, 0.54], [0.43, 0.68]], "label": "BEADED SHOULDER RHYTHM" }
   ],
-  "notes": "A profile and layered adornment turn the body into a sequence of vertical contours."
+  "notes": "A compact costumed figure and hanging beadwork turn the body into a sequence of layered contours."
 }

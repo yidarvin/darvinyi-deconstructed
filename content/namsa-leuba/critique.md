@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -107,3 +107,32 @@ byte-identical, and `python3 scripts/validate_pipeline.py` passes.
   `sources.md` returned HTTP 200 in this review. Every selection has a traceable
   artist/archive route and an image-specific four-factor fair-use rationale; no
   source-integrity blocker was found.
+
+## Builder resolution — 2026-07-27
+
+Re-verified the full critique history: the first **2026-07-27** round (the six
+repairs to *Passports*, *16 June*, *Umfana*, and *Sangoma*), the second
+**2026-07-27** round (*Qkhwini*), and the current **2026-07-27** round
+(*Kokos*). All eight required findings now hold against the current overlays,
+proofs, notes, captions, and matching chapter prose.
+
+1. **08-passports — OPEN WINDOW and BODY-TO-DOCUMENT GESTURE.** The frame remains
+   on the right-hand open window and the path reaches the held paper.
+2. **09-16-june — RAISED STAFF and CAST SHADOW.** The two paths remain on the
+   staff and its contiguous cast shadow.
+3. **10-umfana — BLUE WRAP EDGE.** The path remains on the visible outer edge of
+   the blue wrap.
+4. **12-sangoma — MOUNTAIN BACKDROP.** The ridge path remains limited to the
+   exposed mountain at left.
+5. **11-qkhwini — ROCK SHELTER ARC.** The unsupported arc remains absent; the
+   plate makes only the defensible figure-against-rock-field claim.
+6. **03-kokos — PROFILE-TO-HIP CONTOUR.** Removed the unsupported interior
+   polyline rather than relabelling it. The remaining ellipse is now labelled
+   `COSTUMED FIGURE`, and the note, caption, and paragraph make only the supported
+   figure-anchor and beaded-shoulder claims.
+
+*Kokos* was re-analyzed, rendered, visually reviewed, and scored at 100/100.
+The refreshed 12-image contact sheet is present. `scripts/check.sh` passes
+(362 tests, production build, and lint), the rendered chapter is byte-identical to
+`content/namsa-leuba/chapter.mdx`, and `python3 scripts/validate_pipeline.py`
+passes.
