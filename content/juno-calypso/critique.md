@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -13,3 +13,7 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All 12 overlay specs pass the strict scorer at 100 and, on visual review, their three-to-four primitives trace the named visible structures. Credits, public artist-portfolio links, and per-image four-factor fair-use assessments are present; all twelve linked display files returned HTTP 200 during this review.
+
+## Builder resolution — 2026-07-27
+
+All five required source-note corrections have been applied and checked against the affected proof composites: 01 now describes the standing figure, cosmetic device, and blue tiled enclosure; 03 the central green-painted figure and pink mirrored bathroom; 05 the close masked reclining figure and pillow; 09 the empty sink, curtains, and painted window; and 11 the seated left-room figure and two-window view. No overlay geometry changed: all 12 current specs pass the strict scorer at 100. Re-verified prior critique rounds: 2026-07-27 (the only prior round in this file's history).

@@ -7,7 +7,7 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 ## Shortlist
 
 ### 01 — *Slendertone II* (2015)
-- **Why it matters:** The vertical frame turns a beauty device and reclining body into a closed circuit of pink upholstery, presenting cosmetic discipline as a tightly staged interior theatre.
+- **Why it matters:** The vertical frame holds a standing body wearing a cosmetic device inside a blue tiled bathroom, making the tiles, curtain, and floor geometry a tightly staged enclosure for cosmetic discipline.
 - **Source:** [Juno Calypso, *The Honeymoon*](https://www.junocalypso.com/honeymoon) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1483111417022-BIZ7IFFW9ED7B9JG6JTT/Slendertone_II_2015.jpg).
 - **Credit / copyright notice:** Juno Calypso, *Slendertone II*, 2015. The artist's portfolio supplies the title and date; no public licence is stated.
 - **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the vertical enclosure, staged body, and cosmetic apparatus. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 1400 × 2154px frame is needed to retain the figure-to-room relation. **Factor 4:** this credited web display copy links to the artist and cannot substitute for an exhibition print or licensed reproduction.
@@ -21,10 +21,10 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 - **File:** `raw/juno-calypso/02-the-honeymoon-suite.jpg` (2100 × 1400px)
 
 ### 03 — *A Dream In Green* (2015)
-- **Why it matters:** An acidic green room interrupts the series' dominant pink and makes surface, color cast, and the figure's small placement carry the psychological pressure.
+- **Why it matters:** A centrally dominant green-painted figure is multiplied by mirrors in a pink bathroom, making the contrast between body, reflection, and bath geometry carry the image's pressure.
 - **Source:** [Juno Calypso, *The Honeymoon*](https://www.junocalypso.com/honeymoon) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1483111269743-BTD0VB2YV2UV1I82O1S9/A_Dream_In_Green_2015.jpg).
 - **Credit / copyright notice:** Juno Calypso, *A Dream In Green*, 2015. The artist's portfolio supplies the title and date; no public licence is stated.
-- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the color field, shallow room, and peripheral figure. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1400px image is required to read the green enclosure. **Factor 4:** this credited portfolio copy is record-linked and non-substitutive of the artwork or a licensed reproduction.
+- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the central green-painted figure, its mirror repetitions, and the pink bathroom's enclosing bath geometry. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1400px image is required to read the figure, reflections, and bath as one composition. **Factor 4:** this credited portfolio copy is record-linked and non-substitutive of the artwork or a licensed reproduction.
 - **File:** `raw/juno-calypso/03-a-dream-in-green.jpg` (2100 × 1400px)
 
 ### 04 — *The Champagne Suite* (2015)
@@ -35,10 +35,10 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 - **File:** `raw/juno-calypso/04-the-champagne-suite.jpg` (2100 × 1400px)
 
 ### 05 — *Eternal Beauty* (2015)
-- **Why it matters:** A facial treatment becomes a mask-like focal point inside a broad, artificial interior, collapsing the distinction between care ritual and horror tableau.
+- **Why it matters:** The close crop of a reclining masked figure and blue pillow makes the facial treatment a mask-like focal point, collapsing care ritual and horror tableau without relying on a surrounding interior.
 - **Source:** [Juno Calypso, *The Honeymoon*](https://www.junocalypso.com/honeymoon) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1483110925371-UINLTKU7F2K3KZW5A9XE/Eternal-Beauty-2015.jpg).
 - **Credit / copyright notice:** Juno Calypso, *Eternal Beauty*, 2015. The artist's portfolio supplies the title and date; no public licence is stated.
-- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the masked face, negative space, and cosmetic ritual. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1260px composition is needed to relate the small body to the surrounding décor. **Factor 4:** this credited portfolio image links to the artist and does not substitute for the original or a licensed file.
+- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the masked face, reclining body, pillow seam, and cosmetic ritual. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1260px close frame is needed to preserve the relation between mask, body, and pillow. **Factor 4:** this credited portfolio image links to the artist and does not substitute for the original or a licensed file.
 - **File:** `raw/juno-calypso/05-eternal-beauty.jpg` (2100 × 1260px)
 
 ### 06 — *Sensory Deprivation* (2016)
@@ -63,10 +63,10 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 - **File:** `raw/juno-calypso/08-subterranean-kitchen.jpg` (2100 × 1400px)
 
 ### 09 — *Tuesday In Eternity* (2018)
-- **Why it matters:** The controlled pastel environment and lone figure turn a routine domestic moment into a suspended tableau, with furniture and lighting serving as theatrical framing devices.
+- **Why it matters:** The empty sink, pink curtains, and painted pastoral window turn a domestic fixture into a theatrical tableau, making the room's promise of routine feel staged rather than lived.
 - **Source:** [Juno Calypso, *What To Do With A Million Years*](https://www.junocalypso.com/millionyears) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1541596168847-RPCNHR2RVOA5LJ29KX1S/Tuesday-In-Eternity-2018-72dpi.jpg).
 - **Credit / copyright notice:** Juno Calypso, *Tuesday In Eternity*, 2018. The artist's portfolio supplies the title and date; no public licence is stated.
-- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies staged duration, furniture framing, and the relation between figure and color field. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the full 2100 × 1575px frame is necessary to retain the spatial rhythm. **Factor 4:** this credited public display copy links to the artist and cannot substitute for an original print or licensed reproduction.
+- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the empty sink, curtained window, and the relation between the painted pastoral view and pink domestic fittings. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the full 2100 × 1575px frame is necessary to retain the spatial rhythm. **Factor 4:** this credited public display copy links to the artist and cannot substitute for an original print or licensed reproduction.
 - **File:** `raw/juno-calypso/09-tuesday-in-eternity.jpg` (2100 × 1575px)
 
 ### 10 — *A Clone Of Your Own* (2017)
@@ -77,10 +77,10 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 - **File:** `raw/juno-calypso/10-a-clone-of-your-own.jpg` (2100 × 1527px)
 
 ### 11 — *How Much Life Is Enough* (2018)
-- **Why it matters:** A suspended, carefully lit body plays against the bunker’s decorative scale, making mortality and luxury coexist within one deliberately airless frame.
+- **Why it matters:** A seated figure on the floor of the left room is set against a second, empty pink room, making the two-window view a deliberately watchful and airless display.
 - **Source:** [Juno Calypso, *What To Do With A Million Years*](https://www.junocalypso.com/millionyears) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1541596280771-WC6L9O4ILSV8F266ZX9Z/How-Much-Life-is-Enough-2018-72dpi.jpg).
 - **Credit / copyright notice:** Juno Calypso, *How Much Life Is Enough*, 2018. The artist's portfolio supplies the title and date; no public licence is stated.
-- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies suspended pose, light direction, and the room's theatrical scale. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1527px composition is necessary to evaluate the body's placement in the interior. **Factor 4:** this credited public display image links to the artist and cannot replace a print or licensed file.
+- **Rights / fair-use assessment:** **Factor 1:** transformative criticism studies the seated figure in the left room, the empty pink room at right, and the window divider that makes both scenes available at once. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the complete 2100 × 1527px composition is necessary to evaluate the body's placement within the two-window view. **Factor 4:** this credited public display image links to the artist and cannot replace a print or licensed file.
 - **File:** `raw/juno-calypso/11-how-much-life-is-enough.jpg` (2100 × 1527px)
 
 ### 12 — *Immortal Bodies* (2018)
