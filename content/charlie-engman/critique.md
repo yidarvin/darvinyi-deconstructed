@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -6,6 +6,13 @@ verdict: revise
 
 1. **`06-mom-on-the-ground-2` — remove or replace the `symmetry_axis` primitive and bring the accompanying sentence into the same truthful reading.** The teal vertical line at x0.438 is labelled “FOLDED BODY BALANCE,” but `symmetry_axis` asserts that the frame mirrors across that line. The visible curled pose is asymmetrical; the line passes through it without identifying a mirror structure. Use an appropriate subject/contour or balance claim instead, and revise the chapter's “near-vertical bodily balance” wording if necessary so it does not rely on an unsupported symmetry reading.
 2. **`11-mom-05` — redraw the `frame_in_frame` for “BILLBOARD PORTRAIT” to the actual billboard, or replace it with a truthful primitive.** The current bracket (`x: 0.47, y: 0.20, w: 0.39, h: 0.44`) encloses a broad section of factory façade and misses the lower portion of the sign. It therefore does not trace the internal billboard frame its label names.
+
+## Builder resolution — 2026-07-27
+
+1. `06-mom-on-the-ground-2`: replaced the unsupported vertical `symmetry_axis` with an `outstretched arm contour` polyline aligned to the visible arm, and revised the matching sentence in both chapter copies. The rendered proof is visually clean and scores 100/100.
+2. `11-mom-05`: redrew `BILLBOARD PORTRAIT` as the actual rounded sign (`x: 0.531`, `y: 0.382`, `w: 0.151`, `h: 0.354`), including its lower extent rather than the factory façade. The rendered proof is visually clean and scores 100/100.
+
+Re-verified prior critique rounds: 2026-07-27 (the complete critique history). Both required fixes hold; the chapter copies are byte-identical, and `scripts/check.sh` passed.
 
 ### Advisory (non-blocking)
 
