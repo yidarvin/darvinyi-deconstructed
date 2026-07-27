@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "seated figure axis" },
-    { "type": "ellipse", "cx": 0.53, "cy": 0.42, "rx": 0.12, "ry": 0.15, "label": "head and animal mask" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.38, "rx": 0.14, "ry": 0.19, "label": "head and animal mask" },
     { "type": "polyline", "points": [[0.27, 0.39], [0.41, 0.29], [0.51, 0.25]], "label": "raised left arm" },
     { "type": "polyline", "points": [[0.55, 0.25], [0.68, 0.32], [0.77, 0.42]], "label": "raised right arm" }
   ],

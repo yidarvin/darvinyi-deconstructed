@@ -47,12 +47,12 @@ Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-laws
 
 ### 04. *Nation* (2018)
 
-The collaged image makes a central reclining body, inserted historical fragments, and
-the surrounding room compete for attention, teaching how a portrait can become a
-layered, discontinuous frame.
+The collaged image sets two seated figures against a couch and an open doorway while
+inserted photographic fragments and wall objects interrupt the room, teaching how a
+portrait can become a layered, discontinuous frame.
 Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-lawson/featured-works?view=slider), [public display JPEG](https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/675c7754605ea781900ec16e/a389a4777fd69896294700b78b459c37.jpeg).
 
-**Use basis: fair-use.** Credit: Deana Lawson; 2018 pigment print, collaged photograph. Factor 1: transformative analysis of the body, inserted fragments, and competing room planes. Factor 2: creative authored photograph. Factor 3: the intact frame is required to analyze the collage's cross-frame links. Factor 4: the 1,800 × 1,492px credited display copy is web-sized, linked, and does not replace the work or a licensed reproduction.
+**Use basis: fair-use.** Credit: Deana Lawson; 2018 pigment print, collaged photograph. Factor 1: transformative analysis of the seated pair, doorway, inserted fragments, and competing room planes. Factor 2: creative authored photograph. Factor 3: the intact frame is required to relate the two figures, doorway, couch, and cross-frame collage links. Factor 4: the 1,800 × 1,492px credited display copy is web-sized, linked, and does not replace the work or a licensed reproduction.
 
 ### 05. *The Garden, Gemena, DR Congo* (2015)
 
@@ -64,19 +64,19 @@ Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-laws
 
 ### 06. *Cowboys* (2014)
 
-The posed group uses overlap, frontal gaze, and a shallow interior to make the social
-relation between sitters legible through compressed depth.
+Two riders on horses overlap in a near-black night field, making their pairings and
+partial third rider legible through the pressure of the frame rather than an interior.
 Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-lawson/featured-works?view=slider), [public display JPEG](https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/675c7754605ea781900ec16e/8bf379554a1c0130e1b7a7c9f5345164.jpeg).
 
-**Use basis: fair-use.** Credit: Deana Lawson; 2014 pigment print. Factor 1: transformative analysis of group overlap, gaze, and compressed interior depth. Factor 2: creative authored photograph. Factor 3: the whole frame is necessary to keep every sitter and room edge in the construction. Factor 4: the 1,800 × 1,450px credited display copy is web-sized, linked, and does not replace a print, sale, or licence.
+**Use basis: fair-use.** Credit: Deana Lawson; 2014 pigment print. Factor 1: transformative analysis of overlapping horse-and-rider groups and their isolation in the night field. Factor 2: creative authored photograph. Factor 3: the whole frame is necessary to retain both main pairings, the partial third rider, and the surrounding black field. Factor 4: the 1,800 × 1,450px credited display copy is web-sized, linked, and does not replace a print, sale, or licence.
 
 ### 07. *Hellshire Beach Towel with Flies, Portmore, Jamaica* (2013)
 
-The towel's bright pattern and the figure's placement turn a beach setting into a
-graphic field where texture, body, and horizon-like bands negotiate attention.
+The folded pink towel sits alone on a broad red surface, turning a small material
+object into a graphic field where texture, fold, and surrounding colour negotiate attention.
 Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-lawson/featured-works?view=slider), [public display JPEG](https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/675c7754605ea781900ec16e/541f81ba7c1dfa9a83d3db9171a99fa1.jpeg).
 
-**Use basis: fair-use.** Credit: Deana Lawson; 2013 pigment print. Factor 1: transformative analysis of patterned surface, body placement, and horizontal bands. Factor 2: creative authored photograph. Factor 3: the complete frame is needed to keep the towel and wider setting in relation. Factor 4: the 1,800 × 1,427px credited display copy is web-sized, linked, and non-substitutive.
+**Use basis: fair-use.** Credit: Deana Lawson; 2013 pigment print. Factor 1: transformative analysis of the isolated towel, its visible fold, and the red display field. Factor 2: creative authored photograph. Factor 3: the complete frame is needed to keep the small towel's scale and contour in relation to the broad red surround. Factor 4: the 1,800 × 1,427px credited display copy is web-sized, linked, and non-substitutive.
 
 ### 08. *As Above, So Below, Port-au-Prince, Haiti* (2013)
 
@@ -96,11 +96,11 @@ Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-laws
 
 ### 10. *Dirty South* (2010)
 
-The close domestic scene makes the viewer read the image through competing bodies,
-furnishings, and a shallow room, rather than through a single centered subject.
+The flash-lit car, its open door, and the driver break a large night field over a
+low, pale ground rather than resolving into a domestic room.
 Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-lawson/featured-works?view=slider), [public display JPEG](https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/675c7754605ea781900ec16e/f4306be64fa18120e5841afbfeb28c5a.jpeg).
 
-**Use basis: fair-use.** Credit: Deana Lawson; 2010 pigment print. Factor 1: transformative analysis of bodies, furnishings, and compressed domestic space. Factor 2: creative authored photograph. Factor 3: the full frame is needed to retain the competing spatial cues. Factor 4: the 1,800 × 1,467px credited display copy is web-sized, linked, and does not replace a print, sale, or licence.
+**Use basis: fair-use.** Credit: Deana Lawson; 2010 pigment print. Factor 1: transformative analysis of the car, open door, driver, and night-to-ground break. Factor 2: creative authored photograph. Factor 3: the full frame is needed to retain the car's oblique body, the open door, and the surrounding night and ground that establish its scale. Factor 4: the 1,800 × 1,467px credited display copy is web-sized, linked, and does not replace a print, sale, or licence.
 
 ### 11. *Sharon* (2007)
 

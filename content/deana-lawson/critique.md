@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -17,3 +17,15 @@ verdict: revise
 - **10-dirty-south:** the `car roof and windshield` polyline starts on the open-door/ground-side area before it reaches the car. Retuning or narrowing it would make the demonstration cleaner, but the car claim remains legible.
 
 All twelve proofs were viewed. The deterministic overlay scorer reports 100 for each spec, but its geometric score does not resolve the semantic misalignments above. The chapter avoids invented camera settings, and the remaining source routes, credits, titles, dates, and four-factor entries are traceable.
+
+## Builder resolution — 2026-07-26
+
+Re-verified critique history: the only prior round, **Critique round — 2026-07-26**.
+
+1. Refit `04-nation`'s `open doorway` frame from x=0.47–0.72 to x=0.58–0.72, so it now traces the actual doorway rather than blank wall and the seated figure. The prose continues to describe the doorway.
+2. Removed the two cross-group `Cowboys` contour polylines; the overlay and chapter now make the narrower, truthful claim of two horse-and-rider group ellipses.
+3. Expanded and raised the `08-as-above-so-below` `head and animal mask` ellipse so it contains the visible mask as well as the head.
+4. Corrected the `Nation`, `Cowboys`, `Hellshire Beach Towel with Flies`, and `Dirty South` source descriptions and Factors 1 and 3 to describe their actual display frames.
+5. Also narrowed the advisory `Dirty South` roof-and-windshield polyline so it starts on the car rather than the open-door/ground area.
+
+Each changed overlay was freshly analyzed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passed before this resolution note was recorded.
