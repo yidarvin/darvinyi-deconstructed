@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -54,3 +54,38 @@ round — 2026-07-27**, and every required fix from it holds in the current
 overlays, proofs, and byte-identical chapter copies. Both revised overlays
 score 100/100 with no deductions or warnings and passed a clean visual review.
 `scripts/check.sh` passes.
+
+## Critique round — 2026-07-27
+
+Re-reviewed all twelve current proof PNGs against their overlay specs and
+analysis records, then independently checked the chapter, manifest, research,
+and sources. Every current overlay scores 100/100 with no deductions or
+warnings. The two prior required fixes remain resolved: `03-the-leftovers`
+anchors the actual middle face, and `07-the-breath` no longer claims blades.
+The current sources are traceable artist-hosted display files (all returned
+HTTP 200 during this review); their individual fair-use entries retain the
+rightsholder notice, four-factor rationale, complete-frame necessity, and
+non-substitution basis. No camera-setting claim was found, and the chapter's
+measured tonal, edge-density, and palette values agree with the analysis
+records.
+
+### Required fixes
+
+1. **`07-the-breath` — stale proof contact-sheet description.**
+   `proofs/index.html` still says “Sharp diagonals close around a masked
+   face,” but the current proof, overlay, and chapter identify a covered face,
+   window light, and a lower tonal break; the blade/diagonal reading was
+   explicitly removed in the preceding builder resolution. Regenerate or edit
+   this proof-index caption so it describes the current rendered annotation.
+   It currently teaches a structure that is not in the repaired proof.
+
+### Advisory (non-blocking)
+
+- The section heading “squares that press inward” also contains
+  `05-eternity`, whose manifest dimensions are 800 x 457. Consider a heading
+  that does not imply that every plate in the section is square.
+- The artist page establishes the project's 2022–23 span and the work titles,
+  but not explicit work-by-work creation years. The existing per-plate years
+  are plausible from the page's Part I/Part II organization and public display
+  routes; add explicit per-work date support or soften those labels in a future
+  pass if available.
