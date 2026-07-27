@@ -4,7 +4,8 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "ellipse", "cx": 0.52, "cy": 0.75, "rx": 0.45, "ry": 0.18, "label": "five-head portrait row" },
-    { "type": "polyline", "points": [[0.035, 0.71], [0.16, 0.54], [0.36, 0.42], [0.57, 0.36], [0.78, 0.46], [0.96, 0.68]], "label": "drawn oval arc" }
+    { "type": "subject_anchor", "x": 0.615, "y": 0.773, "r": 0.055, "label": "portrait cluster focus" },
+    { "type": "polyline", "points": [[0.02, 0.70], [0.09, 0.63], [0.17, 0.57], [0.27, 0.51], [0.39, 0.47], [0.50, 0.45], [0.61, 0.47], [0.70, 0.50], [0.81, 0.57], [0.89, 0.64], [0.97, 0.72]], "label": "drawn oval arc" }
   ],
   "notes": "Five faces make a low portrait chorus under a visible drawn oval and editorial notes."
 }

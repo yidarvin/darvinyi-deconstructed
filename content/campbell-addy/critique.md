@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -69,3 +69,10 @@ verdict: revise
 - All twelve current overlays strict-score 100/100; the oval problem is semantic and interpretive, so the deterministic scorer does not detect its separation from the named hand-drawn feature.
 - The chapter’s measured luminance, percentiles, palette, edge-density, and symmetry values agree with the current analysis files within the stipulated tolerance. It states no unsupported camera-setting claim.
 - All twelve cited portfolio display-file routes returned public HTTP 200 responses during this review. Each entry retains a traceable credit and a concise image-specific four-factor fair-use rationale.
+
+## Resolution — 2026-07-27
+
+- Re-verified the full critique history: the initial 2026-07-27 critique and resolution, the subsequent 2026-07-27 critique and resolution, and the current 2026-07-27 round. The 09 unsupported `RECLINING BODY SWEEP` remains absent; 08's `JERSEY COLLAR ARC` remains on the literal collar; and the corrected 01, 03, 07, 08, 09, 10, and 12 source descriptions still match their credited frames.
+- Re-analyzed 10 and redrew `DRAWN OVAL ARC` point by point on the visible black oval, including its lower left and right returns. Added a measured `PORTRAIT CLUSTER FOCUS` anchor so the overlay now carries three distinct, truthful claims: the five-head row, its focal cluster, and the drawn oval.
+- Re-rendered and visually checked the 10 proof. Its strict composition score is 100/100; the chapter's statement that the overlay follows the visible oval remains true.
+- Reconfirmed both chapter copies are byte-identical and ran `scripts/check.sh` successfully.
