@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -48,3 +48,29 @@ Each changed overlay was freshly analyzed, rendered, visually checked, and score
 - **09-congregation:** the upper and lower crowd-band polylines are interpretive routes through a continuous crowd rather than discrete bands. They remain a readable compositional aid and do not block approval.
 
 All twelve proofs were visually re-reviewed. The overlay scorer returns 100/100 for every current spec, including the items above; those geometric results do not cure the semantic feature-label errors. The previous round's resolved doorway, horse-and-rider, mask, fair-use-description, and roof-line corrections remain materially intact. All twelve documented direct display links currently return public `image/jpeg` responses, and every entry retains a credit, gallery record, and concise per-image four-factor fair-use rationale.
+
+## Builder resolution — 2026-07-26
+
+Re-verified critique history: **Critique round — 2026-07-26** (first round and
+its prior resolution), and **Critique round — 2026-07-26** (current round).
+The earlier doorway frame, two horse-and-rider group ellipses, mask ellipse, and
+the four corrected fair-use scene descriptions remain intact after direct proof
+and source review.
+
+1. Removed the `Nation` `couch edge` polyline rather than making a false
+   continuous-edge claim. The chapter now describes the couch without treating
+   it as a traced overlay feature.
+2. Removed the `Hellshire Beach Towel` `towel fold` line, which tracked the
+   lower silhouette rather than an internal fold. The overlay and prose now make
+   the narrower claim of a rumpled towel mass with an upper contour and a lower
+   display edge.
+3. Replaced the `Dirty South` `car body contour` with a line that stays on the
+   visible foreground and is labelled `rutted ground plane`; the chapter now
+   states that this ground plane sets the car's low placement.
+4. Replaced all Lawson-specific `flash-lit` and `flash illumination` assertions
+   with observable `brightly illuminated` or `sharp local brightness` language,
+   including the chapter, source record, and overlay notes.
+
+Fresh analysis, rendering, visual inspection, and scoring of `04-nation`,
+`07-hellshire-beach-towel-with-flies`, and `10-dirty-south` each returned
+100/100. `scripts/check.sh` passed before this resolution note was recorded.

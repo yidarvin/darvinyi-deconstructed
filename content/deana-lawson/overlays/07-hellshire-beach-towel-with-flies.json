@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.901, "angle": 2.0, "label": "lower display edge" },
     { "type": "polyline", "points": [[0.11, 0.62], [0.45, 0.54], [0.80, 0.58]], "label": "towel's upper contour" },
-    { "type": "polyline", "points": [[0.25, 0.71], [0.52, 0.82], [0.76, 0.72]], "label": "towel fold" },
     { "type": "ellipse", "cx": 0.51, "cy": 0.66, "rx": 0.28, "ry": 0.15, "label": "pink towel mass" }
   ],
-  "notes": "A pink towel becomes the isolated, folded center of a red field."
+  "notes": "A pink towel becomes the isolated, rumpled center of a red field."
 }

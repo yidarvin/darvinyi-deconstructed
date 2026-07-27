@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "frame_in_frame", "x": 0.58, "y": 0.04, "w": 0.14, "h": 0.48, "label": "open doorway" },
     { "type": "ellipse", "cx": 0.23, "cy": 0.61, "rx": 0.12, "ry": 0.17, "label": "left seated figure" },
-    { "type": "ellipse", "cx": 0.58, "cy": 0.60, "rx": 0.14, "ry": 0.20, "label": "right seated figure" },
-    { "type": "polyline", "points": [[0.05, 0.70], [0.39, 0.64], [0.72, 0.71]], "label": "couch edge" }
+    { "type": "ellipse", "cx": 0.58, "cy": 0.60, "rx": 0.14, "ry": 0.20, "label": "right seated figure" }
   ],
-  "notes": "A doorway and couch divide a crowded domestic scene into competing image planes."
+  "notes": "A doorway and seated figures divide a crowded domestic scene into competing image planes."
 }

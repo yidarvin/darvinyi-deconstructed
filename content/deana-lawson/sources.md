@@ -72,11 +72,11 @@ Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-laws
 
 ### 07. *Hellshire Beach Towel with Flies, Portmore, Jamaica* (2013)
 
-The folded pink towel sits alone on a broad red surface, turning a small material
-object into a graphic field where texture, fold, and surrounding colour negotiate attention.
+The rumpled pink towel sits alone on a broad red surface, turning a small material
+object into a graphic field where texture and surrounding colour negotiate attention.
 Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-lawson/featured-works?view=slider), [public display JPEG](https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/675c7754605ea781900ec16e/541f81ba7c1dfa9a83d3db9171a99fa1.jpeg).
 
-**Use basis: fair-use.** Credit: Deana Lawson; 2013 pigment print. Factor 1: transformative analysis of the isolated towel, its visible fold, and the red display field. Factor 2: creative authored photograph. Factor 3: the complete frame is needed to keep the small towel's scale and contour in relation to the broad red surround. Factor 4: the 1,800 × 1,427px credited display copy is web-sized, linked, and non-substitutive.
+**Use basis: fair-use.** Credit: Deana Lawson; 2013 pigment print. Factor 1: transformative analysis of the isolated towel, its rumpled surface, and the red display field. Factor 2: creative authored photograph. Factor 3: the complete frame is needed to keep the small towel's scale and contour in relation to the broad red surround. Factor 4: the 1,800 × 1,427px credited display copy is web-sized, linked, and non-substitutive.
 
 ### 08. *As Above, So Below, Port-au-Prince, Haiti* (2013)
 
@@ -96,7 +96,7 @@ Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-laws
 
 ### 10. *Dirty South* (2010)
 
-The flash-lit car, its open door, and the driver break a large night field over a
+The brightly illuminated car, its open door, and the driver break a large night field over a
 low, pale ground rather than resolving into a domestic room.
 Source: [gallery record](https://www.davidkordanskygallery.com/artist/deana-lawson/featured-works?view=slider), [public display JPEG](https://static-assets.artlogic.net/w_1800,h_1800,c_limit/exhibit-e/675c7754605ea781900ec16e/f4306be64fa18120e5841afbfeb28c5a.jpeg).
 
