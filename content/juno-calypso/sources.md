@@ -28,10 +28,10 @@ This chapter follows Calypso's two most consequential self-portrait bodies of wo
 - **File:** `raw/juno-calypso/03-a-dream-in-green.jpg` (2100 × 1400px)
 
 ### 04 — *The Champagne Suite* (2015)
-- **Why it matters:** Ornamental furniture and saturated color make the room's symmetry perform a canned version of luxury, leaving the solitary body as the destabilizing element.
+- **Why it matters:** A centered figure rises behind a reflecting basin in a dark mirrored chamber; pin lights and reflected surfaces make the room's symmetry perform a constrained version of luxury.
 - **Source:** [Juno Calypso, *The Honeymoon*](https://www.junocalypso.com/honeymoon) (public artist-portfolio display rendition: https://images.squarespace-cdn.com/content/v1/5866785b03596e24bbbf14f9/1483111240583-BAGJ39DH87S2YBLOJOZ4/The_Champagne_Suite_2015.jpg).
 - **Credit / copyright notice:** Juno Calypso, *The Champagne Suite*, 2015. The artist's portfolio supplies the title and date; no public licence is stated.
-- **Rights / fair-use assessment:** **Factor 1:** transformative teaching examines interior symmetry, decorative rhythm, and an isolated figure. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the full 2100 × 1400px view is needed to retain the suite's deliberately totalizing décor. **Factor 4:** this credited public display rendition links to the artist and cannot replace a print or licensed reproduction.
+- **Rights / fair-use assessment:** **Factor 1:** transformative teaching examines the centered figure, reflecting basin, pin-light rhythm, and mirrored chamber. **Factor 2:** a creative contemporary self-portrait. **Factor 3:** the full 2100 × 1400px view is needed to retain the relation among the figure, basin, and enclosing mirrored architecture. **Factor 4:** this credited public display rendition links to the artist and cannot replace a print or licensed reproduction.
 - **File:** `raw/juno-calypso/04-the-champagne-suite.jpg` (2100 × 1400px)
 
 ### 05 — *Eternal Beauty* (2015)
