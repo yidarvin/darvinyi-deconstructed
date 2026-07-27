@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "02-the-deal.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.369, "angle": 0, "label": "SHOULDER-TO-OBJECT BAND" },
+    { "type": "polyline", "points": [[0.385, 0.14], [0.52, 0.34], [0.56, 0.49], [0.72, 0.37]], "label": "MAN, OBJECT, OFFERING" }
+  ],
+  "notes": "The long frame spaces a held object between a fixed figure and an entering hand."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-the-memory.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.691, "angle": 0, "label": "FOLDED-ARM BASE" },
+    { "type": "vanishing_point", "x": 0.402, "y": 0.367, "label": "FACE-AND-BLADE CROSSING" },
+    { "type": "leading_line", "points": [[0.182, 0.209], [0.544, 0.523]], "arrow": true, "label": "LOWER BLADE" },
+    { "type": "leading_line", "points": [[0.604, 0.443], [0.81, 0.039]], "arrow": true, "label": "UPPER BLADE" }
+  ],
+  "notes": "Crossing blades make the guarded portrait read as a dense X against a near-black ground."
+}

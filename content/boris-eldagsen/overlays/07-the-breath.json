@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-the-breath.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.854, "angle": 0, "label": "LOWER SHADOW" },
+    { "type": "vanishing_point", "x": 0.609, "y": 0.311, "label": "FACE" },
+    { "type": "leading_line", "points": [[0.395, 0.099], [0.761, 0.465]], "arrow": true, "label": "BLADE EDGE" },
+    { "type": "leading_line", "points": [[0.301, 0.544], [0.624, 0.221]], "arrow": true, "label": "SHORT BLADE" }
+  ],
+  "notes": "A pair of sharp diagonals closes around the face and turns the square into a compact threat."
+}

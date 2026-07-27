@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-the-confession.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.774, "angle": 0, "label": "DRESS BASE" },
+    { "type": "vanishing_point", "x": 0.44, "y": 0.539, "label": "CLOTH'S OPENING" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.258, "r": 0.035, "label": "BOWED FACE" },
+    { "type": "leading_line", "points": [[0.225, 0.697], [0.554, 0.499]], "arrow": true, "label": "CORD DIAGONAL" }
+  ],
+  "notes": "A bowed face, torn cloth, and crossed arms pull the eye inward to a small dark rupture."
+}

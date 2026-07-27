@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-eternity.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.269, "angle": 0, "label": "DARK BACK WALL" },
+    { "type": "vanishing_point", "x": 0.437, "y": 0.604, "label": "BED'S OPEN CENTRE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "BED BALANCE" },
+    { "type": "subject_anchor", "x": 0.85, "y": 0.486, "r": 0.035, "label": "RIGHT FIGURE" }
+  ],
+  "notes": "The broad bed becomes a pale stage balanced between a left figure and a rightward masked body."
+}

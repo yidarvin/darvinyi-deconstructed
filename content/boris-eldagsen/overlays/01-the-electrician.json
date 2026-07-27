@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-the-electrician.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.649, "angle": 0, "label": "SHOULDER RELAY" },
+    { "type": "vanishing_point", "x": 0.383, "y": 0.604, "label": "DARK FIGURE'S GAZE FIELD" },
+    { "type": "subject_anchor", "x": 0.987, "y": 0.726, "r": 0.035, "label": "EDGE HAND" },
+    { "type": "leading_line", "points": [[0.484, 0.73], [0.72, 0.943]], "arrow": true, "label": "DRESS FOLD" }
+  ],
+  "notes": "A concealed figure, two hands, and the foreground drapery relay attention across a shallow portrait."
+}

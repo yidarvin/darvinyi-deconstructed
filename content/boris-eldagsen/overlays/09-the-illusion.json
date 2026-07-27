@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-the-illusion.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.57, "angle": 0, "label": "FLOOR AND CURTAIN BAND" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "GLOBE AXIS" },
+    { "type": "subject_anchor", "x": 0.741, "y": 0.132, "r": 0.035, "label": "BRIGHT GLOBE EDGE" },
+    { "type": "ellipse", "cx": 0.584, "cy": 0.447, "rx": 0.36, "ry": 0.39, "label": "WHITE SPHERE" }
+  ],
+  "notes": "A solitary figure confronts a luminous sphere whose scale overtakes the room."
+}

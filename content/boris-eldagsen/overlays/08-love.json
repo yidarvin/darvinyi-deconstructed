@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-love.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.717, "angle": 0, "label": "SEAT EDGE" },
+    { "type": "vanishing_point", "x": 0.556, "y": 0.169, "label": "FOREHEAD HIGHLIGHT" },
+    { "type": "subject_anchor", "x": 0.992, "y": 0.804, "r": 0.035, "label": "RIGHT SLEEVE" },
+    { "type": "polyline", "points": [[0.43, 0.27], [0.51, 0.46], [0.58, 0.66], [0.57, 0.86]], "label": "MASKED FIGURE" }
+  ],
+  "notes": "Window light, a covered face, and a bright central bib divide the seated portrait into competing surfaces."
+}

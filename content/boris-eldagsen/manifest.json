@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-the-electrician.jpg",
+    "width": 703,
+    "height": 1200,
+    "sha1": "19d0c841",
+    "source": "01-the-electrician.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-the-deal.jpg",
+    "width": 1600,
+    "height": 844,
+    "sha1": "b9b8a4de",
+    "source": "02-the-deal.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-the-leftovers.jpg",
+    "width": 1600,
+    "height": 948,
+    "sha1": "2859e355",
+    "source": "03-the-leftovers.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-the-connaisseur.jpg",
+    "width": 1200,
+    "height": 640,
+    "sha1": "e2e7b07f",
+    "source": "04-the-connaisseur.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-eternity.jpg",
+    "width": 800,
+    "height": 457,
+    "sha1": "33e3c1aa",
+    "source": "05-eternity.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-the-memory.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "03810215",
+    "source": "06-the-memory.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-breath.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "0f47768d",
+    "source": "07-the-breath.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-love.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "511bd84c",
+    "source": "08-love.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-the-illusion.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "ec8a171b",
+    "source": "09-the-illusion.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-the-confession.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "34a702e1",
+    "source": "10-the-confession.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-the-mask.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "08c2a3bb",
+    "source": "11-the-mask.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-the-torso.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "996bc646",
+    "source": "12-the-torso.jpg",
+    "exif": {}
+  }
+]
