@@ -86,8 +86,9 @@ git remote set-url --add --push origin ssh://gitea@<nas>:3030/yidarvin/<name>.gi
 - `src/styles/tokens.css` is the house style, in one place.
 - `scripts/` holds the tooling: `validate.py`, `prose_lint.py`, `new_chapter.py`,
   `mark.py`, `check.sh`, `sitemap.mjs`. `prose-lint.config.json` tunes the prose gate.
-- `.github/workflows/check.yml` runs `npm run check` on every push and pull request, so
-  the gate travels with every clone.
+- Hosted GitHub Actions checks are intentionally disabled to avoid duplicate builds and
+  failure notifications. The local Codex pipeline runs `scripts/check.sh` before every
+  stage transition and publication boundary.
 
 ## Making this the template on GitHub
 
