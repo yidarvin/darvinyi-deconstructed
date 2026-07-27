@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-27
 
@@ -107,3 +107,21 @@ verdict: resolved
 - Replaced 06’s chest-crossing sleeve path with separate literal left-sleeve-to-sphere and right-sleeve-reach paths. Re-analyzed, re-rendered, visually checked, and strict-scored the revised proof at 100/100.
 - Corrected Bukayo Saka’s displayed and source-record date to 2022, citing TIME’s 13 October 2022 feature and the cover’s 24/31 October 2022 issue date; re-rendered and revalidated the plate artefact.
 - Reconfirmed all twelve current overlay specs strict-score 100/100, both chapter copies are byte-identical, and `scripts/check.sh` passes.
+
+## Critique round — 2026-07-27
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **08-bukayo-saka-time-2023:** `COVER IMAGE FIELD` still lightly overlaps the small top-left cover type while correctly tracing the white image field.
+- **11-i-heart-campbell-04-2023:** the `PAIRED FIGURES` and `LEAF CANOPY` labels meet near the upper-left of the figures; their ellipse and path remain truthful.
+- **12-meghan-the-cut-2018:** `MASTHEAD BASELINE` sits close to the masthead/hair transition, but continues to mark the visible lower masthead baseline within tolerance.
+
+### Review evidence
+
+- Looked afresh at all twelve current proof PNGs and compared every primitive with its overlay JSON, current analysis record, and the chapter prose. The prior resolutions for 03's group primitives, 06's sleeve paths, 08's collar arc and 2022 date, 09's removed body sweep, and 10's oval trace remain materially correct; none has regressed.
+- All twelve current overlays strict-score 100/100. The chapter's reported tonal values, palette values, edge density, and named axes agree with the analyzer records within the specified tolerance, and the chapter and research note explicitly decline to infer camera or production settings.
+- Every credited Squarespace portfolio display-file route returned HTTP 200 during this review. Each image retains a traceable artist-portfolio source, appropriate credit/context, and a concise per-image four-factor fair-use rationale.
