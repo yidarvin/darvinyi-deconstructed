@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -19,3 +19,15 @@ verdict: revise
 - All twelve current proof PNGs were visually checked against their overlay JSON and analysis records. The remaining overlay labels materially trace the visible structures, and every scored overlay currently reports 100/100 against its stored analysis.
 - The chapter’s reported luminance, edge-density, palette, and percentile values match the analysis JSON within the specified tolerance. It makes no unsupported camera-setting or production-process claims.
 - Each display URL in `sources.md` returned a public `200 image/jpeg` response, and every item includes an individual four-factor fair-use rationale. The blocking issues above are false per-image descriptive claims, not an objection to the documented fair-use basis.
+
+## Resolution — 2026-07-26
+
+Resolved every required item from critique round `b2d2493`:
+
+1. Corrected the *Untitled (Stilts II)* shortlist and fair-use description to four upright stilt figures under a broad sky.
+2. Corrected the *Tangled* shortlist and fair-use description to the two children, red balloon, and connecting strings.
+3. Replaced *Dragonfly*’s false horizontal `taut rope` with a single rising-rope polyline, retained the dragonfly’s body and wings as distinct annotations, rebuilt the proof, and corrected its source description and rationale.
+4. Corrected *Time for a New Sky* to a single figure holding cloth; also removed the nonliteral `cloth convergence` marker and rebuilt the proof.
+5. Corrected *The Fish* to the foreshortened human body in red shorts and removed the nonexistent animal claim from its source description and rationale.
+
+Re-verified the complete critique history (one prior round, `b2d2493`) against the current overlays, proofs, chapter, and sources. The current chapter was already accurate for every required item and remains byte-identical to `src/chapters/tyler-mitchell.mdx`.

@@ -7,9 +7,9 @@ This chapter uses twelve named works from Jack Shainman Gallery’s public exhib
 ## Shortlist
 
 ### 01 — *Untitled (Stilts II)* (2019)
-- **Why it matters:** A figure’s upturned body and red cloth set a lively diagonal against a wide band of blue sky and low outdoor horizon.
+- **Why it matters:** Four upright figures on stilts make a low field edge into a measured rhythm beneath a wide band of blue sky.
 - **Source:** https://jackshainman.com/exhibitions/tyler_mitchell (Jack Shainman Gallery; public display: https://jackshainman.com/uploads/11100111/1631289449751/TYM19.027_Untitled_Stilts_II_HR_copy-1600-xxx_q85.jpg)
-- **Use basis: fair-use.** **Factor 1:** transformative teaching studies the inverted figure and sky/ground division. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete frame is required to measure the body against the sky and horizon. **Factor 4:** this credited 1600 × 1292px display copy links to the gallery and cannot replace the 2019 wall work or a licensed file.
+- **Use basis: fair-use.** **Factor 1:** transformative teaching studies the four elevated figures and sky/ground division. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete frame is required to measure the figures against the sky and horizon. **Factor 4:** this credited 1600 × 1292px display copy links to the gallery and cannot replace the 2019 wall work or a licensed file.
 - **File:** `raw/tyler-mitchell/01-untitled-stilts-ii.jpg` (1600 × 1292px)
 
 ### 02 — *Untitled (Blue Boy)* (2021)
@@ -31,9 +31,9 @@ This chapter uses twelve named works from Jack Shainman Gallery’s public exhib
 - **File:** `raw/tyler-mitchell/04-vastness.jpg` (1600 × 403px)
 
 ### 05 — *Tangled* (2021)
-- **Why it matters:** Interlaced bodies and vegetation make touch, overlap, and near/far depth the picture’s structure.
+- **Why it matters:** Two separated children, a red balloon, and its strings make a visible connection across a domestic yard.
 - **Source:** https://jackshainman.com/exhibitions/tyler_mitchell (public display: https://jackshainman.com/uploads/11100111/1631289071245/TYM21.014_Tangled_HR_copy-1600-xxx_q85.jpg)
-- **Use basis: fair-use.** **Factor 1:** transformative teaching studies bodily overlap and layered outdoor texture. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete frame is needed to read the figures’ placement in the surrounding vegetation. **Factor 4:** the credited 1600 × 1290px display copy is a non-substitutive gallery reference.
+- **Use basis: fair-use.** **Factor 1:** transformative teaching studies the balloon, its strings, and the interval between the two children. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete frame is needed to read the children’s placement and the strings’ path across the yard. **Factor 4:** the credited 1600 × 1290px display copy is a non-substitutive gallery reference.
 - **File:** `raw/tyler-mitchell/05-tangled.jpg` (1600 × 1290px)
 
 ### 06 — *Wings* (2021)
@@ -49,13 +49,13 @@ This chapter uses twelve named works from Jack Shainman Gallery’s public exhib
 - **File:** `raw/tyler-mitchell/07-group-hang.jpg` (1600 × 1270px)
 
 ### 08 — *Dragonfly* (2021)
-- **Why it matters:** A tall portrait composition lets a figure and its surrounding field read as a poised, separate silhouette.
+- **Why it matters:** A dragonfly perched on a rising rope turns a nearly blank field into a precise study of balance and tension.
 - **Source:** https://jackshainman.com/exhibitions/tyler_mitchell (public display: https://jackshainman.com/uploads/11100111/1631288645679/TYM21.015_Dragonfly_HR_copy-1600-xxx_q85.jpg)
-- **Use basis: fair-use.** **Factor 1:** transformative teaching examines portrait containment, scale, and vertical negative space. **Factor 2:** creative contemporary photograph. **Factor 3:** the full frame is required to preserve the figure/field balance. **Factor 4:** the credited 1600 × 1993px display copy links to the gallery and does not replace a print or licensed file.
+- **Use basis: fair-use.** **Factor 1:** transformative teaching examines the dragonfly’s scale, the rising rope, and the surrounding open field. **Factor 2:** creative contemporary photograph. **Factor 3:** the full frame is required to preserve the insect/rope relationship and extensive negative space. **Factor 4:** the credited 1600 × 1993px display copy links to the gallery and does not replace a print or licensed file.
 - **File:** `raw/tyler-mitchell/08-dragonfly.jpg` (1600 × 1993px)
 
 ### 09 — *Time for a New Sky* (2020)
-- **Why it matters:** A spacious landscape gives sky and distance as much compositional agency as the figures below.
+- **Why it matters:** A spacious landscape gives sky and distance as much compositional agency as the single figure holding cloth above the roofline.
 - **Source:** https://jackshainman.com/exhibitions/tyler_mitchell (public display: https://jackshainman.com/uploads/11100111/1631288494903/TYM20.003_Time_New_Sky_HR_copy-1600-xxx_q85.jpg)
 - **Use basis: fair-use.** **Factor 1:** transformative teaching studies horizon, atmospheric space, and figure-to-landscape scale. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete frame is essential to the title-bearing sky/earth relation. **Factor 4:** this credited 1600 × 1285px gallery rendition is web-sized and non-substitutive.
 - **File:** `raw/tyler-mitchell/09-time-for-a-new-sky.jpg` (1600 × 1285px)
@@ -73,9 +73,9 @@ This chapter uses twelve named works from Jack Shainman Gallery’s public exhib
 - **File:** `raw/tyler-mitchell/11-tag-youre-it.jpg` (1600 × 1304px)
 
 ### 12 — *The Fish* (2021)
-- **Why it matters:** The tall composition concentrates a figure and an animal motif into a deliberately intimate vertical encounter.
+- **Why it matters:** The tall composition concentrates a foreshortened human body in red shorts into a deliberately intimate vertical encounter.
 - **Source:** https://jackshainman.com/exhibitions/tyler_mitchell (public display: https://jackshainman.com/uploads/11100111/1631288078375/TYM21.018_Fish_HR_copy-1600-xxx_q85.jpg)
-- **Use basis: fair-use.** **Factor 1:** transformative teaching examines vertical staging, gesture, and an animal/figure relationship. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete tall frame is needed to retain the work’s scale and encounter. **Factor 4:** the credited 1600 × 1987px public display rendition cannot replace the archival pigment print or a licensed reproduction.
+- **Use basis: fair-use.** **Factor 1:** transformative teaching examines vertical staging, gesture, and the body’s foreshortened relation to the surrounding field. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete tall frame is needed to retain the work’s scale and encounter. **Factor 4:** the credited 1600 × 1987px public display rendition cannot replace the archival pigment print or a licensed reproduction.
 - **File:** `raw/tyler-mitchell/12-the-fish.jpg` (1600 × 1987px)
 
 ## Research context
