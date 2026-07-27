@@ -184,7 +184,7 @@ real queue and state live in data/registry.json.
 | 173 | zanele-muholi             | Zanele Muholi                | DONE    |
 | 174 | deana-lawson              | Deana Lawson                 | DONE    |
 | 175 | viviane-sassen            | Viviane Sassen               | DONE    |
-| 176 | tyler-mitchell            | Tyler Mitchell               | PENDING |
+| 176 | tyler-mitchell            | Tyler Mitchell               | DONE    |
 | 177 | nadine-ijewere            | Nadine Ijewere               | PENDING |
 | 178 | campbell-addy             | Campbell Addy                | PENDING |
 | 179 | namsa-leuba               | Namsa Leuba                  | PENDING |
