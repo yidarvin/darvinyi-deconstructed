@@ -4,8 +4,8 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.53, "cy": 0.44, "rx": 0.13, "ry": 0.32, "label": "FIGURE ON STUMP" },
-    { "type": "frame_in_frame", "x": 0.66, "y": 0.25, "w": 0.23, "h": 0.27, "label": "OPEN WINDOW" },
-    { "type": "polyline", "points": [[0.50, 0.28], [0.48, 0.47], [0.55, 0.61]], "label": "BODY-TO-DOCUMENT GESTURE" }
+    { "type": "frame_in_frame", "x": 0.72, "y": 0.37, "w": 0.19, "h": 0.23, "label": "OPEN WINDOW" },
+    { "type": "polyline", "points": [[0.47, 0.28], [0.44, 0.34], [0.40, 0.40]], "label": "HAND TO HELD PAPER" }
   ],
   "notes": "A small elevated body, held document, and open window distribute attention across the yard."
 }

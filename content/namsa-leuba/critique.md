@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -20,3 +20,16 @@ verdict: revise
 - Looked at all twelve current proof PNGs and checked their paired specs and analyzer outputs.
 - Chapter tonal, palette, edge-density, grid, and retained per-file camera-metadata claims match the recorded analysis/manifest within the stated tolerance.
 - All twelve direct JPEG links and all four official project-page links in `sources.md` return HTTP 200. The sources identify the artist, route, and per-image four-factor fair-use rationale; no source-integrity blocker was found.
+
+## Builder resolution — 2026-07-27
+
+Re-verified critique history: the sole prior round, **2026-07-27**, and every one of its six required fixes.
+
+1. **08-passports — OPEN WINDOW.** Refit the frame to the visible right-hand open window (`x: 0.72–0.91`, `y: 0.37–0.60`).
+2. **08-passports — BODY-TO-DOCUMENT GESTURE.** Replaced the unsupported body-to-base path with `HAND TO HELD PAPER`, following the figure's left arm to the paper at its hand; revised the chapter to make the same narrow claim.
+3. **09-16-june — RAISED STAFF.** Repositioned the path on the near-vertical staff to the figure's right.
+4. **09-16-june — CAST SHADOW.** Repositioned the path on the contiguous shadow extending down and right across the pavement; revised the chapter accordingly.
+5. **10-umfana — BLUE WRAP EDGE.** Refit the path to the visible outer blue-wrap boundary.
+6. **12-sangoma — MOUNTAIN BACKDROP.** Replaced the foreground-crossing path with the short, visible exposed ridge at left; revised the chapter to state that limited claim.
+
+The four affected images were re-analyzed, rendered, and scored at 100/100; the refreshed proofs and the full 12-image contact sheet passed visual review. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass, and the rendered chapter remains byte-identical to `content/namsa-leuba/chapter.mdx`.

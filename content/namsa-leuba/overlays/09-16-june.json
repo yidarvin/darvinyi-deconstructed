@@ -4,8 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "ellipse", "cx": 0.48, "cy": 0.48, "rx": 0.14, "ry": 0.36, "label": "STILT-BORNE FIGURE" },
-    { "type": "polyline", "points": [[0.48, 0.15], [0.56, 0.31], [0.53, 0.55]], "label": "RAISED STAFF" },
-    { "type": "polyline", "points": [[0.10, 0.76], [0.44, 0.63], [0.74, 0.51]], "label": "CAST SHADOW" }
+    { "type": "polyline", "points": [[0.65, 0.10], [0.64, 0.22], [0.62, 0.34]], "label": "RAISED STAFF" },
+    { "type": "polyline", "points": [[0.58, 0.50], [0.65, 0.57], [0.74, 0.67]], "label": "CAST SHADOW" }
   ],
   "notes": "A towering figure and its long ground shadow make a staged action read across an open lot."
 }
