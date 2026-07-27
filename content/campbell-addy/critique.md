@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -76,3 +76,26 @@ verdict: resolved
 - Re-analyzed 10 and redrew `DRAWN OVAL ARC` point by point on the visible black oval, including its lower left and right returns. Added a measured `PORTRAIT CLUSTER FOCUS` anchor so the overlay now carries three distinct, truthful claims: the five-head row, its focal cluster, and the drawn oval.
 - Re-rendered and visually checked the 10 proof. Its strict composition score is 100/100; the chapter's statement that the overlay follows the visible oval remains true.
 - Reconfirmed both chapter copies are byte-identical and ran `scripts/check.sh` successfully.
+
+## Critique round — 2026-07-27
+
+### Required fixes
+
+1. **03-vogue-spain-hand-print — both interpretive paths make materially false tracing claims.** `UPPER PORTRAIT RHYTHM` drops to `(0.50, 0.39)`, on the central figure's lower neck/chest rather than an upper head or portrait contour, so it creates a V across the group instead of tracing the stated upper rhythm. `LINKED HANDS AND SHOULDERS` runs through the blond figure's neck and central torso toward the right figure's head/empty interval, missing the visibly joined hands and shoulder relation it names. Redraw each path on the named visible structure, or replace them with truthful, useful primitives; then render and visually verify the proof.
+
+2. **06-liya-kebede-vogue-italia-2023 — `OUTSTRETCHED RED SLEEVES` overclaims the feature it traces.** Its first segment `(0.33, 0.43)` → `(0.50, 0.32)` cuts from the left torso/arm area through the neck/chest rather than following the extended left sleeve, while the remainder only plausibly follows the right-side sleeve/wrap. Redraw it on the actual two-sleeve gesture or rename and reposition it to match the single feature shown; re-render and visually verify the proof.
+
+3. **08-bukayo-saka-time-2023 is incorrectly dated 2023.** The visible cover is dated `OCT. 24 / OCT. 31, 2022`, and TIME’s corresponding Next Generation Leaders feature is published 13 October 2022 and credits Campbell Addy. Correct the displayed plate label, `sources.md` title/context, and any other reader-facing date or descriptive record that presents this photograph as 2023. Preserve the traceable source route and rerender/revalidate any affected plate artefacts.
+
+### Advisory (non-blocking)
+
+- **08-bukayo-saka-time-2023:** `COVER IMAGE FIELD` slightly competes with the small top-left cover type; it still traces the image field correctly.
+- **11-i-heart-campbell-04-2023:** the `PAIRED FIGURES` and `LEAF CANOPY` labels overlap near the upper-left of the figures. The primitives themselves remain truthful.
+- **12-meghan-the-cut-2018:** `MASTHEAD BASELINE` sits close to the masthead/hair transition rather than crisply on the letter baseline, but remains within visual tolerance and does not alter the reading.
+
+### Review evidence
+
+- Looked afresh at all twelve current proof PNGs and compared every labelled primitive with its current spec and analyzer record. The previously resolved 09 body-sweep removal, 08 collar-arc correction, and 10 oval redraw remain materially correct and are not reopened.
+- All twelve current specs strict-score 100/100. The two blocking overlay issues are semantic paths, which the deterministic scorer cannot distinguish from the named photographic features.
+- All twelve direct portfolio display-file routes returned HTTP 200 in this review. Each entry retains a traceable artist-portfolio source and a concise per-image four-factor fair-use rationale. The remaining source blocker is the demonstrably false 2023 date for the Saka cover, not access or rights-route documentation.
+- The chapter’s measured luminance, percentile, palette, edge-density, and axis claims agree with the current analyzer records within tolerance. It continues to avoid unsupported camera, lighting, and print-setting claims.
