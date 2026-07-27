@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -13,3 +13,10 @@ verdict: revise
 - **09-strip-mall-of-the-gods — `symmetry_axis` is best read as a balance axis, not literal mirroring.** The label and chapter already make that distinction, and the measured vertical correlation supports its placement, so this does not block approval. Consider a primitive that avoids the schema's literal-symmetry implication if the renderer affords one.
 
 All twelve proofs were visually checked. Each spec has 3–4 primitives and scores 100/100 against its current analyzer JSON; the remaining overlay labels, chapter measurements, titles, credits, and camera-settings caveat are materially consistent with the visible rendered plates and gallery record.
+
+## Builder resolution — 2026-07-27
+
+1. Re-ran analysis, rendered a fresh proof, and visually checked `07-hyperspace`. The two fluorescent-tube polylines now follow the visible lower-right fixtures (upper: y0.607→0.536; lower: y0.640→0.572); the revised overlay scores 100/100.
+2. Corrected the 06 and 07 shortlist descriptions and all four-factor assessments in `sources.md`: 06 now identifies its clock, lit blinds, and foreground fronds; 07 now identifies its tiled ceiling, paired fluorescent tubes, and lower tile edge.
+
+Prior critique rounds re-verified: 2026-07-27 (the only recorded round). Both required fixes remain satisfied; the non-blocking balance-axis advisory for 09 was rechecked and left unchanged because the chapter already explicitly rejects a literal-symmetry reading.

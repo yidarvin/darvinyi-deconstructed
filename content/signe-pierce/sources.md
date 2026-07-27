@@ -37,15 +37,15 @@ This selection draws from Signe Pierce’s *Faux Realities* exhibition at Annka 
 - **File:** `raw/signe-pierce/05-column-rail.jpg` (1620 × 2160px)
 
 ### 06 — *Heightened Realism* (2016)
-- **Why it matters:** The ceiling’s square grid is tilted into a near-abstract field, while two fluorescent tubes turn a mundane tiled corner into a sharp chromatic diagram.
+- **Why it matters:** A wall clock, lit blinds, and foreground fronds layer an empty interior; the plant's curves make the room feel screened rather than neutral.
 - **Source:** https://www.annkakultys.com/exhibitions/faux-realities/ (Annka Kultys Gallery, work SPie010.16; public display file: https://www.annkakultys.com/wp-content/uploads/2015/03/Signe_Pierce_010_Designed_Dreams_61x61cm2017_web.jpg)
-- **Rights / fair-use assessment:** Signe Pierce, courtesy Annka Kultys Gallery; copyright not otherwise stated. **Factor 1:** transformative criticism analyzes frame tilt, grid structure, and line contrast. **Factor 2:** a creative contemporary C-type photograph. **Factor 3:** the complete square frame is needed to read the ceiling grid and fluorescent lines as a single orientation problem. **Factor 4:** this credited 2048 × 2048px public web copy is gallery-linked and cannot substitute for the editioned artwork or a licensed file.
+- **Rights / fair-use assessment:** Signe Pierce, courtesy Annka Kultys Gallery; copyright not otherwise stated. **Factor 1:** transformative criticism analyzes foreground occlusion, the clock, and the lit-blind rectangle as depth cues. **Factor 2:** a creative contemporary C-type photograph. **Factor 3:** the full square frame is needed to relate the foreground fronds to the clock and blinds in one layered interior. **Factor 4:** this credited 2048 × 2048px public web copy is gallery-linked and cannot substitute for the editioned artwork or a licensed file.
 - **File:** `raw/signe-pierce/06-heightened-realism.jpg` (2048 × 2048px)
 
 ### 07 — *Hyperspace (Beverly Hills)* (2017)
-- **Why it matters:** A houseplant fills the foreground in overlapping arcs while the clock and blinds recede into a cool, empty interior, staging depth without a human figure.
+- **Why it matters:** A tilted ceiling grid and two fluorescent tubes turn a tiled corner into a chromatic diagram, with a lower tile edge holding the field in place.
 - **Source:** https://www.annkakultys.com/exhibitions/faux-realities/ (Annka Kultys Gallery, work SPie012.17; public display file: https://www.annkakultys.com/wp-content/uploads/2015/03/Signe_Pierce_012_Hyperspace_61x45.5cm2017_web.jpg)
-- **Rights / fair-use assessment:** Signe Pierce, courtesy Annka Kultys Gallery; copyright not otherwise stated. **Factor 1:** transformative teaching examines foreground occlusion, empty space, and the counterpoint between organic curves and blinds. **Factor 2:** a creative contemporary C-type photograph. **Factor 3:** the entire vertical composition is needed to retain the plant, clock, and window relationship. **Factor 4:** this credited 1530 × 2040px public web copy links to the gallery and does not replace a print or licensed reproduction.
+- **Rights / fair-use assessment:** Signe Pierce, courtesy Annka Kultys Gallery; copyright not otherwise stated. **Factor 1:** transformative teaching analyzes the ceiling seam, tiled grid, and fluorescent tubes as directional structure. **Factor 2:** a creative contemporary C-type photograph. **Factor 3:** the complete vertical frame is needed to read the tilted ceiling, paired tubes, and lower tile edge as one orientation problem. **Factor 4:** this credited 1530 × 2040px public web copy links to the gallery and does not replace an editioned print or licensed reproduction.
 - **File:** `raw/signe-pierce/07-hyperspace.jpg` (1530 × 2040px)
 
 ### 08 — *Kawasaki Angel* (2017)
