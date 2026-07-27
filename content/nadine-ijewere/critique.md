@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -39,3 +39,27 @@ verdict: resolved
 
 Re-verified critique history: round dated 2026-07-26 (the only prior round).
 All required fixes from that round hold in the current source record and proof.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **03-akon-in-portland — correct the `fallen palm trunk` polyline.** The
+   fallen trunk visibly runs from the left frame edge to the seated figure, but
+   the current final segment continues from the figure to approximately
+   `(0.78, 0.54)`, across unrelated palm foliage/water. This makes the labelled
+   primitive claim a trunk where none is present. End the trunk line at the
+   seated figure (or relabel and trace the distinct feature actually intended),
+   then regenerate and recheck the proof.
+
+### Advisory (non-blocking)
+
+- The twelve current proofs were visually checked. Apart from image 03's
+  mislabeled extension, each three-primitive overlay remains a legible teaching
+  argument whose labels trace visible features.
+- Re-scoring the current specs against their analysis JSON yields 100/100 for
+  every image. The chapter's quoted tonal values and palette entries remain
+  within the stated tolerance, and no camera settings are asserted.
+- The source record remains traceable: the public Guardian gallery identifies
+  all twelve titles, dates, and Nadine Ijewere photo credits; every included
+  copyrighted image retains a concise four-factor fair-use rationale.
