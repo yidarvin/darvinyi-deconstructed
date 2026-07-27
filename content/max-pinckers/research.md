@@ -16,7 +16,7 @@ documentary/constructed tension. See [sources.md](sources.md).
 
 ## Method and era
 
-These are contemporary colour photographs made for project-based bodies of
+These are contemporary colour photographs presented in project-based bodies of
 work in 2014, 2015, and 2018. The documented method relevant to this chapter
 is the relation between social subject matter and cinematic-looking staging;
 the supplied frames make that relation visible through centred props, built

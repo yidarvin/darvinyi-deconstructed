@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -16,3 +16,14 @@ verdict: revise
 
 - `07-figure-in-street`: the `street focal point` anchor is on a distant building rather than the action in the road. The chapter makes clear that it is intended as a distant visual focal point, so this is not a false claim, but a more specific label would make that reading easier to teach.
 - `10-car-mirror`: the `rear-view mirror` frame extends modestly beyond the mirror at its right edge. It still clearly identifies the correct mirror; tighten it if convenient.
+
+## Builder resolution — 2026-07-26
+
+All required fixes from the 2026-07-26 critique round were re-verified against the current chapter, source notes, overlays, and rendered proofs.
+
+1. `06-papers-in-suburb` now labels the measured anchor as the raised paper cluster, which is the visible feature it marks; the unsupported symmetry claim was also removed and the paper path shortened to visible sheets.
+2. `11-subway-platform` now identifies the framed feature as the inter-train aperture, and the chapter uses the same accurate term.
+3. The `08` and `09` source records now use editorial descriptors and describe the visible single crouching figure and porch encounter respectively; their teaching rationales match the supplied frames.
+4. Every per-image fair-use assessment now explicitly records factor two: each is a published, creative contemporary photograph, which weighs against fair use.
+
+The advisory labels for `07-figure-in-street` and the `10-car-mirror` proof were also clarified. Fresh render/score passes for `06`, `07`, `10`, and `11` each scored 100/100, and the composite PNGs passed visual inspection. `scripts/check.sh` passed before this resolution was recorded.
