@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -78,3 +78,32 @@ artist/archive credit without asserting unverified rightsholdership.
 
 `scripts/check.sh` passes, the content and rendered chapter files are
 byte-identical, and `python3 scripts/validate_pipeline.py` passes.
+
+## Critique round — 2026-07-27
+
+### Required
+
+1. **03-kokos — PROFILE-TO-HIP CONTOUR.** The current polyline in
+   `overlays/03-kokos.json` (`[0.48, 0.10]` → `[0.43, 0.35]` →
+   `[0.49, 0.62]` → `[0.56, 0.88]`) travels through the dark hood and the
+   figure's interior. It does not trace the named profile-to-hip contour in the
+   current proof. Refit it to a visible contour or rename it to the actual
+   feature it follows; make the overlay notes and the matching *Kokos* paragraph
+   agree with that defensible claim.
+
+### Advisory (non-blocking)
+
+- None.
+
+### Checks completed
+
+- Looked at all twelve current proof PNGs with their paired overlays and analysis
+  JSON, including regression checks of every previously resolved required finding.
+  The seven earlier repairs remain materially correct.
+- The chapter's recorded tonal, palette, grid, edge-density, and per-file camera
+  metadata claims match the current analyses and manifest within the stated
+  tolerance.
+- All twelve direct image links and the four official project-page links in
+  `sources.md` returned HTTP 200 in this review. Every selection has a traceable
+  artist/archive route and an image-specific four-factor fair-use rationale; no
+  source-integrity blocker was found.
