@@ -181,7 +181,7 @@ real queue and state live in data/registry.json.
 | 170 | cristina-de-middel        | Cristina de Middel           | DONE    |
 | 171 | max-pinckers              | Max Pinckers                 | DONE    |
 | 172 | farah-al-qasimi           | Farah Al Qasimi              | DONE    |
-| 173 | zanele-muholi             | Zanele Muholi                | PENDING |
+| 173 | zanele-muholi             | Zanele Muholi                | DONE    |
 | 174 | deana-lawson              | Deana Lawson                 | PENDING |
 | 175 | viviane-sassen            | Viviane Sassen               | PENDING |
 | 176 | tyler-mitchell            | Tyler Mitchell               | PENDING |

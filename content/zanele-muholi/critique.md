@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -32,3 +32,25 @@ Re-verified critique history: the only prior critique round, dated 2026-07-26.
 All requirements from that round hold in the current overlays and byte-identical
 chapter copies. The three affected overlays were re-rendered, visually inspected,
 and re-scored at 100/100.
+
+## Critique round — 2026-07-26
+
+### Required
+
+None.
+
+All eleven proof PNGs were visually inspected against their current specs and
+analysis files. The repaired 01, 04, and 06 overlays do not reintroduce the
+previously removed `frame_in_frame` claims; their remaining camera, face,
+placket, head, and cast-shadow primitives trace visible features. The other
+eight overlays likewise make 2–3 specific, supportable compositional claims
+per image and score 100/100 against their current analysis. Chapter tonal
+statistics match the analyzer values within the stated tolerance, while the
+chapter and research note explicitly avoid undocumented camera settings.
+Sources.md supplies a direct collection source, credit/rightsholder statement,
+and a concise four-factor fair-use rationale for each display image; the seven
+Art Institute records were also checked against the public collection API.
+
+### Advisory (non-blocking)
+
+None.
