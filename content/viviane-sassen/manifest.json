@@ -1,0 +1,142 @@
+[
+  {
+    "file": "01-totem.jpg",
+    "width": 1200,
+    "height": 1500,
+    "sha1": "b8d8f2b3",
+    "source": "01-totem.jpg",
+    "exif": {
+      "Make": "Adobe Systems Inc.",
+      "Model": "Tiff File"
+    }
+  },
+  {
+    "file": "02-mirror-man.jpg",
+    "width": 1199,
+    "height": 1500,
+    "sha1": "ca1e23bd",
+    "source": "02-mirror-man.jpg",
+    "exif": {
+      "Make": "Adobe Systems Inc.",
+      "Model": "Tiff File"
+    }
+  },
+  {
+    "file": "03-dora-and-viola.jpg",
+    "width": 1201,
+    "height": 1500,
+    "sha1": "22a544a8",
+    "source": "03-dora-and-viola.jpg",
+    "exif": {
+      "Make": "Adobe Systems Inc.",
+      "Model": "Tiff File"
+    }
+  },
+  {
+    "file": "04-jf.jpg",
+    "width": 1600,
+    "height": 1282,
+    "sha1": "acfe96f7",
+    "source": "04-jf.jpg",
+    "exif": {
+      "Make": "Adobe Systems Inc.",
+      "Model": "Tiff File"
+    }
+  },
+  {
+    "file": "05-100-years.jpg",
+    "width": 1600,
+    "height": 1280,
+    "sha1": "d07b4628",
+    "source": "05-100-years.jpg",
+    "exif": {
+      "Make": "Adobe Systems Inc.",
+      "Model": "Tiff File"
+    }
+  },
+  {
+    "file": "06-testament.jpg",
+    "width": 1127,
+    "height": 1500,
+    "sha1": "e1ca2d40",
+    "source": "06-testament.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark II",
+      "DateTimeOriginal": "2011:05:25 16:16:21",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.004",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "07-axiom-g03.jpg",
+    "width": 1000,
+    "height": 1500,
+    "sha1": "331fda98",
+    "source": "07-axiom-g03.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2012:12:30 20:30:13",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.005",
+      "FNumber": "10.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "08-marte-01.jpg",
+    "width": 1000,
+    "height": 1500,
+    "sha1": "107b1a90",
+    "source": "08-marte-01.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2012:12:17 21:09:45",
+      "FocalLength": "27.0",
+      "ExposureTime": "0.01",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "09-mirari-2.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "01567fac",
+    "source": "09-mirari-2.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2012:02:18 04:05:39",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.005",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "10-almando-fuchsia.jpg",
+    "width": 1000,
+    "height": 1500,
+    "sha1": "2b8ffd51",
+    "source": "10-almando-fuchsia.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2012:02:20 03:15:27",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.008",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "125",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  }
+]

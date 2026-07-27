@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-mirror-man.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.505, "y": 0.0, "w": 0.118, "h": 1.0, "label": "mirror" },
+    { "type": "polyline", "points": [[0.62, 0.12], [0.62, 0.38], [0.62, 0.66], [0.62, 0.94]], "label": "reflective seam" },
+    { "type": "polyline", "points": [[0.39, 0.32], [0.47, 0.26], [0.54, 0.3], [0.62, 0.38]], "label": "yellow shirt shoulder" }
+  ],
+  "notes": "The narrow mirror divides the body into near and reflected planes while the yellow shirt crosses the seam."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-totem.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.505, "cy": 0.205, "rx": 0.275, "ry": 0.18, "label": "paired heads" },
+    { "type": "polyline", "points": [[0.205, 0.335], [0.34, 0.435], [0.5, 0.61], [0.625, 0.89]], "label": "near arm" },
+    { "type": "polyline", "points": [[0.79, 0.335], [0.72, 0.49], [0.83, 0.67], [0.97, 0.81]], "label": "far arm" }
+  ],
+  "notes": "A paired head mass and two arms make the tightly cropped portrait read as one compact, asymmetrical body."
+}

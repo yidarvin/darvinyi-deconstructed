@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-testament.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.31, "rx": 0.17, "ry": 0.17, "label": "shadowed face" },
+    { "type": "polyline", "points": [[0.26, 0.68], [0.42, 0.65], [0.56, 0.66], [0.72, 0.69]], "label": "burning paper" },
+    { "type": "polyline", "points": [[0.48, 0.64], [0.53, 0.58], [0.51, 0.52], [0.55, 0.47]], "label": "flame" }
+  ],
+  "notes": "A small flame breaks the portrait's darkness, joining a shadowed face to the paper held at the lower threshold."
+}

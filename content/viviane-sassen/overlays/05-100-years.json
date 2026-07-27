@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-100-years.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.14, 0.3], [0.27, 0.28], [0.37, 0.38], [0.46, 0.49]], "label": "white shirt" },
+    { "type": "polyline", "points": [[0.47, 0.34], [0.62, 0.45], [0.75, 0.62], [0.94, 0.76]], "label": "bent body" },
+    { "type": "polyline", "points": [[0.06, 0.71], [0.24, 0.79], [0.46, 0.86], [0.73, 0.96]], "label": "blue ground plane" }
+  ],
+  "notes": "Bent bodies meet across a colored sheet while the large lower shadow makes the pavement a graphic stage."
+}

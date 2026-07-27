@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-marte-01.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.42, "cy": 0.43, "rx": 0.31, "ry": 0.22, "label": "curved back" },
+    { "type": "polyline", "points": [[0.02, 0.03], [0.16, 0.11], [0.3, 0.2], [0.51, 0.35]], "label": "shoulder contour" },
+    { "type": "polyline", "points": [[0.22, 0.55], [0.31, 0.67], [0.43, 0.76], [0.58, 0.81]], "label": "kneeling body" }
+  ],
+  "notes": "A cropped shoulder and a kneeling body make the pool-colored field feel like a shallow sculptural plane."
+}

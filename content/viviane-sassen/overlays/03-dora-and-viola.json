@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-dora-and-viola.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.56, "rx": 0.18, "ry": 0.39, "label": "embraced bodies" },
+    { "type": "polyline", "points": [[0.08, 0.0], [0.21, 0.26], [0.34, 0.55], [0.47, 0.91]], "label": "left tree trunk" },
+    { "type": "polyline", "points": [[0.89, 0.0], [0.77, 0.24], [0.68, 0.45], [0.6, 0.76]], "label": "right tree trunk" }
+  ],
+  "notes": "Two trees hold an embrace whose striped and pale garments fuse into a single vertical mass."
+}

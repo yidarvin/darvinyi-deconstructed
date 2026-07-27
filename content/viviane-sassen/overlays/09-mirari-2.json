@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-mirari-2.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.52, 0.0], [0.51, 0.32], [0.49, 0.58], [0.45, 0.88]], "label": "left trunk" },
+    { "type": "polyline", "points": [[0.67, 0.0], [0.65, 0.31], [0.64, 0.58], [0.6, 0.88]], "label": "right trunk" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.75, "rx": 0.34, "ry": 0.17, "label": "bright water field" }
+  ],
+  "notes": "Two dark trunks interrupt an expanse of water whose bright lower reflection makes the frame breathe sideways."
+}

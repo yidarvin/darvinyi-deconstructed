@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-jf.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.455, "cy": 0.58, "rx": 0.16, "ry": 0.11, "label": "green mirror" },
+    { "type": "polyline", "points": [[0.17, 0.29], [0.29, 0.41], [0.39, 0.55], [0.49, 0.66]], "label": "white figure" },
+    { "type": "polyline", "points": [[0.58, 0.4], [0.68, 0.54], [0.82, 0.68], [0.95, 0.76]], "label": "black figure" }
+  ],
+  "notes": "Two diagonal bodies lean into a small green mirror, with their shadow acting as a third dark shape."
+}
