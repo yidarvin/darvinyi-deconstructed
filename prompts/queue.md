@@ -190,6 +190,6 @@ real queue and state live in data/registry.json.
 | 179 | namsa-leuba               | Namsa Leuba                  | DONE    |
 | 180 | juno-calypso              | Juno Calypso                 | DONE    |
 | 181 | signe-pierce              | Signe Pierce                 | DONE    |
-| 182 | charlie-engman            | Charlie Engman               | PENDING |
+| 182 | charlie-engman            | Charlie Engman               | DONE    |
 | 183 | sofia-crespo              | Sofia Crespo                 | PENDING |
 | 184 | boris-eldagsen            | Boris Eldagsen               | PENDING |

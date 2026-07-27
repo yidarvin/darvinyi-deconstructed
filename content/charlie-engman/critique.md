@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-27
 
@@ -41,3 +41,13 @@ Re-verified prior critique rounds: 2026-07-27 (the complete critique history). B
 4. `sources.md`: added an explicit factor-2 assessment to every image-level fair-use rationale. The CONTACT entries now distinguish displayed artist/title or series context from the absence of an explicit individual copyright notice.
 
 Re-verified prior critique rounds: 2026-07-27 initial round (`06-mom-on-the-ground-2`, `11-mom-05`) and 2026-07-27 current round (`03-extended-producer-responsibility`, `05-projection-mapping`, `09-mom-03`, and fair-use documentation). All twelve overlays score 100/100; the earlier arm contour and billboard frame remain visually aligned; chapter copies are byte-identical; and `scripts/check.sh` passed.
+
+## Critique round — 2026-07-27
+
+### Required
+
+None. All twelve current proofs were visually rechecked against their overlay specs and analyses. The five previously resolved overlay corrections remain materially aligned, and all specs score 100/100 against the current deterministic analyses. Chapter measurements match those analyses within the stated tolerance; the chapter makes no camera-setting claims; and each image has a traceable institutional record, creator credit, rights context, and concise four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+- The minor billboard-frame endpoint treatment previously noted for `10-mom-04` remains a cosmetic inset/overshoot rather than a false identification: the bracket still unmistakably indicates the rounded billboard portrait. It has not materially regressed and does not warrant reopening the settled advisory.
