@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-cardeidra.jpg",
+    "width": 1600,
+    "height": 1300,
+    "sha1": "70641f7d",
+    "source": "01-cardeidra.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-barrington-and-father.jpg",
+    "width": 1334,
+    "height": 1600,
+    "sha1": "c22ee183",
+    "source": "02-barrington-and-father.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-torus.jpg",
+    "width": 1600,
+    "height": 1074,
+    "sha1": "590e30f5",
+    "source": "03-torus.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-nation.jpg",
+    "width": 1600,
+    "height": 1326,
+    "sha1": "75554ccc",
+    "source": "04-nation.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-the-garden-gemena-dr-congo.jpg",
+    "width": 1600,
+    "height": 1273,
+    "sha1": "40b1acd8",
+    "source": "05-the-garden-gemena-dr-congo.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-cowboys.jpg",
+    "width": 1600,
+    "height": 1288,
+    "sha1": "5f5e487e",
+    "source": "06-cowboys.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-hellshire-beach-towel-with-flies.jpg",
+    "width": 1600,
+    "height": 1268,
+    "sha1": "cd98b9ab",
+    "source": "07-hellshire-beach-towel-with-flies.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-as-above-so-below.jpg",
+    "width": 1230,
+    "height": 1600,
+    "sha1": "b49aea1d",
+    "source": "08-as-above-so-below.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-congregation.jpg",
+    "width": 1600,
+    "height": 1260,
+    "sha1": "7880959a",
+    "source": "09-congregation.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-dirty-south.jpg",
+    "width": 1600,
+    "height": 1304,
+    "sha1": "20b5a6ad",
+    "source": "10-dirty-south.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-sharon.jpg",
+    "width": 1600,
+    "height": 1256,
+    "sha1": "88052403",
+    "source": "11-sharon.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-emily-and-daughter-appropriated-image.jpg",
+    "width": 1187,
+    "height": 1600,
+    "sha1": "41ce6a78",
+    "source": "12-emily-and-daughter-appropriated-image.jpg",
+    "exif": {}
+  }
+]

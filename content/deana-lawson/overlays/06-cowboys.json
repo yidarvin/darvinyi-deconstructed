@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-cowboys.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.34, "cy": 0.72, "rx": 0.17, "ry": 0.20, "label": "left horse and rider" },
+    { "type": "ellipse", "cx": 0.64, "cy": 0.72, "rx": 0.17, "ry": 0.24, "label": "center horse and rider" },
+    { "type": "polyline", "points": [[0.17, 0.67], [0.34, 0.58], [0.50, 0.73]], "label": "left horse contour" },
+    { "type": "polyline", "points": [[0.48, 0.73], [0.64, 0.57], [0.80, 0.82]], "label": "center horse contour" }
+  ],
+  "notes": "Flash-lit riders rise from a near-black field as separate, overlapping silhouettes."
+}

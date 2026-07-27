@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-congregation.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.51, "rx": 0.29, "ry": 0.22, "label": "densest crowd knot" },
+    { "type": "polyline", "points": [[0.12, 0.25], [0.45, 0.43], [0.76, 0.30]], "label": "upper crowd band" },
+    { "type": "polyline", "points": [[0.18, 0.71], [0.48, 0.62], [0.84, 0.76]], "label": "lower crowd band" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.15, "rx": 0.06, "ry": 0.05, "label": "blue bundle interruption" }
+  ],
+  "notes": "An overhead crowd reads as tightly packed bands punctuated by a few bright interruptions."
+}
