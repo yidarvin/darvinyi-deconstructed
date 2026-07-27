@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-fishermans-cove.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.281, "label": "far bank" },
+    { "type": "subject_anchor", "x": 0.68, "y": 0.47, "r": 0.045, "label": "reclining figure" },
+    { "type": "polyline", "points": [[0.07,0.60],[0.45,0.58],[0.82,0.47]], "label": "body in water" }
+  ],
+  "notes": "A reclining white figure cuts across the broad, quiet water beneath the dark bank."
+}

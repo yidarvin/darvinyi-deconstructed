@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-sisterhood-in-sand.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.53, "rx": 0.42, "ry": 0.31, "label": "interlocking group" },
+    { "type": "polyline", "points": [[0.09,0.52],[0.40,0.54],[0.61,0.42],[0.84,0.28]], "label": "linked bodies" },
+    { "type": "polyline", "points": [[0.14,0.13],[0.47,0.32],[0.83,0.18]], "label": "color rhythm" }
+  ],
+  "notes": "Interlocking bodies and dress colors make a dense, soft-edged field without a single dominant center."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-akon-in-portland.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.58, "rx": 0.11, "ry": 0.12, "label": "seated figure" },
+    { "type": "polyline", "points": [[0.00,0.70],[0.47,0.58],[0.78,0.54]], "label": "fallen palm trunk" },
+    { "type": "polyline", "points": [[0.02,0.24],[0.45,0.05],[0.97,0.34]], "label": "palm canopy" }
+  ],
+  "notes": "A figure perched on the fallen trunk is nested inside a large, curving palm canopy."
+}

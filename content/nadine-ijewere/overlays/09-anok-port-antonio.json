@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-anok-port-antonio.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.50, "y": 0.23, "r": 0.045, "label": "central gaze" },
+    { "type": "frame_in_frame", "x": 0.29, "y": 0.17, "w": 0.45, "h": 0.52, "label": "fence opening" },
+    { "type": "polyline", "points": [[0.00,0.13],[0.18,0.21],[0.36,0.26]], "label": "foreground figure" }
+  ],
+  "notes": "A blurred foreground figure and a broken fence frame the sharply posed central sitter."
+}

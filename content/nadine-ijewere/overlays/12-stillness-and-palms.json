@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-stillness-and-palms.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.788, "label": "sea horizon" },
+    { "type": "subject_anchor", "x": 0.643, "y": 0.913, "r": 0.045, "label": "boat bow" },
+    { "type": "polyline", "points": [[0.39,0.00],[0.38,0.45],[0.36,0.92]], "label": "palm trunk" }
+  ],
+  "notes": "A vertical palm interrupts the open sea and braces the off-center pink figure."
+}

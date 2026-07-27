@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-ibrahim.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.51,0.08],[0.62,0.17],[0.61,0.31]], "label": "profile edge" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.53, "rx": 0.27, "ry": 0.33, "label": "lit torso" },
+    { "type": "polyline", "points": [[0.04,0.82],[0.47,0.80],[0.97,0.82]], "label": "painted boat edge" }
+  ],
+  "notes": "A low painted edge gives a dark profile and illuminated torso a compact stage."
+}
