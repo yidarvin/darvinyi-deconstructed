@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -103,3 +103,34 @@ the actual middle face, and `07-the-breath` makes no blade or threat claim.
 All twelve current overlays score 100/100 without deductions or warnings;
 `03-the-leftovers` and `07-the-breath` also passed a fresh visual review.
 `scripts/check.sh` and pipeline validation pass.
+
+## Critique round — 2026-07-27
+
+Reviewed all twelve current proof PNGs against their overlay specs and analysis
+records; re-ran the deterministic scorer for every overlay (12/12 at 100/100,
+no deductions or warnings); and checked the chapter, manifest, research, proof
+index, and source records. The two previously required repairs remain resolved:
+`03-the-leftovers` anchors the actual middle face, and `07-the-breath` no
+longer asserts blades or a threat. All twelve artist-hosted display URLs and
+the project page currently return HTTP 200, and the per-image fair-use records
+retain the creator/rightsholder notice, four-factor basis, complete-frame
+teaching need, and non-substitution rationale. No camera-setting claim was
+found.
+
+### Required fixes
+
+1. **`11-the-mask` — `MASK'S DARK OPENING` marks the wrong feature.** The
+   `subject_anchor` at `(0.711, 0.460)` lands on the upper-right edge of the
+   mask/right-hand area, while the clearly visible dark opening is the large
+   lower-right aperture, centered materially lower (about `(0.66, 0.56)`). The
+   displacement is well outside the 0.03 normalized-coordinate tolerance and
+   teaches the wrong structure. Move the anchor onto that aperture (and rerender
+   the proof), or relabel it for the feature actually marked.
+
+### Advisory (non-blocking)
+
+- `04-the-connaisseur`'s `PIPE TO EMPTY FRAME` polyline is a readable
+  interpretive eye-path rather than a literal trace of the pipe for its whole
+  length. Its endpoint reaches the pipe/frame relation and the surrounding
+  prose makes the intended route clear, so it is not a blocking claim; a future
+  pass could label it more explicitly as an eye-path.
