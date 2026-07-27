@@ -49,7 +49,7 @@ This 12-image set is drawn from the high-resolution display files published in A
 - **File:** `raw/campbell-addy/07-i-heart-campbell-21-2023.jpg` (2500 × 3126px)
 
 ### 08 — *Bukayo Saka for Time Next Generation Leaders* (2023)
-- **Why it matters:** The cover crops a standing portrait at the torso, using the face, white jersey, red border, and blue typography as one designed address.
+- **Why it matters:** The cover crops an upper-body portrait at the torso, using the face, white jersey, red border, and blue typography as one designed address.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1701186411144-QU8QKLKWXVFKNQ8DW11B/TIME-NGL-Cover-Bukayo-Saka.jpg)
 - **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Time* cover context indicated by the filename. **Factor 1:** transformative teaching analyzes facial anchoring, jersey texture, and cover typography. **Factor 2:** a creative editorial portrait. **Factor 3:** the whole cover frame is needed to read the relation of portrait to the red border and type. **Factor 4:** this credited 2363 × 3150px public portfolio copy links to the artist and cannot replace the magazine cover or a licensed image.
 - **File:** `raw/campbell-addy/08-bukayo-saka-time-2023.jpg` (2363 × 3150px)

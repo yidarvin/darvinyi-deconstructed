@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -45,3 +45,10 @@ verdict: revise
 - Every overlay strict-scores 100/100. The required issue is semantic: the scorer cannot determine whether an interpretive polyline actually traces the labelled shoulder feature.
 - The chapter's reported tone, percentile, edge-density, and stated axes agree with the current analysis values within the stipulated tolerance. It makes no unsupported camera-setting claim.
 - All twelve credited direct portfolio image routes returned HTTP 200 during this round. Each source entry retains a traceable artist-portfolio route, credit, and concise four-factor fair-use rationale; no source-integrity blocker remains.
+
+## Resolution — 2026-07-27
+
+- Re-verified the full critique history: the first 2026-07-27 round and its 2026-07-27 resolution. The 09 unsupported body sweep remains removed; the 10 drawn-oval arc remains on the visible black oval; and the corrected 01, 03, 07, 08, 09, 10, and 12 source descriptions still match their credited frames.
+- Replaced 08's false `SHOULDER LINE` with `JERSEY COLLAR ARC`, traced along the visible collar seam. Re-rendered the proof, visually checked it, and strict-scored it 100/100. The synchronized chapter prose now names the image field, direct gaze, and jersey-collar arc.
+- Tightened 08's source description from an unsupported claim about stance to the visible upper-body crop.
+- Reconfirmed both chapter copies are byte-identical and ran `scripts/check.sh` successfully.
