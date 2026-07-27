@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-tumi-nkopane-kwathema.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.40, "cy": 0.32, "rx": 0.18, "ry": 0.14, "label": "face" },
+    { "type": "polyline", "points": [[0.31, 0.50], [0.52, 0.69], [0.72, 0.53]], "label": "V-neck and tie" },
+    { "type": "polyline", "points": [[0.00, 0.14], [1.00, 0.14]], "label": "backdrop band" }
+  ],
+  "notes": "An off-centre face and garment V concentrate a tall portrait without treating the backdrop bands as a horizon."
+}

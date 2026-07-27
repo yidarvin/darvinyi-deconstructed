@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-refilwe-mahlaba-thokoza.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.45, "cy": 0.42, "rx": 0.17, "ry": 0.14, "label": "face" },
+    { "type": "polyline", "points": [[0.46, 0.00], [0.46, 0.30], [0.46, 0.60]], "label": "curtain seam" },
+    { "type": "polyline", "points": [[0.39, 0.58], [0.36, 0.70], [0.33, 0.83]], "label": "vest boundary" }
+  ],
+  "notes": "A pale shirt and a slightly off-centre face hold against the curtain’s repeated vertical intervals."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-faniswa-seapoint-cape-town.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.43, "cy": 0.30, "rx": 0.36, "ry": 0.24, "label": "headdress silhouette" },
+    { "type": "polyline", "points": [[0.12, 0.00], [0.12, 0.35], [0.12, 0.70]], "label": "left curtain fold" },
+    { "type": "polyline", "points": [[0.84, 0.00], [0.84, 0.35], [0.84, 0.70]], "label": "right curtain fold" }
+  ],
+  "notes": "A dark face and sculptural headdress are cut out against a pale curtain rather than organized by false perspective."
+}

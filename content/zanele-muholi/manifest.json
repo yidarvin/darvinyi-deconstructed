@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-zava-amsterdam.jpg",
+    "width": 843,
+    "height": 658,
+    "sha1": "c2f73a3e",
+    "source": "01-zava-amsterdam.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-tumi-nkopane-kwathema.jpg",
+    "width": 843,
+    "height": 1298,
+    "sha1": "b3b52e13",
+    "source": "02-tumi-nkopane-kwathema.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-ayanda-mqakayi-nyanga-east.jpg",
+    "width": 843,
+    "height": 1299,
+    "sha1": "8c7d0848",
+    "source": "03-ayanda-mqakayi-nyanga-east.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-bakhambile-skhosana-natalspruit.jpg",
+    "width": 843,
+    "height": 1288,
+    "sha1": "d6deb4cc",
+    "source": "04-bakhambile-skhosana-natalspruit.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-refilwe-mahlaba-thokoza.jpg",
+    "width": 843,
+    "height": 1291,
+    "sha1": "ea75a3f3",
+    "source": "05-refilwe-mahlaba-thokoza.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-nhlanhla-mofokeng-katlehong.jpg",
+    "width": 843,
+    "height": 1284,
+    "sha1": "4231ebab",
+    "source": "06-nhlanhla-mofokeng-katlehong.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-matseleng-kgoaripe-vosloorus.jpg",
+    "width": 843,
+    "height": 1289,
+    "sha1": "02c800ad",
+    "source": "07-matseleng-kgoaripe-vosloorus.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-faniswa-seapoint-cape-town.jpg",
+    "width": 683,
+    "height": 850,
+    "sha1": "6e802249",
+    "source": "08-faniswa-seapoint-cape-town.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-sizile-umlazi-durban.jpg",
+    "width": 647,
+    "height": 850,
+    "sha1": "4205a1ce",
+    "source": "09-sizile-umlazi-durban.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-sifkile-nuoro-italy.jpg",
+    "width": 550,
+    "height": 850,
+    "sha1": "afabd68a",
+    "source": "10-sifkile-nuoro-italy.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-hlonipha-cassilhaus.jpg",
+    "width": 568,
+    "height": 850,
+    "sha1": "b556233a",
+    "source": "11-hlonipha-cassilhaus.jpg",
+    "exif": {}
+  }
+]

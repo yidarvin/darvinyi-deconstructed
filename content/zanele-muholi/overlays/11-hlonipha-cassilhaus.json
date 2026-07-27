@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-hlonipha-cassilhaus.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "portrait axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.28, "rx": 0.35, "ry": 0.18, "label": "headpiece" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.65, "rx": 0.42, "ry": 0.18, "label": "costume collar" }
+  ],
+  "notes": "Headpiece and collar form two layered frames around a centred luminous face."
+}

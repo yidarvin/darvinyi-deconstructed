@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-matseleng-kgoaripe-vosloorus.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.479, "y": 0.351, "r": 0.035, "label": "upper body" },
+    { "type": "polyline", "points": [[0.16, 0.53], [0.42, 0.60], [0.70, 0.57]], "label": "upper crossed arm" },
+    { "type": "polyline", "points": [[0.24, 0.61], [0.47, 0.67], [0.76, 0.61]], "label": "lower crossed arm" }
+  ],
+  "notes": "The frontal face remains calm above the crossed-arm barrier, making posture the portrait’s strongest diagonal event."
+}

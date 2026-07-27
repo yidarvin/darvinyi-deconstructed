@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-ayanda-mqakayi-nyanga-east.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.58, "cy": 0.40, "rx": 0.19, "ry": 0.15, "label": "tilted face" },
+    { "type": "polyline", "points": [[0.42, 0.26], [0.60, 0.27], [0.76, 0.31]], "label": "cap brim" },
+    { "type": "polyline", "points": [[0.25, 0.52], [0.45, 0.61], [0.66, 0.73]], "label": "shoulder slope" }
+  ],
+  "notes": "The tilted cap and descending shoulder counter the pale vertical backdrop while keeping the gaze direct."
+}

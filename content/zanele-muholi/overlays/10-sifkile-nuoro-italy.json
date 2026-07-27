@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-sifkile-nuoro-italy.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.43, "rx": 0.15, "ry": 0.14, "label": "face" },
+    { "type": "frame_in_frame", "x": 0.13, "y": 0.08, "w": 0.70, "h": 0.90, "label": "doorway" },
+    { "type": "polyline", "points": [[0.39, 0.36], [0.27, 0.56], [0.24, 0.82]], "label": "curved back contour" }
+  ],
+  "notes": "A turned body is held inside a doorway, with the back contour carrying the eye down before it returns to the face."
+}
