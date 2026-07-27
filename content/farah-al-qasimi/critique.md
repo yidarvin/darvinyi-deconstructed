@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -39,3 +39,22 @@ None.
 - Looked at all twelve current proof PNGs with their matching overlay specs and analysis records. The prior `03-winter-fog` symmetry-axis error remains resolved; no `symmetry_axis` or `OPEN FIELD AXIS` assertion has regressed.
 - Re-ran the deterministic scorer for every current spec: all twelve score 100/100 with no deductions or warnings. The scorer confirms the y-coordinate of 07's horizontal, but it cannot evaluate the semantic false extension created by a full-width `horizon_line`.
 - The chapter's measured values agree with the current analysis records within tolerance, it makes no invented camera-setting claim, and all twelve images have credited public source links with per-image four-factor fair-use rationales.
+
+## Resolution — 2026-07-26
+
+1. **07-shower-with-lux-soap:** Replaced the full-width `SHOWER ROD`
+   `horizon_line` with a finite, unarrowed `leading_line` from x0.075 to
+   x0.760 at y0.310. The annotation now stops with the visible rod rather
+   than asserting a rod across the empty right-hand tile field. Its revised
+   proof received a clean visual pass and scores 94/100, with no geometric
+   deductions; the sole low-cost warning reflects the analyzer's inability to
+   detect the pale physical rod as an edge.
+
+### Prior rounds re-verified
+
+- Re-verified the first critique round dated 2026-07-26: `03-winter-fog`
+  still contains neither a `symmetry_axis` nor an `OPEN FIELD AXIS` claim;
+  its retained fog-to-ground seam and receding-fence claims score 100/100.
+- Re-verified the second critique round dated 2026-07-26: the shower-rod
+  annotation is finite, the chapter's y0.310 reading remains accurate, and
+  both chapter copies remain byte-identical.

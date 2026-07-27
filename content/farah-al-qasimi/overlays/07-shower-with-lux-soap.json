@@ -3,7 +3,12 @@
   "image": "07-shower-with-lux-soap.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.310, "angle": 0, "label": "SHOWER ROD" },
+    {
+      "type": "leading_line",
+      "points": [[0.075, 0.310], [0.760, 0.310]],
+      "arrow": false,
+      "label": "SHOWER ROD"
+    },
     { "type": "subject_anchor", "x": 0.419, "y": 0.273, "r": 0.035, "label": "SOAP IN HAND" }
   ],
   "notes": "A raised soap and a single rod puncture a near-white curtain field."
