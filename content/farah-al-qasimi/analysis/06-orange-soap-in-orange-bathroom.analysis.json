@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "image": "06-orange-soap-in-orange-bathroom.jpg",
+  "width": 1165,
+  "height": 1600,
+  "aspect": 0.7281,
+  "tonal": {
+    "mean": 0.7689953396417292,
+    "std": 0.07893194228603947,
+    "p05": 0.6627450980392157,
+    "p95": 0.8784313725490196,
+    "edge_density": 0.00044043624161073825
+  },
+  "palette": [
+    "#d7a37f",
+    "#cdd6d8",
+    "#dcb79f",
+    "#e6d7cc",
+    "#e18907"
+  ],
+  "lines": [
+    {
+      "x1": 0.3812080536912752,
+      "y1": 0.5517578125,
+      "x2": 0.5771812080536913,
+      "y2": 0.58984375,
+      "angle_deg": 14.955839930074022,
+      "length": 0.1193359697808711,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.6484375,
+    "angle_deg": 0.0,
+    "confidence": 0.7283334407253296,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.4228187919463087,
+      0.5546875
+    ],
+    "regions": [
+      {
+        "cx": 0.41850640818306784,
+        "cy": 0.55657958984375,
+        "x": 0.3208053691275168,
+        "y": 0.5087890625,
+        "w": 0.19731543624161074,
+        "h": 0.0966796875,
+        "area_frac": 0.013926174496644295
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8437641014106406,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.7630495263794277,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.4228187919463087,
+    "y": 0.5546875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.5445516290083128,
+    "phi": 0.6778304992721357,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.84,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.648,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.73,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.423,
+      "y": 0.555,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

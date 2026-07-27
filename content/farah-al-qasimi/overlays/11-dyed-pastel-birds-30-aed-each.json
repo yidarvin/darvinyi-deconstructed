@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-dyed-pastel-birds-30-aed-each.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.556, "y": 0.414, "r": 0.035, "label": "THREE DYED CHICKS" },
+    { "type": "ellipse", "cx": 0.60, "cy": 0.36, "rx": 0.20, "ry": 0.15, "label": "TILE MEDALLION" },
+    { "type": "polyline", "points": [[0.29, 0.02], [0.55, 0.36], [0.80, 0.70]], "label": "TILE JOINT" }
+  ],
+  "notes": "Tiny colored birds hold the center against a larger repeating tile pattern."
+}

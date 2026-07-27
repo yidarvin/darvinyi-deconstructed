@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-aviary.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.280, "angle": 0, "label": "CEILING-TO-MURAL SEAM" },
+    { "type": "subject_anchor", "x": 0.731, "y": 0.512, "r": 0.035, "label": "FIGURE WITH PHONE" },
+    { "type": "frame_in_frame", "x": 0.63, "y": 0.43, "w": 0.37, "h": 0.28, "label": "AVIARY RAIL" }
+  ],
+  "notes": "The ceiling grid and aviary rail hold a small human figure inside a staged desert."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-bedroom-baba.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.40, "y": 0.23, "w": 0.21, "h": 0.17, "label": "PORTRAIT WITHIN ROOM" },
+    { "type": "polyline", "points": [[0.18, 0.62], [0.50, 0.62], [0.76, 0.63]], "label": "SOFA BACK" },
+    { "type": "frame_in_frame", "x": 0.76, "y": 0.15, "w": 0.20, "h": 0.67, "label": "CLOTHING RACK" }
+  ],
+  "notes": "The portrait, sofa, and hanging clothes split one domestic wall into competing frames."
+}

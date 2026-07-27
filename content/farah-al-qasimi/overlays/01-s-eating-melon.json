@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-s-eating-melon.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.831, "angle": 0, "label": "LOWER ROBE EDGE" },
+    { "type": "polyline", "points": [[0.31, 0.31], [0.47, 0.18], [0.56, 0.06]], "label": "KNIFE DIAGONAL" },
+    { "type": "ellipse", "cx": 0.75, "cy": 0.69, "rx": 0.15, "ry": 0.12, "label": "MELON" }
+  ],
+  "notes": "A blade cuts the pale robe's field toward the red melon."
+}

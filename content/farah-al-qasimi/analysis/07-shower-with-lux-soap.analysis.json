@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "07-shower-with-lux-soap.jpg",
+  "width": 1200,
+  "height": 1558,
+  "aspect": 0.7702,
+  "tonal": {
+    "mean": 0.8937535615841128,
+    "std": 0.05276116194548301,
+    "p05": 0.788235294117647,
+    "p95": 0.9450980392156862,
+    "edge_density": 0.0014724781795356545
+  },
+  "palette": [
+    "#ecece9",
+    "#e2e2d9",
+    "#d9d4c7",
+    "#cfc4b2",
+    "#d2ab83"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.3098729227761486,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.41878172588832485,
+      0.2727272727272727
+    ],
+    "regions": [
+      {
+        "cx": 0.42253020677897035,
+        "cy": 0.27259671071888075,
+        "x": 0.3362944162436548,
+        "y": 0.19452590420332355,
+        "w": 0.17639593908629442,
+        "h": 0.1378299120234604,
+        "area_frac": 0.01678277783566796
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8205859627200109,
+    "vertical_axis_x": 0.4625,
+    "horizontal": 0.617486725551635,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.41878172588832485,
+    "y": 0.2727272727272727,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.6505842389196925,
+    "phi": 0.4018411990687375,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.31,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.463,
+      "confidence": 0.82,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.419,
+      "y": 0.273,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

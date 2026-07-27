@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-still-life-for-painting.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.555, "y": 0.573, "r": 0.035, "label": "OBJECT CLUSTER" },
+    { "type": "polyline", "points": [[0.29, 0.12], [0.46, 0.34], [0.63, 0.35], [0.79, 0.13]], "label": "DRAPED ARC" },
+    { "type": "frame_in_frame", "x": 0.24, "y": 0.09, "w": 0.60, "h": 0.68, "label": "BLACK CLOTH FIELD" }
+  ],
+  "notes": "The centered objects interrupt a deep black drape held against a bare wall."
+}

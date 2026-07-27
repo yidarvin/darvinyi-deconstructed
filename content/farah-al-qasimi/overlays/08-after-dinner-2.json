@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-after-dinner-2.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.24, "y": 0.04, "w": 0.67, "h": 0.84, "label": "CURTAIN OPENING" },
+    { "type": "subject_anchor", "x": 0.618, "y": 0.882, "r": 0.035, "label": "SEATED FIGURE" },
+    { "type": "polyline", "points": [[0.42, 0.06], [0.54, 0.28], [0.67, 0.46]], "label": "WHITE DRAPE" }
+  ],
+  "notes": "Curtains make the partial figure a reveal rather than a centered portrait."
+}

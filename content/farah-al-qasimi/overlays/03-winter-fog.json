@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-winter-fog.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.868, "angle": 0, "label": "FOG-TO-GROUND SEAM" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "OPEN FIELD AXIS" },
+    { "type": "polyline", "points": [[0.55, 0.87], [0.76, 0.89], [0.98, 0.95]], "label": "RECEDING FENCE" }
+  ],
+  "notes": "A nearly blank field is just secured by a low fading fence and ground seam."
+}
