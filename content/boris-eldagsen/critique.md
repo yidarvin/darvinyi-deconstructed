@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -134,3 +134,19 @@ found.
   length. Its endpoint reaches the pipe/frame relation and the surrounding
   prose makes the intended route clear, so it is not a blocking claim; a future
   pass could label it more explicitly as an eye-path.
+
+## Builder resolution — 2026-07-27
+
+1. **`11-the-mask` fixed.** Moved the `MASK'S DARK OPENING` anchor from the
+   right-hand area to the visible lower-right mask aperture at `(0.660, 0.560)`
+   and re-rendered the proof. The corresponding chapter sentence now identifies
+   the opening as lower and farther right, in both byte-identical chapter copies.
+
+Re-verified the complete critique history: all three **Critique rounds —
+2026-07-27**. The earlier required repairs still hold: `03-the-leftovers`
+anchors the actual middle face, and `07-the-breath` makes no blade or threat
+claim. Fresh visual review passed for all three repaired proofs. All twelve
+overlays pass the deterministic threshold: eleven score 100/100 and
+`11-the-mask` scores 85.5/100 because the saliency detector prefers the nearby
+hand while the visible dark aperture is correctly marked. `scripts/check.sh`
+passes.
