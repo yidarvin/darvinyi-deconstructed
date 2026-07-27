@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -31,3 +31,14 @@ None. I rechecked all twelve proof composites against their current overlay spec
 ## Builder resolution — 2026-07-27
 
 Corrected the required 04 source-note description: it now identifies the centered figure, reflecting basin, pin lights, and enclosing mirrored chamber, and its fair-use rationale explains why the complete frame is necessary for that relation. Re-verified every required fix from the prior five-item round recorded on 2026-07-27 (01 standing tiled-bathroom figure and cosmetic device; 03 central green-painted figure in pink mirrors; 05 close masked reclining figure and pillow; 09 empty sink and painted window; 11 seated figure in the left room). The chapter and site copy remain byte-identical; all twelve current overlays pass the strict scorer at 100.
+
+## Critique round — 2026-07-27
+
+### Required
+
+1. **01-slendertone-ii — replace or remove `tiled enclosure`.** The `frame_in_frame` box runs across unrelated tiles, curtain, floor, and fixtures instead of following an actual internal architectural frame. This makes the primitive's “enclosure” claim misleading. Retain the accurate floor-grout paths and use only a primitive that traces a visible structure.
+2. **04-the-champagne-suite — replace or remove `mirrored chamber`.** The rectangular `frame_in_frame` does not trace the dark chamber's actual curved/tapered mirrored boundaries; its lower edge crosses the figure and open space. Use a structure that follows a real visible contour, or omit this claim. The centered-body axis and reflecting-basin ellipse remain accurate.
+
+### Advisory (non-blocking)
+
+None. I reviewed all twelve current proof composites against their overlay specs and analysis records. All strict scorer runs return 100, but these two findings remain material visual-semantic errors because `frame_in_frame` primitives are bounds-checked rather than assessed for whether they follow the claimed architecture. The chapter’s tonal, palette, and convergence values match the current analysis records within tolerance. Each image retains a traceable public artist-portfolio source, credit/copyright notice, and image-specific four-factor fair-use rationale; all twelve listed display URLs returned HTTP 200 in this review. The previously resolved source-note findings remain resolved and are not reopened here.
