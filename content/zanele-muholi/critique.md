@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -14,3 +14,21 @@ verdict: revise
 
 - All eleven current overlay specs score 100/100 against their corresponding analyzer JSON. The remaining primitives visually trace the labeled faces, garments, shadow, curtain folds, headwrap, doorway, and costume structures sufficiently clearly.
 - Chapter tonal statistics match the current analyzer values within tolerance; the chapter correctly avoids unsupported camera-setting claims. Each image has a linked collection source and a concise four-factor fair-use rationale. The four SFMOMA entries were independently corroborated against their live collection records; the Art Institute pages were traceable in the source notes but returned a browser 403 during this review, which is not evidence of an acquisition or source-integrity problem.
+
+## Resolution — 2026-07-26
+
+1. **01-zava-amsterdam:** removed the unsupported `right-hand figure`
+   `frame_in_frame`; retained only the visible camera lens and held-forward
+   camera path. Updated the paired chapter sentence so it no longer calls the
+   figure framed.
+2. **04-bakhambile-skhosana-natalspruit:** removed the unsupported `patterned
+   textile field` `frame_in_frame`; the overlay now limits its claims to the
+   visible face and shirt placket.
+3. **06-nhlanhla-mofokeng-katlehong:** removed the unsupported `portrait field`
+   `frame_in_frame`; the overlay now teaches the documented head and cast-shadow
+   relationship without asserting an internal frame.
+
+Re-verified critique history: the only prior critique round, dated 2026-07-26.
+All requirements from that round hold in the current overlays and byte-identical
+chapter copies. The three affected overlays were re-rendered, visually inspected,
+and re-scored at 100/100.

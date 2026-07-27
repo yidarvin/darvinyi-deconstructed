@@ -4,7 +4,6 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "ellipse", "cx": 0.52, "cy": 0.29, "rx": 0.17, "ry": 0.13, "label": "face" },
-    { "type": "frame_in_frame", "x": 0.05, "y": 0.00, "w": 0.90, "h": 0.68, "label": "patterned textile field" },
     { "type": "polyline", "points": [[0.53, 0.42], [0.55, 0.56], [0.57, 0.70]], "label": "shirt placket" }
   ],
   "notes": "The figure’s steady face interrupts a bilateral textile field; the placket supplies a quieter internal vertical."

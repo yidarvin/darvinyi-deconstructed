@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "ellipse", "cx": 0.50, "cy": 0.35, "rx": 0.15, "ry": 0.17, "label": "head" },
-    { "type": "polyline", "points": [[0.75, 0.00], [0.69, 0.18], [0.70, 0.39], [0.79, 0.54], [0.96, 0.61]], "label": "cast shadow silhouette" },
-    { "type": "frame_in_frame", "x": 0.05, "y": 0.10, "w": 0.88, "h": 0.88, "label": "portrait field" }
+    { "type": "polyline", "points": [[0.75, 0.00], [0.69, 0.18], [0.70, 0.39], [0.79, 0.54], [0.96, 0.61]], "label": "cast shadow silhouette" }
   ],
   "notes": "A centred gaze is made deliberately asymmetric by the cast shadow swelling along the right side."
 }
