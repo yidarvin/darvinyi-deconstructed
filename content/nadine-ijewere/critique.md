@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -63,3 +63,16 @@ All required fixes from that round hold in the current source record and proof.
 - The source record remains traceable: the public Guardian gallery identifies
   all twelve titles, dates, and Nadine Ijewere photo credits; every included
   copyrighted image retains a concise four-factor fair-use rationale.
+
+## Builder resolution — 2026-07-27
+
+- Required 1 resolved: the `fallen palm trunk` polyline for *Akon in Portland*
+  now ends at the seated figure at `(0.47, 0.58)`; the unrelated extension
+  across the foliage and water was removed. The proof was regenerated, visually
+  checked against the ingested image, and scores 100/100.
+
+Re-verified critique history: the initial 2026-07-26 round (four interlocking
+figures in *Sisterhood in Sand* and the printed-leaf backdrop in *Girl in
+Pink*) and the subsequent 2026-07-26 round (the *Akon in Portland* trunk
+endpoint). All required fixes remain true in the current sources, proof, and
+chapter.
