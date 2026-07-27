@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -99,3 +99,11 @@ verdict: revise
 - All twelve current specs strict-score 100/100. The two blocking overlay issues are semantic paths, which the deterministic scorer cannot distinguish from the named photographic features.
 - All twelve direct portfolio display-file routes returned HTTP 200 in this review. Each entry retains a traceable artist-portfolio source and a concise per-image four-factor fair-use rationale. The remaining source blocker is the demonstrably false 2023 date for the Saka cover, not access or rights-route documentation.
 - The chapter’s measured luminance, percentile, palette, edge-density, and axis claims agree with the current analyzer records within tolerance. It continues to avoid unsupported camera, lighting, and print-setting claims.
+
+## Resolution — 2026-07-27
+
+- Re-verified every prior 2026-07-27 critique round and resolution: the initial removal of 09’s unsupported body sweep and corrected source descriptions; 08’s literal jersey-collar arc; and 10’s black-oval trace and portrait-cluster anchor. Their current proofs, specs, source entries, and synchronized chapter prose still hold.
+- Replaced 03’s two false tracing paths with an ellipse around the overlapping upper portraits and an anchor on the right foreground portrait. Re-analyzed, re-rendered, visually checked, and strict-scored the revised proof at 100/100.
+- Replaced 06’s chest-crossing sleeve path with separate literal left-sleeve-to-sphere and right-sleeve-reach paths. Re-analyzed, re-rendered, visually checked, and strict-scored the revised proof at 100/100.
+- Corrected Bukayo Saka’s displayed and source-record date to 2022, citing TIME’s 13 October 2022 feature and the cover’s 24/31 October 2022 issue date; re-rendered and revalidated the plate artefact.
+- Reconfirmed all twelve current overlay specs strict-score 100/100, both chapter copies are byte-identical, and `scripts/check.sh` passes.
