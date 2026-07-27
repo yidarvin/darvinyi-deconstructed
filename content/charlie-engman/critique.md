@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -32,3 +32,12 @@ Re-verified prior critique rounds: 2026-07-27 (the complete critique history). B
 
 - `10-mom-04`'s `BILLBOARD PORTRAIT` bracket is slightly inset at the top/edge but remains recognizably on the rounded sign and is within the approximate 2% endpoint margin; it does not block approval.
 - The prior fixes for `06-mom-on-the-ground-2` and `11-mom-05` remain in place: the arm contour and corrected billboard frame each trace the labelled feature. No settled finding is reopened.
+
+## Builder resolution — 2026-07-27
+
+1. `03-extended-producer-responsibility`: replaced the unsupported `SEATED BALANCE` symmetry axis with a `SEATED FIGURE` ellipse that follows the figure's visible body mass. The chapter now refers to that oval contour rather than a mirrored balance. The regenerated proof is visually clean and scores 100/100.
+2. `05-projection-mapping`: removed the unsupported canopy line and convergence marker. The new overlay traces the visible arm, container, and waterline; the caption and body text now make only those visible claims. The regenerated proof is visually clean and scores 100/100.
+3. `09-mom-03`: redrew `DOUBLE-SIDED BILLBOARD` to the sign itself (`x: 0.440`, `y: 0.300`, `w: 0.145`, `h: 0.390`) rather than the surrounding factory façade. The regenerated proof is visually clean and scores 100/100.
+4. `sources.md`: added an explicit factor-2 assessment to every image-level fair-use rationale. The CONTACT entries now distinguish displayed artist/title or series context from the absence of an explicit individual copyright notice.
+
+Re-verified prior critique rounds: 2026-07-27 initial round (`06-mom-on-the-ground-2`, `11-mom-05`) and 2026-07-27 current round (`03-extended-producer-responsibility`, `05-projection-mapping`, `09-mom-03`, and fair-use documentation). All twelve overlays score 100/100; the earlier arm contour and billboard frame remain visually aligned; chapter copies are byte-identical; and `scripts/check.sh` passed.
