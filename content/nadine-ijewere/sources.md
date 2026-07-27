@@ -149,12 +149,13 @@ gallery record, print, book, editorial publication, or licensed reproduction.
 
 ### 10 — *Sisterhood in Sand*, Dominican Republic (2019)
 
-- **Why it matters:** A pair of figures and the beach's broad planes make group
-  geometry read as a gentle counterpoint rather than a posed fashion tableau.
+- **Why it matters:** Four interlocking figures and the beach's broad planes make
+group geometry read as a gentle counterpoint rather than a posed fashion tableau.
 - **Source:** [The Guardian, *Anthesis* gallery](https://www.theguardian.com/artanddesign/gallery/2023/nov/01/this-years-model-nadine-ijeweres-disruptive-fashion-photography-in-pictures), public display rendition: `https://i.guim.co.uk/img/media/86e147a1533d4e47b2c8584d52a28159eac6b908/0_0_7200_8820/master/7200.jpg?width=1920&quality=85&auto=format&fit=max&s=89fcccb18c5274f72eb69c80edda2a71`.
 - **Use basis:** **fair-use** — Creator/rightsholder notice: © Nadine Ijewere;
-  source credit “Photograph: Nadine Ijewere.” Factor 1: transformative criticism
-  of two-figure spacing and broad plane division. Factor 2: creative photograph.
+source credit “Photograph: Nadine Ijewere.” Factor 1: transformative criticism
+of the four figures' interlocking spacing and broad plane division. Factor 2:
+creative photograph.
   Factor 3: the full 1920 × 2352px frame is needed to retain the figures' spatial
   relationship to sand and horizon. Factor 4: the credited linked display copy
   is web-sized and does not replace the original, publication, or licensed file.
@@ -162,9 +163,9 @@ gallery record, print, book, editorial publication, or licensed reproduction.
 
 ### 11 — *Girl in Pink*, Dominican Republic (2019)
 
-- **Why it matters:** The portrait's pink garment and surrounding landscape give
-  Ijewere's colour logic an unusually simple, high-impact structure; it is also
-  the cover image of *Nadine Ijewere: Our Own Selves*.
+- **Why it matters:** The portrait's pink garment and repeating printed leaf
+backdrop give Ijewere's colour logic an unusually simple, high-impact structure;
+it is also the cover image of *Nadine Ijewere: Our Own Selves*.
 - **Source:** [The Guardian, *Anthesis* gallery](https://www.theguardian.com/artanddesign/gallery/2023/nov/01/this-years-model-nadine-ijeweres-disruptive-fashion-photography-in-pictures), public display rendition: `https://i.guim.co.uk/img/media/c3b05439b5bbd13c480f30d22a8da87a11134d50/0_0_7200_8820/master/7200.jpg?width=1920&quality=85&auto=format&fit=max&s=4a9a97083a9a2af3f5b2e6fdee0c7c9e`.
 - **Use basis:** **fair-use** — Creator/rightsholder notice: © Nadine Ijewere;
   source credit “Photograph: Nadine Ijewere.” Factor 1: transformative teaching

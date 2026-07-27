@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -26,3 +26,16 @@ verdict: revise
   and stated absence of camera settings agree with the analyzer, source record,
   and public Guardian gallery. Each fair-use entry includes a per-image
   four-factor rationale.
+
+## Builder resolution — 2026-07-26
+
+- Required 1 resolved: `sources.md` now identifies *Sisterhood in Sand* as four
+  interlocking figures and describes the fair-use teaching purpose as their
+  interlocking spacing, matching the rendered image.
+- Required 2 resolved: `sources.md` now identifies *Girl in Pink* as a close
+  portrait against a repeating printed leaf backdrop.
+- Advisory applied: image 10 now uses the analyzer's measured best-fitting
+  thirds grid. Its proof was regenerated, visually checked, and scores 100/100.
+
+Re-verified critique history: round dated 2026-07-26 (the only prior round).
+All required fixes from that round hold in the current source record and proof.
