@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "05-harpers-bazaar-cover-story-2021.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.10, 0.51], [0.35, 0.47], [0.57, 0.58], [0.82, 0.75]], "label": "crawling body" },
+    { "type": "polyline", "points": [[0.14, 0.16], [0.39, 0.08], [0.57, 0.25]], "label": "distant dark ridge" }
+  ],
+  "notes": "The low crawling pose presses into a sandy stage that recedes toward the dark ridge."
+}

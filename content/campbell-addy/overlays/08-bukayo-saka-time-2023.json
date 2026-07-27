@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-bukayo-saka-time-2023.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.057, "y": 0.035, "w": 0.886, "h": 0.93, "label": "cover image field" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.31, "rx": 0.14, "ry": 0.16, "label": "direct gaze" },
+    { "type": "polyline", "points": [[0.25, 0.65], [0.46, 0.53], [0.66, 0.67]], "label": "shoulder line" }
+  ],
+  "notes": "Cover typography and a direct gaze share a deliberately constrained vertical field."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-liya-kebede-vogue-italia-2023.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.20, "cy": 0.40, "rx": 0.12, "ry": 0.10, "label": "left reflective sphere" },
+    { "type": "ellipse", "cx": 0.74, "cy": 0.39, "rx": 0.11, "ry": 0.10, "label": "right reflective sphere" },
+    { "type": "polyline", "points": [[0.33, 0.43], [0.50, 0.32], [0.66, 0.43], [0.82, 0.49]], "label": "outstretched red sleeves" },
+    { "type": "polyline", "points": [[0.45, 0.27], [0.42, 0.55], [0.50, 0.91]], "label": "ribbed dress fall" }
+  ],
+  "notes": "The red figure bridges two reflective spheres while the cover typography occupies the upper field."
+}

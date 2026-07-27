@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-meghan-the-cut-2018.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "cover portrait axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.51, "rx": 0.29, "ry": 0.28, "label": "face" },
+    { "type": "polyline", "points": [[0.16, 0.22], [0.50, 0.22], [0.84, 0.22]], "label": "masthead baseline" },
+    { "type": "polyline", "points": [[0.17, 0.85], [0.50, 0.90], [0.83, 0.85]], "label": "coverline band" }
+  ],
+  "notes": "A near-frontal face and the cover’s type bands enforce a concentrated central axis."
+}

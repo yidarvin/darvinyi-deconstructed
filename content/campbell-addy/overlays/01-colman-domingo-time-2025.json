@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-colman-domingo-time-2025.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.392, "y": 0.616, "r": 0.05, "label": "suspended body" },
+    { "type": "polyline", "points": [[0.317, 0.07], [0.337, 0.22], [0.313, 0.38]], "label": "branch held upward" },
+    { "type": "polyline", "points": [[0.20, 0.64], [0.35, 0.66], [0.48, 0.69], [0.63, 0.63]], "label": "reclining figure arc" }
+  ],
+  "notes": "A lifted branch and a curled body turn an open studio field into a suspended diagonal." 
+}

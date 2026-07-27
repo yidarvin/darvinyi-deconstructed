@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-i-heart-campbell-06-2023.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.52, "cy": 0.75, "rx": 0.45, "ry": 0.18, "label": "five-head portrait row" },
+    { "type": "polyline", "points": [[0.07, 0.65], [0.29, 0.55], [0.51, 0.55], [0.73, 0.55], [0.91, 0.60]], "label": "head rhythm" },
+    { "type": "polyline", "points": [[0.07, 0.63], [0.27, 0.41], [0.55, 0.34], [0.87, 0.54]], "label": "drawn oval arc" }
+  ],
+  "notes": "Five faces make a low portrait chorus under a visible drawn oval and editorial notes."
+}
