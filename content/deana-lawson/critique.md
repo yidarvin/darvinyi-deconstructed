@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-26
 
@@ -29,3 +29,22 @@ Re-verified critique history: the only prior round, **Critique round — 2026-07
 5. Also narrowed the advisory `Dirty South` roof-and-windshield polyline so it starts on the car rather than the open-door/ground area.
 
 Each changed overlay was freshly analyzed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passed before this resolution note was recorded.
+
+## Critique round — 2026-07-26
+
+### Required
+
+1. **04-nation — `couch edge` does not trace a couch edge.** The polyline starts on the left couch but then crosses the right seated figure's lap/forearm and ends in open figure/floor space. It therefore makes a false continuous-edge claim. Remove it or re-trace only a visible couch contour.
+
+2. **07-hellshire-beach-towel-with-flies — `towel fold` labels the towel's outside lower boundary.** The three-point line follows the lower silhouette of the towel rather than an internal fold. Reposition it on a visible fold or relabel it accurately.
+
+3. **10-dirty-south — `car body contour` begins in empty ground and mostly runs below the vehicle.** Its first point is left of the car and its long segment follows ground beneath the rocker/body before reaching the rear. Re-trace an actual car silhouette/body edge or rename the line as a ground-plane sweep.
+
+4. **Settings honesty — unsupported flash claims.** The chapter calls *Cowboys* and *Dirty South* “flash-lit,” calls the latter's light “flash illumination,” and `sources.md` likewise calls the *Dirty South* car flash-lit, while the research note records that lighting setup is unknown and says not to infer it from flash-like illumination. Replace these with observable-lighting language; do not assert an undocumented flash setup.
+
+### Advisory (non-blocking)
+
+- **05-the-garden-gemena-dr-congo:** `foreground grass path` is a loose route through foliage more than a distinct path. Tightening it or calling it a grass sweep would make the lesson clearer, but it does not misidentify the scene.
+- **09-congregation:** the upper and lower crowd-band polylines are interpretive routes through a continuous crowd rather than discrete bands. They remain a readable compositional aid and do not block approval.
+
+All twelve proofs were visually re-reviewed. The overlay scorer returns 100/100 for every current spec, including the items above; those geometric results do not cure the semantic feature-label errors. The previous round's resolved doorway, horse-and-rider, mask, fair-use-description, and roof-line corrections remain materially intact. All twelve documented direct display links currently return public `image/jpeg` responses, and every entry retains a credit, gallery record, and concise per-image four-factor fair-use rationale.
