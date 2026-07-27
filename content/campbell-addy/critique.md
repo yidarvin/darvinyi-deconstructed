@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -52,3 +52,20 @@ verdict: resolved
 - Replaced 08's false `SHOULDER LINE` with `JERSEY COLLAR ARC`, traced along the visible collar seam. Re-rendered the proof, visually checked it, and strict-scored it 100/100. The synchronized chapter prose now names the image field, direct gaze, and jersey-collar arc.
 - Tightened 08's source description from an unsupported claim about stance to the visible upper-body crop.
 - Reconfirmed both chapter copies are byte-identical and ran `scripts/check.sh` successfully.
+
+## Critique round — 2026-07-27
+
+### Required fixes
+
+1. **10-i-heart-campbell-06-2023 — `DRAWN OVAL ARC` still does not trace the visible black oval.** This reopens the oval item recorded as resolved in the immediately preceding 2026-07-27 resolution because the current proof and current spec materially regress from that stated result: the polyline’s middle points `(0.36, 0.42)` and `(0.57, 0.36)` run through blank space and handwriting well above the black drawn oval. Around the middle of the frame the separation is roughly 0.08–0.10 of frame height, far outside the ~2% endpoint/feature margin. Redraw the full path on the visible black oval (or remove the claim), re-render the proof, and keep the chapter’s statement that the overlay follows that oval true.
+
+### Advisory (non-blocking)
+
+- **08-bukayo-saka-time-2023:** `COVER IMAGE FIELD` still overlaps a small amount of the cover’s top-left type. It traces the correct image field and is cosmetic only.
+
+### Review evidence
+
+- Looked afresh at all twelve current proof PNGs and compared every labelled primitive with its overlay JSON and analysis record. The earlier 09 body-sweep removal, 08 collar-arc correction, and other resolved source-description changes remain materially correct.
+- All twelve current overlays strict-score 100/100; the oval problem is semantic and interpretive, so the deterministic scorer does not detect its separation from the named hand-drawn feature.
+- The chapter’s measured luminance, percentiles, palette, edge-density, and symmetry values agree with the current analysis files within the stipulated tolerance. It states no unsupported camera-setting claim.
+- All twelve cited portfolio display-file routes returned public HTTP 200 responses during this review. Each entry retains a traceable credit and a concise image-specific four-factor fair-use rationale.
