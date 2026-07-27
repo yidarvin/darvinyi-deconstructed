@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -76,3 +76,21 @@ figures in *Sisterhood in Sand* and the printed-leaf backdrop in *Girl in
 Pink*) and the subsequent 2026-07-26 round (the *Akon in Portland* trunk
 endpoint). All required fixes remain true in the current sources, proof, and
 chapter.
+
+## Critique round — 2026-07-27
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- All twelve proofs were reviewed. Each three-primitive overlay names and traces
+  a visible compositional feature; in particular, the *Akon in Portland* fallen
+  palm-trunk line remains correctly terminated at the seated figure. All current
+  specs score 100/100 against their matching analyzer JSON.
+- The chapter's stated tonal values and palette entries match the analyzer within
+  tolerance, and it makes no camera-setting claim. The Guardian's public gallery
+  independently confirms the titles, dates, and Nadine Ijewere credit for the
+  twelve selected images; every source record retains a traceable display URL and
+  concise per-image four-factor fair-use rationale.
