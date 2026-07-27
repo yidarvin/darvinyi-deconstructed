@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-the-champagne-suite.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered body" },
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.05, "w": 0.84, "h": 0.70, "label": "mirrored chamber" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.77, "rx": 0.54, "ry": 0.18, "label": "reflecting basin" }
+  ],
+  "notes": "The body rises from an oval basin against a field of reflected pin lights."
+}

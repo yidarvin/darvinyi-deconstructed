@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-tuesday-in-eternity.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "sink axis" },
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.13, "w": 0.84, "h": 0.53, "label": "painted window" },
+    { "type": "frame_in_frame", "x": 0.21, "y": 0.66, "w": 0.58, "h": 0.18, "label": "empty sink" }
+  ],
+  "notes": "Curtains and a painted pastoral window stage an empty domestic view around the sink."
+}

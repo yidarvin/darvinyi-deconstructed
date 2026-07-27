@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "image": "06-sensory-deprivation.jpg",
+  "width": 1600,
+  "height": 1066,
+  "aspect": 1.5009,
+  "tonal": {
+    "mean": 0.83627503764519,
+    "std": 0.13902166431222027,
+    "p05": 0.6078431372549019,
+    "p95": 0.996078431372549,
+    "edge_density": 0.0060727295637829914
+  },
+  "palette": [
+    "#f6f0f6",
+    "#e4c8d4",
+    "#d4a9b6",
+    "#b8919b",
+    "#6b5960"
+  ],
+  "lines": [
+    {
+      "x1": 0.099609375,
+      "y1": 0.750733137829912,
+      "x2": 0.2685546875,
+      "y2": 0.6275659824046921,
+      "angle_deg": -25.89885120689485,
+      "length": 0.15631221097532141,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6982421875,
+      "y1": 0.187683284457478,
+      "x2": 0.8134765625,
+      "y2": 0.04252199413489736,
+      "angle_deg": -39.996080047759655,
+      "length": 0.12519391050521597,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.353515625,
+      "y1": 0.873900293255132,
+      "x2": 0.435546875,
+      "y2": 0.9970674486803519,
+      "angle_deg": 45.0,
+      "length": 0.09655491334746923,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.7724609375,
+      "y1": 0.29765395894428154,
+      "x2": 0.8662109375,
+      "y2": 0.24926686217008798,
+      "angle_deg": -18.970407808486545,
+      "length": 0.08250952607653163,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.2294921875,
+      "y1": 0.8489736070381232,
+      "x2": 0.2978515625,
+      "y2": 0.7463343108504399,
+      "angle_deg": -45.0,
+      "length": 0.08046242778955769,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.287109375,
+      "y1": 0.7668621700879765,
+      "x2": 0.349609375,
+      "y2": 0.8665689149560117,
+      "angle_deg": 46.73570458892839,
+      "length": 0.0758993990001258,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.8533724340175953,
+    "angle_deg": 0.0,
+    "confidence": 0.8266450334129877,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.23650959635502286,
+    "y": 0.6922993154916678,
+    "inliers": 8,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.5849609375,
+      0.4398826979472141
+    ],
+    "regions": [
+      {
+        "cx": 0.5794424934504617,
+        "cy": 0.4335226762335262,
+        "x": 0.53515625,
+        "y": 0.3651026392961877,
+        "w": 0.08984375,
+        "h": 0.1378299120234604,
+        "area_frac": 0.00976992072947214
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.852098962686269,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.782945492366143,
+    "horizontal_axis_y": 0.4375
+  },
+  "subject_anchor": {
+    "x": 0.5849609375,
+    "y": 0.4398826979472141,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.28008461947217506,
+    "phi": 0.33607599931312104,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.237,
+      "y": 0.692,
+      "confidence": 1.0,
+      "why": "8 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.85,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.853,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.83,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.585,
+      "y": 0.44,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

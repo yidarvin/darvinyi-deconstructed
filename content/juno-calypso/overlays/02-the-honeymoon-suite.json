@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-the-honeymoon-suite.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "mirror axis" },
+    { "type": "subject_anchor", "x": 0.364, "y": 0.466, "r": 0.045, "label": "left reflection" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.67, "rx": 0.42, "ry": 0.14, "label": "pink tub rim" }
+  ],
+  "notes": "The tub holds the body on the mirror axis while the reflections multiply a solitary scene."
+}

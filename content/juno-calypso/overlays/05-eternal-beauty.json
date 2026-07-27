@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-eternal-beauty.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.72, "cy": 0.43, "rx": 0.22, "ry": 0.21, "label": "masked face" },
+    { "type": "polyline", "points": [[0.00, 0.77], [0.51, 0.79], [1.00, 0.82]], "label": "pillow seam" },
+    { "type": "polyline", "points": [[0.04, 0.42], [0.38, 0.57], [0.55, 0.75]], "label": "reclining body" }
+  ],
+  "notes": "The mask turns the reclining body into a pale, close-cropped cosmetic tableau."
+}

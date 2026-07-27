@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-a-cure-for-death.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "doorway axis" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.17, "w": 0.29, "h": 0.69, "label": "lit doorway" },
+    { "type": "polyline", "points": [[0.00, 0.86], [0.50, 0.87], [1.00, 0.86]], "label": "brick sill" }
+  ],
+  "notes": "A bright doorway cuts into the dark brick facade and reduces the body to a threshold event."
+}
