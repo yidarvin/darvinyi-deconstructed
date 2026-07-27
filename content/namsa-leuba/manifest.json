@@ -1,0 +1,125 @@
+[
+  {
+    "file": "01-chunara.jpg",
+    "width": 1325,
+    "height": 1600,
+    "sha1": "2b2c459f",
+    "source": "01-chunara.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-maria.jpg",
+    "width": 1316,
+    "height": 1600,
+    "sha1": "0ae25f3c",
+    "source": "02-maria.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-kokos.jpg",
+    "width": 1334,
+    "height": 1600,
+    "sha1": "4103775a",
+    "source": "03-kokos.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-black-jc.jpg",
+    "width": 1066,
+    "height": 1600,
+    "sha1": "532d9544",
+    "source": "04-black-jc.jpg",
+    "exif": {
+      "Make": "NIKON CORPORATION",
+      "Model": "NIKON D800",
+      "DateTimeOriginal": "2016:04:19 15:56:49",
+      "FocalLength": "62.0",
+      "ExposureTime": "0.008",
+      "FNumber": "3.2",
+      "ISOSpeedRatings": "5000",
+      "LensModel": "24.0-70.0 mm f/2.8"
+    }
+  },
+  {
+    "file": "05-azaca.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "bcef4200",
+    "source": "05-azaca.jpg",
+    "exif": {
+      "Make": "NIKON CORPORATION",
+      "Model": "NIKON D800",
+      "DateTimeOriginal": "2017:02:08 19:11:25",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.008",
+      "FNumber": "10.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "24.0-70.0 mm f/2.8"
+    }
+  },
+  {
+    "file": "06-transe-a.jpg",
+    "width": 1066,
+    "height": 1600,
+    "sha1": "218c9306",
+    "source": "06-transe-a.jpg",
+    "exif": {
+      "Make": "NIKON CORPORATION",
+      "Model": "NIKON D800",
+      "DateTimeOriginal": "2017:02:08 20:44:37",
+      "FocalLength": "105.0",
+      "ExposureTime": "0.008",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "105.0 mm f/2.8"
+    }
+  },
+  {
+    "file": "07-power.jpg",
+    "width": 1313,
+    "height": 1600,
+    "sha1": "aef3c185",
+    "source": "07-power.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-passports.jpg",
+    "width": 1313,
+    "height": 1600,
+    "sha1": "8d7a7528",
+    "source": "08-passports.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-16-june.jpg",
+    "width": 1314,
+    "height": 1600,
+    "sha1": "09976f08",
+    "source": "09-16-june.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-umfana.jpg",
+    "width": 1324,
+    "height": 1600,
+    "sha1": "bca2d7dd",
+    "source": "10-umfana.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-qkhwini.jpg",
+    "width": 1324,
+    "height": 1600,
+    "sha1": "9af0af84",
+    "source": "11-qkhwini.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-sangoma.jpg",
+    "width": 1324,
+    "height": 1600,
+    "sha1": "1fd78473",
+    "source": "12-sangoma.jpg",
+    "exif": {}
+  }
+]

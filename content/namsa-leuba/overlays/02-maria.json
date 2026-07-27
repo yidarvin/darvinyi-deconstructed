@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-maria.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.46, "rx": 0.14, "ry": 0.35, "label": "FRONTAL FIGURE" },
+    { "type": "polyline", "points": [[0.51, 0.17], [0.50, 0.42], [0.50, 0.74]], "label": "POSE AXIS" },
+    { "type": "ellipse", "cx": 0.27, "cy": 0.63, "rx": 0.25, "ry": 0.18, "label": "TEXTILE CLUSTER" }
+  ],
+  "notes": "A frontal body is held apart from the low, colourful textile cluster."
+}

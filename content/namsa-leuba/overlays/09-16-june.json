@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-16-june.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.48, "rx": 0.14, "ry": 0.36, "label": "STILT-BORNE FIGURE" },
+    { "type": "polyline", "points": [[0.48, 0.15], [0.56, 0.31], [0.53, 0.55]], "label": "RAISED STAFF" },
+    { "type": "polyline", "points": [[0.10, 0.76], [0.44, 0.63], [0.74, 0.51]], "label": "CAST SHADOW" }
+  ],
+  "notes": "A towering figure and its long ground shadow make a staged action read across an open lot."
+}

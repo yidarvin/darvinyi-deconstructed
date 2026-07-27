@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-azaca.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.15, "y": 0.16, "w": 0.66, "h": 0.72, "label": "CURTAINED ENCLOSURE" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.51, "rx": 0.20, "ry": 0.39, "label": "ENCLOSED FIGURE" },
+    { "type": "polyline", "points": [[0.31, 0.22], [0.49, 0.17], [0.68, 0.24]], "label": "UPPER GARLAND ARC" }
+  ],
+  "notes": "A repeated curtain enclosure makes the still central body feel ceremonial and tall."
+}

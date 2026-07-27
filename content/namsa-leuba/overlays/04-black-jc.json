@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-black-jc.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.35, "cy": 0.37, "rx": 0.27, "ry": 0.32, "label": "DARK PROFILE" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.61, "rx": 0.24, "ry": 0.31, "label": "PALE COUNTER-FIGURE" },
+    { "type": "polyline", "points": [[0.21, 0.08], [0.41, 0.29], [0.56, 0.52], [0.75, 0.78]], "label": "FIGURE-TO-FIGURE DIAGONAL" }
+  ],
+  "notes": "Two contrasting figures form a steep, tightly cropped diagonal exchange."
+}

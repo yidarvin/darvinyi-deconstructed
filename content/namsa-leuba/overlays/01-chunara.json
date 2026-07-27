@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-chunara.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.54, "rx": 0.24, "ry": 0.45, "label": "COSTUMED FIGURE" },
+    { "type": "polyline", "points": [[0.45, 0.10], [0.53, 0.18], [0.51, 0.50], [0.48, 0.94]], "label": "MASK-TO-BODY AXIS" },
+    { "type": "polyline", "points": [[0.18, 0.76], [0.29, 0.59], [0.39, 0.70]], "label": "FURRY FOREGROUND COUNTERWEIGHT" }
+  ],
+  "notes": "A masked vertical figure holds a sparse blue field against a low furry counterweight."
+}
