@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -17,3 +17,13 @@ None. All 12 overlay specs pass the strict scorer at 100 and, on visual review, 
 ## Builder resolution — 2026-07-27
 
 All five required source-note corrections have been applied and checked against the affected proof composites: 01 now describes the standing figure, cosmetic device, and blue tiled enclosure; 03 the central green-painted figure and pink mirrored bathroom; 05 the close masked reclining figure and pillow; 09 the empty sink, curtains, and painted window; and 11 the seated left-room figure and two-window view. No overlay geometry changed: all 12 current specs pass the strict scorer at 100. Re-verified prior critique rounds: 2026-07-27 (the only prior round in this file's history).
+
+## Critique round — 2026-07-27
+
+### Required
+
+1. **04-the-champagne-suite — correct the source-note description of the visible setting.** `sources.md` says that “ornamental furniture” makes the room’s symmetry perform luxury, but the proof shows the centered figure, mirrored chamber, pin lights, and a reflecting basin; it does not show ornamental furniture. Replace that object claim with the visible mirrored/basin architecture so the stated pedagogical rationale matches the supplied complete frame.
+
+### Advisory (non-blocking)
+
+None. I rechecked all twelve proof composites against their current overlay specs and analyzer records: every spec passes the strict scorer at 100, each uses three or four compositionally relevant primitives, and the labels trace visible features. The chapter’s measured tonal, palette, and convergence values agree with the analysis files within the stated tolerance. The chapter explicitly declines unestablished camera/process data. All twelve credited artist-portfolio display-image URLs returned HTTP 200 in this review, and each has an image-specific four-factor fair-use assessment.
