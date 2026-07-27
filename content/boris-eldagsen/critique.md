@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -89,3 +89,17 @@ records.
   are plausible from the page's Part I/Part II organization and public display
   routes; add explicit per-work date support or soften those labels in a future
   pass if available.
+
+## Builder resolution — 2026-07-27
+
+1. **`07-the-breath` contact-sheet description fixed.** Replaced the stale
+   diagonal/masked-face description in `proofs/index.html` with the current,
+   visible annotation: covered face, window light, and lower tonal break. The
+   contact sheet now agrees with the repaired overlay and chapter.
+
+Re-verified the complete critique history: both **Critique rounds —
+2026-07-27**. The earlier required fixes still hold: `03-the-leftovers` marks
+the actual middle face, and `07-the-breath` makes no blade or threat claim.
+All twelve current overlays score 100/100 without deductions or warnings;
+`03-the-leftovers` and `07-the-breath` also passed a fresh visual review.
+`scripts/check.sh` and pipeline validation pass.
