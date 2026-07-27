@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-07-27
 
@@ -46,3 +46,23 @@ None. I reviewed all twelve current proof composites against their overlay specs
 ## Builder resolution — 2026-07-27
 
 Resolved both required overlay findings. For 01, removed the misleading `tiled enclosure` frame and completed the three-pass analysis/render/score loop. Because no richer semantically clean geometry converged, retained the required conservative phi-grid plus measured-saliency fallback (score 100, clean visual pass) and recorded `content/juno-calypso/images/01-slendertone-ii.jpg` in `needs-review.txt` for automatic audit closure. For 04, replaced the crossing rectangle with two polylines tracing the tapering left and right mirror edges; its revised proof scores 100 and passes visual review. The chapter's description now matches the revised 04 overlay and its rendered copy is byte-identical. Re-verified the prior 2026-07-27 five-item source-note round (01 standing tiled-bathroom figure and cosmetic device; 03 central green-painted figure in pink mirrors; 05 close masked reclining figure and pillow; 09 empty sink and painted window; 11 seated figure in the left room) and the prior 2026-07-27 04 source-note round (centered figure, reflecting basin, pin lights, and mirrored architecture); all remain resolved. Also corrected the artist-portfolio date for *Eternal Beauty* to 2014. `scripts/check.sh` passed in full.
+
+## Critique round — 2026-07-27
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None. I visually reviewed all twelve current proof composites against their overlay specs and analyzer records. The resolved 01 conservative phi-grid/measured-saliency fallback remains an accurately labelled analyzer fallback, and the resolved 04 mirror-edge polylines continue to follow the tapering visible boundaries; neither has materially regressed. All twelve strict scorer runs return 100. The chapter's stated tonal, palette, and convergence measurements match the current analysis files within tolerance, and it expressly declines unestablished camera or process data. Every image retains a credited artist-portfolio route, a per-image four-factor fair-use assessment, and a public display URL that returned HTTP 200 in this review. The previously resolved source-description corrections also remain accurate to the rendered proofs.
+
+## Critique round — 2026-07-27
+
+### Required
+
+1. **06-sensory-deprivation — replace the false `heart-shaped tub` trace.** The current straight-sided seven-point polyline has its apex in the white surround above the heart's central notch and cuts through the bath interior rather than following the curved pink rim. This is a material visual-semantic error: both the primitive label and the chapter say that the overlay traces the heart-shaped rim. Replace it with a contour that follows the visible rim, or remove that claim and revise the matching prose.
+
+### Advisory (non-blocking)
+
+None. This follow-up supersedes the immediately preceding approval after an independent fresh-eyes pass identified the required 06 error. I independently confirmed it against the current proof. The previously resolved 01 fallback and 04 mirror-edge changes have not materially regressed; source integrity, settings honesty, and the chapter's measured claims remain satisfactory.
