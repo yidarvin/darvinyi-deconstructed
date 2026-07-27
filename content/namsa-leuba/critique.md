@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-27
 
@@ -136,3 +136,29 @@ The refreshed 12-image contact sheet is present. `scripts/check.sh` passes
 (362 tests, production build, and lint), the rendered chapter is byte-identical to
 `content/namsa-leuba/chapter.mdx`, and `python3 scripts/validate_pipeline.py`
 passes.
+
+## Critique round — 2026-07-27
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Checks completed
+
+- Completed a fresh visual pass over all twelve current proof PNGs and checked
+  each paired overlay and analysis JSON. The eight previously required repairs
+  remain materially correct; no settled finding has regressed.
+- All twelve overlay specs score 100/100 at the 80-point gate. The current
+  proofs support each semantic overlay label, including the repaired window,
+  hand-to-paper, staff, shadow, wrap-edge, ridge, and figure-anchor claims.
+- Chapter titles, dates, captions, measured palette/tonal/edge-density values,
+  grid claims, and the three retained *Weke* EXIF records agree with the
+  manifest, analyses, and source record within the stated tolerance.
+- The twelve public image URLs returned HTTP 206 (range request) and the four
+  official project pages returned HTTP 200. Every image retains a traceable
+  artist/archive source, credit, and concise four-factor fair-use rationale;
+  no source-integrity blocker was found.
