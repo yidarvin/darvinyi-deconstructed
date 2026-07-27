@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-26
 
@@ -39,3 +39,26 @@ byte-identical and `python3 scripts/validate_pipeline.py` passes. The full
 test suite passes under the repository's pinned Node 22. Vitest's default fork
 pool stalls before reporting tests in this environment; its thread pool completes
 the same suite, including Viviane Sassen's direct and routed chapter renders.
+
+## Critique round — 2026-07-26
+
+### Required fixes
+
+None.
+
+Every proof was re-read against its overlay spec and source/chapter record. The
+three fixes resolved in the preceding round remain materially correct: **08-marte-01**
+does not claim a shoulder contour, **10-almando-fuchsia** traces the visible top
+and lower paper edges rather than a rectangle, and **09-mirari-2** identifies the
+visible trunks and water/reflection. Each current spec has 2–4 pedagogically
+distinct primitives and scores 100/100 against its matching analysis. The
+chapter's palette, tonal, edge-density, and retained-file EXIF claims match the
+analysis and manifest; the source record supplies traceable artist-archive links,
+credits, and the documented fair-use rationale for every image.
+
+### Advisory (non-blocking)
+
+- **07-axiom-g03:** The closing green-shadow path still crosses the label backing
+  for `GREEN CAST SHADOW PLANE` in the proof. The path correctly follows the
+  shadow plane and the label remains intelligible, so this is cosmetic and does
+  not reopen the prior advisory.
