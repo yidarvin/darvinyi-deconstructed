@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-taboo.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.465, "angle": 0, "label": "light-to-dark break" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.59, "rx": 0.4, "ry": 0.31, "label": "overlapping bat mass" },
+    { "type": "polyline", "points": [[0.13, 0.84], [0.43, 0.62], [0.67, 0.47], [0.87, 0.2]], "label": "overlapping bat contour" }
+  ],
+  "notes": "An overlapping bat mass presses across the frame, while the large black surround makes every ear, muzzle, and eye feel more exposed."
+}

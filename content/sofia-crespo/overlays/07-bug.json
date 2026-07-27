@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-bug.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "specimen axis" },
+    { "type": "subject_anchor", "x": 0.662, "y": 0.242, "r": 0.035, "label": "right-side limb" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.5, "rx": 0.29, "ry": 0.4, "label": "beetle body" }
+  ],
+  "notes": "The black ground isolates a tall, nearly bilateral beetle body, so stray limbs and detached fragments read as a pressure around its specimen axis."
+}

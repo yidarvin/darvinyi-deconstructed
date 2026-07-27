@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-the-lovers.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "specimen axis" },
+    { "type": "subject_anchor", "x": 0.522, "y": 0.211, "r": 0.035, "label": "upper luminous fold" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.51, "rx": 0.32, "ry": 0.36, "label": "encapsulated body" }
+  ],
+  "notes": "The tall black field turns one overlapping oval mass into a specimen-like presence whose brightest fold sits high in the frame."
+}

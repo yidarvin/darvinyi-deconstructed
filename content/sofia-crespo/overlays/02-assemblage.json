@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-assemblage.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.488, "label": "body axis" },
+    { "type": "subject_anchor", "x": 0.664, "y": 0.773, "r": 0.035, "label": "lower bright mass" },
+    { "type": "ellipse", "cx": 0.515, "cy": 0.53, "rx": 0.36, "ry": 0.41, "label": "assembled silhouette" }
+  ],
+  "notes": "A near-bilateral body is held in the square while translucent limbs and color pockets make its center feel assembled rather than anatomically stable."
+}

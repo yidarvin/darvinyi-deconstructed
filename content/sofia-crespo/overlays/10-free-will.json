@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-free-will.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "standing body axis" },
+    { "type": "polyline", "points": [[0.48, 0.05], [0.47, 0.33], [0.48, 0.62], [0.48, 0.92]], "label": "stacked anatomy" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.54, "rx": 0.27, "ry": 0.47, "label": "anatomical figure" }
+  ],
+  "notes": "A frontal anatomical figure holds the square at near-center, while smaller partial bodies around it make the body read as a taxonomy rather than an isolated portrait."
+}

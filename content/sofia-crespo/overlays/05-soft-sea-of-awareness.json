@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-soft-sea-of-awareness.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.613, "label": "field balance" },
+    { "type": "subject_anchor", "x": 0.134, "y": 0.038, "r": 0.035, "label": "upper jellyfish" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.61, "rx": 0.35, "ry": 0.3, "label": "central translucent cluster" }
+  ],
+  "notes": "A large transparent cluster gathers several small jellyfish into one soft mass, while isolated lights keep the black field open around it."
+}
