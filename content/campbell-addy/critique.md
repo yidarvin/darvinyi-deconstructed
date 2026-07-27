@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -20,3 +20,11 @@ verdict: revise
 - All twelve specs score 100/100 in the deterministic overlay scorer. The required issues above concern interpretive polylines, which the scorer bounds-checks but cannot semantically validate.
 - The chapter’s reported tonal values match the current analysis files within the stated tolerance; it also explicitly avoids inventing camera settings.
 - Every listed Squarespace source route returned a public image response during this review, and each fair-use entry supplies a four-factor rationale. The blocking source issue is the inaccurate per-image descriptive text, not access, credit, or rights-route documentation.
+
+## Resolution — 2026-07-27
+
+- Re-verified the full critique history: the 2026-07-27 round (the only prior round).
+- Removed the unsupported `RECLINING BODY SWEEP` from 09; the remaining ellipse and `LEFTWARD FIGURE CHAIN` stay on the lit cluster. Re-rendered proof and strict-scored 100/100.
+- Removed the unsupported `HEAD RHYTHM` from 10 and redrew `DRAWN OVAL ARC` on the visible black oval. Re-rendered proof and strict-scored 100/100; the chapter now remains accurate in saying that the overlay follows the visible oval.
+- Corrected the cited source descriptions and their directly related fair-use teaching rationales for 01, 03, 07, 08, 09, 10, and 12 to match the ingested frames.
+- Reconfirmed both chapter copies are byte-identical and ran `scripts/check.sh` successfully.

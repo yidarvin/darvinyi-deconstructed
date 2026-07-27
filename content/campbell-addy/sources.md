@@ -7,9 +7,9 @@ This 12-image set is drawn from the high-resolution display files published in A
 ## Shortlist
 
 ### 01 — *Colman Domingo for Time* (2025)
-- **Why it matters:** A long, front-facing portrait uses the clothing silhouette and dark surround to turn the figure into a centered vertical monument.
+- **Why it matters:** A reclining body, lifted legs, and held branch make crossing diagonals across a textured grayscale studio field.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1747840960535-ALWSFLF8X8KECX7M57BJ/250119_CA_Time_ColmanDomingo_S01_0019_v1a.jpg)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Time* editorial context indicated by the filename. **Factor 1:** transformative criticism studies centered scale, silhouette, and tonal containment. **Factor 2:** a creative contemporary editorial portrait. **Factor 3:** the intact vertical frame is necessary to judge body, clothing, and surrounding negative space together. **Factor 4:** this credited 2500 × 3342px public portfolio copy links to the artist and does not replace the editorial publication or a licensed file.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Time* editorial context indicated by the filename. **Factor 1:** transformative criticism studies the held branch, reclining pose, and tonal containment. **Factor 2:** a creative contemporary editorial portrait. **Factor 3:** the intact frame is necessary to judge body, branch, and surrounding negative space together. **Factor 4:** this credited 2500 × 3342px public portfolio copy links to the artist and does not replace the editorial publication or a licensed file.
 - **File:** `raw/campbell-addy/01-colman-domingo-time-2025.jpg` (2500 × 3342px)
 
 ### 02 — *Lewis Hamilton for GQ* (2023)
@@ -19,9 +19,9 @@ This 12-image set is drawn from the high-resolution display files published in A
 - **File:** `raw/campbell-addy/02-lewis-hamilton-gq-2023.jpg` (2500 × 3125px)
 
 ### 03 — *Vogue Spain, Hand Print* (undated; portfolio display current 2025)
-- **Why it matters:** A large printed hand becomes a graphic counterweight to the model, making touch and surface pattern the picture’s primary compositional event.
+- **Why it matters:** Four figures share a compact blue-backed group; staggered faces, hands, and shoulders lock into an interdependent portrait block.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1744881379138-MDLMPM591A21XTSN2XQM/CA_Vogue_Spain_Hand_Print+%284%29_V2.jpg)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Vogue Spain* editorial context indicated by the filename. **Factor 1:** transformative criticism examines visual rhyme between the printed hand, live figure, and patterned surface. **Factor 2:** a creative fashion photograph. **Factor 3:** the complete vertical field is required to preserve the scale relationship. **Factor 4:** this credited 2447 × 3000px public portfolio display copy cannot replace the original commission or a licensed image.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Vogue Spain* editorial context indicated by the filename. **Factor 1:** transformative criticism examines group geometry, varied face directions, and joining gestures. **Factor 2:** a creative fashion photograph. **Factor 3:** the complete vertical field is required to preserve the figures’ interlocking arrangement. **Factor 4:** this credited 2447 × 3000px public portfolio display copy cannot replace the original commission or a licensed image.
 - **File:** `raw/campbell-addy/03-vogue-spain-hand-print.jpg` (2447 × 3000px)
 
 ### 04 — *Vanishing Evenings for Vogue US* (2024)
@@ -43,27 +43,27 @@ This 12-image set is drawn from the high-resolution display files published in A
 - **File:** `raw/campbell-addy/06-liya-kebede-vogue-italia-2023.jpg` (1240 × 1550px)
 
 ### 07 — *I ♥ Campbell*, exhibition work 21 (2023)
-- **Why it matters:** The figure’s stylized presence is held against a saturated field, making costume, pose, and lighting operate as a single symbolic arrangement.
+- **Why it matters:** A high-key black-and-white portrait sets a dark frontal torso and asymmetric rising hair silhouette against a nearly white field.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1701168789423-ICFPZ776AG6VIRKVTC71/Campbell_Addy_Solo_Show_21_50%E2%80%9D+x+60.692%E2%80%9D_V1a.jpg; exhibition context: https://campbelladdy.com/s/I-3-Campbell-3.pdf)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy. **Factor 1:** transformative composition teaching examines symbolic styling, central figure placement, and colored surround. **Factor 2:** a creative contemporary art photograph. **Factor 3:** the full vertical composition is necessary to connect pose, costume, and setting. **Factor 4:** the credited 2500 × 3126px web display copy is non-substitutive of an exhibition work, print, or licensed reproduction.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy. **Factor 1:** transformative composition teaching examines high-key contrast, frontal placement, and the hair silhouette. **Factor 2:** a creative contemporary art photograph. **Factor 3:** the full vertical composition is necessary to connect torso, hair, and surrounding white field. **Factor 4:** the credited 2500 × 3126px web display copy is non-substitutive of an exhibition work, print, or licensed reproduction.
 - **File:** `raw/campbell-addy/07-i-heart-campbell-21-2023.jpg` (2500 × 3126px)
 
 ### 08 — *Bukayo Saka for Time Next Generation Leaders* (2023)
-- **Why it matters:** The portrait uses the cover’s tall, restrained field to isolate a seated figure and make the gaze a visual anchor rather than merely a likeness.
+- **Why it matters:** The cover crops a standing portrait at the torso, using the face, white jersey, red border, and blue typography as one designed address.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1701186411144-QU8QKLKWXVFKNQ8DW11B/TIME-NGL-Cover-Bukayo-Saka.jpg)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Time* cover context indicated by the filename. **Factor 1:** transformative teaching analyzes seated pose, open field, and facial anchoring. **Factor 2:** a creative editorial portrait. **Factor 3:** the whole tall frame is needed to read the relation of seated figure to surrounding space. **Factor 4:** this credited 2363 × 3150px public portfolio copy links to the artist and cannot replace the magazine cover or a licensed image.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *Time* cover context indicated by the filename. **Factor 1:** transformative teaching analyzes facial anchoring, jersey texture, and cover typography. **Factor 2:** a creative editorial portrait. **Factor 3:** the whole cover frame is needed to read the relation of portrait to the red border and type. **Factor 4:** this credited 2363 × 3150px public portfolio copy links to the artist and cannot replace the magazine cover or a licensed image.
 - **File:** `raw/campbell-addy/08-bukayo-saka-time-2023.jpg` (2363 × 3150px)
 
 ### 09 — *I ♥ Campbell*, hand-print work (2023)
-- **Why it matters:** The panoramic format turns the handprint into a horizontal rhythm, allowing texture and repeated marks to carry as much weight as the figure.
+- **Why it matters:** A dim, lit cluster of bodies gathers at left and center before the panorama releases into a broad black field at right.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1701167838444-3SCSMVMUB29W6V1ZO6A5/CA_180STRAND_HANDPRINT1_v3.jpg; exhibition context: https://campbelladdy.com/s/I-3-Campbell-3.pdf)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy. **Factor 1:** transformative criticism studies repeated mark-making, horizontal pacing, and figure-surface interaction. **Factor 2:** a creative contemporary art photograph. **Factor 3:** the whole panorama is necessary to see the rhythm of the prints across the frame. **Factor 4:** this credited 2500 × 1250px display file is web-sized and cannot replace an exhibition work, print, or licensed image.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy. **Factor 1:** transformative criticism studies the clustered bodies, their low horizontal pacing, and the release into dark space. **Factor 2:** a creative contemporary art photograph. **Factor 3:** the whole panorama is necessary to see the relation of the lit cluster to the black field. **Factor 4:** this credited 2500 × 1250px display file is web-sized and cannot replace an exhibition work, print, or licensed image.
 - **File:** `raw/campbell-addy/09-i-heart-campbell-handprint-2023.jpg` (2500 × 1250px)
 
 ### 10 — *I ♥ Campbell*, exhibition work 06 (2023)
-- **Why it matters:** A tall, ceremonially posed figure uses frontal symmetry and tactile surface to make identity legible through both costume and spatial control.
+- **Why it matters:** Five painted faces form a low, uneven portrait row beneath a visible black oval and handwritten editorial marks.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1701168654921-MZPSG8EUTGFB2RQW3CJK/Campbell_Addy_Solo_Show_06_59_+x+71.617__V1a.jpg; exhibition context: https://campbelladdy.com/s/I-3-Campbell-3.pdf)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy. **Factor 1:** transformative scholarship examines symmetry, surface, and ceremonial pose. **Factor 2:** a creative contemporary art photograph. **Factor 3:** the complete vertical frame is necessary to judge the figure’s symmetry and its surround. **Factor 4:** the credited 2500 × 3126px public portfolio derivative does not replace the exhibition work, print, or licensed reproduction.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy. **Factor 1:** transformative scholarship examines the portrait row, painted facial patterning, and the drawn oval. **Factor 2:** a creative contemporary art photograph. **Factor 3:** the complete vertical frame is necessary to judge the faces’ relation to the oval and handwritten marks. **Factor 4:** the credited 2500 × 3126px public portfolio derivative does not replace the exhibition work, print, or licensed reproduction.
 - **File:** `raw/campbell-addy/10-i-heart-campbell-06-2023.jpg` (2500 × 3126px)
 
 ### 11 — *I ♥ Campbell*, exhibition work 04 (2023)
@@ -73,9 +73,9 @@ This 12-image set is drawn from the high-resolution display files published in A
 - **File:** `raw/campbell-addy/11-i-heart-campbell-04-2023.jpg` (2500 × 3126px)
 
 ### 12 — *Meghan for The Cut* (2018)
-- **Why it matters:** The cover-style portrait creates an emphatic central axis, using facial direction, dress, and a bounded vertical frame to make celebrity portraiture feel formally spare.
+- **Why it matters:** This close cover portrait uses a centered face, middle parting, green earrings, masthead, and lower type band to compress the frame around direct address.
 - **Source:** https://campbelladdy.com/selected-works (artist portfolio; public display file: https://images.squarespace-cdn.com/content/v1/58ea12fbd2b8576a9d65536a/1701186414276-RFTADXWJ7UMPA2B8VH3F/1822-COV-CUT-MEGHAN-4x5.jpg)
-- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *The Cut* cover context indicated by the filename. **Factor 1:** transformative criticism studies centrality, wardrobe silhouette, and controlled cover framing. **Factor 2:** a creative editorial portrait. **Factor 3:** the intact vertical image is necessary to assess the cover’s full-body hierarchy. **Factor 4:** this credited 2400 × 3000px public portfolio display copy does not replace the editorial issue or a licensed reproduction.
+- **Rights / fair-use assessment:** Campbell Addy; © Campbell Addy, with *The Cut* cover context indicated by the filename. **Factor 1:** transformative criticism studies facial centrality, the middle parting, and controlled cover framing. **Factor 2:** a creative editorial portrait. **Factor 3:** the intact cover image is necessary to assess the relation of face to masthead and lower type band. **Factor 4:** this credited 2400 × 3000px public portfolio display copy does not replace the editorial issue or a licensed reproduction.
 - **File:** `raw/campbell-addy/12-meghan-the-cut-2018.jpg` (2400 × 3000px)
 
 ## Research context
