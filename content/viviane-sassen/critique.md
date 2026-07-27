@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-26
 
@@ -16,3 +16,26 @@ verdict: revise
 ### Verification
 
 All ten proof PNGs were visually reviewed against their specs. The current overlay score is 100/100 for every image. All ten documented artist-archive image URLs returned HTTP 200 during this review; the official project pages corroborate the listed titles, series, and dates. The per-image fair-use notes provide the required four-factor rationale, and the retained EXIF claims match `manifest.json`.
+
+## Resolution — 2026-07-26
+
+- **08-marte-01:** Removed the unsupported `SHOULDER CONTOUR` polyline. The
+  remaining ellipse truthfully identifies the curved back and the chapter no
+  longer claims a shoulder-tracing path. Fresh render, visual pass, and scorer:
+  100/100.
+- **10-almando-fuchsia:** Replaced the false rectangular `FUCHSIA SHEET` frame
+  with separate `SHEET TOP EDGE` and `SHEET LOWER EDGE` polylines that follow
+  the visible tilted paper edges. The chapter describes those edge traces rather
+  than a rectangular internal frame. Fresh render, visual pass, and scorer:
+  100/100.
+- **09-mirari-2:** Corrected the source record to identify the visible tree
+  trunks and water/reflection, and updated its fair-use teaching rationale from
+  patterned occlusion to reflected interruption.
+
+Re-verified every required fix from the only prior critique round
+(**2026-07-26**): 08 has no false shoulder claim, 10 has no rectangular sheet
+claim, and 09's source description matches the image. The chapter copies remain
+byte-identical and `python3 scripts/validate_pipeline.py` passes. The full
+test suite passes under the repository's pinned Node 22. Vitest's default fork
+pool stalls before reporting tests in this environment; its thread pool completes
+the same suite, including Viviane Sassen's direct and routed chapter renders.

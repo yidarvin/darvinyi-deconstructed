@@ -90,11 +90,12 @@ record; it does not replace an original, exhibition, monograph, or licensed prin
      transformative criticism and does not substitute for the artist's work.
 
 9. **Mirari #2** (2013), from *Pikin Slee* — `raw/viviane-sassen/09-mirari-2.jpg`
-   - **Why it matters:** The image brings a body, patterned surface, and deep shadow
-     into a tightly balanced graphic construction.
+   - **Why it matters:** Two dark tree trunks cut through a luminous field of water
+     and reflection, making interruption and sideways balance the image's graphic
+     construction.
    - **Collection/source:** Viviane Sassen, [*Pikin Slee* project page](https://www.vivianesassen.com/works/pikin-slee/); direct public web rendition: `https://www.vivianesassen.com/site/assets/files/3413/suriname_2013_520_no_title.jpg`.
    - **Use basis:** **fair-use**. Its full frame is required to teach balance and
-     patterned occlusion; this credited, linked, web-sized scholarly use is
+     reflected interruption; this credited, linked, web-sized scholarly use is
      transformative and non-substitutive.
 
 10. **Almando fuchsia** (2013), from *Pikin Slee* — `raw/viviane-sassen/10-almando-fuchsia.jpg`
