@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.51, "cy": 0.48, "rx": 0.19, "ry": 0.42, "label": "RED-ROBED FIGURE" },
-    { "type": "polyline", "points": [[0.50, 0.11], [0.48, 0.33], [0.53, 0.71]], "label": "HEADDRESS-TO-ROBE AXIS" },
-    { "type": "polyline", "points": [[0.23, 0.18], [0.40, 0.15], [0.68, 0.20]], "label": "ROCK SHELTER ARC" }
+    { "type": "polyline", "points": [[0.50, 0.11], [0.48, 0.33], [0.53, 0.71]], "label": "HEADDRESS-TO-ROBE AXIS" }
   ],
-  "notes": "The bright red robe is held upright inside the low, dark arc of rock."
+  "notes": "The bright red robe makes a vertical interruption against the dark rock field."
 }

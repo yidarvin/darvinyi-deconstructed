@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -49,3 +49,32 @@ The four affected images were re-analyzed, rendered, and scored at 100/100; the 
 - Looked at every current proof PNG and its paired overlay/analysis JSON, including a regression pass over the six fixes resolved in the prior round. Those six repairs remain materially correct.
 - Chapter palette, tonal, edge-density, grid, and recorded per-file camera-metadata claims match the current analyses and manifest within tolerance.
 - All twelve official project-page links and all twelve direct image links in `sources.md` returned HTTP 200 in this review. Each image has an artist credit, route, and concise per-image four-factor fair-use rationale; no source-integrity blocker was found.
+
+## Builder resolution — 2026-07-27
+
+Re-verified the full critique history: the first **2026-07-27** round (six
+required repairs), its prior builder resolution, and the current **2026-07-27**
+round (one required repair). All seven required fixes now hold against the current
+overlays, proofs, and matching chapter prose.
+
+1. **08-passports — OPEN WINDOW and BODY-TO-DOCUMENT GESTURE.** The frame remains
+   fitted to the right open window; the arm path now reaches the held paper.
+2. **09-16-june — RAISED STAFF and CAST SHADOW.** Both repaired paths remain on
+   their named visible features.
+3. **10-umfana — BLUE WRAP EDGE.** The path remains on the outer blue-wrap
+   boundary.
+4. **12-sangoma — MOUNTAIN BACKDROP.** The path remains restricted to the short
+   exposed ridge at left.
+5. **11-qkhwini — ROCK SHELTER ARC.** Removed the unsupported rock-arc primitive
+   and revised its overlay note, plate caption, and paragraph to the defensible
+   figure-against-rock-field claim.
+
+As a non-blocking visual-QA hardening pass, refit the *Transe A* fringe, *Power*
+raised arm, and *Passports* hand-to-paper paths. Every affected proof was rendered
+and visually reviewed; each scores 100/100. The independent composition review
+approved the four refreshed proofs. The *Azaca* edge-density wording no longer
+claims an incorrect chapter-wide maximum, and the source record now identifies the
+artist/archive credit without asserting unverified rightsholdership.
+
+`scripts/check.sh` passes, the content and rendered chapter files are
+byte-identical, and `python3 scripts/validate_pipeline.py` passes.

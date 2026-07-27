@@ -10,8 +10,8 @@ paywall, or other access-control bypass. Every file opened successfully after
 download; the shortest long edge is 2,584px, so all exceed the 640px floor without
 upscaling or alteration.
 
-All selections are **fair-use**. Namsa Leuba is the identified artist and
-rightsholder/credit on the official archive; no open licence is offered. Each item
+All selections are **fair-use**. Namsa Leuba is the identified artist, and the
+official archive credits her; no open licence is offered. Each item
 below records a separate four-factor assessment: (1) this book's web-sized use is
 transformative criticism, scholarship, and composition teaching; (2) the work is a
 creative contemporary photograph, which weighs against use; (3) the complete frame

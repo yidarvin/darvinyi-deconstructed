@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.451, "angle": 0.0, "label": "SETTLEMENT LINE" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.46, "rx": 0.12, "ry": 0.31, "label": "RAISED FIGURE" },
-    { "type": "polyline", "points": [[0.50, 0.17], [0.57, 0.30], [0.54, 0.43]], "label": "UPLIFTED ARM" }
+    { "type": "polyline", "points": [[0.59, 0.15], [0.60, 0.29], [0.54, 0.43]], "label": "UPLIFTED ARM" }
   ],
   "notes": "A raised arm breaks the broad sky-to-settlement split above a precarious stump."
 }

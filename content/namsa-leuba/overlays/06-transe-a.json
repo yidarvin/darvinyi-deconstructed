@@ -4,7 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.51, "cy": 0.42, "rx": 0.25, "ry": 0.32, "label": "MASKED HEAD" },
-    { "type": "polyline", "points": [[0.33, 0.16], [0.47, 0.28], [0.61, 0.56], [0.70, 0.90]], "label": "FALLING FRINGE" },
+    { "type": "polyline", "points": [[0.39, 0.20], [0.40, 0.43], [0.42, 0.68], [0.44, 0.90]], "label": "FALLING FRINGE" },
     { "type": "polyline", "points": [[0.18, 0.23], [0.45, 0.09], [0.81, 0.20]], "label": "COLOUR-BAND COUNTERARC" }
   ],
   "notes": "Fringe falls through a compressed field of vivid, overlapping colour bands."
