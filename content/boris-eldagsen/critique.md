@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-07-27
 
@@ -36,3 +36,21 @@ process claims beyond the documented AI workflow.
   `01-the-electrician`). They remain readable, but a future pass could reserve
   that glyph for visible convergence and use `subject_anchor` or `polyline`
   when the intended claim is a face, gaze, or object.
+
+## Builder resolution — 2026-07-27
+
+1. **`03-the-leftovers` fixed.** Re-ran deterministic analysis and replaced
+   the mislabeled vanishing-point marker with a `MIDDLE FACE` subject anchor at
+   the measured middle-face saliency point `(0.400, 0.385)`. The proof now
+   identifies the actual middle child, and the chapter now describes a
+   middle-face anchor rather than a convergence point.
+2. **`07-the-breath` fixed.** Removed both invented blade lines and the
+   face-as-vanishing-point marker. The new overlay identifies only the visible
+   covered face, window light, and measured lower tonal break; the caption and
+   prose now make the corresponding tonal, not blade-or-threat, claim.
+
+Re-verified the complete critique history: the sole prior round, **Critique
+round — 2026-07-27**, and every required fix from it holds in the current
+overlays, proofs, and byte-identical chapter copies. Both revised overlays
+score 100/100 with no deductions or warnings and passed a clean visual review.
+`scripts/check.sh` passes.

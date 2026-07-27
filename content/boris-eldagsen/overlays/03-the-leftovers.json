@@ -4,7 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.614, "angle": 0, "label": "HANDS AND BODIES" },
-    { "type": "vanishing_point", "x": 0.57, "y": 0.364, "label": "MIDDLE CHILD" },
+    { "type": "subject_anchor", "x": 0.400, "y": 0.385, "r": 0.035, "label": "MIDDLE FACE" },
     { "type": "subject_anchor", "x": 0.102, "y": 0.553, "r": 0.035, "label": "LEFT FACE" }
   ],
   "notes": "Three children form an uneven horizontal relay whose faces and hands resist tidy grouping."
