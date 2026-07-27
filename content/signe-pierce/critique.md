@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-07-27
 
@@ -20,3 +20,13 @@ All twelve proofs were visually checked. Each spec has 3–4 primitives and scor
 2. Corrected the 06 and 07 shortlist descriptions and all four-factor assessments in `sources.md`: 06 now identifies its clock, lit blinds, and foreground fronds; 07 now identifies its tiled ceiling, paired fluorescent tubes, and lower tile edge.
 
 Prior critique rounds re-verified: 2026-07-27 (the only recorded round). Both required fixes remain satisfied; the non-blocking balance-axis advisory for 09 was rechecked and left unchanged because the chapter already explicitly rejects a literal-symmetry reading.
+
+## Critique round — 2026-07-27
+
+### Required
+
+None. All twelve current proofs were visually checked. The repaired 07-hyperspace fluorescent-tube polylines now trace the two visible lower-right fixtures, and the 06/07 source notes contain image-specific four-factor rationales matching their respective proofs. Each overlay has three or four truthful, pedagogically useful primitives and scores 100/100 against its current analysis. Chapter measurements match the analyzer within tolerance; device metadata is expressly identified as unverified, not as Pierce's camera settings. All twelve gallery and direct display URLs returned HTTP 200 during this review, and every selected image retains a traceable credit and per-image fair-use rationale.
+
+### Advisory (non-blocking)
+
+- **09-strip-mall-of-the-gods — `symmetry_axis` remains a balance-axis shorthand, not literal mirroring.** This is the same advisory recorded in the prior round; neither the proof nor the prose has materially regressed, and the chapter explicitly says the arrangement is not literal symmetry.
