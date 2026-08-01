@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -44,3 +44,11 @@ Reviewed all 12 current rendered proofs against their overlay specs and analyzer
 
 - **04-smoke-2011:** the marker labeled `central support` lands on that support, but the `vanishing_point` primitive is an unconventional vocabulary choice for it. The label and placement are truthful, so this is not blocking.
 - **10-kate-moss-vogue-paris-2012:** the `upper cover threshold` remains legible as a broad graphic divide, though it crosses the portrait rather than following one continuous physical edge. This is a stylistic simplification, not a material misidentification.
+
+## Builder resolution — 2026-08-01
+
+Resolved the 02-kate-moss-vogue-japan-2011 required correction. I removed the unsupported `room recession` vanishing-point annotation, re-rendered the proof, and revised the related sentence so the remaining chaise lines are described only as leading the eye into the figure. The rebuilt spec scores 100/100 and passed a clean visual inspection.
+
+I also corrected four inexpensive, source- or evidence-bound descriptions found during independent review: the Kate Moss source note now identifies a seated figure in a blue field; the *Smoke* note describes the retained close lower-face rendition; the unsupported “debut” description for Lara Stone is removed; and the *Mirror* prose describes visible sharp lighting rather than undocumented flash.
+
+Re-verified critique history: both 2026-08-01 rounds. The first round’s eight required fixes remain intact: grayscale *Lips* source rationale, truthful *Smoke* central-support labeling, and removal of the unsupported Rose, Marion, Daphne, Kate Moss 2012, Natalia, and Gigi Hadid claims. The current Kate Moss correction is also reflected in the byte-identical site chapter.

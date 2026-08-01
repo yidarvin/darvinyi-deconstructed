@@ -12,7 +12,7 @@ This chapter uses public, web-sized display renditions from Vogue France’s cov
 
 ### 02. *Kate Moss for Vogue Japan* (May 2011)
 
-- **Why it matters:** The horizontal frame uses Moss’s low, reclining figure and a broad pale field to make small gestures read as a controlled graphic arrangement.
+- **Why it matters:** The horizontal frame uses Moss’s seated figure and a broad blue field to make small gestures read as a controlled graphic arrangement.
 - **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 1600 × 1173 display rendition, downloaded as `raw/mert-alas-marcus-piggott/02-kate-moss-vogue-japan-2011.jpg`.
 - **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), credited by Vogue France; *Vogue Japan* editorial rights may also apply. Purpose and character: critical, educational analysis of pose, empty field, and horizontal balance. Nature: a published, highly creative fashion photograph. Amount: the complete frame is necessary to teach the relation of figure to ground. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
 
@@ -24,13 +24,13 @@ This chapter uses public, web-sized display renditions from Vogue France’s cov
 
 ### 04. *Smoke* (2011)
 
-- **Why it matters:** A pale figure and drifting smoke establish a soft, mobile triangle against a dark surround, making atmosphere an active compositional mass.
+- **Why it matters:** A close lower-face crop, drifting smoke, and a dark central device make atmosphere and tonal contrast active compositional masses.
 - **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 1162 × 731 display rendition, downloaded as `raw/mert-alas-marcus-piggott/04-smoke-2011.jpg`.
 - **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), as credited by Vogue France; the page identifies the work as *Smoke*, 2011. Purpose and character: critical, educational analysis of tonal mass, atmospheric depth, and figure placement. Nature: a published, highly creative photograph. Amount: the complete frame is necessary to teach the smoke/figure relationship. Market effect: the credited, linked web-sized study copy does not replace a print or licensed reproduction.
 
 ### 05. *Lara Stone, Vogue Paris* (March 2008 cover)
 
-- **Why it matters:** The debut cover uses warm hair, bare shoulders, and the tall magazine frame to turn a simple head-and-shoulders pose into a copper-and-skin color block.
+- **Why it matters:** The cover uses warm hair, bare shoulders, and the tall magazine frame to turn a simple head-and-shoulders pose into a copper-and-skin color block.
 - **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 600 display rendition, downloaded as `raw/mert-alas-marcus-piggott/05-lara-stone-vogue-paris-2008.jpg`. The 600px long edge is a compositionally essential, legible exception to the normal 640px floor; the public archive supplied no larger rendition.
 - **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its March 2008 cover. Purpose and character: critical, educational analysis of portrait crop and color massing. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach the cover’s vertical construction. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
 

@@ -3,7 +3,6 @@
   "image": "02-kate-moss-vogue-japan-2011.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.554, "y": 0.135, "label": "room recession" },
     { "type": "horizon_line", "y": 0.883, "angle": 0.0, "label": "low chaise edge" },
     { "type": "leading_line", "points": [[0.353,0.877],[0.428,0.295]], "arrow": true, "label": "left chaise edge" },
     { "type": "leading_line", "points": [[0.195,0.771],[0.428,0.299]], "arrow": true, "label": "left couch fold" },
