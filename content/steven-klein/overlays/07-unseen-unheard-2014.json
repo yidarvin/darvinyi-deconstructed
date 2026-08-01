@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "07-unseen-unheard-2014.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.658, "angle": 0.0, "label": "LOWER STREET BAND" },
+    { "type": "leading_line", "points": [[0.105, 0.971], [0.624, 0.767]], "arrow": true, "label": "LOWER TABLET EDGE" },
+    { "type": "leading_line", "points": [[0.189, 0.053], [0.619, 0.464]], "arrow": true, "label": "UPPER TABLET EDGE" },
+    { "type": "frame_in_frame", "x": 0.108, "y": 0.069, "w": 0.595, "h": 0.646, "label": "TABLET SCREEN" },
+    { "type": "ellipse", "cx": 0.382, "cy": 0.405, "rx": 0.04, "ry": 0.055, "label": "SCREEN FIGURES" }
+  ],
+  "notes": "The cracked tablet turns surveillance into a nested frame, repeated again by the figures below it."
+}

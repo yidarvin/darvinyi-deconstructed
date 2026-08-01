@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "06-toxic-bloom-2012.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.515, "angle": 0.0, "label": "BENCH-AND-BLOOM BAND" },
+    { "type": "vanishing_point", "x": 0.365, "y": 0.413, "label": "GREENHOUSE CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.108, 0.915], [0.687, 0.063]], "arrow": true, "label": "FLOWER-TO-FIGURE DIAGONAL" },
+    { "type": "leading_line", "points": [[0.002, 0.112], [0.678, 0.686]], "arrow": true, "label": "GREENHOUSE BRACE" },
+    { "type": "ellipse", "cx": 0.745, "cy": 0.237, "rx": 0.05, "ry": 0.06, "label": "STANDING FACE" }
+  ],
+  "notes": "Dense flower color is organized by greenhouse braces and answered by the white standing figure."
+}

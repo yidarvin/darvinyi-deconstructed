@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-out-of-this-world-2013.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.482, "angle": 4.1, "label": "ROAD CREST" },
+    { "type": "subject_anchor", "x": 0.304, "y": 0.43, "r": 0.035, "label": "NEAR BIKE" },
+    { "type": "polyline", "points": [[0.513, 0.481], [0.467, 0.595], [0.436, 0.72]], "label": "ROAD SEAM" },
+    { "type": "ellipse", "cx": 0.448, "cy": 0.62, "rx": 0.11, "ry": 0.12, "label": "RECLINING HEAD" }
+  ],
+  "notes": "A low road crest stages the foreground body between a giant near bike and its distant echo."
+}

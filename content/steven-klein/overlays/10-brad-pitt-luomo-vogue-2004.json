@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "10-brad-pitt-luomo-vogue-2004.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.721, "angle": 3.0, "label": "JAW-TO-NECK BREAK" },
+    { "type": "vanishing_point", "x": 0.452, "y": 0.636, "label": "FACIAL CONVERGENCE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PORTRAIT AXIS" },
+    { "type": "polyline", "points": [[0.205, 0.314], [0.501, 0.276], [0.81, 0.323]], "label": "BROW LINE" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.48, "rx": 0.365, "ry": 0.43, "label": "RED HEAD" }
+  ],
+  "notes": "The frontal red head is held almost symmetrically against an engulfing black field."
+}

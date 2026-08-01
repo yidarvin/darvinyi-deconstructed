@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "08-suburbia-29-2008.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.502, "angle": 0.0, "label": "HOUSE-TO-DRIVE BREAK" },
+    { "type": "vanishing_point", "x": 0.438, "y": 0.336, "label": "DRIVEWAY CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.211, 0.003], [0.554, 0.494]], "arrow": true, "label": "LEFT TREE TRUNK" },
+    { "type": "leading_line", "points": [[0.296, 0.049], [0.598, 0.481]], "arrow": true, "label": "ROOF-TO-DRIVE LINE" },
+    { "type": "polyline", "points": [[0.187, 0.085], [0.208, 0.358], [0.248, 0.68]], "label": "FIGURE'S BACK" }
+  ],
+  "notes": "The looming foreground body acts as a vertical curtain over a compact suburban scene."
+}

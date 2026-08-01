@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "03-frozen-flesh-2-2004.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.474, "angle": 0.0, "label": "BACK-WALL BREAK" },
+    { "type": "vanishing_point", "x": 0.192, "y": 0.45, "label": "ROOM CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.005, 0.523], [0.441, 0.351]], "arrow": true, "label": "OVERHEAD RAIL" },
+    { "type": "leading_line", "points": [[0.005, 0.221], [0.391, 0.549]], "arrow": true, "label": "HANGING RAIL" },
+    { "type": "ellipse", "cx": 0.728, "cy": 0.42, "rx": 0.05, "ry": 0.075, "label": "FIGURE'S FACE" }
+  ],
+  "notes": "Cold rails and hanging masses drive the room leftward while the small figure holds the exposed right."
+}

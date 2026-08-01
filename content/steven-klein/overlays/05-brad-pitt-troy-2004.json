@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "05-brad-pitt-troy-2004.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.137, "angle": -6.7, "label": "FIELD EDGE" },
+    { "type": "vanishing_point", "x": 0.83, "y": 0.317, "label": "CHAIR-SIDE CONVERGENCE" },
+    { "type": "subject_anchor", "x": 0.992, "y": 0.452, "r": 0.035, "label": "CROPPED COMPANION" },
+    { "type": "leading_line", "points": [[0.809, 0.251], [0.983, 0.469]], "arrow": true, "label": "FOLDING-CHAIR EDGE" },
+    { "type": "polyline", "points": [[0.221, 0.132], [0.413, 0.28], [0.674, 0.59]], "label": "RECLINING ARMOR" }
+  ],
+  "notes": "The reclining armored body is made unstable by an assertive cropped figure at the right edge."
+}

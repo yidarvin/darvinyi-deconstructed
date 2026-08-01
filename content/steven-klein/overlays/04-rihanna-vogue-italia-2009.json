@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "04-rihanna-vogue-italia-2009.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.778, "angle": 0.0, "label": "BENCH RAIL" },
+    { "type": "polyline", "points": [[0.03, 0.037], [0.18, 0.19], [0.355, 0.29]], "label": "HAIR MASS" },
+    { "type": "polyline", "points": [[0.278, 0.225], [0.514, 0.37], [0.81, 0.65]], "label": "RECLINING BODY" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.0, "w": 0.94, "h": 0.92, "label": "TILE FIELD" },
+    { "type": "ellipse", "cx": 0.245, "cy": 0.225, "rx": 0.05, "ry": 0.06, "label": "FACE" }
+  ],
+  "notes": "A diagonal reclining body interrupts the repeated tile grid with a deliberately theatrical silhouette."
+}

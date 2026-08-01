@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "01-horse-therapy-pool-2005.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.164, "angle": 4.0, "label": "FAR POOL EDGE" },
+    { "type": "leading_line", "points": [[0.493, 0.167], [0.778, 0.623]], "arrow": true, "label": "CURVING POOL LIP" },
+    { "type": "leading_line", "points": [[0.455, 0.112], [0.731, 0.555]], "arrow": true, "label": "DECK ARC" },
+    { "type": "ellipse", "cx": 0.231, "cy": 0.374, "rx": 0.085, "ry": 0.13, "label": "HORSE HEAD" },
+    { "type": "ellipse", "cx": 0.564, "cy": 0.552, "rx": 0.06, "ry": 0.055, "label": "SWIMMER'S FACE" }
+  ],
+  "notes": "The deck's tightening arcs enclose two unequal living anchors in the blue pool."
+}
