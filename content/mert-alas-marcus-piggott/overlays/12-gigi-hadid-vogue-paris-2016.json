@@ -4,9 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.76, "angle": -1.9, "label": "box top" },
-    { "type": "vanishing_point", "x": 0.39, "y": 0.117, "label": "upper cover convergence" },
     { "type": "subject_anchor", "x": 0.479, "y": 0.694, "r": 0.035, "label": "cover title" },
-    { "type": "leading_line", "points": [[0.024,0.329],[0.253,0.227]], "arrow": true, "label": "left thigh contour" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.52, "rx": 0.35, "ry": 0.39, "label": "seated figure" }
   ],
   "notes": "A bent body and box make a compact, sculptural cover arrangement."

@@ -6,9 +6,9 @@ This chapter uses public, web-sized display renditions from Vogue France’s cov
 
 ### 01. *Lips* (2005)
 
-- **Why it matters:** The vertical close-up turns a cropped mouth and glossy red surface into a confrontational, nearly abstract color field.
+- **Why it matters:** The vertical close-up turns a cropped mouth and glossy tonal surface into a confrontational, nearly abstract grayscale field.
 - **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 784 × 1176 display rendition, downloaded as `raw/mert-alas-marcus-piggott/01-lips-2005.jpg`.
-- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), as credited by Vogue France; ownership of the exhibition print is not stated. Purpose and character: critical, educational analysis of close crop, color, and surface. Nature: a published, highly creative photograph. Amount: the complete displayed frame is necessary to teach its crop. Market effect: the credited, linked web-sized study copy does not replace a print or licensed reproduction.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), as credited by Vogue France; ownership of the exhibition print is not stated. Purpose and character: critical, educational analysis of close crop, grayscale tonal separation, and glossy surface. Nature: a published, highly creative photograph. Amount: the complete displayed frame is necessary to teach the relationship of mouth, teeth, finger, and surrounding tonal field. Market effect: the credited, linked web-sized study copy does not replace a print or licensed reproduction.
 
 ### 02. *Kate Moss for Vogue Japan* (May 2011)
 
@@ -72,6 +72,6 @@ This chapter uses public, web-sized display renditions from Vogue France’s cov
 
 ### 12. *Gigi Hadid, Vogue Paris* (March 2016 cover)
 
-- **Why it matters:** The contemporary cover concentrates saturated cosmetic color and direct gaze in a tight crop, showing how their digital finish makes the face read as both subject and surface.
+- **Why it matters:** The monochrome cover arranges a seated full figure on a box, making bent limbs, the box top, and the large surrounding field read as one compact sculptural construction.
 - **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 647 display rendition, downloaded as `raw/mert-alas-marcus-piggott/12-gigi-hadid-vogue-paris-2016.jpg`.
-- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its March 2016 cover. Purpose and character: critical, educational analysis of tight crop, color, and retouched surface. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach the face-as-surface construction. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its March 2016 cover. Purpose and character: critical, educational analysis of the box-and-figure arrangement, seated pose, and cover framing. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary because the box, limbs, and masthead together establish the composition; a face crop would omit the teaching subject. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.

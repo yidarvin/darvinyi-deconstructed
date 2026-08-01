@@ -4,10 +4,8 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.33, "angle": 1.3, "label": "upper cover threshold" },
-    { "type": "vanishing_point", "x": 0.245, "y": 0.412, "label": "left cover convergence" },
     { "type": "subject_anchor", "x": 0.459, "y": 0.741, "r": 0.035, "label": "central cover detail" },
-    { "type": "leading_line", "points": [[0.07,0.573],[0.281,0.385]], "arrow": true, "label": "left shoulder contour" },
     { "type": "ellipse", "cx": 0.50, "cy": 0.36, "rx": 0.28, "ry": 0.25, "label": "frontal face" }
   ],
-  "notes": "A centered face and graphic cosmetics turn the cover into a frontal plane."
+  "notes": "A centered face and graphic cosmetics turn the cover into a frontal plane without implied recession."
 }

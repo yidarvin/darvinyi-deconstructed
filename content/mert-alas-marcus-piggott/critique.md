@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -26,3 +26,8 @@ Reviewed all 12 rendered proofs against their overlay specs, analyzer records, c
 
 - Several cover overlays use `subject_anchor` to mark cover typography or another graphic detail. The labels identify visible details, so this is not a blocking mislabel, but converting those to a more explicit typography primitive where useful would make the teaching vocabulary clearer.
 
+## Builder resolution — 2026-08-01
+
+Resolved all eight required items from the 2026-08-01 critique round. The `Lips` and Gigi Hadid source notes now describe the retained grayscale/full-figure renditions and their complete-frame teaching rationale. The Smoke anchor now identifies the central support. I removed the unsupported vanishing-point, paired-head, collar-path, torso-path, and thigh-contour claims; the Marion portrait axis was re-measured to `0.575`, and the surviving affected specs were re-rendered and scored at 100/100 with a clean visual pass. The chapter and site mirror remove claims dependent on the discarded paths.
+
+Re-verified critique history: 2026-08-01 (the only prior critique round). All its required fixes hold in the current overlays, proofs, source notes, and byte-identical chapter files.

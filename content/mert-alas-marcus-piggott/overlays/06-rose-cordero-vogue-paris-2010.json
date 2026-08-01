@@ -3,7 +3,6 @@
   "image": "06-rose-cordero-vogue-paris-2010.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.754, "y": 0.739, "label": "cover-text convergence" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "frontal portrait axis" },
     { "type": "horizon_line", "y": 0.642, "angle": 0.0, "label": "collar line" },
     { "type": "subject_anchor", "x": 0.707, "y": 0.758, "r": 0.035, "label": "right cover detail" },
