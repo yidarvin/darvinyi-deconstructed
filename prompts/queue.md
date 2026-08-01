@@ -195,7 +195,7 @@ real queue and state live in data/registry.json.
 | 184 | boris-eldagsen            | Boris Eldagsen               | DONE    |
 | 185 | nick-knight               | Nick Knight                  | DONE    |
 | 186 | solve-sundsbo             | Sølve Sundsbø                | DONE    |
-| 187 | mert-alas-marcus-piggott  | Mert Alas & Marcus Piggott   | PENDING |
+| 187 | mert-alas-marcus-piggott  | Mert Alas & Marcus Piggott   | DONE    |
 | 188 | steven-klein              | Steven Klein                 | PENDING |
 | 189 | miles-aldridge            | Miles Aldridge               | PENDING |
 | 190 | erwin-olaf                | Erwin Olaf                   | PENDING |

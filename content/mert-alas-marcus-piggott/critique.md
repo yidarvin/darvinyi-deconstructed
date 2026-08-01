@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-01
 
@@ -80,3 +80,15 @@ Resolved all four required items from the current critique round. For *Kate Moss
 I also applied the inexpensive advisory correction to the Daphne Groeneveld/Tom Ford overlay: its path now names the visible left hair contour. The affected proofs were re-rendered, visually inspected, and scored 100/100; a complete 12-image scoring pass is also 100/100. `scripts/check.sh` passes, and the content and site chapter files remain byte-identical.
 
 Re-verified critique history: all three 2026-08-01 rounds. The first round’s eight required fixes remain intact (including *Lips* grayscale sourcing, *Smoke* central-support labeling, and removal of the unsupported Rose, Marion, Daphne, Moss 2012, Vodianova, and Hadid claims); the second round’s unsupported *Kate Moss for Vogue Japan* room-recession point remains removed; and this round’s four required fixes hold in the overlays, proofs, chapter, and source notes.
+
+## Critique round — 2026-08-01
+
+Reviewed all 12 current rendered proofs against their overlay specs and analyzer records, then checked the chapter, manifest, research note, source notes, and the linked Vogue France exhibition and cover-archive records. Every current overlay scores 100/100 with no scorer deductions or warnings. The proofs substantiate each surviving labeled primitive; the chapter’s measured luminance, tonal-range, edge-density, and palette claims match the analyzer records within tolerance. The source pages trace the selected works, dates, subjects, and Mert & Marcus photographer credit, while all twelve per-image fair-use entries retain a concise four-factor rationale and accurately distinguish that credit from unstated rightsholder ownership. No camera-setting claim is made.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
