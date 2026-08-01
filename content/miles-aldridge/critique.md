@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-01
 
@@ -41,3 +41,31 @@ round (the only prior round).
 `04-a-precious-glam-2` was also freshly rendered, visually checked, and scored
 100/100 in strict mode. The updated chapter is byte-identical to
 `src/chapters/miles-aldridge.mdx`.
+
+## Critique round — 2026-08-01
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- `09-the-promise`: the `CRACK IMPACT` and `EYE-LINE CRACK` labels still
+  overlap at the impact point. As noted in the prior round, both primitives
+  accurately trace the fracture and the overlap does not change the reading.
+- `11-in-the-garden`: the `FACE` ellipse remains broad enough to include hair,
+  neck, and shoulder. Its claim remains visually clear; a tighter contour is
+  optional.
+
+### Verification notes
+
+- All eleven current proofs were visually reviewed against their overlay specs.
+  The resolved `04-a-precious-glam-2` and `08-night-car-1` corrections remain
+  materially truthful; no resolved finding regressed.
+- The chapter's quoted tonal, edge-density, palette, horizon, and crack-impact
+  values agree with the matching current analysis files within the stated
+  tolerance. The manifest has no camera EXIF and the chapter makes no invented
+  technical-setting claim.
+- Every cited official work-record URL and public display-file URL resolved
+  successfully. Each selection retains an image-specific fair-use explanation
+  of the complete-frame necessity and non-substitution rationale.
