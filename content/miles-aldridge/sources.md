@@ -24,26 +24,27 @@ original, the artist's archive, a book, print, or licensed reproduction.
 
 ### 01 — *Red Marks #1* (2003)
 
-- **Why it matters:** The low red foreground band, pale wall, and receding figure
-  turn a domestic scene into a lesson in colour blocking and delayed recognition.
+- **Why it matters:** Fried eggs form a pale, glossy field while one pink-tipped
+  cigarette cuts diagonally into the yolk, making a small interruption carry the
+  complete-frame still life.
 - **Source:** [official work record](https://milesaldridge.com/red-marks-1/) ·
   [public display file](https://milesaldridge.com/wp-content/uploads/2020/04/Red-Marks-1.jpg)
 - **Use basis: fair-use.** Creator/rightsholder notice: © Miles Aldridge. The
-  complete frame is needed to study the red threshold, off-centre figure, and empty
-  wall together; a credited, linked web copy is transformative criticism and cannot
+  complete frame is needed to study the egg field, yolks, and cigarette together;
+  a credited, linked web copy is transformative criticism and cannot
   replace the artist's original, print, book, or licensed file.
 - **File:** `raw/miles-aldridge/01-red-marks-1.jpg` (4000 × 2657px)
 
 ### 02 — *Like A Painting #1* (2005)
 
-- **Why it matters:** A frontal seated figure is held in an unnaturally tall vertical
-  field, making saturated colour, furniture, and the surrounding void behave like a
-  constructed portrait stage.
+- **Why it matters:** A pale profile, looping pearl strings, and small butterflies
+  are set against a dense dark-green field, making hair, decoration, and foliage
+  read as a constructed portrait surface.
 - **Source:** [official work record](https://milesaldridge.com/like-a-painting-1/) ·
   [public display file](https://milesaldridge.com/wp-content/uploads/2020/04/Like-A-Painting-1.jpg)
 - **Use basis: fair-use.** Creator/rightsholder notice: © Miles Aldridge. Full-frame
-  analysis requires the figure, chair, and large enclosing colour field rather than
-  a decorative crop; the credited, linked web-sized copy supports transformative
+  analysis requires the profile, bead strings, butterflies, and enclosing foliage
+  rather than a decorative crop; the credited, linked web-sized copy supports transformative
   scholarship and does not substitute for the archive, original, or licensed print.
 - **File:** `raw/miles-aldridge/02-like-a-painting-1.jpg` (4000 × 5315px)
 
@@ -74,27 +75,26 @@ original, the artist's archive, a book, print, or licensed reproduction.
 
 ### 05 — *A Family Portrait #1* (2011)
 
-- **Why it matters:** A group is dispersed across a deliberately artificial domestic
-  set, so repeated poses and gaps between bodies create a tense, cinematic family
-  tableau rather than a conventional portrait.
+- **Why it matters:** A small walking pair and pink balloon sit at the far right of
+  a long, tree-lined avenue, so their isolation has to be read against the empty
+  corridor of road.
 - **Source:** [official work record](https://milesaldridge.com/a-family-portrait-1/) ·
   [public display file](https://milesaldridge.com/wp-content/uploads/2020/04/A-Family-Portrait-1.jpg)
 - **Use basis: fair-use.** Creator/rightsholder notice: © Miles Aldridge. The intact
-  frame is necessary to read all figures, their spacing, and the set's enclosing
-  geometry; this credited, linked web copy serves composition criticism and does not
+  frame is necessary to read the pair, balloon, tree rows, and the avenue's empty
+  distance together; this credited, linked web copy serves composition criticism and does not
   substitute for the original, archive, print, book, or licensed image.
 - **File:** `raw/miles-aldridge/05-a-family-portrait-1.jpg` (4000 × 2656px)
 
 ### 06 — *I Only Want You To Love Me #1* (2011)
 
-- **Why it matters:** A posed woman, telephone, and tightly patterned room make the
-  image a compact study in prop-based narrative and the conflict between a bright
-  focal point and claustrophobic surroundings.
+- **Why it matters:** A yellow-clad figure is held above a receding checkerboard
+  floor and a red debris field, making colour-separated planes do the narrative work.
 - **Source:** [official work record](https://milesaldridge.com/i-only-want-you-to-love-me_1_4000px/) ·
   [public display file](https://milesaldridge.com/wp-content/uploads/2020/04/I-Only-Want-You-To-Love-Me_1_4000px.jpg)
 - **Use basis: fair-use.** Creator/rightsholder notice: © Miles Aldridge. Criticism
-  needs the whole frame to connect figure, telephone, pattern, and margins; the
-  credited, linked web rendition is a transformative scholarly use and cannot
+  needs the whole frame to connect the yellow figure, checkerboard recession, and
+  lower debris field; the credited, linked web rendition is a transformative scholarly use and cannot
   replace the artist's archive, print, book, or licensed reproduction.
 - **File:** `raw/miles-aldridge/06-i-only-want-you-to-love-me-1.jpg` (4000 × 2754px)
 
@@ -125,14 +125,13 @@ original, the artist's archive, a book, print, or licensed reproduction.
 
 ### 09 — *The Promise* (2016)
 
-- **Why it matters:** The tall format pins a tiny, carefully posed figure inside a
-  highly ordered interior, demonstrating how vertical scale can make a room feel
-  psychologically oppressive.
+- **Why it matters:** A close frontal portrait is crossed by a radiating crack,
+  making the fracture's impact point and rays interrupt an otherwise immaculate face.
 - **Source:** [official work record](https://milesaldridge.com/the-promise/) ·
   [public display file](https://milesaldridge.com/wp-content/uploads/2020/04/The-Promise.jpg)
 - **Use basis: fair-use.** Creator/rightsholder notice: © Miles Aldridge. The figure
-  and the entire height of the room must remain together to teach scale, centrality,
-  and enclosure; this credited, linked web-sized analytical copy is transformative
+  and the complete face must remain together to teach the crack impact point and
+  radiating rays; this credited, linked web-sized analytical copy is transformative
   and does not replace the archive, original, print, book, or licensed reproduction.
 - **File:** `raw/miles-aldridge/09-the-promise.jpg` (4000 × 5181px)
 

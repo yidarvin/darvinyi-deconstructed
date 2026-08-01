@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -20,3 +20,24 @@ verdict: revise
 
 - All eleven proofs were visually inspected. The deterministic strict scorer reports 100/100 for every overlay; the required overlay findings above are semantic/visual, which the geometric scorer does not test.
 - Every listed official work-record URL returned HTTP 200. No camera settings are invented: the manifest’s EXIF objects are empty and the chapter/research explicitly limit claims accordingly.
+
+## Resolution — 2026-08-01
+
+Re-verified required fixes from the complete critique history: the 2026-08-01
+round (the only prior round).
+
+1. `04-a-precious-glam-2` now labels the outlined food as `RED DISH`; its
+   chapter paragraph likewise identifies a white dish containing red food.
+2. `08-night-car-1` now retains only the visible blue neon tube and seated
+   figure; the unsupported `WINDOW` frame and `NEON MID-BAND` have been
+   removed. The fresh rendered proof was visually checked and the strict
+   deterministic score is 100/100.
+3. The five corrected source records now describe the complete-frame
+   relationships actually present in their files: eggs/cigarette;
+   profile/beads/butterflies; avenue pair/balloon; yellow
+   figure/checkerboard/debris; and cracked close portrait. Each retains its
+   image-specific factor-three necessity and non-substitution rationale.
+
+`04-a-precious-glam-2` was also freshly rendered, visually checked, and scored
+100/100 in strict mode. The updated chapter is byte-identical to
+`src/chapters/miles-aldridge.mdx`.

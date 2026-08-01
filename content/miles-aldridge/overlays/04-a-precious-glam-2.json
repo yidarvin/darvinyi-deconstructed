@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.841, "angle": 0, "label": "TABLE EDGE" },
     { "type": "polyline", "points": [[0.04, 0.29], [0.48, 0.29], [0.96, 0.31]], "label": "RAIL BAND" },
-    { "type": "ellipse", "cx": 0.50, "cy": 0.90, "rx": 0.24, "ry": 0.07, "label": "RED PLATE" }
+    { "type": "ellipse", "cx": 0.50, "cy": 0.90, "rx": 0.24, "ry": 0.07, "label": "RED DISH" }
   ],
   "notes": "The head, rails, plate, and banquet table build a deliberately frontal hierarchy."
 }
