@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-01
 
@@ -52,3 +52,23 @@ Resolved the 02-kate-moss-vogue-japan-2011 required correction. I removed the un
 I also corrected four inexpensive, source- or evidence-bound descriptions found during independent review: the Kate Moss source note now identifies a seated figure in a blue field; the *Smoke* note describes the retained close lower-face rendition; the unsupported “debut” description for Lara Stone is removed; and the *Mirror* prose describes visible sharp lighting rather than undocumented flash.
 
 Re-verified critique history: both 2026-08-01 rounds. The first round’s eight required fixes remain intact: grayscale *Lips* source rationale, truthful *Smoke* central-support labeling, and removal of the unsupported Rose, Marion, Daphne, Kate Moss 2012, Natalia, and Gigi Hadid claims. The current Kate Moss correction is also reflected in the byte-identical site chapter.
+
+## Critique round — 2026-08-01
+
+Reviewed every current proof against its overlay and analyzer record, then independently checked the chapter, manifest, source notes, and the two linked Vogue France records. The prior rounds’ resolved findings remain resolved; the current issues below are distinct regressions or source-attribution defects. Every current deterministic overlay score is 100/100, but those scores do not establish semantic truthfulness.
+
+### Required
+
+1. **02-kate-moss-vogue-japan-2011 — make the two diagonal labels truthful.** The annotated paths named `left chaise edge` and `left couch fold` run through the fur/figure area toward the shoulder rather than tracing discernible chaise or couch edges. Remove them, re-anchor them to actual furniture geometry, or relabel them to the feature they visibly trace. Revise the chapter sentence that calls them chaise lines if they are removed.
+
+2. **03-mirror-2002 — correct the mirror and pool-edge claims.** The rectangular `mirror plane` frame starts in sky above the left portion of the mirror and cannot truthfully trace the perspective-skewed mirror. The `right pool edge` arrow crosses reflected water instead of a visible pool edge. Replace or remove both primitives, and revise the chapter’s right-edge reading if it is no longer supported.
+
+3. **11-natalia-vodianova-vogue-paris-2014 — place or remove the `upper cover type` anchor.** Its center is at `(0.261, 0)`, clipped on the frame edge rather than on a legible masthead glyph. Move it to an actual cover-type feature or omit it.
+
+4. **All 12 source entries — distinguish photographer credit from copyright ownership.** The linked Vogue France exhibition and cover-archive records credit Mert & Marcus as photographers, but neither establishes the asserted `© Mert Alas & Marcus Piggott` rightsholder notice. Reword each `Credit/rightsholder notice` to preserve the source’s photographer credit and state that the copyright/rightsholder is not stated by the linked record. This correction is required for accurate per-image fair-use attribution.
+
+### Advisory (non-blocking)
+
+- **05-lara-stone-vogue-paris-2008:** `cover-text threshold` reads as a broad detector-derived band across the lower face and cover copy rather than one continuous edge. A more precise label would improve the teaching clarity, but it does not make a materially false claim.
+- **06-rose-cordero-vogue-paris-2010:** `collar line` simplifies a broken, low face-to-collar transition. The line remains close enough to the visible collar boundary to be non-blocking; a more specific label would be clearer.
+- **08-daphne-groeneveld-tom-ford-vogue-paris-2010:** the `left hair-and-shoulder diagonal` most clearly traces the outer hair contour. Relabeling it would be more exact but is not material.
