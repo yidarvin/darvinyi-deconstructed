@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-natalia-vodianova-vogue-paris-2014.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.202, "angle": 0.0, "label": "masthead threshold" },
+    { "type": "subject_anchor", "x": 0.261, "y": 0.0, "r": 0.035, "label": "upper cover type" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.39, "rx": 0.25, "ry": 0.23, "label": "face" },
+    { "type": "polyline", "points": [[0.43,0.34],[0.56,0.50],[0.70,0.77]], "label": "shoulder and torso diagonal" }
+  ],
+  "notes": "A shifted head and shoulder sit beneath a rigid masthead and beside dense cover text."
+}

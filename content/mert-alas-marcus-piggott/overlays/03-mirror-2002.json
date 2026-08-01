@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "03-mirror-2002.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.604, "y": 0.606, "label": "poolside recession" },
+    { "type": "horizon_line", "y": 0.619, "angle": 0.0, "label": "pool rim" },
+    { "type": "leading_line", "points": [[0.627,0.619],[0.909,0.883]], "arrow": true, "label": "right pool edge" },
+    { "type": "subject_anchor", "x": 0.742, "y": 0.477, "r": 0.035, "label": "reflected face" },
+    { "type": "frame_in_frame", "x": 0.26, "y": 0.20, "w": 0.67, "h": 0.52, "label": "mirror plane" }
+  ],
+  "notes": "The mirror doubles a single body and interrupts the pool with a second scene."
+}

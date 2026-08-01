@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "08-daphne-groeneveld-tom-ford-vogue-paris-2010.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.229, "angle": 0.0, "label": "masthead threshold" },
+    { "type": "leading_line", "points": [[0.077,0.987],[0.203,0.533]], "arrow": true, "label": "left hair-and-shoulder diagonal" },
+    { "type": "subject_anchor", "x": 0.867, "y": 0.522, "r": 0.035, "label": "right figure" },
+    { "type": "vanishing_point", "x": 0.28, "y": 0.778, "label": "lower figure convergence" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.53, "rx": 0.31, "ry": 0.28, "label": "paired heads" }
+  ],
+  "notes": "Two overlapping heads make a charged diagonal beneath the red cover type."
+}

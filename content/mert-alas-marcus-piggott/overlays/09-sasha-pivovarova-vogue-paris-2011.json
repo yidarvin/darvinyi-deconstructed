@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-sasha-pivovarova-vogue-paris-2011.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.202, "angle": 0.0, "label": "masthead threshold" },
+    { "type": "subject_anchor", "x": 0.114, "y": 0.617, "r": 0.035, "label": "left cover type" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.60, "rx": 0.27, "ry": 0.40, "label": "standing figure" },
+    { "type": "polyline", "points": [[0.53,0.25],[0.51,0.55],[0.55,0.92]], "label": "body's vertical spine" }
+  ],
+  "notes": "A standing body makes a vertical spine against a bright, shallow cover field."
+}
