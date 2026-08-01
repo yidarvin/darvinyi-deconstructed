@@ -1670,6 +1670,486 @@
       "part": "XVII. Photography in the 2020s & Synthetic Futures",
       "status": "done",
       "approvedAt": "2026-07-27"
+    },
+    {
+      "num": 185,
+      "slug": "nick-knight",
+      "title": "Nick Knight",
+      "subtitle": "b. 1958",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 186,
+      "slug": "solve-sundsbo",
+      "title": "Sølve Sundsbø",
+      "subtitle": "b. 1970",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 187,
+      "slug": "mert-alas-marcus-piggott",
+      "title": "Mert Alas & Marcus Piggott",
+      "subtitle": "collaborating since 1994",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 188,
+      "slug": "steven-klein",
+      "title": "Steven Klein",
+      "subtitle": "b. 1965",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 189,
+      "slug": "miles-aldridge",
+      "title": "Miles Aldridge",
+      "subtitle": "b. 1964",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 190,
+      "slug": "erwin-olaf",
+      "title": "Erwin Olaf",
+      "subtitle": "1959–2023",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 191,
+      "slug": "chen-man",
+      "title": "Chen Man",
+      "subtitle": "b. 1980",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 192,
+      "slug": "elizaveta-porodina",
+      "title": "Elizaveta Porodina",
+      "subtitle": "b. 1987",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 193,
+      "slug": "cho-gi-seok",
+      "title": "Cho Gi-Seok",
+      "subtitle": "b. 1992",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 194,
+      "slug": "zhong-lin",
+      "title": "Zhong Lin",
+      "subtitle": "active 2010s–present",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 195,
+      "slug": "carlijn-jacobs",
+      "title": "Carlijn Jacobs",
+      "subtitle": "b. 1991",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 196,
+      "slug": "erik-madigan-heck",
+      "title": "Erik Madigan Heck",
+      "subtitle": "b. 1983",
+      "part": "XVIII. Digital Fashion & Editorial Image",
+      "status": "pending"
+    },
+    {
+      "num": 197,
+      "slug": "petra-collins",
+      "title": "Petra Collins",
+      "subtitle": "b. 1992",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 198,
+      "slug": "harley-weir",
+      "title": "Harley Weir",
+      "subtitle": "b. 1988",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 199,
+      "slug": "maisie-cousins",
+      "title": "Maisie Cousins",
+      "subtitle": "b. 1992",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 200,
+      "slug": "nadia-lee-cohen",
+      "title": "Nadia Lee Cohen",
+      "subtitle": "b. 1992",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 201,
+      "slug": "ren-hang",
+      "title": "Ren Hang",
+      "subtitle": "1987–2017",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 202,
+      "slug": "arvida-bystrom",
+      "title": "Arvida Byström",
+      "subtitle": "b. 1991",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 203,
+      "slug": "molly-soda",
+      "title": "Molly Soda",
+      "subtitle": "b. 1989",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 204,
+      "slug": "amalia-ulman",
+      "title": "Amalia Ulman",
+      "subtitle": "b. 1989",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 205,
+      "slug": "martine-syms",
+      "title": "Martine Syms",
+      "subtitle": "b. 1988",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 206,
+      "slug": "paul-mpagi-sepuya",
+      "title": "Paul Mpagi Sepuya",
+      "subtitle": "b. 1982",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 207,
+      "slug": "carmen-winant",
+      "title": "Carmen Winant",
+      "subtitle": "b. 1983",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 208,
+      "slug": "pixy-liao",
+      "title": "Pixy Liao",
+      "subtitle": "b. 1979",
+      "part": "XIX. Networked Selves & Smartphone Culture",
+      "status": "pending"
+    },
+    {
+      "num": 209,
+      "slug": "david-alekhuogie",
+      "title": "David Alekhuogie",
+      "subtitle": "b. 1986",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 210,
+      "slug": "ozlem-altin",
+      "title": "Özlem Altın",
+      "subtitle": "b. 1977",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 211,
+      "slug": "sohrab-hura",
+      "title": "Sohrab Hura",
+      "subtitle": "b. 1981",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 212,
+      "slug": "zora-j-murff",
+      "title": "Zora J Murff",
+      "subtitle": "b. 1987",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 213,
+      "slug": "dionne-lee",
+      "title": "Dionne Lee",
+      "subtitle": "b. 1988",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 214,
+      "slug": "irina-rozovsky",
+      "title": "Irina Rozovsky",
+      "subtitle": "b. 1981",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 215,
+      "slug": "kelani-abass",
+      "title": "Kelani Abass",
+      "subtitle": "b. 1979",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 216,
+      "slug": "yagazie-emezi",
+      "title": "Yagazie Emezi",
+      "subtitle": "b. 1989",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 217,
+      "slug": "amanda-iheme",
+      "title": "Amanda Iheme",
+      "subtitle": "b. 1992",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 218,
+      "slug": "abraham-oghobase",
+      "title": "Abraham Oghobase",
+      "subtitle": "b. 1979",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 219,
+      "slug": "karl-ohiri",
+      "title": "Karl Ohiri",
+      "subtitle": "b. 1983",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 220,
+      "slug": "logo-oluwamuyiwa",
+      "title": "Logo Oluwamuyiwa",
+      "subtitle": "b. 1990",
+      "part": "XX. New Photography in the 2020s",
+      "status": "pending"
+    },
+    {
+      "num": 221,
+      "slug": "edward-burtynsky",
+      "title": "Edward Burtynsky",
+      "subtitle": "b. 1955",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 222,
+      "slug": "richard-misrach",
+      "title": "Richard Misrach",
+      "subtitle": "b. 1949",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 223,
+      "slug": "mitch-epstein",
+      "title": "Mitch Epstein",
+      "subtitle": "b. 1952",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 224,
+      "slug": "chris-jordan",
+      "title": "Chris Jordan",
+      "subtitle": "b. 1963",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 225,
+      "slug": "george-steinmetz",
+      "title": "George Steinmetz",
+      "subtitle": "b. 1957",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 226,
+      "slug": "mandy-barker",
+      "title": "Mandy Barker",
+      "subtitle": "b. 1964",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 227,
+      "slug": "gideon-mendel",
+      "title": "Gideon Mendel",
+      "subtitle": "b. 1959",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 228,
+      "slug": "anastasia-samoylova",
+      "title": "Anastasia Samoylova",
+      "subtitle": "b. 1984",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 229,
+      "slug": "mustafah-abdulaziz",
+      "title": "Mustafah Abdulaziz",
+      "subtitle": "b. 1986",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 230,
+      "slug": "cristina-mittermeier",
+      "title": "Cristina Mittermeier",
+      "subtitle": "b. 1966",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 231,
+      "slug": "aida-muluneh",
+      "title": "Aïda Muluneh",
+      "subtitle": "b. 1974",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 232,
+      "slug": "latoya-ruby-frazier",
+      "title": "LaToya Ruby Frazier",
+      "subtitle": "b. 1982",
+      "part": "XXI. Climate, Extraction & Planetary Vision",
+      "status": "pending"
+    },
+    {
+      "num": 233,
+      "slug": "reuben-wu",
+      "title": "Reuben Wu",
+      "subtitle": "b. 1975",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 234,
+      "slug": "jake-elwes",
+      "title": "Jake Elwes",
+      "subtitle": "b. 1993",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 235,
+      "slug": "anna-ridler",
+      "title": "Anna Ridler",
+      "subtitle": "b. 1985",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 236,
+      "slug": "james-coupe",
+      "title": "James Coupe",
+      "subtitle": "b. 1975",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 237,
+      "slug": "alexey-yurenev",
+      "title": "Alexey Yurenev",
+      "subtitle": "active 2010s–present",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 238,
+      "slug": "danielle-ezzo",
+      "title": "Danielle Ezzo",
+      "subtitle": "active 2010s–present",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 239,
+      "slug": "stephanie-dinkins",
+      "title": "Stephanie Dinkins",
+      "subtitle": "b. 1964",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 240,
+      "slug": "sondra-perry",
+      "title": "Sondra Perry",
+      "subtitle": "b. 1986",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 241,
+      "slug": "phillip-toledano",
+      "title": "Phillip Toledano",
+      "subtitle": "b. 1968",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 242,
+      "slug": "bas-uterwijk",
+      "title": "Bas Uterwijk",
+      "subtitle": "b. 1968",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 243,
+      "slug": "roope-rainisto",
+      "title": "Roope Rainisto",
+      "subtitle": "active 2020s",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
+    },
+    {
+      "num": 244,
+      "slug": "niceaunties",
+      "title": "Niceaunties",
+      "subtitle": "active 2023–present",
+      "part": "XXII. Expanded Photography, Machine Vision & AI",
+      "status": "pending"
     }
   ]
 }

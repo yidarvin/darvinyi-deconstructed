@@ -10,10 +10,10 @@
   },
   "note": "status is a SOURCING and takedown-likelihood heuristic, not legal advice. Dates and PD calls are best-known and get verified per-image in the deep-research batch pass.",
   "counts": {
-   "total": 184,
+   "total": 244,
    "pd": 36,
    "mixed": 14,
-   "copyrighted": 134
+   "copyrighted": 194
   },
   "imageTargetDefault": 12,
   "batch1": [
@@ -131,6 +131,36 @@
     ]
    },
    "16": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "17": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "18": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "19": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "20": {
+    "count": 12,
+    "rights": [
+     "copyrighted"
+    ]
+   },
+   "21": {
     "count": 12,
     "rights": [
      "copyrighted"
@@ -2348,6 +2378,726 @@
    "rights": "copyrighted",
    "stage": "approved",
    "wave": 16
+  },
+  {
+   "slug": "nick-knight",
+   "name": "Nick Knight",
+   "dates": "b. 1958",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Victoria and Albert Museum / SHOWstudio / artist archive",
+   "note": "Digital retouching, scanning, motion capture, and web-native publishing turn fashion photography into a laboratory for mutable bodies and images.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "solve-sundsbo",
+   "name": "Sølve Sundsbø",
+   "dates": "b. 1970",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / National Portrait Gallery / editorial archives",
+   "note": "Projection, scanning, retouching, and extreme lighting transform bodies into graphic fields while preserving a precise editorial silhouette.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "mert-alas-marcus-piggott",
+   "name": "Mert Alas & Marcus Piggott",
+   "dates": "collaborating since 1994",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / Victoria and Albert Museum / editorial archives",
+   "note": "Highly finished digital surfaces, saturated color, and cinematic staging define the seamless post-produced look of twenty-first-century fashion campaigns.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "steven-klein",
+   "name": "Steven Klein",
+   "dates": "b. 1965",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / International Center of Photography / editorial archives",
+   "note": "Hard flash, elaborate sets, serial narrative, and aggressive post-production make fashion spreads feel like dystopian film stills.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "miles-aldridge",
+   "name": "Miles Aldridge",
+   "dates": "b. 1964",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Victoria and Albert Museum / National Portrait Gallery / artist archive",
+   "note": "Meticulous sets, acidic color, and psychologically estranged poses use digital-era polish to expose the artificiality of ideal domestic scenes.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "erwin-olaf",
+   "name": "Erwin Olaf",
+   "dates": "1959–2023",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Rijksmuseum / artist estate / museum collections",
+   "note": "Controlled tableaux, cinematic light, and digitally immaculate surfaces turn social unease into still, theatrical scenes.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "chen-man",
+   "name": "Chen Man",
+   "dates": "b. 1980",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Victoria and Albert Museum / artist archive / museum collections",
+   "note": "Layered retouching joins Chinese visual traditions, futuristic typography, and beauty imagery into densely engineered editorial compositions.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "elizaveta-porodina",
+   "name": "Elizaveta Porodina",
+   "dates": "b. 1987",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / PhotoVogue / editorial and exhibition records",
+   "note": "Colored light, optical distortion, and painterly post-production push portraiture between bodily presence and abstraction.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "cho-gi-seok",
+   "name": "Cho Gi-Seok",
+   "dates": "b. 1992",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / Fotografiska / editorial and exhibition records",
+   "note": "Symmetrical figures, flowers, reflective materials, and exact color grading construct hybrid organisms with a distinctly digital finish.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "zhong-lin",
+   "name": "Zhong Lin",
+   "dates": "active 2010s–present",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / PhotoVogue / editorial archives",
+   "note": "Rapid experimentation with color, gesture, collage, and practical effects turns daily digital publishing into a sustained compositional practice.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "carlijn-jacobs",
+   "name": "Carlijn Jacobs",
+   "dates": "b. 1991",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / Foam / editorial and exhibition records",
+   "note": "Surreal props, sculptural styling, and glossy digital color make fashion images oscillate between commercial seduction and visual absurdity.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "erik-madigan-heck",
+   "name": "Erik Madigan Heck",
+   "dates": "b. 1983",
+   "group": "XVIII. Digital Fashion & Editorial Image",
+   "source": "Artist archive / museum collections / editorial archives",
+   "note": "Flattened space, patterned garments, and intensive color work merge fashion photography with painting and decorative abstraction.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 17
+  },
+  {
+   "slug": "petra-collins",
+   "name": "Petra Collins",
+   "dates": "b. 1992",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Artist archive / International Center of Photography / museum collections",
+   "note": "Soft focus, colored light, and intimate staging translate adolescent interiority and online self-fashioning into a recognizable digital-era visual language.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "harley-weir",
+   "name": "Harley Weir",
+   "dates": "b. 1988",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Artist archive / Tate and exhibition records / editorial archives",
+   "note": "Extreme proximity, tactile surfaces, and ambiguous crops make bodies and environments feel immediate, unstable, and native to scrolling attention.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "maisie-cousins",
+   "name": "Maisie Cousins",
+   "dates": "b. 1992",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Artist archive / Photographers’ Gallery / exhibition records",
+   "note": "Macro crops, viscous textures, food, skin, and saturated color turn the visual grammar of social feeds into deliberately excessive sensory collage.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "nadia-lee-cohen",
+   "name": "Nadia Lee Cohen",
+   "dates": "b. 1992",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Artist archive / Fotografiska / exhibition and publication records",
+   "note": "Costume, prosthetics, cinematic sets, and digital polish build uncanny characters from the discarded fantasies of advertising and popular culture.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "ren-hang",
+   "name": "Ren Hang",
+   "dates": "1987–2017",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Maison Européenne de la Photographie / artist estate / museum collections",
+   "note": "Direct flash, compressed bodies, and playful geometric arrangements made intimate photographs circulate with the speed and candor of online culture.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "arvida-bystrom",
+   "name": "Arvida Byström",
+   "dates": "b. 1991",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "International Center of Photography / artist archive / exhibition records",
+   "note": "Pastel self-imaging, screenshots, and platform-aware performance expose how interfaces regulate femininity, visibility, and acceptable bodies.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "molly-soda",
+   "name": "Molly Soda",
+   "dates": "b. 1989",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "International Center of Photography / artist archive / Rhizome",
+   "note": "Webcam confession, desktop clutter, GIFs, and social-media residue make the screen itself a staged photographic environment.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "amalia-ulman",
+   "name": "Amalia Ulman",
+   "dates": "b. 1989",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Tate / New Museum / artist archive",
+   "note": "Scripted Instagram posts use selfies, product shots, and platform timing to turn an apparently authentic feed into a complete photographic performance.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "martine-syms",
+   "name": "Martine Syms",
+   "dates": "b. 1988",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "MoMA / ICA and museum collections / artist archive",
+   "note": "Phone images, performance, text, and moving-image fragments analyze how identity is rehearsed across cameras, interfaces, and cultural scripts.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "paul-mpagi-sepuya",
+   "name": "Paul Mpagi Sepuya",
+   "dates": "b. 1982",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "MoMA / Getty Museum / artist archive",
+   "note": "Mirrors, cameras, bodies, and studio fragments make portraiture a visible network of looking, touching, cropping, and collaboration.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "carmen-winant",
+   "name": "Carmen Winant",
+   "dates": "b. 1983",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "MoMA / artist archive / museum collections",
+   "note": "Thousands of found and personal photographs become wall-scale constellations where repetition changes private bodily experience into collective history.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "pixy-liao",
+   "name": "Pixy Liao",
+   "dates": "b. 1979",
+   "group": "XIX. Networked Selves & Smartphone Culture",
+   "source": "Artist archive / Fotografiska / museum and festival records",
+   "note": "Playful self-portraits with her partner use controlled gesture, domestic space, and deadpan color to reverse familiar gendered arrangements.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 18
+  },
+  {
+   "slug": "david-alekhuogie",
+   "name": "David Alekhuogie",
+   "dates": "b. 1986",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2020 / artist archive",
+   "note": "Diptychs, quilts, cropped bodies, and architectural fragments treat photographs as linked units whose seams carry social meaning.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "ozlem-altin",
+   "name": "Özlem Altın",
+   "dates": "b. 1977",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2020 / artist archive",
+   "note": "Photomontage, ink, gesture, and layered reproductions create open narratives in the intervals between bodies and images.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "sohrab-hura",
+   "name": "Sohrab Hura",
+   "dates": "b. 1981",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2020 / Magnum Photos / artist archive",
+   "note": "Dense sequencing, harsh flash, and recurring visual echoes connect private experience, climate, politics, and media violence without a single fixed viewpoint.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "zora-j-murff",
+   "name": "Zora J Murff",
+   "dates": "b. 1987",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2020 / artist archive / museum collections",
+   "note": "Portraits, landscapes, found images, and archival structures reveal how photographic systems participate in racialized surveillance and place-making.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "dionne-lee",
+   "name": "Dionne Lee",
+   "dates": "b. 1988",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2020 / artist archive",
+   "note": "Darkroom manipulation, collage, and moving image reconstruct landscape as a site of survival knowledge rather than neutral scenery.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "irina-rozovsky",
+   "name": "Irina Rozovsky",
+   "dates": "b. 1981",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2020 / artist archive",
+   "note": "Quiet observations placed in found frames turn ordinary gestures into intimate objects where chance and historical memory meet.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "kelani-abass",
+   "name": "Kelani Abass",
+   "dates": "b. 1979",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2023 / artist archive",
+   "note": "Family archives, printing materials, and layered frames make memory visible as a physical process of repetition, damage, and reconstruction.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "yagazie-emezi",
+   "name": "Yagazie Emezi",
+   "dates": "b. 1989",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2023 / artist archive / publication records",
+   "note": "Close documentary attention and layered personal narrative connect embodied experience to collective political change.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "amanda-iheme",
+   "name": "Amanda Iheme",
+   "dates": "b. 1992",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2023 / artist archive",
+   "note": "Frontal architectural views and patient spatial studies read Lagos buildings as containers of psychology, history, and civic memory.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "abraham-oghobase",
+   "name": "Abraham Oghobase",
+   "dates": "b. 1979",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2023 / artist archive / museum collections",
+   "note": "Performance, montage, and altered scale make the artist’s body a measuring device for land, labor, extraction, and urban space.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "karl-ohiri",
+   "name": "Karl Ohiri",
+   "dates": "b. 1983",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2023 / artist archive",
+   "note": "Damaged negatives, family albums, and archival recovery make photographic decay part of the image’s account of migration and memory.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "logo-oluwamuyiwa",
+   "name": "Logo Oluwamuyiwa",
+   "dates": "b. 1990",
+   "group": "XX. New Photography in the 2020s",
+   "source": "MoMA New Photography 2023 / artist archive",
+   "note": "Black-and-white street fragments, reflections, and oblique urban geometry build Lagos through rhythm rather than comprehensive description.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 19
+  },
+  {
+   "slug": "edward-burtynsky",
+   "name": "Edward Burtynsky",
+   "dates": "b. 1955",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "International Center of Photography / National Gallery of Canada / artist archive",
+   "note": "Ultra-detailed aerial and elevated views turn extraction, industry, and altered land into vast patterns whose beauty and damage cannot be separated.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "richard-misrach",
+   "name": "Richard Misrach",
+   "dates": "b. 1949",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "National Gallery of Art / High Museum / artist archive",
+   "note": "Large-format color and measured distance place environmental violence inside spare, seductive landscapes that reward prolonged looking.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "mitch-epstein",
+   "name": "Mitch Epstein",
+   "dates": "b. 1952",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Museum of Modern Art / artist archive / museum collections",
+   "note": "Infrastructure, energy, trees, and civic space are composed as layered systems where ordinary foregrounds meet monumental power.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "chris-jordan",
+   "name": "Chris Jordan",
+   "dates": "b. 1963",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Artist archive / museum and environmental organization records",
+   "note": "Digital compositing and overwhelming scale translate abstract consumption statistics into images that alternate between pattern and individual consequence.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "george-steinmetz",
+   "name": "George Steinmetz",
+   "dates": "b. 1957",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Artist archive / National Geographic / exhibition records",
+   "note": "Aerial viewpoints and long digital surveys reveal agricultural, geological, and urban systems as both abstract geometry and lived terrain.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "mandy-barker",
+   "name": "Mandy Barker",
+   "dates": "b. 1964",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Artist archive / Victoria and Albert Museum / museum collections",
+   "note": "Recovered marine plastic is meticulously arranged and digitally composited into dark specimen fields that make pollution legible through beauty and accumulation.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "gideon-mendel",
+   "name": "Gideon Mendel",
+   "dates": "b. 1959",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "International Center of Photography / artist archive / museum collections",
+   "note": "Flood portraits, waterlines, and damaged photographs use repetition across continents to join climate abstraction to individual witness.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "anastasia-samoylova",
+   "name": "Anastasia Samoylova",
+   "dates": "b. 1984",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "C/O Berlin / artist archive / museum collections",
+   "note": "Reflections, signage, saturated color, and layered urban views show climate risk embedded within Florida’s seductive image economy.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "mustafah-abdulaziz",
+   "name": "Mustafah Abdulaziz",
+   "dates": "b. 1986",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Artist archive / WaterAid / museum and festival records",
+   "note": "Long-term color reporting uses human scale, environmental context, and recurring water motifs to connect local lives with a planetary resource crisis.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "cristina-mittermeier",
+   "name": "Cristina Mittermeier",
+   "dates": "b. 1966",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Artist archive / National Geographic / SeaLegacy",
+   "note": "Underwater and community-centered images combine expansive environmental space with intimate gesture to frame conservation as relationship rather than spectacle.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "aida-muluneh",
+   "name": "Aïda Muluneh",
+   "dates": "b. 1974",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "Smithsonian / artist archive / museum and festival records",
+   "note": "Painted bodies, primary colors, and symbolic props convert water scarcity and environmental pressure into exact, surreal tableaux.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "latoya-ruby-frazier",
+   "name": "LaToya Ruby Frazier",
+   "dates": "b. 1982",
+   "group": "XXI. Climate, Extraction & Planetary Vision",
+   "source": "MoMA / Carnegie Museum of Art / artist archive",
+   "note": "Collaborative portraits and sustained place-based sequences connect environmental exposure, labor, family, and infrastructure through shared authorship.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 20
+  },
+  {
+   "slug": "reuben-wu",
+   "name": "Reuben Wu",
+   "dates": "b. 1975",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Artist archive / National Geographic / museum and festival records",
+   "note": "Drone-mounted lights trace geometric forms over remote landscapes, using digital planning and long exposure to make illumination itself the subject.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "jake-elwes",
+   "name": "Jake Elwes",
+   "dates": "b. 1993",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Victoria and Albert Museum / ZKM / artist archive",
+   "note": "Machine-learning portraits, generated performances, and deliberately queered datasets expose the categories and exclusions hidden inside synthetic vision.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "anna-ridler",
+   "name": "Anna Ridler",
+   "dates": "b. 1985",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Victoria and Albert Museum / Ars Electronica / artist archive",
+   "note": "Hand-built photographic datasets and generative systems make classification, labor, and temporal variation visible within AI imagery.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "james-coupe",
+   "name": "James Coupe",
+   "dates": "b. 1975",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "International Center of Photography / artist archive",
+   "note": "Surveillance feeds, facial analysis, and deepfake substitution reveal how algorithmic cameras classify people and rewrite cinematic identity.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "alexey-yurenev",
+   "name": "Alexey Yurenev",
+   "dates": "active 2010s–present",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "International Center of Photography / artist archive / FOTODEMIC",
+   "note": "Documentary research and synthetic reconstruction test how machine-generated images enter family archives, testimony, and collective memory.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "danielle-ezzo",
+   "name": "Danielle Ezzo",
+   "dates": "active 2010s–present",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "International Center of Photography / artist archive / museum collections",
+   "note": "Personal photographs, historical processes, datasets, and machine artifacts are combined to examine what technical innovation fails to understand.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "stephanie-dinkins",
+   "name": "Stephanie Dinkins",
+   "dates": "b. 1964",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "International Center of Photography / Whitney Museum / artist archive",
+   "note": "Conversational AI, portrait interfaces, and community-built datasets ask who is pictured, remembered, and granted agency by intelligent systems.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "sondra-perry",
+   "name": "Sondra Perry",
+   "dates": "b. 1986",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "International Center of Photography / MoMA / artist archive",
+   "note": "Chroma-key space, avatars, scanned bodies, and looping screens expose how digital systems extract, flatten, and redistribute identity.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "phillip-toledano",
+   "name": "Phillip Toledano",
+   "dates": "b. 1968",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Artist archive / museum and publication records",
+   "note": "Photographic storytelling now extends into generated alternate histories whose convincing surfaces test memory, evidence, and nostalgia.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "bas-uterwijk",
+   "name": "Bas Uterwijk",
+   "dates": "b. 1968",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Artist archive / museum and publication records",
+   "note": "Generated historical portraits translate paintings, sculpture, and textual descriptions into plausible photographic faces while exposing the instability of realism.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "roope-rainisto",
+   "name": "Roope Rainisto",
+   "dates": "active 2020s",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Artist archive / museum, festival, and publication records",
+   "note": "Prompted scenes use recurring cinematic spaces, figures, and artifacts to build a coherent synthetic photographic world from model uncertainty.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
+  },
+  {
+   "slug": "niceaunties",
+   "name": "Niceaunties",
+   "dates": "active 2023–present",
+   "group": "XXII. Expanded Photography, Machine Vision & AI",
+   "source": "Artist archive / PhotoVogue / exhibition and festival records",
+   "note": "Generative images transform familiar auntie archetypes into exuberant surreal societies, using repetition, scale, and impossible material as cultural world-building.",
+   "images": [],
+   "rights": "copyrighted",
+   "stage": "pending",
+   "wave": 21
   }
  ]
 }
