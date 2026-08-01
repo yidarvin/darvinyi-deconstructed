@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -16,3 +16,13 @@ verdict: revise
 - All twelve proofs were visually inspected. Apart from the two required marks above, their 3–5 primitive overlays identify visible, correctly named structures and pass the geometric scorer at 88–100.
 - Chapter tonal, palette, and edge-density values match the analysis files within the stated rounding tolerance. No unsupported camera-setting generalization appears; the two retained Phase One / ISO 100 records are correctly bounded to their individual delivered files.
 - Each image has a traceable official Estate source, credit, and concise per-image four-factor fair-use rationale. All twelve direct public JPEG URLs currently return HTTP 200; no limited-source condition applies.
+
+## Resolution — 2026-08-01
+
+Resolved the two required corrections from the 2026-08-01 critique round:
+
+1. **04-rain-boardroom:** Removed the false `TABLE EDGE` diagonal, which followed the open floor. The remaining `TABLE BARRIER` polyline follows the desk/table's horizontal foreground divide; the matching chapter sentence now calls it a broad barrier rather than an edge that carries the eye.
+2. **10-grief-troy:** Moved the `KNEELING FIGURE` ellipse from the empty sheer-window field to the visible kneeling man at the right of the window.
+3. **08-hope-kitchen:** An independent adversarial pass identified the same semantic issue in the non-required `TABLE EDGE` polyline: it crossed floor below the table. Removed the false line and changed the matching prose to the visible counter.
+
+All three corrected overlays were re-rendered, visually checked, and scored 100/100 against their current analyses. Re-verified all required fixes from the full prior critique history: the sole prior round, 2026-08-01. The previous advisory on 06-hope-hallway was rechecked and remains a non-blocking, visually truthful recession reading.

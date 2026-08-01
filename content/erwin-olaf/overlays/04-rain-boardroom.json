@@ -4,7 +4,6 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "horizon_line", "y": 0.238, "angle": 1.9, "label": "CEILING BAND" },
-    { "type": "leading_line", "points": [[0.396, 0.999], [0.932, 0.866]], "arrow": true, "label": "TABLE EDGE" },
     { "type": "frame_in_frame", "x": 0.43, "y": 0.22, "w": 0.13, "h": 0.25, "label": "CENTER WINDOW" },
     { "type": "polyline", "points": [[0.02, 0.70], [0.48, 0.70], [0.98, 0.70]], "label": "TABLE BARRIER" }
   ],

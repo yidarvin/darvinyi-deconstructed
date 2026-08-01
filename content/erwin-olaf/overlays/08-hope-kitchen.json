@@ -6,8 +6,7 @@
     { "type": "horizon_line", "y": 0.535, "angle": 0.0, "label": "COUNTER / WALL SEAM" },
     { "type": "frame_in_frame", "x": 0.34, "y": 0.14, "w": 0.30, "h": 0.25, "label": "WINDOW" },
     { "type": "frame_in_frame", "x": 0.56, "y": 0.19, "w": 0.30, "h": 0.18, "label": "RED CABINET" },
-    { "type": "ellipse", "cx": 0.71, "cy": 0.60, "rx": 0.10, "ry": 0.23, "label": "SEATED FIGURE" },
-    { "type": "polyline", "points": [[0.11, 0.77], [0.47, 0.77], [0.88, 0.77]], "label": "TABLE EDGE" }
+    { "type": "ellipse", "cx": 0.71, "cy": 0.60, "rx": 0.10, "ry": 0.23, "label": "SEATED FIGURE" }
   ],
   "notes": "Cabinet, window, and table make a domestic room feel like a boxed stage."
 }
