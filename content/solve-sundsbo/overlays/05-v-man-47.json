@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "05-v-man-47.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.876, "angle": 0, "label": "distant ground" },
+    { "type": "leading_line", "points": [[0.425, 0.922], [0.481, 0.701]], "arrow": true, "label": "pleated front" },
+    { "type": "ellipse", "cx": 0.470, "cy": 0.100, "rx": 0.105, "ry": 0.090, "label": "looking-down face" },
+    { "type": "ellipse", "cx": 0.730, "cy": 0.250, "rx": 0.200, "ry": 0.200, "label": "fan sleeve" },
+    { "type": "polyline", "points": [[0.020, 0.460], [0.280, 0.360], [0.550, 0.240], [0.830, 0.120]], "label": "fabric relay" }
+  ],
+  "notes": "A looking-down face, pleated vertical, and fan sleeve make the fashion figure a bright totem against the sky."
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "file": "01-out-of-order-aw-2017.jpg",
+    "width": 920,
+    "height": 1200,
+    "sha1": "9f1ef926",
+    "source": "01-out-of-order-aw-2017.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS",
+      "DateTimeOriginal": "2016:11:08 14:57:12",
+      "FocalLength": "65.0",
+      "ExposureTime": "0.02",
+      "FNumber": "4.5",
+      "ISOSpeedRatings": "200",
+      "LensModel": "Canon EF 24-70mm f/2.8L II USM"
+    }
+  },
+  {
+    "file": "02-v-magazine-135.jpg",
+    "width": 898,
+    "height": 1200,
+    "sha1": "733507cf",
+    "source": "02-v-magazine-135.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ260",
+      "DateTimeOriginal": "2021:11:29 11:15:06",
+      "ExposureTime": "0.002",
+      "ISOSpeedRatings": "50",
+      "LensModel": "-- mm f/--"
+    }
+  },
+  {
+    "file": "03-perfect-2.jpg",
+    "width": 1600,
+    "height": 1119,
+    "sha1": "fe1d991a",
+    "source": "03-perfect-2.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS",
+      "DateTimeOriginal": "2021:12:03 17:57:51",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.025",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "400",
+      "LensModel": "Canon EF 24-70mm f/2.8L II USM"
+    }
+  },
+  {
+    "file": "04-v-magazine-133.jpg",
+    "width": 1600,
+    "height": 1094,
+    "sha1": "256e0874",
+    "source": "04-v-magazine-133.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ260",
+      "DateTimeOriginal": "2021:09:17 14:52:45",
+      "ExposureTime": "0.002",
+      "ISOSpeedRatings": "50",
+      "LensModel": "-- mm f/--"
+    }
+  },
+  {
+    "file": "05-v-man-47.jpg",
+    "width": 911,
+    "height": 1200,
+    "sha1": "fc517614",
+    "source": "05-v-man-47.jpg",
+    "exif": {
+      "Make": "SONY",
+      "Model": "ILCE-7R",
+      "DateTimeOriginal": "2013:01:06 02:21:41",
+      "FocalLength": "30.0",
+      "ExposureTime": "0.005",
+      "FNumber": "6.3",
+      "ISOSpeedRatings": "100",
+      "LensModel": "Sony FE 16-35mm f2.8 GM (SEL1635GM)"
+    }
+  },
+  {
+    "file": "06-vogue-italia-795.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "429b59f4",
+    "source": "06-vogue-italia-795.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-beauty-papers-3.jpg",
+    "width": 881,
+    "height": 1200,
+    "sha1": "3a9ac381",
+    "source": "07-beauty-papers-3.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS",
+      "DateTimeOriginal": "2016:11:22 13:13:20",
+      "FocalLength": "100.0",
+      "ExposureTime": "0.0125",
+      "FNumber": "4.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "Canon EF 100mm f/2.8 Macro USM"
+    }
+  },
+  {
+    "file": "08-vogue-nippon-november-2011.jpg",
+    "width": 1600,
+    "height": 1041,
+    "sha1": "94f76d42",
+    "source": "08-vogue-nippon-november-2011.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P45+",
+      "DateTimeOriginal": "2010:08:14 10:00:28",
+      "ExposureTime": "0.004000011878283232",
+      "ISOSpeedRatings": "200"
+    }
+  },
+  {
+    "file": "09-dazed-and-confused-1999.jpg",
+    "width": 1021,
+    "height": 1200,
+    "sha1": "c54c574c",
+    "source": "09-dazed-and-confused-1999.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-face-off.jpg",
+    "width": 877,
+    "height": 1200,
+    "sha1": "3a810fb1",
+    "source": "10-face-off.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ260",
+      "DateTimeOriginal": "2020:06:18 10:11:12",
+      "ExposureTime": "0.002",
+      "ISOSpeedRatings": "100",
+      "LensModel": "-- mm f/--"
+    }
+  }
+]

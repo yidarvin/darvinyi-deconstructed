@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-v-magazine-133.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.260, "cy": 0.280, "rx": 0.120, "ry": 0.250, "label": "black feathered figure" },
+    { "type": "ellipse", "cx": 0.720, "cy": 0.170, "rx": 0.110, "ry": 0.140, "label": "red figure" },
+    { "type": "polyline", "points": [[0.690, 0.050], [0.840, 0.360], [0.740, 0.760], [0.560, 0.570]], "label": "cyan bracket" },
+    { "type": "polyline", "points": [[0.080, 0.040], [0.190, 0.280], [0.360, 0.480]], "label": "left enclosure" }
+  ],
+  "notes": "Two living brackets make the black and red figures read as a staged hierarchy across the white studio."
+}

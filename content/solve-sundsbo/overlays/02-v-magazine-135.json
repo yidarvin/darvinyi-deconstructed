@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-v-magazine-135.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.470, "cy": 0.315, "rx": 0.300, "ry": 0.285, "label": "tilted face" },
+    { "type": "polyline", "points": [[0.040, 0.910], [0.170, 0.670], [0.280, 0.530]], "label": "hand ascent" },
+    { "type": "polyline", "points": [[0.640, 0.000], [0.690, 0.350], [0.820, 0.670]], "label": "wet hair counterweight" }
+  ],
+  "notes": "The raised hand interrupts the close tilted face while wet hair makes a counterweight at the opposite edge."
+}

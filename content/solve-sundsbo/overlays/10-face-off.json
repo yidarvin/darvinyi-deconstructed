@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-face-off.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.737, "angle": 0, "label": "yellow tabletop" },
+    { "type": "ellipse", "cx": 0.490, "cy": 0.220, "rx": 0.110, "ry": 0.095, "label": "gold mask" },
+    { "type": "polyline", "points": [[0.400, 0.050], [0.200, 0.180], [0.040, 0.480]], "label": "blue hair sweep" },
+    { "type": "ellipse", "cx": 0.730, "cy": 0.660, "rx": 0.230, "ry": 0.280, "label": "red sleeve mass" }
+  ],
+  "notes": "Gold mask, blue hair, and an inflated red sleeve stack unlike masses above a hard yellow tabletop."
+}

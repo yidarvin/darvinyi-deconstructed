@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-out-of-order-aw-2017.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.530, "cy": 0.280, "rx": 0.285, "ry": 0.260, "label": "turned face" },
+    { "type": "polyline", "points": [[0.430, 0.182], [0.240, 0.195], [0.050, 0.200]], "label": "off-frame gaze" },
+    { "type": "polyline", "points": [[0.060, 0.550], [0.380, 0.610], [0.780, 0.670]], "label": "shoulder counter-diagonal" }
+  ],
+  "notes": "A turned face and off-frame gaze meet the shoulder counter-diagonal, leaving the pale surround active."
+}

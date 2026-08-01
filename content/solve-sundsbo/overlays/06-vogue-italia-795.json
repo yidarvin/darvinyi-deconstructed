@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-vogue-italia-795.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.388, "label": "portrait axis" },
+    { "type": "ellipse", "cx": 0.388, "cy": 0.370, "rx": 0.180, "ry": 0.250, "label": "eyes" },
+    { "type": "frame_in_frame", "x": 0.060, "y": 0.000, "w": 0.770, "h": 0.730, "label": "translucent wrap" },
+    { "type": "polyline", "points": [[0.200, 0.620], [0.380, 0.830], [0.590, 0.690]], "label": "tied transparent layer" }
+  ],
+  "notes": "A central blue face is held behind a translucent veil while leaf shadows and folds make the portrait read as layered screen space."
+}

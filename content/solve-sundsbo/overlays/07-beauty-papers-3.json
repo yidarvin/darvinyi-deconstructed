@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-beauty-papers-3.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "nose bridge axis" },
+    { "type": "ellipse", "cx": 0.260, "cy": 0.360, "rx": 0.200, "ry": 0.100, "label": "left eye field" },
+    { "type": "ellipse", "cx": 0.750, "cy": 0.360, "rx": 0.200, "ry": 0.100, "label": "right eye field" }
+  ],
+  "notes": "Near symmetry locks the eyes to the central nose bridge while the blue mask and crop make the face deliberately artificial."
+}

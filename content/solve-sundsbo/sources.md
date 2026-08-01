@@ -147,7 +147,7 @@ teaching need and source response.
   web-sized copy supports criticism without replacing the magazine image.
 - **File:** `raw/solve-sundsbo/09-dazed-and-confused-1999.jpg` (1021 × 1200px).
 
-### 10 — *Face Off* for *V Man* (c. 2021), selected frame
+### 10 — *Face Off* for *V Man* 45 (Winter 2020–Spring 2021), selected frame
 
 - **Why it matters:** A masked gold head, inflated red sleeve, and smoke-like
   blue hair form three unlike masses on a dark ground.  The hard yellow table

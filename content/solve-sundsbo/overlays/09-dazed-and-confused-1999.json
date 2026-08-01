@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-dazed-and-confused-1999.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.280, "cy": 0.170, "rx": 0.260, "ry": 0.135, "label": "wireframe head" },
+    { "type": "ellipse", "cx": 0.420, "cy": 0.400, "rx": 0.110, "ry": 0.170, "label": "hand interruption" },
+    { "type": "polyline", "points": [[0.030, 0.080], [0.280, 0.080], [0.570, 0.030]], "label": "wireframe crown" },
+    { "type": "polyline", "points": [[0.550, 0.200], [0.720, 0.220], [0.920, 0.240]], "label": "trailing contours" }
+  ],
+  "notes": "A wireframe-like head is cut by a dark hand, then releases trailing contours into a graphic white field."
+}
