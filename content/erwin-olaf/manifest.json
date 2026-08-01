@@ -1,0 +1,108 @@
+[
+  {
+    "file": "01-rain-ice-cream-parlor.jpg",
+    "width": 1499,
+    "height": 1500,
+    "sha1": "90a8dad6",
+    "source": "01-rain-ice-cream-parlor.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-rain-hairdressers.jpg",
+    "width": 1600,
+    "height": 1135,
+    "sha1": "73c739b0",
+    "source": "02-rain-hairdressers.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-rain-dancing-school.jpg",
+    "width": 1600,
+    "height": 1135,
+    "sha1": "3ec7d4d0",
+    "source": "03-rain-dancing-school.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-rain-boardroom.jpg",
+    "width": 1600,
+    "height": 1135,
+    "sha1": "5df38668",
+    "source": "04-rain-boardroom.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-rain-gym.jpg",
+    "width": 1600,
+    "height": 1132,
+    "sha1": "79f2b395",
+    "source": "05-rain-gym.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-hope-hallway.jpg",
+    "width": 1600,
+    "height": 1134,
+    "sha1": "b538eb5f",
+    "source": "06-hope-hallway.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-hope-boxing-school.jpg",
+    "width": 1600,
+    "height": 1135,
+    "sha1": "e11540b4",
+    "source": "07-hope-boxing-school.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-hope-kitchen.jpg",
+    "width": 1600,
+    "height": 1136,
+    "sha1": "124ae936",
+    "source": "08-hope-kitchen.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-grief-caroline.jpg",
+    "width": 1600,
+    "height": 899,
+    "sha1": "0fc17365",
+    "source": "09-grief-caroline.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 45",
+      "DateTimeOriginal": "2007:01:10 16:35:44",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "10-grief-troy.jpg",
+    "width": 1600,
+    "height": 899,
+    "sha1": "d76bc604",
+    "source": "10-grief-troy.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 45",
+      "DateTimeOriginal": "2007:01:25 20:15:59",
+      "ISOSpeedRatings": "100"
+    }
+  },
+  {
+    "file": "11-royal-blood-di.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "b6fb8f34",
+    "source": "11-royal-blood-di.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-royal-blood-jackie-o-1229.jpg",
+    "width": 1500,
+    "height": 1501,
+    "sha1": "17e27808",
+    "source": "12-royal-blood-jackie-o-1229.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-rain-hairdressers.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.77, "angle": 5.1, "label": "TILED FLOOR BREAK" },
+    { "type": "frame_in_frame", "x": 0.68, "y": 0.15, "w": 0.14, "h": 0.37, "label": "PINK DOORWAY" },
+    { "type": "ellipse", "cx": 0.58, "cy": 0.48, "rx": 0.08, "ry": 0.23, "label": "STANDING FIGURE" },
+    { "type": "polyline", "points": [[0.05, 0.58], [0.35, 0.58], [0.62, 0.58], [0.95, 0.58]], "label": "CHAIR INTERVAL" }
+  ],
+  "notes": "The salon alternates occupied and empty stations across one lateral band."
+}

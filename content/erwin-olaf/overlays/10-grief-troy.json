@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "10-grief-troy.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.781, "angle": 0.0, "label": "FURNITURE BAND" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.463, "label": "ROOM BALANCE" },
+    { "type": "frame_in_frame", "x": 0.51, "y": 0.00, "w": 0.25, "h": 0.86, "label": "SHEER WINDOW" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.60, "rx": 0.06, "ry": 0.25, "label": "KNEELING FIGURE" },
+    { "type": "polyline", "points": [[0.00, 0.78], [0.50, 0.78], [1.00, 0.78]], "label": "LOW FURNITURE LINE" }
+  ],
+  "notes": "Furniture and a sheer window ration a large room around one kneeling figure."
+}

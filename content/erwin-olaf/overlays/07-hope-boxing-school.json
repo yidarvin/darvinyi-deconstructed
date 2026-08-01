@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "07-hope-boxing-school.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.493, "angle": 1.0, "label": "RING ROPE BAND" },
+    { "type": "leading_line", "points": [[0.056, 0.796], [0.473, 0.92]], "arrow": true, "label": "RING EDGE" },
+    { "type": "frame_in_frame", "x": 0.09, "y": 0.35, "w": 0.82, "h": 0.37, "label": "BOXING RING" },
+    { "type": "ellipse", "cx": 0.28, "cy": 0.58, "rx": 0.07, "ry": 0.26, "label": "LEFT BOXER" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.58, "rx": 0.07, "ry": 0.26, "label": "RIGHT BOXER" }
+  ],
+  "notes": "Ring ropes make two distant boxers appear held in separate compartments."
+}

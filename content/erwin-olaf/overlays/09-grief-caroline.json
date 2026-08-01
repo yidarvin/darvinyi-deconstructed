@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "09-grief-caroline.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.845, "angle": 0.0, "label": "FLOOR SHADOW" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.6, "label": "CURTAIN BALANCE" },
+    { "type": "frame_in_frame", "x": 0.39, "y": 0.00, "w": 0.30, "h": 0.89, "label": "LUMINOUS WINDOW" },
+    { "type": "ellipse", "cx": 0.76, "cy": 0.57, "rx": 0.07, "ry": 0.26, "label": "SEATED FIGURE" },
+    { "type": "polyline", "points": [[0.00, 0.83], [0.48, 0.83], [1.00, 0.83]], "label": "CHAIR / FLOOR BAND" }
+  ],
+  "notes": "The window's broad light makes the seated figure a small, withheld event."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-royal-blood-di.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.726, "y": 0.852, "label": "BLOOD DETAIL" },
+    { "type": "horizon_line", "y": 0.663, "angle": 0.0, "label": "SHOULDER / BACKGROUND BREAK" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.36, "rx": 0.20, "ry": 0.27, "label": "ICONIC HEAD" },
+    { "type": "polyline", "points": [[0.42, 0.77], [0.66, 0.68], [0.85, 1.00]], "label": "TORSO TO WOUND" }
+  ],
+  "notes": "An immaculate frontal portrait sends its compositional pressure downward to one rupture."
+}

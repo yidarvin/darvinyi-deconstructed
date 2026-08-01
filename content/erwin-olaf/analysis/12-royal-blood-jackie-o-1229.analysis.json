@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "12-royal-blood-jackie-o-1229.jpg",
+  "width": 1500,
+  "height": 1501,
+  "aspect": 0.9993,
+  "tonal": {
+    "mean": 0.772235107538861,
+    "std": 0.17029777099050575,
+    "p05": 0.4117647058823529,
+    "p95": 0.9372549019607843,
+    "edge_density": 0.006603013501955034
+  },
+  "palette": [
+    "#d9d4cb",
+    "#ebe7e1",
+    "#9a8573",
+    "#bfb09f",
+    "#72564a"
+  ],
+  "lines": [
+    {
+      "x1": 0.28347996089931576,
+      "y1": 0.4345703125,
+      "x2": 0.31378299120234604,
+      "y2": 0.2919921875,
+      "angle_deg": -78.0124880565395,
+      "length": 0.10311585704919164,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.6989247311827957,
+      "y1": 0.9306640625,
+      "x2": 0.7869012707722385,
+      "y2": 0.822265625,
+      "angle_deg": -50.96448710125312,
+      "length": 0.09872692398737913,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.603515625,
+    "angle_deg": 0.0,
+    "confidence": 0.6771058314174282,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5151515151515151,
+      0.1015625
+    ],
+    "regions": [
+      {
+        "cx": 0.530425453898881,
+        "cy": 0.102736244832463,
+        "x": 0.45943304007820135,
+        "y": 0.0556640625,
+        "w": 0.13880742913000976,
+        "h": 0.0966796875,
+        "area_frac": 0.010968429252199414
+      },
+      {
+        "cx": 0.6330340477475769,
+        "cy": 0.17685206778606966,
+        "x": 0.5943304007820137,
+        "y": 0.1376953125,
+        "w": 0.07624633431085044,
+        "h": 0.080078125,
+        "area_frac": 0.004796897910557185
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8189542322503031,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.7397092911424175,
+    "horizontal_axis_y": 0.575
+  },
+  "subject_anchor": {
+    "x": 0.5151515151515151,
+    "y": 0.1015625,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.21055169753086436,
+    "phi": 0.3906727268522415,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.82,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.604,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.68,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.515,
+      "y": 0.102,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

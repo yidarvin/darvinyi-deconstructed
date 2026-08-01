@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-royal-blood-jackie-o-1229.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "FRONTAL BALANCE" },
+    { "type": "horizon_line", "y": 0.604, "angle": 0.0, "label": "SHOULDER BAND" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.38, "rx": 0.27, "ry": 0.29, "label": "MASKED PORTRAIT" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.13, "rx": 0.14, "ry": 0.12, "label": "TILTED HAT" }
+  ],
+  "notes": "A nearly symmetrical head-and-shoulders portrait is unsettled by a tilted hat."
+}
