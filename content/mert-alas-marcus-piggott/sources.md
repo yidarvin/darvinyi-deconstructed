@@ -1,0 +1,77 @@
+# Image sources — Mert Alas & Marcus Piggott
+
+This chapter uses public, web-sized display renditions from Vogue France’s cover archive and its coverage of the 2016 *Mert & Marcus, Works 2001–2014* exhibition. They are not open licensed. Every retained frame is used for criticism, scholarship, and transformative composition teaching; the chapter will credit and link to Vogue France’s public record and will not replace a print, editorial issue, or licensed reproduction.
+
+## Selected works
+
+### 01. *Lips* (2005)
+
+- **Why it matters:** The vertical close-up turns a cropped mouth and glossy red surface into a confrontational, nearly abstract color field.
+- **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 784 × 1176 display rendition, downloaded as `raw/mert-alas-marcus-piggott/01-lips-2005.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), as credited by Vogue France; ownership of the exhibition print is not stated. Purpose and character: critical, educational analysis of close crop, color, and surface. Nature: a published, highly creative photograph. Amount: the complete displayed frame is necessary to teach its crop. Market effect: the credited, linked web-sized study copy does not replace a print or licensed reproduction.
+
+### 02. *Kate Moss for Vogue Japan* (May 2011)
+
+- **Why it matters:** The horizontal frame uses Moss’s low, reclining figure and a broad pale field to make small gestures read as a controlled graphic arrangement.
+- **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 1600 × 1173 display rendition, downloaded as `raw/mert-alas-marcus-piggott/02-kate-moss-vogue-japan-2011.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), credited by Vogue France; *Vogue Japan* editorial rights may also apply. Purpose and character: critical, educational analysis of pose, empty field, and horizontal balance. Nature: a published, highly creative fashion photograph. Amount: the complete frame is necessary to teach the relation of figure to ground. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 03. *Mirror* (2002)
+
+- **Why it matters:** Mirroring makes the body and its reflected double into a deliberately unstable bilateral composition, with the seam doing the narrative work.
+- **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 1162 × 871 display rendition, downloaded as `raw/mert-alas-marcus-piggott/03-mirror-2002.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), as credited by Vogue France; ownership of the exhibition print is not stated. Purpose and character: critical, educational analysis of symmetry and reflection. Nature: a published, highly creative photograph. Amount: the complete displayed frame is necessary to teach the mirror seam and doubled figure. Market effect: the credited, linked web-sized study copy does not replace a print or licensed reproduction.
+
+### 04. *Smoke* (2011)
+
+- **Why it matters:** A pale figure and drifting smoke establish a soft, mobile triangle against a dark surround, making atmosphere an active compositional mass.
+- **Source:** [Vogue France exhibition record](https://www.vogue.fr/culture/a-voir/diaporama/exposition-mert-marcus-works-2011-2014-londres-paris-photos-kate-moss-vogue/38337) — public 1162 × 731 display rendition, downloaded as `raw/mert-alas-marcus-piggott/04-smoke-2011.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph), as credited by Vogue France; the page identifies the work as *Smoke*, 2011. Purpose and character: critical, educational analysis of tonal mass, atmospheric depth, and figure placement. Nature: a published, highly creative photograph. Amount: the complete frame is necessary to teach the smoke/figure relationship. Market effect: the credited, linked web-sized study copy does not replace a print or licensed reproduction.
+
+### 05. *Lara Stone, Vogue Paris* (March 2008 cover)
+
+- **Why it matters:** The debut cover uses warm hair, bare shoulders, and the tall magazine frame to turn a simple head-and-shoulders pose into a copper-and-skin color block.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 600 display rendition, downloaded as `raw/mert-alas-marcus-piggott/05-lara-stone-vogue-paris-2008.jpg`. The 600px long edge is a compositionally essential, legible exception to the normal 640px floor; the public archive supplied no larger rendition.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its March 2008 cover. Purpose and character: critical, educational analysis of portrait crop and color massing. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach the cover’s vertical construction. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 06. *Rose Cordero, Vogue Paris* (March 2010 cover)
+
+- **Why it matters:** The close, direct cover portrait tests how a head, shoulders, and title treatment can be balanced within a compressed vertical field.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 600 display rendition, downloaded as `raw/mert-alas-marcus-piggott/06-rose-cordero-vogue-paris-2010.jpg`. The 600px long edge is a compositionally essential, legible exception to the normal 640px floor; the public archive supplied no larger rendition.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its March 2010 cover. Purpose and character: critical, educational analysis of direct gaze, portrait crop, and cover layout. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach the cover’s frame-edge decisions. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 07. *Marion Cotillard, Vogue Paris* (September 2010 cover)
+
+- **Why it matters:** The centered, dark-eyed face and controlled cool surround show how cosmetic contrast can produce a cinematic, frontal icon.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 600 display rendition, downloaded as `raw/mert-alas-marcus-piggott/07-marion-cotillard-vogue-paris-2010.jpg`. The 600px long edge is a compositionally essential, legible exception to the normal 640px floor; the public archive supplied no larger rendition.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its September 2010 cover. Purpose and character: critical, educational analysis of frontal staging and tonal contrast. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach its eye-line and tonal surround. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 08. *Daphne Groeneveld and Tom Ford, Vogue Paris* (December 2010/January 2011 cover)
+
+- **Why it matters:** The paired cover compresses two figures into an intentionally charged, asymmetric fashion tableau, using their overlapping heads and shoulders as a tight diagonal unit.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 831 × 1077 display rendition, downloaded as `raw/mert-alas-marcus-piggott/08-daphne-groeneveld-tom-ford-vogue-paris-2010.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies the two subjects and issue. Purpose and character: critical, educational analysis of paired-figure hierarchy and diagonal overlap. Nature: a published, highly creative editorial photograph. Amount: the complete frame is necessary to teach the pair’s edge-to-edge arrangement. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 09. *Sasha Pivovarova, Vogue Paris* (October 2011 cover)
+
+- **Why it matters:** The tall full-length pose lets the figure act as a vertical spine while saturated styling and shadow provide an intentionally theatrical background rhythm.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 822 × 1077 display rendition, downloaded as `raw/mert-alas-marcus-piggott/09-sasha-pivovarova-vogue-paris-2011.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its October 2011 cover. Purpose and character: critical, educational analysis of full-length pose, vertical balance, and theatrical color. Nature: a published, highly creative editorial photograph. Amount: the complete frame is necessary to teach the relationship of body to surround. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 10. *Kate Moss, Vogue Paris* (September 2012 cover)
+
+- **Why it matters:** A highly styled Bowie-inflected face uses centered gaze, graphic makeup, and cropped hair as a deliberately artificial front-plane composition.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 646 display rendition, downloaded as `raw/mert-alas-marcus-piggott/10-kate-moss-vogue-paris-2012.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its September 2012 cover. Purpose and character: critical, educational analysis of frontal portraiture, makeup, and graphic styling. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach its centered iconography. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 11. *Natalia Vodianova, Vogue Paris* (September 2014 cover)
+
+- **Why it matters:** The clean close portrait makes a small shift of shoulder and gaze control the whole cover, a concise example of the duo’s polished surface and portrait hierarchy.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 658 display rendition, downloaded as `raw/mert-alas-marcus-piggott/11-natalia-vodianova-vogue-paris-2014.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its September 2014 cover. Purpose and character: critical, educational analysis of close portrait hierarchy and polished tonal surface. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach the relation of gaze, shoulder, and masthead space. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
+
+### 12. *Gigi Hadid, Vogue Paris* (March 2016 cover)
+
+- **Why it matters:** The contemporary cover concentrates saturated cosmetic color and direct gaze in a tight crop, showing how their digital finish makes the face read as both subject and surface.
+- **Source:** [Vogue France’s Mert & Marcus cover archive](https://www.vogue.fr/culture/a-voir/diaporama/mert-marcus-en-29-couvertures-de-vogue-paris/22041) — public 499 × 647 display rendition, downloaded as `raw/mert-alas-marcus-piggott/12-gigi-hadid-vogue-paris-2016.jpg`.
+- **Use basis: fair-use.** Credit/rightsholder notice: © Mert Alas & Marcus Piggott (photograph); Vogue France identifies this as its March 2016 cover. Purpose and character: critical, educational analysis of tight crop, color, and retouched surface. Nature: a published, highly creative editorial photograph. Amount: the complete displayed frame is necessary to teach the face-as-surface construction. Market effect: the credited, linked web-sized study copy does not replace the magazine, print, or licensed reproduction.
