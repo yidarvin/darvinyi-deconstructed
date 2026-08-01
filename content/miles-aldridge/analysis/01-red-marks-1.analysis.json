@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "image": "01-red-marks-1.jpg",
+  "width": 1600,
+  "height": 1062,
+  "aspect": 1.5066,
+  "tonal": {
+    "mean": 0.8248412469046897,
+    "std": 0.09911492949283715,
+    "p05": 0.6862745098039216,
+    "p95": 0.9607843137254902,
+    "edge_density": 0.0033496525220913106
+  },
+  "palette": [
+    "#eae8e7",
+    "#fcba23",
+    "#cfc4c1",
+    "#f5c671",
+    "#d5667f"
+  ],
+  "lines": [
+    {
+      "x1": 0.443359375,
+      "y1": 0.5964653902798233,
+      "x2": 0.5185546875,
+      "y2": 0.48306332842415317,
+      "angle_deg": -45.0,
+      "length": 0.08862828265513707,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.4638671875,
+      "y1": 0.5567010309278351,
+      "x2": 0.5341796875,
+      "y2": 0.4742268041237113,
+      "angle_deg": -37.874983651098205,
+      "length": 0.07423834374595041,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.7496318114874816,
+    "angle_deg": 0.0,
+    "confidence": 0.8662475428634215,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5078125,
+      0.5110456553755522
+    ],
+    "regions": [
+      {
+        "cx": 0.513091735871302,
+        "cy": 0.5118159629778689,
+        "x": 0.4560546875,
+        "y": 0.43593519882179677,
+        "w": 0.119140625,
+        "h": 0.15463917525773196,
+        "area_frac": 0.013952331093519883
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.5974429872571809,
+    "vertical_axis_x": 0.4,
+    "horizontal": 0.6910378672402544,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.5078125,
+    "y": 0.5110456553755522,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.13716613029327793,
+    "phi": 0.15094731762165908,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.75,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.87,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.508,
+      "y": 0.511,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

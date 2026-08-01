@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-ophelia.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.314, "angle": 0, "label": "WATER'S DARK BREAK" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.53, "rx": 0.36, "ry": 0.21, "label": "FLOATING FIGURE" },
+    { "type": "polyline", "points": [[0.17, 0.52], [0.42, 0.54], [0.70, 0.50], [0.91, 0.39]], "label": "FIGURE'S LENGTH" }
+  ],
+  "notes": "The floating body is a pale lateral form held in dark water and foreground grasses."
+}

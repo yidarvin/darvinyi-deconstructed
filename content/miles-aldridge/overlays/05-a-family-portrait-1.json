@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-a-family-portrait-1.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.409, "angle": -1.97, "label": "TREE-ROW SEAM" },
+    { "type": "polyline", "points": [[0.10, 0.50], [0.05, 0.48], [0.03, 0.45]], "label": "AVENUE'S FAR OPENING" },
+    { "type": "subject_anchor", "x": 0.836, "y": 0.535, "label": "WALKING PAIR" }
+  ],
+  "notes": "A receding avenue leaves the balloon-bearing pair unusually isolated at the right."
+}

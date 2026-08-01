@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-like-a-painting-1.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.60, "cy": 0.34, "rx": 0.25, "ry": 0.21, "label": "PROFILE" },
+    { "type": "polyline", "points": [[0.20, 0.16], [0.36, 0.21], [0.61, 0.30], [0.78, 0.36]], "label": "PEARL ARC" },
+    { "type": "ellipse", "cx": 0.22, "cy": 0.30, "rx": 0.07, "ry": 0.07, "label": "BUTTERFLY" }
+  ],
+  "notes": "A pale profile, beadwork, and butterflies are held against an enclosing field of ivy."
+}

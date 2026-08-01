@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-dog-lady-1.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.13, "y": 0.03, "w": 0.72, "h": 0.78, "label": "CURTAINED BED" },
+    { "type": "ellipse", "cx": 0.38, "cy": 0.35, "rx": 0.12, "ry": 0.23, "label": "SITTER" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.40, "rx": 0.06, "ry": 0.08, "label": "DOG'S HEAD" }
+  ],
+  "notes": "Curtains and bed make a chamber for the unequal sitter-and-dog pair."
+}

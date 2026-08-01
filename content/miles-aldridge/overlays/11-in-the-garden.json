@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-in-the-garden.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.53, 0.12], [0.64, 0.26], [0.62, 0.48], [0.71, 0.70]], "label": "BRAID" },
+    { "type": "ellipse", "cx": 0.29, "cy": 0.47, "rx": 0.08, "ry": 0.07, "label": "BLUE BUTTERFLY" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.32, "rx": 0.18, "ry": 0.18, "label": "FACE" }
+  ],
+  "notes": "A pearl-banded portrait emerges from a dark foliage field through a plaited diagonal."
+}
