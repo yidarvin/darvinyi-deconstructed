@@ -193,7 +193,7 @@ real queue and state live in data/registry.json.
 | 182 | charlie-engman            | Charlie Engman               | DONE    |
 | 183 | sofia-crespo              | Sofia Crespo                 | DONE    |
 | 184 | boris-eldagsen            | Boris Eldagsen               | DONE    |
-| 185 | nick-knight               | Nick Knight                  | PENDING |
+| 185 | nick-knight               | Nick Knight                  | DONE    |
 | 186 | solve-sundsbo             | Sølve Sundsbø                | PENDING |
 | 187 | mert-alas-marcus-piggott  | Mert Alas & Marcus Piggott   | PENDING |
 | 188 | steven-klein              | Steven Klein                 | PENDING |
