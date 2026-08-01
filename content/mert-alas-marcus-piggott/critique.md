@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-01
 
@@ -31,3 +31,16 @@ Reviewed all 12 rendered proofs against their overlay specs, analyzer records, c
 Resolved all eight required items from the 2026-08-01 critique round. The `Lips` and Gigi Hadid source notes now describe the retained grayscale/full-figure renditions and their complete-frame teaching rationale. The Smoke anchor now identifies the central support. I removed the unsupported vanishing-point, paired-head, collar-path, torso-path, and thigh-contour claims; the Marion portrait axis was re-measured to `0.575`, and the surviving affected specs were re-rendered and scored at 100/100 with a clean visual pass. The chapter and site mirror remove claims dependent on the discarded paths.
 
 Re-verified critique history: 2026-08-01 (the only prior critique round). All its required fixes hold in the current overlays, proofs, source notes, and byte-identical chapter files.
+
+## Critique round — 2026-08-01
+
+Reviewed all 12 current rendered proofs against their overlay specs and analyzer records, then checked the chapter, manifest, source notes, and prior resolved round. All current specs score 100/100 with the deterministic scorer; source links, credits, and per-image four-factor fair-use rationales are present. The prior round's eight required corrections remain resolved.
+
+### Required
+
+1. **02-kate-moss-vogue-japan-2011 — remove or replace the unsupported `room recession` vanishing-point claim.** The marker at `(0.554, 0.135)` sits in the upper blue field/over the hair rather than at a visibly converging architectural feature. The two annotated left-chaise edges visibly meet around the left side of the figure, not at this marker. Replace it with a primitive that names a visible feature, or omit it; then revise the chapter sentence that says the chaise lines rise toward that room recession.
+
+### Advisory (non-blocking)
+
+- **04-smoke-2011:** the marker labeled `central support` lands on that support, but the `vanishing_point` primitive is an unconventional vocabulary choice for it. The label and placement are truthful, so this is not blocking.
+- **10-kate-moss-vogue-paris-2012:** the `upper cover threshold` remains legible as a broad graphic divide, though it crosses the portrait rather than following one continuous physical edge. This is a stylistic simplification, not a material misidentification.
