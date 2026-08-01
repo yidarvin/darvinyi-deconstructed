@@ -241,6 +241,37 @@ set -e
 assert_contains "$(cat "$tmp/path-escape.log")" 'unrelated.txt.*changed outside selected unit' \
   "path escape rejection did not name the unrelated file"
 
+# Existing worktree edits are a baseline, not an escape.  A new edit to that
+# same file during the unit remains an escape, while its unchanged baseline is
+# excluded from the parent-owned transaction path list.
+printf 'verdict: resolved\n' > "$tmp/unit-fixture/content/alvin-langdon-coburn/critique.md"
+printf 'pre-existing\n' > "$tmp/unit-fixture/unrelated.txt"
+python3 scripts/work_unit.py snapshot --root "$tmp/unit-fixture" --output "$tmp/dirty-before.json"
+printf 'verdict: approve\n' > "$tmp/unit-fixture/content/alvin-langdon-coburn/critique.md"
+python3 - "$tmp/unit-fixture/data/registry.json" <<'PY'
+import json, sys
+p = sys.argv[1]
+data = json.load(open(p))
+data["photographers"][0]["stage"] = "approved"
+open(p, "w").write(json.dumps(data) + "\n")
+PY
+python3 scripts/work_unit.py validate --root "$tmp/unit-fixture" \
+  --before "$tmp/dirty-before.json" --before-head "$path_head" \
+  --stage critique --wave 4 --unit alvin-langdon-coburn \
+  > "$tmp/dirty-baseline.log" 2>&1 \
+  || fail "exact-unit gate rejected unchanged pre-existing dirt: $(cat "$tmp/dirty-baseline.log")"
+printf 'modified during unit\n' > "$tmp/unit-fixture/unrelated.txt"
+set +e
+python3 scripts/work_unit.py validate --root "$tmp/unit-fixture" \
+  --before "$tmp/dirty-before.json" --before-head "$path_head" \
+  --stage critique --wave 4 --unit alvin-langdon-coburn \
+  > "$tmp/dirty-modified.log" 2>&1
+dirty_modified_rc=$?
+set -e
+[ "$dirty_modified_rc" -ne 0 ] || fail "exact-unit gate accepted a modified pre-existing path"
+assert_contains "$(cat "$tmp/dirty-modified.log")" 'unrelated.txt.*changed outside selected unit' \
+  "modified pre-existing path was not rejected"
+
 grep -q 'Select exactly one' prompts/source.md || fail "source prompt is not one-unit-per-call"
 grep -q 'Select exactly one' prompts/build.md || fail "build prompt is not one-unit-per-call"
 grep -q 'Select exactly one' prompts/critique.md || fail "critique prompt is not one-unit-per-call"

@@ -323,6 +323,7 @@ run_stage() {
   local before_head snapshot_path validation_stage validation_wave validation_unit validation_snapshot validation_head
   local binding_stage binding_wave binding_unit
   local old_verdict new_verdict="" commit_message publish_tmp ahead
+  local -a stage_paths_args=()
   [ -n "$unit" ] && [ "$unit" != "::" ] || { echo "!! exact work unit missing for stage '$stage'"; return 64; }
   case "$stage" in critique) model="$CRITIC_MODEL" ;; *) model="$BUILD_MODEL" ;; esac
   [ -f "prompts/$stage.md" ] || { echo "!! prompt missing: prompts/$stage.md"; return 2; }
@@ -464,7 +465,12 @@ run_stage() {
       renderer) commit_message="build: overlay renderer" ;;
       *) commit_message="recover: runtime" ;;
     esac
-    pipeline_git "$ROOT" add -A
+    [ "$stage" = "recover" ] && stage_paths_args=(--recovery)
+    while IFS= read -r path; do
+      [ -n "$path" ] && pipeline_git "$ROOT" add -- "$path"
+    done < <(python3 scripts/work_unit.py stage-paths --root "$ROOT" \
+      --stage "$validation_stage" --unit "$validation_unit" \
+      "${stage_paths_args[@]}")
     pipeline_git "$ROOT" commit -m "$commit_message"
   fi
 

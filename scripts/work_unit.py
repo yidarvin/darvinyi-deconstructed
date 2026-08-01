@@ -9,6 +9,7 @@ the photographer (or integration unit) selected before Codex started.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import subprocess
 import sys
@@ -40,13 +41,35 @@ def needs_review(root: Path) -> list[str]:
     return [line.strip() for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
+def worktree_fingerprint(root: Path, path: str) -> str:
+    """Return a stable fingerprint for a tracked dirty path or an untracked file."""
+    candidate = root / path
+    if not candidate.exists():
+        return "missing"
+    if candidate.is_dir():
+        return "directory"
+    return hashlib.sha256(candidate.read_bytes()).hexdigest()
+
+
 def snapshot(root: Path) -> dict[str, Any]:
     registry = json.loads((root / "data/registry.json").read_text(encoding="utf-8"))
     entries: dict[str, dict[str, Any]] = {}
     for entry in registry["photographers"]:
         slug = entry["slug"]
         entries[slug] = {"registry": entry, "verdict": verdict(root, slug)}
-    return {"entries": entries, "needs_review": needs_review(root)}
+    try:
+        dirty_paths = {
+            path: worktree_fingerprint(root, path)
+            for path in changed_paths(root, "HEAD")
+        }
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        # Unit fixtures may be snapshotted before their first Git commit.
+        dirty_paths = {}
+    return {
+        "entries": entries,
+        "needs_review": needs_review(root),
+        "dirty_paths": dirty_paths,
+    }
 
 
 def git_output(root: Path, *args: str) -> str:
@@ -109,6 +132,47 @@ def path_allowed(stage: str, slug: str | None, path: str) -> bool:
     if stage == "build" and path == f"src/chapters/{slug}.mdx":
         return True
     return False
+
+
+def recovery_path_allowed(slug: str | None, path: str) -> bool:
+    """Paths a recovery may commit for its already-selected photographer."""
+    if slug is None:
+        return True
+    return (
+        path in REGISTRY_FILES
+        or path == "needs-review.txt"
+        or path.startswith(f"content/{slug}/")
+        or path == f"src/chapters/{slug}.mdx"
+    )
+
+
+def validation_paths(root: Path, before: dict[str, Any], before_head: str | None) -> set[str]:
+    """Return paths modified by this invocation, excluding unchanged initial dirt.
+
+    A stage must not fail merely because a user already had an unrelated edit in
+    the worktree.  Snapshot fingerprints still surface that path if this
+    invocation changes it, so the exact-unit boundary remains enforced.
+    """
+    paths = changed_paths(root, before_head)
+    baseline = before.get("dirty_paths")
+    if not isinstance(baseline, dict):
+        return paths
+    return {
+        path
+        for path in paths
+        if path not in baseline or worktree_fingerprint(root, path) != baseline[path]
+    }
+
+
+def staging_paths(root: Path, stage: str, unit: str, recovery: bool) -> list[str]:
+    """Select only files belonging to the parent-owned transaction commit."""
+    slug = target_slug(unit)
+    allowed = recovery_path_allowed if recovery else path_allowed
+    return sorted(
+        path
+        for path in changed_paths(root, "HEAD")
+        if (recovery_path_allowed(slug, path) if recovery else path_allowed(stage, slug, path))
+    )
 
 
 def validate(
@@ -205,7 +269,7 @@ def validate(
                 errors.append(f"unsupported exact-unit stage: {stage}")
 
     try:
-        paths = changed_paths(root, before_head)
+        paths = validation_paths(root, before, before_head)
     except (subprocess.CalledProcessError, FileNotFoundError) as exc:
         errors.append(f"cannot inspect work-unit paths: {exc}")
         paths = set()
@@ -216,9 +280,26 @@ def validate(
     return errors
 
 
+def amend_dirty_baseline(root: Path, before_path: Path, paths: list[str]) -> None:
+    """Backfill fingerprints for a legacy snapshot after manual recovery audit.
+
+    Snapshots made before ``dirty_paths`` existed cannot distinguish pre-existing
+    worktree edits from a stage escape.  This explicit one-time repair is only
+    safe after the caller has independently established that each named path was
+    already dirty at the snapshot boundary.
+    """
+    before = json.loads(before_path.read_text(encoding="utf-8"))
+    baseline = before.setdefault("dirty_paths", {})
+    if not isinstance(baseline, dict):
+        raise ValueError("snapshot dirty_paths is not an object")
+    for path in paths:
+        baseline[path] = worktree_fingerprint(root, path)
+    before_path.write_text(json.dumps(before, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=("snapshot", "validate"))
+    parser.add_argument("command", choices=("snapshot", "validate", "stage-paths", "amend-dirty-baseline"))
     parser.add_argument("--root", type=Path, default=Path.cwd())
     parser.add_argument("--output", type=Path)
     parser.add_argument("--before", type=Path)
@@ -226,6 +307,8 @@ def main() -> int:
     parser.add_argument("--stage")
     parser.add_argument("--wave", type=int, default=0)
     parser.add_argument("--unit")
+    parser.add_argument("--recovery", action="store_true")
+    parser.add_argument("--path", action="append", default=[])
     args = parser.parse_args()
     root = args.root.resolve()
 
@@ -233,6 +316,19 @@ def main() -> int:
         if args.output is None:
             parser.error("snapshot requires --output")
         args.output.write_text(json.dumps(snapshot(root), indent=2) + "\n", encoding="utf-8")
+        return 0
+
+    if args.command == "amend-dirty-baseline":
+        if args.before is None or not args.path:
+            parser.error("amend-dirty-baseline requires --before and one or more --path values")
+        amend_dirty_baseline(root, args.before, args.path)
+        return 0
+
+    if args.command == "stage-paths":
+        if args.stage is None or args.unit is None:
+            parser.error("stage-paths requires --stage and --unit")
+        for path in staging_paths(root, args.stage, args.unit, args.recovery):
+            print(path)
         return 0
 
     if args.before is None or args.stage is None or args.unit is None:

@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.763, "angle": 0.0, "label": "COUNTER EDGE" },
     { "type": "vanishing_point", "x": 0.551, "y": 0.696, "label": "KITCHEN CONVERGENCE" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "WINDOW AXIS" },
+    { "type": "polyline", "points": [[0.412, 0.07], [0.412, 0.52]], "label": "WINDOW'S LEFT FRAME" },
     { "type": "subject_anchor", "x": 0.664, "y": 0.719, "r": 0.035, "label": "PREPARED BIRD" },
     { "type": "frame_in_frame", "x": 0.405, "y": 0.0, "w": 0.18, "h": 0.52, "label": "OPEN WINDOW" }
   ],

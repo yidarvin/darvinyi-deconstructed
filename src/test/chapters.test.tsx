@@ -87,5 +87,8 @@ describe("registry and modules line up", () => {
     for (const chapter of registry.chapters) {
       expect(await screen.findAllByText(chapter.title)).not.toHaveLength(0);
     }
-  }, 12_000);
+  // With the full published registry, rendering the complete index can take
+  // longer than the generic per-test limit on a cold worker. Keep this bound
+  // finite while allowing the documented serial workload to complete.
+  }, 30_000);
 });
