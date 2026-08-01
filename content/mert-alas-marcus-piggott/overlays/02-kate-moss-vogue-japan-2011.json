@@ -4,9 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.883, "angle": 0.0, "label": "low chaise edge" },
-    { "type": "leading_line", "points": [[0.353,0.877],[0.428,0.295]], "arrow": true, "label": "left chaise edge" },
-    { "type": "leading_line", "points": [[0.195,0.771],[0.428,0.299]], "arrow": true, "label": "left couch fold" },
     { "type": "ellipse", "cx": 0.58, "cy": 0.56, "rx": 0.22, "ry": 0.37, "label": "seated figure" }
   ],
-  "notes": "The chaise and blue room make a wide stage for the concentrated seated figure."
+  "notes": "The chaise's low edge and blue room make a wide stage for the concentrated seated figure."
 }

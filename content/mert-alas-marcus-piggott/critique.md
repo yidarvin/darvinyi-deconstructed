@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -72,3 +72,11 @@ Reviewed every current proof against its overlay and analyzer record, then indep
 - **05-lara-stone-vogue-paris-2008:** `cover-text threshold` reads as a broad detector-derived band across the lower face and cover copy rather than one continuous edge. A more precise label would improve the teaching clarity, but it does not make a materially false claim.
 - **06-rose-cordero-vogue-paris-2010:** `collar line` simplifies a broken, low face-to-collar transition. The line remains close enough to the visible collar boundary to be non-blocking; a more specific label would be clearer.
 - **08-daphne-groeneveld-tom-ford-vogue-paris-2010:** the `left hair-and-shoulder diagonal` most clearly traces the outer hair contour. Relabeling it would be more exact but is not material.
+
+## Builder resolution — 2026-08-01
+
+Resolved all four required items from the current critique round. For *Kate Moss for Vogue Japan*, I removed the two unsupported chaise/fold paths and revised the chapter to retain only the visible low chaise edge and seated figure. For *Mirror*, I replaced the false rectangular mirror plane and pool-edge reading with the visible angled upper and right mirror edges, then revised the related prose. For the Vodianova cover, I removed the clipped `upper cover type` anchor. All 12 source entries now distinguish Vogue France’s photographer credit from unstated copyright/rightsholder ownership.
+
+I also applied the inexpensive advisory correction to the Daphne Groeneveld/Tom Ford overlay: its path now names the visible left hair contour. The affected proofs were re-rendered, visually inspected, and scored 100/100; a complete 12-image scoring pass is also 100/100. `scripts/check.sh` passes, and the content and site chapter files remain byte-identical.
+
+Re-verified critique history: all three 2026-08-01 rounds. The first round’s eight required fixes remain intact (including *Lips* grayscale sourcing, *Smoke* central-support labeling, and removal of the unsupported Rose, Marion, Daphne, Moss 2012, Vodianova, and Hadid claims); the second round’s unsupported *Kate Moss for Vogue Japan* room-recession point remains removed; and this round’s four required fixes hold in the overlays, proofs, chapter, and source notes.

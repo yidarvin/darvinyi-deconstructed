@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.229, "angle": 0.0, "label": "masthead threshold" },
-    { "type": "leading_line", "points": [[0.077,0.987],[0.203,0.533]], "arrow": true, "label": "left hair-and-shoulder diagonal" },
+    { "type": "leading_line", "points": [[0.077,0.987],[0.203,0.533]], "arrow": true, "label": "left hair contour" },
     { "type": "subject_anchor", "x": 0.867, "y": 0.522, "r": 0.035, "label": "right figure" }
   ],
   "notes": "Two overlapping heads make a charged diagonal beneath the red cover type."
