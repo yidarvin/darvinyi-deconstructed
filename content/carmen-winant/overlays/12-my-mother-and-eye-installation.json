@@ -3,9 +3,7 @@
   "image": "12-my-mother-and-eye-installation.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.803, "angle": -2.2, "label": "lower row break" },
-    { "type": "frame_in_frame", "x": 0.0, "y": 0.06, "w": 1.0, "h": 0.8, "label": "layered photo rows" },
-    { "type": "polyline", "points": [[0.0, 0.13], [0.25, 0.2], [0.52, 0.3], [0.9, 0.34]], "label": "repeated horizon band" }
+    { "type": "horizon_line", "y": 0.803, "angle": -2.2, "label": "lower row break" }
   ],
-  "notes": "Repeated shoreline, sky, and leaf photographs make a family archive read as a sequence of returns rather than a single scene."
+  "notes": "A single lower gutter separates the leaf row from the next waterfall row; the repeated images remain unboxed and discontinuous."
 }

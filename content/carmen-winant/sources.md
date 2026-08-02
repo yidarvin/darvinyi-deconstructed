@@ -125,30 +125,32 @@ alteration.
   and non-substitutive.
 - **File:** `raw/carmen-winant/07-body-index-detail.jpg` (2,328 × 3,504px)
 
-### 08 — *Introduction to Consciousness Raising* (2021), installation view
+### 08 — *Introduction to Consciousness Raising* (2021), roadside billboard view
 
-- **Why it matters:** A horizontal presentation gives found photographs the
-  cadence of a shared conversation, with repetition carrying attention from
-  one participant-like image to the next.
+- **Why it matters:** The billboard's textual question is held above an open
+  roadside field, making the relation among sign, pavement, street, and empty
+  space available for close compositional analysis.
 - **Source:** [official archive project entry](https://www.carmenwinant.com/?project=Introduction+to+Consciousness+Raising) (Bemis Center for Contemporary Arts, 2021); direct public image: `https://cdn.sanity.io/images/d3c7q0t9/production/23adb7bb82549d96b767f148c36538c6df4cde98-1800x1200.jpg`.
 - **Rights / fair-use assessment:** **fair-use**. Carmen Winant; no open
-  licence is stated. Factors 1–4: transformative criticism studies group rhythm
-  and horizontal cadence; this is creative work; the complete installation view
-  is necessary for those relations; the credited, linked 1,800 × 1,200px public
+  licence is stated. Factors 1–4: transformative criticism studies the public
+  question's placement within roadside space; this is a creative work; the
+  complete billboard view is necessary to preserve the relation among text,
+  sign, pavement, and distance; the credited, linked 1,800 × 1,200px public
   display copy is non-substitutive.
 - **File:** `raw/carmen-winant/08-introduction-to-consciousness-raising.jpg` (1,800 × 1,200px)
 
-### 09 — *Introduction to Consciousness Raising* (2021), installation detail
+### 09 — *Introduction to Consciousness Raising* (2021), roadside billboard view
 
-- **Why it matters:** This alternate view sharpens the relation between image
-  scale and spacing, showing how modest variations in size keep a wall of
-  archival material from becoming a uniform grid.
+- **Why it matters:** This second billboard view makes the question's support,
+  roadside verge, pavement edge, and utility wires legible as an ordinary field
+  interrupted by addressed text.
 - **Source:** [official archive project entry](https://www.carmenwinant.com/?project=Introduction+to+Consciousness+Raising) (Bemis Center for Contemporary Arts, 2021); direct public image: `https://cdn.sanity.io/images/d3c7q0t9/production/20b821585a0b543879904068236af8c398fef444-1800x1200.jpg`.
 - **Rights / fair-use assessment:** **fair-use**. Carmen Winant; no open
-  licence is stated. Factors 1–4: the use is transformative analysis of scale
-  variation; the source is creative; retaining the complete image group is
-  necessary for comparison; the 1,800 × 1,200px credited, linked display copy
-  does not replace an exhibition image or licensed reproduction.
+  licence is stated. Factors 1–4: transformative criticism analyzes how a
+  textual question interrupts the roadside's competing lines and open space;
+  the source is creative; retaining the complete billboard, support, road, and
+  wires is necessary for that comparison; the 1,800 × 1,200px credited, linked
+  display copy does not replace an exhibition image or licensed reproduction.
 - **File:** `raw/carmen-winant/09-introduction-to-consciousness-detail.jpg` (1,800 × 1,200px)
 
 ### 10 — *A History of My Pleasure* (2019–20), installation view

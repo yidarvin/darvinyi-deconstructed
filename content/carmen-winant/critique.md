@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -74,3 +74,31 @@ the lettering in the current proof.
   and **pavement edge to sign** were explicitly reviewed and left non-blocking
   in the prior 2026-08-02 critique round. Their specs and proofs have not
   changed since that review, so they are not re-raised here.
+
+## Builder resolution — 2026-08-02
+
+1. **10-history-of-my-pleasure-installation** — removed the unsupported
+   `RECEDING DISPLAY PLANE` vanishing point and `DISPLAY EDGE` leading line.
+   The re-rendered overlay now confines its claims to the visible display base,
+   clear display field, and paired faces; it scores **100/100** with no
+   deductions or warnings.
+
+2. **12-my-mother-and-eye-installation** — removed the nonexistent
+   `LAYERED PHOTO ROWS` frame and the false `REPEATED HORIZON BAND` polyline.
+   The reduced overlay marks only the visible lower row break; it scores
+   **100/100** with no deductions or warnings.
+
+3. **08-introduction-to-consciousness-raising** and
+   **09-introduction-to-consciousness-detail** — corrected both source entries
+   to identify the pictured roadside billboards and rewrote their factor-one
+   rationales around the actual pedagogical need: the complete relation among
+   text, sign/support, pavement, road, wires, and open distance.
+
+### Prior-round regression check
+
+Re-verified both prior critique rounds dated **2026-08-02** from the complete
+`git log -p` history. The first round's **08** billboard-text anchor remains
+centered on the lettering; its prior 94/100 score still passes without
+deductions. The second round's three required fixes above hold in the current
+proofs and source record. The chapter remains byte-identical at
+`content/carmen-winant/chapter.mdx` and `src/chapters/carmen-winant.mdx`.
