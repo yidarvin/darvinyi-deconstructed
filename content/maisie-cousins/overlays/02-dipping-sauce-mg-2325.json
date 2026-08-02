@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.31, "cy": 0.77, "rx": 0.27, "ry": 0.21, "label": "cut kiwi" },
-    { "type": "ellipse", "cx": 0.57, "cy": 0.39, "rx": 0.43, "ry": 0.28, "label": "petal mass" },
-    { "type": "polyline", "points": [[0.06, 0.07], [0.31, 0.18], [0.60, 0.30], [0.88, 0.51]], "label": "waterline sheen" }
+    { "type": "ellipse", "cx": 0.57, "cy": 0.39, "rx": 0.43, "ry": 0.28, "label": "petal mass" }
   ],
   "notes": "Fruit, petals, and gel collapse depth into a glossy pink field."
 }

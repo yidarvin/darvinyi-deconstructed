@@ -16,18 +16,20 @@ plates without inventing titles.
 ## Technique, production, and settings
 
 The cited records establish a contemporary photographic series, its 2018 date,
-and the contents of the pictured arrangements. They do not document the camera
-body, lens, focal length, aperture, shutter speed, ISO, sensor or film format,
-lighting setup, retouching workflow, print process, edition, paper, or print
-dimensions. The ingested gallery JPEGs contain no usable capture EXIF. None of
-those facts is inferred here from the visible close-ups.
+and the contents of the pictured arrangements. Fotografiska records Cousins
+saying that she uses “a macro lens”; it does not identify a lens model or focal
+length. The records do not document the camera body, aperture, shutter speed,
+ISO, sensor or film format, lighting setup, retouching workflow, print process,
+edition, paper, or print dimensions. The ingested gallery JPEGs contain no usable
+capture EXIF. None of those facts is inferred here from the visible close-ups.
 
-The term “macro” in the chapter follows Fotografiska's exhibition description;
-it does not claim a particular lens, magnification ratio, or camera setting. The
-chapter treats the supplied web files as the objects of measured analysis. Their
-luminance, palette, grid-fit, and edge-density readings in `analysis/` describe
-the renditions available for criticism, not the color, scale, or finish of an
-original print.
+The term “macro” in the chapter follows both Fotografiska's exhibition
+description and Cousins's general statement about using a macro lens; neither
+source establishes a particular model, focal length, magnification ratio, or
+camera setting. The chapter treats the supplied web files as the objects of
+measured analysis. Their luminance, palette, grid-fit, and edge-density readings
+in `analysis/` describe the renditions available for criticism, not the color,
+scale, or finish of an original print.
 
 ## Scope of visual claims
 

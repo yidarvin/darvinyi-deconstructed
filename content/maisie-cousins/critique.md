@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -16,3 +16,21 @@ verdict: revise
 
 - I viewed all twelve current proof PNGs and checked every matching overlay and analysis JSON. All specs passed deterministic scoring (01, 02, and 04–12: 100; 03: 97 only for the ellipse-count warning); the two required overlay findings above are visual/semantic truthfulness errors.
 - All twelve selected files have traceable AnOther gallery routes, the stated “Photography by Maisie Cousins” credit, and concise four-factor fair-use rationales. The available source record supports the series/date/context claims and contains no invented numeric camera settings.
+
+## Builder resolution — 2026-08-02
+
+1. Removed the unsupported `waterline sheen` polyline from 02 and re-rendered its
+   proof. The remaining kiwi and petal-mass annotations are truthful; deterministic
+   score: 100.
+2. Removed the unsupported `pink ground seam` polyline from 07, revised the plate
+   caption and prose to remove the seam claim, and re-rendered its proof. The
+   remaining translucent-mass and berry annotations are truthful; deterministic
+   score: 100.
+3. Revised research and the byte-identical rendered chapter to record
+   Fotografiska's documented general “macro lens” statement while retaining the
+   absence of a model, focal length, or numeric capture settings.
+
+Re-verified required fixes from critique round 2026-08-02 (the complete prior
+critique history): both affected proof PNGs were visually checked after rendering,
+their overlay scores pass at 100, and the camera-setting limitation remains
+accurate. `scripts/check.sh` passes.

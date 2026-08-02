@@ -4,8 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "ellipse", "cx": 0.49, "cy": 0.34, "rx": 0.44, "ry": 0.27, "label": "pale translucent mass" },
-    { "type": "ellipse", "cx": 0.70, "cy": 0.74, "rx": 0.21, "ry": 0.10, "label": "dark berry accents" },
-    { "type": "polyline", "points": [[0.02, 0.72], [0.26, 0.69], [0.51, 0.71], [0.87, 0.67]], "label": "pink ground seam" }
+    { "type": "ellipse", "cx": 0.70, "cy": 0.74, "rx": 0.21, "ry": 0.10, "label": "dark berry accents" }
   ],
   "notes": "A nearly monochrome gelatinous field is stabilized by a few hard dark berries."
 }
