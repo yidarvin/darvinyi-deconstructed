@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-moro-by-the-pond.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.477, "angle": 0, "label": "POND EDGE" },
+    { "type": "ellipse", "cx": 0.43, "cy": 0.67, "rx": 0.1, "ry": 0.16, "label": "MORO ON ROCK" },
+    { "type": "leading_line", "points": [[0.0,0.05],[0.3,0.0],[0.65,0.08],[1.0,0.16]], "arrow": false, "label": "OVERHEAD BRANCH" }
+  ],
+  "notes": "A small seated figure is bracketed by pond bank and a broad, low branch."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-welcome-to-the-gates-of-a-new-era.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.12, "y": 0.03, "w": 0.77, "h": 0.85, "label": "WINDOW THRESHOLD" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.58, "rx": 0.25, "ry": 0.26, "label": "INTERLOCKED PAIR" },
+    { "type": "polyline", "points": [[0.32,0.72],[0.42,0.58],[0.52,0.72],[0.64,0.58],[0.73,0.74]], "label": "CROSSED LIMBS" },
+    { "type": "horizon_line", "y": 0.84, "angle": 0, "label": "SILL THRESHOLD" }
+  ],
+  "notes": "A window threshold turns intertwined bodies into a frontal, architectural knot."
+}

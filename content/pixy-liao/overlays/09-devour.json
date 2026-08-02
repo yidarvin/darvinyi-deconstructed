@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-devour.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.48, "rx": 0.2, "ry": 0.2, "label": "FACING PROFILES" },
+    { "type": "frame_in_frame", "x": 0.24, "y": 0.04, "w": 0.67, "h": 0.84, "label": "SHOJI WINDOW" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.51, "label": "FACE-TO-FACE AXIS" }
+  ],
+  "notes": "Facing silhouettes turn the shoji grid into a bright theatrical screen."
+}

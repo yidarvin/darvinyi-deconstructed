@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-hug-by-the-pond.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.404, "angle": 0, "label": "POND EDGE" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.53, "rx": 0.1, "ry": 0.2, "label": "EMBRACE" },
+    { "type": "leading_line", "points": [[0.0,0.06],[0.3,0.0],[0.67,0.08],[1.0,0.15]], "arrow": false, "label": "OVERHEAD BRANCH" }
+  ],
+  "notes": "A tightly coupled figure is held small between a branch canopy and the pond."
+}

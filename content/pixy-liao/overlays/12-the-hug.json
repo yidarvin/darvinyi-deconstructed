@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-the-hug.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.3, "y": 0.08, "w": 0.4, "h": 0.78, "label": "TREE CORRIDOR" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.63, "rx": 0.1, "ry": 0.2, "label": "EMBRACE" },
+    { "type": "leading_line", "points": [[0.43,1.0],[0.48,0.78],[0.5,0.63]], "arrow": true, "label": "PATH TO PAIR" }
+  ],
+  "notes": "A lit embrace closes the dark tree corridor at the path's end."
+}

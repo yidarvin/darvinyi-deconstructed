@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-moro-on-a-couch.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.57, "cy": 0.67, "rx": 0.15, "ry": 0.2, "label": "SEATED MORO" },
+    { "type": "frame_in_frame", "x": 0.78, "y": 0.03, "w": 0.21, "h": 0.42, "label": "ORNATE MIRROR" },
+    { "type": "leading_line", "points": [[0.34,0.8],[0.5,0.82],[0.72,0.87],[0.99,0.93]], "arrow": false, "label": "COUCH EDGE" }
+  ],
+  "notes": "A small seated figure occupies a couch corner beneath clock and mirror."
+}

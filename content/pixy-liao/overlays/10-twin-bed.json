@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-twin-bed.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.094, "angle": 0, "label": "WINDOW SILL" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.463, "label": "HEAD-TO-HEAD AXIS" },
+    { "type": "subject_anchor", "x": 0.46, "y": 0.448, "r": 0.055, "label": "JOINED HEADS" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.23, "w": 1.0, "h": 0.76, "label": "BED FIELD" }
+  ],
+  "notes": "A head-to-head axis holds the pair inside the bed's broad, low rectangle."
+}

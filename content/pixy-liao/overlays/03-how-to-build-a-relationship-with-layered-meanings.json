@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-how-to-build-a-relationship-with-layered-meanings.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.45, "cy": 0.51, "rx": 0.37, "ry": 0.12, "label": "INTERTWINED BODIES" },
+    { "type": "polyline", "points": [[0.1,0.57],[0.48,0.58],[0.92,0.57]], "label": "TOP MATTRESS EDGE" },
+    { "type": "polyline", "points": [[0.1,0.66],[0.48,0.67],[0.92,0.66]], "label": "STACKED MATTRESS EDGE" },
+    { "type": "polyline", "points": [[0.63,0.56],[0.69,0.76],[0.62,0.9],[0.72,1.0]], "label": "TRAILING CABLE" }
+  ],
+  "notes": "Bodies, mattress bands, and the trailing cord turn a small room into a layered stage."
+}
