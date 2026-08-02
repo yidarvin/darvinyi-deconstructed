@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -49,3 +49,29 @@ verdict: resolved
 Re-verified critique history: 2026-08-02 initial revise round (all three
 required fixes remain satisfied). `scripts/check.sh` passed before this
 resolution was recorded.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. **01-self-portrait-2013 — inaccurate feature in the documented fair-use
+   rationale.** The rendered proof and chapter show a laptop as the lower
+   mediating screen; no phone is visible. In `sources.md`, factor three says
+   the complete frame is needed to analyze the relation of “face, body, phone,
+   and room.” Replace `phone` with the visible laptop (and retain the actual
+   face/body/room rationale) so the per-image necessity explanation accurately
+   describes the acquired work.
+
+### Advisory (non-blocking)
+
+- **06-pieta-2022:** The resolved conservative headscarf anchor remains true
+  and precisely placed, but it is a deliberately minimal one-primitive lesson.
+  Adding further truthful compositional cues could enrich the pedagogy; it is
+  not a blocker because the existing overlay and matching prose do not make a
+  false claim.
+
+All previously required corrections remain resolved: the current Pietà anchor
+is on the pink headscarf, and source entries 02 and 03 accurately describe the
+visible still lifes. All ten current specs pass the deterministic scorer at
+100/100, and each linked source page and public-display JPEG returned HTTP 200
+during this review.
