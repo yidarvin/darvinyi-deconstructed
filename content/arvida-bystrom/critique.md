@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -89,3 +89,28 @@ anchor remain visually truthful and score 100/100; source records 02 and 03
 remain accurate to the visible cherries/stockings/cloth and wrapped
 peach/folded-cloth images; the *Self Portrait* proof visibly contains a laptop,
 not a phone. Full `scripts/check.sh` verification passed for this resolution.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. **09-crushing-2025 — the `screen inset` frame does not trace the visible
+   display.** The proof's `frame_in_frame` has bounds x0.390–0.610 and
+   y0.090–0.220, while the white display it names is approximately
+   x0.475–0.666 and y0.129–0.224. Its left edge therefore brackets empty wall
+   and its right edge stops inside the display by about 0.056 of the frame,
+   outside the ~2% endpoint tolerance. Revise this primitive's bounds (or
+   remove it); regenerate the proof and keep the chapter's screen-inset
+   discussion consistent with the resulting truthful overlay.
+
+### Advisory (non-blocking)
+
+- **06-pieta-2022:** The previously resolved, one-primitive headscarf overlay
+  remains semantically and geometrically true. Its deliberately minimal
+  pedagogy is not a regression and does not block approval.
+
+All other current overlays were visually checked against their proofs and
+scored 100/100 independently. The prior rounds' source corrections remain
+present: each image has a traceable credited source and a per-image four-factor
+fair-use rationale, and no historical camera setting is asserted as established
+fact.
