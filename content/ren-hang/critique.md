@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -68,3 +68,21 @@ Re-verified critique history: the 2026-08-02 fair-use/source-note round and its 
 Resolved required fixes 1–2. `01-untitled-16` now marks each visible lip-contact point with a small labeled contact ellipse (`UPPER KISS` at `(0.444, 0.324)` and `LOWER KISS` at `(0.514, 0.707)`). These replace the detector-led subject anchors, which were visibly in hair rather than at the kisses. `04-untitled-50` now replaces the false `STEM CONVERGENCE` vanishing point with a literal `FALLEN LOTUS STEM` contour tracing the visible fallen stem. The advisory metadata wording in `11-untitled-52` now also says “chest.”
 
 Re-verified critique history: all three 2026-08-02 rounds — the fair-use/source-note correction, the `11-untitled-52` chest-caption correction, and this overlay-correction round. The six source entries retain their corrected actual-frame descriptions and image-specific necessity rationales; the rendered and source chapter copies remain byte-identical and identify the final plate as a chest. I re-analyzed the two changed plates, visually checked their rendered proofs, and re-ran strict scoring across all eleven overlays: ten score 100/100 and `03-untitled-46` scores 92/100, all above the 80 threshold. The previously settled `03-untitled-46` phi-grid preference remains advisory and unchanged. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. `08-untitled-20`: replace the `vanishing_point` labelled `POWDER BURST` at `(0.422, 0.515)` with a primitive that makes only the literal claim supported by the frame (for example, an ellipse, polyline, or carefully labelled leading line). The proof shows a diffuse powder event from the right-hand throw, not perspective diagonals converging at that point; the marker lands at the dress/shoulder area. This also contradicts the chapter's explicit statement that the powder is “a visible event, not a precise geometric ray.” Rerender the proof after correcting the spec.
+
+2. `03-untitled-46`: remove or replace the straight `horizon_line` labelled `BODY RIDGE BAND` at `y: 0.560`. The visible compositional evidence is the wavy `OVERLAPPING CONTOURS` polyline across the bodies; the straight line does not trace those ridges and asserts a dominant horizontal split. The chapter explicitly says the overlay does not identify a false horizon and instead follows actual body lines. Use only a literal contour or band claim that matches the image, then rerender.
+
+### Advisory (non-blocking)
+
+- `03-untitled-46`: the deterministic scorer continues to prefer a phi grid to the displayed thirds grid (92/100). This is the previously settled, non-blocking grid preference; the grid may remain as a measuring aid once the false horizon claim is removed.
+
+### Review evidence
+
+- Looked at all eleven current proof PNGs against their matching overlay specs. The two required findings above are semantic errors that the geometric scorer does not detect. Aside from them, the visible labels trace the depicted kisses, repeated faces, leaf/ground break, fish and liquid, horse and branches, dove, rooftop, braid/flowers, and red hands; each proof uses three or four compositionally relevant primitives.
+- Re-ran strict scoring for all eleven specs: ten score 100/100 and `03-untitled-46` scores 92/100 solely for the settled thirds-versus-phi preference, above the 80 threshold.
+- Rechecked each authoritative Blindspot Gallery record and display-file URL: all returned HTTP 200. Each source entry provides a traceable source, credit, and image-specific four-factor fair-use rationale. Chapter and research claims match the displayed works and do not invent camera or production settings.
