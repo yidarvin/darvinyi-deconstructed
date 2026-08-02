@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-michael-still-life.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.1935, "y": 0.4766, "r": 0.035, "label": "photo-strip clue" },
+    { "type": "ellipse", "cx": 0.76, "cy": 0.2, "rx": 0.14, "ry": 0.12, "label": "baseball cap" },
+    { "type": "polyline", "points": [[0.24,0.37],[0.51,0.47],[0.79,0.55]], "label": "object sequence across the field" }
+  ],
+  "notes": "Discrete commercial clues turn a plain field into an oblique portrait of an absent person."
+}

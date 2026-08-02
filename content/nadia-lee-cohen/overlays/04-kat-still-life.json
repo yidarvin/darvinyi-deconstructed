@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-kat-still-life.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.2136, "y": 0.7568, "r": 0.035, "label": "lower-left receipt cluster" },
+    { "type": "ellipse", "cx": 0.55, "cy": 0.18, "rx": 0.24, "ry": 0.11, "label": "grandma sign" },
+    { "type": "polyline", "points": [[0.2,0.56],[0.47,0.46],[0.71,0.61]], "label": "telephone-to-coupon rhythm" }
+  ],
+  "notes": "Floating objects make a graphic, indirect portrait through deliberately spaced evidence."
+}

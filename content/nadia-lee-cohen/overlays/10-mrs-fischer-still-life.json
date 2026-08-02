@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-mrs-fischer-still-life.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.4384, "y": 0.6484, "r": 0.035, "label": "map and puzzle cluster" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.2, "rx": 0.16, "ry": 0.11, "label": "name book" },
+    { "type": "polyline", "points": [[0.22,0.37],[0.47,0.5],[0.74,0.66]], "label": "clue sequence" }
+  ],
+  "notes": "Selective props and alternating gaps give an ordinary arrangement a designed biography."
+}

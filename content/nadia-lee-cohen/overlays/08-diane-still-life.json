@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-diane-still-life.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.7035, "y": 0.5381, "r": 0.035, "label": "right-side prop" },
+    { "type": "ellipse", "cx": 0.42, "cy": 0.65, "rx": 0.19, "ry": 0.17, "label": "book and apple cluster" },
+    { "type": "polyline", "points": [[0.27,0.35],[0.52,0.46],[0.79,0.32]], "label": "upper object rhythm" }
+  ],
+  "notes": "Color accents and small gaps make the tabletop read as a second portrait."
+}
