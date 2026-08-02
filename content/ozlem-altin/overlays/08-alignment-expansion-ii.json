@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-alignment-expansion-ii.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.2, "angle": -1.1, "label": "upper image edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "stacked panel axis" },
+    { "type": "subject_anchor", "x": 0.307, "y": 0.227, "r": 0.035, "label": "upper blue fragment" }
+  ],
+  "notes": "An upper blue fragment and a central stack keep the tall panel open rather than resolved."
+}

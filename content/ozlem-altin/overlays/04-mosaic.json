@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-mosaic.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.195, "angle": 0, "label": "upper collage seam" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "stacked blue figure axis" },
+    { "type": "subject_anchor", "x": 0.437, "y": 0.726, "r": 0.035, "label": "lower blue fragment" }
+  ],
+  "notes": "A stacked blue figure is held between a high seam and a lower fragment."
+}

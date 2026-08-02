@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "image": "07-our-light-is-a-voice-ii.jpg",
+  "width": 1289,
+  "height": 1600,
+  "aspect": 0.8056,
+  "tonal": {
+    "mean": 0.7697888687862888,
+    "std": 0.1361847366784738,
+    "p05": 0.5490196078431373,
+    "p95": 0.9490196078431372,
+    "edge_density": 0.002166451759708738
+  },
+  "palette": [
+    "#c5c1dd",
+    "#eae7eb",
+    "#a8a2d3",
+    "#916387",
+    "#311d34"
+  ],
+  "lines": [
+    {
+      "x1": 0.13106796116504854,
+      "y1": 0.0439453125,
+      "x2": 0.25970873786407767,
+      "y2": 0.0439453125,
+      "angle_deg": 0.0,
+      "length": 0.08064738704574356,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.2342233009708738,
+      "y1": 0.607421875,
+      "x2": 0.3580097087378641,
+      "y2": 0.607421875,
+      "angle_deg": 0.0,
+      "length": 0.0776040894213759,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.4072265625,
+    "angle_deg": 0.0,
+    "confidence": 0.9894258694834772,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7148058252427184,
+      0.8974609375
+    ],
+    "regions": [
+      {
+        "cx": 0.7125543525125893,
+        "cy": 0.8948070258319138,
+        "x": 0.6492718446601942,
+        "y": 0.845703125,
+        "w": 0.12864077669902912,
+        "h": 0.0986328125,
+        "area_frac": 0.00974073687803398
+      },
+      {
+        "cx": 0.7017444554503128,
+        "cy": 0.4222036193692184,
+        "x": 0.6432038834951457,
+        "y": 0.375,
+        "w": 0.11893203883495146,
+        "h": 0.095703125,
+        "area_frac": 0.008840023892597087
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6691734962282034,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7019185857590349,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.7148058252427184,
+    "y": 0.8974609375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.1707658179012345,
+    "phi": 0.35088684722261193,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.407,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.99,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.715,
+      "y": 0.897,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

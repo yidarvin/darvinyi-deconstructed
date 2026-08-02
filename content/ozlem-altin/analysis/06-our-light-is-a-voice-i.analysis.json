@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "image": "06-our-light-is-a-voice-i.jpg",
+  "width": 1229,
+  "height": 1600,
+  "aspect": 0.7681,
+  "tonal": {
+    "mean": 0.7821447218558224,
+    "std": 0.15118237986456112,
+    "p05": 0.5450980392156862,
+    "p95": 0.9529411764705882,
+    "edge_density": 0.0010834128498727737
+  },
+  "palette": [
+    "#eae9ee",
+    "#aca8d7",
+    "#cac7e0",
+    "#8482c7",
+    "#302e57"
+  ],
+  "lines": [
+    {
+      "x1": 0.11323155216284987,
+      "y1": 0.0615234375,
+      "x2": 0.2811704834605598,
+      "y2": 0.0615234375,
+      "angle_deg": 0.0,
+      "length": 0.10225580015218662,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.5380859375,
+    "angle_deg": 0.0,
+    "confidence": 0.8245136853994078,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5814249363867684,
+      0.6787109375
+    ],
+    "regions": [
+      {
+        "cx": 0.5944214413188791,
+        "cy": 0.645332778632593,
+        "x": 0.48346055979643765,
+        "y": 0.5341796875,
+        "w": 0.21374045801526717,
+        "h": 0.19921875,
+        "area_frac": 0.02321510217875318
+      },
+      {
+        "cx": 0.5046279756721076,
+        "cy": 0.3564059308009657,
+        "x": 0.44529262086513993,
+        "y": 0.294921875,
+        "w": 0.12086513994910941,
+        "h": 0.126953125,
+        "area_frac": 0.011707567986641222
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7348942461917833,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7512700780270561,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.5814249363867684,
+    "y": 0.6787109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3600940502960645,
+    "phi": 0.5074388567204958,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.538,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.82,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.581,
+      "y": 0.679,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

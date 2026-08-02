@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-our-light-is-a-voice-ii.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.407, "angle": 0, "label": "middle pigment break" },
+    { "type": "subject_anchor", "x": 0.715, "y": 0.897, "r": 0.035, "label": "lower-right figure" },
+    { "type": "frame_in_frame", "x": 0.12, "y": 0.08, "w": 0.76, "h": 0.84, "label": "violet panel" }
+  ],
+  "notes": "Two pale figures divide the panel while the darker figure settles at lower right."
+}

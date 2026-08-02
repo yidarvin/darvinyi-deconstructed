@@ -1,0 +1,84 @@
+[
+  {
+    "file": "01-echo.jpg",
+    "width": 1145,
+    "height": 1600,
+    "sha1": "60f84ca9",
+    "source": "01-echo.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-fountain.jpg",
+    "width": 1199,
+    "height": 1600,
+    "sha1": "81a5b4ec",
+    "source": "02-fountain.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-mirror.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "1122b742",
+    "source": "03-mirror.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-mosaic.jpg",
+    "width": 1182,
+    "height": 1600,
+    "sha1": "0d9fd191",
+    "source": "04-mosaic.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-untitled-alignment-blessing.jpg",
+    "width": 1600,
+    "height": 777,
+    "sha1": "b706ec99",
+    "source": "05-untitled-alignment-blessing.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-our-light-is-a-voice-i.jpg",
+    "width": 1229,
+    "height": 1600,
+    "sha1": "a7f6ee2d",
+    "source": "06-our-light-is-a-voice-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-our-light-is-a-voice-ii.jpg",
+    "width": 1289,
+    "height": 1600,
+    "sha1": "5a314797",
+    "source": "07-our-light-is-a-voice-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-alignment-expansion-ii.jpg",
+    "width": 1192,
+    "height": 1600,
+    "sha1": "acc622c2",
+    "source": "08-alignment-expansion-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-pulse-and-grief-encapsulated-reactivated.jpg",
+    "width": 640,
+    "height": 251,
+    "sha1": "dbf82c5b",
+    "source": "09-pulse-and-grief-encapsulated-reactivated.png",
+    "exif": {}
+  },
+  {
+    "file": "10-psyche-grow-deep-installation.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "050d67e6",
+    "source": "10-psyche-grow-deep-installation.jpg",
+    "exif": {
+      "DateTimeOriginal": "2018:06:06 15:29:02"
+    }
+  }
+]
