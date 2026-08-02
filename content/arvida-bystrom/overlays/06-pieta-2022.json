@@ -3,10 +3,7 @@
   "image": "06-pieta-2022.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.505, "y": 0.39, "label": "hands at the central knot" },
-    { "type": "leading_line", "points": [[0.329, 0.119], [0.943, 0.896]], "arrow": true, "label": "descending body contour" },
-    { "type": "leading_line", "points": [[0.493, 0.077], [0.879, 0.935]], "arrow": true, "label": "sheer fabric edge" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "central seated figure" }
+    { "type": "subject_anchor", "x": 0.52, "y": 0.163, "r": 0.035, "label": "pink headscarf" }
   ],
-  "notes": "Crossing body contours converge at a central knot and float against black ground."
+  "notes": "A pink headscarf anchors the compressed two-body arrangement within a dark field."
 }

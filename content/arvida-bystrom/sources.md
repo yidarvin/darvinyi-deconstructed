@@ -28,30 +28,30 @@ it anchors the chapter's early networked-self image.
 
 ### 02 — *Arvida Byström 3* (2018, *Inflated Fiction* press image)
 
-- **Why it matters:** The tall phone-camera frame turns a poised body and saturated
-  pink surround into a controlled vertical field, making platform portraiture read
-  as staged architecture.
+- **Why it matters:** Cherries, pale stockings, stems, and a gray-pink cloth field
+  turn the tall frame into a deliberately dispersed still life, where small red
+  interruptions have to organize a large, soft surround.
 - **Source:** [Fotografiska/Cision media record](https://news.cision.com/fotografiska/i/arvida-bystro-m-3,c2534083), public JPEG: https://mb.cision.com/Public/17242/2681847/811cfa8af4edb9f0_org.jpg
 - **File:** `raw/arvida-bystrom/02-inflated-fiction-press-3.jpg` (5906 × 7874px).
 - **Use basis: fair-use.** The record names Arvida Byström as photographer; no
-  licence is offered. (1) Transformative teaching analyzes the vertical frame,
-  body placement, and pink field. (2) This is a creative contemporary work.
-  (3) Its complete published frame is needed to read the scale relation of figure
-  and surround. (4) The credited, linked web rendition is used only at web scale
+  licence is offered. (1) Transformative teaching analyzes the vertical sequence
+  of cherries, stockings, stems, and cloth. (2) This is a creative contemporary
+  work. (3) Its complete published frame is needed to read the scale relation of
+  the scattered fruit and textile field. (4) The credited, linked web rendition is used only at web scale
   and does not substitute for a work, print, or licensed reproduction.
 
 ### 03 — *Arvida Byström 2* (2018, *Inflated Fiction* press image)
 
-- **Why it matters:** The square composition packs body, objects, and pastel color
-  into an unstable central arrangement, useful for discussing how an image resists
-  a single focal hierarchy.
+- **Why it matters:** A single wrapped peach sits among folded pink cloth, using a
+  small, soft-edged volume and a large surrounding field to resist a conventional
+  central hierarchy.
 - **Source:** [Fotografiska/Cision media record](https://news.cision.com/fotografiska/i/arvida-bystro-m-2,c2534084), public JPEG: https://mb.cision.com/Public/17242/2681847/b88358f313ff28b9_org.jpg
 - **File:** `raw/arvida-bystrom/03-inflated-fiction-press-2.jpg` (2835 × 2835px).
 - **Use basis: fair-use.** Fotografiska's record credits Arvida Byström and supplies
   no open licence. (1) The use is transformative composition criticism of the
   square's competing centers and pastel counterweights. (2) It is a creative
-  contemporary photograph. (3) The full square is required to see the complete
-  distribution of objects and body. (4) The credited, linked public display copy
+  contemporary photograph. (3) The full square is required to see the peach, its
+  wrap, and the distribution of surrounding folds. (4) The credited, linked public display copy
   is web-sized in this book and does not replace a print or licensed reproduction.
 
 ### 04 — *Arvida Byström 8* (2018, *Inflated Fiction* press image)

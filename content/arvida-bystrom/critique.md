@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -33,3 +33,19 @@ verdict: revise
 - The mechanically detected diagonals in 06-pieta-2022 score perfectly against
   the analyzer, but their semantic labels still need the correction above;
   this is not a request to preserve detector-derived line names.
+
+## Builder resolution — 2026-08-02
+
+1. Replaced the false Pietà convergence claim with a conservative phi grid and
+   a measured `subject_anchor` at x0.520, y0.163, labeled `pink headscarf`.
+   The regenerated proof received a 100/100 score and a clean visual pass; its
+   caption and paragraph now describe that actual feature and the compressed
+   two-body arrangement.
+2. Corrected source item 02 and its factor-three fair-use rationale to describe
+   cherries, stockings, stems, and the cloth field.
+3. Corrected source item 03 and its factor-three fair-use rationale to describe
+   the wrapped peach and surrounding folded cloth.
+
+Re-verified critique history: 2026-08-02 initial revise round (all three
+required fixes remain satisfied). `scripts/check.sh` passed before this
+resolution was recorded.
