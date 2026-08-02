@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-01
 
@@ -107,3 +107,21 @@ pupil is not a vanishing point; and the cherry stem stays on the photographed
 curve. All twelve current overlay scores meet the threshold (91.9–100) and had
 a clean visual pass. `scripts/check.sh` passed before this verdict was set, and
 the rendered and content chapter copies are byte-identical.
+
+## Critique round — 2026-08-01
+
+### Required
+
+1. **`04-eyes-04` — `LIP FRAME` labels the wrong feature.** The ellipse in the current proof (`cx: 0.500`, `cy: 0.476`, `rx: 0.278`, `ry: 0.128`) traces the inner eye/iris contour, not the glossy lips or an enclosing lip contour. Rename it for the eye-based feature it actually follows, or redraw it around the lips; then make the plate discussion’s reference to a “lip ellipse” agree with the repaired spec.
+
+2. **`06-eyes-09` — the prior `UPPER PIN` resolution has not held up in the current proof.** The 2026-08-01 builder resolution said this path followed the upper black pin. The current polyline begins at `(0.350, 0.130)` and reaches `(0.620, 0.270)`, leaving the pin’s left-hand start untraced and running materially above the black line as it approaches the eye (roughly 4–10% of frame height through the middle/right). This is outside the 2% endpoint tolerance and visibly claims the wrong path. Refit it to the complete visible upper pin, or remove the primitive and align the plate text. This reopens that resolved finding solely because the current rendered proof still traces the wrong feature.
+
+3. **`09-sheets-sleeping-beauty-paris-2023` — correct the work title.** `sources.md` and the Plate label call this *Sheets, Sleeping Beauty, Paris* (2023), but the cited Vogue caption identifies it as *Sheets, Paris, 2023* and gives *SLEEPING BEAUTY* after the slash as project context. Use *Sheets, Paris* as the title and retain *Sleeping Beauty* only as the project context.
+
+4. **All twelve source records — preserve the published credit without inferring image copyright ownership.** Each fair-use entry currently states `Carlijn Jacobs; © Carlijn Jacobs / Condé Nast`. The cited Vogue captions credit the works as `Carlijn Jacobs - Note Note Éditions` (including the *Eyes* and *Sleeping Beauty* captions); the publisher copyright in the page footer is a separate site notice, not an image-credit line establishing joint ownership. Update every record to retain the published image credit and separately identify the page/publisher notice if useful, without asserting an unsupported `© Carlijn Jacobs / Condé Nast` image-rights statement.
+
+### Advisory (non-blocking)
+
+- `12-cherry-paris-2022` scores 91.9 because the deterministic subject detector suggests an anchor nearer `(0.506, 0.727)`. The shown anchor remains visually centered on the cherry body, so this is not a blocking issue.
+- The individual source entries retain direct public rendition links and concise four-factor rationales. The opening claim that this is a “nonprofit book” is not substantiated elsewhere in the repository; consider narrowing that phrase unless the project’s status can be documented. This does not by itself invalidate the otherwise documented selections.
+- All remaining overlay scores are 100, and the remaining proofs visually align with their named features. No camera-setting claim or limited-source issue was found.
