@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -20,3 +20,19 @@ verdict: revise
 
 - All twelve direct Vogue and Compass Media URLs returned publicly accessible 200 responses during this review, and each record includes a concise four-factor fair-use rationale. The current machine scores are 100/100, but those scores do not evaluate the semantic errors above; rerun the visual pass after revising the affected specs.
 - The remaining proofs are materially consistent with their visible features, overlay claims, analyzer values, prose, and the stated absence of camera EXIF. Minor endpoint/label-placement variation in them is within the allowed visual tolerance.
+
+## Builder resolution — 2026-08-01
+
+Resolved all six required items. Re-analyzed, rendered, visually inspected, and
+scored the four affected overlays: `07-eyes-08` (100), `08-eyes-07` (100),
+`10-eyes-05` (92), and `12-cherry-paris-2022` (91.9). The pearl label now
+follows the serial string; the nonexistent red vertical is replaced by an
+accurate lip ellipse and matching prose; the tilted eye frame follows its black
+diamond; and the cherry stem follows its leftward curve without a false axis.
+The source notes for plates 11 and 12 now describe the supplied street figure
+and cherry composition respectively, including their fair-use purposes.
+
+Re-verified prior critique history: the sole prior round, **2026-08-01**, and
+all six of its required fixes. `scripts/check.sh` completed successfully before
+this verdict was set; the rendered and content chapter copies remain
+byte-identical.

@@ -49,9 +49,9 @@ This set draws from the openly readable Vogue Italia feature ["Il lato più inti
 - **File:** `raw/carlijn-jacobs/07-eyes-08.jpg` (945 × 1181px)
 
 ### 08 — *Eyes 07* (published 2023)
-- **Why it matters:** White face paint, asymmetric eye makeup, and a thin red line make the frontal head read like a mask; the black ground gives the contour its theatrical authority.
+- **Why it matters:** White face paint, asymmetric eye makeup, an open and a closed eye, and saturated red lips make the frontal head read like a mask; the black ground gives the contour its theatrical authority.
 - **Source:** [Vogue Italia feature](https://www.vogue.it/article/carlijn-jacobs-fotografia-intervista); public display rendition: https://compass-media.vogue.it/photos/651cd320c8e0b0def4c052de/master/w_1280,c_limit/Eyes-Carlijn%20Jacobs%207.jpg
-- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast. **Factor 1:** transformative teaching examines frontal symmetry broken by makeup, gaze, and a single red vertical. **Factor 2:** creative contemporary portrait. **Factor 3:** the entire frame is needed to retain face, black surround, and the line’s extension. **Factor 4:** this credited 945 × 1181px public publisher copy cannot replace a work, print, or licensed reproduction.
+- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast. **Factor 1:** transformative teaching examines frontal symmetry broken by asymmetric eye makeup, the open/closed-eye contrast, and the concentrated red lips. **Factor 2:** creative contemporary portrait. **Factor 3:** the entire frame is needed to retain the frontal face, black surround, and the relation of the lips to the unequal eyes. **Factor 4:** this credited 945 × 1181px public publisher copy cannot replace a work, print, or licensed reproduction.
 - **File:** `raw/carlijn-jacobs/08-eyes-07.jpg` (945 × 1181px)
 
 ### 09 — *Sheets, Sleeping Beauty, Paris* (2023)
@@ -67,15 +67,15 @@ This set draws from the openly readable Vogue Italia feature ["Il lato più inti
 - **File:** `raw/carlijn-jacobs/10-eyes-05.jpg` (945 × 1181px)
 
 ### 11 — *The masked man, Vogue Netherlands, Paris* (2018)
-- **Why it matters:** An oval face is enclosed in a red headpiece against a nearly black field, so the thin rim, white mask, and spare profile become an exercise in silhouette containment.
+- **Why it matters:** A vivid red-coated figure is isolated by a lamppost, iron railing, and brick façade; the upright elements make a contained vertical interval around the coat.
 - **Source:** [Vogue Italia feature](https://www.vogue.it/article/carlijn-jacobs-fotografia-intervista); public display rendition: https://compass-media.vogue.it/photos/651cd419db5d53a58899a97d/master/w_1280,c_limit/The%20masked%20man,%20Vogue%20Netherlands,%20Paris,%202018.jpg
-- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast. **Factor 1:** transformative criticism examines contour, profile, red framing, and black negative space. **Factor 2:** creative contemporary fashion photograph. **Factor 3:** the full vertical frame is needed to preserve the headpiece’s enclosure. **Factor 4:** this credited 1280 × 1920px public publisher copy is linked to Vogue and is non-substitutive.
+- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast. **Factor 1:** transformative criticism examines how the red coat is contained by the lamppost, railing, and façade’s vertical and horizontal intervals. **Factor 2:** creative contemporary fashion photograph. **Factor 3:** the full vertical frame is needed to compare the figure with the lamppost, rail, and surrounding brick façade. **Factor 4:** this credited 1280 × 1920px public publisher copy is linked to Vogue and is non-substitutive.
 - **File:** `raw/carlijn-jacobs/11-the-masked-man-paris-2018.jpg` (1280 × 1920px)
 
 ### 12 — *Cherry, Paris* (2022)
-- **Why it matters:** A glossy cherry repeats the red accents of the face above it, while its stem establishes a thin, almost calligraphic vertical link through otherwise open black space.
+- **Why it matters:** A single glossy cherry and its long left-bowing stem make a bright red path through otherwise open black space.
 - **Source:** [Vogue Italia feature](https://www.vogue.it/article/carlijn-jacobs-fotografia-intervista); public display rendition: https://compass-media.vogue.it/photos/651d0d40db5d53a58899a981/master/w_1280,c_limit/Cherry,%20Paris,%202022.jpg
-- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast. **Factor 1:** transformative teaching studies a repeated-red motif, vertical linkage, and the use of black negative space. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete vertical frame is necessary to connect face, stem, and fruit. **Factor 4:** the credited 1280 × 1600px public display rendition links to Vogue and cannot substitute for the original or a licensed reproduction.
+- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast. **Factor 1:** transformative teaching studies the cherry’s bright red mass, the stem’s leftward curve, and the use of black negative space. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete vertical frame is necessary to connect the bud, curving stem, cherry, and its small reflection. **Factor 4:** the credited 1280 × 1600px public display rendition links to Vogue and cannot substitute for the original or a licensed reproduction.
 - **File:** `raw/carlijn-jacobs/12-cherry-paris-2022.jpg` (1280 × 1600px)
 
 ## Research context

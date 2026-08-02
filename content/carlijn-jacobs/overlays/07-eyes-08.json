@@ -3,9 +3,9 @@
   "image": "07-eyes-08.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "PEARL AXIS" },
+    { "type": "polyline", "points": [[0.480, 0.213], [0.500, 0.316], [0.510, 0.465], [0.492, 0.590], [0.480, 0.711]], "label": "PEARL STRING" },
     { "type": "subject_anchor", "x": 0.480, "y": 0.711, "r": 0.035, "label": "LOWER PEARL" },
     { "type": "ellipse", "cx": 0.505, "cy": 0.515, "rx": 0.062, "ry": 0.315, "label": "SERIAL FORMS" }
   ],
-  "notes": "A string of pearls turns a bodily detail into a vertical punctuation mark."
+  "notes": "A string of pearls follows the eyelash seam as a vertical punctuation mark."
 }
