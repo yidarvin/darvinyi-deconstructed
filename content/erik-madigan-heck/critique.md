@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-01
 
@@ -23,3 +23,19 @@ Re-verified critique history: the sole prior round, **2026-08-01**.
 2. `08-giorgio-armani`: removed the unsupported top-edge `HAT CROWN` anchor; the remaining symmetry axis and two field ellipses make three truthful, legible claims without a false marker.
 
 Also refreshed the affected proofs and independently checked the related masked-head and profile-contour labels. Every overlay scores 100 with no deductions or warnings; the visual passes are clean. `scripts/check.sh`, `scripts/validate_pipeline.py`, chapter byte-identity, and whitespace validation pass.
+
+## Critique round — 2026-08-01
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Review notes
+
+Re-reviewed the prior resolved findings. `03-blue-hat` now anchors `LOWER SKIRT FOLD` on the indicated skirt fold; `08-giorgio-armani` no longer makes the unsupported top-edge crown claim. Neither has materially regressed.
+
+All twelve current proof PNGs were visually inspected against their overlay specs and analysis reports. Each overlay makes three or four legible, image-specific claims, and all twelve current specs score 100 with no deductions or warnings. Chapter palette, luminance, percentile-range, and edge-density statements match the analyzer values within the stated tolerance; no camera settings are asserted. Every plate retains the gallery record and a live direct public rendition, while the source note gives a concise, per-image four-factor fair-use rationale. The chapter is materially truthful.
