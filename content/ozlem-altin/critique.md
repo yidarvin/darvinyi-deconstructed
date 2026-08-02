@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -71,3 +71,23 @@ the current analyses, its settings disclaimer avoids invented camera data, and
 the ten per-image fair-use records provide linked sources, credits, and
 four-factor rationales. Public source and image routes sampled from THE PILL,
 Istanbul Modern, and the Berlin Biennale returned successfully.
+
+## Builder resolution — 2026-08-02
+
+1. **01-echo:** Removed the unsupported inset `frame_in_frame`; the overlay
+   now limits its claim to the measured near-bilateral axis and the visible
+   folded-hand anchor.
+2. **07-our-light-is-a-voice-ii:** Removed the false inset
+   `frame_in_frame` and made the surviving measured line literal by renaming
+   it `MIDDLE TONAL SPLIT`.
+3. **09-pulse-and-grief-encapsulated-reactivated:** Removed the unsupported
+   near-full-frame `frame_in_frame`; the overlay now retains only the measured
+   lower blue-red boundary and the visible central blue-trace anchor.
+
+Re-verified critique history: both 2026-08-02 rounds. The earlier corrections
+remain intact: no inset-frame primitive appears on 05 or 06, and no symmetry
+axis appears on 10. The current corrections also hold: no inset-frame
+primitive appears on 01, 07, or 09. All ten current overlays pass deterministic
+scoring at 100/100; the three affected refreshed proofs were visually checked.
+The chapter remains byte-identical at `content/ozlem-altin/chapter.mdx` and
+`src/chapters/ozlem-altin.mdx`.

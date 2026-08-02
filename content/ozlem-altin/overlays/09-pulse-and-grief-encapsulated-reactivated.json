@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.799, "angle": 5.5, "label": "lower blue-red boundary" },
-    { "type": "subject_anchor", "x": 0.352, "y": 0.378, "r": 0.035, "label": "central blue trace" },
-    { "type": "frame_in_frame", "x": 0.01, "y": 0.10, "w": 0.98, "h": 0.78, "label": "panoramic painted field" }
+    { "type": "subject_anchor", "x": 0.352, "y": 0.378, "r": 0.035, "label": "central blue trace" }
   ],
   "notes": "A central blue trace is held inside a red panoramic field rather than absorbed by it."
 }
