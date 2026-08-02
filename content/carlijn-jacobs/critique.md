@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-01
 
@@ -179,3 +179,25 @@ pass and meet the score threshold (100 except the accepted, visually centered
 cherry anchor at 91.9). `scripts/check.sh` passed before this verdict was set,
 and `content/carlijn-jacobs/chapter.mdx` remains byte-identical with
 `src/chapters/carlijn-jacobs.mdx`.
+
+## Critique round — 2026-08-01
+
+### Required
+
+None. All twelve current proofs were visually checked against their overlay
+specifications and source descriptions. The previously resolved factual and
+geometry issues remain resolved: the shoe/satin reading, reclining figure,
+pupil and seam/pin placements, pearl string, lip ellipse, tilted diamond,
+*Sheets* title and published credits, street-figure source description, and
+cherry stem all match the supplied renditions. Every source rendition returns
+HTTP 200, each record carries a traceable credit and individual four-factor
+fair-use rationale, and the chapter makes no unsupported camera-setting claim.
+Deterministic overlay scores are 100/100 for eleven plates and 91.9/100 for the
+visually centered cherry anchor.
+
+### Advisory (non-blocking)
+
+- `12-cherry-paris-2022`: the scorer still locates a generic subject signal at
+  `(0.506, 0.727)`, 0.057 diagonal from the cherry anchor. The shown anchor is
+  centered on the visible cherry body, so this detector discrepancy does not
+  mislead a reader.
