@@ -217,7 +217,7 @@ real queue and state live in data/registry.json.
 | 206 | paul-mpagi-sepuya         | Paul Mpagi Sepuya            | DONE    |
 | 207 | carmen-winant             | Carmen Winant                | DONE    |
 | 208 | pixy-liao                 | Pixy Liao                    | DONE    |
-| 209 | david-alekhuogie          | David Alekhuogie             | PENDING |
+| 209 | david-alekhuogie          | David Alekhuogie             | DONE    |
 | 210 | ozlem-altin               | Özlem Altın                  | PENDING |
 | 211 | sohrab-hura               | Sohrab Hura                  | PENDING |
 | 212 | zora-j-murff              | Zora J Murff                 | PENDING |
