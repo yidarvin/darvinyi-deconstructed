@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -102,3 +102,26 @@ centered on the lettering; its prior 94/100 score still passes without
 deductions. The second round's three required fixes above hold in the current
 proofs and source record. The chapter remains byte-identical at
 `content/carmen-winant/chapter.mdx` and `src/chapters/carmen-winant.mdx`.
+
+## Critique round — 2026-08-02
+
+Reviewed all twelve current rendered proofs against their overlay specs,
+analyzer records, chapter, manifest, research notes, and source record. The
+current proofs match their image/spec renders; scores are 94–100 with no
+geometric deductions. Every chapter measurement checked against the analyzer
+is within tolerance, and the chapter continues to make no camera-setting
+claim. All twelve copyrighted images retain a traceable official-archive
+route, named creator/rightsholder, and per-image four-factor fair-use rationale.
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- The current 94-point detector warnings for the **04** roof line, **05**
+  corkboard line, and **08** pavement line were rechecked as prior settled
+  points. Their image files, specs, and proofs are byte-identical to the
+  earlier reviews; no material regression permits reopening them. The resolved
+  **08** billboard-text anchor and the resolved **10** and **12** reduced
+  overlays remain truthful in the current proofs.
