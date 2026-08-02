@@ -3,9 +3,9 @@
   "image": "06-eyes-09.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.518, "y": 0.594, "label": "PUPIL CENTRE" },
-    { "type": "ellipse", "cx": 0.518, "cy": 0.594, "rx": 0.220, "ry": 0.165, "label": "ENLARGED EYE" },
-    { "type": "polyline", "points": [[0.08, 0.42], [0.31, 0.52], [0.52, 0.59], [0.82, 0.74]], "label": "PIN DIRECTION" }
+    { "type": "ellipse", "cx": 0.700, "cy": 0.484, "rx": 0.060, "ry": 0.047, "label": "PUPIL" },
+    { "type": "ellipse", "cx": 0.690, "cy": 0.480, "rx": 0.205, "ry": 0.190, "label": "ENLARGED EYE" },
+    { "type": "polyline", "points": [[0.12, 0.180], [0.31, 0.270], [0.50, 0.360], [0.60, 0.405]], "label": "UPPER PIN" }
   ],
-  "notes": "Pins and marks press directional lines into the enlarged eye."
+  "notes": "Pins and marks press directional lines toward the enlarged eye."
 }

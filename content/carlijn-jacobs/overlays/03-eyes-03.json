@@ -3,9 +3,9 @@
   "image": "03-eyes-03.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.520, "angle": -6.9, "label": "STITCHED SEAM" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "EYE AXIS" },
-    { "type": "subject_anchor", "x": 0.631, "y": 0.523, "r": 0.035, "label": "PUPIL" }
+    { "type": "subject_anchor", "x": 0.505, "y": 0.486, "r": 0.035, "label": "PUPIL" },
+    { "type": "polyline", "points": [[0.00, 0.625], [0.25, 0.637], [0.50, 0.624], [0.75, 0.602], [1.00, 0.575]], "label": "LOWER STITCHED SEAM" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.482, "rx": 0.335, "ry": 0.135, "label": "EYE" }
   ],
-  "notes": "A single eye interrupts the repeated horizontal stitched field."
+  "notes": "A single eye interrupts the repeated stitched bands around it."
 }

@@ -7,9 +7,9 @@ This set draws from the openly readable Vogue Italia feature ["Il lato più inti
 ## Shortlist
 
 ### 01 — *Glossy feet, Paris* (2023), *Sleeping Beauty*
-- **Why it matters:** The paired red shoes and their water reflection make a low, frontal symmetry; the cropped limbs turn gloss, skin, and rippled light into a compact ornamental field.
+- **Why it matters:** The paired red shoes settle into folded blue satin; the cropped limbs turn gloss, skin, bows, and fabric folds into a compact ornamental field.
 - **Source:** [Vogue Italia feature](https://www.vogue.it/article/carlijn-jacobs-fotografia-intervista); public display rendition: https://compass-media.vogue.it/photos/651cd02ac8e0b0def4c052dc/master/w_1280,c_limit/Glossy%20feet,%20Paris,%202023.jpg
-- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast (publisher notice). **Factor 1:** transformative composition criticism examines reflected symmetry and the red-footwear anchor. **Factor 2:** a highly creative contemporary fashion photograph. **Factor 3:** the complete square is needed to compare the feet, reflection, and surrounding water. **Factor 4:** this credited 1280 × 1280px public rendition links to Vogue and cannot substitute for the work, print, or licensed file.
+- **Rights / fair-use assessment:** Carlijn Jacobs; © Carlijn Jacobs / Condé Nast (publisher notice). **Factor 1:** transformative composition criticism examines paired footwear, bows, cropped limbs, and the satin folds that contain them. **Factor 2:** a highly creative contemporary fashion photograph. **Factor 3:** the complete square is needed to compare the feet and shoes with the surrounding folded satin. **Factor 4:** this credited 1280 × 1280px public rendition links to Vogue and cannot substitute for the work, print, or licensed file.
 - **File:** `raw/carlijn-jacobs/01-glossy-feet-paris-2023.jpg` (1280 × 1280px)
 
 ### 02 — *Sleeping Beauty, Paris* (2023)

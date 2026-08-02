@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -51,3 +51,23 @@ byte-identical.
 
 - All twelve direct Vogue/Compass Media links returned HTTP 200 in this review. Their records retain traceable credits, a per-image four-factor fair-use rationale, and no evidence of an access-control bypass.
 - The prior 2026-08-01 resolution remains intact: `07-eyes-08` follows the pearl string, `08-eyes-07` has no false red-vertical claim, `10-eyes-05` traces the black diamond, and `12-cherry-paris-2022` follows the stem; the corrected source notes for 11 and 12 still match their supplied renditions. Those settled findings are not reopened.
+
+## Builder resolution — 2026-08-01
+
+Resolved all three current required items. Re-analyzed, rendered, visually
+inspected, and scored the affected overlays: `01-glossy-feet-paris-2023`
+(100), `03-eyes-03` (100), and `06-eyes-09` (100). The first plate now names
+folded satin and a visible shoe band rather than water or reflection, in both
+the overlay and its source rationale. The *Eyes 03* pupil marker and lower
+stitched-seam path now land on their named features. The *Eyes 09* false
+vanishing point has been removed; its centered pupil ellipse, eye boundary,
+and upper-pin path follow the photographed features, and the chapter no longer
+claims perspective convergence.
+
+Re-verified the complete prior critique history: the first **2026-08-01**
+round (all six required fixes) and its **2026-08-01** builder resolution. The
+pearl string, lip ellipse/no-red-vertical correction, tilted black-diamond
+frame, and curving cherry stem remain visually aligned; the source-integrity
+corrections for plates 11 and 12 remain accurate. `scripts/check.sh` completed
+successfully before this verdict was set, and the rendered and content chapter
+copies remain byte-identical.
