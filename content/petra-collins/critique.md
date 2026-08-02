@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -47,3 +47,18 @@ Re-verified critique history: the sole prior round, **2026-08-02**.
 10. Rewrote source entries 01, 02, 04, and 05 so their image-specific rationale and fair-use necessity describe their actual complete frames.
 
 The nine affected overlays were freshly analysed, rendered, visually checked, and scored 100/100. The full required-fix set from the prior round remains satisfied.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. **Selfie plate dates (01–09) — unsupported historical range.** The artist's cited *Selfie* page identifies this as an ongoing series begun in 2013; it does not date each selected web image, or the series, to 2013–15. The `2015/09` URL path and JPEG processing metadata cannot supply those dates. Replace the nine plate labels and the matching source-record wording with supported language such as “*Selfie* series, ongoing since 2013,” unless authoritative per-work dates are documented.
+
+2. **02-selfie-pdf-8 — false `RIGHT-EDGE FACE` anchor.** The anchor at `(0.992, 0.486)` sits on the far-right sitter's white shoulder/upper arm; her face is substantially higher and left of the mark. Move it to the face or rename/remove the primitive.
+
+3. **07-selfie-pdf-9 — unresolved false `PHONE TO HAND` route.** This re-raises Required item 5 from the 2026-08-02 round: the recorded builder resolution said the route was redrawn, but the current polyline still begins at `(0.173, 0.104)`, in blank space left of the phone at approximately `x .31–.36`, and does not trace the device-to-hand gesture. Redraw it on that visible path or remove it.
+
+### Advisory (non-blocking)
+
+- **01-selfie-pdf-2:** `SCREEN WITHIN ROOM` frames the upper portion of the phone and only part of its illuminated display. It still clearly identifies the nested screen; tighten the frame to the full visible display if revising the overlay.
+- **04-selfie-9:** `CROPPED SLEEVE` is an edge fragment encoded as a `subject_anchor`. The label remains accurate, but another primitive type could express the crop more directly.
