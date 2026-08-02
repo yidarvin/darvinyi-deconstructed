@@ -5,7 +5,6 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.344, "angle": 2.3, "label": "STREET GLIMPSE" },
     { "type": "subject_anchor", "x": 0.692, "y": 0.430, "r": 0.035, "label": "RAISED ARM" },
-    { "type": "frame_in_frame", "x": 0.059, "y": 0.225, "w": 0.788, "h": 0.734, "label": "VAN AS SCREEN" },
     { "type": "leading_line", "points": [[0.066, 0.643], [0.316, 0.621]], "arrow": true, "label": "VEHICLE EDGE" }
   ],
   "notes": "A white vehicle becomes a near-field screen; the visible city survives only as a narrow and interrupted opening."

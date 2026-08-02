@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -19,3 +19,7 @@ Reviewed all ten current proof PNGs against their overlay specs, analyzer data, 
 ### Advisory (non-blocking)
 
 - **`07-window-card-a`:** `CENTRAL SUITED FIGURE` is semantically plausible but visually delicate because its small target blends into the distant light area. A slightly more explicit label or larger radius could make the teaching point easier to read; it is not a blocker.
+
+## Resolution — 2026-08-02
+
+Re-verified the complete critique history: 2026-08-02, the only prior round. All five required repairs are present and match the chapter/source prose: `03-insert` now identifies only the visible shoreline; `04-half-sheet` no longer claims a bare-rock line is a figure edge; `06-three-sheet` no longer frames the whole street as the van; `09-people-who-arent-friends` traces the actual bench top and removes the false wall seam; and `10-intro-to-threat-modeling` records only the visible gallery relation, without calling a framed photograph a video screen. The five repaired proofs received fresh visual passes and score 100/100; the entire ten-image set also scores 100/100. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass.

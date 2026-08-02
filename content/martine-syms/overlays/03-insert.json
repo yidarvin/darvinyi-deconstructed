@@ -3,9 +3,8 @@
   "image": "03-insert.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.382, "angle": 0.0, "label": "WATER-TO-SHORE BAND" },
     { "type": "subject_anchor", "x": 0.498, "y": 0.633, "r": 0.035, "label": "WALKERS" },
-    { "type": "polyline", "points": [[0.304, 0.591], [0.498, 0.633], [0.776, 0.720]], "label": "SHORE DRIFT" }
+    { "type": "polyline", "points": [[0.304, 0.591], [0.498, 0.633], [0.776, 0.720]], "label": "SHORELINE" }
   ],
   "notes": "The tiny walking group is held between broad horizontal bands, making distance feel both social and impersonal."
 }

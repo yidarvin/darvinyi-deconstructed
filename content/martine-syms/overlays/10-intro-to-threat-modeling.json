@@ -3,10 +3,8 @@
   "image": "10-intro-to-threat-modeling.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.438, "angle": 0.0, "label": "GALLERY WALL SEAM" },
-    { "type": "subject_anchor", "x": 0.195, "y": 0.500, "r": 0.035, "label": "VIDEO SCREEN" },
-    { "type": "leading_line", "points": [[0.554, 0.657], [0.960, 0.734]], "arrow": true, "label": "REFLECTIVE BENCH" },
+    { "type": "frame_in_frame", "x": 0.350, "y": 0.620, "w": 0.158, "h": 0.095, "label": "ORANGE BENCH" },
     { "type": "frame_in_frame", "x": 0.359, "y": 0.004, "w": 0.329, "h": 0.165, "label": "CEILING PLANE" }
   ],
-  "notes": "A small screen and the room's text-image arrangement make time-based work read as a spatial interruption."
+  "notes": "This record-associated installation view shows how lettering, framed works, a low bench, and ceiling geometry share one field."
 }
