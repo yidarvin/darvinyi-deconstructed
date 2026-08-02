@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-apology.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "heart axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.53, "rx": 0.30, "ry": 0.31, "label": "heart emblem" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.03, "w": 0.94, "h": 0.94, "label": "post border" }
+  ],
+  "notes": "A centered granular heart reduces the apology post to a single emblem on a neutral field."
+}

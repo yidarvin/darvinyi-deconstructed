@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-part-ii-title.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.616, "y": 0.867, "label": "MONEY" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.07, "w": 0.30, "h": 0.87, "label": "checkbox column" },
+    { "type": "polyline", "points": [[0.13, 0.75], [0.24, 0.87], [0.46, 0.59]], "label": "checkmark" }
+  ],
+  "notes": "The phase change is delivered as a blunt checkbox graphic rather than a portrait."
+}

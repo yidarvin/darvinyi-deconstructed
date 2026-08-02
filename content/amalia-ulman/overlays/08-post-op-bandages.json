@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-post-op-bandages.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.595, "angle": -7.0, "label": "bed edge" },
+    { "type": "subject_anchor", "x": 0.789, "y": 0.584, "label": "bandaged chest" },
+    { "type": "polyline", "points": [[0.33, 0.04], [0.52, 0.32], [0.74, 0.57]], "label": "cropped torso contour" }
+  ],
+  "notes": "The off-balance crop makes bandage, torso, and bed edge read as proof rather than portrait."
+}

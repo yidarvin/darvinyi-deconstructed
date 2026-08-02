@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "image": "09-morning-boob.jpg",
+  "width": 640,
+  "height": 640,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.6168466701133578,
+    "std": 0.1865022242676256,
+    "p05": 0.26666666666666666,
+    "p95": 0.9098039215686274,
+    "edge_density": 0.0043359375
+  },
+  "palette": [
+    "#c0976d",
+    "#a7674b",
+    "#d4b795",
+    "#eedfc1",
+    "#633b37"
+  ],
+  "lines": [
+    {
+      "x1": 0.88125,
+      "y1": 0.190625,
+      "x2": 0.9109375,
+      "y2": 0.325,
+      "angle_deg": 77.5417535599951,
+      "length": 0.09730875675202616,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.725,
+      "y1": 0.0015625,
+      "x2": 0.76875,
+      "y2": 0.128125,
+      "angle_deg": 70.93080646265187,
+      "length": 0.09468930485078556,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0328125,
+      "y1": 0.359375,
+      "x2": 0.0328125,
+      "y2": 0.253125,
+      "angle_deg": -90.0,
+      "length": 0.07513009550107067,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.11875,
+      "y1": 0.7046875,
+      "x2": 0.1296875,
+      "y2": 0.80625,
+      "angle_deg": 83.85337434035333,
+      "length": 0.07223077707078887,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.5109375,
+    "angle_deg": 0.0,
+    "confidence": 0.8383545811778241,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.75625,
+      0.0546875
+    ],
+    "regions": [
+      {
+        "cx": 0.7546653528142975,
+        "cy": 0.05759423788003287,
+        "x": 0.696875,
+        "y": 0.0,
+        "w": 0.1109375,
+        "h": 0.1359375,
+        "area_frac": 0.011884765625
+      },
+      {
+        "cx": 0.8571919913010589,
+        "cy": 0.6169262953857791,
+        "x": 0.8265625,
+        "y": 0.5828125,
+        "w": 0.0625,
+        "h": 0.06875,
+        "area_frac": 0.0032275390625
+      },
+      {
+        "cx": 0.9682352654176425,
+        "cy": 0.022345823575331773,
+        "x": 0.9265625,
+        "y": 0.0,
+        "w": 0.0734375,
+        "h": 0.0546875,
+        "area_frac": 0.00312744140625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8803863678825437,
+    "vertical_axis_x": 0.525,
+    "horizontal": 0.8212017380852465,
+    "horizontal_axis_y": 0.3875
+  },
+  "subject_anchor": {
+    "x": 0.75625,
+    "y": 0.0546875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.04779078240779722,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.525,
+      "confidence": 0.88,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.511,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.84,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.756,
+      "y": 0.055,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

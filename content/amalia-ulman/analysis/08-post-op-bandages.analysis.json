@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "image": "08-post-op-bandages.jpg",
+  "width": 640,
+  "height": 640,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.5869550494025736,
+    "std": 0.1922025119884056,
+    "p05": 0.3137254901960784,
+    "p95": 0.9725490196078431,
+    "edge_density": 0.00624267578125
+  },
+  "palette": [
+    "#ba7a55",
+    "#8b4a35",
+    "#bda499",
+    "#edd783",
+    "#f1fddf"
+  ],
+  "lines": [
+    {
+      "x1": 0.39375,
+      "y1": 0.90625,
+      "x2": 0.4125,
+      "y2": 0.5578125,
+      "angle_deg": -86.91978986335418,
+      "length": 0.24673898547478265,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.046875,
+      "y1": 0.55,
+      "x2": 0.0640625,
+      "y2": 0.3875,
+      "angle_deg": -83.96231747857712,
+      "length": 0.11554579212643357,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.846875,
+      "y1": 0.603125,
+      "x2": 0.9875,
+      "y2": 0.5859375,
+      "angle_deg": -6.968256741378544,
+      "length": 0.10017684558132682,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.0703125,
+      "y1": 0.1546875,
+      "x2": 0.096875,
+      "y2": 0.0390625,
+      "angle_deg": -77.06194368281355,
+      "length": 0.08388893559716323,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.5328125,
+      "y1": 0.9796875,
+      "x2": 0.6359375,
+      "y2": 0.9375,
+      "angle_deg": -22.249023657212366,
+      "length": 0.07878626397174193,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0640625,
+      "y1": 0.3171875,
+      "x2": 0.0640625,
+      "y2": 0.209375,
+      "angle_deg": -90.0,
+      "length": 0.07623494984667466,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.59453125,
+    "angle_deg": -6.968256741378544,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7890625,
+      0.584375
+    ],
+    "regions": [
+      {
+        "cx": 0.7942037023567063,
+        "cy": 0.5826006510037824,
+        "x": 0.7390625,
+        "y": 0.534375,
+        "w": 0.1109375,
+        "h": 0.0984375,
+        "area_frac": 0.00839111328125
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6600552205490862,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.7513775801199565,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.7890625,
+    "y": 0.584375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3465738606685441,
+    "phi": 0.4564521498451668,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.595,
+      "angle": -7.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.789,
+      "y": 0.584,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-part-i-title.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.194, "y": 0.43, "label": "PART I" },
+    { "type": "polyline", "points": [[0.09, 0.58], [0.90, 0.58]], "label": "type baseline" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.45, "rx": 0.42, "ry": 0.15, "label": "title field" }
+  ],
+  "notes": "The opening card makes a single line of type carry the square's otherwise empty field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-morning-boob.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "garment axis" },
+    { "type": "horizon_line", "y": 0.511, "angle": 0.0, "label": "bra lower edge" },
+    { "type": "subject_anchor", "x": 0.756, "y": 0.055, "label": "right strap" }
+  ],
+  "notes": "A clasped garment converts a tightly cropped torso into an almost bilateral diagram."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-the-end-rose.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central bloom axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.41, "rx": 0.25, "ry": 0.34, "label": "opening bloom" },
+    { "type": "subject_anchor", "x": 0.881, "y": 0.148, "label": "upper petal" }
+  ],
+  "notes": "Soft petals and dense shadow make the final rose an all-over tonal full stop."
+}

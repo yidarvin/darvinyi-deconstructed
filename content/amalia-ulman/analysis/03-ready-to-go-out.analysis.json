@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "image": "03-ready-to-go-out.jpg",
+  "width": 640,
+  "height": 640,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.7319118987438725,
+    "std": 0.2357750163255815,
+    "p05": 0.1568627450980392,
+    "p95": 0.9686274509803922,
+    "edge_density": 0.010893554687500001
+  },
+  "palette": [
+    "#e8d9cb",
+    "#c8aa96",
+    "#f7eeeb",
+    "#937060",
+    "#342022"
+  ],
+  "lines": [
+    {
+      "x1": 0.2984375,
+      "y1": 0.021875,
+      "x2": 0.459375,
+      "y2": 0.2140625,
+      "angle_deg": 50.057248532559136,
+      "length": 0.1772525233424055,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.8765625,
+      "y1": 0.8296875,
+      "x2": 0.959375,
+      "y2": 0.6109375,
+      "angle_deg": -69.26476606200303,
+      "length": 0.1653926731391841,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.928125,
+      "y1": 0.66875,
+      "x2": 0.99375,
+      "y2": 0.478125,
+      "angle_deg": -71.00334584451144,
+      "length": 0.14255618409946302,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.8015625,
+      "y1": 0.8,
+      "x2": 0.815625,
+      "y2": 0.9515625,
+      "angle_deg": 84.69907348347432,
+      "length": 0.10763118812059076,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.771875,
+      "y1": 0.6421875,
+      "x2": 0.7859375,
+      "y2": 0.5015625,
+      "angle_deg": -84.28940686250037,
+      "length": 0.09993283877497426,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.7859375,
+      "y1": 0.5828125,
+      "x2": 0.8015625,
+      "y2": 0.44375,
+      "angle_deg": -83.58915997976756,
+      "length": 0.09895079466899191,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.865625,
+      "y1": 0.6765625,
+      "x2": 0.9765625,
+      "y2": 0.753125,
+      "angle_deg": 34.611142184530394,
+      "length": 0.09531250000000001,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.040625,
+      "y1": 0.203125,
+      "x2": 0.0734375,
+      "y2": 0.3046875,
+      "angle_deg": 72.0955524937518,
+      "length": 0.07547052922333326,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.2421875,
+    "angle_deg": 0.0,
+    "confidence": 0.624717432603448,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.8929194647877943,
+    "y": 0.7123578189494704,
+    "inliers": 5,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.9296875,
+      0.63125
+    ],
+    "regions": [
+      {
+        "cx": 0.946138723833406,
+        "cy": 0.6494260725577845,
+        "x": 0.884375,
+        "y": 0.5390625,
+        "w": 0.115625,
+        "h": 0.21875,
+        "area_frac": 0.022392578125
+      },
+      {
+        "cx": 0.9353543755295114,
+        "cy": 0.28459849795255576,
+        "x": 0.8625,
+        "y": 0.215625,
+        "w": 0.1375,
+        "h": 0.175,
+        "area_frac": 0.0172900390625
+      },
+      {
+        "cx": 0.9767396541950113,
+        "cy": 0.046805909863945575,
+        "x": 0.95,
+        "y": 0.0,
+        "w": 0.05,
+        "h": 0.0984375,
+        "area_frac": 0.004306640625
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7353073160735883,
+    "vertical_axis_x": 0.5375,
+    "horizontal": 0.8496568534809592,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.9296875,
+    "y": 0.63125,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.08015046296296303,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.893,
+      "y": 0.712,
+      "confidence": 1.0,
+      "why": "5 converging diagonals"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.242,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.62,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.93,
+      "y": 0.631,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.298,
+          0.022
+        ],
+        [
+          0.459,
+          0.214
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.35,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}
