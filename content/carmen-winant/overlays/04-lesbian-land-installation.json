@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-lesbian-land-installation.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.18, "angle": 3.8, "label": "ceiling soffit" },
+    { "type": "leading_line", "points": [[0.154, 0.336], [0.296, 0.047], [0.973, 0.493]], "arrow": false, "label": "roof frame" },
+    { "type": "frame_in_frame", "x": 0.214, "y": 0.267, "w": 0.672, "h": 0.596, "label": "open house structure" },
+    { "type": "subject_anchor", "x": 0.538, "y": 0.256, "r": 0.035, "label": "roof ridge" }
+  ],
+  "notes": "The unfinished house turns a gallery view into a walk-through frame whose diagonals and empty bays organize the archive."
+}

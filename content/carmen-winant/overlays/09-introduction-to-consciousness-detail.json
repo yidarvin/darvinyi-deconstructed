@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-introduction-to-consciousness-detail.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.674, "angle": 0.0, "label": "road and grass boundary" },
+    { "type": "frame_in_frame", "x": 0.413, "y": 0.178, "w": 0.27, "h": 0.245, "label": "billboard question" },
+    { "type": "leading_line", "points": [[0.247, 0.966], [0.616, 0.88]], "arrow": true, "label": "sidewalk edge" },
+    { "type": "subject_anchor", "x": 0.57, "y": 0.582, "r": 0.035, "label": "sign support" }
+  ],
+  "notes": "Diagonal pavement and a web of utility wires make the billboard a pointed interruption in an ordinary roadside field."
+}

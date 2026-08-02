@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-body-index-detail.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.532, "angle": 0.0, "label": "middle row break" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.04, "w": 0.94, "h": 0.91, "label": "collaged figure field" },
+    { "type": "subject_anchor", "x": 0.559, "y": 0.633, "r": 0.035, "label": "seated figure" }
+  ],
+  "notes": "A collage of figures is kept unstable by smaller photographs that interrupt bodies rather than merely decorating them."
+}
