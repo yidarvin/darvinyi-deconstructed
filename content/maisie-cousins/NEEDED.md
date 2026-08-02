@@ -1,0 +1,3 @@
+# Maisie Cousins — sourcing notes
+
+None outstanding. This pass downloaded and opened twelve distinct, publicly served *Dipping Sauce* display JPEGs from AnOther’s credited 2018 gallery. Their verified long edges range from 1500px to 3000px, above the project’s 640px floor. The artist’s current domain is a parked Squarespace page, so it did not offer a usable archive; that route was not treated as an access-control failure or bypassed. AnOther’s publicly accessible gallery supplied complete published frames with explicit “Photography by Maisie Cousins” credit, documented individually in `sources.md` under the project’s fair-use policy. No low-resolution exception or limited-source fallback is needed.
