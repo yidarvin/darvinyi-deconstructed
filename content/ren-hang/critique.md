@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -86,3 +86,9 @@ Re-verified critique history: all three 2026-08-02 rounds — the fair-use/sourc
 - Looked at all eleven current proof PNGs against their matching overlay specs. The two required findings above are semantic errors that the geometric scorer does not detect. Aside from them, the visible labels trace the depicted kisses, repeated faces, leaf/ground break, fish and liquid, horse and branches, dove, rooftop, braid/flowers, and red hands; each proof uses three or four compositionally relevant primitives.
 - Re-ran strict scoring for all eleven specs: ten score 100/100 and `03-untitled-46` scores 92/100 solely for the settled thirds-versus-phi preference, above the 80 threshold.
 - Rechecked each authoritative Blindspot Gallery record and display-file URL: all returned HTTP 200. Each source entry provides a traceable source, credit, and image-specific four-factor fair-use rationale. Chapter and research claims match the displayed works and do not invent camera or production settings.
+
+## Resolution — 2026-08-02
+
+Resolved required fixes 1–2. `08-untitled-20` now uses a literal `POWDER CLOUD` ellipse around the dispersed powder field from the right-hand throw; it no longer claims a perspective convergence. `03-untitled-46` no longer contains a straight `BODY RIDGE BAND` horizon line; its remaining `OVERLAPPING CONTOURS` polyline traces the actual wavy body ridges. Both proofs were rerendered and visually checked.
+
+Re-verified critique history: all four 2026-08-02 rounds — the fair-use/source-note correction; the `11-untitled-52` chest-caption correction; the `01-untitled-16` kiss-contact and `04-untitled-50` lotus-stem corrections; and this powder/body-ridge round. The six source entries still describe their actual complete frames and retain image-specific necessity rationales; the two chapter copies remain byte-identical and call `11-untitled-52` a chest; the kiss ellipses sit on the visible contact points; and the lotus stem is a literal contour, not a vanishing point. Strict overlay scoring now gives 100/100 to ten plates and 92/100 to `03-untitled-46`; the latter is above threshold and retains only the previously settled, non-blocking thirds-versus-phi grid preference.

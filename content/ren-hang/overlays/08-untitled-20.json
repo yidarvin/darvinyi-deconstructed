@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.709, "angle": 0, "label": "DRESS-TO-POWDER BREAK" },
     { "type": "subject_anchor", "x": 0.397, "y": 0.368, "r": 0.035, "label": "FACE" },
-    { "type": "vanishing_point", "x": 0.422, "y": 0.515, "label": "POWDER BURST" },
+    { "type": "ellipse", "cx": 0.650, "cy": 0.555, "rx": 0.130, "ry": 0.190, "label": "POWDER CLOUD" },
     { "type": "leading_line", "points": [[0.273,0.105],[0.320,0.218]], "arrow": true, "label": "HAIR SWEEP" }
   ],
   "notes": "The blue dress and windblown hair give a white powder burst a sharply staged direction."
