@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-dipping-sauce-img-1051.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.00, 0.54], [0.30, 0.37], [0.62, 0.21], [0.98, 0.03]], "label": "upper color strip edge" },
+    { "type": "polyline", "points": [[0.00, 0.70], [0.32, 0.52], [0.66, 0.35], [1.00, 0.18]], "label": "lower color strip edge" },
+    { "type": "ellipse", "cx": 0.69, "cy": 0.35, "rx": 0.15, "ry": 0.10, "label": "dark berry cluster" }
+  ],
+  "notes": "A printed color strip cuts diagonally through wet organic material and redirects the frame."
+}

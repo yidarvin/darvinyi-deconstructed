@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-dipping-sauce-img-0719.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.52, "rx": 0.41, "ry": 0.31, "label": "submerged flower" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.51, "rx": 0.11, "ry": 0.09, "label": "warm center" },
+    { "type": "polyline", "points": [[0.18, 0.70], [0.34, 0.57], [0.50, 0.51], [0.67, 0.42], [0.83, 0.27]], "label": "petal radius" }
+  ],
+  "notes": "Pale petals and bubbles form a radial bloom inside a cyan liquid field."
+}

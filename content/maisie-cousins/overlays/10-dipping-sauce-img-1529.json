@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-dipping-sauce-img-1529.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.45, 0.96], [0.49, 0.67], [0.52, 0.36], [0.51, 0.16]], "label": "mushroom column" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.49, "rx": 0.15, "ry": 0.40, "label": "white stems" },
+    { "type": "polyline", "points": [[0.58, 0.61], [0.72, 0.53], [0.65, 0.44], [0.86, 0.34]], "label": "red thread tangle" }
+  ],
+  "notes": "White mushroom stems impose a vertical column on a buoyant blue and red field."
+}

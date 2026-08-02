@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-dipping-sauce-img-8141.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.57, "rx": 0.37, "ry": 0.23, "label": "round red bowl" },
+    { "type": "polyline", "points": [[0.42, 0.29], [0.39, 0.43], [0.50, 0.58], [0.55, 0.70]], "label": "mermaid figure" },
+    { "type": "ellipse", "cx": 0.82, "cy": 0.82, "rx": 0.20, "ry": 0.16, "label": "prawn counterweight" }
+  ],
+  "notes": "A tiny blue mermaid turns the central bowl into a miniature scene within a crowded meal."
+}

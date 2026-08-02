@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-dipping-sauce-img-0423.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.463, "y": 0.351, "r": 0.035, "label": "upper figure" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.78, "rx": 0.16, "ry": 0.10, "label": "lower figure" },
+    { "type": "polyline", "points": [[0.10, 0.31], [0.35, 0.24], [0.60, 0.30], [0.79, 0.47]], "label": "noodle current" }
+  ],
+  "notes": "Two toy figures turn a noodle-and-oil field into an unstable miniature scene."
+}

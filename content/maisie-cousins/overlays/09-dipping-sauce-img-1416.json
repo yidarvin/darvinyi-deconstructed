@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-dipping-sauce-img-1416.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.59, "cy": 0.31, "rx": 0.41, "ry": 0.23, "label": "grapefruit half" },
+    { "type": "ellipse", "cx": 0.59, "cy": 0.35, "rx": 0.10, "ry": 0.09, "label": "dark seed cluster" },
+    { "type": "polyline", "points": [[0.11, 0.75], [0.30, 0.79], [0.51, 0.83], [0.74, 0.90]], "label": "plastic interruption" }
+  ],
+  "notes": "A grapefruit's radial anatomy is pressured by loose seeds, plastic, and candy-colored debris."
+}
