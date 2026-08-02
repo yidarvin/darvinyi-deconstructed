@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -130,3 +130,20 @@ still-life source records retain accurate visible descriptions and fair-use
 rationales, the *Self Portrait* names its visible laptop, and the revised
 *Crushing* frame cleanly follows the display. All ten overlays score 100/100,
 and `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None. All ten current proofs were visually checked against their overlay specs
+and analyzer output. The previously resolved Pietà headscarf anchor, the two
+Inflated Fiction still-life descriptions, the Self Portrait laptop rationale,
+and the Crushing screen bounds remain materially true. Each current spec
+independently scores 100/100. The ten credited source and public-display links
+also returned HTTP 200 in this review; every fair-use item retains its concise
+four-factor rationale, and the chapter explicitly withholds unverified camera
+settings.
+
+### Advisory (non-blocking)
+
+None.

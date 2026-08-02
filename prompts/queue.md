@@ -210,7 +210,7 @@ real queue and state live in data/registry.json.
 | 199 | maisie-cousins            | Maisie Cousins               | DONE    |
 | 200 | nadia-lee-cohen           | Nadia Lee Cohen              | DONE    |
 | 201 | ren-hang                  | Ren Hang                     | DONE    |
-| 202 | arvida-bystrom            | Arvida Byström               | PENDING |
+| 202 | arvida-bystrom            | Arvida Byström               | DONE    |
 | 203 | molly-soda                | Molly Soda                   | PENDING |
 | 204 | amalia-ulman              | Amalia Ulman                 | PENDING |
 | 205 | martine-syms              | Martine Syms                 | PENDING |
