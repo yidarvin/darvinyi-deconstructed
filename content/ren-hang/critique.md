@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -43,3 +43,22 @@ Re-verified critique history: 2026-08-02, round 1 (the only prior round). All el
 Resolved required fix 1. In both rendered chapter copies, the `11-untitled-52` caption now identifies the tightly cropped **chest**, matching the visible collarbones/chest, the `CHEST AXIS` overlay label, and its source note.
 
 Re-verified critique history: the 2026-08-02 fair-use/source-note round and its prior resolution. The six corrected source entries still identify their actual complete frames (fish and liquid; woman, horse, and branches; blue dress and powder; rooftop figure; flower-crowned braid; and red hands on a chest), with their image-specific necessity rationales intact. I visually rechecked the resolved plate and re-ran strict scoring on all eleven current overlay specs: ten score 100/100 and `03-untitled-46` scores 92/100, all above the required threshold. The prior phi-grid item remains advisory and was deliberately not changed.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. `01-untitled-16`: reposition both `UPPER KISS` and `LOWER KISS` subject anchors onto their respective visible mouth-contact points. In the current proof, the upper anchor at `(0.638, 0.491)` sits in the central sitter's dark hair, below and to the right of the upper kiss; the lower anchor at `(0.370, 0.689)` likewise sits left and above the lower lips. These labels make literal, false claims about the points they mark.
+
+2. `04-untitled-50`: remove or replace the `vanishing_point` labelled `STEM CONVERGENCE` at `(0.339, 0.597)`. The marker lands on bare ground beside the figure, where no stems converge. The fallen lotus stem is a visible directional contour, but it is not a perspective convergence; use a literal contour/leading-line claim if retaining that teaching point.
+
+### Advisory (non-blocking)
+
+- `11-untitled-52`: the unrendered overlay `notes` field still calls the pictured surface a “tightly cropped back.” The reader-facing caption, source note, and `CHEST AXIS` label were correctly resolved to chest, and the renderer does not expose `notes`, so this is not a publication blocker; align the metadata on the next builder pass to prevent future confusion.
+- `03-untitled-46`: the deterministic scorer continues to prefer phi to the displayed thirds grid (92/100). This is the previously settled, non-blocking grid preference; its visible body-ridge argument remains clear.
+
+### Review evidence
+
+- Looked at all eleven current proof PNGs against their matching overlay specs. Apart from the two required corrections above, the labels trace visible kisses, contours, faces, leaf/ground break, fish, horse, dove, powder, rooftop, braid/flowers, and red hands; each overlay retains three or four compositionally relevant primitives.
+- Re-ran strict scoring on every spec: ten score 100/100 and `03-untitled-46` scores 92/100; all pass the 80 threshold. The score does not detect the two semantic errors above, which are visible in the current proofs.
+- Rechecked all eleven Blindspot Gallery display-file URLs and the estate gallery record: each returned HTTP 200. Every source entry retains a traceable link, credit, and image-specific four-factor fair-use rationale. Chapter and research claims match the visible plates and measured web-file data, and state no undocumented camera settings.
