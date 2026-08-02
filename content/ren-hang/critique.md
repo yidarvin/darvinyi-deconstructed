@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -37,3 +37,9 @@ Re-verified critique history: 2026-08-02, round 1 (the only prior round). All el
 - Looked at all eleven current proof PNGs against their overlay specs. Each has three or four relevant primitives whose literal labels trace the pictured kisses, body contours, faces, leaf/ground break, fish, horse, dove, powder, roof, braid/flowers, or red hands. `11-untitled-52` alone conflicts with its chapter caption as described above.
 - Re-ran the overlay scorer: ten overlays score 100/100 and `03-untitled-46` scores 92/100. Its previously settled phi-grid preference remains advisory only; no resolved finding materially regressed.
 - All eleven authoritative Blindspot gallery/display links returned HTTP 200. Sources retain an image-specific four-factor fair-use rationale and the chapter/research state no undocumented camera or production settings.
+
+## Resolution — 2026-08-02
+
+Resolved required fix 1. In both rendered chapter copies, the `11-untitled-52` caption now identifies the tightly cropped **chest**, matching the visible collarbones/chest, the `CHEST AXIS` overlay label, and its source note.
+
+Re-verified critique history: the 2026-08-02 fair-use/source-note round and its prior resolution. The six corrected source entries still identify their actual complete frames (fish and liquid; woman, horse, and branches; blue dress and powder; rooftop figure; flower-crowned braid; and red hands on a chest), with their image-specific necessity rationales intact. I visually rechecked the resolved plate and re-ran strict scoring on all eleven current overlay specs: ten score 100/100 and `03-untitled-46` scores 92/100, all above the required threshold. The prior phi-grid item remains advisory and was deliberately not changed.
