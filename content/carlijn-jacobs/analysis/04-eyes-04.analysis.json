@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "image": "04-eyes-04.jpg",
+  "width": 945,
+  "height": 1181,
+  "aspect": 0.8002,
+  "tonal": {
+    "mean": 0.5524866911240992,
+    "std": 0.2387187528248232,
+    "p05": 0.17647058823529413,
+    "p95": 0.8509803921568627,
+    "edge_density": 0.005120096916971917
+  },
+  "palette": [
+    "#d4cfd2",
+    "#a3503c",
+    "#4e2c25",
+    "#a7979e",
+    "#675f68"
+  ],
+  "lines": [
+    {
+      "x1": 0.3956043956043956,
+      "y1": 0.3642578125,
+      "x2": 0.5347985347985348,
+      "y2": 0.3564453125,
+      "angle_deg": -4.014175695411026,
+      "length": 0.08715475448900128,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.11355311355311355,
+      "y1": 0.5361328125,
+      "x2": 0.21245421245421245,
+      "y2": 0.587890625,
+      "angle_deg": 33.19756579221645,
+      "length": 0.07382259218426121,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.82421875,
+    "angle_deg": 0.0,
+    "confidence": 0.7558104549081921,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.47985347985347987,
+      0.4599609375
+    ],
+    "regions": [
+      {
+        "cx": 0.41976726143969917,
+        "cy": 0.42088241788489006,
+        "x": 0.2967032967032967,
+        "y": 0.330078125,
+        "w": 0.24175824175824176,
+        "h": 0.1767578125,
+        "area_frac": 0.027548840048840048
+      },
+      {
+        "cx": 0.6591850588240479,
+        "cy": 0.4222404177008123,
+        "x": 0.612942612942613,
+        "y": 0.3798828125,
+        "w": 0.09401709401709402,
+        "h": 0.0908203125,
+        "area_frac": 0.006605807387057387
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8484045048866671,
+    "vertical_axis_x": 0.5125,
+    "horizontal": 0.9520582756196023,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.47985347985347987,
+    "y": 0.4599609375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.05652564217162981,
+    "phi": 0.23591568944336666,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.512,
+      "confidence": 0.85,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.824,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.76,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.48,
+      "y": 0.46,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-eyes-04.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "CENTRAL EMBLEM" },
+    { "type": "subject_anchor", "x": 0.480, "y": 0.460, "r": 0.035, "label": "IRIS" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.476, "rx": 0.278, "ry": 0.128, "label": "LIP FRAME" }
+  ],
+  "notes": "An eye and glossy lips are fused into one centered emblem."
+}

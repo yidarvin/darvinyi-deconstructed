@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-eyes-08.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "PEARL AXIS" },
+    { "type": "subject_anchor", "x": 0.480, "y": 0.711, "r": 0.035, "label": "LOWER PEARL" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.515, "rx": 0.062, "ry": 0.315, "label": "SERIAL FORMS" }
+  ],
+  "notes": "A string of pearls turns a bodily detail into a vertical punctuation mark."
+}

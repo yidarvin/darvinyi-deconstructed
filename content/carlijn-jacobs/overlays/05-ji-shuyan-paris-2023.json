@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-ji-shuyan-paris-2023.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.450, "label": "VEIL AXIS" },
+    { "type": "ellipse", "cx": 0.485, "cy": 0.508, "rx": 0.250, "ry": 0.230, "label": "VEILED FACE" },
+    { "type": "polyline", "points": [[0.15, 0.12], [0.33, 0.34], [0.54, 0.53], [0.79, 0.82]], "label": "GAUZE FOLD" }
+  ],
+  "notes": "Sheer fabric overlays the face and softens its boundaries."
+}

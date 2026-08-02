@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-sleeping-beauty-paris-2023.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.618, "angle": 5.3, "label": "BED EDGE" },
+    { "type": "polyline", "points": [[0.13, 0.77], [0.39, 0.64], [0.60, 0.38], [0.80, 0.51]], "label": "RECLINING FIGURE" },
+    { "type": "ellipse", "cx": 0.592, "cy": 0.205, "rx": 0.090, "ry": 0.145, "label": "WHITE MASK" }
+  ],
+  "notes": "The figure’s long diagonal crosses a shallow bed-stage."
+}

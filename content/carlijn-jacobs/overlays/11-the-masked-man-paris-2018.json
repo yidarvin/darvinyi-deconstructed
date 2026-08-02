@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-the-masked-man-paris-2018.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.535, "y": 0.882, "r": 0.035, "label": "RED-COATED FIGURE" },
+    { "type": "polyline", "points": [[0.27, 0.17], [0.28, 0.51], [0.29, 0.86]], "label": "LAMPPOST" },
+    { "type": "frame_in_frame", "x": 0.27, "y": 0.66, "w": 0.70, "h": 0.22, "label": "IRON RAIL" }
+  ],
+  "notes": "The saturated coat is isolated against brick, railing, and lamppost."
+}

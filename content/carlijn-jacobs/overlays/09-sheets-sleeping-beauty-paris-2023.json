@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-sheets-sleeping-beauty-paris-2023.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.679, "angle": -3.0, "label": "BED EDGE" },
+    { "type": "subject_anchor", "x": 0.522, "y": 0.586, "r": 0.035, "label": "BED CENTRE" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.255, "rx": 0.245, "ry": 0.180, "label": "FACE IN CLOUDS" }
+  ],
+  "notes": "A floating face answers the small illuminated bed below."
+}

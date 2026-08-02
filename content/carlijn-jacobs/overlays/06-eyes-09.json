@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-eyes-09.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.518, "y": 0.594, "label": "PUPIL CENTRE" },
+    { "type": "ellipse", "cx": 0.518, "cy": 0.594, "rx": 0.220, "ry": 0.165, "label": "ENLARGED EYE" },
+    { "type": "polyline", "points": [[0.08, 0.42], [0.31, 0.52], [0.52, 0.59], [0.82, 0.74]], "label": "PIN DIRECTION" }
+  ],
+  "notes": "Pins and marks press directional lines into the enlarged eye."
+}

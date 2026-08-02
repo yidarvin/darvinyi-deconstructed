@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-cherry-paris-2022.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "STEM AXIS" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.727, "r": 0.035, "label": "CHERRY" },
+    { "type": "polyline", "points": [[0.50, 0.09], [0.59, 0.37], [0.51, 0.63], [0.50, 0.73]], "label": "CURVING STEM" }
+  ],
+  "notes": "A red cherry and its long stem organize the black field."
+}
