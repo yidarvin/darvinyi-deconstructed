@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -48,3 +48,15 @@ All twelve proof PNGs were freshly inspected against their current specs and ana
 - Re-ran analyze → render → score for all four affected plates. `01`, `02`, and `10` passed at 100/100 on their first revised render; `11` passed at 100/100 after one score-directed revision (replacing an unsupported dog anchor with the ellipse). The final composites received a clean visual pass.
 - Corrected the chapter’s stale analyzer values to match the current analysis JSON and clarified `Pati` as a moving-image work in the source notes. Added `NEEDED.md` documenting that the complete source set needs no recovery or limited-mode fallback.
 - Re-verified every prior required fix in the critique history: the earlier 2026-08-02 resolution for `12-life-is-elsewhere-g4`, item 1 (`PROTECTIVE CONE`), remains correctly placed around the cone and its chapter language remains aligned. The current 2026-08-02 four-item round is resolved above. No other prior required rounds exist.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- `09-the-coast-iii`: the previously recorded `SHORE AND SHADOW DIRECTION` line remains a broad directional reading rather than a precise edge trace. It has not materially regressed and remains non-blocking.
+
+All twelve current proof PNGs were visually checked against their overlay specs and analysis files. The resolved `01`, `02`, `10`, `11`, and `12` corrections remain materially truthful. Every current overlay re-scored at 100/100 with no warnings, deductions, or fixes. Chapter measurements and palette values agree with the analyzer outputs within tolerance; its camera-language disclaimers avoid invented settings. Each of the twelve Experimenter work records and its linked public display rendition returned HTTP 200, and the source notes preserve credits plus an image-specific four-factor fair-use rationale. No limited-source condition applies.
