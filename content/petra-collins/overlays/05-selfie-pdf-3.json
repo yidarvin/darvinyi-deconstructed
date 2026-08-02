@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-selfie-pdf-3.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.381, "y": 0.464, "r": 0.04, "label": "PHONE IMAGE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.375, "label": "MIRROR CENTER" },
+    { "type": "frame_in_frame", "x": 0.270, "y": 0.075, "w": 0.565, "h": 0.745, "label": "MIRROR" },
+    { "type": "horizon_line", "y": 0.703, "angle": 7.9, "label": "TILE-COUNTER BREAK" }
+  ],
+  "notes": "The mirror doubles arms and device, making self-portraiture a layered act of looking."
+}

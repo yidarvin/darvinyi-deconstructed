@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-neon-works-img-0818.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "SIGN CENTER" },
+    { "type": "horizon_line", "y": 0.253, "angle": 0.0, "label": "UPPER WALL BREAK" },
+    { "type": "subject_anchor", "x": 0.851, "y": 0.273, "r": 0.04, "label": "RIGHT END OF LETTERING" },
+    { "type": "frame_in_frame", "x": 0.116, "y": 0.100, "w": 0.765, "h": 0.517, "label": "NEON TEXT FIELD" }
+  ],
+  "notes": "A long lyric block turns the dark wall into a shallow stage for saturated writing."
+}

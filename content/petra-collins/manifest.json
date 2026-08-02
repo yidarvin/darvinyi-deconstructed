@@ -1,0 +1,120 @@
+[
+  {
+    "file": "01-selfie-pdf-2.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "c5eb9fe3",
+    "source": "01-selfie-pdf-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-selfie-pdf-8.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "b155ce5b",
+    "source": "02-selfie-pdf-8.jpg",
+    "exif": {
+      "Make": "Applied Graphics Technologies",
+      "Model": "Digital Link",
+      "DateTimeOriginal": "2014:10:05 18:19:58"
+    }
+  },
+  {
+    "file": "03-selfie-10.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "94479c77",
+    "source": "03-selfie-10.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-selfie-9.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "b048204c",
+    "source": "04-selfie-9.jpg",
+    "exif": {
+      "Make": "Applied Graphics Technologies",
+      "Model": "Digital Link"
+    }
+  },
+  {
+    "file": "05-selfie-pdf-3.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "dfcbcd6f",
+    "source": "05-selfie-pdf-3.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-selfie-41.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "ef8b2ae6",
+    "source": "06-selfie-41.jpg",
+    "exif": {
+      "Make": "Applied Graphics Technologies",
+      "Model": "Digital Link"
+    }
+  },
+  {
+    "file": "07-selfie-pdf-9.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "1695c3df",
+    "source": "07-selfie-pdf-9.jpg",
+    "exif": {
+      "Make": "Applied Graphics Technologies",
+      "Model": "Digital Link",
+      "DateTimeOriginal": "2015:01:23 18:17:32"
+    }
+  },
+  {
+    "file": "08-selfie-pdf-13.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "a844b266",
+    "source": "08-selfie-pdf-13.jpg",
+    "exif": {
+      "Make": "Applied Graphics Technologies",
+      "Model": "Digital Link",
+      "DateTimeOriginal": "2015:04:26 18:41:18"
+    }
+  },
+  {
+    "file": "09-selfie-pdf-14.jpg",
+    "width": 800,
+    "height": 537,
+    "sha1": "a78a49a2",
+    "source": "09-selfie-pdf-14.jpg",
+    "exif": {
+      "Make": "Applied Graphics Technologies",
+      "Model": "Digital Link",
+      "DateTimeOriginal": "2015:04:26 18:48:00"
+    }
+  },
+  {
+    "file": "10-neon-works-p10102271.jpg",
+    "width": 800,
+    "height": 534,
+    "sha1": "78d532c0",
+    "source": "10-neon-works-p10102271.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-neon-works-img-0817.jpg",
+    "width": 820,
+    "height": 550,
+    "sha1": "66b7665a",
+    "source": "11-neon-works-img-0817.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-neon-works-img-0818.jpg",
+    "width": 820,
+    "height": 550,
+    "sha1": "752684ff",
+    "source": "12-neon-works-img-0818.jpg",
+    "exif": {}
+  }
+]

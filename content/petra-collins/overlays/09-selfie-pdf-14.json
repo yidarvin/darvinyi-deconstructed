@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-selfie-pdf-14.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.508, "y": 0.559, "r": 0.04, "label": "PHONE SCREEN" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "MIRROR CENTER" },
+    { "type": "frame_in_frame", "x": 0.339, "y": 0.115, "w": 0.345, "h": 0.715, "label": "MIRROR" },
+    { "type": "vanishing_point", "x": 0.468, "y": 0.466, "label": "REFLECTION DEPTH" }
+  ],
+  "notes": "A central mirror turns a bathroom scene into a three-way exchange of faces, room, and phone."
+}

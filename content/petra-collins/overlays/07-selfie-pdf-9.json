@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-selfie-pdf-9.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.320, "y": 0.369, "r": 0.04, "label": "FACE" },
+    { "type": "polyline", "points": [[0.090,0.086],[0.194,0.183],[0.260,0.271]], "label": "PHONE-HAND ARC" },
+    { "type": "ellipse", "cx": 0.376, "cy": 0.555, "rx": 0.284, "ry": 0.375, "label": "RECLINING FIGURE" }
+  ],
+  "notes": "A low camera angle lets raised hands lead into a softly cropped reclining body."
+}
