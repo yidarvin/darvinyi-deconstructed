@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -34,3 +34,35 @@ Re-verified required fixes from critique round 2026-08-02 (the complete prior
 critique history): both affected proof PNGs were visually checked after rendering,
 their overlay scores pass at 100, and the camera-setting limitation remains
 accurate. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **03-dipping-sauce-dinner:** the retained three-ellipse annotation remains
+  somewhat busy. The scorer reports 97 solely for that repeated primitive type;
+  each ellipse still identifies a visible prawn head, flower canopy, or noodle
+  loop, so this is not a truthfulness or pedagogy blocker.
+
+### Review evidence
+
+- Viewed all twelve current proof PNGs against their matching overlay JSON and
+  ingested image. The resolved 02 `waterline sheen` and 07 `pink ground seam`
+  claims have not regressed: neither primitive remains. Every current spec
+  passes deterministic scoring (01, 02, and 04–12: 100; 03: 97 for the advisory
+  above), and the remaining 2–3 primitives per proof trace visible features.
+- Checked chapter numbers against the current analysis JSON. The stated tonal
+  spans, edge-density readings, palettes, and grid selections match the measured
+  web renditions within the specified tolerance. The prose aligns with the
+  visible images and makes no unsupported numeric camera-setting claim.
+- Rechecked source integrity. The AnOther gallery exposes the twelve matching
+  file labels in a fifteen-image *Dipping Sauce* sequence and credits
+  “Photography by Maisie Cousins”; each selected image has a traceable gallery
+  route, direct display-image route, credit, and concise four-factor fair-use
+  rationale in `sources.md`. The AnOther feature and Fotografiska record support
+  the series context and the documented general macro-lens statement, without
+  supplying an invented model or setting.
