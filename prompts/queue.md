@@ -213,7 +213,7 @@ real queue and state live in data/registry.json.
 | 202 | arvida-bystrom            | Arvida Byström               | DONE    |
 | 203 | molly-soda                | Molly Soda                   | DONE    |
 | 204 | amalia-ulman              | Amalia Ulman                 | DONE    |
-| 205 | martine-syms              | Martine Syms                 | PENDING |
+| 205 | martine-syms              | Martine Syms                 | DONE    |
 | 206 | paul-mpagi-sepuya         | Paul Mpagi Sepuya            | PENDING |
 | 207 | carmen-winant             | Carmen Winant                | PENDING |
 | 208 | pixy-liao                 | Pixy Liao                    | PENDING |

@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -23,3 +23,15 @@ Reviewed all ten current proof PNGs against their overlay specs, analyzer data, 
 ## Resolution — 2026-08-02
 
 Re-verified the complete critique history: 2026-08-02, the only prior round. All five required repairs are present and match the chapter/source prose: `03-insert` now identifies only the visible shoreline; `04-half-sheet` no longer claims a bare-rock line is a figure edge; `06-three-sheet` no longer frames the whole street as the van; `09-people-who-arent-friends` traces the actual bench top and removes the false wall seam; and `10-intro-to-threat-modeling` records only the visible gallery relation, without calling a framed photograph a video screen. The five repaired proofs received fresh visual passes and score 100/100; the entire ten-image set also scores 100/100. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` pass.
+
+## Critique round — 2026-08-02
+
+Reviewed all ten current proof PNGs directly against the ingested images, overlay specs, analysis JSON, chapter, manifest, research note, and source notes. Re-ran the overlay scorer: every spec passes at 100/100. The previously resolved repairs remain materially intact: the `03-insert` shoreline, `04-half-sheet` rock plane, `06-three-sheet` vehicle edge, `09-people-who-arent-friends` bench top, and `10-intro-to-threat-modeling` gallery relation each trace the named visible feature. Chapter measurements and palette claims agree with the analyzer values within tolerance; EXIF statements are accurately limited to file-embedded metadata. All ten Whitney collection records and direct JPEG sources resolve publicly, and every copyrighted image has a traceable credit and concise four-factor fair-use rationale.
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- `10-intro-to-threat-modeling` intentionally keeps only the two defensible structural primitives after the prior round removed false claims. A future enhancement could add a clearly named lettering or wall relation, but the current sparse overlay is truthful and sufficient for the chapter's carefully limited installation-view reading.
