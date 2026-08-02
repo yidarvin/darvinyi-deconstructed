@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-untitled-01.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.718, "angle": 0.5, "label": "FLOOR-AND-WALL SEAM" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "SEATED FIGURE AXIS" },
+    { "type": "subject_anchor", "x": 0.499, "y": 0.382, "r": 0.035, "label": "DOVE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.52, "rx": 0.20, "ry": 0.23, "label": "FIGURE MASS" }
+  ],
+  "notes": "A centered back and a tiny white bird make an unusually strict vertical arrangement."
+}

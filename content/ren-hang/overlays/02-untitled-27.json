@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-untitled-27.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.816, "angle": 0, "label": "FACE-AND-CHEST BAND" },
+    { "type": "subject_anchor", "x": 0.258, "y": 0.802, "r": 0.035, "label": "LEFT FACE" },
+    { "type": "polyline", "points": [[0.08,0.72],[0.25,0.80],[0.43,0.76],[0.60,0.74],[0.78,0.75],[0.93,0.66]], "label": "REPEATED FACES" }
+  ],
+  "notes": "A shallow row of faces and arms makes repetition into a controlled lateral cadence."
+}

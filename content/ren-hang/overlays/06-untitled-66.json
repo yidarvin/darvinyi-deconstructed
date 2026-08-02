@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-untitled-66.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.348, "y": 0.510, "r": 0.035, "label": "HAND ON HORSE" },
+    { "type": "polyline", "points": [[0.02,0.04],[0.23,0.19],[0.39,0.33]], "label": "BRANCH PATH TO FACE" },
+    { "type": "polyline", "points": [[0.38,0.39],[0.56,0.49],[0.82,0.57],[1,0.62]], "label": "SHOULDER AND BACK CONTOUR" }
+  ],
+  "notes": "The horse's large dark back makes a tilted field beneath a compressed human figure."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-untitled-52.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "CHEST AXIS" },
+    { "type": "horizon_line", "y": 0.640, "angle": 0, "label": "HAND BAND" },
+    { "type": "subject_anchor", "x": 0.679, "y": 0.708, "r": 0.035, "label": "RIGHT RED HAND" },
+    { "type": "polyline", "points": [[0.08,0.56],[0.29,0.62],[0.48,0.58],[0.69,0.62],[0.91,0.54]], "label": "RED FINGER RHYTHM" }
+  ],
+  "notes": "Red hands impose an almost symmetrical, graphic rhythm on a tightly cropped back."
+}

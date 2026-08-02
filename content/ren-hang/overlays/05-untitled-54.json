@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-untitled-54.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "PORTRAIT AXIS" },
+    { "type": "subject_anchor", "x": 0.485, "y": 0.036, "r": 0.035, "label": "HAIRLINE" },
+    { "type": "leading_line", "points": [[0.28,0.67],[0.50,0.69],[0.80,0.78]], "arrow": true, "label": "FISH SILHOUETTE" },
+    { "type": "polyline", "points": [[0.48,0.73],[0.48,1.00]], "label": "FALLING LIQUID" }
+  ],
+  "notes": "The frontal figure and the fish make a dark horizontal interruption in a white field."
+}
