@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-01
 
@@ -147,3 +147,14 @@ the non-vanishing-point pupil treatment. Every overlay passes its deterministic
 threshold (eleven at 100; `12-cherry-paris-2022` at 91.9), visual review is
 clean, and `scripts/check.sh` passed before this verdict was set. The content
 and rendered chapter copies remain byte-identical.
+
+## Critique round — 2026-08-01
+
+### Required
+
+1. **`10-eyes-05` — the resolved tilted-eye-frame repair has materially regressed.** The current `TILTED EYE FRAME` polyline’s lower vertex is `(0.515, 0.875)` and its left vertex is `(0.055, 0.560)`. In the current proof, both fall outside the painted diamond: the lower black corner is visibly left of the teal vertex (roughly x=0.47), and the left black corner is appreciably above the teal vertex (roughly y=0.46). The two adjoining teal segments therefore cut through the white forehead rather than trace the black frame, by far more than the ~2% endpoint tolerance. This reopens the prior **2026-08-01** builder resolution only because the current rendered proof no longer supports its statement that all four edges track the painted diamond. Refit the lower-left and lower vertices to the actual border, re-render, and keep the plate text aligned with the corrected internal frame.
+
+### Advisory (non-blocking)
+
+- The remaining eleven proofs are materially consistent with their current overlay labels and chapter discussion. The cherry anchor’s deterministic 91.9 score is a known analyzer offset; it visibly lands on the cherry body and is non-blocking.
+- All twelve documented public Vogue renditions returned `200 image/jpeg` during this review. Every image has a traceable credit and individual four-factor fair-use rationale, and the chapter correctly makes no camera-setting claim.
