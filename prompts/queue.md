@@ -202,7 +202,7 @@ real queue and state live in data/registry.json.
 | 191 | chen-man                  | Chen Man                     | DONE    |
 | 192 | elizaveta-porodina        | Elizaveta Porodina           | DONE    |
 | 193 | cho-gi-seok               | Cho Gi-Seok                  | DONE    |
-| 194 | zhong-lin                 | Zhong Lin                    | PENDING |
+| 194 | zhong-lin                 | Zhong Lin                    | DONE    |
 | 195 | carlijn-jacobs            | Carlijn Jacobs               | PENDING |
 | 196 | erik-madigan-heck         | Erik Madigan Heck            | PENDING |
 | 197 | petra-collins             | Petra Collins                | PENDING |
