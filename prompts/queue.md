@@ -199,7 +199,7 @@ real queue and state live in data/registry.json.
 | 188 | steven-klein              | Steven Klein                 | DONE    |
 | 189 | miles-aldridge            | Miles Aldridge               | DONE    |
 | 190 | erwin-olaf                | Erwin Olaf                   | DONE    |
-| 191 | chen-man                  | Chen Man                     | PENDING |
+| 191 | chen-man                  | Chen Man                     | DONE    |
 | 192 | elizaveta-porodina        | Elizaveta Porodina           | PENDING |
 | 193 | cho-gi-seok               | Cho Gi-Seok                  | PENDING |
 | 194 | zhong-lin                 | Zhong Lin                    | PENDING |
