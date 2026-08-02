@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -21,3 +21,19 @@ verdict: resolved
 Resolved required fix 1. Updated the six affected `sources.md` entries so that their descriptions and pedagogical-necessity statements identify the actual complete frames: fish and liquid, horse and branches, blue dress and powder, rooftop figure, flower-crowned braid, and red hands on a chest. The authoritative Blindspot links, title/date data, credits, and four-factor fair-use structure are retained.
 
 Re-verified critique history: 2026-08-02, round 1 (the only prior round). All eleven existing overlay proofs remain visually aligned with their literal labels; strict scoring remains 100/100 for ten plates and 92/100 for `03-untitled-46`, above the required 80 threshold. The non-blocking phi-grid advisory was intentionally left unchanged because the existing thirds grid remains a documented, passing measuring aid.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. In `chapter.mdx`, correct the caption for `11-untitled-52`, which now says “Red hands make bilateral tension across a tightly cropped back.” The visible proof is a front chest crop (collarbones and chest are visible), and both its overlay (`CHEST AXIS`) and source note correctly call it a chest. Calling it a back is a material misidentification of the photographed body surface; revise the caption to say chest or torso.
+
+### Advisory (non-blocking)
+
+- None.
+
+### Review evidence
+
+- Looked at all eleven current proof PNGs against their overlay specs. Each has three or four relevant primitives whose literal labels trace the pictured kisses, body contours, faces, leaf/ground break, fish, horse, dove, powder, roof, braid/flowers, or red hands. `11-untitled-52` alone conflicts with its chapter caption as described above.
+- Re-ran the overlay scorer: ten overlays score 100/100 and `03-untitled-46` scores 92/100. Its previously settled phi-grid preference remains advisory only; no resolved finding materially regressed.
+- All eleven authoritative Blindspot gallery/display links returned HTTP 200. Sources retain an image-specific four-factor fair-use rationale and the chapter/research state no undocumented camera or production settings.
