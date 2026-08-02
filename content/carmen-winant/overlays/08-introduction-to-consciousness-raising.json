@@ -6,7 +6,7 @@
     { "type": "horizon_line", "y": 0.617, "angle": -2.1, "label": "street and lot boundary" },
     { "type": "frame_in_frame", "x": 0.452, "y": 0.226, "w": 0.244, "h": 0.231, "label": "billboard question" },
     { "type": "leading_line", "points": [[0.0, 0.855], [0.47, 0.697], [0.77, 0.696]], "arrow": true, "label": "pavement edge to sign" },
-    { "type": "subject_anchor", "x": 0.57, "y": 0.415, "r": 0.035, "label": "billboard text" }
+    { "type": "subject_anchor", "x": 0.57, "y": 0.353, "r": 0.035, "label": "billboard text" }
   ],
   "notes": "An addressed question occupies the billboard while wide pavement and the city keep the viewer at a deliberate distance."
 }
