@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -115,3 +115,23 @@ Re-verified the complete critique history: the initial ten-item round, the follo
 2. Extended 11's `SIGN PANEL` to the photographed lower border: `x: .110`, `y: .245`, `w: .780`, `h: .465` (bottom `y: .710`). It now encloses the rectangular panel rather than stopping within it.
 
 Both affected images were freshly analysed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passes, and the content and rendered chapter files are byte-identical.
+
+## Critique round — 2026-08-02
+
+### Required
+
+No required findings. All twelve current proofs were reviewed against their
+current specs, analyses, chapter text, and source records. The previously
+resolved overlay corrections remain intact: each current primitive identifies a
+visible feature and the former unsupported mirror, convergence, wall-break,
+and overbroad-frame claims have not returned. The chapter's measured tonal
+claims agree with the analyzer values within tolerance; it does not invent
+camera settings or unsupported per-image *Selfie* dates. Each image retains a
+traceable artist-portfolio source and a concise, image-specific fair-use
+rationale covering purpose, creative nature, complete-frame necessity, and
+non-substitution. Both portfolio pages and all twelve direct public image
+routes returned HTTP 200 during this review.
+
+### Advisory (non-blocking)
+
+No new advisory findings.

@@ -205,7 +205,7 @@ real queue and state live in data/registry.json.
 | 194 | zhong-lin                 | Zhong Lin                    | DONE    |
 | 195 | carlijn-jacobs            | Carlijn Jacobs               | DONE    |
 | 196 | erik-madigan-heck         | Erik Madigan Heck            | DONE    |
-| 197 | petra-collins             | Petra Collins                | PENDING |
+| 197 | petra-collins             | Petra Collins                | DONE    |
 | 198 | harley-weir               | Harley Weir                  | PENDING |
 | 199 | maisie-cousins            | Maisie Cousins               | PENDING |
 | 200 | nadia-lee-cohen           | Nadia Lee Cohen              | PENDING |
