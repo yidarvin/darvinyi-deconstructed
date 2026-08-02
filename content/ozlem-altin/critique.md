@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -16,3 +16,21 @@ verdict: revise
 - **07-our-light-is-a-voice-ii** — `MIDDLE PIGMENT BREAK` corresponds to the measured tonal split, but reads only weakly as a distinct pigment boundary. Consider a more literal label if revising the overlay.
 
 All ten proofs were visually inspected against their corresponding specs and analysis. Deterministic overlay scoring reports 100/100 with no deductions for every image; the required findings above are semantic/visual failures outside that geometric scorer's scope. Source links, credits, documented per-image fair-use rationale, historical claims, and the chapter's settings disclaimer were also reviewed; no blocking issue was found there.
+
+## Builder resolution — 2026-08-02
+
+1. **05-untitled-alignment-blessing:** Removed the unsupported
+   `frame_in_frame` for the orange painted field. The refreshed proof now
+   makes only the supportable central hinge and central black-fragment claims.
+2. **06-our-light-is-a-voice-i:** Removed the unsupported
+   `frame_in_frame` for the violet panel. The refreshed proof retains only the
+   measured middle pigment break and lower dark-figure anchor.
+3. **10-psyche-grow-deep-installation:** Removed the false
+   `symmetry_axis`. The refreshed proof retains the measured courtyard
+   convergence and the visible right roof-corner anchor.
+
+Re-verified critique history: the sole prior round, **2026-08-02**, including
+every required correction. Re-analyzed, rendered, visually checked, and scored
+all three affected overlays; each scores 100/100 with no deductions. The
+chapter remains byte-identical at `content/ozlem-altin/chapter.mdx` and
+`src/chapters/ozlem-altin.mdx`.
