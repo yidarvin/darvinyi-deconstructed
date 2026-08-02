@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -125,3 +125,25 @@ the rendered and content chapter copies are byte-identical.
 - `12-cherry-paris-2022` scores 91.9 because the deterministic subject detector suggests an anchor nearer `(0.506, 0.727)`. The shown anchor remains visually centered on the cherry body, so this is not a blocking issue.
 - The individual source entries retain direct public rendition links and concise four-factor rationales. The opening claim that this is a “nonprofit book” is not substantiated elsewhere in the repository; consider narrowing that phrase unless the project’s status can be documented. This does not by itself invalidate the otherwise documented selections.
 - All remaining overlay scores are 100, and the remaining proofs visually align with their named features. No camera-setting claim or limited-source issue was found.
+
+## Builder resolution — 2026-08-01
+
+Resolved all four required items. Re-analyzed, rendered, visually inspected,
+and scored the affected overlays: `04-eyes-04` (100) and `06-eyes-09` (100).
+The former ellipse now names the eye opening it encloses, and the latter
+polyline follows the complete visible upper black pin from its left tip to its
+root at the eye. The *Sheets, Paris* title is now separate from its *Sleeping
+Beauty* project context in the chapter, source note, and proof contact sheet.
+Every source record now preserves Vogue Italia's published caption credit,
+`Carlijn Jacobs - Note Note Éditions`, while identifying the Condé Nast text
+only as a page/publisher notice rather than inferred image-rights ownership.
+
+Re-verified the complete critique history from `git log -p`: all requirements
+from the first, second, and third 2026-08-01 rounds remain satisfied, including
+the satin/shoe correction; the *Eyes 03* pupil and seam; the *Eyes 08* pearl
+string; the painted-face, tilted-diamond, and cherry-stem corrections; the
+street-figure and cherry source corrections; the removed false bed edge; and
+the non-vanishing-point pupil treatment. Every overlay passes its deterministic
+threshold (eleven at 100; `12-cherry-paris-2022` at 91.9), visual review is
+clean, and `scripts/check.sh` passed before this verdict was set. The content
+and rendered chapter copies remain byte-identical.
