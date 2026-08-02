@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -73,3 +73,15 @@ Re-verified the full critique history: the initial 2026-08-02 ten-item round and
 4. During the required history check, replaced 05’s inaccurate rectangular mirror frame with a line on its visible vertical mirror edge; replaced 06’s broad mirror frame with the visible phone-screen frame; and removed stale 04/11 proof-contact-sheet wording that repeated the earlier rejected mirror-field and architectural-void claims.
 
 The affected overlays (02, 05, 06, and 07) were freshly analysed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passes, and content and rendered chapter files are byte-identical.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. **Research metadata count — four, not three, timestamp-bearing files.** `research.md` says that “three” supplied files carry 2014–15 timestamps, but `manifest.json` records `DateTimeOriginal` for 02 (2014-10-05), 07 (2015-01-23), 08 (2015-04-26), and 09 (2015-04-26). Correct the count while retaining the important caution that these processing timestamps do not establish capture dates or settings.
+
+2. **12-neon-works-img-0818 — `SIGN PANEL` does not trace the visible panel border.** This re-raises Required item 9 from the initial 2026-08-02 round. The prior resolution says the panel was redrawn, but the current `frame_in_frame` uses `y: 0.110, h: 0.720` (bottom 0.830), while the photographed bordered panel begins at approximately `y: 0.17` and ends at approximately `y: 0.79`. The top is about 6% of frame height above the border and the bottom about 4% below it—materially outside the 2% endpoint tolerance. Redraw the frame on the visible panel boundary (or remove the panel claim) and re-render the proof.
+
+### Advisory (non-blocking)
+
+No additional advisory findings. All twelve proofs were visually reviewed; every current overlay re-scores 100/100 against its matching analyzer JSON, and the source pages and direct public image routes remain traceable.
