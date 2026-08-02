@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-snow-i.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.002, 0.562], [0.908, 0.788]], "arrow": true, "label": "RECLINING BODY" },
+    { "type": "ellipse", "cx": 0.42, "cy": 0.36, "rx": 0.065, "ry": 0.09, "label": "RAISED HAND" },
+    { "type": "ellipse", "cx": 0.17, "cy": 0.47, "rx": 0.075, "ry": 0.075, "label": "SNOW-COVERED FACE" }
+  ],
+  "notes": "A raised hand interrupts the long diagonal of a prone figure across an open green ground."
+}

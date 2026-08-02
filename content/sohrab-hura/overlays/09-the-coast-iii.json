@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-the-coast-iii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.273, "y": 0.476, "r": 0.04, "label": "NEAR FIGURE" },
+    { "type": "leading_line", "points": [[0.012, 0.999], [0.771, 0.493]], "arrow": true, "label": "SHORE AND SHADOW DIRECTION" },
+    { "type": "polyline", "points": [[0.27, 0.48], [0.52, 0.54], [0.77, 0.50]], "label": "SEPARATED FIGURES" }
+  ],
+  "notes": "Two flash-lit figures at different heights make the black shore a theatrical field of distance and shadow."
+}

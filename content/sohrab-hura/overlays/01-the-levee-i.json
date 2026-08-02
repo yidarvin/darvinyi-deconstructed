@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-the-levee-i.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.369, "angle": -0.9, "label": "RIVER HORIZON" },
+    { "type": "vanishing_point", "x": 0.455, "y": 0.601, "label": "BANK CONVERGENCE" },
+    { "type": "leading_line", "points": [[0.24, 0.995], [0.374, 0.763]], "arrow": true, "label": "BOOT AND BANK" }
+  ],
+  "notes": "The boot projects into a low, horizontal river world; the bank pulls the eye back toward the water."
+}

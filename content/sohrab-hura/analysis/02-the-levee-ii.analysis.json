@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "image": "02-the-levee-ii.jpg",
+  "width": 1000,
+  "height": 1000,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3478914509803922,
+    "std": 0.24553313162771795,
+    "p05": 0.07058823529411765,
+    "p95": 0.8352941176470589,
+    "edge_density": 0.131463
+  },
+  "palette": [
+    "#1d1d1d",
+    "#3d3d3d",
+    "#686868",
+    "#d3d3d3",
+    "#a2a2a2"
+  ],
+  "lines": [
+    {
+      "x1": 0.19,
+      "y1": 0.113,
+      "x2": 0.853,
+      "y2": 0.776,
+      "angle_deg": 45.0,
+      "length": 0.663,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.371,
+      "y1": 0.346,
+      "x2": 0.958,
+      "y2": 0.933,
+      "angle_deg": 45.0,
+      "length": 0.5870000000000001,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.436,
+      "y1": 0.409,
+      "x2": 0.999,
+      "y2": 0.972,
+      "angle_deg": 45.0,
+      "length": 0.5630000000000001,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.336,
+      "y1": 0.24,
+      "x2": 0.895,
+      "y2": 0.799,
+      "angle_deg": 45.0,
+      "length": 0.5589999999999999,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.189,
+      "y1": 0.111,
+      "x2": 0.747,
+      "y2": 0.669,
+      "angle_deg": 45.0,
+      "length": 0.5579999999999999,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.191,
+      "y1": 0.074,
+      "x2": 0.704,
+      "y2": 0.587,
+      "angle_deg": 45.0,
+      "length": 0.513,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.355,
+      "y1": 0.373,
+      "x2": 0.849,
+      "y2": 0.867,
+      "angle_deg": 45.0,
+      "length": 0.49400000000000005,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.307,
+      "y1": 0.373,
+      "x2": 0.756,
+      "y2": 0.822,
+      "angle_deg": 45.0,
+      "length": 0.449,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.248,
+      "y1": 0.796,
+      "x2": 0.69,
+      "y2": 0.354,
+      "angle_deg": -45.0,
+      "length": 0.442,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.402,
+      "y1": 0.475,
+      "x2": 0.827,
+      "y2": 0.9,
+      "angle_deg": 45.0,
+      "length": 0.42500000000000004,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.297,
+      "y1": 0.102,
+      "x2": 0.704,
+      "y2": 0.523,
+      "angle_deg": 45.968676914933745,
+      "length": 0.4140591745149478,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.445,
+      "y1": 0.156,
+      "x2": 0.628,
+      "y2": 0.688,
+      "angle_deg": 71.01755336634776,
+      "length": 0.39781465533587373,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.19,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5537172367181057,
+    "y": 0.5025027569144954,
+    "inliers": 18,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.413,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.20588429338997874,
+        "cy": 0.1620123703611146,
+        "x": 0.14,
+        "y": 0.106,
+        "w": 0.128,
+        "h": 0.121,
+        "area_frac": 0.008003
+      },
+      {
+        "cx": 0.6200101456815816,
+        "cy": 0.637721383975026,
+        "x": 0.567,
+        "y": 0.585,
+        "w": 0.108,
+        "h": 0.1,
+        "area_frac": 0.007688
+      },
+      {
+        "cx": 0.2128494036499497,
+        "cy": 0.6856249461129472,
+        "x": 0.162,
+        "y": 0.624,
+        "w": 0.096,
+        "h": 0.112,
+        "area_frac": 0.006959
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.617725064140367,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.6141967960008432,
+    "horizontal_axis_y": 0.4375
+  },
+  "subject_anchor": {
+    "x": 0.413,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.015161512385569176,
+    "phi": 0.09416840410360972,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.19,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.554,
+      "y": 0.503,
+      "confidence": 1.0,
+      "why": "18 converging diagonals"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.19,
+          0.113
+        ],
+        [
+          0.853,
+          0.776
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.371,
+          0.346
+        ],
+        [
+          0.958,
+          0.933
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

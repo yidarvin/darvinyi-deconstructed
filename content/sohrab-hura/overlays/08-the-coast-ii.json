@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-the-coast-ii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.488, "y": 0.132, "r": 0.04, "label": "FLASHED FACE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.46, "rx": 0.22, "ry": 0.34, "label": "OVEREXPOSED BODY" },
+    { "type": "polyline", "points": [[0.48, 0.13], [0.40, 0.44], [0.37, 0.82]], "label": "FIGURE EDGE" }
+  ],
+  "notes": "Hard flash turns the figure into a nearly white vertical flare against the surrounding black."
+}

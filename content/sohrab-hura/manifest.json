@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-the-levee-i.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "4caac41f",
+    "source": "01-the-levee-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-the-levee-ii.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "14f14f28",
+    "source": "02-the-levee-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-the-levee-iii.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "a53fc0d1",
+    "source": "03-the-levee-iii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-snow-i.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "8e767d66",
+    "source": "04-snow-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-snow-ii.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "32b48813",
+    "source": "05-snow-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-snow-iii.jpg",
+    "width": 900,
+    "height": 900,
+    "sha1": "e2f9ca25",
+    "source": "06-snow-iii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-coast-i.jpg",
+    "width": 1066,
+    "height": 1600,
+    "sha1": "7a8e2da6",
+    "source": "07-the-coast-i.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-the-coast-ii.jpg",
+    "width": 1066,
+    "height": 1600,
+    "sha1": "1e6d0c89",
+    "source": "08-the-coast-ii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-the-coast-iii.jpg",
+    "width": 1067,
+    "height": 1600,
+    "sha1": "fc28e6ca",
+    "source": "09-the-coast-iii.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-pati.jpg",
+    "width": 1600,
+    "height": 900,
+    "sha1": "a85d8567",
+    "source": "10-pati.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-look-its-getting-sunny-outside.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "99a98aeb",
+    "source": "11-look-its-getting-sunny-outside.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-life-is-elsewhere-g4.jpg",
+    "width": 1600,
+    "height": 1067,
+    "sha1": "b1618f52",
+    "source": "12-life-is-elsewhere-g4.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-the-levee-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.19, 0.113], [0.853, 0.776]], "arrow": true, "label": "JACKET AND BLOCK EDGE" },
+    { "type": "leading_line", "points": [[0.371, 0.346], [0.958, 0.933]], "arrow": true, "label": "RUBBLE DIAGONAL" },
+    { "type": "vanishing_point", "x": 0.554, "y": 0.503, "label": "CROSSED MATERIAL LINES" }
+  ],
+  "notes": "Flash-lit body and blocks cut diagonally across a dispersed rubble field."
+}

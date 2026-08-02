@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-the-coast-i.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.535, "y": 0.413, "r": 0.04, "label": "PARAKEET" },
+    { "type": "ellipse", "cx": 0.535, "cy": 0.413, "rx": 0.075, "ry": 0.065, "label": "BIRD AND HAND" },
+    { "type": "polyline", "points": [[0.38, 0.64], [0.47, 0.52], [0.54, 0.41]], "label": "HAND TO BIRD" }
+  ],
+  "notes": "A small green parakeet sits at the hand's end and is doubled by its dark shadow on yellow."
+}

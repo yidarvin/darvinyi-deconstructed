@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-the-levee-iii.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.54, 0.333], [0.784, 0.156]], "arrow": true, "label": "OVERHEAD BRANCH" },
+    { "type": "polyline", "points": [[0.43, 0.40], [0.51, 0.34], [0.60, 0.28]], "label": "BIRD'S PERCH" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.32, "rx": 0.035, "ry": 0.035, "label": "BIRD" }
+  ],
+  "notes": "A small bird rides a branch through an overwhelmingly blank field."
+}

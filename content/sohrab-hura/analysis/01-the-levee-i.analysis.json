@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "image": "01-the-levee-i.jpg",
+  "width": 1000,
+  "height": 1000,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.6492295960784314,
+    "std": 0.3534849060263357,
+    "p05": 0.08235294117647059,
+    "p95": 0.996078431372549,
+    "edge_density": 0.024227
+  },
+  "palette": [
+    "#f3f3f3",
+    "#1e1e1e",
+    "#d2d2d2",
+    "#494949",
+    "#868686"
+  ],
+  "lines": [
+    {
+      "x1": 0.114,
+      "y1": 0.372,
+      "x2": 0.491,
+      "y2": 0.366,
+      "angle_deg": -0.9117921922424232,
+      "length": 0.26661301543623106,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.004,
+      "y1": 0.92,
+      "x2": 0.311,
+      "y2": 0.931,
+      "angle_deg": 2.0520653704086955,
+      "length": 0.2172210855326895,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.009,
+      "y1": 0.985,
+      "x2": 0.31,
+      "y2": 0.979,
+      "angle_deg": -1.1419573267890228,
+      "length": 0.21288142239284288,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.24,
+      "y1": 0.995,
+      "x2": 0.374,
+      "y2": 0.763,
+      "angle_deg": -59.98986235968179,
+      "length": 0.18944656238633625,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.674,
+      "y1": 0.993,
+      "x2": 0.928,
+      "y2": 0.993,
+      "angle_deg": 0.0,
+      "length": 0.17960512242138307,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.434,
+      "y1": 0.589,
+      "x2": 0.567,
+      "y2": 0.773,
+      "angle_deg": 54.13961513677237,
+      "length": 0.1605381574579701,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.645,
+      "y1": 0.946,
+      "x2": 0.851,
+      "y2": 0.95,
+      "angle_deg": 1.1123996162977923,
+      "length": 0.14569145479402695,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.01,
+      "y1": 0.957,
+      "x2": 0.211,
+      "y2": 0.954,
+      "angle_deg": -0.8550973962667232,
+      "length": 0.1421442928857856,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.041,
+      "y1": 0.998,
+      "x2": 0.183,
+      "y2": 0.856,
+      "angle_deg": -45.0,
+      "length": 0.142,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.11,
+      "y1": 0.985,
+      "x2": 0.31,
+      "y2": 0.985,
+      "angle_deg": 0.0,
+      "length": 0.1414213562373095,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.426,
+      "y1": 0.625,
+      "x2": 0.563,
+      "y2": 0.762,
+      "angle_deg": 45.0,
+      "length": 0.13699999999999998,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.442,
+      "y1": 0.572,
+      "x2": 0.54,
+      "y2": 0.734,
+      "angle_deg": 58.82865097228016,
+      "length": 0.13388054376943648,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.369,
+    "angle_deg": -0.9117921922424232,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": {
+    "x": 0.45483706169255583,
+    "y": 0.6009082525134727,
+    "inliers": 7,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.507,
+      0.539
+    ],
+    "regions": [
+      {
+        "cx": 0.4958193055664908,
+        "cy": 0.5633473742225021,
+        "x": 0.425,
+        "y": 0.496,
+        "w": 0.137,
+        "h": 0.132,
+        "area_frac": 0.012701
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9557396580702694,
+    "vertical_axis_x": 0.4875,
+    "horizontal": 0.6242859660951254,
+    "horizontal_axis_y": 0.55
+  },
+  "subject_anchor": {
+    "x": 0.507,
+    "y": 0.539,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.33656516281021287,
+    "phi": 0.6080656766717972,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.369,
+      "angle": -0.9,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.455,
+      "y": 0.601,
+      "confidence": 1.0,
+      "why": "7 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "confidence": 0.96,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.507,
+      "y": 0.539,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

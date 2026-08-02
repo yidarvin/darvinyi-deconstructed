@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-look-its-getting-sunny-outside.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.304, "y": 0.298, "r": 0.04, "label": "WOMAN" },
+    { "type": "polyline", "points": [[0.35, 0.41], [0.48, 0.46], [0.63, 0.48]], "label": "POINTING GESTURE" },
+    { "type": "frame_in_frame", "x": 0.57, "y": 0.22, "w": 0.35, "h": 0.52, "label": "BED AND DOG FIELD" }
+  ],
+  "notes": "A pointed hand redirects the flash-lit domestic scene from the woman toward the dog on the bed."
+}
