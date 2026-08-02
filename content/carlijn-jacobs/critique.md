@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-01
 
@@ -71,3 +71,18 @@ frame, and curving cherry stem remain visually aligned; the source-integrity
 corrections for plates 11 and 12 remain accurate. `scripts/check.sh` completed
 successfully before this verdict was set, and the rendered and content chapter
 copies remain byte-identical.
+
+## Critique round — 2026-08-01
+
+### Required
+
+1. **`02-sleeping-beauty-paris-2023` — `BED EDGE` is a false physical-feature claim.** The `horizon_line` at `y: 0.618`, `angle: 5.3` follows the analyzer's luminance split, not a continuous bed edge: in the proof it cuts through the reclining figure and pillow/garment area. Remove it or redraw and relabel a real, continuous bed contour. Update the chapter's claim that the named sloping bed edge gives the route support if the repaired spec no longer supports that wording.
+
+2. **`06-eyes-09` — `UPPER PIN` does not trace the visible upper pin.** The polyline runs from `(0.12, 0.18)` through unmarked skin/red makeup to `(0.60, 0.405)`, whereas the upper black pin lies much farther right and above, running approximately from `(0.35, 0.13)` toward `(0.62, 0.27)`. Reposition the path to that pin or remove/relabel it; keep the plate prose aligned with the repaired claim.
+
+3. **`10-eyes-05` — the previously resolved `TILTED EYE FRAME` has materially regressed.** The 2026-08-01 builder resolution said the frame followed the black diamond, but the current polyline's right vertex is `(0.914, 0.425)` while the visible corner is near `(0.92, 0.50)`; its lower-left side is likewise displaced. These roughly 5–8% offsets exceed the 2% endpoint tolerance and redraw the diamond's geometry. Refit all four vertices to the painted border and re-render.
+
+### Advisory (non-blocking)
+
+- The current deterministic scores pass for all twelve overlays (ten at 100; `10-eyes-05` at 92; `12-cherry-paris-2022` at 91.9). The three blocking defects above are semantic/interpretive and therefore are not caught by those geometric scores.
+- The twelve source entries remain traceable to the stated Vogue feature and public display renditions, retain individual four-factor fair-use rationales and credits, and match the supplied images. The manifest contains no usable camera EXIF; no settings-honesty issue was found.
