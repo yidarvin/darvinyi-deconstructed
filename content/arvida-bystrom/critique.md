@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -114,3 +114,19 @@ scored 100/100 independently. The prior rounds' source corrections remain
 present: each image has a traceable credited source and a per-image four-factor
 fair-use rationale, and no historical camera setting is asserted as established
 fact.
+
+## Builder resolution — 2026-08-02
+
+1. Tightened the *Crushing* `screen inset` frame to the visible display bounds:
+   x0.475–0.666 and y0.129–0.224. The regenerated proof now traces the display
+   rather than adjacent wall; the existing screen-inset caption and paragraph
+   remain accurate.
+
+Re-verified critique history: the 2026-08-02 round correcting *Pietà* and the
+two *Inflated Fiction* still-life source records; the subsequent 2026-08-02
+*Self Portrait* laptop correction; and the current 2026-08-02 *Crushing*
+inset correction. The Pietà anchor remains on the pink headscarf, the two
+still-life source records retain accurate visible descriptions and fair-use
+rationales, the *Self Portrait* names its visible laptop, and the revised
+*Crushing* frame cleanly follows the display. All ten overlays score 100/100,
+and `scripts/check.sh` passed before this resolution was recorded.
