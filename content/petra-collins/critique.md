@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -94,3 +94,15 @@ Re-verified the full critique history. The prior resolutions remain intact, incl
 2. Redrew 12's `SIGN PANEL` on the photographed bordered panel at `x: .062`, `y: .170`, `w: .894`, `h: .620`; it now encloses the complete lyric block and follows the visible top and bottom border rather than extending into the wall. Regenerated the plate proof and contact sheet.
 
 The corrected 12 overlay was rendered afresh, visually checked against the visible panel border, and scores 100/100 against its matching analysis. The proof regenerated from the current spec is byte-identical to the stored proof.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. **10-neon-works-p10102271 — `NEON SPEECH BUBBLE` frame overstates the visible boundary.** The frame extends to `y: 0.773`, but the bubble’s lower neon outline (and the visible glow-to-shadow boundary) lies around `y: 0.67–0.71`. Its lower corners therefore sit in the plain dark wall rather than on the speech-bubble structure, materially misdescribing the claimed internal frame. Tighten the frame to the visible bubble border or remove the frame claim.
+
+2. **11-neon-works-img-0817 — `SIGN PANEL` frame misses the panel’s lower border.** The frame ends at `y: 0.670`, while the photographed rectangular panel’s lower edge is visibly around `y: 0.70–0.71`. The bottom corners land inside the panel, roughly 3–4% of the frame height above the boundary, outside the 2% endpoint tolerance. Redraw the frame on the visible lower panel border or remove the panel-boundary claim.
+
+### Advisory (non-blocking)
+
+No additional advisory findings. All twelve current proof PNGs were visually reviewed; every spec scores 100/100 against its matching analyzer JSON, all twelve direct portfolio-image routes and both portfolio pages return HTTP 200, the chapter’s measured tonal claims match the analyzer within tolerance, and the per-image fair-use records retain creator notice, source, purpose, nature, complete-frame necessity, and non-substitution rationale. The two required findings are semantic visual-pass failures, not scorer failures.
