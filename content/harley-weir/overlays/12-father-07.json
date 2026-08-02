@@ -3,9 +3,9 @@
   "image": "12-father-07.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.30, "cy": 0.42, "rx": 0.25, "ry": 0.30, "label": "left emulsion bloom" },
-    { "type": "ellipse", "cx": 0.53, "cy": 0.45, "rx": 0.16, "ry": 0.25, "label": "central emulsion bloom" },
-    { "type": "polyline", "points": [[0.15, 0.10], [0.39, 0.21], [0.61, 0.17], [0.80, 0.06]], "label": "drip trace" }
+    { "type": "ellipse", "cx": 0.30, "cy": 0.42, "rx": 0.25, "ry": 0.30, "label": "left pale bloom" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.45, "rx": 0.16, "ry": 0.25, "label": "central pale bloom" },
+    { "type": "polyline", "points": [[0.238, 0.552], [0.242, 0.644], [0.247, 0.728]], "label": "lower drip" }
   ],
-  "notes": "Pale emulsion blooms and fine drips turn the blue field into an unstable, bodily-looking surface."
+  "notes": "Pale blooms and fine drips turn the blue field into an unstable, bodily-looking surface."
 }

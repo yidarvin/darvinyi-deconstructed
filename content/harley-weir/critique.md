@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -17,3 +17,11 @@ verdict: revise
 - `12-father-07` — The visible blooms and drips support the reading, but `emulsion` asserts a material process not established for this individual plate in the cited record. Consider using visible-surface language or adding image-specific process evidence.
 
 Source integrity, image-to-record traceability, credit/rights notices, fair-use rationales, and the chapter's refusal to invent camera settings all passed this review. The source links returned public display records/renditions during this audit.
+
+## Resolution — 2026-08-02
+
+- `06-unpublished-june-2016`: Replaced the false frame-spanning `RECLINING DIAGONAL` with a short `BENT SLEEVE CONTOUR` that follows the pictured black sleeve. The plate caption and prose now describe the sleeve and the resulting overlapping fragments.
+- `09-father-02`: Removed the inaccurate `HAIR-TO-PROFILE` trace and retained the measured baseboard/body reading, with a subject anchor on the trousers at the floor.
+- `12-father-07`: Replaced the bloom-crossing `DRIP TRACE` with `LOWER DRIP`, following the visible descending lower-left drip. The chapter now names pale blooms rather than asserting an unverified emulsion process.
+
+All three revised proofs were rendered, visually checked, and scored 100/100. Re-verified prior rounds: 2026-08-02 (the sole critique round in this slug's history); every required fix from that round holds in the current overlays and chapter.
