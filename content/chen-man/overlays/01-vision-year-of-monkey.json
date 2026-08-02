@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-vision-year-of-monkey.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "FRONTAL AXIS" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.51, "rx": 0.305, "ry": 0.33, "label": "FACE FIELD" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.16, "rx": 0.36, "ry": 0.17, "label": "CRYSTAL CROWN" },
+    { "type": "subject_anchor", "x": 0.696, "y": 0.115, "r": 0.035, "label": "CROWN HIGHLIGHT" }
+  ],
+  "notes": "A nearly mirrored face is made architectural by a crystalline crown and a translucent mask motif."
+}

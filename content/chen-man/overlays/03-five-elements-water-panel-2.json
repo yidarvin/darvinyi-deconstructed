@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-five-elements-water-panel-2.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "DROP AXIS" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.55, "rx": 0.23, "ry": 0.35, "label": "UPRIGHT FIGURE" },
+    { "type": "polyline", "points": [[0.51, 0.34], [0.51, 0.54], [0.51, 0.8]], "label": "APRON AXIS" }
+  ],
+  "notes": "A direct upright figure is held within the same centered droplet enclosure as the companion panel."
+}
