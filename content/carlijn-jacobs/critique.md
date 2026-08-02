@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-01
 
@@ -36,3 +36,18 @@ Re-verified prior critique history: the sole prior round, **2026-08-01**, and
 all six of its required fixes. `scripts/check.sh` completed successfully before
 this verdict was set; the rendered and content chapter copies remain
 byte-identical.
+
+## Critique round — 2026-08-01
+
+### Required
+
+1. **`01-glossy-feet-paris-2023` — replace the false water/reflection reading.** The proof and supplied image show red shoes and feet on folded satin, not water or a reflected pair. The `FOOT / WATER SEAM` horizon at y=0.592 crosses the footwear/feet rather than a water boundary. Remove or relabel that primitive to a visible fabric/footwear feature, and correct the matching false reflection/water claims in `chapter.mdx` (plate caption and discussion) and `sources.md` (Why-it-matters and fair-use Factors 1 and 3). Preserve the legitimate analysis of paired shoes, cropped legs, gloss, and satin folds.
+
+2. **`03-eyes-03` — make the named overlay features land on the eye and an actual seam.** The `PUPIL` anchor at (0.631, 0.523) sits on the lower-right sclera/lashes rather than the pupil, which is near the frame’s horizontal midpoint. The `STITCHED SEAM` horizon at y=0.520 crosses the lower eye/eyelid rather than either visible stitched seam in the surrounding material. Reposition or replace both primitives against their named features, then re-render and update the plate discussion only if its overlay-specific wording no longer matches the repaired spec.
+
+3. **`06-eyes-09` — correct the falsely typed and misplaced `PUPIL CENTRE`.** The spec uses a `vanishing_point` at (0.518, 0.594), a primitive that claims diagonal convergence, while its label names the pupil; in the proof its crosshair also lands left of the visible pupil centre. Replace it with an accurately placed `subject_anchor` for the pupil, or relabel the current convergence claim and add a correct pupil anchor. Update the chapter’s corresponding description of the pupil/convergence so it matches the revised overlay.
+
+### Advisory (non-blocking)
+
+- All twelve direct Vogue/Compass Media links returned HTTP 200 in this review. Their records retain traceable credits, a per-image four-factor fair-use rationale, and no evidence of an access-control bypass.
+- The prior 2026-08-01 resolution remains intact: `07-eyes-08` follows the pearl string, `08-eyes-07` has no false red-vertical claim, `10-eyes-05` traces the black diamond, and `12-cherry-paris-2022` follows the stem; the corrected source notes for 11 and 12 still match their supplied renditions. Those settled findings are not reopened.
