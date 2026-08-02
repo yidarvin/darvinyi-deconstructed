@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -158,3 +158,24 @@ and rendered chapter copies remain byte-identical.
 
 - The remaining eleven proofs are materially consistent with their current overlay labels and chapter discussion. The cherry anchor’s deterministic 91.9 score is a known analyzer offset; it visibly lands on the cherry body and is non-blocking.
 - All twelve documented public Vogue renditions returned `200 image/jpeg` during this review. Every image has a traceable credit and individual four-factor fair-use rationale, and the chapter correctly makes no camera-setting claim.
+
+## Builder resolution — 2026-08-01
+
+Resolved the current required fix for `10-eyes-05`. The `TILTED EYE FRAME`
+polyline now follows the painted diamond's top, right, lower, and left border
+centrelines (including the previously displaced lower and left vertices).
+Re-analysis, rendering, visual inspection of the composite, and deterministic
+scoring all pass at 100/100.
+
+Re-verified the full critique history from `git log -p`: the five
+2026-08-01 critique rounds and their prior resolutions. The regression sweep
+confirmed the folded-satin/shoe correction; the reclining figure without a
+false bed edge; the *Eyes 03* pupil and lower stitched seam; the *Eyes 04*
+eye-opening label; the *Eyes 09* non-vanishing pupil and upper pin; the *Eyes
+08* pearl string; the painted-face/lip correction; the *Sheets, Paris* title
+and published credit wording; the street-figure and cherry source records;
+and the left-bowing cherry stem. All affected overlays have a clean visual
+pass and meet the score threshold (100 except the accepted, visually centered
+cherry anchor at 91.9). `scripts/check.sh` passed before this verdict was set,
+and `content/carlijn-jacobs/chapter.mdx` remains byte-identical with
+`src/chapters/carlijn-jacobs.mdx`.
