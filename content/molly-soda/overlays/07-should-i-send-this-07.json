@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-should-i-send-this-07.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.328, "y": 0.275, "label": "tabletop convergence", "confidence": 1.0, "why": "measured table edges converge behind the mirror" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.132, "r": 0.045, "label": "reflected phone", "confidence": 0.6, "why": "measured saliency lands on the camera in the tabletop mirror" },
+    { "type": "leading_line", "points": [[0.572, 0.346], [0.999, 0.487]], "arrow": true, "label": "table edge", "confidence": 0.56, "why": "measured diagonal follows the receding tabletop seam" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.29, "rx": 0.18, "ry": 0.18, "label": "round mirror", "why": "the circular mirror contains the self-portrait within the tabletop still life" }
+  ],
+  "notes": "A round tabletop mirror nests the selfie inside a converging domestic still life."
+}

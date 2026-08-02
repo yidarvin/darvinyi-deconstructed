@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-should-i-send-this-01.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.397, "y": 0.433, "r": 0.045, "label": "phone and hands", "confidence": 0.6, "why": "measured saliency falls on the camera-hand knot" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "mirror center", "confidence": 0.8, "why": "the reflected torso and phone organize a near-central address" },
+    { "type": "polyline", "points": [[0.24, 0.16], [0.39, 0.42], [0.55, 0.50], [0.70, 0.78]], "label": "body-and-arm route", "why": "the left shoulder, hands, and right arm make the figure's diagonal route" }
+  ],
+  "notes": "A near-central mirror address is softened by the body and arm route across the pink field."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "01-should-i-send-this-01.jpg",
+    "width": 1600,
+    "height": 1145,
+    "sha1": "2c5dffd3",
+    "source": "01-should-i-send-this-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-should-i-send-this-02.jpg",
+    "width": 1102,
+    "height": 1600,
+    "sha1": "b98a60b9",
+    "source": "02-should-i-send-this-02.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-should-i-send-this-03.jpg",
+    "width": 1195,
+    "height": 1600,
+    "sha1": "61e648f3",
+    "source": "03-should-i-send-this-03.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-should-i-send-this-04.jpg",
+    "width": 1195,
+    "height": 1600,
+    "sha1": "0616bc91",
+    "source": "04-should-i-send-this-04.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-should-i-send-this-05.jpg",
+    "width": 1195,
+    "height": 1600,
+    "sha1": "17e11513",
+    "source": "05-should-i-send-this-05.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-should-i-send-this-06.jpg",
+    "width": 1228,
+    "height": 1600,
+    "sha1": "ee1f1d4a",
+    "source": "06-should-i-send-this-06.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-should-i-send-this-07.jpg",
+    "width": 1195,
+    "height": 1600,
+    "sha1": "92b67daa",
+    "source": "07-should-i-send-this-07.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-should-i-send-this-05.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.801, "angle": 0.0, "label": "mirror sill", "confidence": 1.0, "why": "measured dominant horizontal aligns with the lower mirror frame" },
+    { "type": "subject_anchor", "x": 0.479, "y": 0.289, "r": 0.045, "label": "phone", "confidence": 0.6, "why": "measured saliency lands on the camera held before the face" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "mirror address", "confidence": 0.87, "why": "the phone, face, and torso cluster around the mirror's central line" },
+    { "type": "polyline", "points": [[0.23, 0.32], [0.34, 0.55], [0.50, 0.43], [0.68, 0.59]], "label": "hands around phone", "why": "both hands converge on the phone and interrupt the frontal pose" }
+  ],
+  "notes": "A deliberately frontal mirror address is interrupted by the hands and phone over the face."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-should-i-send-this-03.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.245, "y": 0.555, "r": 0.045, "label": "reflected phone", "confidence": 0.6, "why": "measured saliency falls on the small mirror-side camera gesture" },
+    { "type": "frame_in_frame", "x": 0.20, "y": 0.10, "w": 0.60, "h": 0.54, "label": "mirror field", "why": "the reflected pose is contained above the clothing pile" },
+    { "type": "polyline", "points": [[0.18, 0.84], [0.39, 0.73], [0.63, 0.78], [0.82, 0.91]], "label": "clothing pile", "why": "the foreground heap blocks a direct route to the reflection" }
+  ],
+  "notes": "The mirror holds a small camera gesture above an obstructing field of discarded clothes."
+}
