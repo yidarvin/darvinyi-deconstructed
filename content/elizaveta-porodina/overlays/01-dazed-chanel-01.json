@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-dazed-chanel-01.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.34, "cy": 0.27, "rx": 0.18, "ry": 0.17, "label": "face behind rippled glass" },
+    { "type": "polyline", "points": [[0.18, 0.08], [0.18, 0.45], [0.18, 0.83]], "label": "glass distortion" },
+    { "type": "polyline", "points": [[0.12, 0.56], [0.42, 0.61], [0.76, 0.72]], "label": "repeated body band" }
+  ],
+  "notes": "Ribbed glass distributes one portrait across repeated vertical and horizontal interruptions."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-vogue-china-lina-04.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.55, "cy": 0.52, "rx": 0.34, "ry": 0.34, "label": "seated figure" },
+    { "type": "polyline", "points": [[0.49, 0.62], [0.60, 0.55], [0.67, 0.65], [0.58, 0.76]], "label": "bent leg" },
+    { "type": "polyline", "points": [[0.60, 0.28], [0.54, 0.43], [0.49, 0.62]], "label": "profile to torso" }
+  ],
+  "notes": "The bent, dark-blue body reads as one soft-edged mass against a lavender and yellow stage."
+}

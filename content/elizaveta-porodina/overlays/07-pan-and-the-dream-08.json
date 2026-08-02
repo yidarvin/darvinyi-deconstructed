@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-pan-and-the-dream-08.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.45, "cy": 0.43, "rx": 0.34, "ry": 0.32, "label": "hair and hand-mask" },
+    { "type": "polyline", "points": [[0.11, 0.58], [0.37, 0.53], [0.55, 0.67]], "label": "arm triangle" },
+    { "type": "polyline", "points": [[0.18, 0.67], [0.48, 0.70], [0.78, 0.68]], "label": "plinth edge" }
+  ],
+  "notes": "Hands, hair, and arms make a masked face into a sculptural mass above a soft plinth."
+}

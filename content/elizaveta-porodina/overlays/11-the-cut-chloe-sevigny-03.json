@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-the-cut-chloe-sevigny-03.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.65, "cy": 0.36, "rx": 0.23, "ry": 0.25, "label": "turned face" },
+    { "type": "ellipse", "cx": 0.29, "cy": 0.53, "rx": 0.24, "ry": 0.49, "label": "yellow hat" },
+    { "type": "polyline", "points": [[0.40, 0.08], [0.34, 0.30], [0.35, 0.59]], "label": "hat inner edge" }
+  ],
+  "notes": "The face appears through a large hat opening, making the accessory an active internal frame."
+}

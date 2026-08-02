@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-sixteen-journal-06.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.65, "cy": 0.65, "rx": 0.34, "ry": 0.30, "label": "sculpted head" },
+    { "type": "ellipse", "cx": 0.59, "cy": 0.29, "rx": 0.25, "ry": 0.20, "label": "model profile" },
+    { "type": "polyline", "points": [[0.20, 0.28], [0.42, 0.37], [0.64, 0.35]], "label": "neck and shoulder" }
+  ],
+  "notes": "A reclining profile and a monumental foreground head exchange scale across an unusually compressed picture plane."
+}

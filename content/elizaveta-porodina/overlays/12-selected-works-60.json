@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-selected-works-60.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.475, "label": "portrait axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.45, "rx": 0.29, "ry": 0.38, "label": "face field" },
+    { "type": "polyline", "points": [[0.16, 0.57], [0.12, 0.32], [0.27, 0.10], [0.50, 0.04], [0.73, 0.14], [0.86, 0.56]], "label": "illuminated headband" }
+  ],
+  "notes": "A glowing headband forms an enclosure around a deliberately softened, near-frontal face."
+}

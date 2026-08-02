@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-vogue-china-cover-04.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.699, "y": 0.194, "r": 0.035, "label": "left eye" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.80, "rx": 0.27, "ry": 0.12, "label": "necklace loop" },
+    { "type": "polyline", "points": [[0.71, 0.28], [0.62, 0.49], [0.62, 0.67], [0.73, 0.78]], "label": "face to neck contour" }
+  ],
+  "notes": "A sharply held eye and a looping necklace keep the split-color close portrait from becoming a flat face study."
+}

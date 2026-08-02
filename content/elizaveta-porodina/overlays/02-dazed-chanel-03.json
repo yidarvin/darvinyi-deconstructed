@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-dazed-chanel-03.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.57, "cy": 0.37, "rx": 0.30, "ry": 0.28, "label": "profile field" },
+    { "type": "polyline", "points": [[0.66, 0.35], [0.78, 0.40], [0.87, 0.46]], "label": "profile direction" },
+    { "type": "polyline", "points": [[0.10, 0.24], [0.32, 0.40], [0.48, 0.51]], "label": "hat edge" }
+  ],
+  "notes": "A sharply bounded hat and profile make the orange field read as a deliberately shallow stage."
+}

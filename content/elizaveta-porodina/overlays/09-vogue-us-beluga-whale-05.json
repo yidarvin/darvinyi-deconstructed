@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-vogue-us-beluga-whale-05.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.453, "y": 0.132, "r": 0.035, "label": "face" },
+    { "type": "horizon_line", "y": 0.336, "angle": 0.0, "label": "distant shoreline" },
+    { "type": "polyline", "points": [[0.00, 0.35], [0.10, 0.40], [0.24, 0.51]], "label": "incoming wave edge" }
+  ],
+  "notes": "A near-frontal figure is held between a dark cliff, a pale water field, and a low incoming wave."
+}
