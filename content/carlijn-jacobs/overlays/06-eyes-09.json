@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.700, "cy": 0.484, "rx": 0.060, "ry": 0.047, "label": "PUPIL" },
     { "type": "ellipse", "cx": 0.690, "cy": 0.480, "rx": 0.205, "ry": 0.190, "label": "ENLARGED EYE" },
-    { "type": "polyline", "points": [[0.12, 0.180], [0.31, 0.270], [0.50, 0.360], [0.60, 0.405]], "label": "UPPER PIN" }
+    { "type": "polyline", "points": [[0.350, 0.130], [0.440, 0.177], [0.535, 0.225], [0.620, 0.270]], "label": "UPPER PIN" }
   ],
-  "notes": "Pins and marks press directional lines toward the enlarged eye."
+  "notes": "The upper black pin and painted marks press directional lines toward the enlarged eye."
 }

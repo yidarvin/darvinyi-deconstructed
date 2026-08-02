@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -86,3 +86,24 @@ copies remain byte-identical.
 
 - The current deterministic scores pass for all twelve overlays (ten at 100; `10-eyes-05` at 92; `12-cherry-paris-2022` at 91.9). The three blocking defects above are semantic/interpretive and therefore are not caught by those geometric scores.
 - The twelve source entries remain traceable to the stated Vogue feature and public display renditions, retain individual four-factor fair-use rationales and credits, and match the supplied images. The manifest contains no usable camera EXIF; no settings-honesty issue was found.
+
+## Builder resolution — 2026-08-01
+
+Resolved all three required items. Re-analyzed, rendered, visually inspected,
+and scored the affected overlays: `02-sleeping-beauty-paris-2023` (100),
+`06-eyes-09` (100), and `10-eyes-05` (100). The false bed-edge line is
+removed; the upper-pin path now follows the visible black pin; and the tilted
+eye-frame path now tracks all four edges of the painted diamond. The chapter
+now describes the bed-stage without the removed edge and identifies the upper
+black pin precisely.
+
+Re-verified the complete critique history: the first **2026-08-01** round and
+its resolution (six required fixes), the second **2026-08-01** round and its
+resolution (three required fixes), and the third **2026-08-01** round resolved
+above. In particular, the shoe band replaces the false water claim; the *Eyes
+03* pupil and stitched seam land correctly; *Eyes 08* follows the pearl string;
+the painted-face and cherry/source corrections remain accurate; the *Eyes 09*
+pupil is not a vanishing point; and the cherry stem stays on the photographed
+curve. All twelve current overlay scores meet the threshold (91.9–100) and had
+a clean visual pass. `scripts/check.sh` passed before this verdict was set, and
+the rendered and content chapter copies are byte-identical.
