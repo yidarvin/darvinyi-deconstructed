@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-01
 
@@ -52,3 +52,20 @@ overlay/prose defects remain material.
   petals, and `OPEN INTERVAL` begins/ends inside the adjacent subjects rather
   than entirely in the white gap. Both still read as the intended features.
 
+## Builder resolution — 2026-08-01
+
+Resolved all five required items from the 2026-08-01 critique round.
+
+1. `01-love-these-days-2022` now traces the visible stem from both nose
+   ornaments and uses a multi-point `WIRE-FRAME HEART OUTLINE` that includes
+   the wire form's lower point; its plate prose now describes the perimeter.
+2. `04-flower-study-2021-a` removes the symmetry-axis claim and rewrites the
+   caption/prose as an unequal counterweight across white ground. The anchor
+   is truthfully relabelled `SPOTTED MASK` for the marked feature.
+3. `06-flower-study-9-2020` places `LEFT STEM` at the exposed dark support
+   and relabels the bounded ellipse `RIGHT FRUIT VEIL`, leaving the full body
+   claim to the separate vertical support.
+
+Re-verified full critique history: 2026-08-01 initial critique round (the only
+prior round). All six current overlays score 100/100, and the revised proofs
+received a clean visual pass.
