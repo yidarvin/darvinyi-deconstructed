@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -15,3 +15,9 @@ verdict: revise
 - Looked at all eleven current proof PNGs. Their labels trace visible kisses, contours, face row, leaf/ground break, fish, horse, dove, powder, rooftop, braid/flowers, and red hands; each overlay has three to four pedagogically relevant primitives.
 - Re-ran the strict overlay scorer: ten overlays scored 100/100 and `03-untitled-46` scored 92/100. No primitive produced a strict annotation warning or failing score.
 - The chapter and research notes accurately describe the displayed scenes and measured web-JPEG data, and they explicitly avoid undocumented camera or production settings.
+
+## Resolution — 2026-08-02
+
+Resolved required fix 1. Updated the six affected `sources.md` entries so that their descriptions and pedagogical-necessity statements identify the actual complete frames: fish and liquid, horse and branches, blue dress and powder, rooftop figure, flower-crowned braid, and red hands on a chest. The authoritative Blindspot links, title/date data, credits, and four-factor fair-use structure are retained.
+
+Re-verified critique history: 2026-08-02, round 1 (the only prior round). All eleven existing overlay proofs remain visually aligned with their literal labels; strict scoring remains 100/100 for ten plates and 92/100 for `03-untitled-46`, above the required 80 threshold. The non-blocking phi-grid advisory was intentionally left unchanged because the existing thirds grid remains a documented, passing measuring aid.
