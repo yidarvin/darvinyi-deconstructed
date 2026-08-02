@@ -220,7 +220,7 @@ real queue and state live in data/registry.json.
 | 209 | david-alekhuogie          | David Alekhuogie             | DONE    |
 | 210 | ozlem-altin               | Özlem Altın                  | DONE    |
 | 211 | sohrab-hura               | Sohrab Hura                  | DONE    |
-| 212 | zora-j-murff              | Zora J Murff                 | PENDING |
+| 212 | zora-j-murff              | Zora J Murff                 | DONE    |
 | 213 | dionne-lee                | Dionne Lee                   | PENDING |
 | 214 | irina-rozovsky            | Irina Rozovsky               | PENDING |
 | 215 | kelani-abass              | Kelani Abass                 | PENDING |
