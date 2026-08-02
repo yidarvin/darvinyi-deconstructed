@@ -29,14 +29,14 @@ This source set follows the 12 works in Silver Eye Center for Photography’s 20
 
 ### 04 — *Moro by the Pond* (2010)
 
-- **Why it matters:** The pond’s horizontal edge and an isolated reclining figure make open landscape behave like a deliberately arranged studio backdrop, balancing vulnerability against calm containment.
+- **Why it matters:** The pond’s horizontal edge and a seated figure crouched on a rock make open landscape behave like a deliberately arranged studio backdrop, balancing vulnerability against calm containment.
 - **Source:** https://silvereye.org/exhibitions/experimental-relationship (Silver Eye Center for Photography exhibition; public display rendition: https://silvereye.org/assets/images/events/_large/liao_2010_Moro-by-the-pond.jpg)
 - **Rights / fair-use assessment:** Pixy Liao; © Pixy Liao, courtesy of the artist. **Factor 1:** transformative criticism studies the horizon, figure placement, and constructed sense of calm. **Factor 2:** a creative contemporary photograph. **Factor 3:** the complete landscape frame is required to read the body’s scale against pond and bank. **Factor 4:** this credited 1500 × 1141px public display copy is record-linked and non-substitutive.
 - **File:** `raw/pixy-liao/04-moro-by-the-pond.jpg` (1500 × 1141px)
 
 ### 05 — *Beauty is in the Eye of the Beholder* (2015)
 
-- **Why it matters:** Its vertical format intensifies the gaze between bodies and turns the surrounding room into a narrow theater, where looking becomes the photograph’s main compositional action.
+- **Why it matters:** Its vertical format isolates a turned, self-embracing figure against a screen, turning the surrounding room into a narrow theater where the figure and luminous grid organize the act of looking.
 - **Source:** https://silvereye.org/exhibitions/experimental-relationship (Silver Eye Center for Photography exhibition; public display rendition: https://silvereye.org/assets/images/events/_large/liao_2015_Beauty-is-in-the-eye-of-the-beholder.jpg)
 - **Rights / fair-use assessment:** Pixy Liao; © Pixy Liao, courtesy of the artist. **Factor 1:** transformative teaching analyzes vertical framing, reciprocal looking, and room-as-stage. **Factor 2:** a highly creative staged photograph. **Factor 3:** the intact tall image is necessary to preserve the figure-to-room relation. **Factor 4:** this credited 1500 × 1984px public display derivative links to Silver Eye and cannot replace a print or licensed image.
 - **File:** `raw/pixy-liao/05-beauty-is-in-the-eye-of-the-beholder.jpg` (1500 × 1984px)

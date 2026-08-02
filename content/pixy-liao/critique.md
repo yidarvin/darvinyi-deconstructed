@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -14,3 +14,11 @@ Reviewed all 12 rendered proofs against their overlay specifications and analysi
 
 - `09-devour` — the `FACE-TO-FACE AXIS` is semantically defensible as the gap between the profiles, as the chapter says, but it is 0.060 right of the analyzer's measured symmetry axis (0.510 versus 0.450; score 92). Retain it if the intended claim is specifically the facial gap; otherwise align it to the measured axis.
 - `04-moro-by-the-pond`, `06-hug-by-the-pond`, and `12-the-hug` — the scorer warns that the branch/path lines do not follow a detected edge. Visual review finds the named branch canopy and path legible, so these remain non-blocking interpretive annotations.
+
+## Resolution — 2026-08-02
+
+1. `08-moro-on-a-couch`: re-ran analysis, rendered a new proof, and replaced the unsupported `COUCH EDGE` polyline with a bounded `WALL CLOCK` ellipse. The revised spec names only the seated figure, visible wall clock, and partial ornate mirror; the proof received a clean visual pass and scores 100/100 with no deductions or warnings. The paired chapter text now treats the red armchair as a localized color field, not a contour.
+2. `04-moro-by-the-pond`: corrected the source shortlist to describe Moro as seated and crouched on a rock rather than reclining.
+3. `05-beauty-is-in-the-eye-of-the-beholder`: corrected the source shortlist to describe the visible turned, self-embracing figure and screen rather than an unshown reciprocal gaze.
+
+Re-verified every required item from the only prior critique round (2026-08-02): the current couch overlay makes no false contour claim, and both corrected shortlist descriptions match their rendered photographs. The mirrored chapter files are byte-identical. `scripts/check.sh` passes with the repository-established Vitest thread-pool execution (`420 passed`), followed by a passing production build and advisory lint.
