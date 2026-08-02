@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -27,3 +27,27 @@ verdict: resolved
 Resolved all six required items. Re-rendered and visually checked the affected overlays: 01 now retains only the truthful camera-hand anchor; 03 and 11 remove the unsupported vertical axes; 06 traces the narrow left mirror strip; and 08 traces the wheeled screen. Each revised proof scored 100/100. The optional 09 vanishing-point claim was also removed as a clearer conservative reading. Updated the chapter captions and prose to match, in both rendered chapter copies. Replaced all eleven unsupported copyright/rightsholder assertions with the gallery’s factual artist attribution and source record, and distinguished documented finished-print media from undocumented capture and production details in `research.md`.
 
 Re-verified prior critique rounds: 2026-08-02 (the complete prior history). `scripts/check.sh` passed after these changes.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+None. All eleven current proofs were visually checked against their overlay
+specifications and analysis records. The repaired claims remain materially
+truthful: 01 now anchors the camera-hand exchange only; 03 and 11 no longer
+claim unsupported studio splits; 06 traces the narrow left mirror strip; and
+08 bounds the wheeled screen. Every current overlay scores 100/100 against its
+matching analyzer record. The chapter's captions and prose agree with those
+visible claims and with the recorded tonal measurements, and it makes no camera
+or capture-setting assertion. All eleven recorded gallery work-page URLs
+resolved during this review; each source entry identifies the artist/gallery
+attribution and retains a concise four-factor fair-use rationale. The research
+notes accurately distinguish documented finished print media from unrecorded
+capture and production details.
+
+### Advisory (non-blocking)
+
+- **04-studio-0x5a9580** — As noted in the prior round, `SCREEN FIELD` reads
+  as a broad compositional zone rather than a sharply bounded internal frame.
+  It still identifies a visible field and does not mislead; no revision is
+  required.
