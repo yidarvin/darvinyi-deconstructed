@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-people-who-arent-friends.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.448, "angle": 0.7, "label": "GALLERY WALL SEAM" },
+    { "type": "vanishing_point", "x": 0.371, "y": 0.133, "label": "CEILING CONVERGENCE" },
+    { "type": "subject_anchor", "x": 0.554, "y": 0.530, "r": 0.035, "label": "CENTRAL DISPLAY" },
+    { "type": "leading_line", "points": [[0.511, 0.648], [0.881, 0.719]], "arrow": true, "label": "REFLECTIVE BENCH" }
+  ],
+  "notes": "Text, framed works, and a reflective bench turn the exhibition room itself into a second compositional field."
+}

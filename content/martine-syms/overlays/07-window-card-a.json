@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-window-card-a.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.578, "angle": -0.9, "label": "SHOULDER RANK" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "CEILING CORRIDOR AXIS" },
+    { "type": "subject_anchor", "x": 0.487, "y": 0.460, "r": 0.035, "label": "CENTRAL SUITED FIGURE" },
+    { "type": "polyline", "points": [[0.547, 0.050], [0.653, 0.357], [0.740, 0.438]], "label": "FLUORESCENT DIAGONAL" }
+  ],
+  "notes": "A repeated back-facing rank sits under ceiling lines that channel the room into a controlled funnel."
+}

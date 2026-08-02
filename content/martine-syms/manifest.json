@@ -1,0 +1,164 @@
+[
+  {
+    "file": "01-40x60-a.jpg",
+    "width": 1092,
+    "height": 1600,
+    "sha1": "27d6043e",
+    "source": "01-40x60-a.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T23:22:03",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.008",
+      "FNumber": "5.6",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "02-40x60-b.jpg",
+    "width": 1097,
+    "height": 1600,
+    "sha1": "e8de8cdd",
+    "source": "02-40x60-b.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T23:12:59",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.008",
+      "FNumber": "5.6",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "03-insert.jpg",
+    "width": 697,
+    "height": 1600,
+    "sha1": "e1ab56e3",
+    "source": "03-insert.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T18:13:40",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.008",
+      "FNumber": "6.8",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "04-half-sheet.jpg",
+    "width": 1600,
+    "height": 1287,
+    "sha1": "a70eb922",
+    "source": "04-half-sheet.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T18:25:02",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.008",
+      "FNumber": "6.8",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "05-one-sheet.jpg",
+    "width": 1113,
+    "height": 1600,
+    "sha1": "1b863fb2",
+    "source": "05-one-sheet.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T17:49:00",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.008",
+      "FNumber": "6.8",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "06-three-sheet.jpg",
+    "width": 857,
+    "height": 1600,
+    "sha1": "18d1c0b4",
+    "source": "06-three-sheet.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-22T00:08:52",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.008",
+      "FNumber": "5.6",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "07-window-card-a.jpg",
+    "width": 1055,
+    "height": 1600,
+    "sha1": "a0ca6539",
+    "source": "07-window-card-a.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T18:32:02",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.008",
+      "FNumber": "6.8",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "08-window-card-b.jpg",
+    "width": 1053,
+    "height": 1600,
+    "sha1": "659b9d63",
+    "source": "08-window-card-b.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D-400c MS",
+      "DateTimeOriginal": "2016-10-21T18:38:15",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.008",
+      "FNumber": "6.8",
+      "ISOSpeedRatings": "64"
+    }
+  },
+  {
+    "file": "09-people-who-arent-friends.jpg",
+    "width": 1600,
+    "height": 1200,
+    "sha1": "95723181",
+    "source": "09-people-who-arent-friends.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ4 150MP",
+      "DateTimeOriginal": "2019:10:15 18:59:17",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "10.0",
+      "ISOSpeedRatings": "50",
+      "LensModel": "Schneider Kreuznach LS 35mm LS f/3.5"
+    }
+  },
+  {
+    "file": "10-intro-to-threat-modeling.jpg",
+    "width": 843,
+    "height": 632,
+    "sha1": "0a43d3f7",
+    "source": "10-intro-to-threat-modeling.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "IQ4 150MP",
+      "DateTimeOriginal": "2019:10:15 18:59:17",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "10.0",
+      "ISOSpeedRatings": "50",
+      "LensModel": "Schneider Kreuznach LS 35mm LS f/3.5"
+    }
+  }
+]

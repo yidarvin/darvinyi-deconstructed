@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-40x60-a.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.360, "y": 0.647, "r": 0.035, "label": "SHIELDED FIGURE" },
+    { "type": "frame_in_frame", "x": 0.045, "y": 0.648, "w": 0.300, "h": 0.314, "label": "LOWER ACTION FIELD" },
+    { "type": "polyline", "points": [[0.322, 0.611], [0.360, 0.647], [0.444, 0.706]], "label": "BODY FOLD" }
+  ],
+  "notes": "A small, bent body activates the lower field while the pale wall remains an intentional pressure of empty space."
+}

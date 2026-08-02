@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-40x60-b.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.318, "angle": 2.1, "label": "PAPER EDGE" },
+    { "type": "leading_line", "points": [[0.577, 0.359], [0.838, 0.624]], "arrow": true, "label": "CURLING SHEET" },
+    { "type": "subject_anchor", "x": 0.593, "y": 0.507, "r": 0.035, "label": "OCCLUDING PAGE" },
+    { "type": "frame_in_frame", "x": 0.047, "y": 0.303, "w": 0.908, "h": 0.651, "label": "PEGBOARD FIELD" }
+  ],
+  "notes": "A curling sheet crosses a regular pegboard and fragments language into a collision of grid and diagonal."
+}
