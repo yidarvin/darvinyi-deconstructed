@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "HAT'S CENTRAL BALANCE" },
     { "type": "ellipse", "cx": 0.500, "cy": 0.300, "rx": 0.320, "ry": 0.275, "label": "OVERSIZED NAVY HAT" },
-    { "type": "ellipse", "cx": 0.500, "cy": 0.830, "rx": 0.175, "ry": 0.180, "label": "PINK SKIRT FIELD" },
-    { "type": "subject_anchor", "x": 0.573, "y": 0.000, "label": "HAT CROWN" }
+    { "type": "ellipse", "cx": 0.500, "cy": 0.830, "rx": 0.175, "ry": 0.180, "label": "PINK SKIRT FIELD" }
   ],
   "notes": "A single dark hat is enlarged into an almost abstract silhouette over a small pink skirt."
 }

@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "MASKED HEAD AXIS" },
-    { "type": "ellipse", "cx": 0.505, "cy": 0.307, "rx": 0.185, "ry": 0.150, "label": "BLUE BUTTERFLY MASK" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.307, "rx": 0.185, "ry": 0.150, "label": "MASKED HEAD" },
     { "type": "polyline", "points": [[0.258, 0.527], [0.495, 0.465], [0.745, 0.526]], "label": "SHOULDER BUTTERFLY ARC" },
     { "type": "subject_anchor", "x": 0.273, "y": 0.929, "label": "LOWER DARK COUNTERWEIGHT" }
   ],

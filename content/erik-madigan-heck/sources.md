@@ -11,7 +11,7 @@ The gallery supplies no open licence. The page's public image responses were
 downloaded directly, opened successfully after acquisition, and measure from
 768 × 1152px to 1600 × 1067px; none was upscaled or altered.
 
-Every entry below is a **fair-use** assessment. The creator/rightsholder
+Every entry below is a **fair-use** assessment. The artist/credited creator
 identified by the gallery is Erik Madigan Heck; no separate licence or
 copyright notice is displayed with these records. **Factor 1:** this book uses
 each image for criticism, scholarship, and transformative composition teaching,
@@ -25,9 +25,9 @@ or licensed reproduction.
 ## Acquired shortlist
 
 1. **Without A Face (Lanvin), *Old Future*** (2013) — `raw/erik-madigan-heck/01-without-a-face-lanvin.jpg` (768 × 1152px)
-   - **Why it matters:** A white bird, a pale garment, and the nearly withheld face build a vertical chain of bright shapes, making camouflage feel like a deliberately constructed hierarchy.
+   - **Why it matters:** A large blue butterfly, a pale garment, and the nearly withheld face build a vertical chain of bright shapes, making camouflage feel like a deliberately constructed hierarchy.
    - **Source:** [Staley-Wise Gallery selected works](https://www.staleywise.com/artists/erik-madigan-heck); direct public rendition: `https://static-assets.artlogic.net/w_1600,h_1600,c_limit/exhibit-e/5be3258ca5aa2c1c768b4567/b0c710d906d8ad1a55059c8651469e4e.jpeg`.
-   - **Use basis:** **fair-use**. The entire vertical is required to analyze how bird, drapery, and head share a single pale tonal field; the record-linked critical copy is non-substitutive under the four factors summarized above.
+   - **Use basis:** **fair-use**. The entire vertical is required to analyze how the butterfly, drapery, and head share a single pale tonal field; the record-linked critical copy is non-substitutive under the four factors summarized above.
 
 2. **Valentino, *Old Future*** (2014) — `raw/erik-madigan-heck/02-valentino.jpg` (1600 × 1067px)
    - **Why it matters:** The figure and patterned dress are staged as a low, broad color event, showing how a horizontal frame can make fashion read as landscape-like surface.

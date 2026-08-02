@@ -4,7 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.445, "cy": 0.275, "rx": 0.285, "ry": 0.220, "label": "BLUE PETAL HEADDRESS" },
-    { "type": "polyline", "points": [[0.435, 0.425], [0.625, 0.450], [0.735, 0.485]], "label": "PROFILE" },
+    { "type": "polyline", "points": [[0.602, 0.400], [0.648, 0.434], [0.738, 0.472], [0.674, 0.508]], "label": "FACE PROFILE CONTOUR" },
     { "type": "subject_anchor", "x": 0.698, "y": 0.367, "label": "EXPOSED FACE" }
   ],
   "notes": "An exposed profile appears only after the blue headpiece and red spotted garment have claimed the frame."

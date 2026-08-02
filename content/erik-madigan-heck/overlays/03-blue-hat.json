@@ -6,7 +6,7 @@
     { "type": "ellipse", "cx": 0.666, "cy": 0.213, "rx": 0.275, "ry": 0.170, "label": "BLUE HAT VOLUME" },
     { "type": "polyline", "points": [[0.470, 0.363], [0.660, 0.330], [0.925, 0.290]], "label": "BRIM EDGE" },
     { "type": "polyline", "points": [[0.280, 0.730], [0.515, 0.768], [0.835, 0.890]], "label": "SKIRT FOLD SWEEP" },
-    { "type": "subject_anchor", "x": 0.802, "y": 0.883, "label": "DARK LOWER-GROUND COUNTERWEIGHT" }
+    { "type": "subject_anchor", "x": 0.802, "y": 0.883, "label": "LOWER SKIRT FOLD" }
   ],
   "notes": "The oversized blue hat interrupts the seated figure's soft vertical descent."
 }
