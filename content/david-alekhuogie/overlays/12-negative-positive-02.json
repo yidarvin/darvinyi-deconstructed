@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-negative-positive-02.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.2, "y": 0.27, "w": 0.34, "h": 0.61, "label": "leaning orange panel" },
+    { "type": "frame_in_frame", "x": 0.54, "y": 0.42, "w": 0.3, "h": 0.47, "label": "blue-marked panel" },
+    { "type": "subject_anchor", "x": 0.349, "y": 0.511, "r": 0.14, "label": "orange panel" }
+  ],
+  "notes": "Leaning orange and blue-marked panels make the gallery floor part of the work's uneven balance."
+}

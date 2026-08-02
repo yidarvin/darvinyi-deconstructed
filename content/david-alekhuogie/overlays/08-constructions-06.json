@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "08-constructions-06.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.15, "y": 0.08, "w": 0.55, "h": 0.8, "label": "timber-framed work" },
+    { "type": "leading_line", "points": [[0.55, 0.13], [0.55, 0.82]], "arrow": false, "label": "image-strip seam" },
+    { "type": "frame_in_frame", "x": 0.55, "y": 0.13, "w": 0.13, "h": 0.67, "label": "translucent strip" },
+    { "type": "ellipse", "cx": 0.29, "cy": 0.69, "rx": 0.08, "ry": 0.08, "label": "potted plant" },
+    { "type": "polyline", "points": [[0.23, 0.67], [0.32, 0.56], [0.47, 0.5]], "label": "plant leaf" }
+  ],
+  "notes": "A plant holds the lower image while a translucent strip cuts the framed work into pictured and material zones."
+}

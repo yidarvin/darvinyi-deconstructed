@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-constructions-07.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.07, "y": 0.05, "w": 0.85, "h": 0.88, "label": "timber enclosure" },
+    { "type": "frame_in_frame", "x": 0.39, "y": 0.2, "w": 0.25, "h": 0.6, "label": "central plywood block" },
+    { "type": "polyline", "points": [[0.13, 0.21], [0.45, 0.16], [0.87, 0.12]], "label": "upper package band" },
+    { "type": "ellipse", "cx": 0.74, "cy": 0.29, "rx": 0.05, "ry": 0.05, "label": "printed child's face" }
+  ],
+  "notes": "Package bands and printed faces wrap around a central plywood block, making enclosure and interruption inseparable."
+}

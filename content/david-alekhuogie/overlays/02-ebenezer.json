@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-ebenezer.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.219, "y": 0.441, "r": 0.06, "label": "farmhouse" },
+    { "type": "ellipse", "cx": 0.75, "cy": 0.35, "rx": 0.035, "ry": 0.045, "label": "distant church" },
+    { "type": "polyline", "points": [[0.08, 0.76], [0.41, 0.43], [0.8, 0.35]], "label": "field sweep" }
+  ],
+  "notes": "A sloping painted ridge connects a near farmhouse to a small distant church across an enlarged field."
+}

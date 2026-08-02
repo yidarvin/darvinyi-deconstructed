@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-constructions-01.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.05, "w": 0.91, "h": 0.9, "label": "blue support field" },
+    { "type": "frame_in_frame", "x": 0.22, "y": 0.22, "w": 0.56, "h": 0.57, "label": "wood-framed interior" },
+    { "type": "subject_anchor", "x": 0.57, "y": 0.36, "r": 0.06, "label": "poster figures" },
+    { "type": "leading_line", "points": [[0.36, 0.71], [0.77, 0.69]], "arrow": false, "label": "tabletop rear edge" }
+  ],
+  "notes": "A wood frame creates a second room inside the blue field, concentrating attention on the small poster and tabletop."
+}

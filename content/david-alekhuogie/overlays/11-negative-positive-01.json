@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-negative-positive-01.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.5, 0.12], [0.5, 0.87]], "label": "diptych split" },
+    { "type": "frame_in_frame", "x": 0.055, "y": 0.12, "w": 0.445, "h": 0.75, "label": "dense black panel" },
+    { "type": "frame_in_frame", "x": 0.5, "y": 0.12, "w": 0.445, "h": 0.75, "label": "sparse blue field" },
+    { "type": "polyline", "points": [[0.55, 0.76], [0.55, 0.84], [0.81, 0.84]], "label": "lower blue gesture" }
+  ],
+  "notes": "The exact split puts a dense black lattice beside a sparse blue field without making either half a mirror of the other."
+}
