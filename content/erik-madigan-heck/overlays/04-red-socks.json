@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-red-socks.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.682, "angle": -1.9, "label": "WHITE FLOOR SEAM" },
+    { "type": "ellipse", "cx": 0.425, "cy": 0.345, "rx": 0.240, "ry": 0.205, "label": "FOLDED WHITE JACKET" },
+    { "type": "polyline", "points": [[0.385, 0.840], [0.455, 0.915], [0.625, 0.930]], "label": "RED SOCKS" },
+    { "type": "subject_anchor", "x": 0.460, "y": 0.477, "label": "BENT FIGURE" }
+  ],
+  "notes": "A white figure is suspended between a blue field and a small, emphatic red base."
+}

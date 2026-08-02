@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-valentino.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.555, "cy": 0.625, "rx": 0.205, "ry": 0.255, "label": "SWINGING CAPE MASS" },
+    { "type": "polyline", "points": [[0.355, 0.555], [0.565, 0.505], [0.740, 0.625]], "label": "CAPE'S UPPER SWEEP" },
+    { "type": "polyline", "points": [[0.000, 0.580], [0.440, 0.560], [0.900, 0.500]], "label": "ROSE-BED BAND" },
+    { "type": "subject_anchor", "x": 0.148, "y": 0.963, "label": "LOWER FLOWER COUNTERWEIGHT" }
+  ],
+  "notes": "A dark butterfly-patterned cape becomes an animated mass inside a dense rose field."
+}

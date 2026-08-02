@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-without-a-face-yellow.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "CENTERED BACK FIGURE" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.145, "rx": 0.145, "ry": 0.135, "label": "BLACK HAIR MASS" },
+    { "type": "polyline", "points": [[0.315, 0.260], [0.495, 0.200], [0.665, 0.275]], "label": "POINTED COLLAR" },
+    { "type": "subject_anchor", "x": 0.321, "y": 0.992, "label": "LOWER DRESS EDGE" }
+  ],
+  "notes": "A centered dotted dress becomes a black-on-yellow field, with the collar breaking the figure's smooth silhouette."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-junya-watanabe.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.480, "cy": 0.145, "rx": 0.185, "ry": 0.095, "label": "LEFT HAT LOBE" },
+    { "type": "ellipse", "cx": 0.655, "cy": 0.150, "rx": 0.145, "ry": 0.080, "label": "RIGHT HAT LOBE" },
+    { "type": "polyline", "points": [[0.325, 0.330], [0.515, 0.270], [0.720, 0.365]], "label": "SHOULDER WRAP" },
+    { "type": "subject_anchor", "x": 0.615, "y": 0.617, "label": "GRAPHIC GARMENT CENTER" }
+  ],
+  "notes": "Two black hat lobes and oversized garment circles withhold the sitter's usual portrait cues."
+}

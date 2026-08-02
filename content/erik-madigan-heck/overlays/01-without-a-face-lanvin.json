@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-without-a-face-lanvin.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "MASKED HEAD AXIS" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.307, "rx": 0.185, "ry": 0.150, "label": "BLUE BUTTERFLY MASK" },
+    { "type": "polyline", "points": [[0.258, 0.527], [0.495, 0.465], [0.745, 0.526]], "label": "SHOULDER BUTTERFLY ARC" },
+    { "type": "subject_anchor", "x": 0.273, "y": 0.929, "label": "LOWER DARK COUNTERWEIGHT" }
+  ],
+  "notes": "The centered mask and repeated blue forms turn portraiture into a field of patterned signals."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-florals.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.500, "cy": 0.465, "rx": 0.185, "ry": 0.365, "label": "FLORAL FIGURE" },
+    { "type": "polyline", "points": [[0.385, 0.125], [0.470, 0.060], [0.525, 0.142]], "label": "RAISED ARM" },
+    { "type": "ellipse", "cx": 0.510, "cy": 0.742, "rx": 0.470, "ry": 0.115, "label": "PETAL CARPET" },
+    { "type": "subject_anchor", "x": 0.627, "y": 0.257, "label": "HAT AND EYE OPENING" }
+  ],
+  "notes": "Pattern repeats from hat to hem and spills outward as a low carpet of petals."
+}
