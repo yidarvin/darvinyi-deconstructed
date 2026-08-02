@@ -4,8 +4,8 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "horizon_line", "y": 0.369, "angle": -0.9, "label": "RIVER HORIZON" },
-    { "type": "vanishing_point", "x": 0.455, "y": 0.601, "label": "BANK CONVERGENCE" },
-    { "type": "leading_line", "points": [[0.24, 0.995], [0.374, 0.763]], "arrow": true, "label": "BOOT AND BANK" }
+    { "type": "polyline", "points": [[0.24, 0.995], [0.374, 0.763]], "label": "FORWARD LEG" },
+    { "type": "ellipse", "cx": 0.485, "cy": 0.685, "rx": 0.12, "ry": 0.17, "label": "FORWARD BOOT" }
   ],
-  "notes": "The boot projects into a low, horizontal river world; the bank pulls the eye back toward the water."
+  "notes": "The boot projects into a low, horizontal river world; leg and shoe make the foreground press against the water bands."
 }

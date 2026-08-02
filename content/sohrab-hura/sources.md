@@ -2,7 +2,7 @@
 
 This set follows the principal projects represented by Hura’s gallery: *Life is Elsewhere*, *Look It’s Getting Sunny Outside!!!*, *Pati*, *Snow*, *The Coast*, and *The Levee*. The twelve files were retrieved from Experimenter’s publicly accessible artwork-display service and each opened successfully. The gallery identifies the individual works, dates, and medium, and states “Copyright The Artist”; it provides no open licence. They are therefore all used as **fair-use** web-display copies, not as open material.
 
-**Shared purpose and limits:** Each use is a limited, transformative use in this nonprofit book for criticism, scholarship, and composition teaching. Hura’s complete published frame is necessary to analyze its balance of figure, flash, field, and sequence; a crop would defeat that analysis. The copied file is a web-sized gallery rendition, credits Hura, and links to the gallery record. It does not substitute for the archival pigment print, the artist’s work, the gallery record, or a licensed reproduction. The individual entries below apply those four factors to each selected photograph.
+**Shared purpose and limits:** Each use is a limited, transformative use in this nonprofit book for criticism, scholarship, and composition teaching. Hura’s complete published frame is necessary to analyze its balance of figure, flash, field, and sequence; a crop would defeat that analysis. The copied file is a web-sized gallery rendition, credits Hura, and links to the gallery record. It does not substitute for the corresponding print or moving-image work, the artist’s work, the gallery record, or a licensed reproduction. The individual entries below apply those four factors to each selected photograph.
 
 ## Shortlist
 
@@ -63,7 +63,7 @@ This set follows the principal projects represented by Hura’s gallery: *Life i
 ### 10 — *Pati* (2010/2020)
 - **Why it matters:** A small procession follows a curving dirt road through an immense eroded valley; the landscape’s diagonals control the group’s measured advance.
 - **Source:** https://experimenter.in/artists/32-sohrab-hura/works/1424-sohrab-hura-pati-2010-2020/ (Experimenter; public display derivative: https://static-assets.artlogic.net/w_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/experimenter/images/view/3a3bb3b5cf5aca17de8b72d54142ed58j/experimenter-sohrab-hura-pati-2010-2020.jpg)
-- **Rights / fair-use assessment:** Sohrab Hura; Experimenter record: “Copyright The Artist.” **Factor 1:** transformative criticism studies how a receding route calibrates human scale. **Factor 2:** a creative contemporary photographic work. **Factor 3:** the complete horizontal frame is essential to the path’s relation to the valley and walkers. **Factor 4:** this credited 1600 × 900px public display derivative remains record-linked and cannot replace the original work or a licensed reproduction.
+- **Rights / fair-use assessment:** Sohrab Hura; Experimenter record: “Copyright The Artist.” **Factor 1:** transformative criticism studies how a receding route calibrates human scale. **Factor 2:** a creative contemporary moving-image work. **Factor 3:** the complete horizontal frame is essential to the path’s relation to the valley and walkers. **Factor 4:** this credited 1600 × 900px public display derivative remains record-linked and cannot replace the original work or a licensed reproduction.
 - **File:** `raw/sohrab-hura/10-pati.jpg` (1600 × 900px)
 
 ### 11 — *Look It’s Getting Sunny Outside!!!* (2008–2014)

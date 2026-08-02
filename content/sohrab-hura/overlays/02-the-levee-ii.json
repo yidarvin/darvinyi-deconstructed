@@ -3,9 +3,9 @@
   "image": "02-the-levee-ii.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.19, 0.113], [0.853, 0.776]], "arrow": true, "label": "JACKET AND BLOCK EDGE" },
-    { "type": "leading_line", "points": [[0.371, 0.346], [0.958, 0.933]], "arrow": true, "label": "RUBBLE DIAGONAL" },
-    { "type": "vanishing_point", "x": 0.554, "y": 0.503, "label": "CROSSED MATERIAL LINES" }
+    { "type": "frame_in_frame", "x": 0.245, "y": 0.185, "w": 0.155, "h": 0.205, "label": "JACKET POCKET" },
+    { "type": "polyline", "points": [[0.075, 0.346], [0.235, 0.53], [0.48, 0.64], [0.67, 0.65]], "label": "SUPPORTING ARM" },
+    { "type": "ellipse", "cx": 0.585, "cy": 0.495, "rx": 0.145, "ry": 0.17, "label": "STACKED BLOCKS" }
   ],
-  "notes": "Flash-lit body and blocks cut diagonally across a dispersed rubble field."
+  "notes": "The supporting arm, stacked blocks, and pocket make a compact flash-lit material cluster against dispersed rubble."
 }

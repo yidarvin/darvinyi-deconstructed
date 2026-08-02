@@ -3,9 +3,8 @@
   "image": "10-pati.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "leading_line", "points": [[0.711, 0.767], [0.996, 0.26]], "arrow": true, "label": "RECEDING ROAD" },
-    { "type": "vanishing_point", "x": 0.927, "y": 0.368, "label": "VALLEY EXIT" },
+    { "type": "polyline", "points": [[0.43, 0.91], [0.505, 0.78], [0.585, 0.67], [0.66, 0.59], [0.57, 0.51]], "label": "WINDING ROAD" },
     { "type": "subject_anchor", "x": 0.522, "y": 0.762, "r": 0.035, "label": "WALKERS" }
   ],
-  "notes": "The road's sharp recession calibrates the procession as a small human measure inside an eroded valley."
+  "notes": "The winding road carries the procession through an eroded valley and makes the group a small human measure."
 }

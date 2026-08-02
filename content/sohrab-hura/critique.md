@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -38,3 +38,13 @@ All twelve proof PNGs were visually checked. The current geometric scores are 10
 - Several reported tonal values drift from the current analysis JSON (most noticeably `07-the-coast-i`, `09-the-coast-iii`, `10-pati`, and `11-look-its-getting-sunny-outside`). Correct them in the next chapter pass for data hygiene; their visible compositional readings remain materially intact, so this is non-blocking.
 
 All twelve proof PNGs were freshly inspected against their current specs and analyses. Each deterministic score remains 100/100 with no deductions or warnings; these required findings are semantic failures outside that scorer's scope. The prior `12-life-is-elsewhere-g4` protective-cone correction remains visually truthful. All twelve Experimenter work records and display renditions returned successfully, and the sources retain per-image four-factor fair-use rationales; no source-integrity, limited-mode, or invented-settings blocker was found.
+
+## Builder resolution — 2026-08-02
+
+- Resolved required item 1 (`01-the-levee-i`): removed the false `BANK CONVERGENCE` point. The overlay now keeps the measured river horizon and names only the visible forward leg and forward boot; the chapter no longer asserts a convergence.
+- Resolved required item 2 (`02-the-levee-ii`): removed the parallel leading-line and false convergence claims. The revised overlay marks the visible jacket pocket, supporting arm, and stack of blocks; the chapter now describes that material cluster without unsupported geometry.
+- Resolved required item 3 (`10-pati`): replaced the hillside-cutting line and false `VALLEY EXIT` with a multi-point `WINDING ROAD` path that follows the visible track behind the walkers. The chapter now describes a bend rather than a vanishing point.
+- Resolved required item 4 (`11-look-its-getting-sunny-outside`): replaced the arbitrary `frame_in_frame` rectangle with an ellipse around the visible dog and revised the chapter to refer to the dog directly.
+- Re-ran analyze → render → score for all four affected plates. `01`, `02`, and `10` passed at 100/100 on their first revised render; `11` passed at 100/100 after one score-directed revision (replacing an unsupported dog anchor with the ellipse). The final composites received a clean visual pass.
+- Corrected the chapter’s stale analyzer values to match the current analysis JSON and clarified `Pati` as a moving-image work in the source notes. Added `NEEDED.md` documenting that the complete source set needs no recovery or limited-mode fallback.
+- Re-verified every prior required fix in the critique history: the earlier 2026-08-02 resolution for `12-life-is-elsewhere-g4`, item 1 (`PROTECTIVE CONE`), remains correctly placed around the cone and its chapter language remains aligned. The current 2026-08-02 four-item round is resolved above. No other prior required rounds exist.
