@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -22,3 +22,17 @@ Reviewed all 12 rendered proofs against their overlay specifications and analysi
 3. `05-beauty-is-in-the-eye-of-the-beholder`: corrected the source shortlist to describe the visible turned, self-embracing figure and screen rather than an unshown reciprocal gaze.
 
 Re-verified every required item from the only prior critique round (2026-08-02): the current couch overlay makes no false contour claim, and both corrected shortlist descriptions match their rendered photographs. The mirrored chapter files are byte-identical. `scripts/check.sh` passes with the repository-established Vitest thread-pool execution (`420 passed`), followed by a passing production build and advisory lint.
+
+## Critique round — 2026-08-02
+
+Reviewed all 12 current proof PNGs against their overlay specs and analyzer records, then checked the chapter, manifest, research notes, and per-image source record. All twelve linked Silver Eye display JPEGs and the exhibition, artist, and Art Institute context pages return HTTP 200. Each selected image has a credited, traceable fair-use route with a concise four-factor assessment; no camera settings are asserted.
+
+### Required
+
+None. The three prior required findings remain resolved: `08-moro-on-a-couch` now labels only the seated figure, wall clock, and visible mirror; `04-moro-by-the-pond` accurately identifies Moro as seated/crouched on a rock; and `05-beauty-is-in-the-eye-of-the-beholder` describes the one visible self-embracing figure. No material regression was found in the proofs, specs, or chapter.
+
+### Advisory (non-blocking)
+
+- `04-moro-by-the-pond`, `06-hug-by-the-pond`, and `12-the-hug` retain detector warnings on their branch/path lines, but visual review confirms each line stays on its named visible feature, so these are defensible interpretive annotations.
+- `09-devour` retains the previously recorded 0.060 offset from the analyzer's generic symmetry axis. The line visibly marks the narrow gap between the facing profiles, as the label and chapter expressly state; it is not a false symmetry claim.
+- `11-welcome-to-the-gates-of-a-new-era` places `SILL THRESHOLD` at 0.840 versus the analyzer's 0.824, a 0.016 difference within the 0.03 tolerance; the proof visibly traces the sill.
