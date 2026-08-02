@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-boys-dont-cry-2016.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.235, "w": 1.0, "h": 0.41, "label": "car window" },
+    { "type": "ellipse", "cx": 0.41, "cy": 0.315, "rx": 0.34, "ry": 0.22, "label": "pink bag" },
+    { "type": "polyline", "points": [[0.66, 0.405], [0.74, 0.53], [0.69, 0.73], [0.55, 0.86]], "label": "arm descent" }
+  ],
+  "notes": "A window and bag fold a departing body into a shallow, color-saturated compartment."
+}

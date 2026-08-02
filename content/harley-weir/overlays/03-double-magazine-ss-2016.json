@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-double-magazine-ss-2016.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.53, "cy": 0.70, "rx": 0.47, "ry": 0.18, "label": "lower lip" },
+    { "type": "ellipse", "cx": 0.53, "cy": 0.30, "rx": 0.45, "ry": 0.22, "label": "upper lip" },
+    { "type": "subject_anchor", "x": 0.375, "y": 0.727, "r": 0.035, "label": "lip highlight" }
+  ],
+  "notes": "Two enlarged lips turn skin texture and the narrow mouth seam into the entire field."
+}

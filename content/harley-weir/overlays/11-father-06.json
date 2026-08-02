@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-father-06.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.47, "cy": 0.55, "rx": 0.30, "ry": 0.37, "label": "torso" },
+    { "type": "polyline", "points": [[0.0, 0.72], [0.22, 0.64], [0.46, 0.66], [0.66, 0.83]], "label": "near-arm sweep" },
+    { "type": "polyline", "points": [[0.0, 0.14], [0.28, 0.15], [0.44, 0.06]], "label": "cropped upper arm" }
+  ],
+  "notes": "A cropped torso and two arm sweeps make blue ground press tightly against skin and tassel."
+}

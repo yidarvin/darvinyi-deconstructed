@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-homes-november-2016.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.54, "cy": 0.57, "rx": 0.19, "ry": 0.15, "label": "orange-ringed shadow" },
+    { "type": "polyline", "points": [[0.08, 0.34], [0.20, 0.35], [0.33, 0.40], [0.43, 0.36]], "label": "reaching hand" },
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.0, "w": 0.55, "h": 1.0, "label": "green screen" }
+  ],
+  "notes": "A hand, shadow, and ring of paint create a crowded exchange across a textured vertical screen."
+}

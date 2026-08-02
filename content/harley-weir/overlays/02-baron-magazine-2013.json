@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-baron-magazine-2013.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.42, 0.05], [0.48, 0.24], [0.46, 0.45], [0.35, 0.67], [0.31, 0.91]], "label": "back contour" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.17, "rx": 0.18, "ry": 0.17, "label": "raised red wrap" },
+    { "type": "subject_anchor", "x": 0.488, "y": 0.852, "r": 0.035, "label": "draped shorts" }
+  ],
+  "notes": "The vertical crop makes one unbroken body contour negotiate a small field of cloth and wall."
+}
