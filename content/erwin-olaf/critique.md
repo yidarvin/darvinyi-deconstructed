@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-01
 
@@ -26,3 +26,14 @@ Resolved the two required corrections from the 2026-08-01 critique round:
 3. **08-hope-kitchen:** An independent adversarial pass identified the same semantic issue in the non-required `TABLE EDGE` polyline: it crossed floor below the table. Removed the false line and changed the matching prose to the visible counter.
 
 All three corrected overlays were re-rendered, visually checked, and scored 100/100 against their current analyses. Re-verified all required fixes from the full prior critique history: the sole prior round, 2026-08-01. The previous advisory on 06-hope-hallway was rechecked and remains a non-blocking, visually truthful recession reading.
+
+## Critique round — 2026-08-01
+
+### Required
+
+None. All twelve current proofs were inspected. The previously required `04-rain-boardroom` table barrier now follows the visible desk/table division, and `10-grief-troy` now encloses the kneeling man rather than empty window space; neither resolved finding has regressed. Every overlay contains 3–5 named primitives, and the current deterministic scores are 100/100 except `06-hope-hallway` at 88/100 (its two existing recession-line warnings remain advisory). Chapter palette, tonal, and edge-density statements match the analysis artifacts within the stated tolerance; its limited Phase One / ISO 100 wording stays confined to the two supplied files. Sources provide an Estate route, credit, and image-specific four-factor fair-use rationale for all twelve images; all twelve recorded direct JPEG URLs returned HTTP 200 during this review.
+
+### Advisory (non-blocking)
+
+- **09-grief-caroline:** `FLOOR SHADOW` and `CHAIR / FLOOR BAND` labels overlap slightly at the lower left. Both markings still identify the visible horizontal features, so this is cosmetic only.
+- **06-hope-hallway:** The prior round's two scorer warnings remain, but the marked lines still read as the hallway's visible recession toward the end door. No material regression from the already-settled advisory was found.
