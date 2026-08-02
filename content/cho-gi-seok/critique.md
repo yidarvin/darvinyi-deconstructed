@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-01
 
@@ -69,3 +69,34 @@ Resolved all five required items from the 2026-08-01 critique round.
 Re-verified full critique history: 2026-08-01 initial critique round (the only
 prior round). All six current overlays score 100/100, and the revised proofs
 received a clean visual pass.
+
+## Critique round — 2026-08-01
+
+Reviewed all six current proofs against their source images, overlay specs,
+analysis JSON, chapter, manifest, research, and source record. I also verified
+that both Fotografiska exhibition records and all six linked CDN renditions are
+publicly reachable. Every rendition has a traceable credit and a complete,
+per-image four-factor fair-use rationale; the chapter contains no camera or
+other unsupported settings claims. The resolved 2026-08-01 findings have not
+regressed: the stem and wire-heart perimeter in 01, the unequal balance and
+spotted-mask anchor in 04, and the stem/fruit-veil/body distinctions in 06 all
+truthfully match the current proofs. All six specs score 100/100 against their
+current analyses, and the visual pass is clean.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- `sources.md` describes the public JPEG downloads as being at a “1,600px long
+  edge,” while the listed portrait-source dimensions have 1,600px widths and
+  longer heights. The per-image dimensions and the normalized ingested manifest
+  are accurate, so this does not affect source traceability, rights, or the
+  reading of a plate; distinguish source-response width from the ingested
+  1,600px long-edge normalization in a future editorial pass.
+- The registry note’s phrase “exact color grading” can be read as a production
+  workflow claim even though the research record deliberately does not assert
+  one. Its present use is an interpretive description rather than invented
+  settings data, but recasting it as visible color treatment would make that
+  boundary clearer.
