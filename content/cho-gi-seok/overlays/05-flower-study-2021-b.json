@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-flower-study-2021-b.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.835, "y": 0.416, "r": 0.035, "label": "PAINTED FACE" },
+    { "type": "ellipse", "cx": 0.239, "cy": 0.478, "rx": 0.139, "ry": 0.294, "label": "ORCHID" },
+    { "type": "ellipse", "cx": 0.781, "cy": 0.498, "rx": 0.176, "ry": 0.385, "label": "PORTRAIT" },
+    { "type": "polyline", "points": [[0.376, 0.503], [0.516, 0.492], [0.650, 0.493]], "label": "OPEN INTERVAL" }
+  ],
+  "notes": "Orchid and painted portrait hold an intentionally wide interval across an almost empty field."
+}

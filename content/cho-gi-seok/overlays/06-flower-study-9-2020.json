@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-flower-study-9-2020.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.195, "cy": 0.303, "rx": 0.124, "ry": 0.219, "label": "LEFT CLUSTER" },
+    { "type": "ellipse", "cx": 0.738, "cy": 0.349, "rx": 0.156, "ry": 0.332, "label": "VEILED FIGURE" },
+    { "type": "polyline", "points": [[0.217, 0.441], [0.214, 0.667], [0.208, 0.903]], "label": "LEFT STEM" },
+    { "type": "polyline", "points": [[0.746, 0.595], [0.747, 0.771], [0.747, 0.977]], "label": "RIGHT BODY" }
+  ],
+  "notes": "Two pale clusters and their vertical supports turn the white ground into a measured interval."
+}

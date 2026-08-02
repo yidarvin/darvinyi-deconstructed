@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-daphnes-bad-dream-2024.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.722, "angle": 0, "label": "LOWER SCENE THRESHOLD" },
+    { "type": "ellipse", "cx": 0.390, "cy": 0.253, "rx": 0.235, "ry": 0.153, "label": "UPPER TABLEAU" },
+    { "type": "polyline", "points": [[0.230, 0.086], [0.355, 0.199], [0.469, 0.345], [0.478, 0.522], [0.501, 0.697]], "label": "FALLING RELAY" },
+    { "type": "ellipse", "cx": 0.494, "cy": 0.765, "rx": 0.353, "ry": 0.168, "label": "LOWER FACE AND PETALS" }
+  ],
+  "notes": "Separated theatrical episodes are linked by a descending relay of body, fabric, and petals."
+}
