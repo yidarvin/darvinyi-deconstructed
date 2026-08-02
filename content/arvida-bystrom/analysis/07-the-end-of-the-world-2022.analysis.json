@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "image": "07-the-end-of-the-world-2022.jpg",
+  "width": 1201,
+  "height": 960,
+  "aspect": 1.251,
+  "tonal": {
+    "mean": 0.49394038263609236,
+    "std": 0.12609457449353226,
+    "p05": 0.2627450980392157,
+    "p95": 0.6666666666666666,
+    "edge_density": 0.0007198865372860635
+  },
+  "palette": [
+    "#c36b41",
+    "#d68550",
+    "#af5132",
+    "#7f2b18",
+    "#fddbb2"
+  ],
+  "lines": [
+    {
+      "x1": 0.0,
+      "y1": 0.36185819070904646,
+      "x2": 0.0859375,
+      "y2": 0.2860635696821516,
+      "angle_deg": -35.166436035792884,
+      "length": 0.08213543951550224,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.6821515892420538,
+    "angle_deg": 0.0,
+    "confidence": 0.44747781944395476,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.4765625,
+      0.5
+    ],
+    "regions": [
+      {
+        "cx": 0.4324881970792923,
+        "cy": 0.5701394892165255,
+        "x": 0.328125,
+        "y": 0.45232273838630804,
+        "w": 0.205078125,
+        "h": 0.2530562347188264,
+        "area_frac": 0.02941984069376528
+      },
+      {
+        "cx": 0.441686059688354,
+        "cy": 0.9404163366507111,
+        "x": 0.369140625,
+        "y": 0.871638141809291,
+        "w": 0.146484375,
+        "h": 0.12836185819070906,
+        "area_frac": 0.011358209810513447
+      },
+      {
+        "cx": 0.03101647847966822,
+        "cy": 0.3219395485057776,
+        "x": 0.0,
+        "y": 0.2787286063569682,
+        "w": 0.07421875,
+        "h": 0.10024449877750612,
+        "area_frac": 0.005901159459046455
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.762342106675334,
+    "vertical_axis_x": 0.475,
+    "horizontal": 0.7439675298031305,
+    "horizontal_axis_y": 0.625
+  },
+  "subject_anchor": {
+    "x": 0.4765625,
+    "y": 0.5,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.38709287935041803,
+    "phi": 0.37603015580564786,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "subject_anchor",
+      "x": 0.477,
+      "y": 0.5,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.682,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.45,
+      "why": "luminance split / dominant horizontal (gradient)"
+    }
+  ]
+}

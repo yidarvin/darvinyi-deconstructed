@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-the-end-of-the-world-2022.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.477, "y": 0.5, "r": 0.05, "label": "illuminated center" },
+    { "type": "ellipse", "cx": 0.47, "cy": 0.50, "rx": 0.18, "ry": 0.27, "label": "body-shaped light" },
+    { "type": "polyline", "points": [[0.24, 0.64], [0.48, 0.70], [0.77, 0.63]], "label": "shadowed lower contour" }
+  ],
+  "notes": "A compact illuminated center emerges from a nearly edge-free field."
+}

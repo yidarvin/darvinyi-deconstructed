@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-flushing-2025.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "center of the oval relief" },
+    { "type": "subject_anchor", "x": 0.46, "y": 0.773, "r": 0.05, "label": "lower coiled edge" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.54, "rx": 0.17, "ry": 0.33, "label": "oval wall relief" },
+    { "type": "polyline", "points": [[0.27, 0.71], [0.50, 0.79], [0.72, 0.71]], "label": "pink floor seam" }
+  ],
+  "notes": "A centered oval relief concentrates a tactile, bodily image in an almost empty white-and-pink room."
+}

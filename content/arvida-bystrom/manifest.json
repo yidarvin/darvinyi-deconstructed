@@ -1,0 +1,118 @@
+[
+  {
+    "file": "01-self-portrait-2013.jpg",
+    "width": 640,
+    "height": 427,
+    "sha1": "b02edd5e",
+    "source": "01-self-portrait-2013.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark II",
+      "DateTimeOriginal": "2000:01:01 00:03:51",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.008",
+      "FNumber": "13.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "28-75mm"
+    }
+  },
+  {
+    "file": "02-inflated-fiction-press-3.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "7d6e7cc4",
+    "source": "02-inflated-fiction-press-3.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2016:12:06 23:45:36",
+      "FocalLength": "75.0",
+      "ExposureTime": "0.0125",
+      "FNumber": "9.0",
+      "ISOSpeedRatings": "2500",
+      "LensModel": "28-75mm"
+    }
+  },
+  {
+    "file": "03-inflated-fiction-press-2.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "99e3f1f2",
+    "source": "03-inflated-fiction-press-2.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2016:09:25 02:15:40",
+      "FocalLength": "48.0",
+      "ExposureTime": "0.016666666666666666",
+      "FNumber": "2.8",
+      "ISOSpeedRatings": "1250",
+      "LensModel": "28-75mm"
+    }
+  },
+  {
+    "file": "04-inflated-fiction-press-8.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "7ebf8029",
+    "source": "04-inflated-fiction-press-8.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 6s",
+      "DateTimeOriginal": "2017:06:27 18:39:10",
+      "FocalLength": "2.65",
+      "ExposureTime": "0.058823529411764705",
+      "FNumber": "2.2",
+      "ISOSpeedRatings": "100",
+      "LensModel": "iPhone 6s front camera 2.65mm f/2.2"
+    }
+  },
+  {
+    "file": "05-coexist-2022.jpg",
+    "width": 1600,
+    "height": 1071,
+    "sha1": "dae67462",
+    "source": "05-coexist-2022.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-pieta-2022.jpg",
+    "width": 961,
+    "height": 1126,
+    "sha1": "b3228dc1",
+    "source": "06-pieta-2022.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-the-end-of-the-world-2022.jpg",
+    "width": 1201,
+    "height": 960,
+    "sha1": "fb2da88c",
+    "source": "07-the-end-of-the-world-2022.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-blushing-study-2025.jpg",
+    "width": 1600,
+    "height": 1067,
+    "sha1": "e872904b",
+    "source": "08-blushing-study-2025.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-crushing-2025.jpg",
+    "width": 1067,
+    "height": 1600,
+    "sha1": "3c6f7c24",
+    "source": "09-crushing-2025.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-flushing-2025.jpg",
+    "width": 1600,
+    "height": 1067,
+    "sha1": "b5c43391",
+    "source": "10-flushing-2025.jpg",
+    "exif": {}
+  }
+]

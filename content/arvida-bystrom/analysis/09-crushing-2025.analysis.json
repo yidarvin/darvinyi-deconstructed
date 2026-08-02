@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "09-crushing-2025.jpg",
+  "width": 1067,
+  "height": 1600,
+  "aspect": 0.6669,
+  "tonal": {
+    "mean": 0.8185575344736502,
+    "std": 0.04872687789669188,
+    "p05": 0.7450980392156863,
+    "p95": 0.8823529411764706,
+    "edge_density": 0.0009436285740469209
+  },
+  "palette": [
+    "#d7cfce",
+    "#e2dede",
+    "#deb8c0",
+    "#cabbb2",
+    "#9a6c55"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.5751953125,
+    "angle_deg": 0.0,
+    "confidence": 0.840874863649096,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.48826979472140764,
+      0.1640625
+    ],
+    "regions": [
+      {
+        "cx": 0.5023994820627845,
+        "cy": 0.16702216688438928,
+        "x": 0.42668621700879766,
+        "y": 0.123046875,
+        "w": 0.15395894428152493,
+        "h": 0.091796875,
+        "area_frac": 0.010961269703079179
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8244807044991441,
+    "vertical_axis_x": 0.5375,
+    "horizontal": 0.6780853157822478,
+    "horizontal_axis_y": 0.6
+  },
+  "subject_anchor": {
+    "x": 0.48826979472140764,
+    "y": 0.1640625,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.10566165123456801,
+    "phi": 0.2857826805559452,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.575,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.84,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.537,
+      "confidence": 0.82,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.488,
+      "y": 0.164,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-crushing-2025.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "machine's frontal axis" },
+    { "type": "subject_anchor", "x": 0.488, "y": 0.164, "r": 0.05, "label": "small display image" },
+    { "type": "frame_in_frame", "x": 0.39, "y": 0.09, "w": 0.22, "h": 0.13, "label": "screen inset" }
+  ],
+  "notes": "A centered white machine turns an intimate screen image into the smallest, highest note in a sparse room."
+}

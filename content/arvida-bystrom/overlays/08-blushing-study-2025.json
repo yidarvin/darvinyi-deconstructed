@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-blushing-study-2025.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.414, "y": 0.559, "r": 0.05, "label": "hand at the relief" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.18, "w": 0.34, "h": 0.58, "label": "opened wall relief" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "hinged display axis" },
+    { "type": "polyline", "points": [[0.69, 0.66], [0.79, 0.69], [0.91, 0.75]], "label": "approaching hand" }
+  ],
+  "notes": "An opened relief frames a bodily image while an outside hand keeps the display provisional."
+}

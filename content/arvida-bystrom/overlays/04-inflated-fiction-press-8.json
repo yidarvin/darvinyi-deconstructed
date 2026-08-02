@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-inflated-fiction-press-8.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.717, "y": 0.397, "r": 0.05, "label": "eye and cherry" },
+    { "type": "polyline", "points": [[0.91, 0.09], [0.78, 0.12], [0.72, 0.28]], "label": "hand-held stem" },
+    { "type": "polyline", "points": [[0.05, 0.86], [0.44, 0.77], [0.88, 0.76]], "label": "dress edge" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.43, "rx": 0.27, "ry": 0.22, "label": "face field" }
+  ],
+  "notes": "A cherry held over one eye turns the close smartphone crop into a graphic interruption."
+}
