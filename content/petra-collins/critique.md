@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -106,3 +106,12 @@ The corrected 12 overlay was rendered afresh, visually checked against the visib
 ### Advisory (non-blocking)
 
 No additional advisory findings. All twelve current proof PNGs were visually reviewed; every spec scores 100/100 against its matching analyzer JSON, all twelve direct portfolio-image routes and both portfolio pages return HTTP 200, the chapter’s measured tonal claims match the analyzer within tolerance, and the per-image fair-use records retain creator notice, source, purpose, nature, complete-frame necessity, and non-substitution rationale. The two required findings are semantic visual-pass failures, not scorer failures.
+
+## Builder resolution — 2026-08-02
+
+Re-verified the complete critique history: the initial ten-item round, the following three-item round, the subsequent two-item metadata/panel round, and this two-item round. All prior required corrections remain satisfied: unsupported mirror, convergence, reflection-depth, architectural-break, and wall-break claims remain absent; the *Selfie* labels retain supported ongoing-series language; the corrected source rationales and four-file metadata count remain intact; and the 12 `SIGN PANEL` still follows its documented `y: .170–.790` border.
+
+1. Removed 10's rectangular `NEON SPEECH BUBBLE` frame rather than pretending that its rounded outline can be truthfully represented by a rectangular panel. The remaining sign-center axis, visible glow-to-shadow break, and sign-tail anchor all land on their stated features. The chapter now describes the visible rounded neon border without calling it an internal frame.
+2. Extended 11's `SIGN PANEL` to the photographed lower border: `x: .110`, `y: .245`, `w: .780`, `h: .465` (bottom `y: .710`). It now encloses the rectangular panel rather than stopping within it.
+
+Both affected images were freshly analysed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passes, and the content and rendered chapter files are byte-identical.

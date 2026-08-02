@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.500, "label": "SIGN CENTER" },
     { "type": "subject_anchor", "x": 0.507, "y": 0.487, "r": 0.04, "label": "CENTERED LETTERING" },
-    { "type": "frame_in_frame", "x": 0.110, "y": 0.245, "w": 0.780, "h": 0.425, "label": "SIGN PANEL" }
+    { "type": "frame_in_frame", "x": 0.110, "y": 0.245, "w": 0.780, "h": 0.465, "label": "SIGN PANEL" }
   ],
   "notes": "Magenta lettering is held inside a centered rectangular sign panel."
 }
