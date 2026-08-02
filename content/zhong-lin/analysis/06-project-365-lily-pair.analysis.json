@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "image": "06-project-365-lily-pair.jpg",
+  "width": 1295,
+  "height": 1600,
+  "aspect": 0.8094,
+  "tonal": {
+    "mean": 0.6217300835642228,
+    "std": 0.18432592804792994,
+    "p05": 0.25882352941176473,
+    "p95": 0.8470588235294118,
+    "edge_density": 0.004983063481280193
+  },
+  "palette": [
+    "#d8c2b8",
+    "#c7895c",
+    "#a3541d",
+    "#264c3d",
+    "#709c89"
+  ],
+  "lines": [
+    {
+      "x1": 0.27294685990338163,
+      "y1": 0.623046875,
+      "x2": 0.392512077294686,
+      "y2": 0.671875,
+      "angle_deg": 26.796081293973465,
+      "length": 0.08422201486534289,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.36231884057971014,
+      "y1": 0.6611328125,
+      "x2": 0.4758454106280193,
+      "y2": 0.6962890625,
+      "angle_deg": 20.955776730632184,
+      "length": 0.07643688995177551,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.0012077294685990338,
+      "y1": 0.08203125,
+      "x2": 0.06038647342995169,
+      "y2": 0.001953125,
+      "angle_deg": -59.1391083116505,
+      "length": 0.07253904844235842,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.10748792270531402,
+      "y1": 0.3623046875,
+      "x2": 0.21859903381642512,
+      "y2": 0.349609375,
+      "angle_deg": -8.042894233505312,
+      "length": 0.07055637960755998,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.8798828125,
+    "angle_deg": 0.0,
+    "confidence": 0.775780708088063,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": -0.25,
+    "y": 0.43733011645288533,
+    "inliers": 2,
+    "confidence": 0.4
+  },
+  "saliency": {
+    "peak": [
+      0.0,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.03920105979305618,
+        "cy": 0.030980093668901382,
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0929951690821256,
+        "h": 0.0732421875,
+        "area_frac": 0.005453653381642512
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.820239901628544,
+    "vertical_axis_x": 0.4875,
+    "horizontal": 0.6325884323450037,
+    "horizontal_axis_y": 0.575
+  },
+  "subject_anchor": {
+    "x": 0.0,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.487,
+      "confidence": 0.82,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.88,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.78,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

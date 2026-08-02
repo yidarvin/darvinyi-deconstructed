@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-untitled-pink-matter.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.25, 0.16], [0.37, 0.32], [0.54, 0.49], [0.72, 0.66], [0.82, 0.84]], "label": "CROUCHED BODY" },
+    { "type": "ellipse", "cx": 0.26, "cy": 0.21, "rx": 0.10, "ry": 0.11, "label": "FACE" },
+    { "type": "polyline", "points": [[0.18, 0.57], [0.17, 0.71], [0.14, 0.83]], "label": "FALLING PINK MATERIAL" }
+  ],
+  "notes": "The crouched figure and viscous material compress against an intense red-orange field."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-project-365-three-portrait.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.37, 0.32], [0.61, 0.31], [0.49, 0.51], [0.37, 0.32]], "label": "THREE-HEAD TRIANGLE" },
+    { "type": "polyline", "points": [[0.39, 0.52], [0.48, 0.65], [0.59, 0.72], [0.76, 0.76]], "label": "REACHING ARM" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.45, "rx": 0.16, "ry": 0.15, "label": "LOWER HEAD" }
+  ],
+  "notes": "Three heads lock into a compact triangle while arms project the group toward the foreground."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-untitled-ice-pop-portrait.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PORTRAIT AXIS" },
+    { "type": "frame_in_frame", "x": 0.42, "y": 0.47, "w": 0.17, "h": 0.27, "label": "TRANSLUCENT ICE POP" },
+    { "type": "polyline", "points": [[0.49, 0.34], [0.50, 0.50], [0.51, 0.74], [0.50, 0.89]], "label": "FACE–OBJECT–HAND AXIS" }
+  ],
+  "notes": "A near-bilateral portrait is interrupted and linked by the vertical ice pop and hand."
+}

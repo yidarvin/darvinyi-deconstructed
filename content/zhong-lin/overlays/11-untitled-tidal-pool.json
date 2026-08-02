@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-untitled-tidal-pool.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.69, "cy": 0.66, "rx": 0.08, "ry": 0.06, "label": "FACE" },
+    { "type": "polyline", "points": [[0.67, 0.64], [0.55, 0.62], [0.43, 0.59], [0.30, 0.59]], "label": "GOLD GARMENT" },
+    { "type": "polyline", "points": [[0.08, 0.32], [0.32, 0.20], [0.69, 0.20], [0.94, 0.35]], "label": "ROCK ENCLOSURE" }
+  ],
+  "notes": "A small face and gold garment punctuate an irregular pool enclosed by dark rocks."
+}

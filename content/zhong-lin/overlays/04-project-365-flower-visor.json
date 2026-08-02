@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "04-project-365-flower-visor.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.36, "cy": 0.24, "rx": 0.20, "ry": 0.11, "label": "FLOWER VISOR" },
+    { "type": "polyline", "points": [[0.47, 0.55], [0.42, 0.46], [0.39, 0.36]], "label": "LIFTED CHIN" }
+  ],
+  "notes": "An orange flower blocks the eyes while the raised chin pulls the portrait upward."
+}

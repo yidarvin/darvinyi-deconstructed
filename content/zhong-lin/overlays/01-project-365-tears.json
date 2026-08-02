@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "01-project-365-tears.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.53, "cy": 0.46, "rx": 0.39, "ry": 0.24, "label": "INVERTED FACE" },
+    { "type": "polyline", "points": [[0.20, 0.67], [0.35, 0.69], [0.49, 0.68], [0.64, 0.70], [0.82, 0.67]], "label": "GEL-DROP RHYTHM" }
+  ],
+  "notes": "Rotation makes the close face unstable while the drops repeat as a hanging rhythm."
+}

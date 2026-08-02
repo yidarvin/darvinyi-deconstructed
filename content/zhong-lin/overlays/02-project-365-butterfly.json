@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "02-project-365-butterfly.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.19, 0.77], [0.36, 0.62], [0.51, 0.47], [0.68, 0.28], [0.91, 0.04]], "label": "BODY ARC" },
+    { "type": "ellipse", "cx": 0.44, "cy": 0.43, "rx": 0.10, "ry": 0.10, "label": "BUTTERFLY INTERRUPTION" }
+  ],
+  "notes": "The figure curves through a dark field; the butterfly interrupts that continuous sweep."
+}

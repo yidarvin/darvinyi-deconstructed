@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "05-project-365-pebble-bed.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.62, "cy": 0.45, "rx": 0.16, "ry": 0.12, "label": "FACE" },
+    { "type": "polyline", "points": [[0.39, 0.61], [0.50, 0.66], [0.62, 0.65], [0.74, 0.61]], "label": "STONE COLLAR" }
+  ],
+  "notes": "A clear face emerges from an almost all-over pebble field, with stones closing around the neck."
+}

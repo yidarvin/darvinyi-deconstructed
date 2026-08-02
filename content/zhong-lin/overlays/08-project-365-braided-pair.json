@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-project-365-braided-pair.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.29, "cy": 0.35, "rx": 0.14, "ry": 0.13, "label": "LEFT HEAD" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.35, "rx": 0.14, "ry": 0.13, "label": "RIGHT HEAD" },
+    { "type": "polyline", "points": [[0.28, 0.25], [0.42, 0.09], [0.51, 0.20], [0.64, 0.08], [0.72, 0.27]], "label": "BRAID NETWORK" }
+  ],
+  "notes": "Irregular braids visibly join two otherwise independent portrait masses."
+}
