@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -91,3 +91,25 @@ primitive appears on 01, 07, or 09. All ten current overlays pass deterministic
 scoring at 100/100; the three affected refreshed proofs were visually checked.
 The chapter remains byte-identical at `content/ozlem-altin/chapter.mdx` and
 `src/chapters/ozlem-altin.mdx`.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- **02-fountain** — The `DARK LOWER KNOT` anchor remains centered on the
+  blue-green portion of the lower cluster rather than its darkest mark. The
+  broader lower-cluster claim remains clear, so this is not material.
+
+All ten current proof/spec pairs were visually reviewed against the ingested
+images and analysis. The six previously corrected false structural claims have
+not regressed. Every current overlay scores 100/100 with no deductions or
+warnings. Chapter measurements match the associated analysis within tolerance,
+the settings disclaimer makes no unsupported technical claim, and all ten
+fair-use records provide public source links, credits, and concise four-factor
+rationales. The gallery, museum, and biennale source records checked in this
+round support the titles, dates, material statement, and Timo Ohler installation
+photograph credit used by the chapter.
