@@ -8,7 +8,7 @@ The two bodies of work share a staged, intimate vocabulary but make its mediatio
 
 ## Technique and limits
 
-The portfolio pages and supplied source records establish series, date ranges, and public presentation, but they do not document camera body, lens, focal length, aperture, shutter speed, ISO, film stock, sensor format, lighting setup, or print process for these individual photographs. This chapter does not infer them. The ingested files are web display JPEGs, 800 × 537px or 820 × 550px. Several retain metadata reading “Applied Graphics Technologies / Digital Link,” which describes a file-processing chain rather than a camera; three also carry 2014–15 timestamps, but these cannot establish capture dates or settings.
+The portfolio pages and supplied source records establish series, date ranges, and public presentation, but they do not document camera body, lens, focal length, aperture, shutter speed, ISO, film stock, sensor format, lighting setup, or print process for these individual photographs. This chapter does not infer them. The ingested files are web display JPEGs, 800 × 537px or 820 × 550px. Several retain metadata reading “Applied Graphics Technologies / Digital Link,” which describes a file-processing chain rather than a camera; four (02, 07, 08, and 09) also carry 2014–15 timestamps, but these cannot establish capture dates or settings.
 
 ## Measured evidence
 

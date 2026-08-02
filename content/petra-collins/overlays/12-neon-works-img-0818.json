@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "SIGN CENTER" },
     { "type": "subject_anchor", "x": 0.851, "y": 0.273, "r": 0.04, "label": "RIGHT END OF LETTERING" },
-    { "type": "frame_in_frame", "x": 0.037, "y": 0.110, "w": 0.920, "h": 0.720, "label": "SIGN PANEL" }
+    { "type": "frame_in_frame", "x": 0.062, "y": 0.170, "w": 0.894, "h": 0.620, "label": "SIGN PANEL" }
   ],
   "notes": "A long lyric block fills the bordered sign panel with saturated writing."
 }

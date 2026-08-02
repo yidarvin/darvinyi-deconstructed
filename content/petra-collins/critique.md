@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -85,3 +85,12 @@ The affected overlays (02, 05, 06, and 07) were freshly analysed, rendered, visu
 ### Advisory (non-blocking)
 
 No additional advisory findings. All twelve proofs were visually reviewed; every current overlay re-scores 100/100 against its matching analyzer JSON, and the source pages and direct public image routes remain traceable.
+
+## Builder resolution — 2026-08-02
+
+Re-verified the full critique history. The prior resolutions remain intact, including the corrected *Selfie* series-date language and the removals of unsupported overlay claims.
+
+1. Corrected the research metadata count to four timestamp-bearing supplied files (02, 07, 08, and 09), while retaining the explicit caution that processing timestamps establish neither capture dates nor camera settings.
+2. Redrew 12's `SIGN PANEL` on the photographed bordered panel at `x: .062`, `y: .170`, `w: .894`, `h: .620`; it now encloses the complete lyric block and follows the visible top and bottom border rather than extending into the wall. Regenerated the plate proof and contact sheet.
+
+The corrected 12 overlay was rendered afresh, visually checked against the visible panel border, and scores 100/100 against its matching analysis. The proof regenerated from the current spec is byte-identical to the stored proof.
