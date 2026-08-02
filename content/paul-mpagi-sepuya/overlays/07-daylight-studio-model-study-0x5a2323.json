@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-daylight-studio-model-study-0x5a2323.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "mirror seam" },
+    { "type": "horizon_line", "y": 0.792, "angle": 0, "label": "lower studio plane" },
+    { "type": "subject_anchor", "x": 0.511, "y": 0.351, "r": 0.035, "label": "model" }
+  ],
+  "notes": "The model is one movable element held inside a mirror-split field of studio planes."
+}

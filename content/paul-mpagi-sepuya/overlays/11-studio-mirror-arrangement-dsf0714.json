@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-studio-mirror-arrangement-dsf0714.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.201, "angle": 1, "label": "upper studio edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "mirror split" },
+    { "type": "subject_anchor", "x": 0.48, "y": 0.633, "r": 0.035, "label": "camera tripod" }
+  ],
+  "notes": "The camera, screen, objects, and reflected space turn the studio into a collaborative portrait arrangement."
+}

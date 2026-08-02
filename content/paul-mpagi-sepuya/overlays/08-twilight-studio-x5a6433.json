@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-twilight-studio-x5a6433.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.266, "angle": 0, "label": "upper studio register" },
+    { "type": "subject_anchor", "x": 0.258, "y": 0.779, "r": 0.035, "label": "screen base" },
+    { "type": "frame_in_frame", "x": 0.24, "y": 0.30, "w": 0.48, "h": 0.46, "label": "studio screen" }
+  ],
+  "notes": "Twilight turns the studio into a shallow stage with a framed, partial body at its lower edge."
+}

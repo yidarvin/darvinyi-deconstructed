@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-darkroom-mirror-2220232.jpg",
+    "width": 987,
+    "height": 1280,
+    "sha1": "9be4cc02",
+    "source": "01-darkroom-mirror-2220232.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-mirror-study-0x5a7387.jpg",
+    "width": 655,
+    "height": 960,
+    "sha1": "3de4c1d5",
+    "source": "02-mirror-study-0x5a7387.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-figures-0x5a6168.jpg",
+    "width": 1081,
+    "height": 1600,
+    "sha1": "f446ad39",
+    "source": "03-figures-0x5a6168.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-studio-0x5a9580.jpg",
+    "width": 1280,
+    "height": 853,
+    "sha1": "81ec1465",
+    "source": "04-studio-0x5a9580.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-dark-room-studio-mirror-0x5a5515.jpg",
+    "width": 1081,
+    "height": 1600,
+    "sha1": "fdeb6fae",
+    "source": "05-dark-room-studio-mirror-0x5a5515.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-daylight-studio-0x5a4577.jpg",
+    "width": 1081,
+    "height": 1600,
+    "sha1": "15aeb4a6",
+    "source": "06-daylight-studio-0x5a4577.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-daylight-studio-model-study-0x5a2323.jpg",
+    "width": 1095,
+    "height": 1584,
+    "sha1": "91db4cd4",
+    "source": "07-daylight-studio-model-study-0x5a2323.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-twilight-studio-x5a6433.jpg",
+    "width": 1600,
+    "height": 1089,
+    "sha1": "78e564e6",
+    "source": "08-twilight-studio-x5a6433.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-daylight-studio-mirror-dsf2371.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "a5cda3fe",
+    "source": "09-daylight-studio-mirror-dsf2371.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-self-portrait-tests-gazing-ball.jpg",
+    "width": 1294,
+    "height": 1584,
+    "sha1": "49a97c5e",
+    "source": "10-self-portrait-tests-gazing-ball.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-studio-mirror-arrangement-dsf0714.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "bc12c902",
+    "source": "11-studio-mirror-arrangement-dsf0714.jpg",
+    "exif": {}
+  }
+]

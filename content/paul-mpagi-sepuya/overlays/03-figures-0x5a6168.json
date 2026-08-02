@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-figures-0x5a6168.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "split studio field" },
+    { "type": "horizon_line", "y": 0.834, "angle": 0, "label": "floor threshold" },
+    { "type": "subject_anchor", "x": 0.336, "y": 0.772, "r": 0.035, "label": "figure fragment" }
+  ],
+  "notes": "A low threshold and off-center split keep the figure fragments suspended between studio and reflection."
+}

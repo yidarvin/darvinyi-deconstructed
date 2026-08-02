@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-mirror-study-0x5a7387.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "mirror hinge" },
+    { "type": "horizon_line", "y": 0.726, "angle": 0, "label": "lower image edge" },
+    { "type": "subject_anchor", "x": 0.476, "y": 0.804, "r": 0.035, "label": "body fragment" }
+  ],
+  "notes": "The centered mirror hinge and low fragment make an intimate arrangement read as overlapping image layers."
+}
