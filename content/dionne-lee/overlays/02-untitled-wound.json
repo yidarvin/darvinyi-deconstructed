@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-untitled-wound.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "near-mirrored collage balance" },
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.13, "w": 0.68, "h": 0.75, "label": "assembled black field" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.53, "rx": 0.13, "ry": 0.24, "label": "red wound accents" }
+  ],
+  "notes": "A dark assembled field holds a precarious, almost mirrored set of red and white interruptions."
+}

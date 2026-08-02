@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-untitled-rock-drawing-iii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.5, "cy": 0.47, "rx": 0.3, "ry": 0.3, "label": "drawn spiral field" },
+    { "type": "polyline", "points": [[0.34, 0.51], [0.43, 0.39], [0.57, 0.43], [0.59, 0.55], [0.48, 0.6]], "label": "spiraling mark" },
+    { "type": "frame_in_frame", "x": 0.17, "y": 0.19, "w": 0.67, "h": 0.57, "label": "stone surface" }
+  ],
+  "notes": "A hand-drawn spiral makes the stone's enclosing surface read as a diagram."
+}

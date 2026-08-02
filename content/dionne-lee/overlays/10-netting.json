@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-netting.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "inverted shelter balance" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.51, "w": 0.34, "h": 0.2, "label": "central photographic insert" },
+    { "type": "polyline", "points": [[0.11, 0.18], [0.35, 0.38], [0.53, 0.55], [0.77, 0.78]], "label": "woven diagonal trace" }
+  ],
+  "notes": "A small central insert and a field of graphite-like traces organize the pale surface."
+}

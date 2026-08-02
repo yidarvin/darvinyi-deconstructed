@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-broken-signal.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "split field balance" }
+    ,{ "type": "frame_in_frame", "x": 0.12, "y": 0.21, "w": 0.76, "h": 0.57, "label": "six-part signal field" }
+    ,{ "type": "polyline", "points": [[0.24, 0.4], [0.5, 0.4], [0.76, 0.4]], "label": "upper signal row" }
+  ],
+  "notes": "Six luminous interruptions repeat inside a dark, nearly balanced signal field."
+}

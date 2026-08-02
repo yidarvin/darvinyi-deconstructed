@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-lapse.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.06, "y": 0.06, "w": 0.88, "h": 0.88, "label": "repeated eye grid" },
+    { "type": "polyline", "points": [[0.1, 0.22], [0.9, 0.22]], "label": "repetition band" },
+    { "type": "polyline", "points": [[0.1, 0.5], [0.9, 0.5]], "label": "midpoint repetition band" }
+  ],
+  "notes": "A dense grid of repeated eyes turns photographic time into a visibly accumulated surface."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-trespass-is-the-most-beautiful-word.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.52, "rx": 0.3, "ry": 0.35, "label": "central floral aperture" },
+    { "type": "polyline", "points": [[0.22, 0.38], [0.31, 0.59], [0.35, 0.81]], "label": "left enclosing hand" },
+    { "type": "polyline", "points": [[0.79, 0.38], [0.7, 0.59], [0.66, 0.81]], "label": "right enclosing hand" }
+  ],
+  "notes": "Two hands enclose a floral photographic aperture within a deep black surround."
+}
