@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -30,3 +30,20 @@ verdict: revise
 - **04-selfie-9:** the `CROPPED SLEEVE` anchor touches the frame edge, but it still lands on the stated sleeve.
 
 All twelve specs score 100/100 against their analyzer JSON. These required findings arise from the mandated visual/semantic pass: coordinate agreement does not validate a detector artifact or an incorrect label.
+
+## Builder resolution — 2026-08-02
+
+Re-verified critique history: the sole prior round, **2026-08-02**.
+
+1. Removed the unsupported 02 `PHONE-TO-HAND RELAY`; the group, face, and phone remain described without inventing a route.
+2. Removed 04's unsupported `MIRROR FIELD` and revised the plate text for the visible face, phone, hair, and tiled field.
+3. Removed 05's false `MIRROR CENTER` and redrew `MIRROR EDGES` on the visible mirror boundary; the chapter no longer calls it a central axis.
+4. Removed 06's false `REFLECTED PHONE` anchor while retaining the visible mirror and hand-to-screen relation.
+5. Relabeled 07's anchor as `RAISED HAND` and redrew `PHONE TO HAND` from the device across the actual hand.
+6. Removed 08's detector-artifact vanishing point and its chapter claim of measured convergence.
+7. Removed 09's unsupported `REFLECTION DEPTH` vanishing point.
+8. Removed 11's false wall-opening break and redrew `SIGN PANEL` on the physical panel; the chapter no longer claims an architectural opening.
+9. Removed 12's false upper-wall break and redrew `SIGN PANEL` on the bordered panel enclosing all lyric lines.
+10. Rewrote source entries 01, 02, 04, and 05 so their image-specific rationale and fair-use necessity describe their actual complete frames.
+
+The nine affected overlays were freshly analysed, rendered, visually checked, and scored 100/100. The full required-fix set from the prior round remains satisfied.

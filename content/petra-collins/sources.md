@@ -26,16 +26,16 @@ states the image-specific pedagogical necessity.
 
 ### 01 — *Untitled (Selfie series; portfolio file “pdf-2”)* (2013–15, series begun 2013)
 
-- **Why it matters:** A pink neon sentence fills the upper wall while the dark screen below becomes a heavy counter-rectangle, making text, glow, and absence a clear lesson in stacked horizontal fields.
+- **Why it matters:** A hand holds a lit phone whose screen contains a woman's face; the device becomes a small bright image nested inside a broad brown field.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-2.jpg`.
-- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The complete 800 × 537px frame is needed to teach the upper/lower weight shift and spill of magenta light; this credited, linked web copy is criticism and scholarship, not a substitute for a print or licensed use.
+- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The complete 800 × 537px frame is needed to teach the hand, phone, and contained face against the surrounding brown field; this credited, linked web copy is criticism and scholarship, not a substitute for a print or licensed use.
 - **File:** `raw/petra-collins/01-selfie-pdf-2.jpg` (800 × 537px).
 
 ### 02 — *Untitled (Selfie series; portfolio file “pdf-8”)* (2013–15, series begun 2013)
 
-- **Why it matters:** A second lyric-like neon block is centered high in an otherwise black room, allowing the eye to read line breaks as a vertical rhythm rather than merely as words.
+- **Why it matters:** Faces, hands, and a small phone close into an inward-looking group, making the device a social link rather than an isolated object.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-8.jpg`.
-- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The whole 800 × 537px frame is necessary to analyse the centered text mass against the surrounding dark field; it is a web-sized, credited, linked transformative teaching copy and does not replace a licensed reproduction.
+- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The whole 800 × 537px frame is necessary to analyse the group’s close spacing, hands, and phone; it is a web-sized, credited, linked transformative teaching copy and does not replace a licensed reproduction.
 - **File:** `raw/petra-collins/02-selfie-pdf-8.jpg` (800 × 537px).
 
 ### 03 — *Untitled (Selfie series; portfolio file “10”)* (2013–15, series begun 2013)
@@ -47,16 +47,16 @@ states the image-specific pedagogical necessity.
 
 ### 04 — *Untitled (Selfie series; portfolio file “9”)* (2013–15, series begun 2013)
 
-- **Why it matters:** The image uses colored low light to suppress ordinary room detail, directing attention to a small illuminated zone and the emotional force of surrounding negative space.
+- **Why it matters:** A cropped face, raised arm, and upright phone push into a pale tiled bathroom, making a private viewing gesture read through shallow, soft space.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/9.jpg`.
-- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The full 800 × 537px frame is required to teach the ratio of glow to dark negative space; this is a limited, credited, linked analytical use and not a replacement for the artist's work.
+- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The full 800 × 537px frame is required to teach the relation of face, raised arm, phone, and tiled field; this is a limited, credited, linked analytical use and not a replacement for the artist's work.
 - **File:** `raw/petra-collins/04-selfie-9.jpg` (800 × 537px).
 
 ### 05 — *Untitled (Selfie series; portfolio file “pdf-3”)* (2013–15, series begun 2013)
 
-- **Why it matters:** A close, deliberately soft image lets color and facial/body fragments hold the frame together, offering a compact study in how focus can be traded for atmosphere.
+- **Why it matters:** Two hands hold phones across a bathroom mirror, so the reflected face and the device’s screen create nested acts of looking inside a warm tiled room.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-3.jpg`.
-- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The complete 800 × 537px crop is needed to analyse the relationship of soft edges to the image margins; the copy is web-sized criticism, credited and linked to the portfolio, and does not displace licensed reproduction.
+- **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The complete 800 × 537px frame is needed to analyse the mirror boundary, hands, devices, and reflected face together; the copy is web-sized criticism, credited and linked to the portfolio, and does not displace licensed reproduction.
 - **File:** `raw/petra-collins/05-selfie-pdf-3.jpg` (800 × 537px).
 
 ### 06 — *Untitled (Selfie series; portfolio file “41”)* (2013–15, series begun 2013)
