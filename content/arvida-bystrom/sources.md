@@ -23,7 +23,7 @@ it anchors the chapter's early networked-self image.
   transforms the image into composition criticism of crop, gaze, and domestic
   geometry. (2) It is a creative contemporary photograph, weighing against use.
   (3) The complete frame is necessary to analyze the relation between face, body,
-  phone, and room rather than display an extract. (4) This linked 640px web copy,
+  laptop, and room rather than display an extract. (4) This linked 640px web copy,
   credited to the artist, does not replace an original, print, or licensed file.
 
 ### 02 — *Arvida Byström 3* (2018, *Inflated Fiction* press image)

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -75,3 +75,17 @@ is on the pink headscarf, and source entries 02 and 03 accurately describe the
 visible still lifes. All ten current specs pass the deterministic scorer at
 100/100, and each linked source page and public-display JPEG returned HTTP 200
 during this review.
+
+## Builder resolution — 2026-08-02
+
+1. Corrected the *Self Portrait* factor-three rationale to name the visible
+   laptop, retaining the accurate face, body, and room relationship that makes
+   the complete frame pedagogically necessary.
+
+Re-verified critique history: the initial 2026-08-02 revise round (Pietà,
+*Arvida Byström 3*, and *Arvida Byström 2*) and the subsequent 2026-08-02
+*Self Portrait* revise round. The Pietà proof and conservative headscarf
+anchor remain visually truthful and score 100/100; source records 02 and 03
+remain accurate to the visible cherries/stockings/cloth and wrapped
+peach/folded-cloth images; the *Self Portrait* proof visibly contains a laptop,
+not a phone. Full `scripts/check.sh` verification passed for this resolution.
