@@ -4,7 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.381, "y": 0.464, "r": 0.04, "label": "PHONE IMAGE" },
-    { "type": "frame_in_frame", "x": 0.238, "y": 0.0, "w": 0.600, "h": 0.785, "label": "MIRROR EDGES" },
+    { "type": "polyline", "points": [[0.338,0.000],[0.335,0.380],[0.333,0.690]], "label": "MIRROR EDGE" },
     { "type": "horizon_line", "y": 0.703, "angle": 7.9, "label": "TILE-COUNTER BREAK" }
   ],
   "notes": "The mirror's visible edges double arms and device, making self-portraiture a layered act of looking."

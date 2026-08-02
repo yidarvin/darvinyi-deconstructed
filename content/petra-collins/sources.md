@@ -24,63 +24,63 @@ states the image-specific pedagogical necessity.
 
 ## Acquired shortlist
 
-### 01 — *Untitled (Selfie series; portfolio file “pdf-2”)* (2013–15, series begun 2013)
+### 01 — *Untitled (Selfie series; portfolio file “pdf-2”)* (series ongoing since 2013)
 
 - **Why it matters:** A hand holds a lit phone whose screen contains a woman's face; the device becomes a small bright image nested inside a broad brown field.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-2.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The complete 800 × 537px frame is needed to teach the hand, phone, and contained face against the surrounding brown field; this credited, linked web copy is criticism and scholarship, not a substitute for a print or licensed use.
 - **File:** `raw/petra-collins/01-selfie-pdf-2.jpg` (800 × 537px).
 
-### 02 — *Untitled (Selfie series; portfolio file “pdf-8”)* (2013–15, series begun 2013)
+### 02 — *Untitled (Selfie series; portfolio file “pdf-8”)* (series ongoing since 2013)
 
 - **Why it matters:** Faces, hands, and a small phone close into an inward-looking group, making the device a social link rather than an isolated object.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-8.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The whole 800 × 537px frame is necessary to analyse the group’s close spacing, hands, and phone; it is a web-sized, credited, linked transformative teaching copy and does not replace a licensed reproduction.
 - **File:** `raw/petra-collins/02-selfie-pdf-8.jpg` (800 × 537px).
 
-### 03 — *Untitled (Selfie series; portfolio file “10”)* (2013–15, series begun 2013)
+### 03 — *Untitled (Selfie series; portfolio file “10”)* (series ongoing since 2013)
 
 - **Why it matters:** The photographed display turns a private-looking image into a frame within a frame, useful for tracing how screens and borders mediate intimacy.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/10.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” Complete framing is pedagogically required to discuss the nested boundary and screen/room relation in this 800 × 537px copy; the contextual, linked critique is web-sized and non-substitutive.
 - **File:** `raw/petra-collins/03-selfie-10.jpg` (800 × 537px).
 
-### 04 — *Untitled (Selfie series; portfolio file “9”)* (2013–15, series begun 2013)
+### 04 — *Untitled (Selfie series; portfolio file “9”)* (series ongoing since 2013)
 
 - **Why it matters:** A cropped face, raised arm, and upright phone push into a pale tiled bathroom, making a private viewing gesture read through shallow, soft space.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/9.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The full 800 × 537px frame is required to teach the relation of face, raised arm, phone, and tiled field; this is a limited, credited, linked analytical use and not a replacement for the artist's work.
 - **File:** `raw/petra-collins/04-selfie-9.jpg` (800 × 537px).
 
-### 05 — *Untitled (Selfie series; portfolio file “pdf-3”)* (2013–15, series begun 2013)
+### 05 — *Untitled (Selfie series; portfolio file “pdf-3”)* (series ongoing since 2013)
 
 - **Why it matters:** Two hands hold phones across a bathroom mirror, so the reflected face and the device’s screen create nested acts of looking inside a warm tiled room.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-3.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The complete 800 × 537px frame is needed to analyse the mirror boundary, hands, devices, and reflected face together; the copy is web-sized criticism, credited and linked to the portfolio, and does not displace licensed reproduction.
 - **File:** `raw/petra-collins/05-selfie-pdf-3.jpg` (800 × 537px).
 
-### 06 — *Untitled (Selfie series; portfolio file “41”)* (2013–15, series begun 2013)
+### 06 — *Untitled (Selfie series; portfolio file “41”)* (series ongoing since 2013)
 
 - **Why it matters:** A tightly staged interior uses a saturated color field to flatten depth and make a figure read as a selected visual surface rather than a candid subject.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/41.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” Whole-frame access at 800 × 537px is necessary to teach flattening and the color/figure hierarchy; this small, credited, linked teaching use is transformative and non-substitutive.
 - **File:** `raw/petra-collins/06-selfie-41.jpg` (800 × 537px).
 
-### 07 — *Untitled (Selfie series; portfolio file “pdf-9”)* (2013–15, series begun 2013)
+### 07 — *Untitled (Selfie series; portfolio file “pdf-9”)* (series ongoing since 2013)
 
 - **Why it matters:** The frame makes an intimate gesture read through a close crop, testing how an edge can turn an ordinary pose into a deliberately withheld narrative.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-9.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The uncut 800 × 537px frame is required to discuss the intentional crop and edge pressure; this is limited, credited, linked criticism rather than a market substitute.
 - **File:** `raw/petra-collins/07-selfie-pdf-9.jpg` (800 × 537px).
 
-### 08 — *Untitled (Selfie series; portfolio file “pdf-13”)* (2013–15, series begun 2013)
+### 08 — *Untitled (Selfie series; portfolio file “pdf-13”)* (series ongoing since 2013)
 
 - **Why it matters:** Colored illumination and shallow space turn the picture into a field of near-equal surfaces, an instructive example of mood created by chromatic compression.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-13.jpg`.
 - **Use basis: fair-use.** Creator/rightsholder notice: © Petra Collins; “All content copyright the artist. No commercial use without express written permission.” The whole 800 × 537px composition is needed to analyse its color-field balance and shallow depth; the credited, linked web copy is transformative scholarly use and does not replace a print or licence.
 - **File:** `raw/petra-collins/08-selfie-pdf-13.jpg` (800 × 537px).
 
-### 09 — *Untitled (Selfie series; portfolio file “pdf-14”)* (2013–15, series begun 2013)
+### 09 — *Untitled (Selfie series; portfolio file “pdf-14”)* (series ongoing since 2013)
 
 - **Why it matters:** The image joins a close personal viewpoint to a carefully arranged colored setting, showing how the series turns self-fashioning into formal staging.
 - **Source:** [Petra Collins, *Selfie*](https://petra-collins.com/selfie/) — direct public display file: `https://petra-collins.com/wp-content/uploads/2015/09/pdf-14.jpg`.

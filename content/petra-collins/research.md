@@ -2,7 +2,7 @@
 
 ## Documented record
 
-The selected works come from Petra Collins’s own public portfolio. Its [*Selfie*](https://petra-collins.com/selfie/) page describes an ongoing series begun in 2013, about teenage girlhood and young women’s ability to create, curate, and distribute their own pictures. The source record groups the selected portfolio files as 2013–15. The [*Neon Works*](https://petra-collins.com/neon-works/) page dates the related three images to 2014–15. The works are artist-copyrighted web images; the source notes preserve the per-image fair-use rationale for their contextual use in this critical chapter.
+The selected works come from Petra Collins’s own public portfolio. Its [*Selfie*](https://petra-collins.com/selfie/) page describes an ongoing series begun in 2013, about teenage girlhood and young women’s ability to create, curate, and distribute their own pictures; it does not provide per-image dates for these selected display files. The [*Neon Works*](https://petra-collins.com/neon-works/) page dates the related three images to 2014–15. The works are artist-copyrighted web images; the source notes preserve the per-image fair-use rationale for their contextual use in this critical chapter.
 
 The two bodies of work share a staged, intimate vocabulary but make its mediation visible in different ways. *Selfie* repeatedly places a phone, mirror, or phone-screen image within a room and within a body’s reach. *Neon Works* replaces the body with installed writing: pink lettering and its spill become both light source and subject. In either case the frame is an arrangement of display surfaces, reflections, colored fields, and thresholds.
 

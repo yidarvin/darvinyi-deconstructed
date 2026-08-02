@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -62,3 +62,14 @@ The nine affected overlays were freshly analysed, rendered, visually checked, an
 
 - **01-selfie-pdf-2:** `SCREEN WITHIN ROOM` frames the upper portion of the phone and only part of its illuminated display. It still clearly identifies the nested screen; tighten the frame to the full visible display if revising the overlay.
 - **04-selfie-9:** `CROPPED SLEEVE` is an edge fragment encoded as a `subject_anchor`. The label remains accurate, but another primitive type could express the crop more directly.
+
+## Builder resolution — 2026-08-02
+
+Re-verified the full critique history: the initial 2026-08-02 ten-item round and the subsequent 2026-08-02 three-item round. The earlier corrections remain intact: unsupported mirror fields, central-axis, reflected-phone, convergence, reflection-depth, architectural-break, and text-field claims remain removed or replaced with visible structures; source entries 01, 02, 04, and 05 continue to describe their actual frames.
+
+1. Replaced all nine unsupported *Selfie* date ranges in the plate labels and source-record headers with “series ongoing since 2013”; research now explicitly says that the selected portfolio files have no published per-image dates.
+2. Removed 02’s false `RIGHT-EDGE FACE` saliency anchor, retaining only the accurate close-group claim.
+3. Redrew 07’s `PHONE TO HAND` polyline from the visible phone down the raised hand.
+4. During the required history check, replaced 05’s inaccurate rectangular mirror frame with a line on its visible vertical mirror edge; replaced 06’s broad mirror frame with the visible phone-screen frame; and removed stale 04/11 proof-contact-sheet wording that repeated the earlier rejected mirror-field and architectural-void claims.
+
+The affected overlays (02, 05, 06, and 07) were freshly analysed, rendered, visually checked, and scored 100/100. `scripts/check.sh` passes, and content and rendered chapter files are byte-identical.

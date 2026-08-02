@@ -3,8 +3,7 @@
   "image": "02-selfie-pdf-8.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.495, "cy": 0.392, "rx": 0.32, "ry": 0.30, "label": "CLOSE GROUP" },
-    { "type": "subject_anchor", "x": 0.992, "y": 0.486, "r": 0.04, "label": "RIGHT-EDGE FACE" }
+    { "type": "ellipse", "cx": 0.495, "cy": 0.392, "rx": 0.32, "ry": 0.30, "label": "CLOSE GROUP" }
   ],
   "notes": "Faces, hands, and a small phone form a tight, inward-looking social knot."
 }

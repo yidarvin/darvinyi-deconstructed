@@ -3,8 +3,8 @@
   "image": "06-selfie-41.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.050, "y": 0.0, "w": 0.455, "h": 0.465, "label": "MIRROR" },
-    { "type": "polyline", "points": [[0.235,0.773],[0.349,0.634],[0.471,0.557]], "label": "HANDS TO SCREEN" }
+    { "type": "frame_in_frame", "x": 0.418, "y": 0.354, "w": 0.089, "h": 0.320, "label": "PHONE SCREEN" },
+    { "type": "polyline", "points": [[0.235,0.773],[0.349,0.634],[0.471,0.557]], "label": "HANDS TO PHONE" }
   ],
   "notes": "Warm tiled surfaces turn a mirror selfie into a shallow set of nested rectangles."
 }
