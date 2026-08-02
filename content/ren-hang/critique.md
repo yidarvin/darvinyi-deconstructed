@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -62,3 +62,9 @@ Re-verified critique history: the 2026-08-02 fair-use/source-note round and its 
 - Looked at all eleven current proof PNGs against their matching overlay specs. Apart from the two required corrections above, the labels trace visible kisses, contours, faces, leaf/ground break, fish, horse, dove, powder, rooftop, braid/flowers, and red hands; each overlay retains three or four compositionally relevant primitives.
 - Re-ran strict scoring on every spec: ten score 100/100 and `03-untitled-46` scores 92/100; all pass the 80 threshold. The score does not detect the two semantic errors above, which are visible in the current proofs.
 - Rechecked all eleven Blindspot Gallery display-file URLs and the estate gallery record: each returned HTTP 200. Every source entry retains a traceable link, credit, and image-specific four-factor fair-use rationale. Chapter and research claims match the visible plates and measured web-file data, and state no undocumented camera settings.
+
+## Resolution — 2026-08-02
+
+Resolved required fixes 1–2. `01-untitled-16` now marks each visible lip-contact point with a small labeled contact ellipse (`UPPER KISS` at `(0.444, 0.324)` and `LOWER KISS` at `(0.514, 0.707)`). These replace the detector-led subject anchors, which were visibly in hair rather than at the kisses. `04-untitled-50` now replaces the false `STEM CONVERGENCE` vanishing point with a literal `FALLEN LOTUS STEM` contour tracing the visible fallen stem. The advisory metadata wording in `11-untitled-52` now also says “chest.”
+
+Re-verified critique history: all three 2026-08-02 rounds — the fair-use/source-note correction, the `11-untitled-52` chest-caption correction, and this overlay-correction round. The six source entries retain their corrected actual-frame descriptions and image-specific necessity rationales; the rendered and source chapter copies remain byte-identical and identify the final plate as a chest. I re-analyzed the two changed plates, visually checked their rendered proofs, and re-ran strict scoring across all eleven overlays: ten score 100/100 and `03-untitled-46` scores 92/100, all above the 80 threshold. The previously settled `03-untitled-46` phi-grid preference remains advisory and unchanged. `scripts/check.sh` passes.
