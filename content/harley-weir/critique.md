@@ -1,0 +1,19 @@
+verdict: revise
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. `06-unpublished-june-2016` — The `leading_line` labelled `RECLINING DIAGONAL` is not the reclining body contour it names. Its current endpoints (`[0.008, 0.326]` to `[0.997, 0.976]`) begin and end in empty grass and cut across the figure. Reposition it onto the pictured bodily diagonal, relabel it for the actual visible structure, or remove it; then make the accompanying caption/prose agree with the revised claim.
+2. `09-father-02` — The `HAIR-TO-PROFILE` polyline begins at the hair but then runs diagonally across the figure's interior (`[0.44, 0.15]` → `[0.53, 0.26]` → `[0.59, 0.37]`) instead of tracing the named hair/profile contour. Redraw it on that contour, rename it to the feature it actually traces, or omit it.
+3. `12-father-07` — The `DRIP TRACE` polyline (`[0.15, 0.10]` → `[0.39, 0.21]` → `[0.61, 0.17]` → `[0.80, 0.06]`) traverses the broad pale blooms rather than the image's fine drips. It therefore contradicts the chapter's statement that the trace identifies the drips. Place it on a visible drip path, rename it for the actual feature, or remove the claim and reconcile the prose.
+
+### Advisory (non-blocking)
+
+- `04-i-d-magazine-fall-2015` — The `SUBMERGED FIGURE` ellipse reads most precisely as the face/raised-arm cluster; the extended leg remains outside it. Consider a more scoped label such as `SUBMERGED UPPER BODY` if retaining the current bounds.
+- `02-baron-magazine-2013` — `BACK CONTOUR` crosses the body surface in its lower half rather than staying on the silhouette. It remains understandable, but tightening it or calling it a body sweep would be clearer.
+- `03-double-magazine-ss-2016` — The `UPPER LIP` ellipse includes a substantial surrounding skin field. A slightly tighter ellipse or `UPPER-MOUTH FIELD` label would be more exact.
+- `08-dazed-confused-fall-2015` — `MOLDED FRUIT` is potentially ambiguous in ordinary English; `MOLDY FRUIT` would more directly name the visible condition.
+- `12-father-07` — The visible blooms and drips support the reading, but `emulsion` asserts a material process not established for this individual plate in the cited record. Consider using visible-surface language or adding image-specific process evidence.
+
+Source integrity, image-to-record traceability, credit/rights notices, fair-use rationales, and the chapter's refusal to invent camera settings all passed this review. The source links returned public display records/renditions during this audit.
