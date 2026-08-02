@@ -3,9 +3,7 @@
   "image": "01-darkroom-mirror-2220232.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.415, "angle": 0, "label": "mirror-light seam" },
-    { "type": "leading_line", "points": [[0.346, 0.495], [0.812, 0.786]], "arrow": true, "label": "arm-to-knee diagonal" },
-    { "type": "subject_anchor", "x": 0.479, "y": 0.569, "r": 0.035, "label": "reflected figure" }
+    { "type": "subject_anchor", "x": 0.479, "y": 0.569, "r": 0.035, "label": "camera-hand exchange" }
   ],
-  "notes": "A mirror seam and a diagonal reflected arm turn the darkroom into an interrupted relay of looking."
+  "notes": "The camera and the hand that works it make the mirror a compact relay of looking."
 }

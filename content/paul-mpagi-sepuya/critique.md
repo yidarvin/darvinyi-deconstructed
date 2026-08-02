@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -21,3 +21,9 @@ verdict: revise
 - **04-studio-0x5a9580** — `SCREEN FIELD` is a broad compositional zone whose bounds do not read strongly as one internal frame. It is not blocking, but a zone-oriented label or a more conservative primitive would teach more clearly.
 - **09-daylight-studio-mirror-dsf2371** — The `CONVERGING STUDIO EDGES` vanishing-point claim is visually subtle: the marker is at the camera and the visible diagonals are not an especially legible perspective set. It is within the analyzer’s suggested geometry, so this is advisory only; simplify or relabel if retaining it does not make the lesson clearer.
 - All eleven gallery work-page links resolve, the fair-use entries contain the required four-factor rationale, and the chapter’s quoted tonal, palette, and edge-density measurements match the analyzer outputs. No invented camera settings were found.
+
+## Builder resolution — 2026-08-02
+
+Resolved all six required items. Re-rendered and visually checked the affected overlays: 01 now retains only the truthful camera-hand anchor; 03 and 11 remove the unsupported vertical axes; 06 traces the narrow left mirror strip; and 08 traces the wheeled screen. Each revised proof scored 100/100. The optional 09 vanishing-point claim was also removed as a clearer conservative reading. Updated the chapter captions and prose to match, in both rendered chapter copies. Replaced all eleven unsupported copyright/rightsholder assertions with the gallery’s factual artist attribution and source record, and distinguished documented finished-print media from undocumented capture and production details in `research.md`.
+
+Re-verified prior critique rounds: 2026-08-02 (the complete prior history). `scripts/check.sh` passed after these changes.

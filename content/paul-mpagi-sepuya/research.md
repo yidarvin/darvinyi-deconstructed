@@ -2,7 +2,7 @@
 
 ## Scope of the record
 
-The supplied source record documents eleven works shown by Galerie Peter Kilchmann, dated 2018–2024, and identifies Paul Mpagi Sepuya as the copyright holder. It verifies the titles, dates, and the artist’s use of mirrors, cameras, bodies, screens, props, and studio fragments in these particular photographs. It does not document a common camera body, lens, exposure, film stock, print process, lighting diagram, or post-production method. The normalized files contain no retained EXIF metadata. None of those technical particulars is therefore attributed here.
+The supplied source record documents eleven works shown by Galerie Peter Kilchmann, dated 2018–2024, and identifies Paul Mpagi Sepuya as the artist on each linked work page. Those pages document the finished works’ print media: for example, *Daylight Studio (0X5A4577)* is an archival pigment print, while *Daylight Studio Mirror (_DSF2371)* is an archival pigment print on dibond on a wheeled wooden frame. The pages do not display an artwork-specific copyright notice, so this record does not infer a rightsholder. They also do not document a common camera body, lens, exposure, film stock, capture process, lighting diagram, or post-production method. The normalized files contain no retained EXIF metadata. None of those capture or production particulars is therefore attributed here.
 
 ## Working observations
 

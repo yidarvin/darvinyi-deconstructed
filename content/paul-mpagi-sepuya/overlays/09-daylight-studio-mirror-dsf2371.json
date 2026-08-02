@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "mirror center" },
     { "type": "horizon_line", "y": 0.678, "angle": 0, "label": "lower reflection edge" },
-    { "type": "vanishing_point", "x": 0.45, "y": 0.46, "label": "converging studio edges" },
     { "type": "subject_anchor", "x": 0.444, "y": 0.522, "r": 0.035, "label": "camera-and-figure relay" }
   ],
-  "notes": "The square mirror frame centers a relay of camera, figure, and converging studio edges."
+  "notes": "The square mirror frame centers a relay of camera, figure, and lower reflection edge."
 }
