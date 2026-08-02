@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "image": "14-rondell-love.jpg",
+  "width": 1280,
+  "height": 1600,
+  "aspect": 0.8,
+  "tonal": {
+    "mean": 0.5357891300216668,
+    "std": 0.29811239555330044,
+    "p05": 0.12549019607843137,
+    "p95": 0.9372549019607843,
+    "edge_density": 0.004483363858363859
+  },
+  "palette": [
+    "#e7e4d4",
+    "#55433f",
+    "#796859",
+    "#2f2123",
+    "#ac9885"
+  ],
+  "lines": [
+    {
+      "x1": 0.8473748473748474,
+      "y1": 0.0234375,
+      "x2": 0.8815628815628815,
+      "y2": 0.275390625,
+      "angle_deg": 83.80609503284902,
+      "length": 0.1979164292675387,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.8803418803418803,
+      "y1": 0.2587890625,
+      "x2": 0.9023199023199023,
+      "y2": 0.4208984375,
+      "angle_deg": 83.8113840367584,
+      "length": 0.12734030334324,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.8437118437118437,
+      "y1": 0.0009765625,
+      "x2": 0.8571428571428571,
+      "y2": 0.1015625,
+      "angle_deg": 83.90413845540418,
+      "length": 0.07899859299457919,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.7094017094017094,
+      "y1": 0.6865234375,
+      "x2": 0.7496947496947497,
+      "y2": 0.6044921875,
+      "angle_deg": -68.55226367289465,
+      "length": 0.06882798251273511,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.7900390625,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.8717948717948718,
+      0.4912109375
+    ],
+    "regions": [
+      {
+        "cx": 0.8396305902955608,
+        "cy": 0.48006767460294514,
+        "x": 0.7301587301587301,
+        "y": 0.330078125,
+        "w": 0.2698412698412698,
+        "h": 0.2958984375,
+        "area_frac": 0.030931633470695972
+      },
+      {
+        "cx": 0.3366796922789064,
+        "cy": 0.7141393075679436,
+        "x": 0.30158730158730157,
+        "y": 0.6767578125,
+        "w": 0.07203907203907203,
+        "h": 0.0751953125,
+        "area_frac": 0.003641540750915751
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8226618248705699,
+    "vertical_axis_x": 0.475,
+    "horizontal": 0.7566216542032225,
+    "horizontal_axis_y": 0.6125
+  },
+  "subject_anchor": {
+    "x": 0.8717948717948718,
+    "y": 0.4912109375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.79,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.475,
+      "confidence": 0.82,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.872,
+      "y": 0.491,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

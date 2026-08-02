@@ -21,19 +21,19 @@ All twelve selections are copyrighted, not open-licensed. The use basis for **ea
    A single figure is balanced against a densely particular environment, resisting the isolated portrait by making social space part of the subject. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.
 
 5. **Cross, 2019** — `07-cross.jpg`  
-   The landscape's strong axial structure and the cross-like interruption make built space read as a record of time, memory, and removal. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood); [MoMA collection record](https://www.moma.org/collection/works/407729). Use basis: **fair-use**, with the four-factor rationale above.
+   A traffic signal, brick courses, boarded openings, and a rust-marked door make the built façade read as a layered record of time and removal. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood); [MoMA collection record](https://www.moma.org/collection/works/407729). Use basis: **fair-use**, with the four-factor rationale above.
 
 6. **Jerrod (talking about hoods), 2019** — `08-jerrod-hoods.jpg`  
    The portrait uses the frame's vertical enclosure and the sitter's placement to make looking, belief, and representation part of the image's subject. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.
 
 7. **Court, 2019** — `09-court.jpg`  
-   The architectural view converts recession, fencing, and empty foreground into an image of policy-made distance; it is a crucial counter-rhythm to the portraits. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.
+   A pair of basketball backboards, chain-link fence, overhead wires, and a large tree make a neighborhood court an image of distance and enclosure; it is a crucial counter-rhythm to the portraits. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.
 
 8. **Terri (talking about the freeway), 2019** — `10-terri-freeway.jpg`  
    The portrait's environmental detail joins a person to the freeway history named in its title, showing how contextual space can carry narrative pressure. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood); [MoMA collection record](https://www.moma.org/collection/works/407725). Use basis: **fair-use**, with the four-factor rationale above.
 
 9. **Pawn, 2019** — `11-pawn.jpg`  
-   Its concentrated object/figure arrangement helps teach Murff's ability to turn a small visual clue into a charged symbolic relation without flattening the scene into illustration. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.
+   Its sharply focused near hand against a blurred second hand and field turns touch into a concentrated visual clue without flattening the image into illustration. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.
 
 10. **Roses, 2019** — `12-roses.jpg`  
     A deceptively quiet image uses floral form, negative space, and tonal restraint to hold mourning and endurance in the sequence's visual language. Source: [The Guardian gallery](https://www.theguardian.com/artanddesign/gallery/2021/dec/09/i-have-all-the-colours-zora-j-murff-black-neighbourhood). Use basis: **fair-use**, with the four-factor rationale above.

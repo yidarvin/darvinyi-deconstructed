@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "11-pawn.jpg",
+  "width": 1280,
+  "height": 1600,
+  "aspect": 0.8,
+  "tonal": {
+    "mean": 0.49102445799366756,
+    "std": 0.31699977624466347,
+    "p05": 0.06274509803921569,
+    "p95": 0.8666666666666667,
+    "edge_density": 0.0031001984126984125
+  },
+  "palette": [
+    "#d9d4d2",
+    "#121818",
+    "#453f3a",
+    "#886c60",
+    "#c9a394"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.673828125,
+    "angle_deg": 0.0,
+    "confidence": 0.7350544425823423,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.3028083028083028,
+      0.4296875
+    ],
+    "regions": [
+      {
+        "cx": 0.3206493841078717,
+        "cy": 0.4481428399532324,
+        "x": 0.23931623931623933,
+        "y": 0.3720703125,
+        "w": 0.15873015873015872,
+        "h": 0.1552734375,
+        "area_frac": 0.018038385225885224
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.788507521429522,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.7704313045760007,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.3028083028083028,
+    "y": 0.4296875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.6859760214731252,
+    "phi": 0.564042104375842,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.79,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.674,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.74,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.303,
+      "y": 0.43,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
