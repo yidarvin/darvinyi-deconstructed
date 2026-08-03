@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-mountain-black-heart-2015-16.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.34, "cy": 0.59, "rx": 0.13, "ry": 0.23, "label": "BLUE BOTTLE" },
+    { "type": "ellipse", "cx": 0.62, "cy": 0.57, "rx": 0.14, "ry": 0.22, "label": "GREEN BOTTLE" },
+    { "type": "polyline", "points": [[0.62, 0.42], [0.72, 0.26], [0.79, 0.12], [0.87, 0.13]], "label": "FLOWER STEM ARC" }
+  ],
+  "notes": "Reused bottles turn a tabletop into a vertical arrangement of colored glass, flowers, and reflection."
+}

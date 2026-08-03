@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-miracle-center-bottles-2018-20.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.03, 0.44], [0.31, 0.47], [0.59, 0.48], [0.91, 0.50]], "label": "WATERLINE OF OBJECTS" },
+    { "type": "ellipse", "cx": 0.66, "cy": 0.49, "rx": 0.17, "ry": 0.11, "label": "SILVER VESSEL" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.48, "rx": 0.14, "ry": 0.08, "label": "BLUE BOTTLE" }
+  ],
+  "notes": "Silver and blue objects stretch across a watery surface while mountains remain a distant band."
+}

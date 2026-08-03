@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-a-rock-that-floats-2014-16.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.352, "angle": -0.8, "label": "MOUNTAIN SILHOUETTE" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.68, "rx": 0.19, "ry": 0.14, "label": "RED ERUPTION" },
+    { "type": "polyline", "points": [[0.00, 0.34], [0.31, 0.35], [0.54, 0.31], [0.80, 0.39], [1.00, 0.37]], "label": "DARK RIDGE" }
+  ],
+  "notes": "A low mountain silhouette cuts across the red sky while the eruption makes a second, lower source of light."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-traditions-highway-girl-baby-2018.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.33, "y": 0.0, "w": 0.39, "h": 1.0, "label": "OPEN DOORWAY" },
+    { "type": "subject_anchor", "x": 0.555, "y": 0.343, "r": 0.035, "label": "MOTHER AND CHILD" },
+    { "type": "polyline", "points": [[0.33, 0.03], [0.33, 0.80], [0.37, 1.0]], "label": "DOOR JAMB" }
+  ],
+  "notes": "A doorway turns a mother and child into a bright, tightly bounded encounter."
+}

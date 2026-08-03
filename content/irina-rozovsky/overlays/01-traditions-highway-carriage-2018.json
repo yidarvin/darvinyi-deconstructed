@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-traditions-highway-carriage-2018.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.28, "y": 0.38, "w": 0.43, "h": 0.43, "label": "CARRIAGE CABIN" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.61, "rx": 0.26, "ry": 0.23, "label": "WHITE CARRIAGE MASS" },
+    { "type": "polyline", "points": [[0.22, 0.64], [0.45, 0.62], [0.67, 0.66]], "label": "WHEEL-HEIGHT RHYTHM" }
+  ],
+  "notes": "A decorated carriage is held inside hanging foliage and a low field of discarded objects."
+}

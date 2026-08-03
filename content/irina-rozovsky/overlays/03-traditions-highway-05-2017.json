@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-traditions-highway-05-2017.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.46, "cy": 0.62, "rx": 0.16, "ry": 0.12, "label": "PAIR OF PONIES" },
+    { "type": "ellipse", "cx": 0.72, "cy": 0.70, "rx": 0.09, "ry": 0.12, "label": "GOAT AT STUMP" },
+    { "type": "polyline", "points": [[0.04, 0.76], [0.29, 0.65], [0.50, 0.62], [0.74, 0.68]], "label": "CLEARING FLOOR" }
+  ],
+  "notes": "Three small animals are distributed across a wooded clearing rather than made into one centered group."
+}

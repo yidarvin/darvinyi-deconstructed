@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "08-miracle-center-bottles-2018-20.jpg",
+  "width": 1000,
+  "height": 746,
+  "aspect": 1.3405,
+  "tonal": {
+    "mean": 0.6848114282710404,
+    "std": 0.14404808016191784,
+    "p05": 0.47843137254901963,
+    "p95": 0.9098039215686274,
+    "edge_density": 0.006777479892761394
+  },
+  "palette": [
+    "#a6a49f",
+    "#8b8d8a",
+    "#e6e2dd",
+    "#d1cac5",
+    "#585f72"
+  ],
+  "lines": [
+    {
+      "x1": 0.176,
+      "y1": 0.467828418230563,
+      "x2": 0.316,
+      "y2": 0.4865951742627346,
+      "angle_deg": 5.710593137499642,
+      "length": 0.11277476425329941,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.528,
+      "y1": 0.36863270777479895,
+      "x2": 0.659,
+      "y2": 0.3806970509383378,
+      "angle_deg": 3.9301755457254806,
+      "length": 0.10524876917817598,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.198,
+      "y1": 0.44906166219839144,
+      "x2": 0.277,
+      "y2": 0.4316353887399464,
+      "angle_deg": -9.34467190209969,
+      "length": 0.06417298192308742,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.006,
+      "y1": 0.3042895442359249,
+      "x2": 0.017,
+      "y2": 0.20107238605898123,
+      "angle_deg": -81.86989764584403,
+      "length": 0.06234489425698203,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.2640750670241287,
+    "angle_deg": 0.0,
+    "confidence": 0.7643137099593724,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.664,
+      0.49865951742627346
+    ],
+    "regions": [
+      {
+        "cx": 0.6151038300323168,
+        "cy": 0.4652645463997923,
+        "x": 0.435,
+        "y": 0.3646112600536193,
+        "w": 0.344,
+        "h": 0.21715817694369974,
+        "area_frac": 0.0418941018766756
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8564969628643315,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.6615628206169154,
+    "horizontal_axis_y": 0.4125
+  },
+  "subject_anchor": {
+    "x": 0.664,
+    "y": 0.49865951742627346,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3772684560188852,
+    "phi": 0.27112170235228233,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.86,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.264,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.76,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.664,
+      "y": 0.499,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

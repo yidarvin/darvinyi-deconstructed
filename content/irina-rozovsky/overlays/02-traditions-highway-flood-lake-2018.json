@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-traditions-highway-flood-lake-2018.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.73, "y": 0.0, "w": 0.27, "h": 0.76, "label": "NEAR TREE CURTAIN" },
+    { "type": "ellipse", "cx": 0.83, "cy": 0.69, "rx": 0.025, "ry": 0.05, "label": "LONE FIGURE" },
+    { "type": "polyline", "points": [[0.00, 0.55], [0.33, 0.53], [0.62, 0.55], [0.77, 0.62]], "label": "FLOODWATER EDGE" }
+  ],
+  "notes": "A tiny person at the bank is measured against floodwater, tree trunks, and the dark near trunk."
+}

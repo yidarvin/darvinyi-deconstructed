@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-miracle-center-vesna-2018-20.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.47, "cy": 0.25, "rx": 0.12, "ry": 0.10, "label": "TURQUOISE VESSEL" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.58, "rx": 0.17, "ry": 0.18, "label": "FIGURE BELOW GLASS" },
+    { "type": "ellipse", "cx": 0.84, "cy": 0.19, "rx": 0.17, "ry": 0.18, "label": "AMBER VESSEL" }
+  ],
+  "notes": "A face and three suspended vessels are layered through a scratched, watery glass surface."
+}

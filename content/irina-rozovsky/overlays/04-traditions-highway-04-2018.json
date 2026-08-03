@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-traditions-highway-04-2018.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.28, "rx": 0.08, "ry": 0.14, "label": "DOG ON ROCK" },
+    { "type": "polyline", "points": [[0.20, 0.55], [0.42, 0.41], [0.67, 0.43], [0.82, 0.57]], "label": "ROCK RIDGE" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.74, "rx": 0.38, "ry": 0.18, "label": "CHICKEN FOREGROUND" }
+  ],
+  "notes": "A perched dog stays apart from the dense chicken foreground by means of the rock's tilted ridge."
+}
