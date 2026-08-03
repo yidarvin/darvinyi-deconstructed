@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -25,3 +25,9 @@ verdict: revise
 ### Review notes
 
 All eleven proofs were visually checked against their source images, overlay specs, and analyzer records. The remaining overlay claims are materially defensible. Chapter dates, quoted analysis values, camera-metadata caveat, credits, source routes, and per-image four-factor fair-use records are traceable and consistent with the supplied records; no settings or source-integrity blocker was found.
+
+## Builder resolution — 2026-08-02
+
+Resolved all six required items from the 2026-08-02 critique round. Plates 04, 05, 06, 07, 09, and 11 were re-analyzed, re-rendered, visually checked, and scored respectively 94, 100, 100, 94, 94, and 100. The repair removes the false vessel anchor, the invented horizontal split, the false convergence/pivot claims, and the arbitrary internal frames; the chapter prose now states only the repaired overlay claims.
+
+Critique history re-verified: 2026-08-02 (the sole prior round). Every required fix from that round remains satisfied in the current overlays, proofs, and byte-identical chapter files.

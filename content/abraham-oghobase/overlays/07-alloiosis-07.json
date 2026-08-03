@@ -3,10 +3,9 @@
   "image": "07-alloiosis-07.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.347, "y": 0.630, "label": "DRAWN PIVOT" },
-    { "type": "leading_line", "points": [[0.051, 0.907], [0.321, 0.659]], "arrow": true, "label": "DIAGRAM ARC" },
-    { "type": "frame_in_frame", "x": 0.105, "y": 0.130, "w": 0.790, "h": 0.410, "label": "TECHNICAL FIELD" },
-    { "type": "polyline", "points": [[0.430, 0.285], [0.450, 0.430], [0.440, 0.610]], "label": "HOODED SILHOUETTE" }
+    { "type": "polyline", "points": [[0.090, 0.745], [0.075, 0.565], [0.145, 0.455], [0.270, 0.410]], "label": "PRINTED ARC" },
+    { "type": "leading_line", "points": [[0.115, 0.505], [0.410, 0.505]], "arrow": false, "label": "DRAWN BASELINE" },
+    { "type": "polyline", "points": [[0.430, 0.430], [0.450, 0.330], [0.505, 0.270], [0.570, 0.345]], "label": "HOODED SILHOUETTE" }
   ],
   "notes": "A hooded body blocks the center of a printed field of pipes, arcs, and annotations."
 }
