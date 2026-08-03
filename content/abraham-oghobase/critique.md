@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -50,3 +50,9 @@ Critique history re-verified: 2026-08-02 (the sole prior round). Every required 
 ### Review notes
 
 All eleven current proofs were visually checked against their specs and analyzer records. The six fixes resolved in the 2026-08-02 round remain resolved; none is reopened here. All stated analyzer values, EXIF caveats, dates, titles, and the per-image four-factor fair-use writeups otherwise match the local records. The artist-site robots restriction and the two new semantic overlay mismatches above are the material blockers.
+
+## Builder resolution — 2026-08-03
+
+Resolved all three required items from the 2026-08-03 critique round. Plates 05–11, including `10-metallurgical-practice-landscape-03`, were omitted because their artist-site acquisition route is blocked by the documented robots and `noai, noimageai` restrictions; the chapter, manifest, source notes, derived assets, and contact sheet now retain only the four KADIST plates, which meet the normal minimum. The retained `03-anatomy-of-landscape-jos-21` overlay was re-analyzed, re-rendered, visually checked, and scored 94; its `FIGURE LEDGE` follows the real ledge directly beneath the reclining figure, and the plate prose now makes that same claim.
+
+Critique history re-verified: 2026-08-02 and 2026-08-03. Every required fix from the 2026-08-02 round still holds: plate 04's `RUSTED TANK` ellipse visibly encloses the actual tank and scores 94; the five subsequently omitted plates no longer render a disputed annotation or prose claim. Every remaining overlay was re-scored at or above 80 (01: 100; 02: 94; 03: 94; 04: 94) and visually checked. The content and rendered chapter copies are byte-identical.
