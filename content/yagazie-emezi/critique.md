@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -65,3 +65,19 @@ verdict: resolved
 - Required fix 9: replaced image 12’s false truck frame with a subject anchor on the visible security truck.
 - Fresh analysis, render, score, and visual review were run for all nine affected proofs. Scores: 02 100, 03 100, 04 94, 05 94, 06 100, 07 100, 09 100, 11 100, 12 100. The two 94-point proofs have only detector-edge warnings; their retained lines visibly trace the held cloth and bridge parapet.
 - Critique history re-verified: 2026-08-02, round 1 and round 2. Round 1’s seven removed false `vanishing_point` claims remain absent, and image 04 has no `horizon_line` claim.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. **06-endsars-EndSARSProtests-13 — add one or more truthful compositional primitives.** The proof retains only `yellow placard` and `foreground speaker` (two primitives), below the required 3–5. As a result, the overlay does not teach the other visible relation the chapter relies on: the raised white sign and the crowd’s layered depth around the speaker. Add only primitives that visibly trace those features; do not restore the previously resolved false sky-to-crowd horizon.
+
+2. **09-endsars-EndSARSProtests-39 — make the overlay teach the stated foreground-to-car relationship.** The proof has a single `foreground protester` ellipse. That correctly identifies the figure but leaves the raised fist and car—both central to the caption, notes, and chapter’s claimed wider civic space—without a compositional annotation, and falls below the required 3–5 primitives. Add 2–4 truthful primitives that follow visible features (for example, the raised arm/fist and a genuine vehicle contour or edge); do not reintroduce the road and curb claims resolved in round 2.
+
+3. **11-endsars-EndSARSProtests-67 — add a truthful third compositional primitive.** The sign-bearer ellipse and sidewalk threshold are both visually accurate, but the two-primitive proof does not reach the required 3–5 teaching marks and leaves the image’s traffic/sidewalk/green-wall balance described in the chapter unexplained. Add a visibly supported feature that clarifies that balance without reviving the round-2 `tree edge` leading-line claim.
+
+### Advisory (non-blocking)
+
+- The 04 held-cloth and 05 bridge-parapet lines each retain a detector-only 6-point warning (scores 94/100); both visibly trace the named feature, so this is not a regression or a blocking geometry failure.
+- All other proofs are materially truthful and retain the prior-round corrections. Deterministic scores are 100/100 for the remaining ten overlays.
+- Source integrity passed this review: the official archive and all twelve documented public display JPG links returned HTTP 200, and every image has a traceable fair-use record with creator credit and the required concise four-factor rationale. The chapter’s analyzer-derived figures match the current analysis files and it makes no camera-setting claims.
