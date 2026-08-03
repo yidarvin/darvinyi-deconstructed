@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -133,3 +133,34 @@ Their current chapter text and overlays remain consistent with those records.
 All eleven deterministic overlay checks pass at the 80-point threshold (ten
 100/100; `09` 97/100 with only its settled ellipse-redundancy advisory), and
 the two chapter copies remain byte-identical. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- `09-miracle-center-vesna-2018-20` retains three ellipse primitives (97/100),
+  the previously settled redundancy warning. Each still traces a distinct,
+  correctly named vessel or figure, so it does not mislead.
+- The slight top-edge label clipping on
+  `05-traditions-highway-girl-baby-2018` and
+  `10-a-rock-that-floats-2014-16` remains cosmetic and previously settled.
+
+### Review record
+
+- Looked at all eleven current proof PNGs against their underlying photographs,
+  overlay specifications, and analyzer records. Every primitive names and
+  traces a visible feature, with three composition-teaching primitives per
+  image. Rechecked prior resolved source and subject-identification fixes;
+  none has regressed.
+- Re-ran the deterministic overlay checks: ten proofs score 100/100 and
+  `09-miracle-center-vesna-2018-20` scores 97/100 solely for the non-blocking
+  three-ellipse warning. All pass the 80-point threshold. The chapter's cited
+  derivative measurements agree with the analysis JSON within the stated
+  tolerance, and it asserts no camera settings.
+- All eleven linked CPM Gallery display files returned public HTTP 200
+  responses without authentication. Each source entry retains its credit,
+  direct route, and documented fair-use rationale, including all four factors.
