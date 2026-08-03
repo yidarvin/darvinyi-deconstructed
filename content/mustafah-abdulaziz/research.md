@@ -2,7 +2,7 @@
 
 ## What the supplied records establish
 
-The supplied Leica Oskar Barnack Award finalist record identifies Mustafah Abdulaziz (born 1986) and presents this selection from his long-term *Water* project. The project began in 2011; the 2019 finalist page records support from the United Nations, WaterAid, and WWF and supplies the place-based captions used in this chapter. The supplied records establish the project period 2011–2019, but not individual exposure years for these frames. The artist's current *Water* portfolio confirms that these are part of a larger body.
+The supplied Leica Oskar Barnack Award finalist record identifies Mustafah Abdulaziz (born 1986) and presents this selection from his long-term *Water* project. The project began in 2011; the 2019 finalist page records support from the United Nations, WaterAid, and WWF and supplies the place-based captions used in this chapter. The supplied records do not establish a project end date or individual exposure years for these frames. The artist's current *Water* portfolio confirms that these are part of a larger body.
 
 In the supplied sequence, water is a condition that changes scale and relation: an irrigated leisure enclosure is bounded by desert; dead trees are reflected in flooded ground; a bridge, a reservoir, or a stranded ship turns infrastructure into a visible measure; a body with a water vessel or a crowded lesson gives the subject human scale. These are observations of the supplied frames and their documented captions, not claims about a hidden production process. All source links, credits, captions, and image-specific fair-use rationales are preserved in [sources.md](sources.md).
 

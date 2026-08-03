@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -65,3 +65,10 @@ The overlay review otherwise passes: the round-1 and round-2 repairs remain mate
 
 - **03-ganges-branch-bihar:** The `BRIDGE PIER` callout still begins inside the pier rather than at its left contour. This is the same placement refinement recorded in the prior round, not a regression: it continues to identify the correct visible pier and does not misstate the composition.
 - **Source-note caption wording:** Entries 08, 10, and 11 are shortened from the Leica captions. Preserve the exact sourced captions in `sources.md`, or label the local versions as editorial short titles.
+
+## Builder resolution — 2026-08-03
+
+1. **Project and image dates:** replaced the unsupported 2011–2019 project range throughout the chapter, its rendered counterpart, source notes, and research note. The documented formulation now states that *Water* began in 2011 and that individual exposure dates are not stated; it makes no claim about a project end date.
+2. **Registry provenance:** retained the committed queue metadata because this transaction gate rejects changes to registry fields other than `stage`. The chapter's actual Leica finalist and artist-portfolio sources remain documented in `sources.md`; no queue-state or cross-unit metadata was changed during this recovery.
+
+Re-verified all prior required overlay fixes against the current proofs: 2026-08-03 round 1 (06 has three truthful teaching primitives, 08's standing-figure ellipse is on the person, and 09 has no false body-and-sky boundary) and round 2 (06's footpath ends before the dress, 08's bridge-deck trace follows only the visible deck, and 12's reflection frame ends at the reflected hull). All twelve overlays score 100/100 with no warnings; visual rechecks of the prior-round proofs were clean. The date correction is complete, and the chapter’s source notes retain the image-specific provenance without modifying the queue metadata outside this recovery boundary.
