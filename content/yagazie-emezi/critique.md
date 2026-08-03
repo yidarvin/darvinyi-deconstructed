@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -81,3 +81,23 @@ verdict: revise
 - The 04 held-cloth and 05 bridge-parapet lines each retain a detector-only 6-point warning (scores 94/100); both visibly trace the named feature, so this is not a regression or a blocking geometry failure.
 - All other proofs are materially truthful and retain the prior-round corrections. Deterministic scores are 100/100 for the remaining ten overlays.
 - Source integrity passed this review: the official archive and all twelve documented public display JPG links returned HTTP 200, and every image has a traceable fair-use record with creator credit and the required concise four-factor rationale. The chapter’s analyzer-derived figures match the current analysis files and it makes no camera-setting claims.
+
+## Resolution — 2026-08-02
+
+- Required fix 1: image 06 now pairs the yellow placard and foreground speaker
+  with a polyline that follows the raised white sign’s visible perimeter. This
+  restores the sign-and-crowd relationship without reviving the resolved false
+  sky-to-crowd horizon.
+- Required fix 2: image 09 now traces the protester’s raised arm and fist and
+  the car roofline alongside the foreground figure. The previously removed road
+  and curb claims remain absent from both overlay and chapter.
+- Required fix 3: image 11 now traces the sidewalk edge beside the sign bearer,
+  making the boundary between pedestrian space and the green verge explicit;
+  the resolved false tree-edge line remains absent.
+- Fresh analysis, rendering, score, and visual review were completed for all
+  three revised proofs. Scores: 06 100, 09 100, and 11 100.
+- Critique history re-verified: 2026-08-02 rounds 1, 2, and 3. Round 1’s seven
+  false vanishing-point claims remain absent and image 04 has no horizon-line
+  claim. Round 2’s placard, canopy, cloth, parapet, horizon, raised-arm, road,
+  curb, tree-edge, and truck corrections remain visible in their current
+  overlays/proofs; the chapter retains no removed road/curb prose.
