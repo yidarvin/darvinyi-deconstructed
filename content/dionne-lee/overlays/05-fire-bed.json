@@ -4,7 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.51, "cy": 0.57, "rx": 0.24, "ry": 0.16, "label": "constructed fire bed" },
-    { "type": "polyline", "points": [[0.91, 0.38], [0.77, 0.49], [0.65, 0.55]], "label": "arm entering the ground field" },
+    { "type": "polyline", "points": [[1.0, 0.33], [0.86, 0.36], [0.70, 0.38], [0.54, 0.40]], "label": "reaching arm and hand" },
     { "type": "frame_in_frame", "x": 0.12, "y": 0.23, "w": 0.76, "h": 0.57, "label": "leaf-litter field" }
   ],
   "notes": "An arm interrupts a dense ground field and directs attention toward the prepared center."

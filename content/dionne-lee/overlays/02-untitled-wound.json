@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "near-mirrored collage balance" },
     { "type": "frame_in_frame", "x": 0.16, "y": 0.13, "w": 0.68, "h": 0.75, "label": "assembled black field" },
-    { "type": "ellipse", "cx": 0.5, "cy": 0.53, "rx": 0.13, "ry": 0.24, "label": "red wound accents" }
+    { "type": "frame_in_frame", "x": 0.55, "y": 0.27, "w": 0.19, "h": 0.12, "label": "upper red floral insert" }
   ],
   "notes": "A dark assembled field holds a precarious, almost mirrored set of red and white interruptions."
 }

@@ -3,9 +3,9 @@
   "image": "07-a-plot-that-also-grounds.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "ellipse", "cx": 0.5, "cy": 0.57, "rx": 0.08, "ry": 0.07, "label": "altered circular patch" },
-    { "type": "polyline", "points": [[0.95, 0.59], [0.78, 0.57], [0.59, 0.58]], "label": "hand entering the plot" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.45, "rx": 0.14, "ry": 0.10, "label": "torn dark opening" },
+    { "type": "polyline", "points": [[0.99, 0.30], [0.84, 0.32], [0.69, 0.36]], "label": "pointing finger" },
     { "type": "frame_in_frame", "x": 0.08, "y": 0.22, "w": 0.84, "h": 0.63, "label": "flowering ground field" }
   ],
-  "notes": "A hand points into a circular interruption in a dense flowering ground field."
+  "notes": "A pointing finger reaches toward a torn dark opening in a dense flowering field."
 }

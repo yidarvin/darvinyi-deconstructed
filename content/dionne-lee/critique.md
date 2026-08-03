@@ -1,4 +1,26 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution — 2026-08-02
+
+Re-verified critique history: 2026-08-02, initial revise round (the only prior
+round). All nine required fixes remain present in the current overlays, proofs,
+sources, and byte-identical chapter files:
+
+1. `02-untitled-wound` now frames the actual upper red floral insert.
+2. `03-true-north` now bounds and names the complete six-panel field.
+3. `05-fire-bed` traces the visible reaching arm and hand.
+4. `06-trespass-is-the-most-beautiful-word` bounds the inner floral insert; its
+   source rationale now describes the visible hands and insert, not absent text.
+5. `07-a-plot-that-also-grounds` identifies the torn opening and pointing finger.
+6. `09-contact-a-muscle-memory` removes the false hand-contour trace.
+7. `10-netting` bounds the complete central photographic insert.
+8. `11-a-test-for-40-acres` bounds the bright mylar sheet and follows its lower
+   edge.
+9. `12-broken-signal` bounds all six panels; the caption and body now identify
+   five luminous flares.
+
+All nine re-rendered proofs received a clean visual pass and a 100/100 overlay
+score. `scripts/check.sh` passes.
 
 ## Critique round — 2026-08-02
 
