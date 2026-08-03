@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "subject_anchor", "x": 0.756, "y": 0.119, "r": 0.05, "label": "upper-right surface blemish" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "paired-portrait balance" },
-    { "type": "vanishing_point", "x": 0.42, "y": 0.736, "label": "floor recession" }
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "paired-portrait balance" }
   ],
-  "notes": "A quiet centered stance is held by painted verticals and a receding floor."
+  "notes": "A quiet centered pair is held by painted verticals and offset by a surface blemish."
 }

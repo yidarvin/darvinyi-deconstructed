@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -68,3 +68,22 @@ validation retry and independent critic re-review.
 ### Advisory (non-blocking)
 
 - No new advisory findings. The prior resolutions for `03-equation-plus-2020`, `04-equation-u-2020`, `05-equation-equals-2020`, `06-equation-us-2020`, and the upper-right blemish in `12-untitled-c1990s` remain visually satisfied. The remaining current primitives truthfully trace their labelled features; the chapter's quantitative claims agree with the analyses within tolerance, and every image retains a traceable credited source with an image-specific fair-use rationale and no camera-setting claim.
+
+## Builder resolution — 2026-08-03
+
+Resolved required fix 1. Re-ran analysis, render, score, and visual review for
+`12-untitled-c1990s`; removed the unsupported `vanishing_point` primitive and
+its `floor recession` prose claim. The revised proof retains only the visibly
+truthful paired-portrait balance axis and upper-right dark surface-blemish
+anchor. It scores 100/100 with no deductions or warnings and is visually clean.
+
+Re-verified every required fix from the full critique history: the first
+2026-08-03 round's upper-right blemish correction; the second 2026-08-03
+round's silhouette replacements for `03-equation-plus-2020`,
+`04-equation-u-2020`, `05-equation-equals-2020`, and `06-equation-us-2020`;
+and this latest 2026-08-03 round's removal of the `12-untitled-c1990s`
+vanishing-point claim. The five affected overlays each score 100/100, their
+current proofs remain visually truthful, and both chapter copies are
+byte-identical. `scripts/check.sh` passed all nine stages (including 442
+Vitest cases and the production build). Registry stage remains `built` pending
+independent critic re-review.
