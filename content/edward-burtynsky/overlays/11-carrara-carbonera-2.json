@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-carrara-carbonera-2.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.702, "angle": 0, "label": "quarry-floor break" },
+    { "type": "subject_anchor", "x": 0.769, "y": 0.371, "r": 0.035, "label": "upper quarry bench" },
+    { "type": "polyline", "points": [[0.08, 0.6], [0.22, 0.49], [0.4, 0.47], [0.58, 0.5]], "label": "pale quarry road" },
+    { "type": "polyline", "points": [[0.24, 0.17], [0.4, 0.28], [0.52, 0.36], [0.65, 0.49]], "label": "faceted cut face" }
+  ],
+  "notes": "Roads and broken pale faces make a worked mountain read as an engineered plane."
+}

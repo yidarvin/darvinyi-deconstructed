@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-manufacturing-10ab.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.692, "angle": 0, "label": "workstation band" },
+    { "type": "subject_anchor", "x": 0.468, "y": 0.799, "r": 0.035, "label": "worker line" },
+    { "type": "polyline", "points": [[0.5, 0.02], [0.5, 0.98]], "label": "diptych seam" }
+  ],
+  "notes": "A continuous low workstation band turns serial labor into a lateral visual circuit."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-fengjie-3-4.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.237, "angle": 0, "label": "distant city edge" },
+    { "type": "polyline", "points": [[0.5, 0.02], [0.5, 0.98]], "label": "diptych seam" },
+    { "type": "leading_line", "points": [[0.137, 0.726], [0.484, 0.573]], "arrow": true, "label": "river route" },
+    { "type": "subject_anchor", "x": 0.084, "y": 0.894, "r": 0.035, "label": "foreground work area" }
+  ],
+  "notes": "The panorama distributes transformed city fabric around a low river seam and paired frame structure."
+}

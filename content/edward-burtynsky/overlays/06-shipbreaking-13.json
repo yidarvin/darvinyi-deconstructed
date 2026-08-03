@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-shipbreaking-13.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.358, "angle": 0, "label": "yard division" },
+    { "type": "subject_anchor", "x": 0.4, "y": 0.504, "r": 0.035, "label": "distant ship" },
+    { "type": "polyline", "points": [[0.02, 0.68], [0.2, 0.59], [0.36, 0.57], [0.42, 0.56]], "label": "yard route" },
+    { "type": "polyline", "points": [[0.02, 0.72], [0.18, 0.66], [0.34, 0.64]], "label": "foreground steel edge" }
+  ],
+  "notes": "Hull and yard diagonals make workers legible against the massive dismantling field."
+}

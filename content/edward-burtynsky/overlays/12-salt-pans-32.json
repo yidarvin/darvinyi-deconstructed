@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-salt-pans-32.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.259, "angle": 0, "label": "basin boundary" },
+    { "type": "polyline", "points": [[0.05, 0.55], [0.3, 0.48], [0.6, 0.41], [0.94, 0.33]], "label": "cross-frame basin edge" },
+    { "type": "subject_anchor", "x": 0.038, "y": 0.551, "r": 0.035, "label": "left basin edge" },
+    { "type": "polyline", "points": [[0.05, 0.55], [0.13, 0.48], [0.24, 0.43]], "label": "left basin divider" }
+  ],
+  "notes": "Basin edges flatten a working salt landscape into an ordered field of color and division."
+}

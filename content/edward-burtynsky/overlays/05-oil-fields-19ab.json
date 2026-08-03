@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-oil-fields-19ab.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.111, "angle": 0, "label": "distant field edge" },
+    { "type": "polyline", "points": [[0.5, 0.02], [0.5, 0.98]], "label": "diptych seam" },
+    { "type": "subject_anchor", "x": 0.788, "y": 0.259, "r": 0.035, "label": "pumpjack cluster" }
+  ],
+  "notes": "A very low horizon and a distributed pumpjack field make industrial repetition carry the panorama."
+}
