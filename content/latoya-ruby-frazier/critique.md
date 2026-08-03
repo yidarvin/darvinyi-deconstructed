@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -48,3 +48,20 @@ passed before this resolution was recorded.
   stated tolerance; and rescoring every current overlay returned 100/100 with
   no deductions or warnings. The prior fair-use factor-two finding remains
   resolved in every per-image record.
+
+## Resolution — 2026-08-03
+
+Applied required fix 1: `sources.md`, `research.md`, and both byte-identical
+chapter copies now identify *Momme* and *Mom and Me* as gelatin silver prints.
+The revised caveat preserves the distinction between these documented print
+media and the still-undocumented camera/capture settings, while making no
+printing-process claim for the other four selected works.
+
+Re-verified prior critique rounds: **2026-08-03, commit
+f665fd17f26f4cab089a029596beef03dec49f97** (per-image fair-use factor two)
+and **2026-08-03, commit 61b61f94964bd905a4f6de4c9c0792de25981a89** (print
+medium/capture-settings caveat). The factor-two assessment remains explicit
+in every one of the six source records. All six overlay specs rescored at
+100/100; fresh visual passes of the two affected plates confirmed their
+existing annotations remain clean. `scripts/check.sh` passed before this
+resolution was recorded.

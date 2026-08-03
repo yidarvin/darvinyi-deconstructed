@@ -6,7 +6,7 @@ The supplied source packet documents six works: five photographs from *The Notio
 
 ## Technique and printing
 
-The source record presents web-display reproductions, most in monochrome, and identifies the works as photographs. It does not document a common camera process, negative format, paper, printing process, edition, or print date for this selection. This chapter therefore treats the visible grayscale, reflection, crop, repetition, and pattern as properties of the reproduced images, not proof of unrecorded production methods.
+The source record presents web-display reproductions, most in monochrome, and identifies the works as photographs. The Haggerty Museum record for *Momme* and the Portland Museum of Art collection listing for *Mom and Me* identify those two works as gelatin silver prints. The supplied records do not establish a common camera process, negative format, paper, edition, or print date, and they do not document a printing process for the other four selected works. This chapter therefore treats the visible grayscale, reflection, crop, repetition, and pattern as properties of the reproduced images, not proof of unrecorded production methods.
 
 ## Camera settings and digitization metadata
 

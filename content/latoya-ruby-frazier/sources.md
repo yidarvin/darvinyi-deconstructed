@@ -48,8 +48,9 @@ record, or a licensed reproduction.
    study in collaborative portraiture. Source: [Haggerty Museum of Art,
    2009.12.3](https://haggerty.zetcom.net/en/collection/item/6339/), public
    collection display image; credit: Museum purchase with funds from Mrs.
-   Martha W. Smith by exchange; rightsholder: LaToya Ruby Frazier (the museum
-   identifies her as artist; no separate copyright-year notice is supplied).
+   Martha W. Smith by exchange; medium: gelatin silver print; rightsholder:
+   LaToya Ruby Frazier (the museum identifies her as artist; no separate
+   copyright-year notice is supplied).
    **Use basis: fair-use.** The purpose is transformative composition
    scholarship; the whole frame is essential to analyze profile overlap and
    eye-line; the 1200px museum display copy is web-sized; credit and the object
@@ -64,9 +65,10 @@ record, or a licensed reproduction.
    distance, furniture, and negative space become part of the relationship.
    Source: [Portland Museum of Art collection](https://www.portlandmuseum.org/collection/),
    public collection display image for accession 2023.2.1; credit: Museum
-   purchase with support from Friends of the Collection; copyright notice: ©
-   LaToya Ruby Frazier. The source supplied an AVIF web display image, preserved
-   locally as a JPEG without cropping or visual alteration. **Use basis:
+   purchase with support from Friends of the Collection; medium: gelatin silver
+   print; copyright notice: © LaToya Ruby Frazier. The source supplied an AVIF
+   web display image, preserved locally as a JPEG without cropping or visual
+   alteration. **Use basis:
    fair-use.** It supports transformative criticism of distance and domestic
    framing; the full 750px web-sized frame is needed for that analysis; and
    credit plus the collection link do not replace the print, licensed image, or
