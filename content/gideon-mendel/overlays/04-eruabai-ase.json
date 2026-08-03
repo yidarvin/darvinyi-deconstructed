@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-eruabai-ase.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "arch axis" },
+    { "type": "ellipse", "cx": 0.503, "cy": 0.508, "rx": 0.452, "ry": 0.458, "label": "reflected arch" },
+    { "type": "frame_in_frame", "x": 0.032, "y": 0.082, "w": 0.94, "h": 0.835, "label": "arch opening" }
+  ],
+  "notes": "A frontal sitter stabilizes the arch-and-reflection symmetry."
+}

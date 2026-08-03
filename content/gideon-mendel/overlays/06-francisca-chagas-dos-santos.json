@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-francisca-chagas-dos-santos.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.429, "y": 0.523, "r": 0.035, "label": "seated figure" },
+    { "type": "ellipse", "cx": 0.377, "cy": 0.51, "rx": 0.313, "ry": 0.336, "label": "seated body" },
+    { "type": "polyline", "points": [[0.305, 0.397], [0.625, 0.419], [0.939, 0.388]], "label": "red railing" }
+  ],
+  "notes": "The seated figure is held between a shallow red rail and reflective water."
+}

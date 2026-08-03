@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-ahmed.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.447, "y": 0.169, "label": "receding street" },
+    { "type": "leading_line", "points": [[0.1, 0.292], [0.532, 0.064]], "arrow": true, "label": "roofline" },
+    { "type": "polyline", "points": [[0.292, 0.288], [0.491, 0.307], [0.663, 0.287]], "label": "waterline around sitter" }
+  ],
+  "notes": "Street recession and water pull outward from the still, frontal sitter."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-anchalee-koyama.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.492, "y": 0.35, "r": 0.035, "label": "mother and child" },
+    { "type": "polyline", "points": [[0.365, 0.39], [0.504, 0.345], [0.608, 0.42]], "label": "embrace" },
+    { "type": "frame_in_frame", "x": 0.338, "y": 0.041, "w": 0.616, "h": 0.46, "label": "shopfront facade" }
+  ],
+  "notes": "An embrace condenses the square while the flooded shopfront spreads laterally behind it."
+}

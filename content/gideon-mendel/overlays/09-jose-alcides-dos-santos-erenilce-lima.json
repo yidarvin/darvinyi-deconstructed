@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-jose-alcides-dos-santos-erenilce-lima.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.526, "cy": 0.533, "rx": 0.321, "ry": 0.43, "label": "two-figure mass" },
+    { "type": "polyline", "points": [[0.351, 0.259], [0.462, 0.245], [0.593, 0.322]], "label": "uneven head line" },
+    { "type": "subject_anchor", "x": 0.383, "y": 0.742, "r": 0.035, "label": "joined hands" }
+  ],
+  "notes": "A damaged two-tone wall and uneven pair keep the portrait from settling into a single axis."
+}

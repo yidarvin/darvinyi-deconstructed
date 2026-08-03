@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-graham-leith-kieran.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.555, "angle": 0.0, "label": "waterline" },
+    { "type": "ellipse", "cx": 0.494, "cy": 0.449, "rx": 0.291, "ry": 0.278, "label": "father and son" },
+    { "type": "polyline", "points": [[0.18, 0.699], [0.497, 0.674], [0.838, 0.657]], "label": "floating debris field" }
+  ],
+  "notes": "Two different body scales form a calm unit against a cluttered flooded room."
+}

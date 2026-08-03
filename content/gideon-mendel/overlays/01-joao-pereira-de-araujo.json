@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-joao-pereira-de-araujo.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.335, "y": 0.476, "r": 0.035, "label": "face" },
+    { "type": "frame_in_frame", "x": 0.086, "y": 0.016, "w": 0.852, "h": 0.524, "label": "door surround" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "door axis" }
+  ],
+  "notes": "A face and its reflection interrupt the recessed, nearly bilateral doorway."
+}

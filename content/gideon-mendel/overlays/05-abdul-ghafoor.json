@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-abdul-ghafoor.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.358, "angle": 0.0, "label": "wall band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "figure axis" },
+    { "type": "polyline", "points": [[0.413, 0.133], [0.491, 0.306], [0.499, 0.76]], "label": "body and reflection" }
+  ],
+  "notes": "A centered body becomes a long, broken vertical across a level flood plane."
+}
