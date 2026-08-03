@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -101,3 +101,23 @@ verdict: resolved
   claim. Round 2’s placard, canopy, cloth, parapet, horizon, raised-arm, road,
   curb, tree-edge, and truck corrections remain visible in their current
   overlays/proofs; the chapter retains no removed road/curb prose.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None. All twelve rendered proofs were visually rechecked against their current
+overlay specs and analysis files. The three-primitives minimum is met for every
+plate, the prior-round semantic corrections remain in place, and the chapter’s
+measured palette, tonal, and grid claims agree with the current analyses.
+
+### Advisory (non-blocking)
+
+- **04-endsars-EndSARSProtests-16 and 05-endsars-EndSARSProtests-15:** each
+  retains the analyzer's 6-point detector-only leading-line warning (score
+  94/100), but the proof visibly follows the held cloth and bridge parapet,
+  respectively. This is not a material regression.
+- Source integrity passed: the artist archive and all twelve cited direct public
+  display JPGs returned HTTP 200. Every image retains its credited, linked,
+  per-image fair-use record; the chapter and research note make no camera or
+  process claim beyond the documented display files.
