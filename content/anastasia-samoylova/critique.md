@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -88,3 +88,31 @@ from that round now holds against the current overlay JSON and rendered proof:
 Fresh analyses, rendered proofs, and overlay scoring were run for all five
 affected plates. Scores are 94 for 04 (a semantic rail line, visually verified)
 and 100 for 09–12; all meet the 80-point gate with clean visual passes.
+
+## Critique round — 2026-08-03
+
+### Required
+
+None. I re-reviewed all twelve current proof PNGs against their overlay specs,
+analysis files, chapter, research note, manifest, and per-image source records.
+The seven requirements from the preceding 2026-08-03 round remain resolved:
+the pool handrail follows the metal rail; the false floating-leaves anchor is
+absent; both gun-sign paths sit on their silhouettes; the road spec labels only
+its true centerline; the Moscow divide follows the physical panel seam; and the
+Times Square handrail follows the escalator rail. No material regression was
+found. The chapter's measurable rendition claims agree with the recorded
+analysis, it makes no camera-setting claim, and all twelve fair-use records
+retain a source link, credit, complete-frame teaching need, transformative
+purpose, and non-substitution rationale. The three cited project records
+returned HTTP 200 in this review.
+
+### Advisory (non-blocking)
+
+- **01-gator — SUSPENDED LIMB.** The interpretive polyline remains a loose
+  gesture through negative space for part of its route, but it unambiguously
+  relates the named submerged limb and does not make a false structural claim.
+- **04, 09–11.** A few bold prose references preserve labels from before the
+  prior resolution (for example, `FLOATING LEAVES` and `ROAD EDGE`) although
+  the relevant visible features remain accurately described. Aligning that
+  wording with the current specs would be clearer, but it is not materially
+  misleading.
