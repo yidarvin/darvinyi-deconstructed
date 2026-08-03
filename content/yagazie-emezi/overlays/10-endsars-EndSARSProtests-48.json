@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-endsars-EndSARSProtests-48.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.372, "angle": -1.9, "label": "van roofline" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.535, "r": 0.035, "label": "driver" },
+    { "type": "frame_in_frame", "x": 0.31, "y": 0.36, "w": 0.28, "h": 0.27, "label": "driver window" },
+    { "type": "polyline", "points": [[0.45, 0.58], [0.47, 0.4], [0.44, 0.32]], "label": "raised fist" }
+  ],
+  "notes": "The van’s window frames one raised fist as a compact interruption in a broad street scene."
+}

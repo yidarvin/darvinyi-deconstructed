@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-endsars-EndSARSProtests-27.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.27, "angle": 0, "label": "standing crowd band" },
+    { "type": "leading_line", "points": [[0.59, 0.613], [0.809, 0.941]], "arrow": true, "label": "road marking" },
+    { "type": "ellipse", "cx": 0.5, "cy": 0.55, "rx": 0.17, "ry": 0.35, "label": "kneeling protester" },
+    { "type": "polyline", "points": [[0.23, 0.02], [0.17, 0.55], [0.3, 0.91]], "label": "left figure" }
+  ],
+  "notes": "A kneeling body is enclosed by a standing perimeter and the street’s directional marks."
+}

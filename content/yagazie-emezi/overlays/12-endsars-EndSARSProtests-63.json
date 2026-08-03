@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-endsars-EndSARSProtests-63.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.324, "y": 0.31, "label": "security tower" },
+    { "type": "horizon_line", "y": 0.655, "angle": 0, "label": "street threshold" },
+    { "type": "frame_in_frame", "x": 0.04, "y": 0.38, "w": 0.49, "h": 0.43, "label": "camouflaged truck" },
+    { "type": "polyline", "points": [[0.53, 0.61], [0.5, 0.37], [0.47, 0.2]], "label": "raised arm" }
+  ],
+  "notes": "A protester’s raised arms face a security truck across an open, crowded roadway."
+}
