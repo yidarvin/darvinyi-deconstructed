@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -18,3 +18,15 @@ None. All twelve proof/spec pairs score 100 in the deterministic geometry check;
 2. **06-biloxi-mississippi:** Repositioned the `sea horizon` polyline to the visible sea band behind and to the right of the overturned car (`y: 0.665`–`0.675`), rather than crossing the tree and sky. Re-rendered the proof; deterministic score is 100 and the visual pass confirms the line follows the narrow water band.
 
 Re-verified all required fixes from critique history: the only prior round is **2026-08-03**, and both required corrections remain present in the current overlay specs, proofs, and associated chapter claims.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+1. **09-dinsmore-california — correct the image-specific fair-use rationale in `sources.md`.** The visible proof, overlay, and chapter all identify a shoe-laden tree: the overlay labels `shoe-laden trunk`, `mossed branch sweep`, and `hanging-shoe canopy`. In contrast, the source entry's “Why it matters,” Factor 1, and Factor 3 describe a built edge, settlement, and surrounding terrain—features and a pedagogical need belonging to a different image. Replace those statements with an accurate complete-frame rationale for the shoe-laden tree and its branching/shoe structure. Until then, this copyrighted image lacks the accurate per-image four-factor documentation required for its fair-use selection.
+
+### Advisory (non-blocking)
+
+- **08-standing-rock-prayer-walk — source-note wording.** The proof shows the procession on snow rather than a discernible road; consider replacing “road's visual route” in Factor 1 with the visible walking route. The rest of this image's rationale accurately establishes the group-to-landscape use, so this does not block approval.
+
+All twelve proofs were visually rechecked against their current specs and analyzer records. The prior required corrections for **03-green-mountain-wind-farm** and **06-biloxi-mississippi** remain resolved: the field-horizon and sea-horizon primitives now trace their visible boundaries. Every current overlay scores 100/100 with no deterministic deductions; chapter tonal, palette, and edge-density values match the relevant analyses within tolerance; no capture settings are invented; and the remaining image credits and source routes are traceable.
