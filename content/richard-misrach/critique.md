@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -19,3 +19,13 @@ None. All twelve current overlay specs score 100/100 against their corresponding
 - **12-untitled-892-03:** Corrected the source note and factor-three rationale to describe the broad sandy shore, shallow water field, and one floating figure visible in the complete frame.
 
 Prior critique rounds re-verified: 2026-08-03. All three required fixes from that round remain satisfied.
+
+## Critique round — 2026-08-03
+
+### Required
+
+None. Fresh visual review of all twelve rendered proofs confirms that each overlay's 3–4 primitives trace the named visible feature. In particular, 03's anchor is on the backboard joint rather than the rim, 11's polyline follows the sign's top edge rather than claiming an arrow, and 12's source note now accurately describes the sandy shore and one floating figure. The chapter's tonal, palette, edge-density, and horizon values agree with the corresponding analysis records within the stated tolerance; it makes no unsupported camera-settings claim. Each image retains a credited High Museum record link, a reachable public display-JPEG route, and an individual concise four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.
