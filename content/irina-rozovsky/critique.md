@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -16,3 +16,17 @@ verdict: revise
 - Looked at all eleven current proof PNGs and checked each matching overlay specification and analyzer result. Deterministic scores are 100/100 for ten proofs and 97/100 for `09`; all are above the acceptance threshold and visually trace the named features.
 - Chapter measurements agree with the analyzer within the stated tolerance, including 0.207 edge density for `01`, 0.090–0.804 tonal span for `02`, 0.040 for `06`, 0.013 for `07`, 0.007 for `08`, and 0.114 mean luminance for `10`.
 - The chapter makes no invented camera-setting claim: the manifest EXIF fields are empty and the chapter/research note explicitly limits assertions to normalized web derivatives. All eleven listed gallery and direct-file routes returned public HTTP 200 responses without authentication.
+
+## Builder resolution — 2026-08-02
+
+Resolved required item 1. Rechecked the five cited display files and replaced
+their source annotations with image-specific descriptions: the three animals in
+the clearing; vessels across water; a figure behind scratched glass and vessels;
+the red ridge and glow; and the bottle-and-flower still life. Each revised note
+also states why the complete web-sized frame is necessary for its compositional
+teaching purpose under the documented fair-use assessment.
+
+Reverified prior critique round: 2026-08-02. Its sole required fix now holds;
+the chapter remains byte-identical to its rendered `src/chapters` counterpart,
+and all eleven existing overlay specs score at least 80 (ten at 100 and `09` at
+97) with a clean proof review. `scripts/check.sh` passes.
