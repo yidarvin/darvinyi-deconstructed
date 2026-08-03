@@ -21,7 +21,10 @@ record, or a licensed reproduction.
    teach how its complete field turns many portraits into a collective argument;
    the 843px copy is web-sized and, with credit and a direct collection link,
    does not substitute for the installation, catalogue, licensed reproduction,
-   or museum record.
+   or museum record. **Factor two:** This is a highly creative, authored
+   photographic installation view, which weighs against fair use; because the
+   Art Institute publicly presents it rather than the chapter using unpublished
+   material, that adverse factor has limited weight in this critical use.
 
 2. **Huxtables, Mom, and Me**, from *The Notion of Family* (2008) —
    `02-huxtables-mom-and-me.jpg` (850 × 669). The mirror makes a frame inside
@@ -35,6 +38,9 @@ record, or a licensed reproduction.
    mirror composition is necessary to teach nested framing and separated shared
    space; the 850px display copy is web-sized; attribution and the collection
    link do not replace the print, licensed reproduction, or museum record.
+   **Factor two:** This is a highly creative, authored portrait photograph,
+   which weighs against fair use; its public presentation in ICA/Boston's
+   collection moderates, but does not eliminate, that adverse weight.
 
 3. **Momme** (2008) — `03-momme.jpg` (1200 × 971). The tightly conjoined
    mother-and-daughter profiles create a shallow, almost fused pictorial plane,
@@ -47,7 +53,11 @@ record, or a licensed reproduction.
    **Use basis: fair-use.** The purpose is transformative composition
    scholarship; the whole frame is essential to analyze profile overlap and
    eye-line; the 1200px museum display copy is web-sized; credit and the object
-   link do not substitute for a print, licence, or collection record.
+   link do not substitute for a print, licence, or collection record. **Factor
+   two:** This is a highly creative, authored collaborative portrait
+   photograph, which weighs against fair use; because the Haggerty Museum
+   publicly displays the work rather than the chapter using unpublished
+   material, the factor is adverse but not decisive here.
 
 4. **Mom and Me** (2008) — `04-mom-and-me.jpg` (750 × 467). The wide,
    horizontal domestic scene distributes two bodies across a room so that
@@ -60,7 +70,10 @@ record, or a licensed reproduction.
    fair-use.** It supports transformative criticism of distance and domestic
    framing; the full 750px web-sized frame is needed for that analysis; and
    credit plus the collection link do not replace the print, licensed image, or
-   collection record.
+   collection record. **Factor two:** This is a highly creative, authored
+   domestic portrait photograph, which weighs against fair use; its public
+   collection display at the Portland Museum of Art moderates, but does not
+   eliminate, that adverse weight.
 
 5. **Mom Making an Image of Me**, from *The Notion of Family* (2008) —
    `05-mom-making-an-image-of-me.jpg` (850 × 820). The mirror-within-mirror
@@ -73,7 +86,11 @@ record, or a licensed reproduction.
    fair-use.** This is a transformative, scholarly close reading; its complete
    frame is necessary to analyze reflection and co-authorship; only an 850px
    display copy is retained; attribution and the museum link leave the original,
-   licence, and record non-substitutable.
+   licence, and record non-substitutable. **Factor two:** This is a highly
+   creative, authored photograph whose reflected structure is expressive rather
+   than merely factual, so factor two weighs against fair use; its public
+   ICA/Boston collection display gives that factor limited weight in this
+   critical use.
 
 6. **Momme Portrait Series (Floral Comforter)**, from *The Notion of Family*
    (2008) — `07-momme-portrait-floral-comforter.jpg` (850 × 631). Two direct
@@ -86,7 +103,11 @@ record, or a licensed reproduction.
    fair-use.** The purpose is transformative composition teaching and criticism;
    the full frame is required to discuss the relation of faces to patterned
    ground; the 850px source copy is web-sized; credit and the museum link do
-   not replace any print, licensed reproduction, or collection record.
+   not replace any print, licensed reproduction, or collection record. **Factor
+   two:** This is a highly creative, authored paired portrait photograph, which
+   weighs against fair use; its public ICA/Boston collection display means the
+   chapter does not draw on unpublished expression, so the factor is adverse
+   but limited.
 
 ## Coverage note
 
