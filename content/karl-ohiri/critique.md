@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -58,3 +58,13 @@ clean visual review. `scripts/check.sh` reached its Vitest phase but could not
 complete before the execution environment terminated its foreground wrapper, so
 the required full gate remains unconfirmed. Registry stage remains `built` pending
 validation retry and independent critic re-review.
+
+## Critique round — 2026-08-03
+
+### Required
+
+1. **`12-untitled-c1990s` — remove or replace the `vanishing_point` claim.** The overlay labels `(0.420, 0.736)` as “FLOOR RECESSION,” and the chapter says it is a marked recession that leads attention back toward the bouquet and feet. In the current proof, that point lies in the foreground figure-and-pedestal arrangement; no visible floor edges or other diagonals converge there. The paired `analysis.json` contains a detector vanishing-point candidate at the same coordinate, but its listed diagonals are image texture/figure-and-furniture edges rather than a demonstrated perspective system. A `vanishing_point` primitive claims actual diagonal convergence, so this is materially misleading. This is separate from—and does not reopen—the previously resolved upper-right surface-blemish correction.
+
+### Advisory (non-blocking)
+
+- No new advisory findings. The prior resolutions for `03-equation-plus-2020`, `04-equation-u-2020`, `05-equation-equals-2020`, `06-equation-us-2020`, and the upper-right blemish in `12-untitled-c1990s` remain visually satisfied. The remaining current primitives truthfully trace their labelled features; the chapter's quantitative claims agree with the analyses within tolerance, and every image retains a traceable credited source with an image-specific fair-use rationale and no camera-setting claim.
