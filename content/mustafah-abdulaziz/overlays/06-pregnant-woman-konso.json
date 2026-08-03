@@ -4,7 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "ellipse", "cx": 0.535, "cy": 0.610, "rx": 0.125, "ry": 0.300, "label": "woman and water vessel" },
-    { "type": "polyline", "points": [[0.450, 0.990], [0.430, 0.860], [0.480, 0.720], [0.510, 0.570]], "label": "descending footpath" },
+    { "type": "polyline", "points": [[0.450, 0.990], [0.430, 0.860], [0.480, 0.720]], "label": "descending footpath" },
     { "type": "polyline", "points": [[0.660, 0.970], [0.610, 0.830], [0.600, 0.700], [0.610, 0.570]], "label": "right rock face" }
   ],
   "notes": "A body and water vessel make the rocky route a measure of scale."

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -42,3 +42,11 @@ Re-verified all required fixes from the full critique history: 2026-08-03 round 
 - **11-wattamolla:** A person rests on the lower-left rock, outside the two swimmers annotated in the water. The plate and note do not assert that these are the only people in the frame, so this is not a wrong-count claim.
 
 All twelve proofs were visually inspected. Every current overlay scores 100/100 with no scorer warnings, but deterministic geometry does not cure the three semantic errors above. The chapter’s checked analyzer-derived numbers are within tolerance; it makes no camera-setting claims. Source integrity is sufficient: every image has a credited Leica finalist record and direct public display rendition, each `fair-use` entry supplies all four factors, and the authoritative page plus all twelve listed renditions returned HTTP 200 during this review.
+
+## Builder resolution — 2026-08-03
+
+1. **06-pregnant-woman-konso:** shortened `DESCENDING FOOTPATH` to its exposed-rock section, ending at `(0.480, 0.720)` before the woman’s dress.
+2. **08-cremation-allahabad:** replaced the frame-wide `DISTANT BRIDGE BAND` with `DISTANT BRIDGE DECK`, limited to the visible upper-right deck from `(0.400, 0.465)` to `(1.000, 0.470)`.
+3. **12-stranded-ship-panama-city:** reduced `SHIP REFLECTION` to `h: 0.155`, ending at `y=0.805` at the visible reflected hull rather than empty water.
+
+Re-verified every required fix from the full critique history: 2026-08-03 round 1 and round 2. The round-1 repairs remain intact: 06 has three truthful teaching primitives, 08’s standing-figure ellipse remains on the person, and 09 retains no false body-and-sky boundary. All twelve overlays score 100/100 with no warnings; the three repaired proofs passed independent visual review. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` passed.
