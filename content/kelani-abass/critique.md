@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -22,3 +22,27 @@ proof was visually checked and scores 100/100. Re-verified required fixes from
 the sole prior critique round (2026-08-02); no earlier critique rounds exist.
 
 `scripts/check.sh` passed after the correction.
+
+## Critique round — 2026-08-02
+
+### Required
+
+None. All twelve current proofs were visually reviewed against their overlay
+specifications and analysis files. The prior round's sole required finding for
+`09-scrap-of-evidence-apon-i` remains resolved: the `green plaque` frame now
+bounds the visible stepped plaque and the proof has no geometric deductions
+(100/100). The chapter's tonal, palette, grid, and saliency claims match the
+current analyzer outputs within tolerance; it makes no capture-setting claims.
+Each acquired work retains a public gallery record and display-derivative link,
+an accurate credit/rightsholder statement, and a concise per-image four-factor
+fair-use rationale.
+
+### Advisory (non-blocking)
+
+- `01-casing-history-sisters-2`, `02-chronological-remuneration-xi`,
+  `03-chronological-remuneration-xiii`, `06-scrap-of-evidence-abiye`,
+  `07-scrap-of-evidence-agogo-igbeyawo`, `10-scrap-of-evidence-apon`, and
+  `11-scrap-of-evidence-awalah` each receive a detector-only leading-line
+  warning (94/100, no deductions). Visual review confirms that the lines trace
+  the labeled case rail, figure rhythm, color/material divisions, or structural
+  axes; the warnings do not make a compositional claim false.
