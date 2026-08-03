@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-the-last-cruze.jpg",
+    "width": 843,
+    "height": 562,
+    "sha1": "70cebd23",
+    "source": "01-the-last-cruze.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-huxtables-mom-and-me.jpg",
+    "width": 850,
+    "height": 669,
+    "sha1": "95a36923",
+    "source": "02-huxtables-mom-and-me.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-momme.jpg",
+    "width": 1200,
+    "height": 971,
+    "sha1": "55646571",
+    "source": "03-momme.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-mom-and-me.jpg",
+    "width": 750,
+    "height": 467,
+    "sha1": "1129c667",
+    "source": "04-mom-and-me.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-mom-making-an-image-of-me.jpg",
+    "width": 850,
+    "height": 820,
+    "sha1": "e2c9f222",
+    "source": "05-mom-making-an-image-of-me.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-momme-portrait-floral-comforter.jpg",
+    "width": 850,
+    "height": 631,
+    "sha1": "47d3dbd3",
+    "source": "07-momme-portrait-floral-comforter.jpg",
+    "exif": {}
+  }
+]

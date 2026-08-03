@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "04-mom-and-me.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.27,
+      "cy": 0.39,
+      "rx": 0.24,
+      "ry": 0.33,
+      "label": "daughter face"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.75,
+      "cy": 0.38,
+      "rx": 0.23,
+      "ry": 0.33,
+      "label": "mother face"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.50, 0.00], [0.50, 0.32], [0.50, 0.66], [0.50, 1.00]],
+      "label": "split seam"
+    }
+  ],
+  "notes": "The central seam lets two close portraits remain separate while their faces hold a tense paired rhythm."
+}

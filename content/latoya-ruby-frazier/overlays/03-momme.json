@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "03-momme.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.40,
+      "cy": 0.46,
+      "rx": 0.23,
+      "ry": 0.32,
+      "label": "mother profile"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.65,
+      "cy": 0.37,
+      "rx": 0.18,
+      "ry": 0.28,
+      "label": "daughter face"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.49, 0.03], [0.50, 0.22], [0.51, 0.40], [0.55, 0.56]],
+      "label": "overlap seam"
+    }
+  ],
+  "notes": "Two unequal faces occupy one shallow plane; the profile edge becomes the picture's hinge."
+}

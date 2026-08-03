@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "image": "07-momme-portrait-floral-comforter.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.34,
+      "cy": 0.29,
+      "rx": 0.10,
+      "ry": 0.13,
+      "label": "mother face"
+    },
+    {
+      "type": "ellipse",
+      "cx": 0.65,
+      "cy": 0.28,
+      "rx": 0.11,
+      "ry": 0.14,
+      "label": "daughter face"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.49, 0.00], [0.49, 0.34], [0.49, 0.67], [0.49, 1.00]],
+      "label": "shared floral seam"
+    }
+  ],
+  "notes": "Two direct gazes are kept distinct by the patterned vertical strip that links and separates them."
+}

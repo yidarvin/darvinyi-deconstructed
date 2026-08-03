@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "image": "01-the-last-cruze.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    {
+      "type": "ellipse",
+      "cx": 0.55,
+      "cy": 0.58,
+      "rx": 0.38,
+      "ry": 0.22,
+      "label": "collective perimeter"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.13, 0.40], [0.29, 0.49], [0.48, 0.48], [0.66, 0.43], [0.90, 0.47]],
+      "label": "upper arc of people"
+    },
+    {
+      "type": "polyline",
+      "points": [[0.11, 0.61], [0.25, 0.76], [0.53, 0.79], [0.79, 0.73], [0.91, 0.61]],
+      "label": "lower arc of people"
+    }
+  ],
+  "notes": "Aerial distance turns a ring of individual bodies into a collective perimeter around a traffic circle."
+}
