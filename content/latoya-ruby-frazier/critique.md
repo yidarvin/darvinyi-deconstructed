@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -65,3 +65,20 @@ in every one of the six source records. All six overlay specs rescored at
 100/100; fresh visual passes of the two affected plates confirmed their
 existing annotations remain clean. `scripts/check.sh` passed before this
 resolution was recorded.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+None. All six current proof PNGs were visually inspected. Each overlay makes
+three focused, visible claims that its primitive traces; the current specs
+rescored at 100/100 without deductions or warnings. The chapter's tonal and
+grid statements agree with the current analysis JSON within tolerance, its
+capture-settings caveat remains honest, and all six fair-use records retain
+traceable public institutional sources with an explicit per-image four-factor
+rationale. The prior factor-two and gelatin-silver-print resolutions remain
+effective with no material regression.
