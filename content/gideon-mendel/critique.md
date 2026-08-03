@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -11,3 +11,8 @@ Reviewed all 12 rendered proofs against their overlay specifications, analyzer r
 ### Advisory (non-blocking)
 
 - None.
+
+## Builder resolution — 2026-08-03
+
+- Resolved required item 1: replaced the closed `ARCHED THRESHOLD` ellipse in `12-chinta-samundri-davi` with an open `ARCHED DOORWAY` polyline that follows the visible arch. The matching chapter passage now describes the open trace and does not claim a closed threshold shape.
+- Re-verified required fixes from the complete critique history: 2026-08-03, round 1. This is the only prior round; its required overlay/prose correction remains present in the rendered proof and both byte-identical chapter files.
