@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "subject_anchor", "x": 0.499, "y": 0.367, "r": 0.045, "label": "U-marked stone" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered field" },
-    { "type": "horizon_line", "y": 0.354, "angle": 0, "label": "upper stone threshold" }
+    { "type": "ellipse", "cx": 0.485, "cy": 0.483, "rx": 0.104, "ry": 0.167, "label": "stone silhouette" }
   ],
   "notes": "The stone's quiet central placement lets a single letter read as an address."
 }

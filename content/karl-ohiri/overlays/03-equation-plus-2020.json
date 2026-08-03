@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "subject_anchor", "x": 0.46, "y": 0.382, "r": 0.045, "label": "plus-marked stone" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered field" },
-    { "type": "vanishing_point", "x": 0.522, "y": 0.549, "label": "stone edge convergence" }
+    { "type": "ellipse", "cx": 0.493, "cy": 0.475, "rx": 0.101, "ry": 0.157, "label": "stone silhouette" }
   ],
-  "notes": "A tiny plus is held by central balance and the stone's faint converging edges."
+  "notes": "A tiny plus is held by central balance and the stone's contained silhouette."
 }
