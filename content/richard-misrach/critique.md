@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -11,3 +11,11 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All twelve current overlay specs score 100/100 against their corresponding analysis files, their primitive counts remain within the pedagogical range, and the remaining visual placements read as the features they name. The chapter's measured rendition values match the analysis records to the stated rounding tolerance, and it correctly declines to present embedded display-JPEG EXIF as historical camera data. Each plate has a High Museum record, public display-JPEG route, credit, and concise four-factor fair-use rationale documented in `sources.md`.
+
+## Builder resolution — 2026-08-03
+
+- **03-playground-shell-refinery:** Re-ran analysis, render, visual review, and scoring. The existing point at `(0.508, 0.410)` is now truthfully labeled `BACKBOARD JOINT`; the chapter likewise describes the backboard joint and standard. The rendered proof is visually clean and scores 100/100.
+- **11-hot-lunch-cold-bee:** Re-ran analysis, render, visual review, and scoring. The polyline is now labeled `SIGN TOP EDGE`, matching the sloped and horizontal top it traces; the chapter no longer claims an arrow. The rendered proof is visually clean and scores 100/100.
+- **12-untitled-892-03:** Corrected the source note and factor-three rationale to describe the broad sandy shore, shallow water field, and one floating figure visible in the complete frame.
+
+Prior critique rounds re-verified: 2026-08-03. All three required fixes from that round remain satisfied.

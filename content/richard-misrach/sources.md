@@ -85,7 +85,7 @@ Richard Misrach's 1998 commission for the High Museum of Art's *Picturing the So
 
 ### 12 — *Untitled #892-03* (*On the Beach*, 2003)
 
-- **Why it matters:** By excluding shore and horizon, Misrach makes dispersed bodies float in a flattened blue field; the open frame turns leisure into unease.
+- **Why it matters:** A broad sandy shore and one floating figure sit in a flattened blue-green field; the open frame turns leisure into unease.
 - **Source:** [High Museum collection record](https://high.org/collection/untitled-892-03/) · [public display JPEG](https://highmuseum-redesign.s3.us-east-1.amazonaws.com/datasync/collection-objects/19520_1727028664934.jpg).
-- **Rights / fair-use assessment:** © Richard Misrach. **Factor 1:** transformative scholarship studies horizon removal, field composition, and isolated figure placement. **Factor 2:** a creative photograph. **Factor 3:** the entire 2400 × 1154px panoramic frame is necessary because the missing shore and dispersed bodies are the subject of the analysis. **Factor 4:** the credited public collection image links to the source record and cannot replace an original print or licensed reproduction.
+- **Rights / fair-use assessment:** © Richard Misrach. **Factor 1:** transformative scholarship studies the sandy shore, shallow water field, and isolated figure placement. **Factor 2:** a creative photograph. **Factor 3:** the entire 2400 × 1154px panoramic frame is necessary because the broad shore, water field, and single floating figure depend on their spatial relation. **Factor 4:** the credited public collection image links to the source record and cannot replace an original print or licensed reproduction.
 - **File:** `raw/richard-misrach/12-untitled-892-03.jpg` (2400 × 1154px)
