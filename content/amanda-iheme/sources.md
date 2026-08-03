@@ -61,7 +61,7 @@ All selections are therefore used as **fair-use**, not open material. For each e
 11. **Waterhouse—Preservation—05** (2018)  
    **Composition:** A close, nearly frontal view sets two arched openings in a tiled wall against one another: a grille closes the left opening while a dark doorway opens at right.\\
    **Source:** [artist page](https://www.amandaiheme.com/preservation-waterhouse) · [MoMA exhibition checklist](https://www.moma.org/documents/moma_master-checklist_589517.pdf) · [public web rendition](https://images.squarespace-cdn.com/content/v1/5be08e6831d4dfc9a3c960e2/1581881454764-VKSUXK7JCP3RXBG2TVWR/WH%2B-%2B05.jpg).  
-   **Use basis — fair-use:** The full panorama is essential to the lesson in horizontal pacing and historical scale; this 2,500-px credited copy is transformative scholarship and does not replace a museum record or licensed reproduction.
+   **Use basis — fair-use:** The complete shown frame is essential to analyze the paired arches as unequal openings—the dense grille at left and the dark, passable doorway at right—and the low wall-and-ground boundary beneath them; this 2,500-px credited copy is transformative scholarship and does not replace a museum record or licensed reproduction.
 
 12. **Jaekel House—Restoration—01** (2017; artist page dates the photographs)  
    **Composition:** The restoration study supplies a necessary counterpoint to the other cycles, showing renewal through a clear, frontal arrangement of repaired architectural elements.  

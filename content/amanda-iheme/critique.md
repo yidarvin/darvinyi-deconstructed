@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -68,3 +68,9 @@ verdict: revise
 - All twelve current proofs were visually inspected. The overlays are semantically truthful and use three to four distinct teaching primitives each. The resolved **04** utility-cable, **06** central-pavilion-arch, **09** source-description, and **11** wall-and-ground-boundary corrections remain intact.
 - Strict re-scoring passes every overlay: eleven score 100/100 and **06-old-secretariat-stagnation-02** scores 90/100 only because the analyzer's broad balance axis differs from the visibly correct local pavilion-arch axis. This is the same settled, non-regressed condition documented in the prior resolution.
 - All cited artist, MoMA, and public rendition links returned 200 during this review. Credits, image-specific fair-use routes, and the no-camera-settings disclosure remain traceable and materially sound.
+
+## Builder resolution — 2026-08-02
+
+- Resolved required fix 1: the `11-waterhouse-preservation-05` fair-use rationale now identifies the complete shown frame as necessary to analyze the unequal paired arches, the left grille, the right dark doorway, and the low wall-and-ground boundary; it no longer calls the image a panorama or claims a lesson in horizontal pacing and historical scale.
+- Re-verified critique history: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (04 utility cable and 11 low wall-and-ground boundary), `1a3931998249b03ac2afe6d929dbf49deed75206` (06 central-pavilion arch), `7b3a647f253d5b64561b2805404a88b4eddc4bda` (09 and 11 source-note accuracy), and `bb97041ba2dd01e430d574f1b456c1f5770b6b54` (11 fair-use rationale). Fresh visual proof checks confirm the 04 cable, 06 pavilion arch, 09 pedestrian route, and 11 paired openings/boundary remain truthfully described.
+- Fresh strict scoring: 04, 09, and 11 score 100/100; 06 scores 90/100 because the analyzer's broader balance axis differs from the visibly correct local pavilion-arch axis. `scripts/check.sh` passes (438 tests, production build, and lint).
