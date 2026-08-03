@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-scrap-of-evidence-orogun.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.09, "y": 0.17, "w": 0.81, "h": 0.65, "label": "three-panel grouping" },
+    { "type": "frame_in_frame", "x": 0.38, "y": 0.22, "w": 0.24, "h": 0.52, "label": "middle portrait panel" },
+    { "type": "ellipse", "cx": 0.78, "cy": 0.38, "rx": 0.08, "ry": 0.13, "label": "round portrait" },
+    { "type": "subject_anchor", "x": 0.788, "y": 0.380, "r": 0.035, "label": "right portrait center" }
+  ],
+  "notes": "Three gold-framed panels establish a measured cadence of portrait, repeat, and stamp."
+}

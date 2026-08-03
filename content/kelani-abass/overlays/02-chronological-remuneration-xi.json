@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-chronological-remuneration-xi.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.03, 0.69], [0.24, 0.71], [0.43, 0.71], [0.63, 0.69], [0.91, 0.74]], "arrow": true, "label": "figure procession" },
+    { "type": "polyline", "points": [[0.50, 0.09], [0.50, 0.55]], "label": "central seam and hanging device" },
+    { "type": "subject_anchor", "x": 0.413, "y": 0.884, "r": 0.035, "label": "central figure's lower weight" }
+  ],
+  "notes": "A continuous ochre field distributes figures and marks around a central seam."
+}

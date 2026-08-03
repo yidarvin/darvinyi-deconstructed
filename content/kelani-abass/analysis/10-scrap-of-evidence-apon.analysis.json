@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "image": "10-scrap-of-evidence-apon.jpg",
+  "width": 1600,
+  "height": 1468,
+  "aspect": 1.0899,
+  "tonal": {
+    "mean": 0.8702311146936144,
+    "std": 0.23810837924904707,
+    "p05": 0.3411764705882353,
+    "p95": 1.0,
+    "edge_density": 0.003345688564962726
+  },
+  "palette": [
+    "#fefefe",
+    "#a2845c",
+    "#73643e",
+    "#f2cd94",
+    "#4b3e23"
+  ],
+  "lines": [
+    {
+      "x1": 0.3212890625,
+      "y1": 0.5292864749733759,
+      "x2": 0.3212890625,
+      "y2": 0.13205537806176784,
+      "angle_deg": -90.0,
+      "length": 0.26847061888768514,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.630859375,
+      "y1": 0.7018104366347178,
+      "x2": 0.630859375,
+      "y2": 0.483493077742279,
+      "angle_deg": -90.0,
+      "length": 0.14755087633237388,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.6318359375,
+      "y1": 0.8221512247071352,
+      "x2": 0.6318359375,
+      "y2": 0.7028753993610224,
+      "angle_deg": -90.0,
+      "length": 0.08061316170354085,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.46875,
+      "y1": 0.7571884984025559,
+      "x2": 0.576171875,
+      "y2": 0.7571884984025559,
+      "angle_deg": 0.0,
+      "length": 0.07917364095883477,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.3203125,
+      "y1": 0.6400425985090522,
+      "x2": 0.3203125,
+      "y2": 0.5260915867944622,
+      "angle_deg": -90.0,
+      "length": 0.07701435984177564,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.3681640625,
+      "y1": 0.7060702875399361,
+      "x2": 0.3681640625,
+      "y2": 0.5963791267305645,
+      "angle_deg": -90.0,
+      "length": 0.07413531835236346,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.1235356762513312,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.3818359375,
+      0.19808306709265175
+    ],
+    "regions": [
+      {
+        "cx": 0.379246115935265,
+        "cy": 0.20211408766027644,
+        "x": 0.3271484375,
+        "y": 0.14376996805111822,
+        "w": 0.1083984375,
+        "h": 0.11501597444089456,
+        "area_frac": 0.009888345314164004
+      },
+      {
+        "cx": 0.5967598384000503,
+        "cy": 0.1635532862090008,
+        "x": 0.5615234375,
+        "y": 0.12460063897763578,
+        "w": 0.0703125,
+        "h": 0.07880724174653887,
+        "area_frac": 0.0041308905750798725
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.991165348984383,
+    "vertical_axis_x": 0.475,
+    "horizontal": 0.9937857753299026,
+    "horizontal_axis_y": 0.475
+  },
+  "subject_anchor": {
+    "x": 0.3818359375,
+    "y": 0.19808306709265175,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.1920330175532918,
+    "phi": 0.09526576927673656,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.124,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.475,
+      "confidence": 0.99,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.382,
+      "y": 0.198,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-stamping-history-making-time-3.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.05, "y": 0.08, "w": 0.90, "h": 0.84, "label": "nine-tile field" },
+    { "type": "leading_line", "points": [[0.33, 0.08], [0.33, 0.92]], "arrow": false, "label": "tile gutter" },
+    { "type": "leading_line", "points": [[0.05, 0.36], [0.95, 0.36]], "arrow": false, "label": "tile gutter" },
+    { "type": "subject_anchor", "x": 0.648, "y": 0.893, "r": 0.035, "label": "lower tile emphasis" }
+  ],
+  "notes": "Number-built fragments read through a strict nine-tile rhythm and its white gutters."
+}

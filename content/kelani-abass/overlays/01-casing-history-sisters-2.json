@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-casing-history-sisters-2.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.11, "y": 0.11, "w": 0.76, "h": 0.78, "label": "type case" },
+    { "type": "leading_line", "points": [[0.13, 0.28], [0.86, 0.28]], "arrow": false, "label": "case rail" },
+    { "type": "subject_anchor", "x": 0.335, "y": 0.759, "r": 0.035, "label": "lower portrait cluster" }
+  ],
+  "notes": "The type case turns family images into an irregular, nested grid."
+}

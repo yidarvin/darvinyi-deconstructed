@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-scrap-of-evidence-apon-i.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.30, "y": 0.10, "w": 0.40, "h": 0.80, "label": "inner artwork" },
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.60, "w": 0.10, "h": 0.14, "label": "green plaque" },
+    { "type": "polyline", "points": [[0.51, 0.27], [0.51, 0.73]], "label": "standing figure axis" },
+    { "type": "subject_anchor", "x": 0.430, "y": 0.732, "r": 0.035, "label": "lower plaque counterweight" }
+  ],
+  "notes": "A lone standing figure is offset by a small, recessed green plaque."
+}

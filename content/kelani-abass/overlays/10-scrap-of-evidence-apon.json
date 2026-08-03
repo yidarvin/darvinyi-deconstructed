@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-scrap-of-evidence-apon.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.19, "w": 0.31, "h": 0.47, "label": "inner standing portrait" },
+    { "type": "polyline", "points": [[0.36, 0.20], [0.63, 0.20], [0.63, 0.66], [0.36, 0.66], [0.36, 0.20]], "label": "corner-block support" },
+    { "type": "leading_line", "points": [[0.50, 0.27], [0.50, 0.61]], "arrow": false, "label": "portrait axis" },
+    { "type": "subject_anchor", "x": 0.382, "y": 0.198, "r": 0.035, "label": "upper-left corner block" }
+  ],
+  "notes": "A lone portrait is held within a brown rectangle by four physical corner blocks."
+}

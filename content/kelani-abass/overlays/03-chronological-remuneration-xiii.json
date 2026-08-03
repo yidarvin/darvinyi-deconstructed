@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-chronological-remuneration-xiii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.05, 0.76], [0.25, 0.70], [0.45, 0.63], [0.63, 0.69], [0.87, 0.73]], "arrow": true, "label": "foreground figure rhythm" },
+    { "type": "polyline", "points": [[0.50, 0.03], [0.50, 0.98]], "label": "central join" },
+    { "type": "subject_anchor", "x": 0.554, "y": 0.987, "r": 0.035, "label": "low foreground weight" }
+  ],
+  "notes": "Ghosted portraits and foreground figures turn the mural-like field into a layered sequence."
+}
