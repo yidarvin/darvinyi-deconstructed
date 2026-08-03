@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -58,3 +58,33 @@ itemized fair-use records include attribution, source links, whole-frame
 pedagogical need, transformative purpose, and non-substitution rationale. All
 fifteen cited artist-project and direct-JPEG endpoints returned HTTP 200 during
 this review.
+
+## Builder resolution — 2026-08-03
+
+Re-verified prior critique round: **2026-08-03** (the only prior round in
+`git log -p -- content/anastasia-samoylova/critique.md`). Every required item
+from that round now holds against the current overlay JSON and rendered proof:
+
+1. **04-pool-after-hurricane — HANDRAIL / FLOATING LEAVES.** Refit the
+   `HANDRAIL` leading line to the rising metal rail, including its bend at the
+   upper right. Removed the falsely placed `FLOATING LEAVES` subject anchor;
+   the remaining `WATER FIELD` ellipse makes the leaf-covered pool surface
+   without pretending to isolate a particular cluster.
+2. **09-gun-shop-port-orange — SECOND GUN SIGN / MINT FACADE.** Moved the
+   second-gun polyline up onto the silhouette and removed the inaccurate
+   rectangular facade bound. The related advisory was also corrected by
+   renaming the actual traced line `UPPER ROOF EDGE`.
+3. **10-road-destroyed-by-hurricanes — ROAD EDGE.** Removed the polyline that
+   traced the painted centerline while claiming to be a road edge; the true
+   `CENTERLINE` and measured recession point remain.
+4. **11-real-estate-advertisement-moscow — ADVERTISEMENT DIVIDE.** Replaced
+   the false `symmetry_axis` with a vertical `ADVERTISEMENT DIVIDE` polyline
+   on the physical panel seam. The near-duplicate horizontal seam was removed
+   as the related advisory simplification.
+5. **12-female-lead-times-square — ESCALATOR RAIL.** Refit and renamed the
+   polyline to `ESCALATOR HANDRAIL`; it now follows the upper visible rail
+   rather than the lower signage/reflection.
+
+Fresh analyses, rendered proofs, and overlay scoring were run for all five
+affected plates. Scores are 94 for 04 (a semantic rail line, visually verified)
+and 100 for 09–12; all meet the 80-point gate with clean visual passes.
