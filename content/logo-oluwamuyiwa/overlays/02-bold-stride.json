@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-bold-stride.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.148, "angle": -0.9, "label": "pavement seam" },
+    { "type": "subject_anchor", "x": 0.819, "y": 0.677, "r": 0.035, "label": "passing walker" },
+    { "type": "leading_line", "points": [[0.692, 0.647], [0.919, 0.798]], "arrow": true, "label": "stride diagonal" }
+  ],
+  "notes": "A motorcycle and a walker animate a broad field of pavement through opposed diagonals."
+}

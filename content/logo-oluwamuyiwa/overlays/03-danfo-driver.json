@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-danfo-driver.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.340, 0.786], [0.961, 0.535]], "arrow": true, "label": "bus roof run" },
+    { "type": "leading_line", "points": [[0.441, 0.412], [0.807, 0.284]], "arrow": true, "label": "windshield edge" },
+    { "type": "frame_in_frame", "x": 0.430, "y": 0.334, "w": 0.190, "h": 0.188, "label": "driver window" }
+  ],
+  "notes": "Repeated vehicle roofs compress the street until one window becomes a small human aperture."
+}

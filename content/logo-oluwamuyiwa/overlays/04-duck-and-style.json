@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-duck-and-style.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.567, "cy": 0.335, "rx": 0.126, "ry": 0.092, "label": "sunglasses" },
+    { "type": "polyline", "points": [[0.250, 0.578], [0.444, 0.660], [0.617, 0.810]], "label": "patterned sleeve" },
+    { "type": "leading_line", "points": [[0.613, 0.655], [0.783, 0.535]], "arrow": true, "label": "shoulder turn" }
+  ],
+  "notes": "Reflections and a repeated shirt motif make the close portrait a dense screen of pattern."
+}

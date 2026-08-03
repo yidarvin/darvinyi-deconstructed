@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-okada-shenanigans.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.000, 0.405], [0.212, 0.141], [0.348, 0.001]], "label": "puddle edge" },
+    { "type": "polyline", "points": [[0.104, 0.474], [0.344, 0.400], [0.597, 0.463]], "label": "reflected bodies" },
+    { "type": "polyline", "points": [[0.063, 0.355], [0.379, 0.311], [0.700, 0.313], [0.925, 0.294]], "label": "waterline" }
+  ],
+  "notes": "A roadside puddle inverts two figures inside an irregular edge and the dark curve of a tire."
+}

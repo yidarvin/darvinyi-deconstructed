@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-all-shades-of-form-and-movement.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.268, 0.523], [0.669, 0.308]], "arrow": true, "label": "motorcycle run" },
+    { "type": "subject_anchor", "x": 0.749, "y": 0.226, "r": 0.035, "label": "waiting rider" },
+    { "type": "polyline", "points": [[0.628, 0.175], [0.687, 0.298], [0.740, 0.426], [0.796, 0.571]], "label": "queued bikes" }
+  ],
+  "notes": "The open road channel sets the dense motorcycle queue into a rising diagonal rhythm."
+}

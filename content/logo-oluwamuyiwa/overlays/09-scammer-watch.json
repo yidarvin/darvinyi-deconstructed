@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-scammer-watch.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.188, 0.947], [0.979, 0.843]], "arrow": true, "label": "window rail" },
+    { "type": "polyline", "points": [[0.352, 0.571], [0.408, 0.557], [0.475, 0.561]], "label": "child's sideways gaze" },
+    { "type": "frame_in_frame", "x": 0.214, "y": 0.053, "w": 0.690, "h": 0.880, "label": "car window" }
+  ],
+  "notes": "A car window holds two competing looks behind a firm lower rail and cropped foreground."
+}

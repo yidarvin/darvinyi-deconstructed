@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-put-your-back-into-it.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.799, "angle": 0.0, "label": "bottle horizon" },
+    { "type": "leading_line", "points": [[0.531, 0.460], [0.813, 0.226]], "arrow": true, "label": "utility wire" },
+    { "type": "leading_line", "points": [[0.759, 0.694], [0.802, 0.235]], "arrow": true, "label": "utility run" }
+  ],
+  "notes": "Bottle rows form a low horizon while wires and a silhouetted worker push upward into the sky."
+}

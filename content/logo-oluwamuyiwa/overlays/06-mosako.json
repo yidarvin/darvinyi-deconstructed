@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-mosako.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.386, "y": 0.141, "w": 0.300, "h": 0.580, "label": "bus window" },
+    { "type": "subject_anchor", "x": 0.460, "y": 0.391, "r": 0.035, "label": "seated figure" },
+    { "type": "polyline", "points": [[0.318, 0.173], [0.720, 0.224]], "label": "reflected roofline" }
+  ],
+  "notes": "One bus window contains a figure, a façade reflection, and a second spatial layer."
+}
