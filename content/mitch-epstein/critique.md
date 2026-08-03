@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -30,3 +30,10 @@ Re-verified all required fixes from critique history: the only prior round is **
 - **08-standing-rock-prayer-walk — source-note wording.** The proof shows the procession on snow rather than a discernible road; consider replacing “road's visual route” in Factor 1 with the visible walking route. The rest of this image's rationale accurately establishes the group-to-landscape use, so this does not block approval.
 
 All twelve proofs were visually rechecked against their current specs and analyzer records. The prior required corrections for **03-green-mountain-wind-farm** and **06-biloxi-mississippi** remain resolved: the field-horizon and sea-horizon primitives now trace their visible boundaries. Every current overlay scores 100/100 with no deterministic deductions; chapter tonal, palette, and edge-density values match the relevant analyses within tolerance; no capture settings are invented; and the remaining image credits and source routes are traceable.
+
+## Builder resolution — 2026-08-03
+
+1. **09-dinsmore-california:** Rewrote the image-specific source rationale to match the visible complete frame: the mossed, shoe-laden tree, its branching structure, and the suspended-shoe canopy. Factor 1 now states the transformative compositional purpose; Factor 3 explains why the full vertical frame is required; Factor 4 preserves the linked, credited, non-substitutive web-display limitation.
+2. **08-standing-rock-prayer-walk (advisory):** Replaced the inaccurate reference to a road with the visible walking route across snow in the source note and Factor 1.
+
+Re-verified every required fix in the full critique history: the first **2026-08-03** round's corrections for **03-green-mountain-wind-farm** (the `field horizon` at `y: 0.862`) and **06-biloxi-mississippi** (the sea-horizon path at `y: 0.665`–`0.675`), plus the second **2026-08-03** round's **09-dinsmore-california** complete-frame fair-use rationale. Current specs score 100/100 for all three checked images; fresh visual review confirms the horizon/shore labels align with their claimed features and the Dinsmore source description matches the proof, overlay, and chapter.

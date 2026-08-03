@@ -49,15 +49,15 @@ This selection follows the broad systems in Epstein's landscape practice: *Ameri
 - **File:** `raw/mitch-epstein/07-amos-coal-power-plant.jpg` (4000 × 3107px)
 
 ### 08 — *Standing Rock Prayer Walk, North Dakota* (2018)
-- **Why it matters:** The walk turns bodies, banners, road, and low landscape into a distributed procession rather than a single heroic focal point.
+- **Why it matters:** The walk turns bodies, banners, the visible walking route across snow, and low landscape into a distributed procession rather than a single heroic focal point.
 - **Source:** https://www.yanceyrichardson.com/artists/mitch-epstein (Yancey Richardson; public display rendition: https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/dbf24287eb9e0edd95c3d0d0d0e07745.jpeg; collection record: https://www.nga.gov/artworks/233546-standing-rock-prayer-walk-north-dakota-2018)
-- **Rights / fair-use assessment:** Mitch Epstein; NGA identifies the artist and 2018 date, and Yancey Richardson publicly displays the work. **Factor 1:** transformative criticism studies procession, distributed attention, and the road's visual route. **Factor 2:** a creative contemporary photograph. **Factor 3:** the complete frame is necessary for the group-to-landscape relation. **Factor 4:** the credited 1547 × 1160px gallery display copy links to authoritative records and cannot replace a print or licensed reproduction.
+- **Rights / fair-use assessment:** Mitch Epstein; NGA identifies the artist and 2018 date, and Yancey Richardson publicly displays the work. **Factor 1:** transformative criticism studies procession, distributed attention, and the visible walking route. **Factor 2:** a creative contemporary photograph. **Factor 3:** the complete frame is necessary for the group-to-landscape relation. **Factor 4:** the credited 1547 × 1160px gallery display copy links to authoritative records and cannot replace a print or licensed reproduction.
 - **File:** `raw/mitch-epstein/08-standing-rock-prayer-walk.jpg` (1547 × 1160px)
 
 ### 09 — *Dinsmore, California* (2018)
-- **Why it matters:** A built edge meets an exposed landscape in an unstable balance, making inhabited space appear contingent on the land around it.
+- **Why it matters:** A mossed tree laden with suspended shoes fills the frame; its branching structure turns individual objects into a dense, collective canopy.
 - **Source:** https://www.yanceyrichardson.com/artists/mitch-epstein (Yancey Richardson; public display rendition: https://static-assets.artlogic.net/w_2020,h_1160,c_limit/exhibit-e/55f7ef8984184eba568b4568/87a8ba8114b15dfc6322b1a6d11d8b9a.jpeg)
-- **Rights / fair-use assessment:** Mitch Epstein; Yancey Richardson identifies title, date, and medium. **Factor 1:** transformative teaching examines the balance of settlement and surrounding terrain. **Factor 2:** a creative contemporary photograph. **Factor 3:** the whole image is needed to assess the built edge against the land. **Factor 4:** the credited 926 × 1160px public gallery display image is linked and non-substitutive.
+- **Rights / fair-use assessment:** Mitch Epstein; Yancey Richardson identifies title, date, and medium. **Factor 1:** transformative composition teaching examines how the shoe-laden trunk, mossed branch sweeps, and suspended-shoe canopy organize attention across the frame. **Factor 2:** a creative contemporary photograph. **Factor 3:** the complete vertical frame is necessary to relate the trunk, branching structure, and scattered shoes; a crop would remove the all-over spatial argument. **Factor 4:** the credited 926 × 1160px public gallery display image is linked and non-substitutive, and cannot replace a print or licensed reproduction.
 - **File:** `raw/mitch-epstein/09-dinsmore-california.jpg` (926 × 1160px)
 
 ### 10 — *Holy Rosary Cemetery, Taft, Louisiana* (2019)
