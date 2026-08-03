@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -30,3 +30,36 @@ Reverified prior critique round: 2026-08-02. Its sole required fix now holds;
 the chapter remains byte-identical to its rendered `src/chapters` counterpart,
 and all eleven existing overlay specs score at least 80 (ten at 100 and `09` at
 97) with a clean proof review. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. Correct the source annotation for `04-traditions-highway-04-2018` in
+   `sources.md`. It currently says that “Diagonal architecture” divides the
+   image into compartments, but the sourced display file and proof show a dog
+   on a rock ridge above a dense chicken foreground. Replace that false
+   description with an accurate, image-specific explanation of why the complete
+   web-sized frame is needed for the compositional teaching purpose and retain
+   the documented fair-use basis.
+
+### Advisory (non-blocking)
+
+- No new overlay or chapter-prose issue found. All eleven proofs remain
+  materially faithful to their specifications; deterministic scores are 100/100
+  except `09-miracle-center-vesna-2018-20` at 97/100 for its three ellipses,
+  which remains the previously settled non-blocking redundancy warning.
+- The slight top-edge label clipping on
+  `05-traditions-highway-girl-baby-2018` and
+  `10-a-rock-that-floats-2014-16` remains cosmetic and previously settled.
+
+### Review record
+
+- Looked at every current proof PNG and checked each matching overlay and
+  analyzer result. The resolved corrections for `03` and `08`–`11` remain
+  accurate; this is a distinct, previously unraised error in `04`'s source
+  annotation.
+- All eleven direct CPM Gallery image routes returned public HTTP 200 responses
+  during this review. The chapter's reported derivative measurements agree with
+  the analyzer values within the stated tolerance, and no camera setting is
+  asserted.
