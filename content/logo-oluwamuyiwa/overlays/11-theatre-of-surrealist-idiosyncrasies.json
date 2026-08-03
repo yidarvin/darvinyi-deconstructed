@@ -3,9 +3,13 @@
   "image": "11-theatre-of-surrealist-idiosyncrasies.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.468, "y": 0.264, "label": "street convergence" },
-    { "type": "leading_line", "points": [[0.172, 0.004], [0.660, 0.451]], "arrow": true, "label": "vehicle edge" },
-    { "type": "leading_line", "points": [[0.386, 0.052], [0.488, 0.535]], "arrow": true, "label": "stall axis" }
+    {
+      "type": "subject_anchor",
+      "x": 0.0,
+      "y": 0.117,
+      "r": 0.035,
+      "label": "cooking tray"
+    }
   ],
-  "notes": "Vehicle edges and food stalls assemble an overhead street scene as a densely populated stage."
+  "notes": "A cooking tray at upper left and a phi grid hold an overhead street scene whose people, corn trays, smoke, and motorcycles remain distributed."
 }

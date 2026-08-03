@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -9,3 +9,9 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-08-03
+
+1. Removed the unsupported `VEHICLE EDGE`, `STALL AXIS`, and `STREET CONVERGENCE` claims. The replacement uses only the analyzer-supported phi grid and a `COOKING TRAY` subject anchor at the visible upper-left tray; the matching chapter paragraph now describes a distributed scene without asserting a shared perspective.
+2. Re-rendered and scored the corrected overlay, then visually checked that the anchor lands on its named tray.
+3. Re-verified required fixes from critique round 2026-08-03 (the complete critique history for this slug); no earlier rounds exist.
