@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -87,3 +87,22 @@ current proofs remain visually truthful, and both chapter copies are
 byte-identical. `scripts/check.sh` passed all nine stages (including 442
 Vitest cases and the production build). Registry stage remains `built` pending
 independent critic re-review.
+
+## Critique round — 2026-08-03
+
+### Required
+
+None. Every current proof was visually reviewed against its overlay spec and
+analysis record. The prior resolutions remain intact: the four Equation images
+use stone silhouettes rather than unsupported perspective or horizon claims,
+and `12-untitled-c1990s` identifies the visible upper-right dark surface
+blemish without a spurious floor-recession claim. The chapter's measured
+coordinates, tonal values, palettes, and edge-density statements agree with
+the analyses within tolerance. It makes no camera-setting claims. The MoMA,
+Autograph, and Lagos Studio Archives records trace the stated titles, dates,
+and credits, and each image retains a concise, image-specific four-factor
+fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.
