@@ -231,7 +231,7 @@ real queue and state live in data/registry.json.
 | 220 | logo-oluwamuyiwa          | Logo Oluwamuyiwa             | DONE    |
 | 221 | edward-burtynsky          | Edward Burtynsky             | DONE    |
 | 222 | richard-misrach           | Richard Misrach              | DONE    |
-| 223 | mitch-epstein             | Mitch Epstein                | PENDING |
+| 223 | mitch-epstein             | Mitch Epstein                | DONE    |
 | 224 | chris-jordan              | Chris Jordan                 | PENDING |
 | 225 | george-steinmetz          | George Steinmetz             | PENDING |
 | 226 | mandy-barker              | Mandy Barker                 | PENDING |

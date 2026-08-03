@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -37,3 +37,15 @@ All twelve proofs were visually rechecked against their current specs and analyz
 2. **08-standing-rock-prayer-walk (advisory):** Replaced the inaccurate reference to a road with the visible walking route across snow in the source note and Factor 1.
 
 Re-verified every required fix in the full critique history: the first **2026-08-03** round's corrections for **03-green-mountain-wind-farm** (the `field horizon` at `y: 0.862`) and **06-biloxi-mississippi** (the sea-horizon path at `y: 0.665`–`0.675`), plus the second **2026-08-03** round's **09-dinsmore-california** complete-frame fair-use rationale. Current specs score 100/100 for all three checked images; fresh visual review confirms the horizon/shore labels align with their claimed features and the Dinsmore source description matches the proof, overlay, and chapter.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+All twelve current proof PNGs were visually checked against their overlay specs and analysis records. Each overlay has three to five pedagogically useful primitives, every labeled primitive traces the named visible feature, and the deterministic scorer returns 100/100 with no deductions or warnings for every image. The earlier required corrections remain materially resolved: **03-green-mountain-wind-farm** places `field horizon` at the visible field/sky boundary (`y: 0.862`); **06-biloxi-mississippi** follows the visible sea band behind the car (`y: 0.665`–`0.675`); and **09-dinsmore-california** has an image-specific complete-frame fair-use rationale matching the shoe-laden tree. Chapter tonal, palette, and edge-density claims match the corresponding analyzer values within tolerance; the chapter and research note explicitly decline to infer capture settings from later display-file EXIF. All twelve source entries retain a source route, credit/rights statement, and concise per-image four-factor fair-use assessment; the public collection/gallery and display-rendition routes remain traceable.
