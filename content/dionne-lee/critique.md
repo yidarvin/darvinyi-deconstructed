@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Builder resolution — 2026-08-02
 
@@ -51,3 +51,51 @@ score. `scripts/check.sh` passes.
 - `12-broken-signal`: `UPPER SIGNAL ROW` runs through panel interiors rather than precisely along a row boundary, but the indicated upper grouping remains clear.
 
 All twelve proofs were visually checked against their current specs and analyses. The cited Aperture, MoMA, NOMA, and Strange Fire records are traceable; the dossier provides a concise four-factor fair-use rationale per image, and no invented capture settings were found. The chapter's measured tonal, palette, grid, and edge-density claims match the stored analyses within tolerance.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. `01-breaking-wave`: retarget, relabel, or remove `HANDS HOLDING THE
+   SPLIT`. Its polyline forms a broad trapezoid through the empty black area
+   below the fragments (`[0.17, 0.86] → [0.31, 0.68] → [0.72, 0.68] → [0.84,
+   0.86]`) rather than tracing either visible hand or wrist. It therefore
+   teaches a continuous enclosing hand contour that the proof does not show.
+
+2. `07-a-plot-that-also-grounds`: resolve the work-date conflict in the
+   chapter and source dossier. They present the work unqualified as 2016,
+   matching the Aperture display, while the cited NOMA record identifies the
+   same titled work as 2018. Establish the date from a stronger authority or
+   disclose the discrepancy; the current record leaves a reader with an
+   unsupported single date.
+
+3. `sources.md`: support or remove the work-specific process assertions that
+   the listed source pages do not establish. The Aperture display identifies
+   *Breaking Wave* and *Lapse* but does not show that the former was
+   rephotographed or that the latter is a layered-darkroom work; the Strange
+   Fire page identifies *Broken Signal* as a gelatin silver print but does not
+   establish that this particular work is “darkroom-made.” Add a source that
+   supports each attribution, or recast them as clearly visible,
+   non-process descriptions. This also restores the research note's stated
+   rule against assigning a process to a plate without evidence.
+
+### Advisory (non-blocking)
+
+- `03-true-north`: `RAISED HANDS` is a readable connecting gesture but only
+  partly overlaps the upper hand imagery; a closer trace would be clearer.
+- `08-lapse`: the two repetition-band lines make nearly the same pedagogical
+  claim. One could be varied or removed for a less redundant overlay.
+- `09-contact-a-muscle-memory`: the two current primitives are truthful but
+  below the usual three-to-five teaching-claim target; add only a genuinely
+  distinct claim if it can remain precise.
+- `10-netting`: `WOVEN DIAGONAL TRACE` conveys the field's direction but does
+  not follow one continuous graphite strand; a more exact path or a broader
+  directional label would be clearer.
+- `08-lapse`: the text says both grid-fit scores are zero, while the stored
+  analyzer reports thirds `0.0345` and phi `0.0`. The difference does not
+  change the conclusion that the matrix has no governing cell, so this is
+  non-blocking; state the measured value if the sentence is revised.
+
+All twelve current proofs received a fresh visual pass and score 100/100
+against their stored analyses. The previously resolved fixes remain present;
+this round does not reopen them.
