@@ -4,7 +4,6 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "horizon_line", "y": 0.547, "angle": 0, "label": "sidewalk threshold" },
-    { "type": "vanishing_point", "x": 0.662, "y": 0.661, "label": "road depth" },
     { "type": "leading_line", "points": [[0.479, 0.381], [0.987, 0.999]], "arrow": true, "label": "tree edge" },
     { "type": "ellipse", "cx": 0.35, "cy": 0.53, "rx": 0.11, "ry": 0.34, "label": "sign bearer" }
   ],

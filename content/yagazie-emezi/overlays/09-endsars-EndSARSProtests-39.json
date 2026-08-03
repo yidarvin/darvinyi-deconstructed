@@ -4,7 +4,6 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.765, "angle": -3, "label": "road edge" },
-    { "type": "vanishing_point", "x": 0.462, "y": 0.751, "label": "street depth" },
     { "type": "leading_line", "points": [[0.017, 0.999], [0.427, 0.799]], "arrow": true, "label": "curb line" },
     { "type": "ellipse", "cx": 0.23, "cy": 0.42, "rx": 0.16, "ry": 0.31, "label": "raised fist" }
   ],

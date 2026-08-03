@@ -4,7 +4,6 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.298, "angle": 0, "label": "upper crowd band" },
-    { "type": "vanishing_point", "x": 0.455, "y": 0.609, "label": "crowd center" },
     { "type": "leading_line", "points": [[0.187, 0.518], [0.664, 0.136]], "arrow": true, "label": "raised arm" },
     { "type": "ellipse", "cx": 0.55, "cy": 0.76, "rx": 0.24, "ry": 0.18, "label": "foreground witness" }
   ],

@@ -3,7 +3,6 @@
   "image": "06-endsars-EndSARSProtests-13.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.506, "y": 0.709, "label": "crowd depth" },
     { "type": "horizon_line", "y": 0.276, "angle": 0, "label": "sky-to-crowd threshold" },
     { "type": "ellipse", "cx": 0.15, "cy": 0.28, "rx": 0.16, "ry": 0.27, "label": "yellow placard" },
     { "type": "polyline", "points": [[0.37, 0.68], [0.46, 0.31], [0.6, 0.31]], "label": "foreground voice" }

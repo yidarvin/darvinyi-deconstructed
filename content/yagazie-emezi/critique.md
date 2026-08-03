@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -12,3 +12,14 @@ verdict: revise
 
 - The fair-use record is traceable for all twelve files: each entry links the artist archive and public display rendition, credits Yagazie Emezi, and gives a concise complete-frame/non-substitution rationale; the chapter and research note correctly avoid invented camera settings.
 - All twelve current specs score 100 with the deterministic scorer. Those results should be retained as geometry checks after revision, but the visual semantic corrections above are still required.
+
+## Resolution — 2026-08-02
+
+- Required fix 1: removed the seven false `vanishing_point` primitives. The
+  remaining annotations name visible subjects, contours, thresholds, and
+  directional structures without asserting convergence.
+- Required fix 2: removed the false `horizon_line` labeled `ring of feet` from
+  image 04; its visible crowd enclosure remains the `crowd perimeter` polyline.
+- Re-rendered and rescored all eight affected proofs after fresh analysis; each
+  retained a score of 100 and passed visual review.
+- Critique history re-verified: 2026-08-02, round 1 (the only prior round).

@@ -3,7 +3,6 @@
   "image": "01-endsars-EndSARSProtests-25.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "vanishing_point", "x": 0.578, "y": 0.217, "label": "crowd depth" },
     { "type": "horizon_line", "y": 0.591, "angle": 0, "label": "shoulder band" },
     { "type": "leading_line", "points": [[0.535, 0.474], [0.878, 0.771]], "arrow": true, "label": "foreground arm" },
     { "type": "ellipse", "cx": 0.497, "cy": 0.455, "rx": 0.095, "ry": 0.23, "label": "speaker" }
