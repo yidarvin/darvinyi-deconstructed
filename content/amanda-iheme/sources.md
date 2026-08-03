@@ -49,7 +49,7 @@ All selections are therefore used as **fair-use**, not open material. For each e
    **Use basis — fair-use:** Cropping would defeat analysis of the grid's edge-to-edge pressure; the complete 2,500-px, credited critical copy neither replaces nor competes with the original or licensed image.
 
 9. **Waterhouse—Preservation—01** (2018)  
-   **Composition:** The Waterhouse study turns a historic residence and its well into a broad, balanced field where preservation is read through stillness and structural order.  
+   **Composition:** A narrow pedestrian route runs beside the tiled Waterhouse facade, while a foliage opening and the street beyond turn the building edge into a passage through the frame.\\
    **Source:** [artist page](https://www.amandaiheme.com/preservation-waterhouse) · [MoMA exhibition checklist](https://www.moma.org/documents/moma_master-checklist_589517.pdf) · [public web rendition](https://images.squarespace-cdn.com/content/v1/5be08e6831d4dfc9a3c960e2/1581881294620-VV4V4474RCOTJFLQHMQP/WH%2B-%2B01.jpg).  
    **Use basis — fair-use:** The uncut relationship of structure, ground, and surrounding space is necessary for composition criticism; the linked 2,500-px web copy is credited and non-substitutive.
 
@@ -59,7 +59,7 @@ All selections are therefore used as **fair-use**, not open material. For each e
    **Use basis — fair-use:** The complete frame is needed to analyze the threshold sequence; this credited 2,500-px web-sized lesson transforms rather than substitutes for the photograph.
 
 11. **Waterhouse—Preservation—05** (2018)  
-   **Composition:** An exhibited work whose panoramic proportion uses a long facade and controlled horizon to make civic memory visible as spatial continuity.  
+   **Composition:** A close, nearly frontal view sets two arched openings in a tiled wall against one another: a grille closes the left opening while a dark doorway opens at right.\\
    **Source:** [artist page](https://www.amandaiheme.com/preservation-waterhouse) · [MoMA exhibition checklist](https://www.moma.org/documents/moma_master-checklist_589517.pdf) · [public web rendition](https://images.squarespace-cdn.com/content/v1/5be08e6831d4dfc9a3c960e2/1581881454764-VKSUXK7JCP3RXBG2TVWR/WH%2B-%2B05.jpg).  
    **Use basis — fair-use:** The full panorama is essential to the lesson in horizontal pacing and historical scale; this 2,500-px credited copy is transformative scholarship and does not replace a museum record or licensed reproduction.
 
