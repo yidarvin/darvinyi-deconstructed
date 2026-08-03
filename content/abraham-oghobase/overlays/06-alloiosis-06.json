@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-alloiosis-06.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.257, "angle": 0.0, "label": "ROOF LINE" },
+    { "type": "vanishing_point", "x": 0.412, "y": 0.584, "label": "DRAWN CONVERGENCE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "HOODED FIGURE AXIS" },
+    { "type": "leading_line", "points": [[0.173, 0.575], [0.443, 0.170]], "arrow": true, "label": "DRAWN STRUCTURE" }
+  ],
+  "notes": "The centered hooded body interrupts a diagram whose hard lines describe an architectural shell."
+}

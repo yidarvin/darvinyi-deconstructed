@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-anatomy-of-landscape-jos-25.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.522, "angle": 0.0, "label": "DISTANT TREE LINE" },
+    { "type": "subject_anchor", "x": 0.102, "y": 0.527, "r": 0.035, "label": "RUSTED VESSEL" },
+    { "type": "leading_line", "points": [[0.030, 0.915], [0.330, 0.680], [0.505, 0.550]], "arrow": true, "label": "RAIL TRACK" },
+    { "type": "leading_line", "points": [[0.600, 0.585], [0.685, 0.520], [0.760, 0.470]], "arrow": false, "label": "SHED ROOF" }
+  ],
+  "notes": "Tracks and roofs recede from discarded industrial vessels into the station-like distance."
+}

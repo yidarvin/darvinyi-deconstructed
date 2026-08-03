@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-anatomy-of-landscape-jos-16.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.862, "angle": 3.0, "label": "LOW TERRAIN EDGE" },
+    { "type": "leading_line", "points": [[0.075, 0.665], [0.450, 0.515], [0.820, 0.610]], "arrow": true, "label": "RUIN WALL" },
+    { "type": "frame_in_frame", "x": 0.286, "y": 0.515, "w": 0.160, "h": 0.140, "label": "OPEN WINDOW" }
+  ],
+  "notes": "The broken wall rises diagonally through a broad, nearly empty field."
+}

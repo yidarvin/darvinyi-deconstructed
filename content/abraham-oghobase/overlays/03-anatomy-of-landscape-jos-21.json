@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-anatomy-of-landscape-jos-21.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.666, "angle": 0.0, "label": "WALL BASE" },
+    { "type": "frame_in_frame", "x": 0.080, "y": 0.220, "w": 0.290, "h": 0.315, "label": "SHUTTERED OPENING" },
+    { "type": "leading_line", "points": [[0.040, 0.720], [0.500, 0.710], [0.910, 0.695]], "arrow": false, "label": "RAISED LEDGE" }
+  ],
+  "notes": "A sign and reclining body occupy opposite ends of a long masonry wall."
+}

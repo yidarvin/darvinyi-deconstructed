@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-colonial-self-portrait.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.569, "angle": 0.0, "label": "UNIFORM WAISTLINE" },
+    { "type": "ellipse", "cx": 0.495, "cy": 0.215, "rx": 0.120, "ry": 0.095, "label": "FRONTAL FACE" },
+    { "type": "frame_in_frame", "x": 0.210, "y": 0.060, "w": 0.590, "h": 0.860, "label": "ARCHIVAL PORTRAIT FIELD" }
+  ],
+  "notes": "A frontal archival portrait is made uneasy by its composed authority and material surface."
+}

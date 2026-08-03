@@ -1,0 +1,117 @@
+[
+  {
+    "file": "01-anatomy-of-landscape-jos-13.jpg",
+    "width": 1600,
+    "height": 899,
+    "sha1": "ac86e9ac",
+    "source": "01-anatomy-of-landscape-jos-13.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-anatomy-of-landscape-jos-16.jpg",
+    "width": 1600,
+    "height": 899,
+    "sha1": "57d0e343",
+    "source": "02-anatomy-of-landscape-jos-16.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 550D",
+      "DateTimeOriginal": "2016:12:09 15:33:24",
+      "FocalLength": "35.0",
+      "ExposureTime": "0.0015625",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "03-anatomy-of-landscape-jos-21.jpg",
+    "width": 1600,
+    "height": 899,
+    "sha1": "074f70c8",
+    "source": "03-anatomy-of-landscape-jos-21.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 550D",
+      "DateTimeOriginal": "2016:12:14 12:58:19",
+      "FocalLength": "70.0",
+      "ExposureTime": "0.003125",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "04-anatomy-of-landscape-jos-25.jpg",
+    "width": 1600,
+    "height": 899,
+    "sha1": "0fb0b204",
+    "source": "04-anatomy-of-landscape-jos-25.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 550D",
+      "DateTimeOriginal": "2016:12:14 16:11:24",
+      "FocalLength": "50.0",
+      "ExposureTime": "0.001",
+      "FNumber": "8.0",
+      "ISOSpeedRatings": "200",
+      "LensModel": "EF24-70mm f/2.8L USM"
+    }
+  },
+  {
+    "file": "05-alloiosis-08.jpg",
+    "width": 1000,
+    "height": 1500,
+    "sha1": "a9dcf21d",
+    "source": "05-alloiosis-08.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-alloiosis-06.jpg",
+    "width": 1000,
+    "height": 1500,
+    "sha1": "4f002fad",
+    "source": "06-alloiosis-06.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-alloiosis-07.jpg",
+    "width": 1000,
+    "height": 1500,
+    "sha1": "92f2a7ee",
+    "source": "07-alloiosis-07.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-metallurgical-practice-landscape-01.jpg",
+    "width": 1600,
+    "height": 1107,
+    "sha1": "91d8e5d2",
+    "source": "08-metallurgical-practice-landscape-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-metallurgical-practice-landscape-04.jpg",
+    "width": 1600,
+    "height": 1107,
+    "sha1": "158f5956",
+    "source": "09-metallurgical-practice-landscape-04.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-metallurgical-practice-landscape-03.jpg",
+    "width": 1600,
+    "height": 1107,
+    "sha1": "9cf81acd",
+    "source": "10-metallurgical-practice-landscape-03.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-colonial-self-portrait.jpg",
+    "width": 993,
+    "height": 1600,
+    "sha1": "005998b3",
+    "source": "11-colonial-self-portrait.jpg",
+    "exif": {}
+  }
+]

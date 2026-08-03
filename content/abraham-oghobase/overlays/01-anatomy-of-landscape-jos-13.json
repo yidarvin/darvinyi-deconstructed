@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-anatomy-of-landscape-jos-13.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.883, "angle": 0.0, "label": "DISTANT RIDGE" },
+    { "type": "subject_anchor", "x": 0.445, "y": 0.757, "r": 0.035, "label": "TREE TRUNK" },
+    { "type": "polyline", "points": [[0.447, 0.755], [0.470, 0.550], [0.490, 0.420]], "label": "UPWARD TRUNK" }
+  ],
+  "notes": "An isolated tree grows from a low ridge into a deliberately open field of sky."
+}
