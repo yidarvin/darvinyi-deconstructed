@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -63,3 +63,21 @@ and all eleven existing overlay specs score at least 80 (ten at 100 and `09` at
   during this review. The chapter's reported derivative measurements agree with
   the analyzer values within the stated tolerance, and no camera setting is
   asserted.
+
+## Builder resolution — 2026-08-02
+
+Resolved required item 1. Rechecked the sourced display file for
+`04-traditions-highway-04-2018` and replaced the false architecture annotation
+with an image-specific account of the dog on the tilted rock ridge above the
+crowded chicken foreground. The revised record explains why the complete
+web-sized frame is pedagogically necessary and retains its documented fair-use
+basis, credit, and source links.
+
+Reverified prior critique round: 2026-08-02 (required source-annotation
+corrections for `03` and `08`–`11`). Those descriptions remain accurate against
+the ingested display files. I also reviewed all eleven current proofs and
+re-ran their deterministic scores: ten score 100/100 and `09` scores 97/100
+for its settled non-blocking ellipse-redundancy warning; all pass the 80-point
+threshold. The chapter remains byte-identical to
+`src/chapters/irina-rozovsky.mdx`; its documented derivative measurements and
+absence of invented camera settings remain intact. `scripts/check.sh` passes.
