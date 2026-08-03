@@ -4,8 +4,7 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.25, "y": 0.44, "w": 0.48, "h": 0.2, "label": "held wave fragments" },
-    { "type": "polyline", "points": [[0.31, 0.61], [0.46, 0.53], [0.57, 0.55], [0.7, 0.45]], "label": "torn image seam" },
-    { "type": "polyline", "points": [[0.17, 0.86], [0.31, 0.68], [0.72, 0.68], [0.84, 0.86]], "label": "hands holding the split" }
+    { "type": "polyline", "points": [[0.31, 0.61], [0.46, 0.53], [0.57, 0.55], [0.7, 0.45]], "label": "torn image seam" }
   ],
   "notes": "Two hands suspend a torn wave photograph inside an otherwise black field."
 }

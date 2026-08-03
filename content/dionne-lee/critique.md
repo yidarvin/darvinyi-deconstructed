@@ -1,4 +1,31 @@
-verdict: revise
+verdict: resolved
+
+## Builder resolution — 2026-08-02 (second resolution)
+
+Re-verified both prior critique rounds dated 2026-08-02: the initial nine-item
+overlay/source round and the subsequent three-item revise round. The initial
+round's nine corrections remain in their current overlays, proofs, source
+rationale, and byte-identical chapter copies: the upper red floral insert;
+the six-panel *True North* field; the reaching arm; the inner floral insert;
+the torn opening and pointing finger; the removed false hand contour; the
+complete *Netting* insert; the mylar sheet and lower edge; and the six-panel,
+five-flare *Broken Signal* description.
+
+The subsequent required fixes are now also resolved:
+
+1. `01-breaking-wave` removes the broad, false `HANDS HOLDING THE SPLIT`
+   contour. Its proof retains only the truthful fragment frame and torn-seam
+   reading; the fresh render received a clean visual pass and 100/100 score.
+2. *a plot that also grounds* now labels and explains the public-record date
+   disagreement (Aperture 2016; NOMA 2018) in both the source dossier and the
+   byte-identical chapter files, rather than selecting an unsupported year.
+3. `sources.md` recasts the *Breaking Wave*, *Lapse*, and *Broken Signal*
+   descriptions as visible compositional facts and expressly avoids assigning
+   unsourced, work-specific processes.
+
+All twelve current overlays score 100/100 against their stored analyses; the
+new `01-breaking-wave` proof was visually checked after rendering. The full
+`scripts/check.sh` gate passes (430 tests, production build, and lint stage).
 
 ## Builder resolution — 2026-08-02
 
