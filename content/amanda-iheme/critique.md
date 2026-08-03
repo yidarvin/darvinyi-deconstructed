@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -36,3 +36,16 @@ verdict: resolved
 - Resolved required fix 1: the 06 axis now lands on the actual central-pavilion arch at x=0.570 and is labelled `CENTRAL PAVILION ARCH`; both synchronized chapter copies now distinguish that local axis from the broader lateral sweep.
 - Re-verified critique history: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (required fixes for 04 and 11) and `1a3931998249b03ac2afe6d929dbf49deed75206` (the current 06 requirement). The 04 overlay/proof still identifies the diagonal `UTILITY CABLE`, and the 11 overlay/proof still traces the low `WALL-AND-GROUND BOUNDARY`.
 - Fresh analysis and strict scoring: the revised 06 overlay scores 90/100 with a clean visual proof. Its only deduction is the analyzer’s alternative balance axis at x=0.388, intentionally not restored because it does not trace the annotated pavilion arch. The semantic correction remains the more truthful annotation. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. **09-waterhouse-preservation-01** — The selected-work description in `sources.md` calls this view a study of “a historic residence and its well” in “a broad, balanced field.” The proof instead shows a narrow pedestrian route beside the tiled Waterhouse facade; no well is visible. Replace that description with one that identifies the route, facade, and foliage opening actually in the frame. The source link, credit, and fair-use rationale may remain as they are.
+2. **11-waterhouse-preservation-05** — The selected-work description in `sources.md` calls this a panoramic, long-facade view with a controlled horizon. The proof is a close, nearly frontal view of two arched openings in a tiled wall, with a grille at left and an open doorway at right. Correct the source-note description to match the shown work; this is distinct from, and does not reopen, the already resolved low wall-and-ground-boundary overlay fix.
+
+### Advisory (non-blocking)
+
+- All twelve proofs were visually re-inspected. Each retains three to five pedagogically distinct primitives, and every overlay is semantically legible. The resolved **04**, **06**, and **11** overlay corrections remain intact.
+- Strict re-scoring passes all overlays: eleven score 100/100; **06-old-secretariat-stagnation-02** scores 90/100 only because the analyzer proposes a broader balance axis at x=0.388. The annotated x=0.570 line visibly traces the central pavilion arch, so this is not a regression.
+- Image links, artist credit, per-image fair-use rationales, and the chapter’s refusal to invent camera settings remain present and materially sound.
