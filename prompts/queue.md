@@ -226,7 +226,7 @@ real queue and state live in data/registry.json.
 | 215 | kelani-abass              | Kelani Abass                 | DONE    |
 | 216 | yagazie-emezi             | Yagazie Emezi                | DONE    |
 | 217 | amanda-iheme              | Amanda Iheme                 | DONE    |
-| 218 | abraham-oghobase          | Abraham Oghobase             | PENDING |
+| 218 | abraham-oghobase          | Abraham Oghobase             | DONE    |
 | 219 | karl-ohiri                | Karl Ohiri                   | PENDING |
 | 220 | logo-oluwamuyiwa          | Logo Oluwamuyiwa             | PENDING |
 | 221 | edward-burtynsky          | Edward Burtynsky             | PENDING |

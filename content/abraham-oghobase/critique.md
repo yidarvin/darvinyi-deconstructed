@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -56,3 +56,17 @@ All eleven current proofs were visually checked against their specs and analyzer
 Resolved all three required items from the 2026-08-03 critique round. Plates 05–11, including `10-metallurgical-practice-landscape-03`, were omitted because their artist-site acquisition route is blocked by the documented robots and `noai, noimageai` restrictions; the chapter, manifest, source notes, derived assets, and contact sheet now retain only the four KADIST plates, which meet the normal minimum. The retained `03-anatomy-of-landscape-jos-21` overlay was re-analyzed, re-rendered, visually checked, and scored 94; its `FIGURE LEDGE` follows the real ledge directly beneath the reclining figure, and the plate prose now makes that same claim.
 
 Critique history re-verified: 2026-08-02 and 2026-08-03. Every required fix from the 2026-08-02 round still holds: plate 04's `RUSTED TANK` ellipse visibly encloses the actual tank and scores 94; the five subsequently omitted plates no longer render a disputed annotation or prose claim. Every remaining overlay was re-scored at or above 80 (01: 100; 02: 94; 03: 94; 04: 94) and visually checked. The content and rendered chapter copies are byte-identical.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+None.
+
+### Review notes
+
+Fresh visual review of all four retained proofs confirms that `DISTANT RIDGE`, `RUIN WALL`/`OPEN WINDOW`, `WALL BASE`/`FIGURE LEDGE`, and `DISTANT TREE LINE`/`RUSTED TANK`/`SHED ROOF` each trace the visible feature their labels name. The score tool reports 100, 94, 94, and 94 respectively, with no deductions; its three leading-line warnings are visually unsupported by the detector rather than the photograph, as each line follows the named wall, ledge, or roof edge. The 2026-08-02 and 2026-08-03 required fixes remain resolved. Chapter prose agrees with the retained proofs and analyzer values, the camera-metadata caveat does not invent settings, and all four KADIST source records and direct image links resolve with the artist credit and per-image four-factor fair-use rationale recorded in `sources.md`.
