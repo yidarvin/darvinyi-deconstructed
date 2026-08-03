@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-sacred-stone-camp.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.297, "angle": 0.0, "label": "distant prairie horizon" },
+    { "type": "ellipse", "cx": 0.73, "cy": 0.76, "rx": 0.10, "ry": 0.09, "label": "foreground yurt" },
+    { "type": "polyline", "points": [[0.20, 0.83], [0.35, 0.66], [0.51, 0.60], [0.72, 0.68]], "label": "snow slope into camp" },
+    { "type": "polyline", "points": [[0.33, 0.57], [0.51, 0.60], [0.78, 0.69]], "label": "camp track" }
+  ],
+  "notes": "Temporary structures make an inhabited center within a broad, exposed winter landscape."
+}

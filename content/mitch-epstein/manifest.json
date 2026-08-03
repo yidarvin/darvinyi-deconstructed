@@ -1,0 +1,114 @@
+[
+  {
+    "file": "01-bp-carson-refinery.jpg",
+    "width": 843,
+    "height": 672,
+    "sha1": "0e8dce11",
+    "source": "01-bp-carson-refinery.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:05:17 10:45:47",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.02",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "02-hoover-dam-lake-mead.jpg",
+    "width": 1448,
+    "height": 1160,
+    "sha1": "9f1ca3ab",
+    "source": "02-hoover-dam-lake-mead.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-green-mountain-wind-farm.jpg",
+    "width": 1494,
+    "height": 1160,
+    "sha1": "2186b0aa",
+    "source": "03-green-mountain-wind-farm.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-poca-high-school-amos-plant.jpg",
+    "width": 1492,
+    "height": 1160,
+    "sha1": "ef26792f",
+    "source": "04-poca-high-school-amos-plant.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-century-wind-project.jpg",
+    "width": 1200,
+    "height": 958,
+    "sha1": "1e17e4cd",
+    "source": "05-century-wind-project.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-biloxi-mississippi.jpg",
+    "width": 843,
+    "height": 655,
+    "sha1": "5732a499",
+    "source": "06-biloxi-mississippi.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H4D-50MS",
+      "DateTimeOriginal": "2013:08:26 10:06:04",
+      "FocalLength": "80.0",
+      "ExposureTime": "0.022222222222222223",
+      "FNumber": "5.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "07-amos-coal-power-plant.jpg",
+    "width": 1600,
+    "height": 1242,
+    "sha1": "e58ecf7c",
+    "source": "07-amos-coal-power-plant.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-standing-rock-prayer-walk.jpg",
+    "width": 1547,
+    "height": 1160,
+    "sha1": "df51bfc2",
+    "source": "08-standing-rock-prayer-walk.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-dinsmore-california.jpg",
+    "width": 926,
+    "height": 1160,
+    "sha1": "7ffd3f5e",
+    "source": "09-dinsmore-california.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-holy-rosary-cemetery.jpg",
+    "width": 1456,
+    "height": 1160,
+    "sha1": "8fdb9265",
+    "source": "10-holy-rosary-cemetery.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-sacred-stone-camp.jpg",
+    "width": 1454,
+    "height": 1160,
+    "sha1": "f8de89e6",
+    "source": "11-sacred-stone-camp.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-tree-sits.jpg",
+    "width": 925,
+    "height": 1160,
+    "sha1": "ceca4bd2",
+    "source": "12-tree-sits.jpg",
+    "exif": {}
+  }
+]

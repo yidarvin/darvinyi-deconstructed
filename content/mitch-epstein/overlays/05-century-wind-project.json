@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-century-wind-project.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.80, 0.99], [0.80, 0.62], [0.70, 0.48], [0.63, 0.35]], "label": "road into fields" },
+    { "type": "polyline", "points": [[0.00, 0.20], [0.40, 0.20], [0.70, 0.19], [1.00, 0.20]], "label": "turbine row" },
+    { "type": "polyline", "points": [[0.00, 0.37], [0.45, 0.39], [0.75, 0.36], [1.00, 0.33]], "label": "homes-to-farmland transition" }
+  ],
+  "notes": "A residential street and a field of turbines share one receding, inhabited grid."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-poca-high-school-amos-plant.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.00, 0.52], [0.50, 0.52], [1.00, 0.54]], "label": "school-to-plant boundary" },
+    { "type": "ellipse", "cx": 0.52, "cy": 0.66, "rx": 0.20, "ry": 0.10, "label": "football formation" },
+    { "type": "frame_in_frame", "x": 0.29, "y": 0.08, "w": 0.18, "h": 0.39, "label": "plant stacks" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.29, "rx": 0.10, "ry": 0.19, "label": "smoke plume" }
+  ],
+  "notes": "A dispersed football practice is held under the plant's distant vertical scale."
+}

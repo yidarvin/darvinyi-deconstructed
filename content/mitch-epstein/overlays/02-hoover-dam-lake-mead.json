@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-hoover-dam-lake-mead.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.48, 0.42], [0.57, 0.34], [0.63, 0.30]], "label": "reservoir channel" },
+    { "type": "polyline", "points": [[0.16, 0.46], [0.44, 0.42], [0.64, 0.34], [0.84, 0.32]], "label": "low-water ring" },
+    { "type": "polyline", "points": [[0.00, 0.52], [0.14, 0.55], [0.25, 0.68]], "label": "dam curve" },
+    { "type": "frame_in_frame", "x": 0.72, "y": 0.22, "w": 0.25, "h": 0.64, "label": "transmission towers" }
+  ],
+  "notes": "Dam, shore, and transmission structure make a working landscape out of the reservoir basin."
+}

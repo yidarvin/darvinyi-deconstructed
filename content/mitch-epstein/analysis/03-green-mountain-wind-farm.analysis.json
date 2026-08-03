@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "image": "03-green-mountain-wind-farm.jpg",
+  "width": 1494,
+  "height": 1160,
+  "aspect": 1.2879,
+  "tonal": {
+    "mean": 0.7917724856255395,
+    "std": 0.2157386292210274,
+    "p05": 0.25098039215686274,
+    "p95": 0.9294117647058824,
+    "edge_density": 0.0004999508647798742
+  },
+  "palette": [
+    "#e4e7e5",
+    "#d6d8d5",
+    "#374c32",
+    "#c0c3c1",
+    "#7d897a"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.8616352201257862,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.3193359375,
+      0.2339622641509434
+    ],
+    "regions": [
+      {
+        "cx": 0.31850908438259334,
+        "cy": 0.22591064375452385,
+        "x": 0.267578125,
+        "y": 0.1559748427672956,
+        "w": 0.1015625,
+        "h": 0.13962264150943396,
+        "area_frac": 0.011121757075471698
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9951560262281632,
+    "vertical_axis_x": 0.4375,
+    "horizontal": 0.7891075986165754,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.3193359375,
+    "y": 0.2339622641509434,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3261710656928317,
+    "phi": 0.17270560231621854,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.862,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.438,
+      "confidence": 1.0,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.319,
+      "y": 0.234,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

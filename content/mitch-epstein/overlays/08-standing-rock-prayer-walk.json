@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-standing-rock-prayer-walk.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.28, "cy": 0.47, "rx": 0.08, "ry": 0.15, "label": "ceremonial hoop bearer" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.62, "rx": 0.10, "ry": 0.16, "label": "cloaked central walker" },
+    { "type": "polyline", "points": [[0.28, 0.54], [0.43, 0.63], [0.56, 0.66], [0.75, 0.66]], "label": "prayer-walk procession" },
+    { "type": "polyline", "points": [[0.00, 0.38], [0.50, 0.38], [1.00, 0.39]], "label": "distant snow seam" }
+  ],
+  "notes": "Walkers form a distributed procession across an expansive, nearly empty snowfield."
+}

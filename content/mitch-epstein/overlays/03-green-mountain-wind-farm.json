@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-green-mountain-wind-farm.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.319, "y": 0.234, "r": 0.035, "label": "nearest turbine hub" },
+    { "type": "polyline", "points": [[0.31, 0.24], [0.60, 0.43], [0.72, 0.52], [0.86, 0.61]], "label": "receding turbine rhythm" },
+    { "type": "polyline", "points": [[0.00, 0.66], [0.50, 0.66], [1.00, 0.66]], "label": "field horizon" }
+  ],
+  "notes": "A nearest turbine initiates a diminishing rhythm across fog, sky, and field."
+}

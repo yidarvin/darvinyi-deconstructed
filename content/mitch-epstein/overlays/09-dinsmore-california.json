@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-dinsmore-california.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.446, "y": 0.476, "r": 0.045, "label": "shoe-laden trunk" },
+    { "type": "polyline", "points": [[0.18, 0.60], [0.46, 0.48], [0.72, 0.37]], "label": "mossed branch sweep" },
+    { "type": "polyline", "points": [[0.26, 0.30], [0.51, 0.39], [0.79, 0.31]], "label": "hanging-shoe canopy" }
+  ],
+  "notes": "The tree's branching architecture becomes a crowded social archive of suspended shoes."
+}

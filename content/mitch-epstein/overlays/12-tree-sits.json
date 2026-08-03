@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "12-tree-sits.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.28, "y": 0.06, "w": 0.23, "h": 0.31, "label": "tree-sit shelter" },
+    { "type": "ellipse", "cx": 0.36, "cy": 0.19, "rx": 0.10, "ry": 0.15, "label": "left elevated platform" },
+    { "type": "polyline", "points": [[0.30, 0.05], [0.34, 0.42], [0.41, 0.73]], "label": "paired tall trunks" },
+    { "type": "polyline", "points": [[0.43, 0.33], [0.65, 0.24], [0.97, 0.08]], "label": "support cables" },
+    { "type": "ellipse", "cx": 0.67, "cy": 0.40, "rx": 0.10, "ry": 0.20, "label": "second rigged tree" }
+  ],
+  "notes": "A small elevated shelter makes the canopy read as contested civic architecture."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-bp-carson-refinery.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.40, "cy": 0.30, "rx": 0.10, "ry": 0.13, "label": "flag facade" },
+    { "type": "polyline", "points": [[0.34, 0.12], [0.34, 0.64], [0.58, 0.64], [0.58, 0.10]], "label": "refinery vertical core" },
+    { "type": "polyline", "points": [[0.02, 0.82], [0.50, 0.82], [0.98, 0.82]], "label": "street and median bands" },
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.01, "w": 0.94, "h": 0.80, "label": "canopy opening" }
+  ],
+  "notes": "The flag-bearing refinery is centered and made monumental by a low civic street band."
+}
