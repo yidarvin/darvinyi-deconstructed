@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "subject_anchor", "x": 0.516, "y": 0.676, "label": "central participant" },
     { "type": "ellipse", "cx": 0.510, "cy": 0.360, "rx": 0.105, "ry": 0.150, "label": "hands and water" },
-    { "type": "polyline", "points": [[0.110, 0.420], [0.350, 0.270], [0.520, 0.250], [0.720, 0.310], [0.910, 0.430]], "label": "surrounding group" },
-    { "type": "polyline", "points": [[0.000, 0.620], [0.500, 0.600], [1.000, 0.620]], "label": "body and sky boundary" }
+    { "type": "polyline", "points": [[0.110, 0.420], [0.350, 0.270], [0.520, 0.250], [0.720, 0.310], [0.910, 0.430]], "label": "surrounding group" }
   ],
   "notes": "A ring of bodies directs attention to the close action of hands and water at the center."
 }

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -13,3 +13,11 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All twelve image records have a reachable authoritative Leica finalist page and direct public rendition; each source entry identifies Mustafah Abdulaziz as rightsholder and supplies a concise four-factor fair-use rationale. The chapter does not invent camera settings, and its checked analyzer-derived numeric claims are within tolerance.
+
+## Builder resolution — 2026-08-03
+
+1. **06-pregnant-woman-konso:** retained the accurate woman-and-vessel ellipse and added truthful polylines for the descending footpath and right rock face, giving the proof three compositional teaching primitives.
+2. **08-cremation-allahabad:** moved `STANDING FIGURE` to `cx: 0.270, cy: 0.690`, where it encloses the person rather than smoke beside the pyre.
+3. **09-baptism-cape-town:** removed the false `BODY AND SKY BOUNDARY` annotation; the remaining primitives describe the central participant, hands and water, and surrounding group.
+
+Re-verified all required fixes from the full critique history: 2026-08-03 round 1. The three repaired specs score 100/100 and their rendered proofs passed visual inspection. `scripts/check.sh` passed.
