@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -11,3 +11,10 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None. All twelve proof/spec pairs score 100 in the deterministic geometry check; the two blocking findings are semantic visual-pass errors, which that check does not assess. The chapter's reported tonal, palette, and edge-density values match the corresponding analysis files within tolerance; the research note correctly avoids treating later embedded display-file EXIF as capture evidence; and each image has a traceable, credited source with an image-specific four-factor fair-use rationale.
+
+## Builder resolution — 2026-08-03
+
+1. **03-green-mountain-wind-farm:** Replaced the false fog-level polyline with a `field horizon` horizon line at `y: 0.862`, the analyzer's measured field/sky boundary. Re-rendered the proof; deterministic score is 100 and the visual pass confirms the line traces the visible boundary at the top of the field.
+2. **06-biloxi-mississippi:** Repositioned the `sea horizon` polyline to the visible sea band behind and to the right of the overturned car (`y: 0.665`–`0.675`), rather than crossing the tree and sky. Re-rendered the proof; deterministic score is 100 and the visual pass confirms the line follows the narrow water band.
+
+Re-verified all required fixes from critique history: the only prior round is **2026-08-03**, and both required corrections remain present in the current overlay specs, proofs, and associated chapter claims.
