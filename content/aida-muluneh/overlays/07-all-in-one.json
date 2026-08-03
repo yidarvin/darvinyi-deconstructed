@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-all-in-one.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "portrait axis" },
+    { "type": "subject_anchor", "x": 0.444, "y": 0.288, "r": 0.035, "label": "painted face" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.28, "rx": 0.10, "ry": 0.12, "label": "painted face field" }
+  ],
+  "notes": "A frontal painted face sits on a strict centerline while the red hands break the otherwise bilateral pose."
+}

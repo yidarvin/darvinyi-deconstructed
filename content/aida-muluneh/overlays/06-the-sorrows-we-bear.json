@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-the-sorrows-we-bear.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.26, 0.67], [0.52, 0.66], [0.78, 0.73], [0.96, 0.70]], "label": "red-cloth relay" },
+    { "type": "ellipse", "cx": 0.41, "cy": 0.54, "rx": 0.06, "ry": 0.12, "label": "masked figure" },
+    { "type": "frame_in_frame", "x": 0.25, "y": 0.79, "w": 0.50, "h": 0.10, "label": "reflective mat" }
+  ],
+  "notes": "The mask, red cloth, and reflective mat form a low, horizontal stage beneath the empty field."
+}

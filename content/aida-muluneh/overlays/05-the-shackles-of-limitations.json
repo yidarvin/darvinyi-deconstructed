@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-the-shackles-of-limitations.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.532, "angle": 0, "label": "shoreline" },
+    { "type": "subject_anchor", "x": 0.211, "y": 0.492, "r": 0.035, "label": "red figure" },
+    { "type": "polyline", "points": [[0.30, 0.68], [0.47, 0.70], [0.67, 0.68], [0.95, 0.68]], "label": "jerrycan chain" }
+  ],
+  "notes": "A red figure and blue umbrella punctuate an open shore while a chain of yellow jerrycans measures the distance across it."
+}

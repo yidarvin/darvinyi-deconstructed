@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-star-shine-moon-glow.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.727, "angle": 0, "label": "distant ridge" },
+    { "type": "vanishing_point", "x": 0.518, "y": 0.621, "label": "striped-runway apex" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "tableau axis" },
+    { "type": "leading_line", "points": [[0.158, 0.99], [0.468, 0.67]], "arrow": true, "label": "runway edge" }
+  ],
+  "notes": "The striped runway thrusts toward the seated figure, locking the near-symmetrical tableau to one central point."
+}

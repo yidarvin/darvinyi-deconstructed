@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-city-life.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "woven-halo axis" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.36, "rx": 0.15, "ry": 0.18, "label": "painted face" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.40, "rx": 0.33, "ry": 0.28, "label": "central woven ring" }
+  ],
+  "notes": "A painted face is held inside a concentric woven halo whose bilateral pattern magnifies its direct gaze."
+}

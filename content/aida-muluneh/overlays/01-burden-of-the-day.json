@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-burden-of-the-day.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.438, "angle": 0, "label": "shoreline" },
+    { "type": "subject_anchor", "x": 0.711, "y": 0.68, "r": 0.035, "label": "water vessel" },
+    { "type": "polyline", "points": [[0.19, 0.64], [0.43, 0.61], [0.71, 0.56]], "label": "figures held apart" }
+  ],
+  "notes": "A level shore divides the open field while the two red figures relay across it."
+}
