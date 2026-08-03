@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-gator.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "b264a28e",
+    "source": "01-gator.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-fountain.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "ff608f10",
+    "source": "02-fountain.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-fallen-trees-after-hurricane-irma.jpg",
+    "width": 1200,
+    "height": 1500,
+    "sha1": "c8ac60bf",
+    "source": "03-fallen-trees-after-hurricane-irma.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-pool-after-hurricane.jpg",
+    "width": 1200,
+    "height": 1500,
+    "sha1": "9416b6fc",
+    "source": "04-pool-after-hurricane.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-flooded-garage.jpg",
+    "width": 1500,
+    "height": 1200,
+    "sha1": "84e58b4f",
+    "source": "05-flooded-garage.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-construction-normandy-shores.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "65330314",
+    "source": "06-construction-normandy-shores.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-staircase-at-king-tide.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "b1111097",
+    "source": "07-staircase-at-king-tide.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-car-reflection.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "5ad2e5e9",
+    "source": "08-car-reflection.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-gun-shop-port-orange.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "3190d2ec",
+    "source": "09-gun-shop-port-orange.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-road-destroyed-by-hurricanes.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "80667e74",
+    "source": "10-road-destroyed-by-hurricanes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-real-estate-advertisement-moscow.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "49b0fc2c",
+    "source": "11-real-estate-advertisement-moscow.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-female-lead-times-square.jpg",
+    "width": 1280,
+    "height": 1600,
+    "sha1": "9f5e792a",
+    "source": "12-female-lead-times-square.jpg",
+    "exif": {}
+  }
+]
