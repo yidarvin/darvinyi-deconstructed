@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "image": "07-amazon-conversion-smoke.jpg",
+  "width": 1280,
+  "height": 960,
+  "aspect": 1.3333,
+  "tonal": {
+    "mean": 0.6730219273785361,
+    "std": 0.13954458402307268,
+    "p05": 0.40784313725490196,
+    "p95": 0.8509803921568627,
+    "edge_density": 0.0029424031575520835
+  },
+  "palette": [
+    "#c9b5a3",
+    "#decdbd",
+    "#ad9a87",
+    "#8c7e6c",
+    "#675e4d"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.6861979166666666,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.5693359375,
+      0.9895833333333334
+    ],
+    "regions": [
+      {
+        "cx": 0.47465129421701113,
+        "cy": 0.6685612082670906,
+        "x": 0.4267578125,
+        "y": 0.6184895833333334,
+        "w": 0.0966796875,
+        "h": 0.11067708333333333,
+        "area_frac": 0.007998148600260416
+      },
+      {
+        "cx": 0.5756393713594513,
+        "cy": 0.028144034589126895,
+        "x": 0.509765625,
+        "y": 0.0,
+        "w": 0.1259765625,
+        "h": 0.06770833333333333,
+        "area_frac": 0.00676727294921875
+      },
+      {
+        "cx": 0.5668993399287033,
+        "cy": 0.9659275727499658,
+        "x": 0.5185546875,
+        "y": 0.921875,
+        "w": 0.09765625,
+        "h": 0.078125,
+        "area_frac": 0.006197611490885417
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7513687497336605,
+    "vertical_axis_x": 0.5875,
+    "horizontal": 0.589197661409821,
+    "horizontal_axis_y": 0.4125
+  },
+  "subject_anchor": {
+    "x": 0.5693359375,
+    "y": 0.9895833333333334,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.37210648148148145,
+    "phi": 0.19198545216010426,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.686,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.569,
+      "y": 0.99,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

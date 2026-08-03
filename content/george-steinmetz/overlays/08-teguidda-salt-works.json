@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-teguidda-salt-works.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.47, "rx": 0.06, "ry": 0.07, "label": "WORKERS AMONG BASINS" },
+    { "type": "polyline", "points": [[0.04, 0.29], [0.25, 0.36], [0.45, 0.43], [0.65, 0.51], [0.91, 0.57]], "label": "BASIN TRACK" },
+    { "type": "polyline", "points": [[0.26, 0.95], [0.39, 0.79], [0.48, 0.62], [0.58, 0.47]], "label": "BASIN TRACK" }
+  ],
+  "notes": "Dense, differently sized evaporation basins make extraction read as a lived modular field."
+}

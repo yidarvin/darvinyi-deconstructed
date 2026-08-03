@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-ghadames-rooftops.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.086, 0.913], [0.631, 0.095]], "arrow": true, "label": "ROOF-PATH DIAGONAL" },
+    { "type": "leading_line", "points": [[0.251, 0.616], [0.746, 0.856]], "arrow": true, "label": "ROOF-PATH DIAGONAL" },
+    { "type": "ellipse", "cx": 0.48, "cy": 0.72, "rx": 0.14, "ry": 0.13, "label": "CENTRAL ROOF CLUSTER" },
+    { "type": "polyline", "points": [[0.18, 0.55], [0.32, 0.42], [0.48, 0.47], [0.61, 0.33]], "label": "CIRCULATION PATH" }
+  ],
+  "notes": "A dense roof tessellation is crossed by routes that keep the town readable as circulation, not pattern alone."
+}

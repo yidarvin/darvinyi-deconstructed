@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-amazon-conversion-smoke.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.42, 0.98], [0.44, 0.72], [0.47, 0.46], [0.48, 0.24]], "label": "TREE-SHADOW FALL" },
+    { "type": "polyline", "points": [[0.68, 0.98], [0.67, 0.72], [0.67, 0.48], [0.66, 0.23]], "label": "TREE-SHADOW FALL" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.63, "rx": 0.11, "ry": 0.15, "label": "CLEARER CANOPY ISLAND" }
+  ],
+  "notes": "Smoke veils the forest while long shadows and a clearer canopy island keep depth visible."
+}
