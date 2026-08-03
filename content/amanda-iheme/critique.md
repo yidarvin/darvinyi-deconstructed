@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -18,3 +18,15 @@ verdict: resolved
 - Resolved required fix 2: the 11 annotation is now a low `WALL-AND-GROUND BOUNDARY` polyline that follows the visible boundary, and both chapter copies describe it as low and gently sloping.
 - Re-verified critique history: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (2026-08-02, the only prior round). Both required fixes remain reflected in the overlays, regenerated proofs, and synchronized chapter prose.
 - Fresh analysis and strict scoring: both revised overlays score 100/100; visual proof inspection is clean. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. **06-old-secretariat-stagnation-02** — The vertical `symmetry_axis` at x=0.388 is labelled `CENTRAL ARCH AXIS`, but in the proof it falls well left of the central pavilion’s arched entrance and does not trace an arch axis. The analyzer does support a compositional symmetry axis at x=0.388; retain that geometry only if it is relabelled for the feature it actually describes, or move the axis to the pavilion’s real arch. Make the matching chapter passage precise if the intended reading changes.
+
+### Advisory (non-blocking)
+
+- All twelve proofs were visually inspected. Each contains three to five distinct compositional primitives, and every current spec scores 100/100 with no scorer deductions or warnings.
+- The two fixes resolved in the prior round remain resolved: **04** now identifies the diagonally crossing utility cable, and **11** traces the low wall-and-ground boundary.
+- Sources remain traceable and consistently credited; the chapter makes no undocumented camera-setting claim, and the chapter’s reported tonal values match the analyzer within tolerance.
