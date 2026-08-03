@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -56,3 +56,15 @@ verdict: resolved
 - Resolved required fix 2: the `11-waterhouse-preservation-05` selected-work note now identifies the close, nearly frontal tiled wall, paired arched openings, left grille, and right dark doorway; it no longer claims a panoramic facade or controlled horizon.
 - Re-verified critique history: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (04 utility cable and 11 low wall-and-ground boundary), `1a3931998249b03ac2afe6d929dbf49deed75206` (06 central-pavilion arch), and `7b3a647f253d5b64561b2805404a88b4eddc4bda` (09 and 11 source-note accuracy). The 04, 06, and 11 overlay corrections remain reflected in their current proofs and synchronized chapter prose.
 - Fresh strict scoring passes all overlays: eleven score 100/100 and `06-old-secretariat-stagnation-02` scores 90/100 because the analyzer's broader balance axis differs from the truthfully labelled central-pavilion arch. Visual proof inspection is clean. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. **11-waterhouse-preservation-05** — The fair-use rationale in `sources.md` says that a “full panorama” is essential to a lesson in horizontal pacing and historical scale. The current proof is a close, nearly frontal view of a tiled wall with a grilled arch and open doorway; it is not a panorama. Replace that description with a rationale that accurately explains why the complete *shown frame* is needed for the paired-openings analysis. This is separate from the resolved selected-work-description correction: the remaining error is in the per-image fair-use rationale itself.
+
+### Advisory (non-blocking)
+
+- All twelve current proofs were visually inspected. The overlays are semantically truthful and use three to four distinct teaching primitives each. The resolved **04** utility-cable, **06** central-pavilion-arch, **09** source-description, and **11** wall-and-ground-boundary corrections remain intact.
+- Strict re-scoring passes every overlay: eleven score 100/100 and **06-old-secretariat-stagnation-02** scores 90/100 only because the analyzer's broad balance axis differs from the visibly correct local pavilion-arch axis. This is the same settled, non-regressed condition documented in the prior resolution.
+- All cited artist, MoMA, and public rendition links returned 200 during this review. Credits, image-specific fair-use routes, and the no-camera-settings disclosure remain traceable and materially sound.
