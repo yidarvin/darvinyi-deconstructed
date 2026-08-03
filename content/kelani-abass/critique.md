@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -12,3 +12,13 @@ verdict: revise
 - `03-chronological-remuneration-xiii` places its analyzer-matched low-weight anchor at the lower edge, so its circle is clipped in the proof. It remains an accurate anchor but could be made more legible if a revision otherwise touches that plate.
 
 All twelve current proofs were visually reviewed. Analyzer values quoted in the chapter match their analysis files within tolerance; normal overlay scores are 94 or 100. Every acquired work has a live gallery record and public display-derivative link, with a per-image four-factor fair-use rationale and credit. The chapter does not invent capture settings.
+
+## Resolution — 2026-08-02
+
+Resolved required item 1: `09-scrap-of-evidence-apon-i` now bounds the visible
+green stepped plaque at `x: 0.384, y: 0.677, w: 0.101, h: 0.107`; the existing
+plaque-counterweight anchor remains at the analyzer's saliency peak. The revised
+proof was visually checked and scores 100/100. Re-verified required fixes from
+the sole prior critique round (2026-08-02); no earlier critique rounds exist.
+
+`scripts/check.sh` passed after the correction.
