@@ -3,9 +3,7 @@
   "image": "09-endsars-EndSARSProtests-39.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.765, "angle": -3, "label": "road edge" },
-    { "type": "leading_line", "points": [[0.017, 0.999], [0.427, 0.799]], "arrow": true, "label": "curb line" },
-    { "type": "ellipse", "cx": 0.23, "cy": 0.42, "rx": 0.16, "ry": 0.31, "label": "raised fist" }
+    { "type": "ellipse", "cx": 0.23, "cy": 0.42, "rx": 0.16, "ry": 0.31, "label": "foreground protester" }
   ],
-  "notes": "A raised fist breaks the sky while the road and car extend the gesture into civic space."
+  "notes": "A raised fist breaks the sky while the car keeps the gesture inside a wider civic space."
 }

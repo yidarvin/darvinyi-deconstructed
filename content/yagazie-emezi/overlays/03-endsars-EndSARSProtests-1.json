@@ -5,7 +5,6 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.358, "angle": 0, "label": "canopy edge" },
     { "type": "leading_line", "points": [[0.113, 0.012], [0.375, 0.276]], "arrow": true, "label": "roof strut" },
-    { "type": "frame_in_frame", "x": 0.02, "y": 0.0, "w": 0.95, "h": 0.69, "label": "checkpoint canopy" },
     { "type": "polyline", "points": [[0.43, 0.58], [0.47, 0.43], [0.46, 0.18]], "label": "raised sign" }
   ],
   "notes": "The gate canopy gives an upward-held placard a hard architectural ceiling."

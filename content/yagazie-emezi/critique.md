@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -51,3 +51,17 @@ verdict: revise
 - The `foreground voice` polyline in 06 is less clear than a subject anchor or an actual contour, but it does identify the foreground speaker and is not itself a material false claim.
 - The existing fair-use records remain traceable: all twelve direct public display JPG links and the artist archive returned successfully during review, with per-image copyright credit and four-factor rationale. The chapter's analyzer-derived palette, tonal, and grid claims are within tolerance, and it does not invent camera settings.
 - All current specs pass the deterministic scorer at 100/100. These required findings are semantic visual failures the scorer does not test.
+
+## Resolution — 2026-08-02
+
+- Required fix 1: replaced the placard ellipse in image 02 with a contour that follows the sheet’s visible rectangular edges.
+- Required fix 2: removed the unsupported canopy `frame_in_frame` from image 03; the retained canopy edge and roof strut trace visible structure.
+- Required fix 3: relocated image 04’s line to the held cloth, which it follows from hand toward the left edge.
+- Required fix 4: replaced image 05’s false horizon with the visible bridge parapet edge.
+- Required fix 5: removed image 06’s false sky-to-crowd horizon and retained only the placard and foreground speaker.
+- Required fix 6: removed image 07’s unsupported raised-arm line and added the visible foreground phone anchor.
+- Required fix 7: removed image 09’s false road and curb claims and revised the prose so it no longer asserts them.
+- Required fix 8: removed image 11’s unsupported tree-edge line.
+- Required fix 9: replaced image 12’s false truck frame with a subject anchor on the visible security truck.
+- Fresh analysis, render, score, and visual review were run for all nine affected proofs. Scores: 02 100, 03 100, 04 94, 05 94, 06 100, 07 100, 09 100, 11 100, 12 100. The two 94-point proofs have only detector-edge warnings; their retained lines visibly trace the held cloth and bridge parapet.
+- Critique history re-verified: 2026-08-02, round 1 and round 2. Round 1’s seven removed false `vanishing_point` claims remain absent, and image 04 has no `horizon_line` claim.

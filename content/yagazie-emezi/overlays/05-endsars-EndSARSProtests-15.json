@@ -3,9 +3,9 @@
   "image": "05-endsars-EndSARSProtests-15.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.496, "angle": 0, "label": "bridge deck" },
+    { "type": "leading_line", "points": [[0.0, 0.68], [0.24, 0.67], [0.43, 0.64]], "arrow": true, "label": "bridge parapet edge" },
     { "type": "leading_line", "points": [[0.699, 0.609], [0.771, 0.0]], "arrow": true, "label": "bridge cable" },
     { "type": "ellipse", "cx": 0.335, "cy": 0.54, "rx": 0.09, "ry": 0.25, "label": "phone holder" }
   ],
-  "notes": "The cable and bridge deck set a measured route from an isolated witness into the assembling crowd."
+  "notes": "The cable and bridge railing set a measured route from an isolated witness into the assembling crowd."
 }
