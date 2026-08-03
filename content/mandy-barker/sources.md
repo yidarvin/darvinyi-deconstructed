@@ -7,8 +7,8 @@ Mandy Barker’s *SOUP* (2011) turns recovered marine plastic into dark-field, s
 ## Shortlist
 
 ### 01 — *SOUP: Turtle* (2011)
-- **Why it matters:** Repeated yellow bath toys form an exuberant vertical swarm whose nearly even spacing and black gaps turn consumer objects into a false zoological specimen field.
-- **Source:** [Mandy Barker, *Soup Gallery*](https://www.mandy-barker.com/soup/) — [public display file](https://images.squarespace-cdn.com/content/v1/5ca4c742e5f7d11942841f3c/1554380123009-2XVL2Z0UZ142O4XA2CJQ/20.jpg?format=2000w). The artist identifies toys from the 1992 *Ever Laurel* loss, circulating in the North Pacific Gyre for 16 years.
+- **Why it matters:** Repeated blue bath toys form an exuberant vertical swarm whose nearly even spacing and black gaps turn consumer objects into a false zoological specimen field.
+- **Source:** [Mandy Barker, *Soup Gallery*](https://www.mandy-barker.com/soup/) — [public display file](https://images.squarespace-cdn.com/content/v1/5ca4c742e5f7d11942841f3c/1554380123009-2XVL2Z0UZ142O4XA2CJQ/20.jpg?format=2000w). The artist identifies toys from the 1992 *Evergreen Ever Laurel* loss, circulating in the North Pacific Gyre for 16 years.
 - **Use basis:** **fair-use.** © Mandy Barker; artist gallery credit retained. The complete, web-sized frame is needed to teach the dispersed vertical pattern and its deceptive animal-life reading; it is reproduced only for critical scholarship, linked to the artist’s gallery, and cannot replace an authorized print or publication.
 - **File:** `raw/mandy-barker/01-soup-turtle.jpg` (1,800px long edge)
 
@@ -42,9 +42,9 @@ Mandy Barker’s *SOUP* (2011) turns recovered marine plastic into dark-field, s
 - **Use basis:** **fair-use.** © Mandy Barker; artist gallery credit retained. The full web-sized frame is needed to examine the central knot against its peripheral field as composition criticism and scholarship; it is linked and credited and does not replace any authorized reproduction.
 - **File:** `raw/mandy-barker/06-soup-birds-nest.jpg` (1,800px long edge)
 
-### 07 — *SOUP: Fragmented Cups* (2011)
+### 07 — *SOUP: Fragmented Cups* (2012)
 - **Why it matters:** White cup shards are arranged as an expanding cellular field, where repeated crescents and breaks produce a shallow, almost frosted surface.
-- **Source:** [Mandy Barker, *Soup Gallery*](https://www.mandy-barker.com/soup/) — [public display file](https://images.squarespace-cdn.com/content/v1/5ca4c742e5f7d11942841f3c/1554380166561-G7K23OZ4433FIOHNVK3I/29.jpg?format=2000w). A scholarly caption identifies the work as 2012, while artist/museum records place the *SOUP* series in 2011; this chapter records it as 2011 with that uncertainty noted.
+- **Source:** [Mandy Barker, *Soup Gallery*](https://www.mandy-barker.com/soup/) — [public display file](https://images.squarespace-cdn.com/content/v1/5ca4c742e5f7d11942841f3c/1554380166561-G7K23OZ4433FIOHNVK3I/29.jpg?format=2000w). An accessible [University of Technology Sydney scholarly thesis caption](https://opus.lib.uts.edu.au/bitstream/10453/150910/4/02whole.pdf) identifies this work as 2012; the artist gallery identifies the series but supplies no work-specific date. This chapter therefore records the work as 2012.
 - **Use basis:** **fair-use.** © Mandy Barker; artist gallery credit retained. The entire web-sized arrangement is necessary to teach repetition and fragmentation rather than merely illustrate plastic waste; it links to the public record and does not substitute for the artist’s print, book, or licensed reproduction.
 - **File:** `raw/mandy-barker/07-soup-fragmented-cups.jpg` (1,800px long edge)
 
@@ -61,9 +61,9 @@ Mandy Barker’s *SOUP* (2011) turns recovered marine plastic into dark-field, s
 - **File:** `raw/mandy-barker/09-soup-refused.jpg` (1,800px long edge)
 
 ### 10 — *SOUP: Ruinous Remembrance* (2011)
-- **Why it matters:** Artificial flowers, bones, and fishing line form a vanitas-like bouquet: a vertically weighted center held against black space, with small lateral accents preventing symmetry from becoming static.
-- **Source:** [Mandy Barker, *Soup Gallery*](https://www.mandy-barker.com/soup/) — [public display file](https://images.squarespace-cdn.com/content/v1/5ca4c742e5f7d11942841f3c/1554380181004-1DAXIKBD206Y6HMFO4C6/34.jpg?format=2000w). Barker identifies the material as recovered from a one-metre shoreline area at Spurn Point Nature Reserve.
-- **Use basis:** **fair-use.** © Mandy Barker; artist gallery credit retained. Critical instruction needs the complete web-sized bouquet and its surrounding void, not a cropped detail; the credited, linked use does not substitute for a print, exhibition, or licensed reproduction.
+- **Why it matters:** Artificial flowers, bones, and fishing line form separate local clusters across a spacious black field; their uneven placement makes each cluster an anchor rather than a single central bouquet.
+- **Source:** [Mandy Barker, *Soup Gallery*](https://www.mandy-barker.com/soup/) — [public display file](https://images.squarespace-cdn.com/content/v1/5ca4c742e5f7d11942841f3c/1554380181004-1DAXIKBD206Y6HMFO4C6/34.jpg?format=2000w). Barker identifies the material as recovered from a one metre square area of shoreline on Spurn Point Nature Reserve, England.
+- **Use basis:** **fair-use.** © Mandy Barker; artist gallery credit retained. Critical instruction needs the complete web-sized field of dispersed materials and black intervals, not a cropped detail; the credited, linked use does not substitute for a print, exhibition, or licensed reproduction.
 - **File:** `raw/mandy-barker/10-soup-ruinous-remembrance.jpg` (1,800px long edge)
 
 ### 11 — *SOUP: 500+* (2011)

@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -17,3 +17,12 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Builder resolution — 2026-08-03
+
+1. Corrected the source note to identify the visible toys as blue and restored the artist gallery’s full ship name, *Evergreen Ever Laurel*, in `sources.md`, `research.md`, and both byte-identical chapter copies.
+2. Changed *SOUP: Fragmented Cups* to 2012 in the source record and plate label, with the linked University of Technology Sydney scholarly caption as the work-specific date evidence.
+3. Restored the artist gallery’s precise provenance wording for *Ruinous Remembrance*: materials recovered from a one metre square area of shoreline on Spurn Point Nature Reserve, England.
+4. Re-ran analysis, rendered two overlay iterations, visually inspected the resulting proof, and replaced the unsupported central-bouquet/arc argument with four discrete, visibly bounded clusters. The final overlay scores 97/100 with no geometric deductions.
+
+Re-verified every required fix from the full critique history: 2026-08-03 round (this and only prior round). `scripts/check.sh` passes, including pipeline validation, chapter synchronization, prose lint, tests, build, and the site smoke gate.
