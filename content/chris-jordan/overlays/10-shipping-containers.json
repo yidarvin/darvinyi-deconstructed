@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-shipping-containers.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.648, "y": 0.498, "label": "STACKED FIELD CENTER" },
+    { "type": "polyline", "points": [[0.03, 0.31], [0.50, 0.31], [0.97, 0.31]], "label": "CONTAINER COURSE" },
+    { "type": "polyline", "points": [[0.03, 0.69], [0.50, 0.69], [0.97, 0.69]], "label": "CONTAINER COURSE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.438, "label": "AGGREGATE BALANCE" }
+  ],
+  "notes": "Small container modules flatten trade infrastructure into one broad colored field."
+}

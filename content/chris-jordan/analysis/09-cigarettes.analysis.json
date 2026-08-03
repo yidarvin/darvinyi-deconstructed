@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "image": "09-cigarettes.jpg",
+  "width": 1363,
+  "height": 1000,
+  "aspect": 1.363,
+  "tonal": {
+    "mean": 0.8577795527123966,
+    "std": 0.04334663160771995,
+    "p05": 0.807843137254902,
+    "p95": 0.9294117647058824,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#d0d0cd",
+    "#d4d4d1",
+    "#ebeae5",
+    "#dadad6",
+    "#e2e1dc"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.8521970705725699,
+    "angle_deg": 0.0,
+    "confidence": 0.5314158829750346,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.1787109375,
+      0.24900133155792276
+    ],
+    "regions": [
+      {
+        "cx": 0.8815648618340544,
+        "cy": 0.6720101723414954,
+        "x": 0.703125,
+        "y": 0.3621837549933422,
+        "w": 0.296875,
+        "h": 0.6378162450066578,
+        "area_frac": 0.07544497961051931
+      },
+      {
+        "cx": 0.3684368324728975,
+        "cy": 0.6695219870589644,
+        "x": 0.185546875,
+        "y": 0.41145139813581894,
+        "w": 0.33203125,
+        "h": 0.5099866844207723,
+        "area_frac": 0.06681065870505992
+      },
+      {
+        "cx": 0.6539996729327494,
+        "cy": 0.21653970478000828,
+        "x": 0.43359375,
+        "y": 0.07723035952063914,
+        "w": 0.435546875,
+        "h": 0.2663115845539281,
+        "area_frac": 0.04379577230359521
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9713542944170928,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.9410614243457717,
+    "horizontal_axis_y": 0.425
+  },
+  "subject_anchor": {
+    "x": 0.1787109375,
+    "y": 0.24900133155792276,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.058188111161833325,
+    "phi": 0.0,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.625,
+      "confidence": 0.97,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.179,
+      "y": 0.249,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.852,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.53,
+      "why": "luminance split / dominant horizontal (gradient)"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "image": "04-cell-phones.jpg",
+  "width": 1600,
+  "height": 898,
+  "aspect": 1.7817,
+  "tonal": {
+    "mean": 0.6499361768335383,
+    "std": 0.06962461765445703,
+    "p05": 0.5333333333333333,
+    "p95": 0.7607843137254902,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#a6a6a3",
+    "#9c9c99",
+    "#afafac",
+    "#babab7",
+    "#8f8e8b"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.5348432055749129,
+    "angle_deg": 0.0,
+    "confidence": 0.7999303112131457,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9765625,
+      0.9564459930313589
+    ],
+    "regions": [
+      {
+        "cx": 0.14365905284183006,
+        "cy": 0.334534714882744,
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.3505859375,
+        "h": 0.6515679442508711,
+        "area_frac": 0.10916063262195122
+      },
+      {
+        "cx": 0.4319088132905613,
+        "cy": 0.8859597932578772,
+        "x": 0.2314453125,
+        "y": 0.6428571428571429,
+        "w": 0.4482421875,
+        "h": 0.35714285714285715,
+        "area_frac": 0.08150894218205575
+      },
+      {
+        "cx": 0.884800703809583,
+        "cy": 0.8324401482249151,
+        "x": 0.7568359375,
+        "y": 0.6445993031358885,
+        "w": 0.2431640625,
+        "h": 0.3554006968641115,
+        "area_frac": 0.054752150479094076
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.5269827002125105,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.5296335495048646,
+    "horizontal_axis_y": 0.6125
+  },
+  "subject_anchor": {
+    "x": 0.9765625,
+    "y": 0.9564459930313589,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.13633043268525238,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.535,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.8,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.977,
+      "y": 0.956,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

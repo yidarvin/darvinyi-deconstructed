@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "image": "07-paper-cups.jpg",
+  "width": 1548,
+  "height": 1000,
+  "aspect": 1.548,
+  "tonal": {
+    "mean": 0.8580412597149298,
+    "std": 0.061705702727050865,
+    "p05": 0.7568627450980392,
+    "p95": 0.9372549019607843,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#eee9e6",
+    "#e5e0dc",
+    "#cfcac6",
+    "#dad4d1",
+    "#c5c1be"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.2723146747352496,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.1943359375,
+      0.0
+    ],
+    "regions": [
+      {
+        "cx": 0.1867011675866065,
+        "cy": 0.044314708690618244,
+        "x": 0.11328125,
+        "y": 0.0,
+        "w": 0.1435546875,
+        "h": 0.1043872919818457,
+        "area_frac": 0.012111738842662633
+      },
+      {
+        "cx": 0.03702900603483398,
+        "cy": 0.04402238748243755,
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.0849609375,
+        "h": 0.10287443267776097,
+        "area_frac": 0.007252564769288956
+      },
+      {
+        "cx": 0.6171983637439867,
+        "cy": 0.9708408422887387,
+        "x": 0.5732421875,
+        "y": 0.9319213313161876,
+        "w": 0.091796875,
+        "h": 0.0680786686838124,
+        "area_frac": 0.00491383793494705
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.6126599202117942,
+    "vertical_axis_x": 0.4375,
+    "horizontal": 0.7513455244809681,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.1943359375,
+    "y": 0.0,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.21844941259969,
+    "phi": 0.03832838327831261,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.272,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.194,
+      "y": 0.0,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

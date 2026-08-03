@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-prison-uniforms.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "PANEL AXIS" },
+    { "type": "horizon_line", "y": 0.418, "angle": 0.0, "label": "PANEL MIDLINE" },
+    { "type": "frame_in_frame", "x": 0.02, "y": 0.03, "w": 0.96, "h": 0.94, "label": "SIX-PANEL FIELD" }
+  ],
+  "notes": "Six orange panel masses convert uniform repetition into an institutional wall."
+}

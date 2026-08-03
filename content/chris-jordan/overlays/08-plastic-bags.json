@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "08-plastic-bags.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.647, "y": 0.236, "r": 0.035, "label": "DENSE FIELD" }
+  ],
+  "notes": "Crumpled bags form an all-over field without a defensible directional route."
+}

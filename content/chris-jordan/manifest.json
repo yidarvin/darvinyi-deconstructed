@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01-plastic-bottles.jpg",
+    "width": 1600,
+    "height": 800,
+    "sha1": "eda049d1",
+    "source": "01-plastic-bottles.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-cans-seurat.jpg",
+    "width": 1524,
+    "height": 1000,
+    "sha1": "f1670ca0",
+    "source": "02-cans-seurat.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-oil-barrels.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "6a37493a",
+    "source": "03-oil-barrels.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-cell-phones.jpg",
+    "width": 1600,
+    "height": 898,
+    "sha1": "802fd132",
+    "source": "04-cell-phones.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-prison-uniforms.jpg",
+    "width": 1600,
+    "height": 733,
+    "sha1": "a5365593",
+    "source": "05-prison-uniforms.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-denali-denial.jpg",
+    "width": 1250,
+    "height": 1000,
+    "sha1": "f8230d08",
+    "source": "06-denali-denial.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-paper-cups.jpg",
+    "width": 1548,
+    "height": 1000,
+    "sha1": "0dd0bf9e",
+    "source": "07-paper-cups.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-plastic-bags.jpg",
+    "width": 1200,
+    "height": 1000,
+    "sha1": "2c81d0d8",
+    "source": "08-plastic-bags.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-cigarettes.jpg",
+    "width": 1363,
+    "height": 1000,
+    "sha1": "279d4f1e",
+    "source": "09-cigarettes.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-shipping-containers.jpg",
+    "width": 1600,
+    "height": 930,
+    "sha1": "3a41a8e7",
+    "source": "10-shipping-containers.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-paper-cups.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.272, "angle": 0.0, "label": "UPPER FIELD BREAK" },
+    { "type": "polyline", "points": [[0.18, 0.02], [0.18, 0.50], [0.18, 0.98]], "label": "CUP COLUMN" },
+    { "type": "polyline", "points": [[0.03, 0.98], [0.50, 0.98], [0.97, 0.98]], "label": "LOWER CUP EDGE" }
+  ],
+  "notes": "Vertical cup columns turn a pale field into a tightly measured rhythm."
+}

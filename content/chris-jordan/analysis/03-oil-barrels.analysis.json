@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "image": "03-oil-barrels.jpg",
+  "width": 1000,
+  "height": 1000,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.07950676862745097,
+    "std": 0.08872241936845318,
+    "p05": 0.0,
+    "p95": 0.24313725490196078,
+    "edge_density": 0.240622
+  },
+  "palette": [
+    "#020202",
+    "#161616",
+    "#2a2a29",
+    "#454443",
+    "#817b73"
+  ],
+  "lines": [
+    {
+      "x1": 0.16,
+      "y1": 0.161,
+      "x2": 0.839,
+      "y2": 0.84,
+      "angle_deg": 45.0,
+      "length": 0.6789999999999999,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.164,
+      "y1": 0.844,
+      "x2": 0.843,
+      "y2": 0.165,
+      "angle_deg": -45.0,
+      "length": 0.6789999999999999,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.124,
+      "y1": 0.799,
+      "x2": 0.799,
+      "y2": 0.124,
+      "angle_deg": -45.0,
+      "length": 0.675,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.122,
+      "y1": 0.202,
+      "x2": 0.797,
+      "y2": 0.877,
+      "angle_deg": 45.0,
+      "length": 0.675,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.199,
+      "y1": 0.126,
+      "x2": 0.874,
+      "y2": 0.801,
+      "angle_deg": 45.0,
+      "length": 0.675,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.203,
+      "y1": 0.877,
+      "x2": 0.877,
+      "y2": 0.203,
+      "angle_deg": -45.0,
+      "length": 0.674,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.241,
+      "y1": 0.095,
+      "x2": 0.904,
+      "y2": 0.758,
+      "angle_deg": 45.0,
+      "length": 0.663,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.092,
+      "y1": 0.246,
+      "x2": 0.754,
+      "y2": 0.908,
+      "angle_deg": 45.0,
+      "length": 0.662,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.287,
+      "y1": 0.069,
+      "x2": 0.93,
+      "y2": 0.712,
+      "angle_deg": 45.0,
+      "length": 0.643,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.066,
+      "y1": 0.293,
+      "x2": 0.706,
+      "y2": 0.933,
+      "angle_deg": 45.0,
+      "length": 0.64,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.337,
+      "y1": 0.048,
+      "x2": 0.947,
+      "y2": 0.658,
+      "angle_deg": 45.0,
+      "length": 0.61,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.044,
+      "y1": 0.345,
+      "x2": 0.654,
+      "y2": 0.955,
+      "angle_deg": 45.0,
+      "length": 0.61,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.509,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5002333333333333,
+    "y": 0.5034333333333333,
+    "inliers": 15,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.492,
+      0.507
+    ],
+    "regions": [
+      {
+        "cx": 0.49851213151927437,
+        "cy": 0.5057332199546485,
+        "x": 0.446,
+        "y": 0.453,
+        "w": 0.106,
+        "h": 0.105,
+        "area_frac": 0.00882
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9819958706561676,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.9803928556536934,
+    "horizontal_axis_y": 0.5
+  },
+  "subject_anchor": {
+    "x": 0.492,
+    "y": 0.507,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0,
+    "phi": 0.1963996928843939,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.509,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.5,
+      "y": 0.503,
+      "confidence": 1.0,
+      "why": "15 converging diagonals"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.16,
+          0.161
+        ],
+        [
+          0.839,
+          0.84
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "strong diagonal converging on VP"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.164,
+          0.844
+        ],
+        [
+          0.843,
+          0.165
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 1.0,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

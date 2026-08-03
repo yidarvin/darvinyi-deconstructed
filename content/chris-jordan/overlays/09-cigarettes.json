@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-cigarettes.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "BAND FIELD AXIS" },
+    { "type": "horizon_line", "y": 0.852, "angle": 0.0, "label": "LOWER BAND BREAK" },
+    { "type": "polyline", "points": [[0.03, 0.22], [0.50, 0.22], [0.97, 0.22]], "label": "CIGARETTE COURSE" }
+  ],
+  "notes": "Fine horizontal cigarette courses make a near-white field read as countable accumulation."
+}
