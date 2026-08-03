@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -72,3 +72,23 @@ The overlay review otherwise passes: the round-1 and round-2 repairs remain mate
 2. **Registry provenance:** retained the committed queue metadata because this transaction gate rejects changes to registry fields other than `stage`. The chapter's actual Leica finalist and artist-portfolio sources remain documented in `sources.md`; no queue-state or cross-unit metadata was changed during this recovery.
 
 Re-verified all prior required overlay fixes against the current proofs: 2026-08-03 round 1 (06 has three truthful teaching primitives, 08's standing-figure ellipse is on the person, and 09 has no false body-and-sky boundary) and round 2 (06's footpath ends before the dress, 08's bridge-deck trace follows only the visible deck, and 12's reflection frame ends at the reflected hull). All twelve overlays score 100/100 with no warnings; visual rechecks of the prior-round proofs were clean. The date correction is complete, and the chapter’s source notes retain the image-specific provenance without modifying the queue metadata outside this recovery boundary.
+
+## Critique round — 2026-08-03
+
+### Required
+
+None. I visually rechecked all twelve current proof PNGs against their overlay
+specs and the chapter. The prior-round repairs remain materially correct: 06's
+footpath stops before the dress, 08's bridge-deck trace is limited to the
+visible deck, and 12's reflection frame ends with the reflected hull. The
+other earlier repairs remain intact. All twelve current overlays score 100/100
+under strict scoring with no deductions or warnings. The checked chapter
+figures match the analyzer values within the specified tolerance, and the
+chapter makes no camera-setting claim. Each image has a credited, reachable
+Leica finalist record and direct public rendition; all twelve per-image
+fair-use entries state the four factors, and every cited source link returned
+HTTP 200 during this review.
+
+### Advisory (non-blocking)
+
+None.
