@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-cholera-explanation-freetown.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.119, "angle": 0.0, "label": "ceiling edge" },
+    { "type": "frame_in_frame", "x": 0.125, "y": 0.120, "w": 0.735, "h": 0.440, "label": "rear room opening" },
+    { "type": "ellipse", "cx": 0.500, "cy": 0.620, "rx": 0.450, "ry": 0.310, "label": "crowd field" },
+    { "type": "polyline", "points": [[0.080, 0.470], [0.500, 0.380], [0.920, 0.470]], "label": "crowd depth" }
+  ],
+  "notes": "The room frame contains a dense crowd that deepens from a clear rear opening toward the lens."
+}

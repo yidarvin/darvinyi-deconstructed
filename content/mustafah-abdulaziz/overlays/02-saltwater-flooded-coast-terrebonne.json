@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-saltwater-flooded-coast-terrebonne.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.544, "angle": 1.0, "label": "waterline" },
+    { "type": "subject_anchor", "x": 0.491, "y": 0.249, "label": "central cypress" },
+    { "type": "polyline", "points": [[0.490, 0.130], [0.495, 0.420], [0.492, 0.760]], "label": "trunk and reflection" }
+  ],
+  "notes": "A centered dead cypress binds the pale sky to its dark reflection in flooded ground."
+}

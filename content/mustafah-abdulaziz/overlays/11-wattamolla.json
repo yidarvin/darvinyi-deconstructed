@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-wattamolla.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.000, 0.020], [0.270, 0.160], [0.410, 0.490]], "label": "rock edge" },
+    { "type": "ellipse", "cx": 0.800, "cy": 0.405, "rx": 0.075, "ry": 0.110, "label": "upper swimmer" },
+    { "type": "ellipse", "cx": 0.625, "cy": 0.885, "rx": 0.070, "ry": 0.110, "label": "lower swimmer" },
+    { "type": "polyline", "points": [[0.570, 0.480], [0.710, 0.630], [0.670, 0.800]], "label": "water eddy" }
+  ],
+  "notes": "A rock wedge and two small swimmers make the water’s swirling surface an active field of scale."
+}

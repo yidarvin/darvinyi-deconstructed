@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-crab-fishermen-honghu.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.330, 0.790], [0.580, 0.630], [0.840, 0.510]], "arrow": true, "label": "working boat" },
+    { "type": "ellipse", "cx": 0.610, "cy": 0.650, "rx": 0.260, "ry": 0.150, "label": "fishers and traps" },
+    { "type": "ellipse", "cx": 0.495, "cy": 0.355, "rx": 0.065, "ry": 0.024, "label": "distant boat" }
+  ],
+  "notes": "One working boat and a distant counterpart are separated by an immense, nearly blank water field."
+}

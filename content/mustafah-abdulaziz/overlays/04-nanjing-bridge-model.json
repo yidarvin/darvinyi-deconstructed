@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-nanjing-bridge-model.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.501, "angle": 0.0, "label": "display-case rail" },
+    { "type": "ellipse", "cx": 0.505, "cy": 0.347, "rx": 0.145, "ry": 0.095, "label": "flower arrangement" },
+    { "type": "frame_in_frame", "x": 0.000, "y": 0.500, "w": 1.000, "h": 0.325, "label": "miniature river scene" },
+    { "type": "polyline", "points": [[0.000, 0.680], [0.430, 0.675], [0.820, 0.700]], "label": "model bridge span" }
+  ],
+  "notes": "A bridge is made legible as a small, centered object within a larger display frame."
+}

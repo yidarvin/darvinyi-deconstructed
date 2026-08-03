@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "image": "06-pregnant-woman-konso.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.535, "cy": 0.610, "rx": 0.125, "ry": 0.300, "label": "woman and water vessel" }
+  ],
+  "notes": "A body and water vessel make the rocky route a measure of scale."
+}

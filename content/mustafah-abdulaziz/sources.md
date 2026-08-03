@@ -19,7 +19,7 @@ original, exhibition print, book, or licensed reproduction.
 
 ## Acquired shortlist
 
-### 01. *Watering a golf course in the sand, Palm Desert, California* — 2015
+### 01. *Watering a golf course in the sand, Palm Desert, California* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** The irrigated course’s controlled green geometry is set against a broad sandy field, making the edge between leisure infrastructure and desert the image’s decisive compositional seam.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-12.jpg).
@@ -33,7 +33,7 @@ original, exhibition print, book, or licensed reproduction.
 - **Rights / fair-use assessment:** **Fair-use.** Creator/rightsholder: Mustafah Abdulaziz; no licence is stated. **Factor 1:** transformative teaching examines horizontal layering and the relation of water to damaged ground. **Factor 2:** creative contemporary photograph. **Factor 3:** the intact field-to-horizon frame is necessary for that reading. **Factor 4:** the credited 1,014 × 800px public record display does not replace a print or licence.
 - **File:** `raw/mustafah-abdulaziz/02-saltwater-flooded-coast-terrebonne.jpg` (1,014 × 800px).
 
-### 03. *No water, no bridge: branch of the Ganges, Bihar Province, India* — 2013
+### 03. *No water, no bridge: branch of the Ganges, Bihar Province, India* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** The absent crossing turns the riverbed into a deep spatial interval, making interruption and distance more important than a conventional landmark.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-10.jpg).
@@ -68,35 +68,35 @@ original, exhibition print, book, or licensed reproduction.
 - **Rights / fair-use assessment:** **Fair-use.** Creator/rightsholder: Mustafah Abdulaziz; no licence is stated. **Factor 1:** criticism studies the distribution of people, instructional material, and shared gaze. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete gathering is essential to retain its social geometry. **Factor 4:** the credited 996 × 800px public display file is linked and cannot replace a licensed reproduction.
 - **File:** `raw/mustafah-abdulaziz/07-cholera-explanation-freetown.jpg` (996 × 800px).
 
-### 08. *Cremation by the river, Allahabad, India* — 2013
+### 08. *Cremation by the river, Allahabad, India* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** The riverbank ceremony sets a concentrated human action against a much larger water edge, joining ritual scale and expansive setting in a single frame.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-5.jpg).
 - **Rights / fair-use assessment:** **Fair-use.** Creator/rightsholder: Mustafah Abdulaziz; no licence is stated. **Factor 1:** transformative scholarship examines how ritual activity is placed against the river boundary. **Factor 2:** creative contemporary photograph. **Factor 3:** the full frame is required to relate ceremony, bank, and water. **Factor 4:** the credited 990 × 800px public display copy is linked and does not substitute for a print or licence.
 - **File:** `raw/mustafah-abdulaziz/08-cremation-allahabad.jpg` (990 × 800px).
 
-### 09. *Baptism at the Church of the Whole World, Cape Town, South Africa* — 2018
+### 09. *Baptism at the Church of the Whole World, Cape Town, South Africa* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** Immersed bodies and the water surface make a layered scene in which the ritual’s central action is both an anchor and a reflective boundary.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-4.jpg).
 - **Rights / fair-use assessment:** **Fair-use.** Creator/rightsholder: Mustafah Abdulaziz; no licence is stated. **Factor 1:** composition teaching analyzes body grouping, waterline, and ritual focus. **Factor 2:** creative contemporary photograph. **Factor 3:** the complete water-and-figure arrangement is necessary for analysis. **Factor 4:** this credited 996 × 800px public display rendition is non-substitutive.
 - **File:** `raw/mustafah-abdulaziz/09-baptism-cape-town.jpg` (996 × 800px).
 
-### 10. *Crab fishermen, Honghu, China* — 2015
+### 10. *Crab fishermen, Honghu, China* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** Sparse boats and working figures are widely separated across the water, producing an intentionally lonely rhythm that turns distance into the subject.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-3.jpg).
 - **Rights / fair-use assessment:** **Fair-use.** Creator/rightsholder: Mustafah Abdulaziz; no licence is stated. **Factor 1:** transformative criticism studies dispersed scale, open water, and interval. **Factor 2:** creative contemporary photograph. **Factor 3:** the wide complete frame is necessary to preserve the fishermen’s separation. **Factor 4:** the credited 995 × 800px public display file is linked and cannot replace a print or licensed image.
 - **File:** `raw/mustafah-abdulaziz/10-crab-fishermen-honghu.jpg` (995 × 800px).
 
-### 11. *Wattamolla, Australia* — 2017
+### 11. *Wattamolla, Australia* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** The meeting of water, shoreline, and land makes a compact threshold image in which natural transition and human viewpoint can be read without reducing the scene to illustration.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-2.jpg).
 - **Rights / fair-use assessment:** **Fair-use.** Creator/rightsholder: Mustafah Abdulaziz; no licence is stated. **Factor 1:** transformative teaching examines the shoreline threshold and human/land relation. **Factor 2:** creative contemporary photograph. **Factor 3:** the full land-to-water frame is necessary for that spatial reading. **Factor 4:** the credited 996 × 800px public display copy is record-linked and not a market substitute.
 - **File:** `raw/mustafah-abdulaziz/11-wattamolla.jpg` (996 × 800px).
 
-### 12. *Ship stranded after Hurricane Michael, Panama City, Florida* — 2018
+### 12. *Ship stranded after Hurricane Michael, Panama City, Florida* — 2011–2019 (individual date not stated)
 
 - **Why it matters:** The stranded vessel turns a broad damaged shoreline into a sharply legible scale marker, with the ship’s displaced mass holding the frame against its disrupted surroundings.
 - **Source:** [Leica Oskar Barnack Award finalist record](https://www.leica-oskar-barnack-award.com/en/series-finalists/2019/mustafah-abdulaziz.html); [direct public display rendition](https://www.leica-oskar-barnack-award.com/media/lobp_fixedheight-m/photographer-mustafah-abdulaziz-finalist-leica-oskar-barnack-award-2019-1.jpg).

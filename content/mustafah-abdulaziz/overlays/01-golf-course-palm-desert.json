@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-golf-course-palm-desert.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.324, "angle": -0.9, "label": "course edge" },
+    { "type": "subject_anchor", "x": 0.881, "y": 0.441, "label": "utility cluster" },
+    { "type": "ellipse", "cx": 0.695, "cy": 0.438, "rx": 0.145, "ry": 0.100, "label": "irrigated water" }
+  ],
+  "notes": "The contained green course makes water a sharply bounded interruption in the desert field."
+}
