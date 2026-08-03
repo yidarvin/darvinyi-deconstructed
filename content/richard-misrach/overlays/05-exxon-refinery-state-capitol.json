@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-exxon-refinery-state-capitol.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.585, "angle": 0.0, "label": "DISTANT REFINERY LINE" },
+    { "type": "leading_line", "points": [[0.37,0.683],[0.699,0.979]], "arrow": true, "label": "OBSERVATION-DECK RAIL" },
+    { "type": "polyline", "points": [[0.25,0.59],[0.58,0.59],[0.94,0.58]], "label": "INDUSTRIAL SKYLINE" }
+  ],
+  "notes": "A civic lookout rail points through haze toward a distant refinery."
+}

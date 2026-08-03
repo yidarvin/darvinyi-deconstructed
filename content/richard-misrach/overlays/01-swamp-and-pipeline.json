@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-swamp-and-pipeline.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.759, "angle": 0.0, "label": "PIPELINE BARRIER" },
+    { "type": "subject_anchor", "x": 0.054, "y": 0.263, "r": 0.035, "label": "LEFT TREE MASS" },
+    { "type": "polyline", "points": [[0.0,0.734],[0.44,0.727],[1.0,0.724]], "label": "PIPE RUN" }
+  ],
+  "notes": "A hard industrial bar seals a flooded, pale field of dead trees."
+}

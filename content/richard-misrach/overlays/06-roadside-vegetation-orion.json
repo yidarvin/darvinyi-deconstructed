@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-roadside-vegetation-orion.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.890, "angle": 0.0, "label": "REFLECTION THRESHOLD" },
+    { "type": "polyline", "points": [[0.0,0.58],[0.36,0.59],[0.70,0.60],[1.0,0.59]], "label": "VEGETATION SCREEN" },
+    { "type": "polyline", "points": [[0.29,0.44],[0.50,0.41],[0.72,0.43]], "label": "REFINERY SILHOUETTE" }
+  ],
+  "notes": "A dense vegetal screen delays the pale industrial horizon behind it."
+}

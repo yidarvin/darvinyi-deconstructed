@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-hot-lunch-cold-bee.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.751, "angle": 0.0, "label": "FIELD EDGE" },
+    { "type": "frame_in_frame", "x": 0.45, "y": 0.46, "w": 0.19, "h": 0.18, "label": "VERNACULAR TEXT" },
+    { "type": "polyline", "points": [[0.42,0.48],[0.46,0.43],[0.62,0.43]], "label": "SIGN ARROW" },
+    { "type": "ellipse", "cx": 0.17, "cy": 0.58, "rx": 0.10, "ry": 0.11, "label": "CABLE REEL" }
+  ],
+  "notes": "A small roadside sign gives a broad, damp field a human-scale interruption."
+}

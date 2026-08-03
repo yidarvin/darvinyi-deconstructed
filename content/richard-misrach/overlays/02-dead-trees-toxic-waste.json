@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-dead-trees-toxic-waste.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.515, "angle": 0.0, "label": "FENCE / WATER DIVISION" },
+    { "type": "subject_anchor", "x": 0.554, "y": 0.409, "r": 0.035, "label": "CENTRAL DEAD TRUNK" },
+    { "type": "polyline", "points": [[0.04,0.50],[0.50,0.505],[0.97,0.515]], "label": "CONTAINMENT FENCE" }
+  ],
+  "notes": "The fence divides dead trunks from their unstable reflections."
+}

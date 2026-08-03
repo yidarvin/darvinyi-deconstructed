@@ -1,0 +1,156 @@
+[
+  {
+    "file": "01-swamp-and-pipeline.jpg",
+    "width": 1600,
+    "height": 1275,
+    "sha1": "40b1d553",
+    "source": "01-swamp-and-pipeline.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-dead-trees-toxic-waste.jpg",
+    "width": 1600,
+    "height": 1273,
+    "sha1": "3fb1441b",
+    "source": "02-dead-trees-toxic-waste.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS R",
+      "DateTimeOriginal": "2017:11:07 13:45:46",
+      "FocalLength": "45.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-105mm f/4L IS USM"
+    }
+  },
+  {
+    "file": "03-playground-shell-refinery.jpg",
+    "width": 1600,
+    "height": 1266,
+    "sha1": "e97d003f",
+    "source": "03-playground-shell-refinery.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS R",
+      "DateTimeOriginal": "2017:11:07 10:44:16",
+      "FocalLength": "45.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-105mm f/4L IS USM"
+    }
+  },
+  {
+    "file": "04-home-grain-elevator.jpg",
+    "width": 1600,
+    "height": 1286,
+    "sha1": "880d482a",
+    "source": "04-home-grain-elevator.jpg",
+    "exif": {
+      "Make": "NewcolorV2 2.9272921085 0.92729204893 2.6106190681 2.6106190681 0.15000000596"
+    }
+  },
+  {
+    "file": "05-exxon-refinery-state-capitol.jpg",
+    "width": 1600,
+    "height": 1291,
+    "sha1": "63f949d6",
+    "source": "05-exxon-refinery-state-capitol.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-roadside-vegetation-orion.jpg",
+    "width": 1600,
+    "height": 1242,
+    "sha1": "c7404204",
+    "source": "06-roadside-vegetation-orion.jpg",
+    "exif": {
+      "Make": "EPSON",
+      "Model": "Expression 10000XL"
+    }
+  },
+  {
+    "file": "07-new-housing-sorrento.jpg",
+    "width": 1600,
+    "height": 1198,
+    "sha1": "efa98d82",
+    "source": "07-new-housing-sorrento.jpg",
+    "exif": {
+      "Make": "Phase One",
+      "Model": "P 65+",
+      "DateTimeOriginal": "2010:03:05 09:08:12",
+      "FocalLength": "55.0",
+      "ExposureTime": "0.004000011878283232",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "50"
+    }
+  },
+  {
+    "file": "08-restored-slave-cabins.jpg",
+    "width": 1600,
+    "height": 1282,
+    "sha1": "d60e5a72",
+    "source": "08-restored-slave-cabins.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-evergreen-plantation-statuary.jpg",
+    "width": 1600,
+    "height": 1262,
+    "sha1": "3c46e8be",
+    "source": "09-evergreen-plantation-statuary.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS R",
+      "DateTimeOriginal": "2017:11:07 10:58:08",
+      "FocalLength": "45.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-105mm f/4L IS USM"
+    }
+  },
+  {
+    "file": "10-nottoway-plantation-leda-swan.jpg",
+    "width": 1600,
+    "height": 1268,
+    "sha1": "1f9a8c29",
+    "source": "10-nottoway-plantation-leda-swan.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS R",
+      "DateTimeOriginal": "2017:11:07 11:48:08",
+      "FocalLength": "45.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-105mm f/4L IS USM"
+    }
+  },
+  {
+    "file": "11-hot-lunch-cold-bee.jpg",
+    "width": 1600,
+    "height": 1266,
+    "sha1": "a9fbceb9",
+    "source": "11-hot-lunch-cold-bee.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5DS R",
+      "DateTimeOriginal": "2017:11:07 11:33:17",
+      "FocalLength": "45.0",
+      "ExposureTime": "0.00625",
+      "FNumber": "16.0",
+      "ISOSpeedRatings": "100",
+      "LensModel": "EF24-105mm f/4L IS USM"
+    }
+  },
+  {
+    "file": "12-untitled-892-03.jpg",
+    "width": 1600,
+    "height": 769,
+    "sha1": "161f23cd",
+    "source": "12-untitled-892-03.jpg",
+    "exif": {}
+  }
+]

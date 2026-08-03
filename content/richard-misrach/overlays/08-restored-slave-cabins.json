@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-restored-slave-cabins.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.733, "angle": 0.0, "label": "GROUND PLANE" },
+    { "type": "frame_in_frame", "x": 0.22, "y": 0.33, "w": 0.48, "h": 0.40, "label": "NEAREST CABIN" },
+    { "type": "polyline", "points": [[0.22,0.60],[0.48,0.31],[0.70,0.59]], "label": "GABLED ROOF" },
+    { "type": "polyline", "points": [[0.62,0.60],[0.81,0.64],[0.98,0.66]], "label": "CABIN ROW" }
+  ],
+  "notes": "Cabin roofs and oaks pull a seemingly still historic scene into recession."
+}

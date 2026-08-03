@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-nottoway-plantation-leda-swan.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.512, "angle": 0.0, "label": "GARDEN BANK" },
+    { "type": "frame_in_frame", "x": 0.46, "y": 0.40, "w": 0.14, "h": 0.29, "label": "LEDA AND SWAN" },
+    { "type": "polyline", "points": [[0.0,0.91],[0.35,0.83],[0.67,0.72],[1.0,0.63]], "label": "POND EDGE" },
+    { "type": "polyline", "points": [[0.10,0.96],[0.43,0.86],[0.70,0.76],[1.0,0.72]], "label": "LOWER BANK" }
+  ],
+  "notes": "Two pond edges send the eye through foliage to an isolated white sculpture."
+}
