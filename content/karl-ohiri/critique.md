@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -22,3 +22,16 @@ Re-verified prior critique rounds: 2026-08-03 (the only prior round in the full
 `git log -p` history). Its sole required fix remains satisfied. `scripts/check.sh`
 and `python3 scripts/validate_pipeline.py` pass. Registry stage remains `built`
 pending independent critic re-review.
+
+## Critique round — 2026-08-03
+
+### Required
+
+1. **`03-equation-plus-2020` and `05-equation-equals-2020` — remove or replace the `vanishing_point` claims.** In both rendered proofs, the labelled “STONE EDGE CONVERGENCE” sits within the stone rather than at a visible convergence of diagonals. The matching analyzer records do emit detector vanishing points, but the visual review does not support the semantic claim that the stone’s edges converge there. A `vanishing_point` primitive expressly claims diagonal convergence, so these annotations materially misstate the photographs’ composition.
+
+2. **`04-equation-u-2020` and `06-equation-us-2020` — remove or replace the `horizon_line` claims.** The lines labelled “UPPER STONE THRESHOLD” cross local, irregular upper contours of the stones; neither proof contains a dominant frame-spanning horizontal. The analyzer identifies those y-values only as gradient luminance splits, not as a photographic horizon. Because a `horizon_line` primitive claims the frame is divided by a dominant horizontal, these two annotations are misleading as specified.
+
+### Advisory (non-blocking)
+
+- The pre-existing correction for `12-untitled-c1990s` remains resolved: the anchor and chapter now identify the visible upper-right dark surface blemish, not a highlight.
+- The remaining proofs were visually checked against their overlay specs and analyzer records. Their primitives read as the features named; all twelve current specs score 100/100, and the chapter's measured claims, source routes/credits, per-image fair-use rationale, and absence of invented camera settings are consistent with the supplied records. The score does not cure the two semantic annotation errors above.
