@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -21,3 +21,24 @@ None. All twelve image records have a reachable authoritative Leica finalist pag
 3. **09-baptism-cape-town:** removed the false `BODY AND SKY BOUNDARY` annotation; the remaining primitives describe the central participant, hands and water, and surrounding group.
 
 Re-verified all required fixes from the full critique history: 2026-08-03 round 1. The three repaired specs score 100/100 and their rendered proofs passed visual inspection. `scripts/check.sh` passed.
+
+## Critique round — 2026-08-03
+
+### Required
+
+1. **06-pregnant-woman-konso — `DESCENDING FOOTPATH` ends on the woman rather than the footpath.** The final segment from `(0.480, 0.720)` to `(0.510, 0.570)` visibly crosses her green dress; only the lower portion follows exposed rock. Reterminate or reroute it so every segment tracks the visible path. This is distinct from the prior round’s resolved primitive-count finding: the overlay now has three primitives, but this new endpoint is materially false.
+
+2. **08-cremation-allahabad — `DISTANT BRIDGE BAND` traces water, haze, and bridge supports rather than the bridge deck.** The polyline at `y≈0.58` runs across the full frame, although the visible bridge is higher and confined to the right of the frame. Retrace only the actual bridge band or relabel the feature. The previously required `STANDING FIGURE` repair remains correct.
+
+3. **12-stranded-ship-panama-city — `SHIP REFLECTION` materially overstates the reflected feature.** Its `frame_in_frame` runs from `y=0.650` to `0.980`, while the visible hull reflection ends at roughly `y=0.80`; the lower corner marks therefore enclose empty water. Resize the frame to the actual reflection and rerender.
+
+### Advisory (non-blocking)
+
+- **03-ganges-branch-bihar:** The `BRIDGE PIER` frame begins inside the wide pier instead of at its left edge, but it still unmistakably identifies the correct visible structure; this is a placement refinement, not a false claim.
+- **04-nanjing-bridge-model:** The display-case seam duplicates the top edge of the bridge-span frame, and the span trace stops short of the visible bridge’s right end.
+- **05-mermaid-reservoir-sao-paulo:** The `CENTRAL PALM TRUNK` line rides its right edge rather than its center.
+- **09-baptism-cape-town:** Tightening the `HANDS AND WATER` ellipse would exclude more of the central participant’s face while retaining the action.
+- **10-crab-fishermen-honghu:** The working-boat diagonal crosses foreground activity and carries slightly more visual weight than necessary, though it still traces the boat.
+- **11-wattamolla:** A person rests on the lower-left rock, outside the two swimmers annotated in the water. The plate and note do not assert that these are the only people in the frame, so this is not a wrong-count claim.
+
+All twelve proofs were visually inspected. Every current overlay scores 100/100 with no scorer warnings, but deterministic geometry does not cure the three semantic errors above. The chapter’s checked analyzer-derived numbers are within tolerance; it makes no camera-setting claims. Source integrity is sufficient: every image has a credited Leica finalist record and direct public display rendition, each `fair-use` entry supplies all four factors, and the authoritative page plus all twelve listed renditions returned HTTP 200 during this review.
