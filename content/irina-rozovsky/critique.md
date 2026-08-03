@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -81,3 +81,35 @@ for its settled non-blocking ellipse-redundancy warning; all pass the 80-point
 threshold. The chapter remains byte-identical to
 `src/chapters/irina-rozovsky.mdx`; its documented derivative measurements and
 absence of invented camera settings remain intact. `scripts/check.sh` passes.
+
+## Critique round — 2026-08-02
+
+### Required
+
+1. Correct the unsupported familial identification for
+   `05-traditions-highway-girl-baby-2018`. The source record's direct-file
+   route identifies the work only as `girl and baby`; neither it nor the
+   visible frame establishes that the adult holding the child is the child's
+   mother. Replace `MOTHER AND CHILD` in the overlay and the chapter's
+   `mother-and-child` / `mother and child` wording with an observational,
+   non-familial description (for example, adult and child), including the
+   plate caption. This is a required subject-identification correction, not a
+   stylistic preference.
+
+### Advisory (non-blocking)
+
+- The previously settled slight clipping of the top-edge labels for `05` and
+  `10`, and the three-ellipse redundancy warning for `09` (97/100), remain
+  cosmetic/non-misleading and are not reopened.
+
+### Review record
+
+- Looked at every current proof PNG against its image, overlay spec, and
+  analyzer result. The labeled structures visibly trace their named features;
+  all deterministic scores pass (ten at 100/100, `09` at 97/100).
+- Rechecked chapter measurements against the analysis JSON: the cited
+  edge-density, tonal-span, and mean-luminance values remain within the stated
+  tolerance. The chapter makes no camera-setting claim.
+- Rechecked the CPM gallery route and all eleven linked direct display files:
+  each returned public HTTP 200 without authentication. Credits, routes, and
+  the documented per-image fair-use assessment remain traceable.
