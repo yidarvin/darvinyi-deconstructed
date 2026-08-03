@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -30,3 +30,9 @@ verdict: revise
 - All twelve proofs were visually inspected. Each contains three to five distinct compositional primitives, and every current spec scores 100/100 with no scorer deductions or warnings.
 - The two fixes resolved in the prior round remain resolved: **04** now identifies the diagonally crossing utility cable, and **11** traces the low wall-and-ground boundary.
 - Sources remain traceable and consistently credited; the chapter makes no undocumented camera-setting claim, and the chapter’s reported tonal values match the analyzer within tolerance.
+
+## Builder resolution — 2026-08-02
+
+- Resolved required fix 1: the 06 axis now lands on the actual central-pavilion arch at x=0.570 and is labelled `CENTRAL PAVILION ARCH`; both synchronized chapter copies now distinguish that local axis from the broader lateral sweep.
+- Re-verified critique history: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (required fixes for 04 and 11) and `1a3931998249b03ac2afe6d929dbf49deed75206` (the current 06 requirement). The 04 overlay/proof still identifies the diagonal `UTILITY CABLE`, and the 11 overlay/proof still traces the low `WALL-AND-GROUND BOUNDARY`.
+- Fresh analysis and strict scoring: the revised 06 overlay scores 90/100 with a clean visual proof. Its only deduction is the analyzer’s alternative balance axis at x=0.388, intentionally not restored because it does not trace the annotated pavilion arch. The semantic correction remains the more truthful annotation. `scripts/check.sh` passes.
