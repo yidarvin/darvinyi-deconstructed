@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-02
 
@@ -74,3 +74,16 @@ verdict: resolved
 - Resolved required fix 1: the `11-waterhouse-preservation-05` fair-use rationale now identifies the complete shown frame as necessary to analyze the unequal paired arches, the left grille, the right dark doorway, and the low wall-and-ground boundary; it no longer calls the image a panorama or claims a lesson in horizontal pacing and historical scale.
 - Re-verified critique history: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (04 utility cable and 11 low wall-and-ground boundary), `1a3931998249b03ac2afe6d929dbf49deed75206` (06 central-pavilion arch), `7b3a647f253d5b64561b2805404a88b4eddc4bda` (09 and 11 source-note accuracy), and `bb97041ba2dd01e430d574f1b456c1f5770b6b54` (11 fair-use rationale). Fresh visual proof checks confirm the 04 cable, 06 pavilion arch, 09 pedestrian route, and 11 paired openings/boundary remain truthfully described.
 - Fresh strict scoring: 04, 09, and 11 score 100/100; 06 scores 90/100 because the analyzer's broader balance axis differs from the visibly correct local pavilion-arch axis. `scripts/check.sh` passes (438 tests, production build, and lint).
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+1. **10-waterhouse-preservation-03** — The `BARRED WINDOW` `frame_in_frame` is at x=0.310–0.490, y=0.180–0.530. In the proof it starts on blank tiled wall and captures only the left portion of the prominent barred arched window, whose frame extends materially farther right and lower. Redraw the frame on the actual barred window (or relabel it for the feature it really encloses); the current annotation falsely identifies a mostly unframed wall area as that window.
+2. **11-waterhouse-preservation-05** — The `OPEN DOORWAY` `frame_in_frame` at x=0.620–0.840, y=0.150–0.820 begins on the tiled wall and stops well inside the right arched doorway, omitting its outer right edge, arch, and threshold. Resize/reposition it to trace the complete visible doorway. This is a new overlay-geometry finding; it does not reopen the previously resolved low `WALL-AND-GROUND BOUNDARY` correction.
+
+### Advisory (non-blocking)
+
+- All twelve proofs were viewed against their current specs and analyses. The previously resolved 04 utility-cable, 06 central-pavilion-arch, 09 source-description, and 11 boundary/fair-use corrections remain materially intact. In particular, the 06 local arch axis at x=0.570 is visibly truthful despite the analyzer's broader x=0.388 balance-axis alternative.
+- Strict geometry scoring is otherwise sound: every current spec passes; eleven score 100/100 and 06 scores 90/100 solely for that settled alternative axis.
+- All 17 cited artist, MoMA, and public-rendition URLs returned HTTP 200 in this review. Credits, fair-use routes and per-image four-factor rationale, and the no-camera-settings disclosure remain traceable and materially sound.
