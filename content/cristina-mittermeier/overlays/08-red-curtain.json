@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-red-curtain.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.350, "cy": 0.500, "rx": 0.120, "ry": 0.280, "label": "SEA LION" },
+    { "type": "polyline", "points": [[0.375, 0.790], [0.520, 0.680], [0.700, 0.615], [0.930, 0.505]], "label": "FISH CURRENT" },
+    { "type": "polyline", "points": [[0.640, 0.080], [0.760, 0.260], [0.855, 0.480]], "label": "LIGHT PLUME" }
+  ],
+  "notes": "The sea lion meets a bright, red fish current that rises into a broken plume of surface light."
+}

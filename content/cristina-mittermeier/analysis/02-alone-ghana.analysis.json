@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "image": "02-alone-ghana.jpg",
+  "width": 1600,
+  "height": 1066,
+  "aspect": 1.5009,
+  "tonal": {
+    "mean": 0.633501523776666,
+    "std": 0.15972888306552568,
+    "p05": 0.3607843137254902,
+    "p95": 0.8313725490196079,
+    "edge_density": 0.0013187889479472142
+  },
+  "palette": [
+    "#cbccce",
+    "#6f7c84",
+    "#b1b5ba",
+    "#8b949c",
+    "#415157"
+  ],
+  "lines": [
+    {
+      "x1": 0.5732421875,
+      "y1": 0.9032258064516129,
+      "x2": 0.6904296875,
+      "y2": 0.8973607038123167,
+      "angle_deg": -1.9091524329963763,
+      "length": 0.09758936258104177,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.6279296875,
+      "y1": 0.9648093841642229,
+      "x2": 0.7041015625,
+      "y2": 0.9560117302052786,
+      "angle_deg": -4.398705354995532,
+      "length": 0.0635851654412182,
+      "class": "horizontal"
+    }
+  ],
+  "horizon": {
+    "y": 0.9002932551319648,
+    "angle_deg": -1.9091524329963763,
+    "confidence": 1.0,
+    "method": "both"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.7099609375,
+      0.844574780058651
+    ],
+    "regions": [
+      {
+        "cx": 0.7096930440497806,
+        "cy": 0.8477975248361671,
+        "x": 0.66796875,
+        "y": 0.7771260997067448,
+        "w": 0.0859375,
+        "h": 0.14222873900293256,
+        "area_frac": 0.0094634920271261
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9813925723002859,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.3495780310845294,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.7099609375,
+    "y": 0.844574780058651,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.16668205002064654,
+    "phi": 0.010927895140175028,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.9,
+      "angle": -1.9,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (both)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.98,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.71,
+      "y": 0.845,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

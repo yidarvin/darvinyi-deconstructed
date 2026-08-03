@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-alone-ghana.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.710, "y": 0.845, "r": 0.035, "label": "SAILBOAT" },
+    { "type": "horizon_line", "y": 0.900, "angle": -1.9, "label": "WATER BAND" },
+    { "type": "polyline", "points": [[0.688, 0.830], [0.704, 0.775], [0.716, 0.842]], "label": "SAIL TRIANGLE" }
+  ],
+  "notes": "A small sailboat punctuates a broad, softly divided field of sky and water."
+}

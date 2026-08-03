@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-heavenly-virtuous-miracle.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.226, "y": 0.773, "r": 0.035, "label": "LEFT SURFER" },
+    { "type": "polyline", "points": [[0.000, 0.575], [0.270, 0.490], [0.520, 0.525], [0.790, 0.430], [1.000, 0.475]], "label": "BREAKING WAVE" },
+    { "type": "polyline", "points": [[0.226, 0.773], [0.397, 0.732]], "label": "SURFER INTERVAL" }
+  ],
+  "notes": "Two small surfers are held apart by a broad, softly moving band of surf."
+}

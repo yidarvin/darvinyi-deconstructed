@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-rice-paddy-i.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.000, 0.360], [0.185, 0.335], [0.350, 0.295], [0.495, 0.230]], "label": "UPPER TERRACE SEAM" },
+    { "type": "polyline", "points": [[0.350, 1.000], [0.415, 0.800], [0.470, 0.600], [0.475, 0.410]], "label": "CENTRAL FIELD SEAM" },
+    { "type": "polyline", "points": [[0.780, 0.950], [0.825, 0.770], [0.870, 0.560], [0.925, 0.390]], "label": "RIGHT FIELD SEAM" }
+  ],
+  "notes": "Paths and field seams turn the overhead terrain into an irregular, connected patchwork."
+}

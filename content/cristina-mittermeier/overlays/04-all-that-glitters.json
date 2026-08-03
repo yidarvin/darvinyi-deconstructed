@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-all-that-glitters.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.664, "y": 0.767, "r": 0.035, "label": "LOW FLAMINGO CLUSTER" },
+    { "type": "horizon_line", "y": 0.316, "angle": 0.0, "label": "DISTANT RIDGE" },
+    { "type": "polyline", "points": [[0.105, 0.745], [0.240, 0.430], [0.430, 0.595], [0.570, 0.410], [0.790, 0.640], [0.940, 0.470]], "label": "NECK RHYTHM" }
+  ],
+  "notes": "Repeated flamingo necks turn a glowing waterline into an undulating horizontal rhythm."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "12-leap-of-faith.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.726, "y": 0.559, "r": 0.040, "label": "AIRBORNE PENGUIN" },
+    { "type": "polyline", "points": [[0.680, 0.710], [0.730, 0.560], [0.815, 0.690]], "label": "STAGGERED LEAPS" },
+    { "type": "polyline", "points": [[0.000, 0.310], [0.260, 0.335], [0.490, 0.420], [0.600, 0.490]], "label": "ICE SHELF EDGE" }
+  ],
+  "notes": "The isolated leap breaks away from the crowded ice shelf and its repeated standing bodies."
+}

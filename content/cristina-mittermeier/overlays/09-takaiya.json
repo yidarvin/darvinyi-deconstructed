@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-takaiya.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.804, "y": 0.582, "r": 0.045, "label": "CANOE FORM" },
+    { "type": "horizon_line", "y": 0.370, "angle": 0.0, "label": "DISTANT SHORE" },
+    { "type": "ellipse", "cx": 0.800, "cy": 0.570, "rx": 0.170, "ry": 0.290, "label": "PAINTED CANOE" },
+    { "type": "polyline", "points": [[0.170, 0.520], [0.360, 0.470], [0.510, 0.425]], "label": "PADDLE" }
+  ],
+  "notes": "A portrait and a painted canoe share the foreground while the paddle extends the figure into the water."
+}

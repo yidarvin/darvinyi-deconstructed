@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-the-visitor.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.679, "y": 0.535, "r": 0.045, "label": "TURTLE" },
+    { "type": "ellipse", "cx": 0.690, "cy": 0.590, "rx": 0.135, "ry": 0.260, "label": "TURTLE BODY" },
+    { "type": "polyline", "points": [[0.020, 0.100], [0.250, 0.230], [0.460, 0.390], [0.620, 0.520]], "label": "SCHOOL FLOW" }
+  ],
+  "notes": "A dense school arcs toward the lone turtle, making scale and approach legible in the open water."
+}
