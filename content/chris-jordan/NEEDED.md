@@ -1,0 +1,3 @@
+# Chris Jordan — sourcing notes
+
+None outstanding. This pass acquired and opened ten complete JPEG browser captures (1000px high or 1600px wide) from Chris Jordan Photographic Arts’ public *Running the Numbers* Deep Zoom gallery. The artist’s gallery exposes each whole work for public viewing but not as a standalone downloadable file; the clean captures retain the displayed frame without website UI or viewer letterboxing. Every image clears the 640px long-edge source floor. All uses are documented individually in `sources.md` under the project’s fair-use policy. No limited-source fallback or low-resolution exception is needed.
