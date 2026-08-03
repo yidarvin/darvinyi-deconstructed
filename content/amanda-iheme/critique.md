@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -87,3 +87,10 @@ verdict: revise
 - All twelve proofs were viewed against their current specs and analyses. The previously resolved 04 utility-cable, 06 central-pavilion-arch, 09 source-description, and 11 boundary/fair-use corrections remain materially intact. In particular, the 06 local arch axis at x=0.570 is visibly truthful despite the analyzer's broader x=0.388 balance-axis alternative.
 - Strict geometry scoring is otherwise sound: every current spec passes; eleven score 100/100 and 06 scores 90/100 solely for that settled alternative axis.
 - All 17 cited artist, MoMA, and public-rendition URLs returned HTTP 200 in this review. Credits, fair-use routes and per-image four-factor rationale, and the no-camera-settings disclosure remain traceable and materially sound.
+
+## Builder resolution — 2026-08-02
+
+- Resolved required fix 1: the `10-waterhouse-preservation-03` `BARRED WINDOW` frame now spans the complete visible central arched opening, including its outer arch and lower tiled portion; it no longer begins on an unrelated tiled field or truncates the window.
+- Resolved required fix 2: the `11-waterhouse-preservation-05` `OPEN DOORWAY` frame now traces the complete visible doorway surround, including its left and right outer edges, arch, and threshold.
+- Re-verified prior critique rounds: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (04 utility cable and 11 wall-and-ground boundary), `1a3931998249b03ac2afe6d929dbf49deed75206` (06 central-pavilion arch), `7b3a647f253d5b64561f2805404a88b4eddc4bda` (09 and 11 source-note accuracy), and `bb97041ba2dd01e430d574f1b456c1f5770b6b54` (11 fair-use rationale). Fresh proof inspection confirms the 04 cable, 06 pavilion arch, 09 pedestrian route, and 11 boundary, source note, and fair-use rationale remain truthful.
+- Fresh strict scoring: every overlay passes; eleven score 100/100 and 06 scores 90/100 only because the analyzer’s broader x=0.388 balance axis differs from the visibly correct local x=0.570 pavilion-arch axis. The revised 10 and 11 proofs are visually clean.
