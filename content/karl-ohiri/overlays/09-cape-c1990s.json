@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-cape-c1990s.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.525, "y": 0.071, "r": 0.05, "label": "cape and head" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "cloak axis" },
+    { "type": "horizon_line", "y": 0.864, "angle": -2.4, "label": "studio floor edge" }
+  ],
+  "notes": "The cloak spreads from a centered head into a dark, nearly symmetrical silhouette."
+}

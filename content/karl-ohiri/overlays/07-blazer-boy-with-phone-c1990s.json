@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-blazer-boy-with-phone-c1990s.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.525, "y": 0.308, "r": 0.05, "label": "blazered sitter" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.537, "label": "posed portrait axis" },
+    { "type": "horizon_line", "y": 0.872, "angle": -3.1, "label": "studio floor edge" }
+  ],
+  "notes": "The upright sitter and phone are stabilized by a near-central studio portrait axis."
+}

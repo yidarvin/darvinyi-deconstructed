@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-two-girls-in-native-c1990s.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.832, "y": 0.436, "r": 0.05, "label": "red-draped figure" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.45, "label": "paired-figure balance" },
+    { "type": "leading_line", "points": [[0.071, 0.584], [0.588, 0.367]], "arrow": true, "label": "draped textile diagonal" }
+  ],
+  "notes": "A close pair forms a balance that the crossing drapery gently unsettles."
+}

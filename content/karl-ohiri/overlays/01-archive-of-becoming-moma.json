@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-archive-of-becoming-moma.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.592, "y": 0.416, "r": 0.055, "label": "portrait and decay" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.562, "label": "layered portrait axis" },
+    { "type": "leading_line", "points": [[0.393, 0.271], [0.815, 0.55]], "arrow": true, "label": "yellow veil" }
+  ],
+  "notes": "A damaged portrait makes the face and yellow chemical veil compete for the center."
+}

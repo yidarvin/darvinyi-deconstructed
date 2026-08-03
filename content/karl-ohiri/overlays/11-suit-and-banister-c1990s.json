@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "11-suit-and-banister-c1990s.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.55, "y": 0.257, "r": 0.05, "label": "suited sitter" },
+    { "type": "polyline", "points": [[0.655, 0.525], [0.79, 0.452], [0.99, 0.337]], "label": "banister rail" }
+  ],
+  "notes": "The banister's diagonal rail presses the suited sitter against the studio backdrop."
+}
