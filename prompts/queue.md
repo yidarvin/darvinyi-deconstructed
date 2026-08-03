@@ -225,7 +225,7 @@ real queue and state live in data/registry.json.
 | 214 | irina-rozovsky            | Irina Rozovsky               | DONE    |
 | 215 | kelani-abass              | Kelani Abass                 | DONE    |
 | 216 | yagazie-emezi             | Yagazie Emezi                | DONE    |
-| 217 | amanda-iheme              | Amanda Iheme                 | PENDING |
+| 217 | amanda-iheme              | Amanda Iheme                 | DONE    |
 | 218 | abraham-oghobase          | Abraham Oghobase             | PENDING |
 | 219 | karl-ohiri                | Karl Ohiri                   | PENDING |
 | 220 | logo-oluwamuyiwa          | Logo Oluwamuyiwa             | PENDING |

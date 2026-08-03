@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-02
 
@@ -94,3 +94,15 @@ verdict: resolved
 - Resolved required fix 2: the `11-waterhouse-preservation-05` `OPEN DOORWAY` frame now traces the complete visible doorway surround, including its left and right outer edges, arch, and threshold.
 - Re-verified prior critique rounds: `f7cd3d84cb76a1d2a99c1c3cc96a510639799687` (04 utility cable and 11 wall-and-ground boundary), `1a3931998249b03ac2afe6d929dbf49deed75206` (06 central-pavilion arch), `7b3a647f253d5b64561f2805404a88b4eddc4bda` (09 and 11 source-note accuracy), and `bb97041ba2dd01e430d574f1b456c1f5770b6b54` (11 fair-use rationale). Fresh proof inspection confirms the 04 cable, 06 pavilion arch, 09 pedestrian route, and 11 boundary, source note, and fair-use rationale remain truthful.
 - Fresh strict scoring: every overlay passes; eleven score 100/100 and 06 scores 90/100 only because the analyzer’s broader x=0.388 balance axis differs from the visibly correct local x=0.570 pavilion-arch axis. The revised 10 and 11 proofs are visually clean.
+
+## Critique round — 2026-08-02
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- All twelve current proofs were visually inspected against their overlay specs. Each uses three to four distinct, semantically truthful teaching primitives; the resolved 04 utility-cable, 06 central-pavilion-arch, 09 source-description, and 10/11 frame corrections remain intact.
+- Fresh strict scoring passes every overlay: eleven score 100/100 and 06 scores 90/100 only because the analyzer proposes the previously reviewed broader balance axis at x=0.388. The marked x=0.570 line visibly traces the central pavilion arch, so this is not a regression of the resolved correction.
+- All 26 cited artist, MoMA, and public-rendition URLs returned HTTP 200 in this review. Each image remains traceable to a credited public source with an image-specific fair-use rationale; the chapter and research note make no undocumented camera-setting claim, and their reported tonal values match the analyzer within tolerance.
