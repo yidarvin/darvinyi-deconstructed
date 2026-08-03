@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-02
 
@@ -113,3 +113,23 @@ absence of invented camera settings remain intact. `scripts/check.sh` passes.
 - Rechecked the CPM gallery route and all eleven linked direct display files:
   each returned public HTTP 200 without authentication. Credits, routes, and
   the documented per-image fair-use assessment remain traceable.
+
+## Builder resolution — 2026-08-02
+
+Resolved required item 1. Replaced the unsupported familial identification for
+`05-traditions-highway-girl-baby-2018` with the observational `ADULT AND
+CHILD` in its overlay and changed the overlay thesis, chapter prose, and plate
+caption to the same non-familial wording. Re-rendered its proof and regenerated
+the contact sheet; the updated overlay scores 100/100 and cleanly follows the
+doorway and the paired subjects.
+
+Reverified prior critique rounds: 2026-08-02 (the required source annotations
+for `03` and `08`–`11`) and 2026-08-02 (the required source annotation for
+`04`). I re-opened the six cited display files and confirmed that the current
+source records respectively describe the two ponies and goat, the vessels over
+water, the figure behind scratched glass and vessels, the red ridge and glow,
+the bottle-and-flower still life, and the dog above the chicken foreground.
+Their current chapter text and overlays remain consistent with those records.
+All eleven deterministic overlay checks pass at the 80-point threshold (ten
+100/100; `09` 97/100 with only its settled ellipse-redundancy advisory), and
+the two chapter copies remain byte-identical. `scripts/check.sh` passes.
