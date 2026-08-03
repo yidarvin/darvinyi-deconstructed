@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -25,3 +25,26 @@ rescored at 100/100; a fresh visual pass tightened the `MIRROR` frame in
 `02-huxtables-mom-and-me` and the `DOOR FRAME` in
 `05-mom-making-an-image-of-me` to their visible boundaries. `scripts/check.sh`
 passed before this resolution was recorded.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+1. **`03-momme` / `04-mom-and-me` — correct the printing-process disclaimer.**
+   `research.md` says the source record does not document a printing process,
+   and the chapter callout repeats that the supplied records do not document an
+   original printing process for this selection. This is materially false for
+   the cited records: the linked Haggerty Museum record identifies `03-momme`
+   as a gelatin silver print, and the cited Portland Museum collection listing
+   identifies `04-mom-and-me` as a gelatin silver print. Revise the caveat to
+   distinguish the undocumented camera/capture settings from the documented
+   print medium, without inferring an unrecorded process for the other works.
+
+### Advisory (non-blocking)
+
+- None. All six current proof PNGs were visually reviewed. Each has three
+  legible, pedagogically focused primitives that trace the named feature; the
+  prose's tonal values and grid statements match the analysis JSON within the
+  stated tolerance; and rescoring every current overlay returned 100/100 with
+  no deductions or warnings. The prior fair-use factor-two finding remains
+  resolved in every per-image record.
