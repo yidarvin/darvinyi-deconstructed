@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Builder resolution — 2026-08-02 (second resolution)
 
@@ -126,3 +126,26 @@ All twelve proofs were visually checked against their current specs and analyses
 All twelve current proofs received a fresh visual pass and score 100/100
 against their stored analyses. The previously resolved fixes remain present;
 this round does not reopen them.
+
+## Critique round — 2026-08-02 (post-resolution verification)
+
+### Required
+
+None. All twelve proofs were visually checked against their current overlay
+specifications. The resolved retargeting and count corrections remain truthful
+in the rendered images, and each stored spec scores 100/100 against its current
+analysis. The chapter's quoted tonal, palette, and edge-density values match
+those analyses within tolerance; no camera settings or unsupported per-work
+process claims were introduced.
+
+The source dossier remains traceable: Aperture identifies the displayed works
+and dates, MoMA identifies *True North* and its medium, NOMA supports the
+documented material and making-context claims, and Strange Fire identifies
+*Broken Signal*. Each reproduced work is credited and retains its documented,
+image-specific fair-use basis; no access-control concern is indicated.
+
+### Advisory (non-blocking)
+
+None newly identified. The retained *Lapse* grid-fit rounding observation from
+the prior round remains non-blocking and does not alter the chapter's reading
+of the repeated field.
