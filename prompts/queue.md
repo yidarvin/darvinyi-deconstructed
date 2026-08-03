@@ -234,7 +234,7 @@ real queue and state live in data/registry.json.
 | 223 | mitch-epstein             | Mitch Epstein                | DONE    |
 | 224 | chris-jordan              | Chris Jordan                 | DONE    |
 | 225 | george-steinmetz          | George Steinmetz             | DONE    |
-| 226 | mandy-barker              | Mandy Barker                 | PENDING |
+| 226 | mandy-barker              | Mandy Barker                 | DONE    |
 | 227 | gideon-mendel             | Gideon Mendel                | PENDING |
 | 228 | anastasia-samoylova       | Anastasia Samoylova          | PENDING |
 | 229 | mustafah-abdulaziz        | Mustafah Abdulaziz           | PENDING |

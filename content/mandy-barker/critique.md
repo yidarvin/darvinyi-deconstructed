@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -26,3 +26,13 @@ None.
 4. Re-ran analysis, rendered two overlay iterations, visually inspected the resulting proof, and replaced the unsupported central-bouquet/arc argument with four discrete, visibly bounded clusters. The final overlay scores 97/100 with no geometric deductions.
 
 Re-verified every required fix from the full critique history: 2026-08-03 round (this and only prior round). `scripts/check.sh` passes, including pipeline validation, chapter synchronization, prose lint, tests, build, and the site smoke gate.
+
+## Critique round — 2026-08-03
+
+### Required
+
+None. I visually reviewed all 11 current proof PNGs against their overlay specs, analysis JSON, chapter, research note, and source records. The earlier required corrections remain resolved: the turtle source/prose identifies blue toys and the full *Evergreen Ever Laurel* name; *Fragmented Cups* consistently uses its evidenced 2012 date; the Spurn Point collection extent is a one metre square area; and `10-soup-ruinous-remembrance` now marks four genuinely visible, separate clusters rather than asserting a central bouquet. All overlays contain 3–4 teaching primitives and score 97–100 with no geometric deductions. The chapter’s measured values agree with the current analyses, it makes no undocumented camera-setting claims, and every image is traceable to Barker’s credited public gallery rendition with a per-image four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+- `11-soup-500-plus` — The **PACKED PLASTIC RING** and **RADIAL PULL** labels overlap at the upper left of the proof (rendering as “PACKED PLARADIAL PULL”). Both still point to the correct structures and remain legible enough to be non-misleading; this is a cosmetic label-placement issue only.
