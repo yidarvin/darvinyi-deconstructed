@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -50,3 +50,18 @@ All twelve proofs were visually inspected. Every current overlay scores 100/100 
 3. **12-stranded-ship-panama-city:** reduced `SHIP REFLECTION` to `h: 0.155`, ending at `y=0.805` at the visible reflected hull rather than empty water.
 
 Re-verified every required fix from the full critique history: 2026-08-03 round 1 and round 2. The round-1 repairs remain intact: 06 has three truthful teaching primitives, 08’s standing-figure ellipse remains on the person, and 09 retains no false body-and-sky boundary. All twelve overlays score 100/100 with no warnings; the three repaired proofs passed independent visual review. `scripts/check.sh` and `python3 scripts/validate_pipeline.py` passed.
+
+## Critique round — 2026-08-03
+
+### Required
+
+1. **Project and image dates — unsupported `2011–2019` range.** The cited Leica finalist record establishes that *Water* began in 2011 and was presented by Leica in 2019; it does not establish 2019 as the project end or any frame's exposure date. The unsupported range recurs in the lead, every plate label, `sources.md`, and `research.md`, so it can misstate the history of the work. Replace it throughout with a documented formulation such as “project begun in 2011; individual exposure date not stated,” unless an individual date or project end date is independently sourced.
+
+2. **Registry source provenance — materially inaccurate source description.** The registry lists “Artist archive / WaterAid / museum and festival records,” while the chapter's actual image sources are the Leica Oskar Barnack Award finalist record and the artist portfolio. WaterAid is documented as project support, not an image source. Correct the registry source field to name the actual sources.
+
+The overlay review otherwise passes: the round-1 and round-2 repairs remain materially correct, all twelve current proofs pass standard and strict scoring at 100/100, and the analyzer-derived chapter figures are within tolerance. All twelve direct Leica renditions, the finalist record, and the artist portfolio were reachable during this review; each image has credit and an image-specific four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+- **03-ganges-branch-bihar:** The `BRIDGE PIER` callout still begins inside the pier rather than at its left contour. This is the same placement refinement recorded in the prior round, not a regression: it continues to identify the correct visible pier and does not misstate the composition.
+- **Source-note caption wording:** Entries 08, 10, and 11 are shortened from the Leica captions. Preserve the exact sourced captions in `sources.md`, or label the local versions as editorial short titles.
