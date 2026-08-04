@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "image": "08-deathless-aphrodite.jpg",
+  "width": 1600,
+  "height": 1600,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.5989557079240387,
+    "std": 0.2693357787570448,
+    "p05": 0.1450980392156863,
+    "p95": 0.9176470588235294,
+    "edge_density": 0.0030050277709960938
+  },
+  "palette": [
+    "#ece3d3",
+    "#987867",
+    "#6e4f41",
+    "#3c231b",
+    "#c5a690"
+  ],
+  "lines": [
+    {
+      "x1": 0.86328125,
+      "y1": 0.8916015625,
+      "x2": 0.9951171875,
+      "y2": 0.953125,
+      "angle_deg": 25.016893478100023,
+      "length": 0.10287333905905921,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.841796875,
+      "y1": 0.1728515625,
+      "x2": 0.8984375,
+      "y2": 0.298828125,
+      "angle_deg": 65.79072527441471,
+      "length": 0.0976684562684059,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.3974609375,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.8203125,
+      0.5546875
+    ],
+    "regions": [
+      {
+        "cx": 0.8014344159720574,
+        "cy": 0.5820657796185335,
+        "x": 0.7255859375,
+        "y": 0.48046875,
+        "w": 0.1513671875,
+        "h": 0.2138671875,
+        "area_frac": 0.01607513427734375
+      },
+      {
+        "cx": 0.6203368282029524,
+        "cy": 0.4592707066073035,
+        "x": 0.544921875,
+        "y": 0.4130859375,
+        "w": 0.1484375,
+        "h": 0.09765625,
+        "area_frac": 0.011660575866699219
+      },
+      {
+        "cx": 0.3699710491350563,
+        "cy": 0.4581357344531576,
+        "x": 0.3134765625,
+        "y": 0.408203125,
+        "w": 0.1162109375,
+        "h": 0.1015625,
+        "area_frac": 0.009151458740234375
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.934794878581267,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.8484732286998686,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.8203125,
+    "y": 0.5546875,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.2645771798171176,
+    "phi": 0.3874919644000938,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.397,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.93,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.82,
+      "y": 0.555,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
