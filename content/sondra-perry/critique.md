@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-04
 
@@ -60,3 +60,30 @@ Re-verified critique history: **2026-08-04, round 1** and **2026-08-04, round 2*
 3. Applied the prior advisory cleanup to `06-title-tk-2`: `SPLAYED SUPPORT` now ends at the central joint instead of continuing across bare floor.
 
 All eleven current overlay specs score 100/100. Fresh visual checks are clean for the corrected overlays and every prior required-fix proof; the content and rendered chapter remain byte-identical.
+
+## Critique round — 2026-08-04
+
+### Required fixes
+
+1. **`05-its-in-the-game` — remove or replace `ROOM BALANCE`.** The `symmetry_axis` at `x=0.625` is a primitive that asserts left/right mirroring, but the stand and monitor at left, open floor, and corridor at right do not mirror across it. The analyzer's 0.860 correlation is consistent with the broad blue field rather than visual symmetry. Do not use a symmetry primitive to make a general balance claim; retain the truthful blue-room divide and projected-screen frame.
+
+2. **`06-title-tk-2` — correct the misidentified apparatus.** The proof shows a black horizontal tubular bar on a splayed support, not a monitor or a monitor rectangle. The overlay notes, plate caption, chapter paragraph, and source rationale each call it a monitor. Replace those claims with a description supported by the visible sculpture/apparatus (or cite an authoritative record if a monitor is actually present); do not infer a display from the documentation view.
+
+3. **`07-eclogue-inhabitability` — remove or redraw the false perspective claims.** `CORRIDOR CONVERGENCE` at `(0.504, 0.692)` is in the foreground below the apparatus, whereas the visible architectural recession is at the rear of the gallery. Its paired `CHECKERED FLOOR` line, from `(0.294, 0.998)` to `(0.838, 0.600)`, crosses the tile pattern toward the right wall rather than tracing a floor edge into the claimed convergence. The chapter and caption consequently misstate the diagram as corridor depth. This is distinct from—and not a reopening of—the machine-arm line resolved in the first round.
+
+4. **`08-ffff-four` — remove or replace the unsupported `FLOOR THRESHOLD`.** The horizontal line at `y=0.760` runs through undifferentiated floor; no threshold or structural horizontal is visible there. The analyzer itself gives that tonal split only 0.573 confidence. Use a primitive that lands on a visible feature, or omit it.
+
+5. **`09-acrylic-gel-full-set` — remove or redraw `LOWER FRAME DIVIDE`.** The horizontal line at `y=0.765` passes through the portrait and white surround. The actual lower brown frame rail is markedly oblique, running from roughly `y=0.84` at left to `y=0.75` at right. The current line thus names a structure that is not present. The corrected `SKEWED PRINT EDGE` remains truthful; this is not a reopening of the second-round resolution.
+
+6. **`10-wet-and-wavy-looks` — remove the false `ROOM CONVERGENCE`.** The vanishing-point marker at `(0.258, 0.572)` sits above the screens, but the visible wall, floor, and panel edges do not converge at that point. The analyzer's four-inlier proposal is insufficient semantic evidence. Remove the primitive and revise the chapter sentence that uses room convergence to make the screens a destination.
+
+7. **`10-wet-and-wavy-looks` — replace `BLUE-ROOM BALANCE` with a truthful primitive.** The `symmetry_axis` at `x=0.375` asserts mirroring that the unequal blue walls, black opening, and workstation do not have. A broad blue field can support an interpretive balance reading, but not this symmetry primitive.
+
+8. **`11-graft-and-ash` — replace `WORKSTATION AXIS`.** The `symmetry_axis` at `x=0.575` similarly asserts bilateral symmetry not visible in the offset bicycle and monitor assembly. Use a primitive that identifies an actual visible alignment or remove the claim; keep the accurate monitor-cluster anchor and floor threshold.
+
+### Advisory (non-blocking)
+
+- `02-flesh-graft-ash-1`: `MIDDLE LIGHT BOX` is slightly short vertically: its bounds are `y=0.210–0.640`, while the lit panel visibly extends about `y=0.236–0.667`. It still clearly identifies the panel, so this does not block approval.
+- `04-typhoon-coming-on`: as already noted in the first round, `PROJECTION WALL` includes a small amount of ceiling/corridor beyond the projected surface. It remains recognizable as the room-scale projection and has not materially regressed, so it is not reopened as a required finding.
+
+All eleven current specs still score 100/100 against their stored analyzer records. Those results confirm numeric alignment only; the required findings above are visible semantic mismatches. I independently viewed every proof, verified the chapter's stated tonal, palette, grid, and structural measurements against the analyzer records, found no invented camera settings, and confirmed HTTP 200 retrieval for all eleven documented public display-image routes. Each image retains a traceable source and concise four-factor fair-use rationale.
