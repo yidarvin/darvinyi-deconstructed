@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-cusp-generated-bird-03.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.5, "angle": 0.0, "label": "horizontal panel seam" },
+    { "type": "subject_anchor", "x": 0.819, "y": 0.413, "r": 0.035, "label": "right-panel bird" },
+    { "type": "polyline", "points": [[0.5, 0.0], [0.5, 0.5], [1.0, 0.5]], "label": "four-panel division" }
+  ],
+  "notes": "The four-panel arrangement alternates intact bird description with generated breakdown."
+}

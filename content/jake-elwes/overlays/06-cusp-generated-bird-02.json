@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-cusp-generated-bird-02.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.332, "angle": 0.0, "label": "projection top edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered projection" },
+    { "type": "subject_anchor", "x": 0.554, "y": 0.54, "r": 0.035, "label": "projected bird" },
+    { "type": "frame_in_frame", "x": 0.410, "y": 0.300, "w": 0.180, "h": 0.365, "label": "image plane" }
+  ],
+  "notes": "The centered screen makes an uncertain bird legible against an even tidal ground."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-zizi-queering-dataset-athens-installation.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.567, "angle": 0.0, "label": "screen-and-ground band" },
+    { "type": "leading_line", "points": [[0.361, 0.186], [0.999, 0.344]], "arrow": true, "label": "canopy branch" },
+    { "type": "polyline", "points": [[0.065, 0.52], [0.205, 0.51], [0.365, 0.53], [0.515, 0.51], [0.665, 0.52], [0.815, 0.52], [0.945, 0.54]], "label": "distributed screens" }
+  ],
+  "notes": "Portrait screens become a lateral rhythm inside a materially dense outdoor site."
+}

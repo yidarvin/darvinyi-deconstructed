@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-the-zizi-show-va-still-02.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.413, "angle": 0.0, "label": "gallery midline" },
+    { "type": "vanishing_point", "x": 0.553, "y": 0.275, "label": "ceiling convergence" },
+    { "type": "leading_line", "points": [[0.07, 0.086], [0.539, 0.319]], "arrow": true, "label": "ceiling edge" },
+    { "type": "subject_anchor", "x": 0.195, "y": 0.556, "r": 0.035, "label": "screen cluster" }
+  ],
+  "notes": "The room alternates a small serial bank of screens with a large projected performance."
+}

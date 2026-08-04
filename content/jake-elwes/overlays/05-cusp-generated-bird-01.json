@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-cusp-generated-bird-01.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.571, "angle": 0.0, "label": "tidal band" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "centered projection" },
+    { "type": "subject_anchor", "x": 0.492, "y": 0.484, "r": 0.035, "label": "projected bird" },
+    { "type": "frame_in_frame", "x": 0.408, "y": 0.331, "w": 0.182, "h": 0.316, "label": "image plane" }
+  ],
+  "notes": "A pale bird image is held at the center of a dark, banded marsh."
+}

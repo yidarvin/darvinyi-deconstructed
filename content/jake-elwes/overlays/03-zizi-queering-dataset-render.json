@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-zizi-queering-dataset-render.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.16, "angle": 0.0, "label": "ceiling break" },
+    { "type": "vanishing_point", "x": 0.478, "y": 0.445, "label": "room convergence" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "gallery center" },
+    { "type": "subject_anchor", "x": 0.398, "y": 0.486, "r": 0.035, "label": "central screen" }
+  ],
+  "notes": "Four screens are held in a stable architectural symmetry that heightens their internal instability."
+}

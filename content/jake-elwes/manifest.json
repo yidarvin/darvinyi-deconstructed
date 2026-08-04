@@ -1,0 +1,134 @@
+[
+  {
+    "file": "01-zizi-queering-dataset-prints.jpg",
+    "width": 1409,
+    "height": 956,
+    "sha1": "1b7c46da",
+    "source": "01-zizi-queering-dataset-prints.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-zizi-queering-dataset-athens-installation.jpg",
+    "width": 1400,
+    "height": 796,
+    "sha1": "3d93abeb",
+    "source": "02-zizi-queering-dataset-athens-installation.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-zizi-queering-dataset-render.jpg",
+    "width": 986,
+    "height": 625,
+    "sha1": "ad60bdb9",
+    "source": "03-zizi-queering-dataset-render.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-zizi-queering-dataset-zabludowicz.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "03729b88",
+    "source": "04-zizi-queering-dataset-zabludowicz.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D Mark III",
+      "DateTimeOriginal": "2022:03:23 20:27:20",
+      "FocalLength": "21.0",
+      "ExposureTime": "0.02",
+      "FNumber": "11.0",
+      "ISOSpeedRatings": "1000",
+      "LensModel": "EF11-24mm f/4L USM"
+    }
+  },
+  {
+    "file": "05-cusp-generated-bird-01.jpg",
+    "width": 1600,
+    "height": 900,
+    "sha1": "94b6597b",
+    "source": "05-cusp-generated-bird-01.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-cusp-generated-bird-02.jpg",
+    "width": 1600,
+    "height": 900,
+    "sha1": "c562d2d3",
+    "source": "06-cusp-generated-bird-02.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-cusp-generated-bird-03.jpg",
+    "width": 1200,
+    "height": 1200,
+    "sha1": "473ce3e5",
+    "source": "07-cusp-generated-bird-03.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-cusp-generated-bird-04.jpg",
+    "width": 1360,
+    "height": 1200,
+    "sha1": "141e8a65",
+    "source": "08-cusp-generated-bird-04.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 7 Plus",
+      "DateTimeOriginal": "2019:01:02 15:06:57",
+      "FocalLength": "6.6",
+      "ExposureTime": "0.02",
+      "FNumber": "2.8",
+      "ISOSpeedRatings": "20",
+      "LensModel": "iPhone 7 Plus back dual camera 6.6mm f/2.8"
+    }
+  },
+  {
+    "file": "09-the-zizi-show-va-still-01.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "7f38e393",
+    "source": "09-the-zizi-show-va-still-01.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS R5 C",
+      "DateTimeOriginal": "2023:05:22 08:22:25",
+      "FocalLength": "16.0",
+      "ExposureTime": "0.0125",
+      "FNumber": "5.6",
+      "ISOSpeedRatings": "3200",
+      "LensModel": "EF16-35mm f/2.8L III USM"
+    }
+  },
+  {
+    "file": "10-the-zizi-show-va-still-02.jpg",
+    "width": 1600,
+    "height": 1113,
+    "sha1": "0dd77ae5",
+    "source": "10-the-zizi-show-va-still-02.jpg",
+    "exif": {
+      "Make": "Canon",
+      "Model": "Canon EOS R5 C",
+      "DateTimeOriginal": "2023:05:22 08:18:41",
+      "FocalLength": "16.0",
+      "ExposureTime": "0.0125",
+      "FNumber": "4.5",
+      "ISOSpeedRatings": "2500",
+      "LensModel": "EF16-35mm f/2.8L III USM"
+    }
+  },
+  {
+    "file": "11-the-zizi-show-va-installation.jpg",
+    "width": 1600,
+    "height": 1200,
+    "sha1": "b109a33f",
+    "source": "11-the-zizi-show-va-installation.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-the-zizi-show-training-montage.jpg",
+    "width": 1600,
+    "height": 540,
+    "sha1": "1004c503",
+    "source": "12-the-zizi-show-training-montage.jpg",
+    "exif": {}
+  }
+]

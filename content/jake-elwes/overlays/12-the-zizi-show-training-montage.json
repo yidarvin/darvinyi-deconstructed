@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-the-zizi-show-training-montage.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.275, "angle": 3.7, "label": "raised-arm sweep" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "montage center" },
+    { "type": "subject_anchor", "x": 0.71, "y": 0.449, "r": 0.035, "label": "central transformation" },
+    { "type": "polyline", "points": [[0.06, 0.46], [0.23, 0.42], [0.42, 0.40], [0.60, 0.48], [0.71, 0.45], [0.90, 0.41]], "label": "performance sequence" }
+  ],
+  "notes": "Repeated bodies turn machine-image training into a paced strip of poses and transformations."
+}

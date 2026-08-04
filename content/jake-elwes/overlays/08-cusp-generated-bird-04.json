@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-cusp-generated-bird-04.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.296, "angle": 0.0, "label": "upper mud shelf" },
+    { "type": "subject_anchor", "x": 0.227, "y": 0.419, "r": 0.035, "label": "light fixture" },
+    { "type": "ellipse", "cx": 0.45, "cy": 0.50, "rx": 0.20, "ry": 0.37, "label": "operator and screen" }
+  ],
+  "notes": "The record of projection folds a person, equipment, and a hard white screen into one marsh scene."
+}

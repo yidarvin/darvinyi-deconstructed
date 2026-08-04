@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-zizi-queering-dataset-zabludowicz.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.336, "angle": 0.0, "label": "upper stair band" },
+    { "type": "subject_anchor", "x": 0.117, "y": 0.415, "r": 0.035, "label": "nearest screen" },
+    { "type": "polyline", "points": [[0.12, 0.42], [0.31, 0.43], [0.43, 0.45], [0.56, 0.47], [0.70, 0.47], [0.83, 0.50], [0.93, 0.51]], "label": "screen procession" }
+  ],
+  "notes": "A chain of screens maps viewing as bodily movement through stepped space."
+}
