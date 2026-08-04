@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-04
 
@@ -39,3 +39,40 @@ proofs, and chapter copy.
    "face-centered" rather than assert an unqualified frontal axis. The
    regenerated proof is visually aligned and scores 90/100; the only deduction
    records the deliberately rejected global-axis suggestion.
+
+## Critique round — 2026-08-04
+
+### Required
+
+1. **01-dream-of-europa — source note describes a different composition.** In
+   `sources.md`, the image's “Why it matters” entry claims “a bright, close
+   foreground face” against “an expansive blue-gray surround.” The current
+   sourced image and proof instead show three adjacent, full-height hybrid
+   figure zones divided by pale verticals over an olive/ochre/blue-green field;
+   the current overlay and chapter correctly teach that tripartite structure.
+   Replace the source entry's stale compositional description so the per-image
+   source record does not materially mislead readers about the work it
+   identifies.
+2. **11-cenotaphs-62 — source note describes a different composition.** Its
+   `sources.md` “Why it matters” entry calls this a vertical monument-like
+   figure in a sparse field. The supplied image and proof are instead a dense,
+   gold, bordered relief with a centered frontal figure and looping cable; that
+   is also the current overlay/chapter reading. Correct the source entry to
+   describe this actual image, while retaining its existing traceable link,
+   credit, and per-image fair-use rationale.
+
+### Advisory (non-blocking)
+
+- None.
+
+### Verification record
+
+- Re-inspected all twelve current proof PNGs, specs, analyzer outputs, and
+  chapter prose. All geometry scores pass: 01–10 score 100; the deliberate,
+  semantically correct figure/face axes in 11 and 12 score 91.5 and 90,
+  respectively. The three required overlay findings resolved in the prior round
+  remain resolved and are not reopened.
+- Every public display-file URL returns HTTP 200. Credits, source routes, and
+  concise four-factor fair-use rationales are present for all twelve entries;
+  the two required fixes concern the misleading per-image descriptive text,
+  not source traceability or rights information. No camera data are asserted.
