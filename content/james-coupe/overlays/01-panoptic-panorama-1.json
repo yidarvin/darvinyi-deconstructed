@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "image": "01-panoptic-panorama-1.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.381, 0.520], [0.502, 0.525], [0.626, 0.530]], "label": "GAZE TOWARD SCREENS" },
+    { "type": "frame_in_frame", "x": 0.336, "y": 0.395, "w": 0.573, "h": 0.255, "label": "MONITOR ARRAY" }
+  ],
+  "notes": "A visitor's gaze and the monitor array make the gallery wall read as a surveillance field."
+}

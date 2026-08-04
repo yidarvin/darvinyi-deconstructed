@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-warriors-generative-adversarial-network.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.49, "cy": 0.37, "rx": 0.25, "ry": 0.28, "label": "FACE EMERGING FROM SHADOW" },
+    { "type": "leading_line", "points": [[0.68, 1.0], [0.53, 0.90], [0.40, 0.76]], "arrow": true, "label": "JACKET ZIPPER" },
+    { "type": "polyline", "points": [[0.11, 0.09], [0.36, 0.03], [0.72, 0.08]], "label": "HAIR MASS" }
+  ],
+  "notes": "A face nearly fills the vertical frame while dark hair and the jacket zipper enforce an intimate, unstable portrait."
+}

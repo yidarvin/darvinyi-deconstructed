@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-panoptic-panorama-2.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.85, "angle": 0, "label": "SUBTITLE BAND" },
+    { "type": "frame_in_frame", "x": 0.0, "y": 0.0, "w": 1.0, "h": 0.85, "label": "FIVE-SCREEN PANORAMA" },
+    { "type": "polyline", "points": [[0.10, 0.22], [0.29, 0.29], [0.49, 0.30], [0.69, 0.21], [0.88, 0.26]], "label": "DISTRIBUTED FACES" }
+  ],
+  "notes": "The extreme horizontal strip turns separate faces and subtitles into one paced sequence."
+}

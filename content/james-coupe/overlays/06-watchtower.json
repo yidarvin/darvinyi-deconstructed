@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-watchtower.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.12, "y": 0.09, "w": 0.83, "h": 0.77, "label": "DRAWN DREAM PANEL" },
+    { "type": "frame_in_frame", "x": 0.63, "y": 0.23, "w": 0.28, "h": 0.58, "label": "SHOP FACADE" },
+    { "type": "leading_line", "points": [[0.63, 0.42], [0.70, 0.20], [0.92, 0.30]], "arrow": false, "label": "SHOP ROOF" }
+  ],
+  "notes": "A rough diagram makes the surveillance frame and its two figures conspicuously constructed."
+}

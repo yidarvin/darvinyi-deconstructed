@@ -1,0 +1,116 @@
+[
+  {
+    "file": "01-panoptic-panorama-1.jpg",
+    "width": 640,
+    "height": 478,
+    "sha1": "51e3a911",
+    "source": "01-panoptic-panorama-1.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 4",
+      "DateTimeOriginal": "2012:01:26 11:21:51",
+      "FocalLength": "3.85",
+      "ExposureTime": "0.06666666666666667",
+      "FNumber": "2.8",
+      "ISOSpeedRatings": "320"
+    }
+  },
+  {
+    "file": "02-panoptic-panorama-2.jpg",
+    "width": 1600,
+    "height": 208,
+    "sha1": "60adc413",
+    "source": "02-panoptic-panorama-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-sanctum.jpg",
+    "width": 1000,
+    "height": 800,
+    "sha1": "6c096f75",
+    "source": "03-sanctum.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-swarm.jpg",
+    "width": 1024,
+    "height": 576,
+    "sha1": "887c455b",
+    "source": "04-swarm.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-general-intellect.jpg",
+    "width": 1024,
+    "height": 575,
+    "sha1": "74b7f9f4",
+    "source": "05-general-intellect.png",
+    "exif": {}
+  },
+  {
+    "file": "06-watchtower.jpg",
+    "width": 1024,
+    "height": 564,
+    "sha1": "fd234dc8",
+    "source": "06-watchtower.png",
+    "exif": {}
+  },
+  {
+    "file": "07-i-am-not-a-robot.jpg",
+    "width": 1600,
+    "height": 1200,
+    "sha1": "9435ef86",
+    "source": "07-i-am-not-a-robot.jpg",
+    "exif": {
+      "Make": "Hasselblad",
+      "Model": "Hasselblad H6D",
+      "DateTimeOriginal": "2019:05:20 20:50:46",
+      "FocalLength": "100.0",
+      "ExposureTime": "0.06666666666666667",
+      "FNumber": "5.6",
+      "ISOSpeedRatings": "200",
+      "LensModel": "HC 100"
+    }
+  },
+  {
+    "file": "08-warriors-generative-adversarial-network.jpg",
+    "width": 578,
+    "height": 1028,
+    "sha1": "556246db",
+    "source": "08-warriors-generative-adversarial-network.png",
+    "exif": {}
+  },
+  {
+    "file": "09-warriors-war.jpg",
+    "width": 1024,
+    "height": 576,
+    "sha1": "ce566b05",
+    "source": "09-warriors-war.png",
+    "exif": {}
+  },
+  {
+    "file": "10-warriors-sixty-thousand-soldiers.jpg",
+    "width": 1024,
+    "height": 357,
+    "sha1": "7ca49780",
+    "source": "10-warriors-sixty-thousand-soldiers.png",
+    "exif": {}
+  },
+  {
+    "file": "11-the-chinese-rooms.jpg",
+    "width": 1024,
+    "height": 790,
+    "sha1": "af05c2e2",
+    "source": "11-the-chinese-rooms.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone X",
+      "DateTimeOriginal": "2020:10:24 11:33:52",
+      "FocalLength": "4.0",
+      "ExposureTime": "0.03333333333333333",
+      "FNumber": "1.8",
+      "ISOSpeedRatings": "32",
+      "LensModel": "iPhone X back dual camera 4mm f/1.8"
+    }
+  }
+]

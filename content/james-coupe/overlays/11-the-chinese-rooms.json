@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "11-the-chinese-rooms.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.000, "y": 0.286, "w": 0.326, "h": 0.586, "label": "NEAREST PAINTING" },
+    { "type": "leading_line", "points": [[0.328, 0.905], [0.630, 0.720], [0.875, 0.560], [1.000, 0.475]], "arrow": true, "label": "FLOOR-WALL EDGE" },
+    { "type": "polyline", "points": [[0.612, 0.500], [0.744, 0.455], [0.840, 0.425], [0.914, 0.401], [0.968, 0.382]], "label": "RECEDING PAINTINGS" }
+  ],
+  "notes": "The nearest painting starts a receding sequence that makes labor and image-making visible as a gallery route."
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-general-intellect.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.383, "angle": 0, "label": "YARD-TO-DRIVEWAY DIVIDE" },
+    { "type": "leading_line", "points": [[0.01, 0.80], [0.24, 0.62], [0.57, 0.36]], "arrow": true, "label": "DRIVEWAY EDGE" },
+    { "type": "leading_line", "points": [[0.02, 0.27], [0.28, 0.31], [0.57, 0.36]], "arrow": true, "label": "RECEDING CHAIN-LINK FENCE" },
+    { "type": "polyline", "points": [[0.70, 0.02], [0.78, 0.10], [0.88, 0.22], [0.99, 0.37]], "label": "STAIR RAIL" }
+  ],
+  "notes": "A plain camera view becomes structured by fence, pavement, and a staircase that refuses a stable portrait center."
+}
