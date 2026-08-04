@@ -4,8 +4,7 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.772, "angle": 0, "label": "floor threshold" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.575, "label": "workstation axis" },
     { "type": "subject_anchor", "x": 0.652, "y": 0.413, "r": 0.04, "label": "monitor cluster" }
   ],
-  "notes": "A vertical workstation aligns its monitor cluster above the bicycle apparatus."
+  "notes": "The monitor cluster holds above the bicycle apparatus in a tall portrait view."
 }

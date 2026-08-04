@@ -8,5 +8,5 @@
     { "type": "vanishing_point", "x": 0.491, "y": 0.797, "label": "base convergence" },
     { "type": "leading_line", "points": [[0.244, 0.907], [0.5, 0.8]], "arrow": true, "label": "splayed support" }
   ],
-  "notes": "The isolated monitor and support legs make utility equipment read as a centred figure."
+  "notes": "The isolated horizontal bar and support legs make a spare sculpture read as a centred figure."
 }

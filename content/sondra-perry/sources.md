@@ -37,9 +37,9 @@ This source set follows Perry’s transformation of screen-based images into phy
 - **File:** `raw/sondra-perry/05-its-in-the-game.jpg` (840 × 560px)
 
 ### 06 — *Title TK 2* (2018)
-- **Why it matters:** A single basketball-training sculpture is isolated as a provisional body, using empty surround and a monitor’s rectangle to make utility equipment look staged.
+- **Why it matters:** A single basketball-training sculpture is isolated as a provisional body, using empty surround and a horizontal bar to make utility equipment look staged.
 - **Source:** https://archive.bridgetdonahue.nyc/artists/perry-sondra/works/ (Bridget Donahue archive; public display file: https://bridgetdonahue-media-w2.s3-us-west-2.amazonaws.com/thumbcache/85/cf/85cffbc419f88de0e5aa85dbf476b920.jpg)
-- **Rights / fair-use assessment:** Artwork © Sondra Perry; archive presentation image, photographer not identified in the page metadata. **Factor 1:** transformative criticism examines isolation, negative space, and the monitor as focal rectangle. **Factor 2:** a creative contemporary sculpture/video work. **Factor 3:** the intact display view is necessary to compare apparatus and surrounding void. **Factor 4:** the credited, record-linked 840 × 560px public copy does not replace the sculpture or licensed reproduction.
+- **Rights / fair-use assessment:** Artwork © Sondra Perry; archive presentation image, photographer not identified in the page metadata. **Factor 1:** transformative criticism examines isolation, negative space, and the sculpture’s horizontal bar. **Factor 2:** a creative contemporary sculpture/video work. **Factor 3:** the intact display view is necessary to compare apparatus and surrounding void. **Factor 4:** the credited, record-linked 840 × 560px public copy does not replace the sculpture or licensed reproduction.
 - **File:** `raw/sondra-perry/06-title-tk-2.jpg` (840 × 560px)
 
 ### 07 — *Eclogue for [in]HABITABILITY* (2017–2019)

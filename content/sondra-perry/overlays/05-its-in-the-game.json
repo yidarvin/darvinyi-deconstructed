@@ -4,7 +4,6 @@
   "grid": { "type": "thirds" },
   "primitives": [
     { "type": "horizon_line", "y": 0.322, "angle": 1.1, "label": "blue-room divide" },
-    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "room balance" },
     { "type": "frame_in_frame", "x": 0.548, "y": 0.115, "w": 0.145, "h": 0.145, "label": "projected screen" }
   ],
   "notes": "Chroma-key blue absorbs wall and display while apparatus interrupts the open floor."

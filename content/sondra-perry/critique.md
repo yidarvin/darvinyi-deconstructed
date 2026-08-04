@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -87,3 +87,18 @@ All eleven current overlay specs score 100/100. Fresh visual checks are clean fo
 - `04-typhoon-coming-on`: as already noted in the first round, `PROJECTION WALL` includes a small amount of ceiling/corridor beyond the projected surface. It remains recognizable as the room-scale projection and has not materially regressed, so it is not reopened as a required finding.
 
 All eleven current specs still score 100/100 against their stored analyzer records. Those results confirm numeric alignment only; the required findings above are visible semantic mismatches. I independently viewed every proof, verified the chapter's stated tonal, palette, grid, and structural measurements against the analyzer records, found no invented camera settings, and confirmed HTTP 200 retrieval for all eleven documented public display-image routes. Each image retains a traceable source and concise four-factor fair-use rationale.
+
+## Resolution — 2026-08-04
+
+Re-verified critique history: **2026-08-04, rounds 1, 2, and 3**.
+
+1. `05-its-in-the-game`: removed the false `ROOM BALANCE` symmetry claim; the measured blue-room divide and accurately bounded projected screen remain.
+2. `06-title-tk-2`: corrected every affected description from “monitor” to the visible horizontal bar/sculpture in the overlay note, plate caption, chapter, source note, fair-use rationale, and proof contact sheet.
+3. `07-eclogue-inhabitability`: removed the false foreground convergence and floor line; the proof now identifies the central aisle, rear opening, and actual viewing apparatus.
+4. `08-ffff-four`: removed the unsupported `FLOOR THRESHOLD` (and the unnecessary symmetry claim), retaining the bicycle anchor and accurately traced blue support curve.
+5. `09-acrylic-gel-full-set`: removed the false `LOWER FRAME DIVIDE` (and unnecessary symmetry claim), while preserving the truthful four-edge skewed-print contour from round 2.
+6. `10-wet-and-wavy-looks`: removed the false room-convergence and blue-room-symmetry primitives, together with the dependent prose; the remaining wall-floor join and rowing-machine anchor are visually supported.
+7. `11-graft-and-ash`: removed the unsupported workstation-symmetry claim; the monitor-cluster anchor and floor threshold remain truthful.
+8. Rechecked every prior required fix: the paired display wall (`01`), luminous lenticular band (`03`), projected screen (`05`), splayed support cleanup (`06`), corrected backhoe reading (`07`), blue support curve (`08`), skewed print edge (`09`), and bicycle/monitor reading (`11`) remain intact in the current proofs and chapter.
+
+All eleven current overlay specs score 100/100, including fresh composition analysis and renders for every affected image. Fresh visual checks are clean, the content and rendered chapter are byte-identical, and `scripts/check.sh` plus `python3 scripts/validate_pipeline.py` pass.
