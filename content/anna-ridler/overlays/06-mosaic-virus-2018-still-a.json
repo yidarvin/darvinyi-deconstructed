@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-mosaic-virus-2018-still-a.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "field axis" },
+    { "type": "horizon_line", "y": 0.796, "angle": 0.0, "label": "lower image band" },
+    { "type": "frame_in_frame", "x": 0.148, "y": 0.069, "w": 0.702, "h": 0.843, "label": "screen field" }
+  ],
+  "notes": "A near-regular floral field is held in a tall dark screen."
+}

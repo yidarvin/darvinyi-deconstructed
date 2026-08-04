@@ -1,0 +1,113 @@
+[
+  {
+    "file": "01-mosaic-virus-2019-screen.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "5a1b9937",
+    "source": "01-mosaic-virus-2019-screen.jpg",
+    "exif": {
+      "DateTimeOriginal": "2023:02:15 00:00:00"
+    }
+  },
+  {
+    "file": "02-mosaic-virus-2019-screen-pair.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "e4cb0ceb",
+    "source": "02-mosaic-virus-2019-screen-pair.jpg",
+    "exif": {
+      "DateTimeOriginal": "2023:02:17 00:00:00"
+    }
+  },
+  {
+    "file": "03-mosaic-virus-2019-installation.jpg",
+    "width": 1600,
+    "height": 1127,
+    "sha1": "9055b413",
+    "source": "03-mosaic-virus-2019-installation.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-mosaic-virus-2019-projection.jpg",
+    "width": 1600,
+    "height": 1242,
+    "sha1": "a80d851e",
+    "source": "04-mosaic-virus-2019-projection.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-mosaic-virus-2018-installation.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha1": "005c09ef",
+    "source": "05-mosaic-virus-2018-installation.jpg",
+    "exif": {
+      "Make": "Apple",
+      "Model": "iPhone 6",
+      "DateTimeOriginal": "2018:10:28 12:36:16",
+      "FocalLength": "4.15",
+      "ExposureTime": "0.030303030303030304",
+      "FNumber": "2.2",
+      "ISOSpeedRatings": "64",
+      "LensModel": "iPhone 6 back camera 4.15mm f/2.2"
+    }
+  },
+  {
+    "file": "06-mosaic-virus-2018-still-a.jpg",
+    "width": 768,
+    "height": 1024,
+    "sha1": "d0d09af6",
+    "source": "06-mosaic-virus-2018-still-a.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-mosaic-virus-2018-still-b.jpg",
+    "width": 768,
+    "height": 1024,
+    "sha1": "75f0a4f5",
+    "source": "07-mosaic-virus-2018-still-b.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-myriad-tulips-grid.jpg",
+    "width": 1600,
+    "height": 1066,
+    "sha1": "b69656d2",
+    "source": "08-myriad-tulips-grid.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-myriad-tulips-detail.jpg",
+    "width": 1500,
+    "height": 1000,
+    "sha1": "f521329c",
+    "source": "09-myriad-tulips-detail.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-myriad-tulips-process-grid.jpg",
+    "width": 1200,
+    "height": 1600,
+    "sha1": "7294640b",
+    "source": "10-myriad-tulips-process-grid.jpg",
+    "exif": {
+      "DateTimeOriginal": "2018:04:06 11:40:36"
+    }
+  },
+  {
+    "file": "11-broken-flowers-still-life.jpg",
+    "width": 1600,
+    "height": 1539,
+    "sha1": "c1943ec0",
+    "source": "11-broken-flowers-still-life.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-snapshots-orchids.jpg",
+    "width": 1067,
+    "height": 1600,
+    "sha1": "470737af",
+    "source": "12-snapshots-orchids.jpg",
+    "exif": {}
+  }
+]

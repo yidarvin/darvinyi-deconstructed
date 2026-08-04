@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-myriad-tulips-process-grid.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.719, "angle": 0.0, "label": "work surface edge" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.525, "label": "worktable axis" },
+    { "type": "frame_in_frame", "x": 0.394, "y": 0.286, "w": 0.269, "h": 0.212, "label": "black backdrop" },
+    { "type": "ellipse", "cx": 0.523, "cy": 0.425, "rx": 0.040, "ry": 0.090, "label": "single specimen" }
+  ],
+  "notes": "The studio view lets the physical labor around the dataset remain part of its visual logic."
+}

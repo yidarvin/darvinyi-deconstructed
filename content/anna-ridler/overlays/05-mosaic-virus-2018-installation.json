@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-mosaic-virus-2018-installation.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "screen center" },
+    { "type": "subject_anchor", "x": 0.352, "y": 0.726, "r": 0.035, "label": "lower tulip tile" },
+    { "type": "horizon_line", "y": 0.475, "angle": 0.0, "label": "screen divide" },
+    { "type": "frame_in_frame", "x": 0.215, "y": 0.156, "w": 0.574, "h": 0.688, "label": "display" }
+  ],
+  "notes": "A single display contains a dense field of unstable floral variations."
+}

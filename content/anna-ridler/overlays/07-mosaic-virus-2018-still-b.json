@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-mosaic-virus-2018-still-b.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.124, "angle": 0.0, "label": "field boundary" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "field axis" },
+    { "type": "subject_anchor", "x": 0.594, "y": 0.304, "r": 0.035, "label": "disrupted bloom" },
+    { "type": "frame_in_frame", "x": 0.145, "y": 0.059, "w": 0.712, "h": 0.855, "label": "screen field" }
+  ],
+  "notes": "The stable display field makes the generative irregularities compare themselves."
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-myriad-tulips-detail.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "print column" },
+    { "type": "frame_in_frame", "x": 0.037, "y": 0.057, "w": 0.927, "h": 0.866, "label": "labeled prints" },
+    { "type": "polyline", "points": [[0.040, 0.265], [0.510, 0.281], [0.963, 0.300]], "label": "annotation row" }
+  ],
+  "notes": "Repeated print margins and handwritten labels keep classification visibly attached to the flowers."
+}

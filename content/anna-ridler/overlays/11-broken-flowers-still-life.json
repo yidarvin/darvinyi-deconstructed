@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "11-broken-flowers-still-life.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.798, "angle": 0.0, "label": "signal-band seam" },
+    { "type": "subject_anchor", "x": 0.241, "y": 0.778, "r": 0.035, "label": "flower fragment" },
+    { "type": "frame_in_frame", "x": 0.069, "y": 0.445, "w": 0.822, "h": 0.411, "label": "central still-life field" },
+    { "type": "polyline", "points": [[0.074, 0.606], [0.469, 0.498], [0.863, 0.623]], "label": "broken bouquet path" }
+  ],
+  "notes": "Collaged flowers and abrupt signal bands break the continuity of a traditional still life."
+}

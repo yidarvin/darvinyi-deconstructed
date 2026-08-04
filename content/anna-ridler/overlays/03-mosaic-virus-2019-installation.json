@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "03-mosaic-virus-2019-installation.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.91, "angle": 0.0, "label": "floor threshold" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "central screen" },
+    { "type": "subject_anchor", "x": 0.569, "y": 0.433, "r": 0.035, "label": "central bloom" },
+    { "type": "polyline", "points": [[0.267, 0.461], [0.510, 0.429], [0.735, 0.449]], "label": "three-screen cadence" }
+  ],
+  "notes": "A dark room isolates a three-part rhythm of floral screens."
+}

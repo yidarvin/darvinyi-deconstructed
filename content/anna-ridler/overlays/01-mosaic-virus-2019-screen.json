@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-mosaic-virus-2019-screen.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.304, "y": 0.393, "r": 0.035, "label": "left tulip screen" },
+    { "type": "frame_in_frame", "x": 0.132, "y": 0.101, "w": 0.219, "h": 0.647, "label": "screen" },
+    { "type": "polyline", "points": [[0.148, 0.109], [0.468, 0.131], [0.775, 0.153]], "label": "screen rhythm" }
+  ],
+  "notes": "Three vertical screens turn separate generated flowers into a paced lateral encounter."
+}
