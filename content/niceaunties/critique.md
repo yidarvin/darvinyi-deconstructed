@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -74,3 +74,22 @@ documented. One new semantic mismatch remains.
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-08-04
+
+Re-verified the complete critique history: both prior **Critique round —
+2026-08-04** entries. The first round's required fixes remain intact in the
+current proofs and chapter: 07-spamenu-0195 encloses the visible cat, rather
+than the lower-left dishes; 08-spamenu-0197 retains no fictitious
+wall-to-table break and describes its surrounding white field; and
+12-fashion-0568 labels the smaller receding woman `rear model` and the large
+foreground woman `front model`. Their current scores are 97, 100, and 100,
+respectively; the 97 score retains only the previously accepted non-blocking
+three-ellipse warning.
+
+For the current round, 06-auntiecity-0033 now calls the y0.490 line the visible
+`middle apartment band`, rather than a street tier. The matching chapter prose
+states that the actual street is below this architectural band. Its refreshed
+proof received a clean visual pass and scores 100 with no deductions or
+warnings. All twelve current overlay specs score at least 97, and the content
+and rendered-site chapter copies are byte-identical. `scripts/check.sh` passed.

@@ -3,7 +3,7 @@
   "image": "06-auntiecity-0033.jpg",
   "grid": { "type": "phi" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.490, "angle": 0, "label": "street tier" },
+    { "type": "horizon_line", "y": 0.490, "angle": 0, "label": "middle apartment band" },
     { "type": "polyline", "points": [[0.06,0.22],[0.95,0.22]], "label": "apartment tier" },
     { "type": "polyline", "points": [[0.04,0.47],[0.96,0.47]], "label": "apartment tier" },
     { "type": "ellipse", "cx": 0.54, "cy": 0.77, "rx": 0.19, "ry": 0.18, "label": "giant legs" }
