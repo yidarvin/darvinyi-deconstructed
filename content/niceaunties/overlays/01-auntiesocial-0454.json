@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-auntiesocial-0454.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.658, "angle": 0, "label": "field break" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.39, "rx": 0.25, "ry": 0.30, "label": "vegetable crown" },
+    { "type": "polyline", "points": [[0.22,0.75],[0.48,0.42],[0.78,0.72]], "label": "three-woman pyramid" }
+  ],
+  "notes": "A vegetable crown turns three differently posed women into one stable, absurd pyramid."
+}

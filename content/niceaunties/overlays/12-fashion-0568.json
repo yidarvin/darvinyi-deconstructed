@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "12-fashion-0568.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.438, "y": 0.338, "label": "runway convergence" },
+    { "type": "leading_line", "points": [[0.06,0.79],[0.438,0.338]], "arrow": true, "label": "left runway edge" },
+    { "type": "leading_line", "points": [[0.91,0.74],[0.438,0.338]], "arrow": true, "label": "right runway edge" },
+    { "type": "ellipse", "cx": 0.38, "cy": 0.30, "rx": 0.13, "ry": 0.18, "label": "front model" },
+    { "type": "ellipse", "cx": 0.46, "cy": 0.49, "rx": 0.08, "ry": 0.12, "label": "rear model" }
+  ],
+  "notes": "A receding runway stacks two figures amid a rhythmic lattice of oversized legs."
+}

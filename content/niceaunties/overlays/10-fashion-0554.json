@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-fashion-0554.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.488, "label": "runway axis" },
+    { "type": "horizon_line", "y": 0.785, "angle": 0, "label": "floor seam" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.51, "rx": 0.20, "ry": 0.34, "label": "fashion silhouette" }
+  ],
+  "notes": "A central silhouette is held in abundant neutral space by a runway-like axis."
+}

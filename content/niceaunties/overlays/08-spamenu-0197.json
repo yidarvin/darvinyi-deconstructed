@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "08-spamenu-0197.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.50, "label": "face axis" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.40, "rx": 0.29, "ry": 0.31, "label": "wig halo" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.335, "rx": 0.13, "ry": 0.11, "label": "food face" },
+    { "type": "horizon_line", "y": 0.536, "angle": 0, "label": "wall-to-table break" }
+  ],
+  "notes": "A circular wig halo and central face make food decoration read as a frontal mask."
+}

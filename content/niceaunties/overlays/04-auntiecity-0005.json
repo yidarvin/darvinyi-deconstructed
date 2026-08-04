@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-auntiecity-0005.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.495, "angle": 0, "label": "overpass divide" },
+    { "type": "vanishing_point", "x": 0.605, "y": 0.361, "label": "urban convergence" },
+    { "type": "frame_in_frame", "x": 0.10, "y": 0.00, "w": 0.79, "h": 0.60, "label": "tower corridor" },
+    { "type": "ellipse", "cx": 0.54, "cy": 0.60, "rx": 0.17, "ry": 0.30, "label": "walking auntie" }
+  ],
+  "notes": "A giant pedestrian locks a city cross-section into a compressed civic corridor."
+}

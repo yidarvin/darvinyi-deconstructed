@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "03-auntiesocial-0467.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "polyline", "points": [[0.02,0.64],[0.35,0.56],[0.70,0.60],[0.98,0.51]], "label": "flower band" },
+    { "type": "ellipse", "cx": 0.40, "cy": 0.34, "rx": 0.12, "ry": 0.10, "label": "face cluster" },
+    { "type": "ellipse", "cx": 0.71, "cy": 0.43, "rx": 0.13, "ry": 0.11, "label": "face cluster" }
+  ],
+  "notes": "Staggered bodies and flower bands make a crowded social field rather than a single perspective space."
+}

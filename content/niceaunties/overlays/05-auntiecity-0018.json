@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "05-auntiecity-0018.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.03, "y": 0.05, "w": 0.94, "h": 0.88, "label": "apartment grid" },
+    { "type": "polyline", "points": [[0.02,0.29],[0.98,0.29]], "label": "room tier" },
+    { "type": "polyline", "points": [[0.02,0.57],[0.98,0.57]], "label": "room tier" },
+    { "type": "ellipse", "cx": 0.30, "cy": 0.82, "rx": 0.13, "ry": 0.11, "label": "glasses face" }
+  ],
+  "notes": "A modular apartment field lets one lower face interrupt a dense repetition of rooms."
+}
