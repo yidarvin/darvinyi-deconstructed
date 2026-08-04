@@ -4,8 +4,7 @@
   "grid": { "type": "none" },
   "primitives": [
     { "type": "horizon_line", "y": 0.189, "angle": 0, "label": "CONCRETE CANOPY EDGE" },
-    { "type": "frame_in_frame", "x": 0.202, "y": 0.255, "w": 0.744, "h": 0.323, "label": "WINDOWED PROJECTION BAY" },
-    { "type": "leading_line", "points": [[0.000, 0.850], [0.270, 0.780], [0.520, 0.650]], "arrow": true, "label": "FORECOURT RAILING EDGE" }
+    { "type": "frame_in_frame", "x": 0.202, "y": 0.255, "w": 0.744, "h": 0.323, "label": "WINDOWED PROJECTION BAY" }
   ],
   "notes": "Foreground architecture leads to a glowing public monitor grid within the façade."
 }

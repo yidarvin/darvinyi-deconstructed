@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -11,3 +11,7 @@ verdict: revise
 ### Advisory (non-blocking)
 
 None.
+
+## Resolution — 2026-08-03
+
+Re-verified the complete critique history: the 2026-08-03 round above is the sole round. For `03-sanctum`, removed the falsely labelled `FORECOURT RAILING EDGE` rather than making a claim the visible line did not support; the retained canopy line and windowed-projection frame score 100/100 and the regenerated proof received a clean visual pass. The recorded fair-use file dimensions for 09, 10, and 11 now match the retained 1024 × 576px, 1024 × 357px, and 1024 × 790px files. The related 10 proof's corrected two-face axis also scores 100/100, and all eleven current overlays pass the ≥80 gate. The chapter copies remain byte-identical; `scripts/check.sh` and pipeline validation passed before this resolution.

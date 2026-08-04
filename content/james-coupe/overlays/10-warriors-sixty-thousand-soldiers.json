@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "ellipse", "cx": 0.287, "cy": 0.355, "rx": 0.185, "ry": 0.340, "label": "LEFT PORTRAIT" },
     { "type": "ellipse", "cx": 0.713, "cy": 0.545, "rx": 0.190, "ry": 0.420, "label": "RIGHT PORTRAIT" },
-    { "type": "polyline", "points": [[0.287, 0.355], [0.495, 0.455], [0.713, 0.492]], "label": "TWO-FACE AXIS" }
+    { "type": "polyline", "points": [[0.287, 0.200], [0.495, 0.350], [0.713, 0.492]], "label": "TWO-FACE AXIS" }
   ],
   "notes": "A compressed crowd frame gives two altered faces unequal weight across a very wide dark field."
 }
