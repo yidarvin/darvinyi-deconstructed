@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -39,3 +39,28 @@ declines to invent camera or capture data.
    fair-use, and no-invented-settings findings remain intact; all eleven
    current overlay specs score at least 80, with the existing advisory
    steps-line score at 99/100.
+
+## Critique round — 2026-08-03
+
+Re-reviewed all eleven current rendered proofs against their overlay specs and
+analysis records. The resolved `05-silent-hero-05` `RAISED SWORD` polyline now
+tracks the visible blade from the hand toward its upper-left tip; it scores
+100/100 and has not regressed. Every other overlay also remains materially
+truthful and pedagogically focused (three primitives per image). The chapter's
+reported tonal, palette, edge-density, and positional readings agree with the
+corresponding analyzer records within tolerance; it does not invent camera or
+capture information. `sources.md` supplies project-page provenance, a creator
+and copyright notice, and an image-specific four-factor fair-use rationale for
+all eleven images; each recorded direct public rendition currently resolves to
+JPEG.
+
+### Required fixes
+
+None.
+
+### Advisory (non-blocking)
+
+- **02-silent-hero-02 — `ASCENDING STEPS`:** the line remains 0.022 diagonal
+  from the detected edge (99/100), as noted in the prior round. It still
+  clearly follows the visible ascending steps and is within the stated
+  non-blocking margin.
