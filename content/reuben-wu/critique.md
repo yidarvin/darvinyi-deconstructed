@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -27,3 +27,13 @@ Re-verified prior critique round `2026-08-03` in full.  The required fixes now h
 3. `08-aeroglyphs-10`: the false straight `MOUNTAIN RHYTHM` horizon is replaced by a ridge-following polyline along the serrated mountain silhouette.
 
 Both regenerated proofs received a clean visual pass.  No chapter prose change was needed: its descriptions of the light frames and mountain rhythm remain accurate.  `scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+None.  All twelve current proofs received a fresh visual pass against their overlay specs and analyzer records.  The three required findings from the preceding critique round remain resolved: `06-lux-noctis-dsc8162` anchors `FIGURE ON BOULDER` on the visible figure/light at `(0.614, 0.470)`; `08-aeroglyphs-10` traces both illuminated frame bases and follows the mountain silhouette with `MOUNTAIN RHYTHM`.  The deterministic scores are 92–100/100, and the visual pass confirms the semantic claims the scorer cannot decide.  Chapter luminance, percentile, palette, and edge-density statements agree with the matching analysis JSON within the stated tolerance; it does not invent individual camera settings.  Every image has an accessible official-portfolio source, accurate artist credit, and a per-image four-factor fair-use rationale.
+
+### Advisory (non-blocking)
+
+None.
