@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-04
 
@@ -32,3 +32,20 @@ Resolved all required source-record corrections:
 4. `10-belgian-helmet` now identifies the snowy outdoor street setting in both its frame description and teaching need.
 
 Full critique history re-verified: round dated 2026-08-04 (the only prior round). Its four required fixes hold in the current `sources.md`; the unchanged chapter and overlay evidence remain consistent with the corrected descriptions. The advisory leading-line warnings were rechecked and require no change.
+
+## Critique round — 2026-08-04
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- The previously noted scorer cautions remain non-blocking: 01's left street edge is a small geometric near-miss (score 96.3), and 02, 04, and 05 retain detector warnings on visually intelligible documentary recession lines. Each label still traces the named visible feature; there is no material regression from the resolved round.
+
+### Review evidence
+
+- Reviewed all 12 current proof PNGs against their specs and analyses. Every diagram uses three or four teaching primitives whose labels match visible features; all current scores are 94–100.
+- Rechecked the four resolved source-record fixes. 03 uses a neutral sitter description; 06 describes the displayed surf, figures, birds, haze, and skyline without claiming a visible skyscraper-breaking wave; 08 identifies the seated man among white poodles; and 10 identifies the snowy outdoor setting.
+- The chapter's tonal, palette, and edge-density statements match the analysis JSON (including stated rounding). It makes no camera-setting claim.
+- All twelve documented LensCulture image routes returned publicly accessible JPEGs in this review. The public project record identifies *Another America*, Phillip Toledano, and 16 public images; the source notes provide a per-image fair-use rationale and credit.

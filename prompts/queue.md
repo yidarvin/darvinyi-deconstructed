@@ -249,7 +249,7 @@ real queue and state live in data/registry.json.
 | 238 | danielle-ezzo             | Danielle Ezzo                | DONE    |
 | 239 | stephanie-dinkins         | Stephanie Dinkins            | DONE    |
 | 240 | sondra-perry              | Sondra Perry                 | DONE    |
-| 241 | phillip-toledano          | Phillip Toledano             | PENDING |
+| 241 | phillip-toledano          | Phillip Toledano             | DONE    |
 | 242 | bas-uterwijk              | Bas Uterwijk                 | PENDING |
 | 243 | roope-rainisto            | Roope Rainisto               | PENDING |
 | 244 | niceaunties               | Niceaunties                  | PENDING |
