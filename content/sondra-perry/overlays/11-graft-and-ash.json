@@ -5,8 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.772, "angle": 0, "label": "floor threshold" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.575, "label": "workstation axis" },
-    { "type": "subject_anchor", "x": 0.652, "y": 0.413, "r": 0.04, "label": "monitor cluster" },
-    { "type": "ellipse", "cx": 0.61, "cy": 0.57, "rx": 0.20, "ry": 0.33, "label": "bicycle apparatus" }
+    { "type": "subject_anchor", "x": 0.652, "y": 0.413, "r": 0.04, "label": "monitor cluster" }
   ],
-  "notes": "A vertical workstation binds bicycle, body-scale apparatus, and three screens into one loop."
+  "notes": "A vertical workstation aligns its monitor cluster above the bicycle apparatus."
 }

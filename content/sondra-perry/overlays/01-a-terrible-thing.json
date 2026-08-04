@@ -3,7 +3,7 @@
   "image": "01-a-terrible-thing.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "frame_in_frame", "x": 0.19, "y": 0.18, "w": 0.62, "h": 0.58, "label": "projected field" },
+    { "type": "frame_in_frame", "x": 0.45, "y": 0.21, "w": 0.42, "h": 0.43, "label": "paired display wall" },
     { "type": "leading_line", "points": [[0.182, 0.002], [0.814, 0.595]], "arrow": true, "label": "ceiling rake" },
     { "type": "leading_line", "points": [[0.175, 0.786], [0.812, 0.398]], "arrow": true, "label": "floor edge" },
     { "type": "vanishing_point", "x": 0.682, "y": 0.462, "label": "room convergence" }

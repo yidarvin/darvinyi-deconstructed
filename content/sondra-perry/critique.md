@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -24,3 +24,17 @@ verdict: revise
 - `04-typhoon-coming-on`: the broad `PROJECTION WALL` frame includes some ceiling and corridor beyond the projected surface. It still unmistakably identifies the room-scale projection, so this is not a blocking discrepancy.
 
 All eleven proofs were visually reviewed against their current overlay specs and analyzer records. Each current spec scores 100/100 deterministically, but the required findings above are semantic feature/label mismatches that geometric scoring does not detect. The chapter's stated tonal, palette, grid, and edge-density measurements agree with the analyzer outputs within tolerance; it invents no camera settings. The eleven direct public display-image routes returned HTTP 200 during this review, and every source entry provides a per-image four-factor fair-use rationale.
+
+## Resolution — 2026-08-04
+
+Re-verified critique history: **2026-08-04, round 1** (the only prior round).
+
+1. `01-a-terrible-thing`: the frame now lands on the paired illuminated display wall; the caption and prose name that precise feature.
+2. `03-ocean-modifier`: the lenticular-band frame now spans the visible strip from the measured divide through its lower edge.
+3. `05-its-in-the-game`: the projected-screen frame now traces the small rectangle’s actual bounds.
+4. `07-eclogue-inhabitability`: removed the unsupported machine-arm line and its corresponding prose claim.
+5. `08-ffff-four`: replaced the enclosing ellipse with a contour following the blue upright support curve and revised the text accordingly.
+6. `09-acrylic-gel-full-set`: replaced the false rectangle with a polyline following the skewed physical print edge and revised the caption/prose.
+7. `11-graft-and-ash`: removed the unsupported enclosing ellipse and retained only the measured monitor anchor, workstation axis, and floor threshold.
+
+All eleven current overlay specs score 100/100. The affected composites received a fresh visual pass, the content and rendered chapter are byte-identical, and `scripts/check.sh` plus `python3 scripts/validate_pipeline.py` pass.

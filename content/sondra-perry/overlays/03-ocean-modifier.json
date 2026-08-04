@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "horizon_line", "y": 0.322, "angle": 0, "label": "luminous band divide" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.412, "label": "field balance" },
-    { "type": "frame_in_frame", "x": 0.17, "y": 0.20, "w": 0.66, "h": 0.27, "label": "lenticular band" }
+    { "type": "frame_in_frame", "x": 0.08, "y": 0.322, "w": 0.86, "h": 0.25, "label": "lenticular band" }
   ],
   "notes": "The long illuminated strip distributes attention laterally across a dark gallery field."
 }
