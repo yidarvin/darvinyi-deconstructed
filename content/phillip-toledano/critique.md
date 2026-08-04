@@ -1,0 +1,23 @@
+verdict: revise
+
+## Critique round — 2026-08-04
+
+### Required
+
+1. **03-owl-hat — correct the contradictory subject identification in `sources.md`.** The source entry calls this a “Girl with an owl hat” and describes a “frontal child portrait,” while the supplied proof and chapter identify the visible sitter as an adult woman. Resolve the conflict with a single, visually supportable description (or a neutral “portrait/sitter” if age cannot be sourced); do not leave contradictory claims about the subject’s age.
+
+2. **06-tsunami — make the source description match the supplied frame.** The `sources.md` entry describes “a curling water mass” overwhelming skyscrapers “across the upper frame.” The proof instead shows people dispersed in turbulent foreground/midground water, haze, birds, and a background skyline; it contains no such upper-frame curling wave. If retaining “tsunami” as a source filename or project label, identify it as such, then describe the visible frame accurately.
+
+3. **08-snowy-portrait — replace the misidentified scene in `sources.md`.** The entry calls this a “Snowy street portrait” with an isolated figure in a high-key snowy setting. The proof is a monochrome street portrait of a seated man surrounded by a dense mass of white poodles, with no snow. This is a material mismatch between the source record and the image it documents.
+
+4. **10-belgian-helmet — correct the setting in `sources.md`.** The entry calls the frame a “domestic portrait structure,” but the supplied proof visibly places the child in a snowy outdoor street setting. Revise the description and teaching-need wording so the source record does not assert a setting absent from the image.
+
+### Advisory (non-blocking)
+
+- The deterministic scorer reports small/unsupported-edge warnings for a few documentary `leading_line` primitives (notably 01, 02, 04, and 05), but visual inspection shows the labeled street/curb/facade relationships remain intelligible. No overlay change is required on that evidence.
+
+### Review evidence
+
+- Inspected all 12 rendered proofs against their overlay specs and analyzer outputs. Each overlay uses 3–4 primitives, and no materially false overlay label or fabricated camera setting was found.
+- All twelve direct LensCulture image routes returned public JPEGs matching the ingested plates; the record credits © Phillip Toledano and supplies a per-image four-factor fair-use rationale. The blocking issues above concern inaccurate local frame descriptions, not missing provenance or a rights-route defect.
+- All chapter tonal, palette, and edge-density figures checked against the corresponding analyzer JSON within the stated tolerance.
