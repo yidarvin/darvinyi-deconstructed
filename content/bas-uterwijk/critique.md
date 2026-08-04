@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -134,3 +134,31 @@ symmetry suggestion).
   HTTP 200 during this review. Every image retains a credited per-image
   four-factor fair-use rationale; no camera settings are asserted, and this is
   not a limited-source chapter.
+
+## Resolution — 2026-08-04
+
+Re-verified the complete critique history in `git log -p`, including the prior
+**overlay round** (02-chivalry-in-retrograde, 11-cenotaphs-62, and
+12-napoleon-i) and the prior **source-description round**
+(01-dream-of-europa and 11-cenotaphs-62). The earlier fixes remain intact:
+the two thrusts in 02 are explicitly parallel, 11's `FIGURE AXIS` follows the
+depicted figure at x=0.500, 12's `FACE AXIS` follows the face at x=0.480, and
+the source records for 01 and 11 describe the displayed images rather than the
+superseded compositions. Visual rechecks of their current proofs confirm those
+readings; deterministic scores are 100, 91.5, and 90 respectively, with the
+latter two intentionally retaining the semantic figure/face centers over the
+analyzer's global symmetry measurement.
+
+1. **08-deathless-aphrodite — eye-line claim:** moved the annotated contour
+   from the brow/upper-lid split to the visible eye centers (y=0.460–0.465),
+   relabeled it `EYE-LEVEL CONTOUR`, and made the plate caption and prose use
+   the same language. The regenerated proof is visually aligned and scores
+   100/100.
+2. **08-deathless-aphrodite — source description:** replaced the stale
+   seated, flower-bound description with the displayed close frontal face,
+   light tonal field, centered features, and modeled head mass. The existing
+   traceable link, credit, file record, and per-image fair-use rationale remain
+   in place, with its pedagogical-need clause now matching the actual image.
+
+`scripts/check.sh` passes after these changes, including pipeline validation,
+chapter byte-identity, prose lint, tests, and the production build.

@@ -106,12 +106,12 @@ Bas Uterwijk (Ganbrood), © 2026 Ganbrood.
 
 ### 08 — *Deathless Aphrodite, throned in flowers* (2021)
 
-- **Why it matters:** A centrally seated, flower-bound figure uses symmetry as a
-  promise of iconographic certainty while the generated surface keeps that promise
-  unstable—ideal for teaching symmetry’s rhetorical force.
+- **Why it matters:** A close frontal face occupies an almost plain, light tonal
+  field. Its centered features and softly modeled head mass make symmetry feel
+  authoritative before the low-detail synthetic surface destabilizes that promise.
 - **Source:** [Ganbrood gallery](https://ganbrood.com/) — [public display file](https://ganbrood.com/images/deathless-aphrodite.jpg).
 - **Use basis:** **fair-use.** © 2026 Ganbrood. Its complete 1,968 × 1,968px frame
-  is required to discuss centrality, floral enclosure, and synthetic detail; the
+  is required to discuss facial centrality, the light tonal field, and synthetic detail; the
   credited web-sized critical copy does not replace an original or licensed use.
 - **File:** `raw/bas-uterwijk/08-deathless-aphrodite.jpg` (1,968px long edge).
 
