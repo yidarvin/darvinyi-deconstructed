@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -32,3 +32,32 @@ Re-verified critique round 2026-08-03 in full.
    7, 6, 5, 2*.
 
 `bash scripts/check.sh` passed before this resolution was recorded.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+None. All six current proofs were visually checked against their image and
+overlay spec. The three labelled frames and right-screen portrait anchor in
+`03-bina48-fragments-17-19-20-mocp` now land on the actual monitors and
+portrait; the floor/wall seam is likewise correctly traced. Current
+deterministic scores are 100, 97, 97, 100, 100, and 100 respectively, with no
+geometric deductions. The chapter's tonal, palette, edge-density, and phi-grid
+claims agree with the corresponding analyzer records within the stated
+tolerance. No camera settings are asserted. The public artist pages support
+the work and installation descriptions used here, and the Whitney record
+supports the sole work-specific © Stephanie Dinkins Studio notice; each of the
+six source entries has its own four-factor fair-use rationale and a traceable
+public source URL.
+
+### Advisory (non-blocking)
+
+- `02-bina48-fragments-7-6-5-2-icp`: the four monitor frames continue to read
+  more as an inventory than a more selective compositional argument, and the
+  `LOWER SCREEN` anchor remains on the upper edge of the lower-right monitor.
+  The boxes still identify the four actual monitors and this is the settled
+  non-material point from the prior round, not a regression.
+- `06-ntoo-making-process`: `STARTING PROMPT` still marks “Getting started”
+  rather than the heading above it, and the process-list frame still begins
+  below “learn Tensorflow.” The marked text and reading order remain legible;
+  this is the settled advisory from the prior round, not a material regression.
