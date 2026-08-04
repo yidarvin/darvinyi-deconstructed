@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-silent-hero-07.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.198, "y": 0.365, "w": 0.605, "h": 0.35, "label": "CELL MATRIX" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "MATRIX CENTER" },
+    { "type": "polyline", "points": [[0.20, 0.50], [0.80, 0.50]], "label": "REPEATED ROW" }
+  ],
+  "notes": "A bounded matrix recasts image information as repeated, granular cells."
+}

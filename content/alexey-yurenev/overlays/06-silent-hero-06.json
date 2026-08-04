@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-silent-hero-06.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.584, "angle": 0.0, "label": "LANDSCAPE DIVIDE" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.17, "rx": 0.12, "ry": 0.05, "label": "OBSCURING BLOT" },
+    { "type": "polyline", "points": [[0.05, 0.70], [0.35, 0.67], [0.65, 0.69], [0.97, 0.66]], "label": "DARK HORIZON BAND" }
+  ],
+  "notes": "Blots and streaks interrupt a landscape whose low horizontal is still barely legible."
+}

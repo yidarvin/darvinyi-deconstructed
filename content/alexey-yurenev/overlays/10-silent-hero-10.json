@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "10-silent-hero-10.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.16, "y": 0.06, "w": 0.69, "h": 0.83, "label": "CONTACT-SHEET FIELD" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "MATRIX CENTER" },
+    { "type": "polyline", "points": [[0.16, 0.50], [0.85, 0.50]], "label": "REPEATED ROW" }
+  ],
+  "notes": "An ordered field of tiny frames shifts attention from one image to comparative sampling."
+}

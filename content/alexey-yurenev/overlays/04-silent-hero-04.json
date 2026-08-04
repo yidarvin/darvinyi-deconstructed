@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-silent-hero-04.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.565, "angle": 0.0, "label": "LOW FIELD LINE" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "TREE'S CENTRAL BALANCE" },
+    { "type": "ellipse", "cx": 0.49, "cy": 0.56, "rx": 0.28, "ry": 0.29, "label": "BRANCHING MASS" }
+  ],
+  "notes": "A nearly centered branching mass makes intricate line press against an empty field."
+}

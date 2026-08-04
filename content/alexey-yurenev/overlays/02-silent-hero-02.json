@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-silent-hero-02.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.857, "angle": 0.0, "label": "SNOW RIDGE" },
+    { "type": "subject_anchor", "x": 0.43, "y": 0.852, "r": 0.035, "label": "PROCESSION" },
+    { "type": "leading_line", "points": [[0.41, 0.89], [0.54, 0.77]], "arrow": true, "label": "ASCENDING STEPS" }
+  ],
+  "notes": "The small procession climbs toward the monument across a broad snow slope."
+}

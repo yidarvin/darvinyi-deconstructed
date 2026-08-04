@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "08-silent-hero-08.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.479, "angle": 0.0, "label": "TREE LINE" },
+    { "type": "frame_in_frame", "x": 0.65, "y": 0.23, "w": 0.13, "h": 0.20, "label": "LARGEST PORTRAIT FRAGMENT" },
+    { "type": "polyline", "points": [[0.55, 0.37], [0.70, 0.32], [0.87, 0.26]], "label": "SEPARATED ARCHIVE" }
+  ],
+  "notes": "Portrait fragments hover above the meadow, with their separation becoming the subject."
+}

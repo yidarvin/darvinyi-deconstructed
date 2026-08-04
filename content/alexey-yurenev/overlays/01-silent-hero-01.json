@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "01-silent-hero-01.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.547, "angle": -1.6, "label": "DISTANT TREE LINE" },
+    { "type": "subject_anchor", "x": 0.242, "y": 0.662, "r": 0.05, "label": "ARCHIVAL PORTRAIT" },
+    { "type": "frame_in_frame", "x": 0.185, "y": 0.54, "w": 0.15, "h": 0.30, "label": "TORN IMAGE EDGE" }
+  ],
+  "notes": "A fragile portrait occupies a small dark island below a vast white field."
+}

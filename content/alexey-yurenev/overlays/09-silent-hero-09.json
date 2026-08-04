@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-silent-hero-09.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.487, "label": "CHAPEL AXIS" },
+    { "type": "frame_in_frame", "x": 0.34, "y": 0.29, "w": 0.31, "h": 0.60, "label": "ARCHIVAL PORTRAIT" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.54, "rx": 0.22, "ry": 0.22, "label": "CENTRAL APSE" }
+  ],
+  "notes": "A damaged portrait interrupts an otherwise symmetrical blue stained-glass interior."
+}
