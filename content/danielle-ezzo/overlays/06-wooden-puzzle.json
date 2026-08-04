@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "06-wooden-puzzle.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "leading_line", "points": [[0.001, 0.369], [0.365, 0.290]], "arrow": true, "label": "lamp arm" },
+    { "type": "ellipse", "cx": 0.57, "cy": 0.39, "rx": 0.15, "ry": 0.06, "label": "lamp shade" },
+    { "type": "ellipse", "cx": 0.56, "cy": 0.78, "rx": 0.06, "ry": 0.05, "label": "wooden puzzle" }
+  ],
+  "notes": "The lamp arm and shade direct attention down to a small puzzle in an otherwise open table field."
+}

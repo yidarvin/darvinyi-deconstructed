@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "image": "05-irredescent-flower.jpg",
+  "width": 1067,
+  "height": 1600,
+  "aspect": 0.6669,
+  "tonal": {
+    "mean": 0.7133175924328676,
+    "std": 0.14975925111912186,
+    "p05": 0.5019607843137255,
+    "p95": 0.984313725490196,
+    "edge_density": 0.0
+  },
+  "palette": [
+    "#848385",
+    "#b2b3b0",
+    "#d2d2d1",
+    "#f6f6f7",
+    "#abc6e0"
+  ],
+  "lines": [],
+  "horizon": {
+    "y": 0.671875,
+    "angle_deg": 0.0,
+    "confidence": 0.6912936662021673,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.9882697947214076,
+      0.5859375
+    ],
+    "regions": [
+      {
+        "cx": 0.05852287225946771,
+        "cy": 0.6795527822327803,
+        "x": 0.0,
+        "y": 0.650390625,
+        "w": 0.1466275659824047,
+        "h": 0.068359375,
+        "area_frac": 0.0074215886180351905
+      },
+      {
+        "cx": 0.9634437059997899,
+        "cy": 0.5864303539164292,
+        "x": 0.9178885630498533,
+        "y": 0.537109375,
+        "w": 0.08211143695014662,
+        "h": 0.1025390625,
+        "area_frac": 0.007033541055718475
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9219362905687463,
+    "vertical_axis_x": 0.3875,
+    "horizontal": 0.5448633709518924,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.9882697947214076,
+    "y": 0.5859375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.42515432098765416,
+    "phi": 0.245033291666277,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.388,
+      "confidence": 0.92,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.672,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.69,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.988,
+      "y": 0.586,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

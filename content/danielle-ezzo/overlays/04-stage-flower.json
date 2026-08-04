@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-stage-flower.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.12, "y": 0.63, "w": 0.53, "h": 0.33, "label": "transparent sheet" },
+    { "type": "polyline", "points": [[0.53, 0.01], [0.50, 0.24], [0.49, 0.46], [0.46, 0.64]], "label": "suspended stem" },
+    { "type": "ellipse", "cx": 0.23, "cy": 0.85, "rx": 0.23, "ry": 0.11, "label": "sprayed flower" }
+  ],
+  "notes": "The flower is staged on a translucent lower plane beneath a long suspended stem."
+}

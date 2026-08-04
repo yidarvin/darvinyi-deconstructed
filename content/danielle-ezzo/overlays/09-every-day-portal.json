@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "09-every-day-portal.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.512, "label": "central support" },
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.17, "w": 0.28, "h": 0.24, "label": "red portal" },
+    { "type": "polyline", "points": [[0.36, 0.27], [0.64, 0.27], [0.75, 0.31]], "label": "projected lattice" }
+  ],
+  "notes": "A red panel sends a drawing-like lattice into the green room, making a threshold out of equipment."
+}
