@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-04
 
@@ -162,3 +162,33 @@ analyzer's global symmetry measurement.
 
 `scripts/check.sh` passes after these changes, including pipeline validation,
 chapter byte-identity, prose lint, tests, and the production build.
+
+## Critique round — 2026-08-04
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+- No new advisories. The prior 07 `INNER ENCLOSURE` approximation and the
+  absent `NEEDED.md` audit artifact remain non-blocking; neither has materially
+  regressed.
+
+### Verification record
+
+- Independently inspected all twelve current proof PNGs alongside their matching
+  overlay specs and analyzer outputs. Every overlay teaches a visible structure
+  with 3–5 primitives; scores are 100/100 for 01–10, 91.5/100 for 11, and
+  90/100 for 12. The lower deterministic scores in 11 and 12 still arise solely
+  from retaining the visually truthful figure/face centers resolved in prior
+  rounds, rather than the analyzer's broader global-symmetry suggestion.
+- Recomputed every numeric statement in the chapter against the current analysis
+  JSON; the stated palette, tonal, luminance, and edge-density values agree within
+  the defined tolerance. No camera settings or unsupported production facts are
+  asserted.
+- All twelve public display-file URLs and both source-record pages returned HTTP
+  200. The artist gallery verifies titles/dates for 01–11 and its copyright
+  notice; the Fondation Napoléon record verifies 12's artist, date, credit, and
+  computer-learning method. Each image retains a traceable, credited per-image
+  fair-use rationale.

@@ -250,6 +250,6 @@ real queue and state live in data/registry.json.
 | 239 | stephanie-dinkins         | Stephanie Dinkins            | DONE    |
 | 240 | sondra-perry              | Sondra Perry                 | DONE    |
 | 241 | phillip-toledano          | Phillip Toledano             | DONE    |
-| 242 | bas-uterwijk              | Bas Uterwijk                 | PENDING |
+| 242 | bas-uterwijk              | Bas Uterwijk                 | DONE    |
 | 243 | roope-rainisto            | Roope Rainisto               | PENDING |
 | 244 | niceaunties               | Niceaunties                  | PENDING |
