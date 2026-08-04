@@ -246,7 +246,7 @@ real queue and state live in data/registry.json.
 | 235 | anna-ridler               | Anna Ridler                  | DONE    |
 | 236 | james-coupe               | James Coupe                  | DONE    |
 | 237 | alexey-yurenev            | Alexey Yurenev               | DONE    |
-| 238 | danielle-ezzo             | Danielle Ezzo                | PENDING |
+| 238 | danielle-ezzo             | Danielle Ezzo                | DONE    |
 | 239 | stephanie-dinkins         | Stephanie Dinkins            | PENDING |
 | 240 | sondra-perry              | Sondra Perry                 | PENDING |
 | 241 | phillip-toledano          | Phillip Toledano             | PENDING |
