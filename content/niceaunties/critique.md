@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-04
 
@@ -51,3 +51,26 @@ proofs and chapter:
 
 All three refreshed composite proofs received a clean visual pass. The chapter
 and rendered-site copy are byte-identical.
+
+## Critique round — 2026-08-04
+
+Re-reviewed all 12 current proofs against their overlay specs, analyzer output,
+chapter, manifest, and source notes. All overlay scores pass (97–100); the
+three fixes resolved in the preceding round for 07-spamenu-0195,
+08-spamenu-0197, and 12-fashion-0568 remain resolved. Credits, per-image
+fair-use rationales, and the explicit absence of camera settings remain
+documented. One new semantic mismatch remains.
+
+### Required
+
+1. **06-auntiecity-0033 — `street tier` names the wrong feature.** The
+   horizontal overlay at y0.490 runs across the apartment structure well above
+   the actual lower-frame street and pedestrians; it is not a street tier or a
+   pedestrian baseline. Relabel the primitive for the visible architectural
+   tier (and revise the chapter sentence that says the y0.490 line gives
+   pedestrians a baseline), or move the claim to the actual feature it names.
+   The current label and prose materially misdescribe the image's structure.
+
+### Advisory (non-blocking)
+
+None.
