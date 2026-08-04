@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-alley-monkey.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.68, "cy": 0.49, "rx": 0.11, "ry": 0.15, "label": "monkey face" },
+    { "type": "leading_line", "points": [[0.31, 0.94], [0.49, 0.67], [0.57, 0.55]], "arrow": true, "label": "alley curb" },
+    { "type": "leading_line", "points": [[0.98, 0.13], [0.78, 0.32], [0.62, 0.50]], "arrow": true, "label": "brick-wall recession" }
+  ],
+  "notes": "The curb and receding brick wall funnel an empty alley toward a small, downcast primate figure."
+}

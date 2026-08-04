@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01-building-melting.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "f0eb0cbc",
+    "source": "01-building-melting.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-zeppelin-crash.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "7e1513ca",
+    "source": "02-zeppelin-crash.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-owl-hat.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "b8580519",
+    "source": "03-owl-hat.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-giant-crater.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "dc807b28",
+    "source": "04-giant-crater.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-alley-monkey.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "61a74239",
+    "source": "05-alley-monkey.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-tsunami.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "4c5b113e",
+    "source": "06-tsunami.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-crow-hat.jpg",
+    "width": 1500,
+    "height": 1501,
+    "sha1": "118e5d53",
+    "source": "07-crow-hat.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-snowy-portrait.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "1d41de52",
+    "source": "08-snowy-portrait.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-woman-on-fire.jpg",
+    "width": 1600,
+    "height": 1600,
+    "sha1": "0e115c71",
+    "source": "09-woman-on-fire.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-belgian-helmet.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "12f880ac",
+    "source": "10-belgian-helmet.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-giant-jellyfish.jpg",
+    "width": 1000,
+    "height": 1000,
+    "sha1": "4c285e98",
+    "source": "11-giant-jellyfish.jpg",
+    "exif": {}
+  },
+  {
+    "file": "12-frozen-man.jpg",
+    "width": 1500,
+    "height": 1500,
+    "sha1": "7081eb98",
+    "source": "12-frozen-man.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "07-crow-hat.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.50, "cy": 0.42, "rx": 0.29, "ry": 0.12, "label": "hat brim" },
+    { "type": "ellipse", "cx": 0.50, "cy": 0.54, "rx": 0.12, "ry": 0.11, "label": "direct gaze" },
+    { "type": "polyline", "points": [[0.39, 0.29], [0.50, 0.24], [0.68, 0.34]], "label": "crows across crown" }
+  ],
+  "notes": "A nearly frontal face is held beneath a wide brim, while the small crows turn the crown into a lateral disturbance."
+}

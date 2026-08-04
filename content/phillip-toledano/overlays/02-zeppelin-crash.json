@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-zeppelin-crash.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.48, "cy": 0.34, "rx": 0.27, "ry": 0.19, "label": "airship mass" },
+    { "type": "polyline", "points": [[0.27, 0.36], [0.41, 0.23], [0.60, 0.15], [0.70, 0.20]], "label": "upper hull contour" },
+    { "type": "polyline", "points": [[0.28, 0.43], [0.39, 0.48], [0.47, 0.54]], "label": "underbody to nose" },
+    { "type": "leading_line", "points": [[0.94, 0.91], [0.69, 0.72]], "arrow": true, "label": "right street recession" }
+  ],
+  "notes": "The enormous rounded hull interrupts a narrow vertical street corridor while the right facade keeps receding behind it."
+}

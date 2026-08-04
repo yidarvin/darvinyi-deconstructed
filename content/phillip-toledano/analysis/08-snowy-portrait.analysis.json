@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "image": "08-snowy-portrait.jpg",
+  "width": 1000,
+  "height": 1000,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3371037803921569,
+    "std": 0.2795969754777345,
+    "p05": 0.0,
+    "p95": 0.8509803921568627,
+    "edge_density": 0.061117
+  },
+  "palette": [
+    "#2a2a2a",
+    "#080808",
+    "#cacaca",
+    "#8b8b8b",
+    "#525252"
+  ],
+  "lines": [
+    {
+      "x1": 0.489,
+      "y1": 0.474,
+      "x2": 0.765,
+      "y2": 0.75,
+      "angle_deg": 45.0,
+      "length": 0.276,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.505,
+      "y1": 0.538,
+      "x2": 0.763,
+      "y2": 0.796,
+      "angle_deg": 45.0,
+      "length": 0.258,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.252,
+      "y1": 0.405,
+      "x2": 0.449,
+      "y2": 0.698,
+      "angle_deg": 56.084891292242354,
+      "length": 0.24965776575143822,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.505,
+      "y1": 0.429,
+      "x2": 0.747,
+      "y2": 0.671,
+      "angle_deg": 45.0,
+      "length": 0.24200000000000002,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.25,
+      "y1": 0.419,
+      "x2": 0.518,
+      "y2": 0.58,
+      "angle_deg": 30.99518591976757,
+      "length": 0.2210712554811231,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.411,
+      "y1": 0.369,
+      "x2": 0.613,
+      "y2": 0.571,
+      "angle_deg": 45.0,
+      "length": 0.202,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.201,
+      "y1": 0.442,
+      "x2": 0.472,
+      "y2": 0.53,
+      "angle_deg": 17.989818537242765,
+      "length": 0.20147580499901224,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.464,
+      "y1": 0.633,
+      "x2": 0.637,
+      "y2": 0.46,
+      "angle_deg": -45.0,
+      "length": 0.17300000000000001,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.493,
+      "y1": 0.459,
+      "x2": 0.676,
+      "y2": 0.618,
+      "angle_deg": 40.985824304588974,
+      "length": 0.17142053552593983,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.466,
+      "y1": 0.008,
+      "x2": 0.615,
+      "y2": 0.186,
+      "angle_deg": 50.06801812660517,
+      "length": 0.16414170707044567,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.303,
+      "y1": 0.563,
+      "x2": 0.475,
+      "y2": 0.409,
+      "angle_deg": -41.83963837395433,
+      "length": 0.16324827717314508,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.604,
+      "y1": 0.599,
+      "x2": 0.765,
+      "y2": 0.76,
+      "angle_deg": 45.0,
+      "length": 0.161,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.32,
+    "angle_deg": 0.0,
+    "confidence": 0.6448114750841325,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5319823779274163,
+    "y": 0.5189727060176685,
+    "inliers": 20,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.757,
+      0.211
+    ],
+    "regions": [
+      {
+        "cx": 0.06788165680473372,
+        "cy": 0.49691410364783145,
+        "x": 0.0,
+        "y": 0.436,
+        "w": 0.155,
+        "h": 0.134,
+        "area_frac": 0.015379
+      },
+      {
+        "cx": 0.4474121699196326,
+        "cy": 0.37348842326827403,
+        "x": 0.382,
+        "y": 0.323,
+        "w": 0.127,
+        "h": 0.104,
+        "area_frac": 0.010452
+      },
+      {
+        "cx": 0.748085607329327,
+        "cy": 0.2194149344892129,
+        "x": 0.678,
+        "y": 0.169,
+        "w": 0.134,
+        "h": 0.099,
+        "area_frac": 0.010151
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.783792559775447,
+    "vertical_axis_x": 0.45,
+    "horizontal": 0.6175959702132492,
+    "horizontal_axis_y": 0.5125
+  },
+  "subject_anchor": {
+    "x": 0.757,
+    "y": 0.211,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.4287027088997161,
+    "phi": 0.2565642842001532,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.532,
+      "y": 0.519,
+      "confidence": 1.0,
+      "why": "20 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.45,
+      "confidence": 0.78,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.32,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.64,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.757,
+      "y": 0.211,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

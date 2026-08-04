@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-tsunami.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.56, "rx": 0.25, "ry": 0.09, "label": "figures in surf" },
+    { "type": "ellipse", "cx": 0.25, "cy": 0.65, "rx": 0.05, "ry": 0.06, "label": "near figure" },
+    { "type": "polyline", "points": [[0.02, 0.63], [0.30, 0.61], [0.54, 0.67], [0.78, 0.59], [0.98, 0.63]], "label": "breaking-water band" },
+    { "type": "polyline", "points": [[0.04, 0.83], [0.31, 0.72], [0.55, 0.78], [0.83, 0.70]], "label": "foreground swell" }
+  ],
+  "notes": "A broad, broken water band scatters human figures between a hazed skyline and a heavy foreground swell."
+}

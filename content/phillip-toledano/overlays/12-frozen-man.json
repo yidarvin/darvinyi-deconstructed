@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "12-frozen-man.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.38, "rx": 0.13, "ry": 0.13, "label": "face" },
+    { "type": "leading_line", "points": [[0.25, 0.90], [0.49, 0.54]], "arrow": true, "label": "left coat edge" },
+    { "type": "polyline", "points": [[0.06, 0.49], [0.45, 0.47], [0.96, 0.46]], "label": "cars and snowbank divide" },
+    { "type": "ellipse", "cx": 0.70, "cy": 0.69, "rx": 0.33, "ry": 0.29, "label": "encroaching snowbank" }
+  ],
+  "notes": "The exposed face and diagonal coat are squeezed between a snowy street band and an encroaching foreground snowbank."
+}

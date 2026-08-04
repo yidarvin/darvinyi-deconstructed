@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "image": "11-giant-jellyfish.jpg",
+  "width": 1000,
+  "height": 1000,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.4329204705882353,
+    "std": 0.2915018850024183,
+    "p05": 0.047058823529411764,
+    "p95": 0.9098039215686274,
+    "edge_density": 0.046603
+  },
+  "palette": [
+    "#20191a",
+    "#dbe3d5",
+    "#484240",
+    "#826859",
+    "#99a59e"
+  ],
+  "lines": [
+    {
+      "x1": 0.801,
+      "y1": 0.065,
+      "x2": 0.826,
+      "y2": 0.783,
+      "angle_deg": 88.00582722855209,
+      "length": 0.5080103345405486,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.796,
+      "y1": 0.0,
+      "x2": 0.816,
+      "y2": 0.555,
+      "angle_deg": 87.93618027154305,
+      "length": 0.3926989941418236,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.808,
+      "y1": 0.314,
+      "x2": 0.822,
+      "y2": 0.729,
+      "angle_deg": 88.06786306105063,
+      "length": 0.29361624614452103,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.003,
+      "y1": 0.091,
+      "x2": 0.295,
+      "y2": 0.336,
+      "angle_deg": 39.99803183803715,
+      "length": 0.26952643655122216,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.185,
+      "y1": 0.802,
+      "x2": 0.506,
+      "y2": 0.791,
+      "angle_deg": -1.96263877941554,
+      "length": 0.22711450856341167,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.369,
+      "y1": 0.805,
+      "x2": 0.688,
+      "y2": 0.794,
+      "angle_deg": -1.9749340108819766,
+      "length": 0.2257011298155151,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.246,
+      "y1": 0.922,
+      "x2": 0.537,
+      "y2": 0.861,
+      "angle_deg": -11.839034130753344,
+      "length": 0.21024033866030561,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.789,
+      "y1": 0.685,
+      "x2": 0.919,
+      "y2": 0.92,
+      "angle_deg": 61.0490047925332,
+      "length": 0.18990129014832943,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.793,
+      "y1": 0.529,
+      "x2": 0.802,
+      "y2": 0.79,
+      "angle_deg": 88.02506598911803,
+      "length": 0.18466456075814874,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.307,
+      "y1": 0.803,
+      "x2": 0.563,
+      "y2": 0.794,
+      "angle_deg": -2.0134754953909955,
+      "length": 0.1811311679419089,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.029,
+      "y1": 0.695,
+      "x2": 0.283,
+      "y2": 0.726,
+      "angle_deg": 6.958378584584372,
+      "length": 0.1809378346283607,
+      "class": "horizontal"
+    },
+    {
+      "x1": 0.492,
+      "y1": 0.388,
+      "x2": 0.671,
+      "y2": 0.209,
+      "angle_deg": -45.0,
+      "length": 0.17900000000000002,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.859,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.5774383561643835,
+    "y": 0.44960335195530726,
+    "inliers": 3,
+    "confidence": 0.6
+  },
+  "saliency": {
+    "peak": [
+      0.163,
+      0.804
+    ],
+    "regions": [
+      {
+        "cx": 0.8571751768686559,
+        "cy": 0.9191596431867118,
+        "x": 0.772,
+        "y": 0.82,
+        "w": 0.149,
+        "h": 0.18,
+        "area_frac": 0.013004
+      },
+      {
+        "cx": 0.43231637639393555,
+        "cy": 0.8262707680741762,
+        "x": 0.375,
+        "y": 0.781,
+        "w": 0.118,
+        "h": 0.089,
+        "area_frac": 0.007981
+      },
+      {
+        "cx": 0.16135883500557416,
+        "cy": 0.8110741360089185,
+        "x": 0.114,
+        "y": 0.763,
+        "w": 0.095,
+        "h": 0.096,
+        "area_frac": 0.007176
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.7393518655957267,
+    "vertical_axis_x": 0.625,
+    "horizontal": 0.7831347412859415,
+    "horizontal_axis_y": 0.5875
+  },
+  "subject_anchor": {
+    "x": 0.163,
+    "y": 0.804,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.0772750716640038,
+    "phi": 0.1570333449661669,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.859,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.163,
+      "y": 0.804,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    },
+    {
+      "type": "vanishing_point",
+      "x": 0.577,
+      "y": 0.45,
+      "confidence": 0.6,
+      "why": "3 converging diagonals"
+    },
+    {
+      "type": "leading_line",
+      "points": [
+        [
+          0.003,
+          0.091
+        ],
+        [
+          0.295,
+          0.336
+        ]
+      ],
+      "arrow": true,
+      "label": "leading line",
+      "confidence": 0.54,
+      "why": "strong diagonal converging on VP"
+    }
+  ]
+}

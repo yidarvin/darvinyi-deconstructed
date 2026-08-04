@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-belgian-helmet.jpg",
+  "grid": { "type": "none" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.51, "cy": 0.42, "rx": 0.30, "ry": 0.34, "label": "transparent globe" },
+    { "type": "polyline", "points": [[0.28, 0.14], [0.51, 0.08], [0.76, 0.17]], "label": "upper globe arc" },
+    { "type": "ellipse", "cx": 0.51, "cy": 0.51, "rx": 0.13, "ry": 0.10, "label": "child face" },
+    { "type": "polyline", "points": [[0.36, 0.62], [0.50, 0.67], [0.67, 0.61]], "label": "globe base" }
+  ],
+  "notes": "A clear globe encloses a child’s face and red cap, turning an ordinary snowy portrait into a nested circular structure."
+}

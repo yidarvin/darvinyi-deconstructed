@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "image": "05-alley-monkey.jpg",
+  "width": 1000,
+  "height": 1000,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.3764013490196078,
+    "std": 0.2556846972844912,
+    "p05": 0.023529411764705882,
+    "p95": 0.8313725490196079,
+    "edge_density": 0.024328
+  },
+  "palette": [
+    "#0e0e0e",
+    "#40403f",
+    "#696968",
+    "#969694",
+    "#cbccca"
+  ],
+  "lines": [
+    {
+      "x1": 0.573,
+      "y1": 0.444,
+      "x2": 0.757,
+      "y2": 0.355,
+      "angle_deg": -25.81285221298348,
+      "length": 0.14452854389358524,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.856,
+      "y1": 0.377,
+      "x2": 0.969,
+      "y2": 0.216,
+      "angle_deg": -54.93638994342833,
+      "length": 0.13908630414242806,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.859,
+      "y1": 0.224,
+      "x2": 0.94,
+      "y2": 0.072,
+      "angle_deg": -61.94708129409424,
+      "length": 0.12178875153313627,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.827,
+      "y1": 0.198,
+      "x2": 0.896,
+      "y2": 0.042,
+      "angle_deg": -66.13982480865766,
+      "length": 0.12061716295784775,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.655,
+      "y1": 0.596,
+      "x2": 0.716,
+      "y2": 0.459,
+      "angle_deg": -65.99871903438701,
+      "length": 0.10604244433244642,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.25,
+      "y1": 0.964,
+      "x2": 0.356,
+      "y2": 0.858,
+      "angle_deg": -45.0,
+      "length": 0.10600000000000001,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.015,
+      "y1": 0.998,
+      "x2": 0.158,
+      "y2": 0.97,
+      "angle_deg": -11.078591418218084,
+      "length": 0.10303640133467397,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.737,
+      "y1": 0.143,
+      "x2": 0.742,
+      "y2": 0.0,
+      "angle_deg": -87.99746686817312,
+      "length": 0.10117806086301516,
+      "class": "vertical"
+    },
+    {
+      "x1": 0.087,
+      "y1": 0.992,
+      "x2": 0.221,
+      "y2": 0.957,
+      "angle_deg": -14.63827853837369,
+      "length": 0.09793109822727405,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.719,
+      "y1": 0.026,
+      "x2": 0.8,
+      "y2": 0.134,
+      "angle_deg": 53.13010235415598,
+      "length": 0.09545941546018391,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.647,
+      "y1": 0.583,
+      "x2": 0.691,
+      "y2": 0.461,
+      "angle_deg": -70.16787014978162,
+      "length": 0.09170605214488299,
+      "class": "diagonal"
+    },
+    {
+      "x1": 0.778,
+      "y1": 0.137,
+      "x2": 0.815,
+      "y2": 0.022,
+      "angle_deg": -72.16498505733195,
+      "length": 0.08542247947700886,
+      "class": "diagonal"
+    }
+  ],
+  "horizon": {
+    "y": 0.774,
+    "angle_deg": 0.0,
+    "confidence": 0.6329399870133503,
+    "method": "gradient"
+  },
+  "vanishing_point": {
+    "x": 0.7488015745849086,
+    "y": 0.35896554272795184,
+    "inliers": 5,
+    "confidence": 1.0
+  },
+  "saliency": {
+    "peak": [
+      0.664,
+      0.476
+    ],
+    "regions": [
+      {
+        "cx": 0.6563255697783328,
+        "cy": 0.46320768029971904,
+        "x": 0.574,
+        "y": 0.381,
+        "w": 0.166,
+        "h": 0.164,
+        "area_frac": 0.016015
+      },
+      {
+        "cx": 0.8391844975632397,
+        "cy": 0.0227310280807612,
+        "x": 0.791,
+        "y": 0.0,
+        "w": 0.098,
+        "h": 0.054,
+        "area_frac": 0.004309
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.8628731701796589,
+    "vertical_axis_x": 0.375,
+    "horizontal": 0.8956808339069695,
+    "horizontal_axis_y": 0.375
+  },
+  "subject_anchor": {
+    "x": 0.664,
+    "y": 0.476,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3201781331097238,
+    "phi": 0.3046037110621205,
+    "best": "thirds"
+  },
+  "suggested_primitives": [
+    {
+      "type": "vanishing_point",
+      "x": 0.749,
+      "y": 0.359,
+      "confidence": 1.0,
+      "why": "5 converging diagonals"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.375,
+      "confidence": 0.86,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "horizon_line",
+      "y": 0.774,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 0.63,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.664,
+      "y": 0.476,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}
