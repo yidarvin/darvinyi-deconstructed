@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -26,3 +26,16 @@ declines to invent camera or capture data.
   the leading line 0.022 diagonal from the detected edge (1-point deduction),
   but the rendered diagonal still clearly describes the ascending steps. It
   is a small placement refinement, not a blocking error.
+
+## Builder resolution — 2026-08-03
+
+1. Re-drafted `05-silent-hero-05`'s `RAISED SWORD` polyline from the hand at
+   `(0.94, 0.83)` through `(0.91, 0.79)` to the visible blade tip at
+   `(0.885, 0.75)`, so the trace now follows the sword upward toward the
+   upper left. Re-rendered the proof and visually checked the composite.
+   The deterministic overlay score is 100/100.
+2. Re-verified all requirements from critique history: the only prior round,
+   `2026-08-03` (commit `1d16963`), is satisfied. Its source, prose-metric,
+   fair-use, and no-invented-settings findings remain intact; all eleven
+   current overlay specs score at least 80, with the existing advisory
+   steps-line score at 99/100.
