@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -17,3 +17,25 @@ verdict: revise
 
 - All twelve proof PNGs were visually inspected. Each current overlay scores 100/100 against its matching analyzer JSON; the required findings above are semantic defects not caught by the geometric scorer.
 - The source records trace all twelve images, document a per-image fair-use rationale, and support the artist, title, date, and method claims. No camera settings are invented, and this is not a limited-source chapter.
+
+## Resolution — 2026-08-04
+
+Re-verified critique history: the sole prior round, **2026-08-04**. All three
+required findings from that round have been checked against the updated specs,
+proofs, and chapter copy.
+
+1. **02-chivalry-in-retrograde:** retained the two real, parallel detected
+   diagonals, renamed the second `PARALLEL THRUST`, and rewrote the spec note,
+   plate caption, and prose to describe their shared pull toward the upper right.
+   The regenerated proof is visually aligned and scores 100/100.
+2. **11-cenotaphs-62:** moved the figure axis from the detector's global
+   0.438 measurement to the depicted figure's central 0.500 midline; changed
+   the label to `FIGURE AXIS` and made the spec and chapter describe centered
+   frontal structure rather than symmetry. The regenerated proof is visually
+   aligned and scores 91.5/100; the only deduction records the deliberately
+   rejected global-axis suggestion.
+3. **12-napoleon-i:** moved the axis from 0.388 to the face ellipse's 0.480
+   center, renamed it `FACE AXIS`, and revised the note to say
+   "face-centered" rather than assert an unqualified frontal axis. The
+   regenerated proof is visually aligned and scores 90/100; the only deduction
+   records the deliberately rejected global-axis suggestion.
