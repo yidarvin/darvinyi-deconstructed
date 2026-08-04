@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-03
 
@@ -47,3 +47,15 @@ Resolved all four required fixes from the current critique round.
 4. **12-snapshots-orchids:** tightened `POLAROID COMPOSITE` to `h=0.677` (from the existing `x=0.165`, `y=0.143`, `w=0.672`), so its lower edge meets the mounted composite/frame rather than blank wall and shadow. The regenerated proof has a clean visual pass and scores 100/100.
 
 Re-verified every required fix in the complete critique history: the initial 2026-08-03 round (01, 02, 04, and 10 source-note corrections) and the current 2026-08-03 round (04, 06, 07, and 12). The earlier 01/02/04/10 source descriptions remain truthful; 06/07 retain their grid-based language; the revised 04 and 12 overlays remain geometrically scored and visually aligned. `scripts/check.sh` and pipeline validation are run after this resolution.
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+1. **06-mosaic-virus-2018-still-a — correct the still's source-note account to the visible tiled field.** The proof and overlay show a full multi-row, multi-column field of separate tulip tiles. `sources.md` still calls it “A vertical generated bloom” and says the complete frame is needed to see “the bloom”; its Factor 1 likewise discusses only unstable symmetry and figure-ground. This materially repeats the resolved 2026-08-03 finding rather than implementing its specified grid-based description. Revise the shortlist and Factors 1 and 3 to describe the repeated generated-tulip tile field and dark surround.
+2. **07-mosaic-virus-2018-still-b — correct the still's source-note account to the visible tiled field.** The proof shows a second multi-tile grid, with the anchored disrupted bloom as one local event. `sources.md` still describes “A second vertical state” and its Factors 1 and 3 discuss a central mass and border rather than the tiled field. This likewise remains the unresolved 2026-08-03 source-note finding. Revise the shortlist and Factors 1 and 3 to describe the grid and the localized disrupted bloom truthfully.
+
+### Advisory (non-blocking)
+
+- I inspected all twelve rendered proofs against their overlay JSON and analyzer records. The current named primitives trace visible screen, tile, annotation, workspace, still-life, and composite features; all score files report 100/100. The chapter's quoted normalized measurements and palette/tonal values are within the stated analyzer tolerance, and its camera-setting caveat correctly confines the iPhone EXIF to installation documentation.
+- Every cited artist display-file URL and the V&A context route returned successfully in this review. All twelve images retain a traceable official route, a credit, and a concise per-image four-factor fair-use assessment.
