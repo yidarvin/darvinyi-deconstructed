@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -33,3 +33,21 @@ four-factor rationale; no settings claim is invented.
 - The scorer flags the three ellipses in 07-spamenu-0195 and 09-spamenu-0171
   as potentially redundant. They identify distinct, legible teaching subjects,
   so this is not a required reduction.
+
+## Resolution — 2026-08-04
+
+Re-verified the complete critique history: the single prior round, **Critique
+round — 2026-08-04**. All of its required fixes hold in the current rendered
+proofs and chapter:
+
+1. 07-spamenu-0195 now encloses the visible cat at x0.35, y0.57 rather than the
+   lower-left dishes; its refreshed score is 97 (the only warning is the
+   existing, non-blocking three-ellipse advisory).
+2. 08-spamenu-0197 removes the nonexistent `wall-to-table break` and replaces
+   the chapter claim with the visible surrounding white field; its refreshed
+   score is 100.
+3. 12-fashion-0568 now labels the smaller, receding woman `rear model` and the
+   large foreground woman `front model`; its refreshed score is 100.
+
+All three refreshed composite proofs received a clean visual pass. The chapter
+and rendered-site copy are byte-identical.

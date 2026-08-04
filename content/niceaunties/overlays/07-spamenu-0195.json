@@ -6,7 +6,7 @@
     { "type": "horizon_line", "y": 0.670, "angle": 4.1, "label": "countertop break" },
     { "type": "ellipse", "cx": 0.58, "cy": 0.76, "rx": 0.37, "ry": 0.13, "label": "sushi tray" },
     { "type": "ellipse", "cx": 0.76, "cy": 0.54, "rx": 0.13, "ry": 0.19, "label": "seated auntie" },
-    { "type": "ellipse", "cx": 0.16, "cy": 0.70, "rx": 0.10, "ry": 0.07, "label": "cat" }
+    { "type": "ellipse", "cx": 0.35, "cy": 0.57, "rx": 0.12, "ry": 0.14, "label": "cat" }
   ],
   "notes": "A broad tray and two unequal figures activate a deliberately empty clinical field."
 }
