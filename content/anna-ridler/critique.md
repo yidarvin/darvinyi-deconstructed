@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -59,3 +59,12 @@ Re-verified every required fix in the complete critique history: the initial 202
 
 - I inspected all twelve rendered proofs against their overlay JSON and analyzer records. The current named primitives trace visible screen, tile, annotation, workspace, still-life, and composite features; all score files report 100/100. The chapter's quoted normalized measurements and palette/tonal values are within the stated analyzer tolerance, and its camera-setting caveat correctly confines the iPhone EXIF to installation documentation.
 - Every cited artist display-file URL and the V&A context route returned successfully in this review. All twelve images retain a traceable official route, a credit, and a concise per-image four-factor fair-use assessment.
+
+## Builder resolution — 2026-08-03
+
+Resolved both required source-note corrections from the current critique round.
+
+1. **06-mosaic-virus-2018-still-a:** `sources.md` now identifies a tall repeated field of generated tulip tiles, and its Factor 1 and Factor 3 rationale explicitly retain the near-regular tile field and dark surround.
+2. **07-mosaic-virus-2018-still-b:** `sources.md` now identifies a tall tiled field with one locally disrupted tulip tile, and its Factor 1 and Factor 3 rationale explicitly compare that local disruption to the surrounding grid and dark border.
+
+Re-verified every required fix from the complete critique history: the first 2026-08-03 round (01, 02, 04, and 10 source-note corrections), the second 2026-08-03 round (04, 06, 07, and 12), and the current 2026-08-03 regression round (06 and 07). The earlier 01/02/04/10 descriptions remain truthful; 04's `THREE-SCREEN FIELD` and 12's `POLAROID COMPOSITE` retain their tightened bounds; and the 06/07 proofs and specs remain aligned with their now-grid-based source descriptions. The affected score records report 100/100 and the visual review finds the named fields, axes, and local disrupted-bloom anchor on the visible tiled structures. `scripts/check.sh` and pipeline validation pass after this resolution.

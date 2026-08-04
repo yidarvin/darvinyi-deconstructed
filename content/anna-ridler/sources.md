@@ -37,15 +37,15 @@ This set follows Ridler’s photographic dataset work into the generative moving
 - **File:** `raw/anna-ridler/05-mosaic-virus-2018-installation.jpg` (1024 × 1024px)
 
 ### 06 — *Mosaic Virus 2018* (2018), generated tulip still A
-- **Why it matters:** A vertical generated bloom uses bilateral pull and a dark surround to show the system’s tendency to make familiar floral structure almost, but not quite, cohere.
+- **Why it matters:** A tall, repeated field of generated tulip tiles uses partial bilateral pull and a dark surround to show the system’s tendency to make familiar floral structure almost, but not quite, cohere.
 - **Source:** [Anna Ridler, *Mosaic Virus 2018*](https://annaridler.com/works/mosaic-2018) (public display file: https://annaridler.com/content/works/mosaic-2018/block_2/Mosaic2018.png)
-- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative criticism examines unstable symmetry and figure-ground separation. **Factor 2:** a creative contemporary generated image. **Factor 3:** the full vertical frame is needed to see the bloom against the complete dark surround. **Factor 4:** this 768 × 1024px public web display copy is linked and credited to the artist and does not substitute for the video, work, or licensed still.
+- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative criticism examines the near-regular repeated-tile field, its unstable local symmetries, and its figure-ground separation. **Factor 2:** a creative contemporary generated image. **Factor 3:** the full vertical frame is needed to see the repeated tulip tile field against the complete dark surround. **Factor 4:** this 768 × 1024px public web display copy is linked and credited to the artist and does not substitute for the video, work, or licensed still.
 - **File:** `raw/anna-ridler/06-mosaic-virus-2018-still-a.jpg` (768 × 1024px)
 
 ### 07 — *Mosaic Virus 2018* (2018), generated tulip still B
-- **Why it matters:** A second vertical state makes variation part of the composition: broken petal-like masses crowd the center while the edges keep the image from settling into naturalistic description.
+- **Why it matters:** A second tall tiled field makes variation part of the composition: one especially disrupted tulip tile becomes legible against the repeated floral grid and dark surround.
 - **Source:** [Anna Ridler, *Mosaic Virus 2018*](https://annaridler.com/works/mosaic-2018) (public display file: https://annaridler.com/content/works/mosaic-2018/block_2/Mosaic2018_3.png)
-- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative teaching studies central crowding and generative variation. **Factor 2:** a creative contemporary generated image. **Factor 3:** the full frame is necessary to compare the unstable central mass with its border. **Factor 4:** this 768 × 1024px public display copy links to the artist’s project record and cannot replace the work or a licensed reproduction.
+- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative teaching studies the repeated tiled field, localized disruption in one tulip, and generative variation. **Factor 2:** a creative contemporary generated image. **Factor 3:** the full frame is necessary to compare the locally disrupted tulip tile with the surrounding grid and dark border. **Factor 4:** this 768 × 1024px public display copy links to the artist’s project record and cannot replace the work or a licensed reproduction.
 - **File:** `raw/anna-ridler/07-mosaic-virus-2018-still-b.jpg` (768 × 1024px)
 
 ### 08 — *Myriad (Tulips)* (2018), installation grid
