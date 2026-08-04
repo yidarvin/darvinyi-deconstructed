@@ -27,14 +27,15 @@ Bas Uterwijk (Ganbrood), © 2026 Ganbrood.
 
 ### 01 — *The Dream of Europa* (2021)
 
-- **Why it matters:** A bright, close foreground face holds against an expansive
-  blue-gray surround, making an ambiguous edge between portrait likeness and
-  mythic figure—a direct lesson in how selective detail stabilizes synthetic realism.
+- **Why it matters:** Two pale vertical divisions organize three adjacent,
+  full-height hybrid figure zones across an olive, ochre, and blue-green field.
+  Their repeated bodies and shared low ground make a direct lesson in how panel
+  rhythm can keep synthetic likeness shifting rather than settle it in one portrait.
 - **Source:** [Ganbrood gallery](https://ganbrood.com/) — [public display file](https://ganbrood.com/images/dream-of-europa.jpg).
 - **Use basis:** **fair-use.** © 2026 Ganbrood. This complete 2,400 × 1,350px frame
-  is needed to criticize the face-to-field hierarchy; it is a credited,
-  transformative, web-sized teaching use and does not replace the artist’s work or
-  any licensed reproduction.
+  is needed to criticize the panel divisions, shared ground, and repeated figure
+  relations; it is a credited, transformative, web-sized teaching use and does not
+  replace the artist’s work or any licensed reproduction.
 - **File:** `raw/bas-uterwijk/01-dream-of-europa.jpg` (2,400px long edge).
 
 ### 02 — *Chivalry in Retrograde* (2022)
@@ -138,13 +139,15 @@ Bas Uterwijk (Ganbrood), © 2026 Ganbrood.
 
 ### 11 — *Cenotaphs #62* (2023)
 
-- **Why it matters:** A vertical monument-like figure rises through a spare field;
-  its imbalance and empty margins make a compact study of how generated form can
-  borrow the gravity of archaeological or memorial imagery.
+- **Why it matters:** A dense, gold, bordered relief centers a frontal figure
+  whose looping cable interrupts the otherwise ceremonial stillness. It makes a
+  compact study of how generated form can borrow archaeological or memorial
+  authority through enclosure, density, and axial placement.
 - **Source:** [Ganbrood gallery](https://ganbrood.com/) — [public display file](https://ganbrood.com/images/cenotaphs-62.jpg).
 - **Use basis:** **fair-use.** © 2026 Ganbrood. The complete 1,350 × 2,400px frame
-  is essential to teach the monument/void proportion; this credited, linked,
-  web-sized analytical use is transformative and non-substitutive.
+  is essential to teach the bordered relief, centered figure, and looping cable;
+  this credited, linked, web-sized analytical use is transformative and
+  non-substitutive.
 - **File:** `raw/bas-uterwijk/11-cenotaphs-62.jpg` (2,400px long edge).
 
 ### 12 — *An artist’s impression of Napoleon I produced using a neural network* (2020)

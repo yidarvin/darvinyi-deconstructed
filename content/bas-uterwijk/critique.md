@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -76,3 +76,26 @@ proofs, and chapter copy.
   concise four-factor fair-use rationales are present for all twelve entries;
   the two required fixes concern the misleading per-image descriptive text,
   not source traceability or rights information. No camera data are asserted.
+
+## Resolution — 2026-08-04
+
+Re-verified critique history: the prior **2026-08-04** overlay round and the
+current **2026-08-04** source-description round. The three earlier required
+overlay fixes remain intact: *Chivalry in Retrograde* retains two visibly
+parallel thrusts; *Cenotaphs #62* uses the centered `FIGURE AXIS`; and
+*Napoleon I* uses the face-centered `FACE AXIS`. Their regenerated proofs pass
+visual review and score 100, 91.5, and 90, respectively (the latter two retain
+the semantically correct figure/face centers rather than the analyzer's global
+symmetry suggestion).
+
+1. **01-dream-of-europa:** replaced the stale foreground-face/blue-gray-field
+   description with the actual three full-height hybrid figure zones, their pale
+   divisions, shared ground, and olive/ochre/blue-green field. The source link,
+   credit, file record, and four-factor fair-use rationale are unchanged; its
+   pedagogical-need clause now accurately identifies the panel divisions, shared
+   ground, and repeated figure relations.
+2. **11-cenotaphs-62:** replaced the stale sparse-monument description with the
+   actual dense gold bordered relief, centered frontal figure, and looping cable.
+   The traceable source link, credit, file record, and four-factor fair-use
+   rationale are unchanged; its pedagogical-need clause now names the bordered
+   relief, centered figure, and looping cable.
