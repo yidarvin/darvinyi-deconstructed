@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -50,3 +50,13 @@ All eleven current overlay specs score 100/100. The affected composites received
 - `06-title-tk-2`: the `SPLAYED SUPPORT` leading line extends slightly across bare floor after leaving the left support leg. Its primary relation to the support remains clear, so this is not a blocking discrepancy.
 
 All eleven proofs were reviewed against their current specs and analyzer records. The remaining ten overlays are materially truthful and pedagogically scoped to 3–5 primitives; every spec scores 100/100. Chapter tonal, palette, grid, and structural claims match the analyzer records within tolerance, with no invented camera settings. All eleven direct public image routes returned HTTP 200 during this review, and each source entry supplies its own four-factor fair-use rationale.
+
+## Resolution — 2026-08-04
+
+Re-verified critique history: **2026-08-04, round 1** and **2026-08-04, round 2**.
+
+1. `09-acrylic-gel-full-set`: redrew `SKEWED PRINT EDGE` directly on the four visible outer frame edges, using the measured corner positions `(0.188, 0.132)`, `(0.795, 0.232)`, `(0.795, 0.747)`, and `(0.188, 0.840)`. The caption and prose still accurately describe that corrected contour.
+2. Re-checked all seven required fixes from round 1: the paired display wall, lenticular band, projected screen, checkered-floor line, blue support curve, skewed print edge, and monitor/workstation reading remain truthful in their current proofs and chapter text.
+3. Applied the prior advisory cleanup to `06-title-tk-2`: `SPLAYED SUPPORT` now ends at the central joint instead of continuing across bare floor.
+
+All eleven current overlay specs score 100/100. Fresh visual checks are clean for the corrected overlays and every prior required-fix proof; the content and rendered chapter remain byte-identical.
