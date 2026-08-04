@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "09-siren-dscf0747.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.377, "angle": 0, "label": "AURORA BAND" },
+    { "type": "frame_in_frame", "x": 0.36, "y": 0.36, "w": 0.28, "h": 0.47, "label": "LASER VEIL" },
+    { "type": "polyline", "points": [[0.40, 0.82], [0.44, 0.59], [0.43, 0.37]], "label": "LEFT LIGHT EDGE" },
+    { "type": "leading_line", "points": [[0.44, 0.98], [0.50, 0.79], [0.54, 0.61]], "arrow": true, "label": "REFLECTED LIGHT" }
+  ],
+  "notes": "A translucent laser veil rises from the shore into the auroral field."
+}

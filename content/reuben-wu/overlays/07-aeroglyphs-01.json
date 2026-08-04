@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "07-aeroglyphs-01.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.633, "angle": 0, "label": "SEA HORIZON" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "LIGHT / REFLECTION AXIS" },
+    { "type": "subject_anchor", "x": 0.492, "y": 0.772, "r": 0.045, "label": "REFLECTION GLOW" },
+    { "type": "polyline", "points": [[0.43, 0.53], [0.50, 0.53], [0.57, 0.53]], "label": "CROSSBAR" },
+    { "type": "polyline", "points": [[0.50, 0.43], [0.50, 0.59], [0.50, 0.96]], "label": "LIGHT / REFLECTION" }
+  ],
+  "notes": "A centered luminous cross binds sky to water through a narrow reflection."
+}

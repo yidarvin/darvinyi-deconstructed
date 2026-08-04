@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "04-lux-noctis-crowley-lake.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.522, "angle": -2, "label": "CLIFF / WATER SEAM" },
+    { "type": "leading_line", "points": [[0.399, 0.493], [0.72, 0.40], [0.988, 0.327]], "arrow": true, "label": "LIT CLIFF EDGE" },
+    { "type": "polyline", "points": [[0.47, 0.58], [0.57, 0.67], [0.61, 0.83]], "label": "VERTICAL REFLECTION" }
+  ],
+  "notes": "A lit cliff and its reflection turn the waterline into a calm hinge."
+}

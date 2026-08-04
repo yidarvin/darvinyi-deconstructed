@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "image": "07-aeroglyphs-01.jpg",
+  "width": 1600,
+  "height": 1600,
+  "aspect": 1.0,
+  "tonal": {
+    "mean": 0.47510425343233,
+    "std": 0.10303343782946192,
+    "p05": 0.28627450980392155,
+    "p95": 0.5882352941176471,
+    "edge_density": 0.00060272216796875
+  },
+  "palette": [
+    "#6a9cba",
+    "#508fb2",
+    "#266b83",
+    "#0d6172",
+    "#387995"
+  ],
+  "lines": [
+    {
+      "x1": 0.4921875,
+      "y1": 0.5556640625,
+      "x2": 0.4921875,
+      "y2": 0.4384765625,
+      "angle_deg": -90.0,
+      "length": 0.08286407592029853,
+      "class": "vertical"
+    }
+  ],
+  "horizon": {
+    "y": 0.6328125,
+    "angle_deg": 0.0,
+    "confidence": 1.0,
+    "method": "gradient"
+  },
+  "vanishing_point": null,
+  "saliency": {
+    "peak": [
+      0.4921875,
+      0.7724609375
+    ],
+    "regions": [
+      {
+        "cx": 0.49492690788526594,
+        "cy": 0.8000941486944865,
+        "x": 0.4453125,
+        "y": 0.7158203125,
+        "w": 0.0966796875,
+        "h": 0.1748046875,
+        "area_frac": 0.013249397277832031
+      }
+    ]
+  },
+  "faces": [],
+  "symmetry": {
+    "vertical": 0.9948643869987011,
+    "vertical_axis_x": 0.5,
+    "horizontal": 0.9492681882890319,
+    "horizontal_axis_y": 0.4
+  },
+  "subject_anchor": {
+    "x": 0.4921875,
+    "y": 0.7724609375,
+    "source": "saliency"
+  },
+  "grids": {
+    "thirds": 0.3747714650038552,
+    "phi": 0.44838521619383254,
+    "best": "phi"
+  },
+  "suggested_primitives": [
+    {
+      "type": "horizon_line",
+      "y": 0.633,
+      "angle": 0.0,
+      "label": "horizon",
+      "confidence": 1.0,
+      "why": "luminance split / dominant horizontal (gradient)"
+    },
+    {
+      "type": "symmetry_axis",
+      "orientation": "vertical",
+      "pos": 0.5,
+      "confidence": 0.99,
+      "why": "strong left/right mirror correlation"
+    },
+    {
+      "type": "subject_anchor",
+      "x": 0.492,
+      "y": 0.772,
+      "r": 0.035,
+      "label": "saliency",
+      "confidence": 0.6,
+      "why": "strongest subject signal: saliency"
+    }
+  ]
+}

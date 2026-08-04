@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "10-siren-dscf0762.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.666, "angle": 0, "label": "SHORELINE" },
+    { "type": "polyline", "points": [[0.38, 0.40], [0.37, 0.80], [0.62, 0.80], [0.60, 0.47], [0.38, 0.40]], "label": "TILTED LASER VEIL" },
+    { "type": "polyline", "points": [[0.39, 0.82], [0.42, 0.60], [0.42, 0.37]], "label": "LEFT LIGHT EDGE" },
+    { "type": "polyline", "points": [[0.50, 0.98], [0.62, 0.81], [0.67, 0.67]], "label": "WET-SAND REFLECTION" }
+  ],
+  "notes": "The canted light veil makes a vertical frame out of shifting shore and sky."
+}

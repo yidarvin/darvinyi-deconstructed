@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "02-lux-noctis-bisti-ii.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.458, "angle": 0, "label": "DARK GROUND BREAK" },
+    { "type": "subject_anchor", "x": 0.383, "y": 0.281, "r": 0.055, "label": "LIT HOODOO" },
+    { "type": "polyline", "points": [[0.13, 0.75], [0.25, 0.57], [0.39, 0.43], [0.50, 0.37], [0.71, 0.43]], "label": "RISING ROCK MASS" }
+  ],
+  "notes": "A single lit hoodoo rises from a deliberately unoccupied black field."
+}
