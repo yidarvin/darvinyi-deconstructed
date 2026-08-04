@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -14,3 +14,21 @@ verdict: revise
 
 - `02-bina48-fragments-7-6-5-2-icp`: the four screen boxes broadly trace the monitors, but the `LOWER SCREEN` anchor is positioned on the upper edge of the lower-right monitor and the repeated boxes read more as an inventory than a compositional argument. Consider simplifying or anchoring a pictured subject/viewer.
 - `06-ntoo-making-process`: `STARTING PROMPT` marks “Getting started” rather than the heading above, and the `PROCESS LIST` frame excludes the visible “learn Tensorflow” line. Tightening those labels/bounds would make the teaching claim clearer, but the current overlay remains legible.
+
+## Resolution — 2026-08-03
+
+Re-verified critique round 2026-08-03 in full.
+
+1. Re-rendered `03-bina48-fragments-17-19-20-mocp`. Its three labelled
+   frames now trace the actual left, centre, and right monitors; the portrait
+   anchor is on the right monitor and is labelled accordingly. Deterministic
+   score: 97/100 (pass), followed by a clean visual pass.
+2. Removed the unsupported Museum of Contemporary Photography attribution from
+   the source notes, research note, and both byte-identical chapter copies. The
+   2020 image is now described only as the artist page documents it.
+3. Rewrote all six per-image fair-use credit statements: five distinguish artist
+   attribution from the absence of a supplied work-specific notice; the Whitney
+   record's “© Stephanie Dinkins Studio” notice is retained only for *Fragments
+   7, 6, 5, 2*.
+
+`bash scripts/check.sh` passed before this resolution was recorded.
