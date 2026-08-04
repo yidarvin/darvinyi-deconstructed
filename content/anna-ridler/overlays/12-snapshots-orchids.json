@@ -6,7 +6,7 @@
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "composite axis" },
     { "type": "horizon_line", "y": 0.784, "angle": 0.0, "label": "lower composite band" },
     { "type": "subject_anchor", "x": 0.584, "y": 0.242, "r": 0.035, "label": "orchid cluster" },
-    { "type": "frame_in_frame", "x": 0.165, "y": 0.143, "w": 0.672, "h": 0.748, "label": "polaroid composite" }
+    { "type": "frame_in_frame", "x": 0.165, "y": 0.143, "w": 0.672, "h": 0.677, "label": "polaroid composite" }
   ],
   "notes": "A lattice of small pictures must be read both as an orchid image and as a visible tiled construction."
 }

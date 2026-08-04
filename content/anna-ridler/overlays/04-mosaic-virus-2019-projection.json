@@ -5,7 +5,7 @@
   "primitives": [
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central display axis" },
     { "type": "subject_anchor", "x": 0.226, "y": 0.458, "r": 0.035, "label": "left bloom" },
-    { "type": "frame_in_frame", "x": 0.096, "y": 0.178, "w": 0.803, "h": 0.706, "label": "three-screen field" }
+    { "type": "frame_in_frame", "x": 0.103, "y": 0.175, "w": 0.796, "h": 0.516, "label": "three-screen field" }
   ],
   "notes": "The room makes three bright screens read as a single bounded display field."
 }
