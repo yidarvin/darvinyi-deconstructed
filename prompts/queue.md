@@ -243,7 +243,7 @@ real queue and state live in data/registry.json.
 | 232 | latoya-ruby-frazier       | LaToya Ruby Frazier          | DONE    |
 | 233 | reuben-wu                 | Reuben Wu                    | DONE    |
 | 234 | jake-elwes                | Jake Elwes                   | DONE    |
-| 235 | anna-ridler               | Anna Ridler                  | PENDING |
+| 235 | anna-ridler               | Anna Ridler                  | DONE    |
 | 236 | james-coupe               | James Coupe                  | PENDING |
 | 237 | alexey-yurenev            | Alexey Yurenev               | PENDING |
 | 238 | danielle-ezzo             | Danielle Ezzo                | PENDING |

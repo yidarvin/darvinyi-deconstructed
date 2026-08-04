@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-03
 
@@ -68,3 +68,15 @@ Resolved both required source-note corrections from the current critique round.
 2. **07-mosaic-virus-2018-still-b:** `sources.md` now identifies a tall tiled field with one locally disrupted tulip tile, and its Factor 1 and Factor 3 rationale explicitly compare that local disruption to the surrounding grid and dark border.
 
 Re-verified every required fix from the complete critique history: the first 2026-08-03 round (01, 02, 04, and 10 source-note corrections), the second 2026-08-03 round (04, 06, 07, and 12), and the current 2026-08-03 regression round (06 and 07). The earlier 01/02/04/10 descriptions remain truthful; 04's `THREE-SCREEN FIELD` and 12's `POLAROID COMPOSITE` retain their tightened bounds; and the 06/07 proofs and specs remain aligned with their now-grid-based source descriptions. The affected score records report 100/100 and the visual review finds the named fields, axes, and local disrupted-bloom anchor on the visible tiled structures. `scripts/check.sh` and pipeline validation pass after this resolution.
+
+## Critique round — 2026-08-03
+
+### Required findings
+
+None. I reviewed all twelve current proof PNGs against their overlay specs and analyzer records. Every score record is 100/100; the named primitives still trace the visible screens, tile fields, printed annotations, workspace, still-life structures, and orchid composite. The previously corrected 01/02/04/10 source descriptions, 04/12 frame bounds, and 06/07 tiled-field accounts remain materially truthful. The chapter's quoted measurements match the current analyzer values within tolerance, and its camera-data caveat confines the iPhone EXIF to the installation-documentation file.
+
+All twelve image records retain a source URL, artist credit, and concise four-factor fair-use rationale; every cited artist, display-file, and V&A route returned HTTP 200 during this review.
+
+### Advisory (non-blocking)
+
+None.
