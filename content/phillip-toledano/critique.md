@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-04
 
@@ -21,3 +21,14 @@ verdict: revise
 - Inspected all 12 rendered proofs against their overlay specs and analyzer outputs. Each overlay uses 3–4 primitives, and no materially false overlay label or fabricated camera setting was found.
 - All twelve direct LensCulture image routes returned public JPEGs matching the ingested plates; the record credits © Phillip Toledano and supplies a per-image four-factor fair-use rationale. The blocking issues above concern inaccurate local frame descriptions, not missing provenance or a rights-route defect.
 - All chapter tonal, palette, and edge-density figures checked against the corresponding analyzer JSON within the stated tolerance.
+
+## Builder resolution — 2026-08-04
+
+Resolved all required source-record corrections:
+
+1. `03-owl-hat` now uses the neutral, visually supportable title “Portrait with owl crown” and describes a sitter without asserting an age.
+2. `06-tsunami` retains that name only as its source filename and now records the visible people, water, birds, haze, and distant skyline rather than an absent curling wave.
+3. `08-snowy-portrait` now records the seated man and surrounding white poodles; it makes no snow claim.
+4. `10-belgian-helmet` now identifies the snowy outdoor street setting in both its frame description and teaching need.
+
+Full critique history re-verified: round dated 2026-08-04 (the only prior round). Its four required fixes hold in the current `sources.md`; the unchanged chapter and overlay evidence remain consistent with the corrected descriptions. The advisory leading-line warnings were rechecked and require no change.
