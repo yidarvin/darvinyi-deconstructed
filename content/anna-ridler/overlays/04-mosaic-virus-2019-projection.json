@@ -3,7 +3,6 @@
   "image": "04-mosaic-virus-2019-projection.jpg",
   "grid": { "type": "thirds" },
   "primitives": [
-    { "type": "horizon_line", "y": 0.179, "angle": 0.0, "label": "screen top line" },
     { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central display axis" },
     { "type": "subject_anchor", "x": 0.226, "y": 0.458, "r": 0.035, "label": "left bloom" },
     { "type": "frame_in_frame", "x": 0.096, "y": 0.178, "w": 0.803, "h": 0.706, "label": "three-screen field" }

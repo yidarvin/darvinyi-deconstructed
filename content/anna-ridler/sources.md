@@ -7,15 +7,15 @@ This set follows Ridler’s photographic dataset work into the generative moving
 ## Shortlist
 
 ### 01 — *Mosaic Virus 2019* (2019), gallery screen view
-- **Why it matters:** One glowing tulip screen dominates a dark exhibition field, making the small floral image and the surrounding negative space a study in scale, attention, and display architecture.
+- **Why it matters:** Three vertical tulip screens punctuate a bright white gallery wall, while a viewer standing before them makes their repeated scale and display architecture part of the composition.
 - **Source:** [Anna Ridler, *Mosaic Virus 2019*](https://annaridler.com/works/mosaic-2019) (public display file: https://annaridler.com/content/works/mosaic-2019/block_2/LC00882-0097.jpg)
-- **Rights / fair-use assessment:** Artwork: Anna Ridler; the project page’s author metadata identifies Anna Ridler (no separate rights notice is supplied for this installation photograph). **Factor 1:** transformative criticism analyzes the single screen’s placement in the dark gallery. **Factor 2:** a creative contemporary GAN-generated video and installation view. **Factor 3:** the whole published view is needed to compare the projected tulip with its surrounding void. **Factor 4:** this credited 2000 × 1333px public display copy links to the artist record and does not replace the 30-minute installation, a print, or a licensed reproduction.
+- **Rights / fair-use assessment:** Artwork: Anna Ridler; the project page’s author metadata identifies Anna Ridler (no separate rights notice is supplied for this installation photograph). **Factor 1:** transformative criticism analyzes the three screens’ placement, spacing, and encounter with the viewer in the bright gallery. **Factor 2:** a creative contemporary GAN-generated video and installation view. **Factor 3:** the whole published view is needed to compare all three screens with their wall, floor, and viewer. **Factor 4:** this credited 2000 × 1333px public display copy links to the artist record and does not replace the 30-minute installation, a print, or a licensed reproduction.
 - **File:** `raw/anna-ridler/01-mosaic-virus-2019-screen.jpg` (2000 × 1333px)
 
-### 02 — *Mosaic Virus 2019* (2019), paired screen view
-- **Why it matters:** Two illuminated screens make serial variation visible: a narrow gap and matched scale turn separate generated flowers into a measured visual comparison.
+### 02 — *Mosaic Virus 2019* (2019), three-screen view
+- **Why it matters:** Three illuminated screens make serial variation visible: their intervals and matched scale turn separate generated flowers into a measured visual comparison.
 - **Source:** [Anna Ridler, *Mosaic Virus 2019*](https://annaridler.com/works/mosaic-2019) (public display file: https://annaridler.com/content/works/mosaic-2019/block_2/LC00884-0046.jpg)
-- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler; no separate installation-photo notice supplied. **Factor 1:** transformative teaching studies paired framing and repetition. **Factor 2:** a creative contemporary GAN-generated video. **Factor 3:** the complete published view is required to retain both screens and their spacing. **Factor 4:** the credited 2000 × 1333px display copy is web-sized, record-linked, and cannot replace the time-based work or licensed imagery.
+- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler; no separate installation-photo notice supplied. **Factor 1:** transformative teaching studies serial framing, repetition, and the intervals between the three screens. **Factor 2:** a creative contemporary GAN-generated video. **Factor 3:** the complete published view is required to retain all three screens and their spacing. **Factor 4:** the credited 2000 × 1333px display copy is web-sized, record-linked, and cannot replace the time-based work or licensed imagery.
 - **File:** `raw/anna-ridler/02-mosaic-virus-2019-screen-pair.jpg` (2000 × 1333px)
 
 ### 03 — *Mosaic Virus 2019* (2019), installation view
@@ -24,10 +24,10 @@ This set follows Ridler’s photographic dataset work into the generative moving
 - **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler; no separate installation-photo notice supplied. **Factor 1:** transformative criticism examines the triptych rhythm and screen-to-room proportion. **Factor 2:** a creative contemporary installation. **Factor 3:** the complete installation view is necessary to assess all three screens together. **Factor 4:** this 3269 × 2304px public display copy links to the artist record and cannot substitute for attending, purchasing, or licensing the work.
 - **File:** `raw/anna-ridler/03-mosaic-virus-2019-installation.jpg` (3269 × 2304px)
 
-### 04 — *Mosaic Virus 2019* (2019), projection view
-- **Why it matters:** A large flower projection is held against the room’s hard edges, showing how an unstable generated bloom can be composed as a monumental, almost still-life-like field.
+### 04 — *Mosaic Virus 2019* (2019), three-screen display view
+- **Why it matters:** Three separate vertical display screens hold distinct generated tulip states against a dark gallery wall, making serial comparison and the spacing between screens the visible structure.
 - **Source:** [Anna Ridler, *Mosaic Virus 2019*](https://annaridler.com/works/mosaic-2019) (public display file: https://annaridler.com/content/works/mosaic-2019/block_2/mosaic.jpg)
-- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler; no separate installation-photo notice supplied. **Factor 1:** transformative analysis studies projection scale and the room’s framing edges. **Factor 2:** a creative contemporary GAN-generated video. **Factor 3:** the full view is needed to compare the bloom, projection rectangle, and gallery architecture. **Factor 4:** this 2500 × 1941px public display copy is credited and linked to the artist; it cannot replace the installation or licensed still.
+- **Rights / fair-use assessment:** Artwork: Anna Ridler; author metadata: Anna Ridler; no separate installation-photo notice supplied. **Factor 1:** transformative analysis studies the three display screens’ serial framing and their relation to the gallery wall. **Factor 2:** a creative contemporary GAN-generated video. **Factor 3:** the full view is needed to compare all three tulip states, the screens’ intervals, and the gallery setting. **Factor 4:** this 2500 × 1941px public display copy is credited and linked to the artist; it cannot replace the installation or licensed still.
 - **File:** `raw/anna-ridler/04-mosaic-virus-2019-projection.jpg` (2500 × 1941px)
 
 ### 05 — *Mosaic Virus 2018* (2018), installation view
@@ -60,10 +60,10 @@ This set follows Ridler’s photographic dataset work into the generative moving
 - **Rights / fair-use assessment:** Artwork and photographs: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative teaching analyzes the relation of photographic crop to handwritten label. **Factor 2:** a creative contemporary photographic installation. **Factor 3:** the full published detail is needed to preserve both flower and annotation. **Factor 4:** the 1500 × 1000px public display copy links to the artist and does not replace a physical print or licensed detail.
 - **File:** `raw/anna-ridler/09-myriad-tulips-detail.jpg` (1500 × 1000px)
 
-### 10 — *Myriad (Tulips)* (2018), process grid
-- **Why it matters:** The tall process view makes repetition tactile: rows of small frames accumulate upward while uneven handwritten notes prevent the grid from becoming an abstractly perfect system.
+### 10 — *Myriad (Tulips)* (2018), studio workspace view
+- **Why it matters:** Cut tulips, buckets, a camera, books, and a small black backdrop turn the worktable into a legible photographic workspace, making the manual conditions of dataset production visible.
 - **Source:** [Anna Ridler, *Myriad (Tulips)*](https://annaridler.com/works/myriad-tulips) (public display file: https://annaridler.com/content/works/myriad-tulips/block_3/group_1/IMG_8153.webp)
-- **Rights / fair-use assessment:** Artwork and photographs: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative criticism studies vertical repetition and the visible work of classification. **Factor 2:** a creative contemporary photographic process image. **Factor 3:** the intact tall view is required to assess the cumulative grid. **Factor 4:** this 1500 × 2000px public display rendition links to the artist’s record and cannot replace the installation or licensed reproduction.
+- **Rights / fair-use assessment:** Artwork and photographs: Anna Ridler; author metadata: Anna Ridler. **Factor 1:** transformative criticism studies the workspace, specimen, and tools that make visible the labor of photographic classification. **Factor 2:** a creative contemporary photographic process image. **Factor 3:** the intact tall view is required to assess the relation of cut flowers, camera, books, backdrop, and work surface. **Factor 4:** this 1500 × 2000px public display rendition links to the artist’s record and cannot replace the installation or licensed reproduction.
 - **File:** `raw/anna-ridler/10-myriad-tulips-process-grid.jpg` (1500 × 2000px)
 
 ### 11 — *Broken Flowers (variations)* (2022), tulip still life

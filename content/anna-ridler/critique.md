@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -12,3 +12,14 @@ verdict: revise
 ### Advisory (non-blocking)
 
 - No additional material overlay, pedagogy, analyzer-value, camera-setting, or fair-use/source-traceability defect was found. All twelve cited official artist routes and the V&A context route returned successfully during this review; every selection has a per-image four-factor fair-use rationale. The rendered overlays use three to four legible primitives and, on visual inspection, trace the named screen, tile, annotation, workspace, still-life, or composite features.
+
+## Builder resolution — 2026-08-03
+
+Resolved all four required source-note corrections from the 2026-08-03 critique round.
+
+1. **01** now identifies the three vertical screens, bright white wall, and viewer; its fair-use rationale now describes that complete relationship.
+2. **02** is titled and described as a three-screen view, with the fair-use rationale corrected from paired/two-screen language.
+3. **04** is titled and described as a three-screen display view, and its rationale no longer describes a single projection.
+4. **10** is titled and described as a studio workspace with cut tulips, buckets, camera, books, and a black backdrop; its rationale now assesses that workspace.
+
+Re-verified every required fix from the complete available critique history: the 2026-08-03 round. Re-rendered the independently identified label-collision overlays for 01, 04, and 08; each has a clean visual pass and scores 100/100. `scripts/check.sh` passes.

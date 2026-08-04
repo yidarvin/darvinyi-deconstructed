@@ -4,8 +4,8 @@
   "grid": { "type": "phi" },
   "primitives": [
     { "type": "frame_in_frame", "x": 0.177, "y": 0.058, "w": 0.777, "h": 0.848, "label": "tulip archive" },
-    { "type": "frame_in_frame", "x": 0.199, "y": 0.096, "w": 0.737, "h": 0.761, "label": "print grid" },
-    { "type": "polyline", "points": [[0.207, 0.223], [0.549, 0.482], [0.920, 0.780]], "label": "accumulating field" }
+    { "type": "polyline", "points": [[0.207, 0.223], [0.549, 0.482], [0.920, 0.780]], "label": "accumulating field" },
+    { "type": "polyline", "points": [[0.332, 0.367], [0.304, 0.447], [0.307, 0.683], [0.315, 0.874]], "label": "viewer contour" }
   ],
   "notes": "A wall-sized archive lets individual labeled photographs become a collective image."
 }
