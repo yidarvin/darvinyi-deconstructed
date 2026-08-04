@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "03-bina48-fragments-17-19-20-mocp.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "frame_in_frame", "x": 0.352, "y": 0.239, "w": 0.240, "h": 0.270, "label": "LEFT SCREEN" },
+    { "type": "frame_in_frame", "x": 0.592, "y": 0.239, "w": 0.191, "h": 0.267, "label": "CENTRE SCREEN" },
+    { "type": "frame_in_frame", "x": 0.784, "y": 0.244, "w": 0.185, "h": 0.264, "label": "RIGHT SCREEN" },
+    { "type": "horizon_line", "y": 0.904, "angle": 0, "label": "FLOOR / WALL SEAM" },
+    { "type": "subject_anchor", "x": 0.726, "y": 0.318, "r": 0.035, "label": "CENTRE PORTRAIT" }
+  ],
+  "notes": "A lateral row of screens makes a speaking portrait architectural, while cables and the floor preserve the installation's material setting."
+}

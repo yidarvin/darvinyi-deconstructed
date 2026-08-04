@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "image": "06-ntoo-making-process.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "subject_anchor", "x": 0.180, "y": 0.143, "r": 0.035, "label": "STARTING PROMPT" },
+    { "type": "frame_in_frame", "x": 0.218, "y": 0.244, "w": 0.650, "h": 0.654, "label": "PROCESS LIST" },
+    { "type": "leading_line", "points": [[0.224, 0.267], [0.933, 0.267]], "arrow": false, "label": "INSTRUCTION ROW" },
+    { "type": "leading_line", "points": [[0.224, 0.399], [0.955, 0.399]], "arrow": false, "label": "INSTRUCTION ROW" },
+    { "type": "leading_line", "points": [[0.234, 0.882], [0.780, 0.882]], "arrow": false, "label": "INSTRUCTION ROW" }
+  ],
+  "notes": "The process diagram makes an AI project legible as a vertically ordered sequence of instructions, interviews, and revisions."
+}

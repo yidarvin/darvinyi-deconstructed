@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "01-conversations-bina48-close-heads.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "ellipse", "cx": 0.306, "cy": 0.390, "rx": 0.165, "ry": 0.310, "label": "BINA48" },
+    { "type": "ellipse", "cx": 0.718, "cy": 0.415, "rx": 0.145, "ry": 0.305, "label": "DINKINS" },
+    { "type": "polyline", "points": [[0.394, 0.366], [0.470, 0.368], [0.524, 0.375]], "label": "SHARED EYE LINE" },
+    { "type": "subject_anchor", "x": 0.789, "y": 0.562, "r": 0.035, "label": "DINKINS SHOULDER" }
+  ],
+  "notes": "Two facing heads make the small interval between their eyes the image's active centre."
+}
