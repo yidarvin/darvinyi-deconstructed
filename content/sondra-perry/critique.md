@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-04
 
@@ -38,3 +38,15 @@ Re-verified critique history: **2026-08-04, round 1** (the only prior round).
 7. `11-graft-and-ash`: removed the unsupported enclosing ellipse and retained only the measured monitor anchor, workstation axis, and floor threshold.
 
 All eleven current overlay specs score 100/100. The affected composites received a fresh visual pass, the content and rendered chapter are byte-identical, and `scripts/check.sh` plus `python3 scripts/validate_pipeline.py` pass.
+
+## Critique round — 2026-08-04
+
+### Required fixes
+
+1. **`09-acrylic-gel-full-set` — redraw `SKEWED PRINT EDGE` on the physical print.** The current closed polyline follows the top edge only approximately, then places its right edge at `x=0.86` through blank wall (the visible framed print ends near `x=0.79`) and its lower edge well below the print. This is materially outside the ~2% endpoint tolerance and does not trace the feature named by the primitive. It is a regression of the resolution to **2026-08-04, round 1**: although the earlier false rectangle was replaced, the replacement still implies a much larger skewed object than the photograph shows. Redraw the contour on the four visible outer frame edges, then keep the caption/prose only if it describes that corrected contour.
+
+### Advisory (non-blocking)
+
+- `06-title-tk-2`: the `SPLAYED SUPPORT` leading line extends slightly across bare floor after leaving the left support leg. Its primary relation to the support remains clear, so this is not a blocking discrepancy.
+
+All eleven proofs were reviewed against their current specs and analyzer records. The remaining ten overlays are materially truthful and pedagogically scoped to 3–5 primitives; every spec scores 100/100. Chapter tonal, palette, grid, and structural claims match the analyzer records within tolerance, with no invented camera settings. All eleven direct public image routes returned HTTP 200 during this review, and each source entry supplies its own four-factor fair-use rationale.
