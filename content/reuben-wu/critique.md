@@ -1,4 +1,4 @@
-verdict: revise
+verdict: resolved
 
 ## Critique round — 2026-08-03
 
@@ -17,3 +17,13 @@ verdict: revise
 - `10-siren-dscf0762`: `LEFT LIGHT EDGE` partly follows an interior luminous strand rather than the outermost left boundary; it is still visually plausible.
 
 All twelve proofs were inspected.  The deterministic scores are at least 92/100 (eleven 100/100); the required findings above are semantic visual-truthfulness failures that the geometric scorer does not test.  Chapter measurements agree with the analyzer within the stated tolerance, no individual camera settings are asserted, and every cited official-portfolio image and project URL resolved successfully.  The documented per-image fair-use rationales and credits are complete.
+
+## Resolution — 2026-08-03
+
+Re-verified prior critique round `2026-08-03` in full.  The required fixes now hold:
+
+1. `06-lux-noctis-dsc8162`: `FIGURE ON BOULDER` is centred at `(0.614, 0.47)`, on the visible lit figure/red light rather than the boulder face.  The revised overlay scores 99/100; the one-point analyzer variance is expected because its saliency region encompasses the boulder, while the labelled feature is visually distinct.
+2. `08-aeroglyphs-10`: both frame polylines now follow their luminous lower edges (`y=0.78→0.75` left and `y=0.78→0.77` right).  The overlay scores 100/100.
+3. `08-aeroglyphs-10`: the false straight `MOUNTAIN RHYTHM` horizon is replaced by a ridge-following polyline along the serrated mountain silhouette.
+
+Both regenerated proofs received a clean visual pass.  No chapter prose change was needed: its descriptions of the light frames and mountain rhythm remain accurate.  `scripts/check.sh` passed before this resolution was recorded.
