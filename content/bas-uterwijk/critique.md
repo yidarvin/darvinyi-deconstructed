@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: revise
 
 ## Critique round — 2026-08-04
 
@@ -99,3 +99,38 @@ symmetry suggestion).
    The traceable source link, credit, file record, and four-factor fair-use
    rationale are unchanged; its pedagogical-need clause now names the bordered
    relief, centered figure, and looping cable.
+
+## Critique round — 2026-08-04
+
+### Required
+
+1. **08-deathless-aphrodite — `LEVEL EYE LINE` traces the brows, not the eyes.**
+   The polyline at y 0.39–0.40 runs across the brows/upper lids in the current
+   proof; both visible eye centers are materially lower. The detector's
+   y 0.397 luminance split is not visual evidence for calling this an eye line.
+   Reposition the line to the actual eyes or relabel it as a brow line, then make
+   the plate caption and chapter sentence match the corrected claim.
+2. **08-deathless-aphrodite — the source note describes a different image.**
+   Its `sources.md` “Why it matters” entry says that a “centrally seated,
+   flower-bound figure” is visible. The supplied source image and rendered proof
+   show a close frontal face against a plain light ground: no seated body or
+   flowers are visible. Replace this stale description with one that identifies
+   the displayed portrait's actual facial symmetry and tonal field while keeping
+   the existing traceable source, credit, and fair-use rationale.
+
+### Advisory (non-blocking)
+
+- No new advisories. The prior round's 07 `INNER ENCLOSURE` approximation remains
+  non-blocking and has not materially regressed.
+
+### Verification record
+
+- All twelve current proof PNGs were visually re-inspected with their specs and
+  analysis files. Fresh-eyes suggestions to move 11's `FIGURE AXIS` and 12's
+  `FACE AXIS` back to detector-wide symmetry values are rejected: the prior
+  resolution remains visibly correct for the depicted centered figure and face,
+  respectively, with no material regression.
+- All twelve cited public display routes and both source-record pages returned
+  HTTP 200 during this review. Every image retains a credited per-image
+  four-factor fair-use rationale; no camera settings are asserted, and this is
+  not a limited-source chapter.
