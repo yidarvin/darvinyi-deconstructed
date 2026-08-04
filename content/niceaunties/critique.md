@@ -1,4 +1,4 @@
-verdict: resolved
+verdict: approve
 
 ## Critique round — 2026-08-04
 
@@ -93,3 +93,26 @@ states that the actual street is below this architectural band. Its refreshed
 proof received a clean visual pass and scores 100 with no deductions or
 warnings. All twelve current overlay specs score at least 97, and the content
 and rendered-site chapter copies are byte-identical. `scripts/check.sh` passed.
+
+## Critique round — 2026-08-04
+
+Re-reviewed all twelve current proofs against their overlay specs, stored
+composition analyses, chapter, manifest, research note, and source record. The
+previously resolved findings for 07-spamenu-0195, 08-spamenu-0197,
+12-fashion-0568, and 06-auntiecity-0033 remain resolved: each current proof
+traces the named, visible feature and the chapter uses the corrected readings.
+All chapter geometry, tonal, palette, and edge-density values match the stored
+analysis values within the stated tolerance. The manifest and research note
+properly record the absence of camera EXIF and make no camera-setting claims.
+All 16 documented artist and public-display source URLs returned HTTP 200 at
+review time; every image has a credit, a direct source link, and a per-image
+fair-use rationale that is supported by the four-factor assessment in the
+source record.
+
+### Required
+
+None.
+
+### Advisory (non-blocking)
+
+None.
