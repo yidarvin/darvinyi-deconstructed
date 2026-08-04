@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "image": "05-its-in-the-game.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.322, "angle": 1.1, "label": "blue-room divide" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.625, "label": "room balance" },
+    { "type": "frame_in_frame", "x": 0.49, "y": 0.19, "w": 0.18, "h": 0.23, "label": "projected screen" }
+  ],
+  "notes": "Chroma-key blue absorbs wall and display while apparatus interrupts the open floor."
+}

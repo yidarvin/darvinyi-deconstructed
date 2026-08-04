@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "07-eclogue-inhabitability.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.504, "y": 0.692, "label": "corridor convergence" },
+    { "type": "leading_line", "points": [[0.294, 0.998], [0.838, 0.6]], "arrow": true, "label": "checkered floor" },
+    { "type": "leading_line", "points": [[0.398, 0.662], [0.921, 0.98]], "arrow": true, "label": "machine arm" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central aisle" }
+  ],
+  "notes": "Floor perspective and a machine arm pull an industrial viewing apparatus into the corridor’s depth."
+}

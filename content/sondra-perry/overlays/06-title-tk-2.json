@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "06-title-tk-2.jpg",
+  "grid": { "type": "phi" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.588, "angle": 0, "label": "wall-floor join" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "sculpture axis" },
+    { "type": "vanishing_point", "x": 0.491, "y": 0.797, "label": "base convergence" },
+    { "type": "leading_line", "points": [[0.244, 0.907], [0.621, 0.745]], "arrow": true, "label": "splayed support" }
+  ],
+  "notes": "The isolated monitor and support legs make utility equipment read as a centred figure."
+}

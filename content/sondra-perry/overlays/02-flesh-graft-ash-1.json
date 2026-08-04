@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "02-flesh-graft-ash-1.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "horizon_line", "y": 0.236, "angle": 0, "label": "panel tops" },
+    { "type": "symmetry_axis", "orientation": "vertical", "pos": 0.5, "label": "central panel axis" },
+    { "type": "subject_anchor", "x": 0.507, "y": 0.416, "r": 0.05, "label": "central face" },
+    { "type": "frame_in_frame", "x": 0.38, "y": 0.21, "w": 0.24, "h": 0.43, "label": "middle light box" }
+  ],
+  "notes": "A centred face is held in a measured rhythm of three lit panels."
+}

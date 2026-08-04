@@ -1,0 +1,90 @@
+[
+  {
+    "file": "01-a-terrible-thing.jpg",
+    "width": 840,
+    "height": 560,
+    "sha1": "725c7662",
+    "source": "01-a-terrible-thing.jpg",
+    "exif": {}
+  },
+  {
+    "file": "02-flesh-graft-ash-1.jpg",
+    "width": 840,
+    "height": 560,
+    "sha1": "92bd2876",
+    "source": "02-flesh-graft-ash-1.jpg",
+    "exif": {}
+  },
+  {
+    "file": "03-ocean-modifier.jpg",
+    "width": 840,
+    "height": 472,
+    "sha1": "4f04fb89",
+    "source": "03-ocean-modifier.jpg",
+    "exif": {}
+  },
+  {
+    "file": "04-typhoon-coming-on.jpg",
+    "width": 840,
+    "height": 561,
+    "sha1": "b9cf823c",
+    "source": "04-typhoon-coming-on.jpg",
+    "exif": {}
+  },
+  {
+    "file": "05-its-in-the-game.jpg",
+    "width": 840,
+    "height": 560,
+    "sha1": "a4546f84",
+    "source": "05-its-in-the-game.jpg",
+    "exif": {}
+  },
+  {
+    "file": "06-title-tk-2.jpg",
+    "width": 840,
+    "height": 560,
+    "sha1": "d7a07af8",
+    "source": "06-title-tk-2.jpg",
+    "exif": {}
+  },
+  {
+    "file": "07-eclogue-inhabitability.jpg",
+    "width": 840,
+    "height": 560,
+    "sha1": "5470f102",
+    "source": "07-eclogue-inhabitability.jpg",
+    "exif": {}
+  },
+  {
+    "file": "08-ffff-four.jpg",
+    "width": 840,
+    "height": 559,
+    "sha1": "5bf43b23",
+    "source": "08-ffff-four.jpg",
+    "exif": {}
+  },
+  {
+    "file": "09-acrylic-gel-full-set.jpg",
+    "width": 401,
+    "height": 600,
+    "sha1": "c1fe424e",
+    "source": "09-acrylic-gel-full-set.jpg",
+    "exif": {}
+  },
+  {
+    "file": "10-wet-and-wavy-looks.jpg",
+    "width": 840,
+    "height": 562,
+    "sha1": "fb97c8f5",
+    "source": "10-wet-and-wavy-looks.jpg",
+    "exif": {}
+  },
+  {
+    "file": "11-graft-and-ash.jpg",
+    "width": 400,
+    "height": 600,
+    "sha1": "ed51ec0a",
+    "source": "11-graft-and-ash.jpg",
+    "exif": {}
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "image": "04-typhoon-coming-on.jpg",
+  "grid": { "type": "thirds" },
+  "primitives": [
+    { "type": "vanishing_point", "x": 0.297, "y": 0.475, "label": "gallery convergence" },
+    { "type": "leading_line", "points": [[0.475, 0.633], [0.896, 0.996]], "arrow": true, "label": "right projection edge" },
+    { "type": "horizon_line", "y": 0.471, "angle": 0, "label": "projected horizon" },
+    { "type": "frame_in_frame", "x": 0.30, "y": 0.17, "w": 0.70, "h": 0.66, "label": "projection wall" }
+  ],
+  "notes": "A receding gallery corridor makes the projection feel engulfing rather than screen-bound."
+}
