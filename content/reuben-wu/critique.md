@@ -1,0 +1,19 @@
+verdict: revise
+
+## Critique round — 2026-08-03
+
+### Required fixes
+
+1. `06-lux-noctis-dsc8162`: the `FIGURE ON BOULDER` subject anchor is centred at `(0.614, 0.526)`, on the boulder face.  The visible lit figure/red light is about `(0.614, 0.47)`, above the circle in the proof.  Move the anchor to that figure (or relabel it as the boulder); as drawn, the primitive names a feature it does not trace.
+2. `08-aeroglyphs-10`: re-trace both light-frame polylines on the illuminated square outlines.  The lower edge of the left drawing is specified around `y=0.64–0.66` and the right around `y=0.68`, while the corresponding luminous lower edges are near `y=0.77–0.78` in the proof.  These are material misses that change the two frames’ overlap and counter-rhythm.
+3. `08-aeroglyphs-10`: `MOUNTAIN RHYTHM` is a straight `horizon_line` at `y=0.721`; it runs through open sky over much of the serrated mountain chain instead of tracing the labelled ridge.  Replace it with a ridge-following polyline or remove/recast the claim.
+
+### Advisory (non-blocking)
+
+- `01-lux-noctis-alabama-hills`: `RIDGE / SKY BREAK` is a useful analyzer-aligned tonal divider (`y=0.510`), but a more literal label such as “TONAL SKY / ROCK BREAK” would make clear that the separate `SERRATED RIDGE` polyline—not this straight line—follows the silhouette.
+- `03-lux-noctis-bisti-eagles-nest`: `DISTANT RIDGE` accurately follows the analyzer’s dominant break (`y=0.660`) but visually reads closer to a middle-terrain break than the distant skyline; consider a more exact label on a future pass.
+- `04-lux-noctis-crowley-lake`: the scorer prefers a phi grid (92/100 with the existing thirds grid), but the current grid does not make a materially false claim and remains above the acceptance threshold.
+- `09-siren-dscf0747`: `AURORA BAND` is a broad tonal transition rather than a crisp edge.  The current line matches the analyzer’s gradient break and remains understandable, but a less edge-like treatment could be clearer.
+- `10-siren-dscf0762`: `LEFT LIGHT EDGE` partly follows an interior luminous strand rather than the outermost left boundary; it is still visually plausible.
+
+All twelve proofs were inspected.  The deterministic scores are at least 92/100 (eleven 100/100); the required findings above are semantic visual-truthfulness failures that the geometric scorer does not test.  Chapter measurements agree with the analyzer within the stated tolerance, no individual camera settings are asserted, and every cited official-portfolio image and project URL resolved successfully.  The documented per-image fair-use rationales and credits are complete.
